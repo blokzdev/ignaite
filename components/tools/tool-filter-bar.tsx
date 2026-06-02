@@ -1,10 +1,18 @@
 "use client";
 import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from "nuqs";
-import { Search, X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { ArrowDownUp, Search, X } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 import { APP_CATEGORIES, APP_PRICING, BLOKZ_MARKS } from "@/types/app";
 import type { AppCategory, AppPricing, BlokzMark } from "@/types/app";
 import { cn } from "@/lib/utils";
+import { clearFilters } from "@/lib/tools/clear-filters";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 type StatusFilter = "active" | "archived" | "all";
 const STATUS_FILTERS: ReadonlyArray<StatusFilter> = ["active", "archived", "all"];
@@ -89,6 +97,13 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
     return () => clearTimeout(handle);
   }, [text, setFilter]);
 
+  // Keep the box in sync when `q` is cleared from elsewhere (e.g. the empty-state
+  // "Clear filters" CTA). Guarded by focus so it never clobbers active typing.
+  const inputFocused = useRef(false);
+  useEffect(() => {
+    if (!inputFocused.current) setText(filter.q ?? "");
+  }, [filter.q]);
+
   const toggleCategory = (value: AppCategory) => {
     const has = filter.category.includes(value);
     const next = has ? filter.category.filter((v) => v !== value) : [...filter.category, value];
@@ -110,14 +125,7 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
 
   const clearAll = () => {
     setText("");
-    void setFilter({
-      category: null,
-      pricing: null,
-      blokzMark: null,
-      status: null,
-      sort: null,
-      q: null,
-    });
+    clearFilters(setFilter);
   };
 
   const statusActive = (filter.status ?? "active") !== "active";
@@ -144,6 +152,8 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
               type="text"
               value={text}
               onChange={(e) => setText(e.target.value)}
+              onFocus={() => (inputFocused.current = true)}
+              onBlur={() => (inputFocused.current = false)}
               placeholder="Search apps, vendors, tags, models…"
               aria-label="Search apps"
               className="h-9 w-full rounded-full bg-white/[0.04] pr-10 pl-9 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset placeholder:text-[var(--color-ink-dim)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
@@ -159,23 +169,33 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
               </button>
             )}
           </div>
-          <label className="hidden items-center gap-2 sm:flex">
-            <span className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)]/70 uppercase">
-              Sort
-            </span>
-            <select
-              value={sortMode}
-              onChange={(e) => setSort(e.target.value as SortMode)}
+          {/* Sort — DropdownMenu (radio) so it's available at every width;
+              the old native <select> was hidden below sm. */}
+          <DropdownMenu>
+            <DropdownMenuTrigger
               aria-label="Sort apps"
-              className="h-9 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+              className="inline-flex h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08]"
             >
-              {SORT_MODES.map((m) => (
-                <option key={m} value={m} className="bg-[var(--color-canvas)]">
-                  {SORT_LABEL[m]}
-                </option>
-              ))}
-            </select>
-          </label>
+              <ArrowDownUp className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
+              <span className="hidden sm:inline">{SORT_LABEL[sortMode]}</span>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuRadioGroup
+                value={sortMode}
+                onValueChange={(v) => setSort(v as SortMode)}
+              >
+                {SORT_MODES.map((m) => (
+                  <DropdownMenuRadioItem
+                    key={m}
+                    value={m}
+                    className="font-mono text-[11px] tracking-[0.08em] uppercase"
+                  >
+                    {SORT_LABEL[m]}
+                  </DropdownMenuRadioItem>
+                ))}
+              </DropdownMenuRadioGroup>
+            </DropdownMenuContent>
+          </DropdownMenu>
           <p
             className="hidden font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase sm:block"
             aria-live="polite"
@@ -184,7 +204,7 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
           </p>
         </div>
 
-        <div className="no-scrollbar -mx-2 flex flex-col gap-3 overflow-x-auto px-2">
+        <div className="no-scrollbar scroll-fade-x -mx-2 flex flex-col gap-3 overflow-x-auto px-2">
           <FilterRow label="Category">
             <Chip
               active={filter.category.length === 0}
@@ -243,14 +263,16 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
           </FilterRow>
         </div>
 
-        {hasFilter && (
-          <div className="flex items-center gap-3 sm:hidden">
-            <p
-              className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase"
-              aria-live="polite"
-            >
-              {filtered} of {total}
-            </p>
+        {/* Mobile meta row — count is always shown for context; clear appears
+            only when something is filtered. (Desktop count lives in the top row.) */}
+        <div className="flex items-center gap-3 sm:hidden">
+          <p
+            className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase"
+            aria-live="polite"
+          >
+            {hasFilter ? `${filtered} of ${total}` : `${total} apps`}
+          </p>
+          {hasFilter && (
             <button
               type="button"
               onClick={clearAll}
@@ -258,8 +280,8 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
             >
               Clear all
             </button>
-          </div>
-        )}
+          )}
+        </div>
 
         {hasFilter && (
           <div className="hidden items-center justify-end gap-3 sm:flex">
@@ -301,7 +323,7 @@ function Chip({ active, onClick, children }: ChipProps) {
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "inline-flex h-7 shrink-0 items-center gap-1.5 rounded-full px-3 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
+        "inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full px-3 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
         "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
         active
           ? "bg-[var(--color-accent)] text-[var(--color-canvas)]"

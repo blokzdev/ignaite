@@ -91,6 +91,10 @@ export function ToolCard({ app }: Readonly<Props>) {
     .slice(0, 2)
     .toUpperCase();
   const isArchived = app.status === "archived";
+  // Cap the tag row so a long tag list can't blow out card height on mobile;
+  // surplus is summarised as a +N chip.
+  const visibleTags = app.tags?.slice(0, 4) ?? [];
+  const extraTags = (app.tags?.length ?? 0) - visibleTags.length;
 
   return (
     <article
@@ -158,21 +162,26 @@ export function ToolCard({ app }: Readonly<Props>) {
           {monogram}
         </div>
         <div className="min-w-0">
-          <h3 className="text-lg font-medium text-[var(--color-ink)]">{app.name}</h3>
-          {app.vendor && <p className="text-xs text-[var(--color-ink-dim)]">{app.vendor}</p>}
+          <h3 className="truncate text-lg font-medium text-[var(--color-ink)]">{app.name}</h3>
+          {app.vendor && (
+            <p className="truncate text-xs text-[var(--color-ink-dim)]">{app.vendor}</p>
+          )}
         </div>
       </div>
 
-      {/* Tagline + description */}
+      {/* Tagline + description — clamped so cards keep an even height in the
+          auto-rows-fr grid and long copy can't overflow on mobile. */}
       <div className="flex flex-col gap-2">
-        <p className="text-sm text-[var(--color-ink)]">{app.tagline}</p>
-        <p className="text-sm leading-relaxed text-[var(--color-ink-dim)]">{app.description}</p>
+        <p className="line-clamp-2 text-sm text-[var(--color-ink)]">{app.tagline}</p>
+        <p className="line-clamp-3 text-sm leading-relaxed text-[var(--color-ink-dim)]">
+          {app.description}
+        </p>
       </div>
 
-      {/* Tags */}
-      {app.tags && app.tags.length > 0 && (
+      {/* Tags — first 4, with a +N chip for the rest */}
+      {visibleTags.length > 0 && (
         <ul className="flex flex-wrap gap-1.5">
-          {app.tags.map((tag) => (
+          {visibleTags.map((tag) => (
             <li
               key={tag}
               className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[10px] tracking-[0.04em] text-[var(--color-ink-dim)]/80"
@@ -180,6 +189,11 @@ export function ToolCard({ app }: Readonly<Props>) {
               {tag}
             </li>
           ))}
+          {extraTags > 0 && (
+            <li className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[10px] tracking-[0.04em] text-[var(--color-ink-dim)]/60">
+              +{extraTags}
+            </li>
+          )}
         </ul>
       )}
 
@@ -191,7 +205,7 @@ export function ToolCard({ app }: Readonly<Props>) {
             href={primary.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-9 items-center gap-2 rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.2] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+            className="inline-flex h-10 items-center gap-2 rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.2] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:h-9"
           >
             Open
             <ArrowUpRight className="h-3 w-3" />
@@ -207,7 +221,7 @@ export function ToolCard({ app }: Readonly<Props>) {
               rel="noopener noreferrer"
               aria-label={link.label ?? link.kind}
               title={link.label ?? link.kind}
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:h-9 sm:w-9"
             >
               <Icon className="h-3.5 w-3.5" />
             </Link>
