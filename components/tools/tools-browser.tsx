@@ -2,12 +2,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from "nuqs";
 import { APP_CATEGORIES, APP_PRICING, APP_STATUSES, BLOKZ_MARKS } from "@/types/app";
-import type { App, BlokzMark } from "@/types/app";
+import type { App, AppCategory, BlokzMark } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/data/sponsored";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
 import { useMediaQuery } from "@/hooks/use-media-query";
-import { SORT_MODES, ToolFilterBar } from "./tool-filter-bar";
+import { CATEGORY_LABEL, SORT_MODES, ToolFilterBar } from "./tool-filter-bar";
 import { ToolGrid } from "./tool-grid";
 import { FeaturedCarousel } from "./featured-carousel";
 import { DirectoryEmpty } from "./directory-empty";
@@ -113,6 +113,29 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     (filter.status ?? "active") !== "active" ||
     (filter.q?.length ?? 0) > 0;
 
+  // Empty-state recovery data — the featured picks and the most-populated
+  // categories give a no-match visitor a one-tap way back into results.
+  const featuredPicks = useMemo(() => apps.filter((a) => a.featured).slice(0, 3), [apps]);
+  const suggestedCategories = useMemo(() => {
+    const counts = new Map<AppCategory, number>();
+    for (const a of apps) counts.set(a.category, (counts.get(a.category) ?? 0) + 1);
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 6)
+      .map(([value]) => ({ value, label: CATEGORY_LABEL[value] }));
+  }, [apps]);
+  // Picking a category is a fresh start: reset the rest of the query so the
+  // chosen category is guaranteed to surface results.
+  const pickCategory = (category: AppCategory) =>
+    void setFilter({
+      category: [category],
+      pricing: null,
+      blokzMark: null,
+      status: null,
+      sort: null,
+      q: null,
+    });
+
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
   // Reset pagination whenever the filtered list identity changes — using the
   // "store previous render" pattern so visitors see the first batch of new
@@ -162,7 +185,13 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
       {!filtersApplied && <FeaturedCarousel apps={apps} />}
       <ToolFilterBar total={apps.length} filtered={filtered.length} />
       {filtered.length === 0 ? (
-        <DirectoryEmpty filtersApplied={filtersApplied} onClear={() => clearFilters(setFilter)} />
+        <DirectoryEmpty
+          filtersApplied={filtersApplied}
+          onClear={() => clearFilters(setFilter)}
+          onPickCategory={pickCategory}
+          categories={suggestedCategories}
+          featured={featuredPicks}
+        />
       ) : (
         <>
           <ToolGrid items={items} />

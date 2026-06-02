@@ -20,7 +20,7 @@ const STATUS_FILTERS: ReadonlyArray<StatusFilter> = ["active", "archived", "all"
 export type SortMode = "featured" | "recent" | "alpha";
 export const SORT_MODES: ReadonlyArray<SortMode> = ["featured", "recent", "alpha"];
 
-const CATEGORY_LABEL: Record<AppCategory, string> = {
+export const CATEGORY_LABEL: Record<AppCategory, string> = {
   ide: "IDE",
   agent: "Agent",
   orchestration: "Orchestration",
