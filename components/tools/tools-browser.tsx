@@ -207,7 +207,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
             </>
           ) : (
             filtered.length > BATCH_SIZE && (
-              <p className="mt-10 text-center font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)]/70 uppercase">
+              <p className="mt-10 text-center font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
                 · end · {filtered.length} apps ·
               </p>
             )

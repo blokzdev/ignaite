@@ -190,7 +190,7 @@ export function ToolCard({ app }: Readonly<Props>) {
             </li>
           ))}
           {extraTags > 0 && (
-            <li className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[10px] tracking-[0.04em] text-[var(--color-ink-dim)]/60">
+            <li className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[10px] tracking-[0.04em] text-[var(--color-ink-dim)]">
               +{extraTags}
             </li>
           )}

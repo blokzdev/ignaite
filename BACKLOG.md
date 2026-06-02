@@ -77,6 +77,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 - [ ] **[future]** Add the first iOS title to `data/projects.ts` once it ships. The workflow page currently surfaces iOS as an aspirational platform tab.
 - [ ] **[future]** Per-page OG image generators on `/apps/[slug]` and `/workflow/artifacts/[slug]` (right now they inherit the parent route's OG).
 - [ ] **[future]** Public "build log" page that timestamps each commit to the revamp with a short rationale — meta proof of the vibecoding workflow.
+- [ ] **[future]** Category quick-jump chip rail above the featured carousel (deep-links the directory filter). Considered during Chunk I and deferred: three category-jump surfaces already sit near the top (filter-bar category row, empty-state recovery chips, ⌘K Categories group), so a fourth risked clutter. Revisit if discovery analytics show users aren't finding the category filter.
 
 ---
 
