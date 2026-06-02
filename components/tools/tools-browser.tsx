@@ -5,9 +5,12 @@ import { APP_CATEGORIES, APP_PRICING, APP_STATUSES, BLOKZ_MARKS } from "@/types/
 import type { App, BlokzMark } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/data/sponsored";
 import { interleave } from "@/lib/interleave";
+import { clearFilters } from "@/lib/tools/clear-filters";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { SORT_MODES, ToolFilterBar } from "./tool-filter-bar";
 import { ToolGrid } from "./tool-grid";
 import { FeaturedCarousel } from "./featured-carousel";
+import { DirectoryEmpty } from "./directory-empty";
 
 interface Props {
   apps: ReadonlyArray<App>;
@@ -29,7 +32,7 @@ const markOrder: Record<BlokzMark, number> = {
 const UNMARKED = 3;
 
 export function ToolsBrowser({ apps }: Readonly<Props>) {
-  const [filter] = useQueryStates(
+  const [filter, setFilter] = useQueryStates(
     {
       category: parseAsArrayOf(parseAsStringLiteral(APP_CATEGORIES)).withDefault([]),
       pricing: parseAsArrayOf(parseAsStringLiteral(APP_PRICING)).withDefault([]),
@@ -120,10 +123,18 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     setVisibleCount(BATCH_SIZE);
   }
 
+  // Desktop auto-loads via IntersectionObserver; mobile uses an explicit button
+  // (touch users were never able to reach the old sr-only control). useMediaQuery
+  // is false on the server / first paint, so the observer simply attaches once it
+  // resolves true on desktop — the mobile button is CSS-hidden on sm+ regardless.
+  const isDesktop = useMediaQuery("(min-width: 640px)");
+  const loadMore = () => setVisibleCount((n) => Math.min(n + BATCH_SIZE, filtered.length));
+
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const node = sentinelRef.current;
     if (!node) return;
+    if (!isDesktop) return;
     if (visibleCount >= filtered.length) return;
     const io = new IntersectionObserver(
       (entries) => {
@@ -137,7 +148,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     );
     io.observe(node);
     return () => io.disconnect();
-  }, [visibleCount, filtered.length]);
+  }, [visibleCount, filtered.length, isDesktop]);
 
   const visible = filtered.slice(0, visibleCount);
   // Sponsored slots only appear in the unfiltered default browse — narrow
@@ -150,17 +161,33 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     <>
       {!filtersApplied && <FeaturedCarousel apps={apps} />}
       <ToolFilterBar total={apps.length} filtered={filtered.length} />
-      <ToolGrid items={items} />
-      {hasMore && (
+      {filtered.length === 0 ? (
+        <DirectoryEmpty filtersApplied={filtersApplied} onClear={() => clearFilters(setFilter)} />
+      ) : (
         <>
-          <div ref={sentinelRef} aria-hidden className="h-8" />
-          <button
-            type="button"
-            onClick={() => setVisibleCount((n) => Math.min(n + BATCH_SIZE, filtered.length))}
-            className="sr-only focus:not-sr-only focus:mx-auto focus:mt-6 focus:inline-flex focus:h-9 focus:items-center focus:rounded-full focus:bg-white/[0.04] focus:px-4 focus:font-mono focus:text-[11px] focus:tracking-[0.08em] focus:text-[var(--color-ink)] focus:uppercase focus:ring-1 focus:ring-white/[0.08]"
-          >
-            Load more apps
-          </button>
+          <ToolGrid items={items} />
+          {hasMore ? (
+            <>
+              {/* Desktop: the observer auto-loads before this is reached. */}
+              <div ref={sentinelRef} aria-hidden className="h-px" />
+              {/* Mobile: an explicit ≥44px control (also the keyboard fallback). */}
+              <div className="mt-8 flex justify-center sm:hidden">
+                <button
+                  type="button"
+                  onClick={loadMore}
+                  className="inline-flex h-11 items-center rounded-full bg-white/[0.04] px-6 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+                >
+                  Load more apps
+                </button>
+              </div>
+            </>
+          ) : (
+            filtered.length > BATCH_SIZE && (
+              <p className="mt-10 text-center font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)]/70 uppercase">
+                · end · {filtered.length} apps ·
+              </p>
+            )
+          )}
         </>
       )}
     </>
