@@ -1,13 +1,18 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from "nuqs";
-import { APP_CATEGORIES, APP_PRICING, APP_STATUSES, BLOKZ_MARKS } from "@/types/app";
+import { useQueryStates } from "nuqs";
 import type { App, AppCategory, BlokzMark } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/data/sponsored";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
 import { useMediaQuery } from "@/hooks/use-media-query";
-import { CATEGORY_LABEL, SORT_MODES, ToolFilterBar } from "./tool-filter-bar";
+import {
+  CATEGORY_LABEL,
+  directoryFilterOptions,
+  directoryFilterParsers,
+} from "@/hooks/use-directory-filters";
+import { Toaster } from "@/components/ui/toaster";
+import { ToolFilterBar } from "./tool-filter-bar";
 import { ToolGrid } from "./tool-grid";
 import { FeaturedCarousel } from "./featured-carousel";
 import { DirectoryEmpty } from "./directory-empty";
@@ -16,7 +21,6 @@ interface Props {
   apps: ReadonlyArray<App>;
 }
 
-const STATUS_FILTERS = [...APP_STATUSES, "all"] as const;
 const BATCH_SIZE = 24;
 // One sponsored slot every N organic positions in the default browse. Tuned
 // light-touch — with one self-promo card the page shows the Blokz pitch ~twice
@@ -32,17 +36,7 @@ const markOrder: Record<BlokzMark, number> = {
 const UNMARKED = 3;
 
 export function ToolsBrowser({ apps }: Readonly<Props>) {
-  const [filter, setFilter] = useQueryStates(
-    {
-      category: parseAsArrayOf(parseAsStringLiteral(APP_CATEGORIES)).withDefault([]),
-      pricing: parseAsArrayOf(parseAsStringLiteral(APP_PRICING)).withDefault([]),
-      blokzMark: parseAsArrayOf(parseAsStringLiteral(BLOKZ_MARKS)).withDefault([]),
-      status: parseAsStringLiteral(STATUS_FILTERS),
-      sort: parseAsStringLiteral(SORT_MODES),
-      q: parseAsString,
-    },
-    { shallow: true, history: "replace" },
-  );
+  const [filter, setFilter] = useQueryStates(directoryFilterParsers, directoryFilterOptions);
 
   const filtered = useMemo(() => {
     const query = filter.q?.trim().toLowerCase() ?? "";
@@ -182,6 +176,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
 
   return (
     <>
+      <Toaster />
       {!filtersApplied && <FeaturedCarousel apps={apps} />}
       <ToolFilterBar total={apps.length} filtered={filtered.length} />
       {filtered.length === 0 ? (
