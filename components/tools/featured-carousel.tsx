@@ -64,7 +64,7 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
       <div className="mb-4 flex items-baseline justify-between gap-4">
         <h2 id="featured-heading" className="text-eyebrow text-[var(--color-accent)]">
           {"// Featured"}
-          <span className="ml-2 text-[var(--color-ink-dim)]/70">· {featured.length} picks</span>
+          <span className="ml-2 text-[var(--color-ink-dim)]">· {featured.length} picks</span>
         </h2>
         {/* Desktop arrows — touch uses swipe + dots. */}
         <div className="hidden items-center gap-2 sm:flex">
@@ -102,9 +102,10 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
         ))}
       </ul>
 
-      {/* Position dots — primary advance affordance on touch. */}
+      {/* Position dots — primary advance affordance on touch. Each button is a
+          24px hit target (WCAG 2.5.8) with a small visual bar centered inside. */}
       <div
-        className="mt-4 flex flex-wrap justify-center gap-2"
+        className="mt-3 flex flex-wrap justify-center gap-0.5"
         role="group"
         aria-label="Featured carousel pagination"
       >
@@ -115,13 +116,17 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
             onClick={() => scrollToIndex(i)}
             aria-label={`Go to ${app.name}`}
             aria-current={i === activeIndex}
-            className={cn(
-              "h-1.5 rounded-full transition-all focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
-              i === activeIndex
-                ? "w-5 bg-[var(--color-accent)]"
-                : "w-1.5 bg-white/20 hover:bg-white/40",
-            )}
-          />
+            className="group inline-flex h-6 w-6 items-center justify-center rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+          >
+            <span
+              className={cn(
+                "h-1.5 rounded-full transition-all",
+                i === activeIndex
+                  ? "w-5 bg-[var(--color-accent)]"
+                  : "w-1.5 bg-white/30 group-hover:bg-white/50",
+              )}
+            />
+          </button>
         ))}
       </div>
     </section>

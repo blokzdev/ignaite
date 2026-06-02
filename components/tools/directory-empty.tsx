@@ -95,7 +95,7 @@ export function DirectoryEmpty({
 
           {categories.length > 0 && (
             <div className="flex w-full flex-col items-center gap-2.5 border-t border-white/[0.06] pt-5">
-              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)]/70 uppercase">
+              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
                 Browse a category
               </p>
               <div className="flex flex-wrap justify-center gap-1.5">
@@ -115,7 +115,7 @@ export function DirectoryEmpty({
 
           {featured.length > 0 && (
             <div className="flex w-full flex-col items-center gap-2.5">
-              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)]/70 uppercase">
+              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
                 Or try a featured pick
               </p>
               <div className="flex flex-wrap justify-center gap-1.5">

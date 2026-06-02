@@ -27,7 +27,7 @@ export function SponsoredCard({ slot }: Readonly<Props>) {
           <span aria-hidden className="block h-1.5 w-1.5 rounded-full bg-[var(--color-ink-dim)]" />
           Sponsored
         </span>
-        <span className="ml-auto text-[var(--color-ink-dim)]/70">By {slot.promotedBy}</span>
+        <span className="ml-auto text-[var(--color-ink-dim)]">By {slot.promotedBy}</span>
       </div>
 
       <div className="flex items-start gap-3">

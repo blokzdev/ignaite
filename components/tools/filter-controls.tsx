@@ -94,7 +94,7 @@ function FilterRow({
 }) {
   return (
     <div className={cn("flex items-center gap-1.5", stacked ? "flex-wrap" : "flex-nowrap")}>
-      <span className="mr-2 shrink-0 font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)]/70 uppercase">
+      <span className="mr-2 shrink-0 font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
         {label}
       </span>
       {children}
