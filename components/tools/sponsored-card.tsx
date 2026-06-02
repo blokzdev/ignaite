@@ -48,8 +48,10 @@ export function SponsoredCard({ slot }: Readonly<Props>) {
       </div>
 
       <div className="flex flex-col gap-2">
-        <p className="text-sm text-[var(--color-ink)]">{slot.tagline}</p>
-        <p className="text-sm leading-relaxed text-[var(--color-ink-dim)]">{slot.description}</p>
+        <p className="line-clamp-2 text-sm text-[var(--color-ink)]">{slot.tagline}</p>
+        <p className="line-clamp-3 text-sm leading-relaxed text-[var(--color-ink-dim)]">
+          {slot.description}
+        </p>
       </div>
 
       <div className="mt-auto flex items-center pt-2">
@@ -59,7 +61,7 @@ export function SponsoredCard({ slot }: Readonly<Props>) {
             target: "_blank",
             rel: "sponsored noopener noreferrer",
           })}
-          className="inline-flex h-9 items-center gap-2 rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.2] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+          className="inline-flex h-10 items-center gap-2 rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.2] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:h-9"
         >
           {slot.link.label}
           <ArrowUpRight className="h-3 w-3" />
