@@ -1,6 +1,5 @@
 import Link from "next/link";
 import {
-  ArrowLeft,
   ArrowUpRight,
   BookOpen,
   ExternalLink,
@@ -12,7 +11,7 @@ import {
   Terminal,
 } from "lucide-react";
 import type { ComponentType, ReactElement } from "react";
-import { GlowOrb } from "@/components/effects/glow-orb";
+import { DetailShell } from "@/components/detail/detail-shell";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ToolCard } from "@/components/tools/tool-card";
 import { relatedApps } from "@/lib/apps";
@@ -153,228 +152,212 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
   const accent = app.accentColor ?? "var(--color-accent)";
 
   return (
-    <div
-      className={cn(
-        "relative overflow-hidden px-6 pt-32 pb-24 sm:pt-40",
-        isArchived && "opacity-80",
-      )}
+    <DetailShell
+      accent={accent}
+      dimmed={isArchived}
+      breadcrumb={[{ label: "Directory", href: "/" }, { label: app.name }]}
+      shareUrl={`${siteUrl}/apps/${app.slug}`}
+      sticky={{ href: primary?.url ?? "/", label: `Open ${app.name}` }}
     >
-      <GlowOrb
-        className="-top-24 left-1/2 -translate-x-1/2"
-        size={680}
-        color={accent}
-        opacity={0.08}
-      />
-
-      <div className="relative mx-auto max-w-4xl">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase transition-colors hover:text-[var(--color-ink)]"
+      {/* Hero */}
+      <header className="mt-10 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
+        <div
+          aria-hidden
+          className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl font-mono text-base tracking-[0.08em] uppercase ring-1 ring-white/[0.08] ring-inset sm:h-20 sm:w-20"
+          style={{
+            background: `linear-gradient(135deg, ${app.accentColor ?? "#08D9D6"}26, transparent)`,
+            color: app.accentColor ?? "var(--color-accent)",
+          }}
         >
-          <ArrowLeft className="h-3 w-3" />
-          Back to apps
-        </Link>
+          {monogram}
+        </div>
+        <div className="min-w-0">
+          <p className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+            {CATEGORY_LABEL[app.category]}
+            {app.vendor ? ` · ${app.vendor}` : ""}
+          </p>
+          <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl">
+            <span className="text-display text-[var(--color-ink)]">{app.name}</span>
+          </h1>
+          <p className="mt-3 text-base text-[var(--color-ink-dim)] sm:text-lg">{app.tagline}</p>
+        </div>
+      </header>
 
-        {/* Hero */}
-        <header className="mt-10 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-          <div
-            aria-hidden
-            className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl font-mono text-base tracking-[0.08em] uppercase ring-1 ring-white/[0.08] ring-inset sm:h-20 sm:w-20"
-            style={{
-              background: `linear-gradient(135deg, ${app.accentColor ?? "#08D9D6"}26, transparent)`,
-              color: app.accentColor ?? "var(--color-accent)",
-            }}
+      {/* Chip row */}
+      <div className="mt-8 flex flex-wrap items-center gap-2 font-mono text-[10px] tracking-[0.12em] uppercase">
+        <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
+          {PRICING_LABEL[app.pricing]}
+        </span>
+        {app.platforms.map((p) => (
+          <span
+            key={p}
+            className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset"
           >
-            {monogram}
-          </div>
-          <div className="min-w-0">
-            <p className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-              {CATEGORY_LABEL[app.category]}
-              {app.vendor ? ` · ${app.vendor}` : ""}
-            </p>
-            <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl">
-              <span className="text-display text-[var(--color-ink)]">{app.name}</span>
-            </h1>
-            <p className="mt-3 text-base text-[var(--color-ink-dim)] sm:text-lg">{app.tagline}</p>
-          </div>
-        </header>
-
-        {/* Chip row */}
-        <div className="mt-8 flex flex-wrap items-center gap-2 font-mono text-[10px] tracking-[0.12em] uppercase">
-          <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
-            {PRICING_LABEL[app.pricing]}
+            {PLATFORM_LABEL[p]}
           </span>
-          {app.platforms.map((p) => (
+        ))}
+        {isArchived ? (
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.04] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.10] ring-inset">
             <span
-              key={p}
-              className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset"
-            >
-              {PLATFORM_LABEL[p]}
-            </span>
-          ))}
-          {isArchived ? (
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.04] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.10] ring-inset">
+              aria-hidden
+              className="block h-1.5 w-1.5 rounded-full bg-[var(--color-ink-dim)]"
+            />
+            Archived
+          </span>
+        ) : (
+          app.blokzMark && (
+            <span className="inline-flex items-center gap-1.5 text-[var(--color-ink-dim)]">
               <span
                 aria-hidden
-                className="block h-1.5 w-1.5 rounded-full bg-[var(--color-ink-dim)]"
+                className={cn("block h-1.5 w-1.5 rounded-full", MARK_DOT[app.blokzMark])}
               />
-              Archived
+              {MARK_LABEL[app.blokzMark]}
             </span>
-          ) : (
-            app.blokzMark && (
-              <span className="inline-flex items-center gap-1.5 text-[var(--color-ink-dim)]">
-                <span
-                  aria-hidden
-                  className={cn("block h-1.5 w-1.5 rounded-full", MARK_DOT[app.blokzMark])}
-                />
-                {MARK_LABEL[app.blokzMark]}
-              </span>
-            )
-          )}
-        </div>
-
-        {/* Description */}
-        <article className="mt-12 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
-          <p>{app.description}</p>
-          {app.longDescription && <p className="mt-4">{app.longDescription}</p>}
-        </article>
-
-        {/* Model support */}
-        {app.modelSupport && (
-          <section className="mt-12 rounded-2xl bg-white/[0.03] p-6 ring-1 ring-white/[0.06] ring-inset">
-            <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-              Model support
-            </p>
-            <h2 className="mt-2 text-xl font-medium text-[var(--color-ink)]">
-              {MODEL_KIND_LABEL[app.modelSupport.kind]}
-            </h2>
-            {app.modelSupport.models && app.modelSupport.models.length > 0 && (
-              <ul className="mt-3 flex flex-wrap gap-1.5">
-                {app.modelSupport.models.map((m) => (
-                  <li
-                    key={m}
-                    className="rounded-full bg-white/[0.04] px-2.5 py-0.5 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset"
-                  >
-                    {m}
-                  </li>
-                ))}
-              </ul>
-            )}
-            {app.modelSupport.notes && (
-              <p className="mt-3 text-sm text-[var(--color-ink-dim)]">{app.modelSupport.notes}</p>
-            )}
-          </section>
+          )
         )}
+      </div>
 
-        {/* Platforms detail */}
-        <section className="mt-12">
+      {/* Description */}
+      <article className="mt-12 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
+        <p>{app.description}</p>
+        {app.longDescription && <p className="mt-4">{app.longDescription}</p>}
+      </article>
+
+      {/* Model support */}
+      {app.modelSupport && (
+        <section className="mt-12 rounded-2xl bg-white/[0.03] p-6 ring-1 ring-white/[0.06] ring-inset">
           <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-            Where it runs
+            Model support
           </p>
-          <ul className="mt-4 flex flex-wrap gap-3">
-            {app.platforms.map((p) => {
-              const Icon = PLATFORM_ICON[p];
-              return (
-                <li
-                  key={p}
-                  className="inline-flex items-center gap-2 rounded-full bg-white/[0.04] px-3 py-1.5 text-sm text-[var(--color-ink)] ring-1 ring-white/[0.08] ring-inset"
-                >
-                  <Icon className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
-                  {PLATFORM_LABEL[p]}
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-
-        {/* Tags */}
-        {app.tags && app.tags.length > 0 && (
-          <section className="mt-10">
-            <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-              Tags
-            </p>
+          <h2 className="mt-2 text-xl font-medium text-[var(--color-ink)]">
+            {MODEL_KIND_LABEL[app.modelSupport.kind]}
+          </h2>
+          {app.modelSupport.models && app.modelSupport.models.length > 0 && (
             <ul className="mt-3 flex flex-wrap gap-1.5">
-              {app.tags.map((t) => (
+              {app.modelSupport.models.map((m) => (
                 <li
-                  key={t}
-                  className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)]/90"
+                  key={m}
+                  className="rounded-full bg-white/[0.04] px-2.5 py-0.5 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset"
                 >
-                  #{t}
+                  {m}
                 </li>
               ))}
             </ul>
-          </section>
-        )}
-
-        {/* CTAs */}
-        <section className="mt-12 flex flex-wrap items-center gap-3">
-          {primary && (
-            <Link
-              href={primary.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex h-12 items-center gap-2 rounded-full bg-[var(--color-accent)] px-7 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)]"
-            >
-              Open {app.name}
-              <ArrowUpRight className="h-3.5 w-3.5" />
-            </Link>
           )}
-          {secondaries.map((link) => {
-            const Icon = LINK_ICON[link.kind];
+          {app.modelSupport.notes && (
+            <p className="mt-3 text-sm text-[var(--color-ink-dim)]">{app.modelSupport.notes}</p>
+          )}
+        </section>
+      )}
+
+      {/* Platforms detail */}
+      <section className="mt-12">
+        <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+          Where it runs
+        </p>
+        <ul className="mt-4 flex flex-wrap gap-3">
+          {app.platforms.map((p) => {
+            const Icon = PLATFORM_ICON[p];
             return (
-              <Link
-                key={`${link.kind}-${link.url}`}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex h-12 items-center gap-2 rounded-full bg-white/[0.04] px-5 font-mono text-xs tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08]"
+              <li
+                key={p}
+                className="inline-flex items-center gap-2 rounded-full bg-white/[0.04] px-3 py-1.5 text-sm text-[var(--color-ink)] ring-1 ring-white/[0.08] ring-inset"
               >
-                <Icon className="h-3.5 w-3.5" />
-                {LINK_LABEL[link.kind]}
-              </Link>
+                <Icon className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
+                {PLATFORM_LABEL[p]}
+              </li>
             );
           })}
-        </section>
+        </ul>
+      </section>
 
-        {isArchived && (
-          <p className="mt-4 max-w-xl text-sm text-[var(--color-ink-dim)]">
-            This entry is archived — the primary URL above may no longer resolve. Kept here as a
-            historical record.
+      {/* Tags */}
+      {app.tags && app.tags.length > 0 && (
+        <section className="mt-10">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+            Tags
+          </p>
+          <ul className="mt-3 flex flex-wrap gap-1.5">
+            {app.tags.map((t) => (
+              <li
+                key={t}
+                className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)]/90"
+              >
+                #{t}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* CTAs */}
+      <section className="mt-12 flex flex-wrap items-center gap-3">
+        {primary && (
+          <Link
+            href={primary.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-12 items-center gap-2 rounded-full bg-[var(--color-accent)] px-7 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)]"
+          >
+            Open {app.name}
+            <ArrowUpRight className="h-3.5 w-3.5" />
+          </Link>
+        )}
+        {secondaries.map((link) => {
+          const Icon = LINK_ICON[link.kind];
+          return (
+            <Link
+              key={`${link.kind}-${link.url}`}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center gap-2 rounded-full bg-white/[0.04] px-5 font-mono text-xs tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08]"
+            >
+              <Icon className="h-3.5 w-3.5" />
+              {LINK_LABEL[link.kind]}
+            </Link>
+          );
+        })}
+      </section>
+
+      {isArchived && (
+        <p className="mt-4 max-w-xl text-sm text-[var(--color-ink-dim)]">
+          This entry is archived — the primary URL above may no longer resolve. Kept here as a
+          historical record.
+        </p>
+      )}
+
+      {/* Related */}
+      {related.length > 0 && (
+        <section className="mt-24">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+            Related in {CATEGORY_LABEL[app.category]}
+          </p>
+          <ul className="mt-6 grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2">
+            {related.map((r) => (
+              <li key={r.slug} className="contents">
+                <ToolCard app={r} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* Footer — last verified + submit a correction */}
+      <footer className="mt-20 flex flex-col items-start gap-3 border-t border-white/[0.06] pt-8 sm:flex-row sm:items-center sm:justify-between">
+        {app.lastVerifiedAt && (
+          <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
+            Last verified · {app.lastVerifiedAt}
           </p>
         )}
-
-        {/* Related */}
-        {related.length > 0 && (
-          <section className="mt-24">
-            <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-              Related in {CATEGORY_LABEL[app.category]}
-            </p>
-            <ul className="mt-6 grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2">
-              {related.map((r) => (
-                <li key={r.slug} className="contents">
-                  <ToolCard app={r} />
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {/* Footer — last verified + submit a correction */}
-        <footer className="mt-20 flex flex-col items-start gap-3 border-t border-white/[0.06] pt-8 sm:flex-row sm:items-center sm:justify-between">
-          {app.lastVerifiedAt && (
-            <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
-              Last verified · {app.lastVerifiedAt}
-            </p>
-          )}
-          <Link
-            href={`/contact?subject=${encodeURIComponent(`Update for ${app.name}`)}`}
-            className="inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase transition-opacity hover:opacity-75"
-          >
-            Submit a correction
-            <ArrowUpRight className="h-3 w-3" />
-          </Link>
-        </footer>
-      </div>
+        <Link
+          href={`/contact?subject=${encodeURIComponent(`Update for ${app.name}`)}`}
+          className="inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase transition-opacity hover:opacity-75"
+        >
+          Submit a correction
+          <ArrowUpRight className="h-3 w-3" />
+        </Link>
+      </footer>
 
       <JsonLd
         data={{
@@ -398,6 +381,6 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
               : undefined,
         }}
       />
-    </div>
+    </DetailShell>
   );
 }
