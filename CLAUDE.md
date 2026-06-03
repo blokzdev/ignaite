@@ -26,7 +26,7 @@ v2 is the live site (this codebase). The legacy v1 Glitch template is preserved 
 | Motion (DOM)     | `motion` (formerly framer-motion)                       | Shared layout, scroll, gestures                                  | 12.x    |
 | Motion (scroll)  | `motion` + sticky CSS layout (NOT gsap)                 | The planned GSAP/ScrollTrigger scrolly was dropped; not a dep    | —       |
 | Smooth scroll    | `lenis`                                                 | Inertial smooth scroll on `/` + `/workflow`                      | 1.3.x   |
-| 3D / shaders     | `three` + `@react-three/fiber` + `drei`                 | Hero flow-field + workflow chapter-4 build-tunnel                | 0.184.x |
+| 3D / shaders     | `three` + `@react-three/fiber` + `drei`                 | Hero flow-field only (`/workflow` is chat-transcript, no R3F)    | 0.184.x |
 | Content          | `@next/mdx`, `rehype-pretty-code` (Shiki), `remark-gfm` | Manifesto/projects/workflow as MDX                               | latest  |
 | URL state        | `nuqs`                                                  | `/apps` filter state in URL                                      | latest  |
 | Forms            | Native form + server action + `resend`                  | Contact form → `team@blokz.dev`                                  | 4.x     |
@@ -82,7 +82,7 @@ app/                              # Next App Router
     portfolio/
       [slug]/page.tsx             #   /portfolio/<slug> — Blokz shipped-PROJECT detail (data/projects.ts, SSG)
     workflow/
-      page.tsx                    #   /workflow — 5-phase narrative (components/workflow/workflow.tsx)
+      page.tsx                    #   /workflow — 4-stage Claude Code session narrative (components/workflow/workflow.tsx)
       artifacts/[product]/[type]/page.tsx
                                   #   /workflow/artifacts/<product>/<type> — MDX artifact viewer (SSG, 12)
       opengraph-image.tsx
@@ -134,12 +134,16 @@ components/
     project-detail.tsx            #   /portfolio/[slug] body
     card-bits.tsx                 #   shared chips / monogram / status glyphs
   workflow/
-    workflow.tsx                  # client orchestrator: product + platform tabs, renders chapters
-    phase-chapter.tsx             # default phase shell (alternating layout)
+    workflow.tsx                  # client orchestrator: product + platform tabs, renders stage segments
+    workflow-intro.tsx            # hero: agentic-engineering framing, one-time setup, DocGraph
+    stage-segment.tsx             # one stage: sticky header (number/title/summary/beats) + ClaudeChat
     product-tabs.tsx / platform-tabs.tsx   # segmented controls
-    chapter-{conceptualize,spec,environment,develop,ship}.tsx   # bespoke scenes
-    build-tunnel.tsx / build-tunnel-fallback.tsx   # chapter-4 R3F scene + reduced-motion fallback
     artifact-frame.tsx            # styled MDX viewer with "open full" CTA
+  claude-chat/                    # reusable Claude Code chat-transcript UI (used by /workflow)
+    claude-chat.tsx               #   the chat window (messages → bubbles, motion stagger)
+    chat-message.tsx              #   you=right / claude=left bubble + tool-block column
+    tool-block.tsx                #   renders run/write/plan/pr/note tool-use blocks
+    harness-bits.tsx              #   PlanChecklist + DocGraph (the doc architecture table)
   contact/{contact-form, contact-success}.tsx
   effects/{lenis-provider, reduced-motion-provider, noise-overlay, glow-orb, magnetic-button}.tsx
   seo/json-ld.tsx                 # JSON-LD blob renderer
@@ -147,7 +151,7 @@ components/
 content/                          # typed content + MDX
   manifesto/principles.ts         # typed array — no MDX
   workflow/
-    phases.ts                     # per-product phase metadata (brief / forge / memo)
+    stages.ts                     # per-product stage metadata + chat transcripts (brief / forge / memo)
     products.ts                   # the 3 sample products
     artifacts/
       index.ts                    # artifact registry + dynamic loaders + per-type SEO metadata
@@ -177,7 +181,7 @@ types/
   app.ts                          # DIRECTORY: App, AppCategory, AppPricing, BlokzMark, AppPlatform, AppLinkKind, ModelSupport, …
   project.ts                      # PORTFOLIO: Project, ProjectType, ProjectStatus, Chain, Platform, LinkKind, …
   sponsored.ts                    # Sponsored slot
-  workflow.ts                     # WorkflowProduct, ArtifactType, Phase, …
+  workflow.ts                     # WorkflowProduct, ArtifactType, Stage, ChatMessage, ChatToolBlock, …
 
 public/
   brand/                          # rehosted Blokz logo + favicons
@@ -212,11 +216,11 @@ package.json  pnpm-lock.yaml
 4. Set `featured: true` for projects that should lead the `/about` portfolio preview (use sparingly).
 5. Run `pnpm dev` and verify it appears on `/about` and `/portfolio/<slug>`.
 
-### Add a new workflow phase
+### Add a new workflow stage
 
-1. Add a phase entry to the relevant product array in `content/workflow/phases.ts` — each of `brief`/`forge`/`memo` carries the same five phases with a `beats` list and per-platform `platformNotes`.
-2. If the chapter needs a bespoke visual, add `components/workflow/chapter-<id>.tsx` and wire it into `workflow.tsx`'s `renderScene()`; otherwise `phase-chapter.tsx` handles it.
-3. There are **no** `phase-<n>.mdx` files — the narrative lives in `phases.ts`. (The planned GSAP `workflow-scrolly.tsx` was never built; `workflow.tsx` orchestrates with `motion` + a sticky layout.)
+1. Add a `Stage` entry to the relevant product array in `content/workflow/stages.ts` — each of `brief`/`forge`/`memo` carries the same four stages (`conceptualize → specify → build → ship`) with a `beats` list, per-platform `platformNotes`, and a `transcript` (the Claude Code chat as `ChatMessage[]`).
+2. Every stage renders through the same `stage-segment.tsx` shell (sticky header + `<ClaudeChat>`) — there are **no** bespoke per-stage scene components. Platform-varying terminal commands go in the transcript's tool blocks: use a `run` block whose `cmd` is a `Record<WorkflowPlatform, string>` (or a `note` block) so flipping the platform tab changes the command.
+3. There are **no** `phase-<n>.mdx` files and no R3F/GSAP scenes on `/workflow` — the narrative lives in `stages.ts` and renders as chat transcripts via `components/claude-chat/*`. `workflow.tsx` orchestrates with `motion` + a sticky layout.
 
 ### Add a workflow artifact
 
@@ -344,11 +348,11 @@ interface Project {
 **Mandatory rule**: every motion-bearing component ships with a `prefers-reduced-motion` fallback. No exceptions.
 
 - **Reduced-motion source-of-truth**: `useReducedMotion()` from `hooks/use-reduced-motion.ts`. The `ReducedMotionProvider` toggles `data-motion="reduce"` on `<html>` so CSS-only fallbacks work via `[data-motion="reduce"] *`.
-- **R3F components**: always client + `next/dynamic({ ssr: false })`. Wrap in a `<Suspense>` with a fast SVG/CSS-gradient placeholder so LCP is text-driven, not canvas-driven. Hydrate after `requestIdleCallback` for the hero; via `IntersectionObserver` for the workflow scene (only when chapter 4 is approaching the viewport).
+- **R3F components**: always client + `next/dynamic({ ssr: false })`. Wrap in a `<Suspense>` with a fast SVG/CSS-gradient placeholder so LCP is text-driven, not canvas-driven. Hydrate after `requestIdleCallback`. R3F now lives **only on the hero (`/`)** — `/workflow` is a pure chat-transcript narrative with no canvas.
 - **Lenis**: register once in `LenisProvider` (gated to `/` + `/workflow`); it integrates with `motion`'s scroll utilities. No GSAP/ScrollTrigger in the codebase. Always clean up listeners in the `useEffect` return.
-- **`motion` library**: use `whileInView` with `viewport={{ once: true, amount: 0.35 }}` for entrance animations so they don't re-fire on scroll-back. Use shared `layoutId` sparingly — they're powerful but easy to mis-pair. The workflow scenes are `motion`-driven with a sticky layout (no scrub timelines).
-- **Three.js asset budget**: the chapter-4 `build-tunnel` total triangles ≤ 5k. No postprocessing dependency (bloom was dropped); keep scenes cheap.
-- **Confetti**: `canvas-confetti` one-shot only, on the chapter-5 ship beat. Guard with `useReducedMotion()`.
+- **`motion` library**: use `whileInView` with `viewport={{ once: true, amount: 0.35 }}` for entrance animations so they don't re-fire on scroll-back. Use shared `layoutId` sparingly — they're powerful but easy to mis-pair. The workflow stage segments are `motion`-driven with a sticky layout (no scrub timelines); chat bubbles reveal via a reduced-motion-safe stagger.
+- **Three.js asset budget**: the hero flow-field is the only R3F scene. No postprocessing dependency (bloom was dropped); keep it cheap. `three` MUST stay out of every chunk except `/`.
+- **No confetti**: `canvas-confetti` was removed with the `/workflow` redesign — don't reintroduce it without confirming a dependency add (§11).
 
 ---
 
@@ -362,7 +366,7 @@ interface Project {
 - [ ] Form fields have real `<label>`s, `aria-describedby` for help/error text, sensible `inputmode`.
 - [ ] Scroll-driven content has a non-scroll fallback for reduced-motion users.
 - [ ] Keyboard nav reaches every interactive element in logical order. Workflow page advances beat-by-beat with `Tab` / `Space` / `Enter`; `?` opens shortcut help.
-- [ ] Screen-reader summary is provided for any visual narrative (sr-only `<ol>` mirroring workflow chapters).
+- [ ] Screen-reader summary is provided for any visual narrative (sr-only `<ol>` mirroring the workflow stages).
 - [ ] Use semantic HTML: `<header>`, `<nav>`, `<main>`, `<footer>` each appear exactly once on a page. Section headings descend predictably (`h1` → `h2` → `h3`).
 
 ---
@@ -470,11 +474,11 @@ Triage `BACKLOG.md` at the end of every Phase and again before launch.
 4. Update `lib/projects.ts` filter helpers if the new type unlocks a new filter chip.
 5. Add an example entry to `data/projects.ts` (status `"coming-soon"` if not real yet) so the variant ships exercised.
 
-### Add a new workflow chapter
+### Add a new workflow stage
 
-1. Append a phase to each product array in `content/workflow/phases.ts` (keep `brief`/`forge`/`memo` parallel).
-2. If the chapter needs a bespoke visual, add `components/workflow/chapter-<id>.tsx` and wire it into `workflow.tsx`'s `renderScene()`; otherwise `phase-chapter.tsx` is sufficient.
-3. Every R3F/motion scene ships a reduced-motion fallback (e.g. `build-tunnel-fallback.tsx`) — keep it in sync.
+1. Append a `Stage` to each product array in `content/workflow/stages.ts` (keep `brief`/`forge`/`memo` parallel — same `id`, `number`, `beats` shape, `platformNotes`, and a `transcript`).
+2. No bespoke visual needed — `stage-segment.tsx` renders every stage as a sticky header + `<ClaudeChat>`. Author the narrative as `transcript: ChatMessage[]` using the `run`/`write`/`plan`/`pr`/`note` tool blocks.
+3. Keep platform-varying commands reactive: a `run` block's `cmd` may be a `Record<WorkflowPlatform, string>`, and `note` blocks are platform-keyed — both flip with the platform tab. The chat stagger is already reduced-motion-safe.
 
 ### Change brand colors
 

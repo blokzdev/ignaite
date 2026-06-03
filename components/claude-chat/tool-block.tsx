@@ -31,14 +31,15 @@ function ToolBlockView({
   platform,
 }: Readonly<{ block: ChatToolBlock; platform: WorkflowPlatform }>) {
   switch (block.kind) {
-    case "run":
+    case "run": {
+      const cmd = typeof block.cmd === "string" ? block.cmd : block.cmd[platform];
       return (
         <div className="rounded-xl bg-[#050811] p-3 font-mono text-[11px] leading-relaxed ring-1 ring-white/[0.08] ring-inset">
           <div className="flex items-start gap-2 text-[var(--color-ink)]">
             <span aria-hidden className="text-[var(--color-accent)]">
               $
             </span>
-            <span className="break-all">{block.cmd}</span>
+            <span className="break-all">{cmd}</span>
           </div>
           {block.out && (
             <div className="mt-1 flex items-center gap-1.5 text-[var(--color-ink-dim)]">
@@ -48,6 +49,7 @@ function ToolBlockView({
           )}
         </div>
       );
+    }
 
     case "write": {
       const inner = (

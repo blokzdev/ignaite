@@ -1,7 +1,7 @@
 // The vibecoding journey as a realistic Claude Code session: you prompt, Claude
 // does the work (scaffold, docs, code, terminal, PR, deploy). Four stages —
 // Conceptualize → Specify → Build → Ship — threaded through three sample
-// products. Voice/tone polish is tracked for K-3 (BACKLOG).
+// products. Platform-varying commands key off the active platform tab.
 import type { Stage, WorkflowProduct } from "@/types/workflow";
 
 // ── Blokz Brief — arxiv link → structured paper digest ──────────────────────
@@ -50,21 +50,24 @@ const briefStages: ReadonlyArray<Stage> = [
     transcript: [
       {
         speaker: "you",
-        body: "I have an idea for an app — paste an arxiv link, get a printable, shareable digest back in under a minute.",
+        body: "Ok, idea: paste an arxiv link, get a clean printable digest back in under a minute. Worth building?",
       },
-      { speaker: "claude", body: "Nice. Who's it for — researchers, PMs, indie builders?" },
-      { speaker: "you", body: "All three. Builders tracking AI capability shifts, mostly." },
+      { speaker: "claude", body: "Could be. Who's it for — researchers, PMs, indie builders?" },
+      {
+        speaker: "you",
+        body: "All three, but mostly builders tracking where AI capability is moving.",
+      },
       {
         speaker: "claude",
-        body: "Web-first then. Five sections — claims, methods, baselines, limits, takeaway?",
+        body: "Web-first, then. Five sections — claims, methods, baselines, limits, takeaway?",
       },
       {
         speaker: "you",
-        body: "Yes. Plus a 'why it matters' angle from a focus area the reader supplies.",
+        body: "Yeah. Plus a 'why it matters' read from a focus area the user gives it.",
       },
       {
         speaker: "claude",
-        body: "Sharp. Hypothesis: a single-input web reader with export-perfect output; success metric = digests shared per active session. Want me to write it down?",
+        body: "Sharp. So: single-input web reader, export-perfect output, and we measure digests shared per active session. Want me to write it up?",
       },
     ],
   },
@@ -110,10 +113,10 @@ const briefStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Yes — write it down so we're aligned before any code." },
+      { speaker: "you", body: "Yes — get it on paper before we touch code." },
       {
         speaker: "claude",
-        body: "On it. Drafting the contract:",
+        body: "On it. Contract first:",
         blocks: [
           {
             kind: "write",
@@ -143,7 +146,7 @@ const briefStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "And a milestone plan to ratify before I touch code:",
+        body: "And the milestones, for you to sign off:",
         blocks: [
           {
             kind: "plan",
@@ -156,7 +159,7 @@ const briefStages: ReadonlyArray<Stage> = [
           },
         ],
       },
-      { speaker: "you", body: "Looks right. Start M1." },
+      { speaker: "you", body: "That's the shape of it. Go." },
     ],
   },
   {
@@ -201,10 +204,9 @@ const briefStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Go." },
       {
         speaker: "claude",
-        body: "First the harness — scaffolding in-session:",
+        body: "Starting M1. Repo and harness first — I'll set it up in-session:",
         blocks: [
           {
             kind: "note",
@@ -229,7 +231,7 @@ const briefStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "M1 — plan → implement → verify:",
+        body: "Then the loop — plan, build, verify:",
         blocks: [
           {
             kind: "plan",
@@ -239,13 +241,22 @@ const briefStages: ReadonlyArray<Stage> = [
               "unit tests for the parser",
             ],
           },
-          { kind: "run", cmd: "pnpm typecheck && pnpm test", out: "0 errors · 14 passed" },
+          {
+            kind: "run",
+            cmd: {
+              web: "pnpm typecheck && pnpm test",
+              android: "./gradlew test",
+              windows: "cargo test",
+              ios: "xcodebuild test -scheme Brief",
+            },
+            out: "0 errors · 14 passed",
+          },
         ],
       },
-      { speaker: "you", body: "Read the diff — clean. Continue." },
+      { speaker: "you", body: "Read the diff — clean. Keep going." },
       {
         speaker: "claude",
-        body: "M1 green and merged. CLAUDE.md updated to match the new fetch module.",
+        body: "M1's green and merged. I updated CLAUDE.md to match the new fetch module.",
       },
     ],
   },
@@ -291,10 +302,10 @@ const briefStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Open a PR." },
+      { speaker: "you", body: "Looks done. Open the PR." },
       {
         speaker: "claude",
-        body: "PR up with receipts:",
+        body: "Up, with receipts:",
         blocks: [
           {
             kind: "pr",
@@ -305,23 +316,23 @@ const briefStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "Merged to main. Deploying:",
+        body: "Merged. Shipping it:",
         blocks: [
           {
-            kind: "note",
-            perPlatform: {
-              web: "vercel deploy --prod → blokz.dev/brief",
-              android: "fastlane supply → Play internal track",
-              windows: "gh release upload + winget PR",
-              ios: "fastlane pilot → TestFlight cohort",
+            kind: "run",
+            cmd: {
+              web: "vercel deploy --prod",
+              android: "fastlane supply --track internal",
+              windows: "gh release create + winget PR",
+              ios: "fastlane pilot upload",
             },
+            out: "shipped",
           },
-          { kind: "run", cmd: "git push origin main", out: "production build triggered" },
         ],
       },
       {
         speaker: "claude",
-        body: "Shipped — live behind blokz.dev/brief. Release notes drafted from the diff; over to you for voice.",
+        body: "Live behind blokz.dev/brief. I drafted release notes from the diff — yours to tweak.",
       },
     ],
   },
@@ -373,18 +384,21 @@ const forgeStages: ReadonlyArray<Stage> = [
     transcript: [
       {
         speaker: "you",
-        body: "I have an idea for an app — every Claude feature ships behind a generated eval gate.",
+        body: "Idea: every Claude feature ships behind a generated eval gate. Paste a spec section, get the suite.",
       },
       {
         speaker: "claude",
-        body: "From the spec section directly? What's the output — a Vitest suite, or something custom?",
+        body: "From the spec section directly. What's the output — a Vitest suite, or something custom?",
       },
-      { speaker: "you", body: "Vitest + a golden set + a GitHub Action. Runnable end-to-end." },
-      { speaker: "claude", body: "Three eval kinds — exact-match, rubric-score, human-review?" },
-      { speaker: "you", body: "Yes. Authors pick the kind per case. CLI first, dashboard second." },
+      { speaker: "you", body: "Vitest + a golden set + a GitHub Action. Runnable end to end." },
       {
         speaker: "claude",
-        body: "Sharp. Hypothesis: spec-section → eval suite + CI gate; success metric = features shipped behind a passing gate. Write it down?",
+        body: "And 'pass' — exact-match, rubric-score, human-review? Or all three, author's pick per case?",
+      },
+      { speaker: "you", body: "All three, author picks. CLI first, dashboard second." },
+      {
+        speaker: "claude",
+        body: "Got it. Spec-section → eval suite + CI gate; we measure features shipped behind a passing gate. Write it up?",
       },
     ],
   },
@@ -433,7 +447,7 @@ const forgeStages: ReadonlyArray<Stage> = [
       { speaker: "you", body: "Write it down before any code." },
       {
         speaker: "claude",
-        body: "Drafting the contract:",
+        body: "On it. The contract:",
         blocks: [
           {
             kind: "write",
@@ -463,7 +477,7 @@ const forgeStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "Milestone plan:",
+        body: "Milestones to sign off:",
         blocks: [
           {
             kind: "plan",
@@ -476,7 +490,7 @@ const forgeStages: ReadonlyArray<Stage> = [
           },
         ],
       },
-      { speaker: "you", body: "Ratified. Start M1." },
+      { speaker: "you", body: "That's it. Go." },
     ],
   },
   {
@@ -521,10 +535,9 @@ const forgeStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Go." },
       {
         speaker: "claude",
-        body: "Scaffolding the monorepo + harness in-session:",
+        body: "Starting M1. Monorepo and harness, scaffolded in-session:",
         blocks: [
           {
             kind: "note",
@@ -549,7 +562,7 @@ const forgeStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "M1 — parser, plan → implement → verify:",
+        body: "Then the parser — plan, build, verify against the reference set:",
         blocks: [
           {
             kind: "plan",
@@ -566,10 +579,10 @@ const forgeStages: ReadonlyArray<Stage> = [
           },
         ],
       },
-      { speaker: "you", body: "Diff looks right. Continue." },
+      { speaker: "you", body: "Diff looks right. Keep going." },
       {
         speaker: "claude",
-        body: "M1 green and merged. CLAUDE.md updated with the generator's prompt contract.",
+        body: "M1's green and merged. CLAUDE.md now carries the generator's prompt contract.",
       },
     ],
   },
@@ -615,10 +628,10 @@ const forgeStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Open a PR." },
+      { speaker: "you", body: "Ship it. Open the PR." },
       {
         speaker: "claude",
-        body: "PR up with eval receipts:",
+        body: "Up, with the eval delta:",
         blocks: [
           {
             kind: "pr",
@@ -629,23 +642,23 @@ const forgeStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "Merged. Deploying:",
+        body: "Merged. Shipping:",
         blocks: [
           {
-            kind: "note",
-            perPlatform: {
-              web: "vercel deploy --prod → forge.blokz.dev",
-              android: "fastlane supply → Play internal",
+            kind: "run",
+            cmd: {
+              web: "vercel deploy --prod",
+              android: "fastlane supply --track internal",
               windows: "cargo publish + gh release + winget PR",
-              ios: "fastlane pilot → TestFlight",
+              ios: "fastlane pilot upload",
             },
+            out: "shipped",
           },
-          { kind: "run", cmd: "git push origin main", out: "production build triggered" },
         ],
       },
       {
         speaker: "claude",
-        body: "Shipped — forge.blokz.dev is live; the CLI is on cargo. Release notes drafted from the meta-eval delta.",
+        body: "forge.blokz.dev is live; the CLI's on cargo. Release notes drafted from the meta-eval delta — your call on voice.",
       },
     ],
   },
@@ -697,7 +710,7 @@ const memoStages: ReadonlyArray<Stage> = [
     transcript: [
       {
         speaker: "you",
-        body: "I have an idea for an app — meeting capture that runs entirely on the device, three small models cooperating.",
+        body: "Idea: meeting capture that runs entirely on the device — three small models cooperating, nothing leaves the phone.",
       },
       {
         speaker: "claude",
@@ -707,14 +720,14 @@ const memoStages: ReadonlyArray<Stage> = [
         speaker: "you",
         body: "Sub-5s after the meeting ends, on a 30-minute clip. iPhone 14 Pro target.",
       },
-      { speaker: "claude", body: "Sync — optional, self-hosted, end-to-end encrypted?" },
-      {
-        speaker: "you",
-        body: "Exactly. Nothing leaves the device unless the user enrolls a relay.",
-      },
       {
         speaker: "claude",
-        body: "Sharp. Hypothesis: on-device multi-agent capture, opt-in self-hosted sync; metric = meetings captured per active user per week. Write it down?",
+        body: "Sync — leave it off by default, opt-in, self-hosted, end-to-end encrypted?",
+      },
+      { speaker: "you", body: "Exactly. Nothing leaves unless the user enrolls a relay." },
+      {
+        speaker: "claude",
+        body: "Clear. On-device multi-agent capture, opt-in E2EE sync; we measure meetings captured per active user per week. Write it up?",
       },
     ],
   },
@@ -760,10 +773,10 @@ const memoStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Write it down — privacy story first, before any audio." },
+      { speaker: "you", body: "Write it down — the privacy story first, before any audio." },
       {
         speaker: "claude",
-        body: "Drafting the contract:",
+        body: "On it. The contract, guardrail front and centre:",
         blocks: [
           {
             kind: "write",
@@ -793,7 +806,7 @@ const memoStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "Milestone plan:",
+        body: "Milestones to sign off:",
         blocks: [
           {
             kind: "plan",
@@ -806,7 +819,7 @@ const memoStages: ReadonlyArray<Stage> = [
           },
         ],
       },
-      { speaker: "you", body: "Ratified. Start M1." },
+      { speaker: "you", body: "That's the shape of it. Go." },
     ],
   },
   {
@@ -814,12 +827,12 @@ const memoStages: ReadonlyArray<Stage> = [
     number: "03",
     title: "Build.",
     summary:
-      "Claude scaffolds the iOS target and the on-device harness in-session, then works one tight loop per improvement — scored on WER + recall.",
+      "Claude scaffolds the target and the on-device harness in-session, then works one tight loop per improvement — scored on WER + recall.",
     beats: [
       {
         id: "scaffold",
         title: "Scaffold",
-        body: "iOS target, quantized models vendored, lint/format + CI wired before the first agent harness exists.",
+        body: "The target, quantized models vendored, lint/format + CI wired before the first agent harness exists.",
       },
       {
         id: "implement",
@@ -851,10 +864,9 @@ const memoStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Go." },
       {
         speaker: "claude",
-        body: "Scaffolding the target + on-device harness in-session:",
+        body: "Starting M1. Target and on-device harness, scaffolded in-session:",
         blocks: [
           {
             kind: "note",
@@ -879,7 +891,7 @@ const memoStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "M1 — on-device transcribe, plan → implement → verify:",
+        body: "Then on-device transcribe — plan, build, score on the golden set:",
         blocks: [
           {
             kind: "plan",
@@ -891,15 +903,20 @@ const memoStages: ReadonlyArray<Stage> = [
           },
           {
             kind: "run",
-            cmd: "xcodebuild test -scheme Memo",
+            cmd: {
+              web: "pnpm test",
+              android: "./gradlew test",
+              windows: "cargo test",
+              ios: "xcodebuild test -scheme Memo",
+            },
             out: "passed · WER 0.07 on a 30-min clip",
           },
         ],
       },
-      { speaker: "you", body: "Diff looks right — nothing leaving the device. Continue." },
+      { speaker: "you", body: "Diff looks right — nothing leaving the device. Keep going." },
       {
         speaker: "claude",
-        body: "M1 green and merged. CLAUDE.md updated with the model budget + the on-device guardrail.",
+        body: "M1's green and merged. CLAUDE.md now carries the model budget and the on-device guardrail.",
       },
     ],
   },
@@ -945,10 +962,10 @@ const memoStages: ReadonlyArray<Stage> = [
       },
     },
     transcript: [
-      { speaker: "you", body: "Open a PR." },
+      { speaker: "you", body: "Looks done. Open the PR." },
       {
         speaker: "claude",
-        body: "PR up with receipts:",
+        body: "Up, with receipts:",
         blocks: [
           {
             kind: "pr",
@@ -962,20 +979,20 @@ const memoStages: ReadonlyArray<Stage> = [
         body: "Merged. Shipping the build:",
         blocks: [
           {
-            kind: "note",
-            perPlatform: {
-              web: "vercel deploy --prod → memo.blokz.dev",
-              android: "fastlane supply → Play internal",
-              windows: "gh release + winget PR",
-              ios: "fastlane pilot → TestFlight cohort",
+            kind: "run",
+            cmd: {
+              web: "vercel deploy --prod",
+              android: "fastlane supply --track internal",
+              windows: "gh release create + winget PR",
+              ios: "fastlane pilot upload",
             },
+            out: "shipped",
           },
-          { kind: "run", cmd: "git push origin main", out: "platform build triggered" },
         ],
       },
       {
         speaker: "claude",
-        body: "Shipped — TestFlight invites are firing. Release notes drafted from the eval delta; over to you for voice.",
+        body: "TestFlight invites are firing. Release notes drafted from the eval delta — yours to tweak.",
       },
     ],
   },

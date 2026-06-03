@@ -32,7 +32,7 @@ Things that would make the site feel more "us" before the world sees it.
 - [ ] **[user]** Provide a vector SVG Blokz logo (wordmark + monogram). Replace the legacy `cdn.glitch.global` PNG referenced in `data/brand.ts` with `/public/brand/logo.svg`. Affects nav, footer, manifest icon, OG.
 - [ ] **[user]** Rewrite manifesto principles in `content/manifesto/principles.ts` to your voice. Five-card grid; ≤ 2 short sentences per principle.
 - [ ] **[user]** Rewrite the hero headline block in `data/brand.ts` (`brand.headline.eyebrow / title / titleAccent / sub`) if the current copy doesn't ring true.
-- [ ] **[user]** Workflow narrative — voice/tone polish. Sub-plan B of the AI-frontier pivot is structurally complete: **B-1** shipped the three-product showcase (Blokz Brief, Eval Forge, Edge Memo) with a product picker, platform tabs, and 12 SSG'd MDX artifacts at `/workflow/artifacts/[product]/[type]`; **B-2** (Eval Forge) and **B-3** (Edge Memo) filled the artifacts out to Blokz Brief depth (see Resolved). All that remains is rewriting the narrative beats in `content/workflow/phases.ts` and the artifact copy to your personal voice before launch.
+- [ ] **[user]** Workflow **artifact** copy — voice/tone polish. The narrative transcripts in `content/workflow/stages.ts` were revoiced to the founder register in K-3 (see Resolved); the 12 MDX artifacts under `content/workflow/artifacts/<product>/<type>.mdx` are still in their first-draft voice. Read them through and tune to your personal voice before launch (the structure + depth are done).
 - [ ] **[user]** Decide on a real Cal.com (or alternative) scheduling URL and set the `SCHEDULE_URL` constant in `components/contact/contact-success.tsx` to render the "Book a call" button on form-success.
 - [ ] **[user]** Replace the blanket Play-Store developer-page URL in `data/projects.ts` with per-app deep links (`details?id=<packageId>`). Only `blockscan` carries a verified package id (`com.bdc.blockscan.app`); the other eight rows link to the dev page today.
 - [ ] **[user]** Provide per-app download / review counts beyond Blockchair's confirmed 10K+ (currently only rating is shown on the other eight cards).
@@ -82,6 +82,13 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 ---
 
 ## Resolved (rolling archive)
+
+Iteration 5 Chunk K — /workflow redesign (chat-transcript narrative)
+
+- [x] **K-1/K-2** `/workflow` rebuilt from the 5-phase R3F/scrolly narrative into a 4-stage Claude Code **session** (`conceptualize → specify → build → ship`), each rendered as a chat transcript via the reusable `components/claude-chat/*` family (`claude-chat` window, `chat-message`, `tool-block`, `harness-bits` DocGraph/PlanChecklist). Data model moved from `content/workflow/phases.ts` (`Phase`) to `content/workflow/stages.ts` (`Stage` + `ChatMessage[]` transcripts). New `workflow-intro.tsx` (agentic-engineering framing + one-time setup + DocGraph) and `stage-segment.tsx` shell. Deleted: `phase-chapter.tsx`, `chapter-{conceptualize,spec,environment,develop,ship}.tsx`, `build-tunnel.tsx` + fallback. **`/workflow` no longer loads `three`/R3F** — R3F is now hero-only. The 12 MDX artifacts are unchanged and still SSG.
+- [x] **K-3** Transcripts revoiced to the founder register ("Natural & direct" — the `you` lines read like a real builder talking to their agent), Specify→Build handoff smoothed. **Platform correctness fixed**: `ChatToolBlock` `run` blocks now accept `cmd: string | Record<WorkflowPlatform, string>`, so the Build verify (`pnpm test` / `gradle test` / `cargo test` / `xcodebuild test`) and Ship deploy (Vercel / fastlane / winget / TestFlight) commands flip with the platform tab — not just the `note` lines.
+- [x] **K-3** Dropped the unused `canvas-confetti` + `@types/canvas-confetti` deps (the chapter-5 ship-beat confetti was deleted with the redesign; grep-confirmed no source refs). `-1` runtime dep, `-1` dev dep.
+- [x] **K-3** Reconciled `CLAUDE.md` to the redesign — folder map, §2 stack note (R3F hero-only), §5/§12 "add a workflow stage" recipes, §8 motion/3D rules (no R3F or confetti on `/workflow`).
 
 CI — continuous integration gate
 
