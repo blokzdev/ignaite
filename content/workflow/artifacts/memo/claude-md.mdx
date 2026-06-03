@@ -19,6 +19,8 @@ Brand line: _Capture on-device. Trust by default._
 | Store      | SQLite + sqlite-vec (encrypted at rest)     | On-device notes + vector search      | latest  |
 | Sync       | Optional, self-hosted, end-to-end encrypted | Privacy by default                   | n/a     |
 
+**Model strategy.** On-device flips the usual tiering: capability is chosen at build time, not bought per call. Pick the _smallest_ quantized model that still clears the WER and recall bars, so every inference stays fast, private, and battery-cheap. The expensive reasoning — which model, which quantization, where the accuracy floor sits — happens once, up front in conceptualization, never on the hot path.
+
 ## 3. Commands
 
 ```bash

@@ -10,15 +10,17 @@ Brand line: _Papers, printed plain._
 
 ## 2. Tech stack
 
-| Layer      | Choice                            | Why                            | Version |
-| ---------- | --------------------------------- | ------------------------------ | ------- |
-| Framework  | Next.js (App Router, RSC)         | SSG + Edge, native MDX         | 15.x    |
-| UI runtime | React 19                          | RSC + Compiler                 | 19.x    |
-| Styling    | Tailwind v4 (`@theme`)            | CSS-first tokens               | 4.x     |
-| LLM        | Anthropic SDK (claude-sonnet-4-x) | Structured extraction          | latest  |
-| Data       | arxiv-api + Supabase digest cache | Rate-limit safe, repeat reads  | latest  |
-| Eval       | Vitest + custom rubric scorer     | Digest fidelity over a goldset | latest  |
-| Hosting    | Vercel (Edge for /api/digest)     | SSG + Edge caching             | n/a     |
+| Layer      | Choice                               | Why                            | Version |
+| ---------- | ------------------------------------ | ------------------------------ | ------- |
+| Framework  | Next.js (App Router, RSC)            | SSG + Edge, native MDX         | 15.x    |
+| UI runtime | React 19                             | RSC + Compiler                 | 19.x    |
+| Styling    | Tailwind v4 (`@theme`)               | CSS-first tokens               | 4.x     |
+| LLM        | Frontier model (your provider's SDK) | Structured extraction          | —       |
+| Data       | arxiv-api + Supabase digest cache    | Rate-limit safe, repeat reads  | latest  |
+| Eval       | Vitest + custom rubric scorer        | Digest fidelity over a goldset | latest  |
+| Hosting    | Vercel (Edge for /api/digest)        | SSG + Edge caching             | n/a     |
+
+**Model strategy.** Provider-agnostic by design — swap in whichever models you run. Spend capability where judgment is hard (extraction fidelity, scoring digests against the goldset); drop to a faster, cheaper model for routine reformatting and cache-warm re-renders. The workflow doesn't change when the models do.
 
 ## 3. Commands
 
@@ -39,7 +41,7 @@ app/
     page.tsx               # /  — home + paste input
     p/[arxivId]/page.tsx   # /p/<id> — digest detail
   api/
-    digest/route.ts        # Edge runtime, arxiv + Claude + cache
+    digest/route.ts        # Edge runtime, arxiv + model + cache
     og/[arxivId]/route.tsx # dynamic OG image
 components/
   digest/                  # DigestCard, ClaimList, MethodBox, ShareSheet
@@ -47,7 +49,7 @@ components/
   ui/                      # shadcn primitives
 lib/
   arxiv.ts                 # arxiv fetch + metadata parse
-  extract.ts               # Claude prompts for structured extraction
+  extract.ts               # prompts for structured extraction
   supabase.ts              # digest cache client
   format.ts                # citation/abstract formatters
 content/
@@ -100,7 +102,7 @@ eval/
 `.env.local` (gitignored — never commit):
 
 ```
-ANTHROPIC_API_KEY=
+LLM_API_KEY=                 # your model provider
 SUPABASE_URL=
 SUPABASE_SERVICE_ROLE_KEY=
 NEXT_PUBLIC_SITE_URL=

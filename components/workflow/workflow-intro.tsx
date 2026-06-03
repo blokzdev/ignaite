@@ -27,6 +27,11 @@ export function WorkflowIntro({ productMeta }: Readonly<Props>) {
           runs the terminal, and opens the PR — all in one session. Every line of blokz.dev was
           built this way.
         </p>
+        <p className="mt-4 max-w-2xl text-sm leading-relaxed text-[var(--color-ink-dim)]">
+          The workflow is model- and provider-agnostic. Spend capability where judgment is hard —
+          conceptualizing, hard reasoning, complex code — and reach for faster, cheaper models on
+          the routine paths. Swap the models; the workflow doesn&apos;t change.
+        </p>
 
         {/* The only manual steps. */}
         <div className="mt-10 grid gap-4 sm:grid-cols-2">

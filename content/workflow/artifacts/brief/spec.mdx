@@ -12,7 +12,7 @@ Edge function: /api/digest
  ↓ cache miss
 arxiv-api (fetch metadata + abstract + intro)
  ↓
-Anthropic SDK (structured extraction prompt)
+Frontier model via your provider's SDK (structured extraction prompt)
  ↓ streamed via SSE
 Supabase cache (24h TTL for new, ∞ for stable)
  ↓

@@ -72,7 +72,7 @@ Target end-to-end latency for a 30-min meeting on iPhone 14 Pro: ≤ 4s after st
 - **XCUITest**: record → stop → review flow on the simulator.
 - **Goldset scorer**: 30 recordings spanning lengths (5/15/30 min), accents (US/UK/India/AU), and content types (1:1, group, monologue), scored on:
   - WER (word error rate) — ≤ 0.12 target.
-  - Summary-faithfulness rubric (Claude-as-judge over the goldset transcript).
+  - Summary-faithfulness rubric (model-as-judge, run offline in CI over the goldset transcript).
   - Action-item recall vs. hand-annotated ground truth — ≥ 0.8 target.
 - **Device matrix**: capture verified on the oldest supported chip for battery/heat.
 

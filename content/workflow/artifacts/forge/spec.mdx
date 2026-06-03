@@ -7,7 +7,7 @@ Spec section (markdown)
  ↓
 forge-cli  OR  forge.blokz.dev dashboard
  ↓
-Generator: Claude prompt over the spec (Anthropic SDK)
+Generator: a frontier model over the spec (your provider's SDK)
  ↓ streamed via SSE
 Emits:
   ├── eval.test.ts          (Vitest harness)
@@ -94,7 +94,7 @@ CLI wrapper around `vitest run` with a Forge-aware reporter that prints `RunResu
 
 - **No persistent storage** of submitted specs. They live only for the duration of the Edge request.
 - **Rate limit** `/api/generate`: 10 req/min/IP (Upstash on Edge).
-- **Secrets**: the emitted Action reads `ANTHROPIC_API_KEY` from the target repo's own secret store; Forge never proxies it.
+- **Secrets**: the emitted Action reads your model provider's API key (e.g. `LLM_API_KEY`) from the target repo's own secret store; Forge never proxies it.
 - **CSP**: `default-src 'self'`; no third-party analytics on spec content.
 
 ## 7. Test strategy
