@@ -49,3 +49,21 @@ export interface Phase {
   beats: ReadonlyArray<ChapterBeat>;
   platformNotes: Record<WorkflowPlatform, PlatformNote>;
 }
+
+// ── Claude Code chat transcript model (reusable components/claude-chat/*) ──
+export type ChatSpeaker = "you" | "claude";
+
+// Tool-use renders inside a claude message. (Rendering lands with the tool-block
+// component in K-2; the type is defined here so the data model is stable.)
+export type ChatToolBlock =
+  | { kind: "run"; cmd: string; out?: string }
+  | { kind: "write"; file: string; note?: string; href?: string }
+  | { kind: "plan"; items: ReadonlyArray<string> }
+  | { kind: "pr"; title: string; status: string }
+  | { kind: "note"; perPlatform: Record<WorkflowPlatform, string> };
+
+export interface ChatMessage {
+  speaker: ChatSpeaker;
+  body?: string;
+  blocks?: ReadonlyArray<ChatToolBlock>;
+}
