@@ -42,7 +42,16 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | D     | UX polish — featured carousel, multi-select, sort, infinite scroll            | #19       | ✅     |
 | E     | Sponsored slots scaffold + 1 self-promo                                       | #21       | ✅     |
 | —     | Featured-carousel polish · legacy `/apps` redirect hotfix                     | #22 · #20 | ✅     |
-| F–L   | **Iteration 5 — Directory-grade UI/UX** (below)                               | —         | ⬜     |
+| F     | Design-system foundation (tokens + utilities + UI primitives)                 | #25       | ✅     |
+| G     | Mobile directory hardening                                                    | #26       | ✅     |
+| —     | Recovery-oriented empty state (ghost grid + chips)                            | #27       | ✅     |
+| H-1   | Mobile filter drawer + active-filter pills + clear-all undo                   | #28       | ✅     |
+| H-2   | ⌘K command palette (global, lazy)                                             | #29       | ✅     |
+| I     | Interactive featured carousel (arrows, dots, fade) + a11y fix                 | #30       | ✅     |
+| J     | Detail pages + sticky mobile action bar                                       | #31       | ✅     |
+| K     | **/workflow narrative redesign** (vibecoding guide; sub-chunks K-1/K-2/K-3)   | —         | 🟦     |
+| L     | About + Portfolio section revamp                                              | —         | ⬜     |
+| M     | Global chrome + motion polish                                                 | —         | ⬜     |
 
 ---
 
@@ -143,24 +152,43 @@ No overflow/zoom, real controls, real states.
 
 ---
 
-### ⬜ Chunk K — Workflow + about responsive polish
+### 🟦 Chunk K — /workflow narrative redesign (realistic vibecoding guide)
 
-- `components/workflow/*`: `.scroll-fade-x` on product/platform tab scrollers; verify
-  alternating phase collapse; tighten sticky control bar + mobile spacing via `.section-y`;
-  `artifact-frame.tsx` — constrain MDX reading width, code blocks scroll (not the page),
-  bump mobile type.
-- `/about`: standardize section rhythm; confirm hero CTAs make sense on-route; responsive
-  sweep of manifesto + portfolio grid.
+Reframe `/workflow` from an abstract 5-phase showcase into a realistic Claude-Code-session guide:
+**4 stages** (Conceptualize → Specify → Build → Ship; env folds into Build), **every stage a chat
+transcript with tool-use blocks** (drops the R3F build-tunnel → `three` leaves `/workflow`), keep
+the 3 products + 12 artifacts + platform tabs, rename **phase → stage**. Authored against CLAUDE.md
+
+- the user's vibecoding-harness reference. Split into 3 sub-PRs:
+
+* **K-1** — reusable `components/claude-chat/*` (window/message/tool-block) + `harness-bits`
+  (DocCard / DocGraph / PlanChecklist) + chat types; dogfooded by rebuilding the Conceptualize chat
+  on them (zero visual change). Roadmap reshuffle.
+* **K-2** — the redesign: 4-stage model (`stages.ts`), intro/doc-graph, stage segments, recomposed
+  page, all stages on `ClaudeChat`, delete bespoke chapters + build-tunnel, author all 4×3
+  transcripts.
+* **K-3** — voice/tone + platform-depth polish; drop unused `canvas-confetti`.
 
 ---
 
-### ⬜ Chunk L — Global chrome + motion polish
+### ⬜ Chunk L — About + Portfolio section revamp
 
-- `site-nav.tsx`: active-route highlighting (`usePathname()`); ⌘K trigger; optional
-  scroll-direction hide/show via `use-scroll-threshold`; mobile-sheet parity.
+- `/about` section-rhythm standardization (adopt responsive `.section-y`); hero-CTA + manifesto +
+  portfolio-grid responsive sweep; deeper About/Portfolio identity pass.
+- Contrast sweep on portfolio surfaces: `card-bits` `StatLine` labels + `scroll-cue` (full
+  `--color-ink-dim`); progresses the `[a11y]` 0.98 gate-raise.
+
+---
+
+### ⬜ Chunk M — Global chrome + motion polish
+
+- `site-nav.tsx`: active-route highlighting (`usePathname()`); **⌘K trigger wired to the
+  `blokz:open-command` event** (H-2); optional scroll-direction hide/show via
+  `use-scroll-threshold`; mobile-sheet parity.
 - `site-footer.tsx`: rhythm via `.container-site` / `.section-y`; tidy mobile meta-row.
 - Global: subtle route-change scroll-to-top / page transition (reduced-motion safe); skip-link
-  first-focusable audit; final scrollbar / `dvh` / safe-area sweep.
+  first-focusable audit; final scrollbar / `dvh` / safe-area sweep; **re-raise the Lighthouse a11y
+  gate to 0.98** (`lighthouserc.json`).
 
 ---
 
