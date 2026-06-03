@@ -8,7 +8,7 @@
       "url": [
         "http://localhost:3000/",
         "http://localhost:3000/about",
-        "http://localhost:3000/workflow",
+        "http://localhost:3000/portfolio/blockchair",
         "http://localhost:3000/contact",
         "http://localhost:3000/apps/claude-code"
       ]

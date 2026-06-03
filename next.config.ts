@@ -70,6 +70,11 @@ const nextConfig: NextConfig = {
       // section lives inside /about). Non-permanent so we can restore a
       // dedicated listing later without an SEO penalty.
       { source: "/portfolio", destination: "/about", permanent: false },
+      // /workflow is dormant (unpublished, retained under app/(marketing)/_workflow).
+      // Non-permanent so republishing later carries no SEO penalty — the
+      // detailed agentic process now surfaces as the "How we work" band on /about.
+      { source: "/workflow", destination: "/about#how-we-work", permanent: false },
+      { source: "/workflow/:path*", destination: "/about", permanent: false },
     ];
   },
 };
