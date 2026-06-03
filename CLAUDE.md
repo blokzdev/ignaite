@@ -6,7 +6,9 @@ This file is the contract between you (Claude) and this codebase. Read it end-to
 
 ## 1. Overview
 
-**Blokz.dev** is the marketing site for **Blokz Development Company**, a vibecoding studio building AI apps for B2B and B2C — with a heritage of nine published Android blockchain explorers. The site is itself a demonstration of agentic engineering: it is built end-to-end with Claude Code, with the workflow it preaches visualized on `/workflow`.
+**Blokz.dev** is the marketing site for **Blokz Development Company**, a vibecoding studio building AI apps for B2B and B2C — with a heritage of nine published Android blockchain explorers. The site is itself a demonstration of agentic engineering: it is built end-to-end with Claude Code. The public site is focused on the **AI-apps directory** (`/`), the studio story (`/about`), and conversion (`/contact`).
+
+> **`/workflow` is dormant.** The 4-stage Claude Code session walkthrough + 12 MDX artifacts were unpublished (Iteration 5, out-of-sequence product-direction change) to keep the homepage directory-focused and the detailed agentic process semi-proprietary. All of it is **retained in the repo** under the Next private folder `app/(marketing)/_workflow/` (underscore = excluded from routing), along with `components/workflow/*`, `components/claude-chat/*`, `content/workflow/*`, `hooks/use-workflow-*`, and `types/workflow.ts`. To republish: rename `_workflow` → `workflow` and re-add the references listed in `BACKLOG.md`. Everywhere below that describes `/workflow` as live should be read through this lens.
 
 Brand line (source of truth: `data/brand.ts`): _Apps at the AI frontier. Built end-to-end with Claude Code._
 
@@ -25,8 +27,8 @@ v2 is the live site (this codebase). The legacy v1 Glitch template is preserved 
 | Component prims  | shadcn/ui (Radix + Tailwind, copied into `ui/`)         | Owned components, no runtime dep                                 | latest  |
 | Motion (DOM)     | `motion` (formerly framer-motion)                       | Shared layout, scroll, gestures                                  | 12.x    |
 | Motion (scroll)  | `motion` + sticky CSS layout (NOT gsap)                 | The planned GSAP/ScrollTrigger scrolly was dropped; not a dep    | —       |
-| Smooth scroll    | `lenis`                                                 | Inertial smooth scroll on `/` + `/workflow`                      | 1.3.x   |
-| 3D / shaders     | `three` + `@react-three/fiber` + `drei`                 | Hero flow-field only (`/workflow` is chat-transcript, no R3F)    | 0.184.x |
+| Smooth scroll    | `lenis`                                                 | Inertial smooth scroll on `/about` (workflow dormant — see §1)   | 1.3.x   |
+| 3D / shaders     | `three` + `@react-three/fiber` + `drei`                 | Hero flow-field only (the dormant `/workflow` had no R3F)        | 0.184.x |
 | Content          | `@next/mdx`, `rehype-pretty-code` (Shiki), `remark-gfm` | Manifesto/projects/workflow as MDX                               | latest  |
 | URL state        | `nuqs`                                                  | `/apps` filter state in URL                                      | latest  |
 | Forms            | Native form + server action + `resend`                  | Contact form → `team@blokz.dev`                                  | 4.x     |
@@ -81,10 +83,10 @@ app/                              # Next App Router
       [slug]/opengraph-image.tsx  #   per-app OG
     portfolio/
       [slug]/page.tsx             #   /portfolio/<slug> — Blokz shipped-PROJECT detail (data/projects.ts, SSG)
-    workflow/
-      page.tsx                    #   /workflow — 4-stage Claude Code session narrative (components/workflow/workflow.tsx)
+    _workflow/                    #   DORMANT (private folder, not routed — see §1). Rename to `workflow` to republish.
+      page.tsx                    #   was /workflow — 4-stage Claude Code session narrative (components/workflow/workflow.tsx)
       artifacts/[product]/[type]/page.tsx
-                                  #   /workflow/artifacts/<product>/<type> — MDX artifact viewer (SSG, 12)
+                                  #   was /workflow/artifacts/<product>/<type> — MDX artifact viewer (SSG, 12)
       opengraph-image.tsx
     contact/
       page.tsx                    #   /contact — dedicated contact page
@@ -92,7 +94,7 @@ app/                              # Next App Router
       opengraph-image.tsx
   manifest.ts                     # PWA manifest (typed)
   robots.ts                       # robots.txt
-  sitemap.ts                      # sitemap.xml (apps + projects + workflow + static)
+  sitemap.ts                      # sitemap.xml (apps + projects + static; workflow dropped while dormant)
   opengraph-image.tsx             # root OG image (per-route can override)
   icon.tsx / apple-icon.tsx       # dynamic favicons via next/og
   globals.css                     # Tailwind v4 @theme block + base/utility layers
@@ -108,6 +110,7 @@ app/                              # Next App Router
 components/
   ui/                             # shadcn primitives present: button, badge, tabs, sheet, dialog, tooltip, separator
   nav/{site-nav, mobile-sheet, mobile-sheet-portal}.tsx
+  command/command-palette-body.tsx  # ⌘K palette: apps + categories + page nav
   footer/site-footer.tsx
   hero/
     hero.tsx                      # server shell: text-first copy + dynamic R3F canvas
@@ -117,7 +120,7 @@ components/
     hero-copy.tsx                 # headline overlay (eyebrow, title, CTAs)
     hero-fallback.tsx             # reduced-motion / no-WebGL fallback
     scroll-cue.tsx
-  home/now-next-band.tsx          # /about Now/Next band
+  home/{now-next-band, how-we-work}.tsx   # /about bands: Now/Next + "How we work" (#how-we-work anchor)
   manifesto/{manifesto, principle-card}.tsx
   tools/                          # ── DIRECTORY (App) ──
     tools-browser.tsx             #   client orchestrator: filter state, infinite scroll, sponsored interleave
@@ -133,13 +136,13 @@ components/
     project-filter-bar.tsx
     project-detail.tsx            #   /portfolio/[slug] body
     card-bits.tsx                 #   shared chips / monogram / status glyphs
-  workflow/
+  workflow/                       # ── DORMANT (consumed only by app/(marketing)/_workflow; not in any shipped bundle) ──
     workflow.tsx                  # client orchestrator: product + platform tabs, renders stage segments
     workflow-intro.tsx            # hero: agentic-engineering framing, one-time setup, DocGraph
     stage-segment.tsx             # one stage: sticky header (number/title/summary/beats) + ClaudeChat
     product-tabs.tsx / platform-tabs.tsx   # segmented controls
     artifact-frame.tsx            # styled MDX viewer with "open full" CTA
-  claude-chat/                    # reusable Claude Code chat-transcript UI (used by /workflow)
+  claude-chat/                    # reusable Claude Code chat-transcript UI (DORMANT — only the dormant _workflow uses it)
     claude-chat.tsx               #   the chat window (messages → bubbles, motion stagger)
     chat-message.tsx              #   you=right / claude=left bubble + tool-block column
     tool-block.tsx                #   renders run/write/plan/pr/note tool-use blocks
@@ -150,7 +153,7 @@ components/
 
 content/                          # typed content + MDX
   manifesto/principles.ts         # typed array — no MDX
-  workflow/
+  workflow/                       # ── DORMANT content (retained; only the dormant _workflow route reads it) ──
     stages.ts                     # per-product stage metadata + chat transcripts (brief / forge / memo)
     products.ts                   # the 3 sample products
     artifacts/
@@ -217,6 +220,8 @@ package.json  pnpm-lock.yaml
 5. Run `pnpm dev` and verify it appears on `/about` and `/portfolio/<slug>`.
 
 ### Add a new workflow stage
+
+> **Dormant feature (see §1).** `/workflow` is unpublished and lives under `app/(marketing)/_workflow/`. These recipes still apply if you republish or just edit the retained content, but a new stage won't appear on the live site until the route is un-privated.
 
 1. Add a `Stage` entry to the relevant product array in `content/workflow/stages.ts` — each of `brief`/`forge`/`memo` carries the same four stages (`conceptualize → specify → build → ship`) with a `beats` list, per-platform `platformNotes`, and a `transcript` (the Claude Code chat as `ChatMessage[]`).
 2. Every stage renders through the same `stage-segment.tsx` shell (sticky header + `<ClaudeChat>`) — there are **no** bespoke per-stage scene components. Platform-varying terminal commands go in the transcript's tool blocks: use a `run` block whose `cmd` is a `Record<WorkflowPlatform, string>` (or a `note` block) so flipping the platform tab changes the command.
@@ -349,7 +354,7 @@ interface Project {
 
 - **Reduced-motion source-of-truth**: `useReducedMotion()` from `hooks/use-reduced-motion.ts`. The `ReducedMotionProvider` toggles `data-motion="reduce"` on `<html>` so CSS-only fallbacks work via `[data-motion="reduce"] *`.
 - **R3F components**: always client + `next/dynamic({ ssr: false })`. Wrap in a `<Suspense>` with a fast SVG/CSS-gradient placeholder so LCP is text-driven, not canvas-driven. Hydrate after `requestIdleCallback`. R3F now lives **only on the hero (`/`)** — `/workflow` is a pure chat-transcript narrative with no canvas.
-- **Lenis**: register once in `LenisProvider` (gated to `/` + `/workflow`); it integrates with `motion`'s scroll utilities. No GSAP/ScrollTrigger in the codebase. Always clean up listeners in the `useEffect` return.
+- **Lenis**: register once in `LenisProvider` (gated to `/about` via `SMOOTH_ROUTES`; re-add a route there if you republish `/workflow`); it integrates with `motion`'s scroll utilities. No GSAP/ScrollTrigger in the codebase. Always clean up listeners in the `useEffect` return.
 - **`motion` library**: use `whileInView` with `viewport={{ once: true, amount: 0.35 }}` for entrance animations so they don't re-fire on scroll-back. Use shared `layoutId` sparingly — they're powerful but easy to mis-pair. The workflow stage segments are `motion`-driven with a sticky layout (no scrub timelines); chat bubbles reveal via a reduced-motion-safe stagger.
 - **Three.js asset budget**: the hero flow-field is the only R3F scene. No postprocessing dependency (bloom was dropped); keep it cheap. `three` MUST stay out of every chunk except `/`.
 - **No confetti**: `canvas-confetti` was removed with the `/workflow` redesign — don't reintroduce it without confirming a dependency add (§11).
@@ -384,10 +389,10 @@ interface Project {
 | INP                             | < 200ms                     |
 | Bundle ceiling (route `/`)      | ≤ 200KB gz (incl. R3F lazy) |
 | Bundle ceiling (`/apps`)        | ≤ 160KB gz                  |
-| Bundle ceiling (`/workflow`)    | ≤ 220KB gz (incl. lazy R3F) |
+| Bundle ceiling (`/workflow`)    | n/a — dormant (see §1)      |
 | Bundle ceiling (other routes)   | ≤ 140KB gz                  |
 
-The floor for any client-touched route is roughly 128 KB (React 19 + Next 15 framework chunks + shared `motion` library). The ceilings above are set ~10–15 KB above measured current numbers so reasonable additions don't regress past them. Verify with `pnpm analyze`. `three` (R3F) MUST NOT appear in chunks for routes other than `/` and `/workflow`.
+The floor for any client-touched route is roughly 128 KB (React 19 + Next 15 framework chunks + shared `motion` library). The ceilings above are set ~10–15 KB above measured current numbers so reasonable additions don't regress past them. Verify with `pnpm analyze`. `three` (R3F) MUST NOT appear in chunks for routes other than `/` (the hero is the only R3F scene).
 
 **Image rules**:
 
@@ -541,7 +546,7 @@ A change is "done" only when ALL of these hold:
 - [ ] `pnpm lint` clean.
 - [ ] `pnpm typecheck` clean.
 - [ ] `pnpm build` succeeds.
-- [ ] Bundle analyzer shows no unexpected dep crept into a non-`/` non-`/workflow` chunk.
+- [ ] Bundle analyzer shows no unexpected dep crept into a non-`/` chunk.
 - [ ] Manual a11y pass on touched pages (focus ring visible, keyboard nav works, reduced-motion fallback renders).
 - [ ] Lighthouse mobile run on touched routes meets §10 thresholds (or regression is explained).
 - [ ] Visual confirmation in a real browser (Chrome + Firefox) — UI work isn't done until you've seen it move. Take a screenshot if you can't run a browser.

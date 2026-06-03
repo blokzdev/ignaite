@@ -29,7 +29,6 @@ export const brand = {
   },
   nav: [
     { href: "/", label: "Apps" },
-    { href: "/workflow", label: "Workflow" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
   ],

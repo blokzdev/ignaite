@@ -26,7 +26,7 @@ export function SiteFooter() {
             </Link>
             <p className="mt-4 max-w-xs text-sm text-[var(--color-ink-dim)]">{brand.tagline}</p>
             <Link
-              href="/workflow"
+              href="/about#how-we-work"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-white/[0.04] px-3 py-1.5 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)]"
             >
               <span className="block h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />

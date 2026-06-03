@@ -20,7 +20,6 @@ interface Props {
 
 const PAGES: ReadonlyArray<{ label: string; href: string }> = [
   { label: "Directory", href: "/" },
-  { label: "Workflow", href: "/workflow" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];

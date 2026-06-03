@@ -6,8 +6,9 @@ import { useReducedMotion } from "@/hooks/use-reduced-motion";
 // Smooth-scroll only benefits long, narrative-heavy routes where inertia
 // reads as cinematic. The directory at `/` is grid-heavy with filter +
 // search interactions — inertial scroll fights the interaction model
-// there. Smooth-scroll lives on the narrative routes only.
-const SMOOTH_ROUTES: ReadonlySet<string> = new Set(["/about", "/workflow"]);
+// there. Smooth-scroll lives on the narrative routes only (currently the
+// studio story at `/about`).
+const SMOOTH_ROUTES: ReadonlySet<string> = new Set(["/about"]);
 
 interface LenisInstance {
   raf: (time: number) => void;
