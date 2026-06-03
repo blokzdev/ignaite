@@ -47,7 +47,7 @@ export type ChatSpeaker = "you" | "claude";
 // Tool-use renders inside a claude message. (Rendering lands with the tool-block
 // component in K-2; the type is defined here so the data model is stable.)
 export type ChatToolBlock =
-  | { kind: "run"; cmd: string; out?: string }
+  | { kind: "run"; cmd: string | Record<WorkflowPlatform, string>; out?: string }
   | { kind: "write"; file: string; note?: string; href?: string }
   | { kind: "plan"; items: ReadonlyArray<string> }
   | { kind: "pr"; title: string; status: string }
