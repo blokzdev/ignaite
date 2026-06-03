@@ -1,13 +1,15 @@
 "use client";
 import { motion } from "motion/react";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
-import type { ChatMessage } from "@/types/workflow";
+import type { ChatMessage, WorkflowPlatform } from "@/types/workflow";
 import { ChatMessageBubble } from "./chat-message";
 
 const EASE_OUT_EXPO = [0.22, 1, 0.36, 1] as const;
 
 interface Props {
   messages: ReadonlyArray<ChatMessage>;
+  /** Active platform — drives platform-keyed `note` tool blocks. */
+  platform?: WorkflowPlatform;
   /** Window label after the traffic lights. */
   label?: string;
   /** Appended to message keys so callers can force a re-stagger on context change. */
@@ -18,6 +20,7 @@ interface Props {
 // reduced-motion-safe transcript. Presentational/state-only — no page logic.
 export function ClaudeChat({
   messages,
+  platform = "web",
   label = "claude.ai/code · session",
   instanceKey,
 }: Readonly<Props>) {
@@ -50,7 +53,7 @@ export function ClaudeChat({
               delay: reduced ? 0 : Math.min(i, 6) * 0.12,
             }}
           >
-            <ChatMessageBubble message={m} />
+            <ChatMessageBubble message={m} platform={platform} />
           </motion.li>
         ))}
       </ol>

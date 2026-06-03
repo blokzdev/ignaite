@@ -41,15 +41,6 @@ export interface ChapterBeat {
   body: string;
 }
 
-export interface Phase {
-  id: string;
-  number: string;
-  title: string;
-  summary: string;
-  beats: ReadonlyArray<ChapterBeat>;
-  platformNotes: Record<WorkflowPlatform, PlatformNote>;
-}
-
 // ── Claude Code chat transcript model (reusable components/claude-chat/*) ──
 export type ChatSpeaker = "you" | "claude";
 
@@ -66,4 +57,18 @@ export interface ChatMessage {
   speaker: ChatSpeaker;
   body?: string;
   blocks?: ReadonlyArray<ChatToolBlock>;
+}
+
+// A stage of the vibecoding journey (Conceptualize → Specify → Build → Ship),
+// shown as a Claude Code chat transcript. Replaces the old `Phase`.
+export type StageId = "conceptualize" | "specify" | "build" | "ship";
+
+export interface Stage {
+  id: StageId;
+  number: string;
+  title: string;
+  summary: string;
+  beats: ReadonlyArray<ChapterBeat>;
+  platformNotes: Record<WorkflowPlatform, PlatformNote>;
+  transcript: ReadonlyArray<ChatMessage>;
 }

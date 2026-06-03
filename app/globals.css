@@ -157,7 +157,7 @@
   }
 
   /* Opt-in thin, accent-tinted scrollbar. Deliberately NOT a global element
-     selector — bespoke scrollers (e.g. chapter-environment) keep their own. */
+     selector — bespoke scrollers keep their own. */
   .scrollbar-styled {
     scrollbar-width: thin;
     scrollbar-color: rgb(255 255 255 / 0.12) transparent;
