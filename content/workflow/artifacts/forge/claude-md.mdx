@@ -1,6 +1,6 @@
 # CLAUDE.md — Eval Forge
 
-This file is the contract between the agent and the Eval Forge codebase. Read end-to-end before touching anything non-trivial. The product is a developer tool that emits a Vitest eval suite, a hand-shaped golden set, and a GitHub Action harness for any Claude feature — straight from a spec section. The author pastes a feature spec; the tool returns a runnable eval gate the feature has to pass before it ships.
+This file is the contract between the agent and the Eval Forge codebase. Read end-to-end before touching anything non-trivial. The product is a developer tool that emits a Vitest eval suite, a hand-shaped golden set, and a GitHub Action harness for any model-powered feature — straight from a spec section. The author pastes a feature spec; the tool returns a runnable eval gate the feature has to pass before it ships.
 
 ## 1. Overview
 
@@ -10,14 +10,16 @@ Brand line: _Eval gates, generated._
 
 ## 2. Tech stack
 
-| Layer        | Choice                              | Why                               | Version |
-| ------------ | ----------------------------------- | --------------------------------- | ------- |
-| Framework    | Next.js (App Router, RSC) on Vercel | Streaming generation + dashboard  | 15.x    |
-| LLM          | Anthropic SDK (claude-sonnet-4-x)   | Structured eval-case generation   | latest  |
-| Eval harness | Vitest                              | First-class CI, fast cold start   | latest  |
-| CI           | GitHub Actions                      | The runtime users already trust   | n/a     |
-| CLI          | Rust (clap)                         | Local-first generation before web | latest  |
-| Meta-eval    | Vitest + reference-pair scorer      | Grades the generator's own output | latest  |
+| Layer        | Choice                               | Why                               | Version |
+| ------------ | ------------------------------------ | --------------------------------- | ------- |
+| Framework    | Next.js (App Router, RSC) on Vercel  | Streaming generation + dashboard  | 15.x    |
+| LLM          | Frontier model (your provider's SDK) | Structured eval-case generation   | —       |
+| Eval harness | Vitest                               | First-class CI, fast cold start   | latest  |
+| CI           | GitHub Actions                       | The runtime users already trust   | n/a     |
+| CLI          | Rust (clap)                          | Local-first generation before web | latest  |
+| Meta-eval    | Vitest + reference-pair scorer       | Grades the generator's own output | latest  |
+
+**Model strategy.** Provider-agnostic — point it at whatever models you run. Lean on a capable model where judgment is hard (generating eval cases, model-as-judge scoring); a cheaper, faster model is fine for the mechanical scaffolding. The eval workflow is identical whichever model sits behind the gate.
 
 ## 3. Commands
 
@@ -37,7 +39,7 @@ cargo test                # CLI integration tests
 ```
 app/                          # Next.js dashboard
   (app)/page.tsx              # paste a spec → stream generated suite
-  api/generate/route.ts       # Edge: spec → Claude → zipped output (SSE)
+  api/generate/route.ts       # Edge: spec → model → zipped output (SSE)
 crates/forge-cli/             # Rust CLI (clap) for local generation
   src/main.rs                 # flag surface — stability matters
 packages/harness/             # Vitest harness template emitted into target repos
@@ -87,7 +89,7 @@ goldset/                      # Meta-evals: (spec, expected-suite) reference pai
 `.env.local` (gitignored — never commit):
 
 ```
-ANTHROPIC_API_KEY=
+LLM_API_KEY=            # your model provider
 GITHUB_TOKEN=            # for the Action that opens the gate PR
 NEXT_PUBLIC_SITE_URL=
 ```
