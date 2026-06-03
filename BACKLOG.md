@@ -45,6 +45,33 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 
 ### Workflow
 
+> **Status: `/workflow` is DORMANT (unpublished).** Iteration 5, out-of-sequence product-direction
+> change: the section was taken off the live site to keep the homepage directory-focused and the
+> detailed agentic-engineering process semi-proprietary. **Nothing was deleted** — the route was
+> moved into the Next private folder `app/(marketing)/_workflow/` (underscore = excluded from
+> routing), and `components/workflow/*`, `components/claude-chat/*`, `content/workflow/*` (stages +
+> 12 artifacts), `hooks/use-workflow-*`, and `types/workflow.ts` all remain in the tree (unreferenced
+> by any live route, so excluded from every shipped bundle). The polish items below only matter if/when
+> it's republished.
+>
+> **To republish `/workflow`:**
+>
+> 1. `git mv "app/(marketing)/_workflow" "app/(marketing)/workflow"`.
+> 2. `data/brand.ts` → re-add `{ href: "/workflow", label: "Workflow" }` to `nav` (this restores it in
+>    site-nav, the mobile sheet, and the footer Sitemap list).
+> 3. `components/command/command-palette-body.tsx` → re-add the `{ label: "Workflow", href: "/workflow" }`
+>    entry to `PAGES`.
+> 4. `app/sitemap.ts` → re-add the `/workflow` static route entry.
+> 5. `components/effects/lenis-provider.tsx` → add `"/workflow"` back to `SMOOTH_ROUTES`.
+> 6. Repoint the CTAs if desired: hero (`components/hero/hero-copy.tsx`) and Now/Next
+>    (`components/home/now-next-band.tsx`) currently link to `#how-we-work` on `/about`; the footer
+>    badge (`components/footer/site-footer.tsx`) links to `/about#how-we-work`. Consider whether the
+>    new `components/home/how-we-work.tsx` `/about` band should stay alongside a republished `/workflow`.
+>
+> - [ ] **[future]** Build one or more of the three sample products for real — **Blokz Brief** (arxiv →
+>       paper digest), **Eval Forge** (spec → eval suite), **Edge Memo** (on-device meeting capture) — as
+>       actual shipped apps and/or directory entries, rather than illustrative-only workflow narratives.
+
 - [ ] **[polish]** Code-reveal Shiki typing animation for inline beat content (the MDX artifact pages already syntax-highlight via `rehype-pretty-code`; this extends it to typing-animation reveals on scroll inside chapter beats).
 - [ ] **[polish]** Keyboard navigation between beats + `?` shortcut help dialog.
 - [ ] **[polish]** Evaluate GSAP-pinned scrolly chapters. The current sticky-column layout reads well; revisit if the cinematic pinning genuinely adds something.

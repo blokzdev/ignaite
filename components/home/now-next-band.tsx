@@ -39,7 +39,7 @@ export function NowNextBand() {
             work, built end-to-end with Claude Code as the primary author.
           </p>
           <Link
-            href="/workflow"
+            href="#how-we-work"
             className="mt-auto inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.08em] text-[var(--color-violet)] uppercase transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
           >
             See how we ship

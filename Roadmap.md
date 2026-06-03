@@ -192,6 +192,20 @@ the 3 products + 12 artifacts + platform tabs, rename **phase → stage**. Autho
 
 ---
 
+### ↩︎ Out-of-sequence — `/workflow` descoped & unpublished
+
+Product-direction change (not a planned chunk): the `/workflow` section shipped by Chunk K (above)
+was **taken off the live site** to keep the homepage directory-focused and the detailed
+agentic-engineering process semi-proprietary. It was **not deleted** — the route moved into the Next
+private folder `app/(marketing)/_workflow/`, with all `components/workflow/*`, `components/claude-chat/*`,
+`content/workflow/*`, `hooks/use-workflow-*`, and `types/workflow.ts` retained dormant in the repo.
+Nav / command-palette / sitemap / Lenis references were removed; the "see how we ship" CTAs now point
+at a new high-level **"How we work"** band on `/about` (`components/home/how-we-work.tsx`,
+`#how-we-work`). Full restore steps + a `[future]` item to build the three sample products for real
+live in `BACKLOG.md` → Workflow. (Chunk K's work is preserved, just unpublished.)
+
+---
+
 ## After Iteration 5
 
 Remaining `BACKLOG.md` items are mostly `[user]` launch blockers (Vercel env, Resend domain,

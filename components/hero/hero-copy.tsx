@@ -80,7 +80,7 @@ export function HeroCopy() {
       >
         <MagneticButton strength={0.25}>
           <Link
-            href="/workflow"
+            href="#how-we-work"
             className="inline-flex h-12 items-center gap-2 rounded-full bg-[var(--color-accent)] px-7 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)]"
           >
             See how we ship

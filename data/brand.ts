@@ -9,7 +9,7 @@ export const brand = {
     eyebrow: "BLOKZ.DEV // AI APP STUDIO",
     title: "AI apps.",
     titleAccent: "Built by AI.",
-    sub: "Research-rooted AI for B2B and B2C — built end-to-end with Claude and Gemini.",
+    sub: "Research-rooted AI for B2B and B2C — built end-to-end with Claude Code.",
   },
   logo: {
     src: "https://cdn.glitch.global/d470e077-214b-4bf9-ac27-4933bce2a4c9/blokz-logo-circle-blue-640px.png?v=1676232520196",
@@ -28,8 +28,7 @@ export const brand = {
     flowPage: "https://flow.page/blokz",
   },
   nav: [
-    { href: "/", label: "Apps" },
-    { href: "/workflow", label: "Workflow" },
+    { href: "/", label: "Directory" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
   ],

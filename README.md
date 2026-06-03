@@ -2,7 +2,7 @@
 
 Marketing site for **Blokz Development Co.** — a vibecoding studio building AI apps (with a heritage of shipped blockchain explorers).
 
-The site is itself a demonstration: it's built end-to-end with Claude Code, and the workflow it preaches is visualized on `/workflow`.
+The site is itself a demonstration: it's built end-to-end with Claude Code. The public surface is the **AI-apps directory** (`/`), the studio story (`/about`), and contact (`/contact`). (A detailed `/workflow` walkthrough exists in the repo but is currently unpublished — see below.)
 
 🌐 **Live:** [blokz.dev](https://blokz.dev)
 📒 **Contract:** see [`CLAUDE.md`](./CLAUDE.md) for stack, conventions, and agent guardrails
@@ -45,9 +45,8 @@ Pre-push auto-runs `pnpm typecheck`.
 - **`/apps/[slug]`** — per-app detail with `SoftwareApplication` JSON-LD (one SSG page per directory app)
 - **`/about`** — studio identity: R3F hero (cursor-reactive flow-field shader) → Now/Next band → manifesto → portfolio of Blokz's own shipped apps
 - **`/portfolio/[slug]`** — per-project detail for Blokz's shipped apps
-- **`/workflow`** — a five-phase build narrative (Conceptualize → Spec → Environment → Develop → Ship) threaded through three sample products (Blokz Brief, Eval Forge, Edge Memo). Each phase has a bespoke scene; the Develop phase ships a wireframe R3F build tunnel.
-- **`/workflow/artifacts/[product]/[type]`** — 12 MDX artifacts (`CLAUDE.md`, PRD, tech spec, prompt library × 3 products), Shiki-highlighted
 - **`/contact`** — a Resend-powered server action with IP rate-limiting and an honest "offline" fallback when `RESEND_API_KEY` is unset
+- **`/workflow`** _(dormant — not currently published)_ — a 4-stage Claude Code session walkthrough (conceptualize → specify → build → ship) across three sample products (Blokz Brief, Eval Forge, Edge Memo), rendered as chat transcripts, plus 12 Shiki-highlighted MDX artifacts at `/workflow/artifacts/[product]/[type]`. Retained in the repo under the Next private folder `app/(marketing)/_workflow/`; rename to `workflow/` to republish (see `BACKLOG.md`).
 
 **Two content tracks** (don't conflate them):
 
