@@ -5,6 +5,7 @@
   --color-canvas: #070b14;
   --color-surface: #0e1424;
   --color-ink: #e8f1f8;
+  --color-ink-soft: #aab9cc; /* secondary text — brighter than ink-dim for emphasis; ≥AA on dark */
   --color-ink-dim: #8fa3ba;
 
   --color-accent: #08d9d6;
@@ -118,9 +119,25 @@
     max-width: 80rem; /* === max-w-7xl */
   }
 
-  /* Standard vertical section rhythm. Callers may add `sm:`/`lg:` overrides. */
+  /* Standard vertical section rhythm (responsive): py-24 → sm:py-32.
+     Adopt on /about bands and content sections for a consistent cadence. */
   .section-y {
+    padding-block: 6rem;
+  }
+  @media (min-width: 40rem) {
+    .section-y {
+      padding-block: 8rem;
+    }
+  }
+
+  /* Larger rhythm for a centerpiece section (the manifesto): py-32 → sm:py-48. */
+  .section-y-lg {
     padding-block: 8rem;
+  }
+  @media (min-width: 40rem) {
+    .section-y-lg {
+      padding-block: 12rem;
+    }
   }
 
   /* Horizontal padding that respects the device safe-area insets (notches). */

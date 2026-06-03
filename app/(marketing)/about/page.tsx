@@ -3,6 +3,7 @@ import { AppsPreview } from "@/components/apps/apps-preview";
 import { Hero } from "@/components/hero/hero";
 import { HowWeWork } from "@/components/home/how-we-work";
 import { NowNextBand } from "@/components/home/now-next-band";
+import { StatsStrip } from "@/components/home/stats-strip";
 import { Manifesto } from "@/components/manifesto/manifesto";
 import { buildMetadata } from "@/lib/seo";
 
@@ -17,6 +18,7 @@ export default function AboutPage() {
   return (
     <>
       <Hero />
+      <StatsStrip />
       <NowNextBand />
       <HowWeWork />
       <Manifesto />

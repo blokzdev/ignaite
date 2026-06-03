@@ -43,7 +43,7 @@ export function ScrollCue() {
         type="button"
         onClick={handleClick}
         aria-label="Scroll to the next section"
-        className="flex cursor-pointer flex-col items-center gap-3 rounded-full p-2 text-[var(--color-ink-dim)]/70 transition-colors hover:text-[var(--color-accent)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+        className="flex cursor-pointer flex-col items-center gap-3 rounded-full p-2 text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-accent)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: reduced ? 0 : 1.7, duration: 0.6 }}

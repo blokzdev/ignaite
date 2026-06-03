@@ -4,7 +4,7 @@ import { GlowOrb } from "@/components/effects/glow-orb";
 
 export function NowNextBand() {
   return (
-    <section id="now-next" className="relative overflow-hidden px-6 py-24 sm:py-32">
+    <section id="now-next" className="section-y relative scroll-mt-24 overflow-hidden px-6">
       <GlowOrb
         className="-top-32 left-1/2 -translate-x-1/2"
         size={520}

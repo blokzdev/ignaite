@@ -61,3 +61,35 @@ export function relatedProjects(slug: string, limit = 3): ReadonlyArray<Project>
     .filter((p) => p.type === current.type || p.category === current.category)
     .slice(0, limit);
 }
+
+export interface PortfolioStats {
+  shipped: number;
+  chains: number;
+  sinceYear: number;
+}
+
+// Honest, data-derived aggregates for the /about credibility strip. Only counts
+// things we can defend from the data — no invented download/user totals (per
+// BACKLOG: per-app counts are unverified). Studio heritage dates to 2020.
+//
+// "Shipped" = anything that reached production (live/beta/deprecated/archived),
+// excluding `coming-soon` placeholders — i.e. the nine published Android
+// explorers, matching the brand heritage, not just the currently-live subset.
+const SHIPPED_STATUSES: ReadonlySet<ProjectStatus> = new Set([
+  "live",
+  "beta",
+  "deprecated",
+  "archived",
+]);
+
+export function portfolioStats(): PortfolioStats {
+  const shipped = projects.filter((p) => SHIPPED_STATUSES.has(p.status)).length;
+  const chains = new Set(projects.flatMap((p) => p.chains).filter((c) => c !== "n-a")).size;
+  const years = projects
+    .map((p) => p.launchedAt)
+    .filter((d): d is string => Boolean(d))
+    .map((d) => new Date(d).getFullYear())
+    .filter((y) => !Number.isNaN(y));
+  const sinceYear = years.length ? Math.min(...years) : 2020;
+  return { shipped, chains, sinceYear };
+}

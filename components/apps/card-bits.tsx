@@ -88,7 +88,7 @@ export function StatLine({ stat }: { stat: ProjectStat }) {
   switch (stat.kind) {
     case "rating":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
+        <span className="font-mono text-[var(--color-ink-soft)]">
           <span aria-hidden className="text-[var(--color-accent)]">
             ★
           </span>{" "}
@@ -98,48 +98,48 @@ export function StatLine({ stat }: { stat: ProjectStat }) {
       );
     case "downloads":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
-          {stat.value} <span className="text-[var(--color-ink-dim)]/70">downloads</span>
+        <span className="font-mono text-[var(--color-ink-soft)]">
+          {stat.value} <span className="text-[var(--color-ink-dim)]">downloads</span>
         </span>
       );
     case "reviews":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
-          {stat.value} <span className="text-[var(--color-ink-dim)]/70">reviews</span>
+        <span className="font-mono text-[var(--color-ink-soft)]">
+          {stat.value} <span className="text-[var(--color-ink-dim)]">reviews</span>
         </span>
       );
     case "stars":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
+        <span className="font-mono text-[var(--color-ink-soft)]">
           <span aria-hidden>★</span> {stat.value}
           <span className="sr-only"> stars</span>
         </span>
       );
     case "forks":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
+        <span className="font-mono text-[var(--color-ink-soft)]">
           ⑂ {stat.value}
           <span className="sr-only"> forks</span>
         </span>
       );
     case "users":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
-          {stat.value} <span className="text-[var(--color-ink-dim)]/70">users</span>
+        <span className="font-mono text-[var(--color-ink-soft)]">
+          {stat.value} <span className="text-[var(--color-ink-dim)]">users</span>
         </span>
       );
     case "tvl":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
-          {stat.value} <span className="text-[var(--color-ink-dim)]/70">TVL</span>
+        <span className="font-mono text-[var(--color-ink-soft)]">
+          {stat.value} <span className="text-[var(--color-ink-dim)]">TVL</span>
         </span>
       );
     case "version":
       return <span className="font-mono text-[var(--color-ink-dim)]">v{stat.value}</span>;
     case "custom":
       return (
-        <span className="font-mono text-[var(--color-ink-dim)]">
-          {stat.label && <span className="text-[var(--color-ink-dim)]/70">{stat.label}: </span>}
+        <span className="font-mono text-[var(--color-ink-soft)]">
+          {stat.label && <span className="text-[var(--color-ink-dim)]">{stat.label}: </span>}
           {stat.value}
         </span>
       );

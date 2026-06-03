@@ -30,28 +30,29 @@ Chunks use one global A→Z sequence across iterations. Iteration 4 ran A0–E; 
 up at **F**. (There was no roadmap file before this one — A0–E were tracked in commit messages
 and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exist yet.)
 
-| Chunk | What                                                                          | PR        | Status |
-| ----- | ----------------------------------------------------------------------------- | --------- | ------ |
-| A0    | Schema sweep + migrate 16 entries to the `App` shape                          | #12       | ✅     |
-| A1    | +18 entries — agent / orchestration / vector-db                               | #13       | ✅     |
-| A2    | +18 entries — voice / vision / image-gen / video / audio                      | #14       | ✅     |
-| A3    | +18 entries — search / observability / fine-tuning / browser-ext / automation | #15       | ✅     |
-| A4    | Freshness audit + status filter + platform contract                           | #16       | ✅     |
-| B     | Route restructure (`/tools`→`/`, home→`/about`, consolidate portfolio)        | #17       | ✅     |
-| C     | Per-app detail pages + SEO                                                    | #18       | ✅     |
-| D     | UX polish — featured carousel, multi-select, sort, infinite scroll            | #19       | ✅     |
-| E     | Sponsored slots scaffold + 1 self-promo                                       | #21       | ✅     |
-| —     | Featured-carousel polish · legacy `/apps` redirect hotfix                     | #22 · #20 | ✅     |
-| F     | Design-system foundation (tokens + utilities + UI primitives)                 | #25       | ✅     |
-| G     | Mobile directory hardening                                                    | #26       | ✅     |
-| —     | Recovery-oriented empty state (ghost grid + chips)                            | #27       | ✅     |
-| H-1   | Mobile filter drawer + active-filter pills + clear-all undo                   | #28       | ✅     |
-| H-2   | ⌘K command palette (global, lazy)                                             | #29       | ✅     |
-| I     | Interactive featured carousel (arrows, dots, fade) + a11y fix                 | #30       | ✅     |
-| J     | Detail pages + sticky mobile action bar                                       | #31       | ✅     |
-| K     | **/workflow narrative redesign** (vibecoding guide; sub-chunks K-1/K-2/K-3)   | —         | 🟦     |
-| L     | About + Portfolio section revamp                                              | —         | ⬜     |
-| M     | Global chrome + motion polish                                                 | —         | ⬜     |
+| Chunk | What                                                                                   | PR        | Status |
+| ----- | -------------------------------------------------------------------------------------- | --------- | ------ |
+| A0    | Schema sweep + migrate 16 entries to the `App` shape                                   | #12       | ✅     |
+| A1    | +18 entries — agent / orchestration / vector-db                                        | #13       | ✅     |
+| A2    | +18 entries — voice / vision / image-gen / video / audio                               | #14       | ✅     |
+| A3    | +18 entries — search / observability / fine-tuning / browser-ext / automation          | #15       | ✅     |
+| A4    | Freshness audit + status filter + platform contract                                    | #16       | ✅     |
+| B     | Route restructure (`/tools`→`/`, home→`/about`, consolidate portfolio)                 | #17       | ✅     |
+| C     | Per-app detail pages + SEO                                                             | #18       | ✅     |
+| D     | UX polish — featured carousel, multi-select, sort, infinite scroll                     | #19       | ✅     |
+| E     | Sponsored slots scaffold + 1 self-promo                                                | #21       | ✅     |
+| —     | Featured-carousel polish · legacy `/apps` redirect hotfix                              | #22 · #20 | ✅     |
+| F     | Design-system foundation (tokens + utilities + UI primitives)                          | #25       | ✅     |
+| G     | Mobile directory hardening                                                             | #26       | ✅     |
+| —     | Recovery-oriented empty state (ghost grid + chips)                                     | #27       | ✅     |
+| H-1   | Mobile filter drawer + active-filter pills + clear-all undo                            | #28       | ✅     |
+| H-2   | ⌘K command palette (global, lazy)                                                      | #29       | ✅     |
+| I     | Interactive featured carousel (arrows, dots, fade) + a11y fix                          | #30       | ✅     |
+| J     | Detail pages + sticky mobile action bar                                                | #31       | ✅     |
+| K     | **/workflow narrative redesign** (vibecoding guide; K-1/K-2/K-3) — _later unpublished_ | #32–#35   | ✅     |
+| —     | Unpublish `/workflow`; refocus on the directory (+ product-direction sweep)            | #36       | ✅     |
+| L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                     | —         | 🟦     |
+| M     | Global chrome + motion polish                                                          | —         | ⬜     |
 
 ---
 
@@ -171,12 +172,20 @@ the 3 products + 12 artifacts + platform tabs, rename **phase → stage**. Autho
 
 ---
 
-### ⬜ Chunk L — About + Portfolio section revamp
+### 🟦 Chunk L — About + Portfolio section revamp
 
-- `/about` section-rhythm standardization (adopt responsive `.section-y`); hero-CTA + manifesto +
-  portfolio-grid responsive sweep; deeper About/Portfolio identity pass.
-- Contrast sweep on portfolio surfaces: `card-bits` `StatLine` labels + `scroll-cue` (full
-  `--color-ink-dim`); progresses the `[a11y]` 0.98 gate-raise.
+- `/about` section-rhythm standardization: responsive `.section-y` + `.section-y-lg` (Manifesto
+  centerpiece), adopted across Now/Next, How-we-work, AppsPreview; anchor `scroll-mt` on the real
+  targets (`#now-next`, `#portfolio`).
+- Contrast sweep on portfolio surfaces: introduced `--color-ink-soft` and removed the sub-AA
+  `text-ink-dim/70` labels in `card-bits` `StatLine`, `scroll-cue`, `project-filter-bar`; progresses
+  the `[a11y]` 0.98 gate-raise (gate itself retightens in Chunk M).
+- Identity pass: a compact, data-derived credibility **stats strip** on `/about`
+  (`components/home/stats-strip.tsx` + `lib/projects.ts` `portfolioStats()`) — 9 apps shipped, chains
+  explored, building since 2020; no fabricated figures.
+- Note: principle-card `<h3>` semantics, the Manifesto-header reduced-motion guard, and card
+  hover/touch safety were already correct (Tailwind v4 gates `hover:` + the global
+  `[data-motion="reduce"]` rule) — no redundant changes made.
 
 ---
 
