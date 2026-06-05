@@ -21,7 +21,7 @@ export default function HomePage() {
   const categories = new Set(allApps.map((a) => a.category)).size;
 
   return (
-    <div className="relative overflow-hidden px-6 pt-24 pb-32 sm:pt-32">
+    <div className="relative overflow-clip px-6 pt-24 pb-32 sm:pt-32">
       <GlowOrb
         className="-top-32 left-1/2 -translate-x-1/2"
         size={720}

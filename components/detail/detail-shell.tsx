@@ -32,7 +32,7 @@ export function DetailShell({
   return (
     <div
       className={cn(
-        "relative overflow-hidden px-6 pt-32 pb-28 sm:pt-40 sm:pb-24",
+        "relative overflow-clip px-6 pt-32 pb-28 sm:pt-40 sm:pb-24",
         dimmed && "opacity-80",
       )}
     >

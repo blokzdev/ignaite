@@ -52,8 +52,9 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | K     | **/workflow narrative redesign** (vibecoding guide; K-1/K-2/K-3) — _later unpublished_ | #32–#35   | ✅     |
 | —     | Unpublish `/workflow`; refocus on the directory (+ product-direction sweep)            | #36       | ✅     |
 | L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                     | #37       | ✅     |
-| M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)    | —         | 🟦     |
+| M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)    | #38       | ✅     |
 | M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)  | #39       | ✅     |
+| —     | Bugfix: `overflow:hidden`→`clip` so the directory filter bar's `sticky` actually pins  | —         | 🟦     |
 
 ---
 
