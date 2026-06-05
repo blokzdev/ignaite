@@ -49,6 +49,20 @@
 }
 
 @layer base {
+  :root {
+    /* Sticky-nav height. Sticky bars (the directory filter bar) offset from this
+       so that when the auto-hiding nav slides away, they reclaim the top edge. */
+    --nav-h: 4rem;
+  }
+  @media (min-width: 40rem) {
+    :root {
+      --nav-h: 5rem;
+    }
+  }
+  html[data-nav-hidden="true"] {
+    --nav-h: 0rem;
+  }
+
   html {
     background-color: var(--color-canvas);
     color: var(--color-ink);

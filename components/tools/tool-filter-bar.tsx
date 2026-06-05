@@ -43,7 +43,7 @@ export function ToolFilterBar({ total, filtered }: Readonly<Props>) {
   }, [filter.q]);
 
   return (
-    <div className="sticky top-16 z-30 -mx-6 mb-10 border-y border-white/[0.06] bg-[var(--color-canvas)]/85 px-6 py-4 backdrop-blur-xl sm:top-20">
+    <div className="ease-out-expo sticky top-[var(--nav-h)] z-30 -mx-6 mb-10 border-y border-white/[0.06] bg-[var(--color-canvas)]/85 px-6 py-4 backdrop-blur-xl transition-[top] duration-300">
       <div className="container-site flex flex-col gap-3">
         <div className="flex items-center gap-3">
           <div className="relative flex-1">
