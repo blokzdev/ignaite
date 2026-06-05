@@ -51,8 +51,9 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | J     | Detail pages + sticky mobile action bar                                                | #31       | ✅     |
 | K     | **/workflow narrative redesign** (vibecoding guide; K-1/K-2/K-3) — _later unpublished_ | #32–#35   | ✅     |
 | —     | Unpublish `/workflow`; refocus on the directory (+ product-direction sweep)            | #36       | ✅     |
-| L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                     | —         | 🟦     |
-| M     | Global chrome + motion polish                                                          | —         | ⬜     |
+| L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                     | #37       | ✅     |
+| M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)    | —         | 🟦     |
+| M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)  | —         | ⬜     |
 
 ---
 
@@ -189,7 +190,16 @@ the 3 products + 12 artifacts + platform tabs, rename **phase → stage**. Autho
 
 ---
 
-### ⬜ Chunk M — Global chrome + motion polish
+### 🟦 Chunk M — Global chrome + motion polish (split M-1 chrome / M-2 a11y gate)
+
+**M-1 (directory-app feel):** auto-hiding sticky nav (`use-scroll-direction`, reduced-motion-safe,
+reveals on `focus-within`) that publishes `--nav-h`; the directory filter bar sticks to
+`top: var(--nav-h)` so it rides to the top edge when the nav hides — a coordinated subsystem, not two
+hacks. Plus active-route highlight (`usePathname` + `lib/nav.ts`, nav + mobile sheet), a desktop
+"Search ⌘K" pill + a mobile sheet "Search apps…" item (both fire the existing `blokz:open-command`).
+
+**M-2 (hardening, next PR):** `100vh→100dvh` + `min-h-dvh` hero + global `scroll-padding-top:var(--nav-h)`;
+`/contact` contrast sweep; raise `lighthouserc.json` a11y gate `0.95→0.98` and close the BACKLOG item.
 
 - `site-nav.tsx`: active-route highlighting (`usePathname()`); **⌘K trigger wired to the
   `blokz:open-command` event** (H-2); optional scroll-direction hide/show via
