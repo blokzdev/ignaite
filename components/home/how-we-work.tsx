@@ -21,7 +21,7 @@ const pillars: ReadonlyArray<{ label: string; body: string }> = [
 
 export function HowWeWork() {
   return (
-    <section id="how-we-work" className="section-y relative scroll-mt-24 overflow-hidden px-6">
+    <section id="how-we-work" className="section-y relative overflow-hidden px-6">
       <GlowOrb className="top-0 right-0" size={460} color="var(--color-accent)" opacity={0.05} />
 
       <div className="relative mx-auto max-w-5xl">

@@ -6,7 +6,7 @@ export function AppsPreview() {
   if (items.length === 0) return null;
 
   return (
-    <section id="portfolio" className="section-y relative scroll-mt-24 px-6">
+    <section id="portfolio" className="section-y relative px-6">
       <div className="container-site">
         <header className="mb-12 max-w-xl">
           <p className="text-eyebrow text-[var(--color-accent)]">{"// In production"}</p>

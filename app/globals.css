@@ -69,12 +69,14 @@
     color-scheme: dark;
     -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    /* In-page anchors clear the sticky nav (0 once the nav auto-hides). */
+    scroll-padding-top: var(--nav-h);
   }
 
   body {
     background-color: var(--color-canvas);
     color: var(--color-ink);
-    min-height: 100vh;
+    min-height: 100dvh;
     overflow-x: hidden;
   }
 

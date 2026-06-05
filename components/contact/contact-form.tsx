@@ -168,7 +168,7 @@ export function ContactForm() {
 }
 
 const inputClass =
-  "block w-full rounded-2xl bg-white/[0.04] px-4 py-3 text-base text-[var(--color-ink)] ring-1 ring-white/[0.08] ring-inset transition-colors placeholder:text-[var(--color-ink-dim)]/60 focus:bg-white/[0.06] focus:ring-[var(--color-accent)]/40 focus:outline-none";
+  "block w-full rounded-2xl bg-white/[0.04] px-4 py-3 text-base text-[var(--color-ink)] ring-1 ring-white/[0.08] ring-inset transition-colors placeholder:text-[var(--color-ink-dim)] focus:bg-white/[0.06] focus:ring-[var(--color-accent)]/40 focus:outline-none";
 
 function Field({
   id,
@@ -191,7 +191,7 @@ function Field({
           {label}
         </label>
         {hint && (
-          <span className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)]/60">
+          <span className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)]">
             {hint}
           </span>
         )}
