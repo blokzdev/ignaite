@@ -20,7 +20,7 @@ export function Manifesto() {
   const orbBY = useTransform(scrollYProgress, [0, 1], reduced ? [0, 0] : [-80, 140]);
 
   return (
-    <section ref={ref} className="relative overflow-hidden px-6 py-32 sm:py-48">
+    <section ref={ref} className="section-y-lg relative overflow-hidden px-6">
       <motion.div aria-hidden style={{ y: orbAY }} className="pointer-events-none absolute inset-0">
         <GlowOrb
           className="top-1/3 -left-32"

@@ -98,7 +98,7 @@ export function ProjectFilterBar({ total, filtered }: Readonly<Props>) {
 function FilterRow({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div className="flex flex-wrap items-center gap-1.5">
-      <span className="mr-2 font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)]/70 uppercase">
+      <span className="mr-2 font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
         {label}
       </span>
       {children}
