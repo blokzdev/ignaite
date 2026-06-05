@@ -90,7 +90,6 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 - [ ] **[polish]** Swap the in-memory IP rate limiter (`lib/rate-limit.ts`) for `@upstash/ratelimit` once we want hardened protection against sustained abuse. Today it resets on cold start and doesn't share state across regions — fine for expected volume.
 - [ ] **[polish]** Full PWA installability — add a service worker if mobile install rate becomes a stated goal. `app/manifest.ts` already advertises the icons.
 - [ ] **[polish]** Playwright smoke suite for the hero, apps directory filter, workflow, and contact-form happy path. The CI workflow (`.github/workflows/ci.yml`) is ready to host a `test` job once the suite + `@playwright/test` land.
-- [ ] **[a11y]** Raise the Lighthouse-CI accessibility gate from the temporary **0.95 floor back to 0.98** (`lighthouserc.json`). `/about` and `/contact` score 0.96 today — almost certainly color-contrast on `--color-ink-dim` / low-opacity mono labels over dark surfaces. Fix during Iteration 5's hardening chunks (G/L), then retighten the gate. **Progress (Chunk L):** the About + Portfolio contrast offenders are fixed — introduced `--color-ink-soft` and removed the sub-AA `text-ink-dim/70` labels in `card-bits` `StatLine`, `scroll-cue`, and `project-filter-bar`. Remaining before the gate-raise: sweep `/contact` and re-tighten `lighthouserc.json` (Chunk M).
 - [ ] **[verify]** Lighthouse-CI **Best-Practices** reads ~0.96 in CI because `@vercel/analytics` + `@vercel/speed-insights` request `/_vercel/insights/*`, which 404s anywhere that isn't Vercel (console errors), plus Lighthouse's advisory CSP/COOP audits. It's a CI-environment artifact — prod (on Vercel) is ~100 — so the assertion is `warn`, not `error`. Optionally add a CSP/COOP header pass later to reach a real 100.
 
 ### Tooling
@@ -109,6 +108,11 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 ---
 
 ## Resolved (rolling archive)
+
+Iteration 5 Chunks L–M — About/Portfolio revamp + global chrome + a11y gate
+
+- [x] **[a11y]** Raised the Lighthouse-CI accessibility gate back to **0.98** (`lighthouserc.json`). Contrast offenders fixed across Chunks L + M: introduced `--color-ink-soft`; removed the sub-AA `text-ink-dim/70` labels in `card-bits` `StatLine`, `scroll-cue`, `project-filter-bar` (L), and the `/contact` placeholder + char-count hint `…ink-dim/60` (M-2). All five audited routes now clear AA on the static audit.
+- [x] **[polish]** (M-1) Auto-hiding sticky nav + directory filter-bar pin via a shared `--nav-h`; ⌘K palette trigger (desktop pill + mobile sheet item); active-route highlight (`lib/nav.ts`). (M-2) `100dvh` body + `min-h-dvh` hero + global `scroll-padding-top: var(--nav-h)` (replaced per-section `scroll-mt-24`).
 
 Iteration 5 Chunk K — /workflow redesign (chat-transcript narrative)
 

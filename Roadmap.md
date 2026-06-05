@@ -53,11 +53,11 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | —     | Unpublish `/workflow`; refocus on the directory (+ product-direction sweep)            | #36       | ✅     |
 | L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                     | #37       | ✅     |
 | M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)    | —         | 🟦     |
-| M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)  | —         | ⬜     |
+| M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)  | #39       | ✅     |
 
 ---
 
-## Iteration 5 — Directory-grade UI/UX refinement (Chunks F → L)
+## Iteration 5 — Directory-grade UI/UX refinement (Chunks F → M) ✅ complete
 
 **Goal**: make blokz.dev look and feel like a polished directory product on every screen
 size — fixed/pinned search & filter, mobile layouts with no zoom/overflow, larger tap
@@ -190,7 +190,7 @@ the 3 products + 12 artifacts + platform tabs, rename **phase → stage**. Autho
 
 ---
 
-### 🟦 Chunk M — Global chrome + motion polish (split M-1 chrome / M-2 a11y gate)
+### ✅ Chunk M — Global chrome + motion polish (split M-1 chrome / M-2 a11y gate)
 
 **M-1 (directory-app feel):** auto-hiding sticky nav (`use-scroll-direction`, reduced-motion-safe,
 reveals on `focus-within`) that publishes `--nav-h`; the directory filter bar sticks to
