@@ -61,14 +61,16 @@ const nextConfig: NextConfig = {
     return [
       { source: "/tools", destination: "/", permanent: true },
       { source: "/apps", destination: "/about", permanent: true },
+      // The portfolio (/portfolio/<slug>) is now dormant (unpublished while the
+      // studio refocuses on the AI-apps directory). The legacy /apps/<slug>
+      // explorer URLs and the /portfolio namespace both fall back to /about.
+      // Non-permanent so a revived portfolio can reclaim these without penalty.
       {
         source: `/apps/:slug(${legacySlugs})`,
-        destination: "/portfolio/:slug",
-        permanent: true,
+        destination: "/about",
+        permanent: false,
       },
-      // /portfolio namespace root has no listing of its own (the portfolio
-      // section lives inside /about). Non-permanent so we can restore a
-      // dedicated listing later without an SEO penalty.
+      { source: "/portfolio/:path*", destination: "/about", permanent: false },
       { source: "/portfolio", destination: "/about", permanent: false },
       // /workflow is dormant (unpublished, retained under app/(marketing)/_workflow).
       // Non-permanent so republishing later carries no SEO penalty — the

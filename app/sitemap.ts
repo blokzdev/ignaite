@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import { apps } from "@/data/apps";
-import { projects } from "@/data/projects";
 import { siteUrl } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -18,11 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // bump; archived entries get demoted.
     priority: a.status === "archived" ? 0.4 : a.blokzMark ? 0.75 : 0.65,
   }));
-  const portfolioRoutes: MetadataRoute.Sitemap = projects.map((p) => ({
-    url: `${siteUrl}/portfolio/${p.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.6,
-  }));
-  return [...staticRoutes, ...appRoutes, ...portfolioRoutes];
+  // Portfolio (/portfolio/<slug>) is dormant — unpublished while the studio
+  // refocuses on the AI-apps directory. Re-add when it's revived.
+  return [...staticRoutes, ...appRoutes];
 }

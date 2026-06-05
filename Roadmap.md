@@ -226,6 +226,20 @@ live in `BACKLOG.md` → Workflow. (Chunk K's work is preserved, just unpublishe
 
 ---
 
+### ↩︎ Out-of-sequence — portfolio descoped, `/about` fully forward-looking
+
+Product-direction change: the studio's legacy **non-AI Android blockchain explorers** were removed
+from the public site to keep the focus on the AI-apps directory + vibecoding studio identity.
+`/about` is now fully forward-looking (Hero → Now/Next → How-we-work → Manifesto) — the
+portfolio grid + the blockchain-derived stats strip were dropped, and the Now/Next "Now" copy was
+reframed off the explorers. The portfolio is **kept dormant** (mirrors `/workflow`): route moved to
+`app/(marketing)/_portfolio/`, dropped from the sitemap, `/portfolio/*` + the legacy `/apps/<slug>`
+explorer URLs redirect to `/about`. `data/projects.ts` + `components/apps/*` + the orphaned
+`apps-preview`/`stats-strip` are retained. The real OSS project **WebSight** is seeded into the data
+for the eventual revival (build it out with real AI apps / web apps / OSS over time).
+
+---
+
 ## After Iteration 5
 
 Remaining `BACKLOG.md` items are mostly `[user]` launch blockers (Vercel env, Resend domain,

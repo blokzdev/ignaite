@@ -1,6 +1,6 @@
 # Blokz.dev
 
-Marketing site for **Blokz Development Co.** — a vibecoding studio building AI apps (with a heritage of shipped blockchain explorers).
+Marketing site for **Blokz Development Co.** — a vibecoding studio building AI apps end-to-end with Claude Code.
 
 The site is itself a demonstration: it's built end-to-end with Claude Code. The public surface is the **AI-apps directory** (`/`), the studio story (`/about`), and contact (`/contact`). (A detailed `/workflow` walkthrough exists in the repo but is currently unpublished — see below.)
 
@@ -43,22 +43,22 @@ Pre-push auto-runs `pnpm typecheck`.
 
 - **`/`** — the **AI-apps directory**: ~70 curated tools with category / pricing / Blokz-mark / status filters + search + sort (`nuqs` URL state), a featured carousel, infinite scroll, and light-touch sponsored slots
 - **`/apps/[slug]`** — per-app detail with `SoftwareApplication` JSON-LD (one SSG page per directory app)
-- **`/about`** — studio identity: R3F hero (cursor-reactive flow-field shader) → Now/Next band → manifesto → portfolio of Blokz's own shipped apps
-- **`/portfolio/[slug]`** — per-project detail for Blokz's shipped apps
+- **`/about`** — studio identity: R3F hero (cursor-reactive flow-field shader) → Now/Next band → how-we-work → manifesto
 - **`/contact`** — a Resend-powered server action with IP rate-limiting and an honest "offline" fallback when `RESEND_API_KEY` is unset
+- **`/portfolio/[slug]`** _(dormant — not currently published)_ — per-project detail for Blokz's own shipped apps. Retained under the Next private folder `app/(marketing)/_portfolio/` (with `data/projects.ts` + `components/apps/*`) for when a real AI-app / web-app / OSS portfolio is revived
 - **`/workflow`** _(dormant — not currently published)_ — a 4-stage Claude Code session walkthrough (conceptualize → specify → build → ship) across three sample products (Blokz Brief, Eval Forge, Edge Memo), rendered as chat transcripts, plus 12 Shiki-highlighted MDX artifacts at `/workflow/artifacts/[product]/[type]`. Retained in the repo under the Next private folder `app/(marketing)/_workflow/`; rename to `workflow/` to republish (see `BACKLOG.md`).
 
-**Two content tracks** (don't conflate them):
+**Content tracks:**
 
-- **Directory** (the `/` homepage): [`data/apps.ts`](./data/apps.ts) · schema [`types/app.ts`](./types/app.ts) · UI `components/tools/*`
-- **Portfolio** (`/about` + `/portfolio`): [`data/projects.ts`](./data/projects.ts) · schema [`types/project.ts`](./types/project.ts) · UI `components/apps/*`
+- **Directory** (the live `/` homepage): [`data/apps.ts`](./data/apps.ts) · schema [`types/app.ts`](./types/app.ts) · UI `components/tools/*`
+- **Portfolio** _(dormant)_: [`data/projects.ts`](./data/projects.ts) · schema [`types/project.ts`](./types/project.ts) · UI `components/apps/*` — retained for a future revival, not surfaced on the live site.
 
 ## Adding an entry
 
 - **Directory app** → append an `App` to `data/apps.ts` (`slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` with ≥1 `primary: true`).
-- **Portfolio project** → append a `Project` to `data/projects.ts`, and drop an icon at `public/projects/<slug>/icon.png` (512×512). Until then, cards render a generated 2-letter monogram.
+- **Portfolio project** _(dormant)_ → append a `Project` to `data/projects.ts`; it won't surface until the portfolio is republished (rename `_portfolio/` → `portfolio/`, re-add the sitemap + redirect).
 
-Full recipes (both tracks, new workflow phases, brand-color changes, etc.) live in `CLAUDE.md` §5 + §12.
+Full recipes (directory + the dormant portfolio/workflow, brand-color changes, etc.) live in `CLAUDE.md` §5 + §12.
 
 ## Deploy
 

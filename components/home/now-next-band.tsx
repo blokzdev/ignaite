@@ -17,13 +17,11 @@ export function NowNextBand() {
         <div className="flex flex-col gap-4 bg-[var(--color-canvas)]/85 p-8 sm:p-10">
           <p className="text-eyebrow text-[var(--color-accent)]">{"// Now"}</p>
           <h2 className="text-3xl sm:text-4xl">
-            <span className="text-display text-[var(--color-ink)]">
-              Building cool things since 2020.
-            </span>
+            <span className="text-display text-[var(--color-ink)]">Curating the AI frontier.</span>
           </h2>
           <p className="text-base text-[var(--color-ink-dim)]">
-            A portfolio of production Android apps shipping on Google Play — blockchain explorers
-            spanning BTC, ETH, BNB, TRON, and more. Quiet runway funding the studio while we pivot.
+            A growing, hand-vetted directory of the AI apps, agents, and tooling we actually rate —
+            with a Blokz mark on the picks we&apos;ve deployed ourselves.
           </p>
         </div>
 
@@ -31,8 +29,8 @@ export function NowNextBand() {
         <div className="flex flex-col gap-4 bg-[var(--color-canvas)]/85 p-8 sm:p-10">
           <p className="text-eyebrow text-[var(--color-violet)]">{"// Next"}</p>
           <h2 className="text-3xl sm:text-4xl">
-            <span className="text-display text-[var(--color-ink)]">Sophisticated AI</span>{" "}
-            <span className="text-display text-[var(--color-violet)]">for B2B + B2C.</span>
+            <span className="text-display text-[var(--color-ink)]">Shipping our own</span>{" "}
+            <span className="text-display text-[var(--color-violet)]">AI for B2B + B2C.</span>
           </h2>
           <p className="text-base text-[var(--color-ink-dim)]">
             Multi-agent systems · edge inference · memory architectures. Research-rooted product
