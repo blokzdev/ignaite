@@ -103,6 +103,62 @@
   }
 }
 
+/* Sheet / dialog enter+exit motion. Keyframe animations (not transitions) so
+   Radix's Presence plays them on mount AND defers unmount until the exit
+   finishes. The reduced-motion block above collapses these to ~instant. The
+   "in" keyframes omit the to-frame and the "out" keyframes omit the from-frame
+   so they animate from/to the element's natural resting state. */
+@keyframes sheet-in-bottom {
+  from {
+    transform: translateY(100%);
+  }
+}
+@keyframes sheet-out-bottom {
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes sheet-in-right {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes sheet-out-right {
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes sheet-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+}
+@keyframes sheet-out-left {
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes sheet-in-top {
+  from {
+    transform: translateY(-100%);
+  }
+}
+@keyframes sheet-out-top {
+  to {
+    transform: translateY(-100%);
+  }
+}
+@keyframes overlay-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes overlay-out {
+  to {
+    opacity: 0;
+  }
+}
+
 @layer utilities {
   .glass {
     background-color: rgb(255 255 255 / 0.04);

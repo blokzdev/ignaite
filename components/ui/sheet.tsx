@@ -16,7 +16,7 @@ const SheetOverlay = React.forwardRef<
   <DialogPrimitive.Overlay
     ref={ref}
     className={cn(
-      "fixed inset-0 z-50 bg-black/70 backdrop-blur-sm transition-opacity duration-300 data-[state=closed]:opacity-0",
+      "fixed inset-0 z-50 bg-black/70 backdrop-blur-sm data-[state=closed]:animate-[overlay-out_200ms_ease-in_forwards] data-[state=open]:animate-[overlay-in_250ms_ease-out]",
       className,
     )}
     {...props}
@@ -28,11 +28,11 @@ type Side = "left" | "right" | "top" | "bottom";
 
 const sideClasses: Record<Side, string> = {
   right:
-    "inset-y-0 right-0 h-full w-3/4 max-w-sm border-l border-white/[0.06] data-[state=closed]:translate-x-full",
-  left: "inset-y-0 left-0 h-full w-3/4 max-w-sm border-r border-white/[0.06] data-[state=closed]:-translate-x-full",
-  top: "inset-x-0 top-0 w-full border-b border-white/[0.06] data-[state=closed]:-translate-y-full",
+    "inset-y-0 right-0 h-full w-3/4 max-w-sm border-l border-white/[0.06] data-[state=closed]:animate-[sheet-out-right_250ms_cubic-bezier(0.22,1,0.36,1)_forwards] data-[state=open]:animate-[sheet-in-right_300ms_cubic-bezier(0.22,1,0.36,1)]",
+  left: "inset-y-0 left-0 h-full w-3/4 max-w-sm border-r border-white/[0.06] data-[state=closed]:animate-[sheet-out-left_250ms_cubic-bezier(0.22,1,0.36,1)_forwards] data-[state=open]:animate-[sheet-in-left_300ms_cubic-bezier(0.22,1,0.36,1)]",
+  top: "inset-x-0 top-0 w-full border-b border-white/[0.06] data-[state=closed]:animate-[sheet-out-top_250ms_cubic-bezier(0.22,1,0.36,1)_forwards] data-[state=open]:animate-[sheet-in-top_300ms_cubic-bezier(0.22,1,0.36,1)]",
   bottom:
-    "inset-x-0 bottom-0 w-full border-t border-white/[0.06] data-[state=closed]:translate-y-full",
+    "inset-x-0 bottom-0 w-full border-t border-white/[0.06] data-[state=closed]:animate-[sheet-out-bottom_250ms_cubic-bezier(0.22,1,0.36,1)_forwards] data-[state=open]:animate-[sheet-in-bottom_300ms_cubic-bezier(0.22,1,0.36,1)]",
 };
 
 interface SheetContentProps extends React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> {
@@ -48,7 +48,7 @@ const SheetContent = React.forwardRef<
     <DialogPrimitive.Content
       ref={ref}
       className={cn(
-        "fixed z-50 bg-[var(--color-surface)] p-6 shadow-2xl ring-1 ring-white/[0.08] transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]",
+        "fixed z-50 bg-[var(--color-surface)] p-6 shadow-2xl ring-1 ring-white/[0.08]",
         sideClasses[side],
         className,
       )}

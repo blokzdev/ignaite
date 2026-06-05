@@ -15,7 +15,10 @@ export function FilterDrawerPortal({ open, onOpenChange, total, filtered }: Read
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent side="bottom" className="max-h-[85dvh] overflow-y-auto rounded-t-2xl pt-5">
+      <SheetContent
+        side="bottom"
+        className="no-scrollbar max-h-[85dvh] overflow-y-auto rounded-t-2xl pt-5"
+      >
         <SheetTitle className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
           Filters
         </SheetTitle>
