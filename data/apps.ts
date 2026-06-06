@@ -2350,9 +2350,16 @@ export const apps: ReadonlyArray<App> = [
 // platform so visitors know where the app runs. Runs at module load on the
 // server (RSC), throws loudly during dev/build if an entry slips through.
 if (process.env.NODE_ENV !== "production") {
+  const seenSlugs = new Set<string>();
   for (const app of apps) {
     if (app.platforms.length === 0) {
       throw new Error(`App "${app.slug}" has no platforms. Every entry needs ≥1.`);
     }
+    // Hard dedup: a duplicate slug fails the build (and so the CI gate), so an
+    // accidental re-listing can never reach main even if a routine misjudges.
+    if (seenSlugs.has(app.slug)) {
+      throw new Error(`Duplicate app slug "${app.slug}". Every entry needs a unique slug.`);
+    }
+    seenSlugs.add(app.slug);
   }
 }

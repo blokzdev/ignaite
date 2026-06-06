@@ -11,10 +11,23 @@ interface Props {
 }
 
 const GAP = 20; // gap-5
+const MAX_FEATURED = 11; // cap the rail; if more apps are flagged, show a random 11.
 
 export function FeaturedCarousel({ apps }: Readonly<Props>) {
-  const featured = apps.filter((a) => a.featured);
   const reduced = useReducedMotion();
+
+  // Show at most MAX_FEATURED of the flagged apps, as a random subset chosen once
+  // per mount (fresh each visit). The carousel renders client-only — it sits
+  // behind the homepage's Suspense CSR boundary — so the lazy initializer never
+  // runs on the server and can't cause a hydration mismatch.
+  const [featured] = useState<ReadonlyArray<App>>(() => {
+    const pool = apps.filter((a) => a.featured);
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    return pool.slice(0, MAX_FEATURED);
+  });
 
   const scrollerRef = useRef<HTMLUListElement | null>(null);
   const [canLeft, setCanLeft] = useState(false);
