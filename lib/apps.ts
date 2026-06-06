@@ -50,6 +50,7 @@ function matchApp(a: App, query: string): boolean {
     a.name,
     a.tagline,
     a.description,
+    a.insight ?? "",
     a.vendor ?? "",
     a.category,
     ...(a.tags ?? []),

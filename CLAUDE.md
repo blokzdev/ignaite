@@ -211,7 +211,7 @@ package.json  pnpm-lock.yaml
 
 ### Add a directory app (the `/` directory — App track)
 
-1. Append an `App` entry to `data/apps.ts` (schema in `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1 `primary: true`). Optional: `vendor`, `openSource` (license signal — **decoupled from `pricing`**, which is cost-only: `free`/`freemium`/`paid`/`byo-key`, no `open-source`), `deployment` (`cloud`/`self-host`/`local`/`hybrid`, set where hosting is a real axis — unset for libraries/SDKs), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`. (Model-serving/inference/gateways → the `inference` category.)
+1. Append an `App` entry to `data/apps.ts` (schema in `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1 `primary: true`). Optional: `insight` (the directory's signature signal — a single ≤140-char, non-obvious, **verifiable** editorial sentence per listing; never fabricated, omit if nothing sharp), `vendor`, `openSource` (license signal — **decoupled from `pricing`**, which is cost-only: `free`/`freemium`/`paid`/`byo-key`, no `open-source`; the card/detail derive an open-source / **open-core** / proprietary chip from `openSource` + `pricing`), `deployment` (`cloud`/`self-host`/`local`/`hybrid`, set where hosting is a real axis — unset for libraries/SDKs), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`. (Model-serving/inference/gateways → the `inference` category.)
 2. One card renders all apps — `components/tools/tool-card.tsx` (no per-type dispatch); the detail body is `components/tools/app-detail.tsx`.
 3. Set `featured: true` to surface it in the featured carousel (use sparingly).
 4. Run `pnpm dev` and verify it appears on `/`, that the category/pricing/mark/status filter chips include it, and that `/apps/<slug>` renders.
@@ -485,8 +485,8 @@ The `/` directory is the product — keep it comprehensive + current. Two commit
 encode the flow (see `docs/directory-playbook.md`):
 
 - **`/add-app <name | url | list>`** — research + author new `App` entries into `data/apps.ts`
-  (dedup → web-verify → schema-valid entry → validate). No fabrication; `addedAt`/`lastVerifiedAt` =
-  today; `featured` sparingly.
+  (dedup → web-verify → schema-valid entry → validate). No fabrication; author a verifiable `insight`;
+  `addedAt`/`lastVerifiedAt` = today; `featured` sparingly.
 - **`/discover-apps [focus]`** — autonomous counterpart to `/add-app`: finds net-new apps not yet
   listed and opens a PR. Built for unattended/scheduled runs.
 - **`/audit-directory [--category c] [--stale-since date]`** — re-verify existing listings (links,

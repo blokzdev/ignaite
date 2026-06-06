@@ -51,6 +51,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
           a.name,
           a.tagline,
           a.description,
+          a.insight ?? "",
           a.vendor ?? "",
           a.category,
           ...(a.tags ?? []),

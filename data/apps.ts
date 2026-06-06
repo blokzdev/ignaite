@@ -15,6 +15,8 @@ export const apps: ReadonlyArray<App> = [
   // ── IDE / Agent surfaces ───────────────────────────────────────────────
   {
     slug: "claude-code",
+    insight:
+      "Ships the same agent across CLI, IDE extension, desktop, and web from one codebase — and it's the tool that wrote this very directory.",
     name: "Claude Code",
     tagline: "Anthropic's official CLI / IDE / web agent. Primary author at Blokz.",
     description:
@@ -42,6 +44,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "cursor",
+    insight:
+      "A full VS Code fork, so existing extensions and keybindings carry over — and one subscription covers Claude, GPT, and Gemini without a key.",
     name: "Cursor",
     tagline: "AI-first code editor. Multi-model, tab-completion native.",
     description:
@@ -68,6 +72,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "windsurf",
+    insight:
+      "Its Cascade agent plans before it edits, which pays off when a change spans many files rather than a single buffer.",
     name: "Windsurf",
     tagline: "Cascade agent + IDE. Codeium's developer surface.",
     description:
@@ -93,6 +99,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "aider",
+    insight:
+      "Auto-commits each change to git, so every AI edit is its own revertable commit — and it runs against local models, not just frontier APIs.",
     name: "Aider",
     tagline: "Terminal-native pair programmer. BYO key, BYO model.",
     description:
@@ -121,6 +129,8 @@ export const apps: ReadonlyArray<App> = [
   // ── MCP servers ────────────────────────────────────────────────────────
   {
     slug: "mcp-github",
+    insight:
+      "Beyond PRs and issues it exposes secret-scanning, so an agent can audit a repo's security, not just read its code.",
     name: "GitHub MCP",
     tagline: "Reads + writes GitHub from any MCP-aware agent.",
     description:
@@ -145,6 +155,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "mcp-supabase",
+    insight:
+      "Lets an agent run Postgres migrations and deploy edge functions in-context, erasing the usual jump between editor and database dashboard.",
     name: "Supabase MCP",
     tagline: "Postgres + auth + edge functions from inside the agent.",
     description:
@@ -166,6 +178,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "mcp-vercel",
+    insight:
+      "Archived here: the community github.com/vercel/mcp URL was retired once Vercel folded MCP into its first-party platform instead.",
     name: "Vercel MCP",
     tagline: "Deploys + build logs + runtime logs in agent context.",
     description:
@@ -186,6 +200,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Eval / observability ───────────────────────────────────────────────
   {
     slug: "promptfoo",
+    insight:
+      "Define evals in plain YAML and run one goldset across models in CI — a prompt regression fails the build like any other test.",
     name: "Promptfoo",
     tagline: "Open-source LLM eval CLI. Rubric scoring + golden sets.",
     description:
@@ -211,6 +227,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "braintrust",
+    insight:
+      "Where teams graduate when a CI eval file stops scaling — it adds dataset versioning and OpenTelemetry traces to the loop.",
     name: "Braintrust",
     tagline: "Hosted eval + tracing platform for LLM apps.",
     description:
@@ -238,6 +256,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Infra ──────────────────────────────────────────────────────────────
   {
     slug: "vercel",
+    insight:
+      "The infrastructure this directory itself runs on — Next.js-native deploys with edge functions powering the contact form.",
     name: "Vercel",
     tagline: "Where blokz.dev lives. Edge functions + image opt + analytics.",
     description:
@@ -261,6 +281,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "supabase",
+    insight:
+      "Built on plain Postgres, so there's no proprietary lock-in — and the same project ships the Supabase MCP server also listed here.",
     name: "Supabase",
     tagline: "Postgres + auth + storage + edge functions, open source.",
     description:
@@ -284,6 +306,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "cloudflare",
+    insight:
+      "Its R2 storage charges no egress fees — the standout reason teams move large-asset workloads off S3.",
     name: "Cloudflare",
     tagline: "Workers + R2 + D1 + Durable Objects. Global edge runtime.",
     description:
@@ -308,6 +332,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Memory / context ───────────────────────────────────────────────────
   {
     slug: "mem0",
+    insight:
+      "Stores distilled facts rather than whole transcripts, so an agent's memory stays small and relevant as conversations grow.",
     name: "mem0",
     tagline: "Long-term memory layer for AI agents. Self-hostable.",
     description:
@@ -334,6 +360,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "letta",
+    insight:
+      "The productized successor to the MemGPT paper — agents edit their own memory blocks to manage a finite context window.",
     name: "Letta",
     tagline: "Stateful agents with structured memory. Successor to MemGPT.",
     description:
@@ -362,6 +390,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Research platforms ─────────────────────────────────────────────────
   {
     slug: "huggingface",
+    insight:
+      "One account spans model weights, datasets, runnable Spaces, and a daily papers feed — the closest thing to a commons for open AI.",
     name: "Hugging Face",
     tagline: "Models, datasets, papers, spaces. The AI research commons.",
     description:
@@ -386,6 +416,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "arxiv-sanity",
+    insight:
+      "Karpathy's own tool, open-source and self-hostable — a tag-trained recommender that tames the arXiv firehose into a personal feed.",
     name: "arxiv-sanity-lite",
     tagline: "Personalized arxiv reader by Andrej Karpathy.",
     description:
@@ -408,6 +440,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Agent surfaces ─────────────────────────────────────────────────────
   {
     slug: "devin",
+    insight:
+      "Runs asynchronously in its own cloud sandbox aimed at whole tickets, not autocomplete — and the model and harness are closed.",
     name: "Devin",
     tagline: "Autonomous software engineer agent. Plans, codes, ships from a prompt.",
     description:
@@ -432,6 +466,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "manus",
+    insight:
+      "Went viral on invite-only scarcity, then was acquired by Meta — a general operator for non-code work rather than a coding tool.",
     name: "Manus",
     tagline: "General-purpose autonomous agent for research, ops, and content.",
     description:
@@ -453,6 +489,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "cline",
+    insight:
+      "Formerly 'Claude Dev' — fully open-source and BYO-key, it shows and asks approval for every file edit and command it runs.",
     name: "Cline",
     tagline: "Open-source autonomous coding agent in VS Code. BYO key.",
     description:
@@ -479,6 +517,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "openhands",
+    insight:
+      "The open-source answer to Devin (and its former name, OpenDevin) — same sandbox-agent shape, but you can self-host and read the code.",
     name: "OpenHands",
     tagline: "Open-source autonomous SWE agent. Successor to OpenDevin.",
     description:
@@ -505,6 +545,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "bolt-new",
+    insight:
+      "The entire Node stack runs inside the browser tab via StackBlitz's WebContainers — no server is spun up behind your build.",
     name: "Bolt.new",
     tagline: "Prompt-to-app generator running in the browser. WebContainers under the hood.",
     description:
@@ -529,6 +571,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "v0",
+    insight:
+      "Emits real shadcn/ui + Tailwind code you can paste into a project — the same primitive stack this directory is built from.",
     name: "v0",
     tagline: "Prompt-to-UI generator from Vercel. Outputs React + Tailwind + shadcn.",
     description:
@@ -555,6 +599,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Orchestration ──────────────────────────────────────────────────────
   {
     slug: "langchain",
+    insight:
+      "The ecosystem's default on-ramp, anchoring a trio with LangGraph (agents) and LangSmith (tracing) — both also listed here.",
     name: "LangChain",
     tagline: "The default open-source framework for composing LLM apps.",
     description:
@@ -578,6 +624,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "langgraph",
+    insight:
+      "LangChain's low-level layer: a durable state graph with checkpoints, so a long agent run can pause for a human and resume later.",
     name: "LangGraph",
     tagline: "Graph-based agent orchestration. Stateful loops with checkpoints.",
     description:
@@ -600,6 +648,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "crewai",
+    insight:
+      "Built standalone rather than on LangChain — it models work as a 'crew' of role-typed agents that delegate tasks to each other.",
     name: "CrewAI",
     tagline: "Multi-agent framework with explicit roles and tasks.",
     description:
@@ -622,6 +672,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "n8n",
+    insight:
+      "Licensed 'fair-code' (Sustainable Use), not OSI open-source — self-host it freely, but reselling it as a hosted service is restricted.",
     name: "n8n",
     tagline: "Fair-code workflow automation with first-class AI nodes.",
     description:
@@ -644,6 +696,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "vercel-ai-sdk",
+    insight:
+      "Its streaming React hooks (useChat) are why so many AI chat UIs feel identical — swapping providers is a one-line change.",
     name: "Vercel AI SDK",
     tagline: "TypeScript SDK for streaming, tool-calling, and structured outputs.",
     description:
@@ -666,6 +720,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "inngest",
+    insight:
+      "Gives you durable, resumable functions — retries, sleeps, fan-out — without standing up a queue or worker pool yourself.",
     name: "Inngest",
     tagline: "Durable workflow engine for AI background jobs.",
     description:
@@ -690,6 +746,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Vector DB ──────────────────────────────────────────────────────────
   {
     slug: "pinecone",
+    insight:
+      "Fully managed with no self-host option — the trade-off for the serverless pricing it popularized in the vector-DB space.",
     name: "Pinecone",
     tagline: "Managed vector database. The industry-default serverless option.",
     description:
@@ -713,6 +771,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "weaviate",
+    insight:
+      "Embeds text inline so you can skip a separate vectorizer step, and does hybrid BM25 + vector search out of the box.",
     name: "Weaviate",
     tagline: "Open-source vector database with built-in vectorisers.",
     description:
@@ -736,6 +796,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "qdrant",
+    insight:
+      "Written in Rust and ships as a single self-hostable binary — its payload filtering is why teams pick it for metadata-heavy search.",
     name: "Qdrant",
     tagline: "Open-source, Rust-based vector DB. Fast, predictable, self-hostable.",
     description:
@@ -759,6 +821,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "chroma",
+    insight:
+      "Runs embedded inside your Python process — the lowest-friction way to prototype RAG before you need a server at all.",
     name: "Chroma",
     tagline: "Embedded vector DB. Pip-install, prototype, scale later.",
     description:
@@ -782,6 +846,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "pgvector",
+    insight:
+      "Keeps embeddings in the same Postgres as your relational data, so you can JOIN against them and back everything up together.",
     name: "pgvector",
     tagline: "Vector similarity search inside Postgres. The pragmatic default.",
     description:
@@ -804,6 +870,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "turbopuffer",
+    insight:
+      "Stores indexes on object storage instead of RAM, so cost tracks usage not corpus size — Notion runs it in production.",
     name: "Turbopuffer",
     tagline: "Object-storage-backed vector DB. Serverless economics at scale.",
     description:
@@ -828,6 +896,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Voice ──────────────────────────────────────────────────────────────
   {
     slug: "elevenlabs",
+    insight:
+      "Set the bar for voice cloning — a usable clone from seconds of reference audio — which is how it became the default TTS.",
     name: "ElevenLabs",
     tagline: "Frontier TTS, voice cloning, and dubbing. Industry default.",
     description:
@@ -854,6 +924,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "vapi",
+    insight:
+      "Solves the hard parts of phone agents — telephony and barge-in interrupts — leaving you to pick the STT, LLM, and TTS layers.",
     name: "Vapi",
     tagline: "Voice agent infrastructure. Build a phone-agent in a weekend.",
     description:
@@ -880,6 +952,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "cartesia",
+    insight:
+      "Its Sonic voices run on state-space models rather than transformers — the architectural reason it hits sub-100ms first audio.",
     name: "Cartesia",
     tagline: "Low-latency streaming TTS. Sub-100ms first audio.",
     description:
@@ -905,6 +979,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "deepgram",
+    insight:
+      "Tuned for messy real-world audio — accents, phone lines, overlapping speakers — where general transcribers tend to fall apart.",
     name: "Deepgram",
     tagline: "Production speech-to-text. The STT default for many companies.",
     description:
@@ -932,6 +1008,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Vision ─────────────────────────────────────────────────────────────
   {
     slug: "roboflow",
+    insight:
+      "For when the answer is a small custom vision model, not a multimodal LLM — it owns the annotate-train-deploy loop end to end.",
     name: "Roboflow",
     tagline: "Vision MLOps end-to-end. Annotate, train, deploy.",
     description:
@@ -954,6 +1032,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "landing-ai",
+    insight:
+      "From Andrew Ng's lab — its 'visual prompting' lets you point at a few examples instead of labeling a full training set.",
     name: "LandingAI",
     tagline: "Visual prompting + vision agents from Andrew Ng's lab.",
     description:
@@ -975,6 +1055,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "voxel51",
+    insight:
+      "FiftyOne's superpower is surfacing the bad labels and failure cases hiding in a vision dataset — debugging data, not just models.",
     name: "Voxel51",
     tagline: "FiftyOne — open-source vision data platform.",
     description:
@@ -1000,6 +1082,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Image gen ──────────────────────────────────────────────────────────
   {
     slug: "midjourney",
+    insight:
+      "Ran Discord-only for years before shipping a web app — its opinionated house aesthetic is the trade-off for less fine control.",
     name: "Midjourney",
     tagline: "The brand-name image generator. Discord-native, web app available.",
     description:
@@ -1025,6 +1109,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "ideogram",
+    insight:
+      "The one to reach for when the image needs legible text — readable typography inside generations is its whole differentiator.",
     name: "Ideogram",
     tagline: "Image gen with the best text-in-image quality.",
     description:
@@ -1049,6 +1135,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "krea",
+    insight:
+      "Fronts several engines (Flux, Imagen, Sora) on one real-time canvas, built to refine a single image rather than re-roll prompts.",
     name: "Krea",
     tagline: "Design-loop image surface. Generate, edit, upscale, iterate.",
     description:
@@ -1074,6 +1162,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "magnific",
+    insight:
+      "Doesn't just sharpen — it invents plausible new detail on upscale, the magic for concept art and the caveat for real photos.",
     name: "Magnific",
     tagline: "AI upscaling + relighting that goes beyond pixel-doubling.",
     description:
@@ -1100,6 +1190,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Video ──────────────────────────────────────────────────────────────
   {
     slug: "runway",
+    insight:
+      "The elder of the space — it pairs its Gen models with an actual timeline editor, which is why client work tends to land here.",
     name: "Runway",
     tagline: "Professional video AI. Gen-series models + a full editor.",
     description:
@@ -1126,6 +1218,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "sora",
+    insight:
+      "OpenAI shipped it as a social app with a feed and remixing — consumer-first, unlike the API-first video tools around it.",
     name: "Sora",
     tagline: "OpenAI's video generator as a standalone app.",
     description:
@@ -1150,6 +1244,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "luma-dream-machine",
+    insight:
+      "Mobile-first with keyframe controls — the indie creator's pick before a project graduates to Runway's heavier toolkit.",
     name: "Luma Dream Machine",
     tagline: "Mainstream-quality video generation. Indie creator default.",
     description:
@@ -1174,6 +1270,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "heygen",
+    insight:
+      "Its translation + lip-sync, not the avatars, is what sells it to teams localizing one video into dozens of languages.",
     name: "HeyGen",
     tagline: "Avatar video at scale. Talking-head clips from a script.",
     description:
@@ -1201,6 +1299,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Audio ──────────────────────────────────────────────────────────────
   {
     slug: "suno",
+    insight:
+      "Generates real vocals and song structure, not just backing loops — and it's one of the few generative-audio tools with native mobile apps.",
     name: "Suno",
     tagline: "Full songs from a prompt. Vocals, instruments, structure.",
     description:
@@ -1227,6 +1327,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "udio",
+    insight:
+      "The other half of the music-gen duopoly — producers often run the same hook through both it and Suno and keep the better take.",
     name: "Udio",
     tagline: "AI music generation. The Suno alternative.",
     description:
@@ -1251,6 +1353,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "descript",
+    insight:
+      "Edit the transcript and the audio cuts to match — deleting a filler word is as easy as backspacing it in a document.",
     name: "Descript",
     tagline: "Podcast + audio editing where the transcript is the timeline.",
     description:
@@ -1278,6 +1382,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Search ─────────────────────────────────────────────────────────────
   {
     slug: "perplexity",
+    insight:
+      "Its Sonar API exposes the same cited-search engine to your own app — so it's an answer product and a retrieval backend at once.",
     name: "Perplexity",
     tagline: "AI-augmented search. Cited answers, consumer + Sonar API.",
     description:
@@ -1305,6 +1411,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "tavily",
+    insight:
+      "Returns clean, scrape-ready content instead of a ranked link list — which is why it's the default search tool baked into agent frameworks.",
     name: "Tavily",
     tagline: "Search API built for AI agents. First-class in most agent frameworks.",
     description:
@@ -1327,6 +1435,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "exa",
+    insight:
+      "Indexes the web by meaning, so 'find pages like this one' works as a query — formerly known as Metaphor.",
     name: "Exa",
     tagline: "Neural search API. Find pages by meaning, not keywords.",
     description:
@@ -1349,6 +1459,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "brave-search-api",
+    insight:
+      "One of the few search APIs backed by a genuinely independent crawl, not resold Bing or Google results.",
     name: "Brave Search API",
     tagline: "Independent search index. Privacy-respecting, non-Google.",
     description:
@@ -1373,6 +1485,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Observability ──────────────────────────────────────────────────────
   {
     slug: "helicone",
+    insight:
+      "Integrate by changing one base-URL line — no SDK wrapper — and it's open-source, so you can self-host the proxy.",
     name: "Helicone",
     tagline: "Drop-in LLM proxy with logging, caching, and cost tracking.",
     description:
@@ -1396,6 +1510,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "langfuse",
+    insight:
+      "The self-hostable, OpenTelemetry-native answer to LangSmith — pick it when observability data has to stay on your own infra.",
     name: "Langfuse",
     tagline: "Open-source LLM observability. Self-hostable, OpenTelemetry-native.",
     description:
@@ -1419,6 +1535,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "langsmith",
+    insight:
+      "Despite the name it works without LangChain in your stack — but it's cloud-only, where Langfuse lets you self-host.",
     name: "LangSmith",
     tagline: "LangChain's hosted observability + eval platform.",
     description:
@@ -1441,6 +1559,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "arize-phoenix",
+    insight:
+      "Spins up inside a Jupyter notebook and is sharpest at RAG debugging — finding the bad chunk that poisoned a retrieval.",
     name: "Arize Phoenix",
     tagline: "Open-source LLM tracing + evaluation. Strong on retrieval debugging.",
     description:
@@ -1466,6 +1586,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Fine-tuning ────────────────────────────────────────────────────────
   {
     slug: "together-ai",
+    insight:
+      "Hosts hundreds of open-weights models and does both LoRA and full fine-tuning — a one-stop shop for the open-model side of the stack.",
     name: "Together AI",
     tagline: "Fine-tuning + inference for open-weights models. Broad coverage.",
     description:
@@ -1491,6 +1613,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "modal",
+    insight:
+      "You define GPU infra in Python decorators, not YAML or Dockerfiles — its fast cold starts make per-job GPU billing practical.",
     name: "Modal",
     tagline: "Serverless GPUs. Run training, inference, batch jobs from Python.",
     description:
@@ -1513,6 +1637,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "openpipe",
+    insight:
+      "Distills your own logged GPT/Claude calls into a fine-tuned small model, then serves the swap behind your existing SDK.",
     name: "OpenPipe",
     tagline: "Replace frontier-model spend with a fine-tuned small model.",
     description:
@@ -1538,6 +1664,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "fireworks-ai",
+    insight:
+      "Runs open models on its own FireAttention serving stack for low latency, and covers vision and audio models, not just text.",
     name: "Fireworks AI",
     tagline: "Fast inference + fine-tuning. Production deployments at scale.",
     description:
@@ -1565,6 +1693,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Browser extension ──────────────────────────────────────────────────
   {
     slug: "sider",
+    insight:
+      "One subscription puts Claude, GPT, and Gemini in a side-panel on any tab — among the most-installed of the browser AI assistants.",
     name: "Sider",
     tagline: "Multi-model AI side-panel for any browser tab.",
     description:
@@ -1588,6 +1718,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "maxai",
+    insight:
+      "Occupies the same niche as Sider — its edge is saved prompt templates and one-click quick actions baked into the sidebar.",
     name: "MaxAI",
     tagline: "All-in-one in-browser AI assistant. Multi-model.",
     description:
@@ -1611,6 +1743,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "glasp",
+    insight:
+      "Built on a social highlight network, but BYO-key means your reading history stays yours rather than feeding a vendor.",
     name: "Glasp",
     tagline: "Highlight, summarise, and chat with anything you read on the web.",
     description:
@@ -1636,6 +1770,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Automation ─────────────────────────────────────────────────────────
   {
     slug: "zapier",
+    insight:
+      "Its moat is breadth — thousands of app integrations — with AI agents bolted on top, not the other way around.",
     name: "Zapier",
     tagline: "The ubiquitous low-code automation tool. Native AI features.",
     description:
@@ -1659,6 +1795,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "make",
+    insight:
+      "The rebranded Integromat — its visual canvas handles the branching and loops that Zapier's linear steps struggle with.",
     name: "Make",
     tagline: "Visual-canvas automation. The Integromat folks went big on AI nodes.",
     description:
@@ -1681,6 +1819,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "lindy",
+    insight:
+      "Trades Zapier's one-shot triggers for agents that sit waiting on an inbox or calendar, then act with some judgment.",
     name: "Lindy",
     tagline: "Agentic automation. Long-running agents instead of one-shot triggers.",
     description:
@@ -1710,6 +1850,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Assistants (general chat / multimodal) ──
   {
     slug: "chatgpt",
+    insight:
+      "The app that mainstreamed generative AI — its custom-GPT store turned a chatbot into a third-party app platform.",
     name: "ChatGPT",
     tagline: "The default AI assistant. Chat, voice, vision, and a tool ecosystem.",
     description:
@@ -1736,6 +1878,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "claude",
+    insight:
+      "Introduced both Artifacts and the MCP standard that this directory's tooling now runs on — the consumer sibling of Claude Code.",
     name: "Claude",
     tagline: "Anthropic's assistant. Thoughtful, long-context, strong at code + writing.",
     description:
@@ -1761,6 +1905,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "gemini",
+    insight:
+      "Its edge is distribution — wired into Search, Gmail, Docs, and Android — alongside among the largest context windows shipping.",
     name: "Gemini",
     tagline: "Google's assistant, wired into Search, Workspace, and Android.",
     description:
@@ -1779,6 +1925,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "grok",
+    insight:
+      "Its real-time access to the X firehose is something no rival assistant has — at the cost of a deliberately less-filtered voice.",
     name: "Grok",
     tagline: "xAI's assistant with real-time X access and a less-filtered voice.",
     description:
@@ -1797,6 +1945,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "kimi",
+    insight:
+      "Uniquely for a polished consumer assistant, its underlying Kimi K2 model ships as open weights you can self-host.",
     name: "Kimi",
     tagline: "Moonshot's assistant — long-context chat, deep research, and agents.",
     description:
@@ -1819,6 +1969,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "le-chat",
+    insight:
+      "Europe's home-grown assistant — EU data residency and Mistral's own partly-open-weight models, with a speed focus.",
     name: "Le Chat",
     tagline: "Mistral's fast, European assistant with web search and code.",
     description:
@@ -1837,6 +1989,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "deepseek",
+    insight:
+      "Its open-weight R1 release reset the industry's price-for-reasoning curve — and the consumer app stays free to use.",
     name: "DeepSeek",
     tagline: "Open, low-cost chat with strong reasoning. Free to use.",
     description:
@@ -1859,6 +2013,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "microsoft-copilot",
+    insight:
+      "Now blends OpenAI models with Microsoft's own in-house MAI models, and reaches users at the OS level inside Windows itself.",
     name: "Microsoft Copilot",
     tagline: "Microsoft's assistant across Windows, Edge, and Microsoft 365.",
     description:
@@ -1883,6 +2039,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Video ──
   {
     slug: "kling",
+    insight:
+      "From short-video giant Kuaishou — its motion realism and multishot sequences make it the leading non-Western Sora rival.",
     name: "Kling AI",
     tagline: "State-of-the-art AI video + image, with strong motion and multishot.",
     description:
@@ -1906,6 +2064,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "google-flow",
+    insight:
+      "Google's filmmaking surface over Veo and Imagen — it directs continuity across shots, and has absorbed Whisk and ImageFX.",
     name: "Google Flow",
     tagline: "Google's AI filmmaking studio — Veo video + Imagen, in one canvas.",
     description:
@@ -1928,6 +2088,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "pika",
+    insight:
+      "Leans into playful effects (Pikaffects) over photoreal output — it competes on shareable fun, not cinematic fidelity.",
     name: "Pika",
     tagline: "Playful AI video with Pikaffects, ingredients, and quick edits.",
     description:
@@ -1946,6 +2108,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "higgsfield",
+    insight:
+      "An aggregator, not a model-maker — one subscription fronts 15+ engines (Sora, Veo, Kling) behind cinematic camera presets.",
     name: "Higgsfield",
     tagline: "Cinematic AI video with camera controls — many models, one subscription.",
     description:
@@ -1971,6 +2135,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "synthesia",
+    insight:
+      "The enterprise default for talking-head training video — one typed script renders an avatar in 140+ languages.",
     name: "Synthesia",
     tagline: "AI avatar video for training, marketing, and comms. Enterprise default.",
     description:
@@ -1994,6 +2160,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Image generation ──
   {
     slug: "recraft",
+    insight:
+      "Rare among image generators in outputting true editable SVG vectors — built to drop assets straight into real design work.",
     name: "Recraft",
     tagline: "Design-grade image + vector generation with brand consistency.",
     description:
@@ -2012,6 +2180,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "leonardo-ai",
+    insight:
+      "Built for consistent game-asset pipelines via custom fine-tuned models — and now owned by Canva.",
     name: "Leonardo AI",
     tagline: "Image generation with fine-tuned models, control, and game-asset focus.",
     description:
@@ -2030,6 +2200,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "flux",
+    insight:
+      "From the team that created Stable Diffusion — it ships open weights alongside a hosted pro tier for its strongest models.",
     name: "FLUX",
     tagline: "Black Forest Labs' open image models — sharp prompt adherence.",
     description:
@@ -2054,6 +2226,8 @@ export const apps: ReadonlyArray<App> = [
   // ── 3D (new category coverage) ──
   {
     slug: "meshy",
+    insight:
+      "Goes past raw meshes to auto-rigging and Blender/Unity/Unreal exports — built to slot into a real game-asset pipeline.",
     name: "Meshy",
     tagline: "Text- and image-to-3D models, textures, and rigging.",
     description:
@@ -2072,6 +2246,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "tripo",
+    insight:
+      "Competes on raw speed — a usable 3D model from one image in seconds — with one of the more generous free tiers in 3D gen.",
     name: "Tripo",
     tagline: "Fast text- and image-to-3D model generation.",
     description:
@@ -2090,6 +2266,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "spline",
+    insight:
+      "Primarily a collaborative 3D design tool for interactive web scenes — AI generation is an accelerator bolted onto a real editor.",
     name: "Spline",
     tagline: "Collaborative 3D design in the browser, with AI generation.",
     description:
@@ -2108,6 +2286,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "rodin",
+    insight:
+      "Aimed at production: clean topology and PBR materials, where most image-to-3D tools still output messy, unusable meshes.",
     name: "Rodin",
     tagline: "Deemos' image-to-3D for high-fidelity, production-ready meshes.",
     description:
@@ -2128,6 +2308,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Research platforms ──
   {
     slug: "notebooklm",
+    insight:
+      "Answers strictly from your uploaded sources — no open-web drift — and its Audio Overviews turn a doc set into a two-host podcast.",
     name: "NotebookLM",
     tagline: "Grounded research notebook — chat your sources, get Audio Overviews.",
     description:
@@ -2150,6 +2332,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "google-ai-studio",
+    insight:
+      "The free front door to the Gemini API — prototype in the browser, then export the exact call as code with one click.",
     name: "Google AI Studio",
     tagline: "Prototype with Gemini — prompts, multimodal, and instant API keys.",
     description:
@@ -2174,6 +2358,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Model hosting / fine-tuning ──
   {
     slug: "replicate",
+    insight:
+      "Any model is a 'Cog' container behind one API, billed per second — the low-commitment way to ship a model you didn't train.",
     name: "Replicate",
     tagline: "Run, fine-tune, and deploy thousands of open models via one API.",
     description:
@@ -2201,6 +2387,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Agentic app builders ──
   {
     slug: "lovable",
+    insight:
+      "Grew out of the GPT Engineer project — it wires a Supabase backend and GitHub sync into every app it generates.",
     name: "Lovable",
     tagline: "Prompt a full-stack app into existence — UI, backend, and deploy.",
     description:
@@ -2222,6 +2410,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "replit",
+    insight:
+      "Build, database, and hosting all live in the browser, so its Agent can ship an app from a phone with zero local setup.",
     name: "Replit",
     tagline: "Cloud IDE + Agent that builds, runs, and deploys from a prompt.",
     description:
@@ -2250,6 +2440,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Inference (fine-tuning track) ──
   {
     slug: "groq",
+    insight:
+      "Speed comes from custom LPU silicon, not GPUs — which is why it serves open models at hundreds of tokens/sec on an OpenAI-compatible API.",
     name: "Groq",
     tagline: "Ultra-fast inference on custom LPU chips. Open-weights at 500+ tokens/sec.",
     description:
@@ -2278,6 +2470,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Model gateway (infra) ──
   {
     slug: "openrouter",
+    insight:
+      "Swap among 300+ models by changing one string, with automatic fallback if a provider is down — and one consolidated bill.",
     name: "OpenRouter",
     tagline: "One OpenAI-compatible API in front of 300+ models from every provider.",
     description:
@@ -2306,6 +2500,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Data-ops (new category coverage — first entries) ──
   {
     slug: "firecrawl",
+    insight:
+      "Renders JS and dodges anti-bot to return clean markdown, not raw HTML — and its core is AGPL, so you can self-host the crawler.",
     name: "Firecrawl",
     tagline: "Turn any website into clean, LLM-ready data — scrape, crawl, search.",
     description:
@@ -2329,6 +2525,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "unstructured",
+    insight:
+      "Handles the unglamorous pre-RAG step — OCR, tables, and document hierarchy across 64+ file types — that makes or breaks retrieval.",
     name: "Unstructured",
     tagline: "ETL for LLMs — turn PDFs, decks, and emails into clean, structured data.",
     description:
@@ -2354,6 +2552,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Orchestration (data framework) ──
   {
     slug: "llamaindex",
+    insight:
+      "Retrieval-first where LangChain is orchestration-first — its LlamaParse service is the go-to for PDFs that defeat normal parsers.",
     name: "LlamaIndex",
     tagline: "The data framework for LLM apps — RAG, agents, and document workflows.",
     description:
@@ -2378,6 +2578,8 @@ export const apps: ReadonlyArray<App> = [
   // ── IDE ──
   {
     slug: "zed",
+    insight:
+      "From the creators of Atom and Tree-sitter — its open Agent Client Protocol lets external agents like Claude Code drive the editor.",
     name: "Zed",
     tagline: "The fast, open-source AI code editor in Rust, from the Atom creators.",
     description:
@@ -2408,6 +2610,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Image / video generation (node-based) ──
   {
     slug: "comfyui",
+    insight:
+      "Exposes the whole diffusion pipeline as an explicit node graph, so a workflow is reproducible and shareable as a single JSON file.",
     name: "ComfyUI",
     tagline: "Node-based visual AI — wire up image, video, and audio diffusion pipelines.",
     description:
@@ -2437,6 +2641,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Local model runners ──
   {
     slug: "ollama",
+    insight:
+      "Its OpenAI-compatible local server makes it a drop-in backend — point any app at localhost and swap the cloud for your own GPU.",
     name: "Ollama",
     tagline: "Run open-weight LLMs locally with one command. OpenAI-compatible API.",
     description:
@@ -2465,6 +2671,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "lm-studio",
+    insight:
+      "Free even for commercial use, though the app itself is closed-source — and it serves both OpenAI- and Anthropic-compatible local APIs.",
     name: "LM Studio",
     tagline: "Desktop app to discover, download, and run local LLMs privately.",
     description:
@@ -2493,6 +2701,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Fine-tuning ──
   {
     slug: "unsloth",
+    insight:
+      "Hand-written CUDA kernels roughly halve fine-tuning time and VRAM, so a 13B model trains on a single consumer GPU.",
     name: "Unsloth",
     tagline: "Fine-tune open LLMs 2x faster with far less VRAM. Open source.",
     description:
@@ -2522,6 +2732,8 @@ export const apps: ReadonlyArray<App> = [
   // ── LLM app platform ──
   {
     slug: "dify",
+    insight:
+      "Bundles a workflow builder, RAG, and observability into one self-hostable platform — its license is source-available, not fully OSI.",
     name: "Dify",
     tagline: "Visual platform for agentic workflows, RAG pipelines, and LLM apps.",
     description:
@@ -2550,6 +2762,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Generative-media inference ──
   {
     slug: "fal",
+    insight:
+      "Specializes in generative-media latency — FLUX, Kling, Veo and 600+ media models — where general inference hosts focus on text.",
     name: "fal",
     tagline: "Serverless inference API for image, video, audio, and 3D models.",
     description:
@@ -2578,6 +2792,8 @@ export const apps: ReadonlyArray<App> = [
   // ── Agentic dev environment ──
   {
     slug: "warp",
+    insight:
+      "Began as a from-scratch Rust terminal and grew into a multi-agent dev environment — the command line reimagined as an agent surface.",
     name: "Warp",
     tagline: "Agentic development environment born out of the terminal.",
     description:
@@ -2603,6 +2819,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "librechat",
+    insight:
+      "MIT-licensed with multi-user auth built in — the closest thing to a self-owned, team-wide ChatGPT across every provider at once.",
     name: "LibreChat",
     tagline: "Self-hosted, open-source ChatGPT alternative unifying every major AI provider.",
     description:
@@ -2638,6 +2856,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "khoj",
+    insight:
+      "Lives inside the tools you already use — Obsidian, Emacs, desktop, mobile — as an AGPL second brain over your notes and the web.",
     name: "Khoj",
     tagline: "Open-source AI second brain that chats with your docs and the web, local or hosted.",
     description:
@@ -2664,6 +2884,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "anythingllm",
+    insight:
+      "Runs either as a one-click desktop app or a Docker server — the same private RAG workspace whether you're solo or a team.",
     name: "AnythingLLM",
     tagline: "All-in-one private AI app for chatting with your documents, with agents.",
     description:
@@ -2690,6 +2912,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "jan",
+    insight:
+      "Bundles its own model runner to work 100% offline, and is one of the few here that's fully free with no paid tier at all.",
     name: "Jan",
     tagline: "Open-source ChatGPT alternative that runs 100% offline on your computer.",
     description:
@@ -2716,6 +2940,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "big-agi",
+    insight:
+      "Deploys to your own Vercel in a click, and its 'beam' feature runs one prompt across several models to compare side by side.",
     name: "Big-AGI",
     tagline: "Multi-model AI workspace with chat, voice, image gen, and tool use — BYO keys.",
     description:
@@ -2751,6 +2977,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "cherry-studio",
+    insight:
+      "Free for individuals and small teams, but its AGPL terms require a paid commercial license once an org passes ten people.",
     name: "Cherry Studio",
     tagline: "Desktop AI client unifying frontier LLMs, local models, and 300+ assistants.",
     description:
@@ -2776,6 +3004,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "leon",
+    insight:
+      "One of the older open personal-assistant projects, now mid-rewrite to 2.0 — designed to run on local models and local context.",
     name: "Leon",
     tagline: "Open-source personal AI assistant built on tools, memory, and agentic execution.",
     description:
@@ -2800,6 +3030,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "flowise",
+    insight:
+      "The drag-and-drop counterpart to code-first frameworks — it builds on LangChain/LlamaIndex nodes, so anything they support, it can wire.",
     name: "Flowise",
     tagline: "Visually build AI agents and LLM workflows — drag-and-drop, self-hosted.",
     description:
@@ -2827,6 +3059,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "hermes-agent",
+    insight:
+      "From Nous Research — it accrues reusable skills from experience and is reachable over Telegram, Discord, or Slack, not just a terminal.",
     name: "Hermes Agent",
     tagline: "Self-improving personal AI agent that learns skills and keeps persistent memory.",
     description:
@@ -2852,6 +3086,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "openclaw",
+    insight:
+      "One of the few self-hosted assistants that runs on iOS and Android too, controlled from WhatsApp, Telegram, Slack, or Discord.",
     name: "OpenClaw",
     tagline: "Local-first personal AI assistant you run on your own devices, on any platform.",
     description:
@@ -2876,6 +3112,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "odysseus",
+    insight:
+      "Built and open-sourced by PewDiePie — a private ChatGPT-style workspace wired to local llama.cpp/Ollama/vLLM with MCP built in.",
     name: "Odysseus",
     tagline: "Self-hosted AI workspace with a ChatGPT-style UI for local and API models.",
     description:
@@ -2901,6 +3139,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "open-interpreter",
+    insight:
+      "Hands the model a real shell on your machine — Python, JS, bash — gated behind per-command approval, and it can run fully offline.",
     name: "Open Interpreter",
     tagline: "Natural-language interface that lets LLMs run code locally in your terminal.",
     description:
@@ -2926,6 +3166,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "goose",
+    insight:
+      "From Block (the Square/Cash App company) — an on-machine agent built around MCP extensions, with 15+ model providers.",
     name: "Goose",
     tagline: "Open-source on-machine AI agent for coding, workflows, and automation.",
     description:
@@ -2951,6 +3193,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "gpt-researcher",
+    insight:
+      "An open-source take on 'deep research' — it fans out parallel searches and cites sources, runnable as a library or an MCP server.",
     name: "GPT Researcher",
     tagline:
       "Autonomous AI agent that runs deep multi-source web research and writes cited reports.",
@@ -2977,6 +3221,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "sillytavern",
+    insight:
+      "A pure frontend — you supply the backend — but its character cards and prompt control run anywhere, even Android via Termux.",
     name: "SillyTavern",
     tagline: "Self-hosted LLM chat frontend for power users, with characters and many backends.",
     description:
@@ -3002,6 +3248,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "continue",
+    insight:
+      "One open-source assistant spanning VS Code, JetBrains, and the CLI — point it at a local Ollama model and nothing leaves your machine.",
     name: "Continue",
     tagline: "Open-source AI coding assistant for VS Code, JetBrains, and the CLI.",
     description:
@@ -3027,6 +3275,8 @@ export const apps: ReadonlyArray<App> = [
   },
   {
     slug: "onyx",
+    insight:
+      "Formerly Danswer — an MIT core for enterprise search over your own apps, with optional features under a separate open-core license.",
     name: "Onyx",
     tagline: "Open-source, self-hosted AI chat and enterprise search over your own docs.",
     description:

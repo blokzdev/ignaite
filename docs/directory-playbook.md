@@ -22,8 +22,10 @@ here can invoke them. They encode the same flow we run manually.
   links.
 - **Freshness discipline.** `addedAt` + `lastVerifiedAt` use the real date (YYYY-MM-DD). `/audit`
   cycles the oldest-`lastVerifiedAt` entries first so the whole directory rotates through verification.
-- **Honest editorial marks.** `blokzMark` (`deployed`/`vetted`/`contributing`) is added **only** for
-  apps Blokz genuinely uses, contributes to, or has vetted. Default: none.
+- **The AI insight is the signature.** Every listing carries an `insight` — one ≤140-char,
+  non-obvious, _verifiable_ sentence (a licensing nuance, an architectural quirk, how it differs from
+  peers) authored while researching it. It's what makes the catalog read as AI-curated, not
+  auto-generated. Never fabricate; omit rather than pad with a re-pitch of the tagline.
 - **`featured` is rare** — it spans two columns and enters the carousel; reserve it for true standouts.
 - **Schema is the contract** (`types/app.ts`). Required: `slug`, `name`, `tagline`, `description`,
   `category`, `pricing`, `platforms`, `links` (exactly one `primary`). Mobile apps use the `android` /

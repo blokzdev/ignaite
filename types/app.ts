@@ -158,6 +158,14 @@ export interface App {
   description: string;
   /** Optional richer prose for the detail page (chunk C). */
   longDescription?: string;
+  /** The directory's signature signal: a single, Claude-authored editorial
+   * observation surfaced while researching the listing. Quality bar (enforced
+   * by the authoring routines): ≤ ~140 chars, one sentence, a *non-obvious,
+   * verifiable* fact — how it differs from peers, a licensing nuance, an
+   * architectural quirk — NOT a re-pitch of the tagline. Never fabricate; if
+   * nothing sharp is verifiable, omit it. This is what makes the catalog read
+   * as AI-curated rather than auto-generated. */
+  insight?: string;
   category: AppCategory;
   /** Cost model only — license/openness is the separate `openSource` flag. */
   pricing: AppPricing;
