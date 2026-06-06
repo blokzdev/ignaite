@@ -33,10 +33,20 @@ Required: `slug` (unique, kebab-case), `name`, `tagline` (≤100 chars, one line
 (2–4 sentences), `category` (an `AppCategory`), `pricing` (an `AppPricing`), `platforms` (≥1
 `AppPlatform`), `links` (≥1, **exactly one** `primary: true`).
 Recommended: `vendor`, `modelSupport` ({ `kind`, `models?`, `notes?` }), `tags` (3–5),
-`accentColor` (brand hex), `addedAt` + `lastVerifiedAt` = **today's date** (YYYY-MM-DD).
+`accentColor` (brand hex), `addedAt` + `lastVerifiedAt` = **today's date** (YYYY-MM-DD),
+plus the two facets below.
 
 Conventions (match existing entries):
 
+- **`pricing` is cost only** (`free` / `freemium` / `paid` / `byo-key`) — there is **no
+  `"open-source"` pricing value.** Open source is a separate signal: set **`openSource: true`** when
+  the app's own source is open (a tool can be `freemium` AND `openSource`, e.g. Zed). Proprietary →
+  leave `openSource` unset.
+- **`deployment`** (`cloud` / `self-host` / `local` / `hybrid`) — set it where hosting is a real axis
+  (services, self-hostable infra, desktop apps). Leave it **unset** for pure libraries / SDKs /
+  MCP servers / browser extensions (they aren't "deployed"; `platforms` covers them).
+- Model-serving / inference / gateways (Groq, OpenRouter, Together, Replicate, …) go in the
+  **`inference`** category; reserve `fine-tuning` for training-focused tools.
 - **No store link kinds exist** (`AppLinkKind` = website/docs/github/pricing/demo/video/twitter/discord).
   For apps with a Play Store / App Store presence, put `"android"`/`"ios"` in `platforms` and link the
   **official website** as primary (see `suno`, `perplexity`).

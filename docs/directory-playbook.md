@@ -28,6 +28,9 @@ here can invoke them. They encode the same flow we run manually.
 - **Schema is the contract** (`types/app.ts`). Required: `slug`, `name`, `tagline`, `description`,
   `category`, `pricing`, `platforms`, `links` (exactly one `primary`). Mobile apps use the `android` /
   `ios` platforms + an official `website` link (there's no store link kind).
+- **Price ≠ license ≠ hosting.** `pricing` is cost only (`free`/`freemium`/`paid`/`byo-key`);
+  `openSource: true` is the separate license signal; `deployment` (`cloud`/`self-host`/`local`/
+  `hybrid`) is how it's run — set it where that's a real axis, unset for libraries/SDKs.
 - **Archive, don't delete.** Discontinued apps get `status: "archived"` (kept as record, hidden from
   the default browse).
 

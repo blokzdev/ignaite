@@ -33,6 +33,7 @@ const CATEGORY_LABEL: Record<AppCategory, string> = {
   search: "Search",
   "data-ops": "Data Ops",
   observability: "Observability",
+  inference: "Inference",
   "fine-tuning": "Fine-tuning",
   "research-platform": "Research",
   "browser-extension": "Browser Ext.",
@@ -43,7 +44,6 @@ const PRICING_LABEL: Record<AppPricing, string> = {
   free: "FREE",
   freemium: "FREEMIUM",
   paid: "PAID",
-  "open-source": "OPEN SOURCE",
   "byo-key": "BYO KEY",
 };
 
@@ -127,6 +127,11 @@ export function ToolCard({ app }: Readonly<Props>) {
         <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
           {PRICING_LABEL[app.pricing]}
         </span>
+        {app.openSource && (
+          <span className="rounded-full bg-[var(--color-success)]/[0.12] px-2 py-0.5 text-[var(--color-success)] ring-1 ring-[var(--color-success)]/30 ring-inset">
+            OSS
+          </span>
+        )}
         {/* Archived takes precedence over Blokz mark — a dead tool can't carry
             an editorial recommendation. */}
         {isArchived ? (

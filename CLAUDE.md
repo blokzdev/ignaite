@@ -211,7 +211,7 @@ package.json  pnpm-lock.yaml
 
 ### Add a directory app (the `/` directory — App track)
 
-1. Append an `App` entry to `data/apps.ts` (schema in `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1 `primary: true`). Optional: `vendor`, `blokzMark` (`deployed`/`vetted`/`contributing`), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`.
+1. Append an `App` entry to `data/apps.ts` (schema in `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1 `primary: true`). Optional: `vendor`, `openSource` (license signal — **decoupled from `pricing`**, which is cost-only: `free`/`freemium`/`paid`/`byo-key`, no `open-source`), `deployment` (`cloud`/`self-host`/`local`/`hybrid`, set where hosting is a real axis — unset for libraries/SDKs), `blokzMark` (`deployed`/`vetted`/`contributing`), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`. (Model-serving/inference/gateways → the `inference` category.)
 2. One card renders all apps — `components/tools/tool-card.tsx` (no per-type dispatch); the detail body is `components/tools/app-detail.tsx`.
 3. Set `featured: true` to surface it in the featured carousel (use sparingly).
 4. Run `pnpm dev` and verify it appears on `/`, that the category/pricing/mark/status filter chips include it, and that `/apps/<slug>` renders.
