@@ -89,7 +89,7 @@ export function HeroCopy() {
         </MagneticButton>
         <MagneticButton strength={0.2}>
           <Link
-            href="#portfolio"
+            href="/"
             className="inline-flex h-12 items-center rounded-full bg-white/[0.04] px-7 font-mono text-xs tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08]"
           >
             Browse our apps

@@ -6,7 +6,9 @@ This file is the contract between you (Claude) and this codebase. Read it end-to
 
 ## 1. Overview
 
-**Blokz.dev** is the marketing site for **Blokz Development Company**, a vibecoding studio building AI apps for B2B and B2C — with a heritage of nine published Android blockchain explorers. The site is itself a demonstration of agentic engineering: it is built end-to-end with Claude Code. The public site is focused on the **AI-apps directory** (`/`), the studio story (`/about`), and conversion (`/contact`).
+**Blokz.dev** is the marketing site for **Blokz Development Company**, a vibecoding studio building AI apps for B2B and B2C, end-to-end with Claude Code. The site is itself a demonstration of agentic engineering. The public site is focused on the **AI-apps directory** (`/`), the studio story (`/about`), and conversion (`/contact`).
+
+> **The portfolio is dormant.** The studio's earlier non-AI work (nine Android blockchain explorers) was unpublished to keep the site focused on the AI-frontier vision. `/about` no longer shows a portfolio/stats grid; the `/portfolio/<slug>` route lives under the private folder `app/(marketing)/_portfolio/`, with `data/projects.ts`, `components/apps/*`, and the orphaned `components/home/{apps-preview,stats-strip}.tsx` retained for a future AI-app/web/OSS revival (the real OSS project **WebSight** is already seeded in `data/projects.ts`). To republish: rename `_portfolio` → `portfolio`, re-compose the sections on `/about`, and re-add the sitemap + redirect entries.
 
 > **`/workflow` is dormant.** The 4-stage Claude Code session walkthrough + 12 MDX artifacts were unpublished (Iteration 5, out-of-sequence product-direction change) to keep the homepage directory-focused and the detailed agentic process semi-proprietary. All of it is **retained in the repo** under the Next private folder `app/(marketing)/_workflow/` (underscore = excluded from routing), along with `components/workflow/*`, `components/claude-chat/*`, `content/workflow/*`, `hooks/use-workflow-*`, and `types/workflow.ts`. To republish: rename `_workflow` → `workflow` and re-add the references listed in `BACKLOG.md`. Everywhere below that describes `/workflow` as live should be read through this lens.
 
@@ -81,8 +83,8 @@ app/                              # Next App Router
     apps/
       [slug]/page.tsx             #   /apps/<slug> — directory-app detail (SSG; renders components/tools/app-detail)
       [slug]/opengraph-image.tsx  #   per-app OG
-    portfolio/
-      [slug]/page.tsx             #   /portfolio/<slug> — Blokz shipped-PROJECT detail (data/projects.ts, SSG)
+    _portfolio/                   #   DORMANT (private folder, not routed — see §1). Rename to `portfolio` to republish.
+      [slug]/page.tsx             #   was /portfolio/<slug> — Blokz shipped-PROJECT detail (data/projects.ts, SSG)
     _workflow/                    #   DORMANT (private folder, not routed — see §1). Rename to `workflow` to republish.
       page.tsx                    #   was /workflow — 4-stage Claude Code session narrative (components/workflow/workflow.tsx)
       artifacts/[product]/[type]/page.tsx
@@ -94,17 +96,21 @@ app/                              # Next App Router
       opengraph-image.tsx
   manifest.ts                     # PWA manifest (typed)
   robots.ts                       # robots.txt
-  sitemap.ts                      # sitemap.xml (apps + projects + static; workflow dropped while dormant)
+  sitemap.ts                      # sitemap.xml (apps + static; portfolio + workflow dropped while dormant)
   opengraph-image.tsx             # root OG image (per-route can override)
   icon.tsx / apple-icon.tsx       # dynamic favicons via next/og
   globals.css                     # Tailwind v4 @theme block + base/utility layers
   layout.tsx                      # root layout: fonts, providers, analytics, Organization JSON-LD
 
 # ── TWO content tracks — keep them straight ──────────────────────────────
-#   DIRECTORY = the curated AI-apps list (the / homepage).
+#   DIRECTORY = the curated AI-apps list (the / homepage). LIVE.
 #               data/apps.ts · types/app.ts · lib/apps.ts · components/tools/*
-#   PORTFOLIO = Blokz's own shipped apps (/about grid + /portfolio/<slug>).
+#   PORTFOLIO = Blokz's own shipped apps. DORMANT (see §1) — the blockchain
+#               heritage was unpublished; /about no longer shows it and the
+#               route lives at app/(marketing)/_portfolio/. Retained for a
+#               future AI-app/web/OSS revival (WebSight is seeded in the data).
 #               data/projects.ts · types/project.ts · lib/projects.ts · components/apps/*
+#               + the now-orphaned components/home/{apps-preview,stats-strip}.tsx
 # ─────────────────────────────────────────────────────────────────────────
 
 components/
@@ -210,7 +216,9 @@ package.json  pnpm-lock.yaml
 3. Set `featured: true` to surface it in the featured carousel (use sparingly).
 4. Run `pnpm dev` and verify it appears on `/`, that the category/pricing/mark/status filter chips include it, and that `/apps/<slug>` renders.
 
-### Add a portfolio project (the `/about` + `/portfolio` track — Project track)
+### Add a portfolio project (the Project track — DORMANT)
+
+> **Dormant feature (see §1).** The portfolio is unpublished: `/about` shows no portfolio grid and the route lives under `app/(marketing)/_portfolio/`. A new `Project` won't appear on the live site until you republish (rename `_portfolio` → `portfolio`, re-compose `/about`, re-add sitemap + redirect). The recipe below still applies for editing the retained data / a future revival.
 
 1. Append a `Project` entry to `data/projects.ts` (schema in `types/project.ts`). Required: `slug`, `name`, `tagline`, `description`, `type`, `status`, `platforms`, `chains`, `media.icon`, `stats`, `links` (≥1 `primary: true`).
 2. Drop assets in `public/projects/<slug>/`: `icon.png` (512×512 source), screenshots if any.

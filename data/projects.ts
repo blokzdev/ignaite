@@ -167,22 +167,25 @@ export const projects: ReadonlyArray<Project> = [
     stats: [{ kind: "rating", value: "4.5", raw: 4.5 }],
     links: [{ kind: "play-store", url: DEV_PAGE, primary: true }],
   },
-  // OSS placeholder so the OSS card variant ships exercised at launch.
-  // TODO(user): replace with the first real OSS repo once published.
+  // First real Blokz OSS repo — built end-to-end with Claude Code. Seeded into
+  // the (currently dormant) portfolio data so it's ready when the portfolio is
+  // revived; not surfaced on the live site yet.
+  // TODO(user): confirm WebSight's tagline/description + add real stars/forks
+  // stats before the portfolio is republished.
   {
-    slug: "blokz-oss",
-    name: "Open source incoming",
-    tagline: "The first Blokz OSS repo drops soon.",
+    slug: "websight",
+    name: "WebSight",
+    tagline: "Open-source, built end-to-end with Claude Code.",
     description:
-      "We're publishing the tooling we build for ourselves — explorer kits, prompt libraries, and shaped pieces of the agent workflow. Stay tuned.",
+      "An open-source project from Blokz, vibecoded end-to-end with Claude Code as the primary author.",
     type: "oss-repo",
-    status: "coming-soon",
+    status: "live",
     platforms: ["cross-platform"],
     chains: ["n-a"],
     category: "tool",
-    media: { icon: "/projects/blokz-oss/icon.png", accentColor: "#A78BFA" },
-    stats: [{ kind: "custom", value: "soon", label: "ETA" }],
-    links: [{ kind: "github", url: "https://github.com/blokzdev", primary: true }],
+    media: { icon: "/projects/websight/icon.png", accentColor: "#A78BFA" },
+    stats: [],
+    links: [{ kind: "github", url: "https://github.com/blokzdev/websight", primary: true }],
   },
   // Web-app placeholder so the Web card variant ships exercised. First Blokz
   // AI app for B2B/B2C — research-rooted, edge-aware, agentic.

@@ -34,9 +34,9 @@ Things that would make the site feel more "us" before the world sees it.
 - [ ] **[user]** Rewrite the hero headline block in `data/brand.ts` (`brand.headline.eyebrow / title / titleAccent / sub`) if the current copy doesn't ring true.
 - [ ] **[user]** Workflow **artifact** copy — voice/tone polish. The narrative transcripts in `content/workflow/stages.ts` were revoiced to the founder register in K-3 (see Resolved); the 12 MDX artifacts under `content/workflow/artifacts/<product>/<type>.mdx` are still in their first-draft voice. Read them through and tune to your personal voice before launch (the structure + depth are done).
 - [ ] **[user]** Decide on a real Cal.com (or alternative) scheduling URL and set the `SCHEDULE_URL` constant in `components/contact/contact-success.tsx` to render the "Book a call" button on form-success.
-- [ ] **[user]** Replace the blanket Play-Store developer-page URL in `data/projects.ts` with per-app deep links (`details?id=<packageId>`). Only `blockscan` carries a verified package id (`com.bdc.blockscan.app`); the other eight rows link to the dev page today.
-- [ ] **[user]** Provide per-app download / review counts beyond Blockchair's confirmed 10K+ (currently only rating is shown on the other eight cards).
-- [ ] **[polish]** Drop real 512×512 app icons under `public/projects/<slug>/icon.png`. Cards currently render a generated 2-letter monogram tinted by chain accent — works, but real icons read more credibly.
+- [ ] **[future]** _(Portfolio dormant — these three are deferred while the blockchain heritage is unpublished; they only matter if/when the portfolio is revived.)_ Replace the blanket Play-Store developer-page URL in `data/projects.ts` with per-app deep links (`details?id=<packageId>`). Only `blockscan` carries a verified package id (`com.bdc.blockscan.app`).
+- [ ] **[future]** Provide per-app download / review counts beyond Blockchair's confirmed 10K+ (portfolio-dormant).
+- [ ] **[future]** Drop real 512×512 app icons under `public/projects/<slug>/icon.png` (portfolio-dormant). Also: confirm **WebSight**'s tagline/description + add real stars/forks stats in `data/projects.ts` before reviving the portfolio.
 - [ ] **[polish]** Load Geist Sans into the OG image template so the social-share cards match the live site's display type. `lib/og-image.tsx` currently uses Satori's default system sans (clean but not on-brand).
 
 ## Post-launch enhancements
