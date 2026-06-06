@@ -19,12 +19,20 @@ import { siteUrl } from "@/lib/seo";
 import type {
   App,
   AppCategory,
+  AppDeployment,
   AppLinkKind,
   AppPlatform,
   AppPricing,
   BlokzMark,
   ModelSupportKind,
 } from "@/types/app";
+
+const DEPLOYMENT_LABEL: Record<AppDeployment, string> = {
+  cloud: "Cloud",
+  "self-host": "Self-host",
+  local: "Local",
+  hybrid: "Hybrid",
+};
 import { cn } from "@/lib/utils";
 
 // GitHub branded icon: lucide-react 1.x dropped it; ship our own glyph.
@@ -55,6 +63,7 @@ const CATEGORY_LABEL: Record<AppCategory, string> = {
   search: "Search",
   "data-ops": "Data Ops",
   observability: "Observability",
+  inference: "Inference",
   "fine-tuning": "Fine-tuning",
   "research-platform": "Research",
   "browser-extension": "Browser Extension",
@@ -65,7 +74,6 @@ const PRICING_LABEL: Record<AppPricing, string> = {
   free: "FREE",
   freemium: "FREEMIUM",
   paid: "PAID",
-  "open-source": "OPEN SOURCE",
   "byo-key": "BYO KEY",
 };
 
@@ -189,6 +197,16 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
           {PRICING_LABEL[app.pricing]}
         </span>
+        {app.openSource && (
+          <span className="rounded-full bg-[var(--color-success)]/[0.12] px-2 py-0.5 text-[var(--color-success)] ring-1 ring-[var(--color-success)]/30 ring-inset">
+            Open source
+          </span>
+        )}
+        {app.deployment && (
+          <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
+            {DEPLOYMENT_LABEL[app.deployment]}
+          </span>
+        )}
         {app.platforms.map((p) => (
           <span
             key={p}
@@ -373,7 +391,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           datePublished: app.addedAt,
           dateModified: app.lastVerifiedAt,
           offers:
-            app.pricing === "free" || app.pricing === "open-source"
+            app.pricing === "free" || app.openSource
               ? {
                   "@type": "Offer",
                   price: "0",

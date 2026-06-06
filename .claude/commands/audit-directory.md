@@ -22,9 +22,14 @@ For each entry in scope:
 - WebSearch/WebFetch the official site + pricing page. Check:
   - **Links resolve** (primary + secondaries). A `403` from anti-bot protection on a real site is OK;
     a `404`, dead domain, or redirect to a parked/acquired page is not.
-  - **Pricing tier** still matches (`free`/`freemium`/`paid`/`open-source`/`byo-key`).
+  - **Pricing tier** still matches (`free`/`freemium`/`paid`/`byo-key` — cost only).
+  - **`openSource`** correct (true when the app's own source is open; separate from price) and
+    **`deployment`** correct (`cloud`/`self-host`/`local`/`hybrid`, where it's a real axis).
   - **Platforms** + **model support** still accurate (new mobile app? dropped a platform? model rename?).
   - **Still operating** — not shut down, sunset, or fully absorbed into another product.
+- **Backfill:** if an entry is missing `openSource`/`deployment` and the value is verifiable, add it
+  (this is how full coverage of those facets completes itself over the weekly cycle). Leave
+  `deployment` unset for pure libraries/SDKs/extensions.
 
 ## 2. Apply fixes
 

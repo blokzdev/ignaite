@@ -1,8 +1,8 @@
 "use client";
 import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from "nuqs";
 import { toast } from "sonner";
-import { APP_CATEGORIES, APP_PRICING, BLOKZ_MARKS } from "@/types/app";
-import type { AppCategory, AppPricing, BlokzMark } from "@/types/app";
+import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING, BLOKZ_MARKS } from "@/types/app";
+import type { AppCategory, AppDeployment, AppPricing, BlokzMark } from "@/types/app";
 import { clearFilters } from "@/lib/tools/clear-filters";
 
 export type StatusFilter = "active" | "archived" | "all";
@@ -30,6 +30,7 @@ export const CATEGORY_LABEL: Record<AppCategory, string> = {
   search: "Search",
   "data-ops": "Data Ops",
   observability: "Observability",
+  inference: "Inference",
   "fine-tuning": "Fine-tuning",
   "research-platform": "Research",
   "browser-extension": "Browser Ext.",
@@ -40,8 +41,14 @@ export const PRICING_LABEL: Record<AppPricing, string> = {
   free: "Free",
   freemium: "Freemium",
   paid: "Paid",
-  "open-source": "OSS",
   "byo-key": "BYO key",
+};
+
+export const DEPLOYMENT_LABEL: Record<AppDeployment, string> = {
+  cloud: "Cloud",
+  "self-host": "Self-host",
+  local: "Local",
+  hybrid: "Hybrid",
 };
 
 export const MARK_LABEL: Record<BlokzMark, string> = {
@@ -69,6 +76,8 @@ export const directoryFilterParsers = {
   category: parseAsArrayOf(parseAsStringLiteral(APP_CATEGORIES)).withDefault([]),
   pricing: parseAsArrayOf(parseAsStringLiteral(APP_PRICING)).withDefault([]),
   blokzMark: parseAsArrayOf(parseAsStringLiteral(BLOKZ_MARKS)).withDefault([]),
+  deployment: parseAsArrayOf(parseAsStringLiteral(APP_DEPLOYMENTS)).withDefault([]),
+  openSource: parseAsStringLiteral(["true", "false"] as const),
   status: parseAsStringLiteral(STATUS_FILTERS),
   sort: parseAsStringLiteral(SORT_MODES),
   q: parseAsString,
@@ -107,9 +116,18 @@ export function useDirectoryFilters() {
       : [...filter.blokzMark, value];
     void setFilter({ blokzMark: next.length > 0 ? next : null });
   };
+  const toggleDeployment = (value: AppDeployment) => {
+    const next = filter.deployment.includes(value)
+      ? filter.deployment.filter((v) => v !== value)
+      : [...filter.deployment, value];
+    void setFilter({ deployment: next.length > 0 ? next : null });
+  };
   const resetCategory = () => void setFilter({ category: null });
   const resetPricing = () => void setFilter({ pricing: null });
   const resetMark = () => void setFilter({ blokzMark: null });
+  const resetDeployment = () => void setFilter({ deployment: null });
+  const setOpenSource = (value: boolean | null) =>
+    void setFilter({ openSource: value === null ? null : value ? "true" : "false" });
   const setStatus = (value: StatusFilter | null) => void setFilter({ status: value });
   const setSort = (value: SortMode) =>
     void setFilter({ sort: value === "featured" ? null : value });
@@ -122,6 +140,8 @@ export function useDirectoryFilters() {
     filter.category.length > 0 ||
     filter.pricing.length > 0 ||
     filter.blokzMark.length > 0 ||
+    filter.deployment.length > 0 ||
+    filter.openSource != null ||
     statusActive ||
     (filter.q?.length ?? 0) > 0;
 
@@ -136,6 +156,8 @@ export function useDirectoryFilters() {
             category: snap.category.length ? snap.category : null,
             pricing: snap.pricing.length ? snap.pricing : null,
             blokzMark: snap.blokzMark.length ? snap.blokzMark : null,
+            deployment: snap.deployment.length ? snap.deployment : null,
+            openSource: snap.openSource,
             status: snap.status,
             sort: snap.sort,
             q: snap.q,
@@ -160,6 +182,20 @@ export function useDirectoryFilters() {
       label: MARK_LABEL[m],
       onRemove: () => toggleMark(m),
     })),
+    ...filter.deployment.map((d) => ({
+      id: `deploy:${d}`,
+      label: DEPLOYMENT_LABEL[d],
+      onRemove: () => toggleDeployment(d),
+    })),
+    ...(filter.openSource != null
+      ? [
+          {
+            id: "openSource",
+            label: filter.openSource === "true" ? "Open source" : "Proprietary",
+            onRemove: () => setOpenSource(null),
+          },
+        ]
+      : []),
     ...(statusActive
       ? [
           {
@@ -179,9 +215,12 @@ export function useDirectoryFilters() {
     toggleCategory,
     togglePricing,
     toggleMark,
+    toggleDeployment,
     resetCategory,
     resetPricing,
     resetMark,
+    resetDeployment,
+    setOpenSource,
     setStatus,
     setSort,
     setQuery,

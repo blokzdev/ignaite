@@ -1,8 +1,9 @@
 "use client";
-import { APP_CATEGORIES, APP_PRICING, BLOKZ_MARKS } from "@/types/app";
+import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING, BLOKZ_MARKS } from "@/types/app";
 import { cn } from "@/lib/utils";
 import {
   CATEGORY_LABEL,
+  DEPLOYMENT_LABEL,
   MARK_LABEL,
   PRICING_LABEL,
   STATUS_FILTERS,
@@ -66,6 +67,33 @@ export function FilterControls({ filters, variant = "inline" }: Readonly<Props>)
             {MARK_LABEL[m]}
           </Chip>
         ))}
+      </FilterRow>
+
+      <FilterRow label="Deployment" stacked={stacked}>
+        <Chip active={filter.deployment.length === 0} onClick={filters.resetDeployment}>
+          All
+        </Chip>
+        {APP_DEPLOYMENTS.map((d) => (
+          <Chip
+            key={d}
+            active={filter.deployment.includes(d)}
+            onClick={() => filters.toggleDeployment(d)}
+          >
+            {DEPLOYMENT_LABEL[d]}
+          </Chip>
+        ))}
+      </FilterRow>
+
+      <FilterRow label="Source" stacked={stacked}>
+        <Chip active={filter.openSource == null} onClick={() => filters.setOpenSource(null)}>
+          All
+        </Chip>
+        <Chip active={filter.openSource === "true"} onClick={() => filters.setOpenSource(true)}>
+          Open source
+        </Chip>
+        <Chip active={filter.openSource === "false"} onClick={() => filters.setOpenSource(false)}>
+          Proprietary
+        </Chip>
       </FilterRow>
 
       <FilterRow label="Status" stacked={stacked}>

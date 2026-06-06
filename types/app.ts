@@ -28,6 +28,7 @@ export type AppCategory =
   | "search"
   | "data-ops"
   | "observability"
+  | "inference"
   | "fine-tuning"
   | "research-platform"
   | "browser-extension"
@@ -52,20 +53,31 @@ export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   "search",
   "data-ops",
   "observability",
+  "inference",
   "fine-tuning",
   "research-platform",
   "browser-extension",
   "automation",
 ];
 
-export type AppPricing = "free" | "freemium" | "paid" | "open-source" | "byo-key";
+export type AppPricing = "free" | "freemium" | "paid" | "byo-key";
 
-export const APP_PRICING: ReadonlyArray<AppPricing> = [
-  "free",
-  "freemium",
-  "paid",
-  "open-source",
-  "byo-key",
+export const APP_PRICING: ReadonlyArray<AppPricing> = ["free", "freemium", "paid", "byo-key"];
+
+// How an app is hosted / run — the axis users decide on (cloud vs self-host vs
+// runs-locally). Optional; set only where it's a real distinction (services,
+// self-hostable infra, desktop apps). Libraries/SDKs/extensions leave it unset.
+//   "cloud"     — vendor-hosted SaaS only.
+//   "self-host" — you run it on your own infra (no/secondary vendor cloud).
+//   "local"     — runs on your machine / device (desktop, on-device).
+//   "hybrid"    — offered both as managed cloud AND self-host.
+export type AppDeployment = "cloud" | "self-host" | "local" | "hybrid";
+
+export const APP_DEPLOYMENTS: ReadonlyArray<AppDeployment> = [
+  "cloud",
+  "self-host",
+  "local",
+  "hybrid",
 ];
 
 // Optional editorial badge. Most listings carry no mark.
@@ -155,7 +167,14 @@ export interface App {
   /** Optional richer prose for the detail page (chunk C). */
   longDescription?: string;
   category: AppCategory;
+  /** Cost model only — license/openness is the separate `openSource` flag. */
   pricing: AppPricing;
+  /** True when the app's source is open. Decoupled from `pricing` so an app can
+   * be both open-source AND have a paid hosted tier (e.g. Zed, ComfyUI). */
+  openSource?: boolean;
+  /** How it's hosted / run — see AppDeployment. Set where it's a real axis
+   * (services / self-hostable infra / desktop); unset for libraries/SDKs. */
+  deployment?: AppDeployment;
   /** Optional editorial badge — see BlokzMark. */
   blokzMark?: BlokzMark;
   vendor?: string;

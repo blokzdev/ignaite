@@ -47,6 +47,14 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
       if (filter.blokzMark.length > 0) {
         if (!a.blokzMark || !filter.blokzMark.includes(a.blokzMark)) return false;
       }
+      if (filter.deployment.length > 0) {
+        if (!a.deployment || !filter.deployment.includes(a.deployment)) return false;
+      }
+      if (filter.openSource != null) {
+        const isOss = a.openSource === true;
+        if (filter.openSource === "true" && !isOss) return false;
+        if (filter.openSource === "false" && isOss) return false;
+      }
       if (!query) {
         const appStatus = a.status ?? "active";
         if (statusMode === "active" && appStatus !== "active") return false;
@@ -95,6 +103,8 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     filter.category,
     filter.pricing,
     filter.blokzMark,
+    filter.deployment,
+    filter.openSource,
     filter.status,
     filter.sort,
     filter.q,
@@ -104,6 +114,8 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     filter.category.length > 0 ||
     filter.pricing.length > 0 ||
     filter.blokzMark.length > 0 ||
+    filter.deployment.length > 0 ||
+    filter.openSource != null ||
     (filter.status ?? "active") !== "active" ||
     (filter.q?.length ?? 0) > 0;
 
