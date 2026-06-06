@@ -6,13 +6,13 @@ This file is the contract between you (Claude) and this codebase. Read it end-to
 
 ## 1. Overview
 
-**Blokz.dev** is the marketing site for **Blokz Development Company**, a vibecoding studio building AI apps for B2B and B2C, end-to-end with Claude Code. The site is itself a demonstration of agentic engineering. The public site is focused on the **AI-apps directory** (`/`), the studio story (`/about`), and conversion (`/contact`).
+**Blokz.dev** is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line AI insight. It is built and operated by **Blokz Development Company** (the studio, credited in the footer colophon), and is itself a demonstration of agentic engineering. The public surface is the **directory** (`/`), how it's managed (`/about`), and contact (`/contact`).
 
 > **The portfolio is dormant.** The studio's earlier non-AI work (nine Android blockchain explorers) was unpublished to keep the site focused on the AI-frontier vision. `/about` no longer shows a portfolio/stats grid; the `/portfolio/<slug>` route lives under the private folder `app/(marketing)/_portfolio/`, with `data/projects.ts`, `components/apps/*`, and the orphaned `components/home/{apps-preview,stats-strip}.tsx` retained for a future AI-app/web/OSS revival (the real OSS project **WebSight** is already seeded in `data/projects.ts`). To republish: rename `_portfolio` → `portfolio`, re-compose the sections on `/about`, and re-add the sitemap + redirect entries.
 
 > **`/workflow` is dormant.** The 4-stage Claude Code session walkthrough + 12 MDX artifacts were unpublished (Iteration 5, out-of-sequence product-direction change) to keep the homepage directory-focused and the detailed agentic process semi-proprietary. All of it is **retained in the repo** under the Next private folder `app/(marketing)/_workflow/` (underscore = excluded from routing), along with `components/workflow/*`, `components/claude-chat/*`, `content/workflow/*`, `hooks/use-workflow-*`, and `types/workflow.ts`. To republish: rename `_workflow` → `workflow` and re-add the references listed in `BACKLOG.md`. Everywhere below that describes `/workflow` as live should be read through this lens.
 
-Brand line (source of truth: `data/brand.ts`): _Apps at the AI frontier. Built end-to-end with Claude Code._
+Brand line (source of truth: `data/brand.ts`): _An AI-managed directory of AI apps — researched, written, and kept current by Claude Code._
 
 v2 is the live site (this codebase). The legacy v1 Glitch template is preserved only on the `glitch` branch; `main` is v2.
 

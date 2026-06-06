@@ -5,9 +5,9 @@ export const sponsored: ReadonlyArray<SponsoredSlot> = [
     id: "blokz-hire-2026",
     sponsored: true,
     name: "Building an AI app?",
-    tagline: "Hire Blokz to ship it end-to-end.",
+    tagline: "The studio behind this directory can ship it.",
     description:
-      "Vibecoding studio building production AI apps for B2B + B2C. Research-rooted, multi-model, end-to-end with Claude Code. We pitch, scope, build, and ship.",
+      "Blokz Development Co. — the team that builds and operates this directory — designs and ships production AI apps end-to-end with Claude Code, the same way the catalog is run. Pitch us.",
     promotedBy: "Blokz",
     accentColor: "#08D9D6",
     link: {

@@ -37,7 +37,7 @@ export default function HomePage() {
             <span className="text-display text-[var(--color-accent)]">for the job.</span>
           </h1>
           <p className="mt-5 font-mono text-[11px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
-            {total} apps Â· {categories} categories Â· curated and growing
+            {total} apps · {categories} categories · researched &amp; kept current by Claude Code
           </p>
         </header>
 
@@ -52,7 +52,7 @@ export default function HomePage() {
         data={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: `${brand.name} â AI Apps Directory`,
+          name: `${brand.name} — AI Apps Directory`,
           url: siteUrl,
           description: metadata.description ?? undefined,
           hasPart: allApps.map((a) => ({

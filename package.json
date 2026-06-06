@@ -2,7 +2,7 @@
   "name": "blokz-landing",
   "version": "0.2.0",
   "private": true,
-  "description": "Blokz.dev — marketing site for Blokz Development Co., a vibecoding studio shipping production web3 apps.",
+  "description": "Blokz.dev — an AI-managed directory of AI apps, researched, written, and kept current by Claude Code. Built and operated by Blokz Development Co.",
   "engines": {
     "node": ">=20.11",
     "pnpm": ">=9"

@@ -1,8 +1,8 @@
 # Blokz.dev
 
-Marketing site for **Blokz Development Co.** — a vibecoding studio building AI apps end-to-end with Claude Code.
+**Blokz** is an **AI-managed directory** of AI apps — every listing researched, written, and kept current by Claude Code, each carrying a one-line AI insight. Built and operated by **Blokz Development Co.**
 
-The site is itself a demonstration: it's built end-to-end with Claude Code. The public surface is the **AI-apps directory** (`/`), the studio story (`/about`), and contact (`/contact`). (A detailed `/workflow` walkthrough exists in the repo but is currently unpublished — see below.)
+The site is itself the product — and a demonstration: the directory (`/`) is researched, written, and audited by Claude Code; `/about` explains how it's managed; `/contact` reaches the studio behind it. (A detailed `/workflow` walkthrough exists in the repo but is currently unpublished — see below.)
 
 🌐 **Live:** [blokz.dev](https://blokz.dev)
 📒 **Contract:** see [`CLAUDE.md`](./CLAUDE.md) for stack, conventions, and agent guardrails

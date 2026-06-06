@@ -6,16 +6,16 @@ import { GlowOrb } from "@/components/effects/glow-orb";
 // in the repo but kept off the live site.
 const pillars: ReadonlyArray<{ label: string; body: string }> = [
   {
-    label: "Architect + reviewer",
-    body: "Humans set direction, shape the spec, and own the quality bar on every change.",
+    label: "AI-researched",
+    body: "Claude Code reads each app's own site and docs, then writes the listing and its insight.",
   },
   {
-    label: "AI as primary author",
-    body: "Claude Code writes the bulk of the code end-to-end — conceptualize, build, ship.",
+    label: "Human-reviewed",
+    body: "Every entry lands as a pull request a human approves before it goes live.",
   },
   {
-    label: "Research-rooted",
-    body: "Grounded in current work on edge AI, multi-agent systems, and memory.",
+    label: "Always current",
+    body: "Weekly routines re-verify links, pricing, and licenses so listings don't rot.",
   },
 ];
 
@@ -26,15 +26,15 @@ export function HowWeWork() {
 
       <div className="relative mx-auto max-w-5xl">
         <header className="max-w-2xl">
-          <p className="text-eyebrow text-[var(--color-accent)]">{"// How we work"}</p>
+          <p className="text-eyebrow text-[var(--color-accent)]">{"// How it's managed"}</p>
           <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl">
-            <span className="text-display text-[var(--color-ink)]">Architect + reviewer.</span>{" "}
-            <span className="text-display text-[var(--color-accent)]">AI as primary author.</span>
+            <span className="text-display text-[var(--color-ink)]">Researched by AI.</span>{" "}
+            <span className="text-display text-[var(--color-accent)]">Reviewed by humans.</span>
           </h2>
           <p className="mt-6 text-base text-[var(--color-ink-dim)] sm:text-lg">
-            We design, prompt, and ship production apps end-to-end with Claude Code as the primary
-            author — humans hold the architecture and the bar, the agent does the heavy lifting, and
-            every change is reviewed. Research-rooted, spec-first, shipped.
+            Every listing is researched, written, and audited by Claude Code against each app&apos;s
+            official source — then a human reviews the pull request before it ships. No fabrication,
+            no pay-to-list, no crowd-sourced noise.
           </p>
         </header>
 

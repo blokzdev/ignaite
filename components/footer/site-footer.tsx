@@ -54,8 +54,12 @@ export function SiteFooter() {
 
           <div>
             <h3 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-              Connect
+              Studio
             </h3>
+            <p className="mt-3 max-w-[15rem] text-sm text-[var(--color-ink-dim)]">
+              Built &amp; operated by {brand.legalName} — a studio shipping AI apps end-to-end with
+              Claude Code.
+            </p>
             <ul className="mt-4 grid grid-cols-2 gap-2">
               {socials.map((s) => (
                 <li key={s.label}>
@@ -75,10 +79,10 @@ export function SiteFooter() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-white/[0.06] pt-8 md:flex-row md:items-center">
           <p className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
-            © {new Date().getFullYear()} {brand.legalName} — {brand.tagline}
+            © {new Date().getFullYear()} {brand.name} — an AI-managed directory
           </p>
           <p className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
-            Vibecoded with Claude Code
+            Researched, written &amp; maintained by Claude Code
           </p>
         </div>
       </div>
