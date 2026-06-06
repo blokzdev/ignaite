@@ -109,7 +109,10 @@ export function ToolCard({ app }: Readonly<Props>) {
       >
         <span className="sr-only">View {app.name} details</span>
       </Link>
-      {/* Top row: category + pricing + license signal (+ archived) */}
+      {/* Top row: category + pricing + license signal (+ archived).
+          Only the "open" license states get a chip — proprietary (~2/3 of
+          listings) is the intentional unbadged default to keep cards quiet;
+          the Source filter still offers all three. Don't add a "prop" chip. */}
       <div className="flex flex-wrap items-center gap-2 font-mono text-[10px] tracking-[0.12em] uppercase">
         <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
           {CATEGORY_LABEL[app.category]}

@@ -13,7 +13,7 @@
     "dev": "velite build && next dev --turbopack",
     "build": "velite build && next build --turbopack",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "velite build && eslint",
     "lint:fix": "eslint --fix",
     "typecheck": "velite build && tsc --noEmit",
     "format": "prettier --write .",

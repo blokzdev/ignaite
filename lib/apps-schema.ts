@@ -111,6 +111,10 @@ export const appSchema = z
   .refine((a) => a.links.filter((l) => l.primary).length === 1, {
     message: "links must contain exactly one entry with `primary: true`",
     path: ["links"],
+  })
+  .refine((a) => !a.featured || !!a.accentColor, {
+    message: "featured apps must set accentColor (it drives the carousel/hero gradient)",
+    path: ["accentColor"],
   });
 
 export type App = z.infer<typeof appSchema>;

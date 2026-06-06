@@ -41,9 +41,9 @@ Pre-push auto-runs `pnpm typecheck`.
 
 ## What's in the box
 
-- **`/`** — the **AI-apps directory**: ~70 curated tools with category / pricing / Blokz-mark / status filters + search + sort (`nuqs` URL state), a featured carousel, infinite scroll, and light-touch sponsored slots
+- **`/`** — the **AI-apps directory**: ~125 curated tools with category / pricing / license / status filters + search + sort (`nuqs` URL state), a featured carousel, infinite scroll, and light-touch sponsored slots
 - **`/apps/[slug]`** — per-app detail with `SoftwareApplication` JSON-LD (one SSG page per directory app)
-- **`/about`** — studio identity: R3F hero (cursor-reactive flow-field shader) → Now/Next band → how-we-work → manifesto
+- **`/about`** — how the directory is AI-managed: R3F hero (cursor-reactive flow-field shader) → Now/Next band → how-we-work → manifesto
 - **`/contact`** — a Resend-powered server action with IP rate-limiting and an honest "offline" fallback when `RESEND_API_KEY` is unset
 - **`/portfolio/[slug]`** _(dormant — not currently published)_ — per-project detail for Blokz's own shipped apps. Retained under the Next private folder `app/(marketing)/_portfolio/` (with `data/projects.ts` + `components/apps/*`) for when a real AI-app / web-app / OSS portfolio is revived
 - **`/workflow`** _(dormant — not currently published)_ — a 4-stage Claude Code session walkthrough (conceptualize → specify → build → ship) across three sample products (Blokz Brief, Eval Forge, Edge Memo), rendered as chat transcripts, plus 12 Shiki-highlighted MDX artifacts at `/workflow/artifacts/[product]/[type]`. Retained in the repo under the Next private folder `app/(marketing)/_workflow/`; rename to `workflow/` to republish (see `BACKLOG.md`).
