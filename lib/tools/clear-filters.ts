@@ -10,6 +10,7 @@ interface ClearableFilter {
   category: null;
   pricing: null;
   deployment: null;
+  platform: null;
   license: null;
   status: null;
   sort: null;
@@ -21,6 +22,7 @@ export function clearFilters(setFilter: (values: ClearableFilter) => unknown): v
     category: null,
     pricing: null,
     deployment: null,
+    platform: null,
     license: null,
     status: null,
     sort: null,

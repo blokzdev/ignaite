@@ -42,6 +42,10 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
       if (filter.deployment.length > 0) {
         if (!a.deployment || !filter.deployment.includes(a.deployment)) return false;
       }
+      // platforms is an array on the app → match if it runs on ANY selected platform.
+      if (filter.platform.length > 0 && !a.platforms.some((p) => filter.platform.includes(p))) {
+        return false;
+      }
       if (filter.license != null && licenseSignal(a) !== filter.license) return false;
       if (!query) {
         const appStatus = a.status ?? "active";
@@ -89,6 +93,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     filter.category,
     filter.pricing,
     filter.deployment,
+    filter.platform,
     filter.license,
     filter.status,
     filter.sort,
@@ -99,6 +104,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     filter.category.length > 0 ||
     filter.pricing.length > 0 ||
     filter.deployment.length > 0 ||
+    filter.platform.length > 0 ||
     filter.license != null ||
     (filter.status ?? "active") !== "active" ||
     (filter.q?.length ?? 0) > 0;
@@ -121,6 +127,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
       category: [category],
       pricing: null,
       deployment: null,
+      platform: null,
       license: null,
       status: null,
       sort: null,
