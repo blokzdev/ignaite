@@ -178,9 +178,12 @@ data/                             # source-of-truth, typed
   brand.ts                        # logo, social handles, contact, hero copy
   chains.ts                       # chain metadata (icon, color, label)
 
-velite.config.ts                  # Velite: validates data/apps/*.json against lib/apps-schema.ts,
-                                  #   generates .velite/ (full apps.json + slim apps-search.json).
-                                  #   Runs via `velite build` prepended to dev/build/typecheck.
+velite.config.ts                  # Velite: validates data/apps/*.json + data/sponsored/*.json against
+                                  #   lib/{apps,sponsored}-schema.ts, generates .velite/ (full apps.json +
+                                  #   slim apps-search.json). Runs via `velite build --strict` prepended to
+                                  #   build/lint/typecheck (NOT dev) — invalid data fails CI/pre-push (the
+                                  #   config-level `strict` flag is a no-op in 0.3.1; only the CLI flag exits
+                                  #   non-zero). The `complete()` hook also throws on duplicate slugs/ids.
 .velite/                          # GENERATED + gitignored — never edit/commit; import via @/.velite
 
 lib/
@@ -222,7 +225,7 @@ package.json  pnpm-lock.yaml
 
 ### Add a directory app (the `/` directory — App track)
 
-1. Create `data/apps/<slug>.json` — one JSON object, validated by the zod schema in `lib/apps-schema.ts` (the source of truth; types re-exported from `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1, **exactly one** `primary: true`). Optional: `insight` (the directory's signature signal — a single ≤140-char, non-obvious, **verifiable** editorial sentence per listing; never fabricated, omit if nothing sharp), `vendor`, `openSource` (license signal — **decoupled from `pricing`**, which is cost-only: `free`/`freemium`/`paid`/`byo-key`, no `open-source`; the card/detail derive an open-source / **open-core** / proprietary chip from `openSource` + `pricing`), `deployment` (`cloud`/`self-host`/`local`/`hybrid`, set where hosting is a real axis — unset for libraries/SDKs), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`. (Model-serving/inference/gateways → the `inference` category.) Run `pnpm velite build` — it schema-validates the file with a precise per-file error if anything is off.
+1. Create `data/apps/<slug>.json` — one JSON object, validated by the zod schema in `lib/apps-schema.ts` (the source of truth; types re-exported from `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1, **exactly one** `primary: true`). Optional: `insight` (the directory's signature signal — a single ≤140-char, non-obvious, **verifiable** editorial sentence per listing; never fabricated, omit if nothing sharp), `vendor`, `openSource` (license signal — **decoupled from `pricing`**, which is cost-only: `free`/`freemium`/`paid`/`byo-key`, no `open-source`; the card/detail derive an open-source / **open-core** / proprietary chip from `openSource` + `pricing`), `deployment` (`cloud`/`self-host`/`local`/`hybrid`, set where hosting is a real axis — unset for libraries/SDKs), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`. (Model-serving/inference/gateways → the `inference` category.) Run `pnpm velite` (runs `velite build --strict`) — it schema-validates the file and **exits non-zero** with a precise per-file error if anything is off (duplicate slugs fail too), so a bad entry fails CI rather than silently dropping.
 2. One card renders all apps — `components/tools/tool-card.tsx` (no per-type dispatch); the detail body is `components/tools/app-detail.tsx`.
 3. Set `featured: true` to surface it in the featured carousel (use sparingly).
 4. Run `pnpm dev` and verify it appears on `/`, that the category/pricing/status filter chips include it, and that `/apps/<slug>` renders. (One file per listing → concurrent `/add-app` & `/discover-apps` runs never conflict.)
@@ -496,7 +499,8 @@ The `/` directory is the product — keep it comprehensive + current. Two commit
 encode the flow (see `docs/directory-playbook.md`):
 
 - **`/add-app <name | url | list>`** — research + author new `App` listings as `data/apps/<slug>.json`
-  (dedup → web-verify → schema-valid entry → `pnpm velite build`). No fabrication; author a verifiable
+  (dedup → web-verify → schema-valid entry → `pnpm velite`, which runs `--strict` and hard-fails on a
+  bad/duplicate entry). No fabrication; author a verifiable
   `insight`; `addedAt`/`lastVerifiedAt` = today; `featured` sparingly.
 - **`/discover-apps [focus]`** — autonomous counterpart to `/add-app`: finds net-new apps not yet
   listed and opens a PR. Built for unattended/scheduled runs.
