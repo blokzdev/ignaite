@@ -14,6 +14,7 @@ export const SORT_MODES: ReadonlyArray<SortMode> = ["featured", "recent", "alpha
 export const CATEGORY_LABEL: Record<AppCategory, string> = {
   ide: "IDE",
   agent: "Agent",
+  assistant: "Assistant",
   orchestration: "Orchestration",
   mcp: "MCP",
   eval: "Eval",

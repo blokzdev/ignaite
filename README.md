@@ -55,7 +55,7 @@ Pre-push auto-runs `pnpm typecheck`.
 
 ## Adding an entry
 
-- **Directory app** → append an `App` to `data/apps.ts` (`slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` with ≥1 `primary: true`).
+- **Directory app** → append an `App` to `data/apps.ts` (`slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` with ≥1 `primary: true`). Or run the **`/add-app`** Claude Code routine (research + author + validate); audit existing listings with **`/audit-directory`**. See [`docs/directory-playbook.md`](./docs/directory-playbook.md).
 - **Portfolio project** _(dormant)_ → append a `Project` to `data/projects.ts`; it won't surface until the portfolio is republished (rename `_portfolio/` → `portfolio/`, re-add the sitemap + redirect).
 
 Full recipes (directory + the dormant portfolio/workflow, brand-color changes, etc.) live in `CLAUDE.md` §5 + §12.

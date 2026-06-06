@@ -479,6 +479,18 @@ Triage `BACKLOG.md` at the end of every Phase and again before launch.
 
 ## 12. Common tasks playbook
 
+### Grow / maintain the directory (recurring)
+
+The `/` directory is the product — keep it comprehensive + current. Two committed Claude Code routines
+encode the flow (see `docs/directory-playbook.md`):
+
+- **`/add-app <name | url | list>`** — research + author new `App` entries into `data/apps.ts`
+  (dedup → web-verify → schema-valid entry → validate). No fabrication; `addedAt`/`lastVerifiedAt` =
+  today; `blokzMark` only when Blokz genuinely uses/vets it; `featured` sparingly.
+- **`/audit-directory [--category c] [--stale-since date]`** — re-verify existing listings (links,
+  pricing, platforms, model support, still-alive), fix drift, archive discontinued apps, bump
+  `lastVerifiedAt`. Run ~monthly, oldest-verified first.
+
 ### Add a new app card type (e.g., `chrome-extension`)
 
 1. Extend `ProjectType` union in `types/project.ts`.
