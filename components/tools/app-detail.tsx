@@ -39,6 +39,7 @@ function GithubGlyph({ className }: { className?: string }) {
 const CATEGORY_LABEL: Record<AppCategory, string> = {
   ide: "IDE / Agent",
   agent: "Agent",
+  assistant: "Assistant",
   orchestration: "Orchestration",
   mcp: "MCP",
   eval: "Eval",

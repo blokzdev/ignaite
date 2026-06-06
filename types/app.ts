@@ -12,6 +12,7 @@
 export type AppCategory =
   | "ide"
   | "agent"
+  | "assistant"
   | "orchestration"
   | "mcp"
   | "eval"
@@ -35,6 +36,7 @@ export type AppCategory =
 export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   "ide",
   "agent",
+  "assistant",
   "orchestration",
   "mcp",
   "eval",
