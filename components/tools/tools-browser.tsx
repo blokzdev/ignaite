@@ -5,7 +5,7 @@ import type { App, AppCategory } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/.velite";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
-import { licenseSignal } from "@/lib/tools/license";
+import { filterApps } from "@/lib/tools/filter-apps";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
   CATEGORY_LABEL,
@@ -33,72 +33,26 @@ const SPONSORED_INTERVAL = { min: 10, max: 15, seed: 1 } as const;
 export function ToolsBrowser({ apps }: Readonly<Props>) {
   const [filter, setFilter] = useQueryStates(directoryFilterParsers, directoryFilterOptions);
 
-  const filtered = useMemo(() => {
-    const query = filter.q?.trim().toLowerCase() ?? "";
-    const statusMode = filter.status ?? "active";
-    const result = apps.filter((a) => {
-      if (filter.category.length > 0 && !filter.category.includes(a.category)) return false;
-      if (filter.pricing.length > 0 && !filter.pricing.includes(a.pricing)) return false;
-      if (filter.deployment.length > 0) {
-        if (!a.deployment || !filter.deployment.includes(a.deployment)) return false;
-      }
-      // platforms is an array on the app → match if it runs on ANY selected platform.
-      if (filter.platform.length > 0 && !a.platforms.some((p) => filter.platform.includes(p))) {
-        return false;
-      }
-      if (filter.license != null && licenseSignal(a) !== filter.license) return false;
-      if (!query) {
-        const appStatus = a.status ?? "active";
-        if (statusMode === "active" && appStatus !== "active") return false;
-        if (statusMode === "archived" && appStatus !== "archived") return false;
-      }
-      if (query) {
-        const haystack = [
-          a.name,
-          a.tagline,
-          a.description,
-          a.insight ?? "",
-          a.vendor ?? "",
-          a.category,
-          ...(a.tags ?? []),
-          ...(a.modelSupport?.models ?? []),
-        ]
-          .join(" ")
-          .toLowerCase();
-        if (!haystack.includes(query)) return false;
-      }
-      return true;
-    });
-
-    const sortMode = filter.sort ?? "featured";
-    return [...result].sort((a, b) => {
-      if (sortMode === "alpha") return a.name.localeCompare(b.name);
-      if (sortMode === "recent") {
-        if (a.addedAt && b.addedAt && a.addedAt !== b.addedAt) {
-          return a.addedAt > b.addedAt ? -1 : 1;
-        }
-        if (a.addedAt && !b.addedAt) return -1;
-        if (!a.addedAt && b.addedAt) return 1;
-        return a.name.localeCompare(b.name);
-      }
-      // featured (default): featured first, then most-recently-added, then A→Z.
-      if (Boolean(a.featured) !== Boolean(b.featured)) return a.featured ? -1 : 1;
-      if (a.addedAt && b.addedAt && a.addedAt !== b.addedAt) {
-        return a.addedAt > b.addedAt ? -1 : 1;
-      }
-      return a.name.localeCompare(b.name);
-    });
-  }, [
-    apps,
-    filter.category,
-    filter.pricing,
-    filter.deployment,
-    filter.platform,
-    filter.license,
-    filter.status,
-    filter.sort,
-    filter.q,
-  ]);
+  // The browse predicate + sort live in lib/tools/filter-apps (shared with the
+  // header console's live count). Depend on each field rather than the `filter`
+  // object: nuqs returns a fresh wrapper every render but keeps each parsed value
+  // referentially stable until its URL param changes, so field-level deps memoize
+  // correctly where `[apps, filter]` would recompute every render.
+  const filtered = useMemo(
+    () => filterApps(apps, filter),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [
+      apps,
+      filter.category,
+      filter.pricing,
+      filter.deployment,
+      filter.platform,
+      filter.license,
+      filter.status,
+      filter.sort,
+      filter.q,
+    ],
+  );
 
   const filtersApplied =
     filter.category.length > 0 ||
