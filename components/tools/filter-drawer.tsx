@@ -14,9 +14,11 @@ interface Props {
   activeCount: number;
   total: number;
   filtered: number;
+  /** Hide the Category facet (a sibling surface — the console strip — owns it). */
+  omitCategory?: boolean;
 }
 
-export function FilterDrawer({ activeCount, total, filtered }: Readonly<Props>) {
+export function FilterDrawer({ activeCount, total, filtered, omitCategory }: Readonly<Props>) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -43,7 +45,13 @@ export function FilterDrawer({ activeCount, total, filtered }: Readonly<Props>) 
         )}
       </button>
       {mounted && (
-        <FilterDrawerPortal open={open} onOpenChange={setOpen} total={total} filtered={filtered} />
+        <FilterDrawerPortal
+          open={open}
+          onOpenChange={setOpen}
+          total={total}
+          filtered={filtered}
+          omitCategory={omitCategory}
+        />
       )}
     </>
   );

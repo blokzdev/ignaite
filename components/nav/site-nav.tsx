@@ -1,8 +1,9 @@
 "use client";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Search } from "lucide-react";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { brand } from "@/data/brand";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { useScrollDirection } from "@/hooks/use-scroll-direction";
@@ -10,6 +11,15 @@ import { useScrollThreshold } from "@/hooks/use-scroll-threshold";
 import { isActiveNav } from "@/lib/nav";
 import { cn } from "@/lib/utils";
 import { MobileSheet } from "./mobile-sheet";
+import { DirectoryConsoleSkeleton } from "./directory-console-skeleton";
+
+// The directory search/filter console is a separate chunk, loaded only on `/`
+// (the pathname gate below). Keeping the import() inside dynamic() — and never
+// rendering it off-route — is what keeps the apps data + filter logic out of the
+// /about and /contact bundles even though this nav ships in the shared layout.
+const DirectoryConsole = dynamic(() =>
+  import("@/components/tools/directory-console").then((m) => m.DirectoryConsole),
+);
 
 function openCommandPalette() {
   window.dispatchEvent(new Event("blokz:open-command"));
@@ -17,11 +27,15 @@ function openCommandPalette() {
 
 export function SiteNav() {
   const pathname = usePathname() ?? "/";
+  const isDirectory = pathname === "/";
   const scrolled = useScrollThreshold(8);
   const reduced = useReducedMotion();
-  // Auto-hide on scroll-down for an app-like chrome; never hide for
-  // reduced-motion users (the snap would be jarring without a transition).
-  const hidden = useScrollDirection(80) && !reduced;
+  // Pin the header on the directory route (the search must stay one keystroke
+  // away); keep the scroll-down auto-hide on content routes. Hooks run every
+  // render — only the resulting value is gated. Never hide for reduced-motion
+  // users (the snap would be jarring without a transition).
+  const scrollHidden = useScrollDirection(80);
+  const hidden = !isDirectory && scrollHidden && !reduced;
 
   // Publish nav visibility so sticky bars (the directory filter bar) can ride up
   // to the top edge via `top: var(--nav-h)` when the nav slides away.
@@ -79,22 +93,35 @@ export function SiteNav() {
             })}
           </ul>
 
-          <button
-            type="button"
-            onClick={openCommandPalette}
-            aria-label="Search (Command/Ctrl + K)"
-            className="inline-flex items-center gap-2 rounded-full bg-white/[0.04] py-1.5 pr-1.5 pl-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-          >
-            <Search className="h-3.5 w-3.5" />
-            Search
-            <kbd className="rounded bg-white/[0.06] px-1.5 py-0.5 font-mono text-[10px] text-[var(--color-ink-dim)]">
-              ⌘K
-            </kbd>
-          </button>
+          {/* On `/` the console hosts a full search field, so this pill would be
+              redundant — keep it only on content routes. */}
+          {!isDirectory && (
+            <button
+              type="button"
+              onClick={openCommandPalette}
+              aria-label="Search (Command/Ctrl + K)"
+              className="inline-flex items-center gap-2 rounded-full bg-white/[0.04] py-1.5 pr-1.5 pl-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+            >
+              <Search className="h-3.5 w-3.5" />
+              Search
+              <kbd className="rounded bg-white/[0.06] px-1.5 py-0.5 font-mono text-[10px] text-[var(--color-ink-dim)]">
+                ⌘K
+              </kbd>
+            </button>
+          )}
         </div>
 
         <MobileNavCluster />
       </nav>
+
+      {/* Directory console (search + quick-category strip + Filters) — only on `/`.
+          The Suspense skeleton holds the header's height while the chunk hydrates
+          (and is the static-render fallback for its nuqs useSearchParams read). */}
+      {isDirectory && (
+        <Suspense fallback={<DirectoryConsoleSkeleton />}>
+          <DirectoryConsole />
+        </Suspense>
+      )}
     </header>
   );
 }

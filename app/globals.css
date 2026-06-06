@@ -62,6 +62,15 @@
   html[data-nav-hidden="true"] {
     --nav-h: 0rem;
   }
+  /* Directory route (/): the header hosts the search + quick-category console, so
+     it's taller than the marketing nav and stays pinned (never auto-hides). This
+     keeps scroll-padding-top + the skip-link landing clear of the taller chrome.
+     Set client-side by the console (data-route) — it only drives scroll padding,
+     so a post-hydration change reflows nothing. The masthead's own top padding
+     (page.tsx) is static, so there's no CLS. */
+  html[data-route="directory"] {
+    --nav-h: 9.5rem;
+  }
 
   html {
     background-color: var(--color-canvas);

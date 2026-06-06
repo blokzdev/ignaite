@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { GlowOrb } from "@/components/effects/glow-orb";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ToolGrid } from "@/components/tools/tool-grid";
@@ -20,8 +19,12 @@ export default function HomePage() {
   const total = allApps.length;
   const categories = new Set(allApps.map((a) => a.category)).size;
 
+  // Top padding clears the pinned directory console (nav + search + category
+  // strip) fixed-positioned in the shared header. The masthead is a plain block
+  // (not a <header> — site-nav owns the one <header> landmark) and scrolls away
+  // under the console.
   return (
-    <div className="relative overflow-clip px-6 pt-24 pb-32 sm:pt-32">
+    <div className="relative overflow-clip px-6 pt-44 pb-32 sm:pt-48">
       <GlowOrb
         className="-top-32 left-1/2 -translate-x-1/2"
         size={720}
@@ -30,21 +33,19 @@ export default function HomePage() {
       />
 
       <div className="container-site relative">
-        <header className="mb-8 max-w-3xl">
+        <div className="mb-10 max-w-3xl">
           <p className="text-eyebrow text-[var(--color-accent)]">AI Apps Directory</p>
-          <h1 className="mt-4 text-5xl sm:text-6xl md:text-7xl">
+          <h1 className="mt-3 text-4xl sm:text-5xl">
             <span className="text-display text-[var(--color-ink)]">Find the AI app</span>{" "}
             <span className="text-display text-[var(--color-accent)]">for the job.</span>
           </h1>
-          <p className="mt-5 font-mono text-[11px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
+          <p className="mt-3 font-mono text-[11px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
             {total} apps · {categories} categories · researched &amp; kept current by Claude Code
           </p>
-        </header>
+        </div>
 
         <Suspense fallback={<ToolGrid items={allApps} />}>
-          <NuqsAdapter>
-            <ToolsBrowser apps={allApps} />
-          </NuqsAdapter>
+          <ToolsBrowser apps={allApps} />
         </Suspense>
       </div>
 
