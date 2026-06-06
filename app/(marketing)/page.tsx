@@ -12,7 +12,7 @@ import { buildMetadata, siteUrl } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "AI Apps Directory",
   description:
-    "A growing directory of AI apps, agents, IDEs, MCP servers, infra, and tooling for vibecoders and developers — searchable, filterable, with a Blokz mark on the picks we've actually deployed.",
+    "A growing directory of AI apps, agents, IDEs, MCP servers, infra, and tooling — searchable and filterable by category, pricing, license, deployment, and platform.",
   path: "/",
 });
 
@@ -37,7 +37,7 @@ export default function HomePage() {
             <span className="text-display text-[var(--color-accent)]">for the job.</span>
           </h1>
           <p className="mt-5 font-mono text-[11px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
-            {total} apps · {categories} categories · curated and growing
+            {total} apps Â· {categories} categories Â· curated and growing
           </p>
         </header>
 
@@ -52,7 +52,7 @@ export default function HomePage() {
         data={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
-          name: `${brand.name} — AI Apps Directory`,
+          name: `${brand.name} â AI Apps Directory`,
           url: siteUrl,
           description: metadata.description ?? undefined,
           hasPart: allApps.map((a) => ({

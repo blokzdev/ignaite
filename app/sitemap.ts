@@ -13,9 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${siteUrl}/apps/${a.slug}`,
     lastModified: a.lastVerifiedAt ? new Date(a.lastVerifiedAt) : now,
     changeFrequency: "monthly",
-    // Marked entries (Blokz-vetted/deployed/contributing) get a slight SEO
-    // bump; archived entries get demoted.
-    priority: a.status === "archived" ? 0.4 : a.blokzMark ? 0.75 : 0.65,
+    // Featured entries get a slight SEO bump; archived entries get demoted.
+    priority: a.status === "archived" ? 0.4 : a.featured ? 0.75 : 0.65,
   }));
   // Portfolio (/portfolio/<slug>) is dormant — unpublished while the studio
   // refocuses on the AI-apps directory. Re-add when it's revived.

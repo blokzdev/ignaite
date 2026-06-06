@@ -9,9 +9,8 @@
 interface ClearableFilter {
   category: null;
   pricing: null;
-  blokzMark: null;
   deployment: null;
-  openSource: null;
+  license: null;
   status: null;
   sort: null;
   q: null;
@@ -21,9 +20,8 @@ export function clearFilters(setFilter: (values: ClearableFilter) => unknown): v
   void setFilter({
     category: null,
     pricing: null,
-    blokzMark: null,
     deployment: null,
-    openSource: null,
+    license: null,
     status: null,
     sort: null,
     q: null,

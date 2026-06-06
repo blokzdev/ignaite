@@ -20,8 +20,8 @@ export function NowNextBand() {
             <span className="text-display text-[var(--color-ink)]">Curating the AI frontier.</span>
           </h2>
           <p className="text-base text-[var(--color-ink-dim)]">
-            A growing, hand-vetted directory of the AI apps, agents, and tooling we actually rate —
-            with a Blokz mark on the picks we&apos;ve deployed ourselves.
+            A growing directory of the AI apps, agents, and tooling worth knowing — researched,
+            written, and kept current with Claude Code.
           </p>
         </div>
 

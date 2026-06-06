@@ -1,10 +1,11 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useQueryStates } from "nuqs";
-import type { App, AppCategory, BlokzMark } from "@/types/app";
+import type { App, AppCategory } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/data/sponsored";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
+import { licenseSignal } from "@/lib/tools/license";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
   CATEGORY_LABEL,
@@ -27,14 +28,6 @@ const BATCH_SIZE = 24;
 // per default browse. Dial down by raising the constant.
 const SPONSORED_INTERVAL = 12;
 
-// Same priority used in lib/apps.ts — keeps the two sort paths aligned.
-const markOrder: Record<BlokzMark, number> = {
-  deployed: 0,
-  contributing: 1,
-  vetted: 2,
-};
-const UNMARKED = 3;
-
 export function ToolsBrowser({ apps }: Readonly<Props>) {
   const [filter, setFilter] = useQueryStates(directoryFilterParsers, directoryFilterOptions);
 
@@ -44,17 +37,10 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     const result = apps.filter((a) => {
       if (filter.category.length > 0 && !filter.category.includes(a.category)) return false;
       if (filter.pricing.length > 0 && !filter.pricing.includes(a.pricing)) return false;
-      if (filter.blokzMark.length > 0) {
-        if (!a.blokzMark || !filter.blokzMark.includes(a.blokzMark)) return false;
-      }
       if (filter.deployment.length > 0) {
         if (!a.deployment || !filter.deployment.includes(a.deployment)) return false;
       }
-      if (filter.openSource != null) {
-        const isOss = a.openSource === true;
-        if (filter.openSource === "true" && !isOss) return false;
-        if (filter.openSource === "false" && isOss) return false;
-      }
+      if (filter.license != null && licenseSignal(a) !== filter.license) return false;
       if (!query) {
         const appStatus = a.status ?? "active";
         if (statusMode === "active" && appStatus !== "active") return false;
@@ -88,11 +74,8 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
         if (!a.addedAt && b.addedAt) return 1;
         return a.name.localeCompare(b.name);
       }
-      // featured (default)
+      // featured (default): featured first, then most-recently-added, then A→Z.
       if (Boolean(a.featured) !== Boolean(b.featured)) return a.featured ? -1 : 1;
-      const aMark = a.blokzMark ? markOrder[a.blokzMark] : UNMARKED;
-      const bMark = b.blokzMark ? markOrder[b.blokzMark] : UNMARKED;
-      if (aMark !== bMark) return aMark - bMark;
       if (a.addedAt && b.addedAt && a.addedAt !== b.addedAt) {
         return a.addedAt > b.addedAt ? -1 : 1;
       }
@@ -102,9 +85,8 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     apps,
     filter.category,
     filter.pricing,
-    filter.blokzMark,
     filter.deployment,
-    filter.openSource,
+    filter.license,
     filter.status,
     filter.sort,
     filter.q,
@@ -113,9 +95,8 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
   const filtersApplied =
     filter.category.length > 0 ||
     filter.pricing.length > 0 ||
-    filter.blokzMark.length > 0 ||
     filter.deployment.length > 0 ||
-    filter.openSource != null ||
+    filter.license != null ||
     (filter.status ?? "active") !== "active" ||
     (filter.q?.length ?? 0) > 0;
 
@@ -136,7 +117,8 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     void setFilter({
       category: [category],
       pricing: null,
-      blokzMark: null,
+      deployment: null,
+      license: null,
       status: null,
       sort: null,
       q: null,
