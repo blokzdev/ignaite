@@ -1,10 +1,12 @@
 ---
-description: Research and author one or more new apps into the directory (data/apps.ts)
+description: Research and author one or more new apps into the directory (data/apps/<slug>.json)
 argument-hint: <app name | url | comma-separated list>
 ---
 
-You are adding new entries to the Blokz.dev **AI-apps directory** (`data/apps.ts`). The directory is
-the product — accuracy and consistency matter more than speed. **Never fabricate a fact.**
+You are adding new entries to the Blokz.dev **AI-apps directory**. Each listing is **one JSON file**
+at `data/apps/<slug>.json`, validated at build by the zod schema in `lib/apps-schema.ts` (the source
+of truth) and aggregated by Velite. The directory is the product — accuracy and consistency matter
+more than speed. **Never fabricate a fact.**
 
 Apps to add: **$ARGUMENTS**
 (If empty, ask the user which app(s) to add, or accept a name/URL list.)
@@ -16,8 +18,9 @@ Work through this flow for each app:
 
 ## 1. Dedup
 
-- Search `data/apps.ts` for the name, likely slug, vendor, and homepage domain. If it already exists,
-  stop and tell the user (offer `/audit-directory <slug>` to refresh it instead).
+- Check `data/apps/` for an existing file by likely slug, and grep the dir for the name / vendor /
+  homepage domain. If it already exists, stop and tell the user (offer `/audit-directory <slug>` to
+  refresh it instead). The filename **is** the slug, so slugs are unique by construction.
 
 ## 2. Research (web-verify — no guessing)
 
@@ -27,7 +30,11 @@ Work through this flow for each app:
 - Prefer the canonical domain as the `primary` link. If a fact can't be verified, pick the
   conservative value and flag it in your summary as "needs human re-verify" — do not invent.
 
-## 3. Author the entry (schema: `types/app.ts`)
+## 3. Author the entry (schema: `lib/apps-schema.ts`; types re-exported from `types/app.ts`)
+
+Write a new file `data/apps/<slug>.json` — a single JSON object (quoted keys, no comments/trailing
+commas). The zod schema validates it at build (`pnpm velite build`) with a precise per-file error if
+anything is off.
 
 Required: `slug` (unique, kebab-case), `name`, `tagline` (≤100 chars, one line), `description`
 (2–4 sentences), `category` (an `AppCategory`), `pricing` (an `AppPricing`), `platforms` (≥1
@@ -59,15 +66,19 @@ Conventions (match existing entries):
   and only if the user agrees.
 - Pick the most specific fitting `category`; favor thin/empty ones where the app genuinely belongs
   (check coverage). Extending the `AppCategory` union is allowed if a real new use-case has no home —
-  if so, also add it to `APP_CATEGORIES` and the three `CATEGORY_LABEL` maps (`tool-card.tsx`,
-  `app-detail.tsx`, `hooks/use-directory-filters.ts`).
-- Append into the batch block near the end of `data/apps.ts` (display order is sort-driven, not file
-  order).
+  if so, add it to **both** the `AppCategory` union and the `APP_CATEGORIES` tuple in `types/app.ts`
+  (the zod schema derives its enum from the tuple automatically) and the three `CATEGORY_LABEL` maps
+  (`tool-card.tsx`, `app-detail.tsx`, `hooks/use-directory-filters.ts`).
+- One file per app means concurrent `/add-app` / `/discover-apps` runs never conflict; display order
+  is sort-driven, not file order.
 
 ## 4. Validate
 
-- `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean. Link-check the primary URL resolves
-  (a `403` from anti-bot protection on a real site is fine; a `404`/DNS failure is not).
+- `pnpm velite build` must pass — it validates the new JSON against the schema and reports a precise
+  per-file error (bad enum, >140-char insight, missing/duplicate primary link, non-ISO date, …) if
+  anything is off; fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean.
+  Link-check the primary URL resolves (a `403` from anti-bot protection on a real site is fine; a
+  `404`/DNS failure is not).
 - Spot-check it renders on `/` and at `/apps/<slug>`.
 
 ## 5. Report

@@ -1,0 +1,28 @@
+{
+  "slug": "le-chat",
+  "insight": "Europe's home-grown assistant — EU data residency and Mistral's own partly-open-weight models, with a speed focus.",
+  "name": "Le Chat",
+  "tagline": "Mistral's fast, European assistant with web search and code.",
+  "description": "Mistral AI's assistant — chat with web search, document analysis, image generation, and code. Fast, privacy-minded, and built on Mistral's own open and frontier models.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mistral AI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Mistral"],
+    "notes": "Mistral's own models."
+  },
+  "accentColor": "#FA520F",
+  "tags": ["chat", "assistant", "europe", "search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://chat.mistral.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "letta",
+  "insight": "The productized successor to the MemGPT paper — agents edit their own memory blocks to manage a finite context window.",
+  "name": "Letta",
+  "tagline": "Stateful agents with structured memory. Successor to MemGPT.",
+  "description": "Open-source framework for building stateful agents — memory blocks, context-window management, tool-use primitives baked in. Useful as a reference architecture for long-running agents.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Letta",
+  "platforms": ["api", "cli", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Local"]
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["memory", "stateful", "agents", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://letta.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/letta-ai/letta"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.letta.com"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

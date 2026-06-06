@@ -1,0 +1,30 @@
+{
+  "slug": "mcp-supabase",
+  "insight": "Lets an agent run Postgres migrations and deploy edge functions in-context, erasing the usual jump between editor and database dashboard.",
+  "name": "Supabase MCP",
+  "tagline": "Postgres + auth + edge functions from inside the agent.",
+  "description": "MCP server that exposes Supabase project ops — list tables, apply migrations, deploy edge functions, fetch advisors. Removes a context-switch cliff between code and database.",
+  "category": "mcp",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Supabase",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#3ECF8E",
+  "tags": ["mcp", "database", "postgres", "open-source"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/supabase-community/supabase-mcp",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://supabase.com/docs/guides/getting-started/mcp"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

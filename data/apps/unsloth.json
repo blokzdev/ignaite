@@ -1,0 +1,37 @@
+{
+  "slug": "unsloth",
+  "insight": "Hand-written CUDA kernels roughly halve fine-tuning time and VRAM, so a 13B model trains on a single consumer GPU.",
+  "name": "Unsloth",
+  "tagline": "Fine-tune open LLMs 2x faster with far less VRAM. Open source.",
+  "description": "An open-source (Apache-2.0) framework for fine-tuning and running open-weight models with custom CUDA kernels — roughly 2x faster training and large VRAM savings, so 7B–13B models fit on a single consumer GPU. Free tier runs on Colab/Kaggle or locally; Pro and Enterprise tiers add multi-GPU and multi-node speedups. Exports to GGUF/Safetensors for llama.cpp, vLLM, and Ollama.",
+  "category": "fine-tuning",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Unsloth AI",
+  "platforms": ["cli", "linux", "windows", "macos"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Qwen", "Gemma", "DeepSeek", "Mistral", "gpt-oss"],
+    "notes": "Fine-tunes open-weight models (LoRA/QLoRA + full) with reduced memory use."
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["fine-tuning", "lora", "open-source", "training"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://unsloth.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.unsloth.ai"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

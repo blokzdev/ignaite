@@ -1,0 +1,35 @@
+{
+  "slug": "cartesia",
+  "insight": "Its Sonic voices run on state-space models rather than transformers — the architectural reason it hits sub-100ms first audio.",
+  "name": "Cartesia",
+  "tagline": "Low-latency streaming TTS. Sub-100ms first audio.",
+  "description": "Streaming-first speech synthesis built around the Sonic family of state-space models. Aims at real-time agent voices where latency between turns is the product. Strong choice for sub-200ms voice loops.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Cartesia",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Sonic-family proprietary models."
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["tts", "streaming", "low-latency", "real-time"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cartesia.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.cartesia.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://cartesia.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

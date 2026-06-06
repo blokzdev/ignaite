@@ -1,0 +1,36 @@
+{
+  "slug": "groq",
+  "insight": "Speed comes from custom LPU silicon, not GPUs — which is why it serves open models at hundreds of tokens/sec on an OpenAI-compatible API.",
+  "name": "Groq",
+  "tagline": "Ultra-fast inference on custom LPU chips. Open-weights at 500+ tokens/sec.",
+  "description": "GroqCloud serves open-weights models (Llama, DeepSeek, Qwen, Kimi) on Groq's purpose-built LPU hardware, hitting hundreds of tokens per second where GPUs manage tens. OpenAI-compatible API with a free tier; the default when token latency is the product.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Groq",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "DeepSeek", "Qwen", "Kimi K2", "GPT-OSS"],
+    "notes": "Open-weights catalog on Groq LPUs; OpenAI-compatible API."
+  },
+  "accentColor": "#F55036",
+  "tags": ["inference", "low-latency", "lpu", "open-weights"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://groq.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://console.groq.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://groq.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

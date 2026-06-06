@@ -9,3 +9,4 @@ coverage
 public
 next-env.d.ts
 *.log
+.velite

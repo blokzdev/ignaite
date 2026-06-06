@@ -1,0 +1,29 @@
+{
+  "slug": "kling",
+  "insight": "From short-video giant Kuaishou — its motion realism and multishot sequences make it the leading non-Western Sora rival.",
+  "name": "Kling AI",
+  "tagline": "State-of-the-art AI video + image, with strong motion and multishot.",
+  "description": "Kuaishou's creative studio — text- and image-to-video with convincing motion, lip-sync, and multishot sequences up to ~15s, plus image generation. A leading Runway/Sora rival.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Kuaishou",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Kling"],
+    "notes": "Kuaishou's Kling video models."
+  },
+  "accentColor": "#14B8C4",
+  "featured": true,
+  "tags": ["video-gen", "image-to-video", "motion", "multishot"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://klingai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

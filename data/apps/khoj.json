@@ -1,0 +1,36 @@
+{
+  "slug": "khoj",
+  "insight": "Lives inside the tools you already use — Obsidian, Emacs, desktop, mobile — as an AGPL second brain over your notes and the web.",
+  "name": "Khoj",
+  "tagline": "Open-source AI second brain that chats with your docs and the web, local or hosted.",
+  "description": "An open-source \"AI second brain\" for chatting with local or online models, searching across your personal documents and the internet, building custom agents, and automating research. Self-host it on your own machine, or use plugins for Obsidian, Emacs, desktop, and mobile. Licensed AGPL-3.0; a paid managed cloud tier also exists, so it's freemium.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Khoj AI",
+  "platforms": ["web", "ios", "android", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Qwen", "Gemma", "Mistral", "GPT", "Claude", "Gemini", "DeepSeek"],
+    "notes": "Local or online models; bring your own API keys."
+  },
+  "tags": ["second-brain", "rag", "self-hosted", "open-source", "research"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/khoj-ai/khoj",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://khoj.dev"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.khoj.dev"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

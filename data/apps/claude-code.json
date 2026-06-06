@@ -1,0 +1,37 @@
+{
+  "slug": "claude-code",
+  "insight": "Ships the same agent across CLI, IDE extension, desktop, and web from one codebase — and it's the tool that wrote this very directory.",
+  "name": "Claude Code",
+  "tagline": "Anthropic's official CLI / IDE / web agent. Primary author at Blokz.",
+  "description": "Claude Code is our lead architect. It reads the spec, drafts the diff, runs the tests, and opens the PR — across CLI, IDE extensions, the desktop app, and the web. Everything on blokz.dev was built with it.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Anthropic",
+  "platforms": ["macos", "windows", "linux", "cli", "vscode-extension", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Claude Opus", "Claude Sonnet", "Claude Haiku"],
+    "notes": "Anthropic-only; runs against your API key or a Claude Pro/Max plan."
+  },
+  "accentColor": "#08D9D6",
+  "featured": true,
+  "tags": ["agentic", "cli", "ide", "mcp", "subagents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://claude.com/claude-code",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.anthropic.com/claude/docs/claude-code"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/anthropics/claude-code"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

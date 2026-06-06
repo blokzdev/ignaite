@@ -96,6 +96,8 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 
 - [ ] **[polish]** ESLint flat config doesn't yet enforce import order. Add `eslint-plugin-import` with `import/order` if import churn becomes painful in PR reviews.
 - [ ] **[debt]** `lucide-react@1.x` dropped branded icons (Github, Discord, etc.) for trademark reasons — we ship custom inline SVG glyphs in `components/apps/card-bits.tsx`; Discord and Telegram fall back to generic icons. Acceptable; could swap to dedicated brand-icon SVGs later if precision matters.
+- [ ] **[future]** JSON Schema for editor autocomplete on `data/apps/*.json`. Generate `data/apps/schema.json` from the zod `appSchema` (`lib/apps-schema.ts`) via `zod-to-json-schema` and add a `"$schema"` key per listing so VS Code offers field/enum completion + inline validation while a routine authors an entry. Needs a new dev dep → its own small PR.
+- [ ] **[polish]** Optional `slug === filename` guard in the Velite `complete()` hook (`velite.config.ts`) — catch a listing whose `slug` drifts from its `data/apps/<slug>.json` filename. Marginal today: the kebab-case slug regex + unique filenames already prevent most drift, and a mismatch is harmless (Velite reads `slug` from content), just confusing.
 
 ### Future scope (post-v2)
 
@@ -104,10 +106,18 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 - [ ] **[future]** Per-page OG image generators on `/apps/[slug]` and `/workflow/artifacts/[slug]` (right now they inherit the parent route's OG).
 - [ ] **[future]** Public "build log" page that timestamps each commit to the revamp with a short rationale — meta proof of the vibecoding workflow.
 - [ ] **[future]** Category quick-jump chip rail above the featured carousel (deep-links the directory filter). Considered during Chunk I and deferred: three category-jump surfaces already sit near the top (filter-bar category row, empty-state recovery chips, ⌘K Categories group), so a fourth risked clutter. Revisit if discovery analytics show users aren't finding the category filter.
+- [ ] **[future]** Long-form app pages are a wired-but-unused skeleton: the schema declares `hasLongForm` + `longDescription` (`lib/apps-schema.ts`) and `app-detail.tsx` already renders `longDescription` if present, but 0/125 listings set either, there's no `content/apps/` directory, and no `/apps/[slug]` long-form route. Either build it out (author `content/apps/<slug>.mdx` for a few flagship apps + an MDX viewer) or drop the two fields. No-op as-is; decide when the first app warrants a deep dive.
 
 ---
 
 ## Resolved (rolling archive)
+
+Iteration 5 Chunk F — Directory data layer + signals/positioning refresh
+
+- [x] **[debt]** Directory data split from the monolithic `data/apps.ts` array (125 entries — a merge-conflict bottleneck for the weekly `/discover-apps` + `/audit-directory` routines, with no semantic validation) into **one JSON file per listing** at `data/apps/<slug>.json`, validated by a zod schema that is now the single source of truth (`lib/apps-schema.ts`; `App = z.infer<…>`, no hand-maintained interface) and aggregated by **Velite** (`velite.config.ts` → gitignored `.velite/`). The schema enforces what `tsc` can't (kebab slug, tagline ≤100, insight ≤140, ≥1 platform, exactly one primary link, hex colour, ISO dates, and **featured ⇒ accentColor**). A Velite `complete` hook emits a slim `apps-search.json` so the command palette (on every page) ships ~5 fields × 125 instead of full records — verified no full data / zod / velite in any client chunk. `velite build` is prepended to dev/build/typecheck/lint; routines + CLAUDE.md + README updated to author/validate per-file JSON.
+- [x] **[polish]** Retired the studio-centric `blokzMark` editorial badge in favour of a **derived license signal** (`lib/tools/license.ts`: open-source / open-core / proprietary from `openSource` + `pricing`) on the card, detail, and Source filter. Proprietary is the intentional unbadged default (see comment in `tool-card.tsx`).
+- [x] **[polish]** Authored a per-listing `insight` (the directory's signature signal — ≤140-char, non-obvious, verifiable editorial one-liner) across all 125 listings; rendered on card + detail.
+- [x] **[polish]** Repositioned the site from "vibecoding studio / AI app studio" to an **AI-managed directory** (`data/brand.ts` hub → hero, SEO, OG, footer colophon "Built & operated by Blokz Development Co.", Organization JSON-LD). Stale `~70`/`Blokz-mark` README copy corrected to `~125`/`license`.
 
 Iteration 5 Chunks L–M — About/Portfolio revamp + global chrome + a11y gate
 

@@ -1,0 +1,34 @@
+{
+  "slug": "n8n",
+  "insight": "Licensed 'fair-code' (Sustainable Use), not OSI open-source — self-host it freely, but reselling it as a hosted service is restricted.",
+  "name": "n8n",
+  "tagline": "Fair-code workflow automation with first-class AI nodes.",
+  "description": "Visual workflow builder bridging APIs, databases, and AI providers. Self-hostable; commercial cloud available. The default Zapier-style surface for the agentic-workflow crowd.",
+  "category": "orchestration",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "n8n",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FF060A",
+  "tags": ["workflow", "automation", "visual", "self-hosted", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://n8n.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.n8n.io"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

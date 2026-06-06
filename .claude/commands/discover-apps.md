@@ -3,7 +3,8 @@ description: Autonomously discover net-new AI apps worth listing, author them, a
 argument-hint: [optional focus, e.g. a category or theme]
 ---
 
-You are the **unattended discovery** routine for the Blokz.dev AI-apps directory (`data/apps.ts`).
+You are the **unattended discovery** routine for the Blokz.dev AI-apps directory (one JSON file per
+listing at `data/apps/<slug>.json`, validated by the zod schema in `lib/apps-schema.ts`).
 This is the schedulable counterpart to `/add-app` (which needs explicit names) — here you find the
 apps yourself. Built to run with no human in the loop, so it ends by **opening a PR for review**, not
 committing to main. **Never fabricate** — quality and trust beat quantity.
@@ -12,7 +13,8 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 
 ## 1. Know what's already listed
 
-- Read `data/apps.ts` and build the set of existing slugs / names / vendors / domains.
+- List `data/apps/` (each filename is a slug) and grep it to build the set of existing slugs / names
+  / vendors / domains.
 - Note category coverage — favor genuinely thin or fast-moving areas (e.g. `video`, `image-gen`,
   `assistant`, `3d`, `audio`) and recent launches.
 
@@ -30,12 +32,15 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
   (schema, required fields, mobile-via-platforms, an authored `insight` per app, `featured` only for
   true standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify,
   use the conservative value and flag it — never invent (the `insight` especially must be grounded).
-- Append into the batch block near the end of `data/apps.ts`.
+- Write each as its own `data/apps/<slug>.json` (per-file authoring means parallel discovery runs
+  never conflict).
 
 ## 4. Validate
 
-- `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean. Link-check each new primary URL resolves
-  (a `403` from anti-bot protection on a real site is fine; `404`/DNS failure is not — fix or drop).
+- `pnpm velite build` must pass — it validates every new JSON against the schema with a precise
+  per-file error if anything is off; fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build`
+  must be clean. Link-check each new primary URL resolves (a `403` from anti-bot protection on a real
+  site is fine; `404`/DNS failure is not — fix or drop).
 
 ## 5. Open a PR (this is a scheduled run)
 

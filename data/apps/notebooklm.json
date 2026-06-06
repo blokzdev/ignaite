@@ -1,0 +1,28 @@
+{
+  "slug": "notebooklm",
+  "insight": "Answers strictly from your uploaded sources — no open-web drift — and its Audio Overviews turn a doc set into a two-host podcast.",
+  "name": "NotebookLM",
+  "tagline": "Grounded research notebook — chat your sources, get Audio Overviews.",
+  "description": "Google's source-grounded research tool — upload docs, PDFs, and links, then ask questions answered only from your material, with citations and shareable Audio Overviews. Powered by Gemini.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Google",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Gemini"],
+    "notes": "Grounded in your uploaded sources, powered by Gemini."
+  },
+  "accentColor": "#5E97F6",
+  "tags": ["research", "rag", "citations", "audio-overview"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://notebooklm.google.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

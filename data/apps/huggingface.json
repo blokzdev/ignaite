@@ -1,0 +1,31 @@
+{
+  "slug": "huggingface",
+  "insight": "One account spans model weights, datasets, runnable Spaces, and a daily papers feed — the closest thing to a commons for open AI.",
+  "name": "Hugging Face",
+  "tagline": "Models, datasets, papers, spaces. The AI research commons.",
+  "description": "Source-of-truth for open-weights models and datasets. Daily-paper feed for tracking research; Spaces for trying ideas without setting up infra. Heavy use at Blokz for any model we don't pay an API for.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Hugging Face",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Hosts the models; you pick which."
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["models", "datasets", "papers", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://huggingface.co",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://huggingface.co/docs"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

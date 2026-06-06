@@ -1,0 +1,35 @@
+{
+  "slug": "onyx",
+  "insight": "Formerly Danswer — an MIT core for enterprise search over your own apps, with optional features under a separate open-core license.",
+  "name": "Onyx",
+  "tagline": "Open-source, self-hosted AI chat and enterprise search over your own docs.",
+  "description": "Onyx (formerly Danswer) is an open-source AI chat and RAG platform that connects to your company's docs and apps for grounded, cited answers, and works with any LLM. It is self-hosted via Docker/Kubernetes and supports local models, keeping data on your own infrastructure. The core is MIT-licensed and free; an open-core model puts optional enterprise features under a separate license, and the vendor also offers a managed cloud.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Onyx",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Works with any LLM (OpenAI, Anthropic, local models); self-hosted, bring your own keys."
+  },
+  "tags": ["open-source", "self-hosted", "rag", "enterprise-search", "ai-chat"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://onyx.app"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.onyx.app"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

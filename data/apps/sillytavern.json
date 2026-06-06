@@ -1,0 +1,35 @@
+{
+  "slug": "sillytavern",
+  "insight": "A pure frontend — you supply the backend — but its character cards and prompt control run anywhere, even Android via Termux.",
+  "name": "SillyTavern",
+  "tagline": "Self-hosted LLM chat frontend for power users, with characters and many backends.",
+  "description": "A self-hosted, browser-based LLM frontend aimed at power users, with rich character cards, prompt control, extensions, and group chats. It runs as a local Node.js server on Windows, macOS, Linux, and Android (via Termux), connecting to many backends — OpenAI, Anthropic, plus local runtimes — using your own keys. Free and AGPL-3.0 licensed with no paid tier.",
+  "category": "assistant",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "SillyTavern",
+  "platforms": ["web", "windows", "macos", "linux", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Connects to many LLM backends (OpenAI, Anthropic, local runtimes) via your own keys."
+  },
+  "tags": ["open-source", "self-hosted", "chat", "local", "llm-frontend"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/SillyTavern/SillyTavern",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://sillytavern.app"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.sillytavern.app"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

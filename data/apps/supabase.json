@@ -1,0 +1,35 @@
+{
+  "slug": "supabase",
+  "insight": "Built on plain Postgres, so there's no proprietary lock-in — and the same project ships the Supabase MCP server also listed here.",
+  "name": "Supabase",
+  "tagline": "Postgres + auth + storage + edge functions, open source.",
+  "description": "Default backend layer at Blokz when an app needs persistence + auth + realtime. Open-source, self-hostable, very low friction to local dev with the CLI.",
+  "category": "infra",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Supabase",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#3ECF8E",
+  "tags": ["postgres", "auth", "realtime", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://supabase.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://supabase.com/docs"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/supabase/supabase"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

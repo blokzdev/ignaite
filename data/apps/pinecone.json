@@ -1,0 +1,35 @@
+{
+  "slug": "pinecone",
+  "insight": "Fully managed with no self-host option — the trade-off for the serverless pricing it popularized in the vector-DB space.",
+  "name": "Pinecone",
+  "tagline": "Managed vector database. The industry-default serverless option.",
+  "description": "Fully-managed vector DB built for production RAG and semantic search at scale. Serverless pricing, low-latency reads, integrations across every framework. Most Blokz-adjacent AI teams reach for it first.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": true,
+  "vendor": "Pinecone",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["managed", "serverless", "rag", "semantic-search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.pinecone.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.pinecone.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.pinecone.io/pricing/"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

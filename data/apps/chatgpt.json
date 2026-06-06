@@ -1,0 +1,33 @@
+{
+  "slug": "chatgpt",
+  "insight": "The app that mainstreamed generative AI — its custom-GPT store turned a chatbot into a third-party app platform.",
+  "name": "ChatGPT",
+  "tagline": "The default AI assistant. Chat, voice, vision, and a tool ecosystem.",
+  "description": "OpenAI's consumer assistant — multimodal chat with voice, image input, web browsing, code, and custom GPTs. The product that put generative AI in everyone's hands.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "OpenAI",
+  "platforms": ["web", "ios", "android", "macos", "windows"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT-5", "GPT-4o"],
+    "notes": "OpenAI's own GPT models."
+  },
+  "accentColor": "#10A37F",
+  "featured": true,
+  "tags": ["chat", "assistant", "multimodal", "voice"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://chatgpt.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://openai.com/chatgpt/pricing"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

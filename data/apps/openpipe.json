@@ -1,0 +1,35 @@
+{
+  "slug": "openpipe",
+  "insight": "Distills your own logged GPT/Claude calls into a fine-tuned small model, then serves the swap behind your existing SDK.",
+  "name": "OpenPipe",
+  "tagline": "Replace frontier-model spend with a fine-tuned small model.",
+  "description": "Captures your production OpenAI / Anthropic calls, builds a dataset, fine-tunes a small open-weights model on your traffic, then serves the swap behind your existing SDK. The pitch: 10x cost reduction at parity.",
+  "category": "fine-tuning",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "OpenPipe",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Mistral", "Qwen"]
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["fine-tuning", "cost-reduction", "drop-in", "open-weights"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://openpipe.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.openpipe.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://openpipe.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

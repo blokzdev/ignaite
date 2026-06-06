@@ -1,0 +1,31 @@
+{
+  "slug": "v0",
+  "insight": "Emits real shadcn/ui + Tailwind code you can paste into a project — the same primitive stack this directory is built from.",
+  "name": "v0",
+  "tagline": "Prompt-to-UI generator from Vercel. Outputs React + Tailwind + shadcn.",
+  "description": "Vercel's generative UI surface. Type a description, get a working React component using Tailwind and shadcn primitives — copy the code or fork into a v0 project for iteration.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Vercel",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Vercel's tuned model; not user-configurable."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["ui-gen", "react", "tailwind", "shadcn"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://v0.app",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://v0.app/docs"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

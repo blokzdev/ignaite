@@ -1,0 +1,31 @@
+{
+  "slug": "magnific",
+  "insight": "Doesn't just sharpen — it invents plausible new detail on upscale, the magic for concept art and the caveat for real photos.",
+  "name": "Magnific",
+  "tagline": "AI upscaling + relighting that goes beyond pixel-doubling.",
+  "description": "Upscales images while reimagining detail — adds plausible texture, lighting, and structure rather than just sharpening. Broke through with the 'AI photography' workflow for product shots and concept art.",
+  "category": "image-gen",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Magnific AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary upscaling pipeline."
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["upscaling", "enhancement", "relighting", "photography"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://magnific.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://magnific.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

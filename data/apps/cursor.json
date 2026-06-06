@@ -1,0 +1,33 @@
+{
+  "slug": "cursor",
+  "insight": "A full VS Code fork, so existing extensions and keybindings carry over — and one subscription covers Claude, GPT, and Gemini without a key.",
+  "name": "Cursor",
+  "tagline": "AI-first code editor. Multi-model, tab-completion native.",
+  "description": "Fork of VS Code with deep model integration — multi-line tab completion, agent mode, chat with codebase context. Strong for fast iteration on existing repos.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "local",
+  "featured": true,
+  "vendor": "Anysphere",
+  "platforms": ["macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT-5", "Gemini", "DeepSeek"],
+    "notes": "Bundled plan covers all providers; BYO key also supported."
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["ide", "multi-model", "vscode-fork"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cursor.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://cursor.com/pricing"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

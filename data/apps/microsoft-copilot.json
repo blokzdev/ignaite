@@ -1,0 +1,28 @@
+{
+  "slug": "microsoft-copilot",
+  "insight": "Now blends OpenAI models with Microsoft's own in-house MAI models, and reaches users at the OS level inside Windows itself.",
+  "name": "Microsoft Copilot",
+  "tagline": "Microsoft's assistant across Windows, Edge, and Microsoft 365.",
+  "description": "Microsoft's everyday assistant — chat, image generation, and Copilot Vision, woven into Windows, Edge, and the Microsoft 365 apps. The consumer front-door to Microsoft's AI.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Microsoft",
+  "platforms": ["web", "ios", "android", "windows"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT"],
+    "notes": "Runs on OpenAI GPT plus Microsoft's in-house models."
+  },
+  "accentColor": "#0A84FF",
+  "tags": ["chat", "assistant", "microsoft-365", "windows"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://copilot.microsoft.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

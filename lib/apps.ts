@@ -1,4 +1,4 @@
-import { apps } from "@/data/apps";
+import { apps } from "@/.velite";
 import type { App, AppCategory, AppPricing } from "@/types/app";
 
 export interface ListAppsOptions {

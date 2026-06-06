@@ -1,0 +1,28 @@
+{
+  "slug": "deepseek",
+  "insight": "Its open-weight R1 release reset the industry's price-for-reasoning curve — and the consumer app stays free to use.",
+  "name": "DeepSeek",
+  "tagline": "Open, low-cost chat with strong reasoning. Free to use.",
+  "description": "DeepSeek's assistant — chat with a reasoning mode and web search, backed by the open-weight DeepSeek models that reset the cost curve for frontier-grade quality.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "DeepSeek",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["DeepSeek-V3", "DeepSeek-R1"],
+    "notes": "DeepSeek's open-weight models."
+  },
+  "accentColor": "#4D6BFE",
+  "tags": ["chat", "assistant", "reasoning", "open-weights"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://chat.deepseek.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

@@ -3,14 +3,15 @@ description: Review existing directory listings — verify links, pricing, statu
 argument-hint: [--category <c>] [--stale-since <YYYY-MM-DD>] [slug ...]
 ---
 
-You are auditing existing entries in the Blokz.dev **AI-apps directory** (`data/apps.ts`) to keep it
-reliable. The goal is a trustworthy, current directory. **Never fabricate** — if you can't verify a
-change, leave the data and flag it.
+You are auditing existing entries in the Blokz.dev **AI-apps directory** — one JSON file per listing
+at `data/apps/<slug>.json`, validated by the zod schema in `lib/apps-schema.ts`. The goal is a
+trustworthy, current directory. **Never fabricate** — if you can't verify a change, leave the data
+and flag it.
 
 Scope: **$ARGUMENTS**
 
-- No args → review the entries with the **oldest `lastVerifiedAt`** first (do a manageable batch,
-  e.g. 10–15, not all 90+ at once).
+- No args → review the entries with the **oldest `lastVerifiedAt`** first (grep `data/apps/*.json`
+  for `lastVerifiedAt`, sort, take a manageable batch — e.g. 10–15, not all 125 at once).
 - `--category <c>` → only that `AppCategory`.
 - `--stale-since <date>` → only entries with `lastVerifiedAt` older than that date.
 - explicit `slug`s → just those.
@@ -38,15 +39,17 @@ For each entry in scope:
 
 - Update changed `pricing`, `platforms`, `modelSupport`, `tags`, `vendor`, or `links` (fix/replace dead
   URLs).
-- If an app is **discontinued / shut down**, set `status: "archived"` (it stays in the file as record,
-  hidden from the default browse) — don't delete it.
+- If an app is **discontinued / shut down**, set `status: "archived"` in its JSON (the file stays as
+  record, hidden from the default browse) — don't delete the file.
 - If a featured app is no longer a standout, consider dropping `featured`.
 - **Bump `lastVerifiedAt` to today** on every entry you actually re-verified (whether or not it changed).
-- Keep edits minimal + within the existing `App` schema (`types/app.ts`).
+- Keep edits minimal + within the schema (`lib/apps-schema.ts`; types in `types/app.ts`). Editing
+  separate per-slug files means a multi-entry audit won't conflict with a parallel discovery run.
 
 ## 3. Validate + report
 
-- `pnpm typecheck`, `pnpm lint`, `pnpm build` clean.
+- `pnpm velite build` (schema-validates every touched JSON with precise per-file errors), then
+  `pnpm typecheck`, `pnpm lint`, `pnpm build` clean.
 - **Interactive run:** report a concise diff (entries reviewed, what changed and why, what was
   archived, anything ambiguous needing a human decision). Don't commit unless the user asked.
 

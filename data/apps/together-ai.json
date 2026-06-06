@@ -1,0 +1,35 @@
+{
+  "slug": "together-ai",
+  "insight": "Hosts hundreds of open-weights models and does both LoRA and full fine-tuning — a one-stop shop for the open-model side of the stack.",
+  "name": "Together AI",
+  "tagline": "Fine-tuning + inference for open-weights models. Broad coverage.",
+  "description": "Hosted inference and fine-tuning across hundreds of open-weights models (Llama, Mistral, DeepSeek, Qwen, etc.). Strong pricing for inference-at-scale; LoRA + full fine-tuning supported.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Together",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Mistral", "DeepSeek", "Qwen"]
+  },
+  "accentColor": "#3ECF8E",
+  "tags": ["inference", "fine-tuning", "open-weights", "lora"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.together.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.together.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.together.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

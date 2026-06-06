@@ -1,0 +1,31 @@
+{
+  "slug": "openclaw",
+  "insight": "One of the few self-hosted assistants that runs on iOS and Android too, controlled from WhatsApp, Telegram, Slack, or Discord.",
+  "name": "OpenClaw",
+  "tagline": "Local-first personal AI assistant you run on your own devices, on any platform.",
+  "description": "A self-hosted, local-first personal AI assistant with a gateway as the control plane, reachable across messaging channels like WhatsApp, Telegram, Slack, and Discord. It runs on macOS, Linux, Windows, iOS, and Android, with an onboarding wizard for setup. Free and open source under MIT; you supply your own model API key.",
+  "category": "assistant",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "OpenClaw Foundation",
+  "platforms": ["macos", "windows", "linux", "ios", "android", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Works with OpenAI and many other providers; bring your own key."
+  },
+  "tags": ["personal-assistant", "local-first", "self-hosted", "open-source", "messaging"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/openclaw/openclaw",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://openclaw.ai"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

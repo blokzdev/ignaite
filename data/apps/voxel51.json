@@ -1,0 +1,35 @@
+{
+  "slug": "voxel51",
+  "insight": "FiftyOne's superpower is surfacing the bad labels and failure cases hiding in a vision dataset — debugging data, not just models.",
+  "name": "Voxel51",
+  "tagline": "FiftyOne — open-source vision data platform.",
+  "description": "Open-source toolkit for exploring, debugging, and curating vision datasets. Strong story for finding model failure modes, balancing classes, and tracking experiment drift across visual data at scale.",
+  "category": "vision",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Voxel51",
+  "platforms": ["api", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FF060A",
+  "tags": ["open-source", "datasets", "evaluation", "python"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://voxel51.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/voxel51/fiftyone"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.voxel51.com"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

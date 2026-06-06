@@ -1,0 +1,31 @@
+{
+  "slug": "ideogram",
+  "insight": "The one to reach for when the image needs legible text — readable typography inside generations is its whole differentiator.",
+  "name": "Ideogram",
+  "tagline": "Image gen with the best text-in-image quality.",
+  "description": "Hosted image generator with industry-leading typography rendering — actually readable text inside images. Strong for logos, posters, social cards, and any composition where letterforms matter.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Ideogram",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary image models, not user-configurable."
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["image-gen", "typography", "posters", "logos"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ideogram.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developer.ideogram.ai"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

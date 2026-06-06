@@ -1,0 +1,27 @@
+{
+  "slug": "recraft",
+  "insight": "Rare among image generators in outputting true editable SVG vectors — built to drop assets straight into real design work.",
+  "name": "Recraft",
+  "tagline": "Design-grade image + vector generation with brand consistency.",
+  "description": "Image generator aimed at designers — raster and true vector (SVG) output, brand style sets, mockups, and precise control. Strong when assets need to ship into real design work.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Recraft",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Recraft's own image models (incl. vector)."
+  },
+  "accentColor": "#F87171",
+  "tags": ["image-gen", "vector", "design", "brand"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.recraft.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "odysseus",
+  "insight": "Built and open-sourced by PewDiePie — a private ChatGPT-style workspace wired to local llama.cpp/Ollama/vLLM with MCP built in.",
+  "name": "Odysseus",
+  "tagline": "Self-hosted AI workspace with a ChatGPT-style UI for local and API models.",
+  "description": "A self-hosted, privacy-first AI workspace offering a ChatGPT/Claude-like interface with agent capabilities, memory, and productivity tools (PDF/Office, built-in MCP servers). It connects to local models via llama.cpp, Ollama, or vLLM, or to API providers like OpenAI and OpenRouter, and ships Docker support for Linux, macOS, and Windows. Free and open source under MIT.",
+  "category": "assistant",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "PewDiePie",
+  "platforms": ["web", "macos", "windows", "linux", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["llama.cpp", "Ollama", "vLLM", "OpenAI", "OpenRouter"],
+    "notes": "Local engines or API providers."
+  },
+  "tags": ["ai-workspace", "self-hosted", "open-source", "local-models", "mcp"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://pewdiepie-archdaemon.github.io/odysseus"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "gpt-researcher",
+  "insight": "An open-source take on 'deep research' — it fans out parallel searches and cites sources, runnable as a library or an MCP server.",
+  "name": "GPT Researcher",
+  "tagline": "Autonomous AI agent that runs deep multi-source web research and writes cited reports.",
+  "description": "An open-source autonomous research agent that plans a task, runs parallel multi-source web searches, validates sources, and synthesizes a cited report. It runs locally as a Python package, FastAPI server, or MCP server, and works with any LLM provider plus a search/retriever backend. Free and Apache-2.0 licensed — you only pay your own LLM and search-API costs.",
+  "category": "research-platform",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Assaf Elovic / Tavily",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Any LLM provider via config; requires your own LLM + retriever (e.g. Tavily) keys."
+  },
+  "tags": ["open-source", "self-hosted", "research", "agent", "rag"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://gptr.dev"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.gptr.dev"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

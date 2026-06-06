@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AppDetail } from "@/components/tools/app-detail";
-import { apps } from "@/data/apps";
+import { apps } from "@/.velite";
 import { getApp } from "@/lib/apps";
 import { buildMetadata } from "@/lib/seo";
 

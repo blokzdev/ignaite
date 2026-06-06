@@ -1,0 +1,27 @@
+{
+  "slug": "manus",
+  "insight": "Went viral on invite-only scarcity, then was acquired by Meta — a general operator for non-code work rather than a coding tool.",
+  "name": "Manus",
+  "tagline": "General-purpose autonomous agent for research, ops, and content.",
+  "description": "Cloud agent that browses, drafts, schedules, and follows multi-step instructions over hours. Closer to a virtual operator than a coding tool — strong for non-code knowledge work. Acquired by Meta; product continues to ship.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Meta (formerly Monica / Manus AI)",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary orchestration over hosted frontier models."
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["autonomous", "general-purpose", "ops", "browser"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://manus.im",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

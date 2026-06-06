@@ -1,0 +1,35 @@
+{
+  "slug": "continue",
+  "insight": "One open-source assistant spanning VS Code, JetBrains, and the CLI — point it at a local Ollama model and nothing leaves your machine.",
+  "name": "Continue",
+  "tagline": "Open-source AI coding assistant for VS Code, JetBrains, and the CLI.",
+  "description": "An open-source AI coding assistant delivered as a VS Code extension, a JetBrains plugin, and a CLI, with chat, autocomplete, and agent workflows. It runs locally in your editor and works with any model provider, including local models via Ollama, using your own keys. The core is Apache-2.0 and free; the company also offers a hosted Continue Hub for sharing and managing assistants.",
+  "category": "ide",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Continue Dev",
+  "platforms": ["vscode-extension", "cli", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Any provider and local models via Ollama; bring your own keys."
+  },
+  "tags": ["open-source", "local", "coding-assistant", "ide", "agent"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/continuedev/continue",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.continue.dev"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.continue.dev"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "kimi",
+  "insight": "Uniquely for a polished consumer assistant, its underlying Kimi K2 model ships as open weights you can self-host.",
+  "name": "Kimi",
+  "tagline": "Moonshot's assistant — long-context chat, deep research, and agents.",
+  "description": "Moonshot AI's assistant — long-context chat, Deep Research, and an agent mode (Kimi Code, parallel subagents). Built on the open-weight Kimi K2 model family.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Moonshot AI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Kimi K2"],
+    "notes": "Moonshot's Kimi K2 models; open weights, OpenAI-compatible API."
+  },
+  "accentColor": "#8B5CF6",
+  "tags": ["chat", "assistant", "long-context", "agents", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kimi.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

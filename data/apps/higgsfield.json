@@ -1,0 +1,32 @@
+{
+  "slug": "higgsfield",
+  "insight": "An aggregator, not a model-maker — one subscription fronts 15+ engines (Sora, Veo, Kling) behind cinematic camera presets.",
+  "name": "Higgsfield",
+  "tagline": "Cinematic AI video with camera controls — many models, one subscription.",
+  "description": "An AI video + image studio built around cinematic camera motion and presets. Aggregates 15+ third-party models (Sora, Veo, Kling, and more) so you switch engines without switching tools.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Higgsfield AI",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Sora", "Veo", "Kling", "Seedance", "Nano Banana"],
+    "notes": "Aggregates 15+ third-party video/image models under one subscription."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["video-gen", "cinematic", "camera-control", "aggregator"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://higgsfield.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://higgsfield.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

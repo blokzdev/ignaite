@@ -1,0 +1,34 @@
+{
+  "slug": "exa",
+  "insight": "Indexes the web by meaning, so 'find pages like this one' works as a query — formerly known as Metaphor.",
+  "name": "Exa",
+  "tagline": "Neural search API. Find pages by meaning, not keywords.",
+  "description": "Semantic search engine that indexes the open web with embeddings — pass a description, get matching pages. Strong for research-style queries and find-similar workflows; formerly known as Metaphor.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Exa Labs",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["semantic-search", "neural", "research", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://exa.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.exa.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://exa.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

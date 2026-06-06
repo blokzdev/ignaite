@@ -1,0 +1,35 @@
+{
+  "slug": "qdrant",
+  "insight": "Written in Rust and ships as a single self-hostable binary — its payload filtering is why teams pick it for metadata-heavy search.",
+  "name": "Qdrant",
+  "tagline": "Open-source, Rust-based vector DB. Fast, predictable, self-hostable.",
+  "description": "Vector database written in Rust with a strong focus on filtering, payloads, and predictable latency at scale. Self-host on a single binary or use the managed cloud.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Qdrant",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#D97757",
+  "tags": ["open-source", "rust", "self-hosted", "fast"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://qdrant.tech",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/qdrant/qdrant"
+    },
+    {
+      "kind": "docs",
+      "url": "https://qdrant.tech/documentation/"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "weaviate",
+  "insight": "Embeds text inline so you can skip a separate vectorizer step, and does hybrid BM25 + vector search out of the box.",
+  "name": "Weaviate",
+  "tagline": "Open-source vector database with built-in vectorisers.",
+  "description": "Cloud-native vector DB that can compute embeddings inline — pass raw text in, store vectors out. Strong hybrid (BM25 + vector) search; self-hostable or managed.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Weaviate",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["open-source", "self-hosted", "hybrid-search", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://weaviate.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/weaviate/weaviate"
+    },
+    {
+      "kind": "docs",
+      "url": "https://weaviate.io/developers/weaviate"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

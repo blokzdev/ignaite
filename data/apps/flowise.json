@@ -1,0 +1,36 @@
+{
+  "slug": "flowise",
+  "insight": "The drag-and-drop counterpart to code-first frameworks — it builds on LangChain/LlamaIndex nodes, so anything they support, it can wire.",
+  "name": "Flowise",
+  "tagline": "Visually build AI agents and LLM workflows — drag-and-drop, self-hosted.",
+  "description": "A low-code visual builder for AI agents, chatflows, and multi-agent systems on a drag-and-drop canvas. It self-hosts locally through npm or Docker, or deploys to major clouds, and is provider-agnostic across many LLMs via its node ecosystem. The core is Apache-2.0; a managed Flowise Cloud tier exists, making it freemium.",
+  "category": "orchestration",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "FlowiseAI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["OpenAI", "Anthropic", "Google", "Ollama", "Hugging Face"],
+    "notes": "Provider-agnostic via LangChain/LlamaIndex nodes; exact set depends on installed nodes."
+  },
+  "tags": ["low-code", "agents", "self-hosted", "open-source", "workflows"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://flowiseai.com"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.flowiseai.com"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

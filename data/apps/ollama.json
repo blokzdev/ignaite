@@ -1,0 +1,37 @@
+{
+  "slug": "ollama",
+  "insight": "Its OpenAI-compatible local server makes it a drop-in backend — point any app at localhost and swap the cloud for your own GPU.",
+  "name": "Ollama",
+  "tagline": "Run open-weight LLMs locally with one command. OpenAI-compatible API.",
+  "description": "The de-facto way to pull and run open-weight models (Llama, Qwen, Gemma, DeepSeek, gpt-oss) on your own machine — no API key, no data leaving the device. Ships native macOS/Windows/Linux apps, an OpenAI-compatible server, and official Python/JS libraries. MIT-licensed and free locally; an optional paid Ollama Cloud runs larger models.",
+  "category": "inference",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Ollama",
+  "platforms": ["macos", "windows", "linux", "cli", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Qwen", "Gemma", "DeepSeek", "Mistral", "gpt-oss"],
+    "notes": "Runs open-weight models locally; OpenAI-compatible API. Optional cloud for larger models."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["local", "open-source", "llm-runner", "self-hosted"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ollama.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/ollama/ollama"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.ollama.com"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

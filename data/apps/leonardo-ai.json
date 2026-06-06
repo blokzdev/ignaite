@@ -1,0 +1,27 @@
+{
+  "slug": "leonardo-ai",
+  "insight": "Built for consistent game-asset pipelines via custom fine-tuned models — and now owned by Canva.",
+  "name": "Leonardo AI",
+  "tagline": "Image generation with fine-tuned models, control, and game-asset focus.",
+  "description": "Image platform with custom fine-tuned models, ControlNet-style guidance, real-time canvas, and upscaling. Popular with game studios and concept artists for consistent asset pipelines.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Leonardo AI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Leonardo's Phoenix + fine-tuned image models."
+  },
+  "accentColor": "#8B5CF6",
+  "tags": ["image-gen", "game-assets", "control", "upscaling"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://leonardo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

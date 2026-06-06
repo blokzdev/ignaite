@@ -1,0 +1,32 @@
+{
+  "slug": "replicate",
+  "insight": "Any model is a 'Cog' container behind one API, billed per second — the low-commitment way to ship a model you didn't train.",
+  "name": "Replicate",
+  "tagline": "Run, fine-tune, and deploy thousands of open models via one API.",
+  "description": "A platform to run open-source models with one API call — image, video, audio, and language — plus fine-tuning and custom deploys with pay-per-second billing. No infra to manage.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Replicate",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["FLUX", "Llama", "Stable Diffusion", "Whisper"],
+    "notes": "Run + fine-tune thousands of community and open-source models."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["model-hosting", "fine-tuning", "api", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://replicate.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://replicate.com/docs"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

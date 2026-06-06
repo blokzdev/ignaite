@@ -1,0 +1,31 @@
+{
+  "slug": "lindy",
+  "insight": "Trades Zapier's one-shot triggers for agents that sit waiting on an inbox or calendar, then act with some judgment.",
+  "name": "Lindy",
+  "tagline": "Agentic automation. Long-running agents instead of one-shot triggers.",
+  "description": "Builds AI agents that wait for emails, calendar invites, or webhooks — then take multi-step actions on your behalf. The 'agentic Zapier' pitch; strong for ops workflows that need judgement, not just routing.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Lindy AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT"]
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["agents", "automation", "email", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lindy.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.lindy.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

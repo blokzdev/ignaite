@@ -1,0 +1,30 @@
+{
+  "slug": "glasp",
+  "insight": "Built on a social highlight network, but BYO-key means your reading history stays yours rather than feeding a vendor.",
+  "name": "Glasp",
+  "tagline": "Highlight, summarise, and chat with anything you read on the web.",
+  "description": "Web-highlighter + AI extension. Save passages from any page, then ask AI for summaries, related ideas, or chat across your knowledge base. BYO key keeps your reading history private.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "vendor": "Glasp",
+  "platforms": ["browser-extension", "web"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT"]
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["highlights", "read-later", "summarize", "byo-key"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://glasp.co",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://help.glasp.co"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

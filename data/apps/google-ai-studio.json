@@ -1,0 +1,28 @@
+{
+  "slug": "google-ai-studio",
+  "insight": "The free front door to the Gemini API — prototype in the browser, then export the exact call as code with one click.",
+  "name": "Google AI Studio",
+  "tagline": "Prototype with Gemini — prompts, multimodal, and instant API keys.",
+  "description": "Google's free playground for building with Gemini — prompt design, multimodal input, structured output, and one-click export to API code. The fastest way to start building on Gemini.",
+  "category": "research-platform",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Google",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Gemini"],
+    "notes": "Build + prototype with Gemini models."
+  },
+  "accentColor": "#4285F4",
+  "tags": ["prototyping", "gemini", "api", "playground"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aistudio.google.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

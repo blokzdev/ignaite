@@ -1,0 +1,28 @@
+{
+  "slug": "flux",
+  "insight": "From the team that created Stable Diffusion — it ships open weights alongside a hosted pro tier for its strongest models.",
+  "name": "FLUX",
+  "tagline": "Black Forest Labs' open image models — sharp prompt adherence.",
+  "description": "The FLUX family from Black Forest Labs — open and pro image models known for crisp detail and strong prompt following. Usable via the BFL playground, API, and across the ecosystem.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Black Forest Labs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["FLUX"],
+    "notes": "Black Forest Labs' FLUX image models (open + pro)."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["image-gen", "open-weights", "api", "flux"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bfl.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

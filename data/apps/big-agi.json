@@ -1,0 +1,41 @@
+{
+  "slug": "big-agi",
+  "insight": "Deploys to your own Vercel in a click, and its 'beam' feature runs one prompt across several models to compare side by side.",
+  "name": "Big-AGI",
+  "tagline": "Multi-model AI workspace with chat, voice, image gen, and tool use — BYO keys.",
+  "description": "A self-hostable AI workspace for chatting across hundreds of models from many providers, with voice calls, image generation, web search, and code execution. It runs self-hosted via Docker or Vercel and connects to local engines (Ollama, LM Studio, LocalAI) as well as cloud providers. MIT-licensed and free — you supply your own provider API keys.",
+  "category": "assistant",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Enrico Ros",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": [
+      "Anthropic",
+      "OpenAI",
+      "Google",
+      "Mistral",
+      "DeepSeek",
+      "Groq",
+      "Ollama",
+      "LM Studio"
+    ],
+    "notes": "Hundreds of models across providers incl. local engines and OpenAI-compatible endpoints."
+  },
+  "tags": ["chat", "multi-model", "self-hosted", "open-source", "workspace"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/enricoros/big-AGI",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://big-agi.com"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

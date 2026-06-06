@@ -1,0 +1,28 @@
+{
+  "slug": "google-flow",
+  "insight": "Google's filmmaking surface over Veo and Imagen — it directs continuity across shots, and has absorbed Whisk and ImageFX.",
+  "name": "Google Flow",
+  "tagline": "Google's AI filmmaking studio — Veo video + Imagen, in one canvas.",
+  "description": "Google Labs' creative studio for filmmakers — generate and stitch shots with Veo, craft keyframes with Imagen, and direct camera + scene with a Gemini-powered agent. Now folds in Whisk and ImageFX.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Google",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Veo", "Imagen", "Gemini"],
+    "notes": "Powered by Google Veo (video) + Imagen (image)."
+  },
+  "accentColor": "#4285F4",
+  "tags": ["video-gen", "filmmaking", "veo", "google-labs"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://labs.google/fx/tools/flow",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

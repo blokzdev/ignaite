@@ -1,0 +1,27 @@
+{
+  "slug": "pika",
+  "insight": "Leans into playful effects (Pikaffects) over photoreal output — it competes on shareable fun, not cinematic fidelity.",
+  "name": "Pika",
+  "tagline": "Playful AI video with Pikaffects, ingredients, and quick edits.",
+  "description": "Pika Labs' video generator — text- and image-to-video with signature effects (Pikaffects), character ingredients, and fast iteration. Popular for social-native, fun clips.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Pika Labs",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Pika's own video models."
+  },
+  "accentColor": "#FF4D8D",
+  "tags": ["video-gen", "effects", "social", "image-to-video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pika.art",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

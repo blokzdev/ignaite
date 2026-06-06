@@ -1,0 +1,30 @@
+{
+  "slug": "sider",
+  "insight": "One subscription puts Claude, GPT, and Gemini in a side-panel on any tab — among the most-installed of the browser AI assistants.",
+  "name": "Sider",
+  "tagline": "Multi-model AI side-panel for any browser tab.",
+  "description": "Browser extension that drops a Claude / GPT / Gemini panel onto any page — summarize the article, chat with the PDF, translate the YouTube transcript. Pluggable across providers in one subscription.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "vendor": "Sider AI",
+  "platforms": ["browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini", "DeepSeek"]
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["browser", "side-panel", "multi-model", "summarize"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sider.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://sider.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

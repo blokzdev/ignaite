@@ -1,0 +1,34 @@
+{
+  "slug": "tavily",
+  "insight": "Returns clean, scrape-ready content instead of a ranked link list — which is why it's the default search tool baked into agent frameworks.",
+  "name": "Tavily",
+  "tagline": "Search API built for AI agents. First-class in most agent frameworks.",
+  "description": "Search-as-a-tool for LLM agents — returns scrape-friendly results tuned for retrieval rather than ranking. Native integrations across LangChain, LangGraph, CrewAI, and the major agent surfaces.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Tavily",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["search-api", "agents", "rag", "tool-use"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://tavily.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.tavily.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://tavily.com/#pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

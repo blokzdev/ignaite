@@ -1,0 +1,27 @@
+{
+  "slug": "tripo",
+  "insight": "Competes on raw speed — a usable 3D model from one image in seconds — with one of the more generous free tiers in 3D gen.",
+  "name": "Tripo",
+  "tagline": "Fast text- and image-to-3D model generation.",
+  "description": "Generate detailed 3D models from a prompt or a single image in seconds, with texturing and clean topology options. Known for speed and an accessible free tier.",
+  "category": "3d",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Tripo AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Tripo's 3D generation models."
+  },
+  "accentColor": "#00C2A8",
+  "tags": ["3d-gen", "image-to-3d", "fast", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tripo3d.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

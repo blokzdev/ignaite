@@ -1,0 +1,35 @@
+{
+  "slug": "firecrawl",
+  "insight": "Renders JS and dodges anti-bot to return clean markdown, not raw HTML — and its core is AGPL, so you can self-host the crawler.",
+  "name": "Firecrawl",
+  "tagline": "Turn any website into clean, LLM-ready data — scrape, crawl, search.",
+  "description": "A web data API for AI — scrape, crawl, map, and search pages into clean markdown or structured JSON, handling proxies, anti-bot, and JS rendering for you. Open-source core (AGPL) plus a hosted service; a default web-ingestion layer for agents and RAG pipelines.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Firecrawl",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#F97316",
+  "tags": ["web-scraping", "crawling", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://firecrawl.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.firecrawl.dev"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

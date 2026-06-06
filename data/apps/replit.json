@@ -1,0 +1,28 @@
+{
+  "slug": "replit",
+  "insight": "Build, database, and hosting all live in the browser, so its Agent can ship an app from a phone with zero local setup.",
+  "name": "Replit",
+  "tagline": "Cloud IDE + Agent that builds, runs, and deploys from a prompt.",
+  "description": "A browser IDE with Replit Agent — describe an app and it scaffolds, codes, runs, and deploys it, with a hosted database and one-click publish. Zero local setup, ships from anywhere.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Replit",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT"],
+    "notes": "Replit Agent builds + deploys using frontier models."
+  },
+  "accentColor": "#F26207",
+  "tags": ["cloud-ide", "agent", "deploy", "full-stack"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://replit.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

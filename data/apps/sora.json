@@ -1,0 +1,31 @@
+{
+  "slug": "sora",
+  "insight": "OpenAI shipped it as a social app with a feed and remixing — consumer-first, unlike the API-first video tools around it.",
+  "name": "Sora",
+  "tagline": "OpenAI's video generator as a standalone app.",
+  "description": "OpenAI's video model surfaced as a consumer product — generate, remix, and share short videos from prompts or images. Available standalone and bundled into ChatGPT for subscribers.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "OpenAI",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Sora family models, not user-configurable."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["video-gen", "consumer", "social"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sora.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://help.openai.com/en/collections/11627661-sora"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

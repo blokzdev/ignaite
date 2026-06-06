@@ -1,0 +1,28 @@
+{
+  "slug": "grok",
+  "insight": "Its real-time access to the X firehose is something no rival assistant has — at the cost of a deliberately less-filtered voice.",
+  "name": "Grok",
+  "tagline": "xAI's assistant with real-time X access and a less-filtered voice.",
+  "description": "xAI's assistant — chat, image generation, and real-time knowledge pulled from X. Positioned as witty and current, with deep integration into the X platform.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "xAI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Grok"],
+    "notes": "xAI's Grok models."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["chat", "assistant", "real-time", "x"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://grok.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}
