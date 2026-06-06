@@ -455,7 +455,7 @@ You MUST confirm with the user before:
 
 **Git workflow**:
 
-- Work on the **chunk branch named in the active task** (the harness assigns one per session, e.g. `claude/iter5-chunk-<letter>-<slug>`). Never push to `main` directly; open a PR. The legacy `claude/revamp-blokz-landing-zkhIT` branch is retired.
+- **One branch per PR.** Cut each PR's branch fresh from an up-to-date `main` (e.g. `claude/<short-slug>`), even when several PRs happen in one session — don't keep stacking unrelated work onto a stale session branch. The harness may assign a starting branch per session; reuse it only for the first PR, then branch anew. Never push to `main` directly; open a PR. The legacy `claude/revamp-blokz-landing-zkhIT` branch is retired.
 - Commit messages: imperative mood, ≤ 72 char subject, optional body. Conventional Commit prefixes welcome but not required (`feat:`, `fix:`, `chore:`).
 - Group related changes in one commit; don't make 10 micro-commits for one feature.
 - Never `--no-verify` or `--no-gpg-sign` unless the user explicitly asks.
@@ -598,7 +598,7 @@ A change is "done" only when ALL of these hold:
 ## Quick references
 
 - Plan of record: `Roadmap.md` (iterations + chunks) · deferred items: `BACKLOG.md`
-- Branch: the per-task chunk branch (e.g. `claude/iter5-chunk-<letter>-<slug>`); PR into `main`
+- Branch: one fresh branch per PR off up-to-date `main` (e.g. `claude/<short-slug>`); PR into `main` (see §11 Git workflow)
 - Contact destination: `team@blokz.dev`
 - Production domain (TBD cutover): `blokz.dev`
 - Play Store dev: `https://play.google.com/store/apps/dev?id=8878695474933625157`
