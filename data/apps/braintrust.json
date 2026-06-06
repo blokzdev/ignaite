@@ -1,0 +1,35 @@
+{
+  "slug": "braintrust",
+  "insight": "Where teams graduate when a CI eval file stops scaling — it adds dataset versioning and OpenTelemetry traces to the loop.",
+  "name": "Braintrust",
+  "tagline": "Hosted eval + tracing platform for LLM apps.",
+  "description": "Production-grade eval orchestration with a dashboard, dataset versioning, and OpenTelemetry tracing. Useful once eval volume outgrows a CI YAML file.",
+  "category": "eval",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Braintrust",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "Custom"]
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["eval", "tracing", "datasets", "production"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.braintrust.dev",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.braintrust.dev/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.braintrust.dev/pricing"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

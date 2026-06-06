@@ -1,0 +1,32 @@
+{
+  "slug": "goose",
+  "insight": "From Block (the Square/Cash App company) — an on-machine agent built around MCP extensions, with 15+ model providers.",
+  "name": "Goose",
+  "tagline": "Open-source on-machine AI agent for coding, workflows, and automation.",
+  "description": "An extensible AI agent from Block that runs natively on your machine as a desktop app or CLI, executing code and automating engineering tasks via MCP extensions. It supports 15+ LLM providers (Anthropic, OpenAI, Google, Ollama, and more) using your own keys. Free and open source under Apache 2.0.",
+  "category": "agent",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Block",
+  "platforms": ["macos", "windows", "linux", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Anthropic", "OpenAI", "Google", "Ollama"],
+    "notes": "15+ providers; bring your own key."
+  },
+  "tags": ["coding-agent", "mcp", "automation", "open-source", "desktop"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/block/goose",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://block.github.io/goose"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

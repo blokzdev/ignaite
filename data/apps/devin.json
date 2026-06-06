@@ -1,0 +1,31 @@
+{
+  "slug": "devin",
+  "insight": "Runs asynchronously in its own cloud sandbox aimed at whole tickets, not autocomplete — and the model and harness are closed.",
+  "name": "Devin",
+  "tagline": "Autonomous software engineer agent. Plans, codes, ships from a prompt.",
+  "description": "Cognition's hosted SWE agent. Operates inside its own sandbox with a browser, terminal, and editor — plans the work, writes the code, and submits a PR. Aimed at long-horizon tickets rather than tab-completions.",
+  "category": "agent",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cognition AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary model + harness; not user-configurable."
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["autonomous", "swe-agent", "browser", "sandbox"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://devin.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.devin.ai"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

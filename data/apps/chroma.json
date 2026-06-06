@@ -1,0 +1,35 @@
+{
+  "slug": "chroma",
+  "insight": "Runs embedded inside your Python process — the lowest-friction way to prototype RAG before you need a server at all.",
+  "name": "Chroma",
+  "tagline": "Embedded vector DB. Pip-install, prototype, scale later.",
+  "description": "The low-friction starting point — Chroma runs embedded inside your Python process or as a hosted service. Great for prototypes and small-to-medium RAG apps; upgrade to a managed option when you outgrow it.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Chroma",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["open-source", "embedded", "prototype", "python"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://trychroma.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/chroma-core/chroma"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.trychroma.com"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

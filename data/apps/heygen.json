@@ -1,0 +1,35 @@
+{
+  "slug": "heygen",
+  "insight": "Its translation + lip-sync, not the avatars, is what sells it to teams localizing one video into dozens of languages.",
+  "name": "HeyGen",
+  "tagline": "Avatar video at scale. Talking-head clips from a script.",
+  "description": "AI avatar platform for B2B content — generate a presenter from a photo, give them a script, get a finished video with lip-sync, voiceover, and translation. Used heavily in marketing and corporate training.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "HeyGen",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary avatar + lip-sync pipeline."
+  },
+  "accentColor": "#3ECF8E",
+  "tags": ["avatars", "talking-head", "translation", "b2b-content"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.heygen.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.heygen.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.heygen.com/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

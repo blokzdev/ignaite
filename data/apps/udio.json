@@ -1,0 +1,31 @@
+{
+  "slug": "udio",
+  "insight": "The other half of the music-gen duopoly — producers often run the same hook through both it and Suno and keep the better take.",
+  "name": "Udio",
+  "tagline": "AI music generation. The Suno alternative.",
+  "description": "Hosted full-song generation focused on production-quality output and finer style control. The other half of the AI music duopoly — many producers run prompts through both Suno and Udio.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Udio",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary music model."
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["music-gen", "production", "vocals"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.udio.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.udio.com/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

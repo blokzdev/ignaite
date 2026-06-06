@@ -1,0 +1,27 @@
+{
+  "slug": "lovable",
+  "insight": "Grew out of the GPT Engineer project — it wires a Supabase backend and GitHub sync into every app it generates.",
+  "name": "Lovable",
+  "tagline": "Prompt a full-stack app into existence — UI, backend, and deploy.",
+  "description": "An AI app builder that turns prompts into full-stack web apps — React UI, Supabase backend, GitHub sync, and one-click publish. Popular for going from idea to shipped product fast.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Lovable",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generates full-stack apps; frontier models under the hood."
+  },
+  "accentColor": "#FF5C8A",
+  "tags": ["app-builder", "full-stack", "no-code", "supabase"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lovable.dev",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

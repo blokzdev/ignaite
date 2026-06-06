@@ -1,0 +1,37 @@
+{
+  "slug": "zed",
+  "insight": "From the creators of Atom and Tree-sitter — its open Agent Client Protocol lets external agents like Claude Code drive the editor.",
+  "name": "Zed",
+  "tagline": "The fast, open-source AI code editor in Rust, from the Atom creators.",
+  "description": "A GPU-accelerated, Rust-built editor with first-class agentic AI — parallel agents, edit prediction, and an open Agent Client Protocol that plugs into Claude, GPT, Gemini, MCP servers, and external CLI agents like Claude Code. Fully open source (GPL-3); BYO key or an optional hosted Pro tier.",
+  "category": "ide",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Zed Industries",
+  "platforms": ["macos", "linux", "windows"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "Local"],
+    "notes": "BYO key or Zed-hosted Pro models; connects external agents via the Agent Client Protocol."
+  },
+  "accentColor": "#2563EB",
+  "tags": ["ide", "rust", "agentic", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://zed.dev",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://zed.dev/docs"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/zed-industries/zed"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

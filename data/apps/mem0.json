@@ -1,0 +1,36 @@
+{
+  "slug": "mem0",
+  "insight": "Stores distilled facts rather than whole transcripts, so an agent's memory stays small and relevant as conversations grow.",
+  "name": "mem0",
+  "tagline": "Long-term memory layer for AI agents. Self-hostable.",
+  "description": "Persistent memory store + retrieval pipeline for agent applications. Handles per-user/per-session/per-agent scope cleanly; pairs with OpenAI, Anthropic, and local models.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Mem0",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "Local"]
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["memory", "agents", "rag", "self-hosted"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mem0.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.mem0.ai"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "meshy",
+  "insight": "Goes past raw meshes to auto-rigging and Blender/Unity/Unreal exports — built to slot into a real game-asset pipeline.",
+  "name": "Meshy",
+  "tagline": "Text- and image-to-3D models, textures, and rigging.",
+  "description": "Generate production-ready 3D assets from text or images — meshes, PBR textures, and auto-rigging, with exports for Blender, Unity, and Unreal. A staple of the AI 3D workflow.",
+  "category": "3d",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Meshy",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Meshy's own 3D generation models."
+  },
+  "accentColor": "#6366F1",
+  "tags": ["3d-gen", "text-to-3d", "textures", "game-assets"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.meshy.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

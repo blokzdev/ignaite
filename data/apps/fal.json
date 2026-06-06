@@ -1,0 +1,36 @@
+{
+  "slug": "fal",
+  "insight": "Specializes in generative-media latency — FLUX, Kling, Veo and 600+ media models — where general inference hosts focus on text.",
+  "name": "fal",
+  "tagline": "Serverless inference API for image, video, audio, and 3D models.",
+  "description": "A generative-media inference platform exposing FLUX, Kling, Veo, Wan, Stable Diffusion, and 600+ image/video/audio/3D models through one fast, serverless API — no GPUs to manage and near-zero cold starts. Pay per output or per GPU-second; free starter credits to test. Popular as the production backend for AI media features.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "fal",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["FLUX", "Kling", "Veo", "Wan", "Stable Diffusion"],
+    "notes": "Unified API to 600+ open and commercial generative-media models."
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["generative-media", "image-gen", "video-gen", "serverless"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fal.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.fal.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://fal.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

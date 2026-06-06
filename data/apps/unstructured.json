@@ -1,0 +1,35 @@
+{
+  "slug": "unstructured",
+  "insight": "Handles the unglamorous pre-RAG step — OCR, tables, and document hierarchy across 64+ file types — that makes or breaks retrieval.",
+  "name": "Unstructured",
+  "tagline": "ETL for LLMs — turn PDFs, decks, and emails into clean, structured data.",
+  "description": "Ingests 64+ file types and partitions, chunks, enriches, and embeds them into LLM-ready output, handling OCR, tables, and document hierarchy. An open-source library plus a low-code platform and API; a staple preprocessing layer for production RAG.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Unstructured",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#7C3AED",
+  "tags": ["document-etl", "preprocessing", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://unstructured.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Unstructured-IO/unstructured"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.unstructured.io"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

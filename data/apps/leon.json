@@ -1,0 +1,31 @@
+{
+  "slug": "leon",
+  "insight": "One of the older open personal-assistant projects, now mid-rewrite to 2.0 — designed to run on local models and local context.",
+  "name": "Leon",
+  "tagline": "Open-source personal AI assistant built on tools, memory, and agentic execution.",
+  "description": "A self-hosted personal AI assistant organized around tools, context, memory, and agentic execution, with smart, controlled, and agent run modes. It runs on your own machine and can use local models and local context instead of routing everything through third-party services. MIT-licensed and free; currently shipping a 2.0 developer preview alongside the legacy stable branch.",
+  "category": "assistant",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Leon AI",
+  "platforms": ["web", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Supports both local and remote AI providers; bring your own keys for remote models."
+  },
+  "tags": ["assistant", "self-hosted", "open-source", "voice", "agent"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/leon-ai/leon",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://getleon.ai"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

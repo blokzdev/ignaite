@@ -1,0 +1,34 @@
+{
+  "slug": "brave-search-api",
+  "insight": "One of the few search APIs backed by a genuinely independent crawl, not resold Bing or Google results.",
+  "name": "Brave Search API",
+  "tagline": "Independent search index. Privacy-respecting, non-Google.",
+  "description": "API access to Brave's independently-crawled search index. Useful when you need a non-Google source, want to dodge upstream rate limits, or have privacy posture requirements that rule out scraping competitors.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Brave Software",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FF060A",
+  "tags": ["search-api", "independent-index", "privacy"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://brave.com/search/api/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://api.search.brave.com/app/documentation"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://brave.com/search/api/"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "comfyui",
+  "insight": "Exposes the whole diffusion pipeline as an explicit node graph, so a workflow is reproducible and shareable as a single JSON file.",
+  "name": "ComfyUI",
+  "tagline": "Node-based visual AI — wire up image, video, and audio diffusion pipelines.",
+  "description": "An open-source, node-graph interface for diffusion models — build precise, reproducible image/video/audio pipelines on an infinite canvas where every model and parameter is visible. Runs locally on your own GPU or as a desktop app, with thousands of community nodes.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Comfy Org",
+  "platforms": ["windows", "macos", "linux", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Runs open diffusion models you supply (FLUX, Stable Diffusion, video models); no LLM required."
+  },
+  "accentColor": "#10B981",
+  "tags": ["image-gen", "video-gen", "node-based", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.comfy.org",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/comfyanonymous/ComfyUI"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.comfy.org"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

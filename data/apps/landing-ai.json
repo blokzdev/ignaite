@@ -1,0 +1,30 @@
+{
+  "slug": "landing-ai",
+  "insight": "From Andrew Ng's lab — its 'visual prompting' lets you point at a few examples instead of labeling a full training set.",
+  "name": "LandingAI",
+  "tagline": "Visual prompting + vision agents from Andrew Ng's lab.",
+  "description": "Build vision applications with a labelling-light workflow — point at examples, get a deployable detector. Recently extended into vision agents that reason over images and PDFs without bespoke training.",
+  "category": "vision",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "LandingAI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["visual-prompting", "agents", "document-ai", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://landing.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://landing.ai/docs"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "vercel-ai-sdk",
+  "insight": "Its streaming React hooks (useChat) are why so many AI chat UIs feel identical — swapping providers is a one-line change.",
+  "name": "Vercel AI SDK",
+  "tagline": "TypeScript SDK for streaming, tool-calling, and structured outputs.",
+  "description": "Vercel's batteries-included TypeScript framework for LLM-powered apps. Streaming primitives, structured outputs, tool calling, and React hooks for chat UIs — works with every major provider out of the box.",
+  "category": "orchestration",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Vercel",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["typescript", "streaming", "tool-use", "structured-output"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sdk.vercel.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/vercel/ai"
+    },
+    {
+      "kind": "docs",
+      "url": "https://sdk.vercel.ai/docs"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

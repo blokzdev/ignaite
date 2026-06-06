@@ -1,0 +1,32 @@
+{
+  "slug": "warp",
+  "insight": "Began as a from-scratch Rust terminal and grew into a multi-agent dev environment — the command line reimagined as an agent surface.",
+  "name": "Warp",
+  "tagline": "Agentic development environment born out of the terminal.",
+  "description": "A modern terminal and agent platform — multi-agent orchestration, codebase indexing, a built-in editor (Warp Code), and granular permission controls for running coding agents. Adds the Oz cloud layer for remote agent execution and team knowledge via Warp Drive. Free tier with monthly AI credits; paid Build/Max/Business plans add more credits and BYOK.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Warp",
+  "platforms": ["macos", "linux", "windows"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini"],
+    "notes": "Access to frontier models; BYO API key supported on paid plans."
+  },
+  "accentColor": "#08D9D6",
+  "tags": ["terminal", "agentic", "dev-environment", "multi-agent"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.warp.dev",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.warp.dev"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "librechat",
+  "insight": "MIT-licensed with multi-user auth built in — the closest thing to a self-owned, team-wide ChatGPT across every provider at once.",
+  "name": "LibreChat",
+  "tagline": "Self-hosted, open-source ChatGPT alternative unifying every major AI provider.",
+  "description": "A self-hosted AI chat platform that puts many providers behind one ChatGPT-style UI, with agents, code interpreter, web search, image generation, artifacts, file analysis, and multi-user auth. You run it yourself via Docker and supply your own model keys, or point it at a local Ollama/OpenAI-compatible endpoint. Fully open source under MIT — no cost for the software itself.",
+  "category": "assistant",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Danny Avila / LibreChat",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "AWS Bedrock",
+      "Azure",
+      "Groq",
+      "Mistral",
+      "Ollama"
+    ],
+    "notes": "BYO keys across providers, or custom OpenAI-compatible / local endpoints."
+  },
+  "tags": ["chat", "self-hosted", "open-source", "multi-model", "rag"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://librechat.ai"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.librechat.ai/docs"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

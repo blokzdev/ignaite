@@ -1,0 +1,34 @@
+{
+  "slug": "modal",
+  "insight": "You define GPU infra in Python decorators, not YAML or Dockerfiles — its fast cold starts make per-job GPU billing practical.",
+  "name": "Modal",
+  "tagline": "Serverless GPUs. Run training, inference, batch jobs from Python.",
+  "description": "Define cloud workloads in Python, deploy with one command — GPU access on demand, fast cold starts, fair-share pricing. The default 'I need to fine-tune a model from a Jupyter cell' platform.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Modal Labs",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["gpu", "serverless", "python", "training"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://modal.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://modal.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://modal.com/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

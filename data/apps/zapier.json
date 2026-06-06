@@ -1,0 +1,35 @@
+{
+  "slug": "zapier",
+  "insight": "Its moat is breadth — thousands of app integrations — with AI agents bolted on top, not the other way around.",
+  "name": "Zapier",
+  "tagline": "The ubiquitous low-code automation tool. Native AI features.",
+  "description": "Connects thousands of apps with no-code triggers and actions. Recent AI features include in-workflow LLM calls, AI agents, and chatbots. The default reach-for when you need to glue two SaaS tools together.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": true,
+  "vendor": "Zapier",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FF060A",
+  "tags": ["no-code", "integrations", "agents", "chatbots"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://zapier.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://help.zapier.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://zapier.com/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

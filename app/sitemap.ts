@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { apps } from "@/data/apps";
+import { apps } from "@/.velite";
 import { siteUrl } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {

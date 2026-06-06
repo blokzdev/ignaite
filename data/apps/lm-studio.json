@@ -1,0 +1,32 @@
+{
+  "slug": "lm-studio",
+  "insight": "Free even for commercial use, though the app itself is closed-source — and it serves both OpenAI- and Anthropic-compatible local APIs.",
+  "name": "LM Studio",
+  "tagline": "Desktop app to discover, download, and run local LLMs privately.",
+  "description": "A GUI for running open-weight models on your own hardware — browse and download GGUF/MLX models, chat offline, and expose an OpenAI- and Anthropic-compatible local server for your apps. Includes RAG over local files, MCP tool-use support, and dual llama.cpp + Apple MLX runtimes. Free for personal and commercial use; the app itself is proprietary.",
+  "category": "inference",
+  "pricing": "free",
+  "deployment": "local",
+  "vendor": "LM Studio",
+  "platforms": ["macos", "windows", "linux", "cli", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Qwen", "DeepSeek", "Mistral", "Gemma", "gpt-oss"],
+    "notes": "Runs GGUF/MLX open-weight models locally behind an OpenAI/Anthropic-compatible server."
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["local", "llm-runner", "gui", "privacy"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lmstudio.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://lmstudio.ai/docs"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

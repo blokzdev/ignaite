@@ -1,0 +1,27 @@
+{
+  "slug": "rodin",
+  "insight": "Aimed at production: clean topology and PBR materials, where most image-to-3D tools still output messy, unusable meshes.",
+  "name": "Rodin",
+  "tagline": "Deemos' image-to-3D for high-fidelity, production-ready meshes.",
+  "description": "Deemos' Rodin (Hyper3D) turns images or text into high-fidelity 3D models with clean geometry and PBR materials, aimed at game and film asset pipelines.",
+  "category": "3d",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Deemos",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Deemos' Rodin 3D models."
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["3d-gen", "image-to-3d", "pbr", "high-fidelity"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://hyper3d.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

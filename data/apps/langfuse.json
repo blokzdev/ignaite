@@ -1,0 +1,35 @@
+{
+  "slug": "langfuse",
+  "insight": "The self-hostable, OpenTelemetry-native answer to LangSmith — pick it when observability data has to stay on your own infra.",
+  "name": "Langfuse",
+  "tagline": "Open-source LLM observability. Self-hostable, OpenTelemetry-native.",
+  "description": "Tracing, evals, prompt management, and dataset tooling for LLM apps — self-host on your own infra or use Langfuse Cloud. The open-source default when you want full ownership of your observability stack.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Langfuse",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["open-source", "tracing", "evals", "self-hosted"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://langfuse.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/langfuse/langfuse"
+    },
+    {
+      "kind": "docs",
+      "url": "https://langfuse.com/docs"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

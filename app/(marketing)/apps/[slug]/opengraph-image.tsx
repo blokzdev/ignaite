@@ -1,5 +1,5 @@
 import { OG_CONTENT_TYPE, OG_SIZE, renderOgImage } from "@/lib/og-image";
-import { apps } from "@/data/apps";
+import { apps } from "@/.velite";
 import { getApp } from "@/lib/apps";
 
 export const size = OG_SIZE;

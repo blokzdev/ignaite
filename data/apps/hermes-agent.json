@@ -1,0 +1,32 @@
+{
+  "slug": "hermes-agent",
+  "insight": "From Nous Research — it accrues reusable skills from experience and is reachable over Telegram, Discord, or Slack, not just a terminal.",
+  "name": "Hermes Agent",
+  "tagline": "Self-improving personal AI agent that learns skills and keeps persistent memory.",
+  "description": "A self-hostable AI agent from Nous Research that builds skills from experience, maintains long-term memory, and is reachable through a terminal TUI, a web dashboard, or messaging gateways (Telegram, Discord, Slack). It runs anywhere from a small VPS to local Docker, and works with any model via Nous Portal, OpenRouter, OpenAI, or self-hosted endpoints. Free and open source under MIT; you bring your own model access.",
+  "category": "agent",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Nous Research",
+  "platforms": ["cli", "web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Nous Portal", "OpenRouter", "OpenAI"],
+    "notes": "Any model via gateway or self-hosted endpoint."
+  },
+  "tags": ["personal-agent", "memory", "self-hosted", "open-source", "skills"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://hermes-agent.nousresearch.com"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

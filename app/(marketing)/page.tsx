@@ -6,7 +6,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { ToolGrid } from "@/components/tools/tool-grid";
 import { ToolsBrowser } from "@/components/tools/tools-browser";
 import { brand } from "@/data/brand";
-import { apps as allApps } from "@/data/apps";
+import { apps as allApps } from "@/.velite";
 import { buildMetadata, siteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({

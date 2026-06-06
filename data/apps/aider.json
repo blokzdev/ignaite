@@ -1,0 +1,36 @@
+{
+  "slug": "aider",
+  "insight": "Auto-commits each change to git, so every AI edit is its own revertable commit — and it runs against local models, not just frontier APIs.",
+  "name": "Aider",
+  "tagline": "Terminal-native pair programmer. BYO key, BYO model.",
+  "description": "Open-source CLI for AI pair-programming directly against your git repo. Brings any model (Claude, Gemini, GPT, local) into a tight commit-per-task loop.",
+  "category": "ide",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Paul Gauthier",
+  "platforms": ["macos", "windows", "linux", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "Gemini", "GPT", "Local (Ollama, llama.cpp)"]
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["cli", "open-source", "self-hosted", "multi-model"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aider.chat",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Aider-AI/aider"
+    },
+    {
+      "kind": "docs",
+      "url": "https://aider.chat/docs/"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

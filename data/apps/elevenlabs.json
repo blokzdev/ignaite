@@ -1,0 +1,36 @@
+{
+  "slug": "elevenlabs",
+  "insight": "Set the bar for voice cloning — a usable clone from seconds of reference audio — which is how it became the default TTS.",
+  "name": "ElevenLabs",
+  "tagline": "Frontier TTS, voice cloning, and dubbing. Industry default.",
+  "description": "Hosted speech synthesis at near-human quality — TTS, voice cloning, multilingual dubbing, and conversational voice agents. Default choice when you need a voice that sounds like a person, not a robot.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": true,
+  "vendor": "ElevenLabs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary voice models. Not user-configurable."
+  },
+  "accentColor": "#E8F1F8",
+  "tags": ["tts", "voice-cloning", "dubbing", "multilingual"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://elevenlabs.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://elevenlabs.io/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://elevenlabs.io/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

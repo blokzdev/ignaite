@@ -1,0 +1,32 @@
+{
+  "slug": "midjourney",
+  "insight": "Ran Discord-only for years before shipping a web app — its opinionated house aesthetic is the trade-off for less fine control.",
+  "name": "Midjourney",
+  "tagline": "The brand-name image generator. Discord-native, web app available.",
+  "description": "Hosted image generation that defined the category. Strong aesthetic defaults, style references, and rich prompt-control vocabulary. Used by designers, illustrators, and prompt artists worldwide.",
+  "category": "image-gen",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "featured": true,
+  "vendor": "Midjourney",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary V-series models, not user-configurable."
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["image-gen", "design", "illustration", "style-reference"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.midjourney.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.midjourney.com"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

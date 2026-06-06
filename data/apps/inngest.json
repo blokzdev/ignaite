@@ -1,0 +1,34 @@
+{
+  "slug": "inngest",
+  "insight": "Gives you durable, resumable functions — retries, sleeps, fan-out — without standing up a queue or worker pool yourself.",
+  "name": "Inngest",
+  "tagline": "Durable workflow engine for AI background jobs.",
+  "description": "Event-driven, durable execution engine — pause/resume, retries, fan-out, scheduling — designed for long-running AI jobs that can't sit in a request/response cycle. TypeScript-first; framework-agnostic.",
+  "category": "orchestration",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Inngest",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["durable", "workflow", "background-jobs", "typescript"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://inngest.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/inngest/inngest"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.inngest.com/docs"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

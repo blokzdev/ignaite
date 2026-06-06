@@ -1,0 +1,31 @@
+{
+  "slug": "bolt-new",
+  "insight": "The entire Node stack runs inside the browser tab via StackBlitz's WebContainers — no server is spun up behind your build.",
+  "name": "Bolt.new",
+  "tagline": "Prompt-to-app generator running in the browser. WebContainers under the hood.",
+  "description": "StackBlitz's in-browser full-stack app builder. Generates a working project — frontend, backend, deps — and lets you iterate in a sandboxed Node runtime without leaving the tab.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "StackBlitz",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT"]
+  },
+  "accentColor": "#08D9D6",
+  "tags": ["full-stack", "web", "webcontainers", "prompt-to-app"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bolt.new",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://support.bolt.new"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

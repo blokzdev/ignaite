@@ -1,0 +1,36 @@
+{
+  "slug": "runway",
+  "insight": "The elder of the space — it pairs its Gen models with an actual timeline editor, which is why client work tends to land here.",
+  "name": "Runway",
+  "tagline": "Professional video AI. Gen-series models + a full editor.",
+  "description": "End-to-end video AI platform — text-to-video, image-to-video, in-painting, motion brush, and a timeline editor. Longest-running studio in the space; default choice when the output ships to clients.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": true,
+  "vendor": "Runway",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Gen-series proprietary video models."
+  },
+  "accentColor": "#08D9D6",
+  "tags": ["video-gen", "editing", "motion", "film"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://runwayml.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.dev.runwayml.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://runwayml.com/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

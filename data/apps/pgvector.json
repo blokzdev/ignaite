@@ -1,0 +1,31 @@
+{
+  "slug": "pgvector",
+  "insight": "Keeps embeddings in the same Postgres as your relational data, so you can JOIN against them and back everything up together.",
+  "name": "pgvector",
+  "tagline": "Vector similarity search inside Postgres. The pragmatic default.",
+  "description": "Postgres extension that adds a vector type plus exact and approximate nearest-neighbour search. Pairs naturally with Supabase, Neon, and any managed Postgres. The lowest-friction RAG backend if you already run Postgres.",
+  "category": "vector-db",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "pgvector community",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#3ECF8E",
+  "tags": ["postgres", "open-source", "extension", "rag"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/pgvector/pgvector",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://github.com/pgvector/pgvector#getting-started"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

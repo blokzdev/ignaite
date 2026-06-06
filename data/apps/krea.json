@@ -1,0 +1,32 @@
+{
+  "slug": "krea",
+  "insight": "Fronts several engines (Flux, Imagen, Sora) on one real-time canvas, built to refine a single image rather than re-roll prompts.",
+  "name": "Krea",
+  "tagline": "Design-loop image surface. Generate, edit, upscale, iterate.",
+  "description": "Multi-model creative canvas — image generation, real-time edits, upscaling, and style transfer chained together. Strong for fast iteration on a single image rather than rolling fresh prompts.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Krea AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Flux", "Imagen", "Ideogram", "Sora"],
+    "notes": "Combines multiple providers behind one canvas."
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["image-gen", "editing", "upscaling", "design"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.krea.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.krea.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

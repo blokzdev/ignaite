@@ -1,0 +1,28 @@
+{
+  "slug": "gemini",
+  "insight": "Its edge is distribution — wired into Search, Gmail, Docs, and Android — alongside among the largest context windows shipping.",
+  "name": "Gemini",
+  "tagline": "Google's assistant, wired into Search, Workspace, and Android.",
+  "description": "Google's multimodal assistant — chat, image generation, deep research, and tight integration across Gmail, Docs, and Android. Backed by the Gemini model family.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Google",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Gemini"],
+    "notes": "Google's Gemini models."
+  },
+  "accentColor": "#4285F4",
+  "tags": ["chat", "assistant", "multimodal", "google"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://gemini.google.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

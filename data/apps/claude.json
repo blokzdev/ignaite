@@ -1,0 +1,32 @@
+{
+  "slug": "claude",
+  "insight": "Introduced both Artifacts and the MCP standard that this directory's tooling now runs on — the consumer sibling of Claude Code.",
+  "name": "Claude",
+  "tagline": "Anthropic's assistant. Thoughtful, long-context, strong at code + writing.",
+  "description": "The Claude consumer app — chat with Projects, artifacts, file analysis, and MCP connectors. Known for careful reasoning, large context, and being a strong writing + coding partner.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Anthropic",
+  "platforms": ["web", "ios", "android", "macos", "windows"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Claude Opus", "Claude Sonnet", "Claude Haiku"],
+    "notes": "Anthropic's Claude models."
+  },
+  "accentColor": "#D97757",
+  "tags": ["chat", "assistant", "writing", "coding", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://claude.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.anthropic.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

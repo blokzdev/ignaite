@@ -9,8 +9,8 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import { apps } from "@/data/apps";
-import { APP_CATEGORIES } from "@/types/app";
+import appsIndex from "@/.velite/apps-search.json";
+import { APP_CATEGORIES, type AppCategory } from "@/types/app";
 import { CATEGORY_LABEL } from "@/hooks/use-directory-filters";
 
 interface Props {
@@ -39,7 +39,7 @@ export function CommandPaletteBody({ open, onOpenChange }: Readonly<Props>) {
         <CommandEmpty>No results.</CommandEmpty>
 
         <CommandGroup heading="Apps">
-          {apps.map((app) => (
+          {appsIndex.map((app) => (
             <CommandItem
               key={app.slug}
               value={`${app.name} ${app.vendor ?? ""}`}
@@ -48,7 +48,7 @@ export function CommandPaletteBody({ open, onOpenChange }: Readonly<Props>) {
             >
               <span className="truncate text-[var(--color-ink)]">{app.name}</span>
               <span className="ml-auto shrink-0 pl-3 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
-                {CATEGORY_LABEL[app.category]}
+                {CATEGORY_LABEL[app.category as AppCategory]}
               </span>
             </CommandItem>
           ))}

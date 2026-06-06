@@ -1,0 +1,34 @@
+{
+  "slug": "cloudflare",
+  "insight": "Its R2 storage charges no egress fees — the standout reason teams move large-asset workloads off S3.",
+  "name": "Cloudflare",
+  "tagline": "Workers + R2 + D1 + Durable Objects. Global edge runtime.",
+  "description": "When the app needs to run close to users globally, or when an isolate-per-request model fits the workload better than Node functions. R2 for storage, D1 for SQLite-at-the-edge.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Cloudflare",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#F38020",
+  "tags": ["edge", "workers", "storage", "global"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cloudflare.com/developer-platform/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.cloudflare.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.cloudflare.com/plans/"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

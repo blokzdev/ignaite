@@ -1,0 +1,35 @@
+{
+  "slug": "promptfoo",
+  "insight": "Define evals in plain YAML and run one goldset across models in CI — a prompt regression fails the build like any other test.",
+  "name": "Promptfoo",
+  "tagline": "Open-source LLM eval CLI. Rubric scoring + golden sets.",
+  "description": "YAML-driven eval harness. Pair a prompt with a goldset, define rubrics, run across multiple models in CI. Strong for catching prompt regressions before they hit production.",
+  "category": "eval",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Promptfoo",
+  "platforms": ["cli", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "Local"]
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["eval", "ci", "rubric", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://promptfoo.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/promptfoo/promptfoo"
+    },
+    {
+      "kind": "docs",
+      "url": "https://promptfoo.dev/docs/getting-started"
+    }
+  ],
+  "addedAt": "2025-02-01",
+  "lastVerifiedAt": "2026-06-01"
+}

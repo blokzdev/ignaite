@@ -1,0 +1,36 @@
+{
+  "slug": "cline",
+  "insight": "Formerly 'Claude Dev' — fully open-source and BYO-key, it shows and asks approval for every file edit and command it runs.",
+  "name": "Cline",
+  "tagline": "Open-source autonomous coding agent in VS Code. BYO key.",
+  "description": "Community-maintained VS Code extension that turns the editor into an agent surface — reads the repo, runs commands, edits files, and verifies its work. Pairs naturally with Claude. Formerly known as Claude Dev.",
+  "category": "agent",
+  "pricing": "byo-key",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Cline Bot Inc.",
+  "platforms": ["vscode-extension"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "DeepSeek", "Local (Ollama)"]
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["agentic", "vscode", "open-source", "byo-key"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cline.bot",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/cline/cline"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.cline.bot"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

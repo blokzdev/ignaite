@@ -32,6 +32,7 @@ v2 is the live site (this codebase). The legacy v1 Glitch template is preserved 
 | Smooth scroll    | `lenis`                                                 | Inertial smooth scroll on `/about` (workflow dormant — see §1)   | 1.3.x   |
 | 3D / shaders     | `three` + `@react-three/fiber` + `drei`                 | Hero flow-field only (the dormant `/workflow` had no R3F)        | 0.184.x |
 | Content          | `@next/mdx`, `rehype-pretty-code` (Shiki), `remark-gfm` | Manifesto/projects/workflow as MDX                               | latest  |
+| Directory data   | `velite` (+ its bundled `zod`)                          | Per-file `data/apps/*.json` validated + aggregated; build-only   | 0.3.x   |
 | URL state        | `nuqs`                                                  | `/apps` filter state in URL                                      | latest  |
 | Forms            | Native form + server action + `resend`                  | Contact form → `team@blokz.dev`                                  | 4.x     |
 | Icons            | `lucide-react` + custom SVGs                            | Tree-shaken icons + custom chain marks                           | latest  |
@@ -76,7 +77,7 @@ Pre-push (auto): `pnpm typecheck`.
 app/                              # Next App Router
   (marketing)/                    # route group sharing nav + footer
     layout.tsx                    #   sets <SiteNav/> + <SiteFooter/>
-    page.tsx                      #   / — AI-apps DIRECTORY (data/apps.ts; filter+search+sort, ~70 entries)
+    page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~125 entries)
     about/
       page.tsx                    #   /about — studio identity (Hero, Now/Next, manifesto, portfolio grid)
       opengraph-image.tsx         #   per-route OG
@@ -104,7 +105,11 @@ app/                              # Next App Router
 
 # ── TWO content tracks — keep them straight ──────────────────────────────
 #   DIRECTORY = the curated AI-apps list (the / homepage). LIVE.
-#               data/apps.ts · types/app.ts · lib/apps.ts · components/tools/*
+#               data/apps/<slug>.json (one file per listing) · zod schema =
+#               source-of-truth lib/apps-schema.ts · types/app.ts (enums +
+#               re-exported derived types) · velite.config.ts → generated
+#               .velite/ (full apps.json + slim apps-search.json) · lib/apps.ts ·
+#               components/tools/*
 #   PORTFOLIO = Blokz's own shipped apps. DORMANT (see §1) — the blockchain
 #               heritage was unpublished; /about no longer shows it and the
 #               route lives at app/(marketing)/_portfolio/. Retained for a
@@ -167,13 +172,19 @@ content/                          # typed content + MDX
       {brief,forge,memo}/{claude-md,prd,spec,prompt-library}.mdx   # 12 artifacts
 
 data/                             # source-of-truth, typed
-  apps.ts                         # DIRECTORY: all directory apps (App[])
+  apps/<slug>.json                # DIRECTORY: one JSON file per listing (~125), validated by Velite
   projects.ts                     # PORTFOLIO: Blokz's shipped projects (Project[])
   sponsored.ts                    # sponsored directory slots
   brand.ts                        # logo, social handles, contact, hero copy
   chains.ts                       # chain metadata (icon, color, label)
 
+velite.config.ts                  # Velite: validates data/apps/*.json against lib/apps-schema.ts,
+                                  #   generates .velite/ (full apps.json + slim apps-search.json).
+                                  #   Runs via `velite build` prepended to dev/build/typecheck.
+.velite/                          # GENERATED + gitignored — never edit/commit; import via @/.velite
+
 lib/
+  apps-schema.ts                  # DIRECTORY source-of-truth: zod schema; App = z.infer<…> (build-only)
   utils.ts                        # cn() + small formatters
   apps.ts                         # directory query helpers (listApps, getApp, relatedApps, …)
   projects.ts                     # portfolio query helpers (listProjects, getProject, …)
@@ -211,10 +222,10 @@ package.json  pnpm-lock.yaml
 
 ### Add a directory app (the `/` directory — App track)
 
-1. Append an `App` entry to `data/apps.ts` (schema in `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1 `primary: true`). Optional: `insight` (the directory's signature signal — a single ≤140-char, non-obvious, **verifiable** editorial sentence per listing; never fabricated, omit if nothing sharp), `vendor`, `openSource` (license signal — **decoupled from `pricing`**, which is cost-only: `free`/`freemium`/`paid`/`byo-key`, no `open-source`; the card/detail derive an open-source / **open-core** / proprietary chip from `openSource` + `pricing`), `deployment` (`cloud`/`self-host`/`local`/`hybrid`, set where hosting is a real axis — unset for libraries/SDKs), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`. (Model-serving/inference/gateways → the `inference` category.)
+1. Create `data/apps/<slug>.json` — one JSON object, validated by the zod schema in `lib/apps-schema.ts` (the source of truth; types re-exported from `types/app.ts`). Required: `slug`, `name`, `tagline`, `description`, `category`, `pricing`, `platforms`, `links` (≥1, **exactly one** `primary: true`). Optional: `insight` (the directory's signature signal — a single ≤140-char, non-obvious, **verifiable** editorial sentence per listing; never fabricated, omit if nothing sharp), `vendor`, `openSource` (license signal — **decoupled from `pricing`**, which is cost-only: `free`/`freemium`/`paid`/`byo-key`, no `open-source`; the card/detail derive an open-source / **open-core** / proprietary chip from `openSource` + `pricing`), `deployment` (`cloud`/`self-host`/`local`/`hybrid`, set where hosting is a real axis — unset for libraries/SDKs), `status`, `tags`, `modelSupport`, `addedAt`, `lastVerifiedAt`, `featured`, `accentColor`. (Model-serving/inference/gateways → the `inference` category.) Run `pnpm velite build` — it schema-validates the file with a precise per-file error if anything is off.
 2. One card renders all apps — `components/tools/tool-card.tsx` (no per-type dispatch); the detail body is `components/tools/app-detail.tsx`.
 3. Set `featured: true` to surface it in the featured carousel (use sparingly).
-4. Run `pnpm dev` and verify it appears on `/`, that the category/pricing/mark/status filter chips include it, and that `/apps/<slug>` renders.
+4. Run `pnpm dev` and verify it appears on `/`, that the category/pricing/status filter chips include it, and that `/apps/<slug>` renders. (One file per listing → concurrent `/add-app` & `/discover-apps` runs never conflict.)
 
 ### Add a portfolio project (the Project track — DORMANT)
 
@@ -484,9 +495,9 @@ Triage `BACKLOG.md` at the end of every Phase and again before launch.
 The `/` directory is the product — keep it comprehensive + current. Two committed Claude Code routines
 encode the flow (see `docs/directory-playbook.md`):
 
-- **`/add-app <name | url | list>`** — research + author new `App` entries into `data/apps.ts`
-  (dedup → web-verify → schema-valid entry → validate). No fabrication; author a verifiable `insight`;
-  `addedAt`/`lastVerifiedAt` = today; `featured` sparingly.
+- **`/add-app <name | url | list>`** — research + author new `App` listings as `data/apps/<slug>.json`
+  (dedup → web-verify → schema-valid entry → `pnpm velite build`). No fabrication; author a verifiable
+  `insight`; `addedAt`/`lastVerifiedAt` = today; `featured` sparingly.
 - **`/discover-apps [focus]`** — autonomous counterpart to `/add-app`: finds net-new apps not yet
   listed and opens a PR. Built for unattended/scheduled runs.
 - **`/audit-directory [--category c] [--stale-since date]`** — re-verify existing listings (links,

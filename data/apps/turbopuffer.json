@@ -1,0 +1,34 @@
+{
+  "slug": "turbopuffer",
+  "insight": "Stores indexes on object storage instead of RAM, so cost tracks usage not corpus size — Notion runs it in production.",
+  "name": "Turbopuffer",
+  "tagline": "Object-storage-backed vector DB. Serverless economics at scale.",
+  "description": "Bills like S3 — cold rest, warm reads, no per-namespace minimums. Designed for very-large, mostly-cold vector workloads where you can't justify keeping every index in RAM. Operated by Notion in production.",
+  "category": "vector-db",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Turbopuffer",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["serverless", "object-storage", "cold-storage", "scale"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://turbopuffer.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://turbopuffer.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://turbopuffer.com/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

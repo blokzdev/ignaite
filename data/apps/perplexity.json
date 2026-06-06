@@ -1,0 +1,37 @@
+{
+  "slug": "perplexity",
+  "insight": "Its Sonar API exposes the same cited-search engine to your own app — so it's an answer product and a retrieval backend at once.",
+  "name": "Perplexity",
+  "tagline": "AI-augmented search. Cited answers, consumer + Sonar API.",
+  "description": "Hybrid search engine that returns synthesized answers with inline citations rather than a list of links. Ships a consumer product and the Sonar API for adding cited search to your own apps and agents.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": true,
+  "vendor": "Perplexity AI",
+  "platforms": ["web", "ios", "android", "macos", "windows", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini", "Sonar"],
+    "notes": "Pro users select a model per query; Sonar API exposes the search layer."
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["search", "citations", "consumer", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.perplexity.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.perplexity.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.perplexity.ai/pro"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

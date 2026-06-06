@@ -1,0 +1,34 @@
+{
+  "slug": "langgraph",
+  "insight": "LangChain's low-level layer: a durable state graph with checkpoints, so a long agent run can pause for a human and resume later.",
+  "name": "LangGraph",
+  "tagline": "Graph-based agent orchestration. Stateful loops with checkpoints.",
+  "description": "LangChain's agent layer. Model agents as nodes in a state graph with persistent checkpoints, human-in-the-loop steps, and durable execution. Strong when you need a long-running, debuggable agent rather than a one-shot chain.",
+  "category": "orchestration",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "LangChain",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#A78BFA",
+  "tags": ["agents", "graph", "state", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://langchain.com/langgraph",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/langchain-ai/langgraph"
+    },
+    {
+      "kind": "docs",
+      "url": "https://langchain-ai.github.io/langgraph/"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

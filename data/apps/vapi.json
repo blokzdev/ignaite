@@ -1,0 +1,36 @@
+{
+  "slug": "vapi",
+  "insight": "Solves the hard parts of phone agents — telephony and barge-in interrupts — leaving you to pick the STT, LLM, and TTS layers.",
+  "name": "Vapi",
+  "tagline": "Voice agent infrastructure. Build a phone-agent in a weekend.",
+  "description": "Production voice-agent platform — telephony, STT, LLM, TTS, and interrupt handling stitched together so you call an endpoint and get a working phone agent. Pluggable models at every layer.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Vapi",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini", "ElevenLabs", "Deepgram"],
+    "notes": "Compose your own STT + LLM + TTS stack."
+  },
+  "accentColor": "#5EEAD4",
+  "tags": ["voice-agents", "telephony", "phone", "real-time"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vapi.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.vapi.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://vapi.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

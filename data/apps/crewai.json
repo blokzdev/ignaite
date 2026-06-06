@@ -1,0 +1,34 @@
+{
+  "slug": "crewai",
+  "insight": "Built standalone rather than on LangChain — it models work as a 'crew' of role-typed agents that delegate tasks to each other.",
+  "name": "CrewAI",
+  "tagline": "Multi-agent framework with explicit roles and tasks.",
+  "description": "Python framework for orchestrating crews of specialised agents — researcher, writer, reviewer — coordinated through shared context. Opinionated about roles, sequencing, and delegation; good fit for content-and-research pipelines.",
+  "category": "orchestration",
+  "pricing": "freemium",
+  "openSource": true,
+  "vendor": "crewAIInc",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#37F3FF",
+  "tags": ["multi-agent", "roles", "python", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://crewai.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/crewAIInc/crewAI"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.crewai.com"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}

@@ -119,13 +119,13 @@ export type ModelSupportKind =
   | "model-agnostic" // No LLM involved (infra, vector db, observability).
   | "self-contained"; // App ships its own weights / runs on-device.
 
-export interface ModelSupport {
-  kind: ModelSupportKind;
-  /** Specific models or providers the app supports (e.g., ["Claude", "GPT-5"]). */
-  models?: ReadonlyArray<string>;
-  /** Short free-form note about how the support works. */
-  notes?: string;
-}
+export const MODEL_SUPPORT_KINDS: ReadonlyArray<ModelSupportKind> = [
+  "single-model",
+  "multi-model",
+  "byo-key",
+  "model-agnostic",
+  "self-contained",
+];
 
 export type AppLinkKind =
   | "website"
@@ -137,61 +137,21 @@ export type AppLinkKind =
   | "twitter"
   | "discord";
 
-export interface AppLink {
-  kind: AppLinkKind;
-  url: string;
-  label?: string;
-  primary?: boolean;
-}
+export const APP_LINK_KINDS: ReadonlyArray<AppLinkKind> = [
+  "website",
+  "docs",
+  "github",
+  "pricing",
+  "demo",
+  "video",
+  "twitter",
+  "discord",
+];
 
-export interface AppScreenshot {
-  src: string;
-  alt: string;
-}
-
-export interface App {
-  slug: string;
-  name: string;
-  /** ≤ 100 chars; one-line pitch. */
-  tagline: string;
-  /** 2–4 sentences for the card; richer prose lives in longDescription. */
-  description: string;
-  /** Optional richer prose for the detail page (chunk C). */
-  longDescription?: string;
-  /** The directory's signature signal: a single, Claude-authored editorial
-   * observation surfaced while researching the listing. Quality bar (enforced
-   * by the authoring routines): ≤ ~140 chars, one sentence, a *non-obvious,
-   * verifiable* fact — how it differs from peers, a licensing nuance, an
-   * architectural quirk — NOT a re-pitch of the tagline. Never fabricate; if
-   * nothing sharp is verifiable, omit it. This is what makes the catalog read
-   * as AI-curated rather than auto-generated. */
-  insight?: string;
-  category: AppCategory;
-  /** Cost model only — license/openness is the separate `openSource` flag. */
-  pricing: AppPricing;
-  /** True when the app's source is open. Decoupled from `pricing` so an app can
-   * be both open-source AND have a paid hosted tier (e.g. Zed, ComfyUI). */
-  openSource?: boolean;
-  /** How it's hosted / run — see AppDeployment. Set where it's a real axis
-   * (services / self-hostable infra / desktop); unset for libraries/SDKs. */
-  deployment?: AppDeployment;
-  vendor?: string;
-  /** Required. At least one platform so visitors know where the app runs. */
-  platforms: ReadonlyArray<AppPlatform>;
-  modelSupport?: ModelSupport;
-  tags?: ReadonlyArray<string>;
-  accentColor?: string;
-  /** Featured = bento 2-col span + hero carousel candidate. */
-  featured?: boolean;
-  links: ReadonlyArray<AppLink>;
-  screenshots?: ReadonlyArray<AppScreenshot>;
-  /** ISO date; powers "recent" sort. */
-  addedAt?: string;
-  /** Lifecycle status. Absence = "active". Archived hides from default browse. */
-  status?: AppStatus;
-  /** ISO date of the most recent freshness audit. Refreshed whenever the entry
-   * is re-verified. Cycle entries oldest-first in future audit chunks. */
-  lastVerifiedAt?: string;
-  /** Gates an MDX long-form page at content/apps/<slug>.mdx in chunk C. */
-  hasLongForm?: boolean;
-}
+// The record SHAPES (App, AppLink, ModelSupport, AppScreenshot) are derived from
+// the single source of truth — the zod schema in `lib/apps-schema.ts` — and
+// re-exported here so every existing `@/types/app` import keeps working. To
+// change a field, edit the schema (not this file); Velite validates every
+// `data/apps/*.json` against it at build. The enum unions + value tuples above
+// stay here because they're client-safe (zod-free) and reused by the filter UI.
+export type { App, AppLink, ModelSupport, AppScreenshot } from "@/lib/apps-schema";

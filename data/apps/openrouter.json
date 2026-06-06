@@ -1,0 +1,36 @@
+{
+  "slug": "openrouter",
+  "insight": "Swap among 300+ models by changing one string, with automatic fallback if a provider is down — and one consolidated bill.",
+  "name": "OpenRouter",
+  "tagline": "One OpenAI-compatible API in front of 300+ models from every provider.",
+  "description": "A unified gateway that routes a single endpoint and API key to models from Anthropic, OpenAI, Google, Meta, DeepSeek, xAI, and more — swap models by changing one parameter, with automatic fallbacks and one consolidated bill. Pass-through token pricing plus dozens of free models.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "OpenRouter",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini", "Llama", "DeepSeek", "Grok"],
+    "notes": "Single OpenAI-compatible endpoint fronting 300+ models; routing + fallbacks."
+  },
+  "accentColor": "#6467F2",
+  "tags": ["gateway", "routing", "multi-model", "fallbacks"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://openrouter.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://openrouter.ai/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://openrouter.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-06-06"
+}

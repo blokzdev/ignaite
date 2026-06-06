@@ -1,0 +1,35 @@
+{
+  "slug": "helicone",
+  "insight": "Integrate by changing one base-URL line — no SDK wrapper — and it's open-source, so you can self-host the proxy.",
+  "name": "Helicone",
+  "tagline": "Drop-in LLM proxy with logging, caching, and cost tracking.",
+  "description": "One-line integration — change your OpenAI/Anthropic base URL and get a dashboard with every prompt, response, latency, and dollar tracked. Adds caching and rate-limit handling without code changes.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Helicone",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FBBF24",
+  "tags": ["proxy", "logging", "caching", "cost-tracking"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.helicone.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Helicone/helicone"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.helicone.ai"
+    }
+  ],
+  "addedAt": "2026-05-13",
+  "lastVerifiedAt": "2026-06-01"
+}
