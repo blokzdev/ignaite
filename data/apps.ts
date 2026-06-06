@@ -2975,6 +2975,108 @@ export const apps: ReadonlyArray<App> = [
     addedAt: "2026-06-06",
     lastVerifiedAt: "2026-06-06",
   },
+  {
+    slug: "gpt-researcher",
+    name: "GPT Researcher",
+    tagline:
+      "Autonomous AI agent that runs deep multi-source web research and writes cited reports.",
+    description:
+      "An open-source autonomous research agent that plans a task, runs parallel multi-source web searches, validates sources, and synthesizes a cited report. It runs locally as a Python package, FastAPI server, or MCP server, and works with any LLM provider plus a search/retriever backend. Free and Apache-2.0 licensed — you only pay your own LLM and search-API costs.",
+    category: "research-platform",
+    pricing: "byo-key",
+    openSource: true,
+    deployment: "self-host",
+    vendor: "Assaf Elovic / Tavily",
+    platforms: ["web", "cli", "api"],
+    modelSupport: {
+      kind: "byo-key",
+      notes: "Any LLM provider via config; requires your own LLM + retriever (e.g. Tavily) keys.",
+    },
+    tags: ["open-source", "self-hosted", "research", "agent", "rag"],
+    links: [
+      { kind: "github", url: "https://github.com/assafelovic/gpt-researcher", primary: true },
+      { kind: "website", url: "https://gptr.dev" },
+      { kind: "docs", url: "https://docs.gptr.dev" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+  {
+    slug: "sillytavern",
+    name: "SillyTavern",
+    tagline: "Self-hosted LLM chat frontend for power users, with characters and many backends.",
+    description:
+      "A self-hosted, browser-based LLM frontend aimed at power users, with rich character cards, prompt control, extensions, and group chats. It runs as a local Node.js server on Windows, macOS, Linux, and Android (via Termux), connecting to many backends — OpenAI, Anthropic, plus local runtimes — using your own keys. Free and AGPL-3.0 licensed with no paid tier.",
+    category: "assistant",
+    pricing: "byo-key",
+    openSource: true,
+    deployment: "self-host",
+    vendor: "SillyTavern",
+    platforms: ["web", "windows", "macos", "linux", "android"],
+    modelSupport: {
+      kind: "multi-model",
+      notes: "Connects to many LLM backends (OpenAI, Anthropic, local runtimes) via your own keys.",
+    },
+    tags: ["open-source", "self-hosted", "chat", "local", "llm-frontend"],
+    links: [
+      { kind: "github", url: "https://github.com/SillyTavern/SillyTavern", primary: true },
+      { kind: "website", url: "https://sillytavern.app" },
+      { kind: "docs", url: "https://docs.sillytavern.app" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+  {
+    slug: "continue",
+    name: "Continue",
+    tagline: "Open-source AI coding assistant for VS Code, JetBrains, and the CLI.",
+    description:
+      "An open-source AI coding assistant delivered as a VS Code extension, a JetBrains plugin, and a CLI, with chat, autocomplete, and agent workflows. It runs locally in your editor and works with any model provider, including local models via Ollama, using your own keys. The core is Apache-2.0 and free; the company also offers a hosted Continue Hub for sharing and managing assistants.",
+    category: "ide",
+    pricing: "freemium",
+    openSource: true,
+    deployment: "local",
+    vendor: "Continue Dev",
+    platforms: ["vscode-extension", "cli", "macos", "windows", "linux"],
+    modelSupport: {
+      kind: "multi-model",
+      notes: "Any provider and local models via Ollama; bring your own keys.",
+    },
+    tags: ["open-source", "local", "coding-assistant", "ide", "agent"],
+    links: [
+      { kind: "github", url: "https://github.com/continuedev/continue", primary: true },
+      { kind: "website", url: "https://www.continue.dev" },
+      { kind: "docs", url: "https://docs.continue.dev" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+  {
+    slug: "onyx",
+    name: "Onyx",
+    tagline: "Open-source, self-hosted AI chat and enterprise search over your own docs.",
+    description:
+      "Onyx (formerly Danswer) is an open-source AI chat and RAG platform that connects to your company's docs and apps for grounded, cited answers, and works with any LLM. It is self-hosted via Docker/Kubernetes and supports local models, keeping data on your own infrastructure. The core is MIT-licensed and free; an open-core model puts optional enterprise features under a separate license, and the vendor also offers a managed cloud.",
+    category: "assistant",
+    pricing: "freemium",
+    openSource: true,
+    deployment: "self-host",
+    vendor: "Onyx",
+    platforms: ["web", "api"],
+    modelSupport: {
+      kind: "multi-model",
+      notes:
+        "Works with any LLM (OpenAI, Anthropic, local models); self-hosted, bring your own keys.",
+    },
+    tags: ["open-source", "self-hosted", "rag", "enterprise-search", "ai-chat"],
+    links: [
+      { kind: "github", url: "https://github.com/onyx-dot-app/onyx", primary: true },
+      { kind: "website", url: "https://onyx.app" },
+      { kind: "docs", url: "https://docs.onyx.app" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
 ];
 
 // Cheap dev-time guard. Every directory entry must declare at least one
