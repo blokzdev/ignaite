@@ -1,7 +1,16 @@
 import Link from "next/link";
-import { ArrowUpRight, BookOpen, ExternalLink, MessageCircle, Play, Tag } from "lucide-react";
+import {
+  ArrowUpRight,
+  BookOpen,
+  ExternalLink,
+  MessageCircle,
+  Play,
+  Sparkles,
+  Tag,
+} from "lucide-react";
 import type { ComponentType } from "react";
-import type { App, AppCategory, AppLinkKind, AppPricing, BlokzMark } from "@/types/app";
+import type { App, AppCategory, AppLinkKind, AppPricing } from "@/types/app";
+import { licenseSignal } from "@/lib/tools/license";
 import { cn } from "@/lib/utils";
 
 // Branded GitHub icon was dropped in lucide-react 1.x — ship our own glyph
@@ -47,26 +56,6 @@ const PRICING_LABEL: Record<AppPricing, string> = {
   "byo-key": "BYO KEY",
 };
 
-// Optional editorial badge. Most listings carry no mark (and so render no
-// stamp + the card uses the neutral ring).
-const MARK_LABEL: Record<BlokzMark, string> = {
-  deployed: "Deployed",
-  vetted: "Vetted",
-  contributing: "Contributing",
-};
-
-const MARK_RING: Record<BlokzMark, string> = {
-  deployed: "ring-[var(--color-accent)]/45",
-  contributing: "ring-[var(--color-success)]/45",
-  vetted: "ring-[var(--color-violet)]/40",
-};
-
-const MARK_DOT: Record<BlokzMark, string> = {
-  deployed: "bg-[var(--color-accent)]",
-  contributing: "bg-[var(--color-success)]",
-  vetted: "bg-[var(--color-violet)]",
-};
-
 const NEUTRAL_RING = "ring-white/[0.08]";
 
 const LINK_ICON: Record<AppLinkKind, ComponentType<{ className?: string }>> = {
@@ -92,6 +81,7 @@ export function ToolCard({ app }: Readonly<Props>) {
     .slice(0, 2)
     .toUpperCase();
   const isArchived = app.status === "archived";
+  const license = licenseSignal(app);
   // Cap the tag row so a long tag list can't blow out card height on mobile;
   // surplus is summarised as a +N chip.
   const visibleTags = app.tags?.slice(0, 4) ?? [];
@@ -106,7 +96,7 @@ export function ToolCard({ app }: Readonly<Props>) {
         isArchived
           ? "opacity-60 ring-white/[0.06]"
           : "hover:-translate-y-1 hover:bg-[var(--color-surface)]/90",
-        !isArchived && (app.blokzMark ? MARK_RING[app.blokzMark] : NEUTRAL_RING),
+        !isArchived && NEUTRAL_RING,
       )}
     >
       {/* Stretched-link overlay — clicking anywhere on the card (except the
@@ -119,7 +109,7 @@ export function ToolCard({ app }: Readonly<Props>) {
       >
         <span className="sr-only">View {app.name} details</span>
       </Link>
-      {/* Top row: category + pricing + optional Blokz mark */}
+      {/* Top row: category + pricing + license signal (+ archived) */}
       <div className="flex flex-wrap items-center gap-2 font-mono text-[10px] tracking-[0.12em] uppercase">
         <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
           {CATEGORY_LABEL[app.category]}
@@ -127,14 +117,17 @@ export function ToolCard({ app }: Readonly<Props>) {
         <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
           {PRICING_LABEL[app.pricing]}
         </span>
-        {app.openSource && (
+        {license === "oss" && (
           <span className="rounded-full bg-[var(--color-success)]/[0.12] px-2 py-0.5 text-[var(--color-success)] ring-1 ring-[var(--color-success)]/30 ring-inset">
             OSS
           </span>
         )}
-        {/* Archived takes precedence over Blokz mark — a dead tool can't carry
-            an editorial recommendation. */}
-        {isArchived ? (
+        {license === "core" && (
+          <span className="rounded-full bg-[var(--color-violet)]/[0.14] px-2 py-0.5 text-[var(--color-violet)] ring-1 ring-[var(--color-violet)]/30 ring-inset">
+            Open core
+          </span>
+        )}
+        {isArchived && (
           <span className="ml-auto inline-flex items-center gap-1.5 rounded-full bg-white/[0.04] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.10] ring-inset">
             <span
               aria-hidden
@@ -142,16 +135,6 @@ export function ToolCard({ app }: Readonly<Props>) {
             />
             ARCHIVED
           </span>
-        ) : (
-          app.blokzMark && (
-            <span className="ml-auto inline-flex items-center gap-1.5 text-[var(--color-ink-dim)]">
-              <span
-                aria-hidden
-                className={cn("block h-1.5 w-1.5 rounded-full", MARK_DOT[app.blokzMark])}
-              />
-              {MARK_LABEL[app.blokzMark]}
-            </span>
-          )
         )}
       </div>
 
@@ -183,6 +166,21 @@ export function ToolCard({ app }: Readonly<Props>) {
           {app.description}
         </p>
       </div>
+
+      {/* AI insight — the directory's signature signal, authored by Claude Code
+          while researching the listing. */}
+      {app.insight && (
+        <div className="flex items-start gap-2 rounded-xl bg-[var(--color-accent)]/[0.06] px-3 py-2 ring-1 ring-[var(--color-accent)]/15 ring-inset">
+          <Sparkles
+            aria-hidden
+            className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-accent)]"
+          />
+          <p className="line-clamp-2 text-xs leading-relaxed text-[var(--color-ink-soft)]">
+            <span className="sr-only">AI insight: </span>
+            {app.insight}
+          </p>
+        </div>
+      )}
 
       {/* Tags — first 4, with a +N chip for the rest */}
       {visibleTags.length > 0 && (

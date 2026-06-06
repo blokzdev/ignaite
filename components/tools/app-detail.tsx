@@ -7,6 +7,7 @@ import {
   MessageCircle,
   Play,
   Smartphone,
+  Sparkles,
   Tag,
   Terminal,
 } from "lucide-react";
@@ -16,6 +17,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { ToolCard } from "@/components/tools/tool-card";
 import { relatedApps } from "@/lib/apps";
 import { siteUrl } from "@/lib/seo";
+import { licenseSignal } from "@/lib/tools/license";
 import type {
   App,
   AppCategory,
@@ -23,7 +25,6 @@ import type {
   AppLinkKind,
   AppPlatform,
   AppPricing,
-  BlokzMark,
   ModelSupportKind,
 } from "@/types/app";
 
@@ -33,7 +34,6 @@ const DEPLOYMENT_LABEL: Record<AppDeployment, string> = {
   local: "Local",
   hybrid: "Hybrid",
 };
-import { cn } from "@/lib/utils";
 
 // GitHub branded icon: lucide-react 1.x dropped it; ship our own glyph.
 function GithubGlyph({ className }: { className?: string }) {
@@ -75,18 +75,6 @@ const PRICING_LABEL: Record<AppPricing, string> = {
   freemium: "FREEMIUM",
   paid: "PAID",
   "byo-key": "BYO KEY",
-};
-
-const MARK_LABEL: Record<BlokzMark, string> = {
-  deployed: "Deployed",
-  vetted: "Vetted",
-  contributing: "Contributing",
-};
-
-const MARK_DOT: Record<BlokzMark, string> = {
-  deployed: "bg-[var(--color-accent)]",
-  contributing: "bg-[var(--color-success)]",
-  vetted: "bg-[var(--color-violet)]",
 };
 
 const MODEL_KIND_LABEL: Record<ModelSupportKind, string> = {
@@ -157,6 +145,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
     .slice(0, 2)
     .toUpperCase();
   const isArchived = app.status === "archived";
+  const license = licenseSignal(app);
   const related = relatedApps(app.slug, 4);
   const accent = app.accentColor ?? "var(--color-accent)";
 
@@ -197,9 +186,14 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         <span className="rounded-full bg-white/[0.05] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset">
           {PRICING_LABEL[app.pricing]}
         </span>
-        {app.openSource && (
+        {license === "oss" && (
           <span className="rounded-full bg-[var(--color-success)]/[0.12] px-2 py-0.5 text-[var(--color-success)] ring-1 ring-[var(--color-success)]/30 ring-inset">
             Open source
+          </span>
+        )}
+        {license === "core" && (
+          <span className="rounded-full bg-[var(--color-violet)]/[0.14] px-2 py-0.5 text-[var(--color-violet)] ring-1 ring-[var(--color-violet)]/30 ring-inset">
+            Open core
           </span>
         )}
         {app.deployment && (
@@ -215,7 +209,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
             {PLATFORM_LABEL[p]}
           </span>
         ))}
-        {isArchived ? (
+        {isArchived && (
           <span className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.04] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.10] ring-inset">
             <span
               aria-hidden
@@ -223,18 +217,24 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
             />
             Archived
           </span>
-        ) : (
-          app.blokzMark && (
-            <span className="inline-flex items-center gap-1.5 text-[var(--color-ink-dim)]">
-              <span
-                aria-hidden
-                className={cn("block h-1.5 w-1.5 rounded-full", MARK_DOT[app.blokzMark])}
-              />
-              {MARK_LABEL[app.blokzMark]}
-            </span>
-          )
         )}
       </div>
+
+      {/* AI insight — the directory's signature signal, authored by Claude Code
+          while researching the listing. */}
+      {app.insight && (
+        <aside className="mt-10 flex items-start gap-3 rounded-2xl bg-[var(--color-accent)]/[0.06] p-5 ring-1 ring-[var(--color-accent)]/20 ring-inset">
+          <Sparkles aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-accent)]" />
+          <div>
+            <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-accent)] uppercase">
+              AI insight
+            </p>
+            <p className="mt-1.5 text-base leading-relaxed text-[var(--color-ink)]">
+              {app.insight}
+            </p>
+          </div>
+        </aside>
+      )}
 
       {/* Description */}
       <article className="mt-12 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">

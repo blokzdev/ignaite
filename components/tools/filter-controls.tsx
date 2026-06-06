@@ -1,10 +1,10 @@
 "use client";
-import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING, BLOKZ_MARKS } from "@/types/app";
+import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING } from "@/types/app";
 import { cn } from "@/lib/utils";
+import { LICENSE_LABEL, LICENSE_SIGNALS } from "@/lib/tools/license";
 import {
   CATEGORY_LABEL,
   DEPLOYMENT_LABEL,
-  MARK_LABEL,
   PRICING_LABEL,
   STATUS_FILTERS,
   STATUS_LABEL,
@@ -58,17 +58,6 @@ export function FilterControls({ filters, variant = "inline" }: Readonly<Props>)
         ))}
       </FilterRow>
 
-      <FilterRow label="Blokz mark" stacked={stacked}>
-        <Chip active={filter.blokzMark.length === 0} onClick={filters.resetMark}>
-          All
-        </Chip>
-        {BLOKZ_MARKS.map((m) => (
-          <Chip key={m} active={filter.blokzMark.includes(m)} onClick={() => filters.toggleMark(m)}>
-            {MARK_LABEL[m]}
-          </Chip>
-        ))}
-      </FilterRow>
-
       <FilterRow label="Deployment" stacked={stacked}>
         <Chip active={filter.deployment.length === 0} onClick={filters.resetDeployment}>
           All
@@ -85,15 +74,14 @@ export function FilterControls({ filters, variant = "inline" }: Readonly<Props>)
       </FilterRow>
 
       <FilterRow label="Source" stacked={stacked}>
-        <Chip active={filter.openSource == null} onClick={() => filters.setOpenSource(null)}>
+        <Chip active={filter.license == null} onClick={() => filters.setLicense(null)}>
           All
         </Chip>
-        <Chip active={filter.openSource === "true"} onClick={() => filters.setOpenSource(true)}>
-          Open source
-        </Chip>
-        <Chip active={filter.openSource === "false"} onClick={() => filters.setOpenSource(false)}>
-          Proprietary
-        </Chip>
+        {LICENSE_SIGNALS.map((l) => (
+          <Chip key={l} active={filter.license === l} onClick={() => filters.setLicense(l)}>
+            {LICENSE_LABEL[l]}
+          </Chip>
+        ))}
       </FilterRow>
 
       <FilterRow label="Status" stacked={stacked}>

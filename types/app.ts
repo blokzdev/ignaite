@@ -4,8 +4,8 @@
 //   listed apps, not browsable apps in their own right).
 // - Category enum broadened to ~20 values so a comprehensive third-party
 //   directory has somewhere to put every entry.
-// - 4-stance scheme collapsed into an optional `blokzMark` badge — most
-//   listings carry no badge; marked listings get an editorial stamp.
+// - The studio-centric `blokzMark` editorial badge was retired; listings carry
+//   neutral, derived signals (category / pricing / license / platforms) instead.
 // - New `modelSupport` field describes which models each app uses/supports.
 // - New `platforms` field for cross-platform filtering.
 
@@ -79,14 +79,6 @@ export const APP_DEPLOYMENTS: ReadonlyArray<AppDeployment> = [
   "local",
   "hybrid",
 ];
-
-// Optional editorial badge. Most listings carry no mark.
-//   "deployed"     — Blokz uses this in production daily.
-//   "vetted"       — Blokz has tried it and recommends it.
-//   "contributing" — Blokz contributes to or maintains this project.
-export type BlokzMark = "deployed" | "vetted" | "contributing";
-
-export const BLOKZ_MARKS: ReadonlyArray<BlokzMark> = ["deployed", "vetted", "contributing"];
 
 export type AppPlatform =
   | "web"
@@ -166,6 +158,14 @@ export interface App {
   description: string;
   /** Optional richer prose for the detail page (chunk C). */
   longDescription?: string;
+  /** The directory's signature signal: a single, Claude-authored editorial
+   * observation surfaced while researching the listing. Quality bar (enforced
+   * by the authoring routines): ≤ ~140 chars, one sentence, a *non-obvious,
+   * verifiable* fact — how it differs from peers, a licensing nuance, an
+   * architectural quirk — NOT a re-pitch of the tagline. Never fabricate; if
+   * nothing sharp is verifiable, omit it. This is what makes the catalog read
+   * as AI-curated rather than auto-generated. */
+  insight?: string;
   category: AppCategory;
   /** Cost model only — license/openness is the separate `openSource` flag. */
   pricing: AppPricing;
@@ -175,8 +175,6 @@ export interface App {
   /** How it's hosted / run — see AppDeployment. Set where it's a real axis
    * (services / self-hostable infra / desktop); unset for libraries/SDKs. */
   deployment?: AppDeployment;
-  /** Optional editorial badge — see BlokzMark. */
-  blokzMark?: BlokzMark;
   vendor?: string;
   /** Required. At least one platform so visitors know where the app runs. */
   platforms: ReadonlyArray<AppPlatform>;

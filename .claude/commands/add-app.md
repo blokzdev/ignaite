@@ -32,9 +32,9 @@ Work through this flow for each app:
 Required: `slug` (unique, kebab-case), `name`, `tagline` (≤100 chars, one line), `description`
 (2–4 sentences), `category` (an `AppCategory`), `pricing` (an `AppPricing`), `platforms` (≥1
 `AppPlatform`), `links` (≥1, **exactly one** `primary: true`).
-Recommended: `vendor`, `modelSupport` ({ `kind`, `models?`, `notes?` }), `tags` (3–5),
-`accentColor` (brand hex), `addedAt` + `lastVerifiedAt` = **today's date** (YYYY-MM-DD),
-plus the two facets below.
+Recommended: `insight` (the directory's signature signal — see below), `vendor`, `modelSupport`
+({ `kind`, `models?`, `notes?` }), `tags` (3–5), `accentColor` (brand hex), `addedAt` +
+`lastVerifiedAt` = **today's date** (YYYY-MM-DD), plus the two facets below.
 
 Conventions (match existing entries):
 
@@ -50,8 +50,11 @@ Conventions (match existing entries):
 - **No store link kinds exist** (`AppLinkKind` = website/docs/github/pricing/demo/video/twitter/discord).
   For apps with a Play Store / App Store presence, put `"android"`/`"ios"` in `platforms` and link the
   **official website** as primary (see `suno`, `perplexity`).
-- **`blokzMark`** (`deployed`/`vetted`/`contributing`) ONLY if the user says Blokz genuinely uses/vets
-  it. Default: omit.
+- **`insight`** — the directory's signature signal. Author ONE: a single ≤140-char sentence with a
+  _non-obvious, verifiable_ observation (how it differs from peers, a licensing nuance, an
+  architectural quirk, a notable acquisition/rename), NOT a re-pitch of the tagline. Ground it in the
+  research; never fabricate; if nothing sharp is verifiable, omit it rather than pad. See the field's
+  JSDoc in `types/app.ts`.
 - **`featured: true`** sparingly (it spans 2 columns + enters the carousel) — only for true standouts,
   and only if the user agrees.
 - Pick the most specific fitting `category`; favor thin/empty ones where the app genuinely belongs
@@ -69,5 +72,6 @@ Conventions (match existing entries):
 
 ## 5. Report
 
-- A short table of what you added (slug · category · pricing · platforms), and an explicit list of any
-  fields you couldn't fully verify so the user can confirm. Don't commit unless the user asked.
+- A short table of what you added (slug · category · pricing · platforms · insight), and an explicit
+  list of any fields you couldn't fully verify so the user can confirm. Don't commit unless the user
+  asked.

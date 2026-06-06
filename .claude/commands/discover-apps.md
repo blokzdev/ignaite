@@ -27,9 +27,9 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 ## 3. Author the worthy ones
 
 - Follow the **exact authoring spec + conventions + quality bar in `.claude/commands/add-app.md`**
-  (schema, required fields, mobile-via-platforms, no `blokzMark` unless told, `featured` only for true
-  standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify, use
-  the conservative value and flag it — never invent.
+  (schema, required fields, mobile-via-platforms, an authored `insight` per app, `featured` only for
+  true standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify,
+  use the conservative value and flag it — never invent (the `insight` especially must be grounded).
 - Append into the batch block near the end of `data/apps.ts`.
 
 ## 4. Validate

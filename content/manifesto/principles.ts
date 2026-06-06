@@ -11,33 +11,33 @@ export interface Principle {
 
 export const principles: ReadonlyArray<Principle> = [
   {
-    id: "ship",
+    id: "comprehensive",
     number: "01",
-    title: "Ship, then iterate.",
-    body: "Working code beats perfect plans. We deploy daily, learn from production, refine in tight loops.",
+    title: "Comprehensive, not thin.",
+    body: "A directory earns trust by breadth. We list the whole field — category leaders and quiet standouts alike — not a sponsored shortlist.",
   },
   {
-    id: "research-rooted",
+    id: "no-fabrication",
     number: "02",
-    title: "Research-rooted. User-driven.",
-    body: "We start product ideas in the literature — edge models, multi-agent systems, memory, retrieval — then pick problems by user pain, not by stack hype. The paper informs the spec; the user defines done.",
+    title: "No fabrication.",
+    body: "Every field is verified against the app's own source. If a fact can't be confirmed, it doesn't ship — a blank beats a guess.",
   },
   {
-    id: "agent-led",
+    id: "signal",
     number: "03",
-    title: "Prompt the architect, write the proof.",
-    body: "Claude drafts; humans ratify. Every line touched gets reviewed, every behaviour verified, every assumption tested.",
+    title: "Signal on every line.",
+    body: "Each listing carries a one-sentence AI insight — the non-obvious thing worth knowing, never a re-pitch of the tagline.",
   },
   {
-    id: "open-by-default",
+    id: "honest-openness",
     number: "04",
-    title: "Open by default.",
-    body: "Source, specs, and prompts public whenever the law and the customer allow. The workflow only compounds when shared.",
+    title: "Honest about openness.",
+    body: "Open source, open core, or proprietary — and the licensing nuance behind it — stated plainly, never blurred to flatter a tool.",
   },
   {
-    id: "multi-platform",
+    id: "always-current",
     number: "05",
-    title: "Multi-platform, single voice.",
-    body: "AI assistant, chain explorer, or anything in between — same product on web, Android, Windows, iOS, with the same tone, the same primitives, the same opinionated defaults.",
+    title: "Always current.",
+    body: "An AI directory that goes stale is worse than none. Scheduled routines re-audit the catalog every week so it stays alive.",
   },
 ];

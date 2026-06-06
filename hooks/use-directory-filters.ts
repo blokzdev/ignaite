@@ -1,8 +1,9 @@
 "use client";
 import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from "nuqs";
 import { toast } from "sonner";
-import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING, BLOKZ_MARKS } from "@/types/app";
-import type { AppCategory, AppDeployment, AppPricing, BlokzMark } from "@/types/app";
+import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING } from "@/types/app";
+import type { AppCategory, AppDeployment, AppPricing } from "@/types/app";
+import { LICENSE_LABEL, LICENSE_SIGNALS, type LicenseSignal } from "@/lib/tools/license";
 import { clearFilters } from "@/lib/tools/clear-filters";
 
 export type StatusFilter = "active" | "archived" | "all";
@@ -51,12 +52,6 @@ export const DEPLOYMENT_LABEL: Record<AppDeployment, string> = {
   hybrid: "Hybrid",
 };
 
-export const MARK_LABEL: Record<BlokzMark, string> = {
-  deployed: "Deployed",
-  vetted: "Vetted",
-  contributing: "Contributing",
-};
-
 export const STATUS_LABEL: Record<StatusFilter, string> = {
   active: "Active",
   archived: "Archived",
@@ -75,9 +70,8 @@ export const SORT_LABEL: Record<SortMode, string> = {
 export const directoryFilterParsers = {
   category: parseAsArrayOf(parseAsStringLiteral(APP_CATEGORIES)).withDefault([]),
   pricing: parseAsArrayOf(parseAsStringLiteral(APP_PRICING)).withDefault([]),
-  blokzMark: parseAsArrayOf(parseAsStringLiteral(BLOKZ_MARKS)).withDefault([]),
   deployment: parseAsArrayOf(parseAsStringLiteral(APP_DEPLOYMENTS)).withDefault([]),
-  openSource: parseAsStringLiteral(["true", "false"] as const),
+  license: parseAsStringLiteral(LICENSE_SIGNALS),
   status: parseAsStringLiteral(STATUS_FILTERS),
   sort: parseAsStringLiteral(SORT_MODES),
   q: parseAsString,
@@ -110,12 +104,6 @@ export function useDirectoryFilters() {
       : [...filter.pricing, value];
     void setFilter({ pricing: next.length > 0 ? next : null });
   };
-  const toggleMark = (value: BlokzMark) => {
-    const next = filter.blokzMark.includes(value)
-      ? filter.blokzMark.filter((v) => v !== value)
-      : [...filter.blokzMark, value];
-    void setFilter({ blokzMark: next.length > 0 ? next : null });
-  };
   const toggleDeployment = (value: AppDeployment) => {
     const next = filter.deployment.includes(value)
       ? filter.deployment.filter((v) => v !== value)
@@ -124,10 +112,8 @@ export function useDirectoryFilters() {
   };
   const resetCategory = () => void setFilter({ category: null });
   const resetPricing = () => void setFilter({ pricing: null });
-  const resetMark = () => void setFilter({ blokzMark: null });
   const resetDeployment = () => void setFilter({ deployment: null });
-  const setOpenSource = (value: boolean | null) =>
-    void setFilter({ openSource: value === null ? null : value ? "true" : "false" });
+  const setLicense = (value: LicenseSignal | null) => void setFilter({ license: value });
   const setStatus = (value: StatusFilter | null) => void setFilter({ status: value });
   const setSort = (value: SortMode) =>
     void setFilter({ sort: value === "featured" ? null : value });
@@ -139,9 +125,8 @@ export function useDirectoryFilters() {
   const hasFilter =
     filter.category.length > 0 ||
     filter.pricing.length > 0 ||
-    filter.blokzMark.length > 0 ||
     filter.deployment.length > 0 ||
-    filter.openSource != null ||
+    filter.license != null ||
     statusActive ||
     (filter.q?.length ?? 0) > 0;
 
@@ -155,9 +140,8 @@ export function useDirectoryFilters() {
           void setFilter({
             category: snap.category.length ? snap.category : null,
             pricing: snap.pricing.length ? snap.pricing : null,
-            blokzMark: snap.blokzMark.length ? snap.blokzMark : null,
             deployment: snap.deployment.length ? snap.deployment : null,
-            openSource: snap.openSource,
+            license: snap.license,
             status: snap.status,
             sort: snap.sort,
             q: snap.q,
@@ -177,22 +161,17 @@ export function useDirectoryFilters() {
       label: PRICING_LABEL[p],
       onRemove: () => togglePricing(p),
     })),
-    ...filter.blokzMark.map((m) => ({
-      id: `mark:${m}`,
-      label: MARK_LABEL[m],
-      onRemove: () => toggleMark(m),
-    })),
     ...filter.deployment.map((d) => ({
       id: `deploy:${d}`,
       label: DEPLOYMENT_LABEL[d],
       onRemove: () => toggleDeployment(d),
     })),
-    ...(filter.openSource != null
+    ...(filter.license != null
       ? [
           {
-            id: "openSource",
-            label: filter.openSource === "true" ? "Open source" : "Proprietary",
-            onRemove: () => setOpenSource(null),
+            id: "license",
+            label: LICENSE_LABEL[filter.license],
+            onRemove: () => setLicense(null),
           },
         ]
       : []),
@@ -214,13 +193,11 @@ export function useDirectoryFilters() {
     filter,
     toggleCategory,
     togglePricing,
-    toggleMark,
     toggleDeployment,
     resetCategory,
     resetPricing,
-    resetMark,
     resetDeployment,
-    setOpenSource,
+    setLicense,
     setStatus,
     setSort,
     setQuery,

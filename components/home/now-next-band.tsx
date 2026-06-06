@@ -15,26 +15,26 @@ export function NowNextBand() {
       <div className="relative mx-auto grid max-w-5xl gap-px overflow-hidden rounded-3xl bg-white/[0.06] ring-1 ring-white/[0.06] backdrop-blur-xl md:grid-cols-2">
         {/* Now */}
         <div className="flex flex-col gap-4 bg-[var(--color-canvas)]/85 p-8 sm:p-10">
-          <p className="text-eyebrow text-[var(--color-accent)]">{"// Now"}</p>
+          <p className="text-eyebrow text-[var(--color-accent)]">{"// What it is"}</p>
           <h2 className="text-3xl sm:text-4xl">
-            <span className="text-display text-[var(--color-ink)]">Curating the AI frontier.</span>
+            <span className="text-display text-[var(--color-ink)]">An AI-managed directory.</span>
           </h2>
           <p className="text-base text-[var(--color-ink-dim)]">
-            A growing, hand-vetted directory of the AI apps, agents, and tooling we actually rate —
-            with a Blokz mark on the picks we&apos;ve deployed ourselves.
+            ~125 AI apps, agents, and tooling — every listing researched, written, and given a
+            one-line insight by Claude Code. Curated by an agent, reviewed by humans.
           </p>
         </div>
 
         {/* Next */}
         <div className="flex flex-col gap-4 bg-[var(--color-canvas)]/85 p-8 sm:p-10">
-          <p className="text-eyebrow text-[var(--color-violet)]">{"// Next"}</p>
+          <p className="text-eyebrow text-[var(--color-violet)]">{"// How it stays current"}</p>
           <h2 className="text-3xl sm:text-4xl">
-            <span className="text-display text-[var(--color-ink)]">Shipping our own</span>{" "}
-            <span className="text-display text-[var(--color-violet)]">AI for B2B + B2C.</span>
+            <span className="text-display text-[var(--color-ink)]">Always growing,</span>{" "}
+            <span className="text-display text-[var(--color-violet)]">always verified.</span>
           </h2>
           <p className="text-base text-[var(--color-ink-dim)]">
-            Multi-agent systems · edge inference · memory architectures. Research-rooted product
-            work, built end-to-end with Claude Code as the primary author.
+            Scheduled Claude Code routines discover net-new apps and re-audit existing ones every
+            week — links, pricing, licenses, and insights kept honest, never left to rot.
           </p>
           <Link
             href="#how-we-work"

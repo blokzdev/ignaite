@@ -1,38 +1,24 @@
 import { apps } from "@/data/apps";
-import type { App, AppCategory, AppPricing, BlokzMark } from "@/types/app";
+import type { App, AppCategory, AppPricing } from "@/types/app";
 
 export interface ListAppsOptions {
   category?: AppCategory;
   pricing?: AppPricing;
-  blokzMark?: BlokzMark;
   text?: string;
 }
-
-// Marked entries surface above unmarked ones. Within marked entries:
-// deployed (we use this in prod) > contributing (we maintain or contribute)
-// > vetted (we recommend it). Unmarked entries get a sentinel large number.
-const markOrder: Record<BlokzMark, number> = {
-  deployed: 0,
-  contributing: 1,
-  vetted: 2,
-};
-const UNMARKED = 3;
 
 export function listApps(opts: ListAppsOptions = {}): ReadonlyArray<App> {
   const query = opts.text?.trim().toLowerCase() ?? "";
   const filtered = apps.filter((a) => {
     if (opts.category && a.category !== opts.category) return false;
     if (opts.pricing && a.pricing !== opts.pricing) return false;
-    if (opts.blokzMark && a.blokzMark !== opts.blokzMark) return false;
     if (query && !matchApp(a, query)) return false;
     return true;
   });
 
+  // Featured entries lead; then most-recently-added; then alphabetical.
   return [...filtered].sort((a, b) => {
     if (Boolean(a.featured) !== Boolean(b.featured)) return a.featured ? -1 : 1;
-    const aMark = a.blokzMark ? markOrder[a.blokzMark] : UNMARKED;
-    const bMark = b.blokzMark ? markOrder[b.blokzMark] : UNMARKED;
-    if (aMark !== bMark) return aMark - bMark;
     if (a.addedAt && b.addedAt && a.addedAt !== b.addedAt) {
       return a.addedAt > b.addedAt ? -1 : 1;
     }
@@ -64,6 +50,7 @@ function matchApp(a: App, query: string): boolean {
     a.name,
     a.tagline,
     a.description,
+    a.insight ?? "",
     a.vendor ?? "",
     a.category,
     ...(a.tags ?? []),

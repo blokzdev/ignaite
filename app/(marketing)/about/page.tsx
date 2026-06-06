@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "About",
   description:
-    "Blokz Development Co. — a vibecoding studio building AI apps end-to-end with Claude Code. Our Now/Next focus, how we work, and what we believe.",
+    "How Blokz works — an AI-managed directory of AI apps researched, written, and audited by Claude Code. What it is, how it stays current, and the studio that operates it.",
   path: "/about",
 });
 
