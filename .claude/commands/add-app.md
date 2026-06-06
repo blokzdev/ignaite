@@ -9,6 +9,9 @@ the product — accuracy and consistency matter more than speed. **Never fabrica
 Apps to add: **$ARGUMENTS**
 (If empty, ask the user which app(s) to add, or accept a name/URL list.)
 
+> This command is **name-driven** (a human supplies the apps). For unattended / scheduled discovery —
+> finding net-new apps with no input and opening a PR — use **`/discover-apps`** instead.
+
 Work through this flow for each app:
 
 ## 1. Dedup

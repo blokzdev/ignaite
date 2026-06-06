@@ -39,8 +39,18 @@ For each entry in scope:
 ## 3. Validate + report
 
 - `pnpm typecheck`, `pnpm lint`, `pnpm build` clean.
-- Report a concise diff: entries reviewed, what changed (and why), what was archived, and anything
-  ambiguous that needs a human decision. Don't commit unless the user asked.
+- **Interactive run:** report a concise diff (entries reviewed, what changed and why, what was
+  archived, anything ambiguous needing a human decision). Don't commit unless the user asked.
 
-Cadence: run this ~monthly (or before a release), cycling oldest-`lastVerifiedAt` entries first so the
-whole directory rotates through verification over time.
+## Scheduled / unattended mode (run by a Routine)
+
+When there's no human in the loop (a scheduled Routine invoked this), default to **no args** → the
+oldest-`lastVerifiedAt` batch, then:
+
+- Apply the verified fixes and bump `lastVerifiedAt` as above.
+- If anything changed: create a branch (e.g. `claude/audit-directory-<date>`), commit, push, and open
+  a PR into `main` summarizing the diff + any "needs human decision" items. **Do not merge.**
+- If nothing changed: **do nothing** — no branch, no empty PR. Briefly state the batch was clean.
+
+Cadence: run ~weekly (or before a release), cycling oldest-`lastVerifiedAt` entries first so the whole
+directory rotates through verification over time.
