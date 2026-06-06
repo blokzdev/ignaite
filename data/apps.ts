@@ -2459,6 +2459,174 @@ export const apps: ReadonlyArray<App> = [
     addedAt: "2026-06-06",
     lastVerifiedAt: "2026-06-06",
   },
+
+  // ── Local model runners ──
+  {
+    slug: "ollama",
+    name: "Ollama",
+    tagline: "Run open-weight LLMs locally with one command. OpenAI-compatible API.",
+    description:
+      "The de-facto way to pull and run open-weight models (Llama, Qwen, Gemma, DeepSeek, gpt-oss) on your own machine — no API key, no data leaving the device. Ships native macOS/Windows/Linux apps, an OpenAI-compatible server, and official Python/JS libraries. MIT-licensed and free locally; an optional paid Ollama Cloud runs larger models.",
+    category: "inference",
+    pricing: "freemium",
+    openSource: true,
+    deployment: "local",
+    vendor: "Ollama",
+    platforms: ["macos", "windows", "linux", "cli", "api"],
+    modelSupport: {
+      kind: "multi-model",
+      models: ["Llama", "Qwen", "Gemma", "DeepSeek", "Mistral", "gpt-oss"],
+      notes:
+        "Runs open-weight models locally; OpenAI-compatible API. Optional cloud for larger models.",
+    },
+    accentColor: "#E8F1F8",
+    tags: ["local", "open-source", "llm-runner", "self-hosted"],
+    links: [
+      { kind: "website", url: "https://ollama.com", primary: true },
+      { kind: "github", url: "https://github.com/ollama/ollama" },
+      { kind: "docs", url: "https://docs.ollama.com" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+  {
+    slug: "lm-studio",
+    name: "LM Studio",
+    tagline: "Desktop app to discover, download, and run local LLMs privately.",
+    description:
+      "A GUI for running open-weight models on your own hardware — browse and download GGUF/MLX models, chat offline, and expose an OpenAI- and Anthropic-compatible local server for your apps. Includes RAG over local files, MCP tool-use support, and dual llama.cpp + Apple MLX runtimes. Free for personal and commercial use; the app itself is proprietary.",
+    category: "inference",
+    pricing: "free",
+    deployment: "local",
+    vendor: "LM Studio",
+    platforms: ["macos", "windows", "linux", "cli", "api"],
+    modelSupport: {
+      kind: "multi-model",
+      models: ["Llama", "Qwen", "DeepSeek", "Mistral", "Gemma", "gpt-oss"],
+      notes:
+        "Runs GGUF/MLX open-weight models locally behind an OpenAI/Anthropic-compatible server.",
+    },
+    accentColor: "#A78BFA",
+    tags: ["local", "llm-runner", "gui", "privacy"],
+    links: [
+      { kind: "website", url: "https://lmstudio.ai", primary: true },
+      { kind: "docs", url: "https://lmstudio.ai/docs" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── Fine-tuning ──
+  {
+    slug: "unsloth",
+    name: "Unsloth",
+    tagline: "Fine-tune open LLMs 2x faster with far less VRAM. Open source.",
+    description:
+      "An open-source (Apache-2.0) framework for fine-tuning and running open-weight models with custom CUDA kernels — roughly 2x faster training and large VRAM savings, so 7B–13B models fit on a single consumer GPU. Free tier runs on Colab/Kaggle or locally; Pro and Enterprise tiers add multi-GPU and multi-node speedups. Exports to GGUF/Safetensors for llama.cpp, vLLM, and Ollama.",
+    category: "fine-tuning",
+    pricing: "freemium",
+    openSource: true,
+    deployment: "local",
+    vendor: "Unsloth AI",
+    platforms: ["cli", "linux", "windows", "macos"],
+    modelSupport: {
+      kind: "multi-model",
+      models: ["Llama", "Qwen", "Gemma", "DeepSeek", "Mistral", "gpt-oss"],
+      notes: "Fine-tunes open-weight models (LoRA/QLoRA + full) with reduced memory use.",
+    },
+    accentColor: "#5EEAD4",
+    tags: ["fine-tuning", "lora", "open-source", "training"],
+    links: [
+      { kind: "website", url: "https://unsloth.ai", primary: true },
+      { kind: "github", url: "https://github.com/unslothai/unsloth" },
+      { kind: "docs", url: "https://docs.unsloth.ai" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── LLM app platform ──
+  {
+    slug: "dify",
+    name: "Dify",
+    tagline: "Visual platform for agentic workflows, RAG pipelines, and LLM apps.",
+    description:
+      "An LLMOps platform that bundles a drag-and-drop workflow builder, RAG pipelines, agent tooling, model management, and observability into one surface — prototype to production without much glue code. Connects hundreds of proprietary and open models across providers. Self-host the source-available edition for free, or use Dify Cloud's paid tiers.",
+    category: "orchestration",
+    pricing: "freemium",
+    deployment: "hybrid",
+    vendor: "Dify (LangGenius)",
+    platforms: ["web", "api"],
+    modelSupport: {
+      kind: "model-agnostic",
+      notes:
+        "Provider-agnostic; wires up GPT, Claude, Gemini, Llama, and any OpenAI-compatible model.",
+    },
+    accentColor: "#1C64F2",
+    tags: ["llm-ops", "workflow", "rag", "agents", "self-hosted"],
+    links: [
+      { kind: "website", url: "https://dify.ai", primary: true },
+      { kind: "github", url: "https://github.com/langgenius/dify" },
+      { kind: "docs", url: "https://docs.dify.ai" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── Generative-media inference ──
+  {
+    slug: "fal",
+    name: "fal",
+    tagline: "Serverless inference API for image, video, audio, and 3D models.",
+    description:
+      "A generative-media inference platform exposing FLUX, Kling, Veo, Wan, Stable Diffusion, and 600+ image/video/audio/3D models through one fast, serverless API — no GPUs to manage and near-zero cold starts. Pay per output or per GPU-second; free starter credits to test. Popular as the production backend for AI media features.",
+    category: "inference",
+    pricing: "freemium",
+    deployment: "cloud",
+    vendor: "fal",
+    platforms: ["api", "web"],
+    modelSupport: {
+      kind: "multi-model",
+      models: ["FLUX", "Kling", "Veo", "Wan", "Stable Diffusion"],
+      notes: "Unified API to 600+ open and commercial generative-media models.",
+    },
+    accentColor: "#37F3FF",
+    tags: ["generative-media", "image-gen", "video-gen", "serverless"],
+    links: [
+      { kind: "website", url: "https://fal.ai", primary: true },
+      { kind: "docs", url: "https://docs.fal.ai" },
+      { kind: "pricing", url: "https://fal.ai/pricing" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── Agentic dev environment ──
+  {
+    slug: "warp",
+    name: "Warp",
+    tagline: "Agentic development environment born out of the terminal.",
+    description:
+      "A modern terminal and agent platform — multi-agent orchestration, codebase indexing, a built-in editor (Warp Code), and granular permission controls for running coding agents. Adds the Oz cloud layer for remote agent execution and team knowledge via Warp Drive. Free tier with monthly AI credits; paid Build/Max/Business plans add more credits and BYOK.",
+    category: "ide",
+    pricing: "freemium",
+    deployment: "local",
+    vendor: "Warp",
+    platforms: ["macos", "linux", "windows"],
+    modelSupport: {
+      kind: "multi-model",
+      models: ["Claude", "GPT", "Gemini"],
+      notes: "Access to frontier models; BYO API key supported on paid plans.",
+    },
+    accentColor: "#08D9D6",
+    tags: ["terminal", "agentic", "dev-environment", "multi-agent"],
+    links: [
+      { kind: "website", url: "https://www.warp.dev", primary: true },
+      { kind: "docs", url: "https://docs.warp.dev" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
 ];
 
 // Cheap dev-time guard. Every directory entry must declare at least one
