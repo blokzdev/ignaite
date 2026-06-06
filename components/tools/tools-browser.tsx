@@ -13,7 +13,7 @@ import {
   directoryFilterParsers,
 } from "@/hooks/use-directory-filters";
 import { Toaster } from "@/components/ui/toaster";
-import { ToolFilterBar } from "./tool-filter-bar";
+import { ActiveFiltersRow } from "./active-filters-row";
 import { ToolGrid } from "./tool-grid";
 import { FeaturedCarousel } from "./featured-carousel";
 import { DirectoryEmpty } from "./directory-empty";
@@ -136,7 +136,6 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     <>
       <Toaster />
       {!filtersApplied && <FeaturedCarousel apps={apps} />}
-      <ToolFilterBar total={apps.length} filtered={filtered.length} />
       {filtered.length === 0 ? (
         <DirectoryEmpty
           filtersApplied={filtersApplied}
@@ -147,6 +146,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
         />
       ) : (
         <>
+          <ActiveFiltersRow />
           <ToolGrid items={items} />
           {hasMore ? (
             <>
