@@ -1,10 +1,11 @@
 "use client";
-import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING } from "@/types/app";
+import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PLATFORMS, APP_PRICING } from "@/types/app";
 import { cn } from "@/lib/utils";
 import { LICENSE_LABEL, LICENSE_SIGNALS } from "@/lib/tools/license";
 import {
   CATEGORY_LABEL,
   DEPLOYMENT_LABEL,
+  PLATFORM_LABEL,
   PRICING_LABEL,
   STATUS_FILTERS,
   STATUS_LABEL,
@@ -54,6 +55,21 @@ export function FilterControls({ filters, variant = "inline" }: Readonly<Props>)
             onClick={() => filters.togglePricing(p)}
           >
             {PRICING_LABEL[p]}
+          </Chip>
+        ))}
+      </FilterRow>
+
+      <FilterRow label="Platform" stacked={stacked}>
+        <Chip active={filter.platform.length === 0} onClick={filters.resetPlatform}>
+          All
+        </Chip>
+        {APP_PLATFORMS.map((p) => (
+          <Chip
+            key={p}
+            active={filter.platform.includes(p)}
+            onClick={() => filters.togglePlatform(p)}
+          >
+            {PLATFORM_LABEL[p]}
           </Chip>
         ))}
       </FilterRow>

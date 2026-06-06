@@ -14,6 +14,7 @@ import {
 import type { ComponentType, ReactElement } from "react";
 import { DetailShell } from "@/components/detail/detail-shell";
 import { JsonLd } from "@/components/seo/json-ld";
+import { RelatedRail } from "@/components/tools/related-rail";
 import { ToolCard } from "@/components/tools/tool-card";
 import { relatedApps } from "@/lib/apps";
 import { siteUrl } from "@/lib/seo";
@@ -146,7 +147,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
     .toUpperCase();
   const isArchived = app.status === "archived";
   const license = licenseSignal(app);
-  const related = relatedApps(app.slug, 4);
+  const related = relatedApps(app.slug, 10);
   const accent = app.accentColor ?? "var(--color-accent)";
 
   return (
@@ -346,20 +347,17 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </p>
       )}
 
-      {/* Related */}
+      {/* Related — horizontal rail mirroring the homepage featured carousel. The
+          ToolCard slots render server-side and pass into the client rail as
+          children, keeping ToolCard off this route's client bundle (§6). */}
       {related.length > 0 && (
-        <section className="mt-24">
-          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-            Related in {CATEGORY_LABEL[app.category]}
-          </p>
-          <ul className="mt-6 grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2">
-            {related.map((r) => (
-              <li key={r.slug} className="contents">
-                <ToolCard app={r} />
-              </li>
-            ))}
-          </ul>
-        </section>
+        <RelatedRail categoryLabel={CATEGORY_LABEL[app.category]}>
+          {related.map((r) => (
+            <li key={r.slug} className="flex w-[320px] shrink-0 snap-start sm:w-[380px]">
+              <ToolCard app={r} />
+            </li>
+          ))}
+        </RelatedRail>
       )}
 
       {/* Footer — last verified + submit a correction */}

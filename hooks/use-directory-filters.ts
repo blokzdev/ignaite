@@ -1,8 +1,8 @@
 "use client";
 import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } from "nuqs";
 import { toast } from "sonner";
-import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PRICING } from "@/types/app";
-import type { AppCategory, AppDeployment, AppPricing } from "@/types/app";
+import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PLATFORMS, APP_PRICING } from "@/types/app";
+import type { AppCategory, AppDeployment, AppPlatform, AppPricing } from "@/types/app";
 import { LICENSE_LABEL, LICENSE_SIGNALS, type LicenseSignal } from "@/lib/tools/license";
 import { clearFilters } from "@/lib/tools/clear-filters";
 
@@ -52,6 +52,22 @@ export const DEPLOYMENT_LABEL: Record<AppDeployment, string> = {
   hybrid: "Hybrid",
 };
 
+// Compact chip labels for the platform filter (the "where it runs" axis — the
+// surfaces an app runs on, distinct from DEPLOYMENT_LABEL's hosting axis). The
+// detail page keeps its own fuller PLATFORM_LABEL; these stay short for chips.
+export const PLATFORM_LABEL: Record<AppPlatform, string> = {
+  web: "Web",
+  ios: "iOS",
+  android: "Android",
+  macos: "macOS",
+  windows: "Windows",
+  linux: "Linux",
+  cli: "CLI",
+  api: "API",
+  "browser-extension": "Browser Ext.",
+  "vscode-extension": "VS Code",
+};
+
 export const STATUS_LABEL: Record<StatusFilter, string> = {
   active: "Active",
   archived: "Archived",
@@ -71,6 +87,7 @@ export const directoryFilterParsers = {
   category: parseAsArrayOf(parseAsStringLiteral(APP_CATEGORIES)).withDefault([]),
   pricing: parseAsArrayOf(parseAsStringLiteral(APP_PRICING)).withDefault([]),
   deployment: parseAsArrayOf(parseAsStringLiteral(APP_DEPLOYMENTS)).withDefault([]),
+  platform: parseAsArrayOf(parseAsStringLiteral(APP_PLATFORMS)).withDefault([]),
   license: parseAsStringLiteral(LICENSE_SIGNALS),
   status: parseAsStringLiteral(STATUS_FILTERS),
   sort: parseAsStringLiteral(SORT_MODES),
@@ -110,9 +127,16 @@ export function useDirectoryFilters() {
       : [...filter.deployment, value];
     void setFilter({ deployment: next.length > 0 ? next : null });
   };
+  const togglePlatform = (value: AppPlatform) => {
+    const next = filter.platform.includes(value)
+      ? filter.platform.filter((v) => v !== value)
+      : [...filter.platform, value];
+    void setFilter({ platform: next.length > 0 ? next : null });
+  };
   const resetCategory = () => void setFilter({ category: null });
   const resetPricing = () => void setFilter({ pricing: null });
   const resetDeployment = () => void setFilter({ deployment: null });
+  const resetPlatform = () => void setFilter({ platform: null });
   const setLicense = (value: LicenseSignal | null) => void setFilter({ license: value });
   const setStatus = (value: StatusFilter | null) => void setFilter({ status: value });
   const setSort = (value: SortMode) =>
@@ -126,6 +150,7 @@ export function useDirectoryFilters() {
     filter.category.length > 0 ||
     filter.pricing.length > 0 ||
     filter.deployment.length > 0 ||
+    filter.platform.length > 0 ||
     filter.license != null ||
     statusActive ||
     (filter.q?.length ?? 0) > 0;
@@ -141,6 +166,7 @@ export function useDirectoryFilters() {
             category: snap.category.length ? snap.category : null,
             pricing: snap.pricing.length ? snap.pricing : null,
             deployment: snap.deployment.length ? snap.deployment : null,
+            platform: snap.platform.length ? snap.platform : null,
             license: snap.license,
             status: snap.status,
             sort: snap.sort,
@@ -165,6 +191,11 @@ export function useDirectoryFilters() {
       id: `deploy:${d}`,
       label: DEPLOYMENT_LABEL[d],
       onRemove: () => toggleDeployment(d),
+    })),
+    ...filter.platform.map((p) => ({
+      id: `plat:${p}`,
+      label: PLATFORM_LABEL[p],
+      onRemove: () => togglePlatform(p),
     })),
     ...(filter.license != null
       ? [
@@ -194,9 +225,11 @@ export function useDirectoryFilters() {
     toggleCategory,
     togglePricing,
     toggleDeployment,
+    togglePlatform,
     resetCategory,
     resetPricing,
     resetDeployment,
+    resetPlatform,
     setLicense,
     setStatus,
     setSort,
