@@ -2164,6 +2164,186 @@ export const apps: ReadonlyArray<App> = [
     addedAt: "2026-06-06",
     lastVerifiedAt: "2026-06-06",
   },
+
+  // ── Batch: discover-apps sweep — inference / gateway / data-ops / editor / 3d-gen,
+  // 2026-06-06. Net-new category leaders + first data-ops entries. Web-verified;
+  // see /discover-apps + docs/directory-playbook.md for the flow.
+
+  // ── Inference (fine-tuning track) ──
+  {
+    slug: "groq",
+    name: "Groq",
+    tagline: "Ultra-fast inference on custom LPU chips. Open-weights at 500+ tokens/sec.",
+    description:
+      "GroqCloud serves open-weights models (Llama, DeepSeek, Qwen, Kimi) on Groq's purpose-built LPU hardware, hitting hundreds of tokens per second where GPUs manage tens. OpenAI-compatible API with a free tier; the default when token latency is the product.",
+    category: "fine-tuning",
+    pricing: "freemium",
+    vendor: "Groq",
+    platforms: ["api", "web"],
+    modelSupport: {
+      kind: "multi-model",
+      models: ["Llama", "DeepSeek", "Qwen", "Kimi K2", "GPT-OSS"],
+      notes: "Open-weights catalog on Groq LPUs; OpenAI-compatible API.",
+    },
+    accentColor: "#F55036",
+    tags: ["inference", "low-latency", "lpu", "open-weights"],
+    links: [
+      { kind: "website", url: "https://groq.com", primary: true },
+      { kind: "docs", url: "https://console.groq.com/docs" },
+      { kind: "pricing", url: "https://groq.com/pricing" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── Model gateway (infra) ──
+  {
+    slug: "openrouter",
+    name: "OpenRouter",
+    tagline: "One OpenAI-compatible API in front of 300+ models from every provider.",
+    description:
+      "A unified gateway that routes a single endpoint and API key to models from Anthropic, OpenAI, Google, Meta, DeepSeek, xAI, and more — swap models by changing one parameter, with automatic fallbacks and one consolidated bill. Pass-through token pricing plus dozens of free models.",
+    category: "infra",
+    pricing: "freemium",
+    vendor: "OpenRouter",
+    platforms: ["api", "web"],
+    modelSupport: {
+      kind: "multi-model",
+      models: ["Claude", "GPT", "Gemini", "Llama", "DeepSeek", "Grok"],
+      notes: "Single OpenAI-compatible endpoint fronting 300+ models; routing + fallbacks.",
+    },
+    accentColor: "#6467F2",
+    tags: ["gateway", "routing", "multi-model", "fallbacks"],
+    links: [
+      { kind: "website", url: "https://openrouter.ai", primary: true },
+      { kind: "docs", url: "https://openrouter.ai/docs" },
+      { kind: "pricing", url: "https://openrouter.ai/pricing" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── Data-ops (new category coverage — first entries) ──
+  {
+    slug: "firecrawl",
+    name: "Firecrawl",
+    tagline: "Turn any website into clean, LLM-ready data — scrape, crawl, search.",
+    description:
+      "A web data API for AI — scrape, crawl, map, and search pages into clean markdown or structured JSON, handling proxies, anti-bot, and JS rendering for you. Open-source core (AGPL) plus a hosted service; a default web-ingestion layer for agents and RAG pipelines.",
+    category: "data-ops",
+    pricing: "freemium",
+    vendor: "Firecrawl",
+    platforms: ["api", "web"],
+    modelSupport: { kind: "model-agnostic" },
+    accentColor: "#F97316",
+    tags: ["web-scraping", "crawling", "rag", "open-source"],
+    links: [
+      { kind: "website", url: "https://firecrawl.dev", primary: true },
+      { kind: "github", url: "https://github.com/firecrawl/firecrawl" },
+      { kind: "docs", url: "https://docs.firecrawl.dev" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+  {
+    slug: "unstructured",
+    name: "Unstructured",
+    tagline: "ETL for LLMs — turn PDFs, decks, and emails into clean, structured data.",
+    description:
+      "Ingests 64+ file types and partitions, chunks, enriches, and embeds them into LLM-ready output, handling OCR, tables, and document hierarchy. An open-source library plus a low-code platform and API; a staple preprocessing layer for production RAG.",
+    category: "data-ops",
+    pricing: "freemium",
+    vendor: "Unstructured",
+    platforms: ["api", "web"],
+    modelSupport: { kind: "model-agnostic" },
+    accentColor: "#7C3AED",
+    tags: ["document-etl", "preprocessing", "rag", "open-source"],
+    links: [
+      { kind: "website", url: "https://unstructured.io", primary: true },
+      { kind: "github", url: "https://github.com/Unstructured-IO/unstructured" },
+      { kind: "docs", url: "https://docs.unstructured.io" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── Orchestration (data framework) ──
+  {
+    slug: "llamaindex",
+    name: "LlamaIndex",
+    tagline: "The data framework for LLM apps — RAG, agents, and document workflows.",
+    description:
+      "An open-source framework (Python + TypeScript) for connecting LLMs to your data — ingestion, indexing, retrieval, and agentic document workflows. Pairs with the managed LlamaCloud (LlamaParse) for production parsing and extraction. The most-used RAG framework after LangChain.",
+    category: "orchestration",
+    pricing: "open-source",
+    vendor: "LlamaIndex",
+    platforms: ["api", "cli"],
+    modelSupport: { kind: "model-agnostic" },
+    accentColor: "#EC4899",
+    tags: ["framework", "rag", "agents", "open-source"],
+    links: [
+      { kind: "website", url: "https://www.llamaindex.ai", primary: true },
+      { kind: "github", url: "https://github.com/run-llama/llama_index" },
+      { kind: "docs", url: "https://docs.llamaindex.ai" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── IDE ──
+  {
+    slug: "zed",
+    name: "Zed",
+    tagline: "The fast, open-source AI code editor in Rust, from the Atom creators.",
+    description:
+      "A GPU-accelerated, Rust-built editor with first-class agentic AI — parallel agents, edit prediction, and an open Agent Client Protocol that plugs into Claude, GPT, Gemini, MCP servers, and external CLI agents like Claude Code. Fully open source (GPL-3); BYO key or an optional hosted Pro tier.",
+    category: "ide",
+    pricing: "open-source",
+    vendor: "Zed Industries",
+    platforms: ["macos", "linux", "windows"],
+    modelSupport: {
+      kind: "byo-key",
+      models: ["Claude", "GPT", "Gemini", "Local"],
+      notes:
+        "BYO key or Zed-hosted Pro models; connects external agents via the Agent Client Protocol.",
+    },
+    accentColor: "#2563EB",
+    tags: ["ide", "rust", "agentic", "open-source"],
+    links: [
+      { kind: "website", url: "https://zed.dev", primary: true },
+      { kind: "docs", url: "https://zed.dev/docs" },
+      { kind: "github", url: "https://github.com/zed-industries/zed" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
+
+  // ── Image / video generation (node-based) ──
+  {
+    slug: "comfyui",
+    name: "ComfyUI",
+    tagline: "Node-based visual AI — wire up image, video, and audio diffusion pipelines.",
+    description:
+      "An open-source, node-graph interface for diffusion models — build precise, reproducible image/video/audio pipelines on an infinite canvas where every model and parameter is visible. Runs locally on your own GPU or as a desktop app, with thousands of community nodes.",
+    category: "image-gen",
+    pricing: "open-source",
+    vendor: "Comfy Org",
+    platforms: ["windows", "macos", "linux", "web"],
+    modelSupport: {
+      kind: "model-agnostic",
+      notes:
+        "Runs open diffusion models you supply (FLUX, Stable Diffusion, video models); no LLM required.",
+    },
+    accentColor: "#10B981",
+    tags: ["image-gen", "video-gen", "node-based", "open-source"],
+    links: [
+      { kind: "website", url: "https://www.comfy.org", primary: true },
+      { kind: "github", url: "https://github.com/comfyanonymous/ComfyUI" },
+      { kind: "docs", url: "https://docs.comfy.org" },
+    ],
+    addedAt: "2026-06-06",
+    lastVerifiedAt: "2026-06-06",
+  },
 ];
 
 // Cheap dev-time guard. Every directory entry must declare at least one
