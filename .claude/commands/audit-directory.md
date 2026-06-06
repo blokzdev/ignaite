@@ -48,8 +48,8 @@ For each entry in scope:
 
 ## 3. Validate + report
 
-- `pnpm velite build` (schema-validates every touched JSON with precise per-file errors), then
-  `pnpm typecheck`, `pnpm lint`, `pnpm build` clean.
+- `pnpm velite` (runs `velite build --strict` — schema-validates every touched JSON, exiting non-zero
+  with precise per-file errors), then `pnpm typecheck`, `pnpm lint`, `pnpm build` clean.
 - **Interactive run:** report a concise diff (entries reviewed, what changed and why, what was
   archived, anything ambiguous needing a human decision). Don't commit unless the user asked.
 

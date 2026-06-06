@@ -33,8 +33,8 @@ Work through this flow for each app:
 ## 3. Author the entry (schema: `lib/apps-schema.ts`; types re-exported from `types/app.ts`)
 
 Write a new file `data/apps/<slug>.json` — a single JSON object (quoted keys, no comments/trailing
-commas). The zod schema validates it at build (`pnpm velite build`) with a precise per-file error if
-anything is off.
+commas). The zod schema validates it at build (`pnpm velite`, which runs `velite build --strict`) with
+a precise per-file error if anything is off.
 
 Required: `slug` (unique, kebab-case), `name`, `tagline` (≤100 chars, one line), `description`
 (2–4 sentences), `category` (an `AppCategory`), `pricing` (an `AppPricing`), `platforms` (≥1
@@ -74,9 +74,10 @@ Conventions (match existing entries):
 
 ## 4. Validate
 
-- `pnpm velite build` must pass — it validates the new JSON against the schema and reports a precise
-  per-file error (bad enum, >140-char insight, missing/duplicate primary link, non-ISO date, …) if
-  anything is off; fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean.
+- `pnpm velite` must pass — it runs `velite build --strict`, validating the new JSON against the schema
+  and **exiting non-zero** with a precise per-file error (bad enum, >140-char insight, missing/duplicate
+  primary link, non-ISO date, duplicate slug, …) if anything is off; fix until clean. Then
+  `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean.
   Link-check the primary URL resolves (a `403` from anti-bot protection on a real site is fine; a
   `404`/DNS failure is not).
 - Spot-check it renders on `/` and at `/apps/<slug>`.

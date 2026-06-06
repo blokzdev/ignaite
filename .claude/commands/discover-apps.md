@@ -37,9 +37,10 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 
 ## 4. Validate
 
-- `pnpm velite build` must pass — it validates every new JSON against the schema with a precise
-  per-file error if anything is off; fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build`
-  must be clean. Link-check each new primary URL resolves (a `403` from anti-bot protection on a real
+- `pnpm velite` must pass — it runs `velite build --strict`, which validates every new JSON against
+  the schema and **exits non-zero** with a precise per-file error if anything is off (a duplicate slug
+  fails too); fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean (each
+  re-runs the strict validation, so a bad entry hard-fails CI rather than silently dropping). Link-check each new primary URL resolves (a `403` from anti-bot protection on a real
   site is fine; `404`/DNS failure is not — fix or drop).
 
 ## 5. Open a PR (this is a scheduled run)
