@@ -9,16 +9,16 @@
   },
   "packageManager": "pnpm@10.33.0",
   "scripts": {
-    "velite": "velite build",
+    "velite": "velite build --strict",
     "dev": "velite build && next dev --turbopack",
-    "build": "velite build && next build --turbopack",
+    "build": "velite build --strict && next build --turbopack",
     "start": "next start",
-    "lint": "velite build && eslint",
+    "lint": "velite build --strict && eslint",
     "lint:fix": "eslint --fix",
-    "typecheck": "velite build && tsc --noEmit",
+    "typecheck": "velite build --strict && tsc --noEmit",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "analyze": "velite build && ANALYZE=true next build --turbopack",
+    "analyze": "velite build --strict && ANALYZE=true next build --turbopack",
     "prepare": "simple-git-hooks"
   },
   "dependencies": {

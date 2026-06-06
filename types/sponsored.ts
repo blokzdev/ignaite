@@ -1,22 +1,5 @@
-import type { AppCategory } from "./app";
-
-export interface SponsoredLink {
-  url: string;
-  label: string;
-}
-
-export interface SponsoredSlot {
-  id: string;
-  sponsored: true;
-  name: string;
-  tagline: string;
-  description: string;
-  promotedBy: string;
-  category?: AppCategory;
-  accentColor?: string;
-  link: SponsoredLink;
-  tracking?: {
-    impressionPixel?: string;
-    clickPixel?: string;
-  };
-}
+// Public types for sponsored slots. The shape + validity live in the zod
+// source-of-truth `lib/sponsored-schema.ts`; these are type-only re-exports so
+// Zod/Velite never reach the client bundle. The `SponsoredSlot` alias is kept
+// (consumers import it by that name) — it equals the inferred `Sponsored`.
+export type { Sponsored as SponsoredSlot, SponsoredLink } from "@/lib/sponsored-schema";

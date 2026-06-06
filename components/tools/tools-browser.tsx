@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useQueryStates } from "nuqs";
 import type { App, AppCategory } from "@/types/app";
-import { sponsored as sponsoredPool } from "@/data/sponsored";
+import { sponsored as sponsoredPool } from "@/.velite";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
 import { licenseSignal } from "@/lib/tools/license";
@@ -23,10 +23,12 @@ interface Props {
 }
 
 const BATCH_SIZE = 24;
-// One sponsored slot every N organic positions in the default browse. Tuned
-// light-touch — with one self-promo card the page shows the Blokz pitch ~twice
-// per default browse. Dial down by raising the constant.
-const SPONSORED_INTERVAL = 12;
+// One sponsored slot every 10–15 organic positions in the default browse — a
+// jittered (not rigid) cadence so the page doesn't look mechanically spaced.
+// The gap sequence is seeded + deterministic (see lib/interleave), so SSR and
+// client agree and slots don't reshuffle as more batches load. Widen the gap to
+// dial the pitch down; raise `seed` to reshuffle the spacing.
+const SPONSORED_INTERVAL = { min: 10, max: 15, seed: 1 } as const;
 
 export function ToolsBrowser({ apps }: Readonly<Props>) {
   const [filter, setFilter] = useQueryStates(directoryFilterParsers, directoryFilterOptions);
