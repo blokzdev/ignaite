@@ -1,0 +1,35 @@
+{
+  "slug": "moondream",
+  "insight": "Among the smallest open VLMs — a 0.5B checkpoint runs on-device, yet the family still does pointing, counting, and object detection.",
+  "name": "Moondream",
+  "tagline": "Tiny open vision-language model for efficient image understanding.",
+  "description": "An open-weights family of small vision-language models for captioning, visual Q&A, pointing, counting, and object detection — small enough to run on-device (checkpoints down to 0.5B on Hugging Face). Run it locally with the Photon engine, or call Moondream Cloud's OpenAI-compatible API with a free monthly credit tier and pay-per-image pricing.",
+  "category": "vision",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "M87 Labs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own open vision-language weights."
+  },
+  "tags": ["vision-language", "open-weights", "on-device", "object-detection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://moondream.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.moondream.ai"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/m87-labs/moondream"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

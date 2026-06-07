@@ -1,0 +1,30 @@
+{
+  "slug": "glean",
+  "insight": "Enterprise-only with no self-serve tier — it indexes 100+ connected apps behind each user's existing permissions so search never leaks data.",
+  "name": "Glean",
+  "tagline": "Work AI: enterprise search, assistant, and agents over your apps.",
+  "description": "A workplace AI platform that unifies search, an assistant, and agents across 100+ connected enterprise apps (Slack, Teams, GitHub, ServiceNow and more). It enforces each user's existing access permissions over the indexed content. Sold enterprise-only — pricing is quote-based via sales, with no public self-serve tier.",
+  "category": "assistant",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Glean Technologies",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Routes across leading LLMs behind the enterprise assistant."
+  },
+  "tags": ["enterprise-search", "assistant", "agents", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.glean.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.glean.com"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
