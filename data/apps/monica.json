@@ -1,0 +1,32 @@
+{
+  "slug": "monica",
+  "insight": "Folds image and video generation plus mobile and desktop apps into one assistant, going beyond the browser-only AI sidebars.",
+  "name": "Monica",
+  "tagline": "All-in-one AI assistant sidebar for any browser tab.",
+  "description": "Monica is an all-in-one AI assistant that lives in a browser side-panel and across mobile and desktop apps, bundling chat, search, writing, translation, and page or video summarization. It aggregates many frontier models — plus image and video generation — into one subscription that works alongside any webpage.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Monica",
+  "platforms": ["browser-extension", "web", "ios", "android", "macos", "windows"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini", "DeepSeek"],
+    "notes": "Aggregates many frontier models in one subscription."
+  },
+  "accentColor": "#3D5AFE",
+  "tags": ["browser", "side-panel", "all-in-one", "multi-model"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://monica.im",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://monica.im/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
