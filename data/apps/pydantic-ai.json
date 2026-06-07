@@ -1,0 +1,31 @@
+{
+  "slug": "pydantic-ai",
+  "insight": "From the Pydantic team, so agent outputs are validated by the same library most Python LLM apps already lean on for tool and data schemas.",
+  "name": "Pydantic AI",
+  "tagline": "Type-safe Python agent framework, the Pydantic way.",
+  "description": "An open-source Python framework for building production-grade agents with validated, structured outputs instead of raw-string parsing. Model-agnostic across OpenAI, Anthropic, Gemini and many more, with composable tools, durable execution, MCP support, and built-in observability via Pydantic Logfire. MIT-licensed from the team behind Pydantic.",
+  "category": "orchestration",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Pydantic",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["OpenAI", "Anthropic", "Gemini", "Mistral", "Groq", "Ollama"],
+    "notes": "Model-agnostic across dozens of providers and gateways."
+  },
+  "tags": ["python", "agents", "type-safe", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ai.pydantic.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/pydantic/pydantic-ai"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

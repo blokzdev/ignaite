@@ -1,0 +1,40 @@
+{
+  "slug": "mastra",
+  "insight": "From the team behind Gatsby — its core is Apache-2.0, but the enterprise modules in ee/ ship source-available under a separate license.",
+  "name": "Mastra",
+  "tagline": "TypeScript framework for building AI agents and workflows.",
+  "description": "An open-source TypeScript stack for AI applications: agents, a graph-based workflow engine (.then/.branch/.parallel), memory, tools, and built-in observability behind one API. Run it self-hosted under Apache 2.0, or deploy to Mastra Cloud with a free Starter tier and paid Teams/Enterprise plans.",
+  "category": "orchestration",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Mastra",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["OpenAI", "Anthropic", "Gemini"],
+    "notes": "Switch providers through a single model API."
+  },
+  "tags": ["typescript", "agents", "workflows", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mastra.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://mastra.ai/docs"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/mastra-ai/mastra"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://mastra.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

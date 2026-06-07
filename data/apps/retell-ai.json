@@ -1,0 +1,35 @@
+{
+  "slug": "retell-ai",
+  "insight": "Connects to any phone line over SIP and lets you bring your own LLM, so the voice agent isn't locked to one model behind the telephony.",
+  "name": "Retell AI",
+  "tagline": "Build, test, and deploy AI voice agents for phone calls.",
+  "description": "A no-code platform for humanlike voice agents that handle inbound and outbound phone calls — receptionists, IVR, and outbound campaigns. It bundles telephony (SIP / Twilio), a proprietary turn-taking model for low-latency conversations, prompts, tools, and call analytics. Pay-as-you-go pricing with free starter credits.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Retell AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude"],
+    "notes": "Plug in your preferred LLM behind the voice agent."
+  },
+  "tags": ["voice-agents", "telephony", "call-automation", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.retellai.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.retellai.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.retellai.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
