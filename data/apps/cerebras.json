@@ -1,0 +1,35 @@
+{
+  "slug": "cerebras",
+  "insight": "Runs models on a single dinner-plate-sized wafer instead of GPU clusters, hitting ~2,000 tokens/sec where GPU clouds plateau far lower.",
+  "name": "Cerebras",
+  "tagline": "Wafer-scale inference cloud for open models.",
+  "description": "Inference cloud that serves open-weight models such as Llama, Qwen, DeepSeek, and gpt-oss on Cerebras's wafer-scale CS-3 hardware, reaching token throughput far above GPU clouds. Exposes an OpenAI-compatible API with a free daily tier and pay-per-token pricing.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Cerebras Systems",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Qwen", "DeepSeek", "gpt-oss"],
+    "notes": "Serves open-weight models on wafer-scale hardware via an OpenAI-compatible API."
+  },
+  "tags": ["inference", "fast-inference", "wafer-scale", "open-models"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cerebras.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://inference-docs.cerebras.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.cerebras.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
