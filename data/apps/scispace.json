@@ -1,0 +1,30 @@
+{
+  "slug": "scispace",
+  "insight": "Formerly Typeset.io; pairs a 280M-paper index with agentic 'Deep Review' literature search added in 2025.",
+  "name": "SciSpace",
+  "tagline": "AI research assistant: search, read, and review the literature.",
+  "description": "AI workspace for academics that searches a corpus of 280M+ papers, runs literature reviews, and answers questions over PDFs with citations. Adds writing aids like a paraphraser and citation generator. Formerly Typeset.io; introduced agentic 'Deep Review' literature search in 2025. Free Basic tier with paid upgrades.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "SciSpace",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses frontier LLMs over its paper corpus; exact models not disclosed."
+  },
+  "tags": ["research", "literature-review", "papers", "citations", "academic"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scispace.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://scispace.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

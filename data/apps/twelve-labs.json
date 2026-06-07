@@ -1,0 +1,35 @@
+{
+  "slug": "twelve-labs",
+  "insight": "Trains video-native foundation models — Marengo for search, Pegasus for generation — instead of captioning sampled frames into a text LLM.",
+  "name": "TwelveLabs",
+  "tagline": "Video intelligence API: search, classify, and summarize video.",
+  "description": "Video understanding platform built on its own multimodal foundation models — Marengo for embeddings and semantic search, Pegasus for generative tasks like summaries and captions. Developers index video once and run natural-language search, classification, and analysis via API. Free tier with usage-based pricing beyond it.",
+  "category": "vision",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "TwelveLabs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Marengo", "Pegasus"],
+    "notes": "Proprietary video-native foundation models."
+  },
+  "tags": ["video-understanding", "search", "multimodal", "embeddings", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.twelvelabs.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.twelvelabs.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.twelvelabs.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
