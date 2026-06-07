@@ -79,23 +79,20 @@ export default function ContactPage() {
 
             <section className="rounded-2xl bg-[var(--color-surface)]/60 p-5 ring-1 ring-white/[0.08] backdrop-blur-xl ring-inset">
               <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-                Response time
-              </h2>
-              <p className="mt-3 text-sm leading-relaxed text-[var(--color-ink-dim)]">
-                Most messages get a reply from a human within 48 hours. Anything urgent —
-                production-down, security — flag it in the message and we&apos;ll move it to the top
-                of the stack.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-                Who we don&apos;t work with
+                House rules
               </h2>
               <ul className="mt-4 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink-dim)]">
-                <li>Anything predatory, exploitative, or against users&apos; interest.</li>
-                <li>Cash-grab token launches without a real product behind them.</li>
-                <li>Projects that need us to skip the receipts.</li>
+                <li>
+                  Pay-to-play pitches — sponsorship is always labeled and never buys a listing or a
+                  better rank.
+                </li>
+                <li>
+                  Claims we can&apos;t verify against an app&apos;s own source — no fabrication,
+                  ever.
+                </li>
+                <li>
+                  Anything predatory, exploitative, or hostile to the people who&apos;d use it.
+                </li>
               </ul>
             </section>
           </aside>
