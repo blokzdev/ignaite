@@ -1,0 +1,31 @@
+{
+  "slug": "writer",
+  "insight": "One of the few app vendors that also trains its own LLMs: its Palmyra X5 has a 1M-token context and was trained for roughly $1M in GPUs.",
+  "name": "Writer",
+  "tagline": "Full-stack enterprise generative AI platform for building agents and apps.",
+  "description": "An enterprise platform that pairs an application layer for building AI agents and workflows with its own foundation models, the Palmyra LLM family. It targets regulated industries with SOC 2 Type II, PCI, and HIPAA compliance and a no-training-on-customer-data policy. Specialized models like Palmyra Med and Palmyra Fin tune the platform for healthcare and finance use cases.",
+  "category": "assistant",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Writer",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Palmyra"],
+    "notes": "Built on Writer's in-house Palmyra LLM family (X5, Med, Fin)."
+  },
+  "tags": ["enterprise", "agents", "writing", "compliance"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://writer.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://dev.writer.com"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
