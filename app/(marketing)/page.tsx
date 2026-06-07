@@ -40,9 +40,9 @@ export default function HomePage() {
       <div className="container-site relative">
         <div className="mb-10 max-w-3xl">
           <p className="text-eyebrow text-[var(--color-accent)]">AI Apps Directory</p>
-          <h1 className="mt-3 text-4xl sm:text-5xl">
-            <span className="text-display text-[var(--color-ink)]">Find the AI app</span>{" "}
-            <span className="text-display text-[var(--color-accent)]">for the job.</span>
+          <h1 className="mt-3 text-4xl text-balance sm:text-5xl">
+            <span className="text-display text-[var(--color-ink)]">Find the</span>{" "}
+            <span className="text-display text-[var(--color-accent)]">right AI app.</span>
           </h1>
           <p className="mt-3 font-mono text-[11px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
             {total} apps · {categories} categories · AI-managed
