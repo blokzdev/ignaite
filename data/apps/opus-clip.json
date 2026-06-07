@@ -1,0 +1,26 @@
+{
+  "slug": "opus-clip",
+  "insight": "Billing counts source-video minutes, not output clips — a 45-minute podcast costs 45 credits whether the AI yields 3 shorts or 20.",
+  "name": "OpusClip",
+  "tagline": "Turns long videos into viral short clips with AI captions and auto-reframing.",
+  "description": "Repurposes long-form videos and podcasts into short, vertical clips ready for TikTok, Reels, and Shorts. The AI finds the most engaging moments, adds animated captions, reframes to keep speakers centered, and scores each clip's virality. Credits are billed per minute of source video, not per clip produced.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "OpusClip",
+  "platforms": ["web"],
+  "tags": ["video", "short-form", "clipping", "repurposing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.opus.pro",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.opus.pro/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

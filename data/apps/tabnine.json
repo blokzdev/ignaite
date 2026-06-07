@@ -1,0 +1,31 @@
+{
+  "slug": "tabnine",
+  "insight": "Deploys fully air-gapped on-prem with zero code retention — for teams that can't send their source to any vendor cloud.",
+  "name": "Tabnine",
+  "tagline": "Privacy-first AI coding assistant you control — completions, chat, and agents.",
+  "description": "An AI coding assistant built for enterprise control, offering completions, chat, and agentic workflows across all major IDEs. It never trains on or retains your code, and can be deployed as SaaS, in a VPC, on-premises, or fully air-gapped. Supports access to major LLMs plus bring-your-own and private models.",
+  "category": "ide",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Tabnine",
+  "platforms": ["vscode-extension", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini"],
+    "notes": "Access to major LLMs plus BYO/private model support across SaaS or self-hosted deployments."
+  },
+  "tags": ["code-completion", "enterprise", "self-hosted", "privacy"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tabnine.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.tabnine.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

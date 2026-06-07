@@ -1,0 +1,26 @@
+{
+  "slug": "otter-ai",
+  "insight": "Otter's free tier allows only 3 lifetime file imports, steering you toward live meeting capture rather than uploading recorded audio.",
+  "name": "Otter.ai",
+  "tagline": "AI meeting notetaker — live transcription, summaries, and AI chat for meetings.",
+  "description": "Records and transcribes meetings in real time with speaker identification, then generates summaries and action items. An AI chat answers questions across your meeting history, and the Otter agent can join calls on Zoom, Google Meet, and Teams to take notes automatically.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Otter.ai",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["meetings", "transcription", "notetaker", "speech-to-text"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://otter.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://otter.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

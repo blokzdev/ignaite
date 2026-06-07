@@ -1,0 +1,27 @@
+{
+  "slug": "civitai",
+  "insight": "Civitai's own platform code is Apache-2.0 open source, and every feed image links back to the exact model, prompt and settings that made it.",
+  "name": "Civitai",
+  "tagline": "Community hub for open image models — discover, share, and generate.",
+  "description": "The largest community platform for open generative-image models, hosting thousands of Stable Diffusion and Flux checkpoints, LoRAs, and embeddings. Creators upload models with sample galleries, and on-site generation lets you run them in the browser. Every shared image is paired with the model, prompt, and settings used to create it.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "openSource": true,
+  "vendor": "Civitai",
+  "platforms": ["web", "api"],
+  "tags": ["models", "stable-diffusion", "lora", "community"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://civitai.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/civitai/civitai"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
