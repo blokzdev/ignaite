@@ -1,15 +1,25 @@
 import { cn } from "@/lib/utils";
 import { Counter } from "./counter";
+import { ManagedTypewriter } from "./managed-typewriter";
+
+const LABEL_CLASS = "font-mono text-[10px] tracking-[0.1em] text-[var(--color-ink-soft)] uppercase";
 
 // Compact 3-counter slab for the homepage hero. Server component (SSG-safe);
 // numbers come from the live directory, passed in from page.tsx. The two numeric
-// cells animate 0→value via the <Counter> island; the "AI" cell is static.
+// cells animate 0→value via the <Counter> island; the "AI" cell's label cycles
+// verbs via the <ManagedTypewriter> island.
 // Mirrors the visual of components/home/stats-strip.tsx, tuned smaller.
 export function HeroStats({ total, categories }: Readonly<{ total: number; categories: number }>) {
-  const cells: ReadonlyArray<{ num?: number; text?: string; label: string; accent?: boolean }> = [
+  const cells: ReadonlyArray<{
+    num?: number;
+    text?: string;
+    label: string;
+    accent?: boolean;
+    typewriter?: boolean;
+  }> = [
     { num: total, label: "Apps" },
     { num: categories, label: "Categories" },
-    { text: "AI", label: "Managed", accent: true },
+    { text: "AI", label: "Managed", accent: true, typewriter: true },
   ];
 
   return (
@@ -32,9 +42,11 @@ export function HeroStats({ total, categories }: Readonly<{ total: number; categ
             ) : (
               <span className={valueClass}>{c.text}</span>
             )}
-            <span className="font-mono text-[10px] tracking-[0.1em] text-[var(--color-ink-soft)] uppercase">
-              {c.label}
-            </span>
+            {c.typewriter ? (
+              <ManagedTypewriter className={LABEL_CLASS} />
+            ) : (
+              <span className={LABEL_CLASS}>{c.label}</span>
+            )}
           </li>
         );
       })}

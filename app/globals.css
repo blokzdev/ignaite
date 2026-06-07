@@ -173,6 +173,18 @@
   }
 }
 
+/* Typewriter caret blink (hero "AI · <verb>" cell). Reduced-motion users get
+   no caret at all (motion-reduce:hidden on the element), so this never runs. */
+@keyframes caret-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 /* Loading-skeleton shimmer: a light band sweeps across the placeholder fill.
    Reduced-motion users get a flat fill (gated below + by the [data-motion]
    rule), so .skeleton-shimmer stays a pure-CSS, server-renderable treatment. */
