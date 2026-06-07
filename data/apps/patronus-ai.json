@@ -1,0 +1,31 @@
+{
+  "slug": "patronus-ai",
+  "insight": "Ships proprietary evaluators — Lynx for hallucination, GLIDER as judge, Percival for agent-trace debugging — beyond prompt-based scoring.",
+  "name": "Patronus AI",
+  "tagline": "Automated evaluation, guardrails, and monitoring for AI systems.",
+  "description": "Platform for evaluating, guarding, and monitoring LLM and agent applications across the deployment lifecycle. Anchored by research-backed evaluator models — Lynx (hallucination detection), GLIDER (LLM judge), and Percival (agent-trace debugger). Offers a self-serve API with free credits, usage-based pricing, and enterprise plans.",
+  "category": "eval",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Patronus AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Lynx", "GLIDER", "Percival"],
+    "notes": "Proprietary evaluator models that score third-party LLM and agent outputs."
+  },
+  "tags": ["eval", "guardrails", "monitoring", "hallucination", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.patronus.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.patronus.ai"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

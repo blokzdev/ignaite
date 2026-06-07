@@ -1,0 +1,34 @@
+{
+  "slug": "ragas",
+  "insight": "Popularized reference-free RAG metrics — faithfulness, context precision — scored by an LLM judge, so you evaluate without gold answers.",
+  "name": "Ragas",
+  "tagline": "Open-source evaluation toolkit for RAG and LLM applications.",
+  "description": "Open-source (Apache-2.0) Python framework for evaluating retrieval-augmented generation and LLM apps. Provides reference-free metrics — faithfulness, answer relevancy, context precision/recall — plus knowledge-graph-based synthetic test generation. Integrates with LangChain, LlamaIndex, and CI pipelines.",
+  "category": "eval",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Exploding Gradients",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring any provider/model for the LLM-as-judge metrics."
+  },
+  "tags": ["eval", "rag", "llm-as-judge", "open-source", "ci"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ragas.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/explodinggradients/ragas"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.ragas.io"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
