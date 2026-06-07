@@ -19,6 +19,7 @@ const PROJECT_LABELS: Record<string, string> = {
   "idea-exploration": "Idea exploration",
   "build-product": "Build a product",
   "oss-collab": "OSS collaboration",
+  correction: "Directory correction",
   other: "Something else",
 };
 

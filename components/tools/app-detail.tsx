@@ -12,6 +12,7 @@ import {
   Terminal,
 } from "lucide-react";
 import type { ComponentType, ReactElement } from "react";
+import { AccuracyNote } from "@/components/tools/accuracy-note";
 import { DetailShell } from "@/components/detail/detail-shell";
 import { JsonLd } from "@/components/seo/json-ld";
 import { RelatedRail } from "@/components/tools/related-rail";
@@ -360,21 +361,8 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </RelatedRail>
       )}
 
-      {/* Footer — last verified + submit a correction */}
-      <footer className="mt-20 flex flex-col items-start gap-3 border-t border-white/[0.06] pt-8 sm:flex-row sm:items-center sm:justify-between">
-        {app.lastVerifiedAt && (
-          <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
-            Last verified · {app.lastVerifiedAt}
-          </p>
-        )}
-        <Link
-          href={`/contact?subject=${encodeURIComponent(`Update for ${app.name}`)}`}
-          className="inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase transition-opacity hover:opacity-75"
-        >
-          Submit a correction
-          <ArrowUpRight className="h-3 w-3" />
-        </Link>
-      </footer>
+      {/* Accuracy — how the listing is maintained + last verified + correction CTA */}
+      <AccuracyNote appName={app.name} lastVerifiedAt={app.lastVerifiedAt} />
 
       <JsonLd
         data={{
