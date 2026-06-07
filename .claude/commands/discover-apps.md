@@ -11,10 +11,19 @@ committing to main. **Never fabricate** — quality and trust beat quantity.
 
 Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwise scan broadly).
 
-## 1. Know what's already listed
+## 1. Know what's already listed — on `main` **and** in open PRs
 
 - List `data/apps/` (each filename is a slug) and grep it to build the set of existing slugs / names
   / vendors / domains.
+- **Also fold in apps already proposed by open, unmerged discovery PRs** — otherwise two runs fired
+  close together (before the first merges) both "discover" the same app and you get duplicate listings
+  (a slug double-authored across two PRs). Don't rely on the merge to catch it — by then both PRs exist.
+  So: list **open** PRs whose head branch matches `claude/discover-apps-*` (or any open PR that adds
+  `data/apps/*.json`), read each one's changed files, and add the slugs + app names they introduce to
+  your "already-claimed" set. Use the GitHub MCP tools (list open pull requests → read each candidate
+  PR's changed files / diff) or `gh pr list --state open` + `gh pr diff` if available. If you can't
+  enumerate open PRs in this environment, say so in the PR body so a human knows the in-flight check was
+  skipped.
 - Note category coverage — favor genuinely thin or fast-moving areas (e.g. `video`, `image-gen`,
   `assistant`, `3d`, `audio`) and recent launches.
 
@@ -23,8 +32,8 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 - WebSearch for notable, real AI apps that are **not** already listed — recent launches, category
   leaders you're missing, things trending in the period. Aim for a **small, high-quality** set
   (~3–8 strong candidates), not a dump.
-- Drop anything that's: already listed, not actually an app (a raw model/paper), low-quality/spam,
-  defunct, or that you can't verify.
+- Drop anything that's: already listed **or already proposed in an open discovery PR** (step 1), not
+  actually an app (a raw model/paper), low-quality/spam, defunct, or that you can't verify.
 
 ## 3. Author the worthy ones
 
@@ -47,7 +56,8 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 
 - If you added ≥1 app: create a branch (e.g. `claude/discover-apps-<date>`), commit, push, and open a
   PR into `main`. Title it clearly; in the body list each app (slug · category · pricing) and an
-  explicit **"needs human re-verify"** section for anything you couldn't fully confirm. **Do not
+  explicit **"needs human re-verify"** section for anything you couldn't fully confirm. Note that you
+  de-duplicated against open discovery PRs (step 1), or flag if that check was skipped. **Do not
   merge.**
 - If nothing met the bar: **do nothing** — no branch, no empty PR. Briefly state that you found
   nothing new worth adding this run.
