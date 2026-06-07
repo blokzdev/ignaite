@@ -1,0 +1,35 @@
+{
+  "slug": "speechify",
+  "insight": "Built for listening, not voiceover — OCR scanning and up-to-4.5x speed; a separate Studio product handles narration and voice cloning.",
+  "name": "Speechify",
+  "tagline": "AI text-to-speech that reads any document, PDF, or page aloud.",
+  "description": "Speechify is an AI text-to-speech app that turns articles, PDFs, emails, and books into natural-sounding audio with high-definition voices, adjustable speed, and OCR for scanned text. It runs on iOS, Android, web, a browser extension, and desktop, and offers a separate Studio product plus a text-to-speech API for developers.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Speechify",
+  "platforms": ["ios", "android", "web", "browser-extension", "macos", "windows", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary neural TTS voices; voice cloning in Speechify Studio."
+  },
+  "accentColor": "#2D6BFF",
+  "tags": ["text-to-speech", "read-aloud", "accessibility", "voice-cloning"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://speechify.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.speechify.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://speechify.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

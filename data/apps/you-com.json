@@ -1,0 +1,32 @@
+{
+  "slug": "you-com",
+  "insight": "Pivoted from consumer Google-rival to enterprise — its ARI research agent and APIs now lead, priced per report rather than per compute-hour.",
+  "name": "You.com",
+  "tagline": "Multi-model AI search and enterprise research agents.",
+  "description": "You.com is an AI search and answers product offering multi-model chat over OpenAI, Anthropic, and Google models on web and mobile. It has shifted toward enterprise with ARI, a research agent that synthesizes cited reports across hundreds of sources, alongside Search and Research APIs for developers.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "You.com",
+  "platforms": ["web", "ios", "android", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"],
+    "notes": "Pro users pick a provider per query; APIs expose search and research."
+  },
+  "accentColor": "#6B4DFF",
+  "tags": ["ai-search", "research-agent", "multi-model", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://you.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://you.com/plans"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "amp",
+  "insight": "Bills pay-as-you-go at zero markup over model-provider prices, and makes its agent 'threads' shareable for a whole team to read.",
+  "name": "Amp",
+  "tagline": "Agentic coding tool from Sourcegraph for terminal and editor.",
+  "description": "Amp is an agentic coding tool from Sourcegraph that works in the terminal and across editors, autonomously editing code and running tasks. It routes between frontier models across deep, smart, and fast modes, and centers on shareable 'threads' so teammates can view and search each other's agent sessions.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Sourcegraph",
+  "platforms": ["cli", "vscode-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT-5"],
+    "notes": "Routes between frontier models by mode (deep / smart / fast)."
+  },
+  "accentColor": "#FF5543",
+  "tags": ["coding-agent", "cli", "sourcegraph", "devtools"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ampcode.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://ampcode.com/manual"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
