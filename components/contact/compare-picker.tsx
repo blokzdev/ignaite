@@ -38,19 +38,23 @@ export function ComparePicker({
     [category],
   );
 
-  // The chips track slugs; the email wants readable names. Resolve here so the
-  // (lazily-loaded) apps index never reaches the form's initial bundle.
-  const selectedNames = useMemo(() => {
+  // The chips track slugs; the email wants readable names. Resolve here (keyed
+  // by unique slug) so the lazily-loaded index never reaches the form's bundle.
+  const selectedPairs = useMemo(() => {
     const bySlug = new Map(appsIndex.map((a) => [a.slug, a.name] as const));
-    return selectedSlugs.map((slug) => bySlug.get(slug) ?? slug);
+    return selectedSlugs.map((slug) => ({ slug, name: bySlug.get(slug) ?? slug }));
   }, [selectedSlugs]);
+
+  const count = selectedSlugs.length;
+  const countHint =
+    count === 0 ? "Pick 2 or more" : count === 1 ? "1 selected · pick 1 more" : `${count} selected`;
 
   return (
     <div className="flex flex-col gap-4">
       {/* Ride-along fields for the server action's email body. */}
       {category && <input type="hidden" name="category" value={CATEGORY_LABEL[category]} />}
-      {selectedNames.map((name) => (
-        <input key={name} type="hidden" name="candidates" value={name} />
+      {selectedPairs.map(({ slug, name }) => (
+        <input key={slug} type="hidden" name="candidates" value={name} />
       ))}
 
       <div className="flex flex-col gap-2">
@@ -91,36 +95,43 @@ export function ComparePicker({
             >
               Apps you&rsquo;re weighing
             </span>
-            <span className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)]">
-              Pick 2 or more
+            <span
+              aria-live="polite"
+              className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)]"
+            >
+              {countHint}
             </span>
           </div>
-          <div
-            role="group"
-            aria-labelledby="compareCandidatesLabel"
-            className="flex flex-wrap gap-1.5"
-          >
-            {candidates.map((app) => {
-              const active = selectedSlugs.includes(app.slug);
-              return (
-                <button
-                  key={app.slug}
-                  type="button"
-                  onClick={() => onToggle(app.slug)}
-                  aria-pressed={active}
-                  className={cn(
-                    "inline-flex h-9 shrink-0 items-center rounded-full px-3 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
-                    "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
-                    active
-                      ? "bg-[var(--color-accent)] text-[var(--color-canvas)]"
-                      : "bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)]",
-                  )}
-                >
-                  {app.name}
-                </button>
-              );
-            })}
-          </div>
+          {candidates.length === 0 ? (
+            <p className="text-sm text-[var(--color-ink-dim)]">No listings in this category yet.</p>
+          ) : (
+            <div
+              role="group"
+              aria-labelledby="compareCandidatesLabel"
+              className="flex flex-wrap gap-1.5"
+            >
+              {candidates.map((app) => {
+                const active = selectedSlugs.includes(app.slug);
+                return (
+                  <button
+                    key={app.slug}
+                    type="button"
+                    onClick={() => onToggle(app.slug)}
+                    aria-pressed={active}
+                    className={cn(
+                      "inline-flex h-9 shrink-0 items-center rounded-full px-3 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
+                      "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+                      active
+                        ? "bg-[var(--color-accent)] text-[var(--color-canvas)]"
+                        : "bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)]",
+                    )}
+                  >
+                    {app.name}
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
     </div>

@@ -70,6 +70,10 @@ export async function submitContact(formData: FormData): Promise<ContactResult> 
   if (message.length > 1000) {
     return { ok: false, error: "Please keep it under 1,000 characters." };
   }
+  // Mirror the client guard: a comparison needs at least two listings.
+  if (compareCategory && candidates.length < 2) {
+    return { ok: false, error: "Please select at least two apps to compare." };
+  }
 
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {

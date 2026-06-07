@@ -17,7 +17,7 @@ import { ContactSuccess } from "./contact-success";
 const ComparePicker = dynamic(() => import("./compare-picker").then((m) => m.ComparePicker), {
   ssr: false,
   loading: () => (
-    <p className="font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
+    <p className="flex min-h-28 items-center font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
       Loading the catalog…
     </p>
   ),

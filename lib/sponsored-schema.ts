@@ -17,7 +17,7 @@ const literals = <T extends string>(values: ReadonlyArray<T>) => [...values] as 
 const HEX = /^#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/;
 
 /** Slot links point either off-site (paid placement, absolute http(s)) or to an
- *  internal route (e.g. the Blokz "/contact?subject=…" self-promo), so a plain
+ *  internal route (e.g. the Blokz "/contact?type=sponsorship" CTA), so a plain
  *  `z.string().url()` is too strict — allow a root-relative path too. The card
  *  uses the http(s) test to decide target=_blank + rel="sponsored". */
 const slotUrl = z

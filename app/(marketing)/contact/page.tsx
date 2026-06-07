@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact",
-  description: `Got an idea, a brief, or a half-finished side quest? Tell us about it — we reply within 48 hours.`,
+  description: `Compare apps, suggest one we're missing, sponsor a slot, or flag a correction — the front desk for the AI-apps directory. We reply within 48 hours.`,
   path: "/contact",
 });
 
