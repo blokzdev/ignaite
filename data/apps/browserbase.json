@@ -1,0 +1,38 @@
+{
+  "slug": "browserbase",
+  "insight": "Open-sources its Stagehand automation framework, but the stealth-proxy, CAPTCHA-solving headless-browser fleet is the paid hosted product.",
+  "name": "Browserbase",
+  "tagline": "Headless browser infrastructure for AI agents.",
+  "description": "Managed cloud fleet of headless browsers that let AI agents browse, authenticate, and act on the web at scale. Sessions ship with stealth proxies, automated CAPTCHA solving, and observability, driven via API or the open-source Stagehand framework. Usage-based billing on top of a monthly base plan.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Browserbase",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Browser runtime for any agent framework or model."
+  },
+  "tags": ["browser-automation", "agents", "headless-browser", "web-scraping"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.browserbase.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/browserbase"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.browserbase.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.browserbase.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

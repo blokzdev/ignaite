@@ -1,0 +1,33 @@
+{
+  "slug": "antigravity",
+  "insight": "Agent-first fork of VS Code where agents emit verifiable Artifacts — plans, screenshots, browser recordings — not just code diffs.",
+  "name": "Google Antigravity",
+  "tagline": "Agentic development platform built on a VS Code fork.",
+  "description": "Google's agent-first IDE where autonomous agents plan, execute, and verify coding tasks across the editor, terminal, and browser. A Manager view orchestrates multiple agents in parallel, and agents produce Artifacts — task lists, plans, screenshots, browser recordings — so you can check their work at a glance. Launched in public preview alongside Gemini 3.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Google",
+  "platforms": ["macos", "windows", "linux", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": [
+      "Gemini 3.1 Pro",
+      "Gemini 3 Flash",
+      "Claude Sonnet 4.6",
+      "Claude Opus 4.6",
+      "GPT-OSS"
+    ],
+    "notes": "Defaults to Gemini 3; Anthropic and open models are selectable."
+  },
+  "tags": ["ide", "agentic", "vscode-fork", "gemini"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://antigravity.google",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

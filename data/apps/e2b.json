@@ -1,0 +1,39 @@
+{
+  "slug": "e2b",
+  "insight": "Sandboxes are Firecracker microVMs with sub-second cold starts, billed per second a sandbox runs rather than per request.",
+  "name": "E2B",
+  "tagline": "Secure cloud sandboxes for running AI-generated code.",
+  "description": "Open-source infrastructure that spins up isolated cloud sandboxes so AI agents can execute generated code safely. Python and JS/TS SDKs cover code interpretation, data analysis, and computer-use desktops, with per-second billing. Self-host or BYOC/on-prem is supported for enterprise.",
+  "category": "infra",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "E2B",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Runtime for any agent/model; integrates with OpenAI, Anthropic, Mistral, and Llama."
+  },
+  "tags": ["sandbox", "code-execution", "agents", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://e2b.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/e2b-dev/E2B"
+    },
+    {
+      "kind": "docs",
+      "url": "https://e2b.dev/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://e2b.dev/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
