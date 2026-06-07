@@ -27,8 +27,6 @@ import { FilterControls } from "./filter-controls";
 import { FilterDrawer } from "./filter-drawer";
 import { BackToTop } from "./back-to-top";
 
-const TOTAL = apps.length;
-
 // The integrated directory chrome that lives inside the site header on `/`:
 // a persistent search field, an always-visible quick-Category strip, and the
 // secondary facets behind a Filters popover (desktop) / sheet (mobile). It reads
@@ -127,6 +125,16 @@ export function DirectoryConsole() {
     filter.platform.length +
     (filter.license != null ? 1 : 0) +
     ((filter.status ?? "active") !== "active" ? 1 : 0);
+
+  // The "{filtered} of {N}" denominator follows the current STATUS scope — the
+  // universe the other facets narrow within — so it stays coherent (filtered ≤ N)
+  // and at-rest reads the live/active total (matching the strip + masthead).
+  const statusScope = useMemo(() => {
+    const mode = filter.status ?? "active";
+    return mode === "all"
+      ? apps.length
+      : apps.filter((a) => (a.status ?? "active") === mode).length;
+  }, [filter.status]);
 
   // Mark the route so globals.css can grow --nav-h to clear the taller console
   // (drives scroll-padding-top / the skip-link landing only — no reflow).
@@ -252,7 +260,7 @@ export function DirectoryConsole() {
                     className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase"
                     aria-live="polite"
                   >
-                    {hasFilter ? `${filtered} of ${TOTAL}` : `${TOTAL} apps`}
+                    {hasFilter ? `${filtered} of ${statusScope}` : `${statusScope} apps`}
                   </p>
                   {hasFilter && (
                     <button
@@ -274,7 +282,7 @@ export function DirectoryConsole() {
           <div className="sm:hidden">
             <FilterDrawer
               activeCount={secondaryCount}
-              total={TOTAL}
+              total={statusScope}
               filtered={filtered}
               counts={counts}
             />
@@ -284,7 +292,7 @@ export function DirectoryConsole() {
             className="hidden shrink-0 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase lg:block"
             aria-live="polite"
           >
-            {hasFilter ? `${filtered} of ${TOTAL}` : `${TOTAL} apps`}
+            {hasFilter ? `${filtered} of ${statusScope}` : `${statusScope} apps`}
           </p>
         </div>
 

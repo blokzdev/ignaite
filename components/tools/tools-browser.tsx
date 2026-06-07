@@ -5,7 +5,7 @@ import type { App, AppCategory } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/.velite";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
-import { filterApps } from "@/lib/tools/filter-apps";
+import { countMatches, filterApps } from "@/lib/tools/filter-apps";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
   CATEGORY_LABEL,
@@ -62,6 +62,26 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     filter.license != null ||
     (filter.status ?? "active") !== "active" ||
     (filter.q?.length ?? 0) > 0;
+
+  // Archived apps that match the current query/filters but are hidden by the live
+  // (active) default. When > 0 we surface them on demand rather than mixing dead
+  // apps into results — empty state recovery + a subtle inline hint.
+  const hidingArchived = (filter.status ?? "active") === "active";
+  const archivedMatches = useMemo(
+    () => (hidingArchived ? countMatches(apps, { ...filter, status: "archived" }) : 0),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [
+      apps,
+      hidingArchived,
+      filter.category,
+      filter.pricing,
+      filter.deployment,
+      filter.platform,
+      filter.license,
+      filter.q,
+    ],
+  );
+  const showArchived = () => void setFilter({ status: "all" });
 
   // Empty-state recovery data — the featured picks and the most-populated
   // categories give a no-match visitor a one-tap way back into results.
@@ -143,10 +163,24 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
           onPickCategory={pickCategory}
           categories={suggestedCategories}
           featured={featuredPicks}
+          archivedCount={archivedMatches}
+          onShowArchived={showArchived}
         />
       ) : (
         <>
           <ActiveFiltersRow />
+          {filtersApplied && archivedMatches > 0 && (
+            <button
+              type="button"
+              onClick={showArchived}
+              className="mb-5 inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase transition-colors hover:text-[var(--color-ink)] focus-visible:rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+            >
+              {archivedMatches === 1
+                ? "1 archived also matches"
+                : `${archivedMatches} archived also match`}
+              <span className="text-[var(--color-accent)]">· Show</span>
+            </button>
+          )}
           <ToolGrid items={items} />
           {hasMore ? (
             <>

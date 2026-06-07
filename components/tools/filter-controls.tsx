@@ -152,10 +152,7 @@ export function FilterControls({ filters, variant = "inline", omit, counts }: Re
               label={STATUS_LABEL[s]}
               active={(filter.status ?? "active") === s}
               onClick={() => filters.setStatus(s === "active" ? null : s)}
-              // A search spans active + archived (matchesApp ignores status under a
-              // query), so the per-status counts would all be equal + misleading —
-              // suppress them while searching rather than show a false split.
-              count={filter.q ? undefined : counts?.status[s]}
+              count={counts?.status[s]}
             />
           ))}
         </FilterRow>
