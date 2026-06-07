@@ -1,10 +1,9 @@
 /**
- * Resets every directory filter param to null in one call. Shared by the filter
- * bar's "Clear all" and the empty-state "Clear filters" CTA so the param list
- * lives in exactly one place and the two callers can't drift apart.
+ * Resets every directory filter param to null in one call. Shared by the
+ * console's "Clear all" and the empty-state "Clear filters" CTA so the param
+ * list lives in exactly one place and the two callers can't drift apart.
  *
- * The argument is the `setFilter` returned by the directory `useQueryStates`
- * (mirrored in tools-browser.tsx and tool-filter-bar.tsx).
+ * The argument is the `setFilter` returned by the directory `useQueryStates`.
  */
 interface ClearableFilter {
   category: null;

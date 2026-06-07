@@ -8,9 +8,16 @@ interface Props {
   onOpenChange: (open: boolean) => void;
   total: number;
   filtered: number;
+  omitCategory?: boolean;
 }
 
-export function FilterDrawerPortal({ open, onOpenChange, total, filtered }: Readonly<Props>) {
+export function FilterDrawerPortal({
+  open,
+  onOpenChange,
+  total,
+  filtered,
+  omitCategory,
+}: Readonly<Props>) {
   const filters = useDirectoryFilters();
 
   return (
@@ -24,7 +31,11 @@ export function FilterDrawerPortal({ open, onOpenChange, total, filtered }: Read
         </SheetTitle>
 
         <div className="mt-5">
-          <FilterControls filters={filters} variant="stacked" />
+          <FilterControls
+            filters={filters}
+            variant="stacked"
+            omit={omitCategory ? ["category"] : undefined}
+          />
         </div>
 
         <div className="mt-6 flex items-center justify-between gap-3 border-t border-white/[0.06] pt-4">
