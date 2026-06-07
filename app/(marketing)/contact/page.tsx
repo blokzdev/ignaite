@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Check, X } from "lucide-react";
 import { ContactForm } from "@/components/contact/contact-form";
 import { ContactFormSkeleton } from "@/components/contact/contact-form-skeleton";
 import { GlowOrb } from "@/components/effects/glow-orb";
@@ -81,18 +81,43 @@ export default function ContactPage() {
               <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
                 House rules
               </h2>
-              <ul className="mt-4 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink-dim)]">
-                <li>
-                  Pay-to-play pitches — sponsorship is always labeled and never buys a listing or a
-                  better rank.
-                </li>
-                <li>
-                  Claims we can&apos;t verify against an app&apos;s own source — no fabrication,
-                  ever.
-                </li>
-                <li>
-                  Anything predatory, exploitative, or hostile to the people who&apos;d use it.
-                </li>
+
+              <p className="mt-4 font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-soft)] uppercase">
+                Glad to hear from
+              </p>
+              <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink-dim)]">
+                {[
+                  "App suggestions and corrections — every one gets researched and credited.",
+                  "Sponsors who want reach, not a rigged ranking.",
+                  "Hard questions about how we judged a listing.",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <Check
+                      aria-hidden
+                      className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-success)]"
+                    />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <p className="mt-4 font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-soft)] uppercase">
+                We&apos;ll pass on
+              </p>
+              <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink-dim)]">
+                {[
+                  "Pay-to-play pitches that expect a listing or a better rank.",
+                  "Claims we can't verify against an app's own source.",
+                  "Anything predatory, exploitative, or hostile to its users.",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <X
+                      aria-hidden
+                      className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-danger)]"
+                    />
+                    <span>{item}</span>
+                  </li>
+                ))}
               </ul>
             </section>
           </aside>
