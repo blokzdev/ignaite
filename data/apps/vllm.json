@@ -1,0 +1,36 @@
+{
+  "slug": "vllm",
+  "insight": "PagedAttention pages the KV cache like OS virtual memory, slashing waste — the trick that made it the default open-source serving engine.",
+  "name": "vLLM",
+  "tagline": "High-throughput, memory-efficient inference engine for LLMs.",
+  "description": "Open-source (Apache-2.0) serving engine for large language and vision-language models, originally from UC Berkeley's Sky Computing Lab. Its PagedAttention KV-cache management and continuous batching deliver high throughput on commodity GPUs. Now a community project with 1000s of contributors and an OpenAI-compatible server.",
+  "category": "inference",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "vLLM Project",
+  "platforms": ["linux", "cli", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Qwen", "Mistral", "DeepSeek"],
+    "notes": "Serves most Hugging Face transformer LLMs and vision-language models."
+  },
+  "tags": ["inference", "model-serving", "gpu", "open-source", "self-hosted"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vllm.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.vllm.ai"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "litellm",
+  "insight": "Translates 100+ providers into one OpenAI-format call, so many other AI tools quietly embed it as their model-routing layer.",
+  "name": "LiteLLM",
+  "tagline": "AI gateway: call 100+ LLMs in one OpenAI-format interface.",
+  "description": "Open-source Python SDK and proxy server (AI gateway) that exposes 100+ LLM providers through a single OpenAI-compatible API, with cost tracking, load balancing, fallbacks, caching, and guardrails. Self-host the proxy or use the managed cloud; a paid Enterprise tier adds SSO, audit logs, and support.",
+  "category": "inference",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "BerriAI",
+  "platforms": ["api", "web", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini", "Bedrock", "Ollama"],
+    "notes": "Unifies 100+ providers behind one OpenAI-format interface."
+  },
+  "tags": ["gateway", "proxy", "routing", "open-source", "cost-tracking"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.litellm.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/BerriAI/litellm"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.litellm.ai"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
