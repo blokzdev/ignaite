@@ -1,0 +1,35 @@
+{
+  "slug": "twelve-labs",
+  "insight": "Indexes video into spatiotemporal embeddings rather than captioning frames, so you search a library by what happens on screen, not tags.",
+  "name": "Twelve Labs",
+  "tagline": "Video understanding API. Search and reason over footage.",
+  "description": "A video intelligence platform whose models turn raw footage into searchable, reasoned-over content. Marengo produces multimodal embeddings for natural-language search across a video library; Pegasus reasons over the full timeline to summarize, classify, and answer questions. Offered as an API and SDK with a web playground.",
+  "category": "vision",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Twelve Labs",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Marengo", "Pegasus"],
+    "notes": "First-party proprietary video models — Marengo (embeddings) and Pegasus (video-language)."
+  },
+  "tags": ["video-understanding", "embeddings", "semantic-search", "multimodal"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.twelvelabs.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.twelvelabs.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.twelvelabs.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

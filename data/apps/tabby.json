@@ -1,0 +1,35 @@
+{
+  "slug": "tabby",
+  "insight": "A single self-contained Rust binary — no external database or cloud — that serves completions from open code models on your own GPU.",
+  "name": "Tabby",
+  "tagline": "Self-hosted, open-source AI coding assistant.",
+  "description": "An on-premises alternative to GitHub Copilot you run yourself. Tabby is a self-contained Rust server that loads an open code model into GPU memory and serves completions, chat, and inline edits over HTTP, with no external database or cloud dependency. Editor plugins cover VS Code, JetBrains, and Vim.",
+  "category": "ide",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "TabbyML",
+  "platforms": ["vscode-extension", "linux", "macos", "windows"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Self-hosts an open code model (StarCoder, Qwen, CodeLlama, etc.) you choose; runs on consumer GPUs."
+  },
+  "tags": ["code-completion", "self-hosted", "copilot-alternative", "rust", "privacy"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tabbyml.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/TabbyML/tabby"
+    },
+    {
+      "kind": "docs",
+      "url": "https://tabby.tabbyml.com"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

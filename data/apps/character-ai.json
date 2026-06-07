@@ -1,0 +1,30 @@
+{
+  "slug": "character-ai",
+  "insight": "Founders Shazeer and De Freitas rejoined Google in a 2024 licensing deal while the app kept running under new leadership.",
+  "name": "Character.AI",
+  "tagline": "Chat with millions of user-made AI characters.",
+  "description": "A consumer platform for creating and chatting with AI personas — fictional characters, helpers, and roleplay companions — across web and mobile. Hosts millions of community-built characters with voice calls and image generation on the paid tier. One of the largest conversational-AI roleplay products by usage.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Character.AI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary in-house dialogue models."
+  },
+  "tags": ["roleplay", "companion", "characters", "consumer"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://character.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://character.ai/subscription/plus/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
