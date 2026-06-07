@@ -1,0 +1,30 @@
+{
+  "slug": "consensus",
+  "insight": "Its 'Consensus Meter' summarizes whether a body of papers agrees or disagrees on a question, going beyond surfacing individual citations.",
+  "name": "Consensus",
+  "tagline": "AI search over 200M+ peer-reviewed papers, with citations.",
+  "description": "An academic search engine that runs natural-language questions against a corpus of more than 200 million peer-reviewed papers and synthesizes the findings with inline citations. Its Consensus Meter aggregates how much the studies agree or disagree, and a copilot helps draft literature reviews. Aimed at researchers, students, and clinicians.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Consensus",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM synthesis layered over a 200M+ peer-reviewed paper corpus."
+  },
+  "tags": ["research", "academic-search", "citations", "literature-review"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://consensus.app",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://consensus.app/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

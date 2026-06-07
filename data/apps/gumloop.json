@@ -1,0 +1,34 @@
+{
+  "slug": "gumloop",
+  "insight": "Ships guMCP, its own open-source MCP server suite, so flows call tools through a standard protocol instead of bespoke per-app connectors.",
+  "name": "Gumloop",
+  "tagline": "No-code AI workflow automation on a visual node canvas.",
+  "description": "A drag-and-drop platform for building AI-powered automations as node graphs — web scraping, document parsing, image analysis, and multi-model chaining without code. Connects apps, data, and LLMs into triggered or scheduled flows. Backed by Y Combinator and a Benchmark-led Series B.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Gumloop",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Chains multiple LLMs across nodes; model selectable per AI step."
+  },
+  "tags": ["no-code", "automation", "agents", "workflows"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.gumloop.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.gumloop.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.gumloop.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

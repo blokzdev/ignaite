@@ -1,0 +1,34 @@
+{
+  "slug": "photoroom",
+  "insight": "Built on its own in-house segmentation models, it skews to e-commerce catalog work — product staging, virtual models — over general editing.",
+  "name": "Photoroom",
+  "tagline": "AI photo editor and listing studio for product images.",
+  "description": "An AI photo editor focused on product photography — background removal, product staging, virtual models, batch exports, and templates for marketplaces. Available on web and mobile, with an API for generating commerce visuals at scale. Built on the company's own image and segmentation models.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Photoroom",
+  "platforms": ["web", "ios", "android", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "In-house background-removal, segmentation, and image-generation models."
+  },
+  "tags": ["photo-editing", "background-removal", "e-commerce", "product-photography"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.photoroom.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.photoroom.com/api"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.photoroom.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
