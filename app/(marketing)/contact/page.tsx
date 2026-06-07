@@ -38,10 +38,8 @@ export default function ContactPage() {
 
       <div className="relative mx-auto max-w-6xl">
         <header className="max-w-3xl">
-          <p className="text-eyebrow text-[var(--color-accent)]">{"// Let's talk"}</p>
-          <h1 className="mt-4 text-5xl sm:text-6xl md:text-7xl">
-            <span className="text-display text-[var(--color-ink)]">Got an idea?</span>{" "}
-            <span className="text-display text-[var(--color-accent)]">Pitch us.</span>
+          <h1 className="font-mono text-3xl font-medium tracking-[0.04em] text-[var(--color-ink)] uppercase sm:text-4xl md:text-5xl">
+            Let&apos;s talk
           </h1>
         </header>
 
