@@ -82,3 +82,14 @@ export function countMatches(apps: ReadonlyArray<App>, filter: DirectoryFilter):
   for (const a of apps) if (matchesApp(a, filter)) n++;
   return n;
 }
+
+/** The N most-recently-added *active* apps, for the discovery rail. Reuses the
+ *  same recency order as the "Recent" sort; archived listings are excluded so the
+ *  rail only ever surfaces live, freshly-added apps (kept current by the weekly
+ *  discover-apps routine). */
+export function recentApps(apps: ReadonlyArray<App>, limit: number): App[] {
+  return apps
+    .filter((a) => (a.status ?? "active") === "active")
+    .sort(compareApps("recent"))
+    .slice(0, limit);
+}
