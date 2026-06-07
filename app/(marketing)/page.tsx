@@ -24,7 +24,7 @@ export default function HomePage() {
   // (not a <header> — site-nav owns the one <header> landmark) and scrolls away
   // under the console.
   return (
-    <div className="relative overflow-clip px-6 pt-44 pb-32 sm:pt-48">
+    <div className="relative overflow-clip px-6 pt-40 pb-32 sm:pt-44">
       <GlowOrb
         className="-top-32 left-1/2 -translate-x-1/2"
         size={720}
