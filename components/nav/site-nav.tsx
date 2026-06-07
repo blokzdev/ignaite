@@ -33,14 +33,14 @@ function openNavConsole() {
 export function SiteNav() {
   const pathname = usePathname() ?? "/";
   const isDirectory = pathname === "/";
-  const scrolled = useScrollThreshold(8);
+  const scrolled = useScrollThreshold(8, pathname);
   const reduced = useReducedMotion();
   // The top nav row hides on scroll-down and reveals on scroll-up — on every
   // route, including `/`. On the directory route only the nav ROW collapses; the
   // search/category console below it stays pinned (it must never be more than a
   // keystroke away). On content routes the whole header slides away as before.
   // Never hide for reduced-motion users (the snap would be jarring untransitioned).
-  const navHidden = useScrollDirection(80) && !reduced;
+  const navHidden = useScrollDirection(80, pathname) && !reduced;
 
   // Publish nav visibility so the condensed --nav-h (scroll-padding / skip-link
   // landing) tracks the collapsed chrome: 0 on content routes, console-height on

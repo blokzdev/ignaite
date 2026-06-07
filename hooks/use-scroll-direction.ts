@@ -9,8 +9,15 @@ import { useEffect, useState } from "react";
  *
  * rAF-throttled with a small delta guard so momentum/sub-pixel jitter near the
  * direction boundary doesn't flicker the header.
+ *
+ * Pass `resetKey` (e.g. the current pathname) to re-baseline on client-side
+ * navigation: the consuming nav lives in a persistent layout that never
+ * remounts, so without this the closure's `last`/`ticking` and the scroll
+ * listener carry over stale from the prior route and the auto-hide stops
+ * tracking until a hard refresh. Re-running on `resetKey` re-attaches a fresh
+ * listener; the browser's scroll-to-top on navigation then re-syncs visibility.
  */
-export function useScrollDirection(reveal = 80): boolean {
+export function useScrollDirection(reveal = 80, resetKey?: unknown): boolean {
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
@@ -37,7 +44,7 @@ export function useScrollDirection(reveal = 80): boolean {
 
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, [reveal]);
+  }, [reveal, resetKey]);
 
   return hidden;
 }

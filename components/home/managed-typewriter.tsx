@@ -88,7 +88,7 @@ export function ManagedTypewriter({ className }: Readonly<{ className?: string }
           {LONGEST}
           <span className="ml-px inline-block w-px" />
         </span>
-        <span className="col-start-1 row-start-1 justify-self-start whitespace-nowrap">
+        <span className="col-start-1 row-start-1 justify-self-center whitespace-nowrap">
           {text}
           <span className="ml-px inline-block h-[1em] w-px translate-y-[0.1em] [animation:caret-blink_1s_step-end_infinite] bg-current align-baseline motion-reduce:hidden" />
         </span>
