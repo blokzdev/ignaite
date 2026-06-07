@@ -12,15 +12,22 @@ import {
   type DirectoryFilters,
 } from "@/hooks/use-directory-filters";
 
+/** Facet rows this component can render — used by `omit` to drop a row that a
+ *  sibling surface owns (e.g. the header console's quick-Category strip). */
+export type FacetKey = "category" | "pricing" | "platform" | "deployment" | "source" | "status";
+
 interface Props {
   filters: DirectoryFilters;
   /** "inline" = horizontal-scroll rows (desktop bar); "stacked" = wrapping rows (drawer). */
   variant?: "inline" | "stacked";
+  /** Facet rows to hide (the owning surface renders them instead). */
+  omit?: ReadonlyArray<FacetKey>;
 }
 
-export function FilterControls({ filters, variant = "inline" }: Readonly<Props>) {
+export function FilterControls({ filters, variant = "inline", omit }: Readonly<Props>) {
   const { filter } = filters;
   const stacked = variant === "stacked";
+  const hidden = (key: FacetKey) => omit?.includes(key) ?? false;
 
   return (
     <div
@@ -29,88 +36,100 @@ export function FilterControls({ filters, variant = "inline" }: Readonly<Props>)
         !stacked && "no-scrollbar scroll-fade-x -mx-2 overflow-x-auto px-2",
       )}
     >
-      <FilterRow label="Category" stacked={stacked}>
-        <Chip active={filter.category.length === 0} onClick={filters.resetCategory}>
-          All
-        </Chip>
-        {APP_CATEGORIES.map((c) => (
-          <Chip
-            key={c}
-            active={filter.category.includes(c)}
-            onClick={() => filters.toggleCategory(c)}
-          >
-            {CATEGORY_LABEL[c]}
+      {!hidden("category") && (
+        <FilterRow label="Category" stacked={stacked}>
+          <Chip active={filter.category.length === 0} onClick={filters.resetCategory}>
+            All
           </Chip>
-        ))}
-      </FilterRow>
+          {APP_CATEGORIES.map((c) => (
+            <Chip
+              key={c}
+              active={filter.category.includes(c)}
+              onClick={() => filters.toggleCategory(c)}
+            >
+              {CATEGORY_LABEL[c]}
+            </Chip>
+          ))}
+        </FilterRow>
+      )}
 
-      <FilterRow label="Pricing" stacked={stacked}>
-        <Chip active={filter.pricing.length === 0} onClick={filters.resetPricing}>
-          All
-        </Chip>
-        {APP_PRICING.map((p) => (
-          <Chip
-            key={p}
-            active={filter.pricing.includes(p)}
-            onClick={() => filters.togglePricing(p)}
-          >
-            {PRICING_LABEL[p]}
+      {!hidden("pricing") && (
+        <FilterRow label="Pricing" stacked={stacked}>
+          <Chip active={filter.pricing.length === 0} onClick={filters.resetPricing}>
+            All
           </Chip>
-        ))}
-      </FilterRow>
+          {APP_PRICING.map((p) => (
+            <Chip
+              key={p}
+              active={filter.pricing.includes(p)}
+              onClick={() => filters.togglePricing(p)}
+            >
+              {PRICING_LABEL[p]}
+            </Chip>
+          ))}
+        </FilterRow>
+      )}
 
-      <FilterRow label="Platform" stacked={stacked}>
-        <Chip active={filter.platform.length === 0} onClick={filters.resetPlatform}>
-          All
-        </Chip>
-        {APP_PLATFORMS.map((p) => (
-          <Chip
-            key={p}
-            active={filter.platform.includes(p)}
-            onClick={() => filters.togglePlatform(p)}
-          >
-            {PLATFORM_LABEL[p]}
+      {!hidden("platform") && (
+        <FilterRow label="Platform" stacked={stacked}>
+          <Chip active={filter.platform.length === 0} onClick={filters.resetPlatform}>
+            All
           </Chip>
-        ))}
-      </FilterRow>
+          {APP_PLATFORMS.map((p) => (
+            <Chip
+              key={p}
+              active={filter.platform.includes(p)}
+              onClick={() => filters.togglePlatform(p)}
+            >
+              {PLATFORM_LABEL[p]}
+            </Chip>
+          ))}
+        </FilterRow>
+      )}
 
-      <FilterRow label="Deployment" stacked={stacked}>
-        <Chip active={filter.deployment.length === 0} onClick={filters.resetDeployment}>
-          All
-        </Chip>
-        {APP_DEPLOYMENTS.map((d) => (
-          <Chip
-            key={d}
-            active={filter.deployment.includes(d)}
-            onClick={() => filters.toggleDeployment(d)}
-          >
-            {DEPLOYMENT_LABEL[d]}
+      {!hidden("deployment") && (
+        <FilterRow label="Deployment" stacked={stacked}>
+          <Chip active={filter.deployment.length === 0} onClick={filters.resetDeployment}>
+            All
           </Chip>
-        ))}
-      </FilterRow>
+          {APP_DEPLOYMENTS.map((d) => (
+            <Chip
+              key={d}
+              active={filter.deployment.includes(d)}
+              onClick={() => filters.toggleDeployment(d)}
+            >
+              {DEPLOYMENT_LABEL[d]}
+            </Chip>
+          ))}
+        </FilterRow>
+      )}
 
-      <FilterRow label="Source" stacked={stacked}>
-        <Chip active={filter.license == null} onClick={() => filters.setLicense(null)}>
-          All
-        </Chip>
-        {LICENSE_SIGNALS.map((l) => (
-          <Chip key={l} active={filter.license === l} onClick={() => filters.setLicense(l)}>
-            {LICENSE_LABEL[l]}
+      {!hidden("source") && (
+        <FilterRow label="Source" stacked={stacked}>
+          <Chip active={filter.license == null} onClick={() => filters.setLicense(null)}>
+            All
           </Chip>
-        ))}
-      </FilterRow>
+          {LICENSE_SIGNALS.map((l) => (
+            <Chip key={l} active={filter.license === l} onClick={() => filters.setLicense(l)}>
+              {LICENSE_LABEL[l]}
+            </Chip>
+          ))}
+        </FilterRow>
+      )}
 
-      <FilterRow label="Status" stacked={stacked}>
-        {STATUS_FILTERS.map((s) => (
-          <Chip
-            key={s}
-            active={(filter.status ?? "active") === s}
-            onClick={() => filters.setStatus(s === "active" ? null : s)}
-          >
-            {STATUS_LABEL[s]}
-          </Chip>
-        ))}
-      </FilterRow>
+      {!hidden("status") && (
+        <FilterRow label="Status" stacked={stacked}>
+          {STATUS_FILTERS.map((s) => (
+            <Chip
+              key={s}
+              active={(filter.status ?? "active") === s}
+              onClick={() => filters.setStatus(s === "active" ? null : s)}
+            >
+              {STATUS_LABEL[s]}
+            </Chip>
+          ))}
+        </FilterRow>
+      )}
     </div>
   );
 }
