@@ -1,0 +1,30 @@
+{
+  "slug": "gamma",
+  "insight": "Generates editable websites and docs from a prompt, not just slides — and shipped a Generate API in Jan 2026 wired into Zapier and Make.",
+  "name": "Gamma",
+  "tagline": "Generate presentations, websites, and documents from a single prompt.",
+  "description": "An AI design tool that turns a prompt or pasted content into polished presentations, websites, documents, and social posts — automatically handling layout, copy structure, and visuals. It can import and restructure existing PDFs, slide decks, and Word files, and supports interactive embeds like live charts, videos, and forms. A Generate API added in early 2026 lets teams produce content programmatically at scale.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Gamma",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses multiple AI models behind the scenes; paid tiers unlock premium models and advanced image generation."
+  },
+  "tags": ["presentations", "decks", "website-builder", "content"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://gamma.app",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://gamma.app/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

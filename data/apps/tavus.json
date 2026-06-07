@@ -1,0 +1,34 @@
+{
+  "slug": "tavus",
+  "insight": "Its conversational stack splits into three named models — Phoenix-4 (render), Raven-1 (perception), Sparrow-1 (turn-taking) — at <500ms.",
+  "name": "Tavus",
+  "tagline": "Real-time conversational video AI and digital human replicas.",
+  "description": "A developer platform for building face-to-face AI agents that see, listen, and respond in live video through its Conversational Video Interface (CVI). It also generates personalized videos at scale from digital replicas of a real person. Built on Tavus's own models — Phoenix for rendering, Raven for perception, and Sparrow for conversational timing — with the ability to plug in custom LLMs and text-to-speech.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Tavus",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Ships its own Phoenix/Raven/Sparrow models; CVI lets you bring a custom LLM and TTS."
+  },
+  "tags": ["video", "avatars", "digital-twin", "conversational"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tavus.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.tavus.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.tavus.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
