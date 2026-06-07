@@ -15,6 +15,7 @@
 import { z } from "velite";
 import {
   APP_CATEGORIES,
+  APP_CHANGE_KINDS,
   APP_DEPLOYMENTS,
   APP_LINK_KINDS,
   APP_PLATFORMS,
@@ -27,6 +28,7 @@ import {
   type AppPlatform,
   type AppPricing,
   type AppStatus,
+  type ChangeKind,
   type ModelSupportKind,
 } from "../types/app";
 
@@ -56,6 +58,19 @@ export const linkSchema = z.object({
 export const screenshotSchema = z.object({
   src: z.string(),
   alt: z.string(),
+});
+
+export const changeEntrySchema = z.object({
+  /** ISO date the change was recorded (the audit date). */
+  date: z.string().regex(ISO_DATE, "date must be an ISO date (YYYY-MM-DD)"),
+  kind: z.enum(literals<ChangeKind>(APP_CHANGE_KINDS)),
+  /** One verifiable sentence: what changed (+ why, for a correction). */
+  summary: z.string().min(1).max(200, "change summary must be ≤200 chars"),
+  /** When the change actually happened upstream (real-world) — set ONLY when the
+   *  research can source the date; never guess. */
+  asOf: z.string().regex(ISO_DATE, "asOf must be an ISO date (YYYY-MM-DD)").optional(),
+  /** Source URL backing the change (evidence the audit verified against). */
+  source: z.string().url().optional(),
 });
 
 export const appSchema = z
@@ -107,6 +122,13 @@ export const appSchema = z
       .optional(),
     /** Gates an MDX long-form page at content/apps/<slug>.mdx. */
     hasLongForm: z.boolean().optional(),
+    /** Append-only audit trail: one entry per *substantive* change a maintenance
+     *  routine makes (added/updated/fixed/archived/relisted) — surfaced as the
+     *  detail page's "Change history". Newest-first is a render concern, not a
+     *  storage one. A no-change re-verification only bumps `lastVerifiedAt` (the
+     *  heartbeat) and records nothing here. Same no-fabrication rule as the rest:
+     *  `asOf`/`source` only when sourced. */
+    changelog: z.array(changeEntrySchema).optional(),
   })
   .refine((a) => a.links.filter((l) => l.primary).length === 1, {
     message: "links must contain exactly one entry with `primary: true`",
@@ -121,3 +143,4 @@ export type App = z.infer<typeof appSchema>;
 export type AppLink = z.infer<typeof linkSchema>;
 export type ModelSupport = z.infer<typeof modelSupportSchema>;
 export type AppScreenshot = z.infer<typeof screenshotSchema>;
+export type ChangeEntry = z.infer<typeof changeEntrySchema>;

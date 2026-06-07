@@ -84,8 +84,22 @@ export function AppDetailSkeleton() {
           </ul>
         </div>
 
+        {/* Change history */}
+        <div className="mt-12 rounded-2xl bg-white/[0.03] p-6 ring-1 ring-white/[0.06] ring-inset">
+          <Skeleton variant="pulse" className="h-3 w-32" />
+          <div className="mt-5 space-y-6 border-l border-white/[0.08] pl-6">
+            {Array.from({ length: 2 }).map((_, i) => (
+              <div key={i} className="flex flex-col gap-2">
+                <Skeleton variant="pulse" className="h-3 w-40" />
+                <Skeleton variant="shimmer" className="h-4 w-full" />
+                <Skeleton variant="shimmer" className="h-4 w-4/5" />
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Accuracy note */}
-        <Skeleton variant="shimmer" className="mt-20 h-28 w-full rounded-2xl" />
+        <Skeleton variant="shimmer" className="mt-12 h-28 w-full rounded-2xl" />
       </div>
     </div>
   );

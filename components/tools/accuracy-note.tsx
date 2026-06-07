@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, ShieldCheck } from "lucide-react";
+import { formatDate } from "@/lib/utils";
 
 /**
  * Integrated "how this listing is maintained" note for /apps/<slug>. Folds the
@@ -31,7 +32,7 @@ export function AccuracyNote({
       <div className="mt-5 flex flex-col items-start gap-3 border-t border-white/[0.06] pt-5 sm:flex-row sm:items-center sm:justify-between">
         {lastVerifiedAt && (
           <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
-            Last verified · {lastVerifiedAt}
+            Last verified · {formatDate(lastVerifiedAt)}
           </p>
         )}
         <Link

@@ -46,6 +46,36 @@ For each entry in scope:
 - Keep edits minimal + within the schema (`lib/apps-schema.ts`; types in `types/app.ts`). Editing
   separate per-slug files means a multi-entry audit won't conflict with a parallel discovery run.
 
+## 2.5 Record the change (`changelog`) — only when something actually changed
+
+Whenever you apply a **substantive** edit above (pricing, platforms, modelSupport, links, `openSource`,
+`deployment`, `status`, `insight`, `vendor`, `tags`, `featured`), **append an entry** to that listing's
+`changelog` array — this is the visible audit trail on the app detail page. Shape (schema:
+`changeEntrySchema` in `lib/apps-schema.ts`):
+
+```json
+{
+  "date": "<today, YYYY-MM-DD>",
+  "kind": "updated",
+  "summary": "One sentence (≤200 chars): what changed, and why for a correction.",
+  "asOf": "<YYYY-MM-DD>",
+  "source": "https://…"
+}
+```
+
+- **`kind`** — `updated` (the app itself changed upstream) · `fixed` (our data was wrong and you
+  corrected it) · `archived` (discontinued/sunset) · `relisted` (brought back after archival).
+  (`added` is reserved for `/add-app`; the detail page derives the origin node from `addedAt`.)
+- **`summary`** — concrete and specific ("Pricing moved from free to freemium — added a $20/mo Pro
+  tier", not "updated pricing").
+- **`asOf`** — the real-world date the change happened upstream, **only if you can source it** (a
+  changelog, release note, dated blog/commit). Omit if you can't pin it — never guess.
+- **`source`** — the URL you verified the change against (the pricing page, the LICENSE file, the
+  shutdown notice). Strongly preferred; omit only if there's genuinely no linkable source.
+- **Do NOT** add an entry for a plain re-verification with no change — that's just the `lastVerifiedAt`
+  bump. The `changelog` is for real changes only, so it stays meaningful. Append (newest end is fine —
+  the page sorts by date); keep prior entries intact (append-only).
+
 ## 3. Validate + report
 
 - `pnpm velite` (runs `velite build --strict` — schema-validates every touched JSON, exiting non-zero

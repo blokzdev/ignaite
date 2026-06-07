@@ -31,5 +31,13 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-07",
+      "kind": "fixed",
+      "summary": "Corrected license signal — Phoenix is Elastic License 2.0 (source-available), not OSI open-source.",
+      "source": "https://github.com/Arize-ai/phoenix/blob/main/LICENSE"
+    }
+  ]
 }
