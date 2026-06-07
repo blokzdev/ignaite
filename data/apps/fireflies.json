@@ -1,0 +1,30 @@
+{
+  "slug": "fireflies",
+  "insight": "A calendar bot auto-joins Zoom, Meet, and Teams calls to record them, and AskFred answers questions across your past meetings.",
+  "name": "Fireflies.ai",
+  "tagline": "AI notetaker that records, transcribes, and summarizes meetings.",
+  "description": "A meeting assistant whose bot joins Zoom, Google Meet, Microsoft Teams, and Webex calls to record, transcribe, and summarize them, then extracts action items and highlights. The AskFred assistant lets you query across past conversations, and transcripts sync to CRMs and other tools. Mobile and Chrome apps capture in-person and browser audio.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Fireflies.ai",
+  "platforms": ["web", "ios", "android", "browser-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary speech-to-text; AskFred summaries and Q&A over transcripts."
+  },
+  "tags": ["meeting-notes", "transcription", "summaries", "crm"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fireflies.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://fireflies.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
