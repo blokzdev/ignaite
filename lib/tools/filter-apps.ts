@@ -26,13 +26,13 @@ export function matchesApp(a: App, filter: DirectoryFilter): boolean {
   }
   if (filter.license != null && licenseSignal(a) !== filter.license) return false;
 
-  // Status only constrains the default browse; an active search reaches across
-  // active + archived so a name match is never hidden by the status toggle.
-  if (!query) {
-    const appStatus = a.status ?? "active";
-    if (statusMode === "active" && appStatus !== "active") return false;
-    if (statusMode === "archived" && appStatus !== "archived") return false;
-  }
+  // Status is a normal facet: it always applies (default "active" hides archived).
+  // A search no longer bypasses it — archived matches are surfaced explicitly via
+  // the active-first recovery (tools-browser) rather than silently mixed in.
+  const appStatus = a.status ?? "active";
+  if (statusMode === "active" && appStatus !== "active") return false;
+  if (statusMode === "archived" && appStatus !== "archived") return false;
+  // "all" → no status constraint.
 
   if (query) {
     const haystack = [

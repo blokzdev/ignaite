@@ -53,8 +53,8 @@ export function facetCounts(apps: ReadonlyArray<App>, filter: DirectoryFilter): 
     deployment: tally(APP_DEPLOYMENTS, (d) => count({ deployment: [d] })),
     platform: tally(APP_PLATFORMS, (p) => count({ platform: [p] })),
     license: tally(LICENSE_SIGNALS, (l) => count({ license: l })),
-    // Status only narrows the default (no-query) browse; under a query matchesApp
-    // ignores it, so these read flat during search — intended.
+    // Status always applies now (active/archived/all), so these are accurate
+    // during search too — no special-casing.
     status: tally(STATUS_FILTERS, (s) => count({ status: s })),
     all: {
       category: count({ category: [] }),
