@@ -3,6 +3,7 @@ import { ArrowDownUp, Search, SlidersHorizontal, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { apps } from "@/.velite";
 import { cn } from "@/lib/utils";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { countMatches } from "@/lib/tools/filter-apps";
 import { APP_CATEGORIES } from "@/types/app";
 import type { AppCategory } from "@/types/app";
@@ -23,6 +24,7 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { FilterControls } from "./filter-controls";
 import { FilterDrawer } from "./filter-drawer";
+import { BackToTop } from "./back-to-top";
 
 const TOTAL = apps.length;
 
@@ -49,6 +51,40 @@ export function DirectoryConsole() {
   useEffect(() => {
     if (!inputFocused.current) setText(filter.q ?? "");
   }, [filter.q]);
+
+  // The "/" shortcut focuses this field on the directory route (command-palette
+  // dispatches the event instead of opening the ⌘K jump-to palette). ⌘K stays the
+  // global palette — two distinct search affordances.
+  const inputRef = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    const onFocusSearch = () => {
+      inputRef.current?.focus();
+      inputRef.current?.select();
+    };
+    window.addEventListener("blokz:focus-search", onFocusSearch);
+    return () => window.removeEventListener("blokz:focus-search", onFocusSearch);
+  }, []);
+
+  // Keep the selected category chip visible: a deep-link (or toggle) to a category
+  // far down the horizontally-scrolled strip would otherwise leave the active chip
+  // off-screen with no cue. Scroll the first active chip into view (or back to the
+  // start when only "All" is selected) on mount + whenever the selection changes.
+  const reduced = useReducedMotion();
+  const stripRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const strip = stripRef.current;
+    if (!strip) return;
+    const active = strip.querySelector<HTMLElement>('[data-category][aria-pressed="true"]');
+    if (active) {
+      active.scrollIntoView({
+        inline: "nearest",
+        block: "nearest",
+        behavior: reduced ? "auto" : "smooth",
+      });
+    } else {
+      strip.scrollTo({ left: 0, behavior: reduced ? "auto" : "smooth" });
+    }
+  }, [filter.category, reduced]);
 
   // Live result count, scored by the same predicate as the grid (count-only pass,
   // no sort) so "{filtered} of {total}" can never disagree with the rendered list.
@@ -85,155 +121,178 @@ export function DirectoryConsole() {
   }, []);
 
   return (
-    <div className="container-site px-6">
-      {/* Search row */}
-      <div className="flex items-center gap-2 pb-2.5">
-        <div className="relative flex-1">
-          <Search
-            aria-hidden
-            className="absolute top-1/2 left-3 h-3.5 w-3.5 -translate-y-1/2 text-[var(--color-ink-dim)]"
-          />
-          <input
-            type="text"
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            onFocus={() => (inputFocused.current = true)}
-            onBlur={() => (inputFocused.current = false)}
-            placeholder="Search apps, vendors, tags, models…"
-            aria-label="Search apps"
-            className="h-9 w-full rounded-full bg-white/[0.04] pr-14 pl-9 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset placeholder:text-[var(--color-ink-dim)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-          />
-          {text.length > 0 ? (
-            <button
-              type="button"
-              onClick={() => setText("")}
-              aria-label="Clear search"
-              className="absolute top-1/2 right-3 -translate-y-1/2 text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-ink)]"
-            >
-              <X className="h-3.5 w-3.5" />
-            </button>
-          ) : (
-            // Hint that ⌘K opens the global jump-to palette (distinct from this
-            // in-place grid filter). Decorative — the window-level listener owns it.
-            <kbd
+    <>
+      <div className="container-site px-6">
+        {/* Search row */}
+        <div className="flex items-center gap-2 pb-2.5">
+          <div className="relative flex-1">
+            <Search
               aria-hidden
-              className="absolute top-1/2 right-3 hidden -translate-y-1/2 rounded bg-white/[0.06] px-1.5 py-0.5 font-mono text-[10px] text-[var(--color-ink-dim)] sm:block"
-            >
-              ⌘K
-            </kbd>
-          )}
-        </div>
+              className="absolute top-1/2 left-3 h-3.5 w-3.5 -translate-y-1/2 text-[var(--color-ink-dim)]"
+            />
+            <input
+              ref={inputRef}
+              type="text"
+              value={text}
+              onChange={(e) => setText(e.target.value)}
+              onFocus={() => (inputFocused.current = true)}
+              onBlur={() => (inputFocused.current = false)}
+              onKeyDown={(e) => {
+                // Esc clears the query, then (on a second press) blurs the field.
+                if (e.key === "Escape") {
+                  if (text) setText("");
+                  else e.currentTarget.blur();
+                }
+              }}
+              placeholder="Search apps, vendors, tags, models…"
+              aria-label="Search apps"
+              className="h-9 w-full rounded-full bg-white/[0.04] pr-14 pl-9 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset placeholder:text-[var(--color-ink-dim)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+            />
+            {text.length > 0 ? (
+              <button
+                type="button"
+                onClick={() => setText("")}
+                aria-label="Clear search"
+                className="absolute top-1/2 right-3 -translate-y-1/2 text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-ink)]"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            ) : (
+              // Hint that "/" focuses this filter field (⌘K opens the separate
+              // global jump-to palette). Decorative — the listener owns the behavior.
+              <kbd
+                aria-hidden
+                className="absolute top-1/2 right-3 hidden -translate-y-1/2 rounded bg-white/[0.06] px-1.5 py-0.5 font-mono text-[10px] text-[var(--color-ink-dim)] sm:block"
+              >
+                /
+              </kbd>
+            )}
+          </div>
 
-        {/* Desktop: inline sort + Filters popover + live count. */}
-        <DropdownMenu>
-          <DropdownMenuTrigger
-            aria-label="Sort apps"
-            className="hidden h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08] sm:inline-flex"
-          >
-            <ArrowDownUp className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
-            {SORT_LABEL[sortMode]}
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            <DropdownMenuRadioGroup value={sortMode} onValueChange={(v) => setSort(v as SortMode)}>
-              {SORT_MODES.map((m) => (
-                <DropdownMenuRadioItem
-                  key={m}
-                  value={m}
-                  className="font-mono text-[11px] tracking-[0.08em] uppercase"
-                >
-                  {SORT_LABEL[m]}
-                </DropdownMenuRadioItem>
-              ))}
-            </DropdownMenuRadioGroup>
-          </DropdownMenuContent>
-        </DropdownMenu>
-
-        <div className="hidden sm:block">
-          <Popover>
-            <PopoverTrigger
-              aria-label={secondaryCount > 0 ? `Filters, ${secondaryCount} applied` : "Filters"}
-              className="inline-flex h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08]"
+          {/* Desktop: inline sort + Filters popover + live count. */}
+          <DropdownMenu>
+            <DropdownMenuTrigger
+              aria-label="Sort apps"
+              className="hidden h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08] sm:inline-flex"
             >
-              <SlidersHorizontal className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
-              Filters
-              {secondaryCount > 0 && (
-                <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[var(--color-accent)] px-1 text-[10px] text-[var(--color-canvas)]">
-                  {secondaryCount}
-                </span>
-              )}
-            </PopoverTrigger>
-            <PopoverContent align="end" className="w-80">
-              <FilterControls filters={filters} variant="stacked" omit={["category"]} />
-              <div className="mt-4 flex items-center justify-between gap-3 border-t border-white/[0.06] pt-3">
-                <p
-                  className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase"
-                  aria-live="polite"
-                >
-                  {hasFilter ? `${filtered} of ${TOTAL}` : `${TOTAL} apps`}
-                </p>
-                {hasFilter && (
-                  <button
-                    type="button"
-                    onClick={clearAll}
-                    className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-accent)] uppercase transition-opacity hover:opacity-75 focus-visible:rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+              <ArrowDownUp className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
+              {SORT_LABEL[sortMode]}
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuRadioGroup
+                value={sortMode}
+                onValueChange={(v) => setSort(v as SortMode)}
+              >
+                {SORT_MODES.map((m) => (
+                  <DropdownMenuRadioItem
+                    key={m}
+                    value={m}
+                    className="font-mono text-[11px] tracking-[0.08em] uppercase"
                   >
-                    Clear all
-                  </button>
+                    {SORT_LABEL[m]}
+                  </DropdownMenuRadioItem>
+                ))}
+              </DropdownMenuRadioGroup>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <div className="hidden sm:block">
+            <Popover>
+              <PopoverTrigger
+                aria-label={secondaryCount > 0 ? `Filters, ${secondaryCount} applied` : "Filters"}
+                className="inline-flex h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08]"
+              >
+                <SlidersHorizontal className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
+                Filters
+                {secondaryCount > 0 && (
+                  <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[var(--color-accent)] px-1 text-[10px] text-[var(--color-canvas)]">
+                    {secondaryCount}
+                  </span>
                 )}
-              </div>
-            </PopoverContent>
-          </Popover>
-        </div>
+              </PopoverTrigger>
+              <PopoverContent align="end" className="w-80">
+                <FilterControls filters={filters} variant="stacked" omit={["category"]} />
+                <div className="mt-4 flex items-center justify-between gap-3 border-t border-white/[0.06] pt-3">
+                  <p
+                    className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase"
+                    aria-live="polite"
+                  >
+                    {hasFilter ? `${filtered} of ${TOTAL}` : `${TOTAL} apps`}
+                  </p>
+                  {hasFilter && (
+                    <button
+                      type="button"
+                      onClick={clearAll}
+                      className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-accent)] uppercase transition-opacity hover:opacity-75 focus-visible:rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+                    >
+                      Clear all
+                    </button>
+                  )}
+                </div>
+              </PopoverContent>
+            </Popover>
+          </div>
 
-        {/* Mobile: all secondary facets in the existing bottom-sheet drawer. */}
-        <div className="sm:hidden">
-          <FilterDrawer
-            activeCount={secondaryCount}
-            total={TOTAL}
-            filtered={filtered}
-            omitCategory
-          />
-        </div>
+          {/* Mobile: all secondary facets in the existing bottom-sheet drawer. */}
+          <div className="sm:hidden">
+            <FilterDrawer
+              activeCount={secondaryCount}
+              total={TOTAL}
+              filtered={filtered}
+              omitCategory
+            />
+          </div>
 
-        <p
-          className="hidden shrink-0 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase lg:block"
-          aria-live="polite"
-        >
-          {hasFilter ? `${filtered} of ${TOTAL}` : `${TOTAL} apps`}
-        </p>
-      </div>
-
-      {/* Quick-Category strip — the most-used facet, always visible. */}
-      <div
-        className="no-scrollbar scroll-fade-x -mx-6 flex items-center gap-1.5 overflow-x-auto px-6 pb-2.5"
-        role="group"
-        aria-label="Filter by category"
-      >
-        <CategoryChip active={filter.category.length === 0} onClick={filters.resetCategory}>
-          All
-        </CategoryChip>
-        {APP_CATEGORIES.map((c) => (
-          <CategoryChip
-            key={c}
-            active={filter.category.includes(c)}
-            onClick={() => filters.toggleCategory(c)}
+          <p
+            className="hidden shrink-0 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase lg:block"
+            aria-live="polite"
           >
-            {CATEGORY_LABEL[c as AppCategory]}
+            {hasFilter ? `${filtered} of ${TOTAL}` : `${TOTAL} apps`}
+          </p>
+        </div>
+
+        {/* Quick-Category strip — the most-used facet, always visible. */}
+        <div
+          ref={stripRef}
+          className="no-scrollbar scroll-fade-x -mx-6 flex items-center gap-1.5 overflow-x-auto px-6 pb-2.5"
+          role="group"
+          aria-label="Filter by category"
+        >
+          <CategoryChip active={filter.category.length === 0} onClick={filters.resetCategory}>
+            All
           </CategoryChip>
-        ))}
+          {APP_CATEGORIES.map((c) => (
+            <CategoryChip
+              key={c}
+              category={c}
+              active={filter.category.includes(c)}
+              onClick={() => filters.toggleCategory(c)}
+            >
+              {CATEGORY_LABEL[c as AppCategory]}
+            </CategoryChip>
+          ))}
+        </div>
       </div>
-    </div>
+      <BackToTop />
+    </>
   );
 }
 
 function CategoryChip({
   active,
   onClick,
+  category,
   children,
-}: Readonly<{ active: boolean; onClick: () => void; children: React.ReactNode }>) {
+}: Readonly<{
+  active: boolean;
+  onClick: () => void;
+  category?: string;
+  children: React.ReactNode;
+}>) {
   return (
     <button
       type="button"
+      data-category={category}
       onClick={onClick}
       aria-pressed={active}
       className={cn(

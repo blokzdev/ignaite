@@ -1,5 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
+import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
 // Defer cmdk + the apps data until the palette is first opened — only this thin
@@ -18,6 +19,7 @@ function isEditableTarget(el: EventTarget | null): boolean {
 export function CommandPalette() {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const pathname = usePathname();
 
   const openPalette = useCallback(() => {
     setMounted(true);
@@ -33,10 +35,16 @@ export function CommandPalette() {
         setOpen((v) => !v);
         return;
       }
-      // "/" — open, but not while typing in a field.
+      // "/" — not while typing in a field. On the directory route it focuses the
+      // in-header filter field (a distinct affordance from the ⌘K jump palette);
+      // everywhere else it opens the palette.
       if (e.key === "/" && !isEditableTarget(e.target)) {
         e.preventDefault();
-        openPalette();
+        if (pathname === "/") {
+          window.dispatchEvent(new Event("blokz:focus-search"));
+        } else {
+          openPalette();
+        }
       }
     };
     // Lets a visible trigger (Chunk L's nav button) open the palette.
@@ -48,7 +56,7 @@ export function CommandPalette() {
       window.removeEventListener("keydown", onKeyDown);
       window.removeEventListener("blokz:open-command", onOpenEvent);
     };
-  }, [openPalette]);
+  }, [openPalette, pathname]);
 
   if (!mounted) return null;
   return <CommandPaletteBody open={open} onOpenChange={setOpen} />;

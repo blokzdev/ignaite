@@ -57,7 +57,7 @@ export function SiteNav() {
         !isDirectory &&
           (navHidden ? "-translate-y-full focus-within:translate-y-0" : "translate-y-0"),
         scrolled
-          ? "border-b border-white/[0.06] bg-[var(--color-canvas)]/80 backdrop-blur-xl"
+          ? "border-b border-white/[0.06] bg-[var(--color-canvas)]/80 shadow-[0_10px_30px_-18px_rgba(0,0,0,0.8)] backdrop-blur-xl"
           : "border-b border-transparent",
       )}
     >
