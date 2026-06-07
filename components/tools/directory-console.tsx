@@ -264,22 +264,20 @@ export function DirectoryConsole() {
           aria-label="Filter by category"
         >
           <CategoryChip
+            label="All"
             active={filter.category.length === 0}
             onClick={filters.resetCategory}
             count={TOTAL}
-          >
-            All
-          </CategoryChip>
+          />
           {APP_CATEGORIES.map((c) => (
             <CategoryChip
               key={c}
               category={c}
+              label={CATEGORY_LABEL[c as AppCategory]}
               active={filter.category.includes(c)}
               onClick={() => filters.toggleCategory(c)}
               count={CATEGORY_COUNTS[c] ?? 0}
-            >
-              {CATEGORY_LABEL[c as AppCategory]}
-            </CategoryChip>
+            />
           ))}
         </div>
       </div>
@@ -293,20 +291,23 @@ function CategoryChip({
   onClick,
   category,
   count,
-  children,
+  label,
 }: Readonly<{
   active: boolean;
   onClick: () => void;
   category?: string;
   count?: number;
-  children: React.ReactNode;
+  label: string;
 }>) {
+  const hasCount = count != null && count > 0;
   return (
     <button
       type="button"
       data-category={category}
       onClick={onClick}
       aria-pressed={active}
+      // Spell out the count so the bare number isn't ambiguous to a screen reader.
+      aria-label={hasCount ? `${label}, ${count} apps` : label}
       className={cn(
         "inline-flex h-8 shrink-0 items-center rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
         "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
@@ -315,11 +316,12 @@ function CategoryChip({
           : "bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)]",
       )}
     >
-      {children}
-      {count != null && count > 0 && (
+      {label}
+      {hasCount && (
         // Count inherits the pill's text colour (so it flips with active/hover)
-        // and steps down in size to read as secondary metadata.
-        <span className="ml-1.5 text-[10px] tracking-normal tabular-nums opacity-80">{count}</span>
+        // and steps down in size to read as secondary metadata. Full token colour
+        // (no opacity) keeps small text AA-legible per the styling rules.
+        <span className="ml-1.5 text-[10px] tracking-normal tabular-nums">{count}</span>
       )}
     </button>
   );
