@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { ContactForm } from "@/components/contact/contact-form";
+import { ContactFormSkeleton } from "@/components/contact/contact-form-skeleton";
 import { GlowOrb } from "@/components/effects/glow-orb";
 import { brand } from "@/data/brand";
 import { buildMetadata } from "@/lib/seo";
@@ -52,8 +53,8 @@ export default function ContactPage() {
 
         <div className="mt-16 grid gap-12 lg:grid-cols-[1.6fr_1fr] lg:gap-20">
           {/* useSearchParams() inside ContactForm requires a Suspense boundary
-              for SSG. Fallback renders nothing (the form will hydrate in). */}
-          <Suspense fallback={null}>
+              for SSG. The skeleton reserves the column so it doesn't pop in. */}
+          <Suspense fallback={<ContactFormSkeleton />}>
             <ContactForm />
           </Suspense>
 

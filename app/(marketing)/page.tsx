@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { GlowOrb } from "@/components/effects/glow-orb";
 import { JsonLd } from "@/components/seo/json-ld";
+import { FeaturedCarouselSkeleton } from "@/components/tools/featured-carousel-skeleton";
 import { ToolGrid } from "@/components/tools/tool-grid";
 import { ToolsBrowser } from "@/components/tools/tools-browser";
 import { brand } from "@/data/brand";
@@ -44,7 +45,19 @@ export default function HomePage() {
           </p>
         </div>
 
-        <Suspense fallback={<ToolGrid items={allApps} />}>
+        {/* Fallback IS the first static HTML (ToolsBrowser bails to client via
+            nuqs/useSearchParams). Reserve the carousel + filters-row space so
+            hydration adds the real chrome without reflowing the grid — the grid
+            stays content-first (real cards) for LCP/SEO. */}
+        <Suspense
+          fallback={
+            <>
+              <FeaturedCarouselSkeleton />
+              <div aria-hidden className="mb-6 h-8" />
+              <ToolGrid items={allApps} />
+            </>
+          }
+        >
           <ToolsBrowser apps={allApps} />
         </Suspense>
       </div>

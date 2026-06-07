@@ -24,19 +24,19 @@ function GhostCard() {
   return (
     <div className="flex h-full flex-col gap-4 rounded-2xl bg-[var(--color-surface)]/40 p-5 ring-1 ring-white/[0.05] ring-inset">
       <div className="flex gap-2">
-        <Skeleton pulse={false} className="h-4 w-16 rounded-full" />
-        <Skeleton pulse={false} className="h-4 w-14 rounded-full" />
+        <Skeleton variant="none" className="h-4 w-16 rounded-full" />
+        <Skeleton variant="none" className="h-4 w-14 rounded-full" />
       </div>
       <div className="flex gap-3">
-        <Skeleton pulse={false} className="h-10 w-10 rounded-xl" />
+        <Skeleton variant="none" className="h-10 w-10 rounded-xl" />
         <div className="flex-1 space-y-2 pt-1">
-          <Skeleton pulse={false} className="h-4 w-2/3" />
-          <Skeleton pulse={false} className="h-3 w-1/3" />
+          <Skeleton variant="none" className="h-4 w-2/3" />
+          <Skeleton variant="none" className="h-3 w-1/3" />
         </div>
       </div>
-      <Skeleton pulse={false} className="h-3 w-full" />
-      <Skeleton pulse={false} className="h-3 w-5/6" />
-      <Skeleton pulse={false} className="mt-auto h-9 w-24 rounded-full" />
+      <Skeleton variant="none" className="h-3 w-full" />
+      <Skeleton variant="none" className="h-3 w-5/6" />
+      <Skeleton variant="none" className="mt-auto h-9 w-24 rounded-full" />
     </div>
   );
 }
