@@ -93,113 +93,137 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
   };
 
   return (
-    <section aria-labelledby="rail-heading" className="mb-10">
+    <section aria-labelledby="rail-heading" className="mb-12">
       {/* sr-only heading keeps the h2 landmark while the visible label is the
           interactive Featured / Recently added toggle. */}
       <h2 id="rail-heading" className="sr-only">
         {mode === "featured" ? "Featured apps" : "Recently added apps"}
       </h2>
 
-      <div className="mb-4 flex items-baseline justify-between gap-4">
+      {/* Contained "spotlight" tray — an elevated, ringed surface so the rail
+          reads as a distinct module above the canvas directory grid. */}
+      <div className="relative overflow-hidden rounded-2xl bg-[var(--color-surface)]/50 p-4 ring-1 ring-white/[0.07] ring-inset sm:p-5">
+        {/* Faint accent glow for spotlight character (clipped by the tray). */}
         <div
-          className="text-eyebrow flex items-center gap-2.5"
-          role="group"
-          aria-label="Choose which apps to show"
+          aria-hidden
+          className="pointer-events-none absolute -top-24 -left-16 h-48 w-48 rounded-full bg-[var(--color-accent)] opacity-[0.06] blur-3xl"
+        />
+
+        <div className="relative mb-4 flex items-center justify-between gap-4">
+          <SpotlightToggle mode={mode} onChange={setMode} />
+
+          {/* Desktop arrows — touch uses swipe + dots. */}
+          <div className="hidden items-center gap-2 sm:flex">
+            <CarouselArrow
+              label="Previous apps"
+              disabled={!canLeft}
+              onClick={() => scrollByCard(-1)}
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </CarouselArrow>
+            <CarouselArrow label="Next apps" disabled={!canRight} onClick={() => scrollByCard(1)}>
+              <ChevronRight className="h-4 w-4" />
+            </CarouselArrow>
+          </div>
+        </div>
+
+        {/* The rail bleeds to the tray's inner edges (-mx cancels the tray
+            padding) so card #1 aligns with the header and the right edge fades
+            at the ring. py-3 / -my-3 keeps a 12px breathing zone so the card's
+            hover-lift + focus ring aren't clipped by overflow-x: auto. */}
+        <ul
+          ref={scrollerRef}
+          className="no-scrollbar scroll-fade-x -mx-4 -my-3 flex snap-x snap-mandatory gap-5 overflow-x-auto px-4 py-3 sm:-mx-5 sm:px-5"
+          role="list"
         >
-          <span aria-hidden className="text-[var(--color-accent)]">
-            {"//"}
-          </span>
-          <RailToggle active={mode === "featured"} onClick={() => setMode("featured")}>
-            Featured
-          </RailToggle>
-          <span aria-hidden className="text-[var(--color-ink-dim)]/60">
-            /
-          </span>
-          <RailToggle active={mode === "recent"} onClick={() => setMode("recent")}>
-            Recently added
-          </RailToggle>
-          <span aria-hidden className="ml-1 text-[var(--color-ink-dim)]">
-            · {items.length}
-          </span>
+          {items.map((app) => (
+            <li key={app.slug} className="flex w-[320px] shrink-0 snap-start sm:w-[380px]">
+              <ToolCard app={app} />
+            </li>
+          ))}
+        </ul>
+
+        {/* Position dots — primary advance affordance on touch. Each button is a
+            24px hit target (WCAG 2.5.8) with a small visual bar centered inside. */}
+        <div
+          className="relative mt-3 flex flex-wrap justify-center gap-0.5"
+          role="group"
+          aria-label="Carousel pagination"
+        >
+          {items.map((app, i) => (
+            <button
+              key={app.slug}
+              type="button"
+              onClick={() => scrollToIndex(i)}
+              aria-label={`Go to ${app.name}`}
+              aria-current={i === activeIndex}
+              className="group inline-flex h-6 w-6 items-center justify-center rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+            >
+              <span
+                className={cn(
+                  "h-1.5 rounded-full transition-all",
+                  i === activeIndex
+                    ? "w-5 bg-[var(--color-accent)]"
+                    : "w-1.5 bg-white/30 group-hover:bg-white/50",
+                )}
+              />
+            </button>
+          ))}
         </div>
-
-        {/* Desktop arrows — touch uses swipe + dots. */}
-        <div className="hidden items-center gap-2 sm:flex">
-          <CarouselArrow label="Previous apps" disabled={!canLeft} onClick={() => scrollByCard(-1)}>
-            <ChevronLeft className="h-4 w-4" />
-          </CarouselArrow>
-          <CarouselArrow label="Next apps" disabled={!canRight} onClick={() => scrollByCard(1)}>
-            <ChevronRight className="h-4 w-4" />
-          </CarouselArrow>
-        </div>
-      </div>
-
-      {/* py-3 / -my-3 keeps a 12px breathing zone on both axes so the card's
-          hover-lift (-4px) and focus ring (2px outer) aren't clipped by the
-          scroll container — setting overflow-x: auto forces overflow-y to
-          behave the same way per CSS spec, so the lifted card would otherwise
-          hit the top edge. */}
-      <ul
-        ref={scrollerRef}
-        className="no-scrollbar scroll-fade-x -mx-6 -my-3 flex snap-x snap-mandatory gap-5 overflow-x-auto px-6 py-3"
-        role="list"
-      >
-        {items.map((app) => (
-          <li key={app.slug} className="flex w-[320px] shrink-0 snap-start sm:w-[380px]">
-            <ToolCard app={app} />
-          </li>
-        ))}
-      </ul>
-
-      {/* Position dots — primary advance affordance on touch. Each button is a
-          24px hit target (WCAG 2.5.8) with a small visual bar centered inside. */}
-      <div
-        className="mt-3 flex flex-wrap justify-center gap-0.5"
-        role="group"
-        aria-label="Carousel pagination"
-      >
-        {items.map((app, i) => (
-          <button
-            key={app.slug}
-            type="button"
-            onClick={() => scrollToIndex(i)}
-            aria-label={`Go to ${app.name}`}
-            aria-current={i === activeIndex}
-            className="group inline-flex h-6 w-6 items-center justify-center rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-          >
-            <span
-              className={cn(
-                "h-1.5 rounded-full transition-all",
-                i === activeIndex
-                  ? "w-5 bg-[var(--color-accent)]"
-                  : "w-1.5 bg-white/30 group-hover:bg-white/50",
-              )}
-            />
-          </button>
-        ))}
       </div>
     </section>
   );
 }
 
-interface RailToggleProps {
+interface SpotlightToggleProps {
+  mode: RailMode;
+  onChange: (mode: RailMode) => void;
+}
+
+// Sliding segmented control. Two equal grid columns + an absolutely-positioned
+// accent thumb that translates between them: with the p-0.5 inset, a
+// w-[calc(50%-2px)] thumb is exactly one column wide and translate-x-full lands
+// it on the second column. The slide is gated for reduced-motion.
+function SpotlightToggle({ mode, onChange }: SpotlightToggleProps) {
+  return (
+    <div
+      role="group"
+      aria-label="Choose which apps to show"
+      className="relative inline-grid grid-cols-2 rounded-full bg-white/[0.05] p-0.5 ring-1 ring-white/[0.08] ring-inset"
+    >
+      <span
+        aria-hidden
+        className={cn(
+          "ease-out-expo absolute inset-y-0.5 left-0.5 w-[calc(50%-2px)] rounded-full bg-[var(--color-accent)] shadow-[0_0_16px_-3px_var(--color-accent)] transition-transform duration-300 motion-reduce:transition-none",
+          mode === "recent" && "translate-x-full",
+        )}
+      />
+      <SegBtn active={mode === "featured"} onClick={() => onChange("featured")}>
+        Featured
+      </SegBtn>
+      <SegBtn active={mode === "recent"} onClick={() => onChange("recent")}>
+        Recently added
+      </SegBtn>
+    </div>
+  );
+}
+
+interface SegBtnProps {
   active: boolean;
   onClick: () => void;
   children: React.ReactNode;
 }
 
-// Inherits the eyebrow type (uppercase mono + tracking) from the parent's
-// `text-eyebrow`; only the color changes between active/idle.
-function RailToggle({ active, onClick, children }: RailToggleProps) {
+function SegBtn({ active, onClick, children }: SegBtnProps) {
   return (
     <button
       type="button"
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "rounded-sm transition-colors focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+        "text-eyebrow relative z-10 inline-flex h-8 items-center justify-center rounded-full px-3 text-[10px] whitespace-nowrap transition-colors focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:px-4 sm:text-[11px]",
         active
-          ? "text-[var(--color-accent)]"
+          ? "text-[var(--color-canvas)]"
           : "text-[var(--color-ink-dim)] hover:text-[var(--color-ink)]",
       )}
     >
