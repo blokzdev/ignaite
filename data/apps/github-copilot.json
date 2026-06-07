@@ -1,0 +1,35 @@
+{
+  "slug": "github-copilot",
+  "insight": "All Copilot plans moved to usage-based GitHub AI Credits billing on June 1, 2026, replacing flat request quotas.",
+  "name": "GitHub Copilot",
+  "tagline": "AI pair programmer in your editor — completions, chat, and agents.",
+  "description": "The original in-editor AI coding assistant, offering multi-line completions, chat with codebase context, agent mode, and a cloud coding agent that opens pull requests. Runs across VS Code, JetBrains, Visual Studio, the CLI, and GitHub.com. A free tier covers light use; paid tiers add premium models and more allowance.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "GitHub (Microsoft)",
+  "platforms": ["vscode-extension", "cli", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT-5", "Gemini"],
+    "notes": "Model picker spans Anthropic, OpenAI, and Google across chat and agents."
+  },
+  "tags": ["coding", "completions", "agent", "copilot"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://github.com/features/copilot",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.github.com/copilot"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://github.com/features/copilot/plans"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "poe",
+  "insight": "Built by Quora; anyone can spin up no-code bots on any model, and creators earn a share of the usage revenue they drive.",
+  "name": "Poe",
+  "tagline": "One app for many AI models — chat and build bots across providers.",
+  "description": "Quora's aggregator that puts models from Anthropic, OpenAI, Google, xAI, Meta, and others behind a single subscription, alongside image and video bots. Anyone can build a custom no-code bot in minutes, and creators are paid based on usage. Available on web, mobile, and desktop, with an API for developers.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Quora",
+  "platforms": ["web", "ios", "android", "macos", "windows", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini", "Grok", "Llama", "DeepSeek"],
+    "notes": "One points-based subscription spans many providers plus image/video models."
+  },
+  "tags": ["aggregator", "multi-model", "chatbots", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://poe.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://creator.poe.com"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "adobe-firefly",
+  "insight": "Trained only on licensed and public-domain content, so paid-tier generations carry Adobe's IP indemnification — rare among image models.",
+  "name": "Adobe Firefly",
+  "tagline": "Commercially-safe generative AI for images, video, and design.",
+  "description": "Adobe's generative AI for creators — text-to-image, generative fill, and increasingly video, available as a standalone web app, mobile apps, and inside Creative Cloud tools like Photoshop. Built around Adobe's own Firefly models trained on licensed and public-domain content, with select third-party models now integrated. A free tier ships monthly credits; paid plans add more credits and IP indemnification.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Adobe",
+  "platforms": ["web", "ios", "android", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Firefly Image", "Google Veo", "Runway"],
+    "notes": "Own Firefly models plus integrated partner models for video and image."
+  },
+  "tags": ["image-gen", "video", "commercially-safe", "design"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://firefly.adobe.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.adobe.com/products/firefly/plans.html"
+    },
+    {
+      "kind": "docs",
+      "url": "https://helpx.adobe.com/firefly.html"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
