@@ -5,6 +5,7 @@ import type { App } from "@/types/app";
 import { cn } from "@/lib/utils";
 import { recentApps } from "@/lib/tools/filter-apps";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { ToolCard } from "./tool-card";
 
 interface Props {
@@ -12,32 +13,43 @@ interface Props {
 }
 
 const GAP = 20; // gap-5
-const MAX_ITEMS = 11; // cap the rail length per mode.
+const MAX_ITEMS = 14; // widest responsive count (xl); pools are built to this, then sliced per breakpoint.
 type RailMode = "featured" | "recent";
 
 export function FeaturedCarousel({ apps }: Readonly<Props>) {
   const reduced = useReducedMotion();
 
-  // Two rails behind one segmented toggle: a random 11 of the curated `featured`
-  // apps (shuffled once per mount, fresh each visit), and the 11 most-recently-
-  // added listings (kept current by the weekly discover-apps routine). The toggle
-  // is ephemeral local state — a view switch on the rail, not URL filter state.
-  // The carousel renders client-only (behind the homepage's Suspense CSR
-  // boundary), so the lazy initializer never runs on the server → no hydration
-  // mismatch from Math.random().
-  const [featured] = useState<ReadonlyArray<App>>(() => {
+  // Responsive rail length: fewer highlights on a phone, more on a wide screen, so
+  // the single-row position dots always fit (6 → 14 across breakpoints). Both pools
+  // are built once at the max length with a stable order, then sliced to `count`,
+  // so changing `count` (a resize across a breakpoint) never re-shuffles or
+  // reorders — it just shows more/fewer of the same set.
+  const sm = useMediaQuery("(min-width: 640px)");
+  const md = useMediaQuery("(min-width: 768px)");
+  const lg = useMediaQuery("(min-width: 1024px)");
+  const xl = useMediaQuery("(min-width: 1280px)");
+  const count = xl ? 14 : lg ? 12 : md ? 10 : sm ? 8 : 6;
+
+  // Two rails behind one segmented toggle: a random shuffle of the curated
+  // `featured` apps (chosen once per mount, fresh each visit), and the most-
+  // recently-added listings (kept current by the weekly discover-apps routine).
+  // The toggle is ephemeral local state — a view switch, not URL filter state. The
+  // carousel renders client-only (behind the homepage's Suspense CSR boundary), so
+  // the lazy initializer never runs on the server → no hydration mismatch from
+  // Math.random(), and useMediaQuery's server snapshot is never observed.
+  const [shuffledFeatured] = useState<ReadonlyArray<App>>(() => {
     const pool = apps.filter((a) => a.featured);
     for (let i = pool.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
-    return pool.slice(0, MAX_ITEMS);
+    return pool;
   });
-  const recent = useMemo(() => recentApps(apps, MAX_ITEMS), [apps]);
+  const recentPool = useMemo(() => recentApps(apps, MAX_ITEMS), [apps]);
   const [mode, setMode] = useState<RailMode>(() =>
     apps.some((a) => a.featured) ? "featured" : "recent",
   );
-  const items = mode === "featured" ? featured : recent;
+  const items = (mode === "featured" ? shuffledFeatured : recentPool).slice(0, count);
 
   const scrollerRef = useRef<HTMLUListElement | null>(null);
   const [canLeft, setCanLeft] = useState(false);
@@ -70,15 +82,17 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
     };
   }, [update]);
 
-  // Snap the rail back to the start when the visible set swaps (toggle), without
-  // animating the jump, and recompute the arrow/dot state for the new content.
+  // Snap the rail back to the start when the visible set changes — a mode toggle
+  // or a breakpoint crossing that changes `count` — without animating the jump, and
+  // recompute the arrow/dot state. Resetting on count change also guarantees a
+  // shrinking count never strands the view past the new end.
   useEffect(() => {
     const el = scrollerRef.current;
     if (!el) return;
     el.scrollLeft = 0;
     setActiveIndex(0);
     update();
-  }, [mode, update]);
+  }, [mode, count, update]);
 
   if (items.length === 0) return null;
 
@@ -144,9 +158,10 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
         </ul>
 
         {/* Position dots — primary advance affordance on touch. Each button is a
-            24px hit target (WCAG 2.5.8) with a small visual bar centered inside. */}
+            24px hit target (WCAG 2.5.8) with a small visual bar centered inside.
+            flex-nowrap + the responsive `count` keep them to a single row. */}
         <div
-          className="relative mt-3 flex flex-wrap justify-center gap-0.5"
+          className="relative mt-3 flex flex-nowrap justify-center gap-0.5"
           role="group"
           aria-label="Carousel pagination"
         >
