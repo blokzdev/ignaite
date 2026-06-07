@@ -2,6 +2,8 @@
 import dynamic from "next/dynamic";
 import { SlidersHorizontal } from "lucide-react";
 import { useState } from "react";
+import { cn } from "@/lib/utils";
+import type { FacetCounts } from "@/lib/tools/facet-counts";
 
 // Defer the Radix-Dialog-backed drawer body until the button is first pressed —
 // keeps Radix Dialog out of the directory's First Load JS (mobile-sheet pattern).
@@ -16,11 +18,22 @@ interface Props {
   filtered: number;
   /** Hide the Category facet (a sibling surface — the console strip — owns it). */
   omitCategory?: boolean;
+  /** Live faceted counts, threaded to the facet chips. */
+  counts?: FacetCounts;
 }
 
-export function FilterDrawer({ activeCount, total, filtered, omitCategory }: Readonly<Props>) {
+export function FilterDrawer({
+  activeCount,
+  total,
+  filtered,
+  omitCategory,
+  counts,
+}: Readonly<Props>) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  // Secondary facets narrow the always-visible category strip — tint the trigger
+  // so that's legible with the drawer closed.
+  const active = activeCount > 0;
 
   const handleOpen = () => {
     setMounted(true);
@@ -34,9 +47,19 @@ export function FilterDrawer({ activeCount, total, filtered, omitCategory }: Rea
         onClick={handleOpen}
         aria-haspopup="dialog"
         aria-expanded={open}
-        className="inline-flex h-8 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-2.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+        className={cn(
+          "inline-flex h-8 shrink-0 items-center gap-2 rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] uppercase ring-1 transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+          active
+            ? "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-[var(--color-accent)]/30 hover:bg-[var(--color-accent)]/[0.18]"
+            : "bg-white/[0.04] text-[var(--color-ink)] ring-white/[0.08] hover:bg-white/[0.08]",
+        )}
       >
-        <SlidersHorizontal className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
+        <SlidersHorizontal
+          className={cn(
+            "h-3.5 w-3.5",
+            active ? "text-[var(--color-accent)]" : "text-[var(--color-ink-dim)]",
+          )}
+        />
         Filters
         {activeCount > 0 && (
           <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[var(--color-accent)] px-1 text-[10px] text-[var(--color-canvas)]">
@@ -51,6 +74,7 @@ export function FilterDrawer({ activeCount, total, filtered, omitCategory }: Rea
           total={total}
           filtered={filtered}
           omitCategory={omitCategory}
+          counts={counts}
         />
       )}
     </>

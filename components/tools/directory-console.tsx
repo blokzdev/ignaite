@@ -5,6 +5,7 @@ import { apps } from "@/.velite";
 import { cn } from "@/lib/utils";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { countMatches } from "@/lib/tools/filter-apps";
+import { facetCounts } from "@/lib/tools/facet-counts";
 import { APP_CATEGORIES } from "@/types/app";
 import type { AppCategory } from "@/types/app";
 import {
@@ -27,14 +28,6 @@ import { FilterDrawer } from "./filter-drawer";
 import { BackToTop } from "./back-to-top";
 
 const TOTAL = apps.length;
-
-// Per-category listing counts (total, incl. archived — matches the masthead's
-// "{TOTAL} apps", the "{filtered} of {TOTAL}" indicator, and the command-palette
-// category tiles). Computed once from the build-time data.
-const CATEGORY_COUNTS = apps.reduce<Partial<Record<AppCategory, number>>>((acc, a) => {
-  acc[a.category] = (acc[a.category] ?? 0) + 1;
-  return acc;
-}, {});
 
 // The integrated directory chrome that lives inside the site header on `/`:
 // a persistent search field, an always-visible quick-Category strip, and the
@@ -98,6 +91,22 @@ export function DirectoryConsole() {
   // no sort) so "{filtered} of {total}" can never disagree with the rendered list.
   const filtered = useMemo(
     () => countMatches(apps, filter),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [
+      filter.category,
+      filter.pricing,
+      filter.deployment,
+      filter.platform,
+      filter.license,
+      filter.status,
+      filter.q,
+    ],
+  );
+
+  // Live faceted counts for every facet (exclude-self) — one shared source for the
+  // category strip + the Filters drawer/popover, so their numbers always agree.
+  const counts = useMemo(
+    () => facetCounts(apps, filter),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [
       filter.category,
@@ -209,9 +218,21 @@ export function DirectoryConsole() {
             <Popover>
               <PopoverTrigger
                 aria-label={secondaryCount > 0 ? `Filters, ${secondaryCount} applied` : "Filters"}
-                className="inline-flex h-8 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-2.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08]"
+                className={cn(
+                  "inline-flex h-8 shrink-0 items-center gap-2 rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] uppercase ring-1 transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+                  secondaryCount > 0
+                    ? "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-[var(--color-accent)]/30 hover:bg-[var(--color-accent)]/[0.18] data-[state=open]:bg-[var(--color-accent)]/[0.18]"
+                    : "bg-white/[0.04] text-[var(--color-ink)] ring-white/[0.08] hover:bg-white/[0.08] data-[state=open]:bg-white/[0.08]",
+                )}
               >
-                <SlidersHorizontal className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
+                <SlidersHorizontal
+                  className={cn(
+                    "h-3.5 w-3.5",
+                    secondaryCount > 0
+                      ? "text-[var(--color-accent)]"
+                      : "text-[var(--color-ink-dim)]",
+                  )}
+                />
                 Filters
                 {secondaryCount > 0 && (
                   <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[var(--color-accent)] px-1 text-[10px] text-[var(--color-canvas)]">
@@ -220,7 +241,12 @@ export function DirectoryConsole() {
                 )}
               </PopoverTrigger>
               <PopoverContent align="end" className="w-80">
-                <FilterControls filters={filters} variant="stacked" omit={["category"]} />
+                <FilterControls
+                  filters={filters}
+                  variant="stacked"
+                  omit={["category"]}
+                  counts={counts}
+                />
                 <div className="mt-4 flex items-center justify-between gap-3 border-t border-white/[0.06] pt-3">
                   <p
                     className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase"
@@ -242,10 +268,16 @@ export function DirectoryConsole() {
             </Popover>
           </div>
 
-          {/* Mobile: every facet — incl. Category (mirrored from the strip, back
-              at the top of the sheet) — in the existing bottom-sheet drawer. */}
+          {/* Mobile: every facet — incl. Category (mirrored from the strip, which
+              the sheet covers while open) — in the bottom-sheet drawer. Counts are
+              faceted from the same source as the strip, so the two always agree. */}
           <div className="sm:hidden">
-            <FilterDrawer activeCount={secondaryCount} total={TOTAL} filtered={filtered} />
+            <FilterDrawer
+              activeCount={secondaryCount}
+              total={TOTAL}
+              filtered={filtered}
+              counts={counts}
+            />
           </div>
 
           <p
@@ -267,7 +299,7 @@ export function DirectoryConsole() {
             label="All"
             active={filter.category.length === 0}
             onClick={filters.resetCategory}
-            count={TOTAL}
+            count={counts.all.category}
           />
           {APP_CATEGORIES.map((c) => (
             <CategoryChip
@@ -276,7 +308,7 @@ export function DirectoryConsole() {
               label={CATEGORY_LABEL[c as AppCategory]}
               active={filter.category.includes(c)}
               onClick={() => filters.toggleCategory(c)}
-              count={CATEGORY_COUNTS[c] ?? 0}
+              count={counts.category[c]}
             />
           ))}
         </div>
@@ -299,25 +331,34 @@ function CategoryChip({
   count?: number;
   label: string;
 }>) {
-  const hasCount = count != null && count > 0;
+  const showCount = count != null;
+  // A category with no results under the current filters is a dead end — dim it
+  // and drop it from the tab order. Never the "All" reset chip (no `category`),
+  // and never an active chip (so a selection can always be undone).
+  const dead = category != null && !active && count === 0;
   return (
     <button
       type="button"
       data-category={category}
       onClick={onClick}
+      disabled={dead}
       aria-pressed={active}
       // Spell out the count so the bare number isn't ambiguous to a screen reader.
-      aria-label={hasCount ? `${label}, ${count} apps` : label}
+      aria-label={
+        !showCount ? label : count === 0 ? `${label}, no matches` : `${label}, ${count} apps`
+      }
       className={cn(
         "inline-flex h-8 shrink-0 items-center rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
         "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
         active
           ? "bg-[var(--color-accent)] text-[var(--color-canvas)]"
           : "bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)]",
+        dead &&
+          "pointer-events-none opacity-40 hover:bg-white/[0.04] hover:text-[var(--color-ink-dim)]",
       )}
     >
       {label}
-      {hasCount && (
+      {showCount && (
         // Count inherits the pill's text colour (so it flips with active/hover)
         // and steps down in size to read as secondary metadata. Full token colour
         // (no opacity) keeps small text AA-legible per the styling rules.
