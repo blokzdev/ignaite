@@ -315,7 +315,7 @@ export function ContactForm() {
           {!isPending && <ArrowRight className="h-3.5 w-3.5" />}
         </button>
         <p className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
-          We reply within 48 hours.
+          A human replies within 48 hours — usually faster.
         </p>
       </div>
     </motion.form>
