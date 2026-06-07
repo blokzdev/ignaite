@@ -2,11 +2,11 @@
   "slug": "arize-phoenix",
   "insight": "Spins up inside a Jupyter notebook and is sharpest at RAG debugging — finding the bad chunk that poisoned a retrieval.",
   "name": "Arize Phoenix",
-  "tagline": "Open-source LLM tracing + evaluation. Strong on retrieval debugging.",
-  "description": "Phoenix is Arize's open-source observability — run locally in a notebook or as a service. Especially strong for inspecting RAG pipelines, finding bad chunks, and tracking retrieval quality over time.",
+  "tagline": "LLM tracing + evaluation. Strong on retrieval debugging.",
+  "description": "Phoenix is Arize's observability platform — run locally in a notebook or as a hosted service. Especially strong for inspecting RAG pipelines, finding bad chunks, and tracking retrieval quality over time.",
   "category": "observability",
   "pricing": "freemium",
-  "openSource": true,
+  "openSource": false,
   "deployment": "hybrid",
   "vendor": "Arize AI",
   "platforms": ["api", "web"],
@@ -14,7 +14,7 @@
     "kind": "model-agnostic"
   },
   "accentColor": "#A78BFA",
-  "tags": ["open-source", "tracing", "rag", "retrieval-debugging"],
+  "tags": ["tracing", "rag", "retrieval-debugging"],
   "links": [
     {
       "kind": "website",
@@ -31,5 +31,5 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-07"
 }
