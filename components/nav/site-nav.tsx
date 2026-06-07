@@ -2,7 +2,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Search } from "lucide-react";
+import { Menu, Search } from "lucide-react";
 import { Suspense, useEffect } from "react";
 import { brand } from "@/data/brand";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
@@ -10,7 +10,6 @@ import { useScrollDirection } from "@/hooks/use-scroll-direction";
 import { useScrollThreshold } from "@/hooks/use-scroll-threshold";
 import { isActiveNav } from "@/lib/nav";
 import { cn } from "@/lib/utils";
-import { MobileSheet } from "./mobile-sheet";
 import { DirectoryConsoleSkeleton } from "./directory-console-skeleton";
 
 // The directory search/filter console is a separate chunk, loaded only on `/`
@@ -23,6 +22,12 @@ const DirectoryConsole = dynamic(() =>
 
 function openCommandPalette() {
   window.dispatchEvent(new Event("blokz:open-command"));
+}
+
+// The mobile trigger opens the unified console "menu-first": nav list visible,
+// no virtual keyboard until the search field is tapped.
+function openNavConsole() {
+  window.dispatchEvent(new CustomEvent("blokz:open-command", { detail: { focus: false } }));
 }
 
 export function SiteNav() {
@@ -140,20 +145,20 @@ export function SiteNav() {
   );
 }
 
-// Mobile: a search shortcut next to the menu trigger, so the ⌘K palette is
-// reachable without a keyboard.
+// Mobile: a single trigger opens the unified console (nav + search + categories),
+// replacing the old search-icon + burger-sheet pair. Opens menu-first.
 function MobileNavCluster() {
   return (
-    <div className="flex items-center gap-1 md:hidden">
+    <div className="flex items-center md:hidden">
       <button
         type="button"
-        onClick={openCommandPalette}
-        aria-label="Search apps"
+        onClick={openNavConsole}
+        aria-label="Open menu"
+        aria-haspopup="dialog"
         className="rounded-full p-2 text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
       >
-        <Search className="h-5 w-5" />
+        <Menu className="h-5 w-5" />
       </button>
-      <MobileSheet />
     </div>
   );
 }

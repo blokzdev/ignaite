@@ -24,6 +24,9 @@ interface CommandDialogProps extends React.ComponentProps<typeof Dialog> {
   title?: string;
   description?: string;
   className?: string;
+  /** Forwarded to the dialog content — pass a preventDefault handler to open
+   *  "menu-first" (no input focus / no mobile keyboard). */
+  onOpenAutoFocus?: (event: Event) => void;
 }
 
 function CommandDialog({
@@ -31,11 +34,15 @@ function CommandDialog({
   description = "Search apps and jump to a page",
   children,
   className,
+  onOpenAutoFocus,
   ...props
 }: CommandDialogProps) {
   return (
     <Dialog {...props}>
-      <DialogContent className={cn("overflow-hidden p-0", className)}>
+      <DialogContent
+        onOpenAutoFocus={onOpenAutoFocus}
+        className={cn("overflow-hidden p-0", className)}
+      >
         <DialogTitle className="sr-only">{title}</DialogTitle>
         <DialogDescription className="sr-only">{description}</DialogDescription>
         <Command className="[&_[cmdk-group-heading]]:px-2.5 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:font-mono [&_[cmdk-group-heading]]:text-[10px] [&_[cmdk-group-heading]]:tracking-[0.08em] [&_[cmdk-group-heading]]:text-[var(--color-ink-dim)] [&_[cmdk-group-heading]]:uppercase">
@@ -73,7 +80,10 @@ const CommandList = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <CommandPrimitive.List
     ref={ref}
-    className={cn("no-scrollbar max-h-80 overflow-x-hidden overflow-y-auto p-1.5", className)}
+    className={cn(
+      "no-scrollbar max-h-[60vh] overflow-x-hidden overflow-y-auto p-1.5 sm:max-h-80",
+      className,
+    )}
     {...props}
   />
 ));
@@ -118,7 +128,7 @@ const CommandItem = React.forwardRef<
   <CommandPrimitive.Item
     ref={ref}
     className={cn(
-      "relative flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2 text-sm transition-colors outline-none select-none data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 data-[selected=true]:bg-white/[0.06]",
+      "relative flex cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-2.5 text-sm transition-colors outline-none select-none data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 data-[selected=true]:bg-white/[0.06]",
       className,
     )}
     {...props}

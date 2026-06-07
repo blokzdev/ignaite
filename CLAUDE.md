@@ -120,8 +120,8 @@ app/                              # Next App Router
 
 components/
   ui/                             # shadcn primitives present: button, badge, tabs, sheet, dialog, tooltip, separator
-  nav/{site-nav, mobile-sheet, mobile-sheet-portal}.tsx
-  command/command-palette-body.tsx  # ⌘K palette: apps + categories + page nav
+  nav/site-nav.tsx                  # desktop nav + mobile trigger that opens the unified console
+  command/command-palette-body.tsx  # unified console (also the mobile nav menu): navigate + categories + apps. ⌘K = search-first; mobile Menu trigger = menu-first (no keyboard until you tap search)
   footer/site-footer.tsx
   hero/
     hero.tsx                      # server shell: text-first copy + dynamic R3F canvas
