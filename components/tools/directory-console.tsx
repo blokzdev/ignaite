@@ -234,14 +234,10 @@ export function DirectoryConsole() {
             </Popover>
           </div>
 
-          {/* Mobile: all secondary facets in the existing bottom-sheet drawer. */}
+          {/* Mobile: every facet — incl. Category (mirrored from the strip, back
+              at the top of the sheet) — in the existing bottom-sheet drawer. */}
           <div className="sm:hidden">
-            <FilterDrawer
-              activeCount={secondaryCount}
-              total={TOTAL}
-              filtered={filtered}
-              omitCategory
-            />
+            <FilterDrawer activeCount={secondaryCount} total={TOTAL} filtered={filtered} />
           </div>
 
           <p

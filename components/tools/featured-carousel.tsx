@@ -1,8 +1,9 @@
 "use client";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { App } from "@/types/app";
 import { cn } from "@/lib/utils";
+import { recentApps } from "@/lib/tools/filter-apps";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { ToolCard } from "./tool-card";
 
@@ -11,23 +12,32 @@ interface Props {
 }
 
 const GAP = 20; // gap-5
-const MAX_FEATURED = 11; // cap the rail; if more apps are flagged, show a random 11.
+const MAX_ITEMS = 11; // cap the rail length per mode.
+type RailMode = "featured" | "recent";
 
 export function FeaturedCarousel({ apps }: Readonly<Props>) {
   const reduced = useReducedMotion();
 
-  // Show at most MAX_FEATURED of the flagged apps, as a random subset chosen once
-  // per mount (fresh each visit). The carousel renders client-only — it sits
-  // behind the homepage's Suspense CSR boundary — so the lazy initializer never
-  // runs on the server and can't cause a hydration mismatch.
+  // Two rails behind one segmented toggle: a random 11 of the curated `featured`
+  // apps (shuffled once per mount, fresh each visit), and the 11 most-recently-
+  // added listings (kept current by the weekly discover-apps routine). The toggle
+  // is ephemeral local state — a view switch on the rail, not URL filter state.
+  // The carousel renders client-only (behind the homepage's Suspense CSR
+  // boundary), so the lazy initializer never runs on the server → no hydration
+  // mismatch from Math.random().
   const [featured] = useState<ReadonlyArray<App>>(() => {
     const pool = apps.filter((a) => a.featured);
     for (let i = pool.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
-    return pool.slice(0, MAX_FEATURED);
+    return pool.slice(0, MAX_ITEMS);
   });
+  const recent = useMemo(() => recentApps(apps, MAX_ITEMS), [apps]);
+  const [mode, setMode] = useState<RailMode>(() =>
+    apps.some((a) => a.featured) ? "featured" : "recent",
+  );
+  const items = mode === "featured" ? featured : recent;
 
   const scrollerRef = useRef<HTMLUListElement | null>(null);
   const [canLeft, setCanLeft] = useState(false);
@@ -60,7 +70,17 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
     };
   }, [update]);
 
-  if (featured.length === 0) return null;
+  // Snap the rail back to the start when the visible set swaps (toggle), without
+  // animating the jump, and recompute the arrow/dot state for the new content.
+  useEffect(() => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    el.scrollLeft = 0;
+    setActiveIndex(0);
+    update();
+  }, [mode, update]);
+
+  if (items.length === 0) return null;
 
   const behavior: ScrollBehavior = reduced ? "auto" : "smooth";
   const scrollByCard = (dir: -1 | 1) => {
@@ -73,26 +93,42 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
   };
 
   return (
-    <section aria-labelledby="featured-heading" className="mb-10">
+    <section aria-labelledby="rail-heading" className="mb-10">
+      {/* sr-only heading keeps the h2 landmark while the visible label is the
+          interactive Featured / Recently added toggle. */}
+      <h2 id="rail-heading" className="sr-only">
+        {mode === "featured" ? "Featured apps" : "Recently added apps"}
+      </h2>
+
       <div className="mb-4 flex items-baseline justify-between gap-4">
-        <h2 id="featured-heading" className="text-eyebrow text-[var(--color-accent)]">
-          {"// Featured"}
-          <span className="ml-2 text-[var(--color-ink-dim)]">· {featured.length} picks</span>
-        </h2>
+        <div
+          className="text-eyebrow flex items-center gap-2.5"
+          role="group"
+          aria-label="Choose which apps to show"
+        >
+          <span aria-hidden className="text-[var(--color-accent)]">
+            {"//"}
+          </span>
+          <RailToggle active={mode === "featured"} onClick={() => setMode("featured")}>
+            Featured
+          </RailToggle>
+          <span aria-hidden className="text-[var(--color-ink-dim)]/60">
+            /
+          </span>
+          <RailToggle active={mode === "recent"} onClick={() => setMode("recent")}>
+            Recently added
+          </RailToggle>
+          <span aria-hidden className="ml-1 text-[var(--color-ink-dim)]">
+            · {items.length}
+          </span>
+        </div>
+
         {/* Desktop arrows — touch uses swipe + dots. */}
         <div className="hidden items-center gap-2 sm:flex">
-          <CarouselArrow
-            label="Previous featured apps"
-            disabled={!canLeft}
-            onClick={() => scrollByCard(-1)}
-          >
+          <CarouselArrow label="Previous apps" disabled={!canLeft} onClick={() => scrollByCard(-1)}>
             <ChevronLeft className="h-4 w-4" />
           </CarouselArrow>
-          <CarouselArrow
-            label="Next featured apps"
-            disabled={!canRight}
-            onClick={() => scrollByCard(1)}
-          >
+          <CarouselArrow label="Next apps" disabled={!canRight} onClick={() => scrollByCard(1)}>
             <ChevronRight className="h-4 w-4" />
           </CarouselArrow>
         </div>
@@ -108,7 +144,7 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
         className="no-scrollbar scroll-fade-x -mx-6 -my-3 flex snap-x snap-mandatory gap-5 overflow-x-auto px-6 py-3"
         role="list"
       >
-        {featured.map((app) => (
+        {items.map((app) => (
           <li key={app.slug} className="flex w-[320px] shrink-0 snap-start sm:w-[380px]">
             <ToolCard app={app} />
           </li>
@@ -120,9 +156,9 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
       <div
         className="mt-3 flex flex-wrap justify-center gap-0.5"
         role="group"
-        aria-label="Featured carousel pagination"
+        aria-label="Carousel pagination"
       >
-        {featured.map((app, i) => (
+        {items.map((app, i) => (
           <button
             key={app.slug}
             type="button"
@@ -143,6 +179,32 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
         ))}
       </div>
     </section>
+  );
+}
+
+interface RailToggleProps {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}
+
+// Inherits the eyebrow type (uppercase mono + tracking) from the parent's
+// `text-eyebrow`; only the color changes between active/idle.
+function RailToggle({ active, onClick, children }: RailToggleProps) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={cn(
+        "rounded-sm transition-colors focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+        active
+          ? "text-[var(--color-accent)]"
+          : "text-[var(--color-ink-dim)] hover:text-[var(--color-ink)]",
+      )}
+    >
+      {children}
+    </button>
   );
 }
 
