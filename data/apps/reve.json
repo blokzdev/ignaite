@@ -1,0 +1,30 @@
+{
+  "slug": "reve",
+  "name": "Reve",
+  "tagline": "AI image generation and editing with 4K and precise text.",
+  "description": "Reve is an image generation and editing platform built around its own model. It separates planning from rendering — representing an image as an editable, code-like layout before drawing it — which enables lossless iterative edits, native 4K output, and reliable in-image text rendering for graphic design.",
+  "insight": "Plans each image as an editable, code-like layout before rendering, so edits stay lossless and in-image text stays legible.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Reve AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary Reve image model (formerly known as Halfmoon)."
+  },
+  "tags": ["image-gen", "image-editing", "text-rendering"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://reve.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://app.reve.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
