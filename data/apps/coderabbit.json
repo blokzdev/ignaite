@@ -1,0 +1,34 @@
+{
+  "slug": "coderabbit",
+  "name": "CodeRabbit",
+  "tagline": "AI code review on every pull request, IDE, and CLI.",
+  "description": "CodeRabbit posts contextual, line-by-line AI reviews on pull requests across GitHub and GitLab, with an agentic chat for follow-ups plus integrated linters and SAST tools. The same reviewer runs in the IDE (VS Code, Cursor, Windsurf) and from a CLI, so issues surface before the PR.",
+  "insight": "Gives all public and open-source repos full Pro-tier reviews with no seat limits, and bills paid teams by agent-minute, not per PR.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "CodeRabbit",
+  "platforms": ["web", "cli", "vscode-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Orchestrates multiple LLMs for review and chat."
+  },
+  "tags": ["code-review", "pull-requests", "devtools"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.coderabbit.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.coderabbit.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.coderabbit.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

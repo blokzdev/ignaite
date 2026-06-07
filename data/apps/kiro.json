@@ -1,0 +1,36 @@
+{
+  "slug": "kiro",
+  "name": "Kiro",
+  "tagline": "Spec-driven agentic IDE — turn prompts into specs, then code.",
+  "description": "Kiro is AWS's agentic IDE that brings engineering rigor to AI coding. Instead of vibe-coding straight to a diff, it first generates durable spec artifacts — requirements, a technical design, and a task list — then implements them. Agent hooks automate routine actions on file events, and it runs on Claude models.",
+  "insight": "AWS-built and Claude-powered, Kiro writes a requirements→design→tasks spec to disk as durable artifacts before it generates any code.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "AWS",
+  "platforms": ["macos", "windows", "linux", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude Sonnet 4.5", "Claude Opus"],
+    "notes": "Auto mode mixes frontier models; built on Amazon Bedrock."
+  },
+  "accentColor": "#7C3AED",
+  "tags": ["spec-driven", "agentic-ide", "code-gen"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kiro.dev",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://kiro.dev/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://kiro.dev/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "supermemory",
+  "name": "Supermemory",
+  "tagline": "Memory API that gives any AI agent long-term recall.",
+  "description": "Supermemory is a memory and context engine for AI apps. It ingests documents, chat histories, and connector data (Drive, Gmail, Notion), turns them into a searchable store, and serves relevant context back to agents over a single API. It works with any model and ships an MCP server alongside official SDKs.",
+  "insight": "MIT-licensed memory engine you can self-host or call as a managed API — one recall endpoint that works across any model.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Supermemory",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Memory infrastructure; works with any LLM."
+  },
+  "tags": ["agent-memory", "rag", "long-term-memory"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://supermemory.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/supermemoryai/supermemory"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://supermemory.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

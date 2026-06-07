@@ -1,0 +1,30 @@
+{
+  "slug": "jules",
+  "name": "Jules",
+  "tagline": "Async coding agent that clones your repo and ships PRs.",
+  "description": "Jules is Google's asynchronous coding agent. It clones your GitHub repository into a secure Google Cloud VM, understands the full project context, then writes tests, fixes bugs, and makes multi-file changes in the background before opening a pull request. A Jules Tools CLI and a Jules API extend it into your own workflows.",
+  "insight": "An async agent that does its work in a cloud VM and hands back a PR — complete with an audio changelog summarizing what it changed.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Google",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Gemini 2.5 Pro"]
+  },
+  "tags": ["coding-agent", "async", "github"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://jules.google",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://jules.google/docs"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
