@@ -16,10 +16,13 @@ export interface ContactResult {
 }
 
 const PROJECT_LABELS: Record<string, string> = {
-  "idea-exploration": "Idea exploration",
-  "build-product": "Build a product",
-  "oss-collab": "OSS collaboration",
+  compare: "Help choosing",
+  "suggest-app": "App suggestion",
+  "suggest-category": "Category suggestion",
   correction: "Directory correction",
+  sponsorship: "Sponsorship inquiry",
+  press: "Press / partnership",
+  "oss-collab": "OSS collaboration",
   other: "Something else",
 };
 
@@ -52,6 +55,13 @@ export async function submitContact(formData: FormData): Promise<ContactResult> 
   const customSubject = String(formData.get("subject") ?? "")
     .trim()
     .slice(0, 200);
+  // Only present from the "Help me choose between apps" flow: the category and
+  // the listings the visitor is weighing.
+  const compareCategory = String(formData.get("category") ?? "").trim();
+  const candidates = formData
+    .getAll("candidates")
+    .map((c) => String(c).trim())
+    .filter(Boolean);
 
   if (!name) return { ok: false, error: "What should we call you?" };
   if (!email) return { ok: false, error: "We need an email to write back." };
@@ -59,6 +69,10 @@ export async function submitContact(formData: FormData): Promise<ContactResult> 
   if (!message) return { ok: false, error: "Tell us a little about what you have in mind." };
   if (message.length > 1000) {
     return { ok: false, error: "Please keep it under 1,000 characters." };
+  }
+  // Mirror the client guard: a comparison needs at least two listings.
+  if (compareCategory && candidates.length < 2) {
+    return { ok: false, error: "Please select at least two apps to compare." };
   }
 
   const apiKey = process.env.RESEND_API_KEY;
@@ -77,6 +91,8 @@ export async function submitContact(formData: FormData): Promise<ContactResult> 
   const text = [
     `From: ${name} <${email}>`,
     `Project type: ${projectLabel}`,
+    ...(compareCategory ? [`Category: ${compareCategory}`] : []),
+    ...(candidates.length ? [`Comparing: ${candidates.join(", ")}`] : []),
     "",
     message,
     "",
