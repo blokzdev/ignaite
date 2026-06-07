@@ -200,6 +200,42 @@ function SearchView({
     <CommandList className="animate-[overlay-in_120ms_ease-out]">
       <CommandEmpty>No results.</CommandEmpty>
 
+      {/* Apps lead the search view — when you're typing, apps are the target.
+          Navigate + Categories sink to the bottom since the menu state already
+          surfaces the nav menu and the top-category tiles. */}
+      <CommandGroup heading="Apps">
+        {appsIndex.map((app) => (
+          <CommandItem
+            key={app.slug}
+            value={`${app.name} ${app.vendor ?? ""}`}
+            keywords={[...(app.tags ?? []), app.category, app.vendor ?? ""]}
+            onSelect={() => onNavigate(`/apps/${app.slug}`)}
+          >
+            <span className="truncate text-[var(--color-ink)]">{app.name}</span>
+            <span className="ml-auto shrink-0 pl-3 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
+              {CATEGORY_LABEL[app.category as AppCategory]}
+            </span>
+          </CommandItem>
+        ))}
+      </CommandGroup>
+
+      <CommandSeparator />
+
+      <CommandGroup heading="Categories">
+        {APP_CATEGORIES.map((c) => (
+          <CommandItem
+            key={c}
+            value={`category ${CATEGORY_LABEL[c]}`}
+            onSelect={() => onNavigate(`/?category=${c}`)}
+          >
+            <Tag className="h-3.5 w-3.5 shrink-0 text-[var(--color-ink-dim)]" />
+            <span className="text-[var(--color-ink)]">{CATEGORY_LABEL[c]}</span>
+          </CommandItem>
+        ))}
+      </CommandGroup>
+
+      <CommandSeparator />
+
       <CommandGroup heading="Navigate">
         {PAGES.map((p) => {
           const active = isActiveNav(pathname, p.href);
@@ -229,39 +265,6 @@ function SearchView({
             </CommandItem>
           );
         })}
-      </CommandGroup>
-
-      <CommandSeparator />
-
-      <CommandGroup heading="Categories">
-        {APP_CATEGORIES.map((c) => (
-          <CommandItem
-            key={c}
-            value={`category ${CATEGORY_LABEL[c]}`}
-            onSelect={() => onNavigate(`/?category=${c}`)}
-          >
-            <Tag className="h-3.5 w-3.5 shrink-0 text-[var(--color-ink-dim)]" />
-            <span className="text-[var(--color-ink)]">{CATEGORY_LABEL[c]}</span>
-          </CommandItem>
-        ))}
-      </CommandGroup>
-
-      <CommandSeparator />
-
-      <CommandGroup heading="Apps">
-        {appsIndex.map((app) => (
-          <CommandItem
-            key={app.slug}
-            value={`${app.name} ${app.vendor ?? ""}`}
-            keywords={[...(app.tags ?? []), app.category, app.vendor ?? ""]}
-            onSelect={() => onNavigate(`/apps/${app.slug}`)}
-          >
-            <span className="truncate text-[var(--color-ink)]">{app.name}</span>
-            <span className="ml-auto shrink-0 pl-3 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
-              {CATEGORY_LABEL[app.category as AppCategory]}
-            </span>
-          </CommandItem>
-        ))}
       </CommandGroup>
     </CommandList>
   );

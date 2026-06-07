@@ -28,6 +28,14 @@ import { BackToTop } from "./back-to-top";
 
 const TOTAL = apps.length;
 
+// Per-category listing counts (total, incl. archived — matches the masthead's
+// "{TOTAL} apps", the "{filtered} of {TOTAL}" indicator, and the command-palette
+// category tiles). Computed once from the build-time data.
+const CATEGORY_COUNTS = apps.reduce<Partial<Record<AppCategory, number>>>((acc, a) => {
+  acc[a.category] = (acc[a.category] ?? 0) + 1;
+  return acc;
+}, {});
+
 // The integrated directory chrome that lives inside the site header on `/`:
 // a persistent search field, an always-visible quick-Category strip, and the
 // secondary facets behind a Filters popover (desktop) / sheet (mobile). It reads
@@ -255,18 +263,21 @@ export function DirectoryConsole() {
           role="group"
           aria-label="Filter by category"
         >
-          <CategoryChip active={filter.category.length === 0} onClick={filters.resetCategory}>
-            All
-          </CategoryChip>
+          <CategoryChip
+            label="All"
+            active={filter.category.length === 0}
+            onClick={filters.resetCategory}
+            count={TOTAL}
+          />
           {APP_CATEGORIES.map((c) => (
             <CategoryChip
               key={c}
               category={c}
+              label={CATEGORY_LABEL[c as AppCategory]}
               active={filter.category.includes(c)}
               onClick={() => filters.toggleCategory(c)}
-            >
-              {CATEGORY_LABEL[c as AppCategory]}
-            </CategoryChip>
+              count={CATEGORY_COUNTS[c] ?? 0}
+            />
           ))}
         </div>
       </div>
@@ -279,19 +290,24 @@ function CategoryChip({
   active,
   onClick,
   category,
-  children,
+  count,
+  label,
 }: Readonly<{
   active: boolean;
   onClick: () => void;
   category?: string;
-  children: React.ReactNode;
+  count?: number;
+  label: string;
 }>) {
+  const hasCount = count != null && count > 0;
   return (
     <button
       type="button"
       data-category={category}
       onClick={onClick}
       aria-pressed={active}
+      // Spell out the count so the bare number isn't ambiguous to a screen reader.
+      aria-label={hasCount ? `${label}, ${count} apps` : label}
       className={cn(
         "inline-flex h-8 shrink-0 items-center rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
         "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
@@ -300,7 +316,13 @@ function CategoryChip({
           : "bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)]",
       )}
     >
-      {children}
+      {label}
+      {hasCount && (
+        // Count inherits the pill's text colour (so it flips with active/hover)
+        // and steps down in size to read as secondary metadata. Full token colour
+        // (no opacity) keeps small text AA-legible per the styling rules.
+        <span className="ml-1.5 text-[10px] tracking-normal tabular-nums">{count}</span>
+      )}
     </button>
   );
 }
