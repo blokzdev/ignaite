@@ -45,7 +45,7 @@ export default function HomePage() {
             <span className="text-display text-[var(--color-accent)]">for the job.</span>
           </h1>
           <p className="mt-3 font-mono text-[11px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
-            {total} apps · {categories} categories · researched &amp; kept current by Claude Code
+            {total} apps · {categories} categories · AI-managed
           </p>
         </div>
 
