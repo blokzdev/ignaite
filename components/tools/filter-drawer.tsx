@@ -34,7 +34,7 @@ export function FilterDrawer({ activeCount, total, filtered, omitCategory }: Rea
         onClick={handleOpen}
         aria-haspopup="dialog"
         aria-expanded={open}
-        className="inline-flex h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+        className="inline-flex h-8 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-2.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
       >
         <SlidersHorizontal className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
         Filters

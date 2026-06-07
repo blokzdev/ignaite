@@ -123,8 +123,9 @@ export function DirectoryConsole() {
   return (
     <>
       <div className="container-site px-6">
-        {/* Search row */}
-        <div className="flex items-center gap-2 pb-2.5">
+        {/* Search row. pt-2.5 matches the strip's pb-2.5 so the console reads
+            balanced once the nav row tucks away and it sits flush to the top. */}
+        <div className="flex items-center gap-2 pt-2.5 pb-2.5">
           <div className="relative flex-1">
             <Search
               aria-hidden
@@ -146,7 +147,7 @@ export function DirectoryConsole() {
               }}
               placeholder="Search apps, vendors, tags, models…"
               aria-label="Search apps"
-              className="h-9 w-full rounded-full bg-white/[0.04] pr-14 pl-9 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset placeholder:text-[var(--color-ink-dim)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+              className="h-8 w-full rounded-full bg-white/[0.04] pr-14 pl-9 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset placeholder:text-[var(--color-ink-dim)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
             />
             {text.length > 0 ? (
               <button
@@ -173,7 +174,7 @@ export function DirectoryConsole() {
           <DropdownMenu>
             <DropdownMenuTrigger
               aria-label="Sort apps"
-              className="hidden h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08] sm:inline-flex"
+              className="hidden h-8 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-2.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08] sm:inline-flex"
             >
               <ArrowDownUp className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
               {SORT_LABEL[sortMode]}
@@ -200,7 +201,7 @@ export function DirectoryConsole() {
             <Popover>
               <PopoverTrigger
                 aria-label={secondaryCount > 0 ? `Filters, ${secondaryCount} applied` : "Filters"}
-                className="inline-flex h-9 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08]"
+                className="inline-flex h-8 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-2.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08]"
               >
                 <SlidersHorizontal className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
                 Filters
@@ -296,7 +297,7 @@ function CategoryChip({
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "inline-flex h-9 shrink-0 items-center rounded-full px-3 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
+        "inline-flex h-8 shrink-0 items-center rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
         "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
         active
           ? "bg-[var(--color-accent)] text-[var(--color-canvas)]"
