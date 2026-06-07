@@ -1,0 +1,35 @@
+{
+  "slug": "factory-ai",
+  "insight": "Its 'Droids' run as both cloud and local background agents and are model-agnostic, spanning frontier and open-weight models from one CLI.",
+  "name": "Factory",
+  "tagline": "Agent-native software development with autonomous 'Droids'.",
+  "description": "An agent-native platform for software development built around 'Droids' — autonomous coding agents that plan, edit, and run tasks across a codebase. Works from a CLI/SDK and runs agents both in the cloud and locally in the background. Model-agnostic across frontier and open-weight models.",
+  "category": "agent",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Factory",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT-5", "Claude", "Gemini"],
+    "notes": "Supports leading frontier and open-weight models."
+  },
+  "tags": ["coding-agents", "software-development", "cli", "autonomous"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://factory.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.factory.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://factory.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

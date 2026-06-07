@@ -1,0 +1,31 @@
+{
+  "slug": "sierra",
+  "insight": "Routes each task across OpenAI, Anthropic, and Meta models to trade off cost, latency, and quality rather than betting on a single LLM.",
+  "name": "Sierra",
+  "tagline": "Enterprise AI agents for customer experience across channels.",
+  "description": "An enterprise platform ('Agent OS') for building conversational AI agents that take action for customers across chat, voice, email, SMS, and WhatsApp. Supports both no-code and programmatic agent development. Founded by Bret Taylor and Clay Bavor and used across a large share of the Fortune 500.",
+  "category": "agent",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Sierra",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Llama"],
+    "notes": "Blends models from OpenAI, Anthropic, and Meta per task."
+  },
+  "tags": ["customer-experience", "enterprise", "conversational-agents", "support"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sierra.ai",
+      "primary": true
+    },
+    {
+      "kind": "twitter",
+      "url": "https://x.com/sierraplatform"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

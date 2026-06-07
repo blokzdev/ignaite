@@ -1,0 +1,34 @@
+{
+  "slug": "hume-ai",
+  "insight": "EVI reads the prosody and emotion in your voice — not just the words — and tunes its own tone and timing in response.",
+  "name": "Hume AI",
+  "tagline": "Empathic Voice Interface — speech-to-speech AI that hears tone.",
+  "description": "A voice AI toolkit built around the Empathic Voice Interface (EVI), a speech-to-speech model that infers emotion and prosody from a user's voice and modulates its replies accordingly. Exposed as an API for building expressive voice agents and assistants. From a research lab focused on emotional intelligence in AI.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Hume AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Pairs Hume's own voice/emotion models with a configurable LLM (e.g. Claude, GPT)."
+  },
+  "tags": ["voice", "speech-to-speech", "emotion", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hume.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://dev.hume.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.hume.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
