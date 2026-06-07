@@ -1,0 +1,30 @@
+{
+  "slug": "lovart",
+  "insight": "A 'design agent' that chains multiple image and video models on one canvas to iterate on a brief, instead of returning a single generation.",
+  "name": "Lovart",
+  "tagline": "AI design agent — logos to full campaigns in one conversation.",
+  "description": "Conversational design agent that takes a brief and produces full creative outputs — logos, posters, marketing campaigns — by orchestrating multiple image and video models on a single canvas. It iterates on the design rather than re-rolling prompts, with a credit-based freemium model.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Lovart",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Orchestrates third-party image and video models on a design canvas."
+  },
+  "tags": ["design-agent", "image-gen", "branding", "creative"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lovart.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.lovart.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

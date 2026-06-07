@@ -1,0 +1,26 @@
+{
+  "slug": "submagic",
+  "insight": "Billed per finished video rather than per credit or source-minute, and it auto-inserts context-matched B-roll, not just captions.",
+  "name": "Submagic",
+  "tagline": "Edit short-form videos 10x faster with AI.",
+  "description": "AI video editor for short-form content that auto-generates captions in dozens of languages, removes silences, inserts B-roll, and extracts the highest-engagement clips from long videos. Upload footage or a YouTube link and get TikTok/Reels/Shorts-ready edits. Pricing is per finished video rather than per credit.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Submagic",
+  "platforms": ["web"],
+  "tags": ["video", "short-form", "captions", "clipping"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.submagic.co",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.submagic.co/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
