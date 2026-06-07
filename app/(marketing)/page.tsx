@@ -17,8 +17,12 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function HomePage() {
-  const total = allApps.length;
-  const categories = new Set(allApps.map((a) => a.category)).size;
+  // Headline counts reflect the LIVE directory (active apps) — matching the grid,
+  // the category strip "All", and the console readout. Archived entries are kept
+  // as historical record but aren't part of the browsable count.
+  const live = allApps.filter((a) => (a.status ?? "active") === "active");
+  const total = live.length;
+  const categories = new Set(live.map((a) => a.category)).size;
 
   // Top padding clears the pinned directory console (nav + search + category
   // strip) fixed-positioned in the shared header. The masthead is a plain block
