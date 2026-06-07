@@ -15,6 +15,7 @@ const PROJECT_OPTIONS = [
   { value: "idea-exploration", label: "Got an idea, need a partner" },
   { value: "build-product", label: "Need to ship a production app" },
   { value: "oss-collab", label: "Want to collaborate on OSS" },
+  { value: "sponsorship", label: "Sponsor a slot / advertise" },
   { value: "correction", label: "Reporting a correction" },
   { value: "other", label: "Something else" },
 ];
@@ -60,6 +61,14 @@ const FIELD_COPY: Record<string, FieldCopy> = {
     label: "What's the project?",
     placeholder:
       "Link the repo and tell us where you want a hand — issues, PRs, docs, or a bigger build-out.",
+  },
+  sponsorship: {
+    title: "Want to reach our readers?",
+    description:
+      "Tell us about your AI app and who you want to reach. Sponsored slots are clearly labeled and limited — they never alter the catalog's editorial coverage.",
+    label: "What are you promoting?",
+    placeholder:
+      "Your app, the audience you're after, and rough budget or timing — we'll send the details.",
   },
   correction: {
     title: "Spotted something off?",
