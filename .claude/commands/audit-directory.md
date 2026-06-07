@@ -1,6 +1,6 @@
 ---
 description: Review existing directory listings — verify links, pricing, status; refresh lastVerifiedAt
-argument-hint: [--category <c>] [--stale-since <YYYY-MM-DD>] [slug ...]
+argument-hint: [--category <c>] [--stale-since <YYYY-MM-DD>] [--min-age <days>] [slug ...]
 ---
 
 You are auditing existing entries in the Blokz.dev **AI-apps directory** — one JSON file per listing
@@ -11,10 +11,20 @@ and flag it.
 Scope: **$ARGUMENTS**
 
 - No args → review the entries with the **oldest `lastVerifiedAt`** first (grep `data/apps/*.json`
-  for `lastVerifiedAt`, sort, take a manageable batch — e.g. 10–15, not all 125 at once).
-- `--category <c>` → only that `AppCategory`.
-- `--stale-since <date>` → only entries with `lastVerifiedAt` older than that date.
-- explicit `slug`s → just those.
+  for `lastVerifiedAt`, sort oldest-first). **Then apply the freshness floor:** drop any entry whose
+  `lastVerifiedAt` is **within the last `--min-age` days (default 14)** and take a manageable batch from
+  what remains — e.g. 10–15, not all 125 at once. The floor avoids needlessly re-checking still-fresh
+  entries and stops two overlapping/too-frequent runs from both grabbing the same stale tail (the second
+  run finds the first's just-stamped entries inside the floor). If **every** remaining entry is inside
+  the floor (the directory is fresh), the batch is empty → **do nothing** (no PR).
+- `--category <c>` → only that `AppCategory` (freshness floor still applies — oldest-first within it).
+- `--stale-since <date>` → only entries with `lastVerifiedAt` older than that date (a more explicit
+  floor; the default `--min-age` floor still applies on top unless you pass `--min-age 0`).
+- `--min-age <days>` → override the 14-day skip floor (e.g. `--min-age 7` for a tighter cycle;
+  `--min-age 0` disables it entirely). Applies to batch selection (no-args / `--category` /
+  `--stale-since`) — **never** to explicit `slug`s.
+- explicit `slug`s → just those, **regardless of freshness** (naming a slug forces a re-verify; the
+  floor is skipped for them).
 
 For each entry in scope:
 
@@ -86,8 +96,11 @@ Whenever you apply a **substantive** edit above (pricing, platforms, modelSuppor
 ## Scheduled / unattended mode (run by a Routine)
 
 When there's no human in the loop (a scheduled Routine invoked this), default to **no args** → the
-oldest-`lastVerifiedAt` batch, then:
+oldest-`lastVerifiedAt` batch **past the 14-day freshness floor**, then:
 
+- The floor is what makes back-to-back scheduled runs safe: a second run fired in the same window finds
+  the first run's just-stamped entries inside the floor and **no-ops cleanly** rather than re-verifying
+  fresh data. If the whole directory is within the floor, do nothing.
 - Apply the verified fixes and bump `lastVerifiedAt` as above.
 - If anything changed: create a branch (e.g. `claude/audit-directory-<date>`), commit, push, and open
   a PR into `main` summarizing the diff + any "needs human decision" items. **Do not merge.**

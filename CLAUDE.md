@@ -507,7 +507,8 @@ encode the flow (see `docs/directory-playbook.md`):
 - **`/audit-directory [--category c] [--stale-since date]`** — re-verify existing listings (links,
   pricing, platforms, model support, still-alive), fix drift, archive discontinued apps, bump
   `lastVerifiedAt`, and **append a `changelog` entry on every substantive change** (the visible audit
-  trail rendered on `/apps/<slug>` by `components/tools/change-history.tsx`). Run ~weekly, oldest-verified first.
+  trail rendered on `/apps/<slug>` by `components/tools/change-history.tsx`). Run ~weekly, oldest-verified
+  first (skips entries verified in the last ~14 days — `--min-age`, default 14 — so overlapping runs no-op).
 
 Schedule `/discover-apps` + `/audit-directory` weekly via Claude Code **Routines** (account-owned —
 the user sets them up; they open PRs for review). Exact routine prompts: `docs/directory-playbook.md`.

@@ -21,7 +21,9 @@ here can invoke them. They encode the same flow we run manually.
   confirmed, pick the conservative value and flag it for a human — never invent pricing, platforms, or
   links.
 - **Freshness discipline.** `addedAt` + `lastVerifiedAt` use the real date (YYYY-MM-DD). `/audit`
-  cycles the oldest-`lastVerifiedAt` entries first so the whole directory rotates through verification.
+  cycles the oldest-`lastVerifiedAt` entries first so the whole directory rotates through verification,
+  and **skips anything verified within the last ~14 days** (`--min-age`, default 14) — so overlapping or
+  too-frequent runs no-op instead of re-checking still-fresh entries.
 - **Change history is the receipts.** When `/audit-directory` makes a _substantive_ change, it appends a
   `changelog` entry (`{ date, kind, summary, asOf?, source? }`) to the listing — a visible audit trail
   on the app detail page (`kind` = updated/fixed/archived/relisted). A no-change re-verification only
