@@ -72,10 +72,10 @@
      drives scroll padding only, so post-hydration changes reflow nothing — and
      the masthead's static top padding (page.tsx) means no CLS. */
   html[data-route="directory"] {
-    --nav-h: 8.75rem;
+    --nav-h: 9rem;
   }
   html[data-route="directory"][data-nav-hidden="true"] {
-    --nav-h: 5.75rem;
+    --nav-h: 6rem;
   }
 
   html {
