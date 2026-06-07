@@ -19,6 +19,65 @@ const PROJECT_OPTIONS = [
   { value: "other", label: "Something else" },
 ];
 
+type FieldCopy = {
+  title: string | null;
+  description: string;
+  label: string;
+  placeholder: string;
+};
+
+// Drives the contextual block + the textarea label/placeholder, keyed on the
+// "What's this about?" selection. `default` covers the unselected state (the
+// hero already titles the page, so its `title` is null).
+const DEFAULT_COPY: FieldCopy = {
+  title: null,
+  description:
+    "We partner with founders building AI apps, teams shipping research-rooted software, OSS authors after an agentic co-pilot, and orgs that want their roadmap audited. Pick what fits above and we'll tailor the rest.",
+  label: "What do you want to build?",
+  placeholder: "Background, stack hunches, deadlines, anything — short or long is fine.",
+};
+
+const FIELD_COPY: Record<string, FieldCopy> = {
+  "idea-exploration": {
+    title: "Got an idea? Let's shape it.",
+    description:
+      "Tell us the problem, who it's for, and where you're stuck. We'll help turn the spark into a spec — then ship it.",
+    label: "What's the idea?",
+    placeholder:
+      "The problem, the user, the rough shape — half-formed is fine. We'll pressure-test it with you.",
+  },
+  "build-product": {
+    title: "Ready to ship? Let's build.",
+    description:
+      "Tell us the product, the stack you're leaning toward, and the deadline. We build production-grade, receipts included.",
+    label: "What are we shipping?",
+    placeholder: "What it does, who it's for, the stack and timeline — and what 'done' looks like.",
+  },
+  "oss-collab": {
+    title: "Building in the open?",
+    description:
+      "Point us at the repo and where an agentic co-pilot would move the needle — features, reviews, docs, releases.",
+    label: "What's the project?",
+    placeholder:
+      "Link the repo and tell us where you want a hand — issues, PRs, docs, or a bigger build-out.",
+  },
+  correction: {
+    title: "Spotted something off?",
+    description:
+      "The directory is audited continuously, but things drift. Tell us what's stale and the right info if you have it.",
+    label: "What needs fixing?",
+    placeholder:
+      "Which listing, what's out of date or incorrect — and the right info if you have it.",
+  },
+  other: {
+    title: "Something else? Say more.",
+    description:
+      "Not a fit for the buckets above? Tell us what's on your mind and we'll point it the right way.",
+    label: "What's on your mind?",
+    placeholder: "Whatever it is — partnership, press, a question — give us the gist.",
+  },
+};
+
 export function ContactForm() {
   const reduced = useReducedMotion();
   const [isPending, startTransition] = useTransition();
@@ -32,7 +91,9 @@ export function ContactForm() {
   const prefillSubject = searchParams.get("subject") ?? "";
   const rawType = searchParams.get("type") ?? "";
   const prefillType = PROJECT_OPTIONS.some((o) => o.value === rawType) ? rawType : "";
-  const isCorrection = prefillType === "correction";
+  // Controlled so live selection (not just the URL prefill) drives the copy below.
+  const [projectType, setProjectType] = useState(prefillType);
+  const copy = FIELD_COPY[projectType] ?? DEFAULT_COPY;
 
   if (submitted) return <ContactSuccess />;
 
@@ -96,7 +157,8 @@ export function ContactForm() {
         <select
           id="projectType"
           name="projectType"
-          defaultValue={prefillType}
+          value={projectType}
+          onChange={(e) => setProjectType(e.target.value)}
           className={cn(inputClass, "appearance-none bg-[length:1rem_1rem] bg-no-repeat pr-10")}
           style={{
             backgroundImage:
@@ -131,24 +193,40 @@ export function ContactForm() {
         </Field>
       )}
 
-      <Field
-        id="message"
-        label={isCorrection ? "What needs fixing?" : "What do you want to build?"}
-        hint={`${messageLength}/1,000`}
+      {/* Contextual guidance — adapts to the dropdown so the right framing sits
+          immediately above the textarea. aria-live announces changes; the
+          textarea points back here via aria-describedby. */}
+      <motion.div
+        key={projectType}
+        id="projectGuidance"
+        aria-live="polite"
+        className="border-l-2 border-[var(--color-accent)]/40 pl-4"
+        initial={reduced ? false : { opacity: 0, y: 6 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.35, ease: EASE_OUT_EXPO }}
       >
+        {copy.title && <p className="text-display text-xl text-[var(--color-ink)]">{copy.title}</p>}
+        <p
+          className={cn(
+            "text-sm leading-relaxed text-[var(--color-ink-soft)]",
+            copy.title && "mt-1",
+          )}
+        >
+          {copy.description}
+        </p>
+      </motion.div>
+
+      <Field id="message" label={copy.label} hint={`${messageLength}/1,000`}>
         <textarea
           id="message"
           name="message"
           required
           maxLength={1000}
           rows={6}
+          aria-describedby="projectGuidance"
           onChange={(e) => setMessageLength(e.currentTarget.value.length)}
           className={cn(inputClass, "min-h-[160px] resize-y leading-relaxed")}
-          placeholder={
-            isCorrection
-              ? "Tell us what's out of date or incorrect — and the right info if you have it."
-              : "Background, stack hunches, deadlines, anything — short or long is fine."
-          }
+          placeholder={copy.placeholder}
         />
       </Field>
 

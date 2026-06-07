@@ -43,12 +43,6 @@ export default function ContactPage() {
             <span className="text-display text-[var(--color-ink)]">Got an idea?</span>{" "}
             <span className="text-display text-[var(--color-accent)]">Pitch us.</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-base text-[var(--color-ink-dim)] sm:text-lg">
-            We partner with founders building AI apps for B2B or B2C, teams shipping research-rooted
-            software, OSS authors looking for an agentic co-pilot, and product orgs that want their
-            roadmap audited by someone fluent in both the spec and the shipping. Tell us the shape
-            of it.
-          </p>
         </header>
 
         <div className="mt-16 grid gap-12 lg:grid-cols-[1.6fr_1fr] lg:gap-20">
