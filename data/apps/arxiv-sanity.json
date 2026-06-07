@@ -26,5 +26,14 @@
   ],
   "status": "archived",
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-07",
+      "kind": "archived",
+      "summary": "Archived — hosted service offline and the author stepped away from maintenance.",
+      "asOf": "2025-03-01",
+      "source": "https://github.com/karpathy/arxiv-sanity-lite/issues/23"
+    }
+  ]
 }

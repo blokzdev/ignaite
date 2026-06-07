@@ -22,6 +22,11 @@ here can invoke them. They encode the same flow we run manually.
   links.
 - **Freshness discipline.** `addedAt` + `lastVerifiedAt` use the real date (YYYY-MM-DD). `/audit`
   cycles the oldest-`lastVerifiedAt` entries first so the whole directory rotates through verification.
+- **Change history is the receipts.** When `/audit-directory` makes a _substantive_ change, it appends a
+  `changelog` entry (`{ date, kind, summary, asOf?, source? }`) to the listing — a visible audit trail
+  on the app detail page (`kind` = updated/fixed/archived/relisted). A no-change re-verification only
+  bumps `lastVerifiedAt`; it records nothing. `asOf` (the real-world change date) and `source` are set
+  only when the research can pin them — never guessed.
 - **The AI insight is the signature.** Every listing carries an `insight` — one ≤140-char,
   non-obvious, _verifiable_ sentence (a licensing nuance, an architectural quirk, how it differs from
   peers) authored while researching it. It's what makes the catalog read as AI-curated, not

@@ -84,8 +84,31 @@ export function AppDetailSkeleton() {
           </ul>
         </div>
 
-        {/* Accuracy note */}
-        <Skeleton variant="shimmer" className="mt-20 h-28 w-full rounded-2xl" />
+        {/* Maintenance ledger — disclaimer + change-history timeline + footer.
+            Always renders on the real page (every listing has an origin node),
+            so the skeleton mirrors it 1:1. */}
+        <div className="mt-20 rounded-2xl bg-white/[0.04] p-5 ring-1 ring-white/[0.08] ring-inset sm:p-6">
+          <Skeleton variant="pulse" className="h-3 w-52" />
+          <div className="mt-3 flex flex-col gap-2">
+            <Skeleton variant="shimmer" className="h-3.5 w-full" />
+            <Skeleton variant="shimmer" className="h-3.5 w-4/5" />
+          </div>
+          <div className="mt-5 border-t border-white/[0.06] pt-5">
+            <Skeleton variant="pulse" className="h-3 w-32" />
+            <div className="mt-4 space-y-5 border-l border-white/[0.08] pl-6">
+              {Array.from({ length: 2 }).map((_, i) => (
+                <div key={i} className="flex flex-col gap-2">
+                  <Skeleton variant="pulse" className="h-3 w-40" />
+                  <Skeleton variant="shimmer" className="h-4 w-11/12" />
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="mt-5 flex items-center justify-between border-t border-white/[0.06] pt-5">
+            <Skeleton variant="pulse" className="h-3 w-40" />
+            <Skeleton variant="pulse" className="h-3 w-36" />
+          </div>
+        </div>
       </div>
     </div>
   );

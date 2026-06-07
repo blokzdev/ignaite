@@ -361,8 +361,14 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </RelatedRail>
       )}
 
-      {/* Accuracy — how the listing is maintained + last verified + correction CTA */}
-      <AccuracyNote appName={app.name} lastVerifiedAt={app.lastVerifiedAt} />
+      {/* Maintenance ledger — disclaimer + change-history timeline + last
+          verified + correction CTA (one cohesive provenance card). */}
+      <AccuracyNote
+        appName={app.name}
+        addedAt={app.addedAt}
+        lastVerifiedAt={app.lastVerifiedAt}
+        changelog={app.changelog}
+      />
 
       <JsonLd
         data={{
@@ -375,7 +381,12 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           url: `${siteUrl}/apps/${app.slug}`,
           publisher: app.vendor ? { "@type": "Organization", name: app.vendor } : undefined,
           datePublished: app.addedAt,
-          dateModified: app.lastVerifiedAt,
+          // Latest of the freshness stamp and the newest recorded change.
+          dateModified:
+            [app.lastVerifiedAt, ...(app.changelog ?? []).map((c) => c.date)]
+              .filter((d): d is string => Boolean(d))
+              .sort()
+              .at(-1) ?? app.lastVerifiedAt,
           offers:
             app.pricing === "free" || app.openSource
               ? {

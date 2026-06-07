@@ -148,10 +148,23 @@ export const APP_LINK_KINDS: ReadonlyArray<AppLinkKind> = [
   "discord",
 ];
 
-// The record SHAPES (App, AppLink, ModelSupport, AppScreenshot) are derived from
-// the single source of truth — the zod schema in `lib/apps-schema.ts` — and
-// re-exported here so every existing `@/types/app` import keeps working. To
+// A change-history entry's classification. `added` = first listed · `updated` =
+// the app itself changed upstream · `fixed` = our data was corrected · `archived`
+// = discontinued/sunset · `relisted` = brought back after archival.
+export type ChangeKind = "added" | "updated" | "fixed" | "archived" | "relisted";
+
+export const APP_CHANGE_KINDS: ReadonlyArray<ChangeKind> = [
+  "added",
+  "updated",
+  "fixed",
+  "archived",
+  "relisted",
+];
+
+// The record SHAPES (App, AppLink, ModelSupport, AppScreenshot, ChangeEntry) are
+// derived from the single source of truth — the zod schema in `lib/apps-schema.ts`
+// — and re-exported here so every existing `@/types/app` import keeps working. To
 // change a field, edit the schema (not this file); Velite validates every
 // `data/apps/*.json` against it at build. The enum unions + value tuples above
 // stay here because they're client-safe (zod-free) and reused by the filter UI.
-export type { App, AppLink, ModelSupport, AppScreenshot } from "@/lib/apps-schema";
+export type { App, AppLink, ModelSupport, AppScreenshot, ChangeEntry } from "@/lib/apps-schema";

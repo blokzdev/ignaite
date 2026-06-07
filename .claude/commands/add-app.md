@@ -43,6 +43,9 @@ Recommended: `insight` (the directory's signature signal — see below), `vendor
 ({ `kind`, `models?`, `notes?` }), `tags` (3–5), `accentColor` (brand hex), `addedAt` +
 `lastVerifiedAt` = **today's date** (YYYY-MM-DD), plus the two facets below.
 
+Do **not** seed a `changelog` on a new entry — the detail page derives the "Listed · `addedAt`" origin
+node, and the `changelog` trail is reserved for substantive changes recorded later by `/audit-directory`.
+
 Conventions (match existing entries):
 
 - **`pricing` is cost only** (`free` / `freemium` / `paid` / `byo-key`) — there is **no
