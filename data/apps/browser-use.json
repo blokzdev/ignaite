@@ -1,0 +1,35 @@
+{
+  "slug": "browser-use",
+  "insight": "Built on Playwright, it turns a page into a structured view any LLM can drive — and leads open browser agents on the WebVoyager benchmark.",
+  "name": "Browser Use",
+  "tagline": "Open-source browser automation for AI agents.",
+  "description": "MIT-licensed Python framework that connects AI agents to a real browser to navigate, fill forms, extract data, and run multi-step web workflows. It parses the live DOM into a structured view so any model — Claude, GPT, Gemini, Qwen, DeepSeek — can act on it. A hosted Browser Use Cloud adds managed sessions and a fully-hosted agent.",
+  "category": "agent",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Browser Use",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "Qwen", "DeepSeek"]
+  },
+  "tags": ["browser-automation", "open-source", "web-agent", "playwright"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://browser-use.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.browser-use.com"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

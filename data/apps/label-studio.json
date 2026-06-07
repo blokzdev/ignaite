@@ -1,0 +1,34 @@
+{
+  "slug": "label-studio",
+  "insight": "One UI labels every modality — image, text, audio, video, time-series — and ML backends can pre-annotate so humans correct, not start cold.",
+  "name": "Label Studio",
+  "tagline": "Open-source multi-type data labeling and AI evaluation.",
+  "description": "Widely-used open-source tool for labeling and annotating data across images, text, audio, video, and time-series, with a standardized export format for training and fine-tuning. ML backends can pre-label data to speed up human review, and it increasingly doubles as a human-in-the-loop AI evaluation surface. Maintained by HumanSignal, which offers a hosted Starter tier and Label Studio Enterprise.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "HumanSignal",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["data-labeling", "open-source", "annotation", "human-in-the-loop", "training-data"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://labelstud.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/HumanSignal/label-studio"
+    },
+    {
+      "kind": "docs",
+      "url": "https://labelstud.io/guide"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "deepeval",
+  "insight": "Modeled on Pytest — you write LLM evals as unit-test assertions and run them in CI, with 50+ metrics spanning RAG, agents, and safety.",
+  "name": "DeepEval",
+  "tagline": "Pytest-style LLM evaluation framework. Open source.",
+  "description": "Open-source (Apache 2.0) framework for evaluating LLM apps the way Pytest tests code — assertions backed by 50+ ready metrics spanning LLM-as-judge, RAG, agents, conversation, and safety. Plugs into LangChain, CrewAI, OpenAI Agents and more. Confident AI is the paid cloud platform that adds test management, dashboards, and observability on top.",
+  "category": "eval",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Confident AI",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring any provider/model for the LLM-as-judge metrics."
+  },
+  "tags": ["eval", "open-source", "llm-as-judge", "rag", "ci"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://deepeval.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/confident-ai/deepeval"
+    },
+    {
+      "kind": "docs",
+      "url": "https://deepeval.com/docs/getting-started"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "assemblyai",
+  "insight": "Bills per second and layers 'Speech Understanding' models — summaries, sentiment, PII redaction — on top of raw transcription.",
+  "name": "AssemblyAI",
+  "tagline": "Production speech-to-text + audio intelligence API.",
+  "description": "Speech recognition API with batch and real-time streaming transcription, speaker diarization, and language detection. Its Universal models pair with optional Speech Understanding features (summarization, sentiment, redaction) so a single API can build conversation-intelligence products. Starts with a free credit and pay-as-you-go, per-second billing.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "AssemblyAI",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Universal speech recognition models (proprietary)."
+  },
+  "tags": ["stt", "transcription", "streaming", "audio-intelligence"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.assemblyai.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.assemblyai.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.assemblyai.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
