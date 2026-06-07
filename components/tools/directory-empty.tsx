@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { ArrowUpRight, SearchX } from "lucide-react";
 import type { App, AppCategory } from "@/types/app";
+import { cn } from "@/lib/utils";
 import { Skeleton } from "@/components/ui/skeleton";
 
 interface CategorySuggestion {
@@ -16,6 +17,10 @@ interface Props {
   onPickCategory: (category: AppCategory) => void;
   categories: ReadonlyArray<CategorySuggestion>;
   featured: ReadonlyArray<App>;
+  /** Archived apps matching the current query/filters but hidden by the live
+   *  (active) default — surfaced as the primary recovery when > 0. */
+  archivedCount?: number;
+  onShowArchived?: () => void;
 }
 
 // Static, non-pulsing scaffold card — purely a spatial hint of where results
@@ -47,7 +52,10 @@ export function DirectoryEmpty({
   onPickCategory,
   categories,
   featured,
+  archivedCount = 0,
+  onShowArchived,
 }: Readonly<Props>) {
+  const hasArchived = archivedCount > 0 && Boolean(onShowArchived);
   return (
     <div className="relative isolate overflow-hidden rounded-2xl">
       {/* Ghost-grid backdrop — same layout as the real grid, clipped to the
@@ -74,20 +82,37 @@ export function DirectoryEmpty({
           </span>
           <div className="flex flex-col gap-2">
             <p className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-              No matches
+              {hasArchived ? "No live matches" : "No matches"}
             </p>
             <p className="mx-auto max-w-sm text-sm text-[var(--color-ink-dim)]">
-              {filtersApplied
-                ? "Nothing fits that combination. Clear your filters or jump to a category below."
-                : "Nothing here yet — start from a category or a featured pick below."}
+              {hasArchived
+                ? `${archivedCount === 1 ? "1 archived app matches" : `${archivedCount} archived apps match`} — hidden from the live directory because ${archivedCount === 1 ? "it's" : "they're"} discontinued.`
+                : filtersApplied
+                  ? "Nothing fits that combination. Clear your filters or jump to a category below."
+                  : "Nothing here yet — start from a category or a featured pick below."}
             </p>
           </div>
+
+          {hasArchived && (
+            <button
+              type="button"
+              onClick={onShowArchived}
+              className="inline-flex h-10 items-center rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.2] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+            >
+              {archivedCount === 1 ? "Show the archived app" : "Show archived apps"}
+            </button>
+          )}
 
           {filtersApplied && (
             <button
               type="button"
               onClick={onClear}
-              className="inline-flex h-10 items-center rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.2] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+              className={cn(
+                "inline-flex h-10 items-center rounded-full px-4 font-mono text-[11px] tracking-[0.08em] uppercase transition-colors focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+                hasArchived
+                  ? "text-[var(--color-ink-dim)] hover:text-[var(--color-ink)]"
+                  : "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-1 ring-[var(--color-accent)]/30 ring-inset hover:bg-[var(--color-accent)]/[0.2]",
+              )}
             >
               Clear filters
             </button>
