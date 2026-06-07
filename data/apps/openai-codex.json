@@ -1,0 +1,33 @@
+{
+  "slug": "openai-codex",
+  "insight": "An open-source Rust rewrite of OpenAI's original TypeScript CLI; authenticate with a paid ChatGPT plan or bring your own API key.",
+  "name": "OpenAI Codex CLI",
+  "tagline": "OpenAI's open-source coding agent for the terminal.",
+  "description": "A lightweight, open-source coding agent that runs locally in your terminal, reading your repository, editing files, and running commands in a conversational loop you review in real time. Built in Rust for speed, it supports Model Context Protocol tools, subagents for parallel tasks, and switching between GPT models. Sign in with a ChatGPT plan (Plus, Pro, Business, Edu, or Enterprise) or use an OpenAI API key.",
+  "category": "ide",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "OpenAI",
+  "platforms": ["cli", "macos", "linux", "windows"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT-5"],
+    "notes": "Switch between GPT-5 and Codex-tuned variants with /model."
+  },
+  "accentColor": "#10A37F",
+  "tags": ["cli", "coding-agent", "terminal", "open-source"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/openai/codex",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.openai.com/codex/cli"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "julius",
+  "insight": "Writes and runs Python under the hood, and its Pro tier connects directly to live Snowflake, BigQuery, and Postgres databases.",
+  "name": "Julius AI",
+  "tagline": "Chat with your data — an AI data analyst for CSVs, sheets, and DBs.",
+  "description": "An AI data analyst that lets you upload CSVs, Excel, and Google Sheets, then ask questions in plain language to clean, analyze, visualize, and model your data. It writes and runs Python behind the scenes and can generate charts, slides, and reports from the results. Pro plans add direct connectors to live databases like Snowflake, BigQuery, and Postgres.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Julius AI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude"],
+    "notes": "Routes between OpenAI and Anthropic models depending on the task."
+  },
+  "tags": ["data-analysis", "visualization", "python", "chat-with-data"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://julius.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://julius.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

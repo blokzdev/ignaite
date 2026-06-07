@@ -1,0 +1,27 @@
+{
+  "slug": "genspark",
+  "insight": "Routes each task across nine LLMs and 80+ tools, and its Super Agent will place real phone calls on your behalf and return a transcript.",
+  "name": "Genspark",
+  "tagline": "All-in-one AI workspace with an autonomous Super Agent.",
+  "description": "An AI workspace built around a Super Agent that breaks goals into sub-tasks, picks the right tools, and finishes work autonomously — building slides, sheets, docs, websites, and videos, and even placing phone calls. It orchestrates multiple large language models and dozens of integrated tools, synthesizing results into shareable Sparkpages. Built by a team from Google and Microsoft and available on web and mobile.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "MainFunc",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"],
+    "notes": "Orchestrates nine LLMs across 80+ tools, routing each sub-task to the best fit."
+  },
+  "tags": ["super-agent", "autonomous", "workspace", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.genspark.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
