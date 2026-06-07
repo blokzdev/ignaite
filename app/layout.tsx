@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import { Analytics } from "@vercel/analytics/next";
@@ -10,6 +11,16 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { brand } from "@/data/brand";
 import { buildMetadata, siteUrl } from "@/lib/seo";
 import "./globals.css";
+
+// Self-hosted + preloaded via next/font (was a plain @fontsource CSS @import,
+// which wasn't preloaded → the serif hero text flashed/reflowed on load).
+const instrumentSerif = localFont({
+  src: "./fonts/instrument-serif-latin-400-italic.woff2",
+  variable: "--font-instrument-serif",
+  weight: "400",
+  style: "italic",
+  display: "swap",
+});
 
 export const metadata: Metadata = buildMetadata();
 
@@ -24,7 +35,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      className={`${GeistSans.variable} ${GeistMono.variable} ${instrumentSerif.variable}`}
       data-motion="full"
       suppressHydrationWarning
     >

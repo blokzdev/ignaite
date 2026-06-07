@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "@fontsource/instrument-serif/400-italic.css";
 
 @theme {
   --color-canvas: #070b14;
@@ -45,7 +44,7 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-serif: var(--font-instrument-serif), Georgia, "Times New Roman", serif;
 }
 
 @layer base {
