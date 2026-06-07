@@ -1,0 +1,34 @@
+{
+  "slug": "baseten",
+  "insight": "Models use its open-source 'Truss' packaging and scale to zero, so you pay per minute of active compute, not for idle GPUs.",
+  "name": "Baseten",
+  "tagline": "Inference cloud for serving any AI model in production.",
+  "description": "Production inference platform offering both pre-optimized Model APIs (Llama, DeepSeek, and more, billed per token) and dedicated GPU/CPU deployments for custom models, billed per minute with no charge for idle time. Custom models are packaged with its open-source Truss format and autoscale, including scale-to-zero. Aimed at low-latency, high-throughput serving.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Baseten",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "DeepSeek", "Custom"]
+  },
+  "tags": ["inference", "model-serving", "gpu", "autoscaling"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.baseten.co",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.baseten.co"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.baseten.co/pricing"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

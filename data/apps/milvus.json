@@ -1,0 +1,34 @@
+{
+  "slug": "milvus",
+  "insight": "A graduated LF AI & Data project that separates storage from compute and ships DiskANN, so a single cluster scales to billions of vectors.",
+  "name": "Milvus",
+  "tagline": "Distributed open-source vector DB built for billion-scale.",
+  "description": "Cloud-native, Apache-2.0 vector database for similarity search at scale, powering RAG, semantic and multimodal search, and recommendations. Its distributed architecture separates storage and compute and supports many index types (HNSW, IVF, FLAT, DiskANN, SCANN) with quantization and mmap. Created by Zilliz, which offers the managed Zilliz Cloud.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Zilliz",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["vector-db", "open-source", "rag", "ann-search", "scalable"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://milvus.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/milvus-io/milvus"
+    },
+    {
+      "kind": "docs",
+      "url": "https://milvus.io/docs"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
