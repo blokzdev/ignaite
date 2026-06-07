@@ -1,6 +1,7 @@
 "use client";
 import { Sheet, SheetClose, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { useDirectoryFilters } from "@/hooks/use-directory-filters";
+import type { FacetCounts } from "@/lib/tools/facet-counts";
 import { FilterControls } from "./filter-controls";
 
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
   total: number;
   filtered: number;
   omitCategory?: boolean;
+  counts?: FacetCounts;
 }
 
 export function FilterDrawerPortal({
@@ -17,6 +19,7 @@ export function FilterDrawerPortal({
   total,
   filtered,
   omitCategory,
+  counts,
 }: Readonly<Props>) {
   const filters = useDirectoryFilters();
 
@@ -35,6 +38,7 @@ export function FilterDrawerPortal({
             filters={filters}
             variant="stacked"
             omit={omitCategory ? ["category"] : undefined}
+            counts={counts}
           />
         </div>
 
