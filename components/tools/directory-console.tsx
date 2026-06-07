@@ -87,7 +87,7 @@ export function DirectoryConsole() {
   return (
     <div className="container-site px-6">
       {/* Search row */}
-      <div className="flex items-center gap-2 pb-3">
+      <div className="flex items-center gap-2 pb-2.5">
         <div className="relative flex-1">
           <Search
             aria-hidden
@@ -205,7 +205,7 @@ export function DirectoryConsole() {
 
       {/* Quick-Category strip — the most-used facet, always visible. */}
       <div
-        className="no-scrollbar scroll-fade-x -mx-6 flex items-center gap-1.5 overflow-x-auto px-6 pb-3"
+        className="no-scrollbar scroll-fade-x -mx-6 flex items-center gap-1.5 overflow-x-auto px-6 pb-2.5"
         role="group"
         aria-label="Filter by category"
       >

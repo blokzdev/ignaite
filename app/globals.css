@@ -50,9 +50,11 @@
 
 @layer base {
   :root {
-    /* Sticky-nav height. Sticky bars (the directory filter bar) offset from this
-       so that when the auto-hiding nav slides away, they reclaim the top edge. */
+    /* Sticky-nav height. Sticky bars offset from this so that when the
+       auto-hiding nav slides away, they reclaim the top edge. --nav-row-h is the
+       height of the top nav row alone (the part that collapses on scroll-down). */
     --nav-h: 4rem;
+    --nav-row-h: 3rem;
   }
   @media (min-width: 40rem) {
     :root {
@@ -62,14 +64,18 @@
   html[data-nav-hidden="true"] {
     --nav-h: 0rem;
   }
-  /* Directory route (/): the header hosts the search + quick-category console, so
-     it's taller than the marketing nav and stays pinned (never auto-hides). This
-     keeps scroll-padding-top + the skip-link landing clear of the taller chrome.
-     Set client-side by the console (data-route) — it only drives scroll padding,
-     so a post-hydration change reflows nothing. The masthead's own top padding
-     (page.tsx) is static, so there's no CLS. */
+  /* Directory route (/): the header hosts the search + quick-category console
+     below the nav row. The console stays pinned; only the nav row collapses on
+     scroll-down (and re-opens on scroll-up). Two values keep scroll-padding-top +
+     the skip-link landing correct: expanded = nav row + console; condensed (nav
+     row hidden) = console only. Set client-side (data-route / data-nav-hidden);
+     drives scroll padding only, so post-hydration changes reflow nothing — and
+     the masthead's static top padding (page.tsx) means no CLS. */
   html[data-route="directory"] {
-    --nav-h: 9.5rem;
+    --nav-h: 8.75rem;
+  }
+  html[data-route="directory"][data-nav-hidden="true"] {
+    --nav-h: 5.75rem;
   }
 
   html {
