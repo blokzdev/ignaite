@@ -4,19 +4,35 @@ import { motion } from "motion/react";
 import { useState, useTransition } from "react";
 import { ArrowRight } from "lucide-react";
 import { useSearchParams } from "next/navigation";
+import dynamic from "next/dynamic";
 import { submitContact, type ContactResult } from "@/app/(marketing)/contact/actions";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { cn } from "@/lib/utils";
+import type { AppCategory } from "@/types/app";
 import { ContactSuccess } from "./contact-success";
+
+// Lazy — the compare flow pulls the slim apps index, which only the "Help me
+// choose between apps" path needs. Keeps it out of the contact page's initial
+// bundle until a visitor opts in.
+const ComparePicker = dynamic(() => import("./compare-picker").then((m) => m.ComparePicker), {
+  ssr: false,
+  loading: () => (
+    <p className="font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
+      Loading the catalog…
+    </p>
+  ),
+});
 
 const EASE_OUT_EXPO = [0.22, 1, 0.36, 1] as const;
 
 const PROJECT_OPTIONS = [
-  { value: "idea-exploration", label: "Got an idea, need a partner" },
-  { value: "build-product", label: "Need to ship a production app" },
-  { value: "oss-collab", label: "Want to collaborate on OSS" },
-  { value: "sponsorship", label: "Sponsor a slot / advertise" },
+  { value: "compare", label: "Help me choose between apps" },
+  { value: "suggest-app", label: "Suggest an app to list" },
+  { value: "suggest-category", label: "Suggest a category" },
   { value: "correction", label: "Reporting a correction" },
+  { value: "sponsorship", label: "Sponsor a slot / advertise" },
+  { value: "press", label: "Press / partnership" },
+  { value: "oss-collab", label: "Want to collaborate on OSS" },
   { value: "other", label: "Something else" },
 ];
 
@@ -33,26 +49,40 @@ type FieldCopy = {
 const DEFAULT_COPY: FieldCopy = {
   title: null,
   description:
-    "We partner with founders building AI apps, teams shipping research-rooted software, OSS authors after an agentic co-pilot, and orgs that want their roadmap audited. Pick what fits above and we'll tailor the rest.",
-  label: "What do you want to build?",
-  placeholder: "Background, stack hunches, deadlines, anything — short or long is fine.",
+    "The front desk for the directory: compare a few apps, suggest one (or a category) we should list, sponsor a slot, or flag something that's drifted. Pick what fits above and we'll tailor the rest.",
+  label: "What's on your mind?",
+  placeholder: "A sentence or two is plenty — pick a topic above for tailored prompts.",
 };
 
 const FIELD_COPY: Record<string, FieldCopy> = {
-  "idea-exploration": {
-    title: "Got an idea? Let's shape it.",
+  compare: {
+    title: "Torn between options?",
     description:
-      "Tell us the problem, who it's for, and where you're stuck. We'll help turn the spark into a spec — then ship it.",
-    label: "What's the idea?",
+      "Pick the category, choose the apps you're weighing, and tell us what you're optimizing for. We'll point you to the right one — straight from the catalog, no affiliate angle.",
+    label: "What's the decision?",
     placeholder:
-      "The problem, the user, the rough shape — half-formed is fine. We'll pressure-test it with you.",
+      "Your goal, must-haves, constraints, budget — anything that helps us steer the pick.",
   },
-  "build-product": {
-    title: "Ready to ship? Let's build.",
+  "suggest-app": {
+    title: "Know one we're missing?",
     description:
-      "Tell us the product, the stack you're leaning toward, and the deadline. We build production-grade, receipts included.",
-    label: "What are we shipping?",
-    placeholder: "What it does, who it's for, the stack and timeline — and what 'done' looks like.",
+      "Tell us the app and why it belongs. Every suggestion gets researched against its own source before it's listed — no pay-to-list.",
+    label: "What should we list?",
+    placeholder: "Name, link, and what it does — a line on why it's worth knowing helps.",
+  },
+  "suggest-category": {
+    title: "Spot a gap in the map?",
+    description:
+      "If a whole class of AI tools isn't represented, tell us. We'll look at whether it deserves its own category.",
+    label: "What category are we missing?",
+    placeholder: "The category, a few example apps that'd live there, and why it's distinct.",
+  },
+  press: {
+    title: "Press or partnership?",
+    description:
+      "Media, data or API access, or working together — tell us what you have in mind and we'll route it to the right place.",
+    label: "What's this regarding?",
+    placeholder: "A sentence on who you are and what you're after.",
   },
   "oss-collab": {
     title: "Building in the open?",
@@ -103,11 +133,20 @@ export function ContactForm() {
   // Controlled so live selection (not just the URL prefill) drives the copy below.
   const [projectType, setProjectType] = useState(prefillType);
   const copy = FIELD_COPY[projectType] ?? DEFAULT_COPY;
+  // "Help me choose between apps" sub-flow: a category, then the listings being
+  // weighed. Selections ride to the server as hidden inputs (see below).
+  const [compareCategory, setCompareCategory] = useState<AppCategory | "">("");
+  const [compareSlugs, setCompareSlugs] = useState<string[]>([]);
+  const isCompare = projectType === "compare";
 
   if (submitted) return <ContactSuccess />;
 
   const handleSubmit = (formData: FormData) => {
     setError(null);
+    if (isCompare && (!compareCategory || compareSlugs.length < 2)) {
+      setError("Pick a category and at least two apps you're choosing between.");
+      return;
+    }
     startTransition(async () => {
       const result: ContactResult = await submitContact(formData);
       if (result.ok) {
@@ -224,6 +263,23 @@ export function ContactForm() {
           {copy.description}
         </p>
       </motion.div>
+
+      {isCompare && (
+        <ComparePicker
+          category={compareCategory}
+          onCategoryChange={(c) => {
+            setCompareCategory(c);
+            // Drop stragglers from the previous category.
+            setCompareSlugs([]);
+          }}
+          selectedSlugs={compareSlugs}
+          onToggle={(slug) =>
+            setCompareSlugs((prev) =>
+              prev.includes(slug) ? prev.filter((s) => s !== slug) : [...prev, slug],
+            )
+          }
+        />
+      )}
 
       <Field id="message" label={copy.label} hint={`${messageLength}/1,000`}>
         <textarea
