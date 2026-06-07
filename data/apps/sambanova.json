@@ -1,0 +1,35 @@
+{
+  "slug": "sambanova",
+  "insight": "One of the few clouds serving Llama 405B in native 16-bit precision at 100+ tokens/sec, not a quantized copy.",
+  "name": "SambaNova Cloud",
+  "tagline": "Fast inference for open models on custom RDU chips.",
+  "description": "Inference cloud running open-weight models — Llama, DeepSeek, Qwen, gpt-oss — on SambaNova's RDU hardware at hundreds of tokens per second, including full-precision Llama 405B. Provides an OpenAI-compatible API with a free tier and pay-per-token pricing.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "SambaNova Systems",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "DeepSeek", "Qwen", "gpt-oss"],
+    "notes": "Serves open-weight models on RDU hardware via an OpenAI-compatible API."
+  },
+  "tags": ["inference", "fast-inference", "open-models", "rdu"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sambanova.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.sambanova.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://cloud.sambanova.ai/plans"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}

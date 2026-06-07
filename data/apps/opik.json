@@ -1,0 +1,35 @@
+{
+  "slug": "opik",
+  "insight": "Apache-2.0 and fully self-hostable — a langfuse-style tracing-plus-eval platform you own, with an optional Comet-hosted cloud.",
+  "name": "Opik",
+  "tagline": "Open-source LLM evaluation, tracing, and monitoring.",
+  "description": "Open-source platform from Comet for debugging and evaluating LLM and agent apps: full tracing of calls, tools, and agent steps, LLM-as-a-judge and heuristic evals, prompt management, and production dashboards. Self-host via Docker or Kubernetes, or use Comet's hosted cloud.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Comet",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Framework-agnostic tracing; LLM-as-a-judge metrics run on a model you configure."
+  },
+  "tags": ["observability", "evaluation", "tracing", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.comet.com/site/products/opik/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/comet-ml/opik"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.comet.com/docs/opik/"
+    }
+  ],
+  "addedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-06-07"
+}
