@@ -60,18 +60,24 @@ export const screenshotSchema = z.object({
   alt: z.string(),
 });
 
-export const changeEntrySchema = z.object({
-  /** ISO date the change was recorded (the audit date). */
-  date: z.string().regex(ISO_DATE, "date must be an ISO date (YYYY-MM-DD)"),
-  kind: z.enum(literals<ChangeKind>(APP_CHANGE_KINDS)),
-  /** One verifiable sentence: what changed (+ why, for a correction). */
-  summary: z.string().min(1).max(200, "change summary must be ≤200 chars"),
-  /** When the change actually happened upstream (real-world) — set ONLY when the
-   *  research can source the date; never guess. */
-  asOf: z.string().regex(ISO_DATE, "asOf must be an ISO date (YYYY-MM-DD)").optional(),
-  /** Source URL backing the change (evidence the audit verified against). */
-  source: z.string().url().optional(),
-});
+export const changeEntrySchema = z
+  .object({
+    /** ISO date the change was recorded (the audit date). */
+    date: z.string().regex(ISO_DATE, "date must be an ISO date (YYYY-MM-DD)"),
+    kind: z.enum(literals<ChangeKind>(APP_CHANGE_KINDS)),
+    /** One verifiable sentence: what changed (+ why, for a correction). */
+    summary: z.string().min(1).max(200, "change summary must be ≤200 chars"),
+    /** When the change actually happened upstream (real-world) — set ONLY when the
+     *  research can source the date; never guess. */
+    asOf: z.string().regex(ISO_DATE, "asOf must be an ISO date (YYYY-MM-DD)").optional(),
+    /** Source URL backing the change (evidence the audit verified against). */
+    source: z.string().url().optional(),
+  })
+  // The upstream change can't be discovered before it happened.
+  .refine((e) => !e.asOf || e.asOf <= e.date, {
+    message: "asOf (real-world change date) can't be after the recorded date",
+    path: ["asOf"],
+  });
 
 export const appSchema = z
   .object({

@@ -13,7 +13,6 @@ import {
 } from "lucide-react";
 import type { ComponentType, ReactElement } from "react";
 import { AccuracyNote } from "@/components/tools/accuracy-note";
-import { ChangeHistory } from "@/components/tools/change-history";
 import { DetailShell } from "@/components/detail/detail-shell";
 import { JsonLd } from "@/components/seo/json-ld";
 import { RelatedRail } from "@/components/tools/related-rail";
@@ -362,13 +361,14 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </RelatedRail>
       )}
 
-      {/* Change history — the visible audit trail of substantive maintenance. */}
-      {app.changelog && app.changelog.length > 0 && (
-        <ChangeHistory entries={app.changelog} addedAt={app.addedAt} />
-      )}
-
-      {/* Accuracy — how the listing is maintained + last verified + correction CTA */}
-      <AccuracyNote appName={app.name} lastVerifiedAt={app.lastVerifiedAt} />
+      {/* Maintenance ledger — disclaimer + change-history timeline + last
+          verified + correction CTA (one cohesive provenance card). */}
+      <AccuracyNote
+        appName={app.name}
+        addedAt={app.addedAt}
+        lastVerifiedAt={app.lastVerifiedAt}
+        changelog={app.changelog}
+      />
 
       <JsonLd
         data={{

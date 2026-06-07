@@ -49,8 +49,10 @@ interface Node {
 
 /**
  * Visible audit trail for a listing — the structured record of substantive
- * changes the maintenance routines made, newest first, ending at the origin.
- * Server component; only rendered when there's at least one real entry.
+ * changes the maintenance routines made, newest first, ending at the origin
+ * ("Listed · addedAt") so there's never an empty void. Rendered as a band inside
+ * the maintenance ledger (accuracy-note.tsx). Returns null only when there's
+ * genuinely nothing to show (no changelog and no addedAt). Server component.
  */
 export function ChangeHistory({
   entries,
@@ -62,21 +64,21 @@ export function ChangeHistory({
   );
 
   // Anchor the trail at the listing's origin without backfilling every file —
-  // unless an explicit `added` entry already records it.
+  // unless an explicit `added` entry already records it. This is the elegant
+  // baseline for a never-changed listing: a single "Listed" node.
   if (addedAt && !nodes.some((n) => n.kind === "added")) {
     nodes.push({ date: addedAt, kind: "added", summary: "Added to the directory." });
   }
 
+  if (nodes.length === 0) return null;
+
   return (
-    <section
-      aria-label="Change history"
-      className="mt-12 rounded-2xl bg-white/[0.03] p-6 ring-1 ring-white/[0.06] ring-inset"
-    >
+    <div>
       <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
         Change history
       </p>
 
-      <ol className="relative mt-5 space-y-6 border-l border-white/[0.08] pl-6">
+      <ol className="relative mt-4 space-y-5 border-l border-white/[0.08] pl-6">
         {nodes.map((n, i) => {
           const meta = KIND[n.kind];
           const Icon = meta.icon;
@@ -132,6 +134,6 @@ export function ChangeHistory({
           );
         })}
       </ol>
-    </section>
+    </div>
   );
 }
