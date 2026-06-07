@@ -28,6 +28,14 @@ import { BackToTop } from "./back-to-top";
 
 const TOTAL = apps.length;
 
+// Per-category listing counts (total, incl. archived — matches the masthead's
+// "{TOTAL} apps", the "{filtered} of {TOTAL}" indicator, and the command-palette
+// category tiles). Computed once from the build-time data.
+const CATEGORY_COUNTS = apps.reduce<Partial<Record<AppCategory, number>>>((acc, a) => {
+  acc[a.category] = (acc[a.category] ?? 0) + 1;
+  return acc;
+}, {});
+
 // The integrated directory chrome that lives inside the site header on `/`:
 // a persistent search field, an always-visible quick-Category strip, and the
 // secondary facets behind a Filters popover (desktop) / sheet (mobile). It reads
@@ -255,7 +263,11 @@ export function DirectoryConsole() {
           role="group"
           aria-label="Filter by category"
         >
-          <CategoryChip active={filter.category.length === 0} onClick={filters.resetCategory}>
+          <CategoryChip
+            active={filter.category.length === 0}
+            onClick={filters.resetCategory}
+            count={TOTAL}
+          >
             All
           </CategoryChip>
           {APP_CATEGORIES.map((c) => (
@@ -264,6 +276,7 @@ export function DirectoryConsole() {
               category={c}
               active={filter.category.includes(c)}
               onClick={() => filters.toggleCategory(c)}
+              count={CATEGORY_COUNTS[c] ?? 0}
             >
               {CATEGORY_LABEL[c as AppCategory]}
             </CategoryChip>
@@ -279,11 +292,13 @@ function CategoryChip({
   active,
   onClick,
   category,
+  count,
   children,
 }: Readonly<{
   active: boolean;
   onClick: () => void;
   category?: string;
+  count?: number;
   children: React.ReactNode;
 }>) {
   return (
@@ -301,6 +316,11 @@ function CategoryChip({
       )}
     >
       {children}
+      {count != null && count > 0 && (
+        // Count inherits the pill's text colour (so it flips with active/hover)
+        // and steps down in size to read as secondary metadata.
+        <span className="ml-1.5 text-[10px] tracking-normal tabular-nums opacity-80">{count}</span>
+      )}
     </button>
   );
 }
