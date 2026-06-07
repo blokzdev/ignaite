@@ -15,6 +15,7 @@ const PROJECT_OPTIONS = [
   { value: "idea-exploration", label: "Got an idea, need a partner" },
   { value: "build-product", label: "Need to ship a production app" },
   { value: "oss-collab", label: "Want to collaborate on OSS" },
+  { value: "correction", label: "Reporting a correction" },
   { value: "other", label: "Something else" },
 ];
 
@@ -24,11 +25,14 @@ export function ContactForm() {
   const [error, setError] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [messageLength, setMessageLength] = useState(0);
-  // Pre-fill the optional subject from URL — directory app-detail pages link
-  // here with ?subject=Update+for+<App> so a "Submit a correction" click
-  // arrives already labelled.
+  // Pre-fill from URL — directory app-detail pages link here with
+  // ?subject=Update+for+<App>&type=correction so a "Submit a correction" click
+  // arrives already labelled and with the category preselected.
   const searchParams = useSearchParams();
   const prefillSubject = searchParams.get("subject") ?? "";
+  const rawType = searchParams.get("type") ?? "";
+  const prefillType = PROJECT_OPTIONS.some((o) => o.value === rawType) ? rawType : "";
+  const isCorrection = prefillType === "correction";
 
   if (submitted) return <ContactSuccess />;
 
@@ -88,11 +92,11 @@ export function ContactForm() {
         />
       </Field>
 
-      <Field id="projectType" label="What's the shape of it?">
+      <Field id="projectType" label="What's this about?">
         <select
           id="projectType"
           name="projectType"
-          defaultValue=""
+          defaultValue={prefillType}
           className={cn(inputClass, "appearance-none bg-[length:1rem_1rem] bg-no-repeat pr-10")}
           style={{
             backgroundImage:
@@ -127,7 +131,11 @@ export function ContactForm() {
         </Field>
       )}
 
-      <Field id="message" label="What do you want to build?" hint={`${messageLength}/1,000`}>
+      <Field
+        id="message"
+        label={isCorrection ? "What needs fixing?" : "What do you want to build?"}
+        hint={`${messageLength}/1,000`}
+      >
         <textarea
           id="message"
           name="message"
@@ -136,7 +144,11 @@ export function ContactForm() {
           rows={6}
           onChange={(e) => setMessageLength(e.currentTarget.value.length)}
           className={cn(inputClass, "min-h-[160px] resize-y leading-relaxed")}
-          placeholder="Background, stack hunches, deadlines, anything — short or long is fine."
+          placeholder={
+            isCorrection
+              ? "Tell us what's out of date or incorrect — and the right info if you have it."
+              : "Background, stack hunches, deadlines, anything — short or long is fine."
+          }
         />
       </Field>
 
