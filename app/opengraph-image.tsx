@@ -7,7 +7,7 @@ export const alt = "Blokz.dev — the AI apps directory.";
 export default function Image() {
   return renderOgImage({
     eyebrow: "// AI apps directory",
-    titleA: "Find the AI app",
-    titleB: "for the job.",
+    titleA: "Find the",
+    titleB: "right AI app.",
   });
 }
