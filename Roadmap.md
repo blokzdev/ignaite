@@ -60,7 +60,7 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 
 ## Iteration 5 — Directory-grade UI/UX refinement (Chunks F → M) ✅ complete
 
-**Goal**: make blokz.dev look and feel like a polished directory product on every screen
+**Goal**: make ignaite.app look and feel like a polished directory product on every screen
 size — fixed/pinned search & filter, mobile layouts with no zoom/overflow, larger tap
 targets, and the affordances of a real directory app (command palette, filter drawer, sticky
 action bars, carousel navigation).

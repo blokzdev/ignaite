@@ -6,7 +6,7 @@ import { brand } from "@/data/brand";
 import { checkRateLimit } from "@/lib/rate-limit";
 
 const TO = process.env.CONTACT_TO_EMAIL ?? brand.social.email;
-const FROM = process.env.CONTACT_FROM_EMAIL ?? "Blokz <onboarding@resend.dev>";
+const FROM = process.env.CONTACT_FROM_EMAIL ?? "Ignaite <onboarding@resend.dev>";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -86,8 +86,8 @@ export async function submitContact(formData: FormData): Promise<ContactResult> 
 
   const projectLabel = PROJECT_LABELS[projectType] ?? "Unspecified";
   const subject = customSubject
-    ? `[blokz.dev] ${customSubject} — ${name}`
-    : `[blokz.dev] ${projectLabel} — ${name}`;
+    ? `[ignaite.app] ${customSubject} — ${name}`
+    : `[ignaite.app] ${projectLabel} — ${name}`;
   const text = [
     `From: ${name} <${email}>`,
     `Project type: ${projectLabel}`,

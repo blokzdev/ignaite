@@ -1,12 +1,12 @@
 # CLAUDE.md
 
-This file is the contract between you (Claude) and this codebase. Read it end-to-end before making non-trivial changes. It documents the v2 architecture, conventions, and agent guardrails for the Blokz.dev landing site. For the forward-looking plan of record (iterations + chunks) see `Roadmap.md`; for tracked-but-deferred items see `BACKLOG.md`. (The original `/root/.claude/plans/*.md` lives only in the ephemeral dev environment and is not the source of truth.)
+This file is the contract between you (Claude) and this codebase. Read it end-to-end before making non-trivial changes. It documents the v2 architecture, conventions, and agent guardrails for the Ignaite (ignaite.app) landing site — the product, operated by Blokz Development Co. For the forward-looking plan of record (iterations + chunks) see `Roadmap.md`; for tracked-but-deferred items see `BACKLOG.md`. (The original `/root/.claude/plans/*.md` lives only in the ephemeral dev environment and is not the source of truth.)
 
 ---
 
 ## 1. Overview
 
-**Blokz.dev** is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line AI insight. It is built and operated by **Blokz Development Company** (the studio, credited in the footer colophon), and is itself a demonstration of agentic engineering. The public surface is the **directory** (`/`), how it's managed (`/about`), and contact (`/contact`).
+**Ignaite** (ignaite.app) is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line AI insight. It is built and operated by **Blokz Development Company** (the studio, credited in the footer colophon), and is itself a demonstration of agentic engineering. The public surface is the **directory** (`/`), how it's managed (`/about`), and contact (`/contact`).
 
 > **The portfolio is dormant.** The studio's earlier non-AI work (nine Android blockchain explorers) was unpublished to keep the site focused on the AI-frontier vision. `/about` no longer shows a portfolio/stats grid; the `/portfolio/<slug>` route lives under the private folder `app/(marketing)/_portfolio/`, with `data/projects.ts`, `components/apps/*`, and the orphaned `components/home/{apps-preview,stats-strip}.tsx` retained for a future AI-app/web/OSS revival (the real OSS project **WebSight** is already seeded in `data/projects.ts`). To republish: rename `_portfolio` → `portfolio`, re-compose the sections on `/about`, and re-add the sitemap + redirect entries.
 
@@ -34,7 +34,7 @@ v2 is the live site (this codebase). The legacy v1 Glitch template is preserved 
 | Content          | `@next/mdx`, `rehype-pretty-code` (Shiki), `remark-gfm` | Manifesto/projects/workflow as MDX                               | latest  |
 | Directory data   | `velite` (+ its bundled `zod`)                          | Per-file `data/apps/*.json` validated + aggregated; build-only   | 0.3.x   |
 | URL state        | `nuqs`                                                  | `/apps` filter state in URL                                      | latest  |
-| Forms            | Native form + server action + `resend`                  | Contact form → `team@blokz.dev`                                  | 4.x     |
+| Forms            | Native form + server action + `resend`                  | Contact form → `team@ignaite.app`                                | 4.x     |
 | Icons            | `lucide-react` + custom SVGs                            | Tree-shaken icons + custom chain marks                           | latest  |
 | Fonts            | `geist` npm pkg + `@fontsource/instrument-serif`        | Self-hosted Geist Sans/Mono via next/font, no Google Fonts fetch | latest  |
 | Analytics        | `@vercel/analytics` + `@vercel/speed-insights`          | Zero-config, privacy-friendly                                    | latest  |
@@ -207,7 +207,7 @@ types/
   workflow.ts                     # WorkflowProduct, ArtifactType, Stage, ChatMessage, ChatToolBlock, …
 
 public/
-  brand/                          # rehosted Blokz logo + favicons
+  brand/                          # rehosted brand logo + favicons (Ignaite mark is code-gen: components/brand + lib/og-mark)
   projects/<slug>/                # portfolio icons / screenshots
   app-ads.txt                     # ported from v1 (Play Store ad SDK requirement)
 
@@ -565,9 +565,9 @@ the user sets them up; they open PRs for review). Exact routine prompts: `docs/d
 
 ```
 RESEND_API_KEY=             # required for the /contact server action
-CONTACT_TO_EMAIL=team@blokz.dev
-CONTACT_FROM_EMAIL=Blokz <hello@blokz.dev>   # optional; falls back to onboarding@resend.dev
-NEXT_PUBLIC_SITE_URL=http://localhost:3000   # prod: https://blokz.dev
+CONTACT_TO_EMAIL=team@ignaite.app
+CONTACT_FROM_EMAIL=Ignaite <hello@ignaite.app>   # optional; falls back to onboarding@resend.dev
+NEXT_PUBLIC_SITE_URL=http://localhost:3000   # prod: https://ignaite.app
 ```
 
 Vercel project env (production + preview):
@@ -575,7 +575,7 @@ Vercel project env (production + preview):
 - `RESEND_API_KEY`
 - `CONTACT_TO_EMAIL`
 - `CONTACT_FROM_EMAIL` (optional)
-- `NEXT_PUBLIC_SITE_URL` = `https://blokz.dev`
+- `NEXT_PUBLIC_SITE_URL` = `https://ignaite.app`
 
 Never log secret values. Never check secrets into the repo. If you find a leaked secret in history, alert the user and recommend rotation.
 
@@ -601,6 +601,6 @@ A change is "done" only when ALL of these hold:
 
 - Plan of record: `Roadmap.md` (iterations + chunks) · deferred items: `BACKLOG.md`
 - Branch: one fresh branch per PR off up-to-date `main` (e.g. `claude/<short-slug>`); PR into `main` (see §11 Git workflow)
-- Contact destination: `team@blokz.dev`
-- Production domain (TBD cutover): `blokz.dev`
+- Contact destination: `team@ignaite.app`
+- Production domain: `ignaite.app` (blokz.dev redirects in)
 - Play Store dev: `https://play.google.com/store/apps/dev?id=8878695474933625157`

@@ -1,10 +1,10 @@
-# Blokz.dev
+# Ignaite
 
-**Blokz** is an **AI-managed directory** of AI apps — every listing researched, written, and kept current by Claude Code, each carrying a one-line AI insight. Built and operated by **Blokz Development Co.**
+**Ignaite** is an **AI-managed directory** of AI apps — every listing researched, written, and kept current by Claude Code, each carrying a one-line AI insight. Built and operated by **Blokz Development Co.**
 
 The site is itself the product — and a demonstration: the directory (`/`) is researched, written, and audited by Claude Code; `/about` explains how it's managed; `/contact` reaches the studio behind it. (A detailed `/workflow` walkthrough exists in the repo but is currently unpublished — see below.)
 
-🌐 **Live:** [blokz.dev](https://blokz.dev)
+🌐 **Live:** [ignaite.app](https://ignaite.app)
 📒 **Contract:** see [`CLAUDE.md`](./CLAUDE.md) for stack, conventions, and agent guardrails
 📋 **Open items:** see [`BACKLOG.md`](./BACKLOG.md) for tracked deferrals
 🗺️ **Plan of record:** see [`Roadmap.md`](./Roadmap.md) for iterations + chunks
@@ -62,12 +62,12 @@ Full recipes (directory + the dormant portfolio/workflow, brand-color changes, e
 
 ## Deploy
 
-Production is wired to Vercel. `main` deploys automatically to [blokz.dev](https://blokz.dev); every branch + PR gets its own preview URL. Required Vercel env vars (Production + Preview):
+Production is wired to Vercel. `main` deploys automatically to [ignaite.app](https://ignaite.app); every branch + PR gets its own preview URL. Required Vercel env vars (Production + Preview):
 
 - `RESEND_API_KEY`
-- `CONTACT_TO_EMAIL` (default `team@blokz.dev`)
-- `CONTACT_FROM_EMAIL` (optional — must be on a verified Resend domain)
-- `NEXT_PUBLIC_SITE_URL=https://blokz.dev`
+- `CONTACT_TO_EMAIL` (default `team@ignaite.app`)
+- `CONTACT_FROM_EMAIL` (optional — must be on a verified Resend domain, e.g. `Ignaite <hello@ignaite.app>`)
+- `NEXT_PUBLIC_SITE_URL=https://ignaite.app`
 
 ## License
 

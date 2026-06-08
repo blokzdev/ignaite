@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, Search } from "lucide-react";
 import { Suspense, useEffect } from "react";
+import { BrandMark, BrandWordmark } from "@/components/brand/brand-logo";
 import { brand } from "@/data/brand";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { useScrollDirection } from "@/hooks/use-scroll-direction";
@@ -87,10 +88,8 @@ export function SiteNav() {
             className="group flex items-center gap-2.5"
             aria-label={`${brand.name} home`}
           >
-            <span className="block h-2.5 w-2.5 rounded-full bg-[var(--color-accent)] shadow-[0_0_12px_var(--color-accent)] transition-transform group-hover:scale-125" />
-            <span className="font-mono text-sm tracking-[0.16em] text-[var(--color-ink)] uppercase">
-              {brand.name}
-            </span>
+            <BrandMark className="h-6 w-6 drop-shadow-[0_0_10px_rgba(8,217,214,0.45)] transition-transform group-hover:scale-110" />
+            <BrandWordmark className="text-sm text-[var(--color-ink)]" />
           </Link>
 
           <div className="hidden items-center gap-2 md:flex">
