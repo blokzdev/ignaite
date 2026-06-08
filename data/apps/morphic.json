@@ -1,0 +1,36 @@
+{
+  "slug": "morphic",
+  "insight": "Apache-2.0 and provider-agnostic: pluggable across OpenAI, Anthropic, or local Ollama models and Tavily, Brave, or SearXNG search backends.",
+  "name": "Morphic",
+  "tagline": "Open-source AI answer engine with a generative UI.",
+  "description": "A self-hostable answer engine that returns comprehensive, cited answers with a generative UI that adapts per query rather than a list of links. It offers a Quick mode and an Adaptive multi-step research mode, saves searchable history, and is provider-agnostic across LLM and search backends. Apache-2.0, deployable to Vercel in one click, with a free hosted instance at morphic.sh.",
+  "category": "search",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Morphic",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["OpenAI", "Anthropic", "Google", "Ollama"],
+    "notes": "Bring your own model and search-provider API keys; supports local models via Ollama."
+  },
+  "tags": ["answer-engine", "search", "open-source", "generative-ui"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.morphic.sh",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/miurla/morphic"
+    },
+    {
+      "kind": "demo",
+      "url": "https://chat.morphic.sh"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

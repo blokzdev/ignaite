@@ -1,0 +1,29 @@
+{
+  "slug": "docling",
+  "insight": "Started at IBM Research, now an LF AI & Data project; its parser preserves page layout, reading order, and table structure, not just text.",
+  "name": "Docling",
+  "tagline": "Open-source toolkit that turns documents into AI-ready Markdown and JSON.",
+  "description": "A document-processing toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, and audio into clean Markdown or JSON for LLM and RAG pipelines. It does advanced PDF understanding — page layout, reading order, table structure, and OCR for scans — and ships a hybrid chunker plus native LangChain and LlamaIndex integrations. Small enough to run on a laptop via a Python API or CLI; MIT-licensed and community-governed.",
+  "category": "data-ops",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Docling Project",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["document-parsing", "rag", "open-source", "pdf", "ocr"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/docling-project/docling",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docling-project.github.io/docling/"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

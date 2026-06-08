@@ -1,0 +1,33 @@
+{
+  "slug": "apify",
+  "insight": "Maintains the open-source Crawlee library, but the platform itself is a hosted marketplace of thousands of serverless scraping 'Actors'.",
+  "name": "Apify",
+  "tagline": "Full-stack web scraping and browser automation platform for AI data.",
+  "description": "A cloud platform for web scraping, data extraction, and browser automation built around 'Actors' — serverless programs that crawl sites and return structured data. Its store offers tens of thousands of ready-made Actors, and outputs clean Markdown or JSON that feed LLMs, vector databases, and RAG pipelines via LangChain and LlamaIndex. The company also maintains the open-source Crawlee crawling library for local development.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Apify",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["web-scraping", "crawling", "automation", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://apify.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.apify.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://apify.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
