@@ -78,13 +78,9 @@ export default function ContactPage() {
             </section>
 
             <section className="rounded-2xl bg-[var(--color-surface)]/60 p-5 ring-1 ring-white/[0.08] backdrop-blur-xl ring-inset">
-              <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-                House rules
-              </h2>
-
-              <p className="mt-4 font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-soft)] uppercase">
+              <h2 className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-soft)] uppercase">
                 Glad to hear from
-              </p>
+              </h2>
               <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink-dim)]">
                 {[
                   "App suggestions and corrections — every one gets researched and credited.",
@@ -101,9 +97,9 @@ export default function ContactPage() {
                 ))}
               </ul>
 
-              <p className="mt-4 font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-soft)] uppercase">
+              <h2 className="mt-4 font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-soft)] uppercase">
                 We&apos;ll pass on
-              </p>
+              </h2>
               <ul className="mt-2 space-y-1.5 text-sm leading-relaxed text-[var(--color-ink-dim)]">
                 {[
                   "Pay-to-play pitches that expect a listing or a better rank.",
