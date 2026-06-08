@@ -1,0 +1,29 @@
+{
+  "slug": "context7",
+  "insight": "Injects version-specific, up-to-date library docs into the prompt, cutting the stale-API hallucinations models pick up at training time.",
+  "name": "Context7",
+  "tagline": "Up-to-date, version-specific library docs piped into any AI coding agent via MCP.",
+  "description": "An MCP server from Upstash that pulls current, version-specific documentation and code examples for a library and feeds them straight into an LLM's context. It exposes two tools — resolve-library-id and a docs query — so agents in Cursor, Claude Code, Windsurf, and other MCP clients generate code against the real, current API.",
+  "category": "mcp",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Upstash",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["mcp", "documentation", "coding", "context"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://context7.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/upstash/context7"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

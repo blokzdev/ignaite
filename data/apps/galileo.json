@@ -1,0 +1,29 @@
+{
+  "slug": "galileo",
+  "insight": "Scores traces with its own small 'Luna' evaluation models rather than an LLM-as-judge, keeping inline production guardrails cheap to run.",
+  "name": "Galileo",
+  "tagline": "Evaluation and observability for GenAI apps and agents, with inline guardrails.",
+  "description": "A platform for testing, monitoring, and guardrailing LLM and agent applications. It ships 20+ out-of-the-box evals for RAG, agents, and safety, lets teams author custom evaluators, and turns those offline evals into real-time production guardrails powered by its own Luna eval models.",
+  "category": "observability",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Galileo",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["evaluation", "observability", "guardrails", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://galileo.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://galileo.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

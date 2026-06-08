@@ -1,0 +1,34 @@
+{
+  "slug": "activepieces",
+  "insight": "MIT-licensed — genuinely OSI open source, unlike n8n's source-available fair-code — and exposes its 400+ integrations as MCP tools.",
+  "name": "Activepieces",
+  "tagline": "Open-source, AI-first workflow automation — a self-hostable Zapier alternative.",
+  "description": "A no-code automation platform with a visual drag-and-drop builder, 400+ app integrations, and native AI steps. It runs as a managed cloud or fully self-hosted on your own infrastructure, and its pieces double as MCP tools that AI agents can call.",
+  "category": "automation",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Activepieces",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model"
+  },
+  "tags": ["automation", "workflows", "no-code", "self-hosted", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.activepieces.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/activepieces/activepieces"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.activepieces.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
