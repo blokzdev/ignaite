@@ -1,0 +1,35 @@
+{
+  "slug": "wandb-weave",
+  "insight": "The SDK is Apache-2.0 open source, but the traces it captures land in W&B's hosted platform — free for solo use.",
+  "name": "W&B Weave",
+  "tagline": "Tracing and evaluation for LLM apps, from Weights & Biases.",
+  "description": "An observability and evaluation toolkit for generative-AI applications. A single @weave.op decorator traces every model call — capturing inputs, outputs, latency, token cost, and errors — and the same SDK builds rigorous evaluations using LLM-as-judge and custom scorers. Traces and experiments are organized in the Weights & Biases web platform for side-by-side comparison across prompts and models.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Weights & Biases",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Instruments any provider you call; LLM-judge scorers use your own keys."
+  },
+  "tags": ["llm-observability", "tracing", "eval", "open-source", "llm-as-judge"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://wandb.ai/site/weave",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/wandb/weave"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.wandb.ai/weave"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
