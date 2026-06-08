@@ -1,0 +1,39 @@
+{
+  "slug": "lunary",
+  "insight": "Apache-2.0 and self-hostable, it bundles prompt versioning, A/B tests, and human review alongside tracing — not observability alone.",
+  "name": "Lunary",
+  "tagline": "Open-source observability and prompt management for LLM apps.",
+  "description": "An open-source platform for monitoring, debugging, and improving LLM applications and chatbots. Lunary combines request tracing, cost and user analytics, versioned prompt management with A/B testing, plus human-in-the-loop review and automated scoring. Self-host the Apache-2.0 community edition or use the managed cloud, which starts free with a 10k-events monthly tier.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Lunary",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Integrates across providers — OpenAI, Anthropic, Mistral, Vertex, Hugging Face, and more."
+  },
+  "tags": ["llm-observability", "prompt-management", "tracing", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lunary.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://lunary.ai/docs"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/lunary-ai/lunary"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lunary.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

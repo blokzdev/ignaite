@@ -1,0 +1,35 @@
+{
+  "slug": "portkey",
+  "insight": "Palo Alto Networks acquired Portkey (closed May 2026) to fold its open-source AI gateway into Prisma AIRS agent security.",
+  "name": "Portkey",
+  "tagline": "AI gateway with observability, guardrails, and governance.",
+  "description": "A production AI gateway that gives apps and agents unified access to 1,600+ LLMs across providers behind a single API, with built-in observability, prompt management, guardrails, and governance. Portkey adds routing, caching, fallbacks, cost limits, PII redaction, RBAC, and an MCP gateway. Its core gateway is open-source; run it self-hosted/hybrid or use the managed cloud, which offers a free tier.",
+  "category": "inference",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Portkey",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Unified gateway routing to 1,600+ models across providers via your own keys."
+  },
+  "tags": ["ai-gateway", "llm-routing", "observability", "guardrails"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://portkey.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://portkey.ai/docs"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Portkey-AI/gateway"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
