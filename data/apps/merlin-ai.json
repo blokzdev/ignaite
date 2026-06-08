@@ -1,0 +1,30 @@
+{
+  "slug": "merlin-ai",
+  "insight": "One of India's most-installed Chrome AI extensions, 1M+ users; its 'unlimited' Pro plan is really a fair-use query-credit cap.",
+  "name": "Merlin AI",
+  "tagline": "Multi-model AI assistant in a browser side-panel, on any tab.",
+  "description": "A Chrome extension and web app that opens a Claude / GPT / Gemini / DeepSeek panel on any page (Ctrl/⌘+M) to summarize articles, chat with PDFs, draft replies on Gmail and LinkedIn, and answer alongside Google results. One subscription spans many models on a shared query-credit allowance.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "vendor": "Foyer",
+  "platforms": ["browser-extension", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini", "DeepSeek", "Llama"]
+  },
+  "accentColor": "#7C5CFF",
+  "tags": ["browser", "side-panel", "multi-model", "summarize", "chrome-extension"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.getmerlin.in",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.getmerlin.in/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
