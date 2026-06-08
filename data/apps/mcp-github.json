@@ -3,7 +3,7 @@
   "insight": "Beyond PRs and issues it exposes secret-scanning, so an agent can audit a repo's security, not just read its code.",
   "name": "GitHub MCP",
   "tagline": "Reads + writes GitHub from any MCP-aware agent.",
-  "description": "Official GitHub MCP server. Wired into Claude Code and most agentic surfaces to read PRs, post comments, create branches, and run secret-scanning. Used daily at Blokz.",
+  "description": "Official GitHub MCP server. Wired into Claude Code and most agentic surfaces to read PRs, post comments, create branches, and run secret-scanning.",
   "category": "mcp",
   "pricing": "free",
   "openSource": true,

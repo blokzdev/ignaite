@@ -1,6 +1,6 @@
 {
   "slug": "v0",
-  "insight": "Emits real shadcn/ui + Tailwind code you can paste into a project — the same primitive stack this directory is built from.",
+  "insight": "Emits real shadcn/ui + Tailwind code you can paste straight into a project — production primitives, not throwaway mockup markup.",
   "name": "v0",
   "tagline": "Prompt-to-UI generator from Vercel. Outputs React + Tailwind + shadcn.",
   "description": "Vercel's generative UI surface. Type a description, get a working React component using Tailwind and shadcn primitives — copy the code or fork into a v0 project for iteration.",

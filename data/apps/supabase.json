@@ -3,7 +3,7 @@
   "insight": "Built on plain Postgres, so there's no proprietary lock-in — and the same project ships the Supabase MCP server also listed here.",
   "name": "Supabase",
   "tagline": "Postgres + auth + storage + edge functions, open source.",
-  "description": "Default backend layer at Blokz when an app needs persistence + auth + realtime. Open-source, self-hostable, very low friction to local dev with the CLI.",
+  "description": "A common default backend when an app needs persistence + auth + realtime. Open-source, self-hostable, very low friction to local dev with the CLI.",
   "category": "infra",
   "pricing": "freemium",
   "openSource": true,

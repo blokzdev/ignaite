@@ -41,7 +41,7 @@ export function BrandMark({ className }: Readonly<{ className?: string }>) {
 export function BrandWordmark({ className }: Readonly<{ className?: string }>) {
   return (
     <span className={cn("font-mono tracking-[0.16em] uppercase", className)}>
-      IGN<span className="text-[var(--color-accent)]">AI</span>TE
+      IGN<span className="brand-ai">AI</span>TE
     </span>
   );
 }

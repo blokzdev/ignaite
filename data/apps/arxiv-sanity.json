@@ -3,7 +3,7 @@
   "insight": "Karpathy's own tool, open-source and self-hostable — a tag-trained recommender that tames the arXiv firehose into a personal feed.",
   "name": "arxiv-sanity-lite",
   "tagline": "Personalized arxiv reader by Andrej Karpathy.",
-  "description": "Tag-and-track arxiv papers without drowning in the firehose. We track papers across edge inference, multi-agent harnesses, and memory architectures here — the spine of the Blokz Brief sample product.",
+  "description": "Tag-and-track arxiv papers without drowning in the firehose. Train it on the topics you follow — edge inference, multi-agent harnesses, memory architectures — and it builds a personal feed.",
   "category": "research-platform",
   "pricing": "free",
   "vendor": "Andrej Karpathy",
