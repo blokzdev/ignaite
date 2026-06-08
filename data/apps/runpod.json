@@ -1,0 +1,34 @@
+{
+  "slug": "runpod",
+  "insight": "Bills serverless GPU inference by the millisecond and scales to zero, with a cheaper Community Cloud tier alongside its Secure Cloud.",
+  "name": "Runpod",
+  "tagline": "GPU cloud for AI — on-demand instances and serverless inference.",
+  "description": "Runpod is an AI developer cloud for renting GPUs on demand or running auto-scaling serverless inference endpoints. Serverless workers bill by the millisecond, scale to zero when idle, and advertise sub-200ms cold starts; on-demand Pods and multi-node Clusters cover training and long-running jobs. A Community Cloud tier offers cheaper, peer-sourced GPUs alongside the vendor-operated Secure Cloud.",
+  "category": "inference",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Runpod",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Raw GPU compute — deploy and serve any model or container you bring."
+  },
+  "tags": ["gpu-cloud", "serverless", "inference", "deployment", "compute"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.runpod.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.runpod.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.runpod.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

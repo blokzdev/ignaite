@@ -1,0 +1,34 @@
+{
+  "slug": "parallel",
+  "insight": "Founded by ex-Twitter CEO Parag Agrawal; it bills per request, not per token, over a proprietary web index built for AI agents.",
+  "name": "Parallel",
+  "tagline": "High-accuracy web search and research APIs for AI agents.",
+  "description": "Parallel gives AI agents programmatic access to the web through a suite of APIs — a Search API, a Task API for structured extraction, and a Deep Research API for multi-hop questions — all served from its own proprietary web index and retrieval stack. It optimizes for high-signal, low-noise context fed straight into a model rather than ranking URLs for human clicks. Pricing is per request (the Search API starts at $0.005 per call) with a free allotment to start.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Parallel Web Systems",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Returns web content to feed into any model; not tied to a specific LLM."
+  },
+  "tags": ["web-search", "agents", "research-api", "retrieval", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://parallel.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.parallel.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://parallel.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
