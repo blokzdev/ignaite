@@ -1,0 +1,35 @@
+{
+  "slug": "honcho",
+  "insight": "AGPL-3.0 core that runs background inference between sessions, storing derived facts about each user rather than raw transcripts.",
+  "name": "Honcho",
+  "tagline": "Continual learning memory for stateful agents. Better context, fewer tokens.",
+  "description": "A memory and user-personalization layer for AI agents that keeps reasoning about each user across sessions, so apps get richer context without stuffing whole histories into the prompt. It models peers and sessions, runs background inference to derive durable facts, and answers natural-language questions about a user at query time. Available as a managed API or self-hosted FastAPI server, with Python and TypeScript SDKs.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Plastic Labs",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#F25C2A",
+  "tags": ["memory", "agents", "personalization", "self-hosted"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://honcho.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/plastic-labs/honcho"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.honcho.dev"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

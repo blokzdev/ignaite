@@ -1,0 +1,29 @@
+{
+  "slug": "skypilot",
+  "insight": "From UC Berkeley's Sky Computing Lab; brokers across 20+ clouds and Kubernetes, picking the cheapest GPUs and failing over on capacity loss.",
+  "name": "SkyPilot",
+  "tagline": "Run AI and batch jobs on any cloud or Kubernetes, from one interface.",
+  "description": "An open-source framework for running, managing, and scaling AI and batch workloads across Kubernetes, Slurm, and 20+ cloud providers through a single unified interface. It abstracts away per-provider setup, optimizes for cost and GPU availability, and automatically fails over between regions and clouds when capacity is scarce. You run it yourself against your own infrastructure — the software is free and Apache-2.0 licensed; you pay only your own cloud bills.",
+  "category": "infra",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "SkyPilot",
+  "platforms": ["cli", "api", "linux", "macos"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["gpu", "multi-cloud", "kubernetes", "orchestration", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://docs.skypilot.co",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/skypilot-org/skypilot"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

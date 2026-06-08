@@ -1,0 +1,34 @@
+{
+  "slug": "vespa",
+  "insight": "Powered Yahoo's search and ads for ~20 years before spinning out as an independent Apache-2.0 company in October 2023.",
+  "name": "Vespa",
+  "tagline": "Open-source serving engine for vector, lexical, and structured search at scale.",
+  "description": "A big-data serving engine that combines approximate nearest-neighbor vector search, lexical search, structured filtering, and ML model inference in a single query, evaluated over data distributed across many nodes. Battle-tested at Yahoo scale, it is offered as a free Apache-2.0 engine you self-host, or as the managed Vespa Cloud — including an Enclave mode that runs inside your own AWS or GCP account.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Vespa.ai",
+  "platforms": ["api", "cli", "linux"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["vector-search", "search-engine", "ann", "ranking", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vespa.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/vespa-engine/vespa"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.vespa.ai"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

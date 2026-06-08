@@ -1,0 +1,33 @@
+{
+  "slug": "beam",
+  "insight": "Open-core: its serverless GPU runtime is open-sourced as beam-cloud/beta9, while the managed cloud adds scaling and sandboxes on top.",
+  "name": "Beam",
+  "tagline": "On-demand serverless GPU compute for AI, from Python.",
+  "description": "A serverless cloud for deploying AI inference endpoints, agent sandboxes, task queues, and containerized GPU workloads with a few lines of Python. It handles fast cold starts, autoscaling, and Docker-in-Docker execution across multiple cloud backends, and supports bring-your-own-compute. The Developer tier is free with recurring monthly credit; paid tiers add team features and scale, billed pay-as-you-go by GPU usage.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Beam",
+  "platforms": ["cli", "api", "linux"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["gpu", "serverless", "python", "inference", "sandboxes"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.beam.cloud",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/beam-cloud/beta9"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.beam.cloud"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
