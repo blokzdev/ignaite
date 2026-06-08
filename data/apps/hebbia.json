@@ -1,0 +1,31 @@
+{
+  "slug": "hebbia",
+  "insight": "Matrix answers each query in a spreadsheet grid, fanning it across documents via an agent swarm rather than one RAG pass.",
+  "name": "Hebbia",
+  "tagline": "Enterprise AI that analyzes vast document sets for finance and law.",
+  "description": "Hebbia is an enterprise AI platform that lets analysts ask complex, multi-step questions across huge libraries of filings, transcripts, and internal documents. Its Matrix interface returns answers in a spreadsheet-style grid, with each cell traceable back to its source. It is used heavily across investment banking, private equity, and legal research.",
+  "category": "research-platform",
+  "pricing": "paid",
+  "openSource": false,
+  "deployment": "cloud",
+  "vendor": "Hebbia",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Decomposes questions across documents using frontier models via its agent framework."
+  },
+  "tags": ["enterprise", "document-analysis", "finance", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hebbia.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.hebbia.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
