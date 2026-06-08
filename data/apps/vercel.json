@@ -1,9 +1,9 @@
 {
   "slug": "vercel",
-  "insight": "The infrastructure this directory itself runs on — Next.js-native deploys with edge functions powering the contact form.",
+  "insight": "Deploys are Next.js-native — edge functions, image optimization, and analytics in one frontend cloud, no separate infra to wire up.",
   "name": "Vercel",
-  "tagline": "Where ignaite.app lives. Edge functions + image opt + analytics.",
-  "description": "Hosts ignaite.app. Next.js-native, fast deploys, edge functions for the contact API, free Speed Insights tier. Strong default for the React/Next ecosystem.",
+  "tagline": "Frontend cloud for React/Next. Edge functions + image opt + analytics.",
+  "description": "Next.js-native hosting with fast deploys, edge functions, image optimization, and a free Speed Insights tier. Strong default for the React/Next ecosystem.",
   "category": "infra",
   "pricing": "freemium",
   "deployment": "cloud",
