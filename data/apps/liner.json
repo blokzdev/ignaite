@@ -1,0 +1,25 @@
+{
+  "slug": "liner",
+  "insight": "Started in 2015 as a web-highlighter before pivoting to AI search; the company migrated its canonical domain from getliner.com to liner.com.",
+  "name": "Liner",
+  "tagline": "AI search and research copilot with cited answers.",
+  "description": "An AI search and research assistant that returns cited, fact-checked answers across the web, YouTube, and PDFs, with dedicated modes for academic literature review (Liner Scholar) and professional writing (Liner Write). It grew out of a popular web-highlighting tool and now spans browser, mobile, desktop, and a browser extension. The free tier covers everyday search; Pro unlocks more models, file uploads, and unlimited copilot use.",
+  "category": "search",
+  "pricing": "freemium",
+  "vendor": "Liner",
+  "platforms": ["web", "ios", "android", "macos", "windows", "browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"]
+  },
+  "tags": ["search", "research", "citations", "academic", "browser-extension"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://liner.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
