@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import type { ReactElement } from "react";
+import { EMBER_DATA_URI } from "@/lib/og-mark";
 
 export const OG_SIZE = { width: 1200, height: 630 } as const;
 export const OG_CONTENT_TYPE = "image/png" as const;
@@ -23,7 +24,7 @@ function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
       style={{
         width: "100%",
         height: "100%",
-        background: "linear-gradient(135deg, #070b14 0%, #0e1424 55%, #070b14 100%)",
+        background: "linear-gradient(135deg, #0a0712 0%, #15101f 55%, #0a0712 100%)",
         display: "flex",
         flexDirection: "column",
         padding: "80px",
@@ -40,10 +41,10 @@ function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
           width: "640px",
           height: "640px",
           background:
-            "radial-gradient(circle, rgba(8, 217, 214, 0.28) 0%, rgba(8, 217, 214, 0) 70%)",
+            "radial-gradient(circle, rgba(255, 122, 51, 0.22) 0%, rgba(8, 217, 214, 0.18) 38%, rgba(8, 217, 214, 0) 70%)",
         }}
       />
-      {/* Violet glow on the opposite side */}
+      {/* Plum glow on the opposite side */}
       <div
         style={{
           position: "absolute",
@@ -52,7 +53,7 @@ function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
           width: "480px",
           height: "480px",
           background:
-            "radial-gradient(circle, rgba(167, 139, 250, 0.18) 0%, rgba(167, 139, 250, 0) 70%)",
+            "radial-gradient(circle, rgba(124, 58, 237, 0.22) 0%, rgba(124, 58, 237, 0) 70%)",
         }}
       />
 
@@ -65,15 +66,8 @@ function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
           color: "#E8F1F8",
         }}
       >
-        <div
-          style={{
-            width: "14px",
-            height: "14px",
-            borderRadius: "50%",
-            background: "#08D9D6",
-            boxShadow: "0 0 24px #08D9D6",
-          }}
-        />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={EMBER_DATA_URI} width={30} height={30} alt="" />
         <p
           style={{
             margin: 0,
@@ -83,7 +77,7 @@ function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
             fontFamily: "monospace",
           }}
         >
-          Blokz.dev
+          ignaite.app
         </p>
       </div>
 
@@ -157,7 +151,7 @@ function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
               "linear-gradient(90deg, rgba(8, 217, 214, 0), rgba(8, 217, 214, 0.5), rgba(8, 217, 214, 0))",
           }}
         />
-        <span>blokz.dev</span>
+        <span>ignaite.app</span>
       </div>
     </div>
   );

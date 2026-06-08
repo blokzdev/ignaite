@@ -20,9 +20,10 @@ Mark done with `- [x]` and move to the **Resolved** section. Inline `// TODO(cat
 
 These gate a clean v2 launch. Everything else can ship without.
 
-- [ ] **[user]** Set Vercel env vars (Production + Preview): `RESEND_API_KEY`, `CONTACT_TO_EMAIL=team@blokz.dev`, optional `CONTACT_FROM_EMAIL`, `NEXT_PUBLIC_SITE_URL=https://blokz.dev`. Without `RESEND_API_KEY` the contact form returns an "Email is offline" notice instead of submitting.
-- [ ] **[user]** Verify the `blokz.dev` domain inside Resend (Settings → Domains) so the contact form can send from `Blokz <hello@blokz.dev>`. Until verified, leave `CONTACT_FROM_EMAIL` unset and the form falls back to `onboarding@resend.dev`.
-- [ ] **[user]** Confirm `team@blokz.dev` is actively monitored (the destination for every form submission). Optionally mirror submissions to a Telegram/Discord webhook on submit.
+- [ ] **[user]** Set Vercel env vars (Production + Preview): `RESEND_API_KEY`, `CONTACT_TO_EMAIL=team@ignaite.app`, optional `CONTACT_FROM_EMAIL`, `NEXT_PUBLIC_SITE_URL=https://ignaite.app`. Without `RESEND_API_KEY` the contact form returns an "Email is offline" notice instead of submitting.
+- [ ] **[user]** Verify the `ignaite.app` domain inside Resend (Settings → Domains) so the contact form can send from `Ignaite <hello@ignaite.app>`. Until verified, leave `CONTACT_FROM_EMAIL` unset and the form falls back to `onboarding@resend.dev`.
+- [ ] **[user]** Confirm `team@ignaite.app` is actively monitored (the destination for every form submission). Optionally mirror submissions to a Telegram/Discord webhook on submit.
+- [ ] **[future]** Rebrand cutover leftovers — when `/workflow` or `/portfolio` is revived, rebrand the dormant Blokz references they carry: the fictional "Blokz Brief" sample + `*.blokz.dev` subdomains in `content/workflow/**` and `components/workflow/workflow-intro.tsx`, `data/projects.ts` (portfolio), and the `next.config.ts` slugs `blokz-oss`/`blokz-ai-incoming`. Internal event/storage keys `blokz:*` are non-user-facing and can stay. The product is now **Ignaite** (ignaite.app); the company stays **Blokz Development Co.**
 - [ ] **[verify]** Confirm `public/app-ads.txt` is still required by Play Store ad SDKs (preserved verbatim from the legacy site).
 
 ## Pre-launch polish (optional, can ship without)

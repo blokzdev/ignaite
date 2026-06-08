@@ -25,7 +25,7 @@ const instrumentSerif = localFont({
 export const metadata: Metadata = buildMetadata();
 
 export const viewport: Viewport = {
-  themeColor: "#070b14",
+  themeColor: "#0a0712",
   colorScheme: "dark",
   width: "device-width",
   initialScale: 1,

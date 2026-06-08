@@ -1,20 +1,20 @@
 export const brand = {
-  name: "Blokz",
+  name: "Ignaite",
   legalName: "Blokz Development Co.",
-  domain: "blokz.dev",
+  domain: "ignaite.app",
   tagline:
     "An AI-managed directory of AI apps — researched, written, and kept current by Claude Code.",
   positioning:
-    "Blokz is an AI-managed directory of the AI apps, agents, and tooling worth knowing — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line AI insight. Built and operated by Blokz Development Co.",
+    "Ignaite is an AI-managed directory of the AI apps, agents, and tooling worth knowing — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line AI insight. Built and operated by Blokz Development Co.",
   headline: {
-    eyebrow: "BLOKZ.DEV // AI-MANAGED DIRECTORY",
+    eyebrow: "IGNAITE.APP // AI-MANAGED DIRECTORY",
     title: "The AI apps directory,",
     titleAccent: "managed by AI.",
     sub: "Every listing researched, written, and kept current by Claude Code — with a one-line AI insight on each.",
   },
   logo: {
-    src: "https://cdn.glitch.global/d470e077-214b-4bf9-ac27-4933bce2a4c9/blokz-logo-circle-blue-640px.png?v=1676232520196",
-    alt: "Blokz logo",
+    src: "/icon",
+    alt: "Ignaite logo",
     width: 640,
     height: 640,
   },
@@ -24,7 +24,7 @@ export const brand = {
     linkedin: "https://www.linkedin.com/company/blokzdev/",
     twitter: "https://twitter.com/blokzdev/",
     gdev: "https://g.dev/blokz",
-    email: "team@blokz.dev",
+    email: "team@ignaite.app",
     playStore: "https://play.google.com/store/apps/dev?id=8878695474933625157",
     flowPage: "https://flow.page/blokz",
   },

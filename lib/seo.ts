@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { brand } from "@/data/brand";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://blokz.dev";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ignaite.app";
 
 interface BuildMetadataInput {
   title?: string;
@@ -26,7 +26,7 @@ export function buildMetadata({
     applicationName: brand.legalName,
     authors: [{ name: brand.legalName, url: siteUrl }],
     keywords: [
-      "Blokz",
+      "Ignaite",
       "AI apps directory",
       "AI tools directory",
       "AI app discovery",

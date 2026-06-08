@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BrandMark, BrandWordmark } from "@/components/brand/brand-logo";
 import { brand } from "@/data/brand";
 
 // Brand glyphs as raw SVG path data (24×24, fill=currentColor). Paths from
@@ -56,10 +57,8 @@ export function SiteFooter() {
               className="group flex items-center gap-2.5"
               aria-label={`${brand.name} home`}
             >
-              <span className="block h-2.5 w-2.5 rounded-full bg-[var(--color-accent)] shadow-[0_0_12px_var(--color-accent)] transition-transform group-hover:scale-125" />
-              <span className="font-mono text-sm tracking-[0.16em] text-[var(--color-ink)] uppercase">
-                {brand.name}
-              </span>
+              <BrandMark className="h-6 w-6 drop-shadow-[0_0_10px_rgba(8,217,214,0.45)] transition-transform group-hover:scale-110" />
+              <BrandWordmark className="text-sm text-[var(--color-ink)]" />
             </Link>
             <p className="mt-4 max-w-xs text-sm text-[var(--color-ink-dim)]">
               An AI-managed directory of AI apps.
