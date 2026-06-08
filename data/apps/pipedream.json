@@ -1,0 +1,33 @@
+{
+  "slug": "pipedream",
+  "insight": "Each step is real Node.js or Python code over 3,000+ managed API integrations, now exposed to AI agents as MCP servers.",
+  "name": "Pipedream",
+  "tagline": "Connect APIs, AI, and databases with code-level workflows.",
+  "description": "A workflow automation platform where steps are pre-built triggers/actions or arbitrary Node.js and Python code, glued across 3,000+ managed app integrations with hosted auth. Pipedream Connect embeds those integrations into your own product or AI agent, and the catalog is exposed MCP-natively so agents can call any connector as a tool.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Pipedream",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["workflow", "integrations", "code", "mcp", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pipedream.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://pipedream.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://pipedream.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

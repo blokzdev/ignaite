@@ -1,0 +1,35 @@
+{
+  "slug": "skyvern",
+  "insight": "Reads pages with vision + LLMs instead of brittle XPath/CSS selectors, so automations survive site redesigns; AGPL-3.0 licensed.",
+  "name": "Skyvern",
+  "tagline": "Automate browser-based workflows on any website with AI.",
+  "description": "An AI agent that completes browser workflows — form fills, logins, data extraction, multi-step flows — by combining computer vision with LLMs rather than hand-written selectors, so a single agent generalizes across sites it has never seen. Run it via the cloud app and API or self-host the open-source engine; bring your own model (OpenAI, Anthropic, Gemini, or local Ollama).",
+  "category": "automation",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Skyvern",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["OpenAI", "Anthropic", "Gemini", "Ollama"]
+  },
+  "tags": ["browser-automation", "computer-vision", "open-source", "agents", "rpa"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.skyvern.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Skyvern-AI/skyvern"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.skyvern.com"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

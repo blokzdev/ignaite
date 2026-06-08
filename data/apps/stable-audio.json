@@ -1,0 +1,35 @@
+{
+  "slug": "stable-audio",
+  "insight": "Its models were trained on music licensed from AudioSparx, pitched as commercially clean — unlike rivals trained on scraped audio.",
+  "name": "Stable Audio",
+  "tagline": "Generative AI for music and sound effects from a text prompt.",
+  "description": "Stability AI's text-to-audio tool: describe a track or sound effect and it generates studio-quality stereo audio, with structured full-length songs in later versions. A web studio plus a generation API on the Stability platform. Subscriptions add longer outputs, more monthly generations, and commercial licensing.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Stability AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships Stability AI's own audio-diffusion models."
+  },
+  "tags": ["text-to-music", "sound-effects", "music-generation", "licensed-data"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://stableaudio.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://stableaudio.com/pricing"
+    },
+    {
+      "kind": "website",
+      "url": "https://stability.ai/stable-audio",
+      "label": "Model details"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

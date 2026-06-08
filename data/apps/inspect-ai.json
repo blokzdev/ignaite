@@ -1,0 +1,34 @@
+{
+  "slug": "inspect-ai",
+  "insight": "Built by the UK's AI Security Institute and adopted by Anthropic and Google DeepMind as a shared eval framework; MIT-licensed.",
+  "name": "Inspect AI",
+  "tagline": "Open-source Python framework for large language model evaluations.",
+  "description": "A framework for building and running reproducible LLM and agent evaluations, structured around datasets, solvers, and scorers. Ships sandboxed tool execution, multi-turn agent workflows, and a log viewer, plus a companion library of 200+ prebuilt evals. Run any eval against any model via the inspect CLI or the Python API.",
+  "category": "eval",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "UK AI Security Institute",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring any provider/model under test; provider-agnostic."
+  },
+  "tags": ["llm-eval", "open-source", "agents", "ai-safety", "ci"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://inspect.aisi.org.uk",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai"
+    },
+    {
+      "kind": "docs",
+      "url": "https://inspect.aisi.org.uk/evals/"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
