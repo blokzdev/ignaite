@@ -1,0 +1,22 @@
+{
+  "slug": "dia",
+  "insight": "From The Browser Company (makers of Arc); AI lives in the address bar, aware of your open tabs and history instead of a separate chatbot.",
+  "name": "Dia",
+  "tagline": "An AI-native web browser with chat and skills built into the URL bar.",
+  "description": "An AI-native desktop web browser from The Browser Company, the team behind Arc. Dia bakes a chat assistant and reusable 'skills' directly into the address bar, with awareness of your open tabs and browsing history, so you never need to copy context into a separate chatbot. It launched publicly on macOS in 2025. A free tier covers light AI use; a $20/month Pro plan removes the AI usage limits.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "The Browser Company",
+  "platforms": ["macos"],
+  "tags": ["browser", "ai-assistant", "productivity", "macos"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.diabrowser.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
