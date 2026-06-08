@@ -1,0 +1,30 @@
+{
+  "slug": "lalal-ai",
+  "insight": "Its 2026 VST plugin runs six-stem separation locally inside the DAW — no cloud upload, unlike the web app.",
+  "name": "LALAL.AI",
+  "tagline": "AI vocal remover and stem separation, built for pro-level quality.",
+  "description": "An AI audio service that removes vocals and splits any track into clean stems — vocals, drums, bass, guitars, piano, and more — using transformer-based separation models. It adds voice cleaning, echo and reverb removal, and lead/backing vocal separation. Available on the web, desktop, native iOS and Android apps, a DAW plugin, and a developer API.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "LALAL.AI",
+  "platforms": ["web", "ios", "android", "macos", "windows", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary transformer-based stem-separation models."
+  },
+  "tags": ["stem-separation", "vocal-remover", "music", "audio-cleanup"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lalal.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.lalal.ai/#price"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

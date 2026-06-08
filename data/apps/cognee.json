@@ -1,0 +1,35 @@
+{
+  "slug": "cognee",
+  "insight": "Pairs vector search with an LLM-built knowledge graph so recall can follow relationships, not just nearest-neighbor similarity.",
+  "name": "Cognee",
+  "tagline": "Open-source memory for AI agents.",
+  "description": "An open-source semantic memory layer for AI agents. Cognee ingests documents, relational data, and system context, then runs an Extract-Cognify-Load pipeline that uses an LLM to build a knowledge graph with embeddings and relationships. Agents query it for durable, cross-session context that captures how concepts connect. Self-host the Python SDK for free, or use the managed cloud tiers.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Cognee",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring your own LLM and embedding provider for the cognify pipeline."
+  },
+  "tags": ["agent-memory", "knowledge-graph", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cognee.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/topoteretes/cognee"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.cognee.ai"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
