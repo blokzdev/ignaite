@@ -1,0 +1,32 @@
+{
+  "slug": "sonauto",
+  "insight": "Uses latent diffusion in a continuous space, not an audio-token language model like most rivals — its pitch for fast, steerable full songs.",
+  "name": "Sonauto",
+  "tagline": "Free AI music generator that turns prompts, lyrics, or melodies into full songs.",
+  "description": "Sonauto generates complete, radio-quality songs — vocals and instrumentals — from a text prompt, your own lyrics, or a hummed melody. It is powered by Melodia, the company's in-house music foundation model, and ships a developer API alongside the web app. A free tier is available with paid credit plans for higher volume and commercial use.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Sonauto",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Melodia v3"],
+    "notes": "Built on Sonauto's own Melodia music foundation model."
+  },
+  "accentColor": "#8B5CF6",
+  "tags": ["music-generation", "text-to-music", "songs", "latent-diffusion", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sonauto.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://sonauto.ai/developers"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

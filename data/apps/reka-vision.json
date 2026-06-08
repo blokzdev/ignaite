@@ -1,0 +1,32 @@
+{
+  "slug": "reka-vision",
+  "insight": "From model lab Reka — turns large video libraries into natural-language search, reasoning, and auto-clipping, via API, MCP, or app.",
+  "name": "Reka Vision",
+  "tagline": "Multimodal platform to search, reason over, and clip large volumes of video.",
+  "description": "Reka Vision is an enterprise multimodal system that indexes large image and video libraries so teams can search by meaning, ask timestamp-aware questions, and auto-generate highlights and clips. It is built by Reka, a frontier multimodal-model lab, and is available via API, an MCP server, or a hosted app. Access is sales-led (request a demo).",
+  "category": "vision",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Reka",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs on Reka's own multimodal models."
+  },
+  "accentColor": "#F97316",
+  "tags": ["video-understanding", "multimodal", "visual-search", "video-clipping", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://reka.ai",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://reka.ai/news/reka-vision-intelligence-made-visible",
+      "label": "Reka Vision overview"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

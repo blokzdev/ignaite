@@ -1,0 +1,36 @@
+{
+  "slug": "giskard",
+  "insight": "Its Scan auto-generates adversarial suites mapped to the OWASP LLM Top-10, framing eval as security red-teaming, not just accuracy.",
+  "name": "Giskard",
+  "tagline": "Open-source evaluation and red-teaming for LLM agents and RAG apps.",
+  "description": "Giskard is an open-source (Apache-2.0) Python library for testing LLMs, RAG pipelines, and ML models — its Scan automatically surfaces hallucinations, prompt injection, bias, and other vulnerabilities, while red-teaming agents run multi-turn adversarial attacks across dozens of probes. The paid Giskard Hub adds team collaboration, continuous testing, and scheduled scans. The team also publishes the open Phare LLM safety benchmark.",
+  "category": "eval",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Giskard",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Tests any LLM, RAG app, or ML model; LLM-as-judge for scenario checks."
+  },
+  "accentColor": "#6366F1",
+  "tags": ["llm-eval", "red-teaming", "testing", "rag", "owasp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.giskard.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Giskard-AI/giskard-oss"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.giskard.ai"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
