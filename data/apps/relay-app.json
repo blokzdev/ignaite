@@ -1,0 +1,31 @@
+{
+  "slug": "relay-app",
+  "insight": "Unlike most automation tools, it bakes human-in-the-loop steps — approvals, input forms, and AI-output review — directly into workflows.",
+  "name": "Relay.app",
+  "tagline": "AI-native workflow automation with humans in the loop.",
+  "description": "A workflow automation platform that connects 200+ apps and AI models to automate collaborative business processes. It differs from classic automation tools by treating people as first-class steps — approvals, data-input forms, and AI-output reviews — and by offering native AI extraction, classification, and custom AI steps across providers. Founded by ex-Google Gmail/Calendar PM Jacob Bank.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Relay.app",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini"],
+    "notes": "Choose the AI provider for each AI step in a workflow."
+  },
+  "tags": ["automation", "workflow", "ai-agents", "human-in-the-loop", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.relay.app",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.relay.app/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

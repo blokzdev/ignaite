@@ -1,0 +1,34 @@
+{
+  "slug": "encord",
+  "insight": "Built for physical-world and medical AI: labels DICOM, NIfTI, LiDAR point clouds and SAR alongside images and video, not just photos.",
+  "name": "Encord",
+  "tagline": "Data platform to curate, label, and manage AI training data.",
+  "description": "An enterprise data development platform for preparing high-quality training data across images, video, documents, audio, DICOM, and 3D point clouds. It pairs AI-assisted labeling (SAM auto-segmentation, object tracking) with data curation, model evaluation, and workflow tooling, plus LLM-powered data agents for document tasks. Used heavily in medical imaging, robotics, and other physical-AI domains.",
+  "category": "vision",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Encord",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Integrates foundation models (e.g. SAM) for AI-assisted labeling and frontier LLMs for document data agents."
+  },
+  "tags": ["data-annotation", "training-data", "computer-vision", "medical-imaging", "labeling"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://encord.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://encord.com/pricing/"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.encord.com"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
