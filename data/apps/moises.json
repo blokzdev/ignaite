@@ -1,0 +1,29 @@
+{
+  "slug": "moises",
+  "insight": "Aimed at practicing musicians, not just producers — it layers chord detection, pitch/tempo shift and a metronome on top of stem separation.",
+  "name": "Moises",
+  "tagline": "The musician's app: AI stem separation, chord detection, and practice tools.",
+  "description": "An AI music suite that splits any track into isolated stems (vocals, drums, bass, and more), removes vocals, and detects chords and key. It adds practice-focused tools — pitch and tempo control, a smart metronome, and recording — across web, desktop, and native mobile apps.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Moises Systems",
+  "platforms": ["web", "ios", "android", "macos", "windows"],
+  "modelSupport": {
+    "kind": "self-contained"
+  },
+  "tags": ["stem-separation", "music", "vocal-remover", "practice"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://moises.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://moises.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

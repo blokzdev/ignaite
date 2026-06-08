@@ -1,0 +1,33 @@
+{
+  "slug": "reducto",
+  "insight": "Bills by page complexity, not a flat per-page rate — it auto-discounts simple pages so you don't overpay for an easy PDF.",
+  "name": "Reducto",
+  "tagline": "Agentic document parsing and extraction for AI teams, via one API.",
+  "description": "A document-intelligence API that parses, splits, extracts, and edits PDFs, images, spreadsheets, and slides into clean, structured output for RAG and AI pipelines. It blends custom in-house models with frontier ones and bills via usage credits, automatically discounting pages it can parse without the heavier pipeline.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Reducto",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["document-parsing", "ocr", "extraction", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://reducto.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.reducto.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://reducto.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
