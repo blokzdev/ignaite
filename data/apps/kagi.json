@@ -1,0 +1,36 @@
+{
+  "slug": "kagi",
+  "insight": "A rare paid, ad-free search engine; its bundled Assistant spends your plan's dollar value as a fair-use token budget across many LLMs.",
+  "name": "Kagi",
+  "tagline": "Paid, ad-free search engine with a built-in multi-model AI assistant.",
+  "description": "Kagi is a subscription-based, ad-free search engine that puts result quality and privacy ahead of advertising. Every paid plan now includes Kagi Assistant, which lets you chat with leading models from OpenAI, Anthropic, Google, Mistral, and others against a fair-use token budget. Kagi also ships features like the Universal Summarizer and customizable result ranking.",
+  "category": "search",
+  "pricing": "paid",
+  "openSource": false,
+  "deployment": "cloud",
+  "vendor": "Kagi",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini", "Mistral", "Llama", "DeepSeek"],
+    "notes": "Kagi Assistant; model access scales with plan value."
+  },
+  "tags": ["search-engine", "ad-free", "privacy", "multi-model"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kagi.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://kagi.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://help.kagi.com"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

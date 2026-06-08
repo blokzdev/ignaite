@@ -1,0 +1,34 @@
+{
+  "slug": "stagehand",
+  "insight": "Mix deterministic browser-driver code with natural-language act() and extract() calls — no all-or-nothing handoff to a black-box agent.",
+  "name": "Stagehand",
+  "tagline": "Open-source SDK for building reliable AI browser agents.",
+  "description": "Stagehand is an open-source (MIT) SDK from Browserbase for building browser agents in TypeScript or Python. It exposes act(), extract(), and observe() primitives so you can drive a page with natural language while keeping deterministic code wherever you need it. v3 dropped its hard Playwright dependency for a modular Chrome DevTools Protocol driver.",
+  "category": "automation",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Browserbase",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["OpenAI", "Anthropic", "Google"]
+  },
+  "tags": ["browser-automation", "web-agents", "sdk", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.stagehand.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/browserbase/stagehand"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.stagehand.dev"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
