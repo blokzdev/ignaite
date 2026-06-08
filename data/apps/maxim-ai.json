@@ -1,0 +1,35 @@
+{
+  "slug": "maxim-ai",
+  "insight": "Simulates multi-turn agent conversations across personas and scenarios before release, not just single-prompt scoring.",
+  "name": "Maxim AI",
+  "tagline": "Simulate, evaluate, and observe AI agents end-to-end.",
+  "description": "An end-to-end platform for testing and monitoring AI agents across their lifecycle. It combines a prompt experimentation IDE, agent simulation across scenarios and personas, offline and online evaluations with custom metrics, and production observability with tracing and alerts. Aimed at teams shipping reliable agentic and RAG systems.",
+  "category": "eval",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Maxim AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini"],
+    "notes": "Provider-agnostic; evaluate and trace agents built on any model you connect."
+  },
+  "tags": ["eval", "agent-simulation", "observability", "tracing", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.getmaxim.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.getmaxim.ai/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.getmaxim.ai/docs"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
