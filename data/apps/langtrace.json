@@ -1,0 +1,35 @@
+{
+  "slug": "langtrace",
+  "insight": "Built on OpenTelemetry, so its LLM traces export to any OTel backend (Grafana, Datadog) rather than locking you into one dashboard.",
+  "name": "Langtrace",
+  "tagline": "Open-source, OpenTelemetry-based observability for LLM apps and agents.",
+  "description": "Langtrace is an open-source observability and evaluation platform for LLM applications, capturing traces, token usage, latency, and cost across popular models, frameworks, and vector databases. Because it emits standard OpenTelemetry spans, traces flow to any OTel-compatible backend, and instrumentation is a two-line SDK install in Python or TypeScript. It ships as a hosted cloud with a free tier plus a self-hostable / on-prem option for data-sensitive teams.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Scale3 Labs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Instruments calls to any LLM, framework, or vector DB via OpenTelemetry."
+  },
+  "tags": ["observability", "tracing", "opentelemetry", "open-source", "evals"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.langtrace.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Scale3-Labs/langtrace"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.langtrace.ai"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

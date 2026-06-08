@@ -1,0 +1,35 @@
+{
+  "slug": "scrapegraphai",
+  "insight": "Swaps CSS selectors for LLM graph pipelines: describe the data in plain English, and the MIT core runs on any provider or local Ollama.",
+  "name": "ScrapeGraphAI",
+  "tagline": "Turn any webpage into structured data with one prompt-driven API call.",
+  "description": "ScrapeGraphAI is an AI web-scraping tool that extracts structured data from pages and documents using natural-language prompts instead of CSS selectors or XPath, orchestrating LLMs in graph-style pipelines (single-page, multi-page, search, crawl). The core library is open-source under the MIT license with Python and Node SDKs; a hosted API adds a credit-based free tier and paid plans, plus integrations with LangChain, LlamaIndex, n8n, and an MCP server.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "ScrapeGraphAI",
+  "platforms": ["api", "cli", "web"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "OSS library runs on OpenAI, Anthropic, Groq, or local Ollama; the hosted API manages the model."
+  },
+  "tags": ["web-scraping", "extraction", "open-source", "rag", "structured-data"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scrapegraphai.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.scrapegraphai.com"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
