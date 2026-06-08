@@ -1,0 +1,32 @@
+{
+  "slug": "memobase",
+  "insight": "Models memory as a structured user profile plus an event timeline, not embedded transcript chunks like most memory layers.",
+  "name": "Memobase",
+  "tagline": "User profile-based long-term memory for LLM applications.",
+  "description": "Memobase gives AI apps persistent, per-user memory by distilling conversations into a structured user profile and a chronological event timeline, rather than storing raw transcript embeddings. It exposes Python, Node, and Go SDKs plus a REST API and an MCP server, and is open source (Apache-2.0) with a managed cloud option. Built on FastAPI, Postgres, and Redis for low-latency retrieval.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Memobase",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Plugs into your existing LLM stack; bring your own provider."
+  },
+  "accentColor": "#0EA5E9",
+  "tags": ["memory", "agents", "user-profile", "personalization", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.memobase.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/memodb-io/memobase"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
