@@ -1,0 +1,34 @@
+{
+  "slug": "daytona",
+  "insight": "Boots an isolated sandbox with its own kernel and filesystem in under 90ms, so agents can run untrusted code without touching your infra.",
+  "name": "Daytona",
+  "tagline": "Secure, elastic sandboxes for running AI-generated code.",
+  "description": "Infrastructure for executing AI-generated code in isolated sandboxes — each a full composable computer with a dedicated kernel, filesystem, network stack, and allocated CPU, RAM, and disk. Sandboxes start in under 90ms, snapshot for persistence, and are driven programmatically through SDKs (Python, TypeScript, Ruby, Go, Java), an API, and a CLI. AGPL-3.0 and available as a managed service, self-hosted stack, or hybrid where you bring your own compute.",
+  "category": "infra",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Daytona",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["sandbox", "code-execution", "agents", "infrastructure", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.daytona.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/daytonaio/daytona"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.daytona.io/docs"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
