@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Open-source assistant across VS Code, JetBrains, and CLI that can run fully local via Ollama with your own keys.",
+  "pros": [
+    "Apache-2.0 open source",
+    "VS Code, JetBrains, and CLI",
+    "Any model, local via Ollama",
+    "Bring your own keys"
+  ],
+  "cons": [
+    "More setup than turnkey tools",
+    "Quality depends on chosen model",
+    "Less polished than Cursor"
+  ],
+  "bestFor": ["Privacy-conscious devs", "Local model users"],
+  "alternatives": ["cursor", "github-copilot", "aider", "cline"]
 }

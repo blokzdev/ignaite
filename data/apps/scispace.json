@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Pairs a 280M+ paper index with agentic 'Deep Review' literature search and PDF Q&A in one academic workspace.",
+  "pros": [
+    "280M+ paper corpus",
+    "Agentic Deep Review search",
+    "Cited answers over PDFs",
+    "Writing aids (paraphrase, citations)"
+  ],
+  "cons": [
+    "Undisclosed underlying models",
+    "Free tier limits depth",
+    "Answer quality varies by field"
+  ],
+  "bestFor": ["Literature reviews", "Reading dense papers", "Academic research"],
+  "alternatives": ["consensus", "elicit", "scite", "undermind"]
 }

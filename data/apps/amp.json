@@ -28,5 +28,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Shareable, searchable agent 'threads' for the whole team, billed pay-as-you-go at zero markup over model prices.",
+  "pros": [
+    "Zero-markup pay-as-you-go pricing",
+    "Shareable/searchable team threads",
+    "Routes across frontier models",
+    "Works in terminal and editors"
+  ],
+  "cons": [
+    "Closed source",
+    "Usage-metered costs can be unpredictable",
+    "Newer than Cursor/Copilot",
+    "Best value tied to Sourcegraph workflows"
+  ],
+  "bestFor": ["Sourcegraph teams", "Collaborative agent sessions", "Terminal + editor users"],
+  "alternatives": ["cline", "claude-code", "cursor", "augment-code"]
 }

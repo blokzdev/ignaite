@@ -32,5 +32,29 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "PagedAttention pages the KV cache like OS virtual memory — the throughput trick that made it the OSS serving default.",
+  "pros": [
+    "PagedAttention KV-cache efficiency",
+    "High throughput via continuous batching",
+    "Apache-2.0, fully self-hostable",
+    "OpenAI-compatible server",
+    "Huge contributor community"
+  ],
+  "cons": [
+    "You manage the GPU infrastructure",
+    "Setup/tuning learning curve",
+    "Less turnkey than hosted APIs",
+    "Optimized mainly for NVIDIA GPUs"
+  ],
+  "bestFor": ["Self-hosted LLM serving", "High-throughput inference", "On-prem GPU clusters"],
+  "alternatives": ["ollama", "baseten", "modal", "fireworks-ai"],
+  "references": [
+    {
+      "title": "vLLM",
+      "url": "https://en.wikipedia.org/wiki/VLLM",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
 }

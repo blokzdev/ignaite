@@ -25,5 +25,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Open-source AI layout detection that preserves reading order and table structure — self-hostable, no API bills.",
+  "pros": [
+    "Fully open-source and self-hostable",
+    "Preserves layout, reading order, tables",
+    "IBM Research origin, now LF AI project",
+    "Wide format and export support"
+  ],
+  "cons": [
+    "Lower accuracy than top hosted parsers",
+    "No managed cloud / SLA out of the box",
+    "Setup and tuning effort vs. an API",
+    "Heavier compute for OCR-heavy docs"
+  ],
+  "bestFor": ["Self-hosted RAG pipelines", "Privacy-sensitive docs", "Open-source teams"],
+  "alternatives": ["unstructured", "reducto", "firecrawl", "chunkr"],
+  "references": [
+    {
+      "title": "Docling vs LlamaParse vs Unstructured vs Reducto: Document Parser Comparison",
+      "url": "https://llms.reducto.ai/document-parser-comparison",
+      "source": "Reducto",
+      "kind": "comparison"
+    }
+  ]
 }

@@ -30,5 +30,15 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Boots an isolated sandbox with its own kernel and filesystem in under 90ms, so agents run untrusted code safely.",
+  "pros": [
+    "Sub-100ms sandbox start",
+    "Full isolated kernel + FS",
+    "SDKs in many languages",
+    "Open-source, self-host option"
+  ],
+  "cons": ["AGPL-3.0 may deter some", "Infra to manage if self-hosted", "Newer entrant"],
+  "bestFor": ["Running AI-generated code", "Agent sandboxes"],
+  "alternatives": ["e2b", "modal", "browserbase", "beam"]
 }

@@ -24,5 +24,14 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Open-weight R1 reset the price-for-reasoning curve, and the consumer app stays free with strong reasoning.",
+  "pros": ["Free to use", "Strong reasoning (R1)", "Open-weight models", "Web search built in"],
+  "cons": [
+    "China-hosted data concerns",
+    "Content restrictions on sensitive topics",
+    "Smaller app polish than rivals"
+  ],
+  "bestFor": ["Free reasoning chat", "Cost-sensitive users"],
+  "alternatives": ["chatgpt", "claude", "gemini", "kimi"]
 }

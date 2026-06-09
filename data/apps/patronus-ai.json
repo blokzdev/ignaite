@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Ships trained evaluator models (Lynx, GLIDER, Percival) rather than only prompt-based LLM-judge scoring.",
+  "pros": [
+    "Research-backed evaluator models, not just prompts",
+    "Covers hallucination, judging, and agent-trace debug",
+    "Self-serve API with free credits",
+    "Guardrails + monitoring across the lifecycle"
+  ],
+  "cons": [
+    "Cloud-only; no self-host",
+    "Usage-based pricing can be opaque at scale",
+    "Smaller OSS footprint than open eval tools"
+  ],
+  "bestFor": ["Agent reliability", "Hallucination detection", "Enterprise LLM QA"],
+  "alternatives": ["braintrust", "langfuse", "ragas", "promptfoo"]
 }

@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Model-agnostic 'Droids' run as both cloud and local background agents from one CLI — frontier or open-weight models.",
+  "pros": [
+    "Cloud and local background agents",
+    "Model-agnostic across frontier + open weights",
+    "Works across a whole codebase",
+    "CLI/SDK driven"
+  ],
+  "cons": [
+    "Paid-only, no free tier",
+    "Enterprise-oriented onboarding",
+    "Autonomy needs careful review on large repos"
+  ],
+  "bestFor": ["Autonomous coding teams", "Background dev tasks", "Multi-repo workflows"],
+  "alternatives": ["devin", "openhands", "cline", "claude-code"]
 }

@@ -16,9 +16,30 @@
   },
   "tags": ["humanoid", "home-robot", "vla", "redwood"],
   "links": [
-    { "kind": "website", "url": "https://www.1x.tech", "primary": true },
-    { "kind": "video", "url": "https://www.1x.tech/neo" }
+    {
+      "kind": "website",
+      "url": "https://www.1x.tech",
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://www.1x.tech/neo"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Targets the home, not the warehouse — a consumer humanoid with an onboard VLA and a teleop-assisted learning loop.",
+  "pros": [
+    "Redwood VLA runs onboard on NEO's GPU",
+    "Consumer pricing: $20k or $499/month",
+    "Human teleoperation accelerates skill learning"
+  ],
+  "cons": [
+    "Ships from 2026 — unproven in real homes",
+    "Teleop raises in-home privacy questions",
+    "Narrow task repertoire at launch",
+    "No developer API or platform yet"
+  ],
+  "bestFor": ["Home robotics early adopters", "Humanoid researchers"],
+  "alternatives": ["figure-ai", "physical-intelligence", "sanctuary-ai"]
 }

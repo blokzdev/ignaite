@@ -17,9 +17,38 @@
   },
   "tags": ["robot-foundation-model", "vla", "embodied-ai", "open-weights"],
   "links": [
-    { "kind": "website", "url": "https://www.pi.website", "primary": true },
-    { "kind": "github", "url": "https://github.com/Physical-Intelligence/openpi" }
+    {
+      "kind": "website",
+      "url": "https://www.pi.website",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Physical-Intelligence/openpi"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Open-sourced its flagship robot VLA: π0's code and weights ship in the public openpi repo, rare for a frontier lab.",
+  "pros": [
+    "Open code and weights via openpi",
+    "Cross-embodiment VLA foundation model",
+    "Built on a pretrained vision-language model",
+    "Demonstrated dexterous real-world tasks"
+  ],
+  "cons": [
+    "Research artifact, not a turnkey product",
+    "Needs robot hardware and ML expertise",
+    "Linux/local deployment only"
+  ],
+  "bestFor": ["Robotics researchers", "VLA experimentation", "Embodied AI labs"],
+  "alternatives": ["skild-ai", "1x", "figure-ai", "wayve"],
+  "references": [
+    {
+      "title": "Physical Intelligence says its new robot brain can figure out untaught tasks",
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
 }

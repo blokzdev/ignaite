@@ -14,7 +14,27 @@
     "notes": "Generates with Riffusion's own FUZZ music model; no user model selection."
   },
   "tags": ["music-generation", "text-to-music", "songs", "free"],
-  "links": [{ "kind": "website", "url": "https://www.riffusion.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.riffusion.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Generous free daily-credit tier with a FUZZ model that ranks near the top of public music leaderboards.",
+  "pros": [
+    "Free daily-credit tier",
+    "Full songs from text, audio, or image",
+    "Competitive FUZZ model quality",
+    "Open-source roots"
+  ],
+  "cons": [
+    "Heavy use needs paid credits",
+    "No user model selection",
+    "Fewer pro editing controls than Suno/Udio"
+  ],
+  "bestFor": ["Free song generation", "Hobbyist music", "Quick demos"],
+  "alternatives": ["suno", "udio", "mureka", "sonauto"]
 }

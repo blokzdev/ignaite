@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Bundles prompt management, datasets, tracing and 50+ preset evals with human annotation, fed by an open-source eval SDK.",
+  "pros": [
+    "50+ preset + custom evals",
+    "Open-source eval SDK",
+    "Prompt mgmt + datasets + tracing",
+    "Human annotation tools"
+  ],
+  "cons": [
+    "Monitoring platform is closed",
+    "Broad scope can feel sprawling",
+    "Smaller than LangSmith/Braintrust",
+    "Free tier limited"
+  ],
+  "bestFor": ["LLM eval + monitoring", "Teams shipping LLM features", "Human-in-the-loop review"],
+  "alternatives": ["braintrust", "langsmith", "promptfoo", "vellum"]
 }

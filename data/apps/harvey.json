@@ -15,9 +15,31 @@
   },
   "tags": ["legal", "law-firms", "agents", "enterprise", "due-diligence"],
   "links": [
-    { "kind": "website", "url": "https://www.harvey.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.harvey.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.harvey.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.harvey.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "The default general-purpose legal AI at scale: Vault analyzes up to ~100K-doc collections, used across AmLaw 100 firms.",
+  "pros": [
+    "Adopted by most AmLaw 100 firms",
+    "Bulk doc analysis via Vault",
+    "Grounds answers in firm's own materials",
+    "Operates across 60 countries"
+  ],
+  "cons": [
+    "No public pricing, sales-only",
+    "~$1,000+/lawyer/mo, 20-seat minimum",
+    "Tuned to big-firm billable workflows",
+    "Heavy enterprise onboarding"
+  ],
+  "bestFor": ["Large law firms", "Diligence-heavy matters"],
+  "alternatives": ["cocounsel", "legora", "spellbook", "luminance"]
 }

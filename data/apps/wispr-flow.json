@@ -22,5 +22,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Dictation across all four platforms (macOS, Windows, iOS, Android) with a custom dictionary that syncs between them.",
+  "pros": [
+    "Works on macOS, Windows, iOS, Android",
+    "Types into any app system-wide",
+    "Auto-removes filler words",
+    "Custom vocabulary syncs across devices",
+    "Context-aware formatting"
+  ],
+  "cons": [
+    "Subscription required for full use",
+    "Cloud processing, not local",
+    "Accuracy varies by accent/noise",
+    "No free unlimited tier"
+  ],
+  "bestFor": ["Voice-first writers", "Cross-device dictation", "Hands-free typing"]
 }

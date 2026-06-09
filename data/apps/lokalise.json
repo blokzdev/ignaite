@@ -15,10 +15,30 @@
   },
   "tags": ["localization", "translation-management", "software", "i18n"],
   "links": [
-    { "kind": "website", "url": "https://lokalise.com", "primary": true },
-    { "kind": "docs", "url": "https://docs.lokalise.com" },
-    { "kind": "pricing", "url": "https://lokalise.com/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://lokalise.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.lokalise.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lokalise.com/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Smart per-string LLM routing — cheap models for low-stakes copy, stronger where tone matters — in a software TMS.",
+  "pros": [
+    "Per-string smart LLM routing",
+    "Strong developer integrations",
+    "In-context editing",
+    "Glossaries + translation memory"
+  ],
+  "cons": ["Enterprise-tier pricing", "Geared to software, not docs", "Complex for small teams"],
+  "bestFor": ["Software localization", "Dev-integrated i18n", "Product teams"],
+  "alternatives": ["smartling", "smartcat", "translated", "deepl"]
 }

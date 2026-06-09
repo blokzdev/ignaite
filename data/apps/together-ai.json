@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "One stop for the open-model stack: hundreds of open-weights models served plus both LoRA and full fine-tuning.",
+  "pros": [
+    "Hundreds of open-weights models",
+    "LoRA and full fine-tuning",
+    "Competitive inference-at-scale pricing",
+    "OpenAI-compatible API",
+    "Dedicated endpoints + GPU clusters"
+  ],
+  "cons": [
+    "Open models only, no frontier closed models",
+    "Less specialized than single-model hosts",
+    "Throughput varies by model demand"
+  ],
+  "bestFor": ["Open-weights inference", "Fine-tuning teams", "Inference at scale"],
+  "alternatives": ["fireworks-ai", "replicate", "baseten", "groq"]
 }

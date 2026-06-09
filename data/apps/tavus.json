@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Real-time conversational video built on its own models (Phoenix, Raven, Sparrow) with sub-500ms turn-taking.",
+  "pros": [
+    "Live face-to-face AI video",
+    "Own render/perception/timing models",
+    "Plug in custom LLM and TTS",
+    "Developer API and SDKs"
+  ],
+  "cons": [
+    "Developer-first, not no-code",
+    "Usage-based cost adds up",
+    "Avatar realism limits remain"
+  ],
+  "bestFor": ["Conversational video agents", "Digital human apps", "Developers"],
+  "alternatives": ["heygen", "synthesia", "hedra", "vapi"]
 }

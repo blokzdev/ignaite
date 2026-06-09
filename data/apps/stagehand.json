@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Mixes deterministic code with natural-language act()/extract() — no all-or-nothing handoff to a black-box agent.",
+  "pros": [
+    "Open source (MIT)",
+    "Mix code and NL primitives",
+    "TypeScript and Python SDKs",
+    "Model-agnostic (OpenAI/Anthropic/Google)"
+  ],
+  "cons": [
+    "SDK, not a no-code tool",
+    "Best paired with Browserbase cloud",
+    "Reliability depends on model choice",
+    "Newer than raw Playwright/Puppeteer"
+  ],
+  "bestFor": ["Developers", "Reliable web agents", "Structured extraction"],
+  "alternatives": ["browser-use", "skyvern", "playwright-mcp", "steel"]
 }

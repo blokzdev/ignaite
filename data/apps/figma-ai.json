@@ -15,9 +15,30 @@
   },
   "tags": ["design", "ui-design", "prototyping", "prompt-to-code", "design-agent"],
   "links": [
-    { "kind": "website", "url": "https://www.figma.com/ai/", "primary": true },
-    { "kind": "pricing", "url": "https://www.figma.com/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://www.figma.com/ai/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.figma.com/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "AI lives inside the tool designers already use, and Figma Make plus an MCP server push design context into real code.",
+  "pros": [
+    "Native to existing Figma files",
+    "Figma Make produces working prototypes",
+    "MCP server feeds Cursor/VS Code/Claude",
+    "First Draft generates editable layouts"
+  ],
+  "cons": [
+    "AI tied to a Figma subscription",
+    "Generated output still needs polish",
+    "Newer features rolled out gradually"
+  ],
+  "bestFor": ["Existing Figma teams", "Prompt-to-prototype", "Design-to-code handoff"],
+  "alternatives": ["uizard", "v0", "lovable", "microsoft-designer"]
 }

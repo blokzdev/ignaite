@@ -14,7 +14,23 @@
     "notes": "Uses purpose-built legal AI combined with attorney-authored playbooks."
   },
   "tags": ["legal", "contracts", "review", "word-addin", "playbooks"],
-  "links": [{ "kind": "website", "url": "https://www.legalontech.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.legalontech.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Redlines inside Microsoft Word against 50+ attorney-built playbooks — grounded in legal expertise, not a raw model.",
+  "pros": [
+    "Redlines directly in Word",
+    "50+ attorney-built playbooks",
+    "Risk detection grounded in expertise",
+    "Used by thousands of legal teams"
+  ],
+  "cons": ["Contract review focus only", "Paid, no free tier", "Web/Word-bound workflow"],
+  "bestFor": ["In-house legal teams", "Contract redlining", "Word-based review"],
+  "alternatives": ["spellbook", "luminance", "legora", "harvey"]
 }

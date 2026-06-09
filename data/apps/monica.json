@@ -28,5 +28,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Goes past a browser sidebar into full mobile/desktop apps with image and video generation in one bundled subscription.",
+  "pros": [
+    "Works across any browser tab",
+    "Bundles many frontier models in one plan",
+    "Adds image and video generation",
+    "Mobile and desktop apps too"
+  ],
+  "cons": [
+    "Closed source",
+    "Subscription required for heavy use",
+    "Jack-of-all-trades vs specialized tools"
+  ],
+  "bestFor": ["All-in-one AI sidebar users", "Multi-model dabblers", "Page and video summarizing"],
+  "alternatives": ["sider", "merlin-ai", "harpa-ai", "maxai"]
 }

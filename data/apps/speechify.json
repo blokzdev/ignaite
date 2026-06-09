@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Built for listening, not voiceover — OCR scans any document and reads aloud up to 4.5x speed across every platform.",
+  "pros": [
+    "OCR reads scanned text and PDFs",
+    "Up to 4.5x playback speed",
+    "iOS, Android, web, extension, desktop",
+    "Separate Studio + API for developers"
+  ],
+  "cons": [
+    "Best features behind paywall",
+    "Voice cloning lives in separate product",
+    "Premium voices gated to higher tiers"
+  ],
+  "bestFor": ["Reading documents aloud", "Accessibility", "Dyslexia/learning support"],
+  "alternatives": ["elevenlabs", "deepgram", "cartesia"]
 }

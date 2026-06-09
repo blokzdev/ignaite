@@ -29,5 +29,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "A marketplace of thousands of ready-made serverless scraping 'Actors', backed by the open-source Crawlee library.",
+  "pros": [
+    "Thousands of prebuilt Actors",
+    "Outputs clean Markdown/JSON for LLMs",
+    "Maintains open-source Crawlee",
+    "LangChain/LlamaIndex integrations"
+  ],
+  "cons": [
+    "Usage-based costs add up at scale",
+    "Learning curve for custom Actors",
+    "Platform itself is closed/hosted",
+    "Scraping reliability varies by site"
+  ],
+  "bestFor": ["Web scraping at scale", "RAG data pipelines", "Browser automation"],
+  "alternatives": ["firecrawl", "crawl4ai", "scrapegraphai", "browserbase"]
 }

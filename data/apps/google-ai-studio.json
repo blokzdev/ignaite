@@ -24,5 +24,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "The free, friction-light front door to the Gemini API — prototype in-browser, then export the call as code.",
+  "pros": [
+    "Free Gemini access, no commitment",
+    "Fast, low-friction UI",
+    "Multimodal prompting + structured output",
+    "Grounding with Search; Vertex path to prod"
+  ],
+  "cons": [
+    "Fine-tuning/governance need Vertex AI",
+    "Rate limits and shifting model variants",
+    "Locked to the Gemini/Google stack",
+    "Fewer granular controls than some playgrounds"
+  ],
+  "bestFor": ["Prototyping on Gemini", "Quick API exploration"],
+  "alternatives": ["huggingface", "openrouter", "notebooklm", "poe"]
 }

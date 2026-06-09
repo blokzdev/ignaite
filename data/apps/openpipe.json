@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Turns your own logged GPT/Claude traffic into a fine-tuned small model, then serves the swap behind your existing SDK.",
+  "pros": [
+    "Uses your production logs as training data",
+    "Drop-in SDK swap, minimal code change",
+    "Targets large inference cost savings",
+    "Open-weights output models"
+  ],
+  "cons": [
+    "Needs enough quality traffic to distill",
+    "Quality parity not guaranteed per task",
+    "Narrower than general fine-tuning platforms",
+    "Cloud-hosted dataset/fine-tune pipeline"
+  ],
+  "bestFor": ["High-volume LLM apps", "Cost reduction", "Task-specific distillation"],
+  "alternatives": ["unsloth", "together-ai", "fireworks-ai", "baseten"]
 }

@@ -32,5 +32,27 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Spec-first: writes requirements/design/tasks .md artifacts to disk before coding, unlike prompt-to-diff editors.",
+  "pros": [
+    "Durable spec artifacts before implementation",
+    "Built on Code OSS — VS Code extensions transfer",
+    "Agent hooks automate actions on file events",
+    "Runs on Claude Sonnet models"
+  ],
+  "cons": [
+    "Young product; agent still maturing",
+    "Spec workflow adds overhead for small tasks",
+    "Free tier capped at limited monthly interactions"
+  ],
+  "bestFor": ["Production-grade features", "Spec-driven teams"],
+  "alternatives": ["cursor", "windsurf", "claude-code", "trae"],
+  "references": [
+    {
+      "title": "Kiro Is AWS's Specs-Centric Answer to Windsurf and Cursor",
+      "url": "https://thenewstack.io/kiro-is-awss-specs-centric-answer-to-windsurf-and-cursor/",
+      "source": "The New Stack",
+      "kind": "analysis"
+    }
+  ]
 }

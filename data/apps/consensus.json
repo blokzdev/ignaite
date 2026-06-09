@@ -26,5 +26,18 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Consensus Meter aggregates whether papers agree or disagree on a question, beyond surfacing individual citations.",
+  "pros": [
+    "200M+ peer-reviewed corpus",
+    "Consensus Meter agree/disagree view",
+    "Inline citations on answers"
+  ],
+  "cons": [
+    "Best answers behind paid tier",
+    "Coverage skews to indexed journals",
+    "Not for non-academic questions"
+  ],
+  "bestFor": ["Researchers", "Literature reviews", "Clinicians"],
+  "alternatives": ["elicit", "scite", "scispace", "undermind"]
 }

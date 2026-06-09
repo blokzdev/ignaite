@@ -29,5 +29,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Deploy GPU endpoints, sandboxes, and queues from a few lines of Python — open-core runtime (beta9) you can self-host.",
+  "pros": [
+    "Define GPU workloads in pure Python",
+    "Open-source runtime (beta9)",
+    "Fast cold starts and autoscaling",
+    "Free dev tier with monthly credit"
+  ],
+  "cons": [
+    "Smaller ecosystem than hyperscalers",
+    "Python-centric; less polyglot",
+    "Newer platform, maturing tooling"
+  ],
+  "bestFor": ["Python AI developers", "Agent sandboxes", "Serverless GPU jobs"],
+  "alternatives": ["modal", "runpod", "baseten", "e2b"]
 }

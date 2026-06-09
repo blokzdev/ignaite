@@ -31,5 +31,21 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Peer-centric memory models what any party knows about another, extracting conclusions rather than raw chunks.",
+  "pros": [
+    "Open-source memory infrastructure",
+    "Peer model for human/agent/idea memory",
+    "Reasoning-first, derives durable facts",
+    "Strong long-memory benchmark scores",
+    "Managed API or self-hosted FastAPI"
+  ],
+  "cons": [
+    "Young, evolving ecosystem",
+    "Self-host stack (Postgres/Redis) to run",
+    "Background inference adds LLM cost",
+    "Smaller community than incumbents"
+  ],
+  "bestFor": ["Per-user personalization", "Stateful tutoring/support agents"],
+  "alternatives": ["mem0", "zep", "letta", "supermemory"]
 }

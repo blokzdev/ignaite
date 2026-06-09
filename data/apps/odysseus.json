@@ -28,5 +28,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Open-sourced by PewDiePie — a private ChatGPT-style workspace wired to local llama.cpp/Ollama/vLLM with MCP built in.",
+  "pros": [
+    "Self-hosted, privacy-first",
+    "Local models or BYO API key",
+    "Built-in MCP servers, agents, memory",
+    "MIT-licensed, free"
+  ],
+  "cons": [
+    "Self-host setup and upkeep on you",
+    "Younger, smaller community",
+    "BYO-key: no bundled model access"
+  ],
+  "bestFor": ["Privacy-focused users", "Local model workflows", "Self-hosted AI workspace"],
+  "alternatives": ["librechat", "anythingllm", "jan", "cherry-studio"]
 }

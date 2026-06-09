@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Multi-LLM reasoning agents (not keyword bots) with broad CRM/channel integration, aimed squarely at large enterprises.",
+  "pros": [
+    "Multi-LLM reasoning, not keyword matching",
+    "Connects to Zendesk, Salesforce, Twilio",
+    "Multi-channel and multilingual coverage",
+    "Claims first AIUC-1 agentic certification"
+  ],
+  "cons": [
+    "Custom pricing, no self-serve trial",
+    "Enterprise-only — heavy for small teams",
+    "Setup and integration effort"
+  ],
+  "bestFor": ["Large enterprise support", "Omnichannel deflection"],
+  "alternatives": ["decagon", "sierra", "intercom-fin", "forethought"]
 }

@@ -15,9 +15,38 @@
   },
   "tags": ["calendar", "scheduling", "focus-time", "habits"],
   "links": [
-    { "kind": "website", "url": "https://reclaim.ai", "primary": true },
-    { "kind": "pricing", "url": "https://reclaim.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://reclaim.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://reclaim.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Defends focus time additively around your existing calendar instead of taking control of it like Motion does.",
+  "pros": [
+    "Excellent automatic focus-time defense",
+    "Mature Asana/Jira/Todoist task sync",
+    "Genuinely useful free tier",
+    "Cheaper than Motion"
+  ],
+  "cons": [
+    "No mobile app",
+    "Additive — still need Google/Outlook",
+    "Less aggressive than full AI planners"
+  ],
+  "bestFor": ["Existing task-manager users", "Protecting deep work", "Habit scheduling"],
+  "alternatives": ["motion", "sunsama", "taskade"],
+  "references": [
+    {
+      "title": "Motion vs Reclaim: 2026 Review & Side-by-Side Comparison",
+      "url": "https://www.morgen.so/blog-posts/motion-vs-reclaim",
+      "source": "Morgen",
+      "kind": "comparison"
+    }
+  ]
 }

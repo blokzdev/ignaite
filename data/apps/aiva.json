@@ -15,9 +15,35 @@
   },
   "tags": ["music-generation", "composition", "royalty-free", "soundtrack"],
   "links": [
-    { "kind": "website", "url": "https://www.aiva.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.aiva.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.aiva.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.aiva.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Only the Pro tier transfers full copyright; the first AI registered as a composer with a rights society (SACEM).",
+  "pros": [
+    "250+ composition styles",
+    "Pro tier grants full copyright ownership",
+    "Influence by uploaded audio/MIDI",
+    "Editable scores, not just renders"
+  ],
+  "cons": [
+    "Free/Standard tiers keep AIVA's copyright",
+    "Full ownership only on pricier Pro tier",
+    "Focused on instrumental/scoring, not songs with vocals",
+    "Subscription-gated downloads"
+  ],
+  "bestFor": [
+    "Video/game/ad scoring",
+    "Composers needing rights",
+    "Background instrumental tracks"
+  ],
+  "alternatives": ["suno", "udio", "soundraw", "beatoven"]
 }

@@ -31,5 +31,23 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "The zero-ops default: fully managed serverless with no infra to run, so teams ship RAG fast without a platform engineer.",
+  "pros": [
+    "Fully managed, zero-ops serverless",
+    "Fast time-to-production",
+    "Low-latency reads at scale",
+    "Integrates with every major framework"
+  ],
+  "cons": ["No self-host option", "Cost climbs at large scale", "Closed source; potential lock-in"],
+  "bestFor": ["Production RAG", "Teams without infra staff", "Semantic search"],
+  "alternatives": ["qdrant", "weaviate", "milvus", "turbopuffer"],
+  "references": [
+    {
+      "title": "Vector Database Comparison 2026: Pinecone vs Weaviate vs Milvus vs Qdrant vs",
+      "url": "https://reintech.io/blog/vector-database-comparison-2026-pinecone-weaviate-milvus-qdrant-chroma",
+      "source": "Reintech",
+      "kind": "comparison"
+    }
+  ]
 }

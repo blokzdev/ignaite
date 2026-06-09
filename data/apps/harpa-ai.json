@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Pairs multi-provider chat with real scheduled browser automation and page-change monitoring, processed locally.",
+  "pros": [
+    "Real web automation, not just chat",
+    "Scheduled page/price monitoring",
+    "Taps ChatGPT/Claude/Gemini sessions",
+    "Local processing, no server logs"
+  ],
+  "cons": [
+    "Steep learning curve",
+    "Automation needs setup investment",
+    "Megatoken pricing hard to estimate",
+    "Primarily Chromium-based browsers"
+  ],
+  "bestFor": ["Web task automation", "Competitive/price monitoring"],
+  "alternatives": ["monica", "sider", "merlin-ai", "thunderbit"]
 }

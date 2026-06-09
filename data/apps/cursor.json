@@ -28,6 +28,20 @@
       "url": "https://cursor.com/pricing"
     }
   ],
+  "edge": "Pioneered agentic, multi-file editing in a familiar VS Code fork — frontier models bundled, no API key wrangling.",
+  "pros": [
+    "Inherits the VS Code extension ecosystem",
+    "Frontier models bundled in one plan",
+    "Strong multi-file agent + tab completion",
+    "BYO key supported"
+  ],
+  "cons": [
+    "Closed source (the editor itself)",
+    "Heavier on usage limits at higher tiers",
+    "No first-party Linux/mobile parity gaps"
+  ],
+  "bestFor": ["Existing VS Code users", "Agentic refactors", "Fast iteration"],
+  "alternatives": ["windsurf", "github-copilot", "zed"],
   "addedAt": "2026-05-13",
   "lastVerifiedAt": "2026-06-01"
 }

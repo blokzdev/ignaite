@@ -34,5 +34,20 @@
       "kind": "fixed",
       "summary": "Recategorized from data-ops to the new analytics category (NL data analysis / BI)."
     }
-  ]
+  ],
+  "edge": "Chat-with-your-data analyst that writes and runs Python, and connects directly to live Snowflake, BigQuery, and Postgres on Pro.",
+  "pros": [
+    "Plain-language analysis of CSVs/sheets",
+    "Writes + runs Python under the hood",
+    "Generates charts, slides, and reports",
+    "Live DB connectors on Pro"
+  ],
+  "cons": [
+    "Less reproducible than a real notebook",
+    "Message/compute limits on lower tiers",
+    "Trust gap on complex multi-step analysis",
+    "Cloud-only data handling"
+  ],
+  "bestFor": ["Non-technical analysts", "Quick data Q&A", "Spreadsheet analysis"],
+  "alternatives": ["hex", "powerdrill", "databricks-genie", "thoughtspot"]
 }

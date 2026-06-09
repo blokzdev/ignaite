@@ -15,9 +15,39 @@
   },
   "tags": ["customer-support", "deflection", "helpdesk", "agents"],
   "links": [
-    { "kind": "website", "url": "https://fin.ai", "primary": true },
-    { "kind": "pricing", "url": "https://fin.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://fin.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://fin.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Outcome pricing — $0.99 only when it resolves — and runs on top of Zendesk, Salesforce, or Freshdesk, not just Intercom.",
+  "pros": [
+    "Pay per resolution, not per seat",
+    "Works on Zendesk/Salesforce/Freshdesk too",
+    "Multi-channel: chat, email, voice, social",
+    "Performance guarantee on resolution targets"
+  ],
+  "cons": [
+    "$0.99/resolution adds up at high volume",
+    "Real-world resolution rates below marketing",
+    "50-resolution monthly minimum",
+    "Quality depends on help-center content"
+  ],
+  "bestFor": ["High-volume support", "Outcome-based budgeting", "Existing helpdesk users"],
+  "alternatives": ["decagon", "sierra", "maven-agi", "ada-cx"],
+  "references": [
+    {
+      "title": "How Intercom built a $100M AI agent with outcome pricing",
+      "url": "https://thegtmnewsletter.substack.com/p/gtm-178-intercom-ai-agent-outcome-based-pricing-archana-agrawal",
+      "source": "The GTM Newsletter",
+      "kind": "analysis"
+    }
+  ]
 }

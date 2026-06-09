@@ -29,5 +29,15 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Open-source Rust rewrite of OpenAI's terminal coding agent; sign in with a paid ChatGPT plan or bring your own API key.",
+  "pros": [
+    "Open source, runs locally",
+    "Fast Rust implementation",
+    "MCP tools and parallel subagents",
+    "Use ChatGPT plan or API key"
+  ],
+  "cons": ["Best with OpenAI/GPT models", "Terminal-only, no full IDE", "Newer than rival CLIs"],
+  "bestFor": ["Terminal-first coders", "ChatGPT plan holders", "Repo-aware automation"],
+  "alternatives": ["claude-code", "gemini-cli", "aider", "cline"]
 }

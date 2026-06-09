@@ -15,9 +15,30 @@
   },
   "tags": ["paraphrasing", "grammar", "summarizing", "students"],
   "links": [
-    { "kind": "website", "url": "https://quillbot.com", "primary": true },
-    { "kind": "pricing", "url": "https://quillbot.com/premium" }
+    {
+      "kind": "website",
+      "url": "https://quillbot.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://quillbot.com/premium"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "A Learneo (ex-Course Hero) suite centered on paraphrasing — tooling skews toward students, sitting beside Course Hero and Scribbr.",
+  "pros": [
+    "Strong paraphrasing and summarizing",
+    "Grammar, citation, and plagiarism tools",
+    "Browser, Word, desktop, and mobile",
+    "Generous free tier, used by 35M+"
+  ],
+  "cons": [
+    "Word/character limits on free tier",
+    "Paraphraser can alter meaning",
+    "Less deep than dedicated editors"
+  ],
+  "bestFor": ["Students", "Paraphrasing", "Summarizing"],
+  "alternatives": ["grammarly", "wordtune", "prowritingaid", "rytr"]
 }

@@ -34,5 +34,20 @@
       "kind": "fixed",
       "summary": "Recategorized from research-platform to the new finance category (enterprise finance research)."
     }
-  ]
+  ],
+  "edge": "Matrix answers each query as a traceable spreadsheet grid via an agent swarm over millions of docs, not one RAG pass.",
+  "pros": [
+    "Spreadsheet-grid answers across docs",
+    "Citation-first, source traceability",
+    "Handles millions of documents",
+    "SOC 2 / ISO 27001, no data training"
+  ],
+  "cons": [
+    "No public pricing, sales-only",
+    "Heavy enterprise onboarding",
+    "Overbuilt for small teams",
+    "Answers a fixed doc set, takes no actions"
+  ],
+  "bestFor": ["Investment banking / PE", "Large document due diligence"],
+  "alternatives": ["rogo", "hex", "harvey"]
 }

@@ -11,9 +11,30 @@
   "platforms": ["web", "ios", "android", "macos", "windows", "browser-extension"],
   "tags": ["meeting-notes", "summaries", "transcription", "engagement", "search"],
   "links": [
-    { "kind": "website", "url": "https://www.read.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.read.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.read.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.read.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Spans meetings, email and chat in one copilot, adding engagement/sentiment analytics most note-takers don't track.",
+  "pros": [
+    "Covers meetings, email and chat",
+    "Engagement & sentiment analytics",
+    "Search across all conversations",
+    "Broad platform coverage"
+  ],
+  "cons": [
+    "Auto-join bot raises privacy concerns",
+    "Transcription accuracy trails Otter",
+    "Feature breadth can feel sprawling"
+  ],
+  "bestFor": ["Meeting-heavy teams", "Engagement insights", "Cross-channel recall"],
+  "alternatives": ["otter-ai", "fireflies", "fathom", "granola"]
 }

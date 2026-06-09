@@ -25,5 +25,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Declarative task-level orchestration that fails over across 20+ clouds and Kubernetes chasing the cheapest available GPUs.",
+  "pros": [
+    "One interface across 20+ clouds and Kubernetes",
+    "Auto cost/availability optimization, spot failover",
+    "Free and open-source; runs on your own accounts",
+    "Berkeley Sky Computing Lab pedigree"
+  ],
+  "cons": [
+    "Task-level tool, not a full managed platform",
+    "You bring and pay for the underlying cloud",
+    "Less turnkey than hosted GPU providers",
+    "Requires some cloud/infra comfort"
+  ],
+  "bestFor": ["Multi-cloud GPU jobs", "Cost-sensitive training", "Batch ML"],
+  "alternatives": ["modal", "runpod", "beam", "lightning-ai"],
+  "references": [
+    {
+      "title": "SkyPilot at Shopify: Multi-cloud GPUs without the pain",
+      "url": "https://shopify.engineering/skypilot",
+      "source": "Shopify Engineering",
+      "kind": "analysis"
+    }
+  ]
 }

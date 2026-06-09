@@ -28,5 +28,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "GUI-first local LLM runner with in-app Hugging Face search and OpenAI/Anthropic-compatible servers — free commercially.",
+  "pros": [
+    "Polished desktop GUI",
+    "In-app Hugging Face model search",
+    "OpenAI + Anthropic-compatible server",
+    "Free for personal + commercial use"
+  ],
+  "cons": [
+    "App itself is closed source",
+    "Heavier (Electron) than Ollama",
+    "Slower model loads vs Ollama"
+  ],
+  "bestFor": ["Local model exploration", "Offline chat", "GUI-first users"],
+  "alternatives": ["ollama", "jan", "anythingllm", "vllm"]
 }

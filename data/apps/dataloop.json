@@ -25,5 +25,15 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "A computer-vision data engine that now also runs RLHF and RAG for text, one labeling-and-ops stack across modalities.",
+  "pros": [
+    "Multimodal labeling (image, video, LiDAR, audio, text)",
+    "Serverless pipeline layer",
+    "Human-in-the-loop annotation",
+    "Model + app marketplace"
+  ],
+  "cons": ["Enterprise pricing", "Broad platform = learning curve", "Cloud-centric"],
+  "bestFor": ["CV data ops", "Enterprise labeling teams"],
+  "alternatives": ["encord", "label-studio", "roboflow", "supervisely"]
 }

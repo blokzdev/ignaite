@@ -34,5 +34,27 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Managed stealth-browser fleet (proxies + CAPTCHA solving) drivable by Playwright or its open-source Stagehand framework.",
+  "pros": [
+    "Stealth proxies + CAPTCHA solving built in",
+    "Open-source Stagehand framework",
+    "Works with Playwright/Puppeteer",
+    "Session observability and replay"
+  ],
+  "cons": [
+    "Usage-based cost on a monthly base",
+    "Free tier just 1 browser hour",
+    "Infra layer — you still write the agent"
+  ],
+  "bestFor": ["High-volume web agents", "Scalable browser infra"],
+  "alternatives": ["browser-use", "steel", "skyvern", "apify"],
+  "references": [
+    {
+      "title": "Stagehand vs Browser Use vs Playwright: AI Browser Automation Compared",
+      "url": "https://www.nxcode.io/resources/news/stagehand-vs-browser-use-vs-playwright-ai-browser-automation-2026",
+      "source": "NxCode",
+      "kind": "comparison"
+    }
+  ]
 }

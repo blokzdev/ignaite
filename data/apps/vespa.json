@@ -30,5 +30,21 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Combines vector, lexical and structured search plus ML inference in one query, distributed across nodes at web scale.",
+  "pros": [
+    "Vector + lexical + structured in one query",
+    "Battle-tested at Yahoo scale",
+    "Apache-2.0, fully self-hostable",
+    "In-engine ML model inference",
+    "Vespa Cloud Enclave runs in your VPC"
+  ],
+  "cons": [
+    "Steep learning curve",
+    "Operationally heavy to self-host",
+    "Overkill for simple vector search",
+    "Smaller community than Elastic"
+  ],
+  "bestFor": ["Web-scale search", "Hybrid retrieval", "Recommendation/ranking systems"],
+  "alternatives": ["weaviate", "qdrant", "milvus", "pinecone"]
 }

@@ -22,6 +22,7 @@ import {
   APP_PRICING,
   APP_STATUSES,
   MODEL_SUPPORT_KINDS,
+  REFERENCE_KINDS,
   type AppCategory,
   type AppDeployment,
   type AppLinkKind,
@@ -30,6 +31,7 @@ import {
   type AppStatus,
   type ChangeKind,
   type ModelSupportKind,
+  type ReferenceKind,
 } from "../types/app";
 
 /** z.enum needs a mutable, non-empty literal tuple; our enum constants are
@@ -78,6 +80,19 @@ export const changeEntrySchema = z
     message: "asOf (real-world change date) can't be after the recorded date",
     path: ["asOf"],
   });
+
+// A third-party reference: independent, non-vendor coverage of the listing
+// (review / guide / benchmark / comparison / interview / analysis). The URL must
+// be a real, fetched page from a credible source — never fabricated. Distinct
+// from the first-party `links` (the vendor's own site/docs/repo).
+export const referenceSchema = z.object({
+  /** The piece's title / headline. */
+  title: z.string().min(1).max(80, "reference title must be ≤80 chars"),
+  url: z.string().url(),
+  /** The publication or author (e.g. "The Verge", "Latent Space"). */
+  source: z.string().max(40, "reference source must be ≤40 chars").optional(),
+  kind: z.enum(literals<ReferenceKind>(REFERENCE_KINDS)).optional(),
+});
 
 export const appSchema = z
   .object({
@@ -135,6 +150,40 @@ export const appSchema = z
      *  heartbeat) and records nothing here. Same no-fabrication rule as the rest:
      *  `asOf`/`source` only when sourced. */
     changelog: z.array(changeEntrySchema).optional(),
+    // ── Enrichment: the "honest brief" (all optional; omit > fabricate) ──────
+    /** The comparative one-liner: what this app does *better than its category
+     *  peers* — the "why pick this one". Distinct from `insight` (a non-obvious
+     *  fact); `edge` is explicitly comparative. One sentence, ≤160 chars (it
+     *  renders in a detail-page callout that wraps — looser than card-shown
+     *  `insight`); omit if there's no clear, verifiable differentiator. */
+    edge: z.string().max(160, "edge must be ≤160 chars").optional(),
+    /** Verified, grounded strengths — short phrases, not marketing. Max 5. */
+    pros: z
+      .array(z.string().min(1).max(60, "each pro must be ≤60 chars"))
+      .max(5, "at most 5 pros")
+      .optional(),
+    /** Honest limitations / tradeoffs — factual gaps, never competitor-bashing.
+     *  The trust signal most directories omit. Max 5. */
+    cons: z
+      .array(z.string().min(1).max(60, "each con must be ≤60 chars"))
+      .max(5, "at most 5 cons")
+      .optional(),
+    /** Who/what it's best for — use-case or audience descriptors. Max 4. */
+    bestFor: z
+      .array(z.string().min(1).max(40, "each bestFor must be ≤40 chars"))
+      .max(4, "at most 4 bestFor")
+      .optional(),
+    /** Curated head-to-head comparison set: app slugs a visitor should actually
+     *  evaluate instead (editorial, may cross categories — unlike the derived
+     *  same-category Related rail). Validated in velite's `complete()` hook:
+     *  each slug must exist and not be self. Max 4. */
+    alternatives: z
+      .array(z.string().regex(SLUG, "alternative must be an app slug"))
+      .max(4, "at most 4 alternatives")
+      .optional(),
+    /** Third-party authoritative coverage (independent of the vendor) — real,
+     *  verified URLs only; never fabricate. Max 4. */
+    references: z.array(referenceSchema).max(4, "at most 4 references").optional(),
   })
   .refine((a) => a.links.filter((l) => l.primary).length === 1, {
     message: "links must contain exactly one entry with `primary: true`",
@@ -150,3 +199,4 @@ export type AppLink = z.infer<typeof linkSchema>;
 export type ModelSupport = z.infer<typeof modelSupportSchema>;
 export type AppScreenshot = z.infer<typeof screenshotSchema>;
 export type ChangeEntry = z.infer<typeof changeEntrySchema>;
+export type Reference = z.infer<typeof referenceSchema>;

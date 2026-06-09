@@ -33,5 +33,19 @@
       "kind": "fixed",
       "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
     }
-  ]
+  ],
+  "edge": "Unlimited recording and transcription free forever; monetizes team analytics and CRM sync where rivals cap free minutes.",
+  "pros": [
+    "Unlimited recording free for individuals",
+    "Auto summaries, action items, clips",
+    "Highly rated for accuracy",
+    "CRM sync on paid tiers"
+  ],
+  "cons": [
+    "Best AI features gated to paid Team tiers",
+    "Bot must join the call to record",
+    "Less deep cross-meeting search than rivals"
+  ],
+  "bestFor": ["Individual notetakers", "Sales teams", "Budget-conscious users"],
+  "alternatives": ["fireflies", "otter-ai", "granola", "circleback"]
 }

@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Runs Postgres migrations and deploys edge functions in-context, with more security guardrails than most database MCPs.",
+  "pros": [
+    "Manages DB, auth, storage, edge functions",
+    "OAuth, project scoping, read-only mode",
+    "Prompt-injection protections built in",
+    "Erases editor-to-dashboard context switch"
+  ],
+  "cons": [
+    "Stored prompt-injection data-leak risk",
+    "Risky against production without safeguards",
+    "Some endpoints (execute_sql) still beta",
+    "Runs under developer permissions"
+  ],
+  "bestFor": ["Supabase developers", "In-agent DB workflows", "Dev-project automation"],
+  "alternatives": ["mcp-github", "mcp-vercel", "composio", "smithery"]
 }

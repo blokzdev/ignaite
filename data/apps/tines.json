@@ -23,5 +23,21 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Security-first automation: deterministic 'stories' with AI agents layered on, plus self-hosting and audited governance.",
+  "pros": [
+    "Built for SOC/security incident response",
+    "Deterministic workflows, AI optional",
+    "Self-hosting on Business/Enterprise",
+    "Generous free Community Edition",
+    "Strong governance and audit controls"
+  ],
+  "cons": [
+    "Niche focus narrows general use",
+    "Self-hosting gated to paid tiers",
+    "Smaller app-connector library than Zapier",
+    "Enterprise pricing is opaque"
+  ],
+  "bestFor": ["Security and IT teams", "SOAR / incident response", "Governed AI automation"],
+  "alternatives": ["zapier", "make", "n8n", "skyvern"]
 }

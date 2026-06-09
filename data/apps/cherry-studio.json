@@ -28,5 +28,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Local desktop client unifying cloud + local models with 300+ prebuilt assistants — runs on your own machine, BYO keys.",
+  "pros": [
+    "Cross-platform desktop, runs locally",
+    "Cloud + local models (Ollama, LM Studio)",
+    "300+ prebuilt assistants",
+    "Open-source community edition"
+  ],
+  "cons": [
+    "AGPL: 10+ person orgs need commercial license",
+    "Bring-your-own API keys",
+    "Desktop only, no mobile"
+  ],
+  "bestFor": ["Local-first power users", "Multi-model desktop work"],
+  "alternatives": ["jan", "anythingllm", "big-agi", "lm-studio"]
 }

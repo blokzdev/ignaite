@@ -26,5 +26,15 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Plans each image as an editable, code-like layout before rendering, so edits stay lossless and in-image text legible.",
+  "pros": [
+    "Reliable, legible in-image text",
+    "Lossless iterative editing",
+    "Native 4K output",
+    "Strong for graphic/design layouts"
+  ],
+  "cons": ["Single proprietary model only", "Web-only, no API yet", "Newer, smaller community"],
+  "bestFor": ["Text-heavy graphics", "Design iteration", "4K image work"],
+  "alternatives": ["ideogram", "recraft", "midjourney", "flux"]
 }

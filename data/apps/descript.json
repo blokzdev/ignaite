@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Edit the transcript and the audio/video cuts to match — deleting a filler word is as easy as backspacing in a doc.",
+  "pros": [
+    "Transcript-as-timeline editing",
+    "Overdub voice cloning",
+    "Screen recording + AI cleanup",
+    "One tool for podcasts and tutorials"
+  ],
+  "cons": [
+    "Transcription accuracy varies by audio",
+    "Overdub/AI features tiered",
+    "Heavier projects can lag",
+    "Less control than pro DAWs/NLEs"
+  ],
+  "bestFor": ["Podcast editing", "Tutorials/screen recording", "Transcript-first editors"],
+  "alternatives": ["adobe-podcast", "captions", "opus-clip", "wondercraft"]
 }

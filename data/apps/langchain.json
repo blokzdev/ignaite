@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "The default, most-integrated LLM framework — broadest connector ecosystem plus LangGraph + LangSmith in one stack.",
+  "pros": [
+    "Huge ecosystem of integrations",
+    "Python + TypeScript parity",
+    "Pairs with LangGraph + LangSmith",
+    "Ubiquitous docs and examples"
+  ],
+  "cons": [
+    "Abstraction layers add overhead",
+    "Often overkill for simple RAG",
+    "Black-box debugging at scale",
+    "Frequent breaking API churn"
+  ],
+  "bestFor": ["Complex multi-step chains", "Prototyping LLM apps", "Teams new to LLMs"],
+  "alternatives": ["llamaindex", "langgraph", "crewai", "vercel-ai-sdk"]
 }

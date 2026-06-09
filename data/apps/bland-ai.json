@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Bundles LLM, STT, TTS and telephony into one all-inclusive per-minute rate — the simplest stack to deploy.",
+  "pros": [
+    "All-in-one per-minute pricing, no surcharges",
+    "Fast non-technical setup in a single dashboard",
+    "Built for high-volume outbound calling",
+    "CRM/Twilio/Zapier integrations"
+  ],
+  "cons": [
+    "Voice quality a tier below Retell/tuned Vapi",
+    "Latency ~600-900ms, higher than rivals",
+    "Less customization, conversation logic locked in"
+  ],
+  "bestFor": ["Outbound sales calls", "Non-technical teams"],
+  "alternatives": ["vapi", "retell-ai", "elevenlabs", "deepgram"]
 }

@@ -28,5 +28,21 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Reimagines the terminal as an agent surface — a from-scratch Rust terminal grown into a multi-agent dev environment.",
+  "pros": [
+    "Fast Rust-built terminal",
+    "Multi-agent orchestration",
+    "Codebase indexing built in",
+    "Granular agent permission controls",
+    "Free tier with monthly AI credits"
+  ],
+  "cons": [
+    "Required sign-in drew early criticism",
+    "Closed source",
+    "Credits run out on heavy use",
+    "Terminal-centric, not a full IDE"
+  ],
+  "bestFor": ["Terminal power users", "Agentic CLI workflows", "Multi-agent runs"],
+  "alternatives": ["claude-code", "cursor", "windsurf", "aider"]
 }

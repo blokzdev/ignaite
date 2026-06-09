@@ -11,9 +11,31 @@
   "platforms": ["web"],
   "tags": ["meeting-notes", "conversation-intelligence", "sales", "transcription", "revenue"],
   "links": [
-    { "kind": "website", "url": "https://www.avoma.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.avoma.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.avoma.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.avoma.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Bundles notetaker, conversation intelligence, scheduler and forecasting in one tool at a fraction of Gong's per-seat cost.",
+  "pros": [
+    "All-in-one: notes, CI, scheduler, forecasting",
+    "Far cheaper than Gong per seat",
+    "Transcription in 75+ languages",
+    "Real-time collaborative notes"
+  ],
+  "cons": [
+    "Web-only; no native mobile apps",
+    "Best features gated to higher tiers",
+    "Less deal-intelligence depth than Gong",
+    "Sales/revenue-team focused, not general"
+  ],
+  "bestFor": ["Sales teams under 20 reps", "Revenue intelligence", "CRM-synced meeting notes"],
+  "alternatives": ["fireflies", "otter-ai", "fathom", "read-ai"]
 }

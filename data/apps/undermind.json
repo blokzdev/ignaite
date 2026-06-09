@@ -21,5 +21,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Runs an iterative, citation-chasing agent for minutes per query to surface the relevant papers keyword search misses — completeness over speed.",
+  "pros": [
+    "Exhaustive citation-trail search",
+    "Explains each result's relevance",
+    "Built by domain-PhD founders",
+    "Free tier with a few deep searches"
+  ],
+  "cons": [
+    "Slow — minutes per query",
+    "Limited deep searches per tier",
+    "Web-only, no API/extraction tables",
+    "Narrow scope vs general assistants"
+  ],
+  "bestFor": ["Exhaustive literature reviews", "Academic researchers", "Hard-to-find prior work"],
+  "alternatives": ["elicit", "consensus", "scispace", "scite"]
 }

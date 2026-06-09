@@ -28,5 +28,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Real-time canvas updates the image as you type or sketch in ~50ms — iteration as live art direction, not prompt re-rolls.",
+  "pros": [
+    "Real-time canvas for live iteration",
+    "Fronts many models (Flux, Imagen, Sora) in one UI",
+    "Image, upscale, edit, and video in one place",
+    "Commercial licensing from the Basic plan"
+  ],
+  "cons": [
+    "Base aesthetics trail Midjourney's polish",
+    "Multi-model surface can overwhelm beginners",
+    "Best models gated to higher paid tiers"
+  ],
+  "bestFor": ["Fast single-image iteration", "Designers and concepting"],
+  "alternatives": ["midjourney", "leonardo-ai", "flux", "ideogram"]
 }

@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Captures a rolling ~9-month work timeline on-device and air-gapped by default, so memory questions never leave your machine.",
+  "pros": [
+    "On-device, air-gapped by default",
+    "Long-Term Memory of work context",
+    "Cloud or local LLMs, or BYO key",
+    "Plugs into VS Code, JetBrains, browser"
+  ],
+  "cons": [
+    "Background capture is resource-heavy",
+    "Developer-centric, niche audience",
+    "Memory accuracy varies across apps"
+  ],
+  "bestFor": ["Developers", "Privacy-conscious users", "Context recall"],
+  "alternatives": ["supermemory", "mem0", "khoj", "raycast"]
 }

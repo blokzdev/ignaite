@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Open-source AI gateway to 1,600+ LLMs with built-in observability, guardrails, and governance — self-host, hybrid, or managed cloud.",
+  "pros": [
+    "Unified API across 1,600+ LLMs",
+    "Core gateway is open source",
+    "Built-in observability, caching, fallbacks",
+    "Guardrails, RBAC, and MCP gateway"
+  ],
+  "cons": [
+    "Acquired by Palo Alto Networks (closed 2025)",
+    "Future roadmap may shift to Prisma AIRS",
+    "Advanced governance gated to paid tiers"
+  ],
+  "bestFor": ["Production LLM apps", "Gateway routing", "Governance"],
+  "alternatives": ["litellm", "openrouter", "helicone", "langfuse"]
 }

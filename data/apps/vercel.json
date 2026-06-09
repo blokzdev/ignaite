@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Productized Next.js: git-push to a global edge network, with the AI SDK and v0 generation in one account.",
+  "pros": [
+    "Zero-config deploys for frontend frameworks",
+    "Global edge network + per-PR preview URLs",
+    "First-party Next.js + AI SDK + v0",
+    "Generous hobby tier"
+  ],
+  "cons": [
+    "Costs can scale steeply at high traffic",
+    "Best fit is the Next.js ecosystem",
+    "Some lock-in to platform primitives"
+  ],
+  "bestFor": ["Frontend + Next.js apps", "Preview deploys", "AI app hosting"],
+  "alternatives": ["cloudflare", "modal", "replit"]
 }

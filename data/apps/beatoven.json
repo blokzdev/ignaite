@@ -15,9 +15,38 @@
   },
   "tags": ["music-generation", "royalty-free", "background-music", "ethical-ai"],
   "links": [
-    { "kind": "website", "url": "https://www.beatoven.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.beatoven.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.beatoven.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.beatoven.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Fairly Trained certified, tuned for adaptive instrumental background tracks — cleaner licensing than Suno or Soundraw.",
+  "pros": [
+    "Fairly Trained licensed training data",
+    "Royalty-free perpetual download license",
+    "Tracks fit video mood, tempo, duration",
+    "Sound-effects generation included"
+  ],
+  "cons": [
+    "Instrumental background only, no vocals",
+    "Free tier blocks downloads",
+    "Less granular control than Soundraw"
+  ],
+  "bestFor": ["YouTube and podcast scoring", "Royalty-free background music"],
+  "alternatives": ["soundraw", "suno", "udio", "aiva"],
+  "references": [
+    {
+      "title": "Suno vs Udio vs Beatoven.ai for Marketing Leaders",
+      "url": "https://genesysgrowth.com/blog/suno-vs-udio-vs-beatoven",
+      "source": "Genesys Growth",
+      "kind": "comparison"
+    }
+  ]
 }

@@ -10,7 +10,29 @@
   "vendor": "Wysa",
   "platforms": ["web", "ios", "android"],
   "tags": ["mental-health", "cbt", "wellness", "chatbot"],
-  "links": [{ "kind": "website", "url": "https://www.wysa.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wysa.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Pairs an AI CBT chatbot with optional human coaching and an SOS flow that screens for distress and routes to helplines.",
+  "pros": [
+    "Free AI CBT chatbot",
+    "Optional human coaching tier",
+    "Crisis SOS escalation flow",
+    "200+ self-care tools",
+    "Anonymous, no sign-up to start"
+  ],
+  "cons": [
+    "Not a substitute for therapy",
+    "Human coaching costs extra",
+    "AI guidance is generic at times",
+    "Limited crisis-care depth"
+  ],
+  "bestFor": ["Anonymous CBT support", "Journaling and self-care", "Stepped mental-health care"],
+  "alternatives": ["pi", "replika", "ada-health"]
 }

@@ -27,5 +27,28 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Shipped as a TikTok-style social app with a feed, remixing, and cameos — consumer-first, unlike the API-first video tools around it.",
+  "pros": [
+    "Synced dialogue and sound effects",
+    "Cameos insert real people/friends",
+    "Remix and feed-based discovery",
+    "Bundled into ChatGPT for subscribers"
+  ],
+  "cons": [
+    "Still struggles with physics/spatial coherence",
+    "Consumer app, limited pro controls",
+    "Web + iOS only",
+    "No open API parity with rivals"
+  ],
+  "bestFor": ["Short social video", "Casual creators", "ChatGPT subscribers"],
+  "alternatives": ["runway", "kling", "luma-dream-machine", "google-flow"],
+  "references": [
+    {
+      "title": "Sora 2: Examples, Critiques, and Early Impressions",
+      "url": "https://www.datacamp.com/blog/sora-2",
+      "source": "DataCamp",
+      "kind": "review"
+    }
+  ]
 }

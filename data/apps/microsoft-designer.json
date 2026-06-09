@@ -14,7 +14,28 @@
     "notes": "Runs Microsoft's own image-generation and design models behind the app; no model picker."
   },
   "tags": ["design", "graphic-design", "templates", "image-generation", "social-media"],
-  "links": [{ "kind": "website", "url": "https://designer.microsoft.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://designer.microsoft.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Free with any Microsoft account and tied into Microsoft 365 — fast AI imagery without Canva's editor depth.",
+  "pros": [
+    "Free with a Microsoft account",
+    "AI image generation and editing",
+    "Microsoft 365 integration",
+    "Low-friction, template-driven"
+  ],
+  "cons": [
+    "Watermarks on free outputs",
+    "Smallest template library of the three",
+    "No brand kit or real collaboration",
+    "Monthly AI-credit allowance, not flat"
+  ],
+  "bestFor": ["Microsoft 365 users", "Quick social graphics", "AI image generation"],
+  "alternatives": ["canva", "adobe-express", "photoroom", "looka"]
 }

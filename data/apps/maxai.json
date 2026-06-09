@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Leans on fast select-text quick actions and saved prompt templates rather than bundling a kitchen-sink sidebar.",
+  "pros": [
+    "Strong page-context awareness",
+    "Fast select-text contextual actions",
+    "Multi-model (GPT, Claude, Gemini, more)",
+    "Clear free plan with real daily limits"
+  ],
+  "cons": [
+    "Free tier is limited",
+    "Busier UI than some rivals",
+    "Overlaps heavily with Sider/Monica",
+    "Closed source"
+  ],
+  "bestFor": ["Quick rewrite/translate actions", "In-page research", "Sidebar power users"],
+  "alternatives": ["sider", "monica", "merlin-ai", "harpa-ai"]
 }

@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Handles per-integration OAuth so agents get authenticated, production-ready tools instead of raw API stubs to wire up.",
+  "pros": [
+    "1000+ managed toolkits",
+    "Handles auth per integration",
+    "MCP and direct-API access",
+    "MIT-licensed core"
+  ],
+  "cons": [
+    "Cloud-managed auth means some lock-in",
+    "Free tier caps tool calls",
+    "Tool quality varies by integration"
+  ],
+  "bestFor": ["Agent tool access", "SaaS integrations"],
+  "alternatives": ["arcade", "smithery", "glama", "context7"]
 }

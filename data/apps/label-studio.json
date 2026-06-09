@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Open-source UI labels every modality (image, text, audio, video, time-series) with ML backends to pre-annotate.",
+  "pros": [
+    "Covers all data modalities in one tool",
+    "ML backends pre-label to speed review",
+    "Strong SDK, webhooks, open APIs",
+    "Free community edition; clean Enterprise path"
+  ],
+  "cons": [
+    "Self-host setup needs DevOps maturity",
+    "Advanced QA/consensus gated to paid tiers",
+    "Less CV-specialized than CVAT or Encord"
+  ],
+  "bestFor": ["Multimodal labeling", "Self-hosted teams"],
+  "alternatives": ["encord", "roboflow", "supervisely", "v7-go"]
 }

@@ -15,7 +15,36 @@
     "notes": "Proprietary omni-bodied robot foundation model."
   },
   "tags": ["robot-foundation-model", "embodied-ai", "humanoid", "manipulation"],
-  "links": [{ "kind": "website", "url": "https://www.skild.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.skild.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "One 'omni-bodied' foundation model meant to control any robot it never trained on, via in-context adaptation in the wild.",
+  "pros": [
+    "Single model targets many embodiments",
+    "Pretrains on sim + internet human video",
+    "In-context learning adapts to new bodies",
+    "Heavily funded (SoftBank, NVIDIA, Bezos)"
+  ],
+  "cons": [
+    "Foundation model, not a shipping consumer product",
+    "Generality claims still being validated in-field",
+    "Closed, enterprise deployment model",
+    "Early-stage revenue vs huge valuation"
+  ],
+  "bestFor": ["Robot makers", "Embodied AI research", "Multi-form deployments"],
+  "alternatives": ["physical-intelligence", "figure-ai", "1x", "sanctuary-ai"],
+  "references": [
+    {
+      "title": "Skild AI raises $1.4B to build 'omni-bodied' robot brain",
+      "url": "https://www.therobotreport.com/skild-ai-raises-1-4b-building-omni-bodied-robot-skild-brain/",
+      "source": "The Robot Report",
+      "kind": "analysis"
+    }
+  ]
 }

@@ -32,5 +32,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Figma-like canvas plus natural-language Copilot flow generation on a modern TS stack — ships a flow as API, cron, webhook, or chat.",
+  "pros": [
+    "Clean visual canvas, cleaner than Flowise/Langflow",
+    "Copilot generates flows from natural language",
+    "Deploys as API, schedule, webhook, or chat app",
+    "Open-source (Apache-2.0), self-host via npm/Docker"
+  ],
+  "cons": [
+    "Tiny team vs n8n/Dify/LangChain ecosystem",
+    "Self-host still needs a Copilot API key from sim.ai",
+    "Younger, smaller integration library than n8n",
+    "Less mature knowledge-base tooling than Dify"
+  ],
+  "bestFor": ["TypeScript teams", "Visual agent flows", "Self-hosted agents"],
+  "alternatives": ["dify", "flowise", "n8n", "langgraph"],
+  "references": [
+    {
+      "title": "Flowise vs Langflow vs n8n vs Sim Studio: Visual Agent Builder Comparison 2026",
+      "url": "https://madappgang.com/blog/open-source-visual-agent-builders-compared-flowise-vs-langflow-vs-n8n-vs-sim-studio-in-2026/",
+      "source": "MadAppGang",
+      "kind": "comparison"
+    }
+  ]
 }

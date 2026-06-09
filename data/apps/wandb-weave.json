@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "One @weave.op decorator gives both tracing and rigorous LLM-as-judge evals, tied into the W&B experiment platform.",
+  "pros": [
+    "Single decorator traces every call",
+    "Tracing + evaluation in one SDK",
+    "LLM-as-judge and custom scorers",
+    "Apache-2.0 SDK",
+    "Ties into W&B experiment tracking"
+  ],
+  "cons": [
+    "Traces land in W&B hosted platform",
+    "Best value if already on W&B",
+    "Free only for solo use"
+  ],
+  "bestFor": ["Existing W&B users", "LLM evaluation", "Tracing + experiments together"],
+  "alternatives": ["langsmith", "langfuse", "braintrust", "helicone"]
 }

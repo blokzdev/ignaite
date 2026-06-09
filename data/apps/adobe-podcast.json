@@ -24,5 +24,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Its free Enhance Speech filter rebuilds noisy, echoey voice into near studio-quality audio right in the browser.",
+  "pros": [
+    "Enhance Speech is free and high quality",
+    "Runs in the browser, no install",
+    "Handles audio and video files",
+    "In-browser record/edit Studio (beta)"
+  ],
+  "cons": [
+    "Free tier caps daily processing hours",
+    "Enhancement can over-smooth some voices",
+    "Web-only; no desktop or mobile app"
+  ],
+  "bestFor": ["Podcasters", "Cleaning up voice recordings"],
+  "alternatives": ["descript", "krisp", "wondercraft"]
 }

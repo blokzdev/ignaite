@@ -33,5 +33,27 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Pairs a consumer cited-answer engine with the Sonar API, so the same retrieval layer powers both.",
+  "pros": [
+    "Inline citations on synthesized answers",
+    "Sonar API exposes the search layer to your app",
+    "Pro lets you pick a model per query",
+    "Strong on fresh, fact-based queries"
+  ],
+  "cons": [
+    "Citations can misattribute or be wrong",
+    "Weak on niche topics with thin sources",
+    "Best features gated behind Pro"
+  ],
+  "bestFor": ["Cited research", "Answer-engine search", "Retrieval API"],
+  "alternatives": ["you-com", "felo", "exa", "kagi"],
+  "references": [
+    {
+      "title": "AI Search Has a Citation Problem",
+      "url": "https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php",
+      "source": "Columbia Journalism Review",
+      "kind": "analysis"
+    }
+  ]
 }

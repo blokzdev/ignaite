@@ -14,7 +14,36 @@
     "notes": "Uses proprietary \"Legal-Grade\" models developed in-house alongside frontier LLMs."
   },
   "tags": ["legal", "contracts", "clm", "review", "enterprise"],
-  "links": [{ "kind": "website", "url": "https://www.luminance.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.luminance.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Autopilot redlining against your playbook across 14+ languages — built for high-volume inbound review, not drafting.",
+  "pros": [
+    "Fast autopilot redlining",
+    "Cross-border, multilingual review",
+    "Pattern-detection risk heatmaps",
+    "Purpose-built legal models"
+  ],
+  "cons": [
+    "Built for transactional, not litigation",
+    "Weaker at net-new drafting",
+    "Enterprise sales and deployment",
+    "Opaque per-seat pricing"
+  ],
+  "bestFor": ["In-house legal teams", "High-volume contract review", "Procurement and compliance"],
+  "alternatives": ["spellbook", "harvey", "legalon", "cocounsel"],
+  "references": [
+    {
+      "title": "Contract Review AI: Comparing LegalOn, Spellbook, and Luminance",
+      "url": "https://www.twinladder.ai/en/blog/contract-review-ai-comparing-legalon-spellbook-luminance",
+      "source": "TwinLadder",
+      "kind": "comparison"
+    }
+  ]
 }

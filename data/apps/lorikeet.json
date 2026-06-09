@@ -21,5 +21,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Its Intelligent Graph runs workflows deterministically — built for regulated finance/health where free-form bots fail.",
+  "pros": [
+    "Deterministic workflow graph",
+    "Chat, email, and voice support",
+    "Real actions via Zendesk/Stripe",
+    "Built for regulated industries"
+  ],
+  "cons": [
+    "Paid, enterprise-oriented",
+    "No transparent public pricing",
+    "Heavier setup than simple bots"
+  ],
+  "bestFor": ["Regulated support", "Complex high-stakes tickets", "Fintech/health CX"],
+  "alternatives": ["decagon", "sierra", "intercom-fin", "maven-agi"]
 }

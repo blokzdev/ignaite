@@ -38,5 +38,28 @@
       "kind": "fixed",
       "summary": "Recategorized from assistant to the new companion category for character/roleplay AI."
     }
+  ],
+  "edge": "The most configurable open-source roleplay frontend — deep prompt control, lorebooks, and any backend, free with no paid tier.",
+  "pros": [
+    "Free, open-source (AGPL-3.0), no paid tier",
+    "Deep prompt control, lorebooks, group chats",
+    "Connects to many backends (cloud or local)",
+    "Portable PNG character cards"
+  ],
+  "cons": [
+    "Steep learning curve; DIY hosting",
+    "Pure frontend — you supply the model/backend",
+    "Dense panels are awkward on mobile",
+    "No built-in moderation or safety rails"
+  ],
+  "bestFor": ["Power-user roleplay", "Local LLM hobbyists", "Uncensored characters"],
+  "alternatives": ["character-ai", "kindroid", "librechat", "nomi"],
+  "references": [
+    {
+      "title": "Best AI for Roleplay 2026: Models, Chatbots, Tools & SillyTavern",
+      "url": "https://www.buildmvpfast.com/articles/best-llms-2026-guide/roleplay-ai",
+      "source": "BuildMVPFast",
+      "kind": "guide"
+    }
   ]
 }

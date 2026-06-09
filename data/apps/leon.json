@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Self-hosted, MIT-licensed personal assistant that runs on local models and context, not third-party services.",
+  "pros": [
+    "Open source (MIT), free",
+    "Runs fully self-hosted",
+    "Local model + context support",
+    "Tools, memory, agentic modes"
+  ],
+  "cons": [
+    "Mid-rewrite to 2.0 (preview)",
+    "Setup/maintenance burden",
+    "Small project vs big assistants"
+  ],
+  "bestFor": ["Self-hosters", "Privacy-first users", "Tinkerers"],
+  "alternatives": ["librechat", "anythingllm", "jan", "khoj"]
 }

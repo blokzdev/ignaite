@@ -31,5 +31,24 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Simulates multi-turn agents across personas pre-release and tests any agent via its HTTP endpoint, no SDK rewrite.",
+  "pros": [
+    "Agent simulation across personas/scenarios",
+    "HTTP-endpoint testing, no code changes",
+    "Full lifecycle: experiment, eval, observe",
+    "Online and offline custom metrics"
+  ],
+  "cons": [
+    "Newer, smaller community than rivals",
+    "Freemium; opaque enterprise pricing",
+    "Closed source",
+    "Crowded eval/observability space"
+  ],
+  "bestFor": [
+    "Teams shipping agents to prod",
+    "Pre-release agent simulation",
+    "End-to-end eval + monitoring"
+  ],
+  "alternatives": ["braintrust", "langfuse", "langsmith", "vellum"]
 }

@@ -16,9 +16,30 @@
   },
   "tags": ["tasks", "agents", "projects", "collaboration"],
   "links": [
-    { "kind": "website", "url": "https://www.taskade.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.taskade.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.taskade.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.taskade.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Blends a classic outliner/task workspace with no-code multi-agent teams, so one doc plans and executes work.",
+  "pros": [
+    "Tasks, notes, mind maps in one doc",
+    "No-code multi-agent workflows",
+    "Real-time collaboration",
+    "100+ integrations"
+  ],
+  "cons": [
+    "Agent reliability varies by task",
+    "Feature breadth can overwhelm",
+    "Less polished than single-purpose tools"
+  ],
+  "bestFor": ["Small teams", "AI-assisted projects", "All-in-one workspace fans"],
+  "alternatives": ["notion-ai", "mem", "sunsama"]
 }

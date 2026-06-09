@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Its multi-agent reviewer pulls context from prior PR history, not just the current codebase, across GitHub, GitLab, Bitbucket, and Azure.",
+  "pros": [
+    "Reviews PRs and generates tests",
+    "Context from codebase and PR history",
+    "Works across major Git platforms",
+    "IDE plugins plus a CLI"
+  ],
+  "cons": [
+    "Rebrand from CodiumAI may confuse",
+    "Overlaps with native Copilot review",
+    "Quality varies by repo size"
+  ],
+  "bestFor": ["AI code review", "Test generation", "Multi-platform teams"],
+  "alternatives": ["coderabbit", "github-copilot", "cursor", "snyk"]
 }

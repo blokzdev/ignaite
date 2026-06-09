@@ -22,5 +22,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Multilingual answer engine that turns a query into editable slides or a mind map, not just a block of cited text.",
+  "pros": [
+    "Searches across 25+ languages",
+    "Generates editable slide decks",
+    "Mind maps and agent workflows",
+    "Free tier available"
+  ],
+  "cons": [
+    "Less brand recognition than Perplexity",
+    "Output generation can vary in quality",
+    "Pro features behind subscription"
+  ],
+  "bestFor": ["Multilingual research", "Slide/mind-map output", "Non-English users"],
+  "alternatives": ["perplexity", "you-com", "morphic", "liner"]
 }

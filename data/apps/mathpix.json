@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "STEM-specialized OCR that returns LaTeX, tables, and ChemDraw from handwriting — not generic plain-text OCR.",
+  "pros": [
+    "Near-flawless math OCR on PDFs",
+    "Exports LaTeX, Markdown, DOCX, Excel, ChemDraw",
+    "Handles handwriting passably",
+    "Apps across web, mobile, desktop, extension"
+  ],
+  "cons": [
+    "Limited free tier for heavy users",
+    "Copy-paste workflow into your editor",
+    "Handwriting less reliable than print",
+    "API/enterprise priced separately"
+  ],
+  "bestFor": ["STEM students and researchers", "Math and science writers", "Document conversion"],
+  "alternatives": ["moondream", "reducto", "nanonets", "docling"]
 }

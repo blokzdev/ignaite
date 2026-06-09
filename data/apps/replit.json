@@ -24,5 +24,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Build, database, and hosting all live in the browser, so its Agent can ship a working app with zero local setup.",
+  "pros": [
+    "Full cloud IDE, no local setup",
+    "Agent scaffolds, runs, and deploys",
+    "Hosted database and one-click publish",
+    "Works from phone or browser"
+  ],
+  "cons": [
+    "Checkpoint/usage costs can surprise",
+    "Less control than a local IDE",
+    "Heavier apps strain the platform"
+  ],
+  "bestFor": ["Prompt-to-app prototyping", "Learners and hobbyists", "Deploy from anywhere"],
+  "alternatives": ["bolt-new", "lovable", "v0", "cursor"]
 }

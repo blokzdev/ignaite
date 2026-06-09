@@ -15,10 +15,42 @@
   },
   "tags": ["appsec", "sast", "deepcode-ai", "vulnerability-scanning"],
   "links": [
-    { "kind": "website", "url": "https://snyk.io", "primary": true },
-    { "kind": "docs", "url": "https://docs.snyk.io" },
-    { "kind": "pricing", "url": "https://snyk.io/plans/" }
+    {
+      "kind": "website",
+      "url": "https://snyk.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.snyk.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://snyk.io/plans/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "DeepCode AI does inter-file data-flow SAST trained on 25M+ cases — symbolic+ML, not an LLM wrapper — with re-scanned autofixes.",
+  "pros": [
+    "Covers code, deps, containers, IaC",
+    "DeepCode AI inter-file data-flow analysis",
+    "Validated one-click autofixes",
+    "Deep IDE/CLI/CI integration"
+  ],
+  "cons": [
+    "Per-developer pricing adds up",
+    "Free tier has scan limits",
+    "Can surface false positives"
+  ],
+  "bestFor": ["Developer-first AppSec", "SAST + SCA", "CI/CD security"],
+  "alternatives": ["protect-ai", "lakera", "hiddenlayer", "prompt-security"],
+  "references": [
+    {
+      "title": "Best AI Code Security Tools 2025: Snyk vs Semgrep vs CodeQL",
+      "url": "https://sanj.dev/post/ai-code-security-tools-comparison/",
+      "source": "sanj.dev",
+      "kind": "comparison"
+    }
+  ]
 }

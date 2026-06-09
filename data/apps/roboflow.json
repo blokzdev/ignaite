@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Owns the full annotate-train-deploy loop for custom vision models — the choice when an LLM isn't the answer.",
+  "pros": [
+    "End-to-end vision MLOps",
+    "Auto-labeling and dataset tools",
+    "Hosted training plus edge deploy",
+    "Large public dataset/model hub"
+  ],
+  "cons": [
+    "Free tier caps usage and privacy",
+    "Geared to detection/classification, not LLMs",
+    "Costs climb with scale and seats"
+  ],
+  "bestFor": ["Custom vision models", "Annotation workflows", "Edge deployment"],
+  "alternatives": ["landing-ai", "encord", "ultralytics", "supervisely"]
 }

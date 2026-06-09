@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Define evals in plain YAML and run one goldset across models in CI — a prompt regression fails the build like any other test.",
+  "pros": [
+    "Open source, YAML-driven evals",
+    "Runs in CI, model-agnostic",
+    "Goldsets and rubric scoring",
+    "Also does red-teaming/security scans"
+  ],
+  "cons": [
+    "CLI-first, less of a hosted UI",
+    "Teams may want managed dashboards",
+    "Config sprawl on large eval suites"
+  ],
+  "bestFor": ["Prompt regression testing", "CI pipelines", "Developers"],
+  "alternatives": ["deepeval", "ragas", "braintrust", "langsmith"]
 }

@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Tops OpenAI's SimpleQA benchmark for grounded answers, with per-request pricing and a multi-step deep-research endpoint.",
+  "pros": [
+    "Strong SimpleQA benchmark result",
+    "Sourced, cited answers fast",
+    "Fetch + deep-research endpoints",
+    "MCP and SDK integrations"
+  ],
+  "cons": [
+    "API-only, no end-user app",
+    "Deep research can cost up to $2.50/call",
+    "Newer entrant vs incumbents"
+  ],
+  "bestFor": ["Agent grounding", "RAG pipelines", "Deep research API"],
+  "alternatives": ["tavily", "exa", "brave-search-api", "parallel"]
 }

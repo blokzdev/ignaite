@@ -25,5 +25,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "A most-installed community MCP server — gives Claude/Cursor terminal control and surgical diff-based file edits.",
+  "pros": [
+    "Terminal + file control for MCP clients",
+    "Diff-based surgical edits",
+    "Reads/writes Excel and PDF too",
+    "Free and MIT-licensed"
+  ],
+  "cons": [
+    "Powerful access = real safety risk",
+    "CLI-only setup",
+    "Runs on your local machine only",
+    "No managed/hosted option"
+  ],
+  "bestFor": ["Local automation", "Hands-on coding agents", "MCP power users"],
+  "alternatives": ["composio", "context7", "smithery", "cline"]
 }

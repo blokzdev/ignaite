@@ -11,9 +11,26 @@
   "platforms": ["web", "browser-extension"],
   "tags": ["sales-email", "cold-email", "coaching", "outreach", "reply-rate"],
   "links": [
-    { "kind": "website", "url": "https://www.lavender.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.lavender.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.lavender.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.lavender.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Real-time inbox coaching scoring drafts against billions of emails — improves your writing, not just generates copy.",
+  "pros": [
+    "Real-time scoring as you write",
+    "Trained on billions of emails",
+    "Runs inside your inbox",
+    "Ora agent drafts cold emails"
+  ],
+  "cons": ["Sales-email niche only", "Browser-extension dependent", "Subscription cost per seat"],
+  "bestFor": ["Sales reps", "Cold outreach", "Reply-rate lift"],
+  "alternatives": ["smartlead", "clay", "grammarly", "wordtune"]
 }

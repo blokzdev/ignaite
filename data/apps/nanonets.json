@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Runs its in-house OCR-3 extraction model plus agentic routing into ERPs, with VPC/on-prem and regional data residency.",
+  "pros": [
+    "In-house OCR-3 extraction model",
+    "Agentic routing into ERPs and approvals",
+    "VPC, single-tenant, on-prem options",
+    "Regional data residency"
+  ],
+  "cons": [
+    "Leaderboard claims are vendor-reported",
+    "Enterprise pricing opacity at scale",
+    "Setup tuning for custom doc types"
+  ],
+  "bestFor": ["Invoice/AP automation", "Regulated enterprises", "On-prem extraction"],
+  "alternatives": ["reducto", "unstructured", "docling", "v7-go"]
 }

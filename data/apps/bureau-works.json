@@ -14,7 +14,35 @@
     "notes": "LLM-backed Context Sensitive Translate engine with dynamic per-project learning."
   },
   "tags": ["translation", "localization", "context-aware", "workflow"],
-  "links": [{ "kind": "website", "url": "https://www.bureauworks.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.bureauworks.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Its Context Sensitive engine learns each project's style on the fly rather than leaning on static translation memory.",
+  "pros": [
+    "Context-aware engine adapts per project",
+    "End-to-end workflow: quote, assign, QA, pay",
+    "200+ languages, 50+ file types",
+    "Developer-friendly API"
+  ],
+  "cons": [
+    "Paid only, no free tier",
+    "Enterprise-oriented onboarding",
+    "Smaller freelancer marketplace than Smartcat"
+  ],
+  "bestFor": ["Enterprise localization teams", "Developer localization"],
+  "alternatives": ["smartcat", "lokalise", "smartling", "deepl"],
+  "references": [
+    {
+      "title": "Bureau Works vs Smartcat",
+      "url": "https://wxrks.com/blog/bureau-works-vs-smartcat",
+      "source": "wxrks",
+      "kind": "comparison"
+    }
+  ]
 }

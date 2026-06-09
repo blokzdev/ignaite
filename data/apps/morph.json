@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "A dedicated Fast Apply model that merges LLM code edits at ~10,500 tok/s — purpose-built write layer for agents.",
+  "pros": [
+    "Very fast edit-apply (~10,500 tok/s)",
+    "OpenAI-compatible API",
+    "Used in production by JetBrains, Vercel",
+    "Adds code search and context compaction"
+  ],
+  "cons": [
+    "Narrow, infra-layer use case",
+    "Closed source",
+    "Most useful only inside coding agents"
+  ],
+  "bestFor": ["Coding-agent builders", "Fast file edit-apply", "IDE/tool infrastructure"],
+  "alternatives": ["fireworks-ai", "baseten", "together-ai"]
 }

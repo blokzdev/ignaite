@@ -10,7 +10,35 @@
   "vendor": "Abridge",
   "platforms": ["web", "ios", "android"],
   "tags": ["ambient-ai", "clinical-documentation", "ai-scribe", "ehr"],
-  "links": [{ "kind": "website", "url": "https://www.abridge.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.abridge.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Best in KLAS for Ambient AI two years running, with the deepest Epic integration and per-line transcript linkage.",
+  "pros": [
+    "Best in KLAS Ambient AI 2025 and 2026",
+    "Every note line links to source audio",
+    "Deep Epic and Athena EHR integration",
+    "Real-time note generation during the visit"
+  ],
+  "cons": [
+    "Enterprise-only; no self-serve for solo clinicians",
+    "Quote-only pricing, no public rates",
+    "Epic now ships a competing native scribe"
+  ],
+  "bestFor": ["Large health systems", "Epic shops"],
+  "alternatives": ["nabla", "k-health", "openevidence"],
+  "references": [
+    {
+      "title": "Do Ambient Scribe Startups Have a Future Now That Epic Launched Its Own Tool?",
+      "url": "https://medcitynews.com/2026/02/ambient-scribe-ai-startups-epic/",
+      "source": "MedCity News",
+      "kind": "analysis"
+    }
+  ]
 }

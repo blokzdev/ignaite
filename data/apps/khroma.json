@@ -14,7 +14,32 @@
     "notes": "Trains a small per-user model in-browser from the colors you select; no external LLM."
   },
   "tags": ["color", "palettes", "accessibility", "design"],
-  "links": [{ "kind": "website", "url": "https://www.khroma.co", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.khroma.co",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Trains a personal neural net on 50 colors you pick, then generates palettes tuned to your taste — free, no signup.",
+  "pros": [
+    "Learns your personal color taste",
+    "Free, no account required",
+    "WCAG accessibility ratings on palettes",
+    "Previews as type, gradients, posters"
+  ],
+  "cons": [
+    "Single-purpose color tool only",
+    "Requires upfront training step",
+    "No team/brand-system features",
+    "Web-only"
+  ],
+  "bestFor": [
+    "Designers picking palettes",
+    "Personalized color discovery",
+    "Accessibility-aware color"
+  ],
+  "alternatives": ["recraft", "adobe-express"]
 }

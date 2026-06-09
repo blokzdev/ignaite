@@ -28,5 +28,27 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Bundles window mgmt, clipboard, snippets and model-switching AI natively — rivals need add-ons for what ships built-in.",
+  "pros": [
+    "1,500+ extension store",
+    "Native window mgmt, clipboard, snippets",
+    "Switch GPT/Claude/Llama from one bar",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Best AI features gated behind Pro",
+    "Windows version still maturing (beta)",
+    "Workflows less powerful than Alfred's"
+  ],
+  "bestFor": ["macOS power users", "Keyboard-first workflows", "Replacing Spotlight"],
+  "alternatives": ["monica", "chatgpt"],
+  "references": [
+    {
+      "title": "Alfred vs. Raycast: my constant debate",
+      "url": "https://joshcollinsworth.com/blog/alfred-raycast",
+      "source": "Josh Collinsworth",
+      "kind": "comparison"
+    }
+  ]
 }

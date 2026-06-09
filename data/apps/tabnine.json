@@ -27,5 +27,15 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Deploys fully air-gapped on-prem with zero code retention — for teams that can't send source to any vendor cloud.",
+  "pros": [
+    "Air-gapped/on-prem deployment",
+    "Never trains on or retains your code",
+    "All major IDEs supported",
+    "BYO and private model support"
+  ],
+  "cons": ["Closed source", "Paid only, no free tier", "Completions trail frontier rivals"],
+  "bestFor": ["Privacy-first enterprises", "Regulated industries", "On-prem deployments"],
+  "alternatives": ["github-copilot", "tabby", "continue", "cursor"]
 }

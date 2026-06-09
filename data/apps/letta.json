@@ -32,5 +32,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "The productized MemGPT successor — agents edit their own memory blocks (memory-as-OS) to manage a finite context window.",
+  "pros": [
+    "Self-editing agent memory",
+    "Open source, model-agnostic",
+    "REST APIs + multi-language SDKs",
+    "Reference architecture for memory"
+  ],
+  "cons": [
+    "Developer-focused, not no-code",
+    "Memory model has a learning curve",
+    "Younger, evolving framework"
+  ],
+  "bestFor": ["Long-running agents", "Stateful memory apps", "Agent developers"],
+  "alternatives": ["mem0", "zep", "cognee", "langgraph"]
 }

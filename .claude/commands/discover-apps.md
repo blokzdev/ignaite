@@ -52,9 +52,11 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 ## 3. Author the worthy ones
 
 - Follow the **exact authoring spec + conventions + quality bar in `.claude/commands/add-app.md`**
-  (schema, required fields, mobile-via-platforms, an authored `insight` per app, `featured` only for
+  (schema, required fields, mobile-via-platforms, an authored `insight` per app, the "honest brief"
+  enrichment fields — `edge`/`pros`/`cons`/`bestFor`/`alternatives`/`references` — `featured` only for
   true standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify,
-  use the conservative value and flag it — never invent (the `insight` especially must be grounded).
+  use the conservative value and flag it — never invent (`insight`, `edge`, `cons`, and `references`
+  especially must be grounded; `references` are verify-or-omit and `alternatives` must be real slugs).
 - Write each as its own `data/apps/<slug>.json` (per-file authoring means parallel discovery runs
   never conflict).
 

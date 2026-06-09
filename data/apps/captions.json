@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Built on Mirage, its parent's in-house video foundation model — not a wrapper around third-party video generators.",
+  "pros": [
+    "In-house Mirage video model",
+    "Auto captions, B-roll, eye-contact fix",
+    "AI personas render video from a script",
+    "Multi-language dubbing"
+  ],
+  "cons": [
+    "Focused on talking-head/short-form only",
+    "Best features behind paid tiers",
+    "Avatar output can look synthetic"
+  ],
+  "bestFor": ["Short-form creators", "Talking-head video", "AI avatar clips"],
+  "alternatives": ["heygen", "opus-clip", "submagic", "synthesia"]
 }

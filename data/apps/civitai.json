@@ -23,5 +23,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Largest hub for open image models — every feed image links to the exact model, prompt, and settings that made it.",
+  "pros": [
+    "Thousands of SD/Flux checkpoints and LoRAs",
+    "Images paired with reproducible prompts",
+    "On-site browser generation",
+    "Platform code is Apache-2.0 open source"
+  ],
+  "cons": [
+    "Uneven content moderation",
+    "Model quality varies widely",
+    "NSFW-heavy community reputation"
+  ],
+  "bestFor": ["Open-model discovery", "Stable Diffusion / Flux users"],
+  "alternatives": ["comfyui", "leonardo-ai", "krea", "huggingface"]
 }

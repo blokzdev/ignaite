@@ -30,5 +30,32 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Layers Speech Understanding — summaries, sentiment, PII redaction — over accurate transcription, billed per second.",
+  "pros": [
+    "High transcription accuracy",
+    "Speech Understanding add-ons",
+    "Batch + real-time streaming",
+    "Per-second pay-as-you-go, free credit"
+  ],
+  "cons": [
+    "Cloud-only, no self-host",
+    "Higher latency than speed-first rivals",
+    "Costs scale with audio volume",
+    "English strongest, others vary"
+  ],
+  "bestFor": [
+    "Conversation intelligence",
+    "Accuracy-critical transcription",
+    "Developers building voice products"
+  ],
+  "alternatives": ["deepgram", "elevenlabs", "cartesia"],
+  "references": [
+    {
+      "title": "AssemblyAI vs Deepgram: Best Speech-to-Text API [2026]",
+      "url": "https://www.gladia.io/blog/assemblyai-vs-deepgram",
+      "source": "Gladia",
+      "kind": "comparison"
+    }
+  ]
 }

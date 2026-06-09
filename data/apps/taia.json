@@ -15,9 +15,30 @@
   },
   "tags": ["translation", "documents", "localization", "human-review"],
   "links": [
-    { "kind": "website", "url": "https://taia.io", "primary": true },
-    { "kind": "pricing", "url": "https://taia.io/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://taia.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://taia.io/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Each AI translation carries an instant per-word quote to escalate to ISO 17100 human revision in the same project.",
+  "pros": [
+    "AI + one-click human revision",
+    "189+ languages, 65+ file formats",
+    "Formatting preserved on export",
+    "Translation memory and glossaries"
+  ],
+  "cons": [
+    "Human revision adds real cost",
+    "Smaller brand than DeepL",
+    "TMS depth trails dedicated platforms"
+  ],
+  "bestFor": ["Document translation", "AI-plus-human QA", "Multilingual business docs"],
+  "alternatives": ["deepl", "smartcat", "lokalise", "smartling"]
 }

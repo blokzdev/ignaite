@@ -30,5 +30,27 @@
       "kind": "fixed",
       "summary": "Recategorized from image-gen to the new design category for brand/graphic design tooling."
     }
+  ],
+  "edge": "The only major generator that outputs natively editable SVG paths — assets drop straight into Illustrator or Figma.",
+  "pros": [
+    "Native editable SVG vector output",
+    "Brand style sets for consistency",
+    "Built-in vector node editor",
+    "API access for pipelines"
+  ],
+  "cons": [
+    "Text rendering trails Ideogram",
+    "Designer-focused, steeper than casual tools",
+    "Free tier credits limited"
+  ],
+  "bestFor": ["Designers & brand teams", "Vector/logo assets", "Production design work"],
+  "alternatives": ["ideogram", "adobe-firefly", "midjourney", "krea"],
+  "references": [
+    {
+      "title": "Ideogram vs Recraft for Logos (2026) — Honest Verdict",
+      "url": "https://rangy.ai/blog/ideogram-vs-recraft-for-logos/",
+      "source": "Rangy",
+      "kind": "comparison"
+    }
   ]
 }

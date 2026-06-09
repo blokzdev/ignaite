@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Smart Citations classify each reference as supporting, contrasting, or merely mentioning — not just a citation count.",
+  "pros": [
+    "Supporting/contrasting citation context",
+    "Flags retracted/disputed work",
+    "Cited AI Assistant answers",
+    "Browser + reference-manager plugins"
+  ],
+  "cons": [
+    "Citation-context focus, narrower search",
+    "Subscription for full features",
+    "Coverage gaps outside indexed journals"
+  ],
+  "bestFor": ["Evaluating evidence", "Citation analysis", "Avoiding retracted sources"],
+  "alternatives": ["consensus", "elicit", "scispace", "undermind"]
 }

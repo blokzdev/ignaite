@@ -28,5 +28,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "70+ real-physics camera-movement presets (crash zoom, dolly, crane) front 15+ engines from one subscription.",
+  "pros": [
+    "Deep cinematic camera-motion controls",
+    "One sub fronts Sora/Kling/Veo and more",
+    "Fluid character motion, fewer artifacts",
+    "Strong mobile-first workflow"
+  ],
+  "cons": [
+    "Learning curve on advanced motion",
+    "Character consistency across clips wavers",
+    "Motion can break in complex scenes",
+    "Reported billing/cancellation friction"
+  ],
+  "bestFor": ["Cinematic shot creation", "Multi-model video creators"],
+  "alternatives": ["runway", "kling", "pika", "sora"]
 }

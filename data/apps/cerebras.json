@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Wafer-scale CS-3 hardware tops every rival on tokens/sec — fastest pure throughput for agent loops.",
+  "pros": [
+    "Highest tokens/sec in the market",
+    "Low time-to-first-token (~80-150ms)",
+    "2-3x faster end-to-end in agent loops",
+    "OpenAI-compatible API, free daily tier"
+  ],
+  "cons": [
+    "Smaller model catalog than Groq/Together",
+    "Less mature ecosystem and client libs",
+    "Occasional capacity limits under demand"
+  ],
+  "bestFor": ["Latency-critical agents", "Open-weight model serving"],
+  "alternatives": ["groq", "sambanova", "together-ai", "fireworks-ai"]
 }

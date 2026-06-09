@@ -29,5 +29,21 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "OpenTelemetry-native loop that turns production failures into test cases, with strong human-evaluation tooling.",
+  "pros": [
+    "Unifies tracing and evaluation",
+    "OTel-native, framework-agnostic",
+    "Failures auto-become test cases",
+    "Robust human eval + annotation",
+    "Generous free Developer tier"
+  ],
+  "cons": [
+    "SaaS-only (self-host = Enterprise)",
+    "No built-in caching",
+    "Newer, smaller ecosystem",
+    "UI less mature than incumbents"
+  ],
+  "bestFor": ["Agent evaluation/benchmarking", "Human-in-the-loop review"],
+  "alternatives": ["braintrust", "langsmith", "maxim-ai", "vellum"]
 }

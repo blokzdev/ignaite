@@ -31,5 +31,25 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Handles the messy pre-RAG layer — OCR, tables, document hierarchy across 64+ file types — with an open-source library plus a managed platform.",
+  "pros": [
+    "64+ file types ingested",
+    "OCR, tables, hierarchy handled",
+    "Open-source core library",
+    "Low-code platform and API too",
+    "Production RAG staple"
+  ],
+  "cons": [
+    "OSS quality trails hosted partition models",
+    "Best results need paid API/platform",
+    "Heavy dependency footprint",
+    "Tuning per document type"
+  ],
+  "bestFor": [
+    "RAG document preprocessing",
+    "Mixed-format ingestion",
+    "Enterprise unstructured ETL"
+  ],
+  "alternatives": ["reducto", "docling", "chunkr", "nanonets"]
 }

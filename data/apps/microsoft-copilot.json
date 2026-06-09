@@ -24,5 +24,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Reaches users at the OS level inside Windows and Edge, now blending OpenAI, Anthropic, and Microsoft's own MAI models.",
+  "pros": [
+    "Built into Windows, Edge, Microsoft 365",
+    "Mixes OpenAI, Claude, and in-house MAI",
+    "Useful free tier on GPT-4o",
+    "Copilot Vision and image generation"
+  ],
+  "cons": [
+    "No image gen on free tier",
+    "Output quality can be inconsistent",
+    "Weak conversational memory",
+    "Pro plan hard to justify outside M365"
+  ],
+  "bestFor": ["Windows and Microsoft 365 users", "Everyday assistant tasks", "In-OS quick help"],
+  "alternatives": ["chatgpt", "gemini", "claude", "grok"]
 }

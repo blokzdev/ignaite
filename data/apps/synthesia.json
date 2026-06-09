@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Enterprise default for talking-head training video — one typed script renders an avatar in 140+ languages.",
+  "pros": [
+    "230+ avatars, custom avatar cloning",
+    "140+ languages from one script",
+    "No camera, mic, or crew needed",
+    "Strong enterprise/L&D adoption"
+  ],
+  "cons": [
+    "Avatars limited for high-emotion content",
+    "Pricier paid tiers, minute caps",
+    "Not for cinematic or B-roll video"
+  ],
+  "bestFor": ["L&D and training video", "Corporate comms", "Localized video at scale"],
+  "alternatives": ["heygen", "tavus", "hedra", "captions"]
 }

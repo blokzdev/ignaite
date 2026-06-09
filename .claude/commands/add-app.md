@@ -65,13 +65,28 @@ Conventions (match existing entries):
   architectural quirk, a notable acquisition/rename), NOT a re-pitch of the tagline. Ground it in the
   research; never fabricate; if nothing sharp is verifiable, omit it rather than pad. See the field's
   JSDoc in `types/app.ts`.
+- **Enrichment — the "honest brief"** (all optional; omit > fabricate; verify each; same discipline as `insight`):
+  - **`edge`** (≤160 chars) — the _comparative_ one-liner: what it does better than its category peers
+    ("why pick THIS one"). One complete sentence, comparative + specific; distinct from `insight`; omit
+    if no clear edge. (Author it to length — don't write long then truncate; a cut sentence loses its point.)
+  - **`pros`** / **`cons`** (≤5 each, items ≤60 chars) — grounded strengths / honest limitations.
+    Factual, non-marketing, never competitor-bashing. `cons` are the trust signal — never invent.
+  - **`bestFor`** (≤4, items ≤32 chars) — use-case / audience descriptors ("Self-hosted teams").
+  - **`alternatives`** (≤4 app **slugs**) — curated head-to-head competitors (prefer same category, may
+    cross). Each must be an existing slug — validated in `velite.config.ts`'s `complete()` hook (bad/self
+    refs fail the build). Powers the detail page's "Alternatives to <name>" rail (falls back to the
+    derived same-category "Related" rail when unset).
+  - **`references`** (≤4) — `{ title (≤80), url, source? (≤40), kind? }` (kind ∈ review|guide|benchmark|comparison|interview|analysis).
+    **Third-party** coverage independent of the vendor (NOT its own site/docs). **Only real URLs you
+    actually fetched — never construct a plausible link.** Omit if none verifiable.
 - **`featured: true`** sparingly (it spans 2 columns + enters the carousel) — only for true standouts,
   and only if the user agrees.
 - Pick the most specific fitting `category`; favor thin/empty ones where the app genuinely belongs
   (check coverage). Extending the `AppCategory` union is allowed if a real new use-case has no home —
   if so, add it to **both** the `AppCategory` union and the `APP_CATEGORIES` tuple in `types/app.ts`
-  (the zod schema derives its enum from the tuple automatically) and the three `CATEGORY_LABEL` maps
-  (`tool-card.tsx`, `app-detail.tsx`, `hooks/use-directory-filters.ts`).
+  (the zod schema derives its enum from the tuple automatically) and the single `CATEGORY_LABEL` map in
+  `lib/tools/category-labels.ts` (the one source of truth, re-exported from `hooks/use-directory-filters.ts`;
+  `Record<AppCategory,string>` makes a missing label a compile error).
 - One file per app means concurrent `/add-app` / `/discover-apps` runs never conflict; display order
   is sort-driven, not file order.
 

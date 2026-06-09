@@ -31,5 +31,21 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Unmatched breadth — thousands of app integrations — making it the default glue, with AI agents added on top.",
+  "pros": [
+    "Thousands of app integrations",
+    "Easy no-code trigger/action setup",
+    "In-workflow LLM calls and agents",
+    "Massive template library",
+    "Fast to glue two SaaS tools"
+  ],
+  "cons": [
+    "Task-based pricing climbs fast",
+    "Limited branching/logic vs rivals",
+    "Shallow for complex data workflows",
+    "AI features feel bolted-on"
+  ],
+  "bestFor": ["Non-technical users", "Simple SaaS glue", "Broad integration needs"],
+  "alternatives": ["make", "n8n", "activepieces", "pipedream"]
 }

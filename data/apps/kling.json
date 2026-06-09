@@ -25,5 +25,27 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Kuaishou's video model leads on motion realism and multishot sequences — the strongest non-Western Sora/Runway rival.",
+  "pros": [
+    "Convincing complex motion and physics",
+    "Multishot sequences and lip-sync",
+    "Fast, high-volume social output",
+    "Image generation included"
+  ],
+  "cons": [
+    "Credit-based pricing adds up",
+    "Clip length limited (~15s)",
+    "Closed source, hosted only"
+  ],
+  "bestFor": ["Short-form social video", "High-volume UGC", "Motion-heavy shots"],
+  "alternatives": ["runway", "sora", "vidu", "hailuo-ai"],
+  "references": [
+    {
+      "title": "Kling AI, Runway, Vidu: The AI Video Generators Set to Replace Sora",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/kling-ai-runway-vidu-the-ai-video-generators-set-to-replace-openai-s-sora",
+      "source": "Bloomberg",
+      "kind": "analysis"
+    }
+  ]
 }

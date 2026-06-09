@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Real-time Live Avatars stream lip-synced talking heads at sub-100ms latency, giving voice agents a face cheaply.",
+  "pros": [
+    "Phoneme-accurate lip-sync from one image",
+    "Real-time Live Avatars (~$0.05/min)",
+    "Expressive blinks/gaze from a photo",
+    "Multi-model access in one platform"
+  ],
+  "cons": [
+    "Maxes out at 720p",
+    "Fewer languages than HeyGen/Synthesia",
+    "Limited public API",
+    "Expiring-credit pricing friction"
+  ],
+  "bestFor": ["Voice-agent avatars", "Talking characters from a photo"],
+  "alternatives": ["heygen", "tavus", "synthesia", "captions"]
 }

@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "One of the few search APIs backed by a genuinely independent crawl rather than resold Bing or Google results.",
+  "pros": [
+    "Independent index, not resold Bing/Google",
+    "Privacy-respecting, no user profiling",
+    "Free tier available",
+    "Simple REST API"
+  ],
+  "cons": [
+    "Smaller index than Google",
+    "Rate limits on free tier",
+    "Less tuned for AI-answer grounding than Exa/Tavily"
+  ],
+  "bestFor": ["Non-Google search source", "Privacy-sensitive apps"],
+  "alternatives": ["exa", "tavily", "you-com", "kagi"]
 }

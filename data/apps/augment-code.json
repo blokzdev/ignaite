@@ -32,5 +32,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Context Engine indexes entire multi-repo codebases — built for enterprise monorepos, not single-project editing.",
+  "pros": [
+    "Indexes large multi-repo codebases",
+    "VS Code, JetBrains, CLI, remote agents",
+    "Cross-file dependency reasoning",
+    "Tuned for enterprise scale"
+  ],
+  "cons": [
+    "Cloud-only context engine",
+    "Closed source",
+    "Overkill for small projects",
+    "Indexing/privacy considerations for big repos"
+  ],
+  "bestFor": ["Enterprise monorepos", "Large engineering teams", "Cross-repo codebases"],
+  "alternatives": ["cursor", "windsurf", "github-copilot", "amp"]
 }

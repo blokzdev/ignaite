@@ -23,5 +23,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Splits finished masters into up to 14 performance-quality stems — top-ranked in Meta's source-separation benchmark.",
+  "pros": [
+    "High-quality stem separation",
+    "Up to 14 stems incl. dialogue/FX",
+    "Web app, Live, and API options",
+    "Used by major labels/studios"
+  ],
+  "cons": [
+    "Closed source",
+    "Cloud-only processing",
+    "Pro/studio features behind paid tiers",
+    "Niche outside music/post-production"
+  ],
+  "bestFor": ["Remixing and remastering", "Dubbing/localization", "Studios and developers"],
+  "alternatives": ["lalal-ai", "moises", "kits-ai"]
 }

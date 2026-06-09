@@ -32,5 +32,23 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Apache-2.0 answer engine you self-host — provider-agnostic across LLMs and search backends, one-click Vercel deploy.",
+  "pros": [
+    "Open source (Apache-2.0)",
+    "Self-hostable, one-click Vercel deploy",
+    "Provider-agnostic LLM and search backends",
+    "Generative UI adapts per query"
+  ],
+  "cons": [
+    "Self-host means you supply API keys/cost",
+    "Smaller index than hosted answer engines",
+    "Fewer polish features than Perplexity"
+  ],
+  "bestFor": [
+    "Self-hosted answer engine",
+    "Privacy-conscious teams",
+    "Hackable Perplexity alternative"
+  ],
+  "alternatives": ["perplexity", "felo", "you-com", "khoj"]
 }

@@ -24,5 +24,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "From the team that created Stable Diffusion — ships open weights alongside a hosted pro tier for its strongest models.",
+  "pros": [
+    "Open weights for many variants",
+    "Strong prompt adherence and detail",
+    "Wide ecosystem support",
+    "API + playground available"
+  ],
+  "cons": [
+    "Top 'pro' models are hosted-only",
+    "Open weights need GPU to self-run",
+    "Less turnkey than Midjourney"
+  ],
+  "bestFor": ["Developers and tinkerers", "Self-hosted image gen", "Prompt-accurate output"],
+  "alternatives": ["midjourney", "ideogram", "recraft", "comfyui"]
 }

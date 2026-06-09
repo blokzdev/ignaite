@@ -31,5 +31,27 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Eval-first: prompts are versioned objects and CI scorers block a merge when quality regresses — generous free tier.",
+  "pros": [
+    "Eval workflow as the primary interface",
+    "CI scorers block merges on regression",
+    "Dataset versioning + OTel tracing",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Closed-source SaaS",
+    "Self-hosting needs Enterprise contract",
+    "Overkill for tiny single-file eval needs"
+  ],
+  "bestFor": ["Eval-driven teams", "CI quality gating", "Prompt iteration"],
+  "alternatives": ["langfuse", "langsmith", "vellum", "promptfoo"],
+  "references": [
+    {
+      "title": "LLM Eval Tools Compared 2026: Langfuse, LangSmith, Braintrust, Arize",
+      "url": "https://benchmarkingagents.com/tools-compared/",
+      "source": "Benchmarking Agents",
+      "kind": "comparison"
+    }
+  ]
 }

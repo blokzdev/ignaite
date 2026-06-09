@@ -30,5 +30,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Built by the UK AI Security Institute and adopted by Anthropic, DeepMind, METR, and Apollo as a shared eval framework; MIT.",
+  "pros": [
+    "Adopted across major safety labs",
+    "Composable datasets/solvers/scorers",
+    "200+ prebuilt evals (inspect_evals)",
+    "Sandboxed tool + multi-turn agent runs",
+    "MIT-licensed, provider-agnostic"
+  ],
+  "cons": [
+    "Python/code framework, not a UI product",
+    "Steeper than no-code eval tools",
+    "You wire up your own model keys"
+  ],
+  "bestFor": ["Rigorous LLM evals", "AI safety research", "CI eval pipelines"],
+  "alternatives": ["promptfoo", "deepeval", "ragas", "braintrust"],
+  "references": [
+    {
+      "title": "Inspect AI, an OSS Python library for LLM evals",
+      "url": "https://hamel.dev/notes/llm/evals/inspect.html",
+      "source": "Hamel Husain",
+      "kind": "guide"
+    }
+  ]
 }

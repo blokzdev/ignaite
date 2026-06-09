@@ -32,5 +32,24 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "A rare paid, ad-free search engine where your plan budget doubles as a fair-use credit across many frontier LLMs.",
+  "pros": [
+    "Ad-free, no tracking or data selling",
+    "Bundled multi-model AI Assistant",
+    "Customizable result ranking and blocklists",
+    "Universal Summarizer built in"
+  ],
+  "cons": [
+    "Paid only — no free search tier",
+    "Smaller index than Google/Bing",
+    "AI usage capped by fair-use budget",
+    "Niche, requires browser/default switch"
+  ],
+  "bestFor": [
+    "Privacy-focused searchers",
+    "Power users and researchers",
+    "Ad-free multi-model chat"
+  ],
+  "alternatives": ["perplexity", "you-com", "felo"]
 }

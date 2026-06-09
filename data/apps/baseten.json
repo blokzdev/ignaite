@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Pairs prebuilt Model APIs with dedicated Truss deployments and scale-to-zero, so you don't pay for idle GPUs.",
+  "pros": [
+    "Both per-token APIs and dedicated GPU deploys",
+    "Scale-to-zero, no charge for idle compute",
+    "Open-source Truss packaging format",
+    "Production-grade observability and autoscaling"
+  ],
+  "cons": [
+    "Dedicated GPU rates run pricier than Modal",
+    "Per-replica cost doubles for redundancy",
+    "Engineering effort to package custom models"
+  ],
+  "bestFor": ["Custom model serving", "Low-latency production APIs"],
+  "alternatives": ["modal", "fireworks-ai", "together-ai", "replicate"]
 }

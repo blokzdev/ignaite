@@ -15,9 +15,31 @@
   },
   "tags": ["analytics", "business-intelligence", "nl-to-sql", "dashboards"],
   "links": [
-    { "kind": "website", "url": "https://www.basedash.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.basedash.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.basedash.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.basedash.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Connects straight to production SQL warehouses and builds full dashboards from plain English — no SQL or table names needed.",
+  "pros": [
+    "NL-to-SQL with no query writing",
+    "Connects directly to Postgres/Snowflake/BigQuery",
+    "750+ data-source integrations",
+    "Fast, low-latency AI reporting"
+  ],
+  "cons": [
+    "No free tier; pricey for small teams",
+    "Entry plan ~$250/mo for 2 users",
+    "Analytics shallow for deep decisions",
+    "Web-only"
+  ],
+  "bestFor": ["Self-serve dashboards", "NL data exploration", "Startup data teams"],
+  "alternatives": ["hex", "julius", "powerdrill", "databricks-genie"]
 }

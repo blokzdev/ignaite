@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Durable, resumable functions — retries, sleeps, fan-out — with no queue or worker pool for you to stand up.",
+  "pros": [
+    "Durable execution, automatic retries",
+    "Pause/resume + fan-out + scheduling",
+    "TypeScript-first, framework-agnostic",
+    "Local dev server included"
+  ],
+  "cons": [
+    "Smaller ecosystem than Temporal",
+    "Best fit TS/JS; other langs newer",
+    "Hosted tier cost at high event volume"
+  ],
+  "bestFor": ["AI background jobs", "Long-running workflows", "TypeScript teams"],
+  "alternatives": ["langgraph", "n8n", "mastra", "vercel-ai-sdk"]
 }

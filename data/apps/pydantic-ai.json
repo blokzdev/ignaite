@@ -27,5 +27,15 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "From the Pydantic team, so agent outputs are validated by the same library most Python LLM apps already use for schemas.",
+  "pros": [
+    "Type-safe, validated structured outputs",
+    "From the trusted Pydantic team",
+    "Model-agnostic, MIT-licensed",
+    "MCP support, Logfire observability"
+  ],
+  "cons": ["Python-only", "Younger than LangChain/LlamaIndex", "Smaller ecosystem of integrations"],
+  "bestFor": ["Python agent builders", "Type-safe outputs", "Production agents"],
+  "alternatives": ["langgraph", "crewai", "llamaindex", "mastra"]
 }

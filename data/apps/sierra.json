@@ -34,5 +34,28 @@
       "kind": "fixed",
       "summary": "Recategorized from agent to the new support category for customer-support agents."
     }
+  ],
+  "edge": "Outcome-based pricing — you pay per successful resolution, not per seat — across chat, voice, email, SMS, and WhatsApp.",
+  "pros": [
+    "Pay per resolved outcome, not flat seats",
+    "Omnichannel: chat, voice, email, SMS, WhatsApp",
+    "Founder pedigree (Bret Taylor, Clay Bavor)",
+    "Heavy Fortune 500 adoption"
+  ],
+  "cons": [
+    "Enterprise-only; contracts start six figures",
+    "Plus setup fees in the tens of thousands",
+    "Outcome definitions are negotiated and can drift",
+    "No self-serve or transparent pricing"
+  ],
+  "bestFor": ["Enterprise CX", "Fortune 500 support", "Omnichannel agents"],
+  "alternatives": ["decagon", "intercom-fin", "ada-cx", "maven-agi"],
+  "references": [
+    {
+      "title": "Bret Taylor's Sierra reaches $100M ARR in under two years",
+      "url": "https://techcrunch.com/2025/11/21/bret-taylors-sierra-reaches-100m-arr-in-under-two-years/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
   ]
 }

@@ -29,5 +29,19 @@
       "kind": "fixed",
       "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
     }
-  ]
+  ],
+  "edge": "Captures system audio with no bot in the call, then blends your raw notes into the AI summary.",
+  "pros": [
+    "No bot joins the meeting",
+    "Works with any video platform",
+    "Polished notes from your own context",
+    "AI chat across your notes"
+  ],
+  "cons": [
+    "Stores transcript, not audio/video replay",
+    "Free tier limits history and integrations",
+    "Desktop-app dependent capture"
+  ],
+  "bestFor": ["Back-to-back meetings", "Privacy-conscious calls"],
+  "alternatives": ["fathom", "otter-ai", "fireflies", "circleback"]
 }

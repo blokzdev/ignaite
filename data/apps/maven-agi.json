@@ -27,5 +27,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Enterprise CX agent pitching ~93% autonomous resolution across voice, chat, and email with deep helpdesk ties.",
+  "pros": [
+    "High claimed autonomous resolution rate",
+    "Voice, chat, and email in one platform",
+    "Native Salesforce, Zendesk, Genesys, Twilio",
+    "Fast enterprise onboarding"
+  ],
+  "cons": [
+    "No transparent public pricing",
+    "Real conversations still need supervision",
+    "Enterprise-only, contact-sales",
+    "Strong rivals (Decagon, Sierra, Fin)"
+  ],
+  "bestFor": ["High-volume enterprise support", "Multi-channel CX teams", "Regulated support orgs"],
+  "alternatives": ["decagon", "sierra", "intercom-fin", "forethought"]
 }

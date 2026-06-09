@@ -10,7 +10,27 @@
   "vendor": "Nomi AI",
   "platforms": ["web", "ios", "android"],
   "tags": ["companion", "roleplay", "memory", "group-chat"],
-  "links": [{ "kind": "website", "url": "https://nomi.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://nomi.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Layered short/medium/long-term memory plus group chat with multiple companions at once — depth most companion apps lack.",
+  "pros": [
+    "Three-layer long-term memory",
+    "Multi-companion group chat",
+    "One sub covers multiple companions",
+    "Unlimited voice calls on paid tiers"
+  ],
+  "cons": [
+    "Smaller community than Character.AI",
+    "Best features behind paywall",
+    "Companion realism still uneven"
+  ],
+  "bestFor": ["Companion roleplay", "Memory-rich chats", "Group companion chat"],
+  "alternatives": ["kindroid", "character-ai", "replika"]
 }

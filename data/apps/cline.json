@@ -32,5 +32,28 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Open-source, BYO-key VS Code agent that shows and asks approval for every edit and command — no markup, no lock-in.",
+  "pros": [
+    "Fully open-source, no vendor markup",
+    "Approves every edit/command before running",
+    "Bring any model (Claude, local, etc.)",
+    "Plan/Act split for review before changes"
+  ],
+  "cons": [
+    "BYO-key means you pay provider token costs",
+    "VS Code only, no standalone IDE",
+    "Slower than Cursor on equivalent tasks",
+    "No codebase indexing or background agents"
+  ],
+  "bestFor": ["VS Code users", "BYO-key teams", "Auditable agent edits"],
+  "alternatives": ["cursor", "continue", "coderabbit", "devin"],
+  "references": [
+    {
+      "title": "Cline vs Roo Code vs Cursor",
+      "url": "https://betterstack.com/community/comparisons/cline-vs-roo-code-vs-cursor/",
+      "source": "Better Stack",
+      "kind": "comparison"
+    }
+  ]
 }

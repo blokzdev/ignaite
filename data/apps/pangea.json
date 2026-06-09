@@ -15,10 +15,34 @@
   },
   "tags": ["ai-guardrails", "prompt-injection", "pii-redaction", "api-security"],
   "links": [
-    { "kind": "website", "url": "https://pangea.cloud", "primary": true },
-    { "kind": "docs", "url": "https://pangea.cloud/docs/" },
-    { "kind": "pricing", "url": "https://pangea.cloud/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://pangea.cloud",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://pangea.cloud/docs/"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://pangea.cloud/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Ships guardrails as discrete, composable APIs you call à la carte — not one monolithic gateway you must route all traffic through.",
+  "pros": [
+    "Composable, API-first security services",
+    "Pay-as-you-go with free monthly balance",
+    "Model-agnostic; sits in front of any LLM",
+    "Integrates via LiteLLM and Portkey"
+  ],
+  "cons": [
+    "You wire the guardrails in yourself",
+    "Less turnkey than full proxy gateways",
+    "Newer to the AI-security space"
+  ],
+  "bestFor": ["Developers adding AI guardrails", "API-first security teams"],
+  "alternatives": ["lakera", "prompt-security", "lasso-security", "protect-ai"]
 }

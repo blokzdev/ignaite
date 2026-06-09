@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "One subscription spans GPT, Claude, Gemini and more in a side-panel, with best-in-class YouTube summarization.",
+  "pros": [
+    "Many top models in one plan",
+    "Generous free tier (~102 daily queries)",
+    "Strong YouTube/article summarization",
+    "Works on Gmail, LinkedIn, Search"
+  ],
+  "cons": [
+    "'Unlimited' Pro is a fair-use credit cap",
+    "Responses can feel watered-down vs native",
+    "Chrome-only",
+    "Closed source"
+  ],
+  "bestFor": ["Multi-model daily assistant", "In-browser summarizing", "Budget multi-LLM access"],
+  "alternatives": ["sider", "monica", "maxai", "harpa-ai"]
 }

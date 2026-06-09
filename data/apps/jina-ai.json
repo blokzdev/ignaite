@@ -26,5 +26,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Prepend r.jina.ai/ to any URL for clean LLM-ready markdown — no signup for basic use, and the Reader is open source.",
+  "pros": [
+    "One key spans Reader, embeddings, reranker",
+    "Reader: URL to clean markdown instantly",
+    "Open-source Reader + open-weight embeddings",
+    "Strong multilingual embeddings/reranker"
+  ],
+  "cons": [
+    "Acquired by Elastic (Oct 2025); roadmap may shift",
+    "Free Reader tier is rate-limited",
+    "Hosted APIs metered by tokens",
+    "Narrower than full scraping suites"
+  ],
+  "bestFor": ["RAG grounding", "LLM-ready web content", "Retrieval pipelines"],
+  "alternatives": ["firecrawl", "exa", "tavily", "mixedbread"],
+  "references": [
+    {
+      "title": "Jina AI Reader review: pricing & alternatives",
+      "url": "https://serp.fast/tools/jina-ai",
+      "source": "serp.fast",
+      "kind": "review"
+    }
+  ]
 }

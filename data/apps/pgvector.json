@@ -27,5 +27,27 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Keeps vectors in your existing Postgres, so you JOIN against relational data and back it all up together.",
+  "pros": [
+    "No new database to operate",
+    "JOIN embeddings with relational data",
+    "Free and open source",
+    "Works on Supabase, Neon, any managed Postgres"
+  ],
+  "cons": [
+    "Scales worse than dedicated vector DBs",
+    "Tuning HNSW/IVFFlat is on you",
+    "No built-in hybrid search out of the box"
+  ],
+  "bestFor": ["Teams already on Postgres", "Pragmatic RAG", "Small-to-mid scale"],
+  "alternatives": ["qdrant", "pinecone", "weaviate", "chroma"],
+  "references": [
+    {
+      "title": "Best Vector Databases for RAG: 2025 Comparison Guide",
+      "url": "https://latenode.com/blog/ai-frameworks-technical-infrastructure/vector-databases-embeddings/best-vector-databases-for-rag-complete-2025-comparison-guide",
+      "source": "Latenode",
+      "kind": "comparison"
+    }
+  ]
 }

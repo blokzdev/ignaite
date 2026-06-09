@@ -31,5 +31,21 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Built-in vectorizers embed text inline — raw text in, vectors out — plus hybrid BM25 + vector search out of the box.",
+  "pros": [
+    "Inline vectorizer modules",
+    "Hybrid BM25 + vector search",
+    "Open source, self-hostable",
+    "Managed cloud option",
+    "GraphQL and REST APIs"
+  ],
+  "cons": [
+    "Resource-heavy at large scale",
+    "Module config has a learning curve",
+    "Managed tier costs add up",
+    "Newer than some lexical engines"
+  ],
+  "bestFor": ["RAG pipelines", "Hybrid search", "Self-hosted vector DB"],
+  "alternatives": ["qdrant", "milvus", "pinecone", "chroma"]
 }

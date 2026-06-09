@@ -25,5 +25,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Drives the browser from the accessibility tree, not screenshots — deterministic, fast, and no vision model required.",
+  "pros": [
+    "Official Microsoft MCP server",
+    "Accessibility-tree, no vision model",
+    "Chromium, Firefox, and WebKit",
+    "Free and open source"
+  ],
+  "cons": [
+    "Needs an MCP-capable client",
+    "Local browser setup required",
+    "No hosted/cloud browser by itself"
+  ],
+  "bestFor": ["Agentic browsing", "Web automation", "MCP clients"],
+  "alternatives": ["browser-use", "stagehand", "browserbase", "steel"]
 }

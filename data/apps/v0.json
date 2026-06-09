@@ -27,5 +27,24 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Emits real shadcn/ui + Tailwind React code you can paste into a project — production primitives, not throwaway mockup markup.",
+  "pros": [
+    "Outputs real React/Tailwind/shadcn",
+    "Copy-paste into existing projects",
+    "Tight Vercel deploy integration",
+    "Fast iteration in v0 projects"
+  ],
+  "cons": [
+    "Opinionated toward shadcn/Tailwind",
+    "Single tuned model, not configurable",
+    "Best within the Vercel ecosystem",
+    "Complex apps need hand-finishing"
+  ],
+  "bestFor": [
+    "React/Tailwind UI scaffolding",
+    "Vercel-stack developers",
+    "Rapid component prototyping"
+  ],
+  "alternatives": ["lovable", "bolt-new", "uizard", "figma-ai"]
 }

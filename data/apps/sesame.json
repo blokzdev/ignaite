@@ -28,5 +28,23 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Open-sourced its CSM-1B voice model under Apache 2.0 while keeping the viral Maya/Miles companions a hosted demo.",
+  "pros": [
+    "Open Apache-2.0 CSM-1B base model",
+    "Lifelike, natural conversational pacing",
+    "Free real-time web demo",
+    "Founder pedigree (Oculus co-creator)"
+  ],
+  "cons": [
+    "Demo only; no production API yet",
+    "Companions not self-hostable",
+    "Early-stage product"
+  ],
+  "bestFor": [
+    "Conversational voice demos",
+    "Researchers/builders on CSM",
+    "Voice-presence experiments"
+  ],
+  "alternatives": ["cartesia", "elevenlabs", "deepgram", "retell-ai"]
 }

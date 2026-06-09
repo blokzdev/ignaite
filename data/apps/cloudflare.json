@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "R2 storage charges zero egress fees and Workers run isolate-per-request at the edge — cheaper, closer than Node.",
+  "pros": [
+    "R2 has no egress fees vs S3",
+    "Global edge runtime, low latency",
+    "Workers + D1 + R2 + KV in one platform",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Workers isolate model isn't full Node.js",
+    "D1/Durable Objects still maturing",
+    "Some products have CPU-time limits",
+    "Edge-first model needs app rethinking"
+  ],
+  "bestFor": ["Edge-first apps", "Global low-latency APIs", "Large-asset storage"],
+  "alternatives": ["vercel", "supabase", "modal", "daytona"]
 }

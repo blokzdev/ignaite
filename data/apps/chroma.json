@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Runs embedded inside your Python process — the lowest-friction way to prototype RAG before you need a server at all.",
+  "pros": [
+    "Pip-install, embedded in-process",
+    "Minimal setup for prototyping",
+    "Open-source",
+    "Hosted option when you outgrow local"
+  ],
+  "cons": [
+    "Not built for massive scale",
+    "Fewer enterprise features than rivals",
+    "Python-centric ergonomics"
+  ],
+  "bestFor": ["RAG prototypes", "Small-to-medium apps", "Python developers"],
+  "alternatives": ["qdrant", "lancedb", "pinecone", "weaviate"]
 }

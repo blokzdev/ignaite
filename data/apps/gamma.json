@@ -26,5 +26,29 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "One prompt yields editable decks, docs, and full websites — not just slides — with a Generate API for scale.",
+  "pros": [
+    "Generates decks, docs, and websites from one prompt",
+    "Surprisingly capable free tier",
+    "Real-time collaboration like Google Docs",
+    "Imports and restructures PDFs and decks",
+    "Generate API for programmatic output"
+  ],
+  "cons": [
+    "Card-based layout limits free element positioning",
+    "PowerPoint export reads like a static doc",
+    "Brand kit is per-deck, not global",
+    "Template and design variety is limited"
+  ],
+  "bestFor": ["Fast first-draft decks", "Web-native docs", "Solo creators"],
+  "alternatives": ["canva", "microsoft-designer", "notion-ai"],
+  "references": [
+    {
+      "title": "Beautiful.ai vs Gamma: AI Presentation Tool Comparison",
+      "url": "https://plusai.com/blog/beautiful-ai-vs-gamma",
+      "source": "Plus AI",
+      "kind": "comparison"
+    }
+  ]
 }

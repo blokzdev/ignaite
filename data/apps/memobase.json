@@ -28,5 +28,24 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Models memory as a structured user profile plus timestamped event timeline — tops LOCOMO temporal-reasoning (~85%).",
+  "pros": [
+    "Profile + event-timeline model",
+    "Strong temporal-reasoning benchmark",
+    "Explicit per-event timestamps",
+    "Apache-2.0; Python/Node/Go SDKs + MCP"
+  ],
+  "cons": [
+    "Smaller community than mem0/Zep",
+    "Profile schema needs upfront design",
+    "Less production-server tooling than Zep",
+    "Newer, less battle-tested"
+  ],
+  "bestFor": [
+    "Per-user long-term modeling",
+    "Chatbots needing time awareness",
+    "Self-hosted memory"
+  ],
+  "alternatives": ["mem0", "zep", "letta", "supermemory"]
 }

@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Runs the whole Node stack in-browser via WebContainers, giving a real full-stack IDE no rival sandbox matches.",
+  "pros": [
+    "Full Node stack runs in the browser tab",
+    "Code-first with a real editable IDE",
+    "Generates frontend, backend, and deps",
+    "Good for modern JS framework projects"
+  ],
+  "cons": [
+    "Token usage can burn fast on iteration",
+    "Less hand-holding than design-first builders",
+    "Backend/database wiring weaker than Lovable"
+  ],
+  "bestFor": ["Developers", "Full-stack prototypes"],
+  "alternatives": ["lovable", "v0", "replit", "windsurf"]
 }

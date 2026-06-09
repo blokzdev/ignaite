@@ -32,5 +32,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Custom LPU silicon delivers deterministic sub-100ms TTFT, ideal for voice and latency-critical apps.",
+  "pros": [
+    "Hundreds of tokens/sec on open models",
+    "Sub-100ms time-to-first-token",
+    "Deterministic, low-variance latency",
+    "OpenAI-compatible API with free tier"
+  ],
+  "cons": [
+    "Curated open-weight models only",
+    "No frontier closed models (GPT/Claude)",
+    "SRAM limits large context windows",
+    "Rate limits during peak demand"
+  ],
+  "bestFor": ["Voice AI / real-time UX", "Open-model latency-bound apps"],
+  "alternatives": ["cerebras", "sambanova", "fireworks-ai", "together-ai"]
 }

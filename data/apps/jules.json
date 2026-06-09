@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Async agent that works in a cloud VM and hands back a PR — complete with an audio changelog of what it changed.",
+  "pros": [
+    "Fully async — runs in a cloud VM",
+    "Opens PRs with multi-file changes",
+    "Audio changelog of its work",
+    "Jules Tools CLI + API to extend it"
+  ],
+  "cons": [
+    "Cloud-only, no local execution",
+    "Gemini-only model backing",
+    "Async loop slower than in-editor agents",
+    "Newer than Copilot/Cursor agents"
+  ],
+  "bestFor": ["Background bug fixes", "GitHub PR automation", "Gemini users"],
+  "alternatives": ["devin", "openai-codex", "claude-code", "factory-ai"]
 }

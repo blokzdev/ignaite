@@ -10,7 +10,27 @@
   "vendor": "Nabla",
   "platforms": ["web", "ios", "android"],
   "tags": ["ambient-ai", "clinical-documentation", "ai-scribe", "ehr"],
-  "links": [{ "kind": "website", "url": "https://www.nabla.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nabla.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "EHR-agnostic ambient scribe — its Nabla Connect module drops into any EHR, versus Epic-only or single-EHR scribes.",
+  "pros": [
+    "EHR-agnostic via Nabla Connect module",
+    "35+ language support",
+    "Real-time coding support",
+    "Integrates with major EHRs"
+  ],
+  "cons": [
+    "Enterprise sales, no self-serve pricing",
+    "Sold to health systems, not solo clinicians",
+    "Accuracy still needs clinician review"
+  ],
+  "bestFor": ["Health systems", "Multilingual clinics", "EHR-agnostic deploys"],
+  "alternatives": ["abridge"]
 }

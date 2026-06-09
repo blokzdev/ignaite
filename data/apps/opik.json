@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Apache-2.0 and fully self-hostable, pairing tracing with built-in LLM-as-judge evals — own the stack or use Comet cloud.",
+  "pros": [
+    "Open source (Apache-2.0)",
+    "Self-host via Docker/Kubernetes",
+    "Tracing plus evals in one tool",
+    "Framework-agnostic integrations"
+  ],
+  "cons": [
+    "Younger than some rivals",
+    "Hosted tier tied to Comet",
+    "Self-host needs ops effort",
+    "Smaller ecosystem than LangSmith"
+  ],
+  "bestFor": ["Self-hosted teams", "LLM/agent debugging", "Eval-driven dev"],
+  "alternatives": ["langfuse", "langsmith", "helicone", "arize-phoenix"]
 }

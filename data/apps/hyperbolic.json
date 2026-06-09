@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Runs partly as a GPU marketplace renting idle H100/H200s, which is how its open-model inference undercuts centralized clouds.",
+  "pros": [
+    "Serverless inference + GPU marketplace",
+    "Undercuts centralized cloud pricing",
+    "OpenAI-compatible API",
+    "Open models: Llama, Qwen, DeepSeek, FLUX"
+  ],
+  "cons": [
+    "Marketplace supply reliability varies",
+    "Open-weights only, no frontier closed models",
+    "Smaller/newer than AWS-scale clouds",
+    "Less enterprise tooling"
+  ],
+  "bestFor": ["Cost-sensitive inference", "Open-model serving", "On-demand GPUs"],
+  "alternatives": ["together-ai", "fireworks-ai", "runpod", "replicate"]
 }

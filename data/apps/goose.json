@@ -28,5 +28,21 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Model-agnostic on-machine agent (15+ providers via your keys) with parallel subagents over 3000+ MCP servers.",
+  "pros": [
+    "Apache-2.0, fully open source",
+    "Works with any LLM via your own key",
+    "Spawns parallel subagents",
+    "CLI + desktop app",
+    "Huge MCP extension ecosystem"
+  ],
+  "cons": [
+    "Output quality depends on chosen model",
+    "Terminal/YAML comfort required",
+    "Recipe system has a learning curve",
+    "No built-in IDE integration"
+  ],
+  "bestFor": ["Tinkerers / power users", "Teams sharing one API key"],
+  "alternatives": ["openhands", "open-interpreter", "cline", "claude-code"]
 }

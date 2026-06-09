@@ -33,5 +33,19 @@
       "kind": "fixed",
       "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
     }
-  ]
+  ],
+  "edge": "AskFred answers questions across your whole meeting history; a calendar bot auto-joins Zoom, Meet, Teams, and Webex.",
+  "pros": [
+    "Auto-joins major video platforms",
+    "AskFred queries past meetings",
+    "CRM and tool integrations",
+    "Mobile + Chrome capture"
+  ],
+  "cons": [
+    "Bot-joins calls (privacy optics)",
+    "Best features on paid tiers",
+    "Free tier storage limits"
+  ],
+  "bestFor": ["Sales and RevOps teams", "Cross-meeting search", "CRM-synced notes"],
+  "alternatives": ["otter-ai", "fathom", "granola", "avoma"]
 }

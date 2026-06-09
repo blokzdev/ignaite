@@ -28,5 +28,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Backed by a frontier multimodal lab's own models — natively built for video/image reasoning, not bolted onto a text LLM.",
+  "pros": [
+    "Natural-language search over video archives",
+    "Auto highlights, clips, temporal Q&A",
+    "Runs on Reka's own multimodal models",
+    "API, MCP, or hosted app delivery"
+  ],
+  "cons": [
+    "Sales-led, demo-gated access",
+    "Enterprise pricing, not self-serve",
+    "Newer product, smaller ecosystem"
+  ],
+  "bestFor": ["Media libraries", "Physical security/surveillance", "Large video archives"],
+  "alternatives": ["twelve-labs", "google-flow"]
 }

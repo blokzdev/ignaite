@@ -16,9 +16,39 @@
   },
   "tags": ["autonomous-driving", "embodied-ai", "world-model", "av2.0"],
   "links": [
-    { "kind": "website", "url": "https://wayve.ai", "primary": true },
-    { "kind": "docs", "url": "https://wayve.ai/technology/" }
+    {
+      "kind": "website",
+      "url": "https://wayve.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://wayve.ai/technology/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "AV2.0: one end-to-end neural net from sensors to steering — no hand-coded perception or planning modules.",
+  "pros": [
+    "End-to-end learned driving (AV2.0)",
+    "Hardware-agnostic, any vehicle",
+    "GAIA generative world model",
+    "LINGO interpretable driving model",
+    "Backed by NVIDIA, Microsoft, SoftBank"
+  ],
+  "cons": [
+    "Not a buyable product",
+    "End-to-end models harder to audit",
+    "Pre-commercial deployment stage",
+    "Regulatory path still uncertain"
+  ],
+  "bestFor": ["Automakers", "AV research partners", "Embodied-AI driving"],
+  "references": [
+    {
+      "title": "Riding the Wayve of AV 2.0, Driven by Generative AI",
+      "url": "https://blogs.nvidia.com/blog/wayve-generative-ai/",
+      "source": "NVIDIA Blog",
+      "kind": "analysis"
+    }
+  ]
 }

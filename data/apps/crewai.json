@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Models work as a crew of role-typed agents that delegate to each other, built standalone rather than on LangChain.",
+  "pros": [
+    "Role-based multi-agent model",
+    "Independent of LangChain",
+    "Model-agnostic",
+    "Good for research pipelines"
+  ],
+  "cons": [
+    "Opinionated structure",
+    "Less flexible than graph frameworks",
+    "Debugging multi-agent runs is hard"
+  ],
+  "bestFor": ["Multi-agent pipelines", "Research + content crews"],
+  "alternatives": ["langgraph", "llamaindex", "dify"]
 }

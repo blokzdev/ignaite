@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Built for AI/research retrieval: neural embedding search plus find-similar, where general search APIs key off keywords.",
+  "pros": [
+    "Semantic 'find pages like this' retrieval",
+    "Purpose-built for RAG and agents",
+    "Returns full page content, not just links",
+    "Free tier to test"
+  ],
+  "cons": [
+    "Index narrower than Google-scale crawlers",
+    "Keyword queries can lag classic search",
+    "Usage-priced costs scale with volume"
+  ],
+  "bestFor": ["RAG retrieval", "Research workflows", "Find-similar discovery"],
+  "alternatives": ["tavily", "brave-search-api", "linkup", "perplexity"]
 }

@@ -25,5 +25,27 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Wraps stem separation in real practice tools — chord/key detection, pitch/tempo shift, metronome — not just a splitter.",
+  "pros": [
+    "All-in-one practice suite, not just stems",
+    "Native iOS/Android/web/desktop apps",
+    "Chord and key detection built in",
+    "Cheap paid tier (~$4/mo)"
+  ],
+  "cons": [
+    "Separation quality trails pro-grade splitters",
+    "Vocal extraction can warble/artifact",
+    "Best features gated behind subscription"
+  ],
+  "bestFor": ["Practicing musicians", "Cover and remix players", "Backing-track creation"],
+  "alternatives": ["lalal-ai", "audioshake", "descript"],
+  "references": [
+    {
+      "title": "I tested 11 of the best stem separation tools",
+      "url": "https://www.musicradar.com/music-tech/i-tested-11-of-the-best-stem-separation-tools-and-you-might-already-have-the-winner-in-your-daw",
+      "source": "MusicRadar",
+      "kind": "comparison"
+    }
+  ]
 }

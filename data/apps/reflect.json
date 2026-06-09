@@ -16,9 +16,38 @@
   },
   "tags": ["notes", "backlinks", "encrypted", "second-brain"],
   "links": [
-    { "kind": "website", "url": "https://reflect.app", "primary": true },
-    { "kind": "pricing", "url": "https://reflect.app/pricing" }
+    {
+      "kind": "website",
+      "url": "https://reflect.app",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://reflect.app/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "One of the few note apps pairing genuine end-to-end encryption with a capable cloud AI assistant.",
+  "pros": [
+    "End-to-end encrypted notes",
+    "Backlinked graph + fast sync",
+    "GPT + Whisper writing/voice help",
+    "Calendar and web/Kindle clipping"
+  ],
+  "cons": [
+    "Paid only, no free tier",
+    "Smaller ecosystem than Obsidian",
+    "Cloud-based, not local-first"
+  ],
+  "bestFor": ["Privacy-conscious users", "Networked-thought notes", "Second brain"],
+  "alternatives": ["mem", "notion-ai", "taskade"],
+  "references": [
+    {
+      "title": "Obsidian vs Reflect.app: Which Note-Taking App is Best",
+      "url": "https://pjfp.com/obsidian-vs-reflect-app-which-note-taking-app-is-best-for-your-workflow/",
+      "source": "PJFP",
+      "kind": "comparison"
+    }
+  ]
 }

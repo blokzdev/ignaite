@@ -2,13 +2,16 @@ import Link from "next/link";
 import {
   ArrowUpRight,
   BookOpen,
+  Check,
   ExternalLink,
   Globe,
   MessageCircle,
+  Minus,
   Play,
   Smartphone,
   Sparkles,
   Tag,
+  Target,
   Terminal,
 } from "lucide-react";
 import type { ComponentType, ReactElement } from "react";
@@ -16,8 +19,9 @@ import { AccuracyNote } from "@/components/tools/accuracy-note";
 import { DetailShell } from "@/components/detail/detail-shell";
 import { JsonLd } from "@/components/seo/json-ld";
 import { RelatedRail } from "@/components/tools/related-rail";
+import { ShowMore } from "@/components/tools/show-more";
 import { ToolCard } from "@/components/tools/tool-card";
-import { relatedApps } from "@/lib/apps";
+import { alternativeApps, relatedApps } from "@/lib/apps";
 import { siteUrl } from "@/lib/seo";
 import { licenseSignal } from "@/lib/tools/license";
 import type {
@@ -122,7 +126,12 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
     .toUpperCase();
   const isArchived = app.status === "archived";
   const license = licenseSignal(app);
-  const related = relatedApps(app.slug, 10);
+  // The single "what else to consider" rail is curated-aware: hand-picked
+  // `alternatives` (editorial, may cross categories) take over when present,
+  // otherwise the derived same-category "Related" list is the fallback.
+  const alternatives = alternativeApps(app);
+  const railApps = alternatives.length > 0 ? alternatives : relatedApps(app.slug, 10);
+  const railTitle = alternatives.length > 0 ? `Alternatives to ${app.name}` : undefined;
   const accent = app.accentColor ?? "var(--color-accent)";
 
   return (
@@ -212,11 +221,74 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </aside>
       )}
 
-      {/* Description */}
-      <article className="mt-12 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
+      {/* Edge — the comparative signal: why pick this over its category peers.
+          Paired with AI insight but tinted ember to read as a distinct signal. */}
+      {app.edge && (
+        <aside className="mt-4 flex items-start gap-3 rounded-2xl bg-[var(--color-flame)]/[0.06] p-5 ring-1 ring-[var(--color-flame)]/20 ring-inset">
+          <Target aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-flame)]" />
+          <div>
+            <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-flame)] uppercase">
+              The edge
+            </p>
+            <p className="mt-1.5 text-base leading-relaxed text-[var(--color-ink)]">{app.edge}</p>
+          </div>
+        </aside>
+      )}
+
+      {/* Description — clamped with a Show more/less reveal when it runs long
+          (the full text stays in the DOM for SEO + screen readers). */}
+      <ShowMore className="mt-12 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
         <p>{app.description}</p>
         {app.longDescription && <p className="mt-4">{app.longDescription}</p>}
-      </article>
+      </ShowMore>
+
+      {/* Pros & Cons — the honest, balanced read. Either column may be present
+          on its own; the grid collapses to one column when so. */}
+      {((app.pros && app.pros.length > 0) || (app.cons && app.cons.length > 0)) && (
+        <section className="mt-12">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+            Pros &amp; cons
+          </p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            {app.pros && app.pros.length > 0 && (
+              <div className="rounded-2xl bg-[var(--color-success)]/[0.06] p-5 ring-1 ring-[var(--color-success)]/15 ring-inset">
+                <ul className="flex flex-col gap-2.5">
+                  {app.pros.map((p) => (
+                    <li
+                      key={p}
+                      className="flex items-start gap-2.5 text-sm text-[var(--color-ink)]"
+                    >
+                      <Check
+                        aria-hidden
+                        className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-success)]"
+                      />
+                      {p}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {app.cons && app.cons.length > 0 && (
+              <div className="rounded-2xl bg-[var(--color-warn)]/[0.06] p-5 ring-1 ring-[var(--color-warn)]/15 ring-inset">
+                <ul className="flex flex-col gap-2.5">
+                  {app.cons.map((c) => (
+                    <li
+                      key={c}
+                      className="flex items-start gap-2.5 text-sm text-[var(--color-ink)]"
+                    >
+                      <Minus
+                        aria-hidden
+                        className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-warn)]"
+                      />
+                      {c}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Model support */}
       {app.modelSupport && (
@@ -266,6 +338,25 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </ul>
       </section>
 
+      {/* Best for — use-case / audience descriptors. */}
+      {app.bestFor && app.bestFor.length > 0 && (
+        <section className="mt-10">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+            Best for
+          </p>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {app.bestFor.map((b) => (
+              <li
+                key={b}
+                className="rounded-full bg-[var(--color-accent)]/[0.08] px-3 py-1 text-sm text-[var(--color-ink)] ring-1 ring-[var(--color-accent)]/20 ring-inset"
+              >
+                {b}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {/* Tags */}
       {app.tags && app.tags.length > 0 && (
         <section className="mt-10">
@@ -279,6 +370,44 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
                 className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)]/90"
               >
                 #{t}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* Further reading — curated third-party coverage (independent of the
+          vendor): reviews, guides, benchmarks, comparisons. */}
+      {app.references && app.references.length > 0 && (
+        <section className="mt-10">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+            Further reading
+          </p>
+          <ul className="mt-3 flex flex-col divide-y divide-white/[0.06] overflow-hidden rounded-2xl ring-1 ring-white/[0.06] ring-inset">
+            {app.references.map((ref) => (
+              <li key={ref.url}>
+                <Link
+                  href={ref.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-start gap-3 bg-white/[0.02] p-4 transition-colors hover:bg-white/[0.05]"
+                >
+                  <BookOpen
+                    aria-hidden
+                    className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-ink-dim)]"
+                  />
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-sm text-[var(--color-ink)] group-hover:text-[var(--color-accent)]">
+                      {ref.title}
+                    </span>
+                    {(ref.source || ref.kind) && (
+                      <span className="mt-0.5 block font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
+                        {[ref.source, ref.kind].filter(Boolean).join(" · ")}
+                      </span>
+                    )}
+                  </span>
+                  <ArrowUpRight className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-ink-dim)] group-hover:text-[var(--color-accent)]" />
+                </Link>
               </li>
             ))}
           </ul>
@@ -322,12 +451,14 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </p>
       )}
 
-      {/* Related — horizontal rail mirroring the homepage featured carousel. The
+      {/* Alternatives / Related — one curated-aware rail: hand-picked
+          `alternatives` ("Alternatives to <name>", may cross categories) when
+          present, else the derived same-category "Related in <category>". The
           ToolCard slots render server-side and pass into the client rail as
           children, keeping ToolCard off this route's client bundle (§6). */}
-      {related.length > 0 && (
-        <RelatedRail categoryLabel={CATEGORY_LABEL[app.category]}>
-          {related.map((r) => (
+      {railApps.length > 0 && (
+        <RelatedRail categoryLabel={CATEGORY_LABEL[app.category]} title={railTitle}>
+          {railApps.map((r) => (
             <li key={r.slug} className="flex w-[320px] shrink-0 snap-start sm:w-[380px]">
               <ToolCard app={r} />
             </li>

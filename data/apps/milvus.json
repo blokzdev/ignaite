@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Storage/compute split plus DiskANN make it the most robust open-source choice at billion-vector scale.",
+  "pros": [
+    "Scales to billion-vector deployments",
+    "Storage/compute separation",
+    "Many index types (HNSW, IVF, DiskANN) + GPU",
+    "Apache-2.0, strong community"
+  ],
+  "cons": [
+    "Operationally heavy to self-host",
+    "Overkill for small workloads",
+    "Performance hinges on data quality",
+    "Higher latency than Qdrant at p50"
+  ],
+  "bestFor": ["Billion-scale similarity search", "Large RAG and recsys", "Self-hosted teams"],
+  "alternatives": ["qdrant", "weaviate", "pinecone", "chroma"]
 }

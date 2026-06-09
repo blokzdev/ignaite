@@ -37,5 +37,19 @@
       "kind": "fixed",
       "summary": "Recategorized from image-gen to the new design category for brand/graphic design tooling."
     }
-  ]
+  ],
+  "edge": "Built on in-house segmentation models and tuned for e-commerce catalog work, not general photo editing.",
+  "pros": [
+    "Strong background removal and product staging",
+    "Batch exports and marketplace templates",
+    "API for generating commerce visuals at scale",
+    "Web plus iOS/Android"
+  ],
+  "cons": [
+    "Narrow focus on product photography",
+    "Best features need a subscription",
+    "Cloud-only processing"
+  ],
+  "bestFor": ["Product photos", "Marketplace sellers", "Catalog at scale"],
+  "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"]
 }
