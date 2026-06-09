@@ -4,7 +4,11 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
 interface Props {
+  /** Derived fallback label → renders "Related in <categoryLabel>". */
   categoryLabel: string;
+  /** When set (curated `alternatives`), overrides the heading entirely, e.g.
+   *  "Alternatives to <name>". */
+  title?: string;
   /** Server-rendered `<li>` card slots — kept off the client bundle (§6). */
   children: ReactNode;
 }
@@ -18,7 +22,7 @@ const GAP = 20; // gap-5
 // same-category list. The card slots are passed in as server-rendered children
 // so ToolCard stays out of this route's client bundle. (If a third rail appears,
 // extract a shared <CardRail>; not worth the abstraction for two.)
-export function RelatedRail({ categoryLabel, children }: Readonly<Props>) {
+export function RelatedRail({ categoryLabel, title, children }: Readonly<Props>) {
   const reduced = useReducedMotion();
   const scrollerRef = useRef<HTMLUListElement | null>(null);
   const [canLeft, setCanLeft] = useState(false);
@@ -62,7 +66,7 @@ export function RelatedRail({ categoryLabel, children }: Readonly<Props>) {
           id="related-heading"
           className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase"
         >
-          Related in {categoryLabel}
+          {title ?? `Related in ${categoryLabel}`}
         </p>
         {/* Desktop arrows — touch scrolls/swipes natively. */}
         <div className="hidden items-center gap-2 sm:flex">

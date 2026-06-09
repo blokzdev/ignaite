@@ -210,10 +210,37 @@ export const APP_CHANGE_KINDS: ReadonlyArray<ChangeKind> = [
   "relisted",
 ];
 
+// Classification for a third-party `reference` (independent, non-vendor coverage
+// of a listing): an editorial review, a how-to guide, a benchmark, a head-to-head
+// comparison, a founder/maker interview, or a deeper analysis.
+export type ReferenceKind =
+  | "review"
+  | "guide"
+  | "benchmark"
+  | "comparison"
+  | "interview"
+  | "analysis";
+
+export const REFERENCE_KINDS: ReadonlyArray<ReferenceKind> = [
+  "review",
+  "guide",
+  "benchmark",
+  "comparison",
+  "interview",
+  "analysis",
+];
+
 // The record SHAPES (App, AppLink, ModelSupport, AppScreenshot, ChangeEntry) are
 // derived from the single source of truth — the zod schema in `lib/apps-schema.ts`
 // — and re-exported here so every existing `@/types/app` import keeps working. To
 // change a field, edit the schema (not this file); Velite validates every
 // `data/apps/*.json` against it at build. The enum unions + value tuples above
 // stay here because they're client-safe (zod-free) and reused by the filter UI.
-export type { App, AppLink, ModelSupport, AppScreenshot, ChangeEntry } from "@/lib/apps-schema";
+export type {
+  App,
+  AppLink,
+  ModelSupport,
+  AppScreenshot,
+  ChangeEntry,
+  Reference,
+} from "@/lib/apps-schema";

@@ -45,6 +45,19 @@ export function relatedApps(slug: string, limit = 4): ReadonlyArray<App> {
     .slice(0, limit);
 }
 
+/**
+ * Curated alternatives: resolve an app's hand-picked `alternatives` slugs to the
+ * live `App` records, preserving editorial order and dropping any that are
+ * missing or archived. Velite's complete() hook already guarantees the slugs
+ * exist + aren't self-refs at build time; this just hydrates them for the rail.
+ */
+export function alternativeApps(app: App): ReadonlyArray<App> {
+  if (!app.alternatives?.length) return [];
+  return app.alternatives
+    .map((slug) => getApp(slug))
+    .filter((a): a is App => !!a && (a.status ?? "active") !== "archived");
+}
+
 function matchApp(a: App, query: string): boolean {
   const haystack = [
     a.name,

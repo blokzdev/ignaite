@@ -45,6 +45,18 @@ export default defineConfig({
         `Duplicate sponsored id(s) across data/sponsored/*.json: ${dupIds.join(", ")}`,
       );
     }
+    // Curated `alternatives` reference other listings by slug — per-file schema
+    // validation can't see across files, so verify here that every referenced
+    // slug exists and isn't a self-reference. A typo'd/stale slug fails the build.
+    const slugSet = new Set(apps.map((a) => a.slug));
+    for (const a of apps) {
+      const bad = (a.alternatives ?? []).filter((s) => s === a.slug || !slugSet.has(s));
+      if (bad.length) {
+        throw new Error(
+          `App "${a.slug}": alternatives reference missing/self slug(s): ${bad.join(", ")}`,
+        );
+      }
+    }
     // After the full collection is written, derive a SLIM search index for the
     // client command palette so it ships only the 5 fields it renders — not all
     // ~125 full records. The palette imports `@/.velite/apps-search.json`.
