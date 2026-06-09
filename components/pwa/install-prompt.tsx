@@ -47,7 +47,7 @@ export function InstallPrompt() {
           aria-label={`Install ${brand.name}`}
           className="fixed bottom-0 left-1/2 z-50 w-full max-w-sm -translate-x-1/2 px-4 pb-[calc(1rem+env(safe-area-inset-bottom))] sm:max-w-md md:right-4 md:left-auto md:translate-x-0"
         >
-          <div className="glass relative flex items-start gap-4 rounded-2xl p-4 shadow-[0_18px_50px_-12px_rgba(0,0,0,0.7)]">
+          <div className="relative flex items-start gap-4 rounded-2xl bg-[var(--color-surface)] p-4 shadow-[0_18px_50px_-12px_rgba(0,0,0,0.7)] ring-1 ring-white/[0.08]">
             <span
               aria-hidden="true"
               className="grid size-11 shrink-0 place-items-center rounded-xl bg-white/[0.04] ring-1 ring-white/[0.08]"
