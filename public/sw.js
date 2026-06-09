@@ -1,0 +1,103 @@
+// Ignaite service worker — hand-rolled, dependency-free (CLAUDE.md §11: no new
+// dep / no next.config change). Its job is twofold:
+//   1. Satisfy Chrome's installability criteria (a SW with a fetch handler) so
+//      our custom install prompt fires reliably instead of the flaky native one.
+//   2. Provide an offline app shell + a branded /offline fallback.
+//
+// Caching strategy (kept intentionally small):
+//   • navigations  → network-first, fall back to cached page, then /offline
+//   • static assets→ stale-while-revalidate (instant, refreshed in background)
+//   • everything else (cross-origin, analytics, POST/server actions) → passthrough
+//
+// Bump CACHE to invalidate every cache on the next activation.
+const CACHE = "ignaite-shell-v1";
+
+// App shell precached on install. Keep this lean — just the entry route, the
+// offline fallback, and the manifest. Hashed /_next/static assets are picked up
+// lazily by the stale-while-revalidate path below.
+const PRECACHE_URLS = ["/", "/offline", "/manifest.webmanifest"];
+
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    caches
+      .open(CACHE)
+      // addAll is atomic; if one URL 404s the whole install fails, so keep the
+      // list to routes we know resolve. `ignore: a single failure shouldn't
+      // brick the SW` — guard each add instead of a strict addAll.
+      .then((cache) =>
+        Promise.allSettled(PRECACHE_URLS.map((url) => cache.add(url))),
+      )
+      .then(() => self.skipWaiting()),
+  );
+});
+
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches
+      .keys()
+      .then((keys) =>
+        Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))),
+      )
+      .then(() => self.clients.claim()),
+  );
+});
+
+// Static assets we serve stale-while-revalidate: Next build output, our dynamic
+// icon routes, fonts, and same-origin images.
+function isStaticAsset(url) {
+  return (
+    url.pathname.startsWith("/_next/static/") ||
+    url.pathname.startsWith("/icon") ||
+    url.pathname.startsWith("/apple-icon") ||
+    url.pathname.startsWith("/pwa-icon") ||
+    url.pathname.startsWith("/pwa-screenshot") ||
+    /\.(?:js|css|woff2?|png|jpg|jpeg|svg|webp|avif|ico)$/.test(url.pathname)
+  );
+}
+
+self.addEventListener("fetch", (event) => {
+  const { request } = event;
+
+  // Only ever touch GET; let POST (contact server action), etc. hit the network.
+  if (request.method !== "GET") return;
+
+  const url = new URL(request.url);
+
+  // Leave cross-origin (analytics, fonts CDNs we don't control) alone.
+  if (url.origin !== self.location.origin) return;
+
+  // Navigations → network-first with an offline fallback.
+  if (request.mode === "navigate") {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          // Cache a copy of the freshly fetched page for next-time offline.
+          const copy = response.clone();
+          caches.open(CACHE).then((cache) => cache.put(request, copy));
+          return response;
+        })
+        .catch(async () => {
+          const cache = await caches.open(CACHE);
+          return (await cache.match(request)) || (await cache.match("/offline")) || Response.error();
+        }),
+    );
+    return;
+  }
+
+  // Static assets → stale-while-revalidate.
+  if (isStaticAsset(url)) {
+    event.respondWith(
+      caches.open(CACHE).then(async (cache) => {
+        const cached = await cache.match(request);
+        const network = fetch(request)
+          .then((response) => {
+            if (response && response.status === 200) cache.put(request, response.clone());
+            return response;
+          })
+          .catch(() => cached);
+        return cached || network;
+      }),
+    );
+  }
+  // Anything else: default browser handling (no respondWith).
+});

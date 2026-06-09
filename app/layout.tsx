@@ -7,6 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { LenisProvider } from "@/components/effects/lenis-provider";
 import { NoiseOverlay } from "@/components/effects/noise-overlay";
 import { ReducedMotionProvider } from "@/components/effects/reduced-motion-provider";
+import { PwaProvider } from "@/components/pwa/pwa-provider";
 import { JsonLd } from "@/components/seo/json-ld";
 import { brand } from "@/data/brand";
 import { buildMetadata, siteUrl } from "@/lib/seo";
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <NoiseOverlay />
           </LenisProvider>
         </ReducedMotionProvider>
+        <PwaProvider />
         <Analytics />
         <SpeedInsights />
         <JsonLd

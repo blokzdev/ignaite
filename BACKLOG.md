@@ -44,6 +44,16 @@ Things that would make the site feel more "us" before the world sees it.
 
 Anything in this section is explicitly safe to defer to after v2 goes live.
 
+### PWA
+
+> The PWA ships with a hand-rolled service worker (`public/sw.js`), a custom bottom install
+> prompt (`components/pwa/*`, `hooks/use-install-prompt.ts`), manifest shortcuts/screenshots,
+> and an `/offline` fallback. These extend it further.
+
+- [ ] **[future]** Revisit **Serwist / Workbox** (`@serwist/next`) if caching needs outgrow the hand-rolled shell SW (precise revisioning, richer runtime strategies, background sync). Gated by CLAUDE.md §11 — requires a new dependency **and** a `next.config.ts` change, so it needs explicit sign-off.
+- [ ] **[future]** Aggressive offline — runtime-cache visited `/apps/<slug>` pages + the slim directory search JSON (`@/.velite` `apps-search.json`) so installed users can browse listings offline. More cache-invalidation surface; pair with a SW version bump strategy.
+- [ ] **[debt]** The Sonner `<Toaster>` (`components/ui/toaster.tsx`) is **never mounted** in the tree, so `toast()` calls (e.g. in `components/tools/tools-browser.tsx`) are currently no-ops. Either mount `<Toaster/>` in `app/layout.tsx` or remove the dead toast calls. (Out of scope for the PWA work, which uses a bespoke banner — recorded here so it isn't lost.)
+
 ### Workflow
 
 > **Status: `/workflow` is DORMANT (unpublished).** Iteration 5, out-of-sequence product-direction
