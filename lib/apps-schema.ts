@@ -104,12 +104,14 @@ export const appSchema = z
     description: z.string().min(1),
     /** Optional richer prose for the detail page. */
     longDescription: z.string().optional(),
-    /** The directory's signature signal: a single, Claude-authored editorial
-     *  observation surfaced while researching the listing. Quality bar
-     *  (enforced by the authoring routines): ≤140 chars, one sentence, a
-     *  *non-obvious, verifiable* fact — how it differs from peers, a licensing
-     *  nuance, an architectural quirk — NOT a re-pitch of the tagline. Never
-     *  fabricate; if nothing sharp is verifiable, omit it. */
+    /** "Worth knowing" — the directory's signature signal: ONE verifiable,
+     *  non-obvious FACT the description doesn't carry, surfaced while researching
+     *  the listing. Quality bar (enforced by the authoring routines): ≤140 chars,
+     *  one sentence, a fact such as an acquisition/funding event, origin/lineage,
+     *  a licensing nuance, a pivot/rename, a rare/unusual capability, or a notable
+     *  "first"/standing. NEVER comparative (that's `edge`) and NEVER a restatement
+     *  of what it does (that's `description`/`tagline`). Never fabricate; omit if
+     *  no sharp fact verifies (coverage is intentionally partial, not universal). */
     insight: z.string().max(140, "insight must be ≤140 chars").optional(),
     category: z.enum(literals<AppCategory>(APP_CATEGORIES)),
     /** Cost model only — license/openness is the separate `openSource` flag. */

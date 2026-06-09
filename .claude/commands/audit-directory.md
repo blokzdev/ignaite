@@ -38,15 +38,17 @@ For each entry in scope:
     **`deployment`** correct (`cloud`/`self-host`/`local`/`hybrid`, where it's a real axis).
   - **Platforms** + **model support** still accurate (new mobile app? dropped a platform? model rename?).
   - **Still operating** — not shut down, sunset, or fully absorbed into another product.
-  - **`insight` still true** — the editorial one-liner hasn't gone stale (a rename happened, a licence
-    flipped, the "only one that…" claim no longer holds). Rewrite it if reality moved.
+  - **`insight` ("Worth knowing") still true** — the fact hasn't gone stale (the acquisition closed,
+    the rename completed, a "first" no longer holds). Rewrite if reality moved; if it has drifted into a
+    description paraphrase or a re-statement of `edge`, sharpen it to a real fact or drop it.
   - **`references` resolve** — if present, link-check each third-party reference URL (403 anti-bot OK;
     404/dead → drop or replace). Confirm an `edge`/`cons` claim hasn't gone stale (a gap the app has
     since closed, a differentiator a competitor matched).
 - **Backfill:** if an entry is missing `openSource`/`deployment` and the value is verifiable, add it
   (this is how full coverage of those facets completes itself over the weekly cycle). Leave
-  `deployment` unset for pure libraries/SDKs/extensions. Likewise, if an entry has no `insight`, author
-  one (≤140 chars, non-obvious, verifiable — see `add-app.md`) so coverage stays at 100%. **Also backfill
+  `deployment` unset for pure libraries/SDKs/extensions. Likewise, if an entry has no `insight` and a
+  sharp fact verifies, author the "Worth knowing" fact (≤140 chars — see `add-app.md`); otherwise leave
+  it unset (coverage is intentionally partial — a real fact or nothing). **Also backfill
   the "honest brief" fields** — `edge`, `pros`, `cons`, `bestFor`, `alternatives`, `references` (specs in
   `add-app.md`) — where research surfaces verifiable content. Same no-fabrication bar: `references` are
   verify-or-omit (real third-party URLs only); `alternatives` must be existing slugs; never invent a

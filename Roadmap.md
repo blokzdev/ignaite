@@ -58,7 +58,8 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | N-1   | Taxonomy v2 — +16 categories, one label map, hide empty chips (foundation)             | #117      | ✅     |
 | N-2/3 | Taxonomy v2 — populate all 16 new categories (+101 apps, 16 re-files)                  | #118      | ✅     |
 | N-4   | Taxonomy docs/routine alignment — _folded into Chunk O_                                | —         | ✅     |
-| O     | Listing enrichment — the "honest brief" (5 fields) + full backfill of all 388          | —         | 🟦     |
+| O-1   | Listing enrichment — the "honest brief" (5 fields) + full backfill of all 388          | #119      | ✅     |
+| O-2   | Repurpose `insight` → "Worth Knowing" fact (relabel + re-author the redundant ~45%)    | —         | 🟦     |
 
 ---
 
@@ -303,6 +304,15 @@ N-4 taxonomy doc fixes) + full backfill of 388 via parallel agents (patch-file �
 existing fields are never touched). Coverage: edge/pros/cons/bestFor 100%, alternatives ~385/388,
 references ~68 (best-effort, link-checked). Quality bar over completeness — fields omitted, never
 invented; one acquirer error (`lakera` Cisco→Check Point) corrected along the way.
+
+**O-2 — repurpose `insight` → "Worth Knowing".** Adding `edge` (O-1) collided with the older `insight`
+field: a sample found ~45% of insights paraphrased the description or duplicated `edge`, while the good
+~55% were all verifiable FACTS. O-2 sharpens `insight` into a typed **"Worth knowing"** fact (one
+verifiable, non-obvious fact the description can't carry — acquisition/lineage/licensing/pivot/rare
+capability; never comparative, never a paraphrase), relabels the callout (Lightbulb icon; data key
+`insight` unchanged), re-authors the redundant ~45% (rewrite-to-fact or omit — coverage now
+intentionally partial), and rewords the brand/routine docs. Clean three-signal detail page: _what it
+is_ (`description`) · _a fact worth knowing_ (`insight`) · _why pick it_ (`edge`).
 
 ---
 
