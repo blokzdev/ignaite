@@ -1,0 +1,23 @@
+{
+  "slug": "akkio",
+  "insight": "Narrowed from general no-code ML to a media-agency analytics platform, tuning its forecasting and audience models for marketing data.",
+  "name": "Akkio",
+  "tagline": "No-code predictive analytics and forecasting for media and agency teams.",
+  "description": "A no-code AI platform for building predictive models, forecasts, and audience segments from business data. Users connect a CSV or live source like Salesforce, HubSpot, or Snowflake and build models through chat and drag-and-drop, then generate client-ready reports. Now focused on media agencies and marketing analytics use cases.",
+  "category": "analytics",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Akkio",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Builds its own ML models for prediction and forecasting; chat-driven exploration on top."
+  },
+  "tags": ["analytics", "predictive", "no-code", "forecasting"],
+  "links": [
+    { "kind": "website", "url": "https://www.akkio.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.akkio.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

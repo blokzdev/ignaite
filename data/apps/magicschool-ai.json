@@ -1,0 +1,29 @@
+{
+  "slug": "magicschool-ai",
+  "insight": "Splits its surface into 80+ teacher tools plus a separately governed set of student tools with admin dashboards and SSO for districts.",
+  "name": "MagicSchool AI",
+  "tagline": "AI platform of 80+ tools for teachers and students.",
+  "description": "An education platform offering more than 80 AI tools for teachers — lesson planning, worksheet and quiz generation, IEP drafting, and feedback — plus a separate set of student tools for writing feedback and tutoring. The free tier covers core planning tools for individual teachers, while paid plans add unlimited generations and Studio Mode. Enterprise plans bring district-wide access, admin dashboards, and SSO.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "MagicSchool AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model"
+  },
+  "tags": ["teacher-tools", "education", "lesson-planning", "k-12"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.magicschool.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.magicschool.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "luminance",
+  "insight": "Markets its models as \"Legal-Grade\" AI built by its own scientists, not a wrapper on one foundation model, and partnered with LexisNexis.",
+  "name": "Luminance",
+  "tagline": "Legal-Grade AI for contract review, negotiation, and management.",
+  "description": "Luminance is an AI platform that automates contract review, negotiation, and management across an organization. Its agents read and analyze documents, redline against playbooks, and surface risk for legal, compliance, and procurement teams. Sold as an enterprise platform with per-user, volume-based pricing.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Luminance",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses proprietary \"Legal-Grade\" models developed in-house alongside frontier LLMs."
+  },
+  "tags": ["legal", "contracts", "clm", "review", "enterprise"],
+  "links": [{ "kind": "website", "url": "https://www.luminance.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

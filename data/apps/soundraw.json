@@ -1,0 +1,23 @@
+{
+  "slug": "soundraw",
+  "insight": "Generate by picking mood, genre, and length then tweak sections — it composes from its own catalog, and tracks stay licensed for life.",
+  "name": "SOUNDRAW",
+  "tagline": "AI music generator for royalty-free, customizable background tracks.",
+  "description": "An AI music generator built for content creators: choose mood, genre, and length, then customize the arrangement section by section before exporting. All paid plans include a royalty-free commercial license covering video, podcasts, ads, and client work, and tracks generated while subscribed stay licensed for life. A higher tier adds streaming-platform distribution rights.",
+  "category": "music",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "SOUNDRAW",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Generates from SOUNDRAW's own models and music catalog; no user model selection."
+  },
+  "tags": ["music-generation", "royalty-free", "content-creators", "background-music"],
+  "links": [
+    { "kind": "website", "url": "https://soundraw.io", "primary": true },
+    { "kind": "pricing", "url": "https://soundraw.io/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

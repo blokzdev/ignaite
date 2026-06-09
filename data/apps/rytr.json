@@ -1,0 +1,23 @@
+{
+  "slug": "rytr",
+  "name": "Rytr",
+  "tagline": "Budget AI writing assistant with 40+ templates and tone matching.",
+  "description": "Rytr generates short-form content across 40+ use cases like emails, ad copy, and social captions, and can mirror a sample of your writing to match tone. It includes grammar checking, plagiarism checks, and a Chrome extension, positioned as a low-cost entry point to AI copywriting.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Rytr",
+  "platforms": ["web", "browser-extension"],
+  "insight": "It competes mainly on price — an entry paid tier well under most rivals — trading depth for an inexpensive unlimited-generation plan.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses third-party LLMs under the hood; specific models not published on the site."
+  },
+  "tags": ["copywriting", "short-form", "templates", "budget"],
+  "links": [
+    { "kind": "website", "url": "https://rytr.me", "primary": true },
+    { "kind": "pricing", "url": "https://rytr.me/#pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

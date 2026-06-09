@@ -1,0 +1,23 @@
+{
+  "slug": "hiddenlayer",
+  "insight": "Its runtime classifiers sit outside the model's inference path, so detection adds no latency to the model itself — unlike inline guardrails.",
+  "name": "HiddenLayer",
+  "tagline": "AI security platform: model scanning, runtime defense, and automated red-teaming.",
+  "description": "HiddenLayer's AISec Platform unifies AI supply-chain security, runtime detection and response, posture management, and automated red-teaming for generative, agentic, and predictive AI. Its Model Scanner inspects model files for malware and integrity issues, while AI Detection & Response monitors prompts and responses with deterministic classifiers.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "HiddenLayer",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Protects models across frameworks; provider-independent."
+  },
+  "tags": ["ai-detection-response", "model-scanning", "adversarial-ml", "red-teaming"],
+  "links": [
+    { "kind": "website", "url": "https://hiddenlayer.com", "primary": true },
+    { "kind": "docs", "url": "https://docs.hiddenlayer.ai" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

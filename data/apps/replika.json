@@ -1,0 +1,19 @@
+{
+  "slug": "replika",
+  "insight": "One of the oldest consumer AI companions (2017); its NSFW roleplay was removed in 2023 then restored after backlash, and Italy fined it €5M.",
+  "name": "Replika",
+  "tagline": "An AI companion that learns your personality through ongoing conversation.",
+  "description": "A long-running consumer AI companion app you customize as a friend, mentor, or partner, with a persistent avatar and memory of past chats. The free tier supports unlimited text chat; Pro unlocks voice/video calls, relationship roles, and additional personality traits.",
+  "category": "companion",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Luka, Inc.",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["companion", "roleplay", "avatar", "consumer"],
+  "links": [
+    { "kind": "website", "url": "https://replika.com", "primary": true },
+    { "kind": "pricing", "url": "https://replika.com" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

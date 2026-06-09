@@ -4,7 +4,7 @@
   "name": "Sonauto",
   "tagline": "Free AI music generator that turns prompts, lyrics, or melodies into full songs.",
   "description": "Sonauto generates complete, radio-quality songs — vocals and instrumentals — from a text prompt, your own lyrics, or a hummed melody. It is powered by Melodia, the company's in-house music foundation model, and ships a developer API alongside the web app. A free tier is available with paid credit plans for higher volume and commercial use.",
-  "category": "audio",
+  "category": "music",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Sonauto",
@@ -28,5 +28,12 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from audio to the new dedicated music-generation category."
+    }
+  ]
 }

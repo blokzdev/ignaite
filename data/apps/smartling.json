@@ -1,0 +1,23 @@
+{
+  "slug": "smartling",
+  "insight": "Tiers content across AI Hub, AI Translation, and AI Human Translation — routing high-volume copy to machines and key copy to people.",
+  "name": "Smartling",
+  "tagline": "Enterprise AI translation and localization with optional human review.",
+  "description": "An enterprise localization platform combining a translation management system with AI translation and an in-house translator network. Content is tiered between fully automated AI translation and AI-plus-human review based on visibility and quality needs. Sold via custom enterprise quotes with platform fees plus per-word pricing.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Smartling",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI translation engines plus a managed human translation network."
+  },
+  "tags": ["localization", "enterprise", "translation-management", "human-review"],
+  "links": [
+    { "kind": "website", "url": "https://www.smartling.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.smartling.com/plans" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

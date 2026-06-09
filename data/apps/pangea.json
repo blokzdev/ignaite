@@ -1,0 +1,24 @@
+{
+  "slug": "pangea",
+  "insight": "Sells security as composable API services (AI Guard, Prompt Guard, audit log, redaction, authz), so you add guardrails with plain API calls.",
+  "name": "Pangea",
+  "tagline": "API-based security guardrails for AI apps: prompt injection, PII redaction, and access control.",
+  "description": "Pangea provides composable, API-first security services for AI applications. AI Guard and Prompt Guard defend against prompt injection, sensitive-data disclosure, and malicious content, alongside AI access control and visibility products. Pay-as-you-go with a free monthly balance, integrable via LiteLLM and Portkey.",
+  "category": "security",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Pangea",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Guardrail services sit in front of any LLM; provider-independent."
+  },
+  "tags": ["ai-guardrails", "prompt-injection", "pii-redaction", "api-security"],
+  "links": [
+    { "kind": "website", "url": "https://pangea.cloud", "primary": true },
+    { "kind": "docs", "url": "https://pangea.cloud/docs/" },
+    { "kind": "pricing", "url": "https://pangea.cloud/pricing/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

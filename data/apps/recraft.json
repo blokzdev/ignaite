@@ -4,7 +4,7 @@
   "name": "Recraft",
   "tagline": "Design-grade image + vector generation with brand consistency.",
   "description": "Image generator aimed at designers — raster and true vector (SVG) output, brand style sets, mockups, and precise control. Strong when assets need to ship into real design work.",
-  "category": "image-gen",
+  "category": "design",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Recraft",
@@ -23,5 +23,12 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from image-gen to the new design category for brand/graphic design tooling."
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "name": "Photoroom",
   "tagline": "AI photo editor and listing studio for product images.",
   "description": "An AI photo editor focused on product photography — background removal, product staging, virtual models, batch exports, and templates for marketplaces. Available on web and mobile, with an API for generating commerce visuals at scale. Built on the company's own image and segmentation models.",
-  "category": "image-gen",
+  "category": "design",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Photoroom",
@@ -30,5 +30,12 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from image-gen to the new design category for brand/graphic design tooling."
+    }
+  ]
 }

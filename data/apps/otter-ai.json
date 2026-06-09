@@ -4,7 +4,7 @@
   "name": "Otter.ai",
   "tagline": "AI meeting notetaker — live transcription, summaries, and AI chat for meetings.",
   "description": "Records and transcribes meetings in real time with speaker identification, then generates summaries and action items. An AI chat answers questions across your meeting history, and the Otter agent can join calls on Zoom, Google Meet, and Teams to take notes automatically.",
-  "category": "voice",
+  "category": "meeting",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Otter.ai",
@@ -22,5 +22,12 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
+    }
+  ]
 }

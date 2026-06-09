@@ -1,0 +1,24 @@
+{
+  "slug": "lex",
+  "name": "Lex",
+  "tagline": "AI-native collaborative document editor for serious writers.",
+  "description": "Lex is a clean, Google-Docs-style word processor with AI editing built in — feedback, brainstorming, rewriting, and AI commands alongside real-time collaboration and version history. It targets writers who want frontier models inside a focused writing surface rather than a chat sidebar.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Lex",
+  "platforms": ["web"],
+  "insight": "Founded by Nathan Baschez (Every/Substack lineage), it lets writers pick among premium models like Claude Opus/Sonnet and GPT in the doc.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT"],
+    "notes": "Pro tier exposes premium model choice; routes through OpenAI, Anthropic, and Together APIs."
+  },
+  "tags": ["writing", "document-editor", "collaboration", "drafting"],
+  "links": [
+    { "kind": "website", "url": "https://lex.page", "primary": true },
+    { "kind": "pricing", "url": "https://lex.page/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

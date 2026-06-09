@@ -1,0 +1,24 @@
+{
+  "slug": "notion-ai",
+  "name": "Notion AI",
+  "tagline": "AI teammate inside Notion: writing, workspace Q&A, agents, and meeting notes.",
+  "description": "Notion AI is the assistant built into the Notion workspace, drafting and editing content, answering questions across your pages and connected apps, taking AI meeting notes, and running custom agents on triggers or schedules. Enterprise Search reaches into Slack, Google Drive, and GitHub, and the Notion Agent can complete multi-step tasks with workspace context.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Notion Labs",
+  "platforms": ["web", "macos", "windows", "ios", "android"],
+  "insight": "It runs a multi-model picker (Claude among them) and treats models as swappable — when Anthropic models degraded in June 2026, it rerouted.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT"],
+    "notes": "Model picker routes across providers; full AI (Agent, Meeting Notes, Enterprise Search) lands on Business and Enterprise plans."
+  },
+  "tags": ["notes", "workspace", "agents", "meeting-notes"],
+  "links": [
+    { "kind": "website", "url": "https://www.notion.com/product/ai", "primary": true },
+    { "kind": "pricing", "url": "https://www.notion.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "figma-ai",
+  "insight": "Figma Make turns a prompt into working code, not just mockups — and its MCP server feeds design context to Cursor, VS Code, and Claude.",
+  "name": "Figma AI",
+  "tagline": "AI design and prompt-to-code built into Figma.",
+  "description": "Figma's AI layer for product design: First Draft generates editable layouts from a prompt, content tools fill real copy, and a canvas Design Agent edits via natural language. Figma Make turns prompts into working prototypes, and the Figma MCP server pipes design context into coding tools.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Figma",
+  "platforms": ["web", "macos", "windows"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Figma AI features are powered by a mix of third-party foundation models behind Figma's own product surface."
+  },
+  "tags": ["design", "ui-design", "prototyping", "prompt-to-code", "design-agent"],
+  "links": [
+    { "kind": "website", "url": "https://www.figma.com/ai/", "primary": true },
+    { "kind": "pricing", "url": "https://www.figma.com/pricing/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

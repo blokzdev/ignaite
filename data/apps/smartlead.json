@@ -1,0 +1,19 @@
+{
+  "slug": "smartlead",
+  "insight": "Bundles unlimited mailboxes and auto-warmup at every tier, so scaling cold outreach is gated by lead/send volume, not per-mailbox fees.",
+  "name": "Smartlead",
+  "tagline": "Cold email outreach at scale with unlimited mailboxes and built-in warmup.",
+  "description": "Smartlead is a cold email platform for running outbound campaigns with unlimited connected mailboxes, automated warmup, and deliverability tooling. It unifies replies in a master inbox and adds AI agents, lead verification, and a SmartDialer for multichannel outreach.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Five2One Products Pty Ltd",
+  "platforms": ["web", "ios", "android", "api"],
+  "tags": ["cold-email", "outbound", "deliverability", "sales", "outreach"],
+  "links": [
+    { "kind": "website", "url": "https://www.smartlead.ai", "primary": true },
+    { "kind": "pricing", "url": "https://www.smartlead.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

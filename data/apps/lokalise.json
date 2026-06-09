@@ -1,0 +1,24 @@
+{
+  "slug": "lokalise",
+  "insight": "Its AI splits into Standard and Pro tiers with smart LLM routing per string — cheap models for low-stakes copy, stronger where tone matters.",
+  "name": "Lokalise",
+  "tagline": "AI localization platform for software, app, and web strings.",
+  "description": "A translation management system built for software localization, with in-context editing, developer integrations, and AI-assisted translation. Lokalise AI routes strings across models — a Standard tier for everyday content and a Pro tier with context awareness and custom profiles for accuracy-sensitive copy. Manages glossaries, translation memory, and workflow across teams.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Lokalise",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Smart LLM routing across providers; Standard vs Pro AI tiers."
+  },
+  "tags": ["localization", "translation-management", "software", "i18n"],
+  "links": [
+    { "kind": "website", "url": "https://lokalise.com", "primary": true },
+    { "kind": "docs", "url": "https://docs.lokalise.com" },
+    { "kind": "pricing", "url": "https://lokalise.com/pricing/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

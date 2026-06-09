@@ -1,0 +1,23 @@
+{
+  "slug": "sudowrite",
+  "name": "Sudowrite",
+  "tagline": "AI writing partner built specifically for fiction and novelists.",
+  "description": "Sudowrite is an AI writing tool aimed at fiction authors, with a Story Bible for outlining, Write/Expand/Describe tools that draft in the author's voice, and a Canvas for plotting arcs and themes. Unlike general assistants, it is tuned for long-form creative narrative rather than business or marketing copy.",
+  "category": "writing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Sudowrite",
+  "platforms": ["web"],
+  "insight": "Its Story Bible feeds characters, worldbuilding, and outline into every generation, so drafts stay consistent across a novel.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Lets writers choose among underlying frontier models for generations."
+  },
+  "tags": ["fiction", "creative-writing", "novel", "storytelling"],
+  "links": [
+    { "kind": "website", "url": "https://www.sudowrite.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.sudowrite.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

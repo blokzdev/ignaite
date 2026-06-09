@@ -1,0 +1,23 @@
+{
+  "slug": "harvey",
+  "insight": "Sells exclusively via custom enterprise contracts with seat minimums and no public pricing — and counts 60+ AmLaw 100 firms as customers.",
+  "name": "Harvey",
+  "tagline": "Domain-specific AI for legal and professional services.",
+  "description": "Harvey is an AI platform built for law firms and corporate legal teams to research, analyze documents, and draft. It pairs an assistant and a secure document vault with purpose-built agents that execute complex legal work end to end. Sold through enterprise contracts rather than self-serve.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Harvey AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Built on frontier foundation models from multiple labs, tuned for legal work."
+  },
+  "tags": ["legal", "law-firms", "agents", "enterprise", "due-diligence"],
+  "links": [
+    { "kind": "website", "url": "https://www.harvey.ai", "primary": true },
+    { "kind": "pricing", "url": "https://www.harvey.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

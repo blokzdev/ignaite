@@ -1,0 +1,23 @@
+{
+  "slug": "hex",
+  "insight": "Its Notebook Agent works inside a real SQL/Python/R notebook, not a chat box — so AI analysis lands as editable, reproducible cells.",
+  "name": "Hex",
+  "tagline": "Agentic analytics notebook for SQL, Python, and R data teams.",
+  "description": "A collaborative data workspace combining SQL, Python, and R notebooks with shareable data apps. Its Notebook Agent and Magic AI generate queries, debug code, run exploratory analysis, and build visualizations as editable notebook cells. Built for data teams that need reproducible, governed analysis rather than one-off chat answers.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Hex Technologies",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI agent generates SQL/Python/R; runs across leading LLMs behind the product."
+  },
+  "tags": ["analytics", "notebook", "sql", "data-science"],
+  "links": [
+    { "kind": "website", "url": "https://hex.tech", "primary": true },
+    { "kind": "pricing", "url": "https://hex.tech/pricing/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

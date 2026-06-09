@@ -1,0 +1,24 @@
+{
+  "slug": "figure-ai",
+  "insight": "Its Helix vision-language-action model can drive two robots at once, and Figure pulled out of an OpenAI deal to build its in-house AI stack.",
+  "name": "Figure AI",
+  "tagline": "Humanoid robots powered by Helix, an in-house vision-language-action model.",
+  "description": "Figure AI builds general-purpose humanoid robots (Figure 01–03) driven by Helix, its proprietary vision-language-action model that fuses perception, language, and learned control. Figure 03, announced in 2025, targets the home and broader applications; earlier models were piloted in BMW's automotive manufacturing.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Figure AI",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Helix"],
+    "notes": "Proprietary VLA model running onboard the robot."
+  },
+  "tags": ["humanoid", "vla", "embodied-ai", "helix"],
+  "links": [
+    { "kind": "website", "url": "https://www.figure.ai", "primary": true },
+    { "kind": "video", "url": "https://www.figure.ai/helix" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

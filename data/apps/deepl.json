@@ -1,0 +1,24 @@
+{
+  "slug": "deepl",
+  "insight": "Runs its own in-house LLMs tuned solely for language, not a general model — but its next-gen model is gated to paid tiers, not the free API.",
+  "name": "DeepL",
+  "tagline": "AI translation and writing for text, documents, and apps via API.",
+  "description": "A translation service known for fluent, natural output across text, full documents, and a developer API. Pairs the consumer translator and DeepL Write with the DeepL API for adding translation to your own apps. Uses specialized in-house language models rather than a repurposed general-purpose LLM.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "DeepL SE",
+  "platforms": ["web", "ios", "android", "macos", "windows", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary in-house LLMs built specifically for translation; next-gen model is paid-tier only."
+  },
+  "tags": ["translation", "documents", "api", "localization"],
+  "links": [
+    { "kind": "website", "url": "https://www.deepl.com", "primary": true },
+    { "kind": "docs", "url": "https://developers.deepl.com" },
+    { "kind": "pricing", "url": "https://www.deepl.com/pro" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

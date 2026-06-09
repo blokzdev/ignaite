@@ -1,0 +1,23 @@
+{
+  "slug": "grammarly",
+  "name": "Grammarly",
+  "tagline": "AI writing assistant for grammar, tone, clarity, and generative drafting.",
+  "description": "Grammarly checks grammar, spelling, clarity, and tone across the apps you already write in, and layers generative AI on top for drafting, rewriting, and tone adjustment. It works as a browser extension, desktop app, mobile keyboard, and web editor, with detection for plagiarism and AI-generated text on paid tiers.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Grammarly",
+  "platforms": ["web", "browser-extension", "windows", "macos", "ios", "android"],
+  "insight": "It runs as a system-wide overlay across native apps and the browser, so the assistant follows you everywhere, not just one editor.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generative features are metered by monthly AI prompts; free tier includes a limited prompt allowance."
+  },
+  "tags": ["grammar", "editing", "tone", "writing-assistant"],
+  "links": [
+    { "kind": "website", "url": "https://www.grammarly.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.grammarly.com/plans" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

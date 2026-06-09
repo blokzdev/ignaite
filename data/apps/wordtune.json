@@ -1,0 +1,20 @@
+{
+  "slug": "wordtune",
+  "name": "Wordtune",
+  "tagline": "AI rewriting and paraphrasing assistant from AI21 Labs.",
+  "description": "Wordtune rewrites and paraphrases sentences with tone control, plus grammar correction, summarization of articles and videos, and a humanizer for AI-sounding text. It runs as a browser extension, web app, and iOS app, and integrates into tools like Gmail and Slack.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "AI21 Labs",
+  "platforms": ["web", "browser-extension", "ios"],
+  "insight": "The consumer writing product of AI21 Labs, maker of the Jurassic and Jamba LLM families — rare among writing tools in owning its models.",
+  "modelSupport": { "kind": "single-model", "notes": "Built on AI21 Labs' own language models." },
+  "tags": ["paraphrasing", "rewriting", "summarization", "editing"],
+  "links": [
+    { "kind": "website", "url": "https://www.wordtune.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.wordtune.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

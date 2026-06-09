@@ -1,0 +1,16 @@
+{
+  "slug": "kindroid",
+  "insight": "Differentiates on memory depth — multi-tier memory plus a Shared Journal the AI auto-updates after each chat — over the breadth Chai chases.",
+  "name": "Kindroid",
+  "tagline": "Deeply customizable AI companions with long-term memory, voice, and video calls.",
+  "description": "Kindroid lets you build AI companions with custom appearance, personality, and backstory, backed by a long-term memory system and an auto-updating Shared Journal. Paid tiers add voice and video calls, AI selfies, and multiple companions; a free Lite tier offers unlimited basic chat.",
+  "category": "companion",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Kindroid AI",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["companion", "roleplay", "memory", "voice"],
+  "links": [{ "kind": "website", "url": "https://kindroid.ai", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

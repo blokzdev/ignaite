@@ -1,0 +1,23 @@
+{
+  "slug": "basedash",
+  "insight": "Connects straight to your production SQL database (Postgres, Snowflake, BigQuery) and builds dashboards from plain English.",
+  "name": "Basedash",
+  "tagline": "AI-native BI that builds dashboards from plain-English questions.",
+  "description": "An AI-native business intelligence platform that connects directly to SQL databases and warehouses. Describe what you want in natural language and it generates the query, picks a chart type, and saves the result to a dashboard. Supports Postgres, MySQL, BigQuery, Snowflake, and 750+ data sources via built-in connectors.",
+  "category": "analytics",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Basedash",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Natural-language-to-SQL generation behind the dashboard builder."
+  },
+  "tags": ["analytics", "business-intelligence", "nl-to-sql", "dashboards"],
+  "links": [
+    { "kind": "website", "url": "https://www.basedash.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.basedash.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

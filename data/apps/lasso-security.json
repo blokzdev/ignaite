@@ -1,0 +1,23 @@
+{
+  "slug": "lasso-security",
+  "insight": "Lasso frames LLM security as a five-stage lifecycle (Discover, Assess, Test, Enforce, Protect) and sells it as one product, not add-ons.",
+  "name": "Lasso Security",
+  "tagline": "End-to-end GenAI security: shadow-AI discovery, red-teaming, and runtime guardrails.",
+  "description": "Lasso Security protects every LLM interaction across cloud and on-prem deployments, combining shadow-AI discovery, real-time threat detection, policy enforcement, and red-teaming with thousands of attack types. It deploys via gateway, API, or SDK to secure both internal LLM apps and employee use of third-party chatbots.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Lasso Security",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Gateway/SDK in front of any LLM; covers ChatGPT, Gemini, Claude."
+  },
+  "tags": ["llm-security", "shadow-ai", "guardrails", "red-teaming"],
+  "links": [
+    { "kind": "website", "url": "https://www.lasso.security", "primary": true },
+    { "kind": "docs", "url": "https://docs.lasso.security" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

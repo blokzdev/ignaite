@@ -1,0 +1,31 @@
+{
+  "slug": "khanmigo",
+  "insight": "Built to coach via Socratic questioning rather than give answers — and free for teachers, with the learner plan at $4/month.",
+  "name": "Khanmigo",
+  "tagline": "Khan Academy's AI tutor and teaching assistant.",
+  "description": "An AI-powered tutor and teaching assistant from Khan Academy that guides learners through math, science, coding, and the humanities. Rather than handing over answers, it uses Socratic prompts to push students toward their own reasoning. For teachers it drafts lesson plans, rubrics, and exit tickets aligned to Khan Academy's content library.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Khan Academy",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT"],
+    "notes": "Built on OpenAI GPT models."
+  },
+  "tags": ["tutoring", "education", "k-12", "teacher-tools"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.khanmigo.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.khanmigo.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

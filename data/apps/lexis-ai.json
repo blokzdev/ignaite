@@ -1,0 +1,26 @@
+{
+  "slug": "lexis-ai",
+  "insight": "Rebranded to Lexis+ with Protégé in early 2026, adding Shepard's citation verification to check that AI-generated citations actually exist.",
+  "name": "Lexis+ AI",
+  "tagline": "Generative AI legal research and drafting from LexisNexis.",
+  "description": "Lexis+ AI, now branded Lexis+ with Protégé, is LexisNexis's generative AI assistant for conversational legal research, document drafting, and analysis grounded in its primary-law and secondary-source collections. It uses Shepard's citation verification to flag unsupported citations and includes a secure document vault for large matters.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "LexisNexis",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses multiple LLMs with retrieval grounded in LexisNexis legal content."
+  },
+  "tags": ["legal", "research", "drafting", "citations", "lexisnexis"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

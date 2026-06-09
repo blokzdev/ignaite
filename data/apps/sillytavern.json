@@ -4,7 +4,7 @@
   "name": "SillyTavern",
   "tagline": "Self-hosted LLM chat frontend for power users, with characters and many backends.",
   "description": "A self-hosted, browser-based LLM frontend aimed at power users, with rich character cards, prompt control, extensions, and group chats. It runs as a local Node.js server on Windows, macOS, Linux, and Android (via Termux), connecting to many backends — OpenAI, Anthropic, plus local runtimes — using your own keys. Free and AGPL-3.0 licensed with no paid tier.",
-  "category": "assistant",
+  "category": "companion",
   "pricing": "byo-key",
   "openSource": true,
   "deployment": "self-host",
@@ -31,5 +31,12 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from assistant to the new companion category for character/roleplay AI."
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "slug": "rogo",
+  "insight": "Built by former bankers for high finance, its agent Felix produces real institutional outputs — auditable Excel models, CIMs, and memos.",
+  "name": "Rogo",
+  "tagline": "Agentic AI platform for investment banks and asset managers.",
+  "description": "Rogo is a generative AI platform built specifically for financial services — investment banks, private equity, and asset managers. Its agent Felix executes multi-step deal and investment work, producing auditable Excel models, investment memos, diligence materials, and slide decks. Used by tens of thousands of professionals at hundreds of institutions.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Rogo",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Finance-tuned agentic platform built on frontier LLMs."
+  },
+  "tags": ["fintech", "investment-banking", "financial-research", "agents", "private-equity"],
+  "links": [{ "kind": "website", "url": "https://rogo.ai", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

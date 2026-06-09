@@ -1,0 +1,21 @@
+{
+  "slug": "legora",
+  "insight": "Renamed from Leya, the Stockholm startup builds primarily on Anthropic's Claude and reached a $5.6B valuation as Harvey's main challenger.",
+  "name": "Legora",
+  "tagline": "Collaborative legal AI for research, review, and drafting.",
+  "description": "Legora is a legal AI workspace for law firms and in-house teams that handles multi-document review, legal research, and drafting across complex matters. Formerly known as Leya, it is built largely on Anthropic's Claude. Sold to enterprise legal teams on per-seat annual contracts.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Legora",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude"],
+    "notes": "Built primarily on Anthropic's Claude."
+  },
+  "tags": ["legal", "research", "review", "drafting", "enterprise"],
+  "links": [{ "kind": "website", "url": "https://legora.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

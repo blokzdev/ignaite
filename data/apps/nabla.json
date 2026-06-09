@@ -1,0 +1,16 @@
+{
+  "slug": "nabla",
+  "insight": "Ships Nabla Connect, a plug-and-play ambient-AI module made to drop into any EHR, positioning it as EHR-agnostic versus Epic-only scribes.",
+  "name": "Nabla",
+  "tagline": "An ambient AI assistant that drafts clinical notes from patient visits.",
+  "description": "Nabla is an ambient AI assistant that listens to patient visits (with consent) and generates structured clinical notes, with dictation and real-time coding support. It integrates with major EHRs, supports 35+ languages, and offers a plug-and-play module for connecting to any EHR. It is sold to health systems and provider groups.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Nabla",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["ambient-ai", "clinical-documentation", "ai-scribe", "ehr"],
+  "links": [{ "kind": "website", "url": "https://www.nabla.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

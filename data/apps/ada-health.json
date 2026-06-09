@@ -1,0 +1,16 @@
+{
+  "slug": "ada-health",
+  "insight": "Assesses answers against a physician-built knowledge base, not a general LLM, giving possible-cause and urgency guidance, not a diagnosis.",
+  "name": "Ada",
+  "tagline": "A free AI symptom checker that maps your symptoms to possible causes and next steps.",
+  "description": "Ada is a consumer symptom-assessment app that asks structured questions about your health, then returns a personalized report of possible causes, urgency level, and guidance on what to do next. It is free to use and positions itself as a triage aid, not a replacement for a clinician.",
+  "category": "healthcare",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Ada Health GmbH",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["symptom-checker", "triage", "consumer-health", "wellness"],
+  "links": [{ "kind": "website", "url": "https://ada.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

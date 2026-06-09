@@ -1,0 +1,23 @@
+{
+  "slug": "digits",
+  "insight": "In 2026 it shifted to outcome-based pricing — firms pay only once 95%+ of a client's transactions are zero-touch, not for software access.",
+  "name": "Digits",
+  "tagline": "AI-native general ledger for business owners and accountants.",
+  "description": "Digits is an AI-native accounting platform that automates bookkeeping, month-end close, bill pay, invoicing, and real-time reporting. Custom-trained agents handle 24/7 transaction categorization, accrual schedules, and reconciliations, while \"Ask Digits\" answers finance questions in natural language. Built for business owners and accounting firms.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Digits",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Custom-trained accounting models and agents."
+  },
+  "tags": ["accounting", "bookkeeping", "general-ledger", "fintech", "agents"],
+  "links": [
+    { "kind": "website", "url": "https://digits.com", "primary": true },
+    { "kind": "pricing", "url": "https://digits.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "surfer-seo",
+  "insight": "Its Content Editor scores drafts in real time against the live SERP, so optimization targets current top-ranking pages, not fixed rules.",
+  "name": "Surfer SEO",
+  "tagline": "Real-time content scoring and AI drafting benchmarked against the live SERP.",
+  "description": "Surfer SEO analyzes the top-ranking pages for a target keyword and gives writers a real-time Content Score covering topic coverage, terms, and structure. It adds Surfer AI for generating full optimized drafts and Grow Flow for prioritized weekly SEO tasks, integrating with Google Docs and WordPress.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Surfer (Surfer Sp. z o.o.)",
+  "platforms": ["web"],
+  "tags": ["seo", "content-optimization", "serp", "writing", "marketing"],
+  "links": [
+    { "kind": "website", "url": "https://surferseo.com", "primary": true },
+    { "kind": "pricing", "url": "https://surferseo.com/pricing/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
