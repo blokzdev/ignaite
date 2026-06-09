@@ -27,7 +27,7 @@
   ],
   "addedAt": "2026-06-09",
   "lastVerifiedAt": "2026-06-09",
-  "edge": "Deterministic runtime classifiers sit outside the inference path, adding no latency and surviving attacks that fool",
+  "edge": "Deterministic runtime classifiers sit outside the inference path, adding no latency and surviving attacks that fool the model.",
   "pros": [
     "Model-file malware/integrity scanning",
     "Out-of-path runtime detection",

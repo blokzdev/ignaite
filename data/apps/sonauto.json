@@ -36,7 +36,7 @@
       "summary": "Recategorized from audio to the new dedicated music-generation category."
     }
   ],
-  "edge": "Uses latent diffusion in continuous space, not an audio-token LM like most rivals",
+  "edge": "Uses latent diffusion in continuous space, not an audio-token LM like most rivals — pitched as fast, steerable full songs, plus an API.",
   "pros": [
     "Generates full songs with vocals",
     "Prompt, lyrics, or hummed-melody input",

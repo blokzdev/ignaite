@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-06-07",
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Deepest IDE + GitHub-native reach — runs in VS Code, JetBrains, Visual Studio, CLI, and ships a cloud agent that opens",
+  "edge": "Deepest IDE + GitHub-native reach — runs in VS Code, JetBrains, Visual Studio, CLI, and ships a cloud agent that opens PRs.",
   "pros": [
     "Works across most major IDEs",
     "GitHub-native PR/agent workflow",

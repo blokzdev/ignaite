@@ -66,8 +66,9 @@ Conventions (match existing entries):
   research; never fabricate; if nothing sharp is verifiable, omit it rather than pad. See the field's
   JSDoc in `types/app.ts`.
 - **Enrichment — the "honest brief"** (all optional; omit > fabricate; verify each; same discipline as `insight`):
-  - **`edge`** (≤120 chars) — the _comparative_ one-liner: what it does better than its category peers
-    ("why pick THIS one"). Comparative + specific; distinct from `insight`; omit if no clear edge.
+  - **`edge`** (≤160 chars) — the _comparative_ one-liner: what it does better than its category peers
+    ("why pick THIS one"). One complete sentence, comparative + specific; distinct from `insight`; omit
+    if no clear edge. (Author it to length — don't write long then truncate; a cut sentence loses its point.)
   - **`pros`** / **`cons`** (≤5 each, items ≤60 chars) — grounded strengths / honest limitations.
     Factual, non-marketing, never competitor-bashing. `cons` are the trust signal — never invent.
   - **`bestFor`** (≤4, items ≤32 chars) — use-case / audience descriptors ("Self-hosted teams").

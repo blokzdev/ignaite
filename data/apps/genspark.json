@@ -24,7 +24,7 @@
   ],
   "addedAt": "2026-06-07",
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Routes each task across multiple LLMs and 80+ tools, and its Super Agent can place real phone calls and return",
+  "edge": "Routes each task across multiple LLMs and 80+ tools, and its Super Agent can place real phone calls and return a transcript.",
   "pros": [
     "Autonomous multi-step Super Agent",
     "Builds slides, sheets, sites, video",

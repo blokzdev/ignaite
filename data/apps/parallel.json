@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-08",
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Built for agents, not humans: bills per request over a proprietary web index tuned for high-signal context.",
+  "edge": "Built for agents, not humans: bills per request over a proprietary index tuned for high-signal context, not click-ranked URLs.",
   "pros": [
     "Per-request pricing, not per-token",
     "Proprietary web index built for agents",

@@ -22,7 +22,7 @@
   ],
   "addedAt": "2026-06-08",
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Runs an iterative, citation-chasing agent for minutes per query to surface the relevant papers keyword search misses",
+  "edge": "Runs an iterative, citation-chasing agent for minutes per query to surface the relevant papers keyword search misses — completeness over speed.",
   "pros": [
     "Exhaustive citation-trail search",
     "Explains each result's relevance",

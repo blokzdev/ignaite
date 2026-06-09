@@ -34,7 +34,7 @@
   ],
   "addedAt": "2026-06-06",
   "lastVerifiedAt": "2026-06-06",
-  "edge": "Hand-written CUDA kernels roughly halve fine-tuning time and VRAM, so 7B–13B models train on a single consumer GPU",
+  "edge": "Hand-written CUDA kernels roughly halve fine-tuning time and VRAM, so 7B–13B models train on a single consumer GPU — free and Apache-2.0.",
   "pros": [
     "~2x faster training, big VRAM savings",
     "Fits larger models on one GPU",

@@ -47,7 +47,7 @@
   "bestFor": [
     "Conversation intelligence",
     "Accuracy-critical transcription",
-    "Developers building voice"
+    "Developers building voice products"
   ],
   "alternatives": ["deepgram", "elevenlabs", "cartesia"],
   "references": [

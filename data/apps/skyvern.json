@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-06-08",
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Drives sites with vision + LLMs instead of brittle selectors, so flows survive redesigns",
+  "edge": "Drives sites with vision + LLMs instead of brittle selectors, so flows survive redesigns — and you can self-host the AGPL engine.",
   "pros": [
     "Vision+LLM, no hand-written selectors",
     "Generalizes to unseen sites",

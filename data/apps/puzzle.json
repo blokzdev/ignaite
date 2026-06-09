@@ -27,7 +27,7 @@
   ],
   "addedAt": "2026-06-09",
   "lastVerifiedAt": "2026-06-09",
-  "edge": "AI-native general ledger that auto-categorizes up to 98% of transactions, so burn and runway update in real time.",
+  "edge": "AI-native general ledger that auto-categorizes up to 98% of transactions, so burn and runway update in real time, not at month-end.",
   "pros": [
     "AI-native ledger, built from scratch",
     "Auto-categorizes up to 98% of txns",

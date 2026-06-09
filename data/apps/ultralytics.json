@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-08",
   "lastVerifiedAt": "2026-06-08",
-  "edge": "The de-facto open-source real-time vision stack: YOLO11 does detection, segmentation, pose and tracking from one pip",
+  "edge": "The de-facto open-source real-time vision stack: YOLO11 does detection, segmentation, pose and tracking from one pip install.",
   "pros": [
     "Real-time inference on edge and GPU",
     "One API for detect/segment/pose/track",

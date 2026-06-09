@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-06-07",
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Trained only on licensed/public-domain data, so paid generations carry Adobe's IP indemnification",
+  "edge": "Trained only on licensed/public-domain data, so paid generations carry Adobe's IP indemnification — rare among image models.",
   "pros": [
     "Licensed training data, IP indemnification",
     "Built into Photoshop and Creative Cloud",

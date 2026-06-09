@@ -153,9 +153,10 @@ export const appSchema = z
     // ── Enrichment: the "honest brief" (all optional; omit > fabricate) ──────
     /** The comparative one-liner: what this app does *better than its category
      *  peers* — the "why pick this one". Distinct from `insight` (a non-obvious
-     *  fact); `edge` is explicitly comparative. ≤120 chars; omit if there's no
-     *  clear, verifiable differentiator. */
-    edge: z.string().max(120, "edge must be ≤120 chars").optional(),
+     *  fact); `edge` is explicitly comparative. One sentence, ≤160 chars (it
+     *  renders in a detail-page callout that wraps — looser than card-shown
+     *  `insight`); omit if there's no clear, verifiable differentiator. */
+    edge: z.string().max(160, "edge must be ≤160 chars").optional(),
     /** Verified, grounded strengths — short phrases, not marketing. Max 5. */
     pros: z
       .array(z.string().min(1).max(60, "each pro must be ≤60 chars"))
@@ -169,7 +170,7 @@ export const appSchema = z
       .optional(),
     /** Who/what it's best for — use-case or audience descriptors. Max 4. */
     bestFor: z
-      .array(z.string().min(1).max(32, "each bestFor must be ≤32 chars"))
+      .array(z.string().min(1).max(40, "each bestFor must be ≤40 chars"))
       .max(4, "at most 4 bestFor")
       .optional(),
     /** Curated head-to-head comparison set: app slugs a visitor should actually

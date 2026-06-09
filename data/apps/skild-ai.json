@@ -24,7 +24,7 @@
   ],
   "addedAt": "2026-06-09",
   "lastVerifiedAt": "2026-06-09",
-  "edge": "One ‘omni-bodied’ foundation model meant to control any robot it never trained on, via in-context adaptation.",
+  "edge": "One 'omni-bodied' foundation model meant to control any robot it never trained on, via in-context adaptation in the wild.",
   "pros": [
     "Single model targets many embodiments",
     "Pretrains on sim + internet human video",

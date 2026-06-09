@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-08",
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Built by the UK AI Security Institute and adopted by Anthropic, DeepMind, METR, and Apollo as a shared eval framework",
+  "edge": "Built by the UK AI Security Institute and adopted by Anthropic, DeepMind, METR, and Apollo as a shared eval framework; MIT.",
   "pros": [
     "Adopted across major safety labs",
     "Composable datasets/solvers/scorers",

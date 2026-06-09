@@ -45,6 +45,6 @@
     "No native approval workflow",
     "Outputs can look templated at volume"
   ],
-  "bestFor": ["Multi-language video", "Marketing/training video"],
+  "bestFor": ["Multi-language video localization", "Marketing/training video"],
   "alternatives": ["synthesia", "hedra", "tavus", "captions"]
 }

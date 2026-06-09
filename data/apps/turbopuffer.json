@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-05-13",
   "lastVerifiedAt": "2026-06-01",
-  "edge": "Indexes live on object storage, not RAM, so cost tracks usage not corpus size",
+  "edge": "Indexes live on object storage, not RAM, so cost tracks usage not corpus size — built for huge, mostly-cold vector workloads.",
   "pros": [
     "Object-storage economics, S3-like billing",
     "Scales to very large, cold corpora",

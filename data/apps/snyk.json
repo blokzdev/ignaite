@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-09",
   "lastVerifiedAt": "2026-06-09",
-  "edge": "DeepCode AI does inter-file data-flow SAST trained on 25M+ cases — symbolic+ML, not an LLM wrapper",
+  "edge": "DeepCode AI does inter-file data-flow SAST trained on 25M+ cases — symbolic+ML, not an LLM wrapper — with re-scanned autofixes.",
   "pros": [
     "Covers code, deps, containers, IaC",
     "DeepCode AI inter-file data-flow analysis",
