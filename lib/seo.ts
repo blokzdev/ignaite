@@ -55,6 +55,8 @@ export function buildMetadata({
     },
     alternates: { canonical: url },
     robots: { index: true, follow: true },
+    appleWebApp: { capable: true, title: brand.name, statusBarStyle: "black-translucent" },
+    formatDetection: { telephone: false },
   };
 }
 
