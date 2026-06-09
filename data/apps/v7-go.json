@@ -1,0 +1,26 @@
+{
+  "slug": "v7-go",
+  "insight": "Grounds every extracted field in a clickable citation back to the source document, so reviewers can audit each AI answer's provenance.",
+  "name": "V7 Go",
+  "tagline": "Agentic AI that automates document-heavy knowledge work and data extraction.",
+  "description": "An operational AI platform from V7 Labs that builds and runs agents over complex documents — extracting financial, legal, and commercial terms, completing DDQs, and generating memos with source traceability. It chains foundation models from OpenAI, Anthropic, and Google into multi-step, auditable workflows aimed at finance, insurance, legal, and real-estate teams.",
+  "category": "data-ops",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "V7 Labs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"]
+  },
+  "tags": ["document-ai", "data-extraction", "agents", "knowledge-work"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.v7labs.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

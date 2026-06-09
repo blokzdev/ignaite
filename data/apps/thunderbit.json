@@ -1,0 +1,30 @@
+{
+  "slug": "thunderbit",
+  "insight": "Its 'AI Suggest Fields' reads a page and proposes the columns to extract, so scraping needs no CSS selectors or XPath.",
+  "name": "Thunderbit",
+  "tagline": "AI web scraper that turns any page into structured data in two clicks.",
+  "description": "A no-code AI web scraper and automation agent that runs as a Chrome extension. It visually reads a page, suggests the fields to capture, and extracts structured rows with support for pagination, subpages, and bulk lists — exporting to Excel, Google Sheets, Airtable, or Notion. Built for lead lists, price monitoring, and research without writing selectors or code.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "vendor": "Thunderbit",
+  "platforms": ["browser-extension", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini", "DeepSeek"]
+  },
+  "tags": ["web-scraping", "data-extraction", "chrome-extension", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thunderbit.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://chromewebstore.google.com/detail/thunderbit-ai-web-scraper/hbkblmodhbmcakopmmfbaopfckopccgp",
+      "label": "Chrome Web Store"
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}

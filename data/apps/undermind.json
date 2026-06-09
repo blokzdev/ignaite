@@ -1,0 +1,25 @@
+{
+  "slug": "undermind",
+  "insight": "Runs an iterative, citation-chasing agent that reads hundreds of papers per query instead of ranking a single keyword list.",
+  "name": "Undermind",
+  "tagline": "AI deep-research agent that finds every relevant paper on a scientific question.",
+  "description": "A research-discovery platform that takes a natural-language question and autonomously searches, reads, and evaluates hundreds of academic papers — following citation trails and explaining each result's relevance, mimicking how an expert runs a literature review. Built by MIT quantum-physics PhDs and backed by Y Combinator; used by researchers at MIT, Harvard, and Caltech.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Undermind",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model"
+  },
+  "tags": ["research", "literature-search", "science", "deep-research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://undermind.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-08"
+}
