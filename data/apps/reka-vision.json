@@ -1,6 +1,6 @@
 {
   "slug": "reka-vision",
-  "insight": "From model lab Reka — turns large video libraries into natural-language search, reasoning, and auto-clipping, via API, MCP, or app.",
+  "insight": "Built by Reka, a 2022 lab of ex-DeepMind/Google/Meta researchers; $1B+ valuation in 2025 on a $110M Nvidia/Snowflake round.",
   "name": "Reka Vision",
   "tagline": "Multimodal platform to search, reason over, and clip large volumes of video.",
   "description": "Reka Vision is an enterprise multimodal system that indexes large image and video libraries so teams can search by meaning, ask timestamp-aware questions, and auto-generate highlights and clips. It is built by Reka, a frontier multimodal-model lab, and is available via API, an MCP server, or a hosted app. Access is sales-led (request a demo).",

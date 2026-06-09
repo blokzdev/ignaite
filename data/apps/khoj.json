@@ -1,6 +1,6 @@
 {
   "slug": "khoj",
-  "insight": "Lives inside the tools you already use — Obsidian, Emacs, desktop, mobile — as an AGPL second brain over your notes and the web.",
+  "insight": "Built by two ex-Microsoft engineers; went through Y Combinator (S23).",
   "name": "Khoj",
   "tagline": "Open-source AI second brain that chats with your docs and the web, local or hosted.",
   "description": "An open-source \"AI second brain\" for chatting with local or online models, searching across your personal documents and the internet, building custom agents, and automating research. Self-host it on your own machine, or use plugins for Obsidian, Emacs, desktop, and mobile. Licensed AGPL-3.0; a paid managed cloud tier also exists, so it's freemium.",

@@ -1,6 +1,6 @@
 {
   "slug": "warp",
-  "insight": "Began as a from-scratch Rust terminal and grew into a multi-agent dev environment — the command line reimagined as an agent surface.",
+  "insight": "Founded in 2020 by Zach Lloyd, the ex-Google engineer who built Google Sheets; raised a $50M Series B led by Sequoia in 2023.",
   "name": "Warp",
   "tagline": "Agentic development environment born out of the terminal.",
   "description": "A modern terminal and agent platform — multi-agent orchestration, codebase indexing, a built-in editor (Warp Code), and granular permission controls for running coding agents. Adds the Oz cloud layer for remote agent execution and team knowledge via Warp Drive. Free tier with monthly AI credits; paid Build/Max/Business plans add more credits and BYOK.",

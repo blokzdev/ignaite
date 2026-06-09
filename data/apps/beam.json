@@ -1,6 +1,6 @@
 {
   "slug": "beam",
-  "insight": "Open-core: its serverless GPU runtime is open-sourced as beam-cloud/beta9, while the managed cloud adds scaling and sandboxes on top.",
+  "insight": "A YC-backed startup that began in 2021 as Slai before becoming Beam; its beta9 runtime is AGPL-3.0.",
   "name": "Beam",
   "tagline": "On-demand serverless GPU compute for AI, from Python.",
   "description": "A serverless cloud for deploying AI inference endpoints, agent sandboxes, task queues, and containerized GPU workloads with a few lines of Python. It handles fast cold starts, autoscaling, and Docker-in-Docker execution across multiple cloud backends, and supports bring-your-own-compute. The Developer tier is free with recurring monthly credit; paid tiers add team features and scale, billed pay-as-you-go by GPU usage.",

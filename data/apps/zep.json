@@ -1,6 +1,6 @@
 {
   "slug": "zep",
-  "insight": "Built on its open-source Graphiti engine, it stores a temporal knowledge graph that versions how facts change over time, not flat snapshots.",
+  "insight": "A YC W24 startup; published a 2025 arXiv paper benchmarking its temporal knowledge-graph memory against prior agent-memory work.",
   "name": "Zep",
   "tagline": "Temporal knowledge-graph memory for AI agents.",
   "description": "Memory layer that gives agents long-term context by building a temporal knowledge graph from chat history and business data, tracking how facts evolve over time. It's powered by Graphiti, Zep's Apache-2.0 open-source temporal graph engine, with Zep Cloud offering a managed, credit-based service on top. Used to keep agent context relevant as conversations and data grow.",

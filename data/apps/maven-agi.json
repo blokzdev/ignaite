@@ -1,6 +1,6 @@
 {
   "slug": "maven-agi",
-  "insight": "Pitches autonomous resolution of up to 93% of queries and integrates with helpdesk and telephony stacks in days rather than weeks.",
+  "insight": "Founded in 2023 by alumni of HubSpot, Google, and Stripe; raised ~$78M total across Series A and a Dell-led Series B.",
   "name": "Maven AGI",
   "tagline": "Enterprise AI agent platform for customer experience.",
   "description": "An enterprise AI agent platform that automates customer support across voice, chat, and email. It empowers CX and support teams with autonomous agents that resolve issues across the customer journey, integrating natively with Salesforce, Zendesk, Freshdesk, Genesys, and Twilio. Maven targets high-volume, regulated enterprise environments and claims fast deployment.",

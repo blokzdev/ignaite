@@ -1,6 +1,6 @@
 {
   "slug": "pangea",
-  "insight": "Sells security as composable API services (AI Guard, Prompt Guard, audit log, redaction, authz), so you add guardrails with plain API calls.",
+  "insight": "Founded by Oliver Friedrichs, who earlier sold Phantom Cyber to Splunk for $350M; CrowdStrike agreed to acquire Pangea for $260M.",
   "name": "Pangea",
   "tagline": "API-based security guardrails for AI apps: prompt injection, PII redaction, and access control.",
   "description": "Pangea provides composable, API-first security services for AI applications. AI Guard and Prompt Guard defend against prompt injection, sensitive-data disclosure, and malicious content, alongside AI access control and visibility products. Pay-as-you-go with a free monthly balance, integrable via LiteLLM and Portkey.",

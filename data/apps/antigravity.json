@@ -1,6 +1,6 @@
 {
   "slug": "antigravity",
-  "insight": "Agent-first fork of VS Code where agents emit verifiable Artifacts — plans, screenshots, browser recordings — not just code diffs.",
+  "insight": "Built by the Windsurf team Google brought in via a $2.4B July 2025 licensing deal, after OpenAI's Windsurf buyout collapsed.",
   "name": "Google Antigravity",
   "tagline": "Agentic development platform built on a VS Code fork.",
   "description": "Google's agent-first IDE where autonomous agents plan, execute, and verify coding tasks across the editor, terminal, and browser. A Manager view orchestrates multiple agents in parallel, and agents produce Artifacts — task lists, plans, screenshots, browser recordings — so you can check their work at a glance. Launched in public preview alongside Gemini 3.",

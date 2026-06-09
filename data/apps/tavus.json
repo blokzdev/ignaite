@@ -1,6 +1,6 @@
 {
   "slug": "tavus",
-  "insight": "Its conversational stack splits into three named models — Phoenix-4 (render), Raven-1 (perception), Sparrow-1 (turn-taking) — at <500ms.",
+  "insight": "A Y Combinator (S21) startup; raised an $18M Series A led by Scale and Sequoia to build conversational video AI.",
   "name": "Tavus",
   "tagline": "Real-time conversational video AI and digital human replicas.",
   "description": "A developer platform for building face-to-face AI agents that see, listen, and respond in live video through its Conversational Video Interface (CVI). It also generates personalized videos at scale from digital replicas of a real person. Built on Tavus's own models — Phoenix for rendering, Raven for perception, and Sparrow for conversational timing — with the ability to plug in custom LLMs and text-to-speech.",

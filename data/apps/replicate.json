@@ -1,6 +1,6 @@
 {
   "slug": "replicate",
-  "insight": "Any model is a 'Cog' container behind one API, billed per second — the low-commitment way to ship a model you didn't train.",
+  "insight": "Co-founded by Ben Firshman, who built the original Docker Compose; its Cog packaging format is essentially 'Docker for machine learning.'",
   "name": "Replicate",
   "tagline": "Run, fine-tune, and deploy thousands of open models via one API.",
   "description": "A platform to run open-source models with one API call — image, video, audio, and language — plus fine-tuning and custom deploys with pay-per-second billing. No infra to manage.",

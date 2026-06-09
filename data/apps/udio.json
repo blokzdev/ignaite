@@ -1,6 +1,6 @@
 {
   "slug": "udio",
-  "insight": "The other half of the music-gen duopoly — producers often run the same hook through both it and Suno and keep the better take.",
+  "insight": "Founded by ex-Google DeepMind researchers; its $10M seed drew backing from a16z, will.i.am, and Common.",
   "name": "Udio",
   "tagline": "AI music generation. The Suno alternative.",
   "description": "Hosted full-song generation focused on production-quality output and finer style control. The other half of the AI music duopoly — many producers run prompts through both Suno and Udio.",

@@ -1,6 +1,6 @@
 {
   "slug": "openrouter",
-  "insight": "Swap among 300+ models by changing one string, with automatic fallback if a provider is down — and one consolidated bill.",
+  "insight": "Founded by OpenSea co-founder Alex Atallah; hit unicorn status in 2025 with a $113M Series B led by Alphabet's CapitalG.",
   "name": "OpenRouter",
   "tagline": "One OpenAI-compatible API in front of 300+ models from every provider.",
   "description": "A unified gateway that routes a single endpoint and API key to models from Anthropic, OpenAI, Google, Meta, DeepSeek, xAI, and more — swap models by changing one parameter, with automatic fallbacks and one consolidated bill. Pass-through token pricing plus dozens of free models.",

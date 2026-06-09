@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "ProWritingAid",
   "platforms": ["web", "windows", "macos", "browser-extension"],
-  "insight": "Its reports target craft signals fiction writers care about — pacing, sensory detail, dialogue tags — not rivals' business-copy framing.",
+  "insight": "Built by UK firm Orpheus Technology, founded by novelist Chris Banks in 2011 — bootstrapped and independent, having taken no VC funding.",
   "modelSupport": {
     "kind": "multi-model",
     "notes": "Combines its own writing-analysis engine with AI critique features; states it does not train on user text."

@@ -1,6 +1,6 @@
 {
   "slug": "khroma",
-  "insight": "Trains a per-user neural net from 50 colors you pick, generating palettes tuned to your taste — and runs in the browser with no signup.",
+  "insight": "Built by a single product designer, George Hastings, inspired by Tobias van Schneider's hand-made Color Claim palettes.",
   "name": "Khroma",
   "tagline": "AI color tool that learns your taste and generates personalized palettes.",
   "description": "A color tool for designers that trains a personal neural-network model on a set of colors you like, then generates thousands of combinations it predicts you'll prefer. Results come with WCAG accessibility ratings and previews as gradients, type, and posters. Free, no account required, and runs in the browser.",

@@ -1,6 +1,6 @@
 {
   "slug": "augment-code",
-  "insight": "Bets on a cloud Context Engine that indexes entire multi-repo codebases — built for enterprise monorepos, not single-project editing.",
+  "insight": "Emerged from stealth in April 2024 with a $227M Series B at a $977M valuation, led by Sutter Hill Ventures.",
   "name": "Augment Code",
   "tagline": "Agentic coding assistant tuned for large, multi-repo codebases.",
   "description": "Augment Code is an AI coding platform whose Context Engine indexes large, multi-repo codebases so its completions, chat, and agents reason across cross-file dependencies. It runs as a VS Code and JetBrains extension, a CLI, and asynchronous remote agents, and targets engineering teams working in enterprise-scale repositories.",

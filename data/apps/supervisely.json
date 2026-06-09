@@ -1,6 +1,6 @@
 {
   "slug": "supervisely",
-  "insight": "Works like an OS for computer vision — extend it with an ecosystem of installable apps for labeling, training, and inference.",
+  "insight": "Grew out of Deep Systems, a deep-learning consultancy its founders built in 2013, before launching as a product in 2017.",
   "name": "Supervisely",
   "tagline": "All-in-one computer vision platform to curate, label, and train models.",
   "description": "A unified computer vision platform covering data curation, annotation, model training, and deployment across images, video, 3D point clouds, and medical imagery. AI-assisted labeling, experiment tracking, and a large catalog of installable apps make it customizable for most CV workflows. Free for researchers and small teams; Pro and self-hostable Enterprise editions for companies.",

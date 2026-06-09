@@ -1,6 +1,6 @@
 {
   "slug": "uizard",
-  "insight": "Acquired by Miro in 2024; its Screenshot Scanner turns any app screenshot into an editable mockup, not just generating from text.",
+  "insight": "Grew out of founder Tony Beltramelli's pix2code research in Copenhagen; acquired by Miro in 2024.",
   "name": "Uizard",
   "tagline": "AI UI design: generate editable wireframes, mockups, and prototypes from a prompt.",
   "description": "A browser-based UI design tool that turns text prompts, hand-drawn sketches, and screenshots into editable mockups and clickable prototypes. Its Autodesigner generates whole multi-screen projects with themes, and a Screenshot Scanner converts existing app screens into editable designs. Aimed at non-designers and PMs who want usable UI fast.",

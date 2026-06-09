@@ -1,6 +1,6 @@
 {
   "slug": "together-ai",
-  "insight": "Hosts hundreds of open-weights models and does both LoRA and full fine-tuning — a one-stop shop for the open-model side of the stack.",
+  "insight": "Co-founded by Stanford's Percy Liang and FlashAttention author Tri Dao; raised $305M at a $3.3B valuation.",
   "name": "Together AI",
   "tagline": "Fine-tuning + inference for open-weights models. Broad coverage.",
   "description": "Hosted inference and fine-tuning across hundreds of open-weights models (Llama, Mistral, DeepSeek, Qwen, etc.). Strong pricing for inference-at-scale; LoRA + full fine-tuning supported.",

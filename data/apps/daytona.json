@@ -1,6 +1,6 @@
 {
   "slug": "daytona",
-  "insight": "Boots an isolated sandbox with its own kernel and filesystem in under 90ms, so agents can run untrusted code without touching your infra.",
+  "insight": "Pivoted from cloud dev-environments to agent sandboxes; raised a $24M Series A led by FirstMark in 2026.",
   "name": "Daytona",
   "tagline": "Secure, elastic sandboxes for running AI-generated code.",
   "description": "Infrastructure for executing AI-generated code in isolated sandboxes — each a full composable computer with a dedicated kernel, filesystem, network stack, and allocated CPU, RAM, and disk. Sandboxes start in under 90ms, snapshot for persistence, and are driven programmatically through SDKs (Python, TypeScript, Ruby, Go, Java), an API, and a CLI. AGPL-3.0 and available as a managed service, self-hosted stack, or hybrid where you bring your own compute.",

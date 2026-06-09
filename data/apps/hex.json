@@ -1,6 +1,6 @@
 {
   "slug": "hex",
-  "insight": "Its Notebook Agent works inside a real SQL/Python/R notebook, not a chat box — so AI analysis lands as editable, reproducible cells.",
+  "insight": "Founded in 2019; raised a $52M a16z-led Series B with data-warehouse Snowflake joining as a strategic investor.",
   "name": "Hex",
   "tagline": "Agentic analytics notebook for SQL, Python, and R data teams.",
   "description": "A collaborative data workspace combining SQL, Python, and R notebooks with shareable data apps. Its Notebook Agent and Magic AI generate queries, debug code, run exploratory analysis, and build visualizations as editable notebook cells. Built for data teams that need reproducible, governed analysis rather than one-off chat answers.",

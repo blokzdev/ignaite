@@ -1,6 +1,6 @@
 {
   "slug": "patronus-ai",
-  "insight": "Ships proprietary evaluators — Lynx for hallucination, GLIDER as judge, Percival for agent-trace debugging — beyond prompt-based scoring.",
+  "insight": "Founded by two ex-Meta AI researchers who led responsible-NLP and ML-interpretability work before spinning out in 2023.",
   "name": "Patronus AI",
   "tagline": "Automated evaluation, guardrails, and monitoring for AI systems.",
   "description": "Platform for evaluating, guarding, and monitoring LLM and agent applications across the deployment lifecycle. Anchored by research-backed evaluator models — Lynx (hallucination detection), GLIDER (LLM judge), and Percival (agent-trace debugger). Offers a self-serve API with free credits, usage-based pricing, and enterprise plans.",

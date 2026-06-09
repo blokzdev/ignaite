@@ -1,6 +1,6 @@
 {
   "slug": "traceloop",
-  "insight": "OpenLLMetry builds on OpenTelemetry, so traces export to Datadog, Honeycomb or any OTel backend — not only Traceloop's dashboard.",
+  "insight": "A Y Combinator (W23) startup behind OpenLLMetry; acquired by ServiceNow in 2026.",
   "name": "Traceloop",
   "tagline": "LLM observability built on OpenTelemetry.",
   "description": "A reliability platform for LLM apps: its open-source OpenLLMetry SDK instruments LLM, vector-DB, and framework calls as standard OpenTelemetry spans, which Traceloop's hosted dashboard turns into traces, cost/latency analytics, and quality monitoring. Because the data is plain OTel, you can pipe it to existing observability stacks instead of a proprietary one.",

@@ -1,6 +1,6 @@
 {
   "slug": "nanonets",
-  "insight": "Its in-house OCR-3 model tops the IDP leaderboard, which the company claims beats GPT-5, Gemini and Claude on document extraction.",
+  "insight": "A Y Combinator alum founded in 2017; raised a $29M Series B led by Accel in 2024.",
   "name": "Nanonets",
   "tagline": "AI agents for document processing and enterprise data extraction.",
   "description": "Nanonets automates document-heavy workflows — invoices, orders, contracts, and claims — with AI agents that read, extract, and route structured data across ERPs, email, and approval chains. It runs on its own OCR-3 extraction model and can fold in LLMs for agentic pipelines. Offered as managed cloud with VPC, single-tenant, and on-premises deployment options and regional data residency.",

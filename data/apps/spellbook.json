@@ -1,6 +1,6 @@
 {
   "slug": "spellbook",
-  "insight": "Runs entirely as a Microsoft Word add-in, so contract drafting and redlining happen in the document lawyers already work in, not a web app.",
+  "insight": "Rebranded from Rally to its tool's name, Spellbook; built in St. John's, Newfoundland, with a $20M Series A in 2024.",
   "name": "Spellbook",
   "tagline": "AI contract drafting and review, inside Microsoft Word.",
   "description": "Spellbook is an AI assistant for transactional lawyers that drafts, redlines, and reviews contracts directly inside Microsoft Word. It benchmarks clauses, runs playbook-based review across documents, and suggests language. Launched in 2022 as one of the first generative-AI tools for legal work.",

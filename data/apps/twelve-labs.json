@@ -1,6 +1,6 @@
 {
   "slug": "twelve-labs",
-  "insight": "Trains video-native foundation models — Marengo for search, Pegasus for generation — instead of captioning sampled frames into a text LLM.",
+  "insight": "Its five Korean co-founders met in military cyber-ops; Nvidia made its first direct investment in a Korean AI startup here.",
   "name": "TwelveLabs",
   "tagline": "Video intelligence API: search, classify, and summarize video.",
   "description": "Video understanding platform built on its own multimodal foundation models — Marengo for embeddings and semantic search, Pegasus for generative tasks like summaries and captions. Developers index video once and run natural-language search, classification, and analysis via API. Free tier with usage-based pricing beyond it.",

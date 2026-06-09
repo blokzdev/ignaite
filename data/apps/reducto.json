@@ -1,6 +1,6 @@
 {
   "slug": "reducto",
-  "insight": "Bills by page complexity, not a flat per-page rate — it auto-discounts simple pages so you don't overpay for an easy PDF.",
+  "insight": "Founded in 2023 by MIT alumni; raised a $24.5M Series A led by Benchmark in 2025, with customers including Harvey, Scale AI and Vanta.",
   "name": "Reducto",
   "tagline": "Agentic document parsing and extraction for AI teams, via one API.",
   "description": "A document-intelligence API that parses, splits, extracts, and edits PDFs, images, spreadsheets, and slides into clean, structured output for RAG and AI pipelines. It blends custom in-house models with frontier ones and bills via usage credits, automatically discounting pages it can parse without the heavier pipeline.",

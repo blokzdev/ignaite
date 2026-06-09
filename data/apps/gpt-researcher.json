@@ -1,6 +1,6 @@
 {
   "slug": "gpt-researcher",
-  "insight": "An open-source take on 'deep research' — it fans out parallel searches and cites sources, runnable as a library or an MCP server.",
+  "insight": "The open-source project that spawned Tavily, the AI search startup co-founded by its creator Assaf Elovic.",
   "name": "GPT Researcher",
   "tagline": "Autonomous AI agent that runs deep multi-source web research and writes cited reports.",
   "description": "An open-source autonomous research agent that plans a task, runs parallel multi-source web searches, validates sources, and synthesizes a cited report. It runs locally as a Python package, FastAPI server, or MCP server, and works with any LLM provider plus a search/retriever backend. Free and Apache-2.0 licensed — you only pay your own LLM and search-API costs.",

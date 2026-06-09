@@ -1,6 +1,6 @@
 {
   "slug": "unstructured",
-  "insight": "Handles the unglamorous pre-RAG step — OCR, tables, and document hierarchy across 64+ file types — that makes or breaks retrieval.",
+  "insight": "Raised a $40M Series B in March 2024 led by Menlo Ventures, with Databricks Ventures, IBM Ventures and NVIDIA's NVentures all participating.",
   "name": "Unstructured",
   "tagline": "ETL for LLMs — turn PDFs, decks, and emails into clean, structured data.",
   "description": "Ingests 64+ file types and partitions, chunks, enriches, and embeds them into LLM-ready output, handling OCR, tables, and document hierarchy. An open-source library plus a low-code platform and API; a staple preprocessing layer for production RAG.",

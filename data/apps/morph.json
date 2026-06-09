@@ -1,6 +1,6 @@
 {
   "slug": "morph",
-  "insight": "Its Fast Apply model merges LLM code edits at ~10,500 tok/s — the dedicated write layer agents use instead of slow full-file rewrites.",
+  "insight": "A Y Combinator S23 company (legal entity AutoInfra), founded by Tejas Bhakta.",
   "name": "Morph",
   "tagline": "Fast models that apply AI code edits to files in milliseconds.",
   "description": "Infrastructure for coding agents centered on Fast Apply, a specialized model that merges AI-generated edits into files at ~10,500 tokens/sec instead of full-file rewrites or brittle search-and-replace. Also serves WarpGrep code search, context compaction, and a model router via an OpenAI-compatible API. Used in production by JetBrains, Vercel, and Webflow.",

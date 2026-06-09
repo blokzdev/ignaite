@@ -1,6 +1,6 @@
 {
   "slug": "activepieces",
-  "insight": "MIT-licensed — genuinely OSI open source, unlike n8n's source-available fair-code — and exposes its 400+ integrations as MCP tools.",
+  "insight": "A Y Combinator S22 company founded by an ex-Google engineer; raised a $1.55M seed in late 2024.",
   "name": "Activepieces",
   "tagline": "Open-source, AI-first workflow automation — a self-hostable Zapier alternative.",
   "description": "A no-code automation platform with a visual drag-and-drop builder, 400+ app integrations, and native AI steps. It runs as a managed cloud or fully self-hosted on your own infrastructure, and its pieces double as MCP tools that AI agents can call.",

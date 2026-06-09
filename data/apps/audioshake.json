@@ -1,6 +1,6 @@
 {
   "slug": "audioshake",
-  "insight": "Ranked #1 in Meta's 2026 audio source-separation benchmark; splits finished masters into up to 14 instrument stems.",
+  "insight": "Co-founded by ex-Google comms VP Jessica Powell; won Sony's Demixing Challenge and made TIME's Best Inventions list.",
   "name": "AudioShake",
   "tagline": "AI audio separation that splits any track into clean instrument stems.",
   "description": "AudioShake uses AI to separate finished recordings into clean, performance-quality stems — vocals, drums, bass, guitar, and more — plus dialogue/music/effects splits and word-synced lyric transcription. It is offered as the Indie web app for artists, Live for studios, and a REST API/SDK for developers. Major labels and studios use it for remixing, dubbing, and remastering.",

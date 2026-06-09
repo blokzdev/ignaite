@@ -1,6 +1,6 @@
 {
   "slug": "graphlit",
-  "insight": "Collapses ingestion, extraction, vector storage and retrieval behind one API, so the RAG and memory plumbing isn't yours to assemble.",
+  "insight": "Founded as Unstruk Data by Kirk Marple, who earlier built and exited the video-transcoding startup RadiantGrid.",
   "name": "Graphlit",
   "tagline": "One API for AI agent memory: ingest, extract, store, retrieve.",
   "description": "A cloud-native platform that gives AI agents semantic memory and operational context through a single API. It ingests documents, audio, video, and web pages, extracts entities and relationships, and handles storage and retrieval so you don't assemble the RAG pipeline yourself. Integrates with frontier models from OpenAI, Anthropic, and Google for extraction.",

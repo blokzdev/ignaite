@@ -1,6 +1,6 @@
 {
   "slug": "gemini-cli",
-  "insight": "Apache-2.0; a personal Google account unlocks 1,000 free requests a day on Gemini 2.5 Pro with its full 1M-token context.",
+  "insight": "Hit 15K GitHub stars in its first 24 hours after launching in June 2025, later passing 100K.",
   "name": "Gemini CLI",
   "tagline": "Google's open-source Gemini AI agent, in your terminal.",
   "description": "An open-source command-line agent that brings Gemini into the terminal for coding, debugging, content generation, and research. Ships built-in Google Search grounding, Model Context Protocol support, and project context via a GEMINI.md file, plus a non-interactive mode for scripting and CI. Free to use by signing in with a personal Google account, with paid options through AI Studio, Vertex AI, and Gemini Code Assist.",

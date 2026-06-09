@@ -1,6 +1,6 @@
 {
   "slug": "intercom-fin",
-  "insight": "Charges $0.99 per resolution, and only when it resolves — and runs on top of Zendesk, Salesforce, or Freshdesk, not just Intercom.",
+  "insight": "Grew from $1M to $100M+ ARR resolving over a million support tickets a week for 8,000 businesses — including Anthropic and DoorDash.",
   "name": "Fin",
   "tagline": "Intercom's AI support agent, billed per resolution across any helpdesk.",
   "description": "An AI customer-service agent from Intercom that answers and resolves support conversations across chat, email, voice, and social. It plugs into existing helpdesks including Zendesk, Salesforce, HubSpot, and Freshdesk rather than requiring Intercom's own suite. Pricing is outcome-based at $0.99 per successful resolution, with a 50-resolution monthly minimum.",

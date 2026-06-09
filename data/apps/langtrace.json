@@ -1,6 +1,6 @@
 {
   "slug": "langtrace",
-  "insight": "Built on OpenTelemetry, so its LLM traces export to any OTel backend (Grafana, Datadog) rather than locking you into one dashboard.",
+  "insight": "Maker Scale3 Labs contributed the first official OpenAI instrumentation to OpenTelemetry and helped author its GenAI conventions.",
   "name": "Langtrace",
   "tagline": "Open-source, OpenTelemetry-based observability for LLM apps and agents.",
   "description": "Langtrace is an open-source observability and evaluation platform for LLM applications, capturing traces, token usage, latency, and cost across popular models, frameworks, and vector databases. Because it emits standard OpenTelemetry spans, traces flow to any OTel-compatible backend, and instrumentation is a two-line SDK install in Python or TypeScript. It ships as a hosted cloud with a free tier plus a self-hostable / on-prem option for data-sensitive teams.",

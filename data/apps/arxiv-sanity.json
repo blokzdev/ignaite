@@ -1,6 +1,6 @@
 {
   "slug": "arxiv-sanity",
-  "insight": "Karpathy's own tool, open-source and self-hostable — a tag-trained recommender that tames the arXiv firehose into a personal feed.",
+  "insight": "A 2021 from-scratch rewrite of Karpathy's original 2015 arxiv-sanity-preserver, slimmed down for scale and email digests.",
   "name": "arxiv-sanity-lite",
   "tagline": "Personalized arxiv reader by Andrej Karpathy.",
   "description": "Tag-and-track arxiv papers without drowning in the firehose. Train it on the topics you follow — edge inference, multi-agent harnesses, memory architectures — and it builds a personal feed.",

@@ -1,6 +1,6 @@
 {
   "slug": "you-com",
-  "insight": "Pivoted from consumer Google-rival to enterprise — its ARI research agent and APIs now lead, priced per report rather than per compute-hour.",
+  "insight": "Founded by ex-Salesforce chief scientist Richard Socher; hit unicorn status with a $100M Series C at a $1.5B valuation in 2025.",
   "name": "You.com",
   "tagline": "Multi-model AI search and enterprise research agents.",
   "description": "You.com is an AI search and answers product offering multi-model chat over OpenAI, Anthropic, and Google models on web and mobile. It has shifted toward enterprise with ARI, a research agent that synthesizes cited reports across hundreds of sources, alongside Search and Research APIs for developers.",

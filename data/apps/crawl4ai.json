@@ -1,6 +1,6 @@
 {
   "slug": "crawl4ai",
-  "insight": "Apache-2.0, self-host-first crawler needing no API key for its core — among GitHub's most-starred (68k+) web-to-Markdown tools for LLMs.",
+  "insight": "Created in 2023 by 'unclecode' (Hossein Tohidi), Kidocode's founder; once hit #1 on GitHub's Python trending.",
   "name": "Crawl4AI",
   "tagline": "Open-source crawler that turns the web into clean, LLM-ready Markdown.",
   "description": "Crawl4AI is an open-source (Apache 2.0) web crawler and scraper built for AI pipelines, converting pages into clean Markdown or structured data for RAG, agents, and data pipelines. The core runs locally with no API key, handles JS rendering, and supports optional LLM-based extraction with any provider. It installs as a Python library/CLI or deploys as a Dockerized FastAPI server; a hosted Cloud API is in closed beta.",

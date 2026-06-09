@@ -1,6 +1,6 @@
 {
   "slug": "tabby",
-  "insight": "Apache-2.0 core you self-host on your own GPU; only the enterprise 'ee/' directory (SSO and seats) sits under a paid license.",
+  "insight": "Built by two ex-Google AI engineers in 2023; raised a $3.2M seed for its open-source Copilot alternative.",
   "name": "Tabby",
   "tagline": "Self-hosted AI coding assistant — an on-prem Copilot alternative.",
   "description": "Open-source, self-hosted code-completion and answer engine that teams run on their own infrastructure for full data control. Ships IDE extensions for VS Code, JetBrains, and Vim plus an in-IDE chat. The core is Apache-2.0; enterprise features (SSO, seats) live in a separately licensed 'ee/' directory.",

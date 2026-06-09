@@ -1,6 +1,6 @@
 {
   "slug": "vercel-ai-sdk",
-  "insight": "Its streaming React hooks (useChat) are why so many AI chat UIs feel identical — swapping providers is a one-line change.",
+  "insight": "Its core `ai` npm package pulls ~14M weekly downloads (30M+ across @ai-sdk/*) — the most-installed AI framework in JS.",
   "name": "Vercel AI SDK",
   "tagline": "TypeScript SDK for streaming, tool-calling, and structured outputs.",
   "description": "Vercel's batteries-included TypeScript framework for LLM-powered apps. Streaming primitives, structured outputs, tool calling, and React hooks for chat UIs — works with every major provider out of the box.",

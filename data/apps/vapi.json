@@ -1,6 +1,6 @@
 {
   "slug": "vapi",
-  "insight": "Solves the hard parts of phone agents — telephony and barge-in interrupts — leaving you to pick the STT, LLM, and TTS layers.",
+  "insight": "Hit a ~$500M valuation in 2026 after Amazon picked it to power Ring's voice AI over 40 rival platforms; it has handled 1B+ calls.",
   "name": "Vapi",
   "tagline": "Voice agent infrastructure. Build a phone-agent in a weekend.",
   "description": "Production voice-agent platform — telephony, STT, LLM, TTS, and interrupt handling stitched together so you call an endpoint and get a working phone agent. Pluggable models at every layer.",

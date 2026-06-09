@@ -1,6 +1,6 @@
 {
   "slug": "perplexity",
-  "insight": "Its Sonar API exposes the same cited-search engine to your own app — so it's an answer product and a retrieval backend at once.",
+  "insight": "Backed by Nvidia and Jeff Bezos; its valuation reached roughly $20B in 2025, up from $500M at the start of 2024.",
   "name": "Perplexity",
   "tagline": "AI-augmented search. Cited answers, consumer + Sonar API.",
   "description": "Hybrid search engine that returns synthesized answers with inline citations rather than a list of links. Ships a consumer product and the Sonar API for adding cited search to your own apps and agents.",

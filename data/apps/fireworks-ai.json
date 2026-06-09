@@ -1,6 +1,6 @@
 {
   "slug": "fireworks-ai",
-  "insight": "Runs open models on its own FireAttention serving stack for low latency, and covers vision and audio models, not just text.",
+  "insight": "Founded by the Meta team that built PyTorch; hit a $4B valuation in its Oct 2025 raise.",
   "name": "Fireworks AI",
   "tagline": "Fast inference + fine-tuning. Production deployments at scale.",
   "description": "Optimized inference platform for open-weights models with strong latency numbers and serverless + dedicated deployment options. Fine-tuning supported; vision and audio models alongside text.",

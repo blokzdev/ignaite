@@ -1,6 +1,6 @@
 {
   "slug": "cartesia",
-  "insight": "Its Sonic voices run on state-space models rather than transformers — the architectural reason it hits sub-100ms first audio.",
+  "insight": "Founded in 2023 by the Stanford AI Lab team behind state-space models and Mamba, incl. Albert Gu and Karan Goel.",
   "name": "Cartesia",
   "tagline": "Low-latency streaming TTS. Sub-100ms first audio.",
   "description": "Streaming-first speech synthesis built around the Sonic family of state-space models. Aims at real-time agent voices where latency between turns is the product. Strong choice for sub-200ms voice loops.",

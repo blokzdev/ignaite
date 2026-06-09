@@ -1,6 +1,6 @@
 {
   "slug": "playwright-mcp",
-  "insight": "Feeds agents the page's accessibility tree instead of screenshots, so it drives Chromium/Firefox/WebKit without a vision model.",
+  "insight": "Maintained by Microsoft's own Playwright team, it's one of the most-starred MCP servers on GitHub (~33k stars).",
   "name": "Playwright MCP",
   "tagline": "Microsoft's official MCP server for browser automation, driven by Playwright.",
   "description": "An open-source Model Context Protocol server from Microsoft that lets LLMs and agents browse and act on the web through Playwright. It exposes 40+ tools for navigation, forms, clicking, network mocking, tracing, and more, operating on structured accessibility snapshots rather than pixels so each interactive element gets a deterministic ref. Works with Claude, VS Code, Cursor, Windsurf, and any MCP client.",

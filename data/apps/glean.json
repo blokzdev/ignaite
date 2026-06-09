@@ -1,6 +1,6 @@
 {
   "slug": "glean",
-  "insight": "Enterprise-only with no self-serve tier — it indexes 100+ connected apps behind each user's existing permissions so search never leaks data.",
+  "insight": "Founded by ex-Google Search engineer Arvind Jain (also a Rubrik co-founder); hit a $7.2B valuation in June 2025.",
   "name": "Glean",
   "tagline": "Work AI: enterprise search, assistant, and agents over your apps.",
   "description": "A workplace AI platform that unifies search, an assistant, and agents across 100+ connected enterprise apps (Slack, Teams, GitHub, ServiceNow and more). It enforces each user's existing access permissions over the indexed content. Sold enterprise-only — pricing is quote-based via sales, with no public self-serve tier.",

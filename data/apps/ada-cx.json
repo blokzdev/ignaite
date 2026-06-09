@@ -1,6 +1,6 @@
 {
   "slug": "ada-cx",
-  "insight": "A multi-LLM architecture lets its agents reason through inquiries, not keyword-match; it claims the first AIUC-1 agentic certification.",
+  "insight": "Founded in Toronto in 2016 by Mike Murchison and David Hariri; reached a ~$1.2B valuation after a $130M 2021 Series C.",
   "name": "Ada CX",
   "tagline": "Enterprise AI customer service agents across every channel.",
   "description": "An enterprise AI customer service platform that deploys agents across languages and channels through its Conversation Hub. It connects to systems like Zendesk, Salesforce, and Twilio to take actions, personalize responses, and resolve issues automatically. Ada uses a multi-LLM architecture and targets large enterprises, with custom pricing and no self-serve trial.",

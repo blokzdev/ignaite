@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "AI21 Labs",
   "platforms": ["web", "browser-extension", "ios"],
-  "insight": "The consumer writing product of AI21 Labs, maker of the Jurassic and Jamba LLM families — rare among writing tools in owning its models.",
+  "insight": "Maker AI21 Labs discontinued development of Wordtune in April 2025 as it pivoted from consumer products to its enterprise Maestro platform.",
   "modelSupport": {
     "kind": "single-model",
     "notes": "Built on AI21 Labs' own language models."

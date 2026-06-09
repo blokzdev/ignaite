@@ -1,6 +1,6 @@
 {
   "slug": "harpa-ai",
-  "insight": "Hybrid engine can tap your logged-in ChatGPT, Claude, or Gemini web sessions instead of a paid API key, then automate actions on the page.",
+  "insight": "Runs as a browser extension across Chrome, Edge, Firefox, Brave and Opera, with on-page automation processed locally, not server-side.",
   "name": "HARPA AI",
   "tagline": "AI browser agent for Chrome that automates web tasks.",
   "description": "A browser extension that fuses large language models with on-page web automation, letting an AI agent read, understand, and act on web pages — navigating, extracting data, filling forms, and monitoring sites for changes. It connects to multiple AI providers and ships 100+ preset commands for research, SEO, and writing. Available for Chrome, Edge, Firefox, Brave, and Opera.",

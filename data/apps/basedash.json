@@ -1,6 +1,6 @@
 {
   "slug": "basedash",
-  "insight": "Connects straight to your production SQL database (Postgres, Snowflake, BigQuery) and builds dashboards from plain English.",
+  "insight": "A Y Combinator S20 startup that pivoted from building admin panels/internal tools into AI-native BI.",
   "name": "Basedash",
   "tagline": "AI-native BI that builds dashboards from plain-English questions.",
   "description": "An AI-native business intelligence platform that connects directly to SQL databases and warehouses. Describe what you want in natural language and it generates the query, picks a chart type, and saves the result to a dashboard. Supports Postgres, MySQL, BigQuery, Snowflake, and 750+ data sources via built-in connectors.",

@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Mem Labs",
   "platforms": ["web", "macos", "ios"],
-  "insight": "Its thesis inverts folder-based note apps — you never file anything; AI links and surfaces notes on its own, so organization is a byproduct.",
+  "insight": "Built by Stanford CS grads Kevin Moody and Dennis Xu; raised a $23.5M Series A led by the OpenAI Startup Fund in 2022.",
   "modelSupport": {
     "kind": "multi-model",
     "notes": "Uses frontier LLMs for auto-organization, linking, and chat over your notes."

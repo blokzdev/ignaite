@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Motion",
   "platforms": ["web", "macos", "windows", "ios", "android"],
-  "insight": "Its core trick is auto-scheduling — it continuously rebuilds your calendar from your task list, so slipped work re-flows automatically.",
+  "insight": "Founded in 2019 by Harry Qi, Omid Rooholfada, and Ethan Yu; raised $60M at a $550M valuation in 2025.",
   "modelSupport": {
     "kind": "multi-model",
     "notes": "Uses LLMs for project generation, meeting notes, and search; underlying models not published."

@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Dropbox",
   "platforms": ["web"],
-  "insight": "Now a Dropbox product, it flexibly defends focus time — rescheduling tasks and habits around meetings automatically, not static blocking.",
+  "insight": "Founded in 2019 in Portland, Oregon, and acquired by Dropbox in August 2024.",
   "modelSupport": {
     "kind": "self-contained",
     "notes": "Scheduling is driven by Reclaim's own optimization engine rather than a chat LLM."

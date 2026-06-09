@@ -1,6 +1,6 @@
 {
   "slug": "langgraph",
-  "insight": "LangChain's low-level layer: a durable state graph with checkpoints, so a long agent run can pause for a human and resume later.",
+  "insight": "Runs agent workflows in production at Uber, LinkedIn, Klarna, Replit and JPMorgan.",
   "name": "LangGraph",
   "tagline": "Graph-based agent orchestration. Stateful loops with checkpoints.",
   "description": "LangChain's agent layer. Model agents as nodes in a state graph with persistent checkpoints, human-in-the-loop steps, and durable execution. Strong when you need a long-running, debuggable agent rather than a one-shot chain.",

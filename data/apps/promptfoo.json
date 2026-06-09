@@ -1,6 +1,6 @@
 {
   "slug": "promptfoo",
-  "insight": "Define evals in plain YAML and run one goldset across models in CI — a prompt regression fails the build like any other test.",
+  "insight": "Acquired by OpenAI in March 2026; stays open-source and MIT-licensed, and is used internally by both OpenAI and Anthropic.",
   "name": "Promptfoo",
   "tagline": "Open-source LLM eval CLI. Rubric scoring + golden sets.",
   "description": "YAML-driven eval harness. Pair a prompt with a goldset, define rubrics, run across multiple models in CI. Strong for catching prompt regressions before they hit production.",

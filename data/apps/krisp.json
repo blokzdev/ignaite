@@ -1,6 +1,6 @@
 {
   "slug": "krisp",
-  "insight": "Noise cancellation runs on-device as a virtual mic, so it works across 800+ conferencing and calling apps without a meeting bot.",
+  "insight": "Founded in 2017 in Yerevan, Armenia by an ex-Twilio engineer; originally named 2Hz.",
   "name": "Krisp",
   "tagline": "On-device AI noise cancellation, transcription, and meeting notes.",
   "description": "Voice AI platform that removes background noise, transcribes calls, and generates meeting notes. It installs as a virtual microphone/speaker, so noise cancellation works across Zoom, Teams, Meet, and 800+ other apps without joining as a bot. Also offers accent conversion and a call-center product on the same engine.",

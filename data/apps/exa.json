@@ -1,6 +1,6 @@
 {
   "slug": "exa",
-  "insight": "Indexes the web by meaning, so 'find pages like this one' works as a query — formerly known as Metaphor.",
+  "insight": "Founded as Metaphor Systems in 2021 by William Bryk and Jeffrey Wang; rebranded to Exa in January 2024.",
   "name": "Exa",
   "tagline": "Neural search API. Find pages by meaning, not keywords.",
   "description": "Semantic search engine that indexes the open web with embeddings — pass a description, get matching pages. Strong for research-style queries and find-similar workflows; formerly known as Metaphor.",

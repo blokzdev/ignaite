@@ -1,6 +1,6 @@
 {
   "slug": "qdrant",
-  "insight": "Written in Rust and ships as a single self-hostable binary — its payload filtering is why teams pick it for metadata-heavy search.",
+  "insight": "Berlin-based, founded 2021; raised a $28M Series A led by Spark Capital in January 2024.",
   "name": "Qdrant",
   "tagline": "Open-source, Rust-based vector DB. Fast, predictable, self-hostable.",
   "description": "Vector database written in Rust with a strong focus on filtering, payloads, and predictable latency at scale. Self-host on a single binary or use the managed cloud.",

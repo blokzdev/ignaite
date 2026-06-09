@@ -1,6 +1,6 @@
 {
   "slug": "inngest",
-  "insight": "Gives you durable, resumable functions — retries, sleeps, fan-out — without standing up a queue or worker pool yourself.",
+  "insight": "Raised a $21M Series A led by Altimeter, with Vercel CEO Guillermo Rauch among the backers.",
   "name": "Inngest",
   "tagline": "Durable workflow engine for AI background jobs.",
   "description": "Event-driven, durable execution engine — pause/resume, retries, fan-out, scheduling — designed for long-running AI jobs that can't sit in a request/response cycle. TypeScript-first; framework-agnostic.",

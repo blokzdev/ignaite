@@ -1,6 +1,6 @@
 {
   "slug": "anythingllm",
-  "insight": "Runs either as a one-click desktop app or a Docker server — the same private RAG workspace whether you're solo or a team.",
+  "insight": "Built by Mintplex Labs (Timothy Carambat), a Y Combinator S22 startup focused on on-device AI tooling.",
   "name": "AnythingLLM",
   "tagline": "All-in-one private AI app for chatting with your documents, with agents.",
   "description": "An all-in-one application for private, ChatGPT-style chat over your own documents, with built-in RAG, AI agents, and multi-user workspaces. Runs as a local desktop app (Mac/Windows/Linux) or self-hosted via Docker, and supports 40+ LLM providers plus local models with your own keys. Open source under MIT; Mintplex Labs also offers a paid hosted instance, making it freemium.",

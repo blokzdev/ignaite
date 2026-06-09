@@ -1,6 +1,6 @@
 {
   "slug": "apify",
-  "insight": "Maintains the open-source Crawlee library, but the platform itself is a hosted marketplace of thousands of serverless scraping 'Actors'.",
+  "insight": "Founded in Prague in 2016 as \"Apifier,\" rebranded to Apify in 2017; it still maintains the open-source Crawlee library.",
   "name": "Apify",
   "tagline": "Full-stack web scraping and browser automation platform for AI data.",
   "description": "A cloud platform for web scraping, data extraction, and browser automation built around 'Actors' — serverless programs that crawl sites and return structured data. Its store offers tens of thousands of ready-made Actors, and outputs clean Markdown or JSON that feed LLMs, vector databases, and RAG pipelines via LangChain and LlamaIndex. The company also maintains the open-source Crawlee crawling library for local development.",

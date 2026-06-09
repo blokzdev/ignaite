@@ -1,6 +1,6 @@
 {
   "slug": "arize-phoenix",
-  "insight": "Spins up inside a Jupyter notebook and is sharpest at RAG debugging — finding the bad chunk that poisoned a retrieval.",
+  "insight": "Licensed under Elastic License 2.0 (source-available), not OSI open-source — despite its open GitHub repo.",
   "name": "Arize Phoenix",
   "tagline": "LLM tracing + evaluation. Strong on retrieval debugging.",
   "description": "Phoenix is Arize's observability platform — run locally in a notebook or as a hosted service. Especially strong for inspecting RAG pipelines, finding bad chunks, and tracking retrieval quality over time.",

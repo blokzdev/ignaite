@@ -1,6 +1,6 @@
 {
   "slug": "sambanova",
-  "insight": "One of the few clouds serving Llama 405B in native 16-bit precision at 100+ tokens/sec, not a quantized copy.",
+  "insight": "Founded by Stanford professors Kunle Olukotun and Chris Re; raised $676M at a $5.1B valuation led by SoftBank in 2021.",
   "name": "SambaNova Cloud",
   "tagline": "Fast inference for open models on custom RDU chips.",
   "description": "Inference cloud running open-weight models — Llama, DeepSeek, Qwen, gpt-oss — on SambaNova's RDU hardware at hundreds of tokens per second, including full-precision Llama 405B. Provides an OpenAI-compatible API with a free tier and pay-per-token pricing.",

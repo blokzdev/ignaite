@@ -1,6 +1,6 @@
 {
   "slug": "cline",
-  "insight": "Formerly 'Claude Dev' — fully open-source and BYO-key, it shows and asks approval for every file edit and command it runs.",
+  "insight": "Built by Saoud Rizwan and renamed from 'Claude Dev' in Oct 2024; Cline Bot raised $32M in seed + Series A in 2025.",
   "name": "Cline",
   "tagline": "Open-source autonomous coding agent in VS Code. BYO key.",
   "description": "Community-maintained VS Code extension that turns the editor into an agent surface — reads the repo, runs commands, edits files, and verifies its work. Pairs naturally with Claude. Formerly known as Claude Dev.",

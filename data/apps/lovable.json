@@ -1,6 +1,6 @@
 {
   "slug": "lovable",
-  "insight": "Grew out of the GPT Engineer project — it wires a Supabase backend and GitHub sync into every app it generates.",
+  "insight": "Renamed from the open-source GPT Engineer in Dec 2024; the Stockholm startup hit ~$400M ARR within ~14 months.",
   "name": "Lovable",
   "tagline": "Prompt a full-stack app into existence — UI, backend, and deploy.",
   "description": "An AI app builder that turns prompts into full-stack web apps — React UI, Supabase backend, GitHub sync, and one-click publish. Popular for going from idea to shipped product fast.",

@@ -1,6 +1,6 @@
 {
   "slug": "browserbase",
-  "insight": "Open-sources its Stagehand automation framework, but the stealth-proxy, CAPTCHA-solving headless-browser fleet is the paid hosted product.",
+  "insight": "Founded by 3x founder Paul Klein IV in 2024; raised a $40M Series B at a ~$300M valuation in 2025.",
   "name": "Browserbase",
   "tagline": "Headless browser infrastructure for AI agents.",
   "description": "Managed cloud fleet of headless browsers that let AI agents browse, authenticate, and act on the web at scale. Sessions ship with stealth proxies, automated CAPTCHA solving, and observability, driven via API or the open-source Stagehand framework. Usage-based billing on top of a monthly base plan.",

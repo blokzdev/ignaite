@@ -1,6 +1,6 @@
 {
   "slug": "letta",
-  "insight": "The productized successor to the MemGPT paper — agents edit their own memory blocks to manage a finite context window.",
+  "insight": "Spun out of UC Berkeley's Sky Lab in 2024 by the MemGPT authors, with a $10M seed led by Felicis.",
   "name": "Letta",
   "tagline": "Stateful agents with structured memory. Successor to MemGPT.",
   "description": "Open-source framework for building stateful agents — memory blocks, context-window management, tool-use primitives baked in. Useful as a reference architecture for long-running agents.",

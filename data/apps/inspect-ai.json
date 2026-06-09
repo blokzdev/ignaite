@@ -1,6 +1,6 @@
 {
   "slug": "inspect-ai",
-  "insight": "Built by the UK's AI Security Institute and adopted by Anthropic and Google DeepMind as a shared eval framework; MIT-licensed.",
+  "insight": "Open-sourced May 2024 by the UK AI Safety Institute (renamed AI Security Institute in 2025) and used in its frontier-model evals.",
   "name": "Inspect AI",
   "tagline": "Open-source Python framework for large language model evaluations.",
   "description": "A framework for building and running reproducible LLM and agent evaluations, structured around datasets, solvers, and scorers. Ships sandboxed tool execution, multi-turn agent workflows, and a log viewer, plus a companion library of 200+ prebuilt evals. Run any eval against any model via the inspect CLI or the Python API.",

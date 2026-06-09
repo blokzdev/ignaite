@@ -1,6 +1,6 @@
 {
   "slug": "v7-go",
-  "insight": "Grounds every extracted field in a clickable citation back to the source document, so reviewers can audit each AI answer's provenance.",
+  "insight": "Made by V7 Labs — began as SF vision startup Aipoly (2015), moved to London as V7 (2018), and raised a $33M Series A in 2022.",
   "name": "V7 Go",
   "tagline": "Agentic AI that automates document-heavy knowledge work and data extraction.",
   "description": "An operational AI platform from V7 Labs that builds and runs agents over complex documents — extracting financial, legal, and commercial terms, completing DDQs, and generating memos with source traceability. It chains foundation models from OpenAI, Anthropic, and Google into multi-step, auditable workflows aimed at finance, insurance, legal, and real-estate teams.",

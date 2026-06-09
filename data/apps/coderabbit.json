@@ -3,7 +3,7 @@
   "name": "CodeRabbit",
   "tagline": "AI code review on every pull request, IDE, and CLI.",
   "description": "CodeRabbit posts contextual, line-by-line AI reviews on pull requests across GitHub and GitLab, with an agentic chat for follow-ups plus integrated linters and SAST tools. The same reviewer runs in the IDE (VS Code, Cursor, Windsurf) and from a CLI, so issues surface before the PR.",
-  "insight": "Gives all public and open-source repos full Pro-tier reviews with no seat limits, and bills paid teams by agent-minute, not per PR.",
+  "insight": "Raised a $60M Series B (Scale Venture Partners, incl. NVIDIA's NVentures) in 2025 at a ~$550M valuation.",
   "category": "agent",
   "pricing": "freemium",
   "deployment": "cloud",

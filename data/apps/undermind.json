@@ -1,6 +1,6 @@
 {
   "slug": "undermind",
-  "insight": "Runs an iterative, citation-chasing agent that reads hundreds of papers per query instead of ranking a single keyword list.",
+  "insight": "Founded by two MIT quantum-physics PhDs (YC S24); co-founder Tom Hartke’s thesis was a top-4 APS atomic-physics thesis of 2022.",
   "name": "Undermind",
   "tagline": "AI deep-research agent that finds every relevant paper on a scientific question.",
   "description": "A research-discovery platform that takes a natural-language question and autonomously searches, reads, and evaluates hundreds of academic papers — following citation trails and explaining each result's relevance, mimicking how an expert runs a literature review. Built by MIT quantum-physics PhDs and backed by Y Combinator; used by researchers at MIT, Harvard, and Caltech.",

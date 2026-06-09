@@ -1,6 +1,6 @@
 {
   "slug": "figma-ai",
-  "insight": "Figma Make turns a prompt into working code, not just mockups — and its MCP server feeds design context to Cursor, VS Code, and Claude.",
+  "insight": "Adobe's $20B deal to buy Figma collapsed in Dec 2023 over regulators, forcing a $1B breakup fee; Figma IPO'd in 2025.",
   "name": "Figma AI",
   "tagline": "AI design and prompt-to-code built into Figma.",
   "description": "Figma's AI layer for product design: First Draft generates editable layouts from a prompt, content tools fill real copy, and a canvas Design Agent edits via natural language. Figma Make turns prompts into working prototypes, and the Figma MCP server pipes design context into coding tools.",

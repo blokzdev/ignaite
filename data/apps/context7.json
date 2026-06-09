@@ -1,6 +1,6 @@
 {
   "slug": "context7",
-  "insight": "Injects version-specific, up-to-date library docs into the prompt, cutting the stale-API hallucinations models pick up at training time.",
+  "insight": "Built by Upstash (the serverless Redis company) and launched in 2025 as a free, open-source MCP server.",
   "name": "Context7",
   "tagline": "Up-to-date, version-specific library docs piped into any AI coding agent via MCP.",
   "description": "An MCP server from Upstash that pulls current, version-specific documentation and code examples for a library and feeds them straight into an LLM's context. It exposes two tools — resolve-library-id and a docs query — so agents in Cursor, Claude Code, Windsurf, and other MCP clients generate code against the real, current API.",

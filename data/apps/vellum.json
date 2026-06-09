@@ -1,6 +1,6 @@
 {
   "slug": "vellum",
-  "insight": "Passes model-provider token costs straight through at cost with no markup — unusual for an all-in-one LLMOps platform.",
+  "insight": "A Y Combinator W23 company whose three founders had been building on GPT-3 since March 2020, well before the LLMOps category existed.",
   "name": "Vellum",
   "tagline": "Build, evaluate, and deploy production LLM apps and agents.",
   "description": "An end-to-end development platform for building, testing, and shipping LLM applications and agents. Vellum pairs a visual drag-and-drop workflow builder with a Python SDK, and bundles prompt versioning, RAG, evaluation, and production monitoring in one place so technical and non-technical teammates can collaborate. Built-in eval and test suites let teams measure quality before and after deploy. A free tier is available; paid Pro and Enterprise plans add seats and scale.",

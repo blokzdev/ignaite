@@ -1,6 +1,6 @@
 {
   "slug": "baseten",
-  "insight": "Models use its open-source 'Truss' packaging and scale to zero, so you pay per minute of active compute, not for idle GPUs.",
+  "insight": "Raised a $300M Series E in Jan 2026 at a $5B valuation, with Nvidia investing $150M of it.",
   "name": "Baseten",
   "tagline": "Inference cloud for serving any AI model in production.",
   "description": "Production inference platform offering both pre-optimized Model APIs (Llama, DeepSeek, and more, billed per token) and dedicated GPU/CPU deployments for custom models, billed per minute with no charge for idle time. Custom models are packaged with its open-source Truss format and autoscale, including scale-to-zero. Aimed at low-latency, high-throughput serving.",

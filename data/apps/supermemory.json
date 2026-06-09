@@ -3,7 +3,7 @@
   "name": "Supermemory",
   "tagline": "Memory API that gives any AI agent long-term recall.",
   "description": "Supermemory is a memory and context engine for AI apps. It ingests documents, chat histories, and connector data (Drive, Gmail, Notion), turns them into a searchable store, and serves relevant context back to agents over a single API. It works with any model and ships an MCP server alongside official SDKs.",
-  "insight": "MIT-licensed memory engine you can self-host or call as a managed API — one recall endpoint that works across any model.",
+  "insight": "Built by 19-year-old Dhravya Shah; its $2.6M seed was backed by Google AI chief Jeff Dean and Cloudflare execs.",
   "category": "memory",
   "pricing": "freemium",
   "openSource": true,

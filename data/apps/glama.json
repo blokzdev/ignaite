@@ -1,6 +1,6 @@
 {
   "slug": "glama",
-  "insight": "A self-described superset of the official MCP Registry: it indexes the catalog, then adds an in-browser Inspector and a managed Gateway.",
+  "insight": "Built solo by Frank Fiegel, who also maintains the awesome-mcp-servers list and the TypeScript FastMCP framework.",
   "name": "Glama",
   "tagline": "MCP server registry, inspector, and gateway.",
   "description": "A discovery and hosting hub for the Model Context Protocol ecosystem: browse a large indexed catalog of MCP servers, test them in an in-browser Inspector, and route them through a managed Gateway that handles credentials, logging, and analytics. Browsing and installing open-source servers locally is free; hosting servers on Glama's infrastructure and the Gateway's managed features are paid. Also ships an AI playground chat client over the connected tools.",

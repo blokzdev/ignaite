@@ -1,6 +1,6 @@
 {
   "slug": "cerebras",
-  "insight": "Runs models on a single dinner-plate-sized wafer instead of GPU clusters, hitting ~2,000 tokens/sec where GPU clouds plateau far lower.",
+  "insight": "Its 2024 IPO filing revealed ~87% of H1 revenue came from a single customer, UAE-based G42; it went public in 2026.",
   "name": "Cerebras",
   "tagline": "Wafer-scale inference cloud for open models.",
   "description": "Inference cloud that serves open-weight models such as Llama, Qwen, DeepSeek, and gpt-oss on Cerebras's wafer-scale CS-3 hardware, reaching token throughput far above GPU clouds. Exposes an OpenAI-compatible API with a free daily tier and pay-per-token pricing.",

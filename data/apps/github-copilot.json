@@ -1,6 +1,6 @@
 {
   "slug": "github-copilot",
-  "insight": "All Copilot plans moved to usage-based GitHub AI Credits billing on June 1, 2026, replacing flat request quotas.",
+  "insight": "The first mainstream AI pair programmer, launched in June 2021 powered by OpenAI's Codex model.",
   "name": "GitHub Copilot",
   "tagline": "AI pair programmer in your editor — completions, chat, and agents.",
   "description": "The original in-editor AI coding assistant, offering multi-line completions, chat with codebase context, agent mode, and a cloud coding agent that opens pull requests. Runs across VS Code, JetBrains, Visual Studio, the CLI, and GitHub.com. A free tier covers light use; paid tiers add premium models and more allowance.",

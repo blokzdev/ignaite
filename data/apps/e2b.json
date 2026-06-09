@@ -1,6 +1,6 @@
 {
   "slug": "e2b",
-  "insight": "Sandboxes are Firecracker microVMs with sub-second cold starts, billed per second a sandbox runs rather than per request.",
+  "insight": "Prague-founded (2023); a $21M Series A led by Insight Partners in 2025, with most of the Fortune 100 signed up.",
   "name": "E2B",
   "tagline": "Secure cloud sandboxes for running AI-generated code.",
   "description": "Open-source infrastructure that spins up isolated cloud sandboxes so AI agents can execute generated code safely. Python and JS/TS SDKs cover code interpretation, data analysis, and computer-use desktops, with per-second billing. Self-host or BYOC/on-prem is supported for enterprise.",

@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Grammarly",
   "platforms": ["web", "browser-extension", "windows", "macos", "ios", "android"],
-  "insight": "It runs as a system-wide overlay across native apps and the browser, so the assistant follows you everywhere, not just one editor.",
+  "insight": "Its parent rebranded to Superhuman in Oct 2025 after buying Coda (2023) and the email app Superhuman; Grammarly is now a sub-brand.",
   "modelSupport": {
     "kind": "multi-model",
     "notes": "Generative features are metered by monthly AI prompts; free tier includes a limited prompt allowance."

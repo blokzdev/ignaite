@@ -1,6 +1,6 @@
 {
   "slug": "athina",
-  "insight": "Its open-source eval SDK feeds a closed monitoring platform; the 50+ preset evals pull from Athina, OpenAI, Ragas and Guardrails.",
+  "insight": "A Y Combinator W23 startup founded by Shiv Sakhuja and Himanshu Bamoria.",
   "name": "Athina AI",
   "tagline": "Build, test, and monitor LLM apps with evals and observability.",
   "description": "Athina AI is a collaborative platform for building, evaluating, and monitoring LLM features. It bundles prompt management, datasets, experiments, production tracing, and a library of 50+ preset and custom evaluations, with human annotation tools on top. The platform pairs with an open-source eval SDK and works with OpenAI, Azure, Bedrock, Vertex, and custom models hosted anywhere.",

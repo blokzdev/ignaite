@@ -1,6 +1,6 @@
 {
   "slug": "claude-code",
-  "insight": "Ships the same agent across CLI, IDE extension, desktop, and web from a single codebase.",
+  "insight": "Launched Feb 2025 and reached $1B+ annualized revenue by Nov 2025 — one of the fastest-growing developer tools ever.",
   "name": "Claude Code",
   "tagline": "Anthropic's official CLI / IDE / web agent.",
   "description": "Anthropic's agentic coding tool. It reads the spec, drafts the diff, runs the tests, and opens the PR — across the CLI, IDE extensions, the desktop app, and the web.",

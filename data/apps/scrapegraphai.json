@@ -1,6 +1,6 @@
 {
   "slug": "scrapegraphai",
-  "insight": "Swaps CSS selectors for LLM graph pipelines: describe the data in plain English, and the MIT core runs on any provider or local Ollama.",
+  "insight": "Built by Italian founders Marco Vinciguerra and Lorenzo Padoan; the open-source library has passed 20,000 GitHub stars.",
   "name": "ScrapeGraphAI",
   "tagline": "Turn any webpage into structured data with one prompt-driven API call.",
   "description": "ScrapeGraphAI is an AI web-scraping tool that extracts structured data from pages and documents using natural-language prompts instead of CSS selectors or XPath, orchestrating LLMs in graph-style pipelines (single-page, multi-page, search, crawl). The core library is open-source under the MIT license with Python and Node SDKs; a hosted API adds a credit-based free tier and paid plans, plus integrations with LangChain, LlamaIndex, n8n, and an MCP server.",

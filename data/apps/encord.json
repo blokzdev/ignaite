@@ -1,6 +1,6 @@
 {
   "slug": "encord",
-  "insight": "Built for physical-world and medical AI: labels DICOM, NIfTI, LiDAR point clouds and SAR alongside images and video, not just photos.",
+  "insight": "YC W21 company founded by two ex-high-frequency traders; raised a $30M Series B led by Next47 in 2024.",
   "name": "Encord",
   "tagline": "Data platform to curate, label, and manage AI training data.",
   "description": "An enterprise data development platform for preparing high-quality training data across images, video, documents, audio, DICOM, and 3D point clouds. It pairs AI-assisted labeling (SAM auto-segmentation, object tracking) with data curation, model evaluation, and workflow tooling, plus LLM-powered data agents for document tasks. Used heavily in medical imaging, robotics, and other physical-AI domains.",

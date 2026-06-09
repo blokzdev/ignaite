@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Rytr",
   "platforms": ["web", "browser-extension"],
-  "insight": "It competes mainly on price — an entry paid tier well under most rivals — trading depth for an inexpensive unlimited-generation plan.",
+  "insight": "Acquired by Copysmith in October 2022, roughly 18 months after launch, with over 2 million users.",
   "modelSupport": {
     "kind": "multi-model",
     "notes": "Uses third-party LLMs under the hood; specific models not published on the site."

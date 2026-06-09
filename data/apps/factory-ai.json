@@ -1,6 +1,6 @@
 {
   "slug": "factory-ai",
-  "insight": "Its 'Droids' run as both cloud and local background agents and are model-agnostic, spanning frontier and open-weight models from one CLI.",
+  "insight": "Raised a $150M Series C led by Khosla Ventures in April 2026, hitting a $1.5B valuation.",
   "name": "Factory",
   "tagline": "Agent-native software development with autonomous 'Droids'.",
   "description": "An agent-native platform for software development built around 'Droids' — autonomous coding agents that plan, edit, and run tasks across a codebase. Works from a CLI/SDK and runs agents both in the cloud and locally in the background. Model-agnostic across frontier and open-weight models.",

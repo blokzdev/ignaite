@@ -1,6 +1,6 @@
 {
   "slug": "elicit",
-  "insight": "One of the few research tools with a real systematic-review screening pipeline, benchmarked against Cochrane reviews.",
+  "insight": "Spun out of Ought, a nonprofit AI-reasoning research lab, into an independent public-benefit corp in 2023.",
   "name": "Elicit",
   "tagline": "AI research assistant for literature review and evidence synthesis.",
   "description": "Searches, summarizes, and extracts structured data across 125M+ academic papers, with sentence-level citations. Goes beyond chat-over-papers with a guided systematic-review workflow covering search, screening, extraction, and report synthesis. A free Basic plan offers unlimited search and summaries; paid tiers add data-extraction volume and the review pipeline.",

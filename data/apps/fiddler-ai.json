@@ -1,6 +1,6 @@
 {
   "slug": "fiddler-ai",
-  "insight": "Predates the LLM wave — founded in 2018 on explainable-AI and ML monitoring, then extended the same platform to LLM guardrails.",
+  "insight": "Founder Krishna Gade built Facebook's 'Why am I seeing this?' explainability feature before starting Fiddler.",
   "name": "Fiddler AI",
   "tagline": "AI observability and security platform for LLM apps, agents, and ML models.",
   "description": "An enterprise platform to monitor, analyze, and safeguard generative AI and ML in production. The Fiddler Trust Service scores prompts and responses for hallucination, toxicity, PII leakage, and prompt-injection, with low-latency guardrails plus real-time alerting and root-cause analysis. Originally an explainable-AI and model-monitoring pioneer, now spanning LLM and agent observability.",

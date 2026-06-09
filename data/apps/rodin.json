@@ -1,6 +1,6 @@
 {
   "slug": "rodin",
-  "insight": "Aimed at production: clean topology and PBR materials, where most image-to-3D tools still output messy, unusable meshes.",
+  "insight": "Built by Hong Kong lab Deemos (2020); its 2025 Series A was led by Meituan and ByteDance, and it hit $1M ARR within 45 days.",
   "name": "Rodin",
   "tagline": "Deemos' image-to-3D for high-fidelity, production-ready meshes.",
   "description": "Deemos' Rodin (Hyper3D) turns images or text into high-fidelity 3D models with clean geometry and PBR materials, aimed at game and film asset pipelines.",

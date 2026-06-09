@@ -1,6 +1,6 @@
 {
   "slug": "zed",
-  "insight": "From the creators of Atom and Tree-sitter — its open Agent Client Protocol lets external agents like Claude Code drive the editor.",
+  "insight": "Zed Industries open-sourced the editor in 2024 and raised a $32M Series B led by Sequoia in 2025; it reached v1.0 in 2026.",
   "name": "Zed",
   "tagline": "The fast, open-source AI code editor in Rust, from the Atom creators.",
   "description": "A GPU-accelerated, Rust-built editor with first-class agentic AI — parallel agents, edit prediction, and an open Agent Client Protocol that plugs into Claude, GPT, Gemini, MCP servers, and external CLI agents like Claude Code. Fully open source (GPL-3); BYO key or an optional hosted Pro tier.",

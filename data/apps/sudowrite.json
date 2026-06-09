@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Sudowrite",
   "platforms": ["web"],
-  "insight": "Its Story Bible feeds characters, worldbuilding, and outline into every generation, so drafts stay consistent across a novel.",
+  "insight": "Founded in 2020 by Photojojo's Amit Gupta and James Yu — one of the earliest apps built on OpenAI's GPT-3.",
   "modelSupport": {
     "kind": "multi-model",
     "notes": "Lets writers choose among underlying frontier models for generations."

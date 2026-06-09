@@ -1,6 +1,6 @@
 {
   "slug": "thoughtspot",
-  "insight": "Its Spotter agent shows its reasoning and checks its own work via a patented search-token architecture, aimed at auditable AI answers.",
+  "insight": "Co-founded in 2012 by Nutanix co-founder Ajeet Singh; later raised at a $4.2B valuation.",
   "name": "ThoughtSpot",
   "tagline": "Agentic analytics platform with the Spotter natural-language agent.",
   "description": "An enterprise analytics platform built around search and AI. Its Spotter agent lets users ask questions in natural language and get governed answers on live data, reasoning through each step and checking its own work via a semantic layer. Also ships specialized agents for modeling, visualization, and code, with embeddable governed analytics.",
