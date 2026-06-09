@@ -4,7 +4,7 @@
   "name": "Character.AI",
   "tagline": "Chat with millions of user-made AI characters.",
   "description": "A consumer platform for creating and chatting with AI personas — fictional characters, helpers, and roleplay companions — across web and mobile. Hosts millions of community-built characters with voice calls and image generation on the paid tier. One of the largest conversational-AI roleplay products by usage.",
-  "category": "assistant",
+  "category": "companion",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Character.AI",
@@ -26,5 +26,12 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from assistant to the new companion category for character/roleplay AI."
+    }
+  ]
 }

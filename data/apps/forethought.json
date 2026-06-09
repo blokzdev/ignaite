@@ -1,0 +1,23 @@
+{
+  "slug": "forethought",
+  "insight": "Zendesk agreed to acquire Forethought in March 2026 — its largest acquisition in nearly two decades — folding SupportGPT into the stack.",
+  "name": "Forethought",
+  "tagline": "Generative-AI customer support: deflection, triage, and agent assist.",
+  "description": "A customer-service AI platform that automates support across resolution, ticket triage, and live-agent assistance. Its SupportGPT engine combines large language models with retrieval trained on each customer's own support data to deflect and route tickets. Pricing is outcome-based and quoted by sales rather than published.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Forethought (Zendesk)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "SupportGPT pairs LLMs with per-customer retrieval; model choice is abstracted from the operator."
+  },
+  "tags": ["customer-support", "deflection", "triage", "agent-assist"],
+  "links": [
+    { "kind": "website", "url": "https://forethought.ai", "primary": true },
+    { "kind": "pricing", "url": "https://forethought.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

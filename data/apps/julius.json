@@ -4,7 +4,7 @@
   "name": "Julius AI",
   "tagline": "Chat with your data — an AI data analyst for CSVs, sheets, and DBs.",
   "description": "An AI data analyst that lets you upload CSVs, Excel, and Google Sheets, then ask questions in plain language to clean, analyze, visualize, and model your data. It writes and runs Python behind the scenes and can generate charts, slides, and reports from the results. Pro plans add direct connectors to live databases like Snowflake, BigQuery, and Postgres.",
-  "category": "data-ops",
+  "category": "analytics",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Julius AI",
@@ -27,5 +27,12 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from data-ops to the new analytics category (NL data analysis / BI)."
+    }
+  ]
 }

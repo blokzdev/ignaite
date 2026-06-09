@@ -1,0 +1,23 @@
+{
+  "slug": "canva",
+  "insight": "Magic Studio is brand-aware: it pipes your Brand Kit colors, fonts, and voice into every AI generation, so outputs stay on-brand.",
+  "name": "Canva",
+  "tagline": "All-in-one design platform with the Magic Studio AI suite.",
+  "description": "Browser-based graphic design platform spanning social, presentations, docs, and print. Its Magic Studio AI suite bundles Magic Design (text/image-to-design), Magic Write, Dream Lab image generation, Magic Edit/Eraser, and Magic Resize, all wired to your Brand Kit for on-brand output.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Canva",
+  "platforms": ["web", "ios", "android", "macos", "windows", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Canva runs its own design-specific models (the Canva Design Model) plus partner image models behind Magic Studio."
+  },
+  "tags": ["design", "graphic-design", "branding", "templates", "image-generation"],
+  "links": [
+    { "kind": "website", "url": "https://www.canva.com/canva-ai/", "primary": true },
+    { "kind": "pricing", "url": "https://www.canva.com/pricing/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

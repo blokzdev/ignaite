@@ -1,0 +1,25 @@
+{
+  "slug": "studyfetch",
+  "insight": "Its Spark.E tutor is grounded only in your uploaded course materials, so it answers from your syllabus rather than the open web.",
+  "name": "StudyFetch",
+  "tagline": "Turn your course materials into AI flashcards, quizzes, and a tutor.",
+  "description": "A study platform that ingests a student's own materials — PDFs, slides, notes, audio, and video — and turns them into flashcards, quizzes, and summaries. Its Spark.E tutor is trained on those uploads to answer questions, generate practice tests, and explain concepts over chat or voice. A free tier offers limited chats and uploads, with paid tiers unlocking unlimited use and a live lecture assistant.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "StudyFetch",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model"
+  },
+  "tags": ["study-tools", "flashcards", "tutoring", "students"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.studyfetch.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

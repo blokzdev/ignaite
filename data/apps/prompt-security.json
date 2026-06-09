@@ -1,0 +1,23 @@
+{
+  "slug": "prompt-security",
+  "insight": "SentinelOne acquired Prompt Security in 2025 (~$250M) to anchor its GenAI/agent-security line within the Singularity platform.",
+  "name": "Prompt Security",
+  "tagline": "Runtime security for enterprise GenAI: shadow-AI visibility, data-leak and prompt-injection defense.",
+  "description": "Prompt Security secures both employee use of GenAI tools and homegrown LLM applications, giving organizations visibility into shadow AI, blocking sensitive-data leakage, and preventing prompt injection in real time. Acquired by SentinelOne in 2025 and integrated into its Singularity platform.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Prompt Security (SentinelOne)",
+  "platforms": ["web", "api", "browser-extension"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Covers ChatGPT, Gemini, Claude, Cursor, and custom LLMs."
+  },
+  "tags": ["genai-security", "shadow-ai", "data-leak-prevention", "prompt-injection"],
+  "links": [
+    { "kind": "website", "url": "https://www.prompt.security", "primary": true },
+    { "kind": "docs", "url": "https://docs.prompt.security" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "lavender",
+  "insight": "Coaches sales emails in real time in the inbox, scoring drafts against patterns mined from billions of sent emails, not generating copy.",
+  "name": "Lavender",
+  "tagline": "Real-time AI email coach that scores and improves sales emails as you write.",
+  "description": "Lavender is an email intelligence tool that grades sales emails in real time and suggests edits to lift reply rates, drawing on analysis of billions of emails. It runs as a browser extension alongside your inbox and adds Ora, an AI agent that drafts cold emails modeled on top-performing patterns.",
+  "category": "marketing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Lavender",
+  "platforms": ["web", "browser-extension"],
+  "tags": ["sales-email", "cold-email", "coaching", "outreach", "reply-rate"],
+  "links": [
+    { "kind": "website", "url": "https://www.lavender.ai", "primary": true },
+    { "kind": "pricing", "url": "https://www.lavender.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

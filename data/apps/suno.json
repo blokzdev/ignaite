@@ -4,7 +4,7 @@
   "name": "Suno",
   "tagline": "Full songs from a prompt. Vocals, instruments, structure.",
   "description": "Hosted music generation with vocal performances, instrument arrangement, and song structure baked in. Type a description or upload a hook, get a finished track. Defined the prompt-to-song category.",
-  "category": "audio",
+  "category": "music",
   "pricing": "freemium",
   "deployment": "cloud",
   "featured": true,
@@ -32,5 +32,12 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from audio to the new dedicated music-generation category."
+    }
+  ]
 }

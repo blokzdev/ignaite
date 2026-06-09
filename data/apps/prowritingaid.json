@@ -1,0 +1,23 @@
+{
+  "slug": "prowritingaid",
+  "name": "ProWritingAid",
+  "tagline": "Style and grammar editor with manuscript-level feedback for authors.",
+  "description": "ProWritingAid goes beyond grammar to analyze pacing, sentence variety, dialogue tags, and readability, plus AI-driven manuscript critique, beta-reader simulation, and story analysis. It integrates into Word, Google Docs, Scrivener, and browsers, aimed at long-form and fiction writers.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "ProWritingAid",
+  "platforms": ["web", "windows", "macos", "browser-extension"],
+  "insight": "Its reports target craft signals fiction writers care about — pacing, sensory detail, dialogue tags — not rivals' business-copy framing.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Combines its own writing-analysis engine with AI critique features; states it does not train on user text."
+  },
+  "tags": ["editing", "style", "fiction", "manuscript"],
+  "links": [
+    { "kind": "website", "url": "https://prowritingaid.com", "primary": true },
+    { "kind": "pricing", "url": "https://prowritingaid.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

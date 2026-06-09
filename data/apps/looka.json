@@ -1,0 +1,23 @@
+{
+  "slug": "looka",
+  "insight": "Designing is free but exporting isn't — logos are a one-time purchase (from $20), while the full Brand Kit is a yearly subscription.",
+  "name": "Looka",
+  "tagline": "AI logo maker and brand kit generator for entrepreneurs.",
+  "description": "An AI-driven branding tool that generates logo concepts from your company name, industry, and style preferences, then lets you customize colors, fonts, and layout. A Brand Kit subscription extends a finished logo into 300+ branded marketing templates and, on the top tier, an AI-generated website. Designing is free; downloading requires a purchase.",
+  "category": "design",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Looka",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Uses Looka's own logo-generation system; no user model selection."
+  },
+  "tags": ["logo", "branding", "brand-kit", "design"],
+  "links": [
+    { "kind": "website", "url": "https://looka.com", "primary": true },
+    { "kind": "pricing", "url": "https://looka.com/pricing/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

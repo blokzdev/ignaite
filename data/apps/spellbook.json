@@ -1,0 +1,24 @@
+{
+  "slug": "spellbook",
+  "insight": "Runs entirely as a Microsoft Word add-in, so contract drafting and redlining happen in the document lawyers already work in, not a web app.",
+  "name": "Spellbook",
+  "tagline": "AI contract drafting and review, inside Microsoft Word.",
+  "description": "Spellbook is an AI assistant for transactional lawyers that drafts, redlines, and reviews contracts directly inside Microsoft Word. It benchmarks clauses, runs playbook-based review across documents, and suggests language. Launched in 2022 as one of the first generative-AI tools for legal work.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Rally Legal (Spellbook)",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude"],
+    "notes": "Powered by GPT-5, Claude, and other LLMs tuned for commercial legal work."
+  },
+  "tags": ["legal", "contracts", "drafting", "word-addin", "review"],
+  "links": [
+    { "kind": "website", "url": "https://www.spellbook.legal", "primary": true },
+    { "kind": "pricing", "url": "https://www.spellbook.legal/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

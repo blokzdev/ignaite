@@ -1,0 +1,22 @@
+{
+  "slug": "databricks-genie",
+  "insight": "Has no separate license fee — it rides on the Databricks lakehouse and inherits Unity Catalog permissions, so answers stay governed.",
+  "name": "Databricks AI/BI Genie",
+  "tagline": "Conversational analytics over your Databricks lakehouse data.",
+  "description": "A no-code conversational analytics interface within the Databricks platform. Business users ask plain-English questions about lakehouse data and Genie returns SQL, charts, and natural-language explanations. It adapts to your business concepts and enforces Unity Catalog governance, so answers stay secure and auditable. Billed through Databricks compute rather than a separate license.",
+  "category": "analytics",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Databricks",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generative AI over the lakehouse; usage billed as LLM DBUs under the pay-as-you-go model."
+  },
+  "tags": ["analytics", "lakehouse", "nl-to-sql", "governed-bi"],
+  "links": [
+    { "kind": "website", "url": "https://www.databricks.com/product/genie/spaces", "primary": true }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

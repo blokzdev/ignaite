@@ -1,0 +1,25 @@
+{
+  "slug": "synthesis-tutor",
+  "insight": "Narrowly scoped to K-5 math for ages 5-11 rather than chasing every subject — depth over breadth in a crowded tutor market.",
+  "name": "Synthesis Tutor",
+  "tagline": "An AI math tutor for kids ages 5 to 11.",
+  "description": "A voice-driven AI math tutor aimed at children ages 5 to 11, covering the K-5 curriculum and beyond. It adapts to each learner with performance-based personalization, interactive courses, progress tracking, and spoken AI-guided feedback. Parents can set up profiles for several children under one subscription.",
+  "category": "education",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Synthesis",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "multi-model"
+  },
+  "tags": ["math", "tutoring", "kids", "k-5"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.synthesis.com/tutor",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

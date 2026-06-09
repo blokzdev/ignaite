@@ -1,0 +1,23 @@
+{
+  "slug": "sunsama",
+  "name": "Sunsama",
+  "tagline": "Calm daily planner that unifies tasks, calendar, and intentional planning.",
+  "description": "Sunsama is a daily planner that pulls tasks from tools like Asana, Trello, Jira, and email into one workspace, then walks you through planning a realistic day alongside your calendar. It emphasizes focus mode with Pomodoro timers, daily shutdown rituals, and time analytics over feature sprawl.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Sunsama",
+  "platforms": ["web", "macos", "windows", "linux", "ios", "android"],
+  "insight": "It enforces a guided daily planning and shutdown ritual rather than maximizing throughput — calm productivity over auto-schedulers.",
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "AI features are assistive; the product centers on structured manual planning rather than an LLM agent."
+  },
+  "tags": ["daily-planner", "tasks", "calendar", "focus"],
+  "links": [
+    { "kind": "website", "url": "https://www.sunsama.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.sunsama.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "reclaim",
+  "name": "Reclaim.ai",
+  "tagline": "AI calendar that auto-schedules tasks, habits, and focus time.",
+  "description": "Reclaim.ai is an AI calendar assistant that automatically schedules tasks, recurring habits, and protected focus time around your meetings, syncing Google and Outlook calendars to prevent double-booking. It auto-defends deep-work blocks, adds buffer time, and finds optimal meeting slots, with time-tracking analytics on top.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Dropbox",
+  "platforms": ["web"],
+  "insight": "Now a Dropbox product, it flexibly defends focus time — rescheduling tasks and habits around meetings automatically, not static blocking.",
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Scheduling is driven by Reclaim's own optimization engine rather than a chat LLM."
+  },
+  "tags": ["calendar", "scheduling", "focus-time", "habits"],
+  "links": [
+    { "kind": "website", "url": "https://reclaim.ai", "primary": true },
+    { "kind": "pricing", "url": "https://reclaim.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

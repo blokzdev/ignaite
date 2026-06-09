@@ -1,0 +1,29 @@
+{
+  "slug": "gorgias",
+  "insight": "Purpose-built for ecommerce and priced per automated resolution (~$0.90 each), so cost tracks deflection volume rather than seats.",
+  "name": "Gorgias",
+  "tagline": "Ecommerce helpdesk with an AI Agent that resolves and converts.",
+  "description": "A customer support helpdesk built for ecommerce, layered with an AI Agent that resolves support questions, automates actions like returns and order tracking, and converts shoppers through personalized chat. The helpdesk uses ticket-based pricing, while the AI Agent is billed per automated resolution. It integrates deeply with ecommerce stacks like Shopify.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Gorgias",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model"
+  },
+  "tags": ["customer-support", "ecommerce", "helpdesk", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.gorgias.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.gorgias.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "dataing",
+  "insight": "Pitches itself as an AI matchmaker with no profiles or swiping, inferring preferences from connected social-media data, not a written one.",
+  "name": "Dataing",
+  "tagline": "An AI matchmaker that learns from your social data — no profiles, no swiping.",
+  "description": "Dataing replaces profile-and-swipe dating with an AI matchmaker (it calls it CupidAI) that connects to your social accounts to infer your interests and communication style, then surfaces compatible matches. The app markets itself as free with no premium tiers.",
+  "category": "companion",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Dataing",
+  "platforms": ["web", "ios", "macos"],
+  "tags": ["dating", "matchmaking", "ai-matchmaker", "consumer"],
+  "links": [{ "kind": "website", "url": "https://dataing.io", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

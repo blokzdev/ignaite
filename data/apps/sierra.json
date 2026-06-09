@@ -4,7 +4,7 @@
   "name": "Sierra",
   "tagline": "Enterprise AI agents for customer experience across channels.",
   "description": "An enterprise platform ('Agent OS') for building conversational AI agents that take action for customers across chat, voice, email, SMS, and WhatsApp. Supports both no-code and programmatic agent development. Founded by Bret Taylor and Clay Bavor and used across a large share of the Fortune 500.",
-  "category": "agent",
+  "category": "support",
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Sierra",
@@ -27,5 +27,12 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from agent to the new support category for customer-support agents."
+    }
+  ]
 }

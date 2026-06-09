@@ -4,7 +4,7 @@
   "name": "Mureka",
   "tagline": "AI music generator for songs, vocals, and instrumentals from a prompt.",
   "description": "An AI music platform that generates original songs, vocals, and instrumentals from text or lyrics, with stem export, voice cloning, and multi-language support. It runs its own in-house models — the Mureka O1 reasoning model and V6 — and exposes an API for developers alongside the web app. The free tier has generation limits; paid tiers add higher quotas and commercial licensing.",
-  "category": "audio",
+  "category": "music",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Skywork AI",
@@ -22,5 +22,12 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from audio to the new dedicated music-generation category."
+    }
+  ]
 }

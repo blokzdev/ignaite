@@ -1,0 +1,23 @@
+{
+  "slug": "powerdrill",
+  "insight": "Accepts multi-modal input — CSV, Excel, SQL, URLs, even images and audio — into the same conversational analysis flow, not just tables.",
+  "name": "Powerdrill",
+  "tagline": "Conversational AI data analysis for files, databases, and the web.",
+  "description": "A no-code data analysis tool that turns natural-language questions into instant insights, charts, and presentations. Users upload Excel, CSV, TSV, and SQL files or paste URLs, and the AI handles cleaning, statistical analysis, and visualization with suggested follow-up questions. Supports multi-modal inputs including images and audio.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Powerdrill",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI agents handle data prep, analysis, and visualization behind a chat interface."
+  },
+  "tags": ["analytics", "data-analysis", "no-code", "visualization"],
+  "links": [
+    { "kind": "website", "url": "https://powerdrill.ai", "primary": true },
+    { "kind": "pricing", "url": "https://chat.powerdrill.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

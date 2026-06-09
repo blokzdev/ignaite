@@ -1,0 +1,22 @@
+{
+  "slug": "cocounsel",
+  "insight": "Originated as Casetext, acquired by Thomson Reuters in 2023, and now wired into Westlaw, Practical Law, and Microsoft 365, not standalone.",
+  "name": "CoCounsel",
+  "tagline": "AI legal assistant grounded in Thomson Reuters content.",
+  "description": "CoCounsel is an AI assistant for lawyers and tax professionals that handles legal research, contract analysis, due diligence, and drafting. Built from the Casetext acquisition, it grounds answers in trusted Thomson Reuters sources like Westlaw and Practical Law and integrates with Microsoft 365. Pricing ranges from per-task to enterprise seats.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Thomson Reuters",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses multiple frontier LLMs; Thomson Reuters states prompts are not used to train models."
+  },
+  "tags": ["legal", "research", "due-diligence", "contracts", "westlaw"],
+  "links": [
+    { "kind": "website", "url": "https://www.thomsonreuters.com/en/cocounsel", "primary": true }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

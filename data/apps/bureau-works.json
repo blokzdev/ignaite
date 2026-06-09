@@ -1,0 +1,20 @@
+{
+  "slug": "bureau-works",
+  "insight": "Its Context Sensitive engine learns each project's style on the fly, claiming ~89% of segments approved with no edits — above generic MT.",
+  "name": "Bureau Works",
+  "tagline": "Context-sensitive AI translation operating system for localization teams.",
+  "description": "A translation platform built around a Context Sensitive Translate engine that adapts to each project's content and style rather than relying on static translation memory. Handles end-to-end localization workflow — quoting, task assignment, QA, and payments — across 200+ languages and 50+ file types. Positions LLM-driven context as the core differentiator over generic machine translation.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Bureau Works",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-backed Context Sensitive Translate engine with dynamic per-project learning."
+  },
+  "tags": ["translation", "localization", "context-aware", "workflow"],
+  "links": [{ "kind": "website", "url": "https://www.bureauworks.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

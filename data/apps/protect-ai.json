@@ -1,0 +1,23 @@
+{
+  "slug": "protect-ai",
+  "insight": "Acquired by Palo Alto Networks in 2025 and folded into Prisma AIRS; stewards the open-source ModelScan and NB Defense tools.",
+  "name": "Protect AI",
+  "tagline": "End-to-end security for ML models, AI apps, and the AI supply chain.",
+  "description": "Protect AI secures the AI/ML lifecycle from model selection through deployment and runtime: model scanning for serialization attacks, AI red teaming, posture management, and runtime protection. It also stewards open-source tools like ModelScan. Acquired by Palo Alto Networks in 2025 and integrated into the Prisma AIRS platform.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Protect AI (Palo Alto Networks)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Scans and protects models across formats and frameworks."
+  },
+  "tags": ["mlsecops", "model-scanning", "ai-supply-chain", "red-teaming"],
+  "links": [
+    { "kind": "website", "url": "https://protectai.com", "primary": true },
+    { "kind": "github", "url": "https://github.com/protectai" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

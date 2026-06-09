@@ -1,0 +1,20 @@
+{
+  "slug": "khroma",
+  "insight": "Trains a per-user neural net from 50 colors you pick, generating palettes tuned to your taste — and runs in the browser with no signup.",
+  "name": "Khroma",
+  "tagline": "AI color tool that learns your taste and generates personalized palettes.",
+  "description": "A color tool for designers that trains a personal neural-network model on a set of colors you like, then generates thousands of combinations it predicts you'll prefer. Results come with WCAG accessibility ratings and previews as gradients, type, and posters. Free, no account required, and runs in the browser.",
+  "category": "design",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Khroma",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Trains a small per-user model in-browser from the colors you select; no external LLM."
+  },
+  "tags": ["color", "palettes", "accessibility", "design"],
+  "links": [{ "kind": "website", "url": "https://www.khroma.co", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -4,7 +4,7 @@
   "name": "Udio",
   "tagline": "AI music generation. The Suno alternative.",
   "description": "Hosted full-song generation focused on production-quality output and finer style control. The other half of the AI music duopoly — many producers run prompts through both Suno and Udio.",
-  "category": "audio",
+  "category": "music",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Udio",
@@ -27,5 +27,12 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from audio to the new dedicated music-generation category."
+    }
+  ]
 }

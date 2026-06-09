@@ -1,0 +1,21 @@
+{
+  "slug": "skild-ai",
+  "insight": "Pitches an \"omni-bodied\" brain: one model meant to control quadrupeds, humanoids, and arms it never trained on, pretrained on sim and video.",
+  "name": "Skild AI",
+  "tagline": "A single, omni-bodied foundation model designed to control any robot.",
+  "description": "Skild AI builds Skild Brain, a general-purpose robotics foundation model intended to control diverse embodiments — quadrupeds, humanoids, tabletop arms, mobile manipulators — without prior knowledge of a robot's exact form. It pretrains on large-scale simulation and internet video, then post-trains on targeted real-world data for customer deployments.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Skild AI",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Skild Brain"],
+    "notes": "Proprietary omni-bodied robot foundation model."
+  },
+  "tags": ["robot-foundation-model", "embodied-ai", "humanoid", "manipulation"],
+  "links": [{ "kind": "website", "url": "https://www.skild.ai", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "pi",
+  "insight": "Built as an emotionally intelligent companion by Inflection AI; in March 2024 Microsoft acqui-hired most of the team, yet it stays free.",
+  "name": "Pi",
+  "tagline": "A free, emotionally intelligent personal AI for supportive conversation.",
+  "description": "Pi (short for 'personal intelligence') is a conversational AI from Inflection AI designed for supportive, reflective dialogue rather than task automation. It emphasizes sustained, empathetic conversation across web, mobile, and voice, and is free to use without a subscription.",
+  "category": "companion",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Inflection AI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": { "kind": "single-model", "notes": "Runs on Inflection's own in-house models." },
+  "tags": ["companion", "conversation", "emotional-support", "consumer"],
+  "links": [{ "kind": "website", "url": "https://pi.ai", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

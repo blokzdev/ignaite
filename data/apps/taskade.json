@@ -1,0 +1,24 @@
+{
+  "slug": "taskade",
+  "name": "Taskade",
+  "tagline": "AI workspace for tasks, projects, and multi-agent automated workflows.",
+  "description": "Taskade turns prompts into apps, AI agents, and automated workflows in one workspace, blending task lists, projects, notes, and mind maps with real-time collaboration. Its AI agents handle research, writing, and reviewing with multi-agent handoffs, plus durable automations and 100+ integrations.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Taskade",
+  "platforms": ["web", "macos", "windows", "ios", "android", "browser-extension"],
+  "insight": "It blends a classic outliner/task workspace with no-code multi-agent teams, so one doc is both a project plan and where agents execute it.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"],
+    "notes": "Agents can run on multiple frontier model providers."
+  },
+  "tags": ["tasks", "agents", "projects", "collaboration"],
+  "links": [
+    { "kind": "website", "url": "https://www.taskade.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.taskade.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

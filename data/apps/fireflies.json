@@ -4,7 +4,7 @@
   "name": "Fireflies.ai",
   "tagline": "AI notetaker that records, transcribes, and summarizes meetings.",
   "description": "A meeting assistant whose bot joins Zoom, Google Meet, Microsoft Teams, and Webex calls to record, transcribe, and summarize them, then extracts action items and highlights. The AskFred assistant lets you query across past conversations, and transcripts sync to CRMs and other tools. Mobile and Chrome apps capture in-person and browser audio.",
-  "category": "voice",
+  "category": "meeting",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Fireflies.ai",
@@ -26,5 +26,12 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
+    }
+  ]
 }

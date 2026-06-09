@@ -1,0 +1,27 @@
+{
+  "slug": "brex",
+  "insight": "Its \"Agent Mesh\" stitches together many single-task agents that coordinate in plain English over a shared stream, not one big assistant.",
+  "name": "Brex",
+  "tagline": "AI finance platform for cards, expenses, and accounting.",
+  "description": "Brex is a corporate spend platform pairing cards, expense management, and accounting with a fleet of AI agents. Agents file employees' expenses, fetch receipts, audit transactions for compliance, and auto-approve low-risk items. Its Agent Mesh architecture coordinates many specialized agents to automate finance workflows end to end.",
+  "category": "finance",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Brex",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Network of task-specific agents (Agent Mesh) built on frontier LLMs."
+  },
+  "tags": ["fintech", "spend-management", "expenses", "agents", "corporate-cards"],
+  "links": [
+    { "kind": "website", "url": "https://www.brex.com", "primary": true },
+    {
+      "kind": "website",
+      "url": "https://www.brex.com/platform/intelligent-finance",
+      "label": "Agents on Brex"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

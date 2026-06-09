@@ -1,0 +1,20 @@
+{
+  "slug": "riffusion",
+  "insight": "Started as an open-source hack generating audio from spectrogram images; its FUZZ model now ranks near the top of public music leaderboards.",
+  "name": "Riffusion",
+  "tagline": "Free AI music generator that creates full songs from text, audio, or images.",
+  "description": "An AI music platform that generates complete songs from text descriptions, audio clips, or visual prompts using its FUZZ model. Born from an open-source project that synthesized music by generating spectrogram images with Stable Diffusion, it now runs as a free web app and mobile apps with a daily-credit free tier and paid credits for heavier use.",
+  "category": "music",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Riffusion",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Generates with Riffusion's own FUZZ music model; no user model selection."
+  },
+  "tags": ["music-generation", "text-to-music", "songs", "free"],
+  "links": [{ "kind": "website", "url": "https://www.riffusion.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

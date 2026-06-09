@@ -1,0 +1,23 @@
+{
+  "slug": "motion",
+  "name": "Motion",
+  "tagline": "AI productivity superapp: auto-scheduling, projects, and meeting notes.",
+  "description": "Motion combines task management, project planning, and calendar scheduling, automatically time-blocking your day from tasks, deadlines, and workload and re-planning as priorities shift. It also generates project plans from a description and takes AI meeting notes with action items, integrating with Gmail, Outlook, Zoom, Slack, and more.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Motion",
+  "platforms": ["web", "macos", "windows", "ios", "android"],
+  "insight": "Its core trick is auto-scheduling — it continuously rebuilds your calendar from your task list, so slipped work re-flows automatically.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses LLMs for project generation, meeting notes, and search; underlying models not published."
+  },
+  "tags": ["calendar", "tasks", "auto-scheduling", "project-management"],
+  "links": [
+    { "kind": "website", "url": "https://www.usemotion.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.usemotion.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

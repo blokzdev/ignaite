@@ -1,0 +1,24 @@
+{
+  "slug": "snyk",
+  "insight": "Snyk Code is built on DeepCode AI, the symbolic+ML engine from its 2020 DeepCode buy, trained on millions of data-flow cases, not an LLM.",
+  "name": "Snyk",
+  "tagline": "Developer security platform with DeepCode AI for SAST, SCA, and AI-generated fixes.",
+  "description": "Snyk finds and fixes vulnerabilities in code, open-source dependencies, containers, and IaC. Its Snyk Code SAST engine, DeepCode AI, combines symbolic and machine-learning analysis with inter-file data-flow tracing to detect issues and auto-generate fixes. Integrates into IDEs, the CLI, and CI.",
+  "category": "security",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Snyk",
+  "platforms": ["web", "cli", "api", "vscode-extension"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "DeepCode AI engine is proprietary; not a BYO-key LLM wrapper."
+  },
+  "tags": ["appsec", "sast", "deepcode-ai", "vulnerability-scanning"],
+  "links": [
+    { "kind": "website", "url": "https://snyk.io", "primary": true },
+    { "kind": "docs", "url": "https://docs.snyk.io" },
+    { "kind": "pricing", "url": "https://snyk.io/plans/" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "ramp",
+  "insight": "Its Policy Agent reads your written expense policy and auto-decides approve/reject/escalate on each transaction, claiming >99% accuracy.",
+  "name": "Ramp",
+  "tagline": "AI-driven spend management, corporate cards, and accounts payable.",
+  "description": "Ramp is a finance platform for corporate cards, expense management, and accounts payable that layers AI agents across the full spend lifecycle. Agents read expense policies, flag fraud, code transactions, source vendors, and review bills, automating work that finance teams used to do by hand. Used by over 70,000 companies.",
+  "category": "finance",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Ramp",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Runs a fleet of task-specific AI agents over frontier LLMs."
+  },
+  "tags": ["fintech", "spend-management", "expenses", "agents", "accounts-payable"],
+  "links": [
+    { "kind": "website", "url": "https://ramp.com", "primary": true },
+    { "kind": "website", "url": "https://ramp.com/intelligence", "label": "Ramp Intelligence" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

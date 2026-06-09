@@ -1,0 +1,23 @@
+{
+  "slug": "smartcat",
+  "insight": "Bundles AI translation with a marketplace of 500,000+ vetted linguists and billing — so sourcing, paying, and managing stay in one place.",
+  "name": "Smartcat",
+  "tagline": "AI-first translation platform with a built-in linguist marketplace.",
+  "description": "A cloud translation platform pairing AI translation and CAT tooling with an integrated marketplace of professional translators and automated vendor billing. Supports 280+ languages, translation memory, and collaborative project management. The marketplace and payments are native, so finding and paying human reviewers stays inside the tool.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Smartcat",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI translation across engines plus an integrated human linguist marketplace."
+  },
+  "tags": ["translation", "cat-tool", "marketplace", "localization"],
+  "links": [
+    { "kind": "website", "url": "https://www.smartcat.com", "primary": true },
+    { "kind": "docs", "url": "https://developers.smartcat.com" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

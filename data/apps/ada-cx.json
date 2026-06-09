@@ -1,0 +1,30 @@
+{
+  "slug": "ada-cx",
+  "insight": "A multi-LLM architecture lets its agents reason through inquiries, not keyword-match; it claims the first AIUC-1 agentic certification.",
+  "name": "Ada CX",
+  "tagline": "Enterprise AI customer service agents across every channel.",
+  "description": "An enterprise AI customer service platform that deploys agents across languages and channels through its Conversation Hub. It connects to systems like Zendesk, Salesforce, and Twilio to take actions, personalize responses, and resolve issues automatically. Ada uses a multi-LLM architecture and targets large enterprises, with custom pricing and no self-serve trial.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Ada",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Multi-LLM architecture; model choice abstracted from the operator."
+  },
+  "tags": ["customer-support", "agents", "enterprise", "deflection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ada.cx",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.ada.cx/platform/"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

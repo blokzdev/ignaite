@@ -1,0 +1,23 @@
+{
+  "slug": "mem",
+  "name": "Mem",
+  "tagline": "Self-organizing AI notes that file and resurface themselves.",
+  "description": "Mem is an AI note-taking and knowledge app that captures notes and organizes them automatically, linking related content and resurfacing it contextually instead of asking you to maintain folders. Its AI chat answers natural-language questions across your notes, acting as a searchable 'second brain'.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mem Labs",
+  "platforms": ["web", "macos", "ios"],
+  "insight": "Its thesis inverts folder-based note apps — you never file anything; AI links and surfaces notes on its own, so organization is a byproduct.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses frontier LLMs for auto-organization, linking, and chat over your notes."
+  },
+  "tags": ["notes", "knowledge-management", "second-brain", "search"],
+  "links": [
+    { "kind": "website", "url": "https://get.mem.ai", "primary": true },
+    { "kind": "pricing", "url": "https://get.mem.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

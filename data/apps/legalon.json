@@ -1,0 +1,20 @@
+{
+  "slug": "legalon",
+  "insight": "Pairs its AI with 50+ playbooks written by staff attorneys, leaning on curated legal guidance rather than a raw model to redline contracts.",
+  "name": "LegalOn",
+  "tagline": "Attorney-built AI for contract review and redlining in Word.",
+  "description": "LegalOn is an AI contract review platform that detects risk and inserts redlines directly inside Microsoft Word. It ships 50+ attorney-built playbooks for common contract types so teams get guidance grounded in legal expertise, not just a general model. Founded in 2017 in Japan and used by thousands of legal teams.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "LegalOn Technologies",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses purpose-built legal AI combined with attorney-authored playbooks."
+  },
+  "tags": ["legal", "contracts", "review", "word-addin", "playbooks"],
+  "links": [{ "kind": "website", "url": "https://www.legalontech.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

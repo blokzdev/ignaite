@@ -1,0 +1,24 @@
+{
+  "slug": "lakera",
+  "insight": "Its detection models train on adversarial prompts harvested from Gandalf, its viral prompt-injection game; acquired by Cisco in 2025.",
+  "name": "Lakera",
+  "tagline": "Real-time guardrails against prompt injection and jailbreaks for AI apps.",
+  "description": "Lakera Guard sits between users and LLMs as a low-latency security layer, detecting and blocking direct and indirect prompt injection, jailbreaks, and system-prompt extraction across 100+ languages. Its models are trained on adversarial data from Gandalf, Lakera's prompt-injection game. Acquired by Cisco in 2025.",
+  "category": "security",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Lakera (Cisco)",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Guards any LLM-backed app via an API in front of the model."
+  },
+  "tags": ["prompt-injection", "guardrails", "llm-security", "jailbreak"],
+  "links": [
+    { "kind": "website", "url": "https://www.lakera.ai", "primary": true },
+    { "kind": "docs", "url": "https://docs.lakera.ai/guard" },
+    { "kind": "demo", "url": "https://gandalf.lakera.ai" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

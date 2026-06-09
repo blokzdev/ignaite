@@ -1,0 +1,23 @@
+{
+  "slug": "intercom-fin",
+  "insight": "Charges $0.99 per resolution, and only when it resolves — and runs on top of Zendesk, Salesforce, or Freshdesk, not just Intercom.",
+  "name": "Fin",
+  "tagline": "Intercom's AI support agent, billed per resolution across any helpdesk.",
+  "description": "An AI customer-service agent from Intercom that answers and resolves support conversations across chat, email, voice, and social. It plugs into existing helpdesks including Zendesk, Salesforce, HubSpot, and Freshdesk rather than requiring Intercom's own suite. Pricing is outcome-based at $0.99 per successful resolution, with a 50-resolution monthly minimum.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Intercom",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Runs on Intercom's Fin AI Engine, which orchestrates frontier LLMs behind the agent."
+  },
+  "tags": ["customer-support", "deflection", "helpdesk", "agents"],
+  "links": [
+    { "kind": "website", "url": "https://fin.ai", "primary": true },
+    { "kind": "pricing", "url": "https://fin.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

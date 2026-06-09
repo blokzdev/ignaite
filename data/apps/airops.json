@@ -1,0 +1,19 @@
+{
+  "slug": "airops",
+  "insight": "Targets visibility inside AI answer engines (ChatGPT, Claude, Perplexity, Gemini), tracking citations and share-of-voice, not Google rank.",
+  "name": "AirOps",
+  "tagline": "AI-search visibility platform: track citations and ship optimized content at scale.",
+  "description": "AirOps helps marketing teams win visibility across AI answer engines and traditional search. It tracks brand citations and share-of-voice across ChatGPT, Claude, Perplexity, and Gemini, then runs an AI agent (Quill) that drafts and refreshes content against brand guidelines and gap analysis.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "AirOps",
+  "platforms": ["web"],
+  "tags": ["ai-seo", "geo", "content", "citations", "share-of-voice"],
+  "links": [
+    { "kind": "website", "url": "https://www.airops.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.airops.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

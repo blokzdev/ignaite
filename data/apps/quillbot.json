@@ -1,0 +1,23 @@
+{
+  "slug": "quillbot",
+  "name": "QuillBot",
+  "tagline": "Paraphrasing, grammar, and summarizing suite used by 35M+ writers.",
+  "description": "QuillBot is a writing suite centered on paraphrasing, grammar checking, and summarizing, with added tools for citation, plagiarism and AI detection, and translation. It runs on the web, as browser extensions and a Word add-in, and on desktop and mobile, widely used by students and professionals.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Learneo",
+  "platforms": ["web", "browser-extension", "windows", "macos", "ios", "android"],
+  "insight": "A Learneo (formerly Course Hero) business, sitting alongside Course Hero and Scribbr — which is why its tooling skews toward students.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Combines proprietary paraphrasing models with third-party LLM features."
+  },
+  "tags": ["paraphrasing", "grammar", "summarizing", "students"],
+  "links": [
+    { "kind": "website", "url": "https://quillbot.com", "primary": true },
+    { "kind": "pricing", "url": "https://quillbot.com/premium" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

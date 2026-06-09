@@ -1,0 +1,16 @@
+{
+  "slug": "uneversleep",
+  "insight": "Sends AI-written Upwork proposals within ~15 minutes of a job posting via the official API, billed per response rather than per seat.",
+  "name": "U Never Sleep",
+  "tagline": "Auto-responds to matching Upwork jobs with AI-written proposals within minutes.",
+  "description": "U Never Sleep filters Upwork job postings against your budget, keyword, and client-history criteria, then generates and submits a personalized proposal within minutes of a job going live. It tracks proposals, open rates, and responses in a dashboard and ships a free Chrome extension that scores your Upwork profile.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Hi No Code Inc.",
+  "platforms": ["web", "browser-extension"],
+  "tags": ["upwork", "sales-outreach", "proposals", "freelancing", "automation"],
+  "links": [{ "kind": "website", "url": "https://www.uneversleep.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "avoma",
+  "insight": "Bundles the notetaker with conversation intelligence, a scheduler/lead router, and revenue forecasting in one platform, not a transcriber.",
+  "name": "Avoma",
+  "tagline": "AI meeting assistant plus conversation and revenue intelligence for sales teams.",
+  "description": "Avoma records, transcribes (75+ languages), and notes meetings with custom templates and an Ask Avoma copilot, then layers conversation intelligence with call scoring and talk-pattern analytics. Higher tiers add a scheduler, lead router, and revenue intelligence with deal-risk alerts and forecasting.",
+  "category": "meeting",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Avoma",
+  "platforms": ["web"],
+  "tags": ["meeting-notes", "conversation-intelligence", "sales", "transcription", "revenue"],
+  "links": [
+    { "kind": "website", "url": "https://www.avoma.com", "primary": true },
+    { "kind": "pricing", "url": "https://www.avoma.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

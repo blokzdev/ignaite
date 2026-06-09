@@ -1,0 +1,16 @@
+{
+  "slug": "k-health",
+  "insight": "Uses AI trained on millions of anonymized clinical records to surface probable diagnoses, but a human clinician reviews each case.",
+  "name": "K Health",
+  "tagline": "AI-assisted virtual primary care, with a clinician reviewing every case.",
+  "description": "K Health combines an AI symptom intake — built on anonymized clinical records — with virtual visits from licensed clinicians for primary and mental-health care. The AI surfaces probable diagnoses and pathways, but a clinician reviews each case and makes clinical decisions. It operates on direct-pay subscriptions and per-visit pricing.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "K Health",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["telehealth", "primary-care", "symptom-checker", "consumer-health"],
+  "links": [{ "kind": "website", "url": "https://khealth.com", "primary": true }],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

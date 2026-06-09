@@ -4,7 +4,7 @@
   "name": "Granola",
   "tagline": "AI notepad for back-to-back meetings — captures your Mac's audio, no meeting bot.",
   "description": "A desktop notepad that captures your computer's audio during calls and enhances your rough notes into structured summaries afterward. Because it records the system's own audio rather than dispatching a bot into the meeting, there's no visible notetaker for participants. Includes shared folders, custom templates, and an AI chat over your notes.",
-  "category": "voice",
+  "category": "meeting",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Granola",
@@ -22,5 +22,12 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
+    }
+  ]
 }

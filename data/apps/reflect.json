@@ -1,0 +1,24 @@
+{
+  "slug": "reflect",
+  "name": "Reflect",
+  "tagline": "Networked, end-to-end-encrypted notes with a built-in AI assistant.",
+  "description": "Reflect is a fast note-taking app that links ideas into a backlinked graph, syncs instantly across devices, and keeps notes end-to-end encrypted. Its AI assistant transcribes voice notes, drafts outlines, surfaces takeaways, and improves writing, with Google Calendar and Outlook integration plus web and Kindle clipping.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Reflect",
+  "platforms": ["web", "macos", "windows", "ios", "browser-extension"],
+  "insight": "It pairs end-to-end encryption with cloud AI by sending only minimal context to OpenAI per request — a privacy posture rare for note apps.",
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Whisper"],
+    "notes": "Uses OpenAI GPT-4 and Whisper for writing help and voice transcription."
+  },
+  "tags": ["notes", "backlinks", "encrypted", "second-brain"],
+  "links": [
+    { "kind": "website", "url": "https://reflect.app", "primary": true },
+    { "kind": "pricing", "url": "https://reflect.app/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

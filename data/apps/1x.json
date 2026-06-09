@@ -1,0 +1,24 @@
+{
+  "slug": "1x",
+  "insight": "Its NEO home humanoid runs the 160M-parameter Redwood VLA onboard and learns chores partly via human teleoperation.",
+  "name": "1X",
+  "tagline": "NEO, a home humanoid robot driven by the onboard Redwood vision-language-action model.",
+  "description": "1X (1X Technologies) builds NEO, a household humanoid robot powered by Redwood, a 160M-parameter vision-language-action model that jointly controls locomotion and manipulation for tasks like laundry and answering the door. Redwood runs on NEO's onboard GPU and pairs with an off-board language model for voice control. NEO ships from 2026 at $20,000 or $499/month.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "1X Technologies",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Redwood"],
+    "notes": "Onboard VLA model; off-board LLM for voice/command understanding."
+  },
+  "tags": ["humanoid", "home-robot", "vla", "redwood"],
+  "links": [
+    { "kind": "website", "url": "https://www.1x.tech", "primary": true },
+    { "kind": "video", "url": "https://www.1x.tech/neo" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

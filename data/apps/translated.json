@@ -1,0 +1,25 @@
+{
+  "slug": "translated",
+  "insight": "Its ModernMT engine is Apache-2.0 open source and adapts on the fly from your corrections — one model acts like many custom engines.",
+  "name": "ModernMT",
+  "tagline": "Adaptive neural machine translation that learns from your corrections.",
+  "description": "Translated's machine translation engine, ModernMT, is an adaptive neural MT system that adapts to context and learns from human corrections in real time without retraining. It pools project data and translation memories to deliver custom-engine quality on the fly. The core engine is open source, and the hosted Hyper Adaptive service offers managed custom models.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Translated",
+  "openSource": true,
+  "platforms": ["web", "api", "linux"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Open-source adaptive NMT (Fairseq Transformer base); self-hostable or hosted via Translated."
+  },
+  "tags": ["translation", "machine-translation", "adaptive", "open-source"],
+  "links": [
+    { "kind": "website", "url": "https://www.modernmt.com", "primary": true },
+    { "kind": "github", "url": "https://github.com/modernmt/modernmt" },
+    { "kind": "pricing", "url": "https://www.modernmt.com/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

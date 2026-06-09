@@ -1,0 +1,23 @@
+{
+  "slug": "beatoven",
+  "insight": "Fairly Trained certified — its 'maestro' model trains on licensed music with musicians paid, so output is ethically-sourced royalty-free.",
+  "name": "Beatoven.ai",
+  "tagline": "Royalty-free AI music generator for video, podcasts, and games.",
+  "description": "An AI music generator that crafts royalty-free background tracks from a text description via its 'maestro' model, with support for video and audio prompts and sound-effects generation. Every download carries a non-exclusive perpetual license for monetized use. It is Fairly Trained certified, meaning its training data is licensed and contributing musicians are compensated.",
+  "category": "music",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Beatoven.ai",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Uses Beatoven's own 'maestro' model, trained on licensed music; no model picker."
+  },
+  "tags": ["music-generation", "royalty-free", "background-music", "ethical-ai"],
+  "links": [
+    { "kind": "website", "url": "https://www.beatoven.ai", "primary": true },
+    { "kind": "pricing", "url": "https://www.beatoven.ai/pricing" }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
