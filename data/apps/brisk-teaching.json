@@ -40,5 +40,5 @@
     "Less control over plan structure"
   ],
   "bestFor": ["Teachers in Google Workspace", "Grading and feedback"],
-  "alternatives": ["magicschool-ai", "khanmigo", "quizlet", "studyfetch"]
+  "alternatives": ["magicschool-ai", "kuraplan", "khanmigo", "studyfetch"]
 }
