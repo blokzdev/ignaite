@@ -1,0 +1,30 @@
+{
+  "slug": "hyperbolic",
+  "insight": "Runs partly as a GPU marketplace where suppliers rent out idle H100s, which is how its open-model inference undercuts centralized clouds.",
+  "name": "Hyperbolic",
+  "tagline": "Open-access AI cloud: serverless inference + a GPU marketplace.",
+  "description": "An AI cloud offering serverless inference for open models (Llama, Qwen, DeepSeek, SDXL, Flux) behind an OpenAI-compatible API, alongside an on-demand GPU marketplace for H100/H200 rentals. It aggregates idle and reserved compute to price inference and GPU hours below centralized clouds. Aimed at developers training, fine-tuning, and serving open-weights models.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Hyperbolic",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Qwen", "DeepSeek", "FLUX", "SDXL"]
+  },
+  "tags": ["inference", "gpu-cloud", "open-weights", "marketplace"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hyperbolic.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.hyperbolic.ai"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

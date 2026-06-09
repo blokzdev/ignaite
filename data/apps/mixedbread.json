@@ -1,0 +1,34 @@
+{
+  "slug": "mixedbread",
+  "insight": "Its mxbai embedding and reranking models are Apache-2 and widely self-hosted; the managed search engine is the commercial layer on top.",
+  "name": "Mixedbread",
+  "tagline": "Managed multimodal search over your text, PDFs, images, and video.",
+  "description": "A fully managed search engine that indexes text, PDFs, tables, images, and video across 100+ languages without hand-tuning embeddings or a multi-stage pipeline. The Berlin team is best known for its open-source mxbai embedding and reranking models, which the hosted product builds on. Access it via dashboard, Python/TypeScript SDKs, or MCP.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mixedbread",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Built on Mixedbread's own mxbai embedding/reranking models."
+  },
+  "tags": ["search", "retrieval", "embeddings", "multimodal"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.mixedbread.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/mixedbread-ai"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.mixedbread.com/docs"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
