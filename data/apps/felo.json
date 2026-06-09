@@ -1,0 +1,26 @@
+{
+  "slug": "felo",
+  "insight": "Multilingual answer engine that can turn a query into an editable slide deck or mind map, not just a block of cited text.",
+  "name": "Felo",
+  "tagline": "Multilingual AI search that turns answers into slides and mind maps.",
+  "description": "An AI search and answer engine built around multilingual research — it searches across 25+ languages and synthesizes cited answers. Beyond text, Felo can generate editable presentations (AI PPT), mind maps, and agent workflows from a single query, making it a research-to-output tool rather than a pure search box.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Felo Inc.",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Routes to frontier models (e.g. GPT and Claude) on paid tiers."
+  },
+  "tags": ["ai-search", "answer-engine", "multilingual", "presentations"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://felo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
