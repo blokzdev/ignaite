@@ -1,6 +1,6 @@
 {
   "slug": "openclaw",
-  "insight": "One of the few self-hosted assistants that runs on iOS and Android too, controlled from WhatsApp, Telegram, Slack, or Discord.",
+  "insight": "Created by developer Peter Steinberger; the open-source project has rocketed past 300K GitHub stars since launch.",
   "name": "OpenClaw",
   "tagline": "Local-first personal AI assistant you run on your own devices, on any platform.",
   "description": "A self-hosted, local-first personal AI assistant with a gateway as the control plane, reachable across messaging channels like WhatsApp, Telegram, Slack, and Discord. It runs on macOS, Linux, Windows, iOS, and Android, with an onboarding wizard for setup. Free and open source under MIT; you supply your own model API key.",

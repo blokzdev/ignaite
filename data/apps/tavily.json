@@ -1,6 +1,6 @@
 {
   "slug": "tavily",
-  "insight": "Returns clean, scrape-ready content instead of a ranked link list — which is why it's the default search tool baked into agent frameworks.",
+  "insight": "Grew out of the open-source GPT Researcher project; AI-infra firm Nebius acquired it for $275M in 2026.",
   "name": "Tavily",
   "tagline": "Search API built for AI agents. First-class in most agent frameworks.",
   "description": "Search-as-a-tool for LLM agents — returns scrape-friendly results tuned for retrieval rather than ranking. Native integrations across LangChain, LangGraph, CrewAI, and the major agent surfaces.",

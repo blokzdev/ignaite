@@ -1,6 +1,6 @@
 {
   "slug": "poe",
-  "insight": "Built by Quora; anyone can spin up no-code bots on any model, and creators earn a share of the usage revenue they drive.",
+  "insight": "Built by Quora, whose CEO Adam D'Angelo also sits on OpenAI's board — one of the four who voted to remove Sam Altman in 2023.",
   "name": "Poe",
   "tagline": "One app for many AI models — chat and build bots across providers.",
   "description": "Quora's aggregator that puts models from Anthropic, OpenAI, Google, xAI, Meta, and others behind a single subscription, alongside image and video bots. Anyone can build a custom no-code bot in minutes, and creators are paid based on usage. Available on web, mobile, and desktop, with an API for developers.",

@@ -1,6 +1,6 @@
 {
   "slug": "vercel",
-  "insight": "Deploys are Next.js-native — edge functions, image optimization, and analytics in one frontend cloud, no separate infra to wire up.",
+  "insight": "Founded in 2015 as ZEIT by Next.js and Socket.IO creator Guillermo Rauch, and rebranded to Vercel in April 2020.",
   "name": "Vercel",
   "tagline": "Frontend cloud for React/Next. Edge functions + image opt + analytics.",
   "description": "Next.js-native hosting with fast deploys, edge functions, image optimization, and a free Speed Insights tier. Strong default for the React/Next ecosystem.",

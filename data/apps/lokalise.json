@@ -1,6 +1,6 @@
 {
   "slug": "lokalise",
-  "insight": "Its AI splits into Standard and Pro tiers with smart LLM routing per string — cheap models for low-stakes copy, stronger where tone matters.",
+  "insight": "Founded in 2017 in Riga, Latvia; raised a $50M Series B led by CRV in 2021.",
   "name": "Lokalise",
   "tagline": "AI localization platform for software, app, and web strings.",
   "description": "A translation management system built for software localization, with in-context editing, developer integrations, and AI-assisted translation. Lokalise AI routes strings across models — a Standard tier for everyday content and a Pro tier with context awareness and custom profiles for accuracy-sensitive copy. Manages glossaries, translation memory, and workflow across teams.",

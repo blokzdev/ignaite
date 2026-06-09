@@ -1,6 +1,6 @@
 {
   "slug": "notebooklm",
-  "insight": "Answers strictly from your uploaded sources — no open-web drift — and its Audio Overviews turn a doc set into a two-host podcast.",
+  "insight": "Debuted as 'Project Tailwind' at Google I/O 2023, co-created by bestselling science author Steven Johnson.",
   "name": "NotebookLM",
   "tagline": "Grounded research notebook — chat your sources, get Audio Overviews.",
   "description": "Google's source-grounded research tool — upload docs, PDFs, and links, then ask questions answered only from your material, with citations and shareable Audio Overviews. Powered by Gemini.",

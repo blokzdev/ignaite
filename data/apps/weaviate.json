@@ -1,6 +1,6 @@
 {
   "slug": "weaviate",
-  "insight": "Embeds text inline so you can skip a separate vectorizer step, and does hybrid BM25 + vector search out of the box.",
+  "insight": "Founded in Amsterdam in 2019 under the name SeMI Technologies; raised a $50M Series B led by Index Ventures in 2023.",
   "name": "Weaviate",
   "tagline": "Open-source vector database with built-in vectorisers.",
   "description": "Cloud-native vector DB that can compute embeddings inline — pass raw text in, store vectors out. Strong hybrid (BM25 + vector) search; self-hostable or managed.",

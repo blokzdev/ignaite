@@ -1,6 +1,6 @@
 {
   "slug": "dify",
-  "insight": "Bundles a workflow builder, RAG, and observability into one self-hostable platform — its license is source-available, not fully OSI.",
+  "insight": "Launched in 2023 by LangGenius (ex-Tencent Cloud devs); one of GitHub's most-starred LLM-app platforms (130k+).",
   "name": "Dify",
   "tagline": "Visual platform for agentic workflows, RAG pipelines, and LLM apps.",
   "description": "An LLMOps platform that bundles a drag-and-drop workflow builder, RAG pipelines, agent tooling, model management, and observability into one surface — prototype to production without much glue code. Connects hundreds of proprietary and open models across providers. Self-host the source-available edition for free, or use Dify Cloud's paid tiers.",

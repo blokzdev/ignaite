@@ -29,10 +29,12 @@ here can invoke them. They encode the same flow we run manually.
   on the app detail page (`kind` = updated/fixed/archived/relisted). A no-change re-verification only
   bumps `lastVerifiedAt`; it records nothing. `asOf` (the real-world change date) and `source` are set
   only when the research can pin them — never guessed.
-- **The AI insight is the signature.** Every listing carries an `insight` — one ≤140-char,
-  non-obvious, _verifiable_ sentence (a licensing nuance, an architectural quirk, how it differs from
-  peers) authored while researching it. It's what makes the catalog read as AI-curated, not
-  auto-generated. Never fabricate; omit rather than pad with a re-pitch of the tagline.
+- **"Worth knowing" is the signature.** The `insight` field is one ≤140-char _verifiable FACT_ the
+  description doesn't carry — an acquisition/funding event, origin/lineage, a licensing nuance, a
+  pivot/rename, or a rare capability — surfaced while researching the listing. It's **not comparative**
+  (that's `edge`) and **not** a re-statement of what the app does. It's what makes the catalog read as
+  AI-curated, not auto-generated. Never fabricate; omit where there's no sharp fact (coverage is
+  intentionally partial — a real fact or nothing).
 - **The "honest brief" makes each listing decision-grade.** Beyond `insight`, listings carry optional
   enrichment: `edge` (the comparative "why pick this one"), balanced `pros`/`cons` (the honest cons are
   the trust signal), `bestFor`, curated `alternatives` (peer slugs powering the "Alternatives to <name>"

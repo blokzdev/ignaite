@@ -1,6 +1,6 @@
 {
   "slug": "windsurf",
-  "insight": "Its Cascade agent plans before it edits, which pays off when a change spans many files rather than a single buffer.",
+  "insight": "OpenAI’s ~$3B deal to buy it collapsed July 2025; Google licensed the tech for $2.4B and hired the CEO, and Cognition bought the rest.",
   "name": "Windsurf",
   "tagline": "Cascade agent + IDE. Codeium's developer surface.",
   "description": "Agent-first IDE that pairs autocomplete with Cascade, a planning-then-acting agent. Strong terminal integration; good when the diff spans many files.",

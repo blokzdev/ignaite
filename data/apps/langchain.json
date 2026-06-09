@@ -1,6 +1,6 @@
 {
   "slug": "langchain",
-  "insight": "The ecosystem's default on-ramp, anchoring a trio with LangGraph (agents) and LangSmith (tracing) — both also listed here.",
+  "insight": "Started Oct 2022 as Harrison Chase's side project while at Robust Intelligence; became a unicorn at $1.25B in 2025.",
   "name": "LangChain",
   "tagline": "The default open-source framework for composing LLM apps.",
   "description": "Python + TypeScript framework for chaining prompts, tools, retrievers, and memory into LLM applications. Ubiquitous in the ecosystem; pairs with LangGraph for agent orchestration and LangSmith for tracing.",

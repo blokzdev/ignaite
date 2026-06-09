@@ -1,6 +1,6 @@
 {
   "slug": "browser-use",
-  "insight": "Built on Playwright, it turns a page into a structured view any LLM can drive — and leads open browser agents on the WebVoyager benchmark.",
+  "insight": "Built by two ETH Zurich founders in YC's W25 batch; raised a $17M seed led by Felicis in March 2025.",
   "name": "Browser Use",
   "tagline": "Open-source browser automation for AI agents.",
   "description": "MIT-licensed Python framework that connects AI agents to a real browser to navigate, fill forms, extract data, and run multi-step web workflows. It parses the live DOM into a structured view so any model — Claude, GPT, Gemini, Qwen, DeepSeek — can act on it. A hosted Browser Use Cloud adds managed sessions and a fully-hosted agent.",

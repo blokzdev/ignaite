@@ -1,6 +1,6 @@
 {
   "slug": "pydantic-logfire",
-  "insight": "Built by the Pydantic team on OpenTelemetry; its MIT-licensed SDK wraps OTel, so your traces stay portable beyond Logfire's own backend.",
+  "insight": "Pydantic's first commercial product, launched alongside a $12.5M Sequoia-led Series A in October 2024 to expand beyond the OSS library.",
   "name": "Pydantic Logfire",
   "tagline": "Observability for LLM and agent apps, from the Pydantic team.",
   "description": "An observability platform that traces your whole application stack — LLM calls, agents, databases, and HTTP — not just the model layer. The Python/JS/Rust SDKs are open source and built on OpenTelemetry, while the hosted backend handles storage, querying, and dashboards. Free tier covers 10M spans per month.",

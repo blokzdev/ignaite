@@ -1,6 +1,6 @@
 {
   "slug": "wayve",
-  "insight": "Champions AV2.0: one end-to-end neural net from sensors to steering, with no hand-coded perception or planning modules — trained on GAIA.",
+  "insight": "Raised a $1.05B Series C in May 2024 led by SoftBank with NVIDIA and Microsoft — the UK's largest-ever AI fundraise.",
   "name": "Wayve",
   "tagline": "End-to-end embodied AI for self-driving that scales across any vehicle.",
   "description": "Wayve builds AV2.0, an embodied-AI approach to automated driving that replaces hand-engineered perception-planning-control pipelines with a single end-to-end neural network mapping raw camera and radar input to driving commands. It develops the GAIA generative world model for training and the LINGO language model for interpretable driving. Backed by NVIDIA, Microsoft, and SoftBank, and partnered with Uber.",

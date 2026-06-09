@@ -3,7 +3,7 @@
   "name": "Hedra",
   "tagline": "Turn a photo and voice into talking, expressive characters.",
   "description": "Hedra generates lip-synced, expressive talking-character video from a single image plus audio or a script. Its Character-3 model handles facial performance and emotion, and a Live Avatars tier streams those characters in real time for conversational AI agents.",
-  "insight": "Its Live Avatars tier streams lip-synced talking-head video in real time at $0.05/min, aimed at giving voice AI agents a face.",
+  "insight": "The app behind viral \"talking baby podcasts\"; raised a $32M a16z-led Series A in May 2025 at a ~$200M valuation.",
   "category": "video",
   "pricing": "freemium",
   "deployment": "cloud",

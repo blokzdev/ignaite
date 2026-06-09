@@ -1,6 +1,6 @@
 {
   "slug": "skild-ai",
-  "insight": "Pitches an \"omni-bodied\" brain: one model meant to control quadrupeds, humanoids, and arms it never trained on, pretrained on sim and video.",
+  "insight": "Raised a $1.4B Series C led by SoftBank, with NVIDIA and Jeff Bezos, lifting its valuation past $14B in early 2026.",
   "name": "Skild AI",
   "tagline": "A single, omni-bodied foundation model designed to control any robot.",
   "description": "Skild AI builds Skild Brain, a general-purpose robotics foundation model intended to control diverse embodiments — quadrupeds, humanoids, tabletop arms, mobile manipulators — without prior knowledge of a robot's exact form. It pretrains on large-scale simulation and internet video, then post-trains on targeted real-world data for customer deployments.",

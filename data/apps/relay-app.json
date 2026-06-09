@@ -1,6 +1,6 @@
 {
   "slug": "relay-app",
-  "insight": "Unlike most automation tools, it bakes human-in-the-loop steps — approvals, input forms, and AI-output review — directly into workflows.",
+  "insight": "Founded by Jacob Bank, whose previous startup Timeful was acquired by Google in 2015 and folded into Gmail and Calendar's smart scheduling.",
   "name": "Relay.app",
   "tagline": "AI-native workflow automation with humans in the loop.",
   "description": "A workflow automation platform that connects 200+ apps and AI models to automate collaborative business processes. It differs from classic automation tools by treating people as first-class steps — approvals, data-input forms, and AI-output reviews — and by offering native AI extraction, classification, and custom AI steps across providers. Founded by ex-Google Gmail/Calendar PM Jacob Bank.",

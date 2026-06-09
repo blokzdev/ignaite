@@ -1,6 +1,6 @@
 {
   "slug": "fal",
-  "insight": "Specializes in generative-media latency — FLUX, Kling, Veo and 600+ media models — where general inference hosts focus on text.",
+  "insight": "Raised a $140M Series D led by Sequoia in December 2025 at a $4.5B valuation.",
   "name": "fal",
   "tagline": "Serverless inference API for image, video, audio, and 3D models.",
   "description": "A generative-media inference platform exposing FLUX, Kling, Veo, Wan, Stable Diffusion, and 600+ image/video/audio/3D models through one fast, serverless API — no GPUs to manage and near-zero cold starts. Pay per output or per GPU-second; free starter credits to test. Popular as the production backend for AI media features.",

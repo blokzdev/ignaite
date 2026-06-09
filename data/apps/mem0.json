@@ -1,6 +1,6 @@
 {
   "slug": "mem0",
-  "insight": "Stores distilled facts rather than whole transcripts, so an agent's memory stays small and relevant as conversations grow.",
+  "insight": "A YC S24 company that pivoted from the Embedchain RAG framework; raised a $24M Series A from YC and Peak XV in 2025.",
   "name": "mem0",
   "tagline": "Long-term memory layer for AI agents. Self-hostable.",
   "description": "Persistent memory store + retrieval pipeline for agent applications. Handles per-user/per-session/per-agent scope cleanly; pairs with OpenAI, Anthropic, and local models.",

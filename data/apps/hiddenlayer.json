@@ -1,6 +1,6 @@
 {
   "slug": "hiddenlayer",
-  "insight": "Its runtime classifiers sit outside the model's inference path, so detection adds no latency to the model itself — unlike inline guardrails.",
+  "insight": "Won \"Most Innovative Startup\" at RSA Conference's 2023 Innovation Sandbox, then raised a $50M Series A led by Microsoft's M12 fund.",
   "name": "HiddenLayer",
   "tagline": "AI security platform: model scanning, runtime defense, and automated red-teaming.",
   "description": "HiddenLayer's AISec Platform unifies AI supply-chain security, runtime detection and response, posture management, and automated red-teaming for generative, agentic, and predictive AI. Its Model Scanner inspects model files for malware and integrity issues, while AI Detection & Response monitors prompts and responses with deterministic classifiers.",

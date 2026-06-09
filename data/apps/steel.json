@@ -1,6 +1,6 @@
 {
   "slug": "steel",
-  "insight": "Open-source and Docker-self-hostable, unlike most closed agent-browser APIs — the same sandbox runs locally or in Steel's cloud.",
+  "insight": "Operated by Nen Labs, which has raised about $17M to date for its open-source browser infrastructure.",
   "name": "Steel",
   "tagline": "Open-source browser API for AI agents and apps.",
   "description": "A batteries-included headless-browser sandbox that lets AI agents automate the web without managing browser infrastructure. Steel handles sessions, cookies, proxy rotation, CAPTCHA solving, and page-to-markdown/screenshot/PDF conversion behind a single API, built on Puppeteer and the Chrome DevTools Protocol. Run the open-source image locally via Docker or use Steel Cloud's managed browser fleet.",

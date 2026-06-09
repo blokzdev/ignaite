@@ -1,6 +1,6 @@
 {
   "slug": "brave-search-api",
-  "insight": "One of the few search APIs backed by a genuinely independent crawl, not resold Bing or Google results.",
+  "insight": "Its index traces to Tailcat, the ex-Cliqz search tech Brave acquired in 2021 after Cliqz shut down.",
   "name": "Brave Search API",
   "tagline": "Independent search index. Privacy-respecting, non-Google.",
   "description": "API access to Brave's independently-crawled search index. Useful when you need a non-Google source, want to dodge upstream rate limits, or have privacy posture requirements that rule out scraping competitors.",

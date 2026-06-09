@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Sunsama",
   "platforms": ["web", "macos", "windows", "linux", "ios", "android"],
-  "insight": "It enforces a guided daily planning and shutdown ritual rather than maximizing throughput — calm productivity over auto-schedulers.",
+  "insight": "Came out of Y Combinator's W19 batch and stayed small and profitable rather than chasing large rounds.",
   "modelSupport": {
     "kind": "self-contained",
     "notes": "AI features are assistive; the product centers on structured manual planning rather than an LLM agent."

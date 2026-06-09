@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Lex",
   "platforms": ["web"],
-  "insight": "Founded by Nathan Baschez (Every/Substack lineage), it lets writers pick among premium models like Claude Opus/Sonnet and GPT in the doc.",
+  "insight": "Spun out of the media startup Every; founder Nathan Baschez co-created Product Hunt and was Substack's first employee.",
   "modelSupport": {
     "kind": "multi-model",
     "models": ["Claude", "GPT"],

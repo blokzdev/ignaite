@@ -1,6 +1,6 @@
 {
   "slug": "hailuo-ai",
-  "insight": "From MiniMax, the lab behind the MiniMax LLMs; its Hailuo video models are widely resold via APIs like fal and Replicate.",
+  "insight": "Maker MiniMax (Alibaba- and Tencent-backed) IPO'd in Hong Kong in Jan 2026, its stock roughly doubling on debut to a ~$13.7B valuation.",
   "name": "Hailuo AI",
   "tagline": "Text- and image-to-video generation from MiniMax.",
   "description": "MiniMax's consumer video generator, turning text prompts and reference images into short cinematic clips with subject-reference for consistent characters. Available on the web and as iOS and Android apps. A free tier offers limited credits; subscriptions add HD output, faster generation, and commercial use.",

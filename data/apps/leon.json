@@ -1,6 +1,6 @@
 {
   "slug": "leon",
-  "insight": "One of the older open personal-assistant projects, now mid-rewrite to 2.0 — designed to run on local models and local context.",
+  "insight": "Built since 2017 by Louis Grenard, inspired by Mark Zuckerberg's 'Jarvis' home-assistant challenge.",
   "name": "Leon",
   "tagline": "Open-source personal AI assistant built on tools, memory, and agentic execution.",
   "description": "A self-hosted personal AI assistant organized around tools, context, memory, and agentic execution, with smart, controlled, and agent run modes. It runs on your own machine and can use local models and local context instead of routing everything through third-party services. MIT-licensed and free; currently shipping a 2.0 developer preview alongside the legacy stable branch.",

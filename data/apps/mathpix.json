@@ -1,6 +1,6 @@
 {
   "slug": "mathpix",
-  "insight": "Built for STEM OCR: returns LaTeX, Markdown, tables, and even ChemDraw SMILES from handwriting, not just plain text.",
+  "insight": "Founded in 2016 by Stanford PhD student Nico Jimenez, starting as a tool to convert handwritten math to LaTeX.",
   "name": "Mathpix",
   "tagline": "OCR and document conversion built for math, science, and STEM.",
   "description": "OCR and document-conversion tooling specialized for STEM content. Mathpix reads printed and handwritten math, chemistry, tables, and text from images and PDFs, exporting to LaTeX, DOCX, Markdown, Excel, ChemDraw, and more. It ships as the Snip app (web, mobile, desktop, browser extension) for individuals and teams, plus a Convert API for developers building solving, tutoring, and grading products.",

@@ -1,6 +1,6 @@
 {
   "slug": "captions",
-  "insight": "Captions is built on Mirage, its parent company's in-house UGC video foundation model, rather than wrapping third-party video generators.",
+  "insight": "The company behind Captions rebranded to Mirage in Sept 2025, pivoting to a generative-video AI research lab.",
   "name": "Captions",
   "tagline": "AI video editor and avatar creator for short-form, talking-head content.",
   "description": "An AI video app for creators that auto-edits talking-head footage — generating captions, inserting B-roll, correcting eye contact, and dubbing into other languages. Its AI Creator mode renders a talking video from a script using AI personas. Built by Mirage on its own generative-video foundation model.",

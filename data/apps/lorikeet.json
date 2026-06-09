@@ -1,6 +1,6 @@
 {
   "slug": "lorikeet",
-  "insight": "Its Intelligent Graph follows predefined workflows deterministically — built for regulated finance and healthcare where free-form bots fail.",
+  "insight": "Founded mid-2023 by ex-Stripe product lead Steve Hind and ex-Google Brain researcher Jamie Hall; raised $75M in 10 months.",
   "name": "Lorikeet",
   "tagline": "AI customer concierge for complex, high-stakes support.",
   "description": "An AI customer support platform aimed at companies with complex support needs across chat, email, and voice. Its Intelligent Graph architecture follows predefined workflows deterministically and integrates with systems like Zendesk and Stripe to take real actions. It targets regulated industries such as finance and healthcare, and recently added Coach, an analytics agent that diagnoses AI-handled tickets.",

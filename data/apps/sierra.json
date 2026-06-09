@@ -1,6 +1,6 @@
 {
   "slug": "sierra",
-  "insight": "Routes each task across OpenAI, Anthropic, and Meta models to trade off cost, latency, and quality rather than betting on a single LLM.",
+  "insight": "Bret Taylor's startup hit a $10B valuation and $100M ARR within about 18 months of its 2024 founding.",
   "name": "Sierra",
   "tagline": "Enterprise AI agents for customer experience across channels.",
   "description": "An enterprise platform ('Agent OS') for building conversational AI agents that take action for customers across chat, voice, email, SMS, and WhatsApp. Supports both no-code and programmatic agent development. Founded by Bret Taylor and Clay Bavor and used across a large share of the Fortune 500.",

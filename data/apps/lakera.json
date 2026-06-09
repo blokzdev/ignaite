@@ -1,6 +1,6 @@
 {
   "slug": "lakera",
-  "insight": "Its detection models train on adversarial prompts from Gandalf, its viral prompt-injection game — acquired by Check Point in 2025.",
+  "insight": "Acquired by cybersecurity giant Check Point in 2025; its models train on attacks from its viral Gandalf game.",
   "name": "Lakera",
   "tagline": "Real-time guardrails against prompt injection and jailbreaks for AI apps.",
   "description": "Lakera Guard sits between users and LLMs as a low-latency security layer, detecting and blocking direct and indirect prompt injection, jailbreaks, and system-prompt extraction across 100+ languages. Its models are trained on adversarial data from Gandalf, Lakera's prompt-injection game. Acquired by Check Point in 2025.",

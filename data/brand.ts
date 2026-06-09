@@ -5,12 +5,12 @@ export const brand = {
   tagline:
     "An AI-managed directory of AI apps — researched, written, and kept current by Claude Code.",
   positioning:
-    "Ignaite is an AI-managed directory of the AI apps, agents, and tooling worth knowing — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line AI insight. Built and operated by Blokz Development Co.",
+    "Ignaite is an AI-managed directory of the AI apps, agents, and tooling worth knowing — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line fact worth knowing. Built and operated by Blokz Development Co.",
   headline: {
     eyebrow: "IGNAITE.APP // AI-MANAGED DIRECTORY",
     title: "The AI apps directory,",
     titleAccent: "managed by AI.",
-    sub: "Every listing researched, written, and kept current by Claude Code — with a one-line AI insight on each.",
+    sub: "Every listing researched, written, and kept current by Claude Code — with a one-line fact worth knowing on each.",
   },
   logo: {
     src: "/icon",

@@ -1,6 +1,6 @@
 {
   "slug": "openhands",
-  "insight": "The open-source answer to Devin (and its former name, OpenDevin) — same sandbox-agent shape, but you can self-host and read the code.",
+  "insight": "Built by All Hands AI, co-founded by CMU professor Graham Neubig; raised a $5M seed led by Menlo Ventures in 2024.",
   "name": "OpenHands",
   "tagline": "Open-source autonomous SWE agent. Successor to OpenDevin.",
   "description": "Self-hostable agent platform with a browser, terminal, and editor in a sandbox — comparable to Devin in shape, open in licence. Active research community pushing the autonomous-SWE bar.",

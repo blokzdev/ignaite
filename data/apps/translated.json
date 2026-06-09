@@ -1,6 +1,6 @@
 {
   "slug": "translated",
-  "insight": "Its ModernMT engine is Apache-2.0 open source and adapts on the fly from your corrections — one model acts like many custom engines.",
+  "insight": "Built by Translated, an Italian firm founded in 1999 that pioneered adaptive machine translation back in 2011.",
   "name": "ModernMT",
   "tagline": "Adaptive neural machine translation that learns from your corrections.",
   "description": "Translated's machine translation engine, ModernMT, is an adaptive neural MT system that adapts to context and learns from human corrections in real time without retraining. It pools project data and translation memories to deliver custom-engine quality on the fly. The core engine is open source, and the hosted Hyper Adaptive service offers managed custom models.",

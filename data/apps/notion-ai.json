@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Notion Labs",
   "platforms": ["web", "macos", "windows", "ios", "android"],
-  "insight": "It runs a multi-model picker (Claude among them) and treats models as swappable — when Anthropic models degraded in June 2026, it rerouted.",
+  "insight": "Notion retired the standalone AI add-on in May 2025, folding AI into its Business and Enterprise plans instead.",
   "modelSupport": {
     "kind": "multi-model",
     "models": ["Claude", "GPT"],

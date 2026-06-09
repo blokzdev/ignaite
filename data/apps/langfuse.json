@@ -1,6 +1,6 @@
 {
   "slug": "langfuse",
-  "insight": "The self-hostable, OpenTelemetry-native answer to LangSmith — pick it when observability data has to stay on your own infra.",
+  "insight": "Y Combinator W23 startup; acquired by ClickHouse in January 2026.",
   "name": "Langfuse",
   "tagline": "Open-source LLM observability. Self-hostable, OpenTelemetry-native.",
   "description": "Tracing, evals, prompt management, and dataset tooling for LLM apps — self-host on your own infra or use Langfuse Cloud. The open-source default when you want full ownership of your observability stack.",

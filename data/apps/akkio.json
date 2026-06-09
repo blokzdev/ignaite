@@ -1,6 +1,6 @@
 {
   "slug": "akkio",
-  "insight": "Narrowed from general no-code ML to a media-agency analytics platform, tuning its forecasting and audience models for marketing data.",
+  "insight": "Founded in 2019; raised ~$18M backed by Bain Capital Ventures before narrowing to media-agency analytics.",
   "name": "Akkio",
   "tagline": "No-code predictive analytics and forecasting for media and agency teams.",
   "description": "A no-code AI platform for building predictive models, forecasts, and audience segments from business data. Users connect a CSV or live source like Salesforce, HubSpot, or Snowflake and build models through chat and drag-and-drop, then generate client-ready reports. Now focused on media agencies and marketing analytics use cases.",

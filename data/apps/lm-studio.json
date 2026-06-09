@@ -1,6 +1,6 @@
 {
   "slug": "lm-studio",
-  "insight": "Free even for commercial use, though the app itself is closed-source — and it serves both OpenAI- and Anthropic-compatible local APIs.",
+  "insight": "Made by Brooklyn's Element Labs; founder Yagil Burowski is an ex-Apple engineer who shipped the first release in May 2023.",
   "name": "LM Studio",
   "tagline": "Desktop app to discover, download, and run local LLMs privately.",
   "description": "A GUI for running open-weight models on your own hardware — browse and download GGUF/MLX models, chat offline, and expose an OpenAI- and Anthropic-compatible local server for your apps. Includes RAG over local files, MCP tool-use support, and dual llama.cpp + Apple MLX runtimes. Free for personal and commercial use; the app itself is proprietary.",

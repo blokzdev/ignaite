@@ -39,7 +39,7 @@ a precise per-file error if anything is off.
 Required: `slug` (unique, kebab-case), `name`, `tagline` (≤100 chars, one line), `description`
 (2–4 sentences), `category` (an `AppCategory`), `pricing` (an `AppPricing`), `platforms` (≥1
 `AppPlatform`), `links` (≥1, **exactly one** `primary: true`).
-Recommended: `insight` (the directory's signature signal — see below), `vendor`, `modelSupport`
+Recommended: `insight` (the "Worth knowing" fact — see below), `vendor`, `modelSupport`
 ({ `kind`, `models?`, `notes?` }), `tags` (3–5), `accentColor` (brand hex), `addedAt` +
 `lastVerifiedAt` = **today's date** (YYYY-MM-DD), plus the two facets below.
 
@@ -60,11 +60,12 @@ Conventions (match existing entries):
 - **No store link kinds exist** (`AppLinkKind` = website/docs/github/pricing/demo/video/twitter/discord).
   For apps with a Play Store / App Store presence, put `"android"`/`"ios"` in `platforms` and link the
   **official website** as primary (see `suno`, `perplexity`).
-- **`insight`** — the directory's signature signal. Author ONE: a single ≤140-char sentence with a
-  _non-obvious, verifiable_ observation (how it differs from peers, a licensing nuance, an
-  architectural quirk, a notable acquisition/rename), NOT a re-pitch of the tagline. Ground it in the
-  research; never fabricate; if nothing sharp is verifiable, omit it rather than pad. See the field's
-  JSDoc in `types/app.ts`.
+- **`insight`** — "Worth knowing", the directory's signature signal. Author ONE ≤140-char sentence
+  stating a single _verifiable, non-obvious FACT_ the description doesn't carry: an acquisition/funding
+  event, origin/lineage, a licensing nuance, a pivot/rename, a rare/unusual capability, or a notable
+  "first"/standing. It is **not comparative** (that's `edge`) and **not a restatement of what it does**
+  (that's `description`/`tagline`). Ground it in research; never fabricate; **omit if no sharp fact
+  verifies** — coverage is intentionally partial, not universal. See the field's JSDoc in `types/app.ts`.
 - **Enrichment — the "honest brief"** (all optional; omit > fabricate; verify each; same discipline as `insight`):
   - **`edge`** (≤160 chars) — the _comparative_ one-liner: what it does better than its category peers
     ("why pick THIS one"). One complete sentence, comparative + specific; distinct from `insight`; omit

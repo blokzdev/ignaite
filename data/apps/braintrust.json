@@ -1,6 +1,6 @@
 {
   "slug": "braintrust",
-  "insight": "Where teams graduate when a CI eval file stops scaling — it adds dataset versioning and OpenTelemetry traces to the loop.",
+  "insight": "Raised a $36M Series A led by a16z at a $150M valuation in Oct 2024; angels include Greg Brockman and Guillermo Rauch.",
   "name": "Braintrust",
   "tagline": "Hosted eval + tracing platform for LLM apps.",
   "description": "Production-grade eval orchestration with a dashboard, dataset versioning, and OpenTelemetry tracing. Useful once eval volume outgrows a CI YAML file.",

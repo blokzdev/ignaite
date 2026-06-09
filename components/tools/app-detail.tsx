@@ -5,11 +5,11 @@ import {
   Check,
   ExternalLink,
   Globe,
+  Lightbulb,
   MessageCircle,
   Minus,
   Play,
   Smartphone,
-  Sparkles,
   Tag,
   Target,
   Terminal,
@@ -205,14 +205,15 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         )}
       </div>
 
-      {/* AI insight — the directory's signature signal, authored by Claude Code
-          while researching the listing. */}
+      {/* Worth knowing — one verifiable, non-obvious FACT about the listing the
+          description doesn't carry (acquisition, lineage, licensing, a pivot, a
+          rare capability). Distinct from "The edge" (the comparative signal). */}
       {app.insight && (
         <aside className="mt-10 flex items-start gap-3 rounded-2xl bg-[var(--color-accent)]/[0.06] p-5 ring-1 ring-[var(--color-accent)]/20 ring-inset">
-          <Sparkles aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-accent)]" />
+          <Lightbulb aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-accent)]" />
           <div>
             <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-accent)] uppercase">
-              AI insight
+              Worth knowing
             </p>
             <p className="mt-1.5 text-base leading-relaxed text-[var(--color-ink)]">
               {app.insight}
@@ -222,7 +223,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
       )}
 
       {/* Edge — the comparative signal: why pick this over its category peers.
-          Paired with AI insight but tinted ember to read as a distinct signal. */}
+          Paired with "Worth knowing" but tinted ember to read as a distinct signal. */}
       {app.edge && (
         <aside className="mt-4 flex items-start gap-3 rounded-2xl bg-[var(--color-flame)]/[0.06] p-5 ring-1 ring-[var(--color-flame)]/20 ring-inset">
           <Target aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-flame)]" />

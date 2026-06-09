@@ -1,6 +1,6 @@
 {
   "slug": "lightning-ai",
-  "insight": "From the makers of PyTorch Lightning; its Studios are persistent GPU workspaces you can pause and resume, not throwaway notebooks.",
+  "insight": "Rebranded from Grid.ai in 2022 alongside a $40M Series B led by Coatue; founded by PyTorch Lightning creator William Falcon.",
   "name": "Lightning AI",
   "tagline": "Persistent GPU cloud workspaces to build, train, and ship AI.",
   "description": "A cloud platform built around AI Studios — collaborative, persistent GPU workspaces for coding, training models, running inference, and building agents and AI apps. Pay-as-you-go GPUs with a monthly free credit allowance, plus a Pro tier and bring-your-own-cloud for enterprise. Made by the team behind the open-source PyTorch Lightning framework.",

@@ -1,6 +1,6 @@
 {
   "slug": "big-agi",
-  "insight": "Deploys to your own Vercel in a click, and its 'beam' feature runs one prompt across several models to compare side by side.",
+  "insight": "Grew out of Enrico Ros's 'nextjs-chatgpt-app', one of the earliest open-source GPT-4 chat UIs, later renamed big-AGI.",
   "name": "Big-AGI",
   "tagline": "Multi-model AI workspace with chat, voice, image gen, and tool use — BYO keys.",
   "description": "A self-hostable AI workspace for chatting across hundreds of models from many providers, with voice calls, image generation, web search, and code execution. It runs self-hosted via Docker or Vercel and connects to local engines (Ollama, LM Studio, LocalAI) as well as cloud providers. MIT-licensed and free — you supply your own provider API keys.",

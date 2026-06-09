@@ -1,6 +1,6 @@
 {
   "slug": "lasso-security",
-  "insight": "Lasso frames LLM security as a five-stage lifecycle (Discover, Assess, Test, Enforce, Protect) and sells it as one product, not add-ons.",
+  "insight": "Tel Aviv startup founded in 2023; raised a $6M seed led by Entrée Capital with Samsung Next.",
   "name": "Lasso Security",
   "tagline": "End-to-end GenAI security: shadow-AI discovery, red-teaming, and runtime guardrails.",
   "description": "Lasso Security protects every LLM interaction across cloud and on-prem deployments, combining shadow-AI discovery, real-time threat detection, policy enforcement, and red-teaming with thousands of attack types. It deploys via gateway, API, or SDK to secure both internal LLM apps and employee use of third-party chatbots.",

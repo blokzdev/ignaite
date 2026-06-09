@@ -1,6 +1,6 @@
 {
   "slug": "onyx",
-  "insight": "Formerly Danswer — an MIT core for enterprise search over your own apps, with optional features under a separate open-core license.",
+  "insight": "A Y Combinator company; raised a $10M seed co-led by Khosla Ventures and First Round, with a Dropbox co-founder among its angels.",
   "name": "Onyx",
   "tagline": "Open-source, self-hosted AI chat and enterprise search over your own docs.",
   "description": "Onyx (formerly Danswer) is an open-source AI chat and RAG platform that connects to your company's docs and apps for grounded, cited answers, and works with any LLM. It is self-hosted via Docker/Kubernetes and supports local models, keeping data on your own infrastructure. The core is MIT-licensed and free; an open-core model puts optional enterprise features under a separate license, and the vendor also offers a managed cloud.",

@@ -1,6 +1,6 @@
 {
   "slug": "roboflow",
-  "insight": "For when the answer is a small custom vision model, not a multimodal LLM — it owns the annotate-train-deploy loop end to end.",
+  "insight": "Its Roboflow Universe is one of the largest public computer-vision dataset and model hubs; $40M Series B led by GV in 2024.",
   "name": "Roboflow",
   "tagline": "Vision MLOps end-to-end. Annotate, train, deploy.",
   "description": "Annotation tooling, auto-labelling, hosted training, and edge deployment for computer-vision projects. Strong default when you're shipping a custom vision model rather than reaching for a multimodal LLM.",

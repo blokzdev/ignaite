@@ -1,6 +1,6 @@
 {
   "slug": "label-studio",
-  "insight": "One UI labels every modality — image, text, audio, video, time-series — and ML backends can pre-annotate so humans correct, not start cold.",
+  "insight": "Maker Heartex rebranded to HumanSignal in June 2023; Label Studio has labeled 200M+ data points.",
   "name": "Label Studio",
   "tagline": "Open-source multi-type data labeling and AI evaluation.",
   "description": "Widely-used open-source tool for labeling and annotating data across images, text, audio, video, and time-series, with a standardized export format for training and fine-tuning. ML backends can pre-label data to speed up human review, and it increasingly doubles as a human-in-the-loop AI evaluation surface. Maintained by HumanSignal, which offers a hosted Starter tier and Label Studio Enterprise.",

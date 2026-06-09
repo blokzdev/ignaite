@@ -1,6 +1,6 @@
 {
   "slug": "google-ai-studio",
-  "insight": "The free front door to the Gemini API — prototype in the browser, then export the exact call as code with one click.",
+  "insight": "Launched in December 2023 as the successor to MakerSuite, rebranded when Google moved from PaLM to Gemini.",
   "name": "Google AI Studio",
   "tagline": "Prototype with Gemini — prompts, multimodal, and instant API keys.",
   "description": "Google's free playground for building with Gemini — prompt design, multimodal input, structured output, and one-click export to API code. The fastest way to start building on Gemini.",

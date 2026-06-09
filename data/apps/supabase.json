@@ -1,6 +1,6 @@
 {
   "slug": "supabase",
-  "insight": "Built on plain Postgres, so there's no proprietary lock-in — and the same project ships the Supabase MCP server also listed here.",
+  "insight": "A Y Combinator alum, it hit a $10.5B valuation in a 2026 raise as the vibe-coding boom made it a default AI app backend.",
   "name": "Supabase",
   "tagline": "Postgres + auth + storage + edge functions, open source.",
   "description": "A common default backend when an app needs persistence + auth + realtime. Open-source, self-hostable, very low friction to local dev with the CLI.",

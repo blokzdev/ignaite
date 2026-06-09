@@ -3,9 +3,9 @@ import {
   ArrowUpRight,
   BookOpen,
   ExternalLink,
+  Lightbulb,
   MessageCircle,
   Play,
-  Sparkles,
   Tag,
 } from "lucide-react";
 import type { ComponentType } from "react";
@@ -145,16 +145,15 @@ export function ToolCard({ app }: Readonly<Props>) {
         </p>
       </div>
 
-      {/* AI insight — the directory's signature signal, authored by Claude Code
-          while researching the listing. */}
+      {/* Worth knowing — one verifiable, non-obvious fact about the listing. */}
       {app.insight && (
         <div className="flex items-start gap-2 rounded-xl bg-[var(--color-accent)]/[0.06] px-3 py-2 ring-1 ring-[var(--color-accent)]/15 ring-inset">
-          <Sparkles
+          <Lightbulb
             aria-hidden
             className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-accent)]"
           />
           <p className="line-clamp-2 text-xs leading-relaxed text-[var(--color-ink-soft)]">
-            <span className="sr-only">AI insight: </span>
+            <span className="sr-only">Worth knowing: </span>
             {app.insight}
           </p>
         </div>

@@ -1,6 +1,6 @@
 {
   "slug": "llamaindex",
-  "insight": "Retrieval-first where LangChain is orchestration-first — its LlamaParse service is the go-to for PDFs that defeat normal parsers.",
+  "insight": "Started as 'GPT Index,' a Nov-2022 side project by ex-Uber scientist Jerry Liu; renamed in 2023; $28M+ raised.",
   "name": "LlamaIndex",
   "tagline": "The data framework for LLM apps — RAG, agents, and document workflows.",
   "description": "An open-source framework (Python + TypeScript) for connecting LLMs to your data — ingestion, indexing, retrieval, and agentic document workflows. Pairs with the managed LlamaCloud (LlamaParse) for production parsing and extraction. The most-used RAG framework after LangChain.",

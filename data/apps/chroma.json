@@ -1,6 +1,6 @@
 {
   "slug": "chroma",
-  "insight": "Runs embedded inside your Python process — the lowest-friction way to prototype RAG before you need a server at all.",
+  "insight": "Raised an $18M seed (Quiet Capital, 2023) with angels including Naval Ravikant, Guillermo Rauch, and Amjad Masad.",
   "name": "Chroma",
   "tagline": "Embedded vector DB. Pip-install, prototype, scale later.",
   "description": "The low-friction starting point — Chroma runs embedded inside your Python process or as a hosted service. Great for prototypes and small-to-medium RAG apps; upgrade to a managed option when you outgrow it.",

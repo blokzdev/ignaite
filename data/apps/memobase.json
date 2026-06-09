@@ -1,6 +1,6 @@
 {
   "slug": "memobase",
-  "insight": "Models memory as a structured user profile plus an event timeline, not embedded transcript chunks like most memory layers.",
+  "insight": "Created by Beijing-based ML engineer Gus Ye, formerly at Microsoft Research Asia and Tencent.",
   "name": "Memobase",
   "tagline": "User profile-based long-term memory for LLM applications.",
   "description": "Memobase gives AI apps persistent, per-user memory by distilling conversations into a structured user profile and a chronological event timeline, rather than storing raw transcript embeddings. It exposes Python, Node, and Go SDKs plus a REST API and an MCP server, and is open source (Apache-2.0) with a managed cloud option. Built on FastAPI, Postgres, and Redis for low-latency retrieval.",

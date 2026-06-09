@@ -1,6 +1,6 @@
 {
   "slug": "cloudflare",
-  "insight": "Its R2 storage charges no egress fees — the standout reason teams move large-asset workloads off S3.",
+  "insight": "Workers (2017) pioneered V8-isolate edge serverless, breaking from the container-per-function model AWS Lambda established.",
   "name": "Cloudflare",
   "tagline": "Workers + R2 + D1 + Durable Objects. Global edge runtime.",
   "description": "When the app needs to run close to users globally, or when an isolate-per-request model fits the workload better than Node functions. R2 for storage, D1 for SQLite-at-the-edge.",

@@ -1,6 +1,6 @@
 {
   "slug": "tabnine",
-  "insight": "Deploys fully air-gapped on-prem with zero code retention — for teams that can't send their source to any vendor cloud.",
+  "insight": "One of the first AI code completers (Deep TabNine, 2018); acquired by Codota in 2019, which took the Tabnine name in 2021.",
   "name": "Tabnine",
   "tagline": "Privacy-first AI coding assistant you control — completions, chat, and agents.",
   "description": "An AI coding assistant built for enterprise control, offering completions, chat, and agentic workflows across all major IDEs. It never trains on or retains your code, and can be deployed as SaaS, in a VPC, on-premises, or fully air-gapped. Supports access to major LLMs plus bring-your-own and private models.",

@@ -1,6 +1,6 @@
 {
   "slug": "ada-health",
-  "insight": "Assesses answers against a physician-built knowledge base, not a general LLM, giving possible-cause and urgency guidance, not a diagnosis.",
+  "insight": "Founded in Berlin in 2011; its 2021 $90M Series B was led by Leaps by Bayer, the pharma giant's venture arm.",
   "name": "Ada",
   "tagline": "A free AI symptom checker that maps your symptoms to possible causes and next steps.",
   "description": "Ada is a consumer symptom-assessment app that asks structured questions about your health, then returns a personalized report of possible causes, urgency level, and guidance on what to do next. It is free to use and positions itself as a triage aid, not a replacement for a clinician.",

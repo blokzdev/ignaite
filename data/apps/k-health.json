@@ -1,6 +1,6 @@
 {
   "slug": "k-health",
-  "insight": "Uses AI trained on millions of anonymized clinical records to surface probable diagnoses, but a human clinician reviews each case.",
+  "insight": "Licensed de-identified Mayo Clinic data to train its AI; last raised at a $900M valuation (a 2024 down round).",
   "name": "K Health",
   "tagline": "AI-assisted virtual primary care, with a clinician reviewing every case.",
   "description": "K Health combines an AI symptom intake — built on anonymized clinical records — with virtual visits from licensed clinicians for primary and mental-health care. The AI surfaces probable diagnoses and pathways, but a clinician reviews each case and makes clinical decisions. It operates on direct-pay subscriptions and per-visit pricing.",

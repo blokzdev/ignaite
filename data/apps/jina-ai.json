@@ -1,6 +1,6 @@
 {
   "slug": "jina-ai",
-  "insight": "Prepend r.jina.ai/ to any URL to get clean, LLM-ready markdown — no signup for basic use, and the Reader is open source.",
+  "insight": "Berlin neural-search pioneer acquired by Elastic in October 2025; founder-CEO Han Xiao became Elastic's VP of AI.",
   "name": "Jina AI",
   "tagline": "Search-foundation APIs — Reader, embeddings, and reranker — for grounding LLMs.",
   "description": "A suite of search-foundation APIs for retrieval and RAG: a Reader that turns any URL or web search into LLM-ready markdown, multilingual multimodal embeddings, and a reranker. One key spans every service, the Reader is open source, and the embedding models are also released as open weights for self-hosting.",

@@ -1,6 +1,6 @@
 {
   "slug": "cursor",
-  "insight": "A full VS Code fork, so existing extensions and keybindings carry over — and one subscription covers Claude, GPT, and Gemini without a key.",
+  "insight": "Maker Anysphere, founded by four MIT grads in 2022, hit a $29B valuation in 2025 on explosive ARR growth.",
   "name": "Cursor",
   "tagline": "AI-first code editor. Multi-model, tab-completion native.",
   "description": "Fork of VS Code with deep model integration — multi-line tab completion, agent mode, chat with codebase context. Strong for fast iteration on existing repos.",

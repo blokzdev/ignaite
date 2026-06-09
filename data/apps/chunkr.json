@@ -1,6 +1,6 @@
 {
   "slug": "chunkr",
-  "insight": "Grew out of a pipeline built to parse ~600M pages of scientific literature; the parser is open-source, so you can self-host the whole stack.",
+  "insight": "Built by Lumina AI (YC W24), the team behind a scientific-literature search engine; its parser is written in Rust.",
   "name": "Chunkr",
   "tagline": "Open-source document intelligence API for RAG-ready data.",
   "description": "A document parsing and intelligence API that turns complex PDFs, slides, Word docs, and images into clean, LLM/RAG-ready chunks. Chunkr runs layout analysis, OCR, reading-order detection, semantic chunking, and schema-based extraction, emitting HTML, Markdown, or JSON. Self-host the open-source pipeline or call the managed cloud API, which includes a free tier of 200 pages with no card required.",

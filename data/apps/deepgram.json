@@ -1,6 +1,6 @@
 {
   "slug": "deepgram",
-  "insight": "Tuned for messy real-world audio — accents, phone lines, overlapping speakers — where general transcribers tend to fall apart.",
+  "insight": "Co-founded by a particle physicist who'd built a dark-matter detector two miles underground before pivoting to speech.",
   "name": "Deepgram",
   "tagline": "Production speech-to-text. The STT default for many companies.",
   "description": "End-to-end speech recognition platform — real-time streaming, batch transcription, speaker diarization, and language detection. Strong on accented speech, telephony audio, and long-form recordings.",

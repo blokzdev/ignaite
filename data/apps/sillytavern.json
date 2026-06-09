@@ -1,6 +1,6 @@
 {
   "slug": "sillytavern",
-  "insight": "A pure frontend — you supply the backend — but its character cards and prompt control run anywhere, even Android via Termux.",
+  "insight": "Forked from TavernAI 1.2.8 in February 2023; now an independent project with 300+ contributors.",
   "name": "SillyTavern",
   "tagline": "Self-hosted LLM chat frontend for power users, with characters and many backends.",
   "description": "A self-hosted, browser-based LLM frontend aimed at power users, with rich character cards, prompt control, extensions, and group chats. It runs as a local Node.js server on Windows, macOS, Linux, and Android (via Termux), connecting to many backends — OpenAI, Anthropic, plus local runtimes — using your own keys. Free and AGPL-3.0 licensed with no paid tier.",

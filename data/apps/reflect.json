@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Reflect",
   "platforms": ["web", "macos", "windows", "ios", "browser-extension"],
-  "insight": "It pairs end-to-end encryption with cloud AI by sending only minimal context to OpenAI per request — a privacy posture rare for note apps.",
+  "insight": "Built by Alex MacCaw, founder of Clearbit; deliberately bootstrapped and profitable, taking no growth-forcing VC money.",
   "modelSupport": {
     "kind": "multi-model",
     "models": ["GPT", "Whisper"],

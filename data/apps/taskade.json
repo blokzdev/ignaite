@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Taskade",
   "platforms": ["web", "macos", "windows", "ios", "android", "browser-extension"],
-  "insight": "It blends a classic outliner/task workspace with no-code multi-agent teams, so one doc is both a project plan and where agents execute it.",
+  "insight": "A Y Combinator (S19) alum founded by John Xie; raised $5M in 2019 positioned as a more collaborative take on Notion.",
   "modelSupport": {
     "kind": "multi-model",
     "models": ["GPT", "Claude", "Gemini"],

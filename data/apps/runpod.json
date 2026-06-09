@@ -1,6 +1,6 @@
 {
   "slug": "runpod",
-  "insight": "Bills serverless GPU inference by the millisecond and scales to zero, with a cheaper Community Cloud tier alongside its Secure Cloud.",
+  "insight": "Bootstrapped from a Reddit post by two ex-Comcast developers, it hit $120M ARR before ever raising a Series A.",
   "name": "Runpod",
   "tagline": "GPU cloud for AI — on-demand instances and serverless inference.",
   "description": "Runpod is an AI developer cloud for renting GPUs on demand or running auto-scaling serverless inference endpoints. Serverless workers bill by the millisecond, scale to zero when idle, and advertise sub-200ms cold starts; on-demand Pods and multi-node Clusters cover training and long-running jobs. A Community Cloud tier offers cheaper, peer-sourced GPUs alongside the vendor-operated Secure Cloud.",

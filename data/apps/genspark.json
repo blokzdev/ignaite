@@ -1,6 +1,6 @@
 {
   "slug": "genspark",
-  "insight": "Routes each task across nine LLMs and 80+ tools, and its Super Agent will place real phone calls on your behalf and return a transcript.",
+  "insight": "Built by ex-Baidu execs; raced to $36M ARR within 45 days of launch, one of the fastest ramps on record.",
   "name": "Genspark",
   "tagline": "All-in-one AI workspace with an autonomous Super Agent.",
   "description": "An AI workspace built around a Super Agent that breaks goals into sub-tasks, picks the right tools, and finishes work autonomously — building slides, sheets, docs, websites, and videos, and even placing phone calls. It orchestrates multiple large language models and dozens of integrated tools, synthesizing results into shareable Sparkpages. Built by a team from Google and Microsoft and available on web and mobile.",

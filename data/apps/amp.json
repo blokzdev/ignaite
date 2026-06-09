@@ -1,6 +1,6 @@
 {
   "slug": "amp",
-  "insight": "Bills pay-as-you-go at zero markup over model-provider prices, and makes its agent 'threads' shareable for a whole team to read.",
+  "insight": "Sourcegraph's successor to Cody — it shut down Cody Free/Pro in mid-2025 and moved individual devs to Amp.",
   "name": "Amp",
   "tagline": "Agentic coding tool from Sourcegraph for terminal and editor.",
   "description": "Amp is an agentic coding tool from Sourcegraph that works in the terminal and across editors, autonomously editing code and running tasks. It routes between frontier models across deep, smart, and fast modes, and centers on shareable 'threads' so teammates can view and search each other's agent sessions.",

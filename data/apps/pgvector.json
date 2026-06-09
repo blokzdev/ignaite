@@ -1,6 +1,6 @@
 {
   "slug": "pgvector",
-  "insight": "Keeps embeddings in the same Postgres as your relational data, so you can JOIN against them and back everything up together.",
+  "insight": "Created in 2021 by Andrew Kane, a solo open-source developer; it's now offered managed by AWS, Google Cloud, Azure, Supabase, and Neon.",
   "name": "pgvector",
   "tagline": "Vector similarity search inside Postgres. The pragmatic default.",
   "description": "Postgres extension that adds a vector type plus exact and approximate nearest-neighbour search. Pairs naturally with Supabase, Neon, and any managed Postgres. The lowest-friction RAG backend if you already run Postgres.",

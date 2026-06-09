@@ -1,6 +1,6 @@
 {
   "slug": "linkup",
-  "insight": "Ranks #1 on OpenAI's SimpleQA benchmark; billed per request — search around $0.005, deep research up to $2.50.",
+  "insight": "Paris-based, founded in 2024 by ex-Spotify/Lyft/McKinsey alumni; raised a $10M seed led by Gradient in 2026.",
   "name": "Linkup",
   "tagline": "Production-grade web search API for AI agents.",
   "description": "A web search API built for LLMs and agents. Linkup returns sourced, cited answers with full-text snippets in seconds, plus a Fetch endpoint for URL extraction and a Research endpoint that runs multi-step, chain-of-thought deep research. It integrates via MCP and SDK wrappers for OpenAI, LangChain, CrewAI, and more, and offers zero-data-retention enterprise hosting.",

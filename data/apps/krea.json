@@ -1,6 +1,6 @@
 {
   "slug": "krea",
-  "insight": "Fronts several engines (Flux, Imagen, Sora) on one real-time canvas, built to refine a single image rather than re-roll prompts.",
+  "insight": "Its two Spanish founders won King-of-Spain scholarships to Cornell; Krea has raised $83M at a ~$500M valuation.",
   "name": "Krea",
   "tagline": "Design-loop image surface. Generate, edit, upscale, iterate.",
   "description": "Multi-model creative canvas — image generation, real-time edits, upscaling, and style transfer chained together. Strong for fast iteration on a single image rather than rolling fresh prompts.",

@@ -1,6 +1,6 @@
 {
   "slug": "pydantic-ai",
-  "insight": "From the Pydantic team, so agent outputs are validated by the same library most Python LLM apps already lean on for tool and data schemas.",
+  "insight": "Released by Pydantic in late 2024, the same Sequoia-backed team whose validation library underpins FastAPI and most Python LLM SDKs.",
   "name": "Pydantic AI",
   "tagline": "Type-safe Python agent framework, the Pydantic way.",
   "description": "An open-source Python framework for building production-grade agents with validated, structured outputs instead of raw-string parsing. Model-agnostic across OpenAI, Anthropic, Gemini and many more, with composable tools, durable execution, MCP support, and built-in observability via Pydantic Logfire. MIT-licensed from the team behind Pydantic.",

@@ -1,6 +1,6 @@
 {
   "slug": "tripo",
-  "insight": "Competes on raw speed — a usable 3D model from one image in seconds — with one of the more generous free tiers in 3D gen.",
+  "insight": "Made by Beijing's VAST AI, which co-released the open-source TripoSR model with Stability AI in 2024.",
   "name": "Tripo",
   "tagline": "Fast text- and image-to-3D model generation.",
   "description": "Generate detailed 3D models from a prompt or a single image in seconds, with texturing and clean topology options. Known for speed and an accessible free tier.",

@@ -1,6 +1,6 @@
 {
   "slug": "voxel51",
-  "insight": "FiftyOne's superpower is surfacing the bad labels and failure cases hiding in a vision dataset — debugging data, not just models.",
+  "insight": "Spun out of the University of Michigan in 2016 by robotics prof Jason Corso and PhD student Brian Moore; Bessemer-led $30M Series B.",
   "name": "Voxel51",
   "tagline": "FiftyOne — open-source vision data platform.",
   "description": "Open-source toolkit for exploring, debugging, and curating vision datasets. Strong story for finding model failure modes, balancing classes, and tracking experiment drift across visual data at scale.",

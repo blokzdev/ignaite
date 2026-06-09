@@ -1,6 +1,6 @@
 {
   "slug": "bolt-new",
-  "insight": "The entire Node stack runs inside the browser tab via StackBlitz's WebContainers — no server is spun up behind your build.",
+  "insight": "Hit $20M ARR within ~2 months of its Oct 2024 launch, often cited as the fastest-growing software product after ChatGPT.",
   "name": "Bolt.new",
   "tagline": "Prompt-to-app generator running in the browser. WebContainers under the hood.",
   "description": "StackBlitz's in-browser full-stack app builder. Generates a working project — frontend, backend, deps — and lets you iterate in a sandboxed Node runtime without leaving the tab.",

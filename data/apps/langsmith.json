@@ -1,6 +1,6 @@
 {
   "slug": "langsmith",
-  "insight": "Despite the name it works without LangChain in your stack — but it's cloud-only, where Langfuse lets you self-host.",
+  "insight": "LangChain's primary commercial product and revenue driver behind its 2025 $1.25B unicorn valuation.",
   "name": "LangSmith",
   "tagline": "LangChain's hosted observability + eval platform.",
   "description": "Tracing, dataset management, eval orchestration, and prompt playground from the LangChain team. Pairs naturally if LangChain or LangGraph already runs in your stack, but works standalone via SDKs.",

@@ -1,6 +1,6 @@
 {
   "slug": "huggingface",
-  "insight": "One account spans model weights, datasets, runnable Spaces, and a daily papers feed — the closest thing to a commons for open AI.",
+  "insight": "Hit a $4.5B valuation in 2023 — its $235M round drew rival chipmakers and clouds: Nvidia, AMD, Qualcomm, Google, Amazon, Salesforce.",
   "name": "Hugging Face",
   "tagline": "Models, datasets, papers, spaces. The AI research commons.",
   "description": "Source-of-truth for open-weights models and datasets. Daily-paper feed for tracking research; Spaces for trying ideas without setting up infra. The default home for any model not behind a paid API.",

@@ -1,6 +1,6 @@
 {
   "slug": "morphic",
-  "insight": "Apache-2.0 and provider-agnostic: pluggable across OpenAI, Anthropic, or local Ollama models and Tavily, Brave, or SearXNG search backends.",
+  "insight": "Built and maintained largely solo by Tokyo developer Yoshiki Miura; it has drawn 8K+ GitHub stars.",
   "name": "Morphic",
   "tagline": "Open-source AI answer engine with a generative UI.",
   "description": "A self-hostable answer engine that returns comprehensive, cited answers with a generative UI that adapts per query rather than a list of links. It offers a Quick mode and an Adaptive multi-step research mode, saves searchable history, and is provider-agnostic across LLM and search backends. Apache-2.0, deployable to Vercel in one click, with a free hosted instance at morphic.sh.",

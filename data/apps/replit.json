@@ -1,6 +1,6 @@
 {
   "slug": "replit",
-  "insight": "Build, database, and hosting all live in the browser, so its Agent can ship an app from a phone with zero local setup.",
+  "insight": "Founded by Jordanian-born Amjad Masad; its Agent drove ARR from ~$10M to over $150M in 2025, lifting Replit to a $9B valuation by 2026.",
   "name": "Replit",
   "tagline": "Cloud IDE + Agent that builds, runs, and deploys from a prompt.",
   "description": "A browser IDE with Replit Agent — describe an app and it scaffolds, codes, runs, and deploys it, with a hosted database and one-click publish. Zero local setup, ships from anywhere.",

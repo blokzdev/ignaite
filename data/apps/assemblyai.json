@@ -1,6 +1,6 @@
 {
   "slug": "assemblyai",
-  "insight": "Bills per second and layers 'Speech Understanding' models — summaries, sentiment, PII redaction — on top of raw transcription.",
+  "insight": "Raised a $50M Series C in 2023 (Accel-led, with Nat Friedman and Daniel Gross); a Y Combinator alum.",
   "name": "AssemblyAI",
   "tagline": "Production speech-to-text + audio intelligence API.",
   "description": "Speech recognition API with batch and real-time streaming transcription, speaker diarization, and language detection. Its Universal models pair with optional Speech Understanding features (summarization, sentiment, redaction) so a single API can build conversation-intelligence products. Starts with a free credit and pay-as-you-go, per-second billing.",

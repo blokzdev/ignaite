@@ -8,7 +8,7 @@
   "deployment": "cloud",
   "vendor": "Learneo",
   "platforms": ["web", "browser-extension", "windows", "macos", "ios", "android"],
-  "insight": "A Learneo (formerly Course Hero) business, sitting alongside Course Hero and Scribbr — which is why its tooling skews toward students.",
+  "insight": "Founded in 2017 by three UIUC computer-science students; acquired by Course Hero (now Learneo) in August 2021.",
   "modelSupport": {
     "kind": "multi-model",
     "notes": "Combines proprietary paraphrasing models with third-party LLM features."

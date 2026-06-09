@@ -1,6 +1,6 @@
 {
   "slug": "pipedream",
-  "insight": "Each step is real Node.js or Python code over 3,000+ managed API integrations, now exposed to AI agents as MCP servers.",
+  "insight": "Founded in 2019 by eight alumni of ad-tech firm BrightRoll (sold to Yahoo for ~$640M), led by BrightRoll's former CEO.",
   "name": "Pipedream",
   "tagline": "Connect APIs, AI, and databases with code-level workflows.",
   "description": "A workflow automation platform where steps are pre-built triggers/actions or arbitrary Node.js and Python code, glued across 3,000+ managed app integrations with hosted auth. Pipedream Connect embeds those integrations into your own product or AI agent, and the catalog is exposed MCP-natively so agents can call any connector as a tool.",

@@ -1,6 +1,6 @@
 {
   "slug": "lancedb",
-  "insight": "Runs embedded in-process on its own Lance columnar format — there's no server to operate, unlike Pinecone or Weaviate.",
+  "insight": "Its CEO co-authored the pandas library; the YC-backed startup counts Midjourney as a customer.",
   "name": "LanceDB",
   "tagline": "Embedded multimodal vector database on the Lance format.",
   "description": "An open-source retrieval engine for AI built on the Lance columnar format. It runs in-process alongside your app — no separate server — and stores, indexes, and searches vectors, metadata, and multimodal data (text, images, video) with vector, full-text, and SQL queries. A managed enterprise lakehouse tier scales the same engine to petabytes.",

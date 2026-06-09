@@ -1,6 +1,6 @@
 {
   "slug": "meshy",
-  "insight": "Goes past raw meshes to auto-rigging and Blender/Unity/Unreal exports — built to slot into a real game-asset pipeline.",
+  "insight": "Founded in 2021 by Ethan Hu, whose MIT graphics PhD thesis earned a SIGGRAPH honorable mention.",
   "name": "Meshy",
   "tagline": "Text- and image-to-3D models, textures, and rigging.",
   "description": "Generate production-ready 3D assets from text or images — meshes, PBR textures, and auto-rigging, with exports for Blender, Unity, and Unreal. A staple of the AI 3D workflow.",

@@ -1,6 +1,6 @@
 {
   "slug": "databricks-genie",
-  "insight": "Has no separate license fee — it rides on the Databricks lakehouse and inherits Unity Catalog permissions, so answers stay governed.",
+  "insight": "Announced at the 2024 Data + AI Summit and made generally available to Databricks SQL customers in 2025.",
   "name": "Databricks AI/BI Genie",
   "tagline": "Conversational analytics over your Databricks lakehouse data.",
   "description": "A no-code conversational analytics interface within the Databricks platform. Business users ask plain-English questions about lakehouse data and Genie returns SQL, charts, and natural-language explanations. It adapts to your business concepts and enforces Unity Catalog governance, so answers stay secure and auditable. Billed through Databricks compute rather than a separate license.",

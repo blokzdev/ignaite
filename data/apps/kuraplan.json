@@ -1,6 +1,6 @@
 {
   "slug": "kuraplan",
-  "insight": "Tuned to national curricula — NZ, Australian v9, UK, NCEA, Canadian, Irish — not US-default, so plans match local standards.",
+  "insight": "Built ANZ-first; its New Zealand lesson plans are designed to honour Te Tiriti o Waitangi (the Treaty of Waitangi).",
   "name": "Kuraplan",
   "tagline": "AI lesson planner for teachers — curriculum-aligned plans, units, and worksheets.",
   "description": "Kuraplan is an AI lesson-planning tool for teachers: enter a subject, year level, and objectives and it generates curriculum-aligned lesson plans, unit plans, and worksheets in minutes. Its AI is tuned to national curricula (NZ, Australian v9, UK, NCEA, Canadian, Irish) rather than defaulting to US standards. A free tier covers the core planners plus 21 no-signup classroom utilities and a worksheet library; Pro is $9/month, with school and district plans.",
@@ -26,8 +26,15 @@
   "bestFor": ["ANZ & UK teachers", "Curriculum-aligned planning", "Worksheet generation"],
   "alternatives": ["magicschool-ai", "brisk-teaching"],
   "links": [
-    { "kind": "website", "url": "https://www.kuraplan.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.kuraplan.com/us/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.kuraplan.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.kuraplan.com/us/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
   "lastVerifiedAt": "2026-06-09"

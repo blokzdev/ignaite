@@ -1,6 +1,6 @@
 {
   "slug": "physical-intelligence",
-  "insight": "Unusually for a frontier robotics lab, it open-sourced its flagship — π0's code and weights ship in the public openpi repo on GitHub.",
+  "insight": "Raised $400M at a $2.4B valuation in 2024 led by Jeff Bezos and OpenAI, with a team drawn from Tesla, DeepMind, and X.",
   "name": "Physical Intelligence",
   "tagline": "General-purpose foundation models that aim to control any robot to do any task.",
   "description": "Physical Intelligence is a San Francisco lab building general-purpose AI for the physical world. Its π0 (pi-zero) vision-language-action model, built on a pretrained VLM and trained across many robot embodiments, can perform dexterous tasks like folding laundry. The company open-sourced π0's code and weights via its openpi repository.",

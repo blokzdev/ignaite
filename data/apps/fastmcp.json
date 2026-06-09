@@ -1,6 +1,6 @@
 {
   "slug": "fastmcp",
-  "insight": "FastMCP 1.0 was absorbed into the official MCP Python SDK; v2 is the standalone superset most Python MCP servers are now built on.",
+  "insight": "Created by Prefect CEO Jeremiah Lowin, who built the first version over a single weekend.",
   "name": "FastMCP",
   "tagline": "The fast, Pythonic way to build MCP servers and clients.",
   "description": "An open-source Python framework for building Model Context Protocol servers and clients. You declare a tool as a Python function and FastMCP generates the schema, validation, and protocol plumbing, and handles transport, auth, and the connection lifecycle for you. FastMCP 1.0 was folded into the official MCP Python SDK; v2 is the actively developed standalone superset. The framework is free and Apache-2.0; Prefect's Horizon platform adds managed hosting and enterprise governance.",

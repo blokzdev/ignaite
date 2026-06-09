@@ -26,7 +26,7 @@ export const principles: ReadonlyArray<Principle> = [
     id: "signal",
     number: "03",
     title: "Signal on every line.",
-    body: "Each listing carries a one-sentence AI insight — the non-obvious thing worth knowing, never a re-pitch of the tagline.",
+    body: "Listings surface a one-sentence fact worth knowing — the non-obvious thing the marketing page won't tell you, never a re-pitch of the tagline.",
   },
   {
     id: "honest-openness",

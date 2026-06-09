@@ -1,6 +1,6 @@
 {
   "slug": "deepl",
-  "insight": "Runs its own in-house LLMs tuned solely for language, not a general model — but its next-gen model is gated to paid tiers, not the free API.",
+  "insight": "Grew out of the Linguee dictionary in Cologne; a 2024 raise put the unicorn at a $2B valuation.",
   "name": "DeepL",
   "tagline": "AI translation and writing for text, documents, and apps via API.",
   "description": "A translation service known for fluent, natural output across text, full documents, and a developer API. Pairs the consumer translator and DeepL Write with the DeepL API for adding translation to your own apps. Uses specialized in-house language models rather than a repurposed general-purpose LLM.",

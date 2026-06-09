@@ -1,6 +1,6 @@
 {
   "slug": "hume-ai",
-  "insight": "EVI reads the prosody and emotion in your voice — not just the words — and tunes its own tone and timing in response.",
+  "insight": "Founder Alan Cowen is an ex-Google scientist whose ‘semantic space theory’ of emotion underpins the product; $50M Series B (EQT, 2024).",
   "name": "Hume AI",
   "tagline": "Empathic Voice Interface — speech-to-speech AI that hears tone.",
   "description": "A voice AI toolkit built around the Empathic Voice Interface (EVI), a speech-to-speech model that infers emotion and prosody from a user's voice and modulates its replies accordingly. Exposed as an API for building expressive voice agents and assistants. From a research lab focused on emotional intelligence in AI.",

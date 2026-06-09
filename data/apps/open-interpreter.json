@@ -1,6 +1,6 @@
 {
   "slug": "open-interpreter",
-  "insight": "Hands the model a real shell on your machine — Python, JS, bash — gated behind per-command approval, and it can run fully offline.",
+  "insight": "Created by Killian Lucas; it went viral on launch in 2023, topping 20K GitHub stars in its first week as the #1 trending repo.",
   "name": "Open Interpreter",
   "tagline": "Natural-language interface that lets LLMs run code locally in your terminal.",
   "description": "Gives LLMs a ChatGPT-like terminal interface to write and execute Python, JavaScript, Shell, and more on your own machine, asking approval before each run. It works with hosted models or fully local models via Ollama, LM Studio, or Jan using a --local flag. Free and open source under AGPL-3.0; you supply your own model (API key or local).",
