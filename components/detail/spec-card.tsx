@@ -114,10 +114,10 @@ export function SpecCard({ app, accent }: Readonly<{ app: App; accent: string }>
             href={primary.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full bg-[var(--color-accent)] font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-canvas)] focus-visible:outline-none"
+            className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full bg-[var(--color-accent)] px-4 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-canvas)] focus-visible:outline-none"
           >
-            Open {app.name}
-            <ArrowUpRight className="h-3.5 w-3.5" />
+            <span className="truncate">Open {app.name}</span>
+            <ArrowUpRight className="h-3.5 w-3.5 shrink-0" />
           </Link>
           {secondaries.length > 0 && (
             <ul className="flex flex-wrap gap-1.5">

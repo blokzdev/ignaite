@@ -122,7 +122,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
 
           {/* Description — clamped with a Show more/less reveal when it runs long
               (the full text stays in the DOM for SEO + screen readers). */}
-          <ShowMore className="mt-8 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
+          <ShowMore className="mt-8 max-w-[68ch] text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
             <p>{app.description}</p>
             {app.longDescription && <p className="mt-4">{app.longDescription}</p>}
           </ShowMore>

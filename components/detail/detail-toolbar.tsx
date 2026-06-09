@@ -52,6 +52,7 @@ export function DetailToolbar({
       <div className="relative flex h-full items-center">
         {/* State A — breadcrumb + copy */}
         <div
+          inert={compact}
           className={cn(
             "flex w-full items-center justify-between gap-3 transition-opacity duration-300",
             compact ? "pointer-events-none opacity-0" : "opacity-100",
@@ -63,7 +64,7 @@ export function DetailToolbar({
 
         {/* State B — compact identity + Open */}
         <div
-          aria-hidden={!compact}
+          inert={!compact}
           className={cn(
             "absolute inset-0 flex items-center justify-between gap-3 transition-opacity duration-300",
             compact ? "opacity-100" : "pointer-events-none opacity-0",
