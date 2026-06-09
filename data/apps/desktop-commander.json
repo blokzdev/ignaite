@@ -1,0 +1,29 @@
+{
+  "slug": "desktop-commander",
+  "insight": "One of the most-installed community MCP servers (6k+ GitHub stars, MIT) — gives Claude terminal control and diff-based file edits.",
+  "name": "Desktop Commander",
+  "tagline": "Open-source MCP server giving AI clients terminal and file control.",
+  "description": "Desktop Commander is an open-source Model Context Protocol server that lets MCP clients like Claude Desktop, Cursor, and VS Code run terminal commands, search the file system, and make surgical diff-based edits. It manages long-running processes, reads and writes files (including Excel and PDF), and turns an AI assistant into a hands-on coding and automation agent on your own machine. Free and MIT-licensed, with one of the larger community followings among MCP servers.",
+  "category": "mcp",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "wonderwhy-er",
+  "platforms": ["cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["mcp", "terminal", "file-editing", "open-source", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://desktopcommander.app",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

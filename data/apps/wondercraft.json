@@ -1,0 +1,30 @@
+{
+  "slug": "wondercraft",
+  "insight": "Assembles a finished podcast — script, AI voices, music and sound effects — from a doc or URL, rather than just doing text-to-speech.",
+  "name": "Wondercraft",
+  "tagline": "AI audio studio that turns ideas into produced podcasts and audiobooks.",
+  "description": "Wondercraft is a browser-based AI audio studio that turns ideas, documents, or URLs into fully produced audio — podcasts, audiobooks, and ads — complete with scripts, natural-sounding voices, music, and sound effects. It offers hundreds of AI voices across dozens of languages plus voice cloning, with a timeline editor for assembling and revising episodes. Free for individuals, with paid creator and business tiers.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Wondercraft",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Layers LLM scripting over a library of hundreds of AI voices across many languages."
+  },
+  "tags": ["podcast", "audio-generation", "text-to-speech", "voice-cloning"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wondercraft.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.wondercraft.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

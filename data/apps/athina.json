@@ -1,0 +1,34 @@
+{
+  "slug": "athina",
+  "insight": "Its open-source eval SDK feeds a closed monitoring platform; the 50+ preset evals pull from Athina, OpenAI, Ragas and Guardrails.",
+  "name": "Athina AI",
+  "tagline": "Build, test, and monitor LLM apps with evals and observability.",
+  "description": "Athina AI is a collaborative platform for building, evaluating, and monitoring LLM features. It bundles prompt management, datasets, experiments, production tracing, and a library of 50+ preset and custom evaluations, with human annotation tools on top. The platform pairs with an open-source eval SDK and works with OpenAI, Azure, Bedrock, Vertex, and custom models hosted anywhere.",
+  "category": "eval",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Athina AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "OpenAI, Azure OpenAI, AWS Bedrock, Vertex AI, plus custom models hosted anywhere."
+  },
+  "tags": ["eval", "observability", "llm-monitoring", "prompt-management"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://athina.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.athina.ai"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/athina-ai"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
