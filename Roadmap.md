@@ -55,6 +55,10 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)    | #38       | ✅     |
 | M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)  | #39       | ✅     |
 | —     | Bugfix: `overflow:hidden`→`clip` so the directory filter bar's `sticky` actually pins  | —         | 🟦     |
+| N-1   | Taxonomy v2 — +16 categories, one label map, hide empty chips (foundation)             | —         | 🟦     |
+| N-2   | Taxonomy v2 — populate creator/consumer categories (writing…companion)                 | —         | ⬜     |
+| N-3   | Taxonomy v2 — populate verticals + frontier (support…robotics)                         | —         | ⬜     |
+| N-4   | Taxonomy v2 — align CLAUDE.md + docs + discover/audit routines                         | —         | ⬜     |
 
 ---
 
@@ -237,6 +241,45 @@ reframed off the explorers. The portfolio is **kept dormant** (mirrors `/workflo
 explorer URLs redirect to `/about`. `data/projects.ts` + `components/apps/*` + the orphaned
 `apps-preview`/`stats-strip` are retained. The real OSS project **WebSight** is seeded into the data
 for the eventual revival (build it out with real AI apps / web apps / OSS over time).
+
+---
+
+## Iteration 6 — Directory taxonomy v2 (Chunk N) 🟦 in progress
+
+**Goal**: make the category taxonomy all-encompassing and futureproof. The launch set of 23 was
+developer/infra-heavy (`ide, mcp, eval, vector-db, inference, fine-tuning, observability, …`) with
+no home for the consumer + vertical application layer where AI apps now proliferate. This adds
+**16 categories** (→ 39), grouped into Build / Create / Work / Verticals / Frontier clusters, and
+**populates every new one** so no chip ships empty.
+
+**New categories**: `security` · `music` · `design` · `writing` · `productivity` · `analytics` ·
+`translation` · `meeting` · `marketing` · `support` · `companion` (incl. dating/matchmaking) ·
+`healthcare` · `legal` · `finance` · `education` · `robotics`.
+
+**Why now**: the directory is the product; coverage gaps (companions, support, legal, healthcare,
+marketing, writing, …) are exactly where new apps land. Surfaced by the request to add
+uneversleep (→ `marketing`) and dataing (→ `companion`).
+
+**Delivery — 4 PRs, sequenced `N-1 → (N-2 ∥ N-3) → N-4`** (N-2/N-3 branch off `main` only after
+N-1 merges, else `velite --strict` fails on a category not yet in the enum):
+
+- **N-1 (foundation, code-only)**: extend `AppCategory` union + `APP_CATEGORIES` (clustered order);
+  consolidate the three drifting `CATEGORY_LABEL` maps into one source of truth
+  (`lib/tools/category-labels.ts`, re-exported from `use-directory-filters`); hide globally-empty
+  category chips in `directory-console.tsx` so categories can roll out ahead of population.
+- **N-2 (data)**: re-file clearly-miscategorized existing listings (with a `changelog` entry each)
+  - author net-new apps for the creator/consumer cluster (incl. uneversleep, dataing).
+- **N-3 (data)**: author net-new apps for verticals + frontier; re-file any that clearly belong.
+- **N-4 (docs/routines)**: align `CLAUDE.md`, this Roadmap, `docs/directory-playbook.md`, and the
+  `/discover-apps` · `/audit-directory` · `/add-app` commands to the new taxonomy + label map.
+
+**Conventions**: extend the union (CLAUDE.md §11 allows it) — no schema restructure, no new dep;
+`Record<AppCategory, string>` makes label completeness a compile-time guarantee; authoring follows
+`.claude/commands/add-app.md` (web-verify, `insight` ≤140, one primary link, no `changelog` on new
+entries, `addedAt`/`lastVerifiedAt` = today). Per-chunk gate: `pnpm velite` (strict) / `typecheck`
+/ `lint` / `build` clean + responsive/a11y pass.
+
+Branches: `claude/directory-taxonomy-<slug>`.
 
 ---
 

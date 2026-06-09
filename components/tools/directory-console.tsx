@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { countMatches } from "@/lib/tools/filter-apps";
 import { facetCounts } from "@/lib/tools/facet-counts";
-import { APP_CATEGORIES } from "@/types/app";
+import { POPULATED_CATEGORIES } from "@/lib/tools/populated-categories";
 import type { AppCategory } from "@/types/app";
 import {
   CATEGORY_LABEL,
@@ -309,7 +309,7 @@ export function DirectoryConsole() {
             onClick={filters.resetCategory}
             count={counts.all.category}
           />
-          {APP_CATEGORIES.map((c) => (
+          {POPULATED_CATEGORIES.map((c) => (
             <CategoryChip
               key={c}
               category={c}

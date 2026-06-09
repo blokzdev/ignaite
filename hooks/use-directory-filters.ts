@@ -3,6 +3,7 @@ import { parseAsArrayOf, parseAsString, parseAsStringLiteral, useQueryStates } f
 import { toast } from "sonner";
 import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PLATFORMS, APP_PRICING } from "@/types/app";
 import type { AppCategory, AppDeployment, AppPlatform, AppPricing } from "@/types/app";
+import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { LICENSE_LABEL, LICENSE_SIGNALS, type LicenseSignal } from "@/lib/tools/license";
 import { clearFilters } from "@/lib/tools/clear-filters";
 
@@ -12,31 +13,10 @@ export const STATUS_FILTERS: ReadonlyArray<StatusFilter> = ["active", "archived"
 export type SortMode = "featured" | "recent" | "alpha";
 export const SORT_MODES: ReadonlyArray<SortMode> = ["featured", "recent", "alpha"];
 
-export const CATEGORY_LABEL: Record<AppCategory, string> = {
-  ide: "IDE",
-  agent: "Agent",
-  assistant: "Assistant",
-  orchestration: "Orchestration",
-  mcp: "MCP",
-  eval: "Eval",
-  infra: "Infra",
-  memory: "Memory",
-  "vector-db": "Vector DB",
-  voice: "Voice",
-  vision: "Vision",
-  "image-gen": "Image",
-  video: "Video",
-  audio: "Audio",
-  "3d": "3D",
-  search: "Search",
-  "data-ops": "Data Ops",
-  observability: "Observability",
-  inference: "Inference",
-  "fine-tuning": "Fine-tuning",
-  "research-platform": "Research",
-  "browser-extension": "Browser Ext.",
-  automation: "Automation",
-};
+// Imported locally (the hook builds active-filter pills from it) and re-exported
+// so existing `import { CATEGORY_LABEL } from "@/hooks/use-directory-filters"`
+// callers keep working while the single definition lives in one place.
+export { CATEGORY_LABEL };
 
 export const PRICING_LABEL: Record<AppPricing, string> = {
   free: "Free",

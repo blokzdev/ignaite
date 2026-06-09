@@ -1,6 +1,7 @@
 "use client";
-import { APP_CATEGORIES, APP_DEPLOYMENTS, APP_PLATFORMS, APP_PRICING } from "@/types/app";
+import { APP_DEPLOYMENTS, APP_PLATFORMS, APP_PRICING } from "@/types/app";
 import { cn } from "@/lib/utils";
+import { POPULATED_CATEGORIES } from "@/lib/tools/populated-categories";
 import { LICENSE_LABEL, LICENSE_SIGNALS } from "@/lib/tools/license";
 import type { FacetCounts } from "@/lib/tools/facet-counts";
 import {
@@ -48,7 +49,7 @@ export function FilterControls({ filters, variant = "inline", omit, counts }: Re
             count={counts?.all.category}
             reset
           />
-          {APP_CATEGORIES.map((c) => (
+          {POPULATED_CATEGORIES.map((c) => (
             <Chip
               key={c}
               label={CATEGORY_LABEL[c]}

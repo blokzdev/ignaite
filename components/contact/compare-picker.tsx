@@ -2,8 +2,9 @@
 
 import { useMemo } from "react";
 import appsIndex from "@/.velite/apps-search.json";
-import { APP_CATEGORIES, type AppCategory } from "@/types/app";
-import { CATEGORY_LABEL } from "@/hooks/use-directory-filters";
+import { type AppCategory } from "@/types/app";
+import { POPULATED_CATEGORIES } from "@/lib/tools/populated-categories";
+import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -78,7 +79,7 @@ export function ComparePicker({
           <option value="" disabled>
             Pick a category
           </option>
-          {APP_CATEGORIES.map((c) => (
+          {POPULATED_CATEGORIES.map((c) => (
             <option key={c} value={c}>
               {CATEGORY_LABEL[c]}
             </option>

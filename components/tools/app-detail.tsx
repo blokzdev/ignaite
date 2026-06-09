@@ -22,13 +22,13 @@ import { siteUrl } from "@/lib/seo";
 import { licenseSignal } from "@/lib/tools/license";
 import type {
   App,
-  AppCategory,
   AppDeployment,
   AppLinkKind,
   AppPlatform,
   AppPricing,
   ModelSupportKind,
 } from "@/types/app";
+import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 
 const DEPLOYMENT_LABEL: Record<AppDeployment, string> = {
   cloud: "Cloud",
@@ -45,32 +45,6 @@ function GithubGlyph({ className }: { className?: string }) {
     </svg>
   );
 }
-
-const CATEGORY_LABEL: Record<AppCategory, string> = {
-  ide: "IDE / Agent",
-  agent: "Agent",
-  assistant: "Assistant",
-  orchestration: "Orchestration",
-  mcp: "MCP",
-  eval: "Eval",
-  infra: "Infra",
-  memory: "Memory",
-  "vector-db": "Vector DB",
-  voice: "Voice",
-  vision: "Vision",
-  "image-gen": "Image Gen",
-  video: "Video",
-  audio: "Audio",
-  "3d": "3D",
-  search: "Search",
-  "data-ops": "Data Ops",
-  observability: "Observability",
-  inference: "Inference",
-  "fine-tuning": "Fine-tuning",
-  "research-platform": "Research",
-  "browser-extension": "Browser Extension",
-  automation: "Automation",
-};
 
 const PRICING_LABEL: Record<AppPricing, string> = {
   free: "FREE",
