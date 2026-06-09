@@ -2,62 +2,111 @@
 // `Tool` type. Notable changes vs. that earlier draft:
 // - "model" dropped as a category (models are foundations consumed inside
 //   listed apps, not browsable apps in their own right).
-// - Category enum broadened to ~20 values so a comprehensive third-party
-//   directory has somewhere to put every entry.
+// - Category enum spans ~39 values across Build / Create / Work / Verticals /
+//   Frontier clusters so a comprehensive third-party directory — developer
+//   tooling through consumer + vertical apps — has somewhere to put every entry.
 // - The studio-centric `blokzMark` editorial badge was retired; listings carry
 //   neutral, derived signals (category / pricing / license / platforms) instead.
 // - New `modelSupport` field describes which models each app uses/supports.
 // - New `platforms` field for cross-platform filtering.
 
+// Ordered into reading clusters (Build → Create → Work → Verticals → Frontier);
+// this order drives the homepage quick-category chip strip. Human labels live in
+// `lib/tools/category-labels.ts` (one source of truth, re-exported from the
+// filter hook). Keep this union, the APP_CATEGORIES tuple below, and that label
+// map in lockstep — the label map is typed `Record<AppCategory, string>`, so a
+// new category here is a compile error until it's labelled there.
 export type AppCategory =
+  // Build — developer & infra tooling
   | "ide"
   | "agent"
-  | "assistant"
   | "orchestration"
   | "mcp"
   | "eval"
-  | "infra"
-  | "memory"
-  | "vector-db"
-  | "voice"
-  | "vision"
-  | "image-gen"
-  | "video"
-  | "audio"
-  | "3d"
-  | "search"
-  | "data-ops"
   | "observability"
   | "inference"
   | "fine-tuning"
+  | "infra"
+  | "vector-db"
+  | "memory"
+  | "data-ops"
+  | "security"
+  // Create — media & design
+  | "image-gen"
+  | "video"
+  | "audio"
+  | "music"
+  | "voice"
+  | "vision"
+  | "3d"
+  | "design"
+  // Work — knowledge, ops & go-to-market
+  | "assistant"
+  | "writing"
+  | "productivity"
+  | "search"
   | "research-platform"
+  | "analytics"
+  | "automation"
   | "browser-extension"
-  | "automation";
+  | "translation"
+  | "meeting"
+  | "marketing"
+  | "support"
+  // Verticals
+  | "companion"
+  | "healthcare"
+  | "legal"
+  | "finance"
+  | "education"
+  // Frontier
+  | "robotics";
 
 export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
+  // Build
   "ide",
   "agent",
-  "assistant",
   "orchestration",
   "mcp",
   "eval",
-  "infra",
-  "memory",
-  "vector-db",
-  "voice",
-  "vision",
-  "image-gen",
-  "video",
-  "audio",
-  "3d",
-  "search",
-  "data-ops",
   "observability",
   "inference",
   "fine-tuning",
+  "infra",
+  "vector-db",
+  "memory",
+  "data-ops",
+  "security",
+  // Create
+  "image-gen",
+  "video",
+  "audio",
+  "music",
+  "voice",
+  "vision",
+  "3d",
+  "design",
+  // Work
+  "assistant",
+  "writing",
+  "productivity",
+  "search",
   "research-platform",
-  "browser-extension",
+  "analytics",
   "automation",
+  "browser-extension",
+  "translation",
+  "meeting",
+  "marketing",
+  "support",
+  // Verticals
+  "companion",
+  "healthcare",
+  "legal",
+  "finance",
+  "education",
+  // Frontier
+  "robotics",
 ];
 
 export type AppPricing = "free" | "freemium" | "paid" | "byo-key";

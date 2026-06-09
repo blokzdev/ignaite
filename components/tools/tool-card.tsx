@@ -9,7 +9,8 @@ import {
   Tag,
 } from "lucide-react";
 import type { ComponentType } from "react";
-import type { App, AppCategory, AppLinkKind, AppPricing } from "@/types/app";
+import type { App, AppLinkKind, AppPricing } from "@/types/app";
+import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { licenseSignal } from "@/lib/tools/license";
 import { cn } from "@/lib/utils";
 
@@ -22,32 +23,6 @@ function GithubGlyph({ className }: { className?: string }) {
     </svg>
   );
 }
-
-const CATEGORY_LABEL: Record<AppCategory, string> = {
-  ide: "IDE / Agent",
-  agent: "Agent",
-  assistant: "Assistant",
-  orchestration: "Orchestration",
-  mcp: "MCP",
-  eval: "Eval",
-  infra: "Infra",
-  memory: "Memory",
-  "vector-db": "Vector DB",
-  voice: "Voice",
-  vision: "Vision",
-  "image-gen": "Image",
-  video: "Video",
-  audio: "Audio",
-  "3d": "3D",
-  search: "Search",
-  "data-ops": "Data Ops",
-  observability: "Observability",
-  inference: "Inference",
-  "fine-tuning": "Fine-tuning",
-  "research-platform": "Research",
-  "browser-extension": "Browser Ext.",
-  automation: "Automation",
-};
 
 const PRICING_LABEL: Record<AppPricing, string> = {
   free: "FREE",
