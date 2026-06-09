@@ -1,0 +1,26 @@
+{
+  "slug": "vidu",
+  "insight": "Multi-Entity Consistency: feed 3–7 reference images of characters or objects and it keeps them consistent across the generated clip.",
+  "name": "Vidu",
+  "tagline": "Text-, image-, and reference-to-video generation at up to 1080p.",
+  "description": "An AI video generator from Tsinghua-spinout Shengshu Technology. Turns text prompts, still images, or reference images into short high-resolution clips, with text-to-video, image-to-video, and reference-to-video modes. Known for fast, low-cost generation and keeping multiple uploaded subjects consistent across a shot.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Shengshu Technology",
+  "platforms": ["web", "ios", "android", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Vidu's own proprietary video models."
+  },
+  "tags": ["video-generation", "text-to-video", "image-to-video", "reference-to-video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vidu.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "langwatch",
+  "insight": "Open-source, and pairs trace observability with 'Scenario' agent-simulation tests rather than only passive production monitoring.",
+  "name": "LangWatch",
+  "tagline": "Open-source LLM observability, evaluation, and agent testing.",
+  "description": "An open-source platform for monitoring, evaluating, and testing LLM and agent applications. LangWatch captures traces, runs evaluations and simulations, and surfaces quality and cost metrics in production. Offered as managed cloud or fully self-hosted for teams with strict data-residency needs.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "LangWatch",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["observability", "evaluation", "agent-testing", "llmops"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://langwatch.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/langwatch/langwatch"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://langwatch.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

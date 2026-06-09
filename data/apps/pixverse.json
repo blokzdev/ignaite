@@ -1,0 +1,26 @@
+{
+  "slug": "pixverse",
+  "insight": "Leans into stylized and anime output plus VFX-style transitions, where rivals like Veo and Sora chase photorealism.",
+  "name": "PixVerse",
+  "tagline": "Fast AI video from text or photos, tuned for stylized and social content.",
+  "description": "An AI video creation studio that turns text prompts or images into short clips in seconds. PixVerse is known for speed and for handling stylized, anime, and effects-heavy output rather than only photorealism, with a web app, mobile apps, and a developer API platform.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "PixVerse",
+  "platforms": ["web", "ios", "android", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "PixVerse's own proprietary video models."
+  },
+  "tags": ["video-generation", "text-to-video", "image-to-video", "anime"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pixverse.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "agenta",
+  "insight": "Fully open-source and self-hostable, so the prompt-management, eval, and tracing loop can run entirely on your own infra.",
+  "name": "Agenta",
+  "tagline": "Open-source LLMOps: prompt management, evaluation, and observability.",
+  "description": "An open-source platform for building and improving LLM apps. Agenta combines a prompt playground, prompt versioning, evaluation (human and LLM-as-judge), and tracing/observability in one tool. Available as managed cloud or self-hosted, so teams can keep the whole eval-and-trace loop on their own infra.",
+  "category": "eval",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Agenta",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["llmops", "evaluation", "prompt-management", "observability"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://agenta.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Agenta-AI/agenta"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://agenta.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
