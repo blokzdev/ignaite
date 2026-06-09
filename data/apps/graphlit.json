@@ -1,0 +1,34 @@
+{
+  "slug": "graphlit",
+  "insight": "Collapses ingestion, extraction, vector storage and retrieval behind one API, so the RAG and memory plumbing isn't yours to assemble.",
+  "name": "Graphlit",
+  "tagline": "One API for AI agent memory: ingest, extract, store, retrieve.",
+  "description": "A cloud-native platform that gives AI agents semantic memory and operational context through a single API. It ingests documents, audio, video, and web pages, extracts entities and relationships, and handles storage and retrieval so you don't assemble the RAG pipeline yourself. Integrates with frontier models from OpenAI, Anthropic, and Google for extraction.",
+  "category": "memory",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Graphlit",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"]
+  },
+  "tags": ["memory", "context", "rag", "knowledge-graph"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.graphlit.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/graphlit"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.graphlit.dev"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}

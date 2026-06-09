@@ -1,0 +1,34 @@
+{
+  "slug": "lightning-ai",
+  "insight": "From the makers of PyTorch Lightning; its Studios are persistent GPU workspaces you can pause and resume, not throwaway notebooks.",
+  "name": "Lightning AI",
+  "tagline": "Persistent GPU cloud workspaces to build, train, and ship AI.",
+  "description": "A cloud platform built around AI Studios — collaborative, persistent GPU workspaces for coding, training models, running inference, and building agents and AI apps. Pay-as-you-go GPUs with a monthly free credit allowance, plus a Pro tier and bring-your-own-cloud for enterprise. Made by the team behind the open-source PyTorch Lightning framework.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Lightning AI",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "General-purpose GPU compute — train or serve any framework/model."
+  },
+  "tags": ["gpu-cloud", "training", "studios", "infrastructure"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lightning.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lightning.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
