@@ -19,6 +19,7 @@ import { AccuracyNote } from "@/components/tools/accuracy-note";
 import { DetailShell } from "@/components/detail/detail-shell";
 import { JsonLd } from "@/components/seo/json-ld";
 import { RelatedRail } from "@/components/tools/related-rail";
+import { ShowMore } from "@/components/tools/show-more";
 import { ToolCard } from "@/components/tools/tool-card";
 import { alternativeApps, relatedApps } from "@/lib/apps";
 import { siteUrl } from "@/lib/seo";
@@ -234,11 +235,12 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </aside>
       )}
 
-      {/* Description */}
-      <article className="mt-12 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
+      {/* Description — clamped with a Show more/less reveal when it runs long
+          (the full text stays in the DOM for SEO + screen readers). */}
+      <ShowMore className="mt-12 text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
         <p>{app.description}</p>
         {app.longDescription && <p className="mt-4">{app.longDescription}</p>}
-      </article>
+      </ShowMore>
 
       {/* Pros & Cons — the honest, balanced read. Either column may be present
           on its own; the grid collapses to one column when so. */}
