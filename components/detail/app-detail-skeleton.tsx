@@ -1,21 +1,22 @@
 import { Skeleton } from "@/components/ui/skeleton";
 import { ToolCardSkeleton } from "@/components/tools/tool-card-skeleton";
 
-// Navigation placeholder for /apps/[slug] — reproduces the DetailShell wrapper
-// and the AppDetail body's structure so the route transition shows an instant,
-// layout-faithful skeleton. Server component (used by the route's loading.tsx).
+// Navigation placeholder for /apps/[slug] — reproduces the AppDetailShell
+// wrapper + the AppDetail body's two-column structure so the route transition
+// shows an instant, layout-faithful skeleton. Server component (the route's
+// loading.tsx content).
 export function AppDetailSkeleton() {
   return (
-    <div className="relative overflow-clip px-6 pt-32 pb-28 sm:pt-40 sm:pb-24">
+    <div className="relative px-6 pt-32 pb-28 sm:pt-40 sm:pb-24">
       <span role="status" aria-live="polite" className="sr-only">
         Loading app…
       </span>
 
-      <div className="relative mx-auto max-w-4xl">
-        {/* Breadcrumb + copy-link row */}
-        <div className="flex items-center justify-between gap-3">
+      <div className="relative mx-auto max-w-6xl">
+        {/* Sticky toolbar */}
+        <div className="-mx-6 flex h-[var(--detail-toolbar-h)] items-center justify-between gap-3 border-b border-white/[0.06] px-6">
           <Skeleton variant="pulse" className="h-4 w-40" />
-          <Skeleton variant="pulse" className="h-8 w-8 rounded-full" />
+          <Skeleton variant="pulse" className="h-8 w-24 rounded-full" />
         </div>
 
         {/* Hero — monogram + category/title/tagline */}
@@ -28,48 +29,28 @@ export function AppDetailSkeleton() {
           </div>
         </header>
 
-        {/* Chip row */}
-        <div className="mt-8 flex flex-wrap items-center gap-2">
-          {[16, 24, 20, 16, 20].map((w, i) => (
-            <Skeleton
-              key={i}
-              variant="pulse"
-              className="h-5 rounded-full"
-              style={{ width: w * 4 }}
-            />
-          ))}
-        </div>
+        {/* Two-column: reading column + spec card */}
+        <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
+          {/* Spec card (right on desktop, top on mobile) */}
+          <div className="order-1 lg:order-2">
+            <Skeleton variant="shimmer" className="h-[22rem] w-full rounded-2xl" />
+          </div>
 
-        {/* Insight aside */}
-        <Skeleton variant="shimmer" className="mt-10 h-20 w-full rounded-2xl" />
-
-        {/* Description lines */}
-        <div className="mt-12 flex flex-col gap-3">
-          <Skeleton variant="shimmer" className="h-4 w-full" />
-          <Skeleton variant="shimmer" className="h-4 w-11/12" />
-          <Skeleton variant="shimmer" className="h-4 w-10/12" />
-          <Skeleton variant="shimmer" className="h-4 w-3/4" />
-        </div>
-
-        {/* A content section block (model / platforms) */}
-        <Skeleton variant="shimmer" className="mt-12 h-32 w-full rounded-2xl" />
-
-        {/* Tags */}
-        <div className="mt-12 flex flex-wrap gap-2">
-          {[14, 18, 12, 16, 20, 14].map((w, i) => (
-            <Skeleton
-              key={i}
-              variant="pulse"
-              className="h-6 rounded-full"
-              style={{ width: w * 4 }}
-            />
-          ))}
-        </div>
-
-        {/* CTA row */}
-        <div className="mt-10 flex flex-wrap items-center gap-3">
-          <Skeleton variant="shimmer" className="h-11 w-36 rounded-full" />
-          <Skeleton variant="shimmer" className="h-11 w-28 rounded-full" />
+          {/* Reading column */}
+          <div className="order-2 flex flex-col gap-6 lg:order-1">
+            <Skeleton variant="shimmer" className="h-20 w-full rounded-2xl" />
+            <Skeleton variant="shimmer" className="h-20 w-full rounded-2xl" />
+            <div className="flex flex-col gap-3">
+              <Skeleton variant="shimmer" className="h-4 w-full" />
+              <Skeleton variant="shimmer" className="h-4 w-11/12" />
+              <Skeleton variant="shimmer" className="h-4 w-10/12" />
+              <Skeleton variant="shimmer" className="h-4 w-3/4" />
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <Skeleton variant="shimmer" className="h-28 w-full rounded-2xl" />
+              <Skeleton variant="shimmer" className="h-28 w-full rounded-2xl" />
+            </div>
+          </div>
         </div>
 
         {/* Related rail */}
@@ -84,9 +65,7 @@ export function AppDetailSkeleton() {
           </ul>
         </div>
 
-        {/* Maintenance ledger — disclaimer + change-history timeline + footer.
-            Always renders on the real page (every listing has an origin node),
-            so the skeleton mirrors it 1:1. */}
+        {/* Maintenance ledger */}
         <div className="mt-20 rounded-2xl bg-white/[0.04] p-5 ring-1 ring-white/[0.08] ring-inset sm:p-6">
           <Skeleton variant="pulse" className="h-3 w-52" />
           <div className="mt-3 flex flex-col gap-2">
