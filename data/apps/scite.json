@@ -1,0 +1,30 @@
+{
+  "slug": "scite",
+  "insight": "Smart Citations don't just count references — they classify each as supporting, contrasting, or merely mentioning the cited claim.",
+  "name": "Scite",
+  "tagline": "AI research assistant built on citation-context Smart Citations.",
+  "description": "Scite helps researchers find and evaluate scientific literature using Smart Citations — citations classified by whether they support, contrast, or simply mention a paper's claims. Beyond search, its AI Assistant answers research questions with grounded, cited references, and reliability dashboards flag retracted or heavily disputed work. Available on the web and via browser and reference-manager plugins.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Scite (a Research Solutions company)",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-powered Assistant grounded in the Smart Citations index."
+  },
+  "tags": ["research", "citations", "academic-search", "literature-review"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scite.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://scite.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-09",
+  "lastVerifiedAt": "2026-06-09"
+}
