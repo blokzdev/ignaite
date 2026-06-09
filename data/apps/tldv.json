@@ -11,9 +11,31 @@
   "platforms": ["web", "macos", "windows"],
   "tags": ["meeting-notes", "transcription", "summaries", "zoom", "crm"],
   "links": [
-    { "kind": "website", "url": "https://tldv.io", "primary": true },
-    { "kind": "pricing", "url": "https://tldv.io/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://tldv.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://tldv.io/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Unlimited free recordings and AI notes across Zoom, Meet and Teams — paid tiers gate CRM/automation, not meeting count.",
+  "pros": [
+    "Truly unlimited free recording tier",
+    "Works on Zoom, Meet and Teams",
+    "30+ language transcription",
+    "CRM push (HubSpot, Salesforce)",
+    "Multi-meeting recaps"
+  ],
+  "cons": [
+    "Bot joins the call (visible recorder)",
+    "Advanced AI gated behind paid plans",
+    "Free tier limits CRM/integration depth"
+  ],
+  "bestFor": ["Sales teams", "Free-tier note-taking", "Multilingual calls"],
+  "alternatives": ["fireflies", "otter-ai", "fathom", "read-ai"]
 }

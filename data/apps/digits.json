@@ -15,9 +15,39 @@
   },
   "tags": ["accounting", "bookkeeping", "general-ledger", "fintech", "agents"],
   "links": [
-    { "kind": "website", "url": "https://digits.com", "primary": true },
-    { "kind": "pricing", "url": "https://digits.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://digits.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://digits.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "AI-native general ledger with outcome-based pricing — firms pay only when 95%+ of transactions go zero-touch.",
+  "pros": [
+    "AI-native ledger, not bolted-on automation",
+    "Outcome-based pricing for firms",
+    "Clean, modern reporting UI",
+    "Backers include top-tier VCs"
+  ],
+  "cons": [
+    "US-only, multi-currency gaps",
+    "Outcome pricing limited to accounting firms",
+    "Limited customization for complex needs",
+    "Younger ecosystem than QuickBooks/Xero"
+  ],
+  "bestFor": ["Accounting firms", "SMB owners", "Modern startups"],
+  "alternatives": ["puzzle", "ramp", "brex"],
+  "references": [
+    {
+      "title": "Digits Announces Outcome-Based Pricing for Accounting Firms",
+      "url": "https://www.cpapracticeadvisor.com/2026/04/07/digits-announces-outcome-based-pricing-for-accounting-firms/181110/",
+      "source": "CPA Practice Advisor",
+      "kind": "analysis"
+    }
+  ]
 }

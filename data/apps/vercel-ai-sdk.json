@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "The de facto TypeScript AI SDK: provider-agnostic streaming and useChat hooks make swapping LLMs a one-line change.",
+  "pros": [
+    "Provider-agnostic, swap models in one line",
+    "React hooks (useChat) for chat UIs",
+    "Streaming, tool-calling, structured output",
+    "Free and open source",
+    "First-class Next.js integration"
+  ],
+  "cons": [
+    "TypeScript/JS ecosystem only",
+    "Lighter on agent orchestration",
+    "Tied to Vercel's release cadence"
+  ],
+  "bestFor": ["TypeScript apps", "Next.js chat UIs", "Streaming LLM frontends"],
+  "alternatives": ["langchain", "llamaindex", "mastra", "pydantic-ai"]
 }

@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "One of the few clouds serving Llama 405B in native 16-bit precision at 100+ tokens/sec, not a quantized copy.",
+  "pros": [
+    "Full-precision Llama 405B serving",
+    "Hundreds of tokens/sec on RDU chips",
+    "OpenAI-compatible API",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Open-weight catalog only",
+    "No fine-tuning/custom hosting like GPU clouds",
+    "Smaller model selection than rivals"
+  ],
+  "bestFor": ["Fast open-model inference", "Low-latency apps", "Full-precision Llama"],
+  "alternatives": ["groq", "cerebras", "together-ai", "fireworks-ai"]
 }

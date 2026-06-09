@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Write LLM evals as Pytest-style assertions and run them in CI, backed by 50+ metrics across RAG, agents, and safety.",
+  "pros": [
+    "Pytest-style, CI-friendly",
+    "50+ ready metrics",
+    "Open-source, Apache-2.0",
+    "Integrates LangChain/CrewAI/OpenAI"
+  ],
+  "cons": [
+    "LLM-as-judge adds cost",
+    "Dashboards need paid Confident AI",
+    "Judge metrics can be noisy"
+  ],
+  "bestFor": ["CI eval suites", "RAG and agent testing"],
+  "alternatives": ["promptfoo", "ragas", "braintrust", "langsmith"]
 }

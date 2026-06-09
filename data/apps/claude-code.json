@@ -33,5 +33,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Ships the same agent across CLI, IDE, desktop, and web — reads the spec, writes the diff, runs tests, opens the PR.",
+  "pros": [
+    "Same agent across CLI, IDE, desktop, web",
+    "Strong autonomous multi-step coding",
+    "MCP and subagents support",
+    "Runs on API key or Pro/Max plan"
+  ],
+  "cons": [
+    "Anthropic models only",
+    "Token usage can get expensive",
+    "Terminal-first learning curve"
+  ],
+  "bestFor": ["Agentic coding", "Terminal-native devs", "PR automation"],
+  "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"]
 }

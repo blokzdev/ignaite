@@ -40,15 +40,22 @@ For each entry in scope:
   - **Still operating** — not shut down, sunset, or fully absorbed into another product.
   - **`insight` still true** — the editorial one-liner hasn't gone stale (a rename happened, a licence
     flipped, the "only one that…" claim no longer holds). Rewrite it if reality moved.
+  - **`references` resolve** — if present, link-check each third-party reference URL (403 anti-bot OK;
+    404/dead → drop or replace). Confirm an `edge`/`cons` claim hasn't gone stale (a gap the app has
+    since closed, a differentiator a competitor matched).
 - **Backfill:** if an entry is missing `openSource`/`deployment` and the value is verifiable, add it
   (this is how full coverage of those facets completes itself over the weekly cycle). Leave
   `deployment` unset for pure libraries/SDKs/extensions. Likewise, if an entry has no `insight`, author
-  one (≤140 chars, non-obvious, verifiable — see `add-app.md`) so coverage stays at 100%.
+  one (≤140 chars, non-obvious, verifiable — see `add-app.md`) so coverage stays at 100%. **Also backfill
+  the "honest brief" fields** — `edge`, `pros`, `cons`, `bestFor`, `alternatives`, `references` (specs in
+  `add-app.md`) — where research surfaces verifiable content. Same no-fabrication bar: `references` are
+  verify-or-omit (real third-party URLs only); `alternatives` must be existing slugs; never invent a
+  `con` or a differentiator.
 
 ## 2. Apply fixes
 
-- Update changed `pricing`, `platforms`, `modelSupport`, `tags`, `vendor`, or `links` (fix/replace dead
-  URLs).
+- Update changed `pricing`, `platforms`, `modelSupport`, `tags`, `vendor`, `links` (fix/replace dead
+  URLs), or any stale enrichment field (`edge`, `pros`, `cons`, `bestFor`, `alternatives`, `references`).
 - If an app is **discontinued / shut down**, set `status: "archived"` in its JSON (the file stays as
   record, hidden from the default browse) — don't delete the file.
 - If a featured app is no longer a standout, consider dropping `featured`.
@@ -59,8 +66,10 @@ For each entry in scope:
 ## 2.5 Record the change (`changelog`) — only when something actually changed
 
 Whenever you apply a **substantive** edit above (pricing, platforms, modelSupport, links, `openSource`,
-`deployment`, `status`, `insight`, `vendor`, `tags`, `featured`), **append an entry** to that listing's
-`changelog` array — this is the visible audit trail on the app detail page. Shape (schema:
+`deployment`, `status`, `insight`, `vendor`, `tags`, `featured`, or an `edge`/`alternatives` change),
+**append an entry** to that listing's `changelog` array — this is the visible audit trail on the app
+detail page. (A pure first-time backfill of enrichment fields needn't log a changelog entry — it's like
+the initial authoring; only log when you _change_ an existing value or correct one.) Shape (schema:
 `changeEntrySchema` in `lib/apps-schema.ts`):
 
 ```json

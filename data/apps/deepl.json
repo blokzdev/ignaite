@@ -15,10 +15,30 @@
   },
   "tags": ["translation", "documents", "api", "localization"],
   "links": [
-    { "kind": "website", "url": "https://www.deepl.com", "primary": true },
-    { "kind": "docs", "url": "https://developers.deepl.com" },
-    { "kind": "pricing", "url": "https://www.deepl.com/pro" }
+    {
+      "kind": "website",
+      "url": "https://www.deepl.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.deepl.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.deepl.com/pro"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Specialized in-house language models, not a repurposed general LLM, prized for fluent, natural translations.",
+  "pros": [
+    "Fluent, natural output",
+    "Document + API translation",
+    "DeepL Write for editing",
+    "Broad app coverage"
+  ],
+  "cons": ["Next-gen model is paid-only", "Fewer languages than Google", "Not a general assistant"],
+  "bestFor": ["Document translation", "Localization in apps"],
+  "alternatives": ["translated", "smartling", "lokalise", "smartcat"]
 }

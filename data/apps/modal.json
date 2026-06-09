@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Define GPU infra in Python decorators with 2-4s cold starts — no YAML, Dockerfiles, or managed-stack lock-in to YAML.",
+  "pros": [
+    "Python-decorator infra, no YAML/Dockerfiles",
+    "Fast 2-4s cold starts, scale-to-zero",
+    "Scales to hundreds of GPUs",
+    "Free monthly starter credits"
+  ],
+  "cons": [
+    "SDK lock-in; migrating means rewriting",
+    "No managed vLLM/TensorRT setup",
+    "Costs climb under heavy usage",
+    "Billing hard to predict"
+  ],
+  "bestFor": ["Python-first ML teams", "Batch jobs and fine-tuning", "On-demand GPU workloads"],
+  "alternatives": ["baseten", "runpod", "replicate", "beam"]
 }

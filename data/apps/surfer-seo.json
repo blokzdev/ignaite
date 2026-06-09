@@ -11,9 +11,30 @@
   "platforms": ["web"],
   "tags": ["seo", "content-optimization", "serp", "writing", "marketing"],
   "links": [
-    { "kind": "website", "url": "https://surferseo.com", "primary": true },
-    { "kind": "pricing", "url": "https://surferseo.com/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://surferseo.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://surferseo.com/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Scores drafts in real time against the live SERP, so targets track current top-ranking pages, not fixed rules.",
+  "pros": [
+    "Real-time SERP-based Content Score",
+    "Surfer AI drafts full articles",
+    "Google Docs and WordPress integration",
+    "Grow Flow prioritizes SEO tasks"
+  ],
+  "cons": [
+    "No meaningful free tier",
+    "Add-ons inflate the cost",
+    "On-page focus, not technical SEO"
+  ],
+  "bestFor": ["SEO content teams", "Agencies", "On-page optimization"],
+  "alternatives": ["airops", "writer"]
 }

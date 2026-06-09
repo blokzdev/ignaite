@@ -23,5 +23,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Wires a Supabase backend and GitHub sync into every generated app — leans full-stack where v0 stops at UI.",
+  "pros": [
+    "Full-stack apps from a prompt",
+    "Built-in Supabase backend",
+    "GitHub sync + one-click publish",
+    "Fast idea-to-shipped product"
+  ],
+  "cons": [
+    "Can burn credits on complex apps",
+    "Less control than hand-coding",
+    "Opinionated React/Supabase stack"
+  ],
+  "bestFor": ["Full-stack MVPs", "Rapid prototyping", "Non-developers"],
+  "alternatives": ["bolt-new", "v0", "replit", "genspark"]
 }

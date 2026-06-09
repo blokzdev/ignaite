@@ -10,7 +10,27 @@
   "vendor": "Kindroid AI",
   "platforms": ["web", "ios", "android"],
   "tags": ["companion", "roleplay", "memory", "voice"],
-  "links": [{ "kind": "website", "url": "https://kindroid.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kindroid.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Memory-first companion: pin thousands of tokens of Key Memories plus an auto-updating Shared Journal the AI maintains.",
+  "pros": [
+    "Deep customization of look, personality, backstory",
+    "Strong long-term memory and Key Memories",
+    "Voice and video calls plus AI selfies",
+    "Free Lite tier with unlimited basic chat"
+  ],
+  "cons": [
+    "Best features locked behind paid tiers",
+    "Recent price hikes drew user complaints",
+    "Setup rewards effort; not turnkey like Replika"
+  ],
+  "bestFor": ["Memory-first companionship", "Deep roleplay tinkerers"],
+  "alternatives": ["nomi", "character-ai", "replika", "sillytavern"]
 }

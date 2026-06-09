@@ -11,9 +11,30 @@
   "platforms": ["web", "ios", "android", "api"],
   "tags": ["cold-email", "outbound", "deliverability", "sales", "outreach"],
   "links": [
-    { "kind": "website", "url": "https://www.smartlead.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.smartlead.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.smartlead.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.smartlead.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Unlimited mailboxes and auto-warmup at every tier, so cold-email scale is gated by lead volume, not per-mailbox fees.",
+  "pros": [
+    "Unlimited mailboxes on all plans",
+    "Built-in automated warmup",
+    "Unified master inbox for replies",
+    "API and multichannel SmartDialer"
+  ],
+  "cons": [
+    "No free tier, paid-only",
+    "Deliverability still needs setup work",
+    "UI learning curve at scale"
+  ],
+  "bestFor": ["Cold email at scale", "Agencies", "Outbound sales teams"],
+  "alternatives": ["lavender", "clay", "surfer-seo"]
 }

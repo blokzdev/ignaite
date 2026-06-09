@@ -25,5 +25,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Turns offline evals into real-time production guardrails powered by its own cheap Luna eval models, not an LLM judge.",
+  "pros": [
+    "20+ out-of-the-box evals for RAG and agents",
+    "Inline runtime guardrails, not just offline scoring",
+    "Own Luna models keep eval costs low",
+    "Model-agnostic across providers"
+  ],
+  "cons": [
+    "Pricing tiers gate the production guardrails",
+    "Proprietary eval models, not open source",
+    "Heavier setup than a drop-in proxy"
+  ],
+  "bestFor": ["GenAI app teams", "Agent guardrails", "RAG evaluation"],
+  "alternatives": ["arize-phoenix", "langfuse", "braintrust", "honeyhive"]
 }

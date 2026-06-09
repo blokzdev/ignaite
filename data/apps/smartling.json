@@ -15,9 +15,30 @@
   },
   "tags": ["localization", "enterprise", "translation-management", "human-review"],
   "links": [
-    { "kind": "website", "url": "https://www.smartling.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.smartling.com/plans" }
+    {
+      "kind": "website",
+      "url": "https://www.smartling.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.smartling.com/plans"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Tiers content across AI Hub, AI Translation, and AI Human Translation, routing bulk copy to machines and key copy",
+  "pros": [
+    "Enterprise TMS + AI + human network",
+    "Tiered quality routing",
+    "Strong governance and integrations",
+    "In-house translator network"
+  ],
+  "cons": [
+    "Custom enterprise quotes, opaque pricing",
+    "Platform fee plus per-word cost",
+    "Overkill for small teams"
+  ],
+  "bestFor": ["Enterprise localization", "High-volume content", "Regulated industries"],
+  "alternatives": ["smartcat", "lokalise", "deepl", "taia"]
 }

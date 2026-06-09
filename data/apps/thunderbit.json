@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "'AI Suggest Fields' reads a page and proposes columns to extract, so scraping needs no CSS selectors or XPath.",
+  "pros": [
+    "Two-click no-code scraping",
+    "AI suggests fields automatically",
+    "Pagination, subpages, bulk lists",
+    "Exports to Sheets, Airtable, Notion"
+  ],
+  "cons": [
+    "Chrome extension only",
+    "Credit limits on higher volumes",
+    "Less control than code scrapers"
+  ],
+  "bestFor": ["Lead list building", "Price monitoring", "No-code researchers"],
+  "alternatives": ["firecrawl", "apify", "crawl4ai", "scrapegraphai"]
 }

@@ -29,5 +29,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Largest MCP registry (6,000+ servers) with managed OAuth and hosting — authenticated tool access for agents.",
+  "pros": [
+    "6,000+ server registry",
+    "CLI installs without editing JSON",
+    "Managed OAuth + hosted connections",
+    "Deploy your own servers"
+  ],
+  "cons": [
+    "Only the CLI is open-source (AGPL)",
+    "Registry/hosting is a closed platform",
+    "Quality of community servers varies"
+  ],
+  "bestFor": ["MCP discovery", "Hosting MCP servers", "Authenticated tool access"],
+  "alternatives": ["glama", "composio", "fastmcp", "arcade"]
 }

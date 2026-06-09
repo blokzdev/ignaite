@@ -36,5 +36,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Built TypeScript-first on the Vercel AI SDK — far less boilerplate and faster runtime than LangGraph's abstractions.",
+  "pros": [
+    "TypeScript-native, low boilerplate",
+    "Graph workflow engine plus memory and tools",
+    "Apache-2.0 core, self-hostable",
+    "Built-in observability"
+  ],
+  "cons": [
+    "Younger ecosystem, fewer examples",
+    "Small plugin set (~50-60 integrations)",
+    "Workflow chaining unintuitive for complex branching",
+    "TypeScript-only; no Python path"
+  ],
+  "bestFor": ["TypeScript teams", "Agent + workflow apps", "Full-stack JS shops"],
+  "alternatives": ["langgraph", "langchain", "crewai", "vercel-ai-sdk"]
 }

@@ -14,7 +14,35 @@
     "notes": "Conversational AI assistant over the user's connected bank data."
   },
   "tags": ["personal-finance", "budgeting", "consumer", "chatbot", "savings"],
-  "links": [{ "kind": "website", "url": "https://web.meetcleo.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://web.meetcleo.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "A chat-first money app whose AI adopts a sarcastic 'roast me' persona to nudge spending, unlike straight-laced tools.",
+  "pros": [
+    "Engaging chat-first budgeting",
+    "No-interest cash advance (Cleo Cover)",
+    "Automatic Plaid-based categorization",
+    "Roast/Hype modes drive engagement"
+  ],
+  "cons": [
+    "Best features behind $5.99-$14.99/mo plan",
+    "Cash advance capped around $250",
+    "Express funding charges a fee",
+    "2025 $17M FTC settlement over disclosures"
+  ],
+  "bestFor": ["First-time budgeters", "Younger users", "Quick spending check-ins"],
+  "references": [
+    {
+      "title": "Cleo App Review 2026: Is the AI Budgeting Chatbot Worth It?",
+      "url": "https://www.thepennyhoarder.com/budgeting/cleo-app-review/",
+      "source": "The Penny Hoarder",
+      "kind": "review"
+    }
+  ]
 }

@@ -15,9 +15,30 @@
   },
   "tags": ["design", "templates", "generative-ai", "branding", "social-media"],
   "links": [
-    { "kind": "website", "url": "https://www.adobe.com/express/", "primary": true },
-    { "kind": "pricing", "url": "https://www.adobe.com/express/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.adobe.com/express/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.adobe.com/express/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "The templates-and-brand-kit front end to Adobe's licensed-trained Firefly models, bundled with most Creative Cloud",
+  "pros": [
+    "Firefly generative AI is commercially safer",
+    "Thousands of templates and brand kits",
+    "Free tier; included with Creative Cloud",
+    "Web plus iOS and Android apps"
+  ],
+  "cons": [
+    "Lighter than full Creative Cloud apps",
+    "Generative features gated by credits",
+    "Less freeform control than Canva power users want"
+  ],
+  "bestFor": ["Quick social graphics", "Creative Cloud users"],
+  "alternatives": ["canva", "microsoft-designer", "photoroom", "adobe-firefly"]
 }

@@ -30,5 +30,24 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Indexes live on object storage, not RAM, so cost tracks usage not corpus size",
+  "pros": [
+    "Object-storage economics, S3-like billing",
+    "Scales to very large, cold corpora",
+    "No per-namespace minimums",
+    "Proven at Notion production scale"
+  ],
+  "cons": [
+    "Cold reads have higher latency",
+    "Paid-only, no free self-host",
+    "API-only, no managed UI",
+    "Less mature ecosystem than peers"
+  ],
+  "bestFor": [
+    "Very large vector corpora",
+    "Mostly-cold retrieval workloads",
+    "Cost-sensitive scale"
+  ],
+  "alternatives": ["pinecone", "qdrant", "weaviate", "lancedb"]
 }

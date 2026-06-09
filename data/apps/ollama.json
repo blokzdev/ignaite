@@ -33,5 +33,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "The simplest one-command local LLM runner with a drop-in OpenAI-compatible server and broad model library.",
+  "pros": [
+    "One-command pull-and-run",
+    "OpenAI-compatible local API",
+    "Native macOS/Windows/Linux apps",
+    "MIT-licensed, free locally",
+    "Huge open-weight model library"
+  ],
+  "cons": [
+    "Local performance bound by your hardware",
+    "Less tunable than vLLM for serving",
+    "Cloud tier needed for largest models"
+  ],
+  "bestFor": ["Local dev", "Private inference", "Prototyping"],
+  "alternatives": ["lm-studio", "jan", "vllm", "openrouter"]
 }

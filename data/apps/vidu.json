@@ -22,5 +22,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Multi-Entity Consistency: feed 3–7 reference images and it keeps multiple characters/objects consistent across a clip.",
+  "pros": [
+    "Multi-subject reference consistency",
+    "Fast, low-cost generation",
+    "Text-, image- and reference-to-video",
+    "Up to 1080p output"
+  ],
+  "cons": [
+    "Short clip lengths",
+    "Less photoreal than top-tier rivals",
+    "Chinese-origin data-policy concerns",
+    "Smaller ecosystem than Runway/Kling"
+  ],
+  "bestFor": ["Character-consistent shots", "Cheap fast iteration", "Reference-driven video"],
+  "alternatives": ["kling", "runway", "hailuo-ai", "pika"]
 }

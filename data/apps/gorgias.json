@@ -25,5 +25,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Ecommerce-native helpdesk: AI Agent pulls Shopify order/catalog data and is priced per resolution, not per seat.",
+  "pros": [
+    "Deep native Shopify integration",
+    "Order, tracking, catalog beside each ticket",
+    "Multichannel inbox (email, chat, social)",
+    "Unlimited seats, resolution-based pricing"
+  ],
+  "cons": [
+    "AI Agent effectively Shopify-only",
+    "AI charge + ticket can double-bill",
+    "No native voice/telephony",
+    "Deep stack integration needs custom dev"
+  ],
+  "bestFor": ["Shopify DTC brands", "Ecommerce support teams"],
+  "alternatives": ["intercom-fin", "decagon", "forethought", "maven-agi"]
 }

@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "One account spans model weights, datasets, runnable Spaces, and a papers feed — the de facto commons for open AI.",
+  "pros": [
+    "Largest open model + dataset hub",
+    "Runnable Spaces demos, no infra",
+    "Daily papers + community",
+    "Transformers/Diffusers libraries anchor it"
+  ],
+  "cons": [
+    "Hosting/inference quality varies by repo",
+    "Serious inference needs paid Endpoints/GPUs",
+    "Discovery noisy at this scale"
+  ],
+  "bestFor": ["Open-weights builders", "Researchers", "Model/dataset discovery"],
+  "alternatives": ["replicate", "google-ai-studio", "ollama", "modal"]
 }

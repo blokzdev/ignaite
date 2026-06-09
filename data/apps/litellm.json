@@ -32,5 +32,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Translates 100+ providers into one OpenAI-format call — so many other AI tools quietly embed it as their routing layer.",
+  "pros": [
+    "100+ providers, one OpenAI format",
+    "Open source SDK + proxy",
+    "Cost tracking, fallbacks, caching",
+    "Self-host or managed cloud"
+  ],
+  "cons": [
+    "Proxy adds an extra hop",
+    "Enterprise features are paid",
+    "Operational upkeep self-hosted"
+  ],
+  "bestFor": ["Multi-provider routing", "Cost tracking", "LLM gateways"],
+  "alternatives": ["openrouter", "portkey", "vercel-ai-sdk", "ollama"]
 }

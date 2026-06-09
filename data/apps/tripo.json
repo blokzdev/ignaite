@@ -23,5 +23,24 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "One of the fastest image/text-to-3D generators with clean topology options and a generous free tier — speed over polish.",
+  "pros": [
+    "Very fast generation, seconds per model",
+    "Generous free tier",
+    "Image-to-3D and text-to-3D",
+    "Texturing and topology controls",
+    "API access available"
+  ],
+  "cons": [
+    "Output needs cleanup for production",
+    "Complex meshes still imperfect",
+    "Proprietary, closed models"
+  ],
+  "bestFor": [
+    "Fast 3D asset prototyping",
+    "Game/AR placeholder assets",
+    "Solo creators on a budget"
+  ],
+  "alternatives": ["meshy", "rodin", "spline", "marble"]
 }

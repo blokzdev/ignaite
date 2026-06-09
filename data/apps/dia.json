@@ -18,5 +18,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "From the makers of Arc; AI lives in the address bar aware of your open tabs and history, not a bolted-on chatbot.",
+  "pros": [
+    "AI baked into the URL bar",
+    "Tab- and history-aware context",
+    "Reusable 'skills'",
+    "Free tier for light use"
+  ],
+  "cons": [
+    "macOS only",
+    "Closed source",
+    "Pro at $20/mo to lift AI limits",
+    "Young product, evolving feature set"
+  ],
+  "bestFor": ["macOS users", "AI-native browsing", "Arc fans"],
+  "alternatives": ["chatgpt", "perplexity", "monica", "sider"]
 }

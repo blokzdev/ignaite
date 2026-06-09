@@ -27,5 +27,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Coaches via Socratic questioning instead of giving answers, grounded in Khan Academy's vetted K-12 curriculum.",
+  "pros": [
+    "Socratic tutoring, won't just hand answers",
+    "Tied to Khan Academy's content library",
+    "Free for teachers",
+    "Learner plan only $4/month"
+  ],
+  "cons": [
+    "Best inside Khan Academy's ecosystem",
+    "Narrower than general assistants",
+    "Can be slow or over-cautious",
+    "Limited subjects beyond core academics"
+  ],
+  "bestFor": ["K-12 students", "Teachers and lesson prep", "Guided math and science"],
+  "alternatives": ["synthesis-tutor", "studyfetch", "quizlet"]
 }

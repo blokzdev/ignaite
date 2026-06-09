@@ -15,9 +15,29 @@
   },
   "tags": ["daily-planner", "tasks", "calendar", "focus"],
   "links": [
-    { "kind": "website", "url": "https://www.sunsama.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.sunsama.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.sunsama.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.sunsama.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Guided plan-and-shutdown ritual instead of auto-scheduling — calm intentional planning over throughput maximizing.",
+  "pros": [
+    "Pulls tasks from Asana, Jira, Trello, email",
+    "Daily planning + shutdown ritual",
+    "Built-in focus timers and time analytics"
+  ],
+  "cons": [
+    "No free tier, premium-priced",
+    "Manual planning won't suit auto-schedule fans",
+    "Lighter native mobile experience"
+  ],
+  "bestFor": ["Intentional daily planning", "Calm-productivity fans", "Knowledge workers"],
+  "alternatives": ["motion", "reclaim", "taskade"]
 }

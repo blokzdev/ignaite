@@ -32,5 +32,29 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Open-source ChatGPT alternative that runs 100% offline with a bundled model runner",
+  "pros": [
+    "Runs 100% offline, local-first",
+    "Fully open source (Apache-2.0), no paid tier",
+    "Bundled model runner + model hub",
+    "BYO cloud keys when wanted",
+    "Local OpenAI-compatible server"
+  ],
+  "cons": [
+    "More setup friction than LM Studio",
+    "Limited tool-calling vs full agent stacks",
+    "Local model speed bound by your hardware",
+    "Smaller ecosystem than Ollama"
+  ],
+  "bestFor": ["Offline/private chat", "Open-source purists", "Local model tinkering"],
+  "alternatives": ["lm-studio", "ollama", "anythingllm", "librechat"],
+  "references": [
+    {
+      "title": "Jan vs LM Studio vs Ollama: best local AI app",
+      "url": "https://localaimaster.com/blog/jan-vs-lm-studio-vs-ollama",
+      "source": "Local AI Master",
+      "kind": "comparison"
+    }
+  ]
 }

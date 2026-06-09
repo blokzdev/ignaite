@@ -29,5 +29,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Agent-first VS Code fork where agents emit verifiable Artifacts — plans, screenshots, recordings — not just diffs.",
+  "pros": [
+    "Manager view orchestrates parallel agents",
+    "Agents produce verifiable Artifacts",
+    "Spans editor, terminal, and browser",
+    "Launched with Gemini 3, free in preview"
+  ],
+  "cons": [
+    "Public preview — early/unstable",
+    "Closed source",
+    "Ties best into Google's Gemini models",
+    "Smaller ecosystem than Cursor"
+  ],
+  "bestFor": ["Agent-first workflows", "Gemini users", "Verifying agent output"],
+  "alternatives": ["cursor", "windsurf", "kiro", "trae"]
 }

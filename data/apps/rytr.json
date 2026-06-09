@@ -15,9 +15,30 @@
   },
   "tags": ["copywriting", "short-form", "templates", "budget"],
   "links": [
-    { "kind": "website", "url": "https://rytr.me", "primary": true },
-    { "kind": "pricing", "url": "https://rytr.me/#pricing" }
+    {
+      "kind": "website",
+      "url": "https://rytr.me",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://rytr.me/#pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Competes on price — an entry paid tier well under most rivals — trading depth for inexpensive unlimited generation.",
+  "pros": [
+    "Among the cheapest paid tiers",
+    "40+ short-form templates",
+    "Tone matching from a sample",
+    "Built-in grammar/plagiarism checks"
+  ],
+  "cons": [
+    "Shallow on long-form content",
+    "Undisclosed underlying models",
+    "Output needs editing/fact-checking"
+  ],
+  "bestFor": ["Budget copywriting", "Short-form/social content", "AI writing beginners"],
+  "alternatives": ["quillbot", "wordtune", "grammarly"]
 }

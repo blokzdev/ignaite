@@ -15,9 +15,30 @@
   },
   "tags": ["analytics", "business-intelligence", "agent", "natural-language"],
   "links": [
-    { "kind": "website", "url": "https://www.thoughtspot.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.thoughtspot.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.thoughtspot.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.thoughtspot.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Spotter agent shows its reasoning and checks its own work via a semantic layer, aimed at auditable AI answers.",
+  "pros": [
+    "Natural-language search analytics",
+    "Governed answers on live data",
+    "Reasoning-visible Spotter agent",
+    "Embeddable analytics"
+  ],
+  "cons": [
+    "Enterprise pricing, quote-based",
+    "Setup and modeling effort",
+    "Overkill for small teams"
+  ],
+  "bestFor": ["Enterprise BI", "Self-serve analytics", "Governed AI answers"],
+  "alternatives": ["databricks-genie", "hex", "julius", "akkio"]
 }

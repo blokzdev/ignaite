@@ -23,5 +23,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "A real collaborative 3D editor for interactive web scenes first, with AI generation bolted on as an accelerator",
+  "pros": [
+    "Full browser-based 3D editor",
+    "Built for interactive web 3D",
+    "Real-time collaboration",
+    "AI object/texture/animation generation"
+  ],
+  "cons": [
+    "Learning curve for non-designers",
+    "AI generation is secondary to manual editing",
+    "Heavy scenes can tax browsers"
+  ],
+  "bestFor": ["Interactive web 3D", "Product/landing visuals", "Design collaboration"],
+  "alternatives": ["meshy", "rodin", "tripo", "marble"]
 }

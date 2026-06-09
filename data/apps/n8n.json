@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "The self-hostable Zapier alternative with first-class AI/LangChain nodes and per-execution (not per-task) pricing.",
+  "pros": [
+    "Self-hostable, free Community Edition",
+    "500+ integrations",
+    "First-class AI/LangChain nodes",
+    "Per-execution pricing, not per-task",
+    "Code nodes for full control"
+  ],
+  "cons": [
+    "Fair-code license, not OSI open-source",
+    "Self-host carries ops overhead",
+    "Steeper than Zapier for non-technical users"
+  ],
+  "bestFor": ["Technical teams", "Self-hosted automation", "AI workflows"],
+  "alternatives": ["make", "zapier", "activepieces", "pipedream"]
 }

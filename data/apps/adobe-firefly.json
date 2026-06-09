@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Trained only on licensed/public-domain data, so paid generations carry Adobe's IP indemnification",
+  "pros": [
+    "Licensed training data, IP indemnification",
+    "Built into Photoshop and Creative Cloud",
+    "Now integrates partner models for video",
+    "Free monthly credits to start"
+  ],
+  "cons": [
+    "Raw image quality trails Midjourney/FLUX",
+    "Credit-metered generation",
+    "Less community/model variety than open tools"
+  ],
+  "bestFor": ["Commercial/brand-safe work", "Photoshop workflows"],
+  "alternatives": ["midjourney", "ideogram", "flux", "leonardo-ai"]
 }

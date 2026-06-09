@@ -32,5 +32,24 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Solves the hard parts of phone agents — telephony, low-latency turn-taking, barge-in — STT/LLM/TTS stay pluggable.",
+  "pros": [
+    "Telephony and interrupts handled",
+    "Pluggable STT + LLM + TTS stack",
+    "Fast to a working phone agent",
+    "Generous developer free tier"
+  ],
+  "cons": [
+    "Per-minute costs stack across layers",
+    "Latency depends on chosen models",
+    "Complex configuration surface",
+    "Cloud-only orchestration"
+  ],
+  "bestFor": [
+    "Custom voice phone agents",
+    "Developers wanting model choice",
+    "Inbound/outbound call automation"
+  ],
+  "alternatives": ["retell-ai", "bland-ai", "elevenlabs", "cartesia"]
 }

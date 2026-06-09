@@ -15,7 +15,27 @@
     "notes": "Built primarily on Anthropic's Claude."
   },
   "tags": ["legal", "research", "review", "drafting", "enterprise"],
-  "links": [{ "kind": "website", "url": "https://legora.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://legora.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Collaborative legal workspace (formerly Leya) built largely on Claude — positioned as Harvey's main challenger.",
+  "pros": [
+    "Multi-document review + research + drafting",
+    "Collaborative workspace",
+    "Built largely on Anthropic Claude",
+    "Strong enterprise traction"
+  ],
+  "cons": [
+    "Enterprise-only, per-seat pricing",
+    "No transparent public pricing",
+    "Web-only platform"
+  ],
+  "bestFor": ["Law firms", "In-house legal teams", "Complex matters"],
+  "alternatives": ["harvey", "legalon", "spellbook", "luminance"]
 }

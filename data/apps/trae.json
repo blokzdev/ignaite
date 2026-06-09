@@ -31,5 +31,28 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Free VS Code-based IDE that bundles Claude, GPT and Gemini with no API key — undercutting paid AI-IDE rivals on cost.",
+  "pros": [
+    "Frontier models bundled, no API key",
+    "Generous free tier",
+    "VS Code-based, familiar UX",
+    "Autonomous SOLO/Builder agent"
+  ],
+  "cons": [
+    "ByteDance telemetry privacy scrutiny",
+    "Enterprise data-residency concerns",
+    "Younger ecosystem than Cursor",
+    "Usage limits on free tier"
+  ],
+  "bestFor": ["Budget-conscious devs", "VS Code users", "Trying agentic IDEs free"],
+  "alternatives": ["cursor", "windsurf", "github-copilot", "zed"],
+  "references": [
+    {
+      "title": "ByteDance AI IDE Trae telemetry continues even after opt-out",
+      "url": "https://www.theregister.com/2025/07/28/bytedance_trae_telemetry/",
+      "source": "The Register",
+      "kind": "analysis"
+    }
+  ]
 }

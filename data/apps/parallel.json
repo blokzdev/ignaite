@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Built for agents, not humans: bills per request over a proprietary web index tuned for high-signal context.",
+  "pros": [
+    "Per-request pricing, not per-token",
+    "Proprietary web index built for agents",
+    "Search, Task, and Deep Research APIs",
+    "High-signal, low-noise context output"
+  ],
+  "cons": [
+    "API-only; no end-user search app",
+    "Younger index than incumbents",
+    "Proprietary, closed retrieval stack"
+  ],
+  "bestFor": ["Agent web retrieval", "Structured extraction", "Deep research APIs"],
+  "alternatives": ["exa", "tavily", "linkup", "brave-search-api"]
 }

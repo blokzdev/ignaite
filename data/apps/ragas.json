@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Popularized reference-free RAG metrics — faithfulness, context precision",
+  "pros": [
+    "Reference-free RAG metrics",
+    "Open source (Apache-2.0)",
+    "Synthetic test-set generation",
+    "Integrates LangChain, LlamaIndex, CI"
+  ],
+  "cons": [
+    "LLM-judge scores add cost/variance",
+    "Python library, no hosted UI",
+    "Focused on RAG, narrower scope"
+  ],
+  "bestFor": ["RAG evaluation", "Reference-free metrics", "Developers"],
+  "alternatives": ["deepeval", "promptfoo", "braintrust", "langsmith"]
 }

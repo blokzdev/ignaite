@@ -22,5 +22,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Category-defining auto-clipper with a virality score — finds, reframes, and captions highlights from long video.",
+  "pros": [
+    "Strong auto-highlight detection",
+    "Virality scoring on clips",
+    "Auto-reframe keeps speakers centered",
+    "Animated AI captions included"
+  ],
+  "cons": [
+    "Billed per source-minute, not per clip",
+    "Highlight picks need manual review",
+    "Web-only, no mobile app",
+    "Watermark on free tier"
+  ],
+  "bestFor": ["Podcasters", "Long-form repurposing", "Social teams"],
+  "alternatives": ["submagic", "captions"]
 }

@@ -31,5 +31,27 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "The MIT-licensed, self-hostable answer to LangSmith — own your observability data, framework-agnostic.",
+  "pros": [
+    "MIT-licensed, self-hostable",
+    "Framework-agnostic, OTel-native",
+    "Tracing + evals + prompt mgmt",
+    "Transparent unit-based pricing"
+  ],
+  "cons": [
+    "Self-host infra cost at scale",
+    "Less deep LangChain integration",
+    "Setup heavier than hosted-only"
+  ],
+  "bestFor": ["Data-sovereignty teams", "Self-hosted stacks", "Framework-agnostic apps"],
+  "alternatives": ["langsmith", "langwatch", "helicone", "opik"],
+  "references": [
+    {
+      "title": "LLM Observability Tools Compared: LangFuse vs LangSmith vs Opik",
+      "url": "https://bigdataboutique.com/blog/llm-observability-tools-compared-langfuse-vs-langsmith-vs-opik",
+      "source": "BigData Boutique",
+      "kind": "comparison"
+    }
+  ]
 }

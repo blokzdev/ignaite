@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Open-source and self-hostable LLMOps that unifies prompt management, eval, and tracing in one tool on your own infra.",
+  "pros": [
+    "Open source and self-hostable",
+    "Prompt playground plus versioning",
+    "Human and LLM-as-judge evals",
+    "Built-in tracing/observability"
+  ],
+  "cons": [
+    "Smaller ecosystem than incumbents",
+    "Self-hosting needs maintenance",
+    "Less mature than dedicated eval platforms"
+  ],
+  "bestFor": ["Self-hosted LLMOps", "Prompt engineering teams"],
+  "alternatives": ["langfuse", "promptfoo", "braintrust", "athina"]
 }

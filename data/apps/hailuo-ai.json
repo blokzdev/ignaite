@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Strong physics realism (fluids, cloth, hair) on short clips at far lower cost-per-video than Runway.",
+  "pros": [
+    "Realistic motion and physics",
+    "Cheap per video",
+    "Fast generation (under ~90s)",
+    "Free tier with daily credits"
+  ],
+  "cons": [
+    "Short clip-length cap",
+    "Credit system can feel punishing",
+    "Lower max resolution than Kling",
+    "Thin support infrastructure"
+  ],
+  "bestFor": ["Budget social creators", "Short realistic clips"],
+  "alternatives": ["kling", "runway", "pika", "vidu"]
 }

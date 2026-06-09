@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Open-source, Docker-self-hostable browser sandbox unlike most closed agent-browser APIs — run local or in cloud.",
+  "pros": [
+    "Open source, Docker self-host",
+    "Handles sessions/proxies/CAPTCHAs",
+    "Page-to-markdown/screenshot/PDF",
+    "Framework- and model-agnostic"
+  ],
+  "cons": [
+    "Infrastructure, not a full agent",
+    "Managed cloud is metered",
+    "Younger than incumbent scrapers",
+    "Needs an agent framework on top"
+  ],
+  "bestFor": ["Agent builders", "Self-hosted scraping", "Web automation infra"],
+  "alternatives": ["browserbase", "stagehand", "browser-use", "firecrawl"]
 }

@@ -33,5 +33,21 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Hand-written CUDA kernels roughly halve fine-tuning time and VRAM, so 7B–13B models train on a single consumer GPU",
+  "pros": [
+    "~2x faster training, big VRAM savings",
+    "Fits larger models on one GPU",
+    "Open source (Apache-2.0)",
+    "Exports GGUF/Safetensors for llama.cpp/vLLM/Ollama",
+    "Runs free on Colab/Kaggle"
+  ],
+  "cons": [
+    "Multi-GPU speedups are paid tiers",
+    "NVIDIA-centric, CUDA-focused",
+    "Supports a curated model set",
+    "Requires ML fine-tuning know-how"
+  ],
+  "bestFor": ["Single-GPU fine-tuning", "LoRA/QLoRA on a budget", "Local model customization"],
+  "alternatives": ["openpipe", "modal", "runpod"]
 }

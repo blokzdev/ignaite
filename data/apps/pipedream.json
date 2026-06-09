@@ -29,5 +29,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Drop real Node.js or Python into any step over 3,000+ managed integrations",
+  "pros": [
+    "Arbitrary Node.js/Python in any step",
+    "3,000+ integrations with hosted auth",
+    "Connect embeds integrations in your app",
+    "MCP-native: connectors as agent tools"
+  ],
+  "cons": [
+    "Code steps mean a developer audience",
+    "Cloud-hosted; limited self-host",
+    "Usage-based credits can be opaque"
+  ],
+  "bestFor": ["Developers", "API-glue workflows", "Agent tool access"],
+  "alternatives": ["zapier", "make", "n8n", "activepieces"]
 }

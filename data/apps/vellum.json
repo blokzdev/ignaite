@@ -30,5 +30,21 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Pairs a visual workflow builder with a Python SDK and passes model token costs through at cost — LLMOps without markup.",
+  "pros": [
+    "Visual builder plus Python SDK",
+    "Prompt, RAG, eval, monitoring in one",
+    "Token costs passed through at cost",
+    "Non-technical collaborators supported",
+    "Free tier available"
+  ],
+  "cons": [
+    "Cloud-only platform",
+    "Breadth over best-in-class depth",
+    "Seat costs at Pro/Enterprise",
+    "Lock-in to its workflow model"
+  ],
+  "bestFor": ["Cross-functional LLM teams", "Eval-driven shipping", "Visual agent workflows"],
+  "alternatives": ["braintrust", "langsmith", "maxim-ai", "athina"]
 }

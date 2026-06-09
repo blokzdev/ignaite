@@ -22,5 +22,15 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Grounds answers in LexisNexis primary law and runs Shepard's verification to flag AI citations that don't exist.",
+  "pros": [
+    "Grounded in LexisNexis content",
+    "Shepard's citation verification",
+    "Conversational research + drafting",
+    "Secure document vault"
+  ],
+  "cons": ["Expensive, enterprise pricing", "Requires LexisNexis ecosystem", "Web-only"],
+  "bestFor": ["Legal research", "Citation-critical work", "LexisNexis users"],
+  "alternatives": ["cocounsel", "harvey", "legalon", "legora"]
 }

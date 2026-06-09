@@ -21,5 +21,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Cited AI search with dedicated academic (Scholar) and writing modes, grown from a popular web-highlighter.",
+  "pros": [
+    "Cited, fact-checked answers",
+    "Academic + writing modes",
+    "Broad platform + extension coverage",
+    "Multi-model on Pro"
+  ],
+  "cons": [
+    "Best features behind Pro",
+    "Jack-of-trades vs focused tools",
+    "Less depth than specialist research apps"
+  ],
+  "bestFor": ["Students", "Literature review", "Cross-device research"],
+  "alternatives": ["perplexity", "consensus", "scispace", "elicit"]
 }

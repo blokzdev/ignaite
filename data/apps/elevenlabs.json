@@ -32,5 +32,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Set the bar for voice cloning and naturalness — the default TTS, with the widest voice and language coverage.",
+  "pros": [
+    "Best-in-class voice realism",
+    "Voice cloning from seconds of audio",
+    "Dubbing and multilingual support",
+    "Broad SDK and API ecosystem"
+  ],
+  "cons": [
+    "Pricier than commodity TTS at scale",
+    "Cloning raises consent/abuse concerns",
+    "Free tier caps usage tightly",
+    "Latency higher than streaming-first rivals"
+  ],
+  "bestFor": ["Audiobooks and narration", "Dubbing and localization", "Voice agents"],
+  "alternatives": ["cartesia", "deepgram", "speechify", "hume-ai"]
 }

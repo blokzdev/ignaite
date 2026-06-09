@@ -29,5 +29,27 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Tuned for governed, regulated-industry extraction — claims higher accuracy on complex layouts than LlamaParse.",
+  "pros": [
+    "Strong on complex/nested table layouts",
+    "Complexity-based billing avoids overpaying",
+    "Built for regulated, compliance-heavy use",
+    "Single API: parse, split, extract, edit"
+  ],
+  "cons": [
+    "API-only, no app UI",
+    "Pricier than open-source parsers",
+    "Usage-credit pricing adds estimation"
+  ],
+  "bestFor": ["Regulated industries", "RAG pipelines", "Complex PDFs & tables"],
+  "alternatives": ["unstructured", "docling", "chunkr", "nanonets"],
+  "references": [
+    {
+      "title": "Best PDF Parsers for AI and RAG Workflows in 2026",
+      "url": "https://www.firecrawl.dev/blog/best-pdf-parsers",
+      "source": "Firecrawl",
+      "kind": "comparison"
+    }
+  ]
 }

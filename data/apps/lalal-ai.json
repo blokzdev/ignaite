@@ -26,5 +26,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Cleanest isolated-vocal extraction with the widest instrument set (piano, strings, wind) and a production-ready API.",
+  "pros": [
+    "Top-tier isolated vocal cleanliness",
+    "Separates rare stems (piano, strings, wind)",
+    "Reliable consumer API for pipelines",
+    "Web, desktop, iOS, Android, DAW plugin"
+  ],
+  "cons": [
+    "Max-quality burns 2x+ the audio length in minutes",
+    "Credits expire monthly",
+    "Bleed increases in dense chorus sections",
+    "Pay-per-minute model, not flat subscription"
+  ],
+  "bestFor": ["Producers", "Sample isolation", "API audio pipelines"],
+  "alternatives": ["moises", "audioshake", "descript"],
+  "references": [
+    {
+      "title": "AI Stem Separation Tools 2026: LALAL.AI vs Moises vs RipX",
+      "url": "https://www.chartlex.com/blog/marketing/ai-stem-separation-tools-2026",
+      "source": "Chartlex",
+      "kind": "comparison"
+    }
+  ]
 }

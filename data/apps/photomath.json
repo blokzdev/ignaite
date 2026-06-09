@@ -22,5 +22,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Solves from a camera scan of handwritten or printed math, returning the method step-by-step, not just the answer.",
+  "pros": [
+    "Camera scan instead of typed input",
+    "Step-by-step worked solutions",
+    "Covers arithmetic through calculus",
+    "Free tier handles many problems"
+  ],
+  "cons": [
+    "Animated tutorials gated behind Plus",
+    "Mobile only (iOS/Android)",
+    "OCR can misread messy handwriting",
+    "Underlying model details undisclosed"
+  ],
+  "bestFor": ["Students", "Homework help", "Learning math steps"],
+  "alternatives": ["quizlet", "khanmigo", "studyfetch"]
 }

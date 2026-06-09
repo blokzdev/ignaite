@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Durable checkpointed state-graph with human-in-the-loop — long agent runs pause and resume, unlike one-shot chains.",
+  "pros": [
+    "Durable checkpointed state",
+    "Human-in-the-loop steps",
+    "Low-level graph control",
+    "Debuggable long-running agents"
+  ],
+  "cons": [
+    "Steeper learning curve",
+    "More boilerplate than chains",
+    "Tied to LangChain conventions"
+  ],
+  "bestFor": ["Long-running agents", "Stateful workflows", "Human-in-the-loop"],
+  "alternatives": ["langchain", "crewai", "llamaindex", "pydantic-ai"]
 }

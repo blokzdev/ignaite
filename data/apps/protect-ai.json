@@ -15,9 +15,30 @@
   },
   "tags": ["mlsecops", "model-scanning", "ai-supply-chain", "red-teaming"],
   "links": [
-    { "kind": "website", "url": "https://protectai.com", "primary": true },
-    { "kind": "github", "url": "https://github.com/protectai" }
+    {
+      "kind": "website",
+      "url": "https://protectai.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/protectai"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Secures the whole ML supply chain — model scanning for serialization attacks, red teaming, posture, runtime",
+  "pros": [
+    "Covers full AI/ML lifecycle",
+    "Model scanning for serialization attacks",
+    "Stewards OSS ModelScan and NB Defense",
+    "Now part of Palo Alto Prisma AIRS"
+  ],
+  "cons": [
+    "Enterprise, paid-only",
+    "Roadmap folding into Prisma AIRS",
+    "Broad scope, longer to deploy"
+  ],
+  "bestFor": ["ML supply-chain security", "Model scanning", "Enterprises"],
+  "alternatives": ["hiddenlayer", "lakera", "prompt-security", "pangea"]
 }

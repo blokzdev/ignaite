@@ -15,9 +15,31 @@
   },
   "tags": ["notes", "knowledge-management", "second-brain", "search"],
   "links": [
-    { "kind": "website", "url": "https://get.mem.ai", "primary": true },
-    { "kind": "pricing", "url": "https://get.mem.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://get.mem.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://get.mem.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Strongest auto-organization of any AI notes app — you never file anything; AI links and resurfaces it for you.",
+  "pros": [
+    "No manual filing or folders",
+    "Natural-language search that works",
+    "Auto-links related notes",
+    "Fast capture-to-retrieval"
+  ],
+  "cons": [
+    "No free plan; $15/mo",
+    "AI useful only after ~20-50 notes",
+    "Limited offline access and export",
+    "Weaker for structured/team work"
+  ],
+  "bestFor": ["Personal unstructured capture", "Second-brain note-taking", "Anti-folder users"],
+  "alternatives": ["notion-ai", "reflect", "taskade", "mem0"]
 }

@@ -29,5 +29,20 @@
       "kind": "fixed",
       "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
     }
-  ]
+  ],
+  "edge": "One of the longest-running meeting notetakers with cross-meeting AI chat and a bot that auto-joins Zoom/Meet/Teams.",
+  "pros": [
+    "Real-time transcription with speaker ID",
+    "AI chat across meeting history",
+    "Auto-joins major video platforms",
+    "Mobile apps for in-person capture"
+  ],
+  "cons": [
+    "Free tier caps lifetime file imports at 3",
+    "Transcription accuracy varies by audio",
+    "Summaries can miss nuance",
+    "Privacy concerns over auto-join bot"
+  ],
+  "bestFor": ["Recurring meetings", "Lecture/interview notes", "Teams on Zoom/Meet"],
+  "alternatives": ["fireflies", "fathom", "granola", "tldv"]
 }

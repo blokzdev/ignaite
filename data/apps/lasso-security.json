@@ -15,9 +15,30 @@
   },
   "tags": ["llm-security", "shadow-ai", "guardrails", "red-teaming"],
   "links": [
-    { "kind": "website", "url": "https://www.lasso.security", "primary": true },
-    { "kind": "docs", "url": "https://docs.lasso.security" }
+    {
+      "kind": "website",
+      "url": "https://www.lasso.security",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.lasso.security"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Covers the full GenAI security lifecycle — shadow-AI discovery to runtime guardrails — as one product, not bolt-ons.",
+  "pros": [
+    "Shadow-AI discovery for third-party use",
+    "Runtime guardrails + red-teaming",
+    "Gateway, API, or SDK deploy",
+    "Cloud and on-prem coverage"
+  ],
+  "cons": [
+    "Paid, enterprise-oriented",
+    "No transparent public pricing",
+    "Heavier setup than a guard library"
+  ],
+  "bestFor": ["Enterprise GenAI security", "Shadow-AI governance", "LLM red-teaming"],
+  "alternatives": ["lakera", "prompt-security", "protect-ai", "pangea"]
 }

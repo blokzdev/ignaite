@@ -11,9 +11,39 @@
   "platforms": ["web", "ios", "android"],
   "tags": ["companion", "roleplay", "avatar", "consumer"],
   "links": [
-    { "kind": "website", "url": "https://replika.com", "primary": true },
-    { "kind": "pricing", "url": "https://replika.com" }
+    {
+      "kind": "website",
+      "url": "https://replika.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://replika.com"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "One of the oldest consumer AI companions (2017), with the deepest track record on long-term persona and memory.",
+  "pros": [
+    "Long-running, mature companion app",
+    "Persistent avatar and memory",
+    "Free unlimited text chat",
+    "Voice/video calls on Pro"
+  ],
+  "cons": [
+    "Italy fined maker Luka €5M (2025)",
+    "Abruptly cut then restored romantic content (2023)",
+    "Privacy/age-verification scrutiny",
+    "Roleplay shallower than SillyTavern setups"
+  ],
+  "bestFor": ["Casual AI companionship", "Emotional support chat", "Avatar persona"],
+  "alternatives": ["character-ai", "kindroid", "nomi", "pi"],
+  "references": [
+    {
+      "title": "Italy fines AI chatbot maker Replika €5 million over privacy violations",
+      "url": "https://www.pymnts.com/cpi-posts/italy-fines-ai-chatbot-maker-replika-e5-million-over-privacy-violations/",
+      "source": "PYMNTS",
+      "kind": "analysis"
+    }
+  ]
 }

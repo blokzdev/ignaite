@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Parses the DOM into a structured view any LLM can drive — leads open browser agents at ~89% on WebVoyager.",
+  "pros": [
+    "Top open-source WebVoyager score (~89%)",
+    "Model-agnostic, MIT-licensed",
+    "Structured DOM view instead of vision",
+    "Hosted Cloud option for managed sessions"
+  ],
+  "cons": [
+    "Success drops on bot-protected sites",
+    "Vulnerable to indirect prompt injection",
+    "Needs dev skills, not plug-and-play",
+    "Multi-step tasks still need human checks"
+  ],
+  "bestFor": ["Developers", "Web automation agents"],
+  "alternatives": ["browserbase", "skyvern", "stagehand", "steel"]
 }

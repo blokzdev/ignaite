@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Bakes human steps — approvals, input forms, AI-output review — natively into flows, not bolted on like rival tools.",
+  "pros": [
+    "Native human-in-the-loop steps",
+    "Per-step choice of AI provider",
+    "Collaborative team workflows",
+    "Built-in AI extract/classify steps"
+  ],
+  "cons": [
+    "~200 integrations, fewer than Zapier",
+    "Newer/smaller ecosystem",
+    "Web-only, no self-host"
+  ],
+  "bestFor": ["Approval-gated workflows", "Team process automation", "AI-in-the-loop ops"],
+  "alternatives": ["zapier", "make", "gumloop", "lindy"]
 }

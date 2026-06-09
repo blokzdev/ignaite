@@ -25,5 +25,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "A Chrome extension overlaying AI onto Google Docs, Slides, and YouTube — meets teachers in their existing workflow.",
+  "pros": [
+    "Works inside Docs/Slides/YouTube via extension",
+    "Built-in AI-content detection and plagiarism checks",
+    "Generous free tier covers daily grading",
+    "Text-leveler and inspect-writing tools"
+  ],
+  "cons": [
+    "Lighter curriculum tuning than MagicSchool",
+    "Fewer specialized generators",
+    "Chrome-extension-centric",
+    "Less control over plan structure"
+  ],
+  "bestFor": ["Teachers in Google Workspace", "Grading and feedback"],
+  "alternatives": ["magicschool-ai", "khanmigo", "quizlet", "studyfetch"]
 }

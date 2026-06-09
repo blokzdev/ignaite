@@ -24,5 +24,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Veo 3.1 native dialogue + lip-sync in a real timeline (Scenebuilder, clip-extend); the most capable free video tier.",
+  "pros": [
+    "Veo 3.1 quality with native audio/lip-sync",
+    "Realistic physics and camera motion",
+    "Scenebuilder + clip extension editing",
+    "Generous free tier"
+  ],
+  "cons": [
+    "~8-second clip limit per generation",
+    "No custom audio upload",
+    "Locked to Veo, no multi-model switching",
+    "Pro credits deplete quickly"
+  ],
+  "bestFor": ["Narrative AI filmmaking", "Google-ecosystem creators"],
+  "alternatives": ["sora", "kling", "runway", "higgsfield"]
 }

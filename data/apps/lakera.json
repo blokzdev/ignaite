@@ -1,13 +1,13 @@
 {
   "slug": "lakera",
-  "insight": "Its detection models train on adversarial prompts harvested from Gandalf, its viral prompt-injection game; acquired by Cisco in 2025.",
+  "insight": "Its detection models train on adversarial prompts from Gandalf, its viral prompt-injection game — acquired by Check Point in 2025.",
   "name": "Lakera",
   "tagline": "Real-time guardrails against prompt injection and jailbreaks for AI apps.",
-  "description": "Lakera Guard sits between users and LLMs as a low-latency security layer, detecting and blocking direct and indirect prompt injection, jailbreaks, and system-prompt extraction across 100+ languages. Its models are trained on adversarial data from Gandalf, Lakera's prompt-injection game. Acquired by Cisco in 2025.",
+  "description": "Lakera Guard sits between users and LLMs as a low-latency security layer, detecting and blocking direct and indirect prompt injection, jailbreaks, and system-prompt extraction across 100+ languages. Its models are trained on adversarial data from Gandalf, Lakera's prompt-injection game. Acquired by Check Point in 2025.",
   "category": "security",
   "pricing": "freemium",
   "deployment": "hybrid",
-  "vendor": "Lakera (Cisco)",
+  "vendor": "Lakera (Check Point)",
   "platforms": ["api", "web"],
   "modelSupport": {
     "kind": "model-agnostic",
@@ -15,10 +15,41 @@
   },
   "tags": ["prompt-injection", "guardrails", "llm-security", "jailbreak"],
   "links": [
-    { "kind": "website", "url": "https://www.lakera.ai", "primary": true },
-    { "kind": "docs", "url": "https://docs.lakera.ai/guard" },
-    { "kind": "demo", "url": "https://gandalf.lakera.ai" }
+    {
+      "kind": "website",
+      "url": "https://www.lakera.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.lakera.ai/guard"
+    },
+    {
+      "kind": "demo",
+      "url": "https://gandalf.lakera.ai"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "changelog": [
+    {
+      "date": "2026-06-09",
+      "kind": "fixed",
+      "summary": "Corrected acquirer — Lakera was acquired by Check Point in 2025, not Cisco (that was Robust Intelligence)."
+    }
+  ],
+  "edge": "Detection models trained on 80M+ real adversarial prompts from its viral Gandalf game; sub-50ms inline latency.",
+  "pros": [
+    "Trained on millions of real attack prompts",
+    "Low sub-50ms latency, inline-friendly",
+    "Covers injection, jailbreaks, PII, data loss",
+    "Model-agnostic API in front of any LLM"
+  ],
+  "cons": [
+    "Behavioral detection risks false positives",
+    "Core product is closed source",
+    "Enterprise pricing quoted by sales"
+  ],
+  "bestFor": ["LLM app security teams", "GenAI guardrails", "Prompt-injection defense"],
+  "alternatives": ["prompt-security", "protect-ai", "pangea", "hiddenlayer"]
 }

@@ -22,5 +22,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Runs automations inside your logged-in browser tabs, reaching sites and CRMs that expose no API",
+  "pros": [
+    "Automates any site you can open in-browser",
+    "Faster setup than Zapier/Make",
+    "Generous free plan with scraping",
+    "Plain-English playbook builder"
+  ],
+  "cons": [
+    "Chrome-only; no Firefox/Safari/mobile",
+    "Flaky on JS-heavy / anti-bot sites",
+    "AI actions burn credits; billing surprises",
+    "LinkedIn automation in ToS grey area"
+  ],
+  "bestFor": ["Lead scraping & enrichment", "GTM/sales workflows", "No-code browser automation"],
+  "alternatives": ["gumloop", "zapier", "make", "skyvern"],
+  "references": [
+    {
+      "title": "Bardeen AI Reviews in 2026: The Best Automation Tool?",
+      "url": "https://reply.io/blog/bardeen-ai-review/",
+      "source": "Reply.io",
+      "kind": "review"
+    }
+  ]
 }

@@ -23,5 +23,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Pairs its huge flashcard library with Q-Chat, a Socratic AI tutor that quizzes you toward answers instead of just",
+  "pros": [
+    "Massive flashcard/study-set library",
+    "Q-Chat Socratic AI tutor",
+    "Learning games keep practice engaging",
+    "Usable free tier"
+  ],
+  "cons": [
+    "Daily learning-round caps on free tier",
+    "AI tutoring gated to Quizlet Plus",
+    "User-made sets vary in quality"
+  ],
+  "bestFor": ["Students", "Flashcard study", "Exam prep"],
+  "alternatives": ["studyfetch", "khanmigo", "photomath", "synthesis-tutor"]
 }

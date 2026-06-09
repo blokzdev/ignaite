@@ -30,5 +30,14 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Free Pro-tier reviews for all public/OSS repos with no seat limits, billing paid teams by agent-minute not per PR.",
+  "pros": [
+    "Free for public and open-source repos",
+    "Reviews in PR, IDE, and CLI",
+    "Bundles linters and SAST"
+  ],
+  "cons": ["Can be noisy on large PRs", "Cloud-only by default", "Closed source"],
+  "bestFor": ["Open-source teams", "GitHub/GitLab PR review"],
+  "alternatives": ["qodo", "snyk", "devin"]
 }

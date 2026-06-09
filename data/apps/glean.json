@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Permission-aware knowledge graph over 100+ apps that no-code agents can act on, not just search.",
+  "pros": [
+    "Indexes 100+ enterprise apps",
+    "Enforces each user's existing permissions",
+    "No-code custom agents",
+    "Strong onboarding/knowledge ROI"
+  ],
+  "cons": [
+    "Opaque, sales-only enterprise pricing",
+    "High seat minimums (~100 users)",
+    "IT-heavy to deploy and maintain",
+    "Limited to supported connectors"
+  ],
+  "bestFor": ["Large enterprises (1000+)", "Internal knowledge search"],
+  "alternatives": ["onyx", "glama"]
 }

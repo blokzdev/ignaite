@@ -26,5 +26,27 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Built browser-first, not a chatbot bolted on — one sub puts Claude, GPT, and Gemini in a side panel on any tab.",
+  "pros": [
+    "Multi-model (Claude, GPT, Gemini) in one plan",
+    "Among most-installed browser AI assistants",
+    "Side-panel UX tuned for web pages and PDFs",
+    "Works across Chrome, Edge, and more"
+  ],
+  "cons": [
+    "Closed source",
+    "Heavy users hit message/credit limits",
+    "Less media generation than Monica"
+  ],
+  "bestFor": ["Daily in-browser AI", "Article and PDF chat", "Multi-model on a budget"],
+  "alternatives": ["monica", "merlin-ai", "maxai", "harpa-ai"],
+  "references": [
+    {
+      "title": "Monica vs Sider vs Merlin AI - Which AI App is the Best?",
+      "url": "https://tooltivity.com/extensions/compare/monica-chatgpt-ai-assistant-vs-sider-chatgpt-sidebar-vs-merlin-ask-ai-to-research-write-and-review",
+      "source": "Tooltivity",
+      "kind": "comparison"
+    }
+  ]
 }

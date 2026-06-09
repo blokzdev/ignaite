@@ -28,5 +28,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Hands the model a real local shell — Python, JS, bash — gated by per-command approval, and can run fully offline.",
+  "pros": [
+    "Executes code on your own machine",
+    "Per-command approval gating",
+    "Runs fully local via Ollama/LM Studio/Jan",
+    "Open source (AGPL), BYO model"
+  ],
+  "cons": [
+    "Running code locally carries risk",
+    "BYO model: key or local setup needed",
+    "Less polished than hosted agents"
+  ],
+  "bestFor": ["Local automation", "Privacy-first scripting", "Tinkerers"],
+  "alternatives": ["goose", "cline", "aider", "openai-codex"]
 }

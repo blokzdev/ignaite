@@ -32,5 +32,24 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "AGPL second brain that lives inside Obsidian, Emacs, desktop and mobile — self-host over your own notes and the web.",
+  "pros": [
+    "Open source (AGPL-3.0), self-hostable",
+    "Plugins for Obsidian, Emacs, desktop, mobile",
+    "Searches local docs plus the web",
+    "Custom agents and scheduled automations"
+  ],
+  "cons": [
+    "Self-hosting takes setup effort",
+    "AGPL license can deter commercial use",
+    "Smaller team than big assistants",
+    "Cloud tier needed for zero-setup use"
+  ],
+  "bestFor": [
+    "Obsidian/Emacs note-takers",
+    "Privacy-minded self-hosters",
+    "Personal knowledge search"
+  ],
+  "alternatives": ["anythingllm", "notebooklm", "librechat"]
 }

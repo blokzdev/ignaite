@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Multimodal, graph-native context layer: ingests docs/audio/video into a linked entity graph plus stateful memory.",
+  "pros": [
+    "One API for ingest, extract, store, retrieve",
+    "Multimodal (docs, audio, video, images)",
+    "Graph-based entity linking + hybrid search",
+    "Event-driven webhooks for reactive agents"
+  ],
+  "cons": [
+    "More infra/overhead than plain RAG",
+    "Overkill for simple doc Q&A",
+    "Cloud-only managed service",
+    "Graph/timeline modeling adds complexity"
+  ],
+  "bestFor": ["Multimodal agent context", "Long-lived stateful agents"],
+  "alternatives": ["supermemory", "cognee", "mem0", "zep"]
 }

@@ -23,5 +23,15 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Competes on shareable, playful effects (Pikaffects) and fast iteration rather than the photoreal fidelity Veo and Sora",
+  "pros": [
+    "Signature Pikaffects for fun clips",
+    "Fast, cheap iteration",
+    "Character ingredients feature",
+    "Strong social-native community"
+  ],
+  "cons": ["Less photoreal than Veo/Sora/Kling", "Short clip lengths", "Web and iOS only"],
+  "bestFor": ["Social video", "Playful effects", "Quick edits"],
+  "alternatives": ["kling", "runway", "pixverse", "luma-dream-machine"]
 }

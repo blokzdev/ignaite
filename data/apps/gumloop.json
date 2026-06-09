@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "AI-native canvas where agents and workflows call each other, plus MCP integrations built from a prompt.",
+  "pros": [
+    "AI-first node-graph builder",
+    "Agents can call workflows and self-correct",
+    "Build MCP integrations via natural language",
+    "No-code, fast to prototype"
+  ],
+  "cons": [
+    "~100 integrations vs Zapier's thousands",
+    "Ecosystem still maturing",
+    "Less mature error handling than Make"
+  ],
+  "bestFor": ["Growth teams", "AI-heavy automations"],
+  "alternatives": ["zapier", "make", "n8n", "lindy"]
 }

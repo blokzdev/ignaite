@@ -11,9 +11,31 @@
   "platforms": ["web"],
   "tags": ["ai-seo", "geo", "content", "citations", "share-of-voice"],
   "links": [
-    { "kind": "website", "url": "https://www.airops.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.airops.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.airops.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.airops.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Pairs AI-answer-engine citation tracking with a content agent that drafts to close the visibility gaps it finds.",
+  "pros": [
+    "Tracks citations across ChatGPT/Claude/Perplexity/Gemini",
+    "Content agent (Quill) drafts to brand",
+    "Share-of-voice across answer engines",
+    "Built for content scale"
+  ],
+  "cons": [
+    "Paid only, no free tier",
+    "Pricing opacity at higher tiers",
+    "Newer GEO category, metrics still maturing",
+    "Overkill for small content teams"
+  ],
+  "bestFor": ["Marketing teams", "AI-search (GEO) visibility", "Content at scale"],
+  "alternatives": ["surfer-seo", "clay"]
 }

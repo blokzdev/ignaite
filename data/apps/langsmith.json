@@ -30,5 +30,27 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Deepest native LangChain/LangGraph tracing — but cloud-only, where Langfuse lets you self-host the same.",
+  "pros": [
+    "Deep LangChain/LangGraph integration",
+    "Works standalone via SDKs",
+    "Datasets + eval orchestration",
+    "Prompt playground built in"
+  ],
+  "cons": [
+    "Closed source, cloud-only",
+    "Self-host is Enterprise-only",
+    "Best value inside LangChain stack"
+  ],
+  "bestFor": ["LangChain shops", "Hosted observability", "Eval orchestration"],
+  "alternatives": ["langfuse", "langwatch", "langtrace", "helicone"],
+  "references": [
+    {
+      "title": "Langfuse vs LangSmith: Which Observability Platform Fits Your LLM Stack?",
+      "url": "https://www.zenml.io/blog/langfuse-vs-langsmith",
+      "source": "ZenML",
+      "kind": "comparison"
+    }
+  ]
 }

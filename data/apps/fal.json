@@ -32,5 +32,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Specializes in generative-media latency — FLUX, Kling, Veo and 600+ media models — where general hosts focus on text.",
+  "pros": [
+    "600+ generative-media models",
+    "Fast serverless, near-zero cold starts",
+    "Pay per output or GPU-second",
+    "Free starter credits"
+  ],
+  "cons": [
+    "Media-focused, not a general LLM host",
+    "Usage pricing scales with output volume",
+    "Less control than self-managed GPUs"
+  ],
+  "bestFor": ["AI media features", "Image/video generation", "Production media backends"],
+  "alternatives": ["replicate", "modal", "baseten", "runpod"]
 }

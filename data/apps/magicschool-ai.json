@@ -25,5 +25,28 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "The broadest teacher toolset (80+ tools) with strong IEP and differentiation, plus district admin/SSO controls.",
+  "pros": [
+    "80+ teacher tools",
+    "Strong IEP and differentiation",
+    "Separate governed student tools",
+    "District admin dashboards and SSO"
+  ],
+  "cons": [
+    "Free tier limited for daily use",
+    "Plus needed for most teachers",
+    "Learning curve for newcomers",
+    "Built to sell to districts"
+  ],
+  "bestFor": ["K-12 teachers", "Lesson and quiz prep", "Districts needing SSO"],
+  "alternatives": ["khanmigo", "brisk-teaching", "quizlet", "studyfetch"],
+  "references": [
+    {
+      "title": "Khanmigo vs. MagicSchool vs. ChatGPT",
+      "url": "https://www.integratedteacher.com/blog/khanmigo-vs-magicschool-vs-chatgpt",
+      "source": "IntegratED Teacher",
+      "kind": "comparison"
+    }
+  ]
 }

@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "On-device noise cancellation as a virtual mic works across 800+ apps without a meeting bot",
+  "pros": [
+    "Best-in-class real-time noise removal",
+    "Runs locally on-device for privacy",
+    "Bidirectional suppression (mic and speaker)",
+    "Works across any app via virtual device"
+  ],
+  "cons": [
+    "Transcription covers ~16 languages only",
+    "No cross-meeting analytics or trends",
+    "Some report device auto-switching glitches"
+  ],
+  "bestFor": ["Noisy-environment calls", "Privacy-first audio"],
+  "alternatives": ["otter-ai", "fireflies", "tldv", "adobe-podcast"]
 }

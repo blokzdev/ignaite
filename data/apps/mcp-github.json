@@ -26,5 +26,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "GitHub's first-party MCP — exposes PRs, issues, and even secret-scanning, gated by GitHub's native permission model.",
+  "pros": [
+    "Official, wired into most agent surfaces",
+    "Read/write PRs, issues, branches",
+    "Includes secret-scanning tools",
+    "Honors GitHub permissions and OAuth scopes"
+  ],
+  "cons": [
+    "Subject to GitHub API rate limits",
+    "Can't initiate a review from scratch",
+    "PAT scope tuning needed to expose tools",
+    "Inherits any over-broad token's reach"
+  ],
+  "bestFor": ["Agentic PR and issue workflows", "Repo code navigation", "Security triage"],
+  "alternatives": ["composio", "smithery", "playwright-mcp", "mcp-supabase"]
 }

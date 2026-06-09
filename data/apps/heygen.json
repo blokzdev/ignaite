@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Lip-synced video translation with voice cloning across 175+ languages keeps the speaker's own voice in every dub.",
+  "pros": [
+    "Highly realistic Avatar IV presenters",
+    "175+ languages with voice cloning",
+    "Strong video-translation/dubbing",
+    "Avatar from a photo + script"
+  ],
+  "cons": [
+    "Avatar IV burns credits fast",
+    "Collaboration/brand controls feel bolted on",
+    "No native approval workflow",
+    "Outputs can look templated at volume"
+  ],
+  "bestFor": ["Multi-language video", "Marketing/training video"],
+  "alternatives": ["synthesia", "hedra", "tavus", "captions"]
 }

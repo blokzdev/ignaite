@@ -11,9 +11,38 @@
   "platforms": ["web", "ios", "android"],
   "tags": ["meeting-notes", "action-items", "automation", "transcription", "crm"],
   "links": [
-    { "kind": "website", "url": "https://circleback.ai", "primary": true },
-    { "kind": "pricing", "url": "https://circleback.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://circleback.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://circleback.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "A native automation builder fires cross-app workflows from meeting content — CRM, action items, Slack — without Zapier.",
+  "pros": [
+    "Built-in cross-app automations (no Zapier)",
+    "Works for virtual, in-person, and async",
+    "100+ languages with speaker ID",
+    "20+ integrations (Slack, HubSpot, Linear)"
+  ],
+  "cons": [
+    "No free-forever tier like Fathom",
+    "Less brand recognition than rivals",
+    "Notes quality leans on automation setup"
+  ],
+  "bestFor": ["Action-item automation", "Cross-tool meeting workflows"],
+  "alternatives": ["granola", "fathom", "fireflies", "otter-ai"],
+  "references": [
+    {
+      "title": "Best AI Meeting Note-Takers in 2026: I Tested 14 Over 90 Days",
+      "url": "https://justtalkingtech.medium.com/best-ai-meeting-note-takers-in-2026-i-tested-14-over-90-days-heres-the-honest-ranking-a7ea13fb8b47",
+      "source": "Medium",
+      "kind": "review"
+    }
+  ]
 }

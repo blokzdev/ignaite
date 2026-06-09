@@ -22,5 +22,20 @@
   ],
   "addedAt": "2026-05-13",
   "lastVerifiedAt": "2026-06-01",
-  "status": "archived"
+  "status": "archived",
+  "edge": "Pulls build and runtime logs into agent context, so the AI diagnoses deploy failures without opening the dashboard.",
+  "pros": [
+    "Deploy and inspect from chat",
+    "Build- and runtime-log retrieval",
+    "Official hosted Vercel MCP",
+    "Strong for build-failure diagnosis"
+  ],
+  "cons": [
+    "Useful mainly to Vercel users",
+    "Community github.com/vercel/mcp URL retired",
+    "Permissions/data access need review",
+    "Scope limited to Vercel platform"
+  ],
+  "bestFor": ["Vercel deployers", "AI-assisted deploy monitoring", "Runtime log querying"],
+  "alternatives": ["mcp-github", "mcp-supabase", "composio", "smithery"]
 }

@@ -15,9 +15,30 @@
   },
   "tags": ["accounting", "startups", "bookkeeping", "general-ledger", "fintech"],
   "links": [
-    { "kind": "website", "url": "https://puzzle.io", "primary": true },
-    { "kind": "pricing", "url": "https://puzzle.io/pricing" }
+    {
+      "kind": "website",
+      "url": "https://puzzle.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://puzzle.io/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "AI-native general ledger that auto-categorizes up to 98% of transactions, so burn and runway update in real time.",
+  "pros": [
+    "AI-native ledger, built from scratch",
+    "Auto-categorizes up to 98% of txns",
+    "Real-time burn and runway",
+    "Syncs Stripe, Mercury, Ramp, Brex"
+  ],
+  "cons": [
+    "Startup-focused, narrow segment",
+    "Newer than incumbent accounting tools",
+    "Still needs an accountant for filings"
+  ],
+  "bestFor": ["Startups", "Real-time burn tracking", "Their accountants"],
+  "alternatives": ["digits", "ramp", "brex"]
 }

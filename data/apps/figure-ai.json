@@ -16,9 +16,30 @@
   },
   "tags": ["humanoid", "vla", "embodied-ai", "helix"],
   "links": [
-    { "kind": "website", "url": "https://www.figure.ai", "primary": true },
-    { "kind": "video", "url": "https://www.figure.ai/helix" }
+    {
+      "kind": "website",
+      "url": "https://www.figure.ai",
+      "primary": true
+    },
+    {
+      "kind": "video",
+      "url": "https://www.figure.ai/helix"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Runs Helix, an in-house vision-language-action model, after exiting an OpenAI deal to own its full AI stack end-to-end.",
+  "pros": [
+    "Proprietary Helix VLA model",
+    "Full-stack hardware + AI",
+    "Real pilots (BMW manufacturing)",
+    "Figure 03 targets the home"
+  ],
+  "cons": [
+    "Not a buyable product yet",
+    "Capital-intensive, long timelines",
+    "General-purpose autonomy unproven at scale"
+  ],
+  "bestFor": ["Industrial automation", "Humanoid research", "Manufacturing pilots"],
+  "alternatives": ["1x", "sanctuary-ai", "physical-intelligence", "skild-ai"]
 }

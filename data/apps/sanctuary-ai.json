@@ -16,9 +16,38 @@
   },
   "tags": ["humanoid", "general-purpose-robot", "embodied-ai", "carbon"],
   "links": [
-    { "kind": "website", "url": "https://www.sanctuary.ai", "primary": true },
-    { "kind": "docs", "url": "https://www.sanctuary.ai/technology" }
+    {
+      "kind": "website",
+      "url": "https://www.sanctuary.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.sanctuary.ai/technology"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Carbon's hybrid stack — symbolic reasoning plus LLMs and RL — cuts Phoenix task onboarding to under 24 hours.",
+  "pros": [
+    "Highly dexterous hands",
+    "Hybrid Carbon control system",
+    "New tasks taught in under a day",
+    "Explainable reasoning layer"
+  ],
+  "cons": [
+    "Not generally available; enterprise/pilot",
+    "Narrow deployed task range so far",
+    "Capital-intensive hardware"
+  ],
+  "bestFor": ["Industrial automation", "Dexterous manipulation", "Humanoid R&D"],
+  "alternatives": ["figure-ai", "1x", "physical-intelligence", "skild-ai"],
+  "references": [
+    {
+      "title": "Sanctuary AI's latest Phoenix humanoid can learn tasks in 24 hours",
+      "url": "https://www.therobotreport.com/sanctuary-ai-latest-phoenix-humanoid-can-learn-tasks-in-24-hours/",
+      "source": "The Robot Report",
+      "kind": "analysis"
+    }
+  ]
 }

@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Formerly Danswer — MIT-core enterprise search/RAG over your own apps, self-hosted, optional features under open-core.",
+  "pros": [
+    "Self-hosted, data stays on your infra",
+    "Connects to company docs and apps",
+    "Works with any LLM, incl. local",
+    "MIT core, free"
+  ],
+  "cons": [
+    "Some features under separate license",
+    "Self-host ops overhead",
+    "Connectors need configuration"
+  ],
+  "bestFor": ["Self-hosted enterprise search", "Privacy-sensitive RAG", "Internal knowledge Q&A"],
+  "alternatives": ["glean", "anythingllm", "librechat", "khoj"]
 }

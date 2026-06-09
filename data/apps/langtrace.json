@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Pure OpenTelemetry spans, so LLM traces export to any OTel backend (Grafana, Datadog) instead of a locked-in dashboard.",
+  "pros": [
+    "Standard OpenTelemetry spans",
+    "Two-line SDK instrumentation",
+    "Open source + self-hostable",
+    "Exports to any OTel backend"
+  ],
+  "cons": [
+    "Smaller team and ecosystem",
+    "Fewer features than LangSmith",
+    "Dashboard less polished"
+  ],
+  "bestFor": ["OTel-standard stacks", "Existing observability backends", "Self-hosted teams"],
+  "alternatives": ["langfuse", "helicone", "opik", "langwatch"]
 }

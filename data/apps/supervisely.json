@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Extensible 'OS for computer vision' — an app ecosystem spans labeling, training, and inference across images, video, 3D.",
+  "pros": [
+    "Images, video, 3D point cloud, DICOM",
+    "AI-assisted labeling",
+    "Installable app ecosystem",
+    "Free tier and self-hostable Enterprise"
+  ],
+  "cons": [
+    "Broad platform has a learning curve",
+    "Enterprise pricing is quote-based",
+    "Heavier than a pure labeling tool"
+  ],
+  "bestFor": ["End-to-end CV teams", "3D/medical imaging", "Self-hosted labeling"],
+  "alternatives": ["roboflow", "encord", "label-studio", "voxel51"]
 }

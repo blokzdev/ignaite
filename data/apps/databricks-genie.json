@@ -15,8 +15,26 @@
   },
   "tags": ["analytics", "lakehouse", "nl-to-sql", "governed-bi"],
   "links": [
-    { "kind": "website", "url": "https://www.databricks.com/product/genie/spaces", "primary": true }
+    {
+      "kind": "website",
+      "url": "https://www.databricks.com/product/genie/spaces",
+      "primary": true
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "No separate license fee; rides the lakehouse and inherits Unity Catalog permissions so answers stay governed.",
+  "pros": [
+    "Inherits Unity Catalog governance",
+    "No separate license fee",
+    "Returns SQL, charts, and explanations",
+    "Native to Databricks"
+  ],
+  "cons": [
+    "Locked to the Databricks platform",
+    "Billed via compute (DBUs)",
+    "Accuracy depends on data modeling"
+  ],
+  "bestFor": ["Databricks customers", "Governed self-serve BI"],
+  "alternatives": ["thoughtspot", "hex", "julius", "akkio"]
 }

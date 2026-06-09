@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "The de-facto open-source real-time vision stack: YOLO11 does detection, segmentation, pose and tracking from one pip",
+  "pros": [
+    "Real-time inference on edge and GPU",
+    "One API for detect/segment/pose/track",
+    "Large community + many pretrained models",
+    "Self-hostable, runs fully offline"
+  ],
+  "cons": [
+    "AGPL-3.0 — commercial use needs a paid license",
+    "Training larger models needs real GPUs",
+    "Docs sprawl across YOLO versions"
+  ],
+  "bestFor": ["Real-time object detection", "Edge vision apps", "CV prototyping"],
+  "alternatives": ["roboflow", "encord", "voxel51", "supervisely"]
 }

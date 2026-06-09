@@ -34,5 +34,20 @@
       "kind": "fixed",
       "summary": "Recategorized from audio to the new dedicated music-generation category."
     }
-  ]
+  ],
+  "edge": "The production-leaning half of the music-gen duopoly",
+  "pros": [
+    "High audio/production quality",
+    "Fine-grained style control",
+    "Strong vocal generation",
+    "Free tier to try"
+  ],
+  "cons": [
+    "Smaller free credits than rivals",
+    "Copyright/training-data scrutiny",
+    "No public API",
+    "Web/iOS only"
+  ],
+  "bestFor": ["Music producers", "Polished full songs", "Vocal-forward tracks"],
+  "alternatives": ["suno", "riffusion", "mureka", "sonauto"]
 }

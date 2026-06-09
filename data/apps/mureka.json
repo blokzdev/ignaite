@@ -29,5 +29,19 @@
       "kind": "fixed",
       "summary": "Recategorized from audio to the new dedicated music-generation category."
     }
-  ]
+  ],
+  "edge": "Runs its own Mureka O1 ‘music reasoning’ model — chain-of-thought composition plus a developer API.",
+  "pros": [
+    "In-house O1 reasoning and V6 models",
+    "Stem export and voice cloning",
+    "Developer API, not just a web app",
+    "Multi-language song generation"
+  ],
+  "cons": [
+    "Free tier has tight generation limits",
+    "Commercial licensing only on paid tiers",
+    "Output quality lags Suno/Udio at top end"
+  ],
+  "bestFor": ["Songwriters", "API-driven music apps", "Multilingual vocals"],
+  "alternatives": ["suno", "udio", "soundraw", "riffusion"]
 }

@@ -10,7 +10,18 @@
   "vendor": "Dataing",
   "platforms": ["web", "ios", "macos"],
   "tags": ["dating", "matchmaking", "ai-matchmaker", "consumer"],
-  "links": [{ "kind": "website", "url": "https://dataing.io", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://dataing.io",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "AI matchmaker with no profiles or swiping, inferring preferences from connected social data instead of forms.",
+  "pros": ["No profiles or swiping", "AI-inferred compatibility", "Marketed as free"],
+  "cons": ["Requires social-account access", "Privacy tradeoff", "Small, unproven user base"],
+  "bestFor": ["Dating without swiping"],
+  "alternatives": ["pi", "replika", "kindroid"]
 }

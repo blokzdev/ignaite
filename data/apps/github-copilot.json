@@ -31,5 +31,27 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Deepest IDE + GitHub-native reach — runs in VS Code, JetBrains, Visual Studio, CLI, and ships a cloud agent that opens",
+  "pros": [
+    "Works across most major IDEs",
+    "GitHub-native PR/agent workflow",
+    "Model picker spans Anthropic/OpenAI/Google",
+    "Free tier for light use"
+  ],
+  "cons": [
+    "Usage-based AI-credit billing can surprise",
+    "Agent quality trails dedicated tools",
+    "Closed source"
+  ],
+  "bestFor": ["GitHub-centric teams", "Multi-IDE shops", "In-editor completions"],
+  "alternatives": ["cursor", "windsurf", "claude-code", "tabnine"],
+  "references": [
+    {
+      "title": "GitHub Copilot",
+      "url": "https://en.wikipedia.org/wiki/GitHub_Copilot",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
 }

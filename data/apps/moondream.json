@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "One of the smallest open VLMs that still points, counts, and detects — a 0.5B checkpoint runs on-device.",
+  "pros": [
+    "Tiny open-weights models (down to 0.5B)",
+    "Runs on-device with Photon engine",
+    "Does pointing, counting, detection",
+    "OpenAI-compatible cloud API option"
+  ],
+  "cons": [
+    "Small models trail frontier VLMs on hard tasks",
+    "Narrower than large multimodal LLMs",
+    "Cloud tier is pay-per-image"
+  ],
+  "bestFor": ["On-device vision", "Edge and embedded apps", "Cost-sensitive VQA"],
+  "alternatives": ["roboflow", "landing-ai", "twelve-labs"]
 }

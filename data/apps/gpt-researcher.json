@@ -31,5 +31,21 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Open-source deep research you fully own: any LLM, any search backend, runnable as a library or MCP server.",
+  "pros": [
+    "Apache-2.0, free to self-host",
+    "Works with any LLM and search engine",
+    "Cited, long-form reports in minutes",
+    "Runs as library, API, or MCP server",
+    "Large active community"
+  ],
+  "cons": [
+    "Setup complexity for beginners",
+    "You pay your own LLM + search costs",
+    "Needs prompt tuning for niche domains",
+    "Basic built-in analytics"
+  ],
+  "bestFor": ["Self-hosted research", "Building research agents"],
+  "alternatives": ["consensus", "elicit", "khoj", "perplexity"]
 }

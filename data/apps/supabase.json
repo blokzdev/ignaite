@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Plain Postgres as the backend — open source and self-hostable, so no proprietary data lock-in.",
+  "pros": [
+    "Built on standard Postgres, no lock-in",
+    "Auth, storage, realtime, edge funcs bundled",
+    "Open source and self-hostable",
+    "Generous free tier and fast local dev"
+  ],
+  "cons": [
+    "Postgres knowledge needed for advanced use",
+    "Self-hosting full stack is involved",
+    "Smaller ecosystem than Firebase"
+  ],
+  "bestFor": ["Postgres-first apps", "AI app backends", "Self-hosted teams"],
+  "alternatives": ["vercel", "cloudflare", "pgvector"]
 }

@@ -35,5 +35,20 @@
       "asOf": "2025-03-01",
       "source": "https://github.com/karpathy/arxiv-sanity-lite/issues/23"
     }
-  ]
+  ],
+  "edge": "Karpathy's own open-source, self-hostable tag-trained recommender — a tiny personal feed, not a hosted research suite.",
+  "pros": [
+    "Free and open source",
+    "Self-hostable, lightweight",
+    "Tag-trained personal paper feed",
+    "Built by Andrej Karpathy"
+  ],
+  "cons": [
+    "Self-host/setup required",
+    "arXiv-only, no broad literature search",
+    "Minimal UI and features",
+    "No managed hosting"
+  ],
+  "bestFor": ["Tracking arXiv topics", "ML researchers", "Self-hosters"],
+  "alternatives": ["elicit", "consensus", "scispace", "undermind"]
 }

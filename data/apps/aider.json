@@ -32,5 +32,21 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "CLI-only and model-agnostic: auto-commits every AI edit as its own git commit, so changes are trivially revertable.",
+  "pros": [
+    "Fully open-source, BYO-key",
+    "Auto-commits each edit to git",
+    "Works with any model incl. local",
+    "Strong on its own Polyglot benchmark",
+    "No editor lock-in — pure terminal"
+  ],
+  "cons": [
+    "No GUI — terminal comfort required",
+    "You pay model API costs yourself",
+    "Less hand-holding than IDE agents",
+    "Setup/config heavier than hosted tools"
+  ],
+  "bestFor": ["Terminal-first developers", "Git-disciplined workflows", "Local/self-hosted models"],
+  "alternatives": ["cline", "claude-code", "continue", "cursor"]
 }

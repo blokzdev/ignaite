@@ -15,9 +15,30 @@
   },
   "tags": ["logo", "branding", "brand-kit", "design"],
   "links": [
-    { "kind": "website", "url": "https://looka.com", "primary": true },
-    { "kind": "pricing", "url": "https://looka.com/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://looka.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://looka.com/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Design free, pay only to export — logos are a one-time buy (from $20) while the full Brand Kit is a yearly subscription.",
+  "pros": [
+    "Free to design, pay to export",
+    "One-time logo purchase option",
+    "300+ branded templates on Brand Kit",
+    "Fast name-to-logo concepts"
+  ],
+  "cons": [
+    "Export requires a purchase",
+    "Brand Kit is a yearly subscription",
+    "No user model control"
+  ],
+  "bestFor": ["Entrepreneurs", "Small business branding", "Quick logos"],
+  "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"]
 }

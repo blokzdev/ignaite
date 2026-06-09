@@ -15,9 +15,31 @@
   },
   "tags": ["ui-design", "wireframing", "prototyping", "no-code", "design"],
   "links": [
-    { "kind": "website", "url": "https://uizard.io", "primary": true },
-    { "kind": "pricing", "url": "https://uizard.io/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://uizard.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://uizard.io/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Its Screenshot Scanner turns any existing app screenshot into an editable mockup — not just text-to-UI",
+  "pros": [
+    "Screenshot-to-editable-mockup",
+    "Generates multi-screen projects",
+    "Aimed at non-designers and PMs",
+    "Backed by Miro since 2024"
+  ],
+  "cons": [
+    "Lower fidelity than Figma output",
+    "Web-only, cloud-only",
+    "Not a handoff-grade design tool",
+    "Generated layouts need refinement"
+  ],
+  "bestFor": ["PMs and non-designers", "Fast wireframe drafts", "Concept prototyping"],
+  "alternatives": ["figma-ai", "v0"]
 }

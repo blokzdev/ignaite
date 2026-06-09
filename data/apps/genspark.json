@@ -23,5 +23,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Routes each task across multiple LLMs and 80+ tools, and its Super Agent can place real phone calls and return",
+  "pros": [
+    "Autonomous multi-step Super Agent",
+    "Builds slides, sheets, sites, video",
+    "Routes across many models + tools",
+    "Can place real phone calls"
+  ],
+  "cons": [
+    "Quality uneven across task types",
+    "Credit-metered; can burn fast",
+    "Less transparent than single-model tools"
+  ],
+  "bestFor": ["All-in-one workspace", "Autonomous task runs", "Mixed-output projects"],
+  "alternatives": ["manus", "chatgpt", "perplexity", "gemini"]
 }

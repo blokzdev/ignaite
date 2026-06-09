@@ -22,5 +22,24 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Grounds every extracted field in a clickable citation back to the source doc, so each AI answer is auditable",
+  "pros": [
+    "Source-traceable extractions",
+    "Chains GPT/Claude/Gemini per step",
+    "Built for DDQs, memos, terms",
+    "Targets finance/legal/insurance"
+  ],
+  "cons": [
+    "Paid-only, enterprise pricing",
+    "Cloud-only, no self-host",
+    "Setup effort for custom workflows",
+    "Overkill for simple extraction"
+  ],
+  "bestFor": [
+    "Finance/legal document review",
+    "Auditable data extraction",
+    "Knowledge-work automation"
+  ],
+  "alternatives": ["reducto", "nanonets", "unstructured", "hebbia"]
 }

@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Runs open models on its own FireAttention serving stack for low latency, covering vision and audio alongside text.",
+  "pros": [
+    "Custom FireAttention inference stack",
+    "Vision and audio models, not just text",
+    "Serverless + dedicated options",
+    "Fine-tuning supported"
+  ],
+  "cons": [
+    "Usage pricing scales with traffic",
+    "Open-weights focus, not proprietary frontier",
+    "Dedicated capacity costs more"
+  ],
+  "bestFor": ["Production open-model serving", "Low-latency inference", "Fine-tuned deployments"],
+  "alternatives": ["together-ai", "baseten", "groq", "modal"]
 }

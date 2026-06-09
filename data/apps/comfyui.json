@@ -32,5 +32,15 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Exposes the whole diffusion pipeline as a node graph, so any workflow is reproducible and shareable as one JSON file.",
+  "pros": [
+    "Total control over the pipeline",
+    "Reproducible JSON workflows",
+    "Thousands of community nodes",
+    "Runs locally on your GPU"
+  ],
+  "cons": ["Steep learning curve", "Needs a capable local GPU", "Node sprawl can overwhelm"],
+  "bestFor": ["Power users", "Custom diffusion pipelines"],
+  "alternatives": ["civitai", "krea", "flux", "leonardo-ai"]
 }

@@ -15,9 +15,31 @@
   },
   "tags": ["analytics", "notebook", "sql", "data-science"],
   "links": [
-    { "kind": "website", "url": "https://hex.tech", "primary": true },
-    { "kind": "pricing", "url": "https://hex.tech/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://hex.tech",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://hex.tech/pricing/"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "AI analysis lands as editable, reproducible notebook cells (SQL/Python/R), then ships as governed data apps.",
+  "pros": [
+    "Polished notebooks to shareable apps",
+    "Notebook Agent + Magic AI assist",
+    "SQL, Python, and R in one workspace",
+    "Strong collaboration and governance"
+  ],
+  "cons": [
+    "Basic code completion vs some rivals",
+    "Fewer native integrations than Deepnote",
+    "Notebook model has a learning curve",
+    "Best value at team scale"
+  ],
+  "bestFor": ["Data teams", "Reproducible analytics"],
+  "alternatives": ["julius", "powerdrill", "databricks-genie", "thoughtspot"]
 }

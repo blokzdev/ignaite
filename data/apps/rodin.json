@@ -23,5 +23,15 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Targets production pipelines with clean topology and PBR materials, where most image-to-3D tools output messy meshes.",
+  "pros": [
+    "Production-clean geometry",
+    "PBR materials output",
+    "High-fidelity image/text-to-3D",
+    "Aimed at game/film pipelines"
+  ],
+  "cons": ["Single proprietary model", "Web-only workflow", "Credit costs for high-res exports"],
+  "bestFor": ["Game/film asset creation", "Production-ready meshes", "Image-to-3D"],
+  "alternatives": ["meshy", "tripo", "marble"]
 }

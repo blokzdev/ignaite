@@ -21,5 +21,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Narrowly scoped to K-5 math (ages 5-11) with voice interaction rather than chasing every subject — depth over breadth.",
+  "pros": [
+    "Voice-driven, kid-friendly tutoring",
+    "Adaptive K-5 math curriculum",
+    "Progress tracking for parents",
+    "Multiple child profiles per plan"
+  ],
+  "cons": [
+    "Math-only, ages 5-11 only",
+    "Subscription, no free tier",
+    "Limited beyond elementary level"
+  ],
+  "bestFor": ["K-5 math practice", "Parents of young kids", "Early math foundations"],
+  "alternatives": ["khanmigo", "photomath", "quizlet"]
 }

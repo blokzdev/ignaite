@@ -31,5 +31,24 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Video-native foundation models (Marengo, Pegasus) understand motion and events directly, not via sampled frames.",
+  "pros": [
+    "Purpose-built video foundation models",
+    "Natural-language search over video",
+    "Index once, run many tasks",
+    "Free tier with usage pricing",
+    "Clean developer API"
+  ],
+  "cons": [
+    "Proprietary, closed models",
+    "Cloud-only, no self-host",
+    "Usage costs scale with video volume"
+  ],
+  "bestFor": [
+    "Video search and retrieval",
+    "Media/archive analysis",
+    "Developers building video AI"
+  ],
+  "alternatives": ["roboflow", "reka-vision", "voxel51"]
 }

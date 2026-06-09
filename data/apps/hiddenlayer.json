@@ -15,9 +15,31 @@
   },
   "tags": ["ai-detection-response", "model-scanning", "adversarial-ml", "red-teaming"],
   "links": [
-    { "kind": "website", "url": "https://hiddenlayer.com", "primary": true },
-    { "kind": "docs", "url": "https://docs.hiddenlayer.ai" }
+    {
+      "kind": "website",
+      "url": "https://hiddenlayer.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.hiddenlayer.ai"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Deterministic runtime classifiers sit outside the inference path, adding no latency and surviving attacks that fool",
+  "pros": [
+    "Model-file malware/integrity scanning",
+    "Out-of-path runtime detection",
+    "Covers gen, agentic, and predictive AI",
+    "Automated red-teaming + posture mgmt"
+  ],
+  "cons": [
+    "Opaque, quote-based enterprise pricing",
+    "Hard to deploy, needs ML/infra team",
+    "Learning curve for AI-security newcomers",
+    "Docs thin on advanced config"
+  ],
+  "bestFor": ["Mature ML/security teams", "Model supply-chain defense"],
+  "alternatives": ["protect-ai", "lakera", "prompt-security", "lasso-security"]
 }

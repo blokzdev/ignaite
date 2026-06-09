@@ -27,5 +27,28 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Reimagines detail on upscale with creativity sliders and presets — invents plausible texture instead of just sharpening.",
+  "pros": [
+    "Adds realistic texture and detail",
+    "Creativity sliders and presets",
+    "Up to 16x upscaling",
+    "Strong for portraits and concept art"
+  ],
+  "cons": [
+    "Paid-only, expensive, no free trial",
+    "Can hallucinate at high creativity",
+    "Won't repair malformed source",
+    "No public API for automation"
+  ],
+  "bestFor": ["Concept artists", "Product shots", "Rescuing low-res images"],
+  "alternatives": ["krea", "leonardo-ai", "recraft", "midjourney"],
+  "references": [
+    {
+      "title": "Magnific AI Image Upscaler | An Honest Review",
+      "url": "https://curiousrefuge.com/blog/magnific-ai-image-upscaler-review",
+      "source": "Curious Refuge",
+      "kind": "review"
+    }
+  ]
 }

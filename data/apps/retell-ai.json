@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Bring-your-own-LLM over SIP/Twilio with a proprietary turn-taking model, so the voice agent isn't locked to one model.",
+  "pros": [
+    "BYO LLM behind the voice agent",
+    "SIP/Twilio telephony built in",
+    "Low-latency turn-taking model",
+    "No-code builder plus API"
+  ],
+  "cons": [
+    "Per-minute costs stack with LLM/TTS",
+    "Voice quality depends on chosen vendors",
+    "Cloud-only, no self-host"
+  ],
+  "bestFor": ["Inbound/outbound call agents", "AI receptionists", "Outbound campaigns"],
+  "alternatives": ["vapi", "bland-ai", "elevenlabs", "cartesia"]
 }

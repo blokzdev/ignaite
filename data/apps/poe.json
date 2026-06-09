@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "One Quora-built subscription spanning many providers' chat, image, and video models, plus no-code bots that pay",
+  "pros": [
+    "Many providers behind one subscription",
+    "No-code custom bots in minutes",
+    "Creators earn from bot usage",
+    "Web, mobile, desktop, plus API"
+  ],
+  "cons": [
+    "Message/point caps on plans",
+    "Less depth than each model's native app",
+    "Not focused on agentic workflows"
+  ],
+  "bestFor": ["Multi-model access", "Bot builders", "Casual users"],
+  "alternatives": ["openrouter", "chatgpt", "claude", "perplexity"]
 }

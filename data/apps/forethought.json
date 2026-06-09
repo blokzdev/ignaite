@@ -15,9 +15,39 @@
   },
   "tags": ["customer-support", "deflection", "triage", "agent-assist"],
   "links": [
-    { "kind": "website", "url": "https://forethought.ai", "primary": true },
-    { "kind": "pricing", "url": "https://forethought.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://forethought.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://forethought.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Self-improving Resolution Learning Loop writes and tests new workflows itself; now backed by Zendesk's stack.",
+  "pros": [
+    "Self-learning agents resolve most tickets end-to-end",
+    "Multi-channel: chat, email, voice, SMS, Slack",
+    "70+ integrations across helpdesks and CRMs",
+    "Backed by Zendesk after 2026 acquisition"
+  ],
+  "cons": [
+    "Opaque, sales-quoted outcome pricing",
+    "No self-serve sign-up; demo-gated onboarding",
+    "Needs ~20k historical tickets to perform",
+    "30-90 day setup; enterprise-focused"
+  ],
+  "bestFor": ["Large support teams", "Zendesk-centric stacks", "High-volume deflection"],
+  "alternatives": ["decagon", "sierra", "intercom-fin", "maven-agi"],
+  "references": [
+    {
+      "title": "Zendesk acquires agentic customer service startup Forethought",
+      "url": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
 }

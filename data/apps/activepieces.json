@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "MIT-licensed (true OSI open source, unlike n8n's fair-code) and exposes its 400+ pieces as MCP tools for agents.",
+  "pros": [
+    "MIT license — genuinely open source",
+    "Fully self-hostable",
+    "400+ integrations, also usable as MCP tools",
+    "Native AI steps in the visual builder"
+  ],
+  "cons": [
+    "Smaller integration library than Zapier",
+    "Self-hosting adds ops overhead",
+    "Younger ecosystem and community"
+  ],
+  "bestFor": ["Self-hosted teams", "AI-agent workflows"],
+  "alternatives": ["n8n", "make", "zapier", "gumloop"]
 }

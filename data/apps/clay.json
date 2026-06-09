@@ -11,9 +11,30 @@
   "platforms": ["web", "api"],
   "tags": ["gtm", "lead-enrichment", "sales", "ai-agents", "outbound"],
   "links": [
-    { "kind": "website", "url": "https://www.clay.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.clay.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.clay.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.clay.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "150+ providers in one waterfall plus Claygent research agents — the deepest enrichment match rates in GTM.",
+  "pros": [
+    "Best-in-class waterfall match rates (~78%)",
+    "150+ enrichment providers in one place",
+    "Claygent AI agents research each prospect",
+    "Flexible spreadsheet-style workflow"
+  ],
+  "cons": [
+    "Steep learning curve (4-6 weeks)",
+    "Opaque credits; failed lookups still bill",
+    "Costs climb fast on large lists"
+  ],
+  "bestFor": ["GTM engineers", "Lead enrichment"],
+  "alternatives": ["smartlead", "airops", "relevance-ai", "lindy"]
 }

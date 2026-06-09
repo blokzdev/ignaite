@@ -31,5 +31,18 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Builds an LLM-derived knowledge graph alongside embeddings, so recall follows relationships, not just vector similarity.",
+  "pros": [
+    "Open-source Python SDK",
+    "Knowledge graph + vector recall",
+    "Bring your own LLM/embedding provider"
+  ],
+  "cons": [
+    "Newer, smaller ecosystem",
+    "Cognify pipeline adds LLM cost",
+    "Self-host setup overhead"
+  ],
+  "bestFor": ["Agent memory", "Graph-aware RAG"],
+  "alternatives": ["mem0", "zep", "graphlit", "letta"]
 }

@@ -30,5 +30,28 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Labels DICOM, NIfTI, LiDAR and SAR alongside images/video — built for regulated medical and physical-world AI.",
+  "pros": [
+    "DICOM/NIfTI/point-cloud support",
+    "HIPAA/SOC 2 for regulated data",
+    "Annotate + curate + index in one",
+    "Model-assisted labeling (SAM, GPT-4o)"
+  ],
+  "cons": [
+    "Enterprise pricing, no free tier",
+    "Heavier than lightweight labelers",
+    "Onboarding/setup overhead",
+    "Overkill for simple image tasks"
+  ],
+  "bestFor": ["Medical imaging AI", "Physical-world AI", "Regulated teams"],
+  "alternatives": ["roboflow", "supervisely", "dataloop", "label-studio"],
+  "references": [
+    {
+      "title": "Data Labeling Platforms for Healthcare AI",
+      "url": "https://www.lightly.ai/blog/data-annotation-tools",
+      "source": "Lightly",
+      "kind": "comparison"
+    }
+  ]
 }

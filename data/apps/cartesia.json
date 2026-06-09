@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "State-space Sonic models hit sub-100ms first audio — the latency floor for real-time voice agent loops.",
+  "pros": [
+    "Sub-100ms time-to-first-audio over WebSocket",
+    "State-space architecture, not transformer",
+    "Streaming-first WebSocket protocol depth",
+    "Cost-competitive at scale"
+  ],
+  "cons": [
+    "Long-form expressive texture trails ElevenLabs",
+    "Fewer voices than ElevenLabs catalog",
+    "API-only, no end-user app"
+  ],
+  "bestFor": ["Real-time voice agents", "Low-latency TTS"],
+  "alternatives": ["elevenlabs", "deepgram", "hume-ai", "speechify"]
 }

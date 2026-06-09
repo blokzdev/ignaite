@@ -33,6 +33,11 @@ here can invoke them. They encode the same flow we run manually.
   non-obvious, _verifiable_ sentence (a licensing nuance, an architectural quirk, how it differs from
   peers) authored while researching it. It's what makes the catalog read as AI-curated, not
   auto-generated. Never fabricate; omit rather than pad with a re-pitch of the tagline.
+- **The "honest brief" makes each listing decision-grade.** Beyond `insight`, listings carry optional
+  enrichment: `edge` (the comparative "why pick this one"), balanced `pros`/`cons` (the honest cons are
+  the trust signal), `bestFor`, curated `alternatives` (peer slugs powering the "Alternatives to <name>"
+  rail), and third-party `references` (independent coverage — verify-or-omit, never the vendor's own
+  pages). Same no-fabrication bar; `/audit-directory` backfills + re-verifies these over the cycle.
 - **`featured` is rare** — it spans two columns and enters the carousel; reserve it for true standouts.
 - **Schema is the contract** (`types/app.ts`). Required: `slug`, `name`, `tagline`, `description`,
   `category`, `pricing`, `platforms`, `links` (exactly one `primary`). Mobile apps use the `android` /

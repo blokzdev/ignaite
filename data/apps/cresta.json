@@ -21,5 +21,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Supervises human and AI-led conversations in one Agent Operations Center, built for the hybrid contact center.",
+  "pros": [
+    "Real-time human agent assist",
+    "Autonomous AI agents too",
+    "Omnichannel voice + digital",
+    "Enterprise deployments"
+  ],
+  "cons": [
+    "Enterprise sales-only pricing",
+    "Heavy implementation effort",
+    "Aimed at large contact centers"
+  ],
+  "bestFor": ["Enterprise contact centers", "Agent assist"],
+  "alternatives": ["sierra", "decagon", "forethought", "ada-cx"]
 }

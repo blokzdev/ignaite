@@ -15,9 +15,30 @@
   },
   "tags": ["translation", "cat-tool", "marketplace", "localization"],
   "links": [
-    { "kind": "website", "url": "https://www.smartcat.com", "primary": true },
-    { "kind": "docs", "url": "https://developers.smartcat.com" }
+    {
+      "kind": "website",
+      "url": "https://www.smartcat.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.smartcat.com"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Bundles AI translation with a 500k-linguist marketplace and native vendor billing, so sourcing and paying humans stays",
+  "pros": [
+    "Integrated linguist marketplace + payments",
+    "280+ languages, translation memory",
+    "AI translation plus human review",
+    "Collaborative project management"
+  ],
+  "cons": [
+    "Marketplace pricing varies by linguist",
+    "Less developer/API-first than rivals",
+    "Can be complex for simple jobs"
+  ],
+  "bestFor": ["Localization teams", "Sourcing translators", "Collaborative projects"],
+  "alternatives": ["smartling", "lokalise", "taia", "deepl"]
 }

@@ -15,9 +15,31 @@
   },
   "tags": ["fiction", "creative-writing", "novel", "storytelling"],
   "links": [
-    { "kind": "website", "url": "https://www.sudowrite.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.sudowrite.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.sudowrite.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.sudowrite.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Built for fiction: a Story Bible feeds characters, world, and outline into every generation for novel-long consistency.",
+  "pros": [
+    "Tuned for long-form fiction",
+    "Story Bible keeps drafts consistent",
+    "Write/Expand/Describe in author voice",
+    "Choice of underlying frontier models"
+  ],
+  "cons": [
+    "Paid only, no free tier",
+    "Web-only",
+    "Not suited to business/marketing copy",
+    "Credit limits on lower plans"
+  ],
+  "bestFor": ["Novelists", "Creative writers", "Long-form fiction"],
+  "alternatives": ["lex", "wordtune", "rytr", "quillbot"]
 }

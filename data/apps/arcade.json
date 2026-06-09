@@ -25,5 +25,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Auth-first MCP runtime: brokers per-user OAuth so an agent acts as the real end user, not behind one shared token.",
+  "pros": [
+    "Per-user OAuth authorization",
+    "Prebuilt agent-optimized tools",
+    "Open framework for custom tools",
+    "Exposed over MCP standard"
+  ],
+  "cons": [
+    "Closed/hosted core platform",
+    "Newer entrant in MCP space",
+    "Setup needed per integration",
+    "Free tier limited"
+  ],
+  "bestFor": ["Authenticated agent actions", "Multi-user agent apps", "Secure tool-calling"],
+  "alternatives": ["composio", "smithery", "glama"]
 }

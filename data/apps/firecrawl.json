@@ -31,5 +31,33 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Returns clean LLM-ready markdown (not raw HTML), handles JS + anti-bot, and its AGPL core can be self-hosted.",
+  "pros": [
+    "Clean markdown / structured JSON output",
+    "Handles JS rendering and anti-bot",
+    "AGPL core, self-hostable",
+    "Scrape, crawl, map, search in one API"
+  ],
+  "cons": [
+    "AGPL license constrains redistribution",
+    "Hosted usage priced by credits",
+    "Heavy sites can still need tuning"
+  ],
+  "bestFor": ["RAG ingestion", "Agent web data", "LLM-ready scraping"],
+  "alternatives": ["crawl4ai", "apify", "scrapegraphai", "jina-ai"],
+  "references": [
+    {
+      "title": "Firecrawl: Easy web data extraction for AI applications",
+      "url": "https://www.infoworld.com/article/4009041/firecrawl-easy-web-data-extraction-for-ai-applications.html",
+      "source": "InfoWorld",
+      "kind": "review"
+    },
+    {
+      "title": "Firecrawl vs. Crawl4AI vs. Spider: The Honest Benchmark",
+      "url": "https://spider.cloud/blog/firecrawl-vs-crawl4ai-vs-spider-honest-benchmark",
+      "source": "Spider",
+      "kind": "benchmark"
+    }
+  ]
 }

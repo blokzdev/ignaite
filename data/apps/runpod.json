@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Serverless GPU inference billed by the millisecond, scales to zero, plus a cheaper peer-sourced Community Cloud tier.",
+  "pros": [
+    "Millisecond serverless billing",
+    "Scales to zero when idle",
+    "Cheaper Community Cloud GPUs",
+    "On-demand Pods and clusters too"
+  ],
+  "cons": [
+    "Community Cloud less reliable/secure",
+    "GPU availability varies",
+    "Self-managed model serving"
+  ],
+  "bestFor": ["Serverless inference", "Cost-sensitive GPU jobs", "Training and long jobs"],
+  "alternatives": ["modal", "replicate", "baseten", "lightning-ai"]
 }

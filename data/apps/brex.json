@@ -15,7 +15,11 @@
   },
   "tags": ["fintech", "spend-management", "expenses", "agents", "corporate-cards"],
   "links": [
-    { "kind": "website", "url": "https://www.brex.com", "primary": true },
+    {
+      "kind": "website",
+      "url": "https://www.brex.com",
+      "primary": true
+    },
     {
       "kind": "website",
       "url": "https://www.brex.com/platform/intelligent-finance",
@@ -23,5 +27,28 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Built for VC-backed startups going global early — 60+ currencies, 120+ countries, reward multipliers up to 8x.",
+  "pros": [
+    "Strong international currency/country coverage",
+    "Category reward multipliers up to 8x",
+    "Agent Mesh automates finance workflows",
+    "Cards + expenses + accounting in one"
+  ],
+  "cons": [
+    "Weaker pre-spend controls than Ramp",
+    "Lower receipt-compliance automation than Ramp",
+    "Capital One acquisition adds roadmap uncertainty",
+    "Geared to $1M+ revenue / VC-backed firms"
+  ],
+  "bestFor": ["VC-backed startups", "Global-scaling teams"],
+  "alternatives": ["ramp", "puzzle", "digits"],
+  "references": [
+    {
+      "title": "Ramp vs. Brex: Which Card Is Better for Your Business?",
+      "url": "https://www.nerdwallet.com/business/credit-cards/learn/ramp-vs-brex",
+      "source": "NerdWallet",
+      "kind": "comparison"
+    }
+  ]
 }

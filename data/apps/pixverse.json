@@ -22,5 +22,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Tuned for stylized, anime, and VFX-transition output at high speed, where Veo and Sora optimize for photorealism.",
+  "pros": [
+    "Fast generation",
+    "Strong on anime and stylized output",
+    "Web, mobile, and developer API",
+    "Effects and transition templates"
+  ],
+  "cons": [
+    "Less photoreal than frontier rivals",
+    "Short clip durations",
+    "Single proprietary model, no choice"
+  ],
+  "bestFor": ["Stylized/anime video", "Social content", "Mobile creators"],
+  "alternatives": ["pika", "kling", "hailuo-ai", "vidu"]
 }

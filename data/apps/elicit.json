@@ -26,5 +26,28 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "One of few research tools with a real systematic-review screening pipeline and structured data extraction at scale.",
+  "pros": [
+    "Systematic-review screening pipeline",
+    "Structured extraction with custom columns",
+    "Evidence synthesis across large paper sets",
+    "Benchmarked against Cochrane reviews"
+  ],
+  "cons": [
+    "No PICO framework or Boolean operators",
+    "Systematic-review features gated to Pro",
+    "Credit-based free tier (one-time)",
+    "Coverage limited to indexed literature"
+  ],
+  "bestFor": ["Literature reviews", "Evidence synthesis", "Academic researchers"],
+  "alternatives": ["consensus", "undermind", "scispace", "scite"],
+  "references": [
+    {
+      "title": "Elicit vs Consensus: Detailed Comparison (2026)",
+      "url": "https://paperguide.ai/blog/elicit-vs-consensus/",
+      "source": "Paperguide",
+      "kind": "comparison"
+    }
+  ]
 }

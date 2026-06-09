@@ -27,5 +27,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Outputs persistent, editable, downloadable 3D worlds for game engines — not on-the-fly video-only scenes.",
+  "pros": [
+    "Exports editable, downloadable 3D environments",
+    "Inputs from text, photos, panoramas, or 3D",
+    "Cleaner geometry than prior world models",
+    "Backed by World Labs (Fei-Fei Li)"
+  ],
+  "cons": [
+    "Quality degrades away from start point",
+    "No dynamic on-the-fly generation",
+    "No memory of your style across runs",
+    "Occasional generation failures; limited free tier"
+  ],
+  "bestFor": ["3D environment prototyping", "Spatial scene concepting", "VFX and worldbuilding"],
+  "alternatives": ["meshy", "rodin", "tripo", "spline"]
 }

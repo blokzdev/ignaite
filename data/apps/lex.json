@@ -16,9 +16,26 @@
   },
   "tags": ["writing", "document-editor", "collaboration", "drafting"],
   "links": [
-    { "kind": "website", "url": "https://lex.page", "primary": true },
-    { "kind": "pricing", "url": "https://lex.page/pricing" }
+    {
+      "kind": "website",
+      "url": "https://lex.page",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lex.page/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Frontier models inside a focused Google-Docs-style writing surface — pick premium models in the doc, not a sidebar.",
+  "pros": [
+    "Clean doc-first writing surface",
+    "Premium model choice (Claude/GPT)",
+    "Real-time collaboration + versions",
+    "AI feedback and rewriting inline"
+  ],
+  "cons": ["Web-only", "Premium models behind Pro tier", "Narrow long-form focus"],
+  "bestFor": ["Serious writers", "Long-form drafting", "Collaborative editing"],
+  "alternatives": ["sudowrite", "grammarly", "notion-ai", "wordtune"]
 }

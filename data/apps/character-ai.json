@@ -33,5 +33,20 @@
       "kind": "fixed",
       "summary": "Recategorized from assistant to the new companion category for character/roleplay AI."
     }
-  ]
+  ],
+  "edge": "Among the largest roleplay-AI products by usage, with millions of community-built characters and sticky engagement.",
+  "pros": [
+    "Millions of community-made characters",
+    "Strong free tier",
+    "Voice calls and image gen on paid tier",
+    "Highly engaging persona chat"
+  ],
+  "cons": [
+    "Heavy content filtering frustrates users",
+    "Proprietary in-house models only",
+    "Safety scrutiny over minor usage",
+    "Founders departed to Google in 2024 deal"
+  ],
+  "bestFor": ["Roleplay and companionship", "Character creators"],
+  "alternatives": ["replika", "kindroid", "nomi", "sillytavern"]
 }

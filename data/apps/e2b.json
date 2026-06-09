@@ -35,5 +35,29 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Firecracker microVM isolation with stateful sessions — code interpreter pattern where vars persist across agent turns.",
+  "pros": [
+    "Firecracker microVM hardware isolation",
+    "Stateful sessions across agent turns",
+    "Sub-second cold starts",
+    "Large catalog of community templates",
+    "Open-source SDK"
+  ],
+  "cons": [
+    "No native GPU sandboxes (vs Modal)",
+    "Daytona quotes faster cold starts",
+    "Per-second billing adds up at scale",
+    "Narrower than full infra platforms"
+  ],
+  "bestFor": ["Agent code execution", "Data-analysis agents", "Untrusted code"],
+  "alternatives": ["daytona", "modal", "browserbase", "beam"],
+  "references": [
+    {
+      "title": "AI Code Sandbox Benchmark 2026 - Modal vs E2B vs Daytona",
+      "url": "https://www.superagent.sh/blog/ai-code-sandbox-benchmark-2026",
+      "source": "Superagent",
+      "kind": "benchmark"
+    }
+  ]
 }

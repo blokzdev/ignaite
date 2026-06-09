@@ -10,7 +10,29 @@
   "vendor": "Hi No Code Inc.",
   "platforms": ["web", "browser-extension"],
   "tags": ["upwork", "sales-outreach", "proposals", "freelancing", "automation"],
-  "links": [{ "kind": "website", "url": "https://www.uneversleep.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.uneversleep.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Auto-submits AI-written Upwork proposals within minutes via the official API, billed per response",
+  "pros": [
+    "Sub-15-minute auto-proposals",
+    "Uses official Upwork API",
+    "Filters by budget/keyword/history",
+    "Billed per response, not per seat",
+    "Free profile-scoring extension"
+  ],
+  "cons": [
+    "Upwork-only, single platform",
+    "Generic proposals risk client distrust",
+    "Depends on Upwork API access",
+    "Small vendor, limited track record"
+  ],
+  "bestFor": ["Upwork freelancers", "High-volume bidding", "Agencies on Upwork"],
+  "alternatives": ["smartlead", "lavender", "clay"]
 }

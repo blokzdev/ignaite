@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Managed multimodal search built on its own MTEB-leading mxbai embed/rerank models — no hand-tuned multi-stage pipeline.",
+  "pros": [
+    "Indexes text, PDFs, tables, images, video",
+    "Built on strong open mxbai models",
+    "100+ language coverage",
+    "No embedding/pipeline hand-tuning"
+  ],
+  "cons": [
+    "Managed search is closed/commercial",
+    "Embedding context ~512-token sweet spot",
+    "Weak at clustering/summarization tasks",
+    "Smaller player vs incumbents"
+  ],
+  "bestFor": ["Multimodal RAG search", "Teams avoiding pipeline tuning", "Multilingual retrieval"],
+  "alternatives": ["exa", "jina-ai", "tavily", "weaviate"]
 }

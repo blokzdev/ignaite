@@ -24,5 +24,27 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Answers strictly from your uploaded sources — no open-web drift — and turns a doc set into a two-host podcast.",
+  "pros": [
+    "Source-grounded, cited answers",
+    "Audio Overviews from your docs",
+    "Mind maps, slides, quizzes from sources",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Limited to material you upload",
+    "Daily generation/query caps",
+    "Google account required"
+  ],
+  "bestFor": ["Document research", "Study and review", "Grounded Q&A"],
+  "alternatives": ["scispace", "elicit", "khoj", "consensus"],
+  "references": [
+    {
+      "title": "NotebookLM now lets you listen to a conversation about your sources",
+      "url": "https://blog.google/technology/ai/notebooklm-audio-overviews/",
+      "source": "Google Blog",
+      "kind": "analysis"
+    }
+  ]
 }

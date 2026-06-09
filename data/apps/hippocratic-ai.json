@@ -10,7 +10,28 @@
   "vendor": "Hippocratic AI",
   "platforms": ["web", "api"],
   "tags": ["clinical-agents", "patient-engagement", "enterprise", "voice"],
-  "links": [{ "kind": "website", "url": "https://www.hippocraticai.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hippocraticai.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Constrains agents to non-diagnostic tasks and supervises a talker model with 20+ safety models validated by clinicians.",
+  "pros": [
+    "Safety-first, no diagnosis/prescribing",
+    "Clinician-validated across many calls",
+    "Multi-model safety supervision design",
+    "Frees staff from admin/follow-up calls"
+  ],
+  "cons": [
+    "Voice-only, no chat/texting",
+    "Enterprise implementation can be costly",
+    "No public G2/Capterra review track record",
+    "Accuracy scrutiny in sensitive contexts"
+  ],
+  "bestFor": ["Health systems / payors", "Post-discharge follow-up"],
+  "alternatives": ["nabla", "abridge", "ada-health", "k-health"]
 }

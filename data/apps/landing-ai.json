@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "From Andrew Ng's lab — 'visual prompting' lets you point at a few examples instead of labeling a full training set.",
+  "pros": [
+    "Labelling-light visual prompting",
+    "Fast path to a deployable detector",
+    "Vision agents reason over images/PDFs",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Less control than custom model training",
+    "Newer agent features still maturing",
+    "Scale pricing quoted for enterprise"
+  ],
+  "bestFor": ["Few-shot vision apps", "Document/PDF extraction", "Teams without ML labelers"],
+  "alternatives": ["roboflow", "encord", "supervisely", "moondream"]
 }

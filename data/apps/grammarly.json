@@ -15,9 +15,31 @@
   },
   "tags": ["grammar", "editing", "tone", "writing-assistant"],
   "links": [
-    { "kind": "website", "url": "https://www.grammarly.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.grammarly.com/plans" }
+    {
+      "kind": "website",
+      "url": "https://www.grammarly.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.grammarly.com/plans"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Runs system-wide across browsers, desktop, and mobile keyboards, so corrections follow you into any app.",
+  "pros": [
+    "Works in 1M+ apps and sites",
+    "Real-time grammar/clarity/tone checks",
+    "Browser, desktop, and mobile keyboard",
+    "Plagiarism + AI-text detection on paid tiers"
+  ],
+  "cons": [
+    "Monthly AI prompt caps per tier",
+    "Over-corrects style at times",
+    "Weak at long-form generation",
+    "Passive assistant, can't take actions"
+  ],
+  "bestFor": ["Professionals polishing writing", "Cross-app proofreading"],
+  "alternatives": ["prowritingaid", "wordtune", "quillbot", "lex"]
 }

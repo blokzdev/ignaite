@@ -9,12 +9,38 @@
   "vendor": "AI21 Labs",
   "platforms": ["web", "browser-extension", "ios"],
   "insight": "The consumer writing product of AI21 Labs, maker of the Jurassic and Jamba LLM families — rare among writing tools in owning its models.",
-  "modelSupport": { "kind": "single-model", "notes": "Built on AI21 Labs' own language models." },
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Built on AI21 Labs' own language models."
+  },
   "tags": ["paraphrasing", "rewriting", "summarization", "editing"],
   "links": [
-    { "kind": "website", "url": "https://www.wordtune.com", "primary": true },
-    { "kind": "pricing", "url": "https://www.wordtune.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.wordtune.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.wordtune.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "From AI21 Labs (Jurassic/Jamba models) — a rewriting tool whose maker owns its own LLMs, not a GPT wrapper.",
+  "pros": [
+    "Backed by AI21's own LLMs",
+    "Tone-controlled rewriting",
+    "Article and video summarization",
+    "Browser, web and iOS",
+    "AI-text humanizer"
+  ],
+  "cons": [
+    "Narrower than full writing suites",
+    "Free tier rewrite limits",
+    "Less grammar depth than Grammarly",
+    "No Android app"
+  ],
+  "bestFor": ["Paraphrasing/rewriting", "ESL writers", "Tone adjustment"],
+  "alternatives": ["quillbot", "grammarly", "prowritingaid", "rytr"]
 }

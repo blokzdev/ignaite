@@ -24,5 +24,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Europe's home-grown assistant — EU data residency on Mistral's own (partly open-weight) models, speed-focused.",
+  "pros": [
+    "EU data residency",
+    "Fast responses",
+    "Built on Mistral's own models",
+    "Free tier with web search + code"
+  ],
+  "cons": [
+    "Smaller ecosystem than ChatGPT",
+    "Single-vendor model lock-in",
+    "Fewer integrations/plugins"
+  ],
+  "bestFor": ["EU privacy needs", "Speed-sensitive chat", "Mistral users"],
+  "alternatives": ["chatgpt", "claude", "gemini", "grok"]
 }

@@ -32,5 +32,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Drag-and-drop counterpart to code-first frameworks — builds on LangChain/LlamaIndex nodes, self-hosts via npm/Docker.",
+  "pros": [
+    "Visual, low-code agent builder",
+    "Apache-2.0 core, self-hostable",
+    "Provider-agnostic node ecosystem",
+    "Multi-agent flows on a canvas"
+  ],
+  "cons": [
+    "Complex logic outgrows the canvas",
+    "Less control than writing code",
+    "Cloud tier is a separate paid product"
+  ],
+  "bestFor": ["Low-code teams", "Self-hosted agents", "RAG prototyping"],
+  "alternatives": ["dify", "crewai", "n8n", "langchain"]
 }

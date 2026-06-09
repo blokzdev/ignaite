@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "EVI reads prosody and emotion in the user's voice — not just words — and tunes its own tone and timing in reply.",
+  "pros": [
+    "Emotion/prosody-aware voice interface",
+    "Speech-to-speech, low-latency replies",
+    "Pairs with a configurable LLM",
+    "Research-grade emotion models"
+  ],
+  "cons": [
+    "Emotion inference accuracy is contested",
+    "Narrower than full TTS/STT suites",
+    "Usage-metered pricing",
+    "Smaller ecosystem than ElevenLabs"
+  ],
+  "bestFor": ["Empathic voice agents", "Emotion-aware UX", "Conversational AI"],
+  "alternatives": ["elevenlabs", "cartesia", "vapi", "deepgram"]
 }

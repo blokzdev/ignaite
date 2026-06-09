@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Pairs a social highlight network with multi-format capture (web, PDF, YouTube) and BYO-key AI summaries.",
+  "pros": [
+    "Highlights web pages, PDFs, and YouTube",
+    "Export to Obsidian, Notion, Roam",
+    "Generous free tier",
+    "AI summaries via ChatGPT/Claude/Gemini"
+  ],
+  "cons": [
+    "Highlights are public by default",
+    "Private notes require paid Pro tier",
+    "YouTube summaries need captions"
+  ],
+  "bestFor": ["Learning in public", "Research note capture"],
+  "alternatives": ["liner", "harpa-ai", "sider"]
 }

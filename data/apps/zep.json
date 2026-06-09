@@ -30,5 +30,21 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Stores a temporal knowledge graph (via OSS Graphiti) that versions how facts change over time, not flat snapshots.",
+  "pros": [
+    "Temporal knowledge-graph memory",
+    "Tracks how facts evolve over time",
+    "Open-source Graphiti engine",
+    "Managed Zep Cloud option",
+    "Pulls in chat + business data"
+  ],
+  "cons": [
+    "Graph approach has learning curve",
+    "Cloud is credit-based pricing",
+    "Heavier than simple vector memory",
+    "Newer ecosystem"
+  ],
+  "bestFor": ["Long-running agents", "Evolving-fact memory", "Knowledge-graph context"],
+  "alternatives": ["mem0", "letta", "cognee", "supermemory"]
 }

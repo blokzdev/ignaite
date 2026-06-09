@@ -10,7 +10,28 @@
   "vendor": "K Health",
   "platforms": ["web", "ios", "android"],
   "tags": ["telehealth", "primary-care", "symptom-checker", "consumer-health"],
-  "links": [{ "kind": "website", "url": "https://khealth.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://khealth.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Pairs AI symptom intake trained on real clinical records with a licensed clinician who reviews every case.",
+  "pros": [
+    "Clinician reviews every AI-surfaced case",
+    "AI trained on millions of clinical records",
+    "Primary care plus mental health",
+    "Direct-pay, transparent per-visit pricing"
+  ],
+  "cons": [
+    "US-only telehealth",
+    "Not a substitute for in-person care",
+    "Subscription plus per-visit costs add up",
+    "Symptom checker can mislead without context"
+  ],
+  "bestFor": ["US virtual primary care", "Quick symptom triage", "Direct-pay patients"],
+  "alternatives": ["ada-health", "wysa"]
 }

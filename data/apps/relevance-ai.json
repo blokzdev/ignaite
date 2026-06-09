@@ -26,5 +26,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Prices on 'actions' with unlimited agents on every tier, so cost tracks work done rather than per-agent headcount.",
+  "pros": [
+    "Unlimited agents on all tiers",
+    "No-code multi-agent 'workforce' builder",
+    "BYO-LLM on paid plans",
+    "Library of tools and triggers"
+  ],
+  "cons": [
+    "Action-based billing can be opaque",
+    "Cloud-only, no self-host",
+    "Governance depth still maturing"
+  ],
+  "bestFor": ["AI agent teams", "Sales/support automation", "No-code business ops"],
+  "alternatives": ["lindy", "gumloop", "relay-app", "crewai"]
 }

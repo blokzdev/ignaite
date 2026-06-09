@@ -39,5 +39,20 @@
       "summary": "Corrected license signal — Phoenix is Elastic License 2.0 (source-available), not OSI open-source.",
       "source": "https://github.com/Arize-ai/phoenix/blob/main/LICENSE"
     }
-  ]
+  ],
+  "edge": "Spins up inside a Jupyter notebook and is sharpest at RAG debugging — finding the bad chunk that poisoned retrieval.",
+  "pros": [
+    "Open-source, runs locally",
+    "Strong RAG/retrieval debugging",
+    "OpenTelemetry-based tracing",
+    "Notebook-friendly"
+  ],
+  "cons": [
+    "Less polished than hosted SaaS evals",
+    "Production scale leans on Arize cloud",
+    "Setup effort for full pipelines",
+    "Smaller than LangSmith ecosystem"
+  ],
+  "bestFor": ["RAG debugging", "Notebook workflows", "Self-hosted tracing"],
+  "alternatives": ["langfuse", "langsmith", "helicone", "opik"]
 }

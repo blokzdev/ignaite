@@ -28,5 +28,21 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Built-in learning loop: curates its own skills and memory across sessions, reachable over a dozen messaging apps.",
+  "pros": [
+    "MIT-licensed, self-hostable",
+    "Persistent cross-session memory",
+    "Autonomous skill creation/improvement",
+    "Reachable via Telegram, Discord, Slack, more",
+    "Runs on a tiny VPS, any model"
+  ],
+  "cons": [
+    "Self-hosting and setup required",
+    "BYO model access (costs are yours)",
+    "Young project, evolving fast",
+    "No managed turnkey hosting"
+  ],
+  "bestFor": ["Self-hosted personal agent", "Always-on messaging agent"],
+  "alternatives": ["goose", "openhands", "open-interpreter", "manus"]
 }

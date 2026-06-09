@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Returns clean, scrape-ready content instead of ranked links — the default search tool baked into agent frameworks.",
+  "pros": [
+    "Retrieval-tuned, scrape-ready results",
+    "Native in LangChain, CrewAI, LangGraph",
+    "Simple API built for agents",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Not a general consumer search",
+    "Volume pricing scales up",
+    "Less control than raw web scraping"
+  ],
+  "bestFor": ["LLM agents", "RAG pipelines", "Research agents"],
+  "alternatives": ["exa", "linkup", "brave-search-api", "jina-ai"]
 }

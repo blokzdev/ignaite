@@ -32,5 +32,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Leading open-source, self-hostable Devin-style SWE agent — read the code, swap any model, run your own sandbox.",
+  "pros": [
+    "Fully open source (MIT)",
+    "Self-hostable sandbox agent",
+    "Model-agnostic (Claude/GPT/Gemini/local)",
+    "Active research community and benchmarks"
+  ],
+  "cons": [
+    "Setup heavier than hosted rivals",
+    "Autonomy still hit-or-miss on complex tasks",
+    "Sandbox infra adds compute cost",
+    "Less polished than commercial peers"
+  ],
+  "bestFor": ["Self-hosted SWE agents", "Researchers", "Privacy-sensitive teams"],
+  "alternatives": ["devin", "cline", "factory-ai", "aider"]
 }

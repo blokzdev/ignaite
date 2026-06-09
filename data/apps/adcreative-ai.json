@@ -11,9 +11,30 @@
   "platforms": ["web"],
   "tags": ["ad-creative", "advertising", "design", "video-ads", "performance"],
   "links": [
-    { "kind": "website", "url": "https://www.adcreative.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.adcreative.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.adcreative.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.adcreative.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Couples ad-creative generation with a Creative Scoring model that predicts performance before you spend.",
+  "pros": [
+    "Predictive Creative Scoring before launch",
+    "Generates banners, copy, product shots, video",
+    "Competitor and audience insights built in",
+    "Backed by ad-tech firm Appier"
+  ],
+  "cons": [
+    "No free tier — paid only",
+    "Credit-based limits can add up",
+    "Templated output, less brand nuance"
+  ],
+  "bestFor": ["Performance marketers", "Paid social/search ads"],
+  "alternatives": ["airops", "canva", "photoroom"]
 }

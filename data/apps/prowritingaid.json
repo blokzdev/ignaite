@@ -15,9 +15,30 @@
   },
   "tags": ["editing", "style", "fiction", "manuscript"],
   "links": [
-    { "kind": "website", "url": "https://prowritingaid.com", "primary": true },
-    { "kind": "pricing", "url": "https://prowritingaid.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://prowritingaid.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://prowritingaid.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Reports target fiction craft — pacing, sensory detail, dialogue tags",
+  "pros": [
+    "Manuscript-level craft reports",
+    "AI critique and beta-reader simulation",
+    "Integrates Word, Docs, Scrivener",
+    "Strong for long-form and fiction"
+  ],
+  "cons": [
+    "Interface can feel cluttered",
+    "Overwhelming for short-form copy",
+    "Real-time checks slower than rivals"
+  ],
+  "bestFor": ["Fiction authors", "Long-form writers", "Manuscript editing"],
+  "alternatives": ["grammarly", "quillbot", "sudowrite", "wordtune"]
 }

@@ -55,10 +55,10 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)    | #38       | ✅     |
 | M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)  | #39       | ✅     |
 | —     | Bugfix: `overflow:hidden`→`clip` so the directory filter bar's `sticky` actually pins  | —         | 🟦     |
-| N-1   | Taxonomy v2 — +16 categories, one label map, hide empty chips (foundation)             | —         | 🟦     |
-| N-2   | Taxonomy v2 — populate creator/consumer categories (writing…companion)                 | —         | ⬜     |
-| N-3   | Taxonomy v2 — populate verticals + frontier (support…robotics)                         | —         | ⬜     |
-| N-4   | Taxonomy v2 — align CLAUDE.md + docs + discover/audit routines                         | —         | ⬜     |
+| N-1   | Taxonomy v2 — +16 categories, one label map, hide empty chips (foundation)             | #117      | ✅     |
+| N-2/3 | Taxonomy v2 — populate all 16 new categories (+101 apps, 16 re-files)                  | #118      | ✅     |
+| N-4   | Taxonomy docs/routine alignment — _folded into Chunk O_                                | —         | ✅     |
+| O     | Listing enrichment — the "honest brief" (5 fields) + full backfill of all 388          | —         | 🟦     |
 
 ---
 
@@ -244,7 +244,7 @@ for the eventual revival (build it out with real AI apps / web apps / OSS over t
 
 ---
 
-## Iteration 6 — Directory taxonomy v2 (Chunk N) 🟦 in progress
+## Iteration 6 — Directory taxonomy v2 (Chunk N) ✅ complete
 
 **Goal**: make the category taxonomy all-encompassing and futureproof. The launch set of 23 was
 developer/infra-heavy (`ide, mcp, eval, vector-db, inference, fine-tuning, observability, …`) with
@@ -280,6 +280,29 @@ entries, `addedAt`/`lastVerifiedAt` = today). Per-chunk gate: `pnpm velite` (str
 / `lint` / `build` clean + responsive/a11y pass.
 
 Branches: `claude/directory-taxonomy-<slug>`.
+
+---
+
+## Iteration 7 — Listing enrichment (Chunk O) 🟦 in progress
+
+**Goal**: make every listing a _decision brief_, not just a description — owning the "honest,
+authoritative, AI-managed" positioning. Extends the editorial system (`insight` + `changelog`) with
+five optional, verifiable, durable fields and renders them on the detail page, then backfills all 388.
+
+**Fields** (schema in `lib/apps-schema.ts`; all optional, omit > fabricate): `edge` (≤120-char
+comparative one-liner — why pick this over peers) · `pros`/`cons` (grounded strengths / honest limits,
+the cons are the trust signal) · `bestFor` (use-case/audience tags) · `alternatives` (curated peer
+**slugs**, cross-validated in `velite.config.ts`'s `complete()` hook, upgrade the detail "Related"
+rail into "Alternatives to <name>") · `references` (third-party authoritative coverage —
+**verify-or-omit**, never the vendor's own pages). Deliberately **no** volatile quantitative metrics.
+
+**Delivered as one PR** (per request): schema + velite cross-ref validation + 5 detail-page UI sections
+(`app-detail.tsx`, curated-aware `related-rail.tsx`, `alternativeApps()` in `lib/apps.ts`) + routine/doc
+alignment (`add-app.md`, `audit-directory.md`, `discover-apps.md`, `CLAUDE.md` — also finishing the
+N-4 taxonomy doc fixes) + full backfill of 388 via parallel agents (patch-file → central merge so
+existing fields are never touched). Coverage: edge/pros/cons/bestFor 100%, alternatives ~385/388,
+references ~68 (best-effort, link-checked). Quality bar over completeness — fields omitted, never
+invented; one acquirer error (`lakera` Cisco→Check Point) corrected along the way.
 
 ---
 

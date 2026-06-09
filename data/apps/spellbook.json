@@ -16,9 +16,30 @@
   },
   "tags": ["legal", "contracts", "drafting", "word-addin", "review"],
   "links": [
-    { "kind": "website", "url": "https://www.spellbook.legal", "primary": true },
-    { "kind": "pricing", "url": "https://www.spellbook.legal/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.spellbook.legal",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.spellbook.legal/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Runs entirely as a Microsoft Word add-in, so drafting and redlining happen in the document lawyers already work in.",
+  "pros": [
+    "Native Microsoft Word add-in",
+    "Clause benchmarking + playbook review",
+    "Early generative-AI legal tool (2022)",
+    "Multi-model (GPT, Claude)"
+  ],
+  "cons": [
+    "Paid-only, no free tier",
+    "Tied to the Word workflow",
+    "Less suited to litigation/research"
+  ],
+  "bestFor": ["Transactional lawyers", "Contract drafting", "Redlining in Word"],
+  "alternatives": ["harvey", "legora", "legalon", "luminance"]
 }

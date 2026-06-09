@@ -28,5 +28,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Unmatched for art-directed, cinematic, editorial imagery — the aesthetic default when 'make it beautiful' is the brief.",
+  "pros": [
+    "Best-in-class cinematic aesthetics",
+    "V7 text rendering much improved",
+    "Rich style-reference vocabulary",
+    "Web app now alongside Discord"
+  ],
+  "cons": [
+    "No official API for automated pipelines",
+    "Can look obviously AI-polished",
+    "Opinionated house style limits control",
+    "Subscription-only, no real free tier"
+  ],
+  "bestFor": ["Concept art and key art", "Editorial illustration", "Cinematic mood boards"],
+  "alternatives": ["flux", "ideogram", "leonardo-ai", "recraft"]
 }

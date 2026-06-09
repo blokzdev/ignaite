@@ -27,5 +27,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Runs asynchronously in its own cloud sandbox aimed at whole tickets, not autocomplete — plans, codes, and opens a PR.",
+  "pros": [
+    "Autonomous, async whole-ticket work",
+    "Own sandbox: browser, terminal, editor",
+    "Submits PRs end-to-end",
+    "Good for long-horizon tasks"
+  ],
+  "cons": [
+    "Closed model and harness",
+    "Hosted-only, no self-host",
+    "Premium-priced",
+    "Reliability varies on complex tickets"
+  ],
+  "bestFor": ["Long-horizon tickets", "Async delegation", "Hands-off coding"],
+  "alternatives": ["factory-ai", "cline", "openhands", "jules"]
 }

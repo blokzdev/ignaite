@@ -31,5 +31,27 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Fully self-hostable open-source parser — grew from a pipeline built to parse ~600M pages of scientific literature.",
+  "pros": [
+    "Open-source, self-hostable pipeline",
+    "Layout analysis + OCR + semantic chunking",
+    "Outputs HTML, Markdown, or JSON",
+    "Free cloud tier (200 pages, no card)"
+  ],
+  "cons": [
+    "Accuracy below Reducto on hard layouts",
+    "Lighter compliance coverage than Unstructured",
+    "Smaller team / younger product"
+  ],
+  "bestFor": ["RAG document prep", "Self-hosted parsing"],
+  "alternatives": ["reducto", "unstructured", "docling", "nanonets"],
+  "references": [
+    {
+      "title": "Chunkr vs Reducto (2026): Features, Pricing & Verdict",
+      "url": "https://www.respan.ai/market-map/compare/chunkr-vs-reducto",
+      "source": "Respan",
+      "kind": "comparison"
+    }
+  ]
 }

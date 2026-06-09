@@ -29,5 +29,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "The app that mainstreamed generative AI — its custom-GPT store turned a chatbot into a third-party app platform.",
+  "pros": [
+    "Largest user base and ecosystem",
+    "Custom GPT store and tooling",
+    "Strong multimodal: voice, vision, web",
+    "Frequent frontier-model updates"
+  ],
+  "cons": [
+    "OpenAI models only",
+    "Best features gated to paid tiers",
+    "Usage limits on advanced models"
+  ],
+  "bestFor": ["General assistant use", "Broadest ecosystem"],
+  "alternatives": ["claude", "gemini", "grok", "perplexity"]
 }

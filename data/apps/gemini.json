@@ -24,5 +24,19 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Distribution is the moat — wired into Search, Gmail, Docs, and Android",
+  "pros": [
+    "Deep Workspace + Android integration",
+    "Very large context window",
+    "Strong multimodal + Deep Research",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Quality varies by surface and model tier",
+    "Privacy questions around account data",
+    "Best features gated to paid AI tiers"
+  ],
+  "bestFor": ["Google Workspace users", "Android users", "Multimodal research"],
+  "alternatives": ["chatgpt", "claude", "grok", "microsoft-copilot"]
 }

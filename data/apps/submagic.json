@@ -22,5 +22,20 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Billed per finished video, not per credit or source-minute, and auto-inserts context-matched B-roll, not just captions.",
+  "pros": [
+    "Per-video pricing, not credits",
+    "Auto B-roll matched to content",
+    "Captions in dozens of languages",
+    "Pulls clips from long video"
+  ],
+  "cons": [
+    "Web-only, no mobile editor",
+    "Less highlight-detection depth than rivals",
+    "B-roll picks need review",
+    "Watermark/limits on lower tiers"
+  ],
+  "bestFor": ["Short-form creators", "Reels/Shorts/TikTok", "Fast captioning"],
+  "alternatives": ["opus-clip", "captions", "heygen"]
 }

@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Built on OpenTelemetry by the Pydantic team",
+  "pros": [
+    "OpenTelemetry-based, portable traces",
+    "Open-source SDK (Python/JS/Rust)",
+    "Traces whole stack, not just LLM calls",
+    "Free tier covers 10M spans/month"
+  ],
+  "cons": [
+    "Hosted backend is proprietary",
+    "Newer than established APM tools",
+    "Less LLM-specific eval tooling"
+  ],
+  "bestFor": ["Full-stack tracing", "Python apps", "OTel-native teams"],
+  "alternatives": ["langfuse", "helicone", "langsmith", "traceloop"]
 }

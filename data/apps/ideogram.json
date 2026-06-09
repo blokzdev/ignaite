@@ -27,5 +27,27 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Best-in-class text-in-image rendering (~90% accuracy vs ~30-40% for Midjourney) — the pick when letters must be legible.",
+  "pros": [
+    "Industry-leading legible text in images",
+    "Typography and layout controls",
+    "Strong for logos, posters, social cards",
+    "Free tier to try"
+  ],
+  "cons": [
+    "Closed source, hosted only",
+    "Less photoreal than FLUX",
+    "Less cinematic than Midjourney"
+  ],
+  "bestFor": ["Posters and social graphics", "Logos and typography", "Text-heavy designs"],
+  "alternatives": ["midjourney", "flux", "recraft", "krea"],
+  "references": [
+    {
+      "title": "Midjourney vs Ideogram vs Flux: Which AI Image Platform Should You Use",
+      "url": "https://www.comparegen.ai/blog/midjourney-vs-ideogram-vs-flux-2026",
+      "source": "CompareGen.AI",
+      "kind": "comparison"
+    }
+  ]
 }

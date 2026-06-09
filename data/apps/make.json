@@ -30,5 +30,28 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Visual-canvas builder that handles branching, loops, and conditional routing Zapier's linear steps struggle with.",
+  "pros": [
+    "Expressive visual flow editor",
+    "2,500+ native integrations",
+    "Strong branching and routing",
+    "Cheaper per-operation than Zapier"
+  ],
+  "cons": [
+    "Steeper curve than Zapier",
+    "Complex scenarios get hard to debug",
+    "Fewer integrations than Zapier",
+    "Cloud-only (no self-host)"
+  ],
+  "bestFor": ["Power users", "Multi-step workflows", "Branchy automations"],
+  "alternatives": ["zapier", "n8n", "activepieces", "pipedream"],
+  "references": [
+    {
+      "title": "n8n vs Make vs Zapier: Which automation tool should you choose?",
+      "url": "https://www.digidop.com/blog/n8n-vs-make-vs-zapier",
+      "source": "Digidop",
+      "kind": "comparison"
+    }
+  ]
 }

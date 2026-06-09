@@ -10,7 +10,42 @@
   "vendor": "OpenEvidence",
   "platforms": ["web", "ios"],
   "tags": ["clinical-decision-support", "medical-search", "citations", "clinicians"],
-  "links": [{ "kind": "website", "url": "https://www.openevidence.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.openevidence.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Official AI partner of NEJM and JAMA, free for verified U.S. clinicians — answers cite journal-grade evidence.",
+  "pros": [
+    "Free for verified U.S. clinicians",
+    "Licensed NEJM/JAMA content partnerships",
+    "Answers cite primary evidence",
+    "Wide adoption among U.S. physicians"
+  ],
+  "cons": [
+    "Verified-clinician gate to access",
+    "Weak at targeted author/journal lookups",
+    "Curation process is opaque",
+    "Overreliance risk for trainees"
+  ],
+  "bestFor": ["Point-of-care lookups", "U.S. clinicians", "Evidence-based answers"],
+  "alternatives": ["consensus", "elicit", "scispace", "scite"],
+  "references": [
+    {
+      "title": "OpenEvidence: Most physicians quietly use this medical AI tool",
+      "url": "https://www.nbcnews.com/tech/tech-news/openevidence-ai-doctor-medical-physician-login-app-what-npi-uptodate-rcna341064",
+      "source": "NBC News",
+      "kind": "analysis"
+    },
+    {
+      "title": "OpenEvidence: Enhancing Medical Student Clinical Rotations With AI but With",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39897335/",
+      "source": "PubMed",
+      "kind": "analysis"
+    }
+  ]
 }

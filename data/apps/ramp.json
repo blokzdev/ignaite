@@ -15,9 +15,39 @@
   },
   "tags": ["fintech", "spend-management", "expenses", "agents", "accounts-payable"],
   "links": [
-    { "kind": "website", "url": "https://ramp.com", "primary": true },
-    { "kind": "website", "url": "https://ramp.com/intelligence", "label": "Ramp Intelligence" }
+    {
+      "kind": "website",
+      "url": "https://ramp.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://ramp.com/intelligence",
+      "label": "Ramp Intelligence"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Enforces policy proactively — blocks out-of-policy spend at swipe rather than catching it after the expense report.",
+  "pros": [
+    "Proactive at-swipe policy enforcement",
+    "Deep AP, card, and expense automation",
+    "Free core tier, no per-card fees",
+    "Strong accounting integrations"
+  ],
+  "cons": [
+    "US-centric; weaker for global/multi-entity",
+    "AI agents geared to finance, not general use",
+    "Best value tied to using Ramp's card"
+  ],
+  "bestFor": ["US startups & SMBs", "Finance teams", "Automating expense ops"],
+  "alternatives": ["brex", "digits", "puzzle"],
+  "references": [
+    {
+      "title": "Ramp vs Brex: Best Spend Management Platforms Compared",
+      "url": "https://www.techrepublic.com/article/ramp-vs-brex/",
+      "source": "TechRepublic",
+      "kind": "comparison"
+    }
+  ]
 }

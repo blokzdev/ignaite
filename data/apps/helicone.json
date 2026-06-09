@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Fastest setup in the category: change one base URL, no SDK, and the open-source proxy can be self-hosted.",
+  "pros": [
+    "One-line base-URL integration",
+    "Open source, self-hostable",
+    "Built-in caching and rate-limit handling",
+    "Multi-provider gateway"
+  ],
+  "cons": [
+    "Request/response focused, not span-based",
+    "Weaker multi-step agent tracing",
+    "Proxy adds a network hop",
+    "Lighter eval tooling than Langfuse"
+  ],
+  "bestFor": ["Quick cost/usage logging", "Self-hosted proxy setups"],
+  "alternatives": ["langfuse", "langsmith", "portkey", "lunary"]
 }

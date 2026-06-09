@@ -32,5 +32,23 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Pairs its Gen-series models with a real timeline editor and camera/motion controls, so client work lands here.",
+  "pros": [
+    "Full editor, not just a generator",
+    "Reference-driven control + Act-One",
+    "Clean 4K scaling",
+    "Longest-running studio in the space"
+  ],
+  "cons": ["Credits deplete fast on long clips", "Pricier than Pika/Luma per clip", "Web-only"],
+  "bestFor": ["Professional video work", "Client/brand content", "Precise creative control"],
+  "alternatives": ["pika", "luma-dream-machine", "kling", "sora"],
+  "references": [
+    {
+      "title": "Runway vs Luma vs Pika: Best AI Video Generator for 2025",
+      "url": "https://skywork.ai/blog/veo-3-1-vs-runway-vs-pika-vs-luma-2025-comparison/",
+      "source": "Skywork",
+      "kind": "comparison"
+    }
+  ]
 }

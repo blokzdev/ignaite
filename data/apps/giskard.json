@@ -32,5 +32,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Its Scan auto-generates adversarial suites mapped to the OWASP LLM Top-10 — framing eval as security red-teaming.",
+  "pros": [
+    "Open source (Apache-2.0)",
+    "Automatic vulnerability scan",
+    "Multi-turn red-teaming agents",
+    "Publishes the open Phare safety benchmark"
+  ],
+  "cons": [
+    "Python-library learning curve",
+    "Collaboration features are paid (Hub)",
+    "Less focused on production tracing"
+  ],
+  "bestFor": ["LLM red-teaming", "RAG testing", "Safety + compliance teams"],
+  "alternatives": ["promptfoo", "deepeval", "patronus-ai", "lakera"]
 }

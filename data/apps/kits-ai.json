@@ -27,5 +27,27 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Voice models are licensed directly from artists with revenue-share, not scraped — a rare ethics stance in voice cloning.",
+  "pros": [
+    "Ethically licensed artist voices with payouts",
+    "Singing and speaking voice conversion",
+    "Bundled stem split, mastering, vocal cleanup",
+    "Free plan plus tiered paid plans"
+  ],
+  "cons": [
+    "Cloned-voice quality reviews are mixed",
+    "Some report robotic or inconsistent output",
+    "Now owned by Splice (2025) — roadmap may shift"
+  ],
+  "bestFor": ["Musicians and producers", "Licensed voice covers"],
+  "alternatives": ["elevenlabs", "lalal-ai", "moises"],
+  "references": [
+    {
+      "title": "Splice acquires AI-powered voice production platform Kits AI",
+      "url": "https://www.musicbusinessworldwide.com/splice-acquires-ai-powered-voice-production-platform-kits-ai/",
+      "source": "Music Business Worldwide",
+      "kind": "analysis"
+    }
+  ]
 }

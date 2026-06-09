@@ -16,9 +16,30 @@
   },
   "tags": ["notes", "workspace", "agents", "meeting-notes"],
   "links": [
-    { "kind": "website", "url": "https://www.notion.com/product/ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.notion.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.notion.com/product/ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.notion.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Native to the workspace where your notes already live; Enterprise Search reaches into Slack, Drive, and GitHub.",
+  "pros": [
+    "Built into the Notion workspace",
+    "Q&A across pages + connected apps",
+    "AI meeting notes and custom agents",
+    "Multi-model picker"
+  ],
+  "cons": [
+    "Value depends on living in Notion",
+    "Add-on pricing on top of Notion seats",
+    "Search quality varies by workspace hygiene"
+  ],
+  "bestFor": ["Notion-centric teams", "Workspace Q&A", "In-context writing"],
+  "alternatives": ["mem", "glean", "reflect", "taskade"]
 }

@@ -31,5 +31,28 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Runs in-process on the disk-efficient Lance format — no server, no port, zero-copy reads; strong on multimodal data.",
+  "pros": [
+    "Embedded, in-process — no server to operate",
+    "Disk-efficient Lance format, low cost",
+    "Native multimodal (text, image, video)",
+    "Hybrid vector + full-text + SQL queries"
+  ],
+  "cons": [
+    "Newer; smaller community than Qdrant/Milvus",
+    "Managed cloud tier still maturing",
+    "Multi-process concurrent access limits",
+    "Fewer framework integrations, less tooling"
+  ],
+  "bestFor": ["Embedded RAG", "Edge/desktop apps", "Multimodal datasets"],
+  "alternatives": ["chroma", "qdrant", "pinecone", "milvus"],
+  "references": [
+    {
+      "title": "Vector Database Comparison 2026: ChromaDB vs Qdrant vs pgvector vs Pinecone vs",
+      "url": "https://4xxi.com/articles/vector-database-comparison/",
+      "source": "4xxi",
+      "kind": "comparison"
+    }
+  ]
 }

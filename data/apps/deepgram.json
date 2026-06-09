@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Tuned for messy real-world audio (accents, phone lines, overlapping speakers) where general transcribers fall apart.",
+  "pros": [
+    "Strong on accented/telephony audio",
+    "Real-time streaming + batch",
+    "Diarization and language detection",
+    "Low latency"
+  ],
+  "cons": [
+    "API-only, no end-user app",
+    "Proprietary Nova models",
+    "English strongest, other langs vary"
+  ],
+  "bestFor": ["Production STT", "Telephony transcription"],
+  "alternatives": ["assemblyai", "elevenlabs", "cartesia", "speechify"]
 }

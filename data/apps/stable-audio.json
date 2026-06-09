@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Trained on AudioSparx-licensed music, pitched as commercially clean",
+  "pros": [
+    "Music + sound-effects generation",
+    "Trained on licensed data",
+    "Web studio plus generation API",
+    "Backed by Stability AI"
+  ],
+  "cons": [
+    "Vocals weaker than song-first rivals",
+    "Free tier limits length/generations",
+    "Commercial use needs subscription"
+  ],
+  "bestFor": ["Sound effects", "Licensed-data music", "API audio generation"],
+  "alternatives": ["suno", "sonauto", "riffusion", "soundraw"]
 }

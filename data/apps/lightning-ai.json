@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "From the PyTorch Lightning team — Studios are persistent GPU workspaces you pause and resume, not throwaway notebooks.",
+  "pros": [
+    "Persistent GPU Studios",
+    "From PyTorch Lightning makers",
+    "Pause/resume workspaces",
+    "Monthly free GPU credits"
+  ],
+  "cons": [
+    "Pay-as-you-go can add up",
+    "Tied to its Studio environment",
+    "Less raw control than bare cloud"
+  ],
+  "bestFor": ["Model training", "Collaborative ML dev", "PyTorch teams"],
+  "alternatives": ["modal", "runpod", "baseten", "daytona"]
 }

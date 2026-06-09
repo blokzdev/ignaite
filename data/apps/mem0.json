@@ -32,5 +32,20 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Fastest path to agent memory — extracts distilled facts with a tiny token footprint and the biggest community.",
+  "pros": [
+    "Quick to adopt, broad framework integrations",
+    "Stores distilled facts, small footprint",
+    "Vector + graph + key-value storage",
+    "Open-source with usable free tier"
+  ],
+  "cons": [
+    "Weaker on temporal/state-change queries",
+    "LLM call on every write adds latency",
+    "Test deletion/conflict handling for regulated use",
+    "More library than full memory server"
+  ],
+  "bestFor": ["Chatbot personalization", "Long-term user profiles", "Fast memory integration"],
+  "alternatives": ["zep", "letta", "memobase", "supermemory"]
 }

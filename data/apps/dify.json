@@ -31,5 +31,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "Bundles a workflow builder, RAG, and observability into one self-hostable platform spanning hundreds of models.",
+  "pros": [
+    "Drag-and-drop workflow builder",
+    "RAG + agents + observability in one",
+    "Self-hostable for free",
+    "Connects hundreds of models"
+  ],
+  "cons": [
+    "License is source-available, not OSI",
+    "Visual builder limits complex logic",
+    "Self-host ops overhead",
+    "Cloud tiers needed for scale"
+  ],
+  "bestFor": ["LLM app prototyping", "RAG pipelines", "Self-hosted LLMOps"],
+  "alternatives": ["flowise", "n8n", "langchain", "langgraph"]
 }

@@ -29,5 +29,15 @@
       "kind": "fixed",
       "summary": "Recategorized from agent to the new support category for customer-support agents."
     }
-  ]
+  ],
+  "edge": "Prices per conversation or resolution, not per seat, and lets ops teach agents via natural-language procedures.",
+  "pros": [
+    "Outcome-based pricing",
+    "Natural-language Agent Operating Procedures",
+    "Chat, email, and voice",
+    "Takes actions, not just answers"
+  ],
+  "cons": ["Enterprise sales-only", "Setup and tuning required", "Model choice abstracted away"],
+  "bestFor": ["Enterprise support deflection", "Action-taking agents"],
+  "alternatives": ["sierra", "intercom-fin", "maven-agi", "forethought"]
 }

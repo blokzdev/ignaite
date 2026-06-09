@@ -26,5 +26,21 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Assembles a finished podcast — script, AI voices, music and SFX — from a doc or URL, not just plain text-to-speech.",
+  "pros": [
+    "End-to-end podcast/audiobook production",
+    "Hundreds of voices, dozens of languages",
+    "Voice cloning supported",
+    "Timeline editor for revisions",
+    "Free individual tier"
+  ],
+  "cons": [
+    "Output can sound templated",
+    "Music/SFX library is finite",
+    "Best results need editing",
+    "Pricier than raw TTS at scale"
+  ],
+  "bestFor": ["Podcast creators", "Audiobook producers", "Audio ad makers"],
+  "alternatives": ["elevenlabs", "descript", "adobe-podcast", "speechify"]
 }

@@ -30,5 +30,19 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Bundles trace observability with Scenario agent-simulation testing, not just passive production monitoring.",
+  "pros": [
+    "Agent simulation testing built in",
+    "Open source + self-hostable",
+    "Evals alongside tracing",
+    "Data-residency options"
+  ],
+  "cons": [
+    "Smaller community than peers",
+    "Younger, evolving product",
+    "Fewer integrations than LangSmith"
+  ],
+  "bestFor": ["Agent testing teams", "Self-hosted observability", "Eval-driven dev"],
+  "alternatives": ["langfuse", "langsmith", "opik", "helicone"]
 }

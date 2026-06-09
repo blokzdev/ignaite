@@ -21,5 +21,20 @@
     }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Its Spark.E tutor is grounded only in your uploaded materials — answers from your syllabus, not the open web.",
+  "pros": [
+    "Grounded in your own uploads",
+    "Turns materials into flashcards/quizzes",
+    "Voice and chat tutoring",
+    "Mobile apps for iOS/Android"
+  ],
+  "cons": [
+    "Free tier caps chats and uploads",
+    "Answer quality bound by upload quality",
+    "Best tools behind paywall",
+    "Narrower than general AI tutors"
+  ],
+  "bestFor": ["Students", "Exam prep", "Course-material study"],
+  "alternatives": ["quizlet", "khanmigo", "magicschool-ai", "notebooklm"]
 }

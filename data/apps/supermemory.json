@@ -31,5 +31,19 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "MIT-licensed memory engine you self-host or call as a managed API — one recall endpoint across any model.",
+  "pros": [
+    "MIT-licensed, self-host or managed",
+    "Single recall API across any model",
+    "Connectors: Drive, Gmail, Notion",
+    "Ships MCP server and SDKs"
+  ],
+  "cons": [
+    "Younger project, evolving API",
+    "Smaller track record than peers",
+    "Self-hosting needs infra work"
+  ],
+  "bestFor": ["Agent long-term memory", "Self-hosted teams", "Multi-model apps"],
+  "alternatives": ["mem0", "zep", "letta", "cognee"]
 }

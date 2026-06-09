@@ -27,5 +27,19 @@
     }
   ],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01"
+  "lastVerifiedAt": "2026-06-01",
+  "edge": "Fast, mobile-first text/image-to-video with keyframe controls — the speed pick for many quick variations.",
+  "pros": [
+    "Fast generations",
+    "Strong image-to-video and morphing",
+    "Keyframe controls",
+    "iOS app plus web"
+  ],
+  "cons": [
+    "Less granular control than Runway",
+    "Shorter clips than Kling",
+    "Human realism trails Kling"
+  ],
+  "bestFor": ["Indie creators", "Quick variations", "Mobile-first workflows"],
+  "alternatives": ["runway", "kling", "pika", "sora"]
 }

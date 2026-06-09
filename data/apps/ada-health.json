@@ -10,7 +10,27 @@
   "vendor": "Ada Health GmbH",
   "platforms": ["web", "ios", "android"],
   "tags": ["symptom-checker", "triage", "consumer-health", "wellness"],
-  "links": [{ "kind": "website", "url": "https://ada.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ada.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Triages against a physician-built medical knowledge base rather than a general LLM, and it's free.",
+  "pros": [
+    "Free to use",
+    "Physician-built knowledge base, not a raw LLM",
+    "Structured Q&A with urgency guidance",
+    "Mobile and web apps"
+  ],
+  "cons": [
+    "Triage aid only, not a diagnosis",
+    "Consumer-facing, no clinical integration",
+    "Possible-cause output can over- or under-flag"
+  ],
+  "bestFor": ["Self-triage", "Consumer symptom checks"],
+  "alternatives": ["k-health", "wysa", "openevidence"]
 }

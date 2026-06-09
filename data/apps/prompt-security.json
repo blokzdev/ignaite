@@ -15,9 +15,30 @@
   },
   "tags": ["genai-security", "shadow-ai", "data-leak-prevention", "prompt-injection"],
   "links": [
-    { "kind": "website", "url": "https://www.prompt.security", "primary": true },
-    { "kind": "docs", "url": "https://docs.prompt.security" }
+    {
+      "kind": "website",
+      "url": "https://www.prompt.security",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.prompt.security"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Covers both employee GenAI use (shadow-AI visibility) and homegrown LLM apps in one runtime layer",
+  "pros": [
+    "Shadow-AI visibility for employee tools",
+    "Runtime data-leak and injection defense",
+    "Covers both usage and homegrown apps",
+    "Part of SentinelOne Singularity platform"
+  ],
+  "cons": [
+    "Enterprise, paid-only pricing",
+    "Roadmap tied to SentinelOne integration",
+    "Heavier than a single-purpose API guard"
+  ],
+  "bestFor": ["Enterprises", "Shadow-AI governance", "GenAI data protection"],
+  "alternatives": ["lakera", "pangea", "protect-ai", "lasso-security"]
 }

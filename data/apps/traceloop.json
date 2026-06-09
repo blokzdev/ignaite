@@ -30,5 +30,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Pure OpenTelemetry: OpenLLMetry emits standard OTel spans, so traces flow to Datadog/Honeycomb, not a locked-in store.",
+  "pros": [
+    "Built on open OpenTelemetry standard",
+    "OpenLLMetry SDK is open source",
+    "Exports to any OTel backend",
+    "No proprietary data lock-in",
+    "Instruments LLM, vector-DB, frameworks"
+  ],
+  "cons": [
+    "Hosted dashboard less rich than rivals",
+    "Relies on your existing OTel stack",
+    "Smaller eval tooling than competitors"
+  ],
+  "bestFor": ["OTel-native teams", "Avoiding vendor lock-in", "Existing observability stacks"],
+  "alternatives": ["langfuse", "helicone", "langsmith", "arize-phoenix"]
 }

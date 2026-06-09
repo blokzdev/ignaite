@@ -24,5 +24,20 @@
     }
   ],
   "addedAt": "2026-06-06",
-  "lastVerifiedAt": "2026-06-06"
+  "lastVerifiedAt": "2026-06-06",
+  "edge": "A polished consumer assistant whose underlying Kimi K2 model ships as open weights you can self-host.",
+  "pros": [
+    "Built on open-weight Kimi K2 models",
+    "Very long context window",
+    "Deep Research and agent mode",
+    "Free tier available"
+  ],
+  "cons": [
+    "China-based, data-residency concerns",
+    "English UX less polished than rivals",
+    "Smaller ecosystem than ChatGPT/Gemini",
+    "Availability varies by region"
+  ],
+  "bestFor": ["Long-context chat", "Open-weight model fans", "Deep research tasks"],
+  "alternatives": ["deepseek", "chatgpt", "gemini", "grok"]
 }

@@ -28,5 +28,21 @@
     }
   ],
   "addedAt": "2026-06-07",
-  "lastVerifiedAt": "2026-06-07"
+  "lastVerifiedAt": "2026-06-07",
+  "edge": "Pivoted to enterprise research: its ARI agent synthesizes cited reports over hundreds of sources, priced per report.",
+  "pros": [
+    "Multi-model chat (OpenAI, Anthropic, Google)",
+    "ARI deep-research agent",
+    "Cited reports over many sources",
+    "Search and Research APIs",
+    "Per-report pricing"
+  ],
+  "cons": [
+    "Consumer focus de-emphasized",
+    "Crowded enterprise-research market",
+    "Smaller brand than Perplexity",
+    "API pricing opacity"
+  ],
+  "bestFor": ["Enterprise research", "Cited report generation", "Developer search APIs"],
+  "alternatives": ["perplexity", "exa", "tavily", "felo"]
 }

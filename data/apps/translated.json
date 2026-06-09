@@ -16,10 +16,34 @@
   },
   "tags": ["translation", "machine-translation", "adaptive", "open-source"],
   "links": [
-    { "kind": "website", "url": "https://www.modernmt.com", "primary": true },
-    { "kind": "github", "url": "https://github.com/modernmt/modernmt" },
-    { "kind": "pricing", "url": "https://www.modernmt.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.modernmt.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/modernmt/modernmt"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.modernmt.com/pricing"
+    }
   ],
   "addedAt": "2026-06-09",
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "edge": "Adaptive NMT that learns from your corrections in real time without retraining — and the core engine is Apache-2.0.",
+  "pros": [
+    "Open-source ModernMT core, self-hostable",
+    "Adapts to corrections without retraining",
+    "Translation-memory and context aware",
+    "Hosted Hyper Adaptive managed option"
+  ],
+  "cons": [
+    "Fewer languages than DeepL/Google",
+    "Self-hosting needs ML/ops effort",
+    "Quality varies by domain corpus"
+  ],
+  "bestFor": ["Adaptive custom-domain MT", "Self-hosted translation", "Localization with TM reuse"],
+  "alternatives": ["deepl", "smartcat", "lokalise", "smartling"]
 }

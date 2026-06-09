@@ -35,5 +35,20 @@
     }
   ],
   "addedAt": "2026-06-08",
-  "lastVerifiedAt": "2026-06-08"
+  "lastVerifiedAt": "2026-06-08",
+  "edge": "Bundles prompt versioning, A/B tests, and human review with tracing — fast zero-to-observability for RAG/chatbots.",
+  "pros": [
+    "Apache-2.0, self-hostable",
+    "Prompt versioning + A/B testing",
+    "Human-in-the-loop review and scoring",
+    "Quick setup for RAG/chatbot apps"
+  ],
+  "cons": [
+    "Evaluation features minimal/early-stage",
+    "Less mature than Langfuse",
+    "Smaller community",
+    "Narrower than full lifecycle platforms"
+  ],
+  "bestFor": ["RAG and chatbot monitoring", "Prompt management teams", "Self-hosted observability"],
+  "alternatives": ["langfuse", "helicone", "langsmith", "opik"]
 }
