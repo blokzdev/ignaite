@@ -1,0 +1,53 @@
+{
+  "slug": "chatgpt-atlas",
+  "name": "ChatGPT Atlas",
+  "tagline": "OpenAI's web browser with ChatGPT built in — sidebar, memories, and agent mode.",
+  "description": "OpenAI's Chromium-based web browser with ChatGPT woven through it: a sidebar that can summarize, compare, and answer questions about any page, optional browser memories that carry context across sessions, and an agent mode that navigates sites and completes multi-step tasks on your behalf. It launched on macOS in October 2025, with Windows, iOS, and Android versions announced. Free with any ChatGPT account; agent mode requires a paid plan.",
+  "insight": "OpenAI's first web browser; in March 2026 OpenAI said it will fold Atlas, the ChatGPT desktop app, and Codex into one application.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "OpenAI",
+  "platforms": ["macos"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Runs on OpenAI's ChatGPT models; capability follows your ChatGPT plan."
+  },
+  "tags": ["browser", "ai-assistant", "agentic", "chatgpt"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://chatgpt.com/atlas/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "No browser ties deeper into ChatGPT — your existing account brings memories, chat history, and agent mode to every page without a separate assistant.",
+  "pros": [
+    "ChatGPT sidebar on every page",
+    "Browser memories carry context",
+    "Agent mode automates web tasks",
+    "Familiar Chromium foundation"
+  ],
+  "cons": [
+    "macOS only so far",
+    "Agent mode needs a paid plan",
+    "Closed source",
+    "Prompt-injection risks under scrutiny"
+  ],
+  "bestFor": ["ChatGPT power users", "macOS users", "Agentic web tasks"],
+  "alternatives": ["comet", "dia", "chatgpt"],
+  "references": [
+    {
+      "title": "OpenAI launches ChatGPT Atlas AI browser on macOS",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-launches-chatgpt-atlas-ai-browser-llm-can-browse-the-internet-for-you-and-even-complete-tasks-initial-release-for-macos-with-windows-ios-and-android-to-follow-soon-after",
+      "source": "Tom's Hardware"
+    },
+    {
+      "title": "ChatGPT Atlas",
+      "url": "https://en.wikipedia.org/wiki/ChatGPT_Atlas",
+      "source": "Wikipedia"
+    }
+  ]
+}
