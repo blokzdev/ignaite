@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { App } from "@/types/app";
 import { cn } from "@/lib/utils";
@@ -13,8 +13,20 @@ interface Props {
 }
 
 const GAP = 20; // gap-5
-const MAX_ITEMS = 14; // widest responsive count (xl); pools are built to this, then sliced per breakpoint.
+const RECENT_WINDOW = 30; // recently-added pool: shuffle the N newest so the rail stays a fresh sample.
 type RailMode = "featured" | "recent";
+
+// Fisher-Yates on a copy. Called only from client-only `useState` initializers
+// (the carousel renders behind the homepage CSR boundary), so Math.random never
+// runs on the server → no hydration mismatch.
+function shuffle<T>(arr: ReadonlyArray<T>): T[] {
+  const out = arr.slice();
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
 
 export function FeaturedCarousel({ apps }: Readonly<Props>) {
   const reduced = useReducedMotion();
@@ -30,26 +42,24 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
   const xl = useMediaQuery("(min-width: 1280px)");
   const count = xl ? 14 : lg ? 12 : md ? 10 : sm ? 8 : 6;
 
-  // Two rails behind one segmented toggle: a random shuffle of the curated
-  // `featured` apps (chosen once per mount, fresh each visit), and the most-
-  // recently-added listings (kept current by the weekly discover-apps routine).
-  // The toggle is ephemeral local state — a view switch, not URL filter state. The
-  // carousel renders client-only (behind the homepage's Suspense CSR boundary), so
-  // the lazy initializer never runs on the server → no hydration mismatch from
-  // Math.random(), and useMediaQuery's server snapshot is never observed.
-  const [shuffledFeatured] = useState<ReadonlyArray<App>>(() => {
-    const pool = apps.filter((a) => a.featured);
-    for (let i = pool.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [pool[i], pool[j]] = [pool[j], pool[i]];
-    }
-    return pool;
-  });
-  const recentPool = useMemo(() => recentApps(apps, MAX_ITEMS), [apps]);
+  // Two rails behind one segmented toggle, both shuffled once per mount so each
+  // visit is a fresh sample (non-stale discovery): the curated `featured` set, and
+  // a shuffle of the RECENT_WINDOW most-recently-added listings (date-based, kept
+  // current by the weekly discover-apps routine). The toggle is ephemeral local
+  // state — a view switch, not URL filter state. The carousel renders client-only
+  // (behind the homepage's Suspense CSR boundary), so the lazy initializers never
+  // run on the server → no hydration mismatch from Math.random(), and
+  // useMediaQuery's server snapshot is never observed.
+  const [shuffledFeatured] = useState<ReadonlyArray<App>>(() =>
+    shuffle(apps.filter((a) => a.featured)),
+  );
+  const [shuffledRecent] = useState<ReadonlyArray<App>>(() =>
+    shuffle(recentApps(apps, RECENT_WINDOW)),
+  );
   const [mode, setMode] = useState<RailMode>(() =>
     apps.some((a) => a.featured) ? "featured" : "recent",
   );
-  const items = (mode === "featured" ? shuffledFeatured : recentPool).slice(0, count);
+  const items = (mode === "featured" ? shuffledFeatured : shuffledRecent).slice(0, count);
 
   const scrollerRef = useRef<HTMLUListElement | null>(null);
   const [canLeft, setCanLeft] = useState(false);

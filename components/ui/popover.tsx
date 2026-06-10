@@ -18,7 +18,7 @@ const PopoverContent = React.forwardRef<
       align={align}
       sideOffset={sideOffset}
       className={cn(
-        "z-[var(--z-overlay)] w-72 rounded-2xl bg-[var(--color-surface)] p-4 text-[var(--color-ink)] shadow-2xl ring-1 ring-white/[0.08] ring-inset",
+        "z-overlay w-72 rounded-2xl bg-[var(--color-surface)] p-4 text-[var(--color-ink)] shadow-2xl ring-1 ring-white/[0.08] ring-inset",
         "transition-opacity data-[state=closed]:opacity-0",
         "origin-[var(--radix-popover-content-transform-origin)]",
         className,

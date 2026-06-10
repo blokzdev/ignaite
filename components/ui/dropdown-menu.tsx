@@ -11,7 +11,7 @@ const DropdownMenuRadioGroup = DropdownMenuPrimitive.RadioGroup;
 const DropdownMenuSub = DropdownMenuPrimitive.Sub;
 
 const menuSurface =
-  "z-[var(--z-overlay)] min-w-[10rem] overflow-hidden rounded-xl bg-[var(--color-surface)] p-1.5 text-[var(--color-ink)] shadow-2xl ring-1 ring-white/[0.08] ring-inset transition-opacity data-[state=closed]:opacity-0";
+  "z-overlay min-w-[10rem] overflow-hidden rounded-xl bg-[var(--color-surface)] p-1.5 text-[var(--color-ink)] shadow-2xl ring-1 ring-white/[0.08] ring-inset transition-opacity data-[state=closed]:opacity-0";
 
 const itemBase =
   "relative flex cursor-pointer select-none items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm outline-none transition-colors focus:bg-white/[0.06] data-[disabled]:pointer-events-none data-[disabled]:opacity-50";
