@@ -53,8 +53,8 @@ export default function HomePage() {
             AI Apps Directory
           </h1>
           <p className="mt-4 text-lg sm:text-xl">
-            <span className="text-display text-[var(--color-ink-soft)]">Find the</span>{" "}
-            <span className="text-display text-[var(--color-accent)]">right AI app.</span>
+            <span className="text-display text-[var(--color-ink-soft)]">The signal,</span>{" "}
+            <span className="text-display text-[var(--color-accent)]">not the hype.</span>
           </p>
           <HeroStats total={total} categories={categories} />
         </div>

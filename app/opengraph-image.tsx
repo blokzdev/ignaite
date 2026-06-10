@@ -7,7 +7,7 @@ export const alt = "Ignaite — the AI apps directory.";
 export default function Image() {
   return renderOgImage({
     eyebrow: "// AI apps directory",
-    titleA: "Find the",
-    titleB: "right AI app.",
+    titleA: "The signal,",
+    titleB: "not the hype.",
   });
 }
