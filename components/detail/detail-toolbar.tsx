@@ -14,16 +14,18 @@ interface Props {
 // collapses to 0 when the auto-hiding nav slides away (globals.css zeroes
 // --nav-h), so the bar still reclaims the top edge.
 //
-// State-aware back crumb + copy. No search button — the header burger (and ⌘K
-// on desktop) own search; a toolbar search duplicated that single trigger. The
-// crumb's first segment reflects where the visitor came from (search / filter /
-// directory) and returns there via real history. See <BackCrumb>.
+// State-aware back crumb + an icon-only copy button. No search button — the
+// header burger (and ⌘K on desktop) own search; a toolbar search duplicated that
+// single trigger. The crumb's first segment reflects where the visitor came from
+// (search / category / filter / directory) and returns there via real history;
+// its trail scrolls between the fixed round back button and the copy button. See
+// <BackCrumb>.
 export function DetailToolbar({ appName, shareUrl }: Readonly<Props>) {
   return (
     <div className="sticky top-[min(var(--nav-h),var(--nav-row-h))] z-30 h-[var(--detail-toolbar-h)] border-b border-white/[0.06] bg-[var(--color-canvas)]/85 backdrop-blur-xl">
-      <div className="mx-auto flex h-full max-w-6xl items-center justify-between gap-3 px-6">
+      <div className="mx-auto flex h-full max-w-6xl items-center gap-3 px-6">
         <BackCrumb appName={appName} />
-        <CopyLinkButton url={shareUrl} />
+        <CopyLinkButton url={shareUrl} iconOnly />
       </div>
     </div>
   );

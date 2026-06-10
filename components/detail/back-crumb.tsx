@@ -1,8 +1,9 @@
 "use client";
-import { useMemo, type MouseEvent } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, ChevronRight, Home, LayoutGrid, Search, SlidersHorizontal } from "lucide-react";
+import { cn } from "@/lib/utils";
 import {
   describeDirectoryReturn,
   useInAppNav,
@@ -31,14 +32,15 @@ function ariaFor(kind: DirectoryReturn["kind"], label: string): string {
   }
 }
 
-// The detail toolbar's state-aware breadcrumb: `← {glyph} {source} › {app}`. The
-// first segment reflects where the visitor came from via a small type-glyph +
-// label (search term / category / joined filters), or just the home glyph for
-// the bare directory. The back group is a real <Link> to those results (no-JS /
-// new-tab safe, filters intact), but when the visitor arrived in-app it
-// intercepts the click and calls router.back() so Next restores the cached
-// results EXACTLY. The trail is horizontally scrollable so a long filter set +
-// app name stay fully viewable; the back affordance is the first thing visible.
+// The detail toolbar's state-aware breadcrumb. A FIXED round back button on the
+// left (always visible + tappable, balancing the Copy-link button on the right)
+// + a horizontally-scrollable descriptive trail `{glyph} {source} › {app}`. The
+// button is a real <Link> to the saved results (no-JS / new-tab safe, filters
+// intact) but intercepts in-app clicks to call router.back(), which restores the
+// cached results EXACTLY (scroll + filters). The trail shows where you came from
+// via a type-glyph + label (search term / category / joined filters), or just a
+// home glyph for the bare directory, and fades on whichever side has hidden
+// content — a scroll cue that, with the button now separate, never clips it.
 export function BackCrumb({ appName }: Readonly<{ appName: string }>) {
   const router = useRouter();
   const raw = useSavedDirectoryQuery();
@@ -46,7 +48,32 @@ export function BackCrumb({ appName }: Readonly<{ appName: string }>) {
   const { kind, label, href } = useMemo(() => describeDirectoryReturn(raw), [raw]);
   const Glyph = GLYPH[kind];
 
-  const onClick = (e: MouseEvent<HTMLAnchorElement>) => {
+  // Dynamic edge fade — fade only the side(s) with hidden content.
+  const ref = useRef<HTMLDivElement>(null);
+  const [canLeft, setCanLeft] = useState(false);
+  const [canRight, setCanRight] = useState(false);
+  const update = useCallback(() => {
+    const el = ref.current;
+    if (!el) return;
+    setCanLeft(el.scrollLeft > 4);
+    setCanRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 4);
+  }, []);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    el.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      el.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, [update]);
+  // Re-measure once the smart label resolves post-hydration (and on content change).
+  useEffect(() => {
+    update();
+  }, [update, kind, label, appName]);
+
+  const onBack = (e: MouseEvent<HTMLAnchorElement>) => {
     // Plain click only (let modifier/middle clicks open the href normally).
     if (inApp && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button === 0) {
       e.preventDefault();
@@ -55,27 +82,40 @@ export function BackCrumb({ appName }: Readonly<{ appName: string }>) {
   };
 
   return (
-    <nav aria-label="Breadcrumb" className="no-scrollbar min-w-0 flex-1 overflow-x-auto">
-      <ol className="flex w-max items-center gap-1.5 font-mono text-[11px] tracking-[0.08em] uppercase">
-        <li className="flex shrink-0 items-center gap-1.5">
-          <Link
-            href={href}
-            onClick={onClick}
-            aria-label={ariaFor(kind, label)}
-            className="inline-flex shrink-0 items-center gap-1.5 rounded-sm text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-          >
-            <ArrowLeft aria-hidden className="h-3.5 w-3.5 shrink-0" />
+    <nav aria-label="Breadcrumb" className="flex min-w-0 flex-1 items-center gap-2">
+      <Link
+        href={href}
+        onClick={onBack}
+        aria-label={ariaFor(kind, label)}
+        className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+      >
+        <ArrowLeft aria-hidden className="h-3.5 w-3.5" />
+      </Link>
+
+      <div
+        ref={ref}
+        className={cn(
+          "no-scrollbar min-w-0 flex-1 overflow-x-auto",
+          canLeft && canRight && "scroll-fade-x",
+          !canLeft && canRight && "scroll-fade-r",
+          canLeft && !canRight && "scroll-fade-l",
+        )}
+      >
+        <ol className="flex w-max items-center gap-1.5 font-mono text-[11px] tracking-[0.08em] uppercase">
+          <li className="flex shrink-0 items-center gap-1.5 text-[var(--color-ink-dim)]">
             <Glyph aria-hidden className="h-3 w-3 shrink-0 opacity-70" />
             {kind !== "directory" && <span className="whitespace-nowrap">{label}</span>}
-          </Link>
-          <ChevronRight aria-hidden className="h-3 w-3 shrink-0 text-[var(--color-ink-dim)]" />
-        </li>
-        <li className="flex shrink-0">
-          <span aria-current="page" className="whitespace-nowrap text-[var(--color-ink)]">
-            {appName}
-          </span>
-        </li>
-      </ol>
+          </li>
+          <li className="flex shrink-0">
+            <ChevronRight aria-hidden className="h-3 w-3 text-[var(--color-ink-dim)]" />
+          </li>
+          <li className="flex shrink-0">
+            <span aria-current="page" className="whitespace-nowrap text-[var(--color-ink)]">
+              {appName}
+            </span>
+          </li>
+        </ol>
+      </div>
     </nav>
   );
 }
