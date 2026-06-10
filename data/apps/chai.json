@@ -1,0 +1,49 @@
+{
+  "slug": "chai",
+  "insight": "Valued at $450M after CoreWeave invested in 2024; its in-house models descend from EleutherAI's open-source GPT-J.",
+  "name": "CHAI",
+  "tagline": "Mobile-first social AI platform for chatting with user-created characters.",
+  "description": "CHAI is a consumer platform where anyone can create, publish, and chat with AI characters — a crowdsourced library of 500,000+ personalities spanning roleplay, stories, and companionship. Founded in 2021 by ex-quant William Beauchamp, it runs proprietary models tuned for entertaining, social conversation rather than factual assistance, and reached $70M in annual revenue in 2026 with over a million daily active users.",
+  "category": "companion",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Chai Research",
+  "platforms": ["ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary in-house dialogue models tuned for social conversation."
+  },
+  "tags": ["companion", "characters", "roleplay", "chat"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.chai-research.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 442,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "A 500,000+ user-created character library with models tuned for entertaining conversation rather than assistant-style accuracy.",
+  "pros": [
+    "Huge user-created character library",
+    "Free ad-supported tier",
+    "Models tuned for engaging dialogue",
+    "Large, active creator community"
+  ],
+  "cons": [
+    "Mobile-only — web app still unreleased",
+    "Past safety controversies",
+    "2026 token limits frustrated users",
+    "Not built for factual accuracy"
+  ],
+  "bestFor": ["Casual AI roleplay", "Character creators", "Entertainment chat"],
+  "alternatives": ["character-ai", "talkie", "replika", "kindroid"],
+  "references": [
+    {
+      "title": "Chai AI",
+      "url": "https://en.wikipedia.org/wiki/Chai_AI",
+      "source": "Wikipedia"
+    }
+  ]
+}

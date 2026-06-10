@@ -1,0 +1,43 @@
+{
+  "slug": "dropzone-ai",
+  "insight": "Raised a $37M Series B led by Theory Ventures in 2025 — backers include In-Q-Tel — for $57M+ total funding.",
+  "name": "Dropzone AI",
+  "tagline": "AI SOC analysts that autonomously investigate and triage security alerts 24/7.",
+  "description": "Dropzone AI puts autonomous AI analysts inside the security operations center: agents that investigate alerts end-to-end across phishing, endpoint, network, cloud, identity, and insider-threat domains without a human in the critical path. It connects to existing tools like Splunk, CrowdStrike, Microsoft Defender, and AWS Security Hub via API, deploying in about an hour, and reports 300+ deployments including UiPath and Zapier.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Dropzone AI",
+  "platforms": ["web"],
+  "tags": ["soc", "alert-triage", "security-operations", "agentic"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.dropzone.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 445,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Ships pre-trained AI SOC analysts that investigate alerts end-to-end out of the box — no playbooks or detection rules to author first.",
+  "pros": [
+    "Autonomous end-to-end investigations",
+    "Integrates Splunk, CrowdStrike, Defender",
+    "Deploys in about an hour via APIs",
+    "300+ deployments incl. UiPath, Zapier"
+  ],
+  "cons": [
+    "Enterprise pricing (from ~$36k/year)",
+    "Cloud SaaS only — no self-host option",
+    "Humans still review containment actions"
+  ],
+  "bestFor": ["Lean SOC teams", "MSSPs", "Alert triage at scale"],
+  "references": [
+    {
+      "title": "Dropzone AI Raises $37 Million for Autonomous SOC Analyst",
+      "url": "https://www.securityweek.com/dropzone-ai-raises-37-million-for-autonomous-soc-analyst/",
+      "source": "SecurityWeek"
+    }
+  ]
+}

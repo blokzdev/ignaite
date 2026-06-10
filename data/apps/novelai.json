@@ -1,0 +1,47 @@
+{
+  "slug": "novelai",
+  "insight": "Run by Anlatan with no outside VC — funded entirely by subscriptions; its 2026 Xialong model is a GLM-4.6 storytelling fine-tune.",
+  "name": "NovelAI",
+  "tagline": "Subscription AI storyteller and anime image generator with encrypted stories.",
+  "description": "NovelAI is a subscription platform for AI-assisted fiction writing and anime-style image generation, built around Anlatan's own storytelling models rather than general-purpose assistants. Paid tiers include unlimited text generation with adjustable context sizes, plus Anlas credits for its NAI Diffusion image models. Stories are stored end-to-end encrypted, so only the author can read them.",
+  "category": "writing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Anlatan",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Kayra", "Erato", "Xialong"],
+    "notes": "Proprietary in-house storytelling and anime image models."
+  },
+  "tags": ["storytelling", "fiction", "anime", "image-gen"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://novelai.net",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.novelai.net"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 443,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Unlimited text generation on every paid tier plus anime-focused image models, with stories stored end-to-end encrypted.",
+  "pros": [
+    "Unlimited text gens on all paid tiers",
+    "End-to-end encrypted story storage",
+    "Anime image generation included",
+    "Trains its own storytelling models"
+  ],
+  "cons": [
+    "No ongoing free tier (trial only)",
+    "Best text model locked to $25 Opus tier",
+    "Image gen consumes Anlas credits",
+    "Image models skew to anime aesthetics"
+  ],
+  "bestFor": ["Fiction writers", "Interactive storytellers", "Anime art generation"],
+  "alternatives": ["sudowrite", "sillytavern", "character-ai"]
+}

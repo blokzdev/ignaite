@@ -1,0 +1,46 @@
+{
+  "slug": "screenpipe",
+  "insight": "A Y Combinator S26 company with 19k+ GitHub stars; source code is free for personal use under a commercial license.",
+  "name": "screenpipe",
+  "tagline": "Local-first 24/7 screen and audio memory your AI agents can search and act on.",
+  "description": "Screenpipe continuously captures everything you see, say, and hear on your computer — extracting text via accessibility APIs and OCR and transcribing audio locally — to build a private, searchable memory of your digital life. That context feeds AI agents and 48+ app integrations, with on-device PII removal and all data stored locally by default. Cloud sync and managed deployment arrive in the paid tiers.",
+  "category": "memory",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Screenpipe",
+  "platforms": ["macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Local models via Ollama or bring your own API keys; data stays on-device by default."
+  },
+  "tags": ["screen-capture", "personal-memory", "local-first", "agent-context"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://screenpipe.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/screenpipe/screenpipe"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 441,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "24/7 screen and audio capture that stays fully on-device, with PII scrubbing and 48+ app integrations feeding context to your AI agents.",
+  "pros": [
+    "100% local capture by default",
+    "Source code available to audit",
+    "On-device PII removal",
+    "Feeds context to coding agents",
+    "macOS, Windows, and Linux"
+  ],
+  "cons": [
+    "Commercial use requires a paid license",
+    "Not OSI open source",
+    "Always-on recording uses disk and CPU",
+    "Linux requires building from source"
+  ],
+  "bestFor": ["Personal screen memory", "Agent context pipelines", "Privacy-focused recall"]
+}
