@@ -1,0 +1,58 @@
+{
+  "slug": "stepfun",
+  "insight": "Founded in April 2023 by ex-Microsoft researchers; Tencent-backed and reported in Feb 2026 to be seeking a Hong Kong IPO.",
+  "name": "StepFun",
+  "tagline": "StepFun's multimodal assistant and Step-model API platform.",
+  "description": "The chat assistant and developer platform of StepFun, the Shanghai AI lab behind the Step model family. The assistant at stepfun.ai bundles web search, knowledge-base Q&A, image generation, and Step-Audio speech tools, while the open platform at platform.stepfun.ai serves Step language, audio, and image-edit models over an international API.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "StepFun",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Step 3.7 Flash", "Step 3.5 Flash", "Step-Audio"],
+    "notes": "StepFun's own Step family; Step-3.5-Flash ships open weights under Apache 2.0."
+  },
+  "tags": ["chat", "assistant", "multimodal", "open-weights", "china"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://stepfun.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://platform.stepfun.ai",
+      "label": "Open Platform (API)"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/stepfun-ai"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Multimodal breadth is the differentiator — language, audio, image, and video models from one lab, pushed into cars and phones via device partnerships.",
+  "pros": [
+    "Free multimodal chat",
+    "Step-3.5-Flash is Apache 2.0",
+    "Audio and image models on one API",
+    "Tencent-backed, well-funded"
+  ],
+  "cons": [
+    "China-hosted data concerns",
+    "English UX less polished than rivals",
+    "Smaller ecosystem than peers"
+  ],
+  "bestFor": ["Multimodal chat", "Open-weight model fans", "Audio/voice builders"],
+  "alternatives": ["deepseek", "kimi", "z-ai"],
+  "references": [
+    {
+      "title": "China's Overlooked AI Model Makers: Xiaomi, Meituan, and StepFun",
+      "url": "https://techbuzzchina.substack.com/p/chinas-overlooked-ai-model-makers",
+      "source": "Tech Buzz China",
+      "kind": "analysis"
+    }
+  ]
+}

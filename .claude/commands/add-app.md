@@ -97,8 +97,11 @@ Conventions (match existing entries):
   and **exiting non-zero** with a precise per-file error (bad enum, >140-char insight, missing/duplicate
   primary link, non-ISO date, duplicate slug, …) if anything is off; fix until clean. Then
   `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean.
-  Link-check the primary URL resolves (a `403` from anti-bot protection on a real site is fine; a
-  `404`/DNS failure is not).
+  Link-check the primary URL resolves. An anti-bot block (`403`/`429`/`503`) on a **demonstrably
+  live** site is fine — don't skip the app: corroborate liveness via independent current sources
+  (search results, live docs/blog subdomains, recent third-party coverage), verify fields from
+  those sources, and flag the blocked primary URL in your summary. A `404`/dead domain/DNS failure
+  is not fine.
 - Spot-check it renders on `/` and at `/apps/<slug>`.
 
 ## 5. Report

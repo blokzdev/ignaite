@@ -1,0 +1,53 @@
+{
+  "slug": "predibase",
+  "insight": "Founded in 2021 by AI engineers from Google and Uber; acquired by data-security firm Rubrik in June 2025 for a reported $100M+.",
+  "name": "Predibase",
+  "tagline": "Fine-tune open-source LLMs and serve them in production.",
+  "description": "Predibase is an enterprise platform for fine-tuning open-source models and serving them in production. It pairs a post-training stack — supervised fine-tuning plus an end-to-end reinforcement fine-tuning (RFT) flow — with an optimized inference engine, and its open-source LoRAX framework serves many fine-tuned LoRA adapters from a single GPU. Runs as managed SaaS or inside your own VPC.",
+  "category": "fine-tuning",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Predibase (Rubrik)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Fine-tunes and serves open-source model families (Llama, Qwen, and others)."
+  },
+  "tags": ["fine-tuning", "lora", "rft", "inference", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://predibase.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.predibase.com"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/predibase/lorax",
+      "label": "LoRAX"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Its open-source LoRAX engine serves dozens of fine-tuned LoRA adapters on one GPU, so shipping many per-task fine-tunes stays cheap.",
+  "pros": [
+    "Fine-tune + serve in one place",
+    "End-to-end RFT workflow",
+    "Many adapters per GPU (LoRAX)",
+    "SaaS or your own VPC"
+  ],
+  "cons": ["Enterprise-priced", "Now tied to Rubrik's roadmap", "Open-source models only"],
+  "bestFor": ["Production fine-tunes", "Enterprise teams", "Serving many task adapters"],
+  "alternatives": ["tinker", "openpipe", "unsloth"],
+  "references": [
+    {
+      "title": "Rubrik acquires Predibase to accelerate adoption of AI agents",
+      "url": "https://techcrunch.com/2025/06/25/rubrik-acquires-predibase-to-accelerate-adoption-of-ai-agents/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
