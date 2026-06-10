@@ -381,6 +381,32 @@
     );
   }
 
+  /* One-sided variants — fade only the edge that has hidden content (a dynamic
+     scroller toggles between these as it reaches each end). */
+  .scroll-fade-r {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 1.5rem), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 1.5rem), transparent);
+  }
+  .scroll-fade-l {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 1.5rem);
+    mask-image: linear-gradient(to right, transparent, #000 1.5rem);
+  }
+
+  /* One-time "swipe for more" nudge on the stat-strip hint chevron. The global
+     [data-motion="reduce"] rule zeroes the duration, so it self-disables. */
+  .animate-nudge-x {
+    animation: nudge-x 0.9s var(--ease-out-expo, cubic-bezier(0.22, 1, 0.36, 1)) 2;
+  }
+  @keyframes nudge-x {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(3px);
+    }
+  }
+
   /* Opt-in thin, accent-tinted scrollbar. Deliberately NOT a global element
      selector — bespoke scrollers keep their own. */
   .scrollbar-styled {

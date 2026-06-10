@@ -40,9 +40,9 @@ export function AppDetailSkeleton() {
           </div>
         </header>
 
-        {/* Stat strip band */}
-        <div className="-mx-6 mt-6 border-y border-white/[0.06]">
-          <div className="flex gap-8 px-6 py-3.5">
+        {/* Stat strip — elevated panel */}
+        <div className="mt-6 overflow-hidden rounded-2xl bg-white/[0.02] ring-1 ring-white/[0.08] ring-inset">
+          <div className="flex gap-8 px-5 py-3.5">
             {[14, 16, 18, 14, 20, 16].map((w, i) => (
               <div key={i} className="flex shrink-0 flex-col gap-1.5">
                 <Skeleton variant="pulse" className="h-2 w-12" />
