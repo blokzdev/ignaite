@@ -1,0 +1,49 @@
+{
+  "slug": "notta",
+  "insight": "Tokyo-built and Japanese-first; the company also sells Notta Memo, a business-card-sized hardware recorder that pairs with the app.",
+  "name": "Notta",
+  "tagline": "Japanese-first AI transcription and meeting notes across web, mobile, and Chrome.",
+  "description": "An AI transcription platform from Tokyo-based Notta Inc. that captures live meetings, uploaded recordings, and in-person conversations, then produces summaries and action items. It is strongest in Japanese — the market it was built for — with support for dozens of other languages, real-time translation, and capture via web, mobile apps, and a Chrome extension. A free tier exists but caps recording length per session.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Notta Inc.",
+  "platforms": ["web", "ios", "android", "browser-extension"],
+  "tags": ["transcription", "meetings", "japanese", "translation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.notta.ai/en",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.notta.ai/en/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 449,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Best-in-class Japanese transcription and bilingual Japanese–English meetings — a niche most Western notetakers handle poorly.",
+  "pros": [
+    "Excellent Japanese accuracy",
+    "Web, mobile, and Chrome capture",
+    "Real-time translation",
+    "Hardware recorder option"
+  ],
+  "cons": [
+    "Weaker accuracy outside Japanese",
+    "Tight free-tier session limits",
+    "No automatic language detection"
+  ],
+  "bestFor": ["Japanese-language teams", "Bilingual JP–EN meetings", "Mobile-first capture"],
+  "alternatives": ["otter-ai", "fireflies", "tldv", "plaud"],
+  "references": [
+    {
+      "title": "Honest Notta AI Review (2026): I Tried Notta So You Don't Have To",
+      "url": "https://tldv.io/blog/notta-ai-review/",
+      "source": "tl;dv",
+      "kind": "review"
+    }
+  ]
+}

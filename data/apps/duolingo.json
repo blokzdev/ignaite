@@ -1,0 +1,45 @@
+{
+  "slug": "duolingo",
+  "insight": "Declared itself 'AI-first' in April 2025, then launched 148 AI-built courses at once — its first 100 took about 12 years.",
+  "name": "Duolingo",
+  "tagline": "The world's most popular language app, now AI-first with Video Call practice and AI-built courses.",
+  "description": "The gamified language-learning platform that has rebuilt itself around AI: its proprietary Birdbrain model personalizes exercise difficulty, generative AI authored the 148 new courses launched in a single day in 2025, and paid subscribers practice speaking through Video Call with Lily, an AI character that remembers prior conversations. Core learning stays free with ads; Super and Max subscriptions unlock the advanced AI features.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Duolingo, Inc.",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Proprietary Birdbrain personalization model plus OpenAI GPT-4 powering Max features like Video Call and Explain My Answer."
+  },
+  "tags": ["language-learning", "tutor", "gamification", "speaking-practice"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.duolingo.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 450,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "No other AI tutor matches its scale — 100M+ monthly learners and a decade of A/B-tested pedagogy behind every AI exercise.",
+  "pros": [
+    "Free core experience",
+    "Video Call speaking practice",
+    "Birdbrain adaptive difficulty",
+    "40+ languages on offer"
+  ],
+  "cons": ["AI course quality criticized", "Max tier costs ~$30/month", "Gamification over depth"],
+  "bestFor": ["Casual language learners", "Daily practice habits", "Speaking on a budget"],
+  "alternatives": ["speak", "khanmigo", "quizlet"],
+  "references": [
+    {
+      "title": "Duolingo launches 148 courses created with AI",
+      "url": "https://techcrunch.com/2025/04/30/duolingo-launches-148-courses-created-with-ai-after-sharing-plans-to-replace-contractors-with-ai/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
