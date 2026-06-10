@@ -1,0 +1,50 @@
+{
+  "slug": "google-stitch",
+  "insight": "Born from Google's May 2025 acquisition of Galileo AI, whose standalone UI generator was folded into Google Labs as Stitch.",
+  "name": "Stitch",
+  "tagline": "Google Labs experiment that turns prompts and sketches into UI designs and frontend code.",
+  "description": "An AI design tool from Google Labs that generates app and website interfaces from natural-language prompts, images, wireframes, or sketches. It produces multiple design variants, exports clean layouts to Figma, and outputs frontend code (HTML/CSS, Tailwind), with a voice-driven Live Mode for real-time adjustments. Powered by Gemini's multimodal capabilities and free with generous limits while in beta.",
+  "category": "design",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Google",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Gemini 2.5 Pro"],
+    "notes": "Built on Gemini's multimodal capabilities."
+  },
+  "tags": ["ui-design", "design-to-code", "figma-export", "google-labs", "prototyping"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://stitch.withgoogle.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Free prompt-to-UI generation with both Figma export and frontend code output — peers typically gate one or the other behind paid plans.",
+  "pros": [
+    "Free with generous limits (beta)",
+    "Exports to both Figma and code",
+    "Voice-driven Live Mode edits",
+    "Browser-based, no install"
+  ],
+  "cons": [
+    "Output can look generic off-brand",
+    "Limited fine spacing/layout control",
+    "Beta — paid plans expected",
+    "Struggles with complex app flows"
+  ],
+  "bestFor": ["Rapid UI concepting", "Prototyping founders", "Vibe designers"],
+  "alternatives": ["uizard", "figma-ai", "v0"],
+  "references": [
+    {
+      "title": "Google Stitch Review: I Spoke an App Into Existence with AI",
+      "url": "https://www.unite.ai/google-stitch-review/",
+      "source": "Unite.AI",
+      "kind": "review"
+    }
+  ]
+}
