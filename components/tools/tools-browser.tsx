@@ -1,11 +1,16 @@
 "use client";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { createSerializer, useQueryStates } from "nuqs";
 import type { App, AppCategory } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/.velite";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
-import { saveDirectoryQuery } from "@/lib/tools/directory-session";
+import {
+  clearDirectoryRestore,
+  peekDirectoryRestore,
+  saveDirectoryQuery,
+  saveDirectoryReturn,
+} from "@/lib/tools/directory-session";
 import { countMatches, filterApps } from "@/lib/tools/filter-apps";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
@@ -131,7 +136,19 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
       q: null,
     });
 
-  const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
+  // One-shot scroll restore: when the detail crumb armed it (and the saved
+  // record matches the results being mounted), the grid comes back at the saved
+  // pagination depth and offset instead of the top. The peek is a pure read, so
+  // it can seed initial state directly (lazy initializers — safe: ToolsBrowser
+  // never SSRs, it suspends behind the page's <Suspense>, so there's nothing to
+  // mismatch); the flag is disarmed in the mount effect below.
+  const [restore] = useState(() => peekDirectoryRestore(serializeDirectoryQuery(filter)));
+
+  // Pagination starts at the restored depth (clamped to the actual results) so
+  // the saved scrollY is reachable on the very first paint.
+  const [visibleCount, setVisibleCount] = useState(() =>
+    restore ? Math.max(BATCH_SIZE, Math.min(restore.count, filtered.length)) : BATCH_SIZE,
+  );
   // Reset pagination whenever the filtered list identity changes — using the
   // "store previous render" pattern so visitors see the first batch of new
   // results instead of stale offsets.
@@ -140,6 +157,32 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     setPrevFiltered(filtered);
     setVisibleCount(BATCH_SIZE);
   }
+
+  // Disarm the flag (one-shot, armed only by a crumb press — fresh visits never
+  // jump) and apply the restored position after layout settles (double rAF).
+  // The jump is instant by design (scrollTo defaults to "auto", which also
+  // keeps it reduced-motion-safe). If the page came back shorter than
+  // remembered (directory data changed between visits), fall back to centering
+  // the card the visitor left through. Mount-only by intent; dev StrictMode's
+  // re-run just repeats the same idempotent clear + jump.
+  useLayoutEffect(() => {
+    clearDirectoryRestore();
+    if (!restore) return;
+    const { scrollY, slug } = restore;
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const maxY = document.documentElement.scrollHeight - window.innerHeight;
+        if (scrollY <= maxY + 1) {
+          window.scrollTo(0, scrollY);
+        } else {
+          document
+            .querySelector(`li[data-reveal-key="${CSS.escape(slug)}"]`)
+            ?.scrollIntoView({ block: "center" });
+        }
+      });
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Desktop auto-loads via IntersectionObserver; mobile uses an explicit button
   // (touch users were never able to reach the old sr-only control). useMediaQuery
@@ -175,6 +218,22 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
   const items = !filtersApplied ? interleave(visible, sponsoredPool, SPONSORED_INTERVAL) : visible;
   const hasMore = visibleCount < filtered.length;
 
+  // Remember where the grid was left whenever a card click-through navigates to
+  // a detail page (capture phase — runs before Link's navigation). The record
+  // powers the crumb's scroll restore; saving on a modified click (new tab) is
+  // harmless — the next real click-through just overwrites it.
+  const rememberLeavePoint = (e: React.MouseEvent) => {
+    const link = (e.target as Element).closest?.('a[href^="/apps/"]');
+    const slug = link?.getAttribute("href")?.slice("/apps/".length);
+    if (!slug) return;
+    saveDirectoryReturn({
+      query: serializeDirectoryQuery(filter),
+      scrollY: window.scrollY,
+      count: visibleCount,
+      slug,
+    });
+  };
+
   return (
     <>
       <Toaster />
@@ -204,7 +263,9 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
               <span className="text-[var(--color-accent)]">· Show</span>
             </button>
           )}
-          <RevealToolGrid items={items} revealKey={serializeDirectoryQuery(filter)} />
+          <div onClickCapture={rememberLeavePoint}>
+            <RevealToolGrid items={items} revealKey={serializeDirectoryQuery(filter)} />
+          </div>
           {hasMore ? (
             <>
               {/* Desktop: the observer auto-loads before this is reached. */}
