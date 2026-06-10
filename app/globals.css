@@ -57,9 +57,9 @@
        height of the top nav row alone (the part that collapses on scroll-down). */
     --nav-h: 4rem;
     --nav-row-h: 3rem;
-    /* Height of the /apps/[slug] sticky contextual toolbar. The spec-card
-       sidebar offsets its sticky top from --nav-h + this so the two stay in
-       lockstep if the bar height is tuned. */
+    /* Height of the /apps/[slug] sticky contextual toolbar. The dossier rail
+       (and the #history scroll-margin) offset their sticky top from
+       min(--nav-h,--nav-row-h) + this, so they stay in lockstep if tuned. */
     --detail-toolbar-h: 3rem;
   }
   @media (min-width: 40rem) {

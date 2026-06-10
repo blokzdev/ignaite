@@ -26,8 +26,12 @@ export function AccuracyNote({
 
   return (
     <aside
+      id="history"
       aria-label="How this listing is maintained"
-      className="mt-20 rounded-2xl bg-white/[0.04] p-5 ring-1 ring-white/[0.08] ring-inset sm:p-6"
+      // scroll-margin clears the fixed header + sticky toolbar when the stat
+      // strip's VERIFIED / the dossier's "View history" jump here (the global
+      // scroll-padding-top only accounts for the nav, not this page's toolbar).
+      className="mt-20 scroll-mt-[calc(min(var(--nav-h),var(--nav-row-h))_+_var(--detail-toolbar-h)_+_1rem)] rounded-2xl bg-white/[0.04] p-5 ring-1 ring-white/[0.08] ring-inset sm:p-6"
     >
       <div className="flex items-center gap-2.5">
         <ShieldCheck aria-hidden className="h-4 w-4 shrink-0 text-[var(--color-ink-dim)]" />

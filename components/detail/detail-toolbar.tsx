@@ -71,8 +71,8 @@ export function DetailToolbar({
     if (!sentinel) return;
     const io = new IntersectionObserver(
       ([entry]) => setCompact(!entry.isIntersecting),
-      // Trip roughly when the hero's tail passes under the nav + this bar.
-      { rootMargin: "-120px 0px 0px 0px" },
+      // Trip when the masthead's tail passes under the 3rem nav row + 3rem bar.
+      { rootMargin: "-96px 0px 0px 0px" },
     );
     io.observe(sentinel);
     return () => io.disconnect();
@@ -123,7 +123,7 @@ export function DetailToolbar({
               {monogram}
             </span>
             <span className="truncate text-sm font-medium text-[var(--color-ink)]">{name}</span>
-            {/* Key facets, mirrored from the spec card so the essentials stay
+            {/* Key facets, mirrored from the stat strip so the essentials stay
                 glanceable while it's scrolled away. Desktop only — 360px keeps
                 identity + actions. */}
             {facets.length > 0 && (
@@ -144,13 +144,14 @@ export function DetailToolbar({
           <div className="flex shrink-0 items-center gap-2">
             <SearchButton />
             <CopyLinkButton url={shareUrl} iconOnly />
-            {/* One-Open-per-state: sm–lg only. Below sm the fixed action bar
-                owns Open; at lg+ the sticky spec card (always in view) does. */}
+            {/* One-Open-per-state: sm+ only. Below sm the fixed action bar owns
+                Open; the masthead's Open scrolls away, so the compact toolbar
+                carries it here at every size ≥ sm. */}
             <Link
               href={openHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden h-7 items-center gap-1.5 rounded-full bg-[var(--color-accent)] px-3.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:inline-flex lg:hidden"
+              className="hidden h-7 items-center gap-1.5 rounded-full bg-[var(--color-accent)] px-3.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:inline-flex"
             >
               Open
               <ArrowUpRight className="h-3 w-3" />

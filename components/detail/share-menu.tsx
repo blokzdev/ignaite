@@ -37,8 +37,10 @@ interface Props {
   /** Pre-built export payloads (lib/tools/app-export — generated at SSG time). */
   markdown: string;
   json: string;
-  /** "bar" = icon trigger in the mobile action bar (opens upward); "card" = labeled chip in the spec card. */
+  /** "bar" = icon trigger (mobile action bar / masthead); "card" = labeled chip. */
   variant: "bar" | "card";
+  /** Menu open direction; defaults to up for "bar" (bottom-anchored), down for "card". */
+  side?: "top" | "bottom";
   className?: string;
 }
 
@@ -54,6 +56,7 @@ export function ShareMenu({
   markdown,
   json,
   variant,
+  side,
   className,
 }: Readonly<Props>) {
   const [copied, setCopied] = useState<"link" | "md" | null>(null);
@@ -102,7 +105,7 @@ export function ShareMenu({
       </DropdownMenuTrigger>
       <DropdownMenuContent
         align="end"
-        side={variant === "bar" ? "top" : "bottom"}
+        side={side ?? (variant === "bar" ? "top" : "bottom")}
         className="min-w-[13rem]"
       >
         <DropdownMenuLabel>Share</DropdownMenuLabel>
