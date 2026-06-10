@@ -202,14 +202,31 @@ export function DirectoryConsole() {
             )}
           </div>
 
-          {/* Desktop: inline sort + Filters popover + live count. */}
+          {/* Sort dropdown — shown on every viewport. Icon-only next to the
+              Filters trigger on mobile (matching its compact treatment), icon +
+              current-mode label on ≥sm. A non-default sort tints it accent so the
+              icon-only mobile button still signals an active sort. */}
           <DropdownMenu>
             <DropdownMenuTrigger
-              aria-label="Sort apps"
-              className="hidden h-8 shrink-0 items-center gap-2 rounded-full bg-white/[0.04] px-2.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none data-[state=open]:bg-white/[0.08] sm:inline-flex"
+              aria-label={
+                sortMode === "featured" ? "Sort apps" : `Sort apps, ${SORT_LABEL[sortMode]}`
+              }
+              className={cn(
+                "inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full px-0 font-mono text-[11px] tracking-[0.08em] uppercase ring-1 transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:w-auto sm:justify-start sm:gap-2 sm:px-2.5",
+                sortMode !== "featured"
+                  ? "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-[var(--color-accent)]/30 hover:bg-[var(--color-accent)]/[0.18] data-[state=open]:bg-[var(--color-accent)]/[0.18]"
+                  : "bg-white/[0.04] text-[var(--color-ink)] ring-white/[0.08] hover:bg-white/[0.08] data-[state=open]:bg-white/[0.08]",
+              )}
             >
-              <ArrowDownUp className="h-3.5 w-3.5 text-[var(--color-ink-dim)]" />
-              {SORT_LABEL[sortMode]}
+              <ArrowDownUp
+                className={cn(
+                  "h-3.5 w-3.5",
+                  sortMode !== "featured"
+                    ? "text-[var(--color-accent)]"
+                    : "text-[var(--color-ink-dim)]",
+                )}
+              />
+              <span className="hidden sm:inline">{SORT_LABEL[sortMode]}</span>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuRadioGroup

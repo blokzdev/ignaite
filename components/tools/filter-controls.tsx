@@ -162,9 +162,7 @@ export function FilterControls({ filters, variant = "inline", omit, counts }: Re
   );
 }
 
-// Exported for sibling drawer surfaces (e.g. the mobile sheet's Sort row) so
-// every facet row shares one chip vocabulary.
-export function FilterRow({
+function FilterRow({
   label,
   stacked,
   children,
@@ -193,7 +191,7 @@ interface ChipProps {
   reset?: boolean;
 }
 
-export function Chip({ label, active, onClick, count, reset }: ChipProps) {
+function Chip({ label, active, onClick, count, reset }: ChipProps) {
   // A zero-result option (that isn't already selected) is a dead end — dim it and
   // take it out of the tab order. Active chips and the "All" reset are never
   // disabled, so a selection can always be undone.

@@ -192,30 +192,6 @@
   }
 }
 
-/* Brand wordmark "AI" plasma: a tri-colour gradient (cyan · flame · plum) that
-   meanders through the letters so it reads as a slow, fluid plasma. The
-   non-linear keyframe path changes direction; paused for reduced-motion. */
-@keyframes ai-plasma {
-  0% {
-    background-position: 0% 50%;
-  }
-  20% {
-    background-position: 82% 18%;
-  }
-  40% {
-    background-position: 100% 80%;
-  }
-  60% {
-    background-position: 18% 100%;
-  }
-  80% {
-    background-position: 60% 0%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 /* Loading-skeleton shimmer: a light band sweeps across the placeholder fill.
    Reduced-motion users get a flat fill (gated below + by the [data-motion]
    rule), so .skeleton-shimmer stays a pure-CSS, server-renderable treatment. */
@@ -239,33 +215,6 @@
 }
 
 @layer utilities {
-  /* The lit "AI" in the IGNAITE wordmark — a drifting tri-tone plasma fill via
-     background-clip:text. Reduced-motion users get a still tri-gradient. */
-  .brand-ai {
-    background-image: linear-gradient(
-      120deg,
-      var(--color-accent) 0%,
-      var(--color-accent-hot) 18%,
-      var(--color-flame) 38%,
-      var(--color-flame-soft) 50%,
-      var(--color-plum) 70%,
-      var(--color-violet) 84%,
-      var(--color-accent) 100%
-    );
-    background-size: 300% 300%;
-    background-position: 25% 50%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    animation: ai-plasma 16s ease-in-out infinite;
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .brand-ai {
-      animation: none;
-    }
-  }
-
   .skeleton-shimmer {
     background-color: rgb(255 255 255 / 0.06);
     background-image: linear-gradient(

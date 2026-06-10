@@ -35,13 +35,14 @@ export function BrandMark({ className }: Readonly<{ className?: string }>) {
   );
 }
 
-// Wordmark: IGN·AI·TE with the "AI" lit in the cyan accent — surfaces the
-// ign-AI-te / "AI-managed" story right in the name. Pass sizing + base text
-// colour via className; the AI span overrides to accent.
+// Wordmark: IGN·AI·TE with the "AI" weighted bold — surfaces the ign-AI-te /
+// "AI-managed" story right in the name without a colour/size shift (keeps the
+// mono lockup even). Pass sizing + base text colour via className; the AI span
+// only bumps weight and inherits everything else.
 export function BrandWordmark({ className }: Readonly<{ className?: string }>) {
   return (
     <span className={cn("font-mono tracking-[0.16em] uppercase", className)}>
-      IGN<span className="brand-ai">AI</span>TE
+      IGN<span className="font-bold">AI</span>TE
     </span>
   );
 }
