@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 43,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Define GPU infra in Python decorators with 2-4s cold starts — no YAML, Dockerfiles, or managed-stack lock-in to YAML.",
   "pros": [

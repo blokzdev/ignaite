@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 188,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Deploys fully air-gapped on-prem with zero code retention — for teams that can't send source to any vendor cloud.",
   "pros": [

@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 413,
   "lastVerifiedAt": "2026-06-10",
   "edge": "Covers the widest open-source post-training surface — SFT, LoRA/QLoRA, DPO/ORPO, GRPO and QAT across dozens of model families from one YAML file.",
   "pros": [

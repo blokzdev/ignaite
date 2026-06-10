@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 26,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Runs Postgres migrations and deploys edge functions in-context, with more security guardrails than most database MCPs.",
   "pros": [

@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 277,
   "lastVerifiedAt": "2026-06-09",
   "edge": "AV2.0: one end-to-end neural net from sensors to steering — no hand-coded perception or planning modules.",
   "pros": [

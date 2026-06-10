@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 404,
   "lastVerifiedAt": "2026-06-10",
   "edge": "Fully open-source and provider-agnostic where most agent CLIs are vendor-locked — swap among 75+ providers, including local models.",
   "pros": [

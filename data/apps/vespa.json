@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 223,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Combines vector, lexical and structured search plus ML inference in one query, distributed across nodes at web scale.",
   "pros": [

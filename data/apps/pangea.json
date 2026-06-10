@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 376,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Ships guardrails as discrete, composable APIs you call à la carte — not one monolithic gateway you must route all traffic through.",
   "pros": [

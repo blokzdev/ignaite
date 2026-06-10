@@ -29,6 +29,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 266,
   "lastVerifiedAt": "2026-06-08",
   "edge": "OpenTelemetry-native loop that turns production failures into test cases, with strong human-evaluation tooling.",
   "pros": [

@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 410,
   "lastVerifiedAt": "2026-06-10",
   "edge": "Its open-source LoRAX engine serves dozens of fine-tuned LoRA adapters on one GPU, so shipping many per-task fine-tunes stays cheap.",
   "pros": [

@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 23,
   "lastVerifiedAt": "2026-06-07",
   "edge": "State-space Sonic models hit sub-100ms first audio — the latency floor for real-time voice agent loops.",
   "pros": [

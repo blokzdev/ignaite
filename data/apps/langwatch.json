@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 389,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Bundles trace observability with Scenario agent-simulation testing, not just passive production monitoring.",
   "pros": [

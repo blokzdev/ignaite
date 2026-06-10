@@ -29,6 +29,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 246,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Deploy GPU endpoints, sandboxes, and queues from a few lines of Python — open-core runtime (beta9) you can self-host.",
   "pros": [

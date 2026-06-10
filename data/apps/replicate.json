@@ -28,6 +28,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 117,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Any model is a Cog container behind one API billed per second — the low-commitment way to ship a model you didn't train.",
   "pros": [

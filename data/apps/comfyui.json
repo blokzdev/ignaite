@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 108,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Exposes the whole diffusion pipeline as a node graph, so any workflow is reproducible and shareable as one JSON file.",
   "pros": [

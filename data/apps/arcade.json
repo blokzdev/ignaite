@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 220,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Auth-first MCP runtime: brokers per-user OAuth so an agent acts as the real end user, not behind one shared token.",
   "pros": [

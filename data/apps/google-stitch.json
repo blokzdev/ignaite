@@ -23,6 +23,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 405,
   "lastVerifiedAt": "2026-06-10",
   "edge": "Free prompt-to-UI generation with both Figma export and frontend code output — peers typically gate one or the other behind paid plans.",
   "pros": [

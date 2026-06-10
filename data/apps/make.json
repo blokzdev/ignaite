@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 62,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Visual-canvas builder that handles branching, loops, and conditional routing Zapier's linear steps struggle with.",
   "pros": [

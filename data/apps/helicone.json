@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 16,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Fastest setup in the category: change one base URL, no SDK, and the open-source proxy can be self-hosted.",
   "pros": [

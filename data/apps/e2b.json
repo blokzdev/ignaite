@@ -35,6 +35,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 165,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Firecracker microVM isolation with stateful sessions — code interpreter pattern where vars persist across agent turns.",
   "pros": [

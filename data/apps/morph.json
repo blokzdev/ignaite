@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 152,
   "lastVerifiedAt": "2026-06-07",
   "edge": "A dedicated Fast Apply model that merges LLM code edits at ~10,500 tok/s — purpose-built write layer for agents.",
   "pros": [

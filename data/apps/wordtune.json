@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 348,
   "lastVerifiedAt": "2026-06-09",
   "edge": "From AI21 Labs (Jurassic/Jamba models) — a rewriting tool whose maker owns its own LLMs, not a GPT wrapper.",
   "pros": [

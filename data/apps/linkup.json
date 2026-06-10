@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 240,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Tops OpenAI's SimpleQA benchmark for grounded answers, with per-request pricing and a multi-step deep-research endpoint.",
   "pros": [

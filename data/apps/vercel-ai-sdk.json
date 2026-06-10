@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 50,
   "lastVerifiedAt": "2026-06-01",
   "edge": "The de facto TypeScript AI SDK: provider-agnostic streaming and useChat hooks make swapping LLMs a one-line change.",
   "pros": [

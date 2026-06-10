@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 270,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Mixes deterministic code with natural-language act()/extract() — no all-or-nothing handoff to a black-box agent.",
   "pros": [

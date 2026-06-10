@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 388,
   "lastVerifiedAt": "2026-06-09",
   "edge": "AI analysis lands as editable, reproducible notebook cells (SQL/Python/R), then ships as governed data apps.",
   "pros": [

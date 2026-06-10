@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 22,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Rust single-binary you can self-host, with payload filtering strong enough that teams pick it for metadata-heavy search.",
   "pros": [

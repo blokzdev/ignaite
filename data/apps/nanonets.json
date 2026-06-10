@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 299,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Runs its in-house OCR-3 extraction model plus agentic routing into ERPs, with VPC/on-prem and regional data residency.",
   "pros": [

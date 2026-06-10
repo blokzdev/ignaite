@@ -35,6 +35,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 242,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Bundles prompt versioning, A/B tests, and human review with tracing — fast zero-to-observability for RAG/chatbots.",
   "pros": [

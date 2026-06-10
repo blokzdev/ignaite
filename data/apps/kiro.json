@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 198,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Spec-first: writes requirements/design/tasks .md artifacts to disk before coding, unlike prompt-to-diff editors.",
   "pros": [

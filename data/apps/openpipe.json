@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 66,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Turns your own logged GPT/Claude traffic into a fine-tuned small model, then serves the swap behind your existing SDK.",
   "pros": [

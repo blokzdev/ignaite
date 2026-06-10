@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 238,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Apache-2.0, self-host-first crawler whose core needs no API key, among GitHub's most-starred web-to-Markdown tools.",
   "pros": [

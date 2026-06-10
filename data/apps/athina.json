@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 328,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Bundles prompt management, datasets, tracing and 50+ preset evals with human annotation, fed by an open-source eval SDK.",
   "pros": [

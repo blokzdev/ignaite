@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 261,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Figma-like canvas plus natural-language Copilot flow generation on a modern TS stack — ships a flow as API, cron, webhook, or chat.",
   "pros": [

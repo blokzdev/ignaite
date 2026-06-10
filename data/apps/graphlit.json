@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 325,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Multimodal, graph-native context layer: ingests docs/audio/video into a linked entity graph plus stateful memory.",
   "pros": [

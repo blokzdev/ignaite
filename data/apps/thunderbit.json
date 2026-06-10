@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 216,
   "lastVerifiedAt": "2026-06-08",
   "edge": "'AI Suggest Fields' reads a page and proposes columns to extract, so scraping needs no CSS selectors or XPath.",
   "pros": [

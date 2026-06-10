@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 321,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Covers both employee GenAI use (shadow-AI visibility) and homegrown LLM apps in one runtime layer — now backed by SentinelOne.",
   "pros": [

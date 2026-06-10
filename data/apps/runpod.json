@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 258,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Serverless GPU inference billed by the millisecond, scales to zero, plus a cheaper peer-sourced Community Cloud tier.",
   "pros": [

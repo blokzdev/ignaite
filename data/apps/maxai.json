@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 17,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Leans on fast select-text quick actions and saved prompt templates rather than bundling a kitchen-sink sidebar.",
   "pros": [

@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 181,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Handles per-integration OAuth so agents get authenticated, production-ready tools instead of raw API stubs to wire up.",
   "pros": [

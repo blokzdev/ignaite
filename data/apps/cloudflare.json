@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 49,
   "lastVerifiedAt": "2026-06-07",
   "edge": "R2 storage charges zero egress fees and Workers run isolate-per-request at the edge — cheaper, closer than Node.",
   "pros": [

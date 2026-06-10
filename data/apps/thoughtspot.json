@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 379,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Spotter agent shows its reasoning and checks its own work via a semantic layer, aimed at auditable AI answers.",
   "pros": [

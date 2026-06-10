@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 401,
   "lastVerifiedAt": "2026-06-10",
   "edge": "Built its own translation-native LLM (TowerLLM) and the COMET metric the industry benchmarks with — quality estimation is native, not bolted on.",
   "pros": [

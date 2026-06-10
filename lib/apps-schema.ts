@@ -143,8 +143,17 @@ export const appSchema = z
       .optional(),
     links: z.array(linkSchema).min(1, "at least one link"),
     screenshots: z.array(screenshotSchema).optional(),
-    /** ISO date (YYYY-MM-DD); powers the "recent" sort. */
+    /** ISO date (YYYY-MM-DD) the listing was added — the visitor-facing signal. */
     addedAt: z.string().regex(ISO_DATE, "addedAt must be an ISO date (YYYY-MM-DD)").optional(),
+    /** The directory's accession number — the order this listing entered the
+     *  directory (1 = first ever listed). REQUIRED and unique. Assigned by the
+     *  authoring routines as highest-existing + 1 (counting seqs claimed by
+     *  open discovery PRs); never reused and never renumbered — archived
+     *  listings keep theirs. This is what the Newest/Oldest sort actually
+     *  orders by: `addedAt` is day-granular and bulk adds share a day, so the
+     *  seq is the total, stable chronology. Cross-file uniqueness + agreement
+     *  with `addedAt` are enforced in velite.config.ts's `complete()` hook. */
+    addedSeq: z.number().int().positive("addedSeq must be a positive integer"),
     /** Lifecycle status. Absence = "active". Archived hides from default browse. */
     status: z.enum(literals<AppStatus>(APP_STATUSES)).optional(),
     /** ISO date of the most recent freshness audit. */

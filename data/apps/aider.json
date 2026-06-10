@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 2,
   "lastVerifiedAt": "2026-06-07",
   "edge": "CLI-only and model-agnostic: auto-commits every AI edit as its own git commit, so changes are trivially revertable.",
   "pros": [

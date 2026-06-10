@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 257,
   "lastVerifiedAt": "2026-06-08",
   "edge": "STEM-specialized OCR that returns LaTeX, tables, and ChemDraw from handwriting — not generic plain-text OCR.",
   "pros": [

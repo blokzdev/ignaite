@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 194,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Bring-your-own-LLM over SIP/Twilio with a proprietary turn-taking model, so the voice agent isn't locked to one model.",
   "pros": [

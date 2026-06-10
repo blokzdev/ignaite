@@ -22,6 +22,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 280,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Solves from a camera scan of handwritten or printed math, returning the method step-by-step, not just the answer.",
   "pros": [

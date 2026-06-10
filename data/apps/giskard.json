@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 222,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Its Scan auto-generates adversarial suites mapped to the OWASP LLM Top-10, framing eval as security red-teaming, not just accuracy.",
   "pros": [

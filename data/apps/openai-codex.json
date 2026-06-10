@@ -29,6 +29,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 162,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Open-source Rust rewrite of OpenAI's terminal coding agent; sign in with a paid ChatGPT plan or bring your own API key.",
   "pros": [

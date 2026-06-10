@@ -21,6 +21,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 213,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Runs an iterative, citation-chasing agent for minutes per query to surface the relevant papers keyword search misses — completeness over speed.",
   "pros": [

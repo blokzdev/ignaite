@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 32,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Built for AI/research retrieval: neural embedding search plus find-similar, where general search APIs key off keywords.",
   "pros": [

@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 36,
   "lastVerifiedAt": "2026-06-01",
   "edge": "From Andrew Ng's lab — 'visual prompting' lets you point at a few examples instead of labeling a full training set.",
   "pros": [

@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 83,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Bundles a workflow builder, RAG, and observability into one self-hostable platform spanning hundreds of models.",
   "pros": [

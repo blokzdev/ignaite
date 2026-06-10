@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 200,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Plans each image as an editable, code-like layout before rendering, so edits stay lossless and in-image text legible.",
   "pros": [
