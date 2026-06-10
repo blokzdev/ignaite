@@ -12,6 +12,7 @@ import { ShowMore } from "@/components/tools/show-more";
 import { ToolCard } from "@/components/tools/tool-card";
 import { alternativeApps, relatedApps } from "@/lib/apps";
 import { siteUrl } from "@/lib/seo";
+import { buildAppJson, buildAppMarkdown } from "@/lib/tools/app-export";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { facetHref } from "@/lib/tools/facet-links";
 import { LICENSE_LABEL, licenseSignal } from "@/lib/tools/license";
@@ -40,6 +41,10 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
   const accent = app.accentColor ?? "#08D9D6";
   const shareUrl = `${siteUrl}/apps/${app.slug}`;
   const license = licenseSignal(app);
+  // Share/export payloads, generated once at SSG time and handed to both menu
+  // placements (spec card ≥sm, action bar <sm) as plain strings.
+  const exportMarkdown = buildAppMarkdown(app, shareUrl);
+  const exportJson = buildAppJson(app, shareUrl);
   // Key facets mirrored into the toolbar's compact (scrolled) state on desktop.
   const toolbarFacets = [
     { label: CATEGORY_LABEL[app.category], href: facetHref("category", app.category) },
@@ -62,7 +67,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           facets={toolbarFacets}
         />
       }
-      actionBar={<DetailActionBar app={app} />}
+      actionBar={<DetailActionBar app={app} markdown={exportMarkdown} json={exportJson} />}
     >
       {/* Hero (full width) */}
       <header className="mt-10 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
@@ -270,7 +275,13 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
 
         {/* Spec card — sticky on desktop, surfaced first on mobile/tablet. */}
         <div className="order-1 lg:sticky lg:top-[calc(var(--nav-h)_+_var(--detail-toolbar-h)_+_1rem)] lg:order-2 lg:self-start">
-          <SpecCard app={app} accent={accent} />
+          <SpecCard
+            app={app}
+            accent={accent}
+            shareUrl={shareUrl}
+            markdown={exportMarkdown}
+            json={exportJson}
+          />
         </div>
       </div>
 

@@ -3,13 +3,18 @@ import { ArrowUpRight } from "lucide-react";
 import type { App } from "@/types/app";
 import { siteUrl } from "@/lib/seo";
 import { LINK_ICON, LINK_LABEL } from "@/lib/tools/app-labels";
-import { CopyLinkButton } from "./copy-link-button";
+import { ShareMenuLazy } from "./share-menu-lazy";
 
 // Enhanced pinned bottom bar (mobile only — ≥sm the sticky toolbar + spec card
 // carry the actions). Primary "Open" stays reachable while scrolling, alongside
-// the two highest-value secondary links (docs / GitHub) and a copy control.
-// Safe-area aware. Mostly server-rendered; only the copy control hydrates.
-export function DetailActionBar({ app }: Readonly<{ app: App }>) {
+// the two highest-value secondary links (docs / GitHub) and the Share/export
+// menu (which carries copy-link, native share, and the .md/.json downloads).
+// Safe-area aware. Mostly server-rendered; only the menu hydrates.
+export function DetailActionBar({
+  app,
+  markdown,
+  json,
+}: Readonly<{ app: App; markdown: string; json: string }>) {
   const primary = app.links.find((l) => l.primary) ?? app.links[0];
   // Cap secondaries so a 360px row never crowds: docs + GitHub are the keepers;
   // the rest live in the spec card's full link set.
@@ -46,7 +51,15 @@ export function DetailActionBar({ app }: Readonly<{ app: App }>) {
           </Link>
         );
       })}
-      <CopyLinkButton url={shareUrl} iconOnly className="h-12 w-12 text-[var(--color-ink)]" />
+      <ShareMenuLazy
+        variant="bar"
+        name={app.name}
+        tagline={app.tagline}
+        slug={app.slug}
+        shareUrl={shareUrl}
+        markdown={markdown}
+        json={json}
+      />
     </div>
   );
 }

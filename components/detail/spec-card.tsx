@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { ComponentType, ReactNode } from "react";
 import type { App } from "@/types/app";
+import { ShareMenuLazy } from "@/components/detail/share-menu-lazy";
 import { cn } from "@/lib/utils";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { LICENSE_LABEL, licenseSignal, type LicenseSignal } from "@/lib/tools/license";
@@ -65,11 +66,20 @@ function FacetRow({ label, children }: Readonly<{ label: string; children: React
 }
 
 // The consolidated "index card": the app's identity (monogram + name + vendor),
-// its primary/secondary actions, and every filterable facet as a deep-linked
-// chip (each pivots into the directory filtered to that value). Server component
-// — all chips are <Link>s, no client JS. Rendered as a sticky sidebar on desktop
-// and inline under the hero on smaller screens.
-export function SpecCard({ app, accent }: Readonly<{ app: App; accent: string }>) {
+// its primary/secondary actions + the Share/export menu, and every filterable
+// facet as a deep-linked chip (each pivots into the directory filtered to that
+// value). Server component — all chips are <Link>s; the only client child is
+// the Share menu. Rendered as a sticky sidebar on desktop and inline under the
+// hero on smaller screens. One-Open-per-state: the identity header and the
+// primary Open hide where they'd duplicate a neighbour (the hero sits directly
+// above the card below lg; the fixed action bar owns Open below sm).
+export function SpecCard({
+  app,
+  accent,
+  shareUrl,
+  markdown,
+  json,
+}: Readonly<{ app: App; accent: string; shareUrl: string; markdown: string; json: string }>) {
   const primary = app.links.find((l) => l.primary) ?? app.links[0];
   const secondaries = app.links.filter((l) => l !== primary);
   const monogram = app.name
@@ -85,8 +95,9 @@ export function SpecCard({ app, accent }: Readonly<{ app: App; accent: string }>
       className="glass overflow-hidden rounded-2xl p-5 ring-1 ring-white/[0.08] ring-inset"
       style={{ background: `linear-gradient(160deg, ${accent}14, transparent 60%)` }}
     >
-      {/* Identity */}
-      <div className="flex items-center gap-3">
+      {/* Identity — desktop only: below lg the card sits directly under the
+          hero, which already carries the monogram + name + vendor. */}
+      <div className="hidden items-center gap-3 lg:flex">
         <span
           aria-hidden
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl font-mono text-sm tracking-[0.06em] uppercase ring-1 ring-white/[0.08] ring-inset"
@@ -107,38 +118,49 @@ export function SpecCard({ app, accent }: Readonly<{ app: App; accent: string }>
         </div>
       </div>
 
-      {/* Actions */}
+      {/* Actions. The primary Open hides below sm — the fixed action bar owns
+          it there (no stacked twin CTAs); the Share menu likewise lives in the
+          action bar below sm. */}
       {primary && (
-        <div className="mt-4 flex flex-col gap-2">
+        <div className="flex flex-col gap-2 lg:mt-4">
           <Link
             href={primary.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full bg-[var(--color-accent)] px-4 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-canvas)] focus-visible:outline-none"
+            className="hidden h-11 w-full items-center justify-center gap-2 rounded-full bg-[var(--color-accent)] px-4 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-canvas)] focus-visible:outline-none sm:inline-flex"
           >
             <span className="truncate">Open {app.name}</span>
             <ArrowUpRight className="h-3.5 w-3.5 shrink-0" />
           </Link>
-          {secondaries.length > 0 && (
-            <ul className="flex flex-wrap gap-1.5">
-              {secondaries.map((link) => {
-                const Icon = LINK_ICON[link.kind];
-                return (
-                  <li key={`${link.kind}-${link.url}`}>
-                    <Link
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex h-8 items-center gap-1.5 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-                    >
-                      <Icon className="h-3 w-3" />
-                      {LINK_LABEL[link.kind]}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          )}
+          <ul className="flex flex-wrap gap-1.5">
+            {secondaries.map((link) => {
+              const Icon = LINK_ICON[link.kind];
+              return (
+                <li key={`${link.kind}-${link.url}`}>
+                  <Link
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex h-8 items-center gap-1.5 rounded-full bg-white/[0.04] px-3 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+                  >
+                    <Icon className="h-3 w-3" />
+                    {LINK_LABEL[link.kind]}
+                  </Link>
+                </li>
+              );
+            })}
+            <li className="max-sm:hidden">
+              <ShareMenuLazy
+                variant="card"
+                name={app.name}
+                tagline={app.tagline}
+                slug={app.slug}
+                shareUrl={shareUrl}
+                markdown={markdown}
+                json={json}
+              />
+            </li>
+          </ul>
         </div>
       )}
 
