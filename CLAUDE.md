@@ -495,7 +495,7 @@ Triage `BACKLOG.md` at the end of every Phase and again before launch.
 
 ### Grow / maintain the directory (recurring)
 
-The `/` directory is the product — keep it comprehensive + current. Two committed Claude Code routines
+The `/` directory is the product — keep it comprehensive + current. Committed Claude Code routines
 encode the flow (see `docs/directory-playbook.md`):
 
 - **`/add-app <name | url | list>`** — research + author new `App` listings as `data/apps/<slug>.json`
@@ -509,9 +509,15 @@ encode the flow (see `docs/directory-playbook.md`):
   `lastVerifiedAt`, and **append a `changelog` entry on every substantive change** (the visible audit
   trail rendered on `/apps/<slug>` by `components/tools/change-history.tsx`). Run ~weekly, oldest-verified
   first (skips entries verified in the last ~14 days — `--min-age`, default 14 — so overlapping runs no-op).
+- **`/rotate-featured [count | cluster]`** — refresh the homepage **Featured carousel** so it never goes
+  stale: pick ~14 random categories (biased away from those featured in the last ~2 cycles via
+  `featuredAt`), feature one strong active app in each (set `featured`+`accentColor`+`featuredAt`), rotate
+  the prior set out, append a `changelog` entry per change, and open a PR. Touches only
+  `featured`/`featuredAt`/`accentColor`/`changelog` — never factual fields. Run ~biweekly.
 
-Schedule `/discover-apps` + `/audit-directory` weekly via Claude Code **Routines** (account-owned —
-the user sets them up; they open PRs for review). Exact routine prompts: `docs/directory-playbook.md`.
+Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biweekly via Claude Code
+**Routines** (account-owned — the user sets them up; they open PRs for review). Exact routine prompts:
+`docs/directory-playbook.md`.
 
 ### Add a new app card type (e.g., `chrome-extension`)
 

@@ -6,13 +6,14 @@ the human overview; the executable routines live as Claude Code commands.
 
 ## The routines
 
-| Command                                                            | Driven by                       | What it does                                                                                                                                                                                                                                                 |
-| ------------------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **`/add-app <name \| url \| list>`**                               | a human supplies names          | Dedup → web-research → author a schema-valid `App` entry → validate → report.                                                                                                                                                                                |
-| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`. |
-| **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR** when run unattended.                                                                  |
+| Command                                                            | Driven by                       | What it does                                                                                                                                                                                                                                                                                           |
+| ------------------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **`/add-app <name \| url \| list>`**                               | a human supplies names          | Dedup → web-research → author a schema-valid `App` entry → validate → report.                                                                                                                                                                                                                          |
+| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`.                                           |
+| **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR** when run unattended.                                                                                                            |
+| **`/rotate-featured [count \| cluster]`**                          | autonomous (good for schedules) | Refreshes the homepage **Featured carousel** so it never goes stale: features one strong active app across ~14 random categories (biased away from recently-featured via `featuredAt`), rotates the prior set out, and **opens a PR**. Touches only `featured`/`featuredAt`/`accentColor`/`changelog`. |
 
-All three are defined in `.claude/commands/` and committed to the repo, so anyone running Claude Code
+All four are defined in `.claude/commands/` and committed to the repo, so anyone running Claude Code
 here can invoke them. They encode the same flow we run manually.
 
 ## Quality bar (the policy both routines follow)
@@ -57,11 +58,13 @@ here can invoke them. They encode the same flow we run manually.
 - **Audit** weekly with `/audit-directory` (no args = the staleest batch), plus an ad-hoc
   `/audit-directory --category <thin-or-fast-moving>` (e.g. `video`, `image-gen`, `assistant`) since
   those churn fastest.
+- **Rotate the Featured set** biweekly with `/rotate-featured` so the homepage carousel stays fresh and
+  spreads the spotlight across categories over time.
 - Each run is its own small PR — easy to review, easy to revert.
 
 ## Scheduling (Claude Code Routines)
 
-The two recurring routines run via Claude Code's **Routines** feature (scheduled cloud sessions).
+The recurring routines run via Claude Code's **Routines** feature (scheduled cloud sessions).
 
 > **You set these up — an agent can't.** Routines are **account-owned, not repo-owned**, so they
 > can't be committed here or created from inside a session. Create them yourself at
@@ -78,9 +81,15 @@ Create two scheduled routines and paste these as their prompts:
   > nothing.
 
 - **Weekly — audit existing listings**
+
   > Run `/audit-directory` on the oldest-verified batch. Re-verify links, pricing, platforms, and
   > status; fix drift; archive anything discontinued; bump `lastVerifiedAt`; and open a PR for review.
   > If nothing changed, do nothing.
+
+- **Biweekly — rotate the Featured set**
+  > Run `/rotate-featured`. Refresh the homepage Featured carousel: feature one strong active app
+  > across ~14 random categories (biased away from recently-featured), rotate the prior set out, and
+  > open a PR for review. If the set is already fresh, do nothing.
 
 Cadence note: **weekly beats daily** for discovery — there usually aren't several net-new
 directory-worthy AI apps every day, so daily mostly produces empty runs at extra cost. Bump to daily

@@ -130,8 +130,17 @@ export const appSchema = z
     modelSupport: modelSupportSchema.optional(),
     tags: z.array(z.string()).optional(),
     accentColor: z.string().regex(HEX, "accentColor must be a hex colour, e.g. #08d9d6").optional(),
-    /** Featured = bento 2-col span + hero carousel candidate. */
+    /** Featured = bento 2-col span + hero carousel candidate. The current-cycle
+     *  flag, rotated by the biweekly `/rotate-featured` routine. */
     featured: z.boolean().optional(),
+    /** ISO date (YYYY-MM-DD) the app was last placed in the featured set by
+     *  `/rotate-featured`. Persists after it rotates out, so the routine can
+     *  avoid re-featuring it too soon and the rotation stays auditable.
+     *  Independent of `featured` (which is only the current-cycle flag). */
+    featuredAt: z
+      .string()
+      .regex(ISO_DATE, "featuredAt must be an ISO date (YYYY-MM-DD)")
+      .optional(),
     links: z.array(linkSchema).min(1, "at least one link"),
     screenshots: z.array(screenshotSchema).optional(),
     /** ISO date (YYYY-MM-DD); powers the "recent" sort. */
