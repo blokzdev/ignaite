@@ -17,9 +17,7 @@ import { cn } from "@/lib/utils";
 import { siteUrl } from "@/lib/seo";
 import { buildAppJson, buildAppMarkdown } from "@/lib/tools/app-export";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
-import { facetHref } from "@/lib/tools/facet-links";
-import { LICENSE_LABEL, licenseSignal } from "@/lib/tools/license";
-import { PLATFORM_LABEL, PRICING_LABEL } from "@/lib/tools/app-labels";
+import { PLATFORM_LABEL } from "@/lib/tools/app-labels";
 import type { App } from "@/types/app";
 
 interface Props {
@@ -63,10 +61,6 @@ function Signal({
 }
 
 export function AppDetail({ app }: Readonly<Props>): ReactElement {
-  const monogram = app.name
-    .replace(/[^A-Za-z0-9]/g, "")
-    .slice(0, 2)
-    .toUpperCase();
   const isArchived = app.status === "archived";
   // The single "what else to consider" rail is curated-aware: hand-picked
   // `alternatives` (editorial, may cross categories) take over when present,
@@ -79,18 +73,10 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
   // stay valid; #08D9D6 is --color-accent's value.
   const accent = app.accentColor ?? "#08D9D6";
   const shareUrl = `${siteUrl}/apps/${app.slug}`;
-  const license = licenseSignal(app);
-  const primary = app.links.find((l) => l.primary) ?? app.links[0];
   // Share/export payloads, generated once at SSG time and handed to the menu
   // placements (masthead ≥sm, action bar <sm) as plain strings.
   const exportMarkdown = buildAppMarkdown(app, shareUrl);
   const exportJson = buildAppJson(app, shareUrl);
-  // Key facets mirrored into the toolbar's compact (scrolled) state on desktop.
-  const toolbarFacets = [
-    { label: CATEGORY_LABEL[app.category], href: facetHref("category", app.category) },
-    { label: PRICING_LABEL[app.pricing], href: facetHref("pricing", app.pricing) },
-    { label: LICENSE_LABEL[license], href: facetHref("license", license) },
-  ];
 
   return (
     <AppDetailShell
@@ -99,11 +85,6 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         <DetailToolbar
           breadcrumb={[{ label: "Directory", href: "/" }, { label: app.name }]}
           shareUrl={shareUrl}
-          name={app.name}
-          monogram={monogram}
-          accent={accent}
-          openHref={primary?.url ?? "/"}
-          facets={toolbarFacets}
         />
       }
       actionBar={<DetailActionBar app={app} markdown={exportMarkdown} json={exportJson} />}
@@ -126,10 +107,6 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           </p>
         </div>
       )}
-
-      {/* Sentinel: when this passes under the sticky toolbar, the toolbar swaps
-          to its compact app-identity state. */}
-      <div id="hero-sentinel" aria-hidden className="h-px w-full" />
 
       <StatStrip app={app} accent={accent} />
 
