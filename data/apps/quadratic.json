@@ -1,0 +1,36 @@
+{
+  "slug": "quadratic",
+  "name": "Quadratic",
+  "tagline": "An AI spreadsheet where cells run Python, SQL, and JavaScript against live data connections.",
+  "description": "Quadratic is a from-scratch spreadsheet built on Rust, WASM, and WebGL that pairs AI analysis with real code: cells can execute Python, SQL, and JavaScript, and connect to 25+ sources like Postgres, Snowflake, BigQuery, and QuickBooks. Ask questions in natural language and get working formulas, code, and charts back in the grid.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Quadratic",
+  "platforms": ["web"],
+  "insight": "Its $5.6M seed was led by GV, with pandas creator Wes McKinney and Replit founder Amjad Masad among the angels.",
+  "tags": ["spreadsheet", "python", "sql", "data-analysis"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.quadratichq.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Not a chat bolt-on over a grid: a Rust/WASM/WebGL spreadsheet where cells natively execute Python, SQL, and JavaScript beside the AI.",
+  "pros": [
+    "Real Python/SQL/JS in cells",
+    "25+ native data connections",
+    "Fast Rust/WASM/WebGL core",
+    "SOC 2 and HIPAA compliance"
+  ],
+  "cons": [
+    "Web-only, no offline desktop",
+    "No longer open source (closed in 2026)",
+    "Younger than incumbent BI tools"
+  ],
+  "bestFor": ["Data analysts", "Technical teams", "SQL + spreadsheet workflows"],
+  "alternatives": ["hex", "julius", "powerdrill", "databricks-genie"]
+}

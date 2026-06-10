@@ -1,0 +1,64 @@
+{
+  "slug": "opencode",
+  "name": "OpenCode",
+  "tagline": "The open-source, provider-agnostic AI coding agent for your terminal, IDE, or desktop.",
+  "description": "OpenCode is an open-source AI coding agent from Anomaly, the team behind SST. It runs in the terminal, a desktop app, or an IDE extension, connects to 75+ model providers through Models.dev — frontier APIs and local models alike — and stores none of your code on external servers. The optional paid Zen gateway adds a curated, benchmarked model set under one bill.",
+  "category": "ide",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Anomaly",
+  "platforms": ["cli", "macos", "windows", "linux", "vscode-extension"],
+  "insight": "Built by Anomaly, the SST team; passed 160K GitHub stars and 7.5M monthly developers within a year of its June 2025 launch.",
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "models": ["Claude", "GPT", "Gemini", "DeepSeek", "Qwen"],
+    "notes": "75+ providers via Models.dev, including local models; optional Zen plan with a curated, benchmarked set."
+  },
+  "tags": ["coding-agent", "cli", "open-source", "model-agnostic"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://opencode.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "kind": "docs",
+      "url": "https://opencode.ai/docs"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Fully open-source and provider-agnostic where most agent CLIs are vendor-locked — swap among 75+ providers, including local models.",
+  "pros": [
+    "Open source, 160K+ GitHub stars",
+    "75+ providers, incl. local models",
+    "Terminal, desktop, and IDE surfaces",
+    "No code stored on external servers"
+  ],
+  "cons": [
+    "Quality varies with chosen model",
+    "Fast-moving, frequent releases",
+    "Zen's curated models cost extra"
+  ],
+  "bestFor": ["Terminal-native devs", "Model switchers", "Open-source-first teams"],
+  "alternatives": ["claude-code", "aider", "openai-codex", "gemini-cli"],
+  "references": [
+    {
+      "title": "OpenCode: The background story on the most popular open source coding agent",
+      "url": "https://techfundingnews.com/opencode-the-background-story-on-the-most-popular-open-source-coding-agent-in-the-world/",
+      "source": "Tech Funding News",
+      "kind": "analysis"
+    },
+    {
+      "title": "Open-source coding agents are solving a huge headache for developers",
+      "url": "https://thenewstack.io/open-source-coding-agents-like-opencode-cline-and-aider-are-solving-a-huge-headache-for-developers/",
+      "source": "The New Stack",
+      "kind": "analysis"
+    }
+  ]
+}

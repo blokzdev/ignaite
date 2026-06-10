@@ -1,0 +1,52 @@
+{
+  "slug": "mubert",
+  "name": "Mubert",
+  "tagline": "Royalty-free AI music generated in real time from samples licensed from human producers.",
+  "description": "Mubert generates royalty-free music for content, apps, and brands by composing in real time from a library of more than a million samples contributed by 4,000+ musicians. Render makes soundtracks fitted to a video's exact mood and duration, the API streams adaptive music into products, and the Play apps serve generated stations for listeners.",
+  "category": "music",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mubert",
+  "platforms": ["web", "api", "ios", "android"],
+  "insight": "Launched in 2017 — years before the genAI music wave — and pays royalties to the producers whose licensed samples its AI composes from.",
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary generative engine that composes from licensed, human-made samples."
+  },
+  "tags": ["music-gen", "royalty-free", "api", "adaptive-music"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mubert.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://mubert.com/api"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Composes from human-licensed samples rather than scraped recordings, so tracks stay royalty-free and DMCA-safe for monetized content.",
+  "pros": [
+    "Licensed sample library, DMCA-safe",
+    "Producers earn royalties",
+    "API for adaptive in-app music",
+    "Tracks fit exact mood and duration"
+  ],
+  "cons": [
+    "Geared to background music, not songs",
+    "Free tier is personal-use only",
+    "Less granular control than a DAW"
+  ],
+  "bestFor": ["Content creators", "App developers", "Streamers"],
+  "alternatives": ["suno", "soundraw", "beatoven", "aiva"],
+  "references": [
+    {
+      "title": "Raising $2.6M to Build an AI-Powered Music Stock",
+      "url": "https://www.failory.com/interview/mubert",
+      "source": "Failory",
+      "kind": "interview"
+    }
+  ]
+}

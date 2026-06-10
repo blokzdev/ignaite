@@ -1,0 +1,54 @@
+{
+  "slug": "unitree",
+  "name": "Unitree",
+  "tagline": "Quadruped and humanoid robots shipped at consumer prices, from the world's top humanoid seller.",
+  "description": "Unitree Robotics builds quadruped robots (Go2, B2), humanoid robots (G1, H1, R1), robotic arms, and LiDAR systems you can actually order today. It shipped more than 5,500 humanoids in 2025 — roughly a third of global sales — and turned its first profit the same year, rare in a field of pre-revenue rivals.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Unitree Robotics",
+  "platforms": ["api"],
+  "insight": "Cleared in June 2026 to list on Shanghai's STAR Market — the first embodied-AI company approved for China's A-share market.",
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary onboard models for locomotion and control; SDKs for researchers to run their own."
+  },
+  "tags": ["humanoid", "quadruped", "embodied-ai", "hardware"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.unitree.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Its robots are buyable today at consumer prices — the R1 humanoid starts at $5,900 — while most humanoid rivals remain pilot-only.",
+  "pros": [
+    "World's top humanoid seller in 2025",
+    "R1 humanoid from $5,900",
+    "Profitable — rare in robotics",
+    "Quadrupeds, arms, and LiDAR too"
+  ],
+  "cons": [
+    "R1 lacks dexterous hands",
+    "About an hour of battery on R1",
+    "Aimed at researchers, not households"
+  ],
+  "bestFor": ["Robotics researchers", "Embodied-AI labs", "Education programs"],
+  "alternatives": ["figure-ai", "1x", "agility-robotics", "apptronik"],
+  "references": [
+    {
+      "title": "The world's largest humanoid robot maker is going public",
+      "url": "https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/",
+      "source": "Rest of World",
+      "kind": "analysis"
+    },
+    {
+      "title": "What is Unitree's new $6,000 humanoid robot good for?",
+      "url": "https://newatlas.com/ai-humanoids/unitree-r1-humanoid-robot/",
+      "source": "New Atlas",
+      "kind": "review"
+    }
+  ]
+}
