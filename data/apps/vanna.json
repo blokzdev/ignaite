@@ -1,0 +1,50 @@
+{
+  "slug": "vanna",
+  "insight": "Launched as a Show HN in 2023, the MIT-licensed framework has grown past 23k GitHub stars; Vanna 2.0 added enterprise agent features.",
+  "name": "Vanna",
+  "tagline": "Open-source SQL agent — ask questions in plain English, get accurate SQL on your warehouse.",
+  "description": "An open-source Python framework for text-to-SQL: you train a RAG layer on your schema, past queries and documentation, and Vanna generates SQL that actually fits your warehouse, returning results as DataFrames or Plotly charts. Connects to Postgres, MySQL, Snowflake, BigQuery, SQLite and more. Vanna 2.0 adds agent features — lifecycle hooks, middlewares, conversation storage and observability — with an optional hosted cloud for access control and audit logs.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Vanna AI",
+  "platforms": ["web", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "OpenAI", "Gemini", "Ollama"],
+    "notes": "Bring your own LLM provider; runs with local models via Ollama."
+  },
+  "tags": ["text-to-sql", "analytics", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vanna.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/vanna-ai/vanna"
+    },
+    {
+      "kind": "docs",
+      "url": "https://vanna.ai/docs/"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Trains a RAG layer on your own schema, queries and docs so generated SQL matches your warehouse — and the MIT core self-hosts for free.",
+  "pros": [
+    "MIT-licensed open-source core",
+    "Learns your schema via RAG training",
+    "Works with major warehouses and LLMs",
+    "Returns DataFrames and Plotly charts"
+  ],
+  "cons": [
+    "Accuracy depends on the training data you feed it",
+    "Hosted enterprise features are paid",
+    "Setup assumes Python familiarity"
+  ],
+  "bestFor": ["Text-to-SQL on a warehouse", "Data teams", "Embedded analytics"],
+  "alternatives": ["julius", "basedash", "databricks-genie", "hex"]
+}

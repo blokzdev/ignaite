@@ -1,0 +1,48 @@
+{
+  "slug": "speak",
+  "insight": "OpenAI's Startup Fund led its Series B and joined every round since; a $78M Series C in Dec 2024 made Speak a $1B unicorn.",
+  "name": "Speak",
+  "tagline": "AI language tutor built around speaking out loud, with real-time feedback.",
+  "description": "A language-learning app that puts speaking first: lessons are built around saying things out loud, with speech recognition grading your pronunciation and an AI tutor that holds open-ended conversation and adapts the curriculum to your goals. Covers English, Spanish, French, Korean, Japanese, Italian and Chinese, with 15M+ downloads across iOS, Android and the web.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Speakeasy Labs",
+  "platforms": ["ios", "android", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["OpenAI"],
+    "notes": "Tutor and speech experiences are built on OpenAI models."
+  },
+  "tags": ["language-learning", "speech", "tutor", "education"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.speak.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Drills speaking fluency from the first lesson with open-ended AI conversation and instant speech feedback rather than tap-the-word exercises.",
+  "pros": [
+    "Speech-first method with instant feedback",
+    "AI tutor handles open-ended conversation",
+    "15M+ downloads, 4.8 App Store rating",
+    "Web, iOS and Android apps"
+  ],
+  "cons": [
+    "Only 7 target languages so far",
+    "Full features need a subscription",
+    "Light on reading and writing practice"
+  ],
+  "bestFor": ["Speaking fluency", "Solo conversation practice"],
+  "references": [
+    {
+      "title": "OpenAI-backed Speak raises $78M at $1B valuation",
+      "url": "https://techcrunch.com/2024/12/10/openai-backed-speak-raises-78m-at-1b-valuation-to-help-users-learn-languages-by-talking-out-loud/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

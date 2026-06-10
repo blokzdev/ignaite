@@ -1,0 +1,53 @@
+{
+  "slug": "axolotl",
+  "insight": "Created by Wing Lian under the OpenAccess AI Collective; the community integrated QLoRA within seven days of the paper's release.",
+  "name": "Axolotl",
+  "tagline": "Open-source post-training for LLMs — LoRA to RL, all from one YAML config.",
+  "description": "An open-source (Apache-2.0) framework that streamlines post-training for open-weight models: full fine-tuning, LoRA/QLoRA, preference tuning (DPO, IPO, KTO, ORPO), reinforcement learning (GRPO), reward modeling and quantization-aware training, configured through a single YAML file with no scripting. Wraps Hugging Face Transformers, PEFT, TRL and DeepSpeed, and supports dozens of model families including multimodal vision and audio models.",
+  "category": "fine-tuning",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Axolotl AI",
+  "platforms": ["cli", "linux"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "Mistral", "Qwen", "Gemma", "gpt-oss"],
+    "notes": "Post-trains Hugging Face model families, including vision and audio models."
+  },
+  "tags": ["fine-tuning", "lora", "rlhf", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://axolotl.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/axolotl-ai-cloud/axolotl"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.axolotl.ai"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Covers the widest open-source post-training surface — SFT, LoRA/QLoRA, DPO/ORPO, GRPO and QAT across dozens of model families from one YAML file.",
+  "pros": [
+    "Apache-2.0 with 12k+ GitHub stars",
+    "One YAML config, no scripting needed",
+    "DPO/GRPO/QAT and multimodal support",
+    "Wraps Transformers, PEFT, TRL, DeepSpeed"
+  ],
+  "cons": ["Needs your own GPUs or cloud compute", "Config surface can overwhelm beginners"],
+  "bestFor": ["Open-model post-training", "RLHF/DPO experiments", "Research teams"],
+  "alternatives": ["unsloth", "openpipe"],
+  "references": [
+    {
+      "title": "The Busy Person's Intro to Finetuning & Open Source AI",
+      "url": "https://www.latent.space/p/axolotl",
+      "source": "Latent Space",
+      "kind": "interview"
+    }
+  ]
+}
