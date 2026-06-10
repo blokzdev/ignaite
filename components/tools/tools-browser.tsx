@@ -1,10 +1,11 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useQueryStates } from "nuqs";
+import { createSerializer, useQueryStates } from "nuqs";
 import type { App, AppCategory } from "@/types/app";
 import { sponsored as sponsoredPool } from "@/.velite";
 import { interleave } from "@/lib/interleave";
 import { clearFilters } from "@/lib/tools/clear-filters";
+import { saveDirectoryQuery } from "@/lib/tools/directory-session";
 import { countMatches, filterApps } from "@/lib/tools/filter-apps";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
@@ -23,6 +24,10 @@ interface Props {
 }
 
 const BATCH_SIZE = 24;
+// Serializes the current filter state back into its canonical "?…" query string
+// (defaults omitted, same encoding the parsers read) for the per-tab session
+// memory that powers the detail page's back-to-results crumb.
+const serializeDirectoryQuery = createSerializer(directoryFilterParsers);
 // One sponsored slot every 10–15 organic positions in the default browse — a
 // jittered (not rigid) cadence so the page doesn't look mechanically spaced.
 // The gap sequence is seeded + deterministic (see lib/interleave), so SSR and
@@ -32,6 +37,24 @@ const SPONSORED_INTERVAL = { min: 10, max: 15, seed: 1 } as const;
 
 export function ToolsBrowser({ apps }: Readonly<Props>) {
   const [filter, setFilter] = useQueryStates(directoryFilterParsers, directoryFilterOptions);
+
+  // Remember this tab's current query so a detail page's "Directory" crumb can
+  // return to these exact results. Serialized from state (not location.search)
+  // so the write never races nuqs's URL update. Field-level deps, same as the
+  // memos below.
+  useEffect(() => {
+    saveDirectoryQuery(serializeDirectoryQuery(filter));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [
+    filter.category,
+    filter.pricing,
+    filter.deployment,
+    filter.platform,
+    filter.license,
+    filter.status,
+    filter.sort,
+    filter.q,
+  ]);
 
   // The browse predicate + sort live in lib/tools/filter-apps (shared with the
   // header console's live count). Depend on each field rather than the `filter`
