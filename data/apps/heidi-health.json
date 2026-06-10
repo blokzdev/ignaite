@@ -1,0 +1,46 @@
+{
+  "slug": "heidi-health",
+  "insight": "Founded in Melbourne; its Point72-led $65M Series B (Oct 2025) valued it at $465M as it supported 2M+ consults a week.",
+  "name": "Heidi",
+  "tagline": "An AI medical scribe and care partner with a free tier for individual clinicians.",
+  "description": "Heidi is an AI clinical assistant that transcribes consults and generates notes, letters, and forms for clinicians, with clinical decision support via its Evidence feature and a wearable Heidi Remote microphone for hands-free capture. It supports over two million consults a week in 110 languages, used by GPs, specialists, nurses, and allied health globally. A free tier covers core scribing; paid plans unlock advanced features and team controls.",
+  "category": "healthcare",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Heidi Health",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["ai-scribe", "clinical-documentation", "clinicians", "multilingual"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.heidihealth.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "A clinician-led scribe with a real free tier and 110-language coverage — reaching solo GPs and small clinics, not just enterprise health systems.",
+  "pros": [
+    "Free tier for individual clinicians",
+    "Works in 110 languages",
+    "Wearable Heidi Remote microphone",
+    "Built-in clinical decision support"
+  ],
+  "cons": ["Younger US enterprise footprint than rivals", "Advanced features need paid plans"],
+  "bestFor": ["Solo clinicians", "GPs and specialists", "Multilingual clinics"],
+  "alternatives": ["abridge", "nabla", "ambience-healthcare"],
+  "references": [
+    {
+      "title": "Heidi Health raises $65M Series B led by Steve Cohen's Point72",
+      "url": "https://techcrunch.com/2025/10/05/heidi-health-raises-65m-series-b-led-by-steve-cohens-point72/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Australian Healthcare Tech Company Heidi Raises $65M",
+      "url": "https://www.hcinnovationgroup.com/analytics-ai/news/55321298/heidi-raises-65-million-usd-to-accelerate-development-of-ai-scribe-technology",
+      "source": "Healthcare Innovation",
+      "kind": "analysis"
+    }
+  ]
+}

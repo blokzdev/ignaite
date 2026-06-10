@@ -1,0 +1,44 @@
+{
+  "slug": "tolan",
+  "insight": "Maker Portola raised $30M within months of the Feb 2025 launch, with Khosla Ventures leading the Series A; 100K+ paid subscribers.",
+  "name": "Tolan",
+  "tagline": "A voice-first alien companion app designed for support without engagement-bait mechanics.",
+  "description": "Tolan is an AI companion app from Portola that matches you with an alien friend from 'Planet Portola' based on a personality interview. You talk by voice, share photos, and build out a virtual planet together; the companion remembers context across conversations. It is deliberately designed against engagement-maximizing patterns — no romance, and nudges toward real-world life. Free to download on iOS with a subscription for full use.",
+  "category": "companion",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Portola",
+  "platforms": ["ios"],
+  "tags": ["ai-companion", "voice", "emotional-support", "mobile"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tolans.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Built against the engagement-bait companion pattern: no romance mode, and it encourages real-world life rather than longer sessions.",
+  "pros": [
+    "4.8-star rating from 130K+ App Store reviews",
+    "No romantic or NSFW design",
+    "Personality-matched companion",
+    "Voice-first, low-friction conversations"
+  ],
+  "cons": [
+    "iOS only, no Android version",
+    "Full features require a subscription",
+    "Playful tone won't suit everyone"
+  ],
+  "bestFor": ["Emotional support", "Gen Z users", "Casual companionship"],
+  "alternatives": ["replika", "character-ai", "nomi", "kindroid"],
+  "references": [
+    {
+      "title": "AI companionship app Tolan raises $20M for its virtual alien friend",
+      "url": "https://www.geekwire.com/2025/ai-companionship-app-tolan-raises-20m-to-help-more-people-grow-with-a-virtual-alien-friend/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}
