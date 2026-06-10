@@ -26,10 +26,14 @@ export function FeaturedCarouselSkeleton() {
           ))}
         </ul>
 
-        {/* Position dots */}
-        <div className="mt-3 flex flex-nowrap justify-center gap-1.5">
+        {/* Position dots. Each real dot sits in a 24px (h-6 w-6) hit target, so
+            the wrappers must match or the grid shifts ~18px when the live
+            carousel hydrates in. */}
+        <div className="mt-3 flex flex-nowrap justify-center gap-0.5">
           {Array.from({ length: 8 }).map((_, i) => (
-            <Skeleton key={i} variant="pulse" className="h-1.5 w-1.5 rounded-full" />
+            <span key={i} className="inline-flex h-6 w-6 items-center justify-center">
+              <Skeleton variant="pulse" className="h-1.5 w-1.5 rounded-full" />
+            </span>
           ))}
         </div>
       </div>
