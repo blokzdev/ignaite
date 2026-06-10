@@ -1,0 +1,53 @@
+{
+  "slug": "copy-ai",
+  "insight": "Began as an AI copywriting tool, then repositioned as a 'GTM AI' platform unifying sales, marketing, and operations workflows.",
+  "name": "Copy.ai",
+  "tagline": "Go-to-market AI platform for sales and marketing workflows.",
+  "description": "Copy.ai started as an AI copywriting assistant and now positions itself as a go-to-market (GTM) AI platform, consolidating sales, marketing, and operations work into reusable workflows. It combines a chat interface, a workflow builder, brand-voice controls, and a company knowledge base so teams can automate prospecting, content, and pipeline tasks.",
+  "category": "marketing",
+  "pricing": "paid",
+  "vendor": "CopyAI, Inc",
+  "deployment": "cloud",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Built on multiple underlying LLMs."
+  },
+  "accentColor": "#2563EB",
+  "tags": ["gtm", "sales", "marketing", "workflows"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.copy.ai/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.copy.ai/prices"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Targets whole go-to-market workflows — sales and marketing automation via reusable workflow credits — rather than only generating marketing copy.",
+  "pros": [
+    "GTM workflow automation",
+    "Sales + marketing in one platform",
+    "Custom workflow builder",
+    "Brand voice + knowledge base"
+  ],
+  "cons": [
+    "No permanent free plan",
+    "Growth tier jumps to $1,000/mo",
+    "Broad scope can feel complex"
+  ],
+  "bestFor": ["GTM/RevOps teams", "Sales + marketing ops", "Workflow automation"],
+  "alternatives": ["jasper", "clay", "airops", "writer"],
+  "references": [
+    {
+      "title": "Copy.ai Software Pricing, Alternatives & More",
+      "url": "https://www.capterra.com/p/236813/CopyAI/",
+      "source": "Capterra",
+      "kind": "review"
+    }
+  ]
+}

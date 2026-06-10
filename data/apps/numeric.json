@@ -1,0 +1,47 @@
+{
+  "slug": "numeric",
+  "insight": "Raised a $51M Series B led by IVP in late 2025 (~$89M total), expanding from month-end close into a broader finance platform.",
+  "name": "Numeric",
+  "tagline": "AI close-automation platform for accounting teams.",
+  "description": "Numeric is an AI accounting platform that automates the month-end close — reconciliations, flux/variance analysis, cash matching, and financial reporting — for finance and controllership teams. It unifies close management, reporting, and cash workflows so complex accounting teams can close faster with less manual effort.",
+  "category": "finance",
+  "pricing": "paid",
+  "vendor": "Numeric",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "accentColor": "#16A34A",
+  "tags": ["accounting", "month-end-close", "reconciliation", "fintech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.numeric.io/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "AI-native month-end close — automating reconciliations, flux analysis, and cash matching (Brex's pilot reported a >90% auto-match rate).",
+  "pros": [
+    "Automates month-end close",
+    "Strong reconciliation + cash matching",
+    "Flux/variance analysis",
+    "Used by finance teams like Brex"
+  ],
+  "cons": ["No public pricing (demo-gated)", "Enterprise-leaning", "Narrower than a full ERP"],
+  "bestFor": ["Accounting/controller teams", "Month-end close", "Reconciliations"],
+  "alternatives": ["basis", "digits", "puzzle", "rogo"],
+  "references": [
+    {
+      "title": "Numeric lands $51 million to expand its AI accounting platform",
+      "url": "https://siliconangle.com/2025/11/20/numeric-raises-51-million-expand-ai-accounting-platform/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "AI Accounting Platform Numeric Raises $51M Series B",
+      "url": "https://www.cpapracticeadvisor.com/2025/11/20/ai-accounting-platform-numeric-raises-51m-series-b/173638/",
+      "source": "CPA Practice Advisor",
+      "kind": "analysis"
+    }
+  ]
+}
