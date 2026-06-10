@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 38,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Durable checkpointed state-graph with human-in-the-loop — long agent runs pause and resume, unlike one-shot chains.",
   "pros": [

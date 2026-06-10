@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 210,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Pure OpenTelemetry spans, so LLM traces export to any OTel backend (Grafana, Datadog) instead of a locked-in dashboard.",
   "pros": [

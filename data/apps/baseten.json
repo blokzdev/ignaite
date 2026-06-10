@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 128,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Pairs prebuilt Model APIs with dedicated Truss deployments and scale-to-zero, so you don't pay for idle GPUs.",
   "pros": [

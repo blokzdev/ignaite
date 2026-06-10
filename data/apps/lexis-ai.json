@@ -22,6 +22,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 320,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Grounds answers in LexisNexis primary law and runs Shepard's verification to flag AI citations that don't exist.",
   "pros": [

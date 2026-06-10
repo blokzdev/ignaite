@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 399,
   "lastVerifiedAt": "2026-06-10",
   "edge": "A set-and-forget finishing pipeline rather than an editor — batch-masters to real broadcast specs (EBU R128, -16 LUFS, ACX) with API, CLI, and watch folders.",
   "pros": [

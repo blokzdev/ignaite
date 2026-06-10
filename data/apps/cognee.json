@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 267,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Builds an LLM-derived knowledge graph alongside embeddings, so recall follows relationships, not just vector similarity.",
   "pros": [

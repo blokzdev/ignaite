@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 173,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Translates 100+ providers into one OpenAI-format call — so many other AI tools quietly embed it as their routing layer.",
   "pros": [

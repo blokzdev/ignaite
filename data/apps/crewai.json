@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 60,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Models work as a crew of role-typed agents that delegate to each other, built standalone rather than on LangChain.",
   "pros": [

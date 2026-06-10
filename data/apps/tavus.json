@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 170,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Real-time conversational video built on its own models (Phoenix, Raven, Sparrow) with sub-500ms turn-taking.",
   "pros": [

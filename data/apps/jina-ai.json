@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 230,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Prepend r.jina.ai/ to any URL for clean LLM-ready markdown — no signup for basic use, and the Reader is open source.",
   "pros": [

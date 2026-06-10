@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 417,
   "lastVerifiedAt": "2026-06-10",
   "edge": "Hands you the training loop itself — forward_backward and sample primitives — rather than a one-click fine-tune form, with distributed GPUs managed for you.",
   "pros": [

@@ -23,6 +23,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 3,
   "lastVerifiedAt": "2026-06-01",
   "edge": "A general operator that plans and executes multi-step non-code work autonomously, not a single-prompt chatbot.",
   "pros": [

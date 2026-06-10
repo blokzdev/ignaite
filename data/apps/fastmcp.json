@@ -29,6 +29,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 207,
   "lastVerifiedAt": "2026-06-08",
   "edge": "v2 is the standalone superset most Python MCP servers build on; v1 was folded into the official MCP Python SDK.",
   "pros": [

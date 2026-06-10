@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 97,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Retrieval-first where LangChain is orchestration-first — LlamaParse is the go-to for PDFs that defeat normal parsers.",
   "pros": [

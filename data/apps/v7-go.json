@@ -22,6 +22,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 252,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Grounds every extracted field in a clickable citation back to the source doc, so each AI answer is auditable — built for regulated finance/legal review.",
   "pros": [

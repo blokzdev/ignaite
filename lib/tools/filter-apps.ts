@@ -54,23 +54,20 @@ export function matchesApp(a: App, filter: DirectoryFilter): boolean {
   return true;
 }
 
-// Sort by field + direction. Name → locale A→Z (negated for Z→A). Date → by
-// `addedAt` newest/oldest with undated entries always last; same-day ties (bulk
-// adds share a day) break deterministically by slug so the order is stable.
+// Sort by field + direction. Name → locale A→Z (negated for Z→A). Date → the
+// `addedSeq` accession number, the directory's total add-order chronology
+// (`addedAt` is day-granular and bulk adds share a day, so dates alone can't
+// order a cohort — the seq can, and velite guarantees it agrees with the
+// dates). Slug fallback only for safety: seqs are unique by the build guard.
 function compareApps(sortMode: SortMode) {
   return (a: App, b: App): number => {
     if (sortMode === "az" || sortMode === "za") {
       const c = a.name.localeCompare(b.name);
       return sortMode === "za" ? -c : c;
     }
-    // date modes: newest (desc) / oldest (asc)
-    const aD = a.addedAt ?? "";
-    const bD = b.addedAt ?? "";
-    if (aD !== bD) {
-      if (!aD) return 1; // undated → last, regardless of direction
-      if (!bD) return -1;
-      const newestFirst = aD > bD ? -1 : 1;
-      return sortMode === "oldest" ? -newestFirst : newestFirst;
+    // date modes: newest (seq desc) / oldest (seq asc)
+    if (a.addedSeq !== b.addedSeq) {
+      return sortMode === "oldest" ? a.addedSeq - b.addedSeq : b.addedSeq - a.addedSeq;
     }
     return a.slug.localeCompare(b.slug);
   };

@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 191,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Apache-2.0 and fully self-hostable, pairing tracing with built-in LLM-as-judge evals — own the stack or use Comet cloud.",
   "pros": [

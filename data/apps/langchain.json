@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 7,
   "lastVerifiedAt": "2026-06-01",
   "edge": "The default, most-integrated LLM framework — broadest connector ecosystem plus LangGraph + LangSmith in one stack.",
   "pros": [

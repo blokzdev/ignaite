@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 179,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Its multi-agent reviewer pulls context from prior PR history, not just the current codebase, across GitHub, GitLab, Bitbucket, and Azure.",
   "pros": [

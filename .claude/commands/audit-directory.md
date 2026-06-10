@@ -31,7 +31,8 @@ For each entry in scope:
 ## 1. Verify it's alive + correct (web)
 
 - WebSearch/WebFetch the official site + pricing page. Check:
-  - **Links resolve** (primary + secondaries). A `403` from anti-bot protection on a real site is OK;
+  - **Links resolve** (primary + secondaries). An anti-bot block (`403`/`429`/`503`) on a
+    **demonstrably live** site is OK — corroborate liveness via independent current sources;
     a `404`, dead domain, or redirect to a parked/acquired page is not.
   - **Pricing tier** still matches (`free`/`freemium`/`paid`/`byo-key` — cost only).
   - **`openSource`** correct (true when the app's own source is open; separate from price) and
@@ -41,8 +42,8 @@ For each entry in scope:
   - **`insight` ("Worth knowing") still true** — the fact hasn't gone stale (the acquisition closed,
     the rename completed, a "first" no longer holds). Rewrite if reality moved; if it has drifted into a
     description paraphrase or a re-statement of `edge`, sharpen it to a real fact or drop it.
-  - **`references` resolve** — if present, link-check each third-party reference URL (403 anti-bot OK;
-    404/dead → drop or replace). Confirm an `edge`/`cons` claim hasn't gone stale (a gap the app has
+  - **`references` resolve** — if present, link-check each third-party reference URL (an anti-bot
+    `403`/`429`/`503` on a live source is OK; 404/dead → drop or replace). Confirm an `edge`/`cons` claim hasn't gone stale (a gap the app has
     since closed, a differentiator a competitor matched).
 - **Backfill:** if an entry is missing `openSource`/`deployment` and the value is verifiable, add it
   (this is how full coverage of those facets completes itself over the weekly cycle). Leave
@@ -87,6 +88,8 @@ the initial authoring; only log when you _change_ an existing value or correct o
 - **`kind`** — `updated` (the app itself changed upstream) · `fixed` (our data was wrong and you
   corrected it) · `archived` (discontinued/sunset) · `relisted` (brought back after archival).
   (`added` is reserved for `/add-app`; the detail page derives the origin node from `addedAt`.)
+  Never touch `addedAt` or `addedSeq` (the accession number) — they record when the listing entered
+  the directory, which an audit can't change; archived/relisted entries keep theirs.
 - **`summary`** — concrete and specific ("Pricing moved from free to freemium — added a $20/mo Pro
   tier", not "updated pricing").
 - **`asOf`** — the real-world date the change happened upstream, **only if you can source it** (a

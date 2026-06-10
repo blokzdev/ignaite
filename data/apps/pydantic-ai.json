@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 131,
   "lastVerifiedAt": "2026-06-07",
   "edge": "From the Pydantic team, so agent outputs are validated by the same library most Python LLM apps already use for schemas.",
   "pros": [

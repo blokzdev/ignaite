@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 70,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Returns clean, scrape-ready content instead of ranked links — the default search tool baked into agent frameworks.",
   "pros": [

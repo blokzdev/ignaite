@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 273,
   "lastVerifiedAt": "2026-06-09",
   "edge": "From the PyTorch Lightning team — Studios are persistent GPU workspaces you pause and resume, not throwaway notebooks.",
   "pros": [

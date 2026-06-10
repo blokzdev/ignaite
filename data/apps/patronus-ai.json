@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 145,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Ships trained evaluator models (Lynx, GLIDER, Percival) rather than only prompt-based LLM-judge scoring.",
   "pros": [

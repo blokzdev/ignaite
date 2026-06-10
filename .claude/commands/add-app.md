@@ -38,7 +38,11 @@ a precise per-file error if anything is off.
 
 Required: `slug` (unique, kebab-case), `name`, `tagline` (≤100 chars, one line), `description`
 (2–4 sentences), `category` (an `AppCategory`), `pricing` (an `AppPricing`), `platforms` (≥1
-`AppPlatform`), `links` (≥1, **exactly one** `primary: true`).
+`AppPlatform`), `links` (≥1, **exactly one** `primary: true`), `addedSeq` (the **accession
+number** — the directory's total add-order chronology, what the Newest/Oldest sort orders by:
+take the highest existing `"addedSeq"` across `data/apps/*.json`, **plus any claimed by open
+discovery PRs**, and assign +1; multiple apps in one run get consecutive numbers; never reuse or
+renumber — velite hard-fails duplicates and any seq that contradicts `addedAt` order).
 Recommended: `insight` (the "Worth knowing" fact — see below), `vendor`, `modelSupport`
 ({ `kind`, `models?`, `notes?` }), `tags` (3–5), `accentColor` (brand hex), `addedAt` +
 `lastVerifiedAt` = **today's date** (YYYY-MM-DD), plus the two facets below.

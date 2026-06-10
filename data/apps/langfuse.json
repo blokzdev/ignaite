@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 15,
   "lastVerifiedAt": "2026-06-01",
   "edge": "The MIT-licensed, self-hostable answer to LangSmith — own your observability data, framework-agnostic.",
   "pros": [

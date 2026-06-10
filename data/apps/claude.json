@@ -28,6 +28,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 121,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Introduced both Artifacts and the MCP standard now common across agentic tooling — strong at code and long-form writing.",
   "pros": [

@@ -29,6 +29,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 229,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Tuned for governed, regulated-industry extraction — claims higher accuracy on complex layouts than LlamaParse.",
   "pros": [

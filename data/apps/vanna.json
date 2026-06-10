@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 391,
   "lastVerifiedAt": "2026-06-10",
   "edge": "Trains a RAG layer on your own schema, queries and docs so generated SQL matches your warehouse — and the MIT core self-hosts for free.",
   "pros": [

@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 295,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Secures the whole ML supply chain — model scanning for serialization attacks, red teaming, posture, runtime — and stewards OSS ModelScan.",
   "pros": [

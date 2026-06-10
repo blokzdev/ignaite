@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 338,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Enforces policy proactively — blocks out-of-policy spend at swipe rather than catching it after the expense report.",
   "pros": [

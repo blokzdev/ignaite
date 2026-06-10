@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 176,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Parses the DOM into a structured view any LLM can drive — leads open browser agents at ~89% on WebVoyager.",
   "pros": [

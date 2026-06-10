@@ -22,6 +22,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 374,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Multi-Entity Consistency: feed 3–7 reference images and it keeps multiple characters/objects consistent across a clip.",
   "pros": [

@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 227,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Drives the browser from the accessibility tree, not screenshots — deterministic, fast, and no vision model required.",
   "pros": [

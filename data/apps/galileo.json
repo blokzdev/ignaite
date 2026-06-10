@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 225,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Turns offline evals into real-time production guardrails powered by its own cheap Luna eval models, not an LLM judge.",
   "pros": [

@@ -33,6 +33,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 34,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Ships the same agent across CLI, IDE, desktop, and web — reads the spec, writes the diff, runs tests, opens the PR.",
   "pros": [

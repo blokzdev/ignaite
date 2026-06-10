@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 18,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Built-in vectorizers embed text inline — raw text in, vectors out — plus hybrid BM25 + vector search out of the box.",
   "pros": [

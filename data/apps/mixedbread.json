@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 316,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Managed multimodal search built on its own MTEB-leading mxbai embed/rerank models — no hand-tuned multi-stage pipeline.",
   "pros": [

@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 127,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Context Engine indexes entire multi-repo codebases — built for enterprise monorepos, not single-project editing.",
   "pros": [

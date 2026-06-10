@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 160,
   "lastVerifiedAt": "2026-06-07",
   "edge": "MIT-licensed memory engine you self-host or call as a managed API — one recall endpoint across any model.",
   "pros": [

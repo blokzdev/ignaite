@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 63,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Tuned for messy real-world audio (accents, phone lines, overlapping speakers) where general transcribers fall apart.",
   "pros": [

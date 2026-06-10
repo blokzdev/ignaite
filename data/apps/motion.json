@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 363,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Auto-scheduling is the core: it continuously rebuilds your calendar from your task list so slipped work re-flows itself.",
   "pros": [

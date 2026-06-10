@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 235,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Declarative task-level orchestration that fails over across 20+ clouds and Kubernetes chasing the cheapest available GPUs.",
   "pros": [

@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 239,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Open-source AI layout detection that preserves reading order and table structure — self-hostable, no API bills.",
   "pros": [

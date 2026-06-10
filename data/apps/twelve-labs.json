@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 146,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Video-native foundation models (Marengo, Pegasus) understand motion and events directly, not by captioning sampled frames into a text LLM.",
   "pros": [

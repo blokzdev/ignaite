@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 180,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Stores a temporal knowledge graph (via OSS Graphiti) that versions how facts change over time, not flat snapshots.",
   "pros": [

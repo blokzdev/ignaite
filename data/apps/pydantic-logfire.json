@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 353,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Built on OpenTelemetry by the Pydantic team — its MIT-licensed SDK wraps OTel, so traces stay portable beyond Logfire's backend.",
   "pros": [
