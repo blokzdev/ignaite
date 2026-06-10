@@ -1,0 +1,52 @@
+{
+  "slug": "immersive-translate",
+  "insight": "Its Android version ships as a standalone browser, Babel Browser, because mobile Chrome doesn't support extensions.",
+  "name": "Immersive Translate",
+  "tagline": "Bilingual side-by-side translation for web pages, PDFs, ebooks, and video subtitles.",
+  "description": "Immersive Translate is a browser extension that renders foreign-language pages bilingually, showing the translation alongside the original text instead of replacing it. It covers web pages, PDFs (including scanned OCR), EPUBs, video subtitles on 100+ platforms, and manga/image translation, and lets you switch between a dozen-plus machine-translation engines and LLMs. The core extension is free; a Pro membership bundles premium engine quota.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "vendor": "Immersive Translate",
+  "platforms": ["browser-extension", "web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["DeepL", "GPT", "Gemini", "Claude"],
+    "notes": "A dozen-plus MT engines and LLMs; bring your own API keys or use Pro quota."
+  },
+  "tags": ["translation", "bilingual", "browser", "pdf", "subtitles"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://immersivetranslate.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://immersivetranslate.com/en/docs/"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Side-by-side bilingual layout across web, PDF, EPUB, and video subtitles, with a dozen-plus swappable engines — broader format coverage than rival sidebars.",
+  "pros": [
+    "Free core with generous limits",
+    "Bilingual layout preserves original text",
+    "Translates PDFs, EPUBs, subtitles, manga",
+    "Works with your own API keys",
+    "Chrome, Edge, Firefox, Safari support"
+  ],
+  "cons": [
+    "Pro needed for bundled DeepL/OpenAI quota",
+    "Heavy pages can render translations slowly",
+    "Quality depends on the engine you pick"
+  ],
+  "bestFor": ["Bilingual readers", "Language learners", "Cross-language research"],
+  "alternatives": ["deepl", "monica", "sider"],
+  "references": [
+    {
+      "title": "Immersive Translate: AI Web, PDF & Video Translator",
+      "url": "https://chromewebstore.google.com/detail/immersive-translate-ai-we/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+      "source": "Chrome Web Store"
+    }
+  ]
+}

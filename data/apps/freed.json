@@ -1,0 +1,46 @@
+{
+  "slug": "freed",
+  "insight": "Transcribed over 32 million patient visits in 2025, with 26,000+ clinicians across 1,300+ clinics on the platform.",
+  "name": "Freed",
+  "tagline": "AI medical scribe that turns patient visits into clinical notes and pushes them to EHRs.",
+  "description": "Freed is an AI medical scribe for clinicians: it listens to patient visits and produces complete, specialty-templated clinical notes within moments of the encounter. Higher tiers add EHR push integration, visit-prep summaries, referral letters, and ICD-10/CPT coding. It is HIPAA-compliant and SOC 2 Type II certified, and does not store patient recordings.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Freed",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["medical-scribe", "clinical-notes", "hipaa", "ehr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.getfreed.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Aimed at solo and small practices: unlimited notes at $79/month with white-glove support, instead of enterprise contracts and per-seat minimums.",
+  "pros": [
+    "Notes ready right after the visit",
+    "EHR push integration on Premier tier",
+    "HIPAA + SOC 2 Type II certified",
+    "Doesn't store patient recordings",
+    "Specialty-specific templates"
+  ],
+  "cons": [
+    "No free tier — 7-day trial only",
+    "Starter capped at 40 notes/month",
+    "Coding and EHR push need Premier",
+    "Strongest in primary care specialties"
+  ],
+  "bestFor": ["Solo clinicians", "Small practices", "Cutting charting time"],
+  "alternatives": ["heidi-health", "nabla", "abridge", "suki"],
+  "references": [
+    {
+      "title": "Freed AI Scribe Review 2026: Pricing, Accuracy, and What Doctors Say",
+      "url": "https://www.veroscribe.com/blog/freed-ai-review-2026",
+      "source": "Vero",
+      "kind": "review"
+    }
+  ]
+}
