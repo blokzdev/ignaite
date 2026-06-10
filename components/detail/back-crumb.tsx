@@ -1,12 +1,10 @@
 "use client";
-import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { ArrowLeft, ChevronRight, Home, LayoutGrid, Search, SlidersHorizontal } from "lucide-react";
 import { cn } from "@/lib/utils";
 import {
   describeDirectoryReturn,
-  useInAppNav,
   useSavedDirectoryQuery,
   type DirectoryReturn,
 } from "@/lib/tools/directory-session";
@@ -35,16 +33,17 @@ function ariaFor(kind: DirectoryReturn["kind"], label: string): string {
 // The detail toolbar's state-aware breadcrumb. A FIXED round back button on the
 // left (always visible + tappable, balancing the Copy-link button on the right)
 // + a horizontally-scrollable descriptive trail `{glyph} {source} › {app}`. The
-// button is a real <Link> to the saved results (no-JS / new-tab safe, filters
-// intact) but intercepts in-app clicks to call router.back(), which restores the
-// cached results EXACTLY (scroll + filters). The trail shows where you came from
-// via a type-glyph + label (search term / category / joined filters), or just a
-// home glyph for the bare directory, and fades on whichever side has hidden
-// content — a scroll cue that, with the button now separate, never clips it.
+// button is a plain <Link> straight to the saved results (filters/search/sort
+// intact) — deliberately NOT router.back(): one press always lands on the
+// results, no matter how much history piled up in between (reloads, app→app
+// hops via Alternatives, #history hash jumps). The browser's own back button
+// still walks literal history for anyone who wants that. The trail shows where
+// you came from via a type-glyph + label (search term / category / joined
+// filters), or just a home glyph for the bare directory, and fades on whichever
+// side has hidden content — a scroll cue that, with the button separate, never
+// clips it.
 export function BackCrumb({ appName }: Readonly<{ appName: string }>) {
-  const router = useRouter();
   const raw = useSavedDirectoryQuery();
-  const inApp = useInAppNav();
   const { kind, label, href } = useMemo(() => describeDirectoryReturn(raw), [raw]);
   const Glyph = GLYPH[kind];
 
@@ -73,19 +72,10 @@ export function BackCrumb({ appName }: Readonly<{ appName: string }>) {
     update();
   }, [update, kind, label, appName]);
 
-  const onBack = (e: MouseEvent<HTMLAnchorElement>) => {
-    // Plain click only (let modifier/middle clicks open the href normally).
-    if (inApp && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button === 0) {
-      e.preventDefault();
-      router.back();
-    }
-  };
-
   return (
     <nav aria-label="Breadcrumb" className="flex min-w-0 flex-1 items-center gap-2">
       <Link
         href={href}
-        onClick={onBack}
         aria-label={ariaFor(kind, label)}
         className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
       >
