@@ -1,0 +1,53 @@
+{
+  "slug": "comet",
+  "name": "Comet",
+  "tagline": "Perplexity's AI browser with a sidebar assistant that acts across your tabs.",
+  "description": "An AI-native Chromium browser from Perplexity that puts a persistent assistant in the sidebar — it summarizes pages, compares products, and takes actions like drafting emails or managing tabs using the context of what you're browsing. Perplexity search is the default, with Deep Research and voice mode built in. Free on Windows, macOS, Android, and iOS; an optional $5/month Comet Plus tier unlocks premium publisher content.",
+  "insight": "Launched July 2025 exclusively for $200/month Max subscribers; Perplexity made it free for everyone that October.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Perplexity",
+  "platforms": ["windows", "macos", "android", "ios"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Assistant runs on Perplexity's model lineup; frontier-model access follows your Perplexity subscription tier."
+  },
+  "tags": ["browser", "ai-assistant", "agentic", "search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.perplexity.ai/comet",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "The only major AI browser free across desktop and mobile, with an assistant that can act on open tabs, email, and calendar from the sidebar.",
+  "pros": [
+    "Free on desktop and mobile",
+    "Sidebar assistant acts across tabs",
+    "Chromium base imports Chrome data",
+    "Deep Research and voice built in"
+  ],
+  "cons": [
+    "Closed source",
+    "Frontier models need Pro or Max",
+    "Publisher content costs $5/month",
+    "Assistant needs broad data access"
+  ],
+  "bestFor": ["Perplexity users", "AI-native browsing", "Mobile + desktop parity"],
+  "alternatives": ["dia", "chatgpt-atlas", "perplexity"],
+  "references": [
+    {
+      "title": "You no longer need to pay $200 to use Perplexity's Comet browser",
+      "url": "https://www.xda-developers.com/perplexity-comet-now-completely-free/",
+      "source": "XDA Developers"
+    },
+    {
+      "title": "Perplexity brings its AI browser Comet to Android",
+      "url": "https://techcrunch.com/2025/11/20/perplexity-brings-its-ai-browser-comet-to-android/",
+      "source": "TechCrunch"
+    }
+  ]
+}

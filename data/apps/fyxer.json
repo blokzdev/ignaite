@@ -1,0 +1,47 @@
+{
+  "slug": "fyxer",
+  "name": "Fyxer",
+  "tagline": "An AI executive assistant that triages email, drafts replies, and takes meeting notes.",
+  "description": "An AI executive assistant for Gmail and Outlook that organizes your inbox by urgency, drafts replies in your own writing style, and produces meeting notes from Google Meet, Teams, and Zoom calls. Setup is one click via Google or Microsoft sign-in, and drafts improve as it learns from your edits. Plans start at $30/month per seat after a 7-day trial.",
+  "insight": "Built on 500,000+ hours of workflow data from the founders' prior executive-assistant agency; raised a $30M Madrona-led Series B in 2025.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Fyxer AI",
+  "platforms": ["web"],
+  "tags": ["email", "meeting-notes", "executive-assistant", "gmail", "outlook"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fyxer.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.fyxer.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Drafts that genuinely match your voice and automatic inbox triage, trained on real executive-assistant workflows rather than generic templates.",
+  "pros": [
+    "Replies drafted in your voice",
+    "Automatic urgency-based triage",
+    "Meeting notes for Meet/Teams/Zoom",
+    "One-click Gmail/Outlook setup"
+  ],
+  "cons": [
+    "No free tier beyond 7-day trial",
+    "Gmail and Outlook only",
+    "Per-seat pricing adds up for teams"
+  ],
+  "bestFor": ["Busy executives", "Email-heavy teams", "Gmail/Outlook users"],
+  "alternatives": ["superhuman", "shortwave", "granola"],
+  "references": [
+    {
+      "title": "Fyxer.ai raises $30M to bring AI productivity assistants to professionals",
+      "url": "https://techfundingnews.com/startup-in-spotlight-fyxer-ai-raises-30m-to-bring-ai-productivity-assistants-to-everyday-professionals/",
+      "source": "Tech Funding News"
+    }
+  ]
+}

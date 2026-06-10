@@ -1,0 +1,56 @@
+{
+  "slug": "landr",
+  "name": "LANDR",
+  "tagline": "AI mastering, distribution, samples, and plugins for independent musicians.",
+  "description": "A cloud platform for musicians built around the original AI mastering engine, launched in 2014. Upload a track and get a streaming-ready master in minutes, then distribute to Spotify, Apple Music, and other stores from the same account. The subscription also covers a million-plus sample library and plugin deals; a free account includes a limited number of masters per month.",
+  "insight": "Born in Montreal as MixGenius; early backers include Nas and Richie Hawtin, and it acquired DAW maker Reason Studios in January 2026.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "LANDR Audio",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary AI mastering engine; processing runs in LANDR's cloud."
+  },
+  "tags": ["mastering", "music-production", "distribution", "samples"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.landr.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.landr.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "The longest-running AI mastering engine, bundled with distribution to streaming services, samples, and plugins in one subscription.",
+  "pros": [
+    "Masters ready in minutes",
+    "Free tier to try it out",
+    "Distribution bundled on Pro plans",
+    "Large sample and plugin catalog"
+  ],
+  "cons": [
+    "Can over-compress dynamics",
+    "Less control than a human engineer",
+    "Weaker on acoustic and jazz mixes"
+  ],
+  "bestFor": ["Independent artists", "Frequent releasers", "Bedroom producers"],
+  "references": [
+    {
+      "title": "LANDR Review: Is AI Mastering Worth It in 2026?",
+      "url": "https://www.edmsauce.com/landr-review/",
+      "source": "EDM Sauce",
+      "kind": "review"
+    },
+    {
+      "title": "LANDR",
+      "url": "https://en.wikipedia.org/wiki/LANDR",
+      "source": "Wikipedia"
+    }
+  ]
+}

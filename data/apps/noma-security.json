@@ -1,0 +1,43 @@
+{
+  "slug": "noma-security",
+  "name": "Noma Security",
+  "tagline": "Enterprise platform to discover, govern, and protect AI agents and applications.",
+  "description": "An enterprise AI security platform that inventories every model, agent, MCP server, and data dependency across your stack, scans for misconfigurations and supply-chain risks, red-teams AI applications, and enforces runtime guardrails against prompt injection and rogue agent behavior. Founded in Tel Aviv in 2023, it counts UiPath, Best Buy, and Nielsen among its customers. Enterprise pricing via demo.",
+  "insight": "Emerged from stealth in November 2024 and closed a $100M Series B just eight months later — $132M raised in under two years.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Noma Security",
+  "platforms": ["web"],
+  "tags": ["ai-security", "agent-security", "red-teaming", "governance", "runtime-protection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://noma.security",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Spans the whole AI lifecycle — discovery, posture, red teaming, and runtime guardrails for agents and MCP servers — where most rivals cover one slice.",
+  "pros": [
+    "End-to-end posture to runtime",
+    "Covers agents and MCP servers",
+    "Built-in AI red teaming",
+    "Enterprise customer references"
+  ],
+  "cons": [
+    "Demo-gated enterprise pricing",
+    "No self-serve or free tier",
+    "Young company, founded 2023"
+  ],
+  "bestFor": ["Enterprise security teams", "AI governance leads", "Agent-heavy deployments"],
+  "alternatives": ["lakera", "prompt-security", "zenity", "hiddenlayer"],
+  "references": [
+    {
+      "title": "Noma Security Raises $100 Million for AI Security Platform",
+      "url": "https://www.securityweek.com/noma-security-raises-100-million-for-ai-security-platform/",
+      "source": "SecurityWeek"
+    }
+  ]
+}
