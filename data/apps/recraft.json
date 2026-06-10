@@ -29,11 +29,6 @@
       "date": "2026-06-09",
       "kind": "fixed",
       "summary": "Recategorized from image-gen to the new design category for brand/graphic design tooling."
-    },
-    {
-      "date": "2026-06-10",
-      "kind": "updated",
-      "summary": "Featured this cycle (rotation)"
     }
   ],
   "edge": "The only major generator that outputs natively editable SVG paths — assets drop straight into Illustrator or Figma.",

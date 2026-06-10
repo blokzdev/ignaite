@@ -47,12 +47,5 @@
     "Latency higher than streaming-first rivals"
   ],
   "bestFor": ["Audiobooks and narration", "Dubbing and localization", "Voice agents"],
-  "alternatives": ["cartesia", "deepgram", "speechify", "hume-ai"],
-  "changelog": [
-    {
-      "date": "2026-06-10",
-      "kind": "updated",
-      "summary": "Rotated out of Featured"
-    }
-  ]
+  "alternatives": ["cartesia", "deepgram", "speechify", "hume-ai"]
 }

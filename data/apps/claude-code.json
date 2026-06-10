@@ -47,12 +47,5 @@
     "Terminal-first learning curve"
   ],
   "bestFor": ["Agentic coding", "Terminal-native devs", "PR automation"],
-  "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"],
-  "changelog": [
-    {
-      "date": "2026-06-10",
-      "kind": "updated",
-      "summary": "Rotated out of Featured"
-    }
-  ]
+  "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"]
 }

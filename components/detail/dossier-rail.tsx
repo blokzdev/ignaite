@@ -1,22 +1,26 @@
 import Link from "next/link";
-import { ArrowUpRight, History } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import type { App } from "@/types/app";
-import { cn } from "@/lib/utils";
+import { cn, formatDate } from "@/lib/utils";
 import { LINK_ICON, LINK_LABEL, MODEL_KIND_LABEL } from "@/lib/tools/app-labels";
+import { ChangeHistory } from "@/components/tools/change-history";
+import { HistoryDisclosure } from "./history-disclosure";
 
 const sectionLabel =
   "font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase";
 
 // The "dossier" — the listing's reference column: every link (primary
-// highlighted), model-support detail, best-for audience tags, and a compact
-// provenance link to the change-history ledger. Pure metadata, no CTAs (the
-// masthead/action bar own Open) and no facet rows (the stat strip owns those).
-// Sticky sidebar on desktop, stacked after the brief on smaller screens.
-// Server component; capped height with an internal scroll so a long dossier
-// never pins taller than the viewport.
+// highlighted), model-support detail, best-for audience tags, and the
+// provenance footer (freshness stamp + the change-history ledger behind an
+// expand/collapse). Pure metadata, no CTAs (the masthead/action bar own Open)
+// and no facet rows (the stat strip owns those). Sticky sidebar on desktop,
+// stacked after the brief on smaller screens. Server component (the ledger
+// toggle is a small client island); capped height with an internal scroll so a
+// long dossier never pins taller than the viewport.
 export function DossierRail({ app, accent }: Readonly<{ app: App; accent: string }>) {
   const primary = app.links.find((l) => l.primary) ?? app.links[0];
   const changeCount = app.changelog?.length ?? 0;
+  const hasHistory = changeCount > 0 || Boolean(app.addedAt);
 
   return (
     <aside
@@ -119,22 +123,29 @@ export function DossierRail({ app, accent }: Readonly<{ app: App; accent: string
         </div>
       )}
 
-      {/* Provenance — links to the full ledger (dates live in the stat strip) */}
-      <div className="border-t border-white/[0.06] pt-5">
-        <Link
-          href="#history"
-          className="group flex items-center gap-2 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+      {/* Provenance — freshness stamp + the expandable change ledger. The
+          #history anchor lives here (the stat strip's VERIFIED cell jumps to
+          it); scroll-margin clears the fixed header + sticky toolbar since the
+          global scroll-padding-top only accounts for the nav. */}
+      {(app.lastVerifiedAt || hasHistory) && (
+        <div
+          id="history"
+          className="scroll-mt-[calc(min(var(--nav-h),var(--nav-row-h))_+_var(--detail-toolbar-h)_+_1rem)] border-t border-white/[0.06] pt-5"
         >
-          <History aria-hidden className="h-3.5 w-3.5 shrink-0" />
-          {changeCount > 0
-            ? `${changeCount} ${changeCount === 1 ? "update" : "updates"} · View history`
-            : "View history"}
-          <ArrowUpRight
-            aria-hidden
-            className="h-3 w-3 text-[var(--color-ink-dim)] transition-transform group-hover:translate-x-0.5"
-          />
-        </Link>
-      </div>
+          {app.lastVerifiedAt && (
+            <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
+              Last verified · {formatDate(app.lastVerifiedAt)}
+            </p>
+          )}
+          {hasHistory && (
+            <div className={cn(app.lastVerifiedAt && "mt-3")}>
+              <HistoryDisclosure changeCount={changeCount}>
+                <ChangeHistory entries={app.changelog ?? []} addedAt={app.addedAt} />
+              </HistoryDisclosure>
+            </div>
+          )}
+        </div>
+      )}
     </aside>
   );
 }

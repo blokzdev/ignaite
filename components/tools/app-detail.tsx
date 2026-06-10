@@ -255,14 +255,9 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </RelatedRail>
       )}
 
-      {/* Maintenance ledger — provenance + change history (stat-strip VERIFIED
-          anchors here). */}
-      <AccuracyNote
-        appName={app.name}
-        addedAt={app.addedAt}
-        lastVerifiedAt={app.lastVerifiedAt}
-        changelog={app.changelog}
-      />
+      {/* Maintenance note — blurb-only last word (the change history + freshness
+          stamp live in the dossier's provenance footer, where #history anchors). */}
+      <AccuracyNote appName={app.name} />
 
       <JsonLd
         data={{

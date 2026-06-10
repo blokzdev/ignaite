@@ -63,12 +63,5 @@
     }
   ],
   "featured": true,
-  "featuredAt": "2026-06-10",
-  "changelog": [
-    {
-      "date": "2026-06-10",
-      "kind": "updated",
-      "summary": "Featured this cycle (rotation)"
-    }
-  ]
+  "featuredAt": "2026-06-10"
 }

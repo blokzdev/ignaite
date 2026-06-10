@@ -512,8 +512,9 @@ encode the flow (see `docs/directory-playbook.md`):
 - **`/rotate-featured [count | cluster]`** — refresh the homepage **Featured carousel** so it never goes
   stale: pick ~14 random categories (biased away from those featured in the last ~2 cycles via
   `featuredAt`), feature one strong active app in each (set `featured`+`accentColor`+`featuredAt`), rotate
-  the prior set out, append a `changelog` entry per change, and open a PR. Touches only
-  `featured`/`featuredAt`/`accentColor`/`changelog` — never factual fields. Run ~biweekly.
+  the prior set out, and open a PR. Touches only `featured`/`featuredAt`/`accentColor` — never factual
+  fields and **never `changelog`** (rotation is curation, not a listing change — logging it would flood
+  every Change history; its audit trail is `featuredAt` + the rotation PR itself). Run ~biweekly.
 
 Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biweekly via Claude Code
 **Routines** (account-owned — the user sets them up; they open PRs for review). Exact routine prompts:

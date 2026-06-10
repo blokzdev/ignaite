@@ -48,16 +48,16 @@ For each **newly featured** app (`data/apps/<slug>.json`):
 - Set `"featured": true`, set `"featuredAt"` to **today** (`YYYY-MM-DD`), and ensure an `accentColor`
   hex is set (the schema **requires** `accentColor` when `featured` — reuse the app's existing
   `accentColor` if present, else pick a tasteful on-brand hex that suits the app/its category).
-- Append one `changelog` entry: `{ "date": <today>, "kind": "updated", "summary": "Featured this cycle (rotation)" }`.
 
 For each app **rotating out** (was `featured: true`, not re-chosen):
 
 - Set `"featured": false` (leave `featuredAt` as the historical record; `accentColor` may stay — it's
   optional when not featured).
-- Append one `changelog` entry: `{ "date": <today>, "kind": "updated", "summary": "Rotated out of Featured" }`.
 
-Touch **only** `featured`, `featuredAt`, `accentColor`, and `changelog` — never edit a listing's
-factual fields here (that's `/audit-directory`'s job).
+Touch **only** `featured`, `featuredAt`, and `accentColor` — never edit a listing's factual fields
+here (that's `/audit-directory`'s job), and do **NOT** touch `changelog`: rotation is curation, not a
+change to the listing, and logging it would flood every app's visible Change history. The audit trail
+for rotation is `featuredAt` + the rotation PR itself (+ git history).
 
 ## 4. Validate
 

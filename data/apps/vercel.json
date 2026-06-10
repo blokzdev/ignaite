@@ -45,12 +45,5 @@
     "Some lock-in to platform primitives"
   ],
   "bestFor": ["Frontend + Next.js apps", "Preview deploys", "AI app hosting"],
-  "alternatives": ["cloudflare", "modal", "replit"],
-  "changelog": [
-    {
-      "date": "2026-06-10",
-      "kind": "updated",
-      "summary": "Rotated out of Featured"
-    }
-  ]
+  "alternatives": ["cloudflare", "modal", "replit"]
 }

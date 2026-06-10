@@ -50,8 +50,8 @@ interface Node {
 /**
  * Visible audit trail for a listing — the structured record of substantive
  * changes the maintenance routines made, newest first, ending at the origin
- * ("Listed · addedAt") so there's never an empty void. Rendered as a band inside
- * the maintenance ledger (accuracy-note.tsx). Returns null only when there's
+ * ("Listed · addedAt") so there's never an empty void. Rendered inside the
+ * dossier's expandable provenance footer (dossier-rail.tsx). Returns null only when there's
  * genuinely nothing to show (no changelog and no addedAt). Server component.
  */
 export function ChangeHistory({
@@ -72,13 +72,11 @@ export function ChangeHistory({
 
   if (nodes.length === 0) return null;
 
+  // No heading of its own — the disclosure trigger ("N updates · View history")
+  // labels the panel.
   return (
     <div>
-      <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-        Change history
-      </p>
-
-      <ol className="relative mt-4 space-y-5 border-l border-white/[0.08] pl-6">
+      <ol className="relative mt-1 space-y-5 border-l border-white/[0.08] pl-6">
         {nodes.map((n, i) => {
           const meta = KIND[n.kind];
           const Icon = meta.icon;

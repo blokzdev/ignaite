@@ -43,12 +43,5 @@
   "bestFor": ["Existing VS Code users", "Agentic refactors", "Fast iteration"],
   "alternatives": ["windsurf", "github-copilot", "zed"],
   "addedAt": "2026-05-13",
-  "lastVerifiedAt": "2026-06-01",
-  "changelog": [
-    {
-      "date": "2026-06-10",
-      "kind": "updated",
-      "summary": "Rotated out of Featured"
-    }
-  ]
+  "lastVerifiedAt": "2026-06-01"
 }
