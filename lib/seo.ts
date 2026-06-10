@@ -45,13 +45,20 @@ export function buildMetadata({
       url,
       siteName: brand.name,
       type: "website",
-      images: ogImage ? [{ url: ogImage }] : undefined,
+      // Only set images explicitly when a caller passes one. Emitting
+      // `images: undefined` would suppress Next's colocated
+      // `opengraph-image.tsx` file convention, leaving every route with no
+      // `og:image` (text-only social cards). Omitting the key lets the file
+      // convention populate it; per-route cards (e.g. /apps/[slug]) still win.
+      ...(ogImage
+        ? { images: [{ url: ogImage, width: 1200, height: 630, type: "image/png" }] }
+        : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: ogImage ? [ogImage] : undefined,
+      ...(ogImage ? { images: [ogImage] } : {}),
     },
     alternates: { canonical: url },
     robots: { index: true, follow: true },

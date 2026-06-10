@@ -38,7 +38,6 @@ Things that would make the site feel more "us" before the world sees it.
 - [ ] **[future]** _(Portfolio dormant — these three are deferred while the blockchain heritage is unpublished; they only matter if/when the portfolio is revived.)_ Replace the blanket Play-Store developer-page URL in `data/projects.ts` with per-app deep links (`details?id=<packageId>`). Only `blockscan` carries a verified package id (`com.bdc.blockscan.app`).
 - [ ] **[future]** Provide per-app download / review counts beyond Blockchair's confirmed 10K+ (portfolio-dormant).
 - [ ] **[future]** Drop real 512×512 app icons under `public/projects/<slug>/icon.png` (portfolio-dormant). Also: confirm **WebSight**'s tagline/description + add real stars/forks stats in `data/projects.ts` before reviving the portfolio.
-- [ ] **[polish]** Load Geist Sans into the OG image template so the social-share cards match the live site's display type. `lib/og-image.tsx` currently uses Satori's default system sans (clean but not on-brand).
 
 ## Post-launch enhancements
 
@@ -52,7 +51,6 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 
 - [ ] **[future]** Revisit **Serwist / Workbox** (`@serwist/next`) if caching needs outgrow the hand-rolled shell SW (precise revisioning, richer runtime strategies, background sync). Gated by CLAUDE.md §11 — requires a new dependency **and** a `next.config.ts` change, so it needs explicit sign-off.
 - [ ] **[future]** Aggressive offline — runtime-cache visited `/apps/<slug>` pages + the slim directory search JSON (`@/.velite` `apps-search.json`) so installed users can browse listings offline. More cache-invalidation surface; pair with a SW version bump strategy.
-- [ ] **[debt]** The Sonner `<Toaster>` (`components/ui/toaster.tsx`) is **never mounted** in the tree, so `toast()` calls (e.g. in `components/tools/tools-browser.tsx`) are currently no-ops. Either mount `<Toaster/>` in `app/layout.tsx` or remove the dead toast calls. (Out of scope for the PWA work, which uses a bespoke banner — recorded here so it isn't lost.)
 
 ### Workflow
 
@@ -109,7 +107,6 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 
 - [ ] **[polish]** Residual bundle gap after the chunk-2 trim sprint. `/apps` 146 KB, `/apps/[slug]` 134 KB, `/workflow/artifacts/[slug]` 134 KB, `/_not-found` 118 KB. The remaining mass is React 19 + Next 15 runtime + motion library — roughly the modern-Next floor. Further wins would require lazy-loading `motion/react` per feature (large refactor). CLAUDE.md §10 ceilings already updated to reflect realistic targets.
 - [ ] **[polish]** Swap the in-memory IP rate limiter (`lib/rate-limit.ts`) for `@upstash/ratelimit` once we want hardened protection against sustained abuse. Today it resets on cold start and doesn't share state across regions — fine for expected volume.
-- [ ] **[polish]** Full PWA installability — add a service worker if mobile install rate becomes a stated goal. `app/manifest.ts` already advertises the icons.
 - [ ] **[polish]** Playwright smoke suite for the hero, apps directory filter, workflow, and contact-form happy path. The CI workflow (`.github/workflows/ci.yml`) is ready to host a `test` job once the suite + `@playwright/test` land.
 - [ ] **[verify]** Lighthouse-CI **Best-Practices** reads ~0.96 in CI because `@vercel/analytics` + `@vercel/speed-insights` request `/_vercel/insights/*`, which 404s anywhere that isn't Vercel (console errors), plus Lighthouse's advisory CSP/COOP audits. It's a CI-environment artifact — prod (on Vercel) is ~100 — so the assertion is `warn`, not `error`. Optionally add a CSP/COOP header pass later to reach a real 100.
 
@@ -130,7 +127,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 
 - [ ] **[future]** Seed one real `oss-repo` entry in `data/projects.ts` once the first Blokz OSS repo is published. The OSS card variant already ships exercised via the "coming-soon" placeholder.
 - [ ] **[future]** Add the first iOS title to `data/projects.ts` once it ships. The workflow page currently surfaces iOS as an aspirational platform tab.
-- [ ] **[future]** Per-page OG image generators on `/apps/[slug]` and `/workflow/artifacts/[slug]` (right now they inherit the parent route's OG).
+- [ ] **[future]** Per-page OG image generator on `/workflow/artifacts/[slug]` (dormant — inherits the parent route's OG). _(The `/apps/[slug]` half is done — see Resolved.)_
 - [ ] **[future]** Public "build log" page that timestamps each commit to the revamp with a short rationale — meta proof of the vibecoding workflow.
 - [ ] **[future]** Category quick-jump chip rail above the featured carousel (deep-links the directory filter). Considered during Chunk I and deferred: three category-jump surfaces already sit near the top (filter-bar category row, empty-state recovery chips, ⌘K Categories group), so a fourth risked clutter. Revisit if discovery analytics show users aren't finding the category filter.
 - [ ] **[future]** **Google AdSense / programmatic ads — evaluated and deferred (not recommended now).** The sponsored slots are intentionally **curated direct-sold / affiliate** placements (`data/sponsored/*.json` + `SponsoredCard`), which is on-brand for an AI-managed, neutral directory and keeps the privacy-friendly, fast stack intact. AdSense was considered and rejected for v2 because it conflicts with the core constraints: (a) **perf budget** — `adsbygoogle.js` is a heavy third-party script with layout shift, against CLAUDE.md §10 (LCP <2.5s, CLS <0.05, Lighthouse ≥90 / Best-Practices 100); (b) **brand** — programmatic "around the web" units undercut the curated/editorial positioning; (c) **compliance** — personalized ads need a GDPR/ePrivacy **consent banner + CMP** (IAB TCF) and a **privacy-policy page**, none of which exist today; (d) **overhead** — AdSense account + site approval + a root **`ads.txt`** (note: the existing `public/app-ads.txt` is the unrelated Play Store/AdMob file). **If ever revisited:** add it behind an env-gated, lazy-loaded, consent-gated boundary with reserved ad-slot space (protect CLS); config would live in env vars (`NEXT_PUBLIC_ADSENSE_CLIENT` + per-slot ids) + `ads.txt`; the `SponsoredSlot.tracking` `{ impressionPixel, clickPixel }` fields already cover direct-sold measurement without any network.
@@ -139,6 +136,13 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 ---
 
 ## Resolved (rolling archive)
+
+Iteration 8 — Ignaite rebrand + directory product polish (chunks P–S)
+
+- [x] **[polish]** Loaded **Geist Sans + Geist Mono** into the OG image template so social-share cards match the live site's display type. `lib/og-image.tsx` now reads the TTFs from `node_modules/geist/dist/fonts` (Satori's default system sans is gone). Landed with the enriched per-app share card (#128).
+- [x] **[future]** Per-app OG image generator on **`/apps/[slug]`** — `app/(marketing)/apps/[slug]/opengraph-image.tsx` renders a dedicated, enriched share card instead of inheriting the parent route's OG (#120–#131). _(The `/workflow/artifacts/[slug]` half stays open + dormant — see Future scope.)_
+- [x] **[polish]** Full PWA installability shipped — hand-rolled service worker (`public/sw.js`), custom bottom install prompt (`components/pwa/*`, `hooks/use-install-prompt.ts`), manifest shortcuts, and an `/offline` fallback (#116). _(Supersedes the old "add a service worker if install rate becomes a goal" note; the PWA section header above now documents the shipped shell.)_
+- [x] **[debt]** Sonner `<Toaster>` is **mounted and live** — `components/tools/tools-browser.tsx` mounts `<Toaster/>` and `hooks/use-directory-filters.ts` fires the "Filters cleared / Undo" toast on clear-all. The old "never mounted → toast() is a no-op" concern no longer holds; the toast is scoped to the one route (the directory) that has a caller.
 
 Iteration 5 Chunk F — Directory data layer + signals/positioning refresh
 
