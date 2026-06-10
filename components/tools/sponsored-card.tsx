@@ -15,12 +15,13 @@ export function SponsoredCard({ slot }: Readonly<Props>) {
   // sponsored rel. Google's spec uses rel="sponsored" for paid placements
   // that point off-site.
   const isExternal = /^https?:/i.test(slot.link.url);
+  const accent = slot.accentColor ?? "#08D9D6";
 
   return (
     <article
       aria-label={`Sponsored: ${slot.name}`}
       data-sponsored="true"
-      className="group relative flex h-full flex-col gap-4 overflow-hidden rounded-2xl bg-[var(--color-surface)]/70 p-5 ring-1 ring-white/[0.08] transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ring-inset hover:-translate-y-1 hover:bg-[var(--color-surface)]/90"
+      className="group relative flex h-full flex-col gap-4 overflow-hidden rounded-2xl bg-[var(--color-surface)]/70 p-5 ring-1 ring-white/[0.08] transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ring-inset hover:-translate-y-1 hover:bg-[var(--color-surface)]/90 hover:shadow-[0_8px_30px_-12px_var(--color-accent)] hover:ring-[var(--color-accent)]/20"
     >
       <div className="flex flex-wrap items-center gap-2 font-mono text-[10px] tracking-[0.12em] uppercase">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.04] px-2 py-0.5 text-[var(--color-ink-dim)] ring-1 ring-white/[0.10] ring-inset">
@@ -33,16 +34,19 @@ export function SponsoredCard({ slot }: Readonly<Props>) {
       <div className="flex items-start gap-3">
         <div
           aria-hidden
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono text-xs tracking-[0.08em] uppercase ring-1 ring-white/[0.08] ring-inset"
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono text-xs tracking-[0.08em] uppercase"
           style={{
-            background: `linear-gradient(135deg, ${slot.accentColor ?? "#08D9D6"}1f, transparent)`,
-            color: slot.accentColor ?? "var(--color-accent)",
+            background: `linear-gradient(135deg, ${accent}1f, transparent)`,
+            color: accent,
+            boxShadow: `inset 0 0 0 1px ${accent}33`,
           }}
         >
           {monogram}
         </div>
         <div className="min-w-0">
-          <h3 className="text-lg font-medium text-[var(--color-ink)]">{slot.name}</h3>
+          <h3 className="truncate text-lg font-medium tracking-[-0.01em] text-[var(--color-ink)]">
+            {slot.name}
+          </h3>
           <p className="text-xs text-[var(--color-ink-dim)]">{slot.promotedBy}</p>
         </div>
       </div>

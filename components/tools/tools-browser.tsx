@@ -15,7 +15,7 @@ import {
 } from "@/hooks/use-directory-filters";
 import { Toaster } from "@/components/ui/toaster";
 import { ActiveFiltersRow } from "./active-filters-row";
-import { ToolGrid } from "./tool-grid";
+import { RevealToolGrid } from "./reveal-tool-grid";
 import { FeaturedCarousel } from "./featured-carousel";
 import { DirectoryEmpty } from "./directory-empty";
 
@@ -204,7 +204,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
               <span className="text-[var(--color-accent)]">· Show</span>
             </button>
           )}
-          <ToolGrid items={items} />
+          <RevealToolGrid items={items} revealKey={serializeDirectoryQuery(filter)} />
           {hasMore ? (
             <>
               {/* Desktop: the observer auto-loads before this is reached. */}

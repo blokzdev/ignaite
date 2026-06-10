@@ -47,8 +47,13 @@ export function FilterDrawer({
         onClick={handleOpen}
         aria-haspopup="dialog"
         aria-expanded={open}
+        // Icon-only on mobile (the label is dropped to give the search field its
+        // width back), so the button needs an explicit label for SRs. Square when
+        // bare; relaxes to a pill when the active-count badge shows.
+        aria-label={activeCount > 0 ? `Filters, ${activeCount} applied` : "Filters"}
         className={cn(
-          "inline-flex h-8 shrink-0 items-center gap-2 rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] uppercase ring-1 transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+          "inline-flex h-8 shrink-0 items-center justify-center rounded-full ring-1 transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
+          activeCount > 0 ? "gap-1.5 px-2" : "w-8 px-0",
           active
             ? "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-[var(--color-accent)]/30 hover:bg-[var(--color-accent)]/[0.18]"
             : "bg-white/[0.04] text-[var(--color-ink)] ring-white/[0.08] hover:bg-white/[0.08]",
@@ -60,9 +65,8 @@ export function FilterDrawer({
             active ? "text-[var(--color-accent)]" : "text-[var(--color-ink-dim)]",
           )}
         />
-        Filters
         {activeCount > 0 && (
-          <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[var(--color-accent)] px-1 text-[10px] text-[var(--color-canvas)]">
+          <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[var(--color-accent)] px-1 font-mono text-[10px] text-[var(--color-canvas)]">
             {activeCount}
           </span>
         )}

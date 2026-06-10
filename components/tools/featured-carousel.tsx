@@ -117,10 +117,16 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
       {/* Contained "spotlight" tray — an elevated, ringed surface so the rail
           reads as a distinct module above the canvas directory grid. */}
       <div className="relative overflow-hidden rounded-2xl bg-[var(--color-surface)]/50 p-4 ring-1 ring-white/[0.07] ring-inset sm:p-5">
-        {/* Faint accent glow for spotlight character (clipped by the tray). */}
+        {/* Twin glows give the tray genuine "spotlight" depth (both clipped by the
+            tray): a cool accent wash top-left, a faint warm one bottom-right to
+            tie into the page's lower flame orb. */}
         <div
           aria-hidden
-          className="pointer-events-none absolute -top-24 -left-16 h-48 w-48 rounded-full bg-[var(--color-accent)] opacity-[0.06] blur-3xl"
+          className="pointer-events-none absolute -top-24 -left-16 h-48 w-48 rounded-full bg-[var(--color-accent)] opacity-[0.08] blur-3xl"
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -right-20 -bottom-24 h-44 w-44 rounded-full bg-[var(--color-flame)] opacity-[0.05] blur-3xl"
         />
 
         <div className="relative mb-4 flex items-center justify-between gap-4">
@@ -178,7 +184,7 @@ export function FeaturedCarousel({ apps }: Readonly<Props>) {
                 className={cn(
                   "h-1.5 rounded-full transition-all",
                   i === activeIndex
-                    ? "w-5 bg-[var(--color-accent)]"
+                    ? "w-5 bg-[var(--color-accent)] shadow-[0_0_10px_-2px_var(--color-accent)]"
                     : "w-1.5 bg-white/30 group-hover:bg-white/50",
                 )}
               />
