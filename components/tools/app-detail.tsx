@@ -274,7 +274,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </div>
 
         {/* Spec card — sticky on desktop, surfaced first on mobile/tablet. */}
-        <div className="order-1 lg:sticky lg:top-[calc(var(--nav-h)_+_var(--detail-toolbar-h)_+_1rem)] lg:order-2 lg:self-start">
+        <div className="order-1 lg:sticky lg:top-[calc(min(var(--nav-h),var(--nav-row-h))_+_var(--detail-toolbar-h)_+_1rem)] lg:order-2 lg:self-start">
           <SpecCard
             app={app}
             accent={accent}

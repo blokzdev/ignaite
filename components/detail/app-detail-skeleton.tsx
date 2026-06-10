@@ -7,7 +7,7 @@ import { ToolCardSkeleton } from "@/components/tools/tool-card-skeleton";
 // loading.tsx content).
 export function AppDetailSkeleton() {
   return (
-    <div className="relative pt-16 pb-28 sm:pt-20 sm:pb-24">
+    <div className="relative pt-12 pb-28 sm:pb-24">
       <span role="status" aria-live="polite" className="sr-only">
         Loading app…
       </span>
