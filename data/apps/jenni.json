@@ -1,0 +1,48 @@
+{
+  "slug": "jenni",
+  "name": "Jenni",
+  "tagline": "AI academic writing assistant with autocomplete, source-grounded citations, and 2,600+ styles.",
+  "description": "Jenni is an AI writing workspace for students and researchers. It autocompletes drafts in your voice, grounds claims in uploaded PDFs with citations that link to the exact page and paragraph, and formats references in over 2,600 citation styles with Zotero and Mendeley support. More than 6 million academics have used it.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Jenni AI",
+  "platforms": ["web"],
+  "insight": "Began as a GPT-2-powered SEO copywriting tool; pivoted to academic writing after ChatGPT upended general writing assistants.",
+  "tags": ["academic", "citations", "research-writing", "autocomplete"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://jenni.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://jenni.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Purpose-built for academia: citations link back to the exact source passage, in 2,600+ styles — not generic chatbot prose.",
+  "pros": [
+    "Citations tied to source passages",
+    "2,600+ citation styles",
+    "Zotero / Mendeley integration",
+    "Free plan to start"
+  ],
+  "cons": [
+    "Web-only, no native apps",
+    "Free tier is tightly capped",
+    "Academic-integrity rules vary by school"
+  ],
+  "bestFor": ["Students", "Academic researchers", "Literature reviews"],
+  "alternatives": ["paperpal", "quillbot", "grammarly", "wordtune"],
+  "references": [
+    {
+      "title": "Jenni AI revenue, funding & growth rate",
+      "url": "https://sacra.com/c/jenni-ai/",
+      "source": "Sacra",
+      "kind": "analysis"
+    }
+  ]
+}
