@@ -69,10 +69,10 @@ The recurring routines run via Claude Code's **Routines** feature (scheduled clo
 > **You set these up — an agent can't.** Routines are **account-owned, not repo-owned**, so they
 > can't be committed here or created from inside a session. Create them yourself at
 > **[claude.ai/code/routines](https://claude.ai/code/routines)** (or run **`/schedule`**), pointed at
-> this repo. Min interval is 1 hour; weekly is recommended. Both routines **open a PR for review** —
+> this repo. Min interval is 1 hour; weekly is recommended. They all **open a PR for review** —
 > never straight to `main` — so you keep the quality gate.
 
-Create two scheduled routines and paste these as their prompts:
+Create these scheduled routines and paste them as their prompts:
 
 - **Weekly — discover new apps**
 
