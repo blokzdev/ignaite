@@ -142,11 +142,13 @@ export function DetailToolbar({
           <div className="flex shrink-0 items-center gap-2">
             <SearchButton />
             <CopyLinkButton url={shareUrl} iconOnly />
+            {/* One-Open-per-state: sm–lg only. Below sm the fixed action bar
+                owns Open; at lg+ the sticky spec card (always in view) does. */}
             <Link
               href={openHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden h-7 items-center gap-1.5 rounded-full bg-[var(--color-accent)] px-3.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:inline-flex"
+              className="hidden h-7 items-center gap-1.5 rounded-full bg-[var(--color-accent)] px-3.5 font-mono text-[11px] tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:inline-flex lg:hidden"
             >
               Open
               <ArrowUpRight className="h-3 w-3" />
