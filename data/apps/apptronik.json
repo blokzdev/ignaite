@@ -1,0 +1,44 @@
+{
+  "slug": "apptronik",
+  "insight": "Partnered with Google DeepMind to bring Gemini Robotics to Apollo; a Feb 2026 extension grew its Series A alone past $935M.",
+  "name": "Apptronik",
+  "tagline": "Apollo, a general-purpose humanoid robot for logistics and manufacturing.",
+  "description": "Austin-based Apptronik builds Apollo, a 5'8\", 160 lb general-purpose humanoid robot with a 55 lb payload and swappable four-hour battery packs, designed to work in spaces built for humans. Apollo is being piloted in factories and warehouses with Mercedes-Benz and GXO Logistics under a robot-as-a-service model, and a strategic partnership with Google DeepMind pairs the hardware with Gemini Robotics models.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Apptronik",
+  "platforms": ["api"],
+  "tags": ["humanoid", "logistics", "manufacturing", "apollo", "raas"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://apptronik.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Targets industrial deployment now — real Mercedes-Benz and GXO pilots and a DeepMind model partnership, while many humanoid rivals are still demo-stage.",
+  "pros": [
+    "Mercedes-Benz and GXO pilot deployments",
+    "Swappable 4-hour battery packs",
+    "55 lb payload in human spaces",
+    "Google DeepMind / Gemini Robotics partner"
+  ],
+  "cons": [
+    "Not yet at commercial scale",
+    "Enterprise RaaS only — no consumer product",
+    "Unproven outside pilot programs"
+  ],
+  "bestFor": ["Warehouse logistics", "Manufacturing lines"],
+  "alternatives": ["figure-ai", "1x", "skild-ai", "physical-intelligence"],
+  "references": [
+    {
+      "title": "Apptronik raises $520M Series A extension for humanoid robot Apollo",
+      "url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/",
+      "source": "Crunchbase News",
+      "kind": "analysis"
+    }
+  ]
+}

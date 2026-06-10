@@ -1,0 +1,44 @@
+{
+  "slug": "gauth",
+  "insight": "Launched in 2019 as ByteDance's Gauthmath, a photo math solver; it hit #1 in US education app downloads in Q3 2025.",
+  "name": "Gauth",
+  "tagline": "AI study companion — snap a photo of any homework problem for step-by-step help.",
+  "description": "A photo-based AI homework helper from ByteDance covering math, science, and humanities. Students photograph a problem and get step-by-step explanations, voice-based tutoring via the AI Live Tutor, and whiteboard-style walkthroughs, with live human tutors available as an escalation. Free to use with limits; a Gauth Plus subscription unlocks unlimited solutions and faster answers.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "ByteDance",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["homework", "tutoring", "math", "students", "photo-solver"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.gauthmath.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Faster path from photo to worked solution than chat-first study aids, with a voice AI Live Tutor and whiteboard walkthroughs.",
+  "pros": [
+    "Instant photo-to-solution flow",
+    "Covers all school subjects",
+    "AI Live Tutor voice mode",
+    "Free tier available"
+  ],
+  "cons": [
+    "Easy to misuse for answer-copying",
+    "ByteDance ownership draws privacy scrutiny",
+    "Accuracy varies on hard problems"
+  ],
+  "bestFor": ["K-12 and college students", "Math homework help"],
+  "alternatives": ["photomath", "quizlet", "studyfetch", "khanmigo"],
+  "references": [
+    {
+      "title": "ByteDance's Gauth dominates 2025 US education charts",
+      "url": "https://foxdata.com/en/blogs/bytedances-gauth-ai-study-companion-dominates-2025-us-education-charts-as-top-ai-homework-helper/",
+      "source": "FoxData",
+      "kind": "analysis"
+    }
+  ]
+}
