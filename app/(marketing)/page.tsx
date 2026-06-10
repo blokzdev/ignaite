@@ -50,9 +50,7 @@ export default function HomePage() {
       <div className="container-site relative">
         <div className="mb-10 max-w-3xl">
           <h1 className="font-mono text-3xl font-medium tracking-[0.04em] text-balance text-[var(--color-ink)] uppercase sm:text-4xl md:text-5xl">
-            {/* Same plasma the nav wordmark wears — threads the brand treatment
-                into the page title. Still + reduced-motion-safe via .brand-ai. */}
-            <span className="brand-ai">AI</span> Apps Directory
+            AI Apps Directory
           </h1>
           <p className="mt-4 text-lg sm:text-xl">
             <span className="text-display text-[var(--color-ink-soft)]">Find the</span>{" "}

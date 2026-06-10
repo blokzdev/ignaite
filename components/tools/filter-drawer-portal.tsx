@@ -1,8 +1,8 @@
 "use client";
 import { Sheet, SheetClose, SheetContent, SheetTitle } from "@/components/ui/sheet";
-import { SORT_LABEL, SORT_MODES, useDirectoryFilters } from "@/hooks/use-directory-filters";
+import { useDirectoryFilters } from "@/hooks/use-directory-filters";
 import type { FacetCounts } from "@/lib/tools/facet-counts";
-import { Chip, FilterControls, FilterRow } from "./filter-controls";
+import { FilterControls } from "./filter-controls";
 
 interface Props {
   open: boolean;
@@ -30,27 +30,10 @@ export function FilterDrawerPortal({
         className="no-scrollbar max-h-[85dvh] overflow-y-auto rounded-t-2xl pt-5"
       >
         <SheetTitle className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-          Sort & filter
+          Filters
         </SheetTitle>
 
-        {/* Sort lives here on mobile — the console's inline sort dropdown is
-            desktop-only (hidden sm:inline-flex), so without this row touch users
-            had no way to switch Featured / Recent / A→Z. Single-select chips,
-            same vocabulary as the facet rows below. */}
-        <div className="mt-5 border-b border-white/[0.06] pb-4">
-          <FilterRow label="Sort" stacked>
-            {SORT_MODES.map((m) => (
-              <Chip
-                key={m}
-                label={SORT_LABEL[m]}
-                active={filters.sortMode === m}
-                onClick={() => filters.setSort(m)}
-              />
-            ))}
-          </FilterRow>
-        </div>
-
-        <div className="mt-4">
+        <div className="mt-5">
           <FilterControls
             filters={filters}
             variant="stacked"
