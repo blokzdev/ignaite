@@ -1,0 +1,50 @@
+{
+  "slug": "evenup",
+  "insight": "Hit a $2B+ valuation with its Oct 2025 $150M Series E; backers include REV, the venture arm of LexisNexis owner RELX.",
+  "name": "EvenUp",
+  "tagline": "AI platform for personal injury law firms, from intake to demand letters and settlement.",
+  "description": "EvenUp builds AI products for personal injury law firms, covering the case lifecycle from intake through demand letters, medical chronologies, and settlement negotiation. Its Piai model is trained on hundreds of thousands of injury cases and medical records. Over 2,000 firms use the platform, which has helped resolve 200,000+ cases. Sold through enterprise contracts rather than self-serve.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "EvenUp Inc.",
+  "platforms": ["web"],
+  "tags": ["legal", "personal-injury", "demand-letters", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.evenuplaw.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Purpose-built for personal injury rather than general legal AI — its models are trained on a vast injury-case and medical-record corpus.",
+  "pros": [
+    "Used by 2,000+ personal injury firms",
+    "Trained on huge injury-case corpus",
+    "Covers intake through settlement",
+    "SOC 2 audited, HIPAA attested"
+  ],
+  "cons": [
+    "Sales-only; no public pricing",
+    "Personal injury practice only",
+    "US-centric legal focus"
+  ],
+  "bestFor": ["Personal injury firms", "Plaintiff attorneys"],
+  "alternatives": ["harvey", "cocounsel", "legora"],
+  "references": [
+    {
+      "title": "EvenUp raises $150 million Series E at $2 billion valuation",
+      "url": "https://fortune.com/2025/10/07/exclusive-evenup-raises-150-million-series-e-at-2-billion-valuation-as-ai-reshapes-personal-injury-law/",
+      "source": "Fortune",
+      "kind": "analysis"
+    },
+    {
+      "title": "EvenUp, AI Platform for Personal Injury Lawyers, Raises $150M at $2B Valuation",
+      "url": "https://www.lawnext.com/2025/10/evenup-ai-platform-for-personal-injury-lawyers-raises-150m-at-2b-valuation.html",
+      "source": "LawSites",
+      "kind": "analysis"
+    }
+  ]
+}

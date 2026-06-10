@@ -1,0 +1,46 @@
+{
+  "slug": "ambience-healthcare",
+  "insight": "Backed by the OpenAI Startup Fund; its $243M Series C in July 2025 made it a unicorn at a $1.25B valuation.",
+  "name": "Ambience Healthcare",
+  "tagline": "Ambient AI for clinical documentation, CDI, and point-of-care coding inside the EHR.",
+  "description": "Ambience is an ambient AI platform for health systems that captures clinician-patient encounters and turns them into documentation, clinical documentation integrity (CDI) suggestions, and point-of-care coding. It lives directly inside Epic via the Toolbox program and supports 200+ specialties. Customers include Cleveland Clinic, UCSF Health, and Houston Methodist. Sold to health systems rather than individual clinicians.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Ambience Healthcare",
+  "platforms": ["web"],
+  "tags": ["ambient-ai", "clinical-documentation", "medical-coding", "ehr", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ambiencehealthcare.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Goes beyond scribing into CDI and point-of-care coding, living natively inside Epic Toolbox with 90–99% E/M coding accuracy across specialties.",
+  "pros": [
+    "Native Epic Toolbox integration",
+    "Real-time coding and CDI suggestions",
+    "Supports 200+ medical specialties",
+    "Used by Cleveland Clinic and UCSF Health"
+  ],
+  "cons": ["Enterprise health systems only", "No public pricing", "Crowded ambient-scribe market"],
+  "bestFor": ["Health systems", "Epic shops", "Coding-heavy specialties"],
+  "alternatives": ["abridge", "nabla", "heidi-health"],
+  "references": [
+    {
+      "title": "Ambience reels in $243M series C as investors bet big on ambient AI",
+      "url": "https://www.fiercehealthcare.com/health-tech/ambience-banks-243m-series-c-investors-continue-bet-big-ambient-ai",
+      "source": "Fierce Healthcare",
+      "kind": "analysis"
+    },
+    {
+      "title": "With Ambience's new mega-round, AI scribes near $1B in funding this year",
+      "url": "https://www.statnews.com/2025/07/29/ambience-healthcare-ai-scribe-new-fundraise/",
+      "source": "STAT News",
+      "kind": "analysis"
+    }
+  ]
+}

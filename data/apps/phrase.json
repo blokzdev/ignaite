@@ -1,0 +1,52 @@
+{
+  "slug": "phrase",
+  "insight": "Formed when Czech TMS Memsource acquired German rival Phrase (ex-PhraseApp) in 2021 and took its name in a 2022 rebrand.",
+  "name": "Phrase",
+  "tagline": "AI-powered localization platform unifying TMS, software strings, and machine translation.",
+  "description": "Phrase is an enterprise localization platform that automates, manages, and delivers multilingual content. It bundles a translation management system (Phrase TMS), developer-facing string localization (Phrase Strings), workflow automation (Orchestrator), and Phrase Language AI, which routes each job to the best-fitting machine translation engine and scores output quality before release. Plans scale from individual freelancers to custom enterprise contracts.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Phrase",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Phrase Language AI routes content across multiple MT engines and applies AI quality estimation."
+  },
+  "tags": ["localization", "translation-management", "machine-translation", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://phrase.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://phrase.com/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "A full localization suite — TMS, strings, MT orchestration, and quality scoring in one platform — rather than a point translation tool.",
+  "pros": [
+    "TMS, strings, and MT in one suite",
+    "Auto-selects the best MT engine per job",
+    "AI quality estimation before release",
+    "Scales from freelancer to enterprise"
+  ],
+  "cons": [
+    "No free tier, trial only",
+    "Enterprise plans get expensive",
+    "Heavyweight for small one-off jobs"
+  ],
+  "bestFor": ["Localization teams", "Enterprises", "LSPs"],
+  "alternatives": ["deepl", "smartling", "smartcat", "lokalise"],
+  "references": [
+    {
+      "title": "Memsource and Phrase Announce a New Joint Identity and Localization Suite",
+      "url": "https://slator.com/memsource-and-phrase-announce-a-new-joint-identity-and-a-new-localization-suite/",
+      "source": "Slator",
+      "kind": "analysis"
+    }
+  ]
+}

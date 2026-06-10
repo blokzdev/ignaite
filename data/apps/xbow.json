@@ -1,0 +1,53 @@
+{
+  "slug": "xbow",
+  "insight": "The first AI to top HackerOne's US leaderboard, beating all human hackers after filing 1,000+ vulnerability reports in months.",
+  "name": "XBOW",
+  "tagline": "Autonomous AI pentesting that finds and exploit-validates vulnerabilities continuously.",
+  "description": "XBOW is an autonomous offensive security platform that runs AI-driven penetration tests against web applications, validating every finding through real exploitation rather than flagging unconfirmed scanner noise. Founded by Semmle founder and GitHub Copilot creator Oege de Moor, it runs continuously instead of as a point-in-time engagement. Customers include Moderna, Samsung SDS, and Tyler Technologies; it raised a $120M Series C at a $1B+ valuation in 2025.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "XBOW",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Orchestrates frontier LLMs inside its own attack harness; the team benchmarks and swaps models as they improve."
+  },
+  "tags": ["pentesting", "offensive-security", "appsec", "autonomous-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://xbow.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Continuous, autonomous pentests with exploit-validated findings — the depth of a premium red-team engagement without scheduling humans.",
+  "pros": [
+    "Findings validated by real exploitation",
+    "Continuous, not point-in-time",
+    "Proven at scale on HackerOne",
+    "Used by Moderna and Samsung SDS"
+  ],
+  "cons": [
+    "Enterprise sales only, no public pricing",
+    "Focused on web/application attack surface",
+    "Young company, founded 2024"
+  ],
+  "bestFor": ["Security teams", "Continuous pentesting", "AppSec programs"],
+  "references": [
+    {
+      "title": "AI Bug Hunter Sets Milestone By Claiming Top Spot on HackerOne's Leaderboard",
+      "url": "https://www.techrepublic.com/article/news-ai-xbow-tops-hackerone-us-leaderboad/",
+      "source": "TechRepublic",
+      "kind": "analysis"
+    },
+    {
+      "title": "Autonomous Offensive Security Firm XBOW Raises $120M at $1B+ Valuation",
+      "url": "https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-120m-at-1b-valuation/",
+      "source": "SecurityWeek",
+      "kind": "analysis"
+    }
+  ]
+}
