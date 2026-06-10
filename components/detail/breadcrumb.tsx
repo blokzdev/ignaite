@@ -9,7 +9,9 @@ export interface Crumb {
 export function Breadcrumb({ items }: Readonly<{ items: ReadonlyArray<Crumb> }>) {
   return (
     <nav aria-label="Breadcrumb" className="min-w-0">
-      <ol className="flex min-w-0 flex-wrap items-center gap-1.5 font-mono text-[11px] tracking-[0.08em] uppercase">
+      {/* nowrap + the last-crumb truncate keeps the trail on one line in tight
+          toolbars (long app names ellipsize instead of wrapping the bar). */}
+      <ol className="flex min-w-0 flex-nowrap items-center gap-1.5 font-mono text-[11px] tracking-[0.08em] uppercase">
         {items.map((c, i) => {
           const last = i === items.length - 1;
           return (

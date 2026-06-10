@@ -7,18 +7,20 @@ import { ToolCardSkeleton } from "@/components/tools/tool-card-skeleton";
 // loading.tsx content).
 export function AppDetailSkeleton() {
   return (
-    <div className="relative px-6 pt-32 pb-28 sm:pt-40 sm:pb-24">
+    <div className="relative pt-16 pb-28 sm:pt-20 sm:pb-24">
       <span role="status" aria-live="polite" className="sr-only">
         Loading app…
       </span>
 
-      <div className="relative mx-auto max-w-6xl">
-        {/* Sticky toolbar */}
-        <div className="-mx-6 flex h-[var(--detail-toolbar-h)] items-center justify-between gap-3 border-b border-white/[0.06] px-6">
+      {/* Sticky toolbar — full-bleed, flush under the header */}
+      <div className="h-[var(--detail-toolbar-h)] border-b border-white/[0.06]">
+        <div className="mx-auto flex h-full max-w-6xl items-center justify-between gap-3 px-6">
           <Skeleton variant="pulse" className="h-4 w-40" />
           <Skeleton variant="pulse" className="h-8 w-24 rounded-full" />
         </div>
+      </div>
 
+      <div className="relative mx-auto max-w-6xl px-6">
         {/* Hero — monogram + category/title/tagline */}
         <header className="mt-10 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
           <Skeleton variant="shimmer" className="h-16 w-16 shrink-0 rounded-2xl sm:h-20 sm:w-20" />

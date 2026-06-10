@@ -13,7 +13,9 @@ import { ToolCard } from "@/components/tools/tool-card";
 import { alternativeApps, relatedApps } from "@/lib/apps";
 import { siteUrl } from "@/lib/seo";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
-import { PLATFORM_LABEL } from "@/lib/tools/app-labels";
+import { facetHref } from "@/lib/tools/facet-links";
+import { LICENSE_LABEL, licenseSignal } from "@/lib/tools/license";
+import { PLATFORM_LABEL, PRICING_LABEL } from "@/lib/tools/app-labels";
 import type { App } from "@/types/app";
 
 interface Props {
@@ -37,6 +39,13 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
   // and in the toolbar/spec-card stay valid; #08D9D6 is --color-accent's value.
   const accent = app.accentColor ?? "#08D9D6";
   const shareUrl = `${siteUrl}/apps/${app.slug}`;
+  const license = licenseSignal(app);
+  // Key facets mirrored into the toolbar's compact (scrolled) state on desktop.
+  const toolbarFacets = [
+    { label: CATEGORY_LABEL[app.category], href: facetHref("category", app.category) },
+    { label: PRICING_LABEL[app.pricing], href: facetHref("pricing", app.pricing) },
+    { label: LICENSE_LABEL[license], href: facetHref("license", license) },
+  ];
 
   return (
     <AppDetailShell
@@ -50,6 +59,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           monogram={monogram}
           accent={accent}
           openHref={primary?.url ?? "/"}
+          facets={toolbarFacets}
         />
       }
       actionBar={<DetailActionBar app={app} />}
