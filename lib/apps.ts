@@ -16,13 +16,12 @@ export function listApps(opts: ListAppsOptions = {}): ReadonlyArray<App> {
     return true;
   });
 
-  // Featured entries lead; then most-recently-added; then alphabetical.
+  // Featured entries lead; then most-recently-added (the addedSeq accession
+  // number — the same chronology the browser's Newest sort uses, so the SSR
+  // fallback grid and the hydrated client grid agree on order).
   return [...filtered].sort((a, b) => {
     if (Boolean(a.featured) !== Boolean(b.featured)) return a.featured ? -1 : 1;
-    if (a.addedAt && b.addedAt && a.addedAt !== b.addedAt) {
-      return a.addedAt > b.addedAt ? -1 : 1;
-    }
-    return a.name.localeCompare(b.name);
+    return b.addedSeq - a.addedSeq;
   });
 }
 

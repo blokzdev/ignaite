@@ -43,7 +43,9 @@ here can invoke them. They encode the same flow we run manually.
   pages). Same no-fabrication bar; `/audit-directory` backfills + re-verifies these over the cycle.
 - **`featured` is rare** — it spans two columns and enters the carousel; reserve it for true standouts.
 - **Schema is the contract** (`types/app.ts`). Required: `slug`, `name`, `tagline`, `description`,
-  `category`, `pricing`, `platforms`, `links` (exactly one `primary`). Mobile apps use the `android` /
+  `category`, `pricing`, `platforms`, `links` (exactly one `primary`), `addedSeq` (the accession
+  number — highest existing + 1, counting open discovery PRs; the Newest/Oldest sort orders by it,
+  and it is never reused or renumbered). Mobile apps use the `android` /
   `ios` platforms + an official `website` link (there's no store link kind).
 - **Price ≠ license ≠ hosting.** `pricing` is cost only (`free`/`freemium`/`paid`/`byo-key`);
   `openSource: true` is the separate license signal; `deployment` (`cloud`/`self-host`/`local`/

@@ -45,6 +45,29 @@ export default defineConfig({
         `Duplicate sponsored id(s) across data/sponsored/*.json: ${dupIds.join(", ")}`,
       );
     }
+    // Accession numbers must be unique (per-file validation can't see across
+    // files). The realistic collision: two discovery PRs authored before either
+    // merges, both taking "highest + 1" — the routines cross-check open PRs to
+    // avoid it, and this is the hard backstop.
+    const dupSeqs = dupes(apps.map((a) => String(a.addedSeq)));
+    if (dupSeqs.length) {
+      throw new Error(`Duplicate addedSeq across data/apps/*.json: ${dupSeqs.join(", ")}`);
+    }
+    // The seq is the fine-grained chronology UNDER the day-granular addedAt, so
+    // the two must tell the same story: walked in seq order, addedAt may never
+    // step backwards. Catches a routine assigning a seq that contradicts dates.
+    const bySeq = [...apps].sort((a, b) => a.addedSeq - b.addedSeq);
+    let prevDated: (typeof bySeq)[number] | undefined;
+    for (const a of bySeq) {
+      if (!a.addedAt) continue;
+      if (prevDated && a.addedAt < prevDated.addedAt!) {
+        throw new Error(
+          `addedSeq order contradicts addedAt: "${a.slug}" (seq ${a.addedSeq}, ${a.addedAt}) ` +
+            `is dated before "${prevDated.slug}" (seq ${prevDated.addedSeq}, ${prevDated.addedAt})`,
+        );
+      }
+      prevDated = a;
+    }
     // Curated `alternatives` reference other listings by slug — per-file schema
     // validation can't see across files, so verify here that every referenced
     // slug exists and isn't a self-reference. A typo'd/stale slug fails the build.

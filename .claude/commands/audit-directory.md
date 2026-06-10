@@ -87,6 +87,8 @@ the initial authoring; only log when you _change_ an existing value or correct o
 - **`kind`** — `updated` (the app itself changed upstream) · `fixed` (our data was wrong and you
   corrected it) · `archived` (discontinued/sunset) · `relisted` (brought back after archival).
   (`added` is reserved for `/add-app`; the detail page derives the origin node from `addedAt`.)
+  Never touch `addedAt` or `addedSeq` (the accession number) — they record when the listing entered
+  the directory, which an audit can't change; archived/relisted entries keep theirs.
 - **`summary`** — concrete and specific ("Pricing moved from free to freemium — added a $20/mo Pro
   tier", not "updated pricing").
 - **`asOf`** — the real-world date the change happened upstream, **only if you can source it** (a

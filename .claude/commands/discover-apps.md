@@ -20,7 +20,9 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
   (a slug double-authored across two PRs). Don't rely on the merge to catch it — by then both PRs exist.
   So: list **open** PRs whose head branch matches `claude/discover-apps-*` (or any open PR that adds
   `data/apps/*.json`), read each one's changed files, and add the slugs + app names they introduce to
-  your "already-claimed" set. Use the GitHub MCP tools (list open pull requests → read each candidate
+  your "already-claimed" set — **along with the `addedSeq` accession numbers they claim**, so this
+  run's seqs start after both the highest on `main` and the highest claimed in-flight (duplicate seqs
+  hard-fail the build when the PRs land together). Use the GitHub MCP tools (list open pull requests → read each candidate
   PR's changed files / diff) or `gh pr list --state open` + `gh pr diff` if available. If you can't
   enumerate open PRs in this environment, say so in the PR body so a human knows the in-flight check was
   skipped.
