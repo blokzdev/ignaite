@@ -6,12 +6,16 @@ import type { AppCategory, AppDeployment, AppPlatform, AppPricing } from "@/type
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { LICENSE_LABEL, LICENSE_SIGNALS, type LicenseSignal } from "@/lib/tools/license";
 import { clearFilters } from "@/lib/tools/clear-filters";
+import { DEFAULT_SORT, SORT_MODES, type SortMode } from "@/lib/tools/sort";
 
 export type StatusFilter = "active" | "archived" | "all";
 export const STATUS_FILTERS: ReadonlyArray<StatusFilter> = ["active", "archived", "all"];
 
-export type SortMode = "featured" | "recent" | "alpha";
-export const SORT_MODES: ReadonlyArray<SortMode> = ["featured", "recent", "alpha"];
+// SortMode + SORT_MODES live in lib/tools/sort (the field+direction source of
+// truth); re-exported here so existing `@/hooks/use-directory-filters` callers
+// keep working.
+export { SORT_MODES };
+export type { SortMode };
 
 // Imported locally (the hook builds active-filter pills from it) and re-exported
 // so existing `import { CATEGORY_LABEL } from "@/hooks/use-directory-filters"`
@@ -52,12 +56,6 @@ export const STATUS_LABEL: Record<StatusFilter, string> = {
   active: "Active",
   archived: "Archived",
   all: "All",
-};
-
-export const SORT_LABEL: Record<SortMode, string> = {
-  featured: "Featured",
-  recent: "Recent",
-  alpha: "A → Z",
 };
 
 // Single source of truth for the directory's URL filter params. Imported by
@@ -120,11 +118,11 @@ export function useDirectoryFilters() {
   const setLicense = (value: LicenseSignal | null) => void setFilter({ license: value });
   const setStatus = (value: StatusFilter | null) => void setFilter({ status: value });
   const setSort = (value: SortMode) =>
-    void setFilter({ sort: value === "featured" ? null : value });
+    void setFilter({ sort: value === DEFAULT_SORT ? null : value });
   const setQuery = (value: string | null) =>
     void setFilter({ q: value && value.length > 0 ? value : null });
 
-  const sortMode: SortMode = filter.sort ?? "featured";
+  const sortMode: SortMode = filter.sort ?? DEFAULT_SORT;
   const statusActive = (filter.status ?? "active") !== "active";
   const hasFilter =
     filter.category.length > 0 ||

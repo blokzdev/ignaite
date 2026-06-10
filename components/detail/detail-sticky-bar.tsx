@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 // scrolls. Hidden ≥sm where the in-page CTA suffices. Safe-area aware.
 export function DetailStickyBar({ href, label }: Readonly<{ href: string; label: string }>) {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-[var(--z-sticky)] border-t border-white/[0.08] bg-[var(--color-canvas)]/90 px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] backdrop-blur-xl sm:hidden">
+    <div className="z-sticky fixed inset-x-0 bottom-0 border-t border-white/[0.08] bg-[var(--color-canvas)]/90 px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] backdrop-blur-xl sm:hidden">
       <Link
         href={href}
         target="_blank"

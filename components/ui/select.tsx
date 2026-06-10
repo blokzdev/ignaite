@@ -68,7 +68,7 @@ const SelectContent = React.forwardRef<
       ref={ref}
       position={position}
       className={cn(
-        "relative z-[var(--z-overlay)] max-h-[--radix-select-content-available-height] min-w-[8rem] overflow-hidden rounded-xl bg-[var(--color-surface)] text-[var(--color-ink)] shadow-2xl ring-1 ring-white/[0.08] ring-inset",
+        "z-overlay relative max-h-[--radix-select-content-available-height] min-w-[8rem] overflow-hidden rounded-xl bg-[var(--color-surface)] text-[var(--color-ink)] shadow-2xl ring-1 ring-white/[0.08] ring-inset",
         position === "popper" && "data-[side=bottom]:translate-y-1 data-[side=top]:-translate-y-1",
         className,
       )}

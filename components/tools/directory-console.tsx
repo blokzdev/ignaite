@@ -1,5 +1,5 @@
 "use client";
-import { ArrowDownUp, Search, SlidersHorizontal, X } from "lucide-react";
+import { ArrowDown, ArrowDownUp, ArrowUp, Search, SlidersHorizontal, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { apps } from "@/.velite";
 import { cn } from "@/lib/utils";
@@ -9,18 +9,21 @@ import { countMatches } from "@/lib/tools/filter-apps";
 import { facetCounts } from "@/lib/tools/facet-counts";
 import { POPULATED_CATEGORIES } from "@/lib/tools/populated-categories";
 import type { AppCategory } from "@/types/app";
+import { CATEGORY_LABEL, useDirectoryFilters } from "@/hooks/use-directory-filters";
 import {
-  CATEGORY_LABEL,
+  DEFAULT_SORT,
+  FIELD_DEFAULT,
+  flippedMode,
+  SORT_DIR,
+  SORT_FIELD,
+  SORT_FIELD_LABEL,
   SORT_LABEL,
-  SORT_MODES,
-  useDirectoryFilters,
-  type SortMode,
-} from "@/hooks/use-directory-filters";
+  type SortField,
+} from "@/lib/tools/sort";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
+  DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
@@ -209,11 +212,11 @@ export function DirectoryConsole() {
           <DropdownMenu>
             <DropdownMenuTrigger
               aria-label={
-                sortMode === "featured" ? "Sort apps" : `Sort apps, ${SORT_LABEL[sortMode]}`
+                sortMode === DEFAULT_SORT ? "Sort apps" : `Sort apps, ${SORT_LABEL[sortMode]}`
               }
               className={cn(
                 "inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full px-0 font-mono text-[11px] tracking-[0.08em] uppercase ring-1 transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:w-auto sm:justify-start sm:gap-2 sm:px-2.5",
-                sortMode !== "featured"
+                sortMode !== DEFAULT_SORT
                   ? "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-[var(--color-accent)]/30 hover:bg-[var(--color-accent)]/[0.18] data-[state=open]:bg-[var(--color-accent)]/[0.18]"
                   : "bg-white/[0.04] text-[var(--color-ink)] ring-white/[0.08] hover:bg-white/[0.08] data-[state=open]:bg-white/[0.08]",
               )}
@@ -221,28 +224,58 @@ export function DirectoryConsole() {
               <ArrowDownUp
                 className={cn(
                   "h-3.5 w-3.5",
-                  sortMode !== "featured"
+                  sortMode !== DEFAULT_SORT
                     ? "text-[var(--color-accent)]"
                     : "text-[var(--color-ink-dim)]",
                 )}
               />
               <span className="hidden sm:inline">{SORT_LABEL[sortMode]}</span>
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuRadioGroup
-                value={sortMode}
-                onValueChange={(v) => setSort(v as SortMode)}
-              >
-                {SORT_MODES.map((m) => (
-                  <DropdownMenuRadioItem
-                    key={m}
-                    value={m}
-                    className="font-mono text-[11px] tracking-[0.08em] uppercase"
+            <DropdownMenuContent align="end" className="min-w-[12rem]">
+              {/* Two fields (Date added · Name). The active row is highlighted and
+                  carries the direction; selecting it again flips asc/desc, selecting
+                  the other switches field at its default direction. Menu stays open
+                  on interaction so the flip is visible. */}
+              {(["date", "name"] as SortField[]).map((field) => {
+                const active = SORT_FIELD[sortMode] === field;
+                const targetMode = active ? flippedMode(sortMode) : FIELD_DEFAULT[field];
+                const dir = active ? SORT_DIR[sortMode] : SORT_DIR[FIELD_DEFAULT[field]];
+                return (
+                  <DropdownMenuItem
+                    key={field}
+                    onSelect={(e) => {
+                      e.preventDefault();
+                      setSort(targetMode);
+                    }}
+                    aria-label={
+                      active
+                        ? `Sorted by ${SORT_FIELD_LABEL[field].toLowerCase()}, ${SORT_LABEL[sortMode]}. Activate to reverse.`
+                        : `Sort by ${SORT_FIELD_LABEL[field].toLowerCase()}`
+                    }
+                    className={cn(
+                      "min-h-11 justify-between gap-6 font-mono text-[11px] tracking-[0.08em] uppercase sm:min-h-9",
+                      active &&
+                        "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] focus:bg-[var(--color-accent)]/[0.18]",
+                    )}
                   >
-                    {SORT_LABEL[m]}
-                  </DropdownMenuRadioItem>
-                ))}
-              </DropdownMenuRadioGroup>
+                    <span>{SORT_FIELD_LABEL[field]}</span>
+                    {active && (
+                      <span className="inline-flex items-center gap-1 text-[10px]">
+                        {field === "date"
+                          ? dir === "desc"
+                            ? "Newest"
+                            : "Oldest"
+                          : SORT_LABEL[sortMode]}
+                        {dir === "desc" ? (
+                          <ArrowDown className="h-3 w-3" />
+                        ) : (
+                          <ArrowUp className="h-3 w-3" />
+                        )}
+                      </span>
+                    )}
+                  </DropdownMenuItem>
+                );
+              })}
             </DropdownMenuContent>
           </DropdownMenu>
 
