@@ -13,8 +13,12 @@ import { buildMetadata, siteUrl } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "AI Apps Directory",
   description:
-    "A growing directory of AI apps, agents, IDEs, MCP servers, infra, and tooling — searchable and filterable by category, pricing, license, deployment, and platform.",
+    "An AI-managed directory of the AI apps worth knowing — 400+ tools across 39 categories, kept current by Claude Code and searchable by category, pricing, license, deployment, and platform.",
   path: "/",
+  // `/` lives in the (marketing) route group, so it doesn't pick up the root
+  // app/opengraph-image.tsx by inheritance once it exports its own openGraph.
+  // Point at the generated OG route explicitly (metadataBase makes it absolute).
+  ogImage: "/opengraph-image",
 });
 
 export default function HomePage() {

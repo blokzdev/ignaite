@@ -60,6 +60,8 @@ export interface OgConfig {
   titleA: string;
   /** Accent-coloured second line. */
   titleB: string;
+  /** Optional mono stat line under the title (e.g. directory breadth). Omit for plain cards. */
+  sub?: string;
 }
 
 export interface AppOgConfig {
@@ -161,7 +163,7 @@ function Frame({ children }: { children: ReactNode }): ReactElement {
 }
 
 // Generic card (root / about / contact): eyebrow + two big title lines.
-function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
+function OgTemplate({ eyebrow, titleA, titleB, sub }: OgConfig): ReactElement {
   return (
     <Frame>
       <div
@@ -209,6 +211,20 @@ function OgTemplate({ eyebrow, titleA, titleB }: OgConfig): ReactElement {
         >
           {titleB}
         </p>
+        {sub ? (
+          <p
+            style={{
+              margin: "36px 0 0",
+              color: INK_DIM,
+              fontSize: "26px",
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+              fontFamily: MONO,
+            }}
+          >
+            {sub}
+          </p>
+        ) : null}
       </div>
     </Frame>
   );
