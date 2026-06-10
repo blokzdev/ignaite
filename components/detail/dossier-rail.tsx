@@ -43,6 +43,7 @@ export function DossierRail({ app, accent }: Readonly<{ app: App; accent: string
                   style={isPrimary ? { boxShadow: `inset 0 0 0 1px ${accent}33` } : undefined}
                 >
                   <Icon
+                    aria-hidden
                     className={cn(
                       "h-3.5 w-3.5 shrink-0",
                       isPrimary
@@ -63,7 +64,10 @@ export function DossierRail({ app, accent }: Readonly<{ app: App; accent: string
                       Primary
                     </span>
                   )}
-                  <ArrowUpRight className="h-3.5 w-3.5 shrink-0 text-[var(--color-ink-dim)] opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100" />
+                  <ArrowUpRight
+                    aria-hidden
+                    className="h-3.5 w-3.5 shrink-0 text-[var(--color-ink-dim)] opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100"
+                  />
                 </Link>
               </li>
             );
@@ -121,11 +125,14 @@ export function DossierRail({ app, accent }: Readonly<{ app: App; accent: string
           href="#history"
           className="group flex items-center gap-2 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
         >
-          <History className="h-3.5 w-3.5 shrink-0" />
+          <History aria-hidden className="h-3.5 w-3.5 shrink-0" />
           {changeCount > 0
             ? `${changeCount} ${changeCount === 1 ? "update" : "updates"} · View history`
             : "View history"}
-          <ArrowUpRight className="h-3 w-3 text-[var(--color-ink-dim)] transition-transform group-hover:translate-x-0.5" />
+          <ArrowUpRight
+            aria-hidden
+            className="h-3 w-3 text-[var(--color-ink-dim)] transition-transform group-hover:translate-x-0.5"
+          />
         </Link>
       </div>
     </aside>
