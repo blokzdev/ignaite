@@ -77,7 +77,7 @@ Pre-push (auto): `pnpm typecheck`.
 app/                              # Next App Router
   (marketing)/                    # route group sharing nav + footer
     layout.tsx                    #   sets <SiteNav/> + <SiteFooter/>
-    page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~390 entries across 39 categories)
+    page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~400 entries across 39 categories)
     about/
       page.tsx                    #   /about — studio identity (Hero, Now/Next, manifesto, portfolio grid)
       opengraph-image.tsx         #   per-route OG
@@ -172,7 +172,7 @@ content/                          # typed content + MDX
       {brief,forge,memo}/{claude-md,prd,spec,prompt-library}.mdx   # 12 artifacts
 
 data/                             # source-of-truth, typed
-  apps/<slug>.json                # DIRECTORY: one JSON file per listing (~390), validated by Velite
+  apps/<slug>.json                # DIRECTORY: one JSON file per listing (~400), validated by Velite
   projects.ts                     # PORTFOLIO: Blokz's shipped projects (Project[])
   sponsored.ts                    # sponsored directory slots
   brand.ts                        # logo, social handles, contact, hero copy

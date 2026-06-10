@@ -23,6 +23,13 @@ Status legend: ⬜ planned · 🟦 in progress · ✅ shipped
   infinite scroll), sponsored slots. ✅
 - **Workflow narrative migration** (Sub-plan B): B-1 showcase, B-2 Eval Forge artifacts, B-3
   Edge Memo artifacts — all three sample products fleshed to full depth. ✅
+- **Iteration 5 — Directory-grade UI/UX refinement** (chunks F–M). Design-system foundation,
+  mobile hardening, ⌘K palette, filter UX, carousel, detail pages, global chrome + a11y gate. ✅
+- **Iteration 6 — Directory taxonomy v2** (chunk N). +16 categories (→ 39), populated. ✅
+- **Iteration 7 — Listing enrichment** (chunk O). "Honest brief" 5 fields + `insight` →
+  "Worth knowing" fact, backfilled across the directory. ✅
+- **Iteration 8 — Ignaite rebrand + directory product polish** (chunks P–S). Blokz → Ignaite,
+  PWA, detail-page DEX refit, share-card OG, homepage elevation. ✅
 
 ### Chunk ledger (continuous letter sequence)
 
@@ -54,12 +61,15 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                     | #37       | ✅     |
 | M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)    | #38       | ✅     |
 | M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)  | #39       | ✅     |
-| —     | Bugfix: `overflow:hidden`→`clip` so the directory filter bar's `sticky` actually pins  | —         | 🟦     |
 | N-1   | Taxonomy v2 — +16 categories, one label map, hide empty chips (foundation)             | #117      | ✅     |
 | N-2/3 | Taxonomy v2 — populate all 16 new categories (+101 apps, 16 re-files)                  | #118      | ✅     |
 | N-4   | Taxonomy docs/routine alignment — _folded into Chunk O_                                | —         | ✅     |
 | O-1   | Listing enrichment — the "honest brief" (5 fields) + full backfill of all 388          | #119      | ✅     |
-| O-2   | Repurpose `insight` → "Worth Knowing" fact (relabel + re-author the redundant ~45%)    | —         | 🟦     |
+| O-2   | Repurpose `insight` → "Worth Knowing" fact (relabel + re-author the redundant ~45%)    | #120      | ✅     |
+| P     | Ignaite rebrand (Blokz → Ignaite) + plasma wordmark/favicons                           | #102–#103 | ✅     |
+| Q     | PWA — hand-rolled service worker + custom install prompt + `/offline`                   | #116      | ✅     |
+| R     | Detail-page DEX refit + state-aware back-crumb + enriched per-app share-card OG (Geist) | #120–#131 | ✅     |
+| S     | Homepage/directory elevation — masthead plasma, hero slogan, mobile quick-sort         | #132–#137 | ✅     |
 
 ---
 
@@ -160,7 +170,7 @@ No overflow/zoom, real controls, real states.
 
 ---
 
-### 🟦 Chunk K — /workflow narrative redesign (realistic vibecoding guide)
+### ✅ Chunk K — /workflow narrative redesign (realistic vibecoding guide)
 
 Reframe `/workflow` from an abstract 5-phase showcase into a realistic Claude-Code-session guide:
 **4 stages** (Conceptualize → Specify → Build → Ship; env folds into Build), **every stage a chat
@@ -179,7 +189,7 @@ the 3 products + 12 artifacts + platform tabs, rename **phase → stage**. Autho
 
 ---
 
-### 🟦 Chunk L — About + Portfolio section revamp
+### ✅ Chunk L — About + Portfolio section revamp
 
 - `/about` section-rhythm standardization: responsive `.section-y` + `.section-y-lg` (Manifesto
   centerpiece), adopted across Now/Next, How-we-work, AppsPreview; anchor `scroll-mt` on the real
@@ -284,7 +294,7 @@ Branches: `claude/directory-taxonomy-<slug>`.
 
 ---
 
-## Iteration 7 — Listing enrichment (Chunk O) 🟦 in progress
+## Iteration 7 — Listing enrichment (Chunk O) ✅ complete
 
 **Goal**: make every listing a _decision brief_, not just a description — owning the "honest,
 authoritative, AI-managed" positioning. Extends the editorial system (`insight` + `changelog`) with
@@ -313,6 +323,31 @@ capability; never comparative, never a paraphrase), relabels the callout (Lightb
 `insight` unchanged), re-authors the redundant ~45% (rewrite-to-fact or omit — coverage now
 intentionally partial), and rewords the brand/routine docs. Clean three-signal detail page: _what it
 is_ (`description`) · _a fact worth knowing_ (`insight`) · _why pick it_ (`edge`).
+
+---
+
+## Iteration 8 — Ignaite rebrand + directory product polish (chunks P–S) ✅ complete
+
+Logged retroactively during a docs-reconcile pass — this work shipped PR-by-PR after the roadmap
+ledger had gone stale, so the chunk letters here are narrative, not PR-number-ordered (the rebrand
+landed around the same window as Chunk N). Summary-grade; representative PRs cited.
+
+- **Chunk P — Ignaite rebrand.** Renamed the product from Blokz → **Ignaite** (ignaite.app) across
+  brand data, copy, and metadata; animated the wordmark "AI" as fluid plasma; completed
+  cross-device favicons (#102, #103).
+- **Chunk Q — PWA.** Shipped a hand-rolled service worker (`public/sw.js`), a custom bottom
+  install prompt (`components/pwa/*`, `hooks/use-install-prompt.ts`), manifest shortcuts, and an
+  `/offline` fallback (#116). _(Closes the BACKLOG "Full PWA installability" item.)_
+- **Chunk R — Detail-page DEX refit + share cards.** Two-column "zone model" `/apps/[slug]`
+  (masthead · stat strip · dossier rail), static toolbar, state-aware back-crumb with a scrollable
+  trail, mobile share sheet, and an enriched per-app **share-card OG rendered in Geist**
+  (`lib/og-image.tsx` + `app/(marketing)/apps/[slug]/opengraph-image.tsx`) (#120–#131). _(Closes
+  the BACKLOG "Geist-in-OG" + "per-app `/apps/[slug]` OG" items.)_
+- **Chunk S — Homepage / directory elevation.** Masthead plasma, new hero slogan + cyan-weighted
+  seamless plasma, mobile quick-sort dropdown, skeleton-card fidelity, and assorted console
+  bugfixes (#132–#137).
+- **Ongoing `/discover-apps` routines** grew the directory from **388 → 401** listings across the
+  39-category taxonomy.
 
 ---
 
