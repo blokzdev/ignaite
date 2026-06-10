@@ -1,0 +1,58 @@
+{
+  "slug": "speechmatics",
+  "insight": "Founded in Cambridge in 2006 by Tony Robinson, a 1980s pioneer of recurrent-neural-network speech recognition.",
+  "name": "Speechmatics",
+  "tagline": "Enterprise speech APIs — real-time STT, TTS, and voice agents in 55+ languages.",
+  "description": "Speechmatics provides speech-to-text (batch and sub-second real-time), text-to-speech, and a Flow API for building voice agents, with accuracy that holds up across accents and dialects in 55+ languages. The same engine deploys in cloud, container, on-prem, or fully on-device, and it powers products from Adobe, LiveKit, and Ubisoft.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Speechmatics",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary speech models; runs from cloud down to fully on-device."
+  },
+  "tags": ["speech-to-text", "voice-agents", "tts", "real-time"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.speechmatics.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.speechmatics.com"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Stands out for accent and dialect robustness plus deployment flexibility — the same engine runs in cloud, container, on-prem, or fully on-device.",
+  "pros": [
+    "Strong accuracy across accents",
+    "Cloud, container, on-prem, on-device",
+    "Free tier (8 hrs of STT per month)",
+    "ISO 27001, SOC 2, HIPAA compliant"
+  ],
+  "cons": [
+    "Pricier than budget STT rivals",
+    "TTS newer than its core STT",
+    "Enterprise-leaning packaging"
+  ],
+  "bestFor": ["Voice agent builders", "Multilingual transcription", "Regulated industries"],
+  "alternatives": ["deepgram", "assemblyai", "elevenlabs"],
+  "references": [
+    {
+      "title": "Brit neural net pioneer just revolutionised speech recognition all over again",
+      "url": "https://www.theregister.com/2017/07/17/tony_robinson_speechmatics/",
+      "source": "The Register",
+      "kind": "analysis"
+    },
+    {
+      "title": "Best Speech-to-Text APIs in 2026: A Comprehensive Comparison Guide",
+      "url": "https://deepgram.com/learn/best-speech-to-text-apis-2026",
+      "source": "Deepgram",
+      "kind": "comparison"
+    }
+  ]
+}

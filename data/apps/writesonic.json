@@ -1,0 +1,52 @@
+{
+  "slug": "writesonic",
+  "insight": "Started as an AI copywriting tool and built the early Chatsonic chatbot before refocusing around AI search visibility.",
+  "name": "Writesonic",
+  "tagline": "AI search growth engine — track AI visibility, then generate the content to win it.",
+  "description": "Writesonic tracks how brands appear across ChatGPT, Claude, Gemini, Google AI Overviews, and other AI search surfaces, then executes on the gaps — generating optimized content, earning citations, and flagging technical fixes. It grew out of one of the early AI copywriting platforms and still ships a full SEO and content toolkit, used by 10,000+ marketing teams.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Writesonic",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generates with major frontier models; tracks visibility across 10 AI search platforms."
+  },
+  "tags": ["geo", "seo", "ai-search", "content"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://writesonic.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://writesonic.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "A cheaper self-serve on-ramp to AI search optimization than enterprise AEO suites — GEO tracking plus content execution from $79/mo.",
+  "pros": [
+    "Tracking + content execution in one",
+    "Claims 2B+ real AI conversations dataset",
+    "Self-serve plans from $79/mo",
+    "SOC 2 Type II, GDPR, HIPAA compliant"
+  ],
+  "cons": [
+    "No permanent free plan (trial only)",
+    "Credit-based limits on plans",
+    "Crowded, fast-moving GEO category"
+  ],
+  "bestFor": ["SMB + mid-market marketers", "SEO teams adding GEO", "Content-led growth"],
+  "alternatives": ["profound", "surfer-seo", "jasper", "copy-ai"],
+  "references": [
+    {
+      "title": "A Complete Guide to Writesonic Pricing in 2026",
+      "url": "https://www.eesel.ai/blog/writesonic-pricing",
+      "source": "eesel AI",
+      "kind": "guide"
+    }
+  ]
+}
