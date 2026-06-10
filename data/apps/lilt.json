@@ -1,0 +1,70 @@
+{
+  "slug": "lilt",
+  "insight": "Founded by two Google Translate alumni; in Feb 2026 the Pentagon's CDAO contracted LILT for military-wide AI translation.",
+  "name": "LILT",
+  "tagline": "Enterprise AI translation with an adaptive engine and built-in human verification.",
+  "description": "An enterprise and government translation platform built around an in-house Contextual AI engine — interactive, adaptive machine translation that learns from translator feedback in real time instead of classic post-editing. Pairs the AI with a verified human-expert layer, compliance options up to IL6+ for government work, and an API plus connector framework for CMS and localization workflows.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "LILT, Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "In-house adaptive Contextual AI engine; the connector layer can also route Google Translate, DeepL, or Amazon Translate."
+  },
+  "tags": ["translation", "localization", "enterprise", "human-in-the-loop"],
+  "accentColor": "#36BBA1",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lilt.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://support.lilt.com/developers/introduction"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lilt.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Its Contextual AI learns from each translator edit in real time with verified human review built in — adaptive where raw-MT rivals are static.",
+  "pros": [
+    "Engine adapts to translator edits in real time",
+    "Built-in human-expert verification layer",
+    "IL6+ gov compliance and managed deployments",
+    "Full API plus CMS connector framework"
+  ],
+  "cons": [
+    "No free tier — sales-led procurement only",
+    "Pricing fully opaque",
+    "Web and API only; no desktop or mobile apps",
+    "Overkill for individuals vs instant MT tools"
+  ],
+  "bestFor": ["Enterprise localization", "Government translation", "Regulated content"],
+  "alternatives": ["deepl", "smartling", "phrase", "translated"],
+  "references": [
+    {
+      "title": "Lilt raises $55M to bolster its business-focused AI translation platform",
+      "url": "https://techcrunch.com/2022/04/07/lilt-raises-55m-to-bolster-its-business-focused-ai-translation-platform/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "CDAO invests in AI-enabled translation for military-wide use",
+      "url": "https://defensescoop.com/2026/02/03/ai-enabled-translation-military-use-cdao-lilt-contract/",
+      "source": "DefenseScoop",
+      "kind": "analysis"
+    },
+    {
+      "title": "Meet The Disruptors: Spence Green of Lilt",
+      "url": "https://medium.com/authority-magazine/meet-the-disruptors-spence-green-of-lilt-on-the-three-things-you-need-to-shake-up-your-industry-dbf803992db8",
+      "source": "Authority Magazine",
+      "kind": "interview"
+    }
+  ]
+}

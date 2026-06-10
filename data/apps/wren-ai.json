@@ -1,0 +1,75 @@
+{
+  "slug": "wren-ai",
+  "insight": "In May 2026 Canner froze the AGPL GenBI app at v1-final and rebuilt Wren AI as an Apache-2.0 'open context layer' for agents.",
+  "name": "Wren AI",
+  "tagline": "Open-source GenBI agent: ask in plain language, get governed SQL, charts, and dashboards.",
+  "description": "An agentic GenBI platform from Canner that turns natural-language questions into governed SQL, charts, and live dashboards over 20+ databases and warehouses, from BigQuery and Snowflake to PostgreSQL and DuckDB. Its open-source core is a semantic 'context layer' (MDL) that grounds LLM-generated queries in business definitions instead of raw schemas. Runs self-hosted via Docker or as a managed cloud with RBAC and row/column-level security.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Canner",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["OpenAI", "Claude", "Gemini", "Ollama"],
+    "notes": "LLM-agnostic — bring any provider key (LiteLLM-based in the v1 app); OpenAI models are the best-tested."
+  },
+  "tags": ["text-to-sql", "genbi", "semantic-layer", "self-hosted", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.getwren.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Canner/WrenAI"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.getwren.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.getwren.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Self-hostable Apache-2.0 GenBI with a semantic layer that grounds agent SQL across 20+ databases — where Genie, Julius, and Hex are closed SaaS.",
+  "pros": [
+    "Apache-2.0 core you can self-host and embed",
+    "Semantic layer grounds SQL, cuts hallucination",
+    "20+ warehouses and databases via one engine",
+    "LLM-agnostic: OpenAI, Claude, Gemini, Ollama"
+  ],
+  "cons": [
+    "2026 pivot froze the original GenBI UI at v1",
+    "Best-tested on OpenAI; other models less so",
+    "RBAC, auditing, row-level security are paid",
+    "Docs split between v1 app and new core"
+  ],
+  "bestFor": ["Self-hosted analytics", "Agent SQL grounding", "Data teams on a budget"],
+  "alternatives": ["vanna", "julius", "hex", "databricks-genie"],
+  "references": [
+    {
+      "title": "Wren AI Text-to-SQL: API — the good stuff",
+      "url": "https://medium.com/@qdrddr/wrenai-text-to-sql-api-the-good-stuff-e4d57c0c181c",
+      "source": "Damien Berezenko (Medium)",
+      "kind": "review"
+    },
+    {
+      "title": "#OpenSourceDiscovery 96: WrenAI",
+      "url": "https://opensourcedisc.substack.com/p/opensourcediscovery-96-wrenai",
+      "source": "OpenSourceDiscovery",
+      "kind": "review"
+    },
+    {
+      "title": "Open-Source Text-to-SQL Agent with Gemini 2.0",
+      "url": "https://medium.com/@kenethperez56/open-source-text-to-sql-agent-with-gemini-2-0-47a2dd3d30df",
+      "source": "Keneth Mauricio Perez (Medium)",
+      "kind": "guide"
+    }
+  ]
+}

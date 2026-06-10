@@ -1,0 +1,69 @@
+{
+  "slug": "auphonic",
+  "insight": "Born in Graz, Austria: founder Georg Holzmann took the project into the university-linked Science Park Graz incubator back in 2011.",
+  "name": "Auphonic",
+  "tagline": "Your AI sound engineer: automatic leveling, denoising, and loudness mastering for podcasts.",
+  "description": "An AI audio post-production service that masters podcast and video sound in one pass — intelligent leveling, AI noise and reverb reduction, AutoEQ, and loudness normalization to targets like EBU R128, -16 LUFS podcast norms, and ACX audiobook specs. Automatic cutting removes silence, filler words, and coughs; multitrack productions get ducking and mic-bleed removal. Self-hosted Whisper transcription feeds AI shownotes and chapters, with output publishing straight to podcast hosts.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Auphonic GmbH",
+  "platforms": ["web", "api", "cli", "android"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary DSP/ML algorithms plus OpenAI Whisper self-hosted on Auphonic's servers for transcription."
+  },
+  "tags": ["podcasting", "mastering", "loudness", "noise-reduction", "transcription"],
+  "accentColor": "#DC2626",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://auphonic.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://auphonic.com/help/api"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://auphonic.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "A set-and-forget finishing pipeline rather than an editor — batch-masters to real broadcast specs (EBU R128, -16 LUFS, ACX) with API, CLI, and watch folders.",
+  "pros": [
+    "One-click leveling and loudness to broadcast specs",
+    "2 free hours monthly; one-time credits never expire",
+    "Self-hosted Whisper transcripts at no extra cost",
+    "API, CLI and watch folders for batch automation"
+  ],
+  "cons": [
+    "A mastering pipeline, not a full editing timeline",
+    "Cloud-only; legacy desktop apps no longer updated",
+    "Free hours reset monthly and don't roll over"
+  ],
+  "bestFor": ["Podcast mastering", "Audiobook ACX specs", "Batch loudness workflows"],
+  "alternatives": ["adobe-podcast", "descript", "krisp"],
+  "references": [
+    {
+      "title": "The Audio Producer's Guide To Loudness",
+      "url": "https://transom.org/2021/the-audio-producers-guide-to-loudness/",
+      "source": "Transom",
+      "kind": "guide"
+    },
+    {
+      "title": "Auphonic Review 2025: The Secret to Perfect Podcast Loudness",
+      "url": "https://podtools.cc/how-to-use-auphonic-for-podcasting/",
+      "source": "Podtools",
+      "kind": "review"
+    },
+    {
+      "title": "Auphonic Review – Cost, Use Cases & Alternatives",
+      "url": "https://aichief.com/ai-audio-tools/auphonic-ai/",
+      "source": "AIChief",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "paperpal",
+  "insight": "Built by Editage parent Cactus Communications on 21+ years of academic-editing data; crossed 3M users in Nov 2025, tripling in 18 months.",
+  "name": "Paperpal",
+  "tagline": "AI academic writing assistant that takes researchers from draft to journal submission.",
+  "description": "An academic writing assistant from Cactus Communications with discipline-aware language editing, paraphrasing, and translation tuned to scholarly prose. Pairs a research finder over 250M+ articles and citations in 10,000+ styles with pre-submission checks for plagiarism, AI-generated text, and 30+ technical requirements. Works on the web and inside Microsoft Word, Google Docs, and Overleaf.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Cactus Communications",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary in-house models trained on scholarly text; no model choice or BYO key."
+  },
+  "tags": ["academic-writing", "citations", "paraphrasing", "plagiarism-check"],
+  "accentColor": "#1C4DC0",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://paperpal.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://paperpal.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Unlike general-purpose checkers, it is tuned for scholarly prose — discipline-aware edits, citations in 10,000+ styles, and journal submission checks.",
+  "pros": [
+    "Discipline-aware editing tuned to scholarly prose",
+    "Works in Word, Google Docs, and Overleaf",
+    "Citations in 10,000+ styles, 250M+ article index",
+    "Backed by Editage's 20+ years of academic editing"
+  ],
+  "cons": [
+    "Free tier caps generative and plagiarism features",
+    "Overleaf support only via the Chrome extension",
+    "Proprietary models only — no LLM choice or BYO key"
+  ],
+  "bestFor": ["Academic manuscripts", "Journal submission prep", "ESL researchers"],
+  "alternatives": ["grammarly", "quillbot", "wordtune", "scispace"],
+  "references": [
+    {
+      "title": "Paperpal AI Review (2025): Academic Editing & Citation Insights",
+      "url": "https://skywork.ai/blog/paperpal-ai-review-2025/",
+      "source": "Skywork AI",
+      "kind": "review"
+    },
+    {
+      "title": "Paperpal vs Grammarly Detailed Comparison",
+      "url": "https://otio.ai/blog/paperpal-vs-grammarly",
+      "source": "Otio",
+      "kind": "comparison"
+    },
+    {
+      "title": "Paperpal AI — Digital Scholarship LibGuide",
+      "url": "https://uj.ac.za.libguides.com/ds4point0/paperpal",
+      "source": "University of Johannesburg",
+      "kind": "guide"
+    }
+  ]
+}
