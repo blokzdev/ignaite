@@ -21,6 +21,7 @@ export function ToolCard({ app }: Readonly<Props>) {
     .toUpperCase();
   const isArchived = app.status === "archived";
   const license = licenseSignal(app);
+  const accent = app.accentColor ?? "#08D9D6";
   // Cap the tag row so a long tag list can't blow out card height on mobile;
   // surplus is summarised as a +N chip.
   const visibleTags = app.tags?.slice(0, 4) ?? [];
@@ -31,10 +32,11 @@ export function ToolCard({ app }: Readonly<Props>) {
       className={cn(
         "group relative flex h-full flex-col gap-4 overflow-hidden rounded-2xl bg-[var(--color-surface)]/70 p-5 ring-1 transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ring-inset",
         // Archived: muted overall, no hover-lift (it's a historical record, not
-        // a live recommendation).
+        // a live recommendation). Live cards lift, warm their ring to accent, and
+        // cast a soft directional glow on hover (reduced-motion zeroes the move).
         isArchived
           ? "opacity-60 ring-white/[0.06]"
-          : "hover:-translate-y-1 hover:bg-[var(--color-surface)]/90",
+          : "hover:-translate-y-1 hover:bg-[var(--color-surface)]/90 hover:shadow-[0_8px_30px_-12px_var(--color-accent)] hover:ring-[var(--color-accent)]/20",
         !isArchived && NEUTRAL_RING,
       )}
     >
@@ -84,16 +86,22 @@ export function ToolCard({ app }: Readonly<Props>) {
       <div className="flex items-start gap-3">
         <div
           aria-hidden
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono text-xs tracking-[0.08em] uppercase ring-1 ring-white/[0.08] ring-inset"
+          // Accent-tinted inset ring (inline, since the colour is data-driven and
+          // can't come from a Tailwind ring class) makes the monogram the card's
+          // identity anchor rather than a flat swatch.
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono text-xs tracking-[0.08em] uppercase"
           style={{
-            background: `linear-gradient(135deg, ${app.accentColor ?? "#08D9D6"}1f, transparent)`,
-            color: app.accentColor ?? "var(--color-accent)",
+            background: `linear-gradient(135deg, ${accent}1f, transparent)`,
+            color: accent,
+            boxShadow: `inset 0 0 0 1px ${accent}33`,
           }}
         >
           {monogram}
         </div>
         <div className="min-w-0">
-          <h3 className="truncate text-lg font-medium text-[var(--color-ink)]">{app.name}</h3>
+          <h3 className="truncate text-lg font-medium tracking-[-0.01em] text-[var(--color-ink)]">
+            {app.name}
+          </h3>
           {app.vendor && (
             <p className="truncate text-xs text-[var(--color-ink-dim)]">{app.vendor}</p>
           )}
@@ -109,17 +117,23 @@ export function ToolCard({ app }: Readonly<Props>) {
         </p>
       </div>
 
-      {/* Worth knowing — one verifiable, non-obvious fact about the listing. */}
+      {/* Worth knowing — one verifiable, non-obvious fact about the listing.
+          The label is a real (visible) eyebrow now, so the signal reads as
+          distinct from the description rather than relying on an sr-only cue. */}
       {app.insight && (
         <div className="flex items-start gap-2 rounded-xl bg-[var(--color-accent)]/[0.06] px-3 py-2 ring-1 ring-[var(--color-accent)]/15 ring-inset">
           <Lightbulb
             aria-hidden
             className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-accent)]"
           />
-          <p className="line-clamp-2 text-xs leading-relaxed text-[var(--color-ink-soft)]">
-            <span className="sr-only">Worth knowing: </span>
-            {app.insight}
-          </p>
+          <div className="min-w-0">
+            <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-accent)] uppercase">
+              Worth knowing
+            </p>
+            <p className="mt-0.5 line-clamp-2 text-xs leading-relaxed text-[var(--color-ink-soft)]">
+              {app.insight}
+            </p>
+          </div>
         </div>
       )}
 
@@ -150,7 +164,7 @@ export function ToolCard({ app }: Readonly<Props>) {
             href={primary.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-10 items-center gap-2 rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.2] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:h-9"
+            className="inline-flex h-10 items-center gap-2 rounded-full bg-[var(--color-accent)]/[0.12] px-4 font-mono text-[11px] tracking-[0.08em] text-[var(--color-accent)] uppercase ring-1 ring-[var(--color-accent)]/30 transition-colors ring-inset hover:bg-[var(--color-accent)]/[0.22] hover:text-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none sm:h-9"
           >
             Open
             <ArrowUpRight className="h-3 w-3" />

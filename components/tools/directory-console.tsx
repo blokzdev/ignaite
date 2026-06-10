@@ -3,6 +3,7 @@ import { ArrowDownUp, Search, SlidersHorizontal, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { apps } from "@/.velite";
 import { cn } from "@/lib/utils";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { countMatches } from "@/lib/tools/filter-apps";
 import { facetCounts } from "@/lib/tools/facet-counts";
@@ -69,6 +70,12 @@ export function DirectoryConsole() {
   // off-screen with no cue. Scroll the first active chip into view (or back to the
   // start when only "All" is selected) on mount + whenever the selection changes.
   const reduced = useReducedMotion();
+  // Responsive placeholder: the full prompt overflows the narrow mobile field
+  // (the box shares its row with the Filters trigger), so it truncated mid-word.
+  // A complete shorter prompt reads better than a clipped long one. (Console is
+  // client-only, so the false-on-server default just means the safe short prompt
+  // paints first — it never truncates.)
+  const wide = useMediaQuery("(min-width: 640px)");
   const stripRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const strip = stripRef.current;
@@ -170,7 +177,7 @@ export function DirectoryConsole() {
                   else e.currentTarget.blur();
                 }
               }}
-              placeholder="Search apps, vendors, tags, models…"
+              placeholder={wide ? "Search apps, vendors, tags, models…" : "Search apps, vendors…"}
               aria-label="Search apps"
               className="h-8 w-full rounded-full bg-white/[0.04] pr-14 pl-9 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset placeholder:text-[var(--color-ink-dim)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
             />
@@ -292,7 +299,17 @@ export function DirectoryConsole() {
             className="hidden shrink-0 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase lg:block"
             aria-live="polite"
           >
-            {hasFilter ? `${filtered} of ${statusScope}` : `${statusScope} apps`}
+            {hasFilter ? (
+              <>
+                <span className="text-[var(--color-ink-soft)] tabular-nums">{filtered}</span> of{" "}
+                <span className="text-[var(--color-ink-soft)] tabular-nums">{statusScope}</span>
+              </>
+            ) : (
+              <>
+                <span className="text-[var(--color-ink-soft)] tabular-nums">{statusScope}</span>{" "}
+                apps
+              </>
+            )}
           </p>
         </div>
 
@@ -359,7 +376,7 @@ function CategoryChip({
         "inline-flex h-8 shrink-0 items-center rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] whitespace-nowrap uppercase transition-colors",
         "focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
         active
-          ? "bg-[var(--color-accent)] text-[var(--color-canvas)]"
+          ? "bg-[var(--color-accent)] text-[var(--color-canvas)] shadow-[0_0_12px_-2px_var(--color-accent)]"
           : "bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)]",
         dead &&
           "pointer-events-none opacity-40 hover:bg-white/[0.04] hover:text-[var(--color-ink-dim)]",

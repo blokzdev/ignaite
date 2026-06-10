@@ -37,6 +37,15 @@ export default function HomePage() {
         color="var(--color-accent)"
         opacity={0.07}
       />
+      {/* A second, warmer orb low on the page breaks the long grid's flatness and
+          threads the secondary brand colour through the scroll. Decorative +
+          pointer-events-none (GlowOrb); the overflow-clip parent prevents CLS. */}
+      <GlowOrb
+        className="top-[58%] -left-40"
+        size={640}
+        color="var(--color-flame)"
+        opacity={0.05}
+      />
 
       <div className="container-site relative">
         <div className="mb-10 max-w-3xl">

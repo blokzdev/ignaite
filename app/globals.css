@@ -294,6 +294,26 @@
     }
   }
 
+  /* Directory grid entrance. Cards that aren't part of the first paint (a freshly
+     filtered set, or a newly loaded infinite-scroll batch) mount with this class
+     and rise to rest once an IntersectionObserver flips [data-shown]. The initial
+     paint set never gets the class (rendered at rest) so LCP isn't delayed and
+     there's no hydration flash; reduced-motion users never get it either (the
+     client gates on useReducedMotion, and the global [data-motion] rule would
+     collapse the transition regardless). */
+  .reveal-rise {
+    opacity: 0;
+    transform: translateY(12px);
+    transition-property: opacity, transform;
+    transition-duration: var(--transition-duration-base);
+    transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .reveal-rise[data-shown="true"] {
+    opacity: 1;
+    transform: none;
+  }
+
   .glass {
     background-color: rgb(255 255 255 / 0.04);
     backdrop-filter: blur(16px) saturate(140%);
