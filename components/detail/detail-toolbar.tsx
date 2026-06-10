@@ -1,28 +1,10 @@
 "use client";
-import { Search } from "lucide-react";
-import { useSavedDirectoryHref } from "@/lib/tools/directory-session";
-import { Breadcrumb, type Crumb } from "./breadcrumb";
+import { BackCrumb } from "./back-crumb";
 import { CopyLinkButton } from "./copy-link-button";
 
 interface Props {
-  breadcrumb: ReadonlyArray<Crumb>;
+  appName: string;
   shareUrl: string;
-}
-
-// Opens the unified console (the same surface as the nav's ⌘K pill) — the
-// toolbar stays reachable when the auto-hiding header has slid away, so this
-// is the detail page's always-available search entry.
-function SearchButton() {
-  return (
-    <button
-      type="button"
-      onClick={() => window.dispatchEvent(new Event("blokz:open-command"))}
-      aria-label="Search the directory (Command/Ctrl + K)"
-      className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-    >
-      <Search className="h-3.5 w-3.5" />
-    </button>
-  );
 }
 
 // Sticky contextual page-level toolbar, full-bleed and flush under the site
@@ -32,27 +14,16 @@ function SearchButton() {
 // collapses to 0 when the auto-hiding nav slides away (globals.css zeroes
 // --nav-h), so the bar still reclaims the top edge.
 //
-// Deliberately STATIC — just the breadcrumb + search + copy, no scroll-driven
-// identity/Open swap. The breadcrumb's last crumb already names the current
-// app, so a compact identity state was redundant and its crossfade read as
-// flicker (especially as the nav re-revealed on scroll-up). The "Directory"
-// crumb is upgraded after mount to this tab's last directory query (back to the
-// exact results the visitor came from).
-export function DetailToolbar({ breadcrumb, shareUrl }: Readonly<Props>) {
-  const directoryHref = useSavedDirectoryHref();
-  const crumbs =
-    directoryHref !== "/"
-      ? breadcrumb.map((c) => (c.href === "/" ? { ...c, href: directoryHref } : c))
-      : breadcrumb;
-
+// State-aware back crumb + copy. No search button — the header burger (and ⌘K
+// on desktop) own search; a toolbar search duplicated that single trigger. The
+// crumb's first segment reflects where the visitor came from (search / filter /
+// directory) and returns there via real history. See <BackCrumb>.
+export function DetailToolbar({ appName, shareUrl }: Readonly<Props>) {
   return (
     <div className="sticky top-[min(var(--nav-h),var(--nav-row-h))] z-30 h-[var(--detail-toolbar-h)] border-b border-white/[0.06] bg-[var(--color-canvas)]/85 backdrop-blur-xl">
       <div className="mx-auto flex h-full max-w-6xl items-center justify-between gap-3 px-6">
-        <Breadcrumb items={crumbs} />
-        <div className="flex shrink-0 items-center gap-2">
-          <SearchButton />
-          <CopyLinkButton url={shareUrl} />
-        </div>
+        <BackCrumb appName={appName} />
+        <CopyLinkButton url={shareUrl} />
       </div>
     </div>
   );
