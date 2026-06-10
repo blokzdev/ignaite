@@ -1,16 +1,19 @@
 import Link from "next/link";
-import { ArrowUpRight, BookOpen, Check, Lightbulb, Minus, Target } from "lucide-react";
-import type { ReactElement } from "react";
+import { Archive, ArrowUpRight, BookOpen, Check, Lightbulb, Minus, Target } from "lucide-react";
+import type { ReactElement, ReactNode } from "react";
 import { AccuracyNote } from "@/components/tools/accuracy-note";
 import { AppDetailShell } from "@/components/detail/app-detail-shell";
 import { DetailActionBar } from "@/components/detail/detail-action-bar";
 import { DetailToolbar } from "@/components/detail/detail-toolbar";
-import { SpecCard } from "@/components/detail/spec-card";
+import { DossierRail } from "@/components/detail/dossier-rail";
+import { Masthead } from "@/components/detail/masthead";
+import { StatStrip } from "@/components/detail/stat-strip";
 import { JsonLd } from "@/components/seo/json-ld";
 import { RelatedRail } from "@/components/tools/related-rail";
 import { ShowMore } from "@/components/tools/show-more";
 import { ToolCard } from "@/components/tools/tool-card";
 import { alternativeApps, relatedApps } from "@/lib/apps";
+import { cn } from "@/lib/utils";
 import { siteUrl } from "@/lib/seo";
 import { buildAppJson, buildAppMarkdown } from "@/lib/tools/app-export";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
@@ -23,8 +26,43 @@ interface Props {
   app: App;
 }
 
+// A "Worth knowing" / "The edge" signal card. A lone signal spans both columns.
+function Signal({
+  icon: Icon,
+  tone,
+  label,
+  children,
+  full,
+}: Readonly<{
+  icon: typeof Lightbulb;
+  tone: "accent" | "flame";
+  label: string;
+  children: ReactNode;
+  full: boolean;
+}>) {
+  const isAccent = tone === "accent";
+  const box = isAccent
+    ? "bg-[var(--color-accent)]/[0.06] ring-[var(--color-accent)]/20"
+    : "bg-[var(--color-flame)]/[0.06] ring-[var(--color-flame)]/20";
+  const fg = isAccent ? "text-[var(--color-accent)]" : "text-[var(--color-flame)]";
+  return (
+    <aside
+      className={cn(
+        "flex items-start gap-3 rounded-2xl p-5 ring-1 ring-inset",
+        box,
+        full && "sm:col-span-2",
+      )}
+    >
+      <Icon aria-hidden className={cn("mt-0.5 h-4 w-4 shrink-0", fg)} />
+      <div>
+        <p className={cn("font-mono text-[10px] tracking-[0.16em] uppercase", fg)}>{label}</p>
+        <p className="mt-1.5 text-base leading-relaxed text-[var(--color-ink)]">{children}</p>
+      </div>
+    </aside>
+  );
+}
+
 export function AppDetail({ app }: Readonly<Props>): ReactElement {
-  const primary = app.links.find((l) => l.primary) ?? app.links[0];
   const monogram = app.name
     .replace(/[^A-Za-z0-9]/g, "")
     .slice(0, 2)
@@ -35,14 +73,16 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
   // otherwise the derived same-category "Related" list is the fallback.
   const alternatives = alternativeApps(app);
   const railApps = alternatives.length > 0 ? alternatives : relatedApps(app.slug, 10);
-  const railTitle = alternatives.length > 0 ? `Alternatives to ${app.name}` : undefined;
-  // Hex (not the CSS var) so the `${accent}26`-style alpha-suffix gradients below
-  // and in the toolbar/spec-card stay valid; #08D9D6 is --color-accent's value.
+  const railTitle =
+    alternatives.length > 0 ? `Alternatives to ${app.name} (${alternatives.length})` : undefined;
+  // Hex (not the CSS var) so the `${accent}26`-style alpha-suffix gradients
+  // stay valid; #08D9D6 is --color-accent's value.
   const accent = app.accentColor ?? "#08D9D6";
   const shareUrl = `${siteUrl}/apps/${app.slug}`;
   const license = licenseSignal(app);
-  // Share/export payloads, generated once at SSG time and handed to both menu
-  // placements (spec card ≥sm, action bar <sm) as plain strings.
+  const primary = app.links.find((l) => l.primary) ?? app.links[0];
+  // Share/export payloads, generated once at SSG time and handed to the menu
+  // placements (masthead ≥sm, action bar <sm) as plain strings.
   const exportMarkdown = buildAppMarkdown(app, shareUrl);
   const exportJson = buildAppJson(app, shareUrl);
   // Key facets mirrored into the toolbar's compact (scrolled) state on desktop.
@@ -55,7 +95,6 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
   return (
     <AppDetailShell
       accent={accent}
-      dimmed={isArchived}
       toolbar={
         <DetailToolbar
           breadcrumb={[{ label: "Directory", href: "/" }, { label: app.name }]}
@@ -69,80 +108,61 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
       }
       actionBar={<DetailActionBar app={app} markdown={exportMarkdown} json={exportJson} />}
     >
-      {/* Hero (full width) */}
-      <header className="mt-10 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-        <div
-          aria-hidden
-          className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl font-mono text-base tracking-[0.08em] uppercase ring-1 ring-white/[0.08] ring-inset sm:h-20 sm:w-20"
-          style={{
-            background: `linear-gradient(135deg, ${accent}26, transparent)`,
-            color: accent,
-          }}
-        >
-          {monogram}
-        </div>
-        <div className="min-w-0">
-          <p className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-            {CATEGORY_LABEL[app.category]}
-            {app.vendor ? ` · ${app.vendor}` : ""}
+      <Masthead
+        app={app}
+        accent={accent}
+        shareUrl={shareUrl}
+        markdown={exportMarkdown}
+        json={exportJson}
+      />
+
+      {isArchived && (
+        <div className="mt-6 flex items-start gap-3 rounded-xl bg-[var(--color-warn)]/[0.08] p-4 ring-1 ring-[var(--color-warn)]/25 ring-inset">
+          <Archive aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-warn)]" />
+          <p className="text-sm leading-relaxed text-[var(--color-ink-soft)]">
+            This listing is <span className="font-medium text-[var(--color-ink)]">archived</span> —
+            the app was discontinued or sunset. Its links may no longer resolve; it&apos;s kept as a
+            historical record.
           </p>
-          <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl">
-            <span className="text-display text-[var(--color-ink)]">{app.name}</span>
-          </h1>
-          <p className="mt-3 text-base text-[var(--color-ink-dim)] sm:text-lg">{app.tagline}</p>
         </div>
-      </header>
+      )}
 
       {/* Sentinel: when this passes under the sticky toolbar, the toolbar swaps
           to its compact app-identity state. */}
       <div id="hero-sentinel" aria-hidden className="h-px w-full" />
 
-      {/* Two-column: reading column + sticky spec sidebar (stacks on < lg, with
-          the spec card surfaced above the prose). */}
-      <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
-        <div className="order-2 min-w-0 lg:order-1 [&>:first-child]:mt-0">
-          {/* Worth knowing — one verifiable, non-obvious FACT about the listing
-              the description doesn't carry. Distinct from "The edge". */}
-          {app.insight && (
-            <aside className="mt-2 flex items-start gap-3 rounded-2xl bg-[var(--color-accent)]/[0.06] p-5 ring-1 ring-[var(--color-accent)]/20 ring-inset">
-              <Lightbulb
-                aria-hidden
-                className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-accent)]"
-              />
-              <div>
-                <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-accent)] uppercase">
-                  Worth knowing
-                </p>
-                <p className="mt-1.5 text-base leading-relaxed text-[var(--color-ink)]">
-                  {app.insight}
-                </p>
-              </div>
-            </aside>
-          )}
+      <StatStrip app={app} accent={accent} />
 
-          {/* Edge — the comparative signal: why pick this over its category peers. */}
-          {app.edge && (
-            <aside className="mt-4 flex items-start gap-3 rounded-2xl bg-[var(--color-flame)]/[0.06] p-5 ring-1 ring-[var(--color-flame)]/20 ring-inset">
-              <Target aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-flame)]" />
-              <div>
-                <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-flame)] uppercase">
-                  The edge
-                </p>
-                <p className="mt-1.5 text-base leading-relaxed text-[var(--color-ink)]">
-                  {app.edge}
-                </p>
-              </div>
-            </aside>
-          )}
-
-          {/* Description — clamped with a Show more/less reveal when it runs long
-              (the full text stays in the DOM for SEO + screen readers). */}
-          <ShowMore className="mt-8 max-w-[68ch] text-base leading-relaxed text-[var(--color-ink)] sm:text-lg">
+      {/* Two zones: the brief (story + signals) and the dossier (reference). */}
+      <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
+        {/* The brief */}
+        <div className="min-w-0">
+          {/* Description leads — the story before the spec sheet. */}
+          <ShowMore
+            collapsedRem={12}
+            className="max-w-[68ch] text-base leading-relaxed text-[var(--color-ink)] sm:text-lg"
+          >
             <p>{app.description}</p>
             {app.longDescription && <p className="mt-4">{app.longDescription}</p>}
           </ShowMore>
 
-          {/* Pros & Cons — the honest, balanced read. */}
+          {/* Signals — Worth knowing + The edge, side by side on sm+. */}
+          {(app.insight || app.edge) && (
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              {app.insight && (
+                <Signal icon={Lightbulb} tone="accent" label="Worth knowing" full={!app.edge}>
+                  {app.insight}
+                </Signal>
+              )}
+              {app.edge && (
+                <Signal icon={Target} tone="flame" label="The edge" full={!app.insight}>
+                  {app.edge}
+                </Signal>
+              )}
+            </div>
+          )}
+
+          {/* Trade-offs — the honest, balanced read. */}
           {((app.pros && app.pros.length > 0) || (app.cons && app.cons.length > 0)) && (
             <section className="mt-10">
               <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
@@ -189,25 +209,6 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
             </section>
           )}
 
-          {/* Best for — use-case / audience descriptors. */}
-          {app.bestFor && app.bestFor.length > 0 && (
-            <section className="mt-10">
-              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-                Best for
-              </p>
-              <ul className="mt-3 flex flex-wrap gap-2">
-                {app.bestFor.map((b) => (
-                  <li
-                    key={b}
-                    className="rounded-full bg-[var(--color-accent)]/[0.08] px-3 py-1 text-sm text-[var(--color-ink)] ring-1 ring-[var(--color-accent)]/20 ring-inset"
-                  >
-                    {b}
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
-
           {/* Tags */}
           {app.tags && app.tags.length > 0 && (
             <section className="mt-10">
@@ -227,8 +228,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
             </section>
           )}
 
-          {/* Further reading — curated third-party coverage (independent of the
-              vendor): reviews, guides, benchmarks, comparisons. */}
+          {/* Further reading — curated third-party coverage. */}
           {app.references && app.references.length > 0 && (
             <section className="mt-10">
               <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
@@ -264,30 +264,15 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
               </ul>
             </section>
           )}
-
-          {isArchived && (
-            <p className="mt-10 max-w-xl text-sm text-[var(--color-ink-dim)]">
-              This entry is archived — the primary link may no longer resolve. Kept here as a
-              historical record.
-            </p>
-          )}
         </div>
 
-        {/* Spec card — sticky on desktop, surfaced first on mobile/tablet. */}
-        <div className="order-1 lg:sticky lg:top-[calc(min(var(--nav-h),var(--nav-row-h))_+_var(--detail-toolbar-h)_+_1rem)] lg:order-2 lg:self-start">
-          <SpecCard
-            app={app}
-            accent={accent}
-            shareUrl={shareUrl}
-            markdown={exportMarkdown}
-            json={exportJson}
-          />
+        {/* The dossier — sticky reference sidebar (stacks after the brief < lg). */}
+        <div className="lg:sticky lg:top-[calc(min(var(--nav-h),var(--nav-row-h))_+_var(--detail-toolbar-h)_+_1rem)] lg:self-start">
+          <DossierRail app={app} accent={accent} />
         </div>
       </div>
 
-      {/* Alternatives / Related — full-width below the grid. Curated-aware:
-          hand-picked `alternatives` ("Alternatives to <name>", may cross
-          categories) when present, else the derived same-category "Related". */}
+      {/* Alternatives / Related — full-width below the zones. */}
       {railApps.length > 0 && (
         <RelatedRail categoryLabel={CATEGORY_LABEL[app.category]} title={railTitle}>
           {railApps.map((r) => (
@@ -298,8 +283,8 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </RelatedRail>
       )}
 
-      {/* Maintenance ledger — disclaimer + change-history timeline + last
-          verified + correction CTA (one cohesive provenance card). */}
+      {/* Maintenance ledger — provenance + change history (stat-strip VERIFIED
+          anchors here). */}
       <AccuracyNote
         appName={app.name}
         addedAt={app.addedAt}
