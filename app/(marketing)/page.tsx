@@ -53,7 +53,7 @@ export default function HomePage() {
 
       <div className="container-site relative">
         <div className="mb-10 max-w-3xl">
-          <h1 className="font-mono text-[clamp(1.2rem,5.8vw,3rem)] font-medium tracking-[0.02em] whitespace-nowrap text-[var(--color-ink)] uppercase [word-spacing:-0.1em]">
+          <h1 className="font-mono text-[clamp(1.2rem,7vw,3rem)] font-medium tracking-[0.02em] whitespace-nowrap text-[var(--color-ink)] uppercase [word-spacing:-0.1em]">
             AI Apps Directory
           </h1>
           <p className="mt-4 text-lg sm:text-xl">
