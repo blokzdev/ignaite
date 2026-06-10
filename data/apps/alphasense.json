@@ -1,0 +1,54 @@
+{
+  "slug": "alphasense",
+  "insight": "Acquired expert-call network Tegus for $930M in 2024; a June 2026 round at $7.5B nearly doubled its valuation, with $600M+ ARR.",
+  "name": "AlphaSense",
+  "tagline": "AI market intelligence — search and agentic deep research across premium financial content.",
+  "description": "A market intelligence platform used by investment firms and corporations to search and analyze equity research, company filings, earnings calls, news, and the Tegus expert-call transcript library. Its AI layer spans Generative Search, a Deep Research agent that autonomously runs multi-step research across the corpus, and custom agents for repeatable workflows — with enterprise plans that fold in a customer's internal documents. Serves over 7,000 enterprise customers.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "AlphaSense",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generative Search and Deep Research built on leading reasoning models."
+  },
+  "tags": [
+    "market-intelligence",
+    "financial-research",
+    "expert-calls",
+    "deep-research",
+    "enterprise"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.alpha-sense.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Pairs agentic deep research with licensed content rivals can't crawl — broker research, filings, and 200k+ Tegus expert-call transcripts.",
+  "pros": [
+    "Licensed broker research and filings",
+    "200k+ expert-call transcripts",
+    "Deep Research agent over the corpus",
+    "7,000+ enterprise customers"
+  ],
+  "cons": [
+    "Expensive enterprise contracts",
+    "Built for institutions, not retail",
+    "Pricing not published"
+  ],
+  "bestFor": ["Investment research", "Competitive intelligence", "Corporate strategy"],
+  "alternatives": ["hebbia", "rogo"],
+  "references": [
+    {
+      "title": "AlphaSense secures $350m funding, reaches $7.5bn valuation",
+      "url": "https://www.verdict.co.uk/alphasense-secures-350m-funding/",
+      "source": "Verdict",
+      "kind": "analysis"
+    }
+  ]
+}

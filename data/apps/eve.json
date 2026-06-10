@@ -1,0 +1,44 @@
+{
+  "slug": "eve",
+  "insight": "A $103M Spark Capital-led Series B in September 2025 valued the plaintiff-side legal AI startup at over $1B.",
+  "name": "Eve",
+  "tagline": "AI platform for plaintiff law firms — works whole cases from intake to resolution.",
+  "description": "Legal AI built specifically for plaintiff-side law firms in areas like personal injury and employment law. Eve evaluates incoming cases, builds medical chronologies, drafts complaints, demand letters, and discovery, and runs an AI Auditor that scans the firm's entire active caseload nightly to surface missed opportunities. The company says it is used by over 1,000 plaintiff firms and processes more than 200,000 cases a year.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Eve Legal",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Plaintiff-law-tuned platform built on frontier LLMs."
+  },
+  "tags": ["legal", "plaintiff-firms", "personal-injury", "case-management", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.eve.legal",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Purpose-built for plaintiff firms and works the whole case from intake to resolution, where most legal AI peers target BigLaw research and drafting.",
+  "pros": [
+    "Whole-case workflow, intake to resolution",
+    "Nightly AI Auditor scans active caseloads",
+    "Drafts complaints, demands, and discovery",
+    "Used by 1,000+ plaintiff firms"
+  ],
+  "cons": ["Plaintiff-side only", "Sales-led pricing, no self-serve", "Web-only"],
+  "bestFor": ["Plaintiff law firms", "Personal injury practices", "Employment lawyers"],
+  "alternatives": ["evenup", "harvey", "legora", "cocounsel"],
+  "references": [
+    {
+      "title": "Eve, AI platform for plaintiff law firms, raises $103M Series B",
+      "url": "https://www.lawnext.com/2025/09/eve-ai-driven-platform-for-plaintiff-side-law-firms-raises-103-million-in-series-b-round.html",
+      "source": "LawSites",
+      "kind": "analysis"
+    }
+  ]
+}

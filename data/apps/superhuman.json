@@ -1,0 +1,49 @@
+{
+  "slug": "superhuman",
+  "insight": "Acquired by Grammarly in July 2025; that October the combined company renamed itself Superhuman, spanning Mail, Coda, and Grammarly.",
+  "name": "Superhuman Mail",
+  "tagline": "Keyboard-first AI email client for Gmail and Outlook, built for inbox zero.",
+  "description": "An AI-native email client for Gmail and Outlook accounts, known for sub-100ms keyboard-driven interactions, split-inbox triage, and AI that drafts replies in your own voice. Now part of the Superhuman Suite — alongside Grammarly, Coda, and the Superhuman Go assistant — from the company formerly known as Grammarly. Mail is included only in the Business plan ($33/member/month annual) and up; there is no standalone email subscription anymore.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Superhuman",
+  "platforms": ["web", "macos", "windows", "ios", "android"],
+  "tags": ["email", "inbox-zero", "ai-drafting", "productivity"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://superhuman.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://superhuman.com/plans"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "The speed benchmark for email — sub-100ms keyboard-first triage plus AI drafting in your voice, where most AI email peers bolt chat onto a slower client.",
+  "pros": [
+    "Sub-100ms keyboard-first interactions",
+    "AI drafts match your writing voice",
+    "Split-inbox triage and follow-ups",
+    "Works with Gmail and Outlook"
+  ],
+  "cons": [
+    "No standalone Mail plan — Business tier only",
+    "Premium price ($33+/member/month)",
+    "Closed source",
+    "Suite bundling if you only want email"
+  ],
+  "bestFor": ["Inbox-zero power users", "Founders and execs", "High-volume email"],
+  "alternatives": ["shortwave", "lindy", "notion-ai"],
+  "references": [
+    {
+      "title": "Grammarly acquires AI email client Superhuman",
+      "url": "https://techcrunch.com/2025/07/01/grammarly-acquires-ai-email-client-superhuman/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
