@@ -1,0 +1,65 @@
+{
+  "slug": "unbabel",
+  "insight": "Acquired by TransPerfect in Aug 2025; its TowerLLM and open-source COMET metric are being folded into the GlobalLink stack.",
+  "name": "Unbabel",
+  "tagline": "Enterprise LangOps platform pairing TowerLLM machine translation with human review.",
+  "description": "A Lisbon-born enterprise translation platform that pioneered the hybrid machine-plus-human-editor model for multilingual customer support and content. Built TowerLLM, a translation-purpose-built LLM, and authored COMET, the open-source quality metric much of the MT industry benchmarks with — so quality estimation is native to the workflow. Acquired by TransPerfect in 2025, it continues as a brand and business unit with its models feeding the GlobalLink portfolio.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Unbabel Inc. (TransPerfect)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "In-house TowerLLM purpose-built for translation; quality tooling also benchmarks and routes third-party MT engines."
+  },
+  "tags": ["translation", "langops", "customer-support", "quality-estimation"],
+  "accentColor": "#3843D0",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://unbabel.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.unbabel.com"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Built its own translation-native LLM (TowerLLM) and the COMET metric the industry benchmarks with — quality estimation is native, not bolted on.",
+  "pros": [
+    "Purpose-built in-house TowerLLM for translation",
+    "Authored COMET, the standard MT quality metric",
+    "Built-in quality estimation and reporting",
+    "Human-in-the-loop review option for high stakes"
+  ],
+  "cons": [
+    "No public pricing; sales-led enterprise motion",
+    "Post-acquisition roadmap tied to TransPerfect",
+    "Widn.AI product line being folded into GlobalLink"
+  ],
+  "bestFor": ["Multilingual support", "Enterprise localization", "Quality-scored MT"],
+  "alternatives": ["lilt", "deepl", "smartling", "phrase"],
+  "references": [
+    {
+      "title": "Unbabel gets $60M for its blended approach to business translation",
+      "url": "https://techcrunch.com/2019/09/25/unbabel-gets-60m-for-its-blended-approach-to-business-translation/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Portugal's Unbabel acquired by U.S. translation giant TransPerfect",
+      "url": "https://portugalstartupnews.com/2025/08/22/portugals-unbabel-acquired-by-us-translation-giant-transperfect/",
+      "source": "Portugal Startup News",
+      "kind": "analysis"
+    },
+    {
+      "title": "TransPerfect's Unbabel acquisition is a bellwether for a new era",
+      "url": "https://blog.pangeanic.com/transperfects-unbabel-acquisition-is-a-bellwether-for-a-new-era-in-ai-language-technology",
+      "source": "Pangeanic",
+      "kind": "analysis"
+    }
+  ]
+}
