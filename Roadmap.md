@@ -70,6 +70,27 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | Q     | PWA — hand-rolled service worker + custom install prompt + `/offline`                   | #116      | ✅     |
 | R     | Detail-page DEX refit + state-aware back-crumb + enriched per-app share-card OG (Geist) | #120–#131 | ✅     |
 | S     | Homepage/directory elevation — masthead plasma, hero slogan, mobile quick-sort          | #132–#137 | ✅     |
+| T     | Sort overhaul (two-field + flip, dropdown z-fix) + fresh recent rail                    | #144      | 🟦     |
+| U     | Featured rotation — `/rotate-featured` routine + `featuredAt` field (biweekly)          | —         | 🟦     |
+
+---
+
+## Iteration 9 — Directory browse & discovery freshness (Chunks T–U) 🟦 in progress
+
+The screenshot-driven follow-up to the directory work: fix the sort control and keep the two
+discovery rails from going stale.
+
+- **Chunk T — Sort + rails (#144).** The mobile sort dropdown read as see-through (a z-index token
+  typo — `z-[var(--z-overlay)]` vs the real `--z-index-overlay`; the sticky console painted over the
+  portaled menu); fixed by using the `z-overlay`/`z-sticky` utilities. Replaced the redundant
+  "Featured" sort with a **two-field + flip** model (`newest`/`oldest`/`az`/`za`, default Newest;
+  `lib/tools/sort.ts`), active-row highlight instead of the radio dot, and a deterministic slug
+  tie-break for bulk same-day adds. The **Recently-added** carousel now shuffles the 30 newest per
+  visit (was a static top-14).
+- **Chunk U — Featured rotation.** New biweekly `/rotate-featured` routine + optional `featuredAt`
+  schema field: features one strong active app across ~14 random categories, rotates the prior set
+  out (changelog per change), opens a PR. Keeps the Featured carousel fresh + spreads the spotlight
+  across all 39 categories over ~3 cycles.
 
 ---
 
