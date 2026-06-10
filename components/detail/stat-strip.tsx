@@ -34,12 +34,11 @@ function Cell({ label, children }: Readonly<{ label: string; children: ReactNode
 const linkCls =
   "inline-flex items-center rounded transition-colors hover:text-[var(--color-accent)] hover:underline focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none";
 
-// The DEX-style statistics band: a single full-bleed hairline-bounded row of
-// labeled data points under the masthead — the directory's "at a glance" line.
-// Most values deep-link into the filtered directory (facetHref); MODELS is
-// reference-only (unlinked), VERIFIED jumps to the change-history ledger.
-// Horizontal scroll with edge-fade on mobile (same -mx-6/px-6 + .scroll-fade-x
-// pattern as the homepage console), settling into a static row at lg.
+// The DEX-style statistics band: a hairline-bounded row of labeled data points
+// under the masthead — the directory's "at a glance" line, aligned to the
+// content column. Most values deep-link into the filtered directory
+// (facetHref); MODELS is reference-only (unlinked), VERIFIED jumps to the
+// change-history ledger. Horizontal scroll on mobile, static row at lg.
 // Server component — all links, no client JS.
 export function StatStrip({ app, accent }: Readonly<{ app: App; accent: string }>) {
   const license = licenseSignal(app);
@@ -47,106 +46,111 @@ export function StatStrip({ app, accent }: Readonly<{ app: App; accent: string }
   const pricingTone = app.pricing === "free" ? "success" : "ink";
 
   return (
-    <div
-      className="-mx-6 mt-6 border-y border-white/[0.06]"
+    // Aligned to the content column (no -mx-6/px-6 full-bleed): padding-left on
+    // a horizontally-scrolling flex container is unreliable — it collapsed and
+    // pinned the first cell flush to the viewport edge ("tight on the left").
+    // Letting the row sit in the column gives the first cell the same gutter as
+    // the body text and turns the hairlines into a clean section rule. No
+    // scroll-fade mask (it clipped the bare first label); the row hard-cuts on
+    // overflow, which already signals "scroll for more".
+    <dl
+      className="no-scrollbar mt-6 flex snap-x snap-proximity overflow-x-auto border-y border-white/[0.06] lg:overflow-visible"
       style={{ borderTopColor: `${accent}40` }}
     >
-      <dl className="no-scrollbar scroll-fade-x flex snap-x snap-proximity overflow-x-auto px-6 lg:overflow-visible lg:[mask-image:none]">
-        <Cell label="Category">
+      <Cell label="Category">
+        <Link
+          href={facetHref("category", app.category)}
+          aria-label={`Category: ${CATEGORY_LABEL[app.category]} — browse matching apps`}
+          className={cn(linkCls, TONE.ink)}
+        >
+          {CATEGORY_LABEL[app.category]}
+        </Link>
+      </Cell>
+
+      <Cell label="Pricing">
+        <Link
+          href={facetHref("pricing", app.pricing)}
+          aria-label={`Pricing: ${PRICING_LABEL[app.pricing]} — browse matching apps`}
+          className={cn(linkCls, TONE[pricingTone])}
+        >
+          {PRICING_LABEL[app.pricing]}
+        </Link>
+      </Cell>
+
+      <Cell label="Source">
+        <Link
+          href={facetHref("license", license)}
+          aria-label={`Source: ${LICENSE_LABEL[license]} — browse matching apps`}
+          className={cn(linkCls, TONE[sourceTone])}
+        >
+          {LICENSE_LABEL[license]}
+        </Link>
+      </Cell>
+
+      {app.deployment && (
+        <Cell label="Hosting">
           <Link
-            href={facetHref("category", app.category)}
-            aria-label={`Category: ${CATEGORY_LABEL[app.category]} — browse matching apps`}
+            href={facetHref("deployment", app.deployment)}
+            aria-label={`Hosting: ${DEPLOYMENT_LABEL[app.deployment]} — browse matching apps`}
             className={cn(linkCls, TONE.ink)}
           >
-            {CATEGORY_LABEL[app.category]}
+            {DEPLOYMENT_LABEL[app.deployment]}
           </Link>
         </Cell>
+      )}
 
-        <Cell label="Pricing">
-          <Link
-            href={facetHref("pricing", app.pricing)}
-            aria-label={`Pricing: ${PRICING_LABEL[app.pricing]} — browse matching apps`}
-            className={cn(linkCls, TONE[pricingTone])}
-          >
-            {PRICING_LABEL[app.pricing]}
-          </Link>
-        </Cell>
+      <Cell label="Platforms">
+        <span className="flex items-center gap-x-1.5 whitespace-nowrap text-[var(--color-ink)]">
+          {app.platforms.map((p, i) => (
+            <span key={p} className="contents">
+              {i > 0 && (
+                <span aria-hidden className="text-[var(--color-ink-dim)]/40">
+                  ·
+                </span>
+              )}
+              <Link
+                href={facetHref("platform", p)}
+                aria-label={`Platform: ${PLATFORM_LABEL[p]} — browse matching apps`}
+                className={cn(linkCls, TONE.ink)}
+              >
+                {PLATFORM_LABEL[p]}
+              </Link>
+            </span>
+          ))}
+        </span>
+      </Cell>
 
-        <Cell label="Source">
-          <Link
-            href={facetHref("license", license)}
-            aria-label={`Source: ${LICENSE_LABEL[license]} — browse matching apps`}
-            className={cn(linkCls, TONE[sourceTone])}
-          >
-            {LICENSE_LABEL[license]}
-          </Link>
-        </Cell>
-
-        {app.deployment && (
-          <Cell label="Hosting">
-            <Link
-              href={facetHref("deployment", app.deployment)}
-              aria-label={`Hosting: ${DEPLOYMENT_LABEL[app.deployment]} — browse matching apps`}
-              className={cn(linkCls, TONE.ink)}
-            >
-              {DEPLOYMENT_LABEL[app.deployment]}
-            </Link>
-          </Cell>
-        )}
-
-        <Cell label="Platforms">
-          <span className="flex items-center gap-x-1.5 whitespace-nowrap text-[var(--color-ink)]">
-            {app.platforms.map((p, i) => (
-              <span key={p} className="contents">
-                {i > 0 && (
-                  <span aria-hidden className="text-[var(--color-ink-dim)]/40">
-                    ·
-                  </span>
-                )}
-                <Link
-                  href={facetHref("platform", p)}
-                  aria-label={`Platform: ${PLATFORM_LABEL[p]} — browse matching apps`}
-                  className={cn(linkCls, TONE.ink)}
-                >
-                  {PLATFORM_LABEL[p]}
-                </Link>
-              </span>
-            ))}
+      {app.modelSupport && (
+        <Cell label="Models">
+          <span className="whitespace-nowrap text-[var(--color-ink-dim)]">
+            {MODEL_KIND_LABEL[app.modelSupport.kind]}
           </span>
         </Cell>
+      )}
 
-        {app.modelSupport && (
-          <Cell label="Models">
-            <span className="whitespace-nowrap text-[var(--color-ink-dim)]">
-              {MODEL_KIND_LABEL[app.modelSupport.kind]}
-            </span>
-          </Cell>
-        )}
+      {app.lastVerifiedAt && (
+        <Cell label="Verified">
+          <Link
+            href="#history"
+            aria-label={`Verified ${formatDate(app.lastVerifiedAt)} — view change history`}
+            className={cn(linkCls, "whitespace-nowrap", TONE.dim)}
+          >
+            {formatDate(app.lastVerifiedAt)}
+          </Link>
+        </Cell>
+      )}
 
-        {app.lastVerifiedAt && (
-          <Cell label="Verified">
-            <Link
-              href="#history"
-              aria-label={`Verified ${formatDate(app.lastVerifiedAt)} — view change history`}
-              className={cn(linkCls, "whitespace-nowrap", TONE.dim)}
-            >
-              {formatDate(app.lastVerifiedAt)}
-            </Link>
-          </Cell>
-        )}
-
-        {app.status === "archived" && (
-          <Cell label="Status">
-            <Link
-              href={facetHref("status", "archived")}
-              aria-label="Status: Archived — browse archived apps"
-              className={cn(linkCls, TONE.warn)}
-            >
-              Archived
-            </Link>
-          </Cell>
-        )}
-      </dl>
-    </div>
+      {app.status === "archived" && (
+        <Cell label="Status">
+          <Link
+            href={facetHref("status", "archived")}
+            aria-label="Status: Archived — browse archived apps"
+            className={cn(linkCls, TONE.warn)}
+          >
+            Archived
+          </Link>
+        </Cell>
+      )}
+    </dl>
   );
 }
