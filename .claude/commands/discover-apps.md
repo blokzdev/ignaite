@@ -65,8 +65,11 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 - `pnpm velite` must pass — it runs `velite build --strict`, which validates every new JSON against
   the schema and **exits non-zero** with a precise per-file error if anything is off (a duplicate slug
   fails too); fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean (each
-  re-runs the strict validation, so a bad entry hard-fails CI rather than silently dropping). Link-check each new primary URL resolves (a `403` from anti-bot protection on a real
-  site is fine; `404`/DNS failure is not — fix or drop).
+  re-runs the strict validation, so a bad entry hard-fails CI rather than silently dropping). Link-check each new primary URL resolves. An anti-bot block (`403`/`429`/`503`) on a
+  **demonstrably live** site is fine — don't skip the app: corroborate liveness via independent
+  current sources (search results, live docs/blog subdomains, recent third-party coverage), verify
+  fields from those sources, and note the blocked primary URL in the PR's "needs human re-verify"
+  section. A `404`/dead domain/DNS failure is not fine — fix or drop.
 
 ## 5. Open a PR (this is a scheduled run)
 
