@@ -3,13 +3,13 @@ import { ArrowUpRight } from "lucide-react";
 import type { App } from "@/types/app";
 import { siteUrl } from "@/lib/seo";
 import { LINK_ICON, LINK_LABEL } from "@/lib/tools/app-labels";
-import { ShareMenuLazy } from "./share-menu-lazy";
+import { ShareSheetLazy } from "./share-sheet-lazy";
 
-// Enhanced pinned bottom bar (mobile only — ≥sm the sticky toolbar + spec card
+// Enhanced pinned bottom bar (mobile only — ≥sm the sticky toolbar + masthead
 // carry the actions). Primary "Open" stays reachable while scrolling, alongside
 // the two highest-value secondary links (docs / GitHub) and the Share/export
-// menu (which carries copy-link, native share, and the .md/.json downloads).
-// Safe-area aware. Mostly server-rendered; only the menu hydrates.
+// surface — a bottom sheet here (it clears this fixed bar, unlike a dropdown
+// opening upward from its icon). Safe-area aware; only the sheet hydrates.
 export function DetailActionBar({
   app,
   markdown,
@@ -33,7 +33,7 @@ export function DetailActionBar({
           className="flex h-12 min-w-0 flex-1 items-center justify-center gap-2 rounded-full bg-[var(--color-accent)] px-4 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-canvas)] focus-visible:outline-none"
         >
           <span className="truncate">Open {app.name}</span>
-          <ArrowUpRight className="h-3.5 w-3.5 shrink-0" />
+          <ArrowUpRight aria-hidden className="h-3.5 w-3.5 shrink-0" />
         </Link>
       )}
       {secondaries.map((link) => {
@@ -47,12 +47,11 @@ export function DetailActionBar({
             aria-label={LINK_LABEL[link.kind]}
             className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
           >
-            <Icon className="h-4 w-4" />
+            <Icon aria-hidden className="h-4 w-4" />
           </Link>
         );
       })}
-      <ShareMenuLazy
-        variant="bar"
+      <ShareSheetLazy
         name={app.name}
         tagline={app.tagline}
         slug={app.slug}

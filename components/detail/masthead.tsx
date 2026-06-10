@@ -76,7 +76,7 @@ export function Masthead({
             className="inline-flex h-11 max-w-[16rem] items-center justify-center gap-2 rounded-full bg-[var(--color-accent)] px-5 font-mono text-xs tracking-[0.08em] text-[var(--color-canvas)] uppercase transition-colors hover:bg-[var(--color-accent-hot)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-canvas)] focus-visible:outline-none"
           >
             <span className="truncate">Open {app.name}</span>
-            <ArrowUpRight className="h-3.5 w-3.5 shrink-0" />
+            <ArrowUpRight aria-hidden className="h-3.5 w-3.5 shrink-0" />
           </Link>
           {keepers.map((link) => {
             const Icon = LINK_ICON[link.kind];
@@ -89,7 +89,7 @@ export function Masthead({
                 aria-label={LINK_LABEL[link.kind]}
                 className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
               >
-                <Icon className="h-4 w-4" />
+                <Icon aria-hidden className="h-4 w-4" />
               </Link>
             );
           })}

@@ -75,7 +75,7 @@ export function StatScroller({ children }: Readonly<{ children: ReactNode }>) {
             canRight && !reduced && "animate-nudge-x",
           )}
         >
-          <ChevronRight className="h-3.5 w-3.5" />
+          <ChevronRight aria-hidden className="h-3.5 w-3.5" />
         </span>
       </button>
     </div>
