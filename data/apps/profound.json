@@ -1,0 +1,53 @@
+{
+  "slug": "profound",
+  "insight": "Hit a $1B valuation in Feb 2026 after a $96M Lightspeed-led Series C — roughly 18 months from seed to unicorn.",
+  "name": "Profound",
+  "tagline": "Answer engine optimization — see and shape how AI search talks about your brand.",
+  "description": "Profound monitors how brands show up in AI-generated answers across ChatGPT, Perplexity, Gemini, Claude, Copilot, Grok, and Google AI Overviews — tracking citations, share of voice, and sentiment. Its agents then act on the gaps, drafting briefs, articles, and optimization recommendations based on what the models actually cite. Customers include Target, Walmart, Ramp, and MongoDB.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Profound",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Monitors brand visibility across ChatGPT, Perplexity, Gemini, Claude, Copilot, Grok, and Google AI Overviews."
+  },
+  "tags": ["aeo", "geo", "ai-search", "brand-visibility"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tryprofound.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "The enterprise AEO category leader — broadest answer-engine coverage plus agents that act on citation gaps, used by Target, Walmart, and MongoDB.",
+  "pros": [
+    "Tracks 7+ AI answer engines",
+    "Agents draft content to close gaps",
+    "700+ enterprise customers",
+    "Free AEO report to start"
+  ],
+  "cons": [
+    "Enterprise pricing, demo-led sales",
+    "Young category; metrics still maturing",
+    "Overkill for small sites"
+  ],
+  "bestFor": ["Enterprise marketing teams", "Brands losing search traffic", "AEO/GEO programs"],
+  "alternatives": ["writesonic", "surfer-seo", "airops"],
+  "references": [
+    {
+      "title": "As AI threatens search, Profound raises $96 million to help brands stay visible",
+      "url": "https://fortune.com/2026/02/24/exclusive-as-ai-threatens-search-profound-raises-96-million-to-help-brands-stay-visible/",
+      "source": "Fortune",
+      "kind": "analysis"
+    },
+    {
+      "title": "Profound Raises $35M Series B as AI Search Becomes the Next Platform Shift",
+      "url": "https://www.prnewswire.com/news-releases/profound-raises-35m-series-b-as-ai-search-becomes-the-next-platform-shift-302527764.html",
+      "source": "PR Newswire"
+    }
+  ]
+}

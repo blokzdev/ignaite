@@ -1,0 +1,48 @@
+{
+  "slug": "agility-robotics",
+  "insight": "Its 2024 GXO deal was widely reported as the first formal commercial humanoid deployment; a 2025 round valued it near $1.8B.",
+  "name": "Agility Robotics",
+  "tagline": "Maker of Digit, the humanoid robot already doing paid work in warehouses.",
+  "description": "Agility Robotics builds Digit, a bipedal humanoid for warehouse and factory material handling, orchestrated by its Arc cloud platform. Digit works production shifts at GXO — 100,000+ totes moved at a single site — with commercial agreements at Schaeffler, Mercado Libre, and Toyota Motor Manufacturing Canada. Robots are assembled at the company's RoboFab factory in Salem, Oregon.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Agility Robotics",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Onboard autonomy stack, managed and orchestrated by the Arc cloud platform."
+  },
+  "tags": ["humanoid", "warehouse", "logistics", "embodied-ai"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.agilityrobotics.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "While most humanoid rivals run pilots, Digit already does paid production work — over 100,000 totes moved in commercial deployment at GXO.",
+  "pros": [
+    "Real production deployments",
+    "Arc cloud platform for fleet ops",
+    "US-based RoboFab mass production",
+    "Pursuing ISO safety certification"
+  ],
+  "cons": [
+    "Enterprise RaaS only — no direct sales",
+    "Scope limited to logistics tasks today",
+    "Not yet cleared to work beside humans"
+  ],
+  "bestFor": ["Warehouse automation", "3PL logistics", "Manufacturing pilots"],
+  "alternatives": ["figure-ai", "apptronik", "1x", "sanctuary-ai"],
+  "references": [
+    {
+      "title": "Report: Agility Robotics' Business Breakdown & Founding Story",
+      "url": "https://research.contrary.com/company/agility-robotics",
+      "source": "Contrary Research",
+      "kind": "analysis"
+    }
+  ]
+}

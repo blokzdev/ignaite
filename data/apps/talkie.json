@@ -1,0 +1,49 @@
+{
+  "slug": "talkie",
+  "insight": "Built by MiniMax, which listed on the Hong Kong Stock Exchange in January 2026; Talkie saw ~17M downloads in Jan–Aug 2024.",
+  "name": "Talkie",
+  "tagline": "Voice-first AI character chat — millions of companions to talk to or create.",
+  "description": "Talkie is MiniMax's AI companion app: chat by text or voice with user-created characters across anime, fantasy, romance, and utility genres, with a memory system for conversational continuity and a card-collecting community layer. It became one of the most-downloaded AI companion apps in the US, second only to Character.AI.",
+  "category": "companion",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "MiniMax",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["MiniMax"],
+    "notes": "Runs on MiniMax's in-house frontier models."
+  },
+  "tags": ["companion", "characters", "roleplay", "voice"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.talkie-ai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Higher-production voice and character multimedia than most companion rivals, backed by MiniMax's in-house frontier models.",
+  "pros": [
+    "Polished real-time voice chat",
+    "Large user-created character library",
+    "Memory keeps long-running continuity",
+    "Usable free tier"
+  ],
+  "cons": [
+    "Opaque moderation; ban complaints",
+    "Pulled from app stores at times",
+    "China-based vendor; data concerns"
+  ],
+  "bestFor": ["Character roleplay", "Casual companionship", "Interactive fiction fans"],
+  "alternatives": ["character-ai", "replika", "kindroid", "nomi"],
+  "references": [
+    {
+      "title": "MiniMax scores big in US with Talkie chatbot entertainment app",
+      "url": "https://finance.yahoo.com/news/chinese-ai-unicorn-minimax-scores-093000101.html",
+      "source": "Yahoo Finance",
+      "kind": "analysis"
+    }
+  ]
+}
