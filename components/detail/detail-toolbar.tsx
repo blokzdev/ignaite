@@ -41,10 +41,12 @@ function SearchButton() {
 }
 
 // Sticky contextual page-level toolbar, full-bleed and flush under the site
-// header (the shell's top padding equals the nav's rest height). Pinned at
-// `top-[var(--nav-h)]` — globals.css collapses --nav-h to 0 when the
-// auto-hiding nav slides away, so the bar reclaims the top edge with no gap
-// and no scroll listener of its own. Two crossfaded states: at the top it
+// header. Pinned at `min(var(--nav-h), var(--nav-row-h))`: the content-route
+// header's TRUE height is the nav row (3rem) — --nav-h (4/5rem) is the looser
+// scroll-padding offset, and pinning there left a see-through slit whenever
+// the nav was shown. The min() collapses to 0 when the auto-hiding nav slides
+// away (globals.css zeroes --nav-h), so the bar still reclaims the top edge
+// with no scroll listener of its own. Two crossfaded states: at the top it
 // shows the breadcrumb + search + copy; once the hero scrolls past
 // (#hero-sentinel leaves view) it swaps to a compact app identity + key
 // facets (desktop) + Open. Reduced-motion users get the stable breadcrumb
@@ -84,7 +86,7 @@ export function DetailToolbar({
       : breadcrumb;
 
   return (
-    <div className="ease-out-expo sticky top-[var(--nav-h)] z-30 h-[var(--detail-toolbar-h)] border-b border-white/[0.06] bg-[var(--color-canvas)]/85 backdrop-blur-xl transition-colors duration-300">
+    <div className="ease-out-expo sticky top-[min(var(--nav-h),var(--nav-row-h))] z-30 h-[var(--detail-toolbar-h)] border-b border-white/[0.06] bg-[var(--color-canvas)]/85 backdrop-blur-xl transition-colors duration-300">
       <div className="relative mx-auto flex h-full max-w-6xl items-center px-6">
         {/* State A — breadcrumb + search + copy */}
         <div

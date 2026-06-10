@@ -15,12 +15,13 @@ interface Props {
 
 // Apps-only detail scaffold (forked from DetailShell, which stays as-is for the
 // dormant /portfolio route). The toolbar renders full-bleed directly under the
-// fixed site header — the static pt-16/pt-20 equals the nav's REST height (a
-// var(--nav-h) padding would reflow the page every time the auto-hiding nav
-// toggles the variable; the toolbar's sticky offset tracks the var instead).
-// Below it, a max-w-6xl column hosts the two-column reading + sticky-spec
-// layout. The glow is clipped in its own layer so the wrapper does NOT
-// establish an overflow context that would break the toolbar's sticky.
+// fixed site header — the static pt-12 equals the header's TRUE rest height
+// (the 3rem nav row; a var()-based padding would reflow the page every time
+// the auto-hiding nav toggles the variable, so the toolbar's sticky offset
+// tracks the vars instead). Below it, a max-w-6xl column hosts the two-column
+// reading + sticky-spec layout. The glow is clipped in its own layer so the
+// wrapper does NOT establish an overflow context that would break the
+// toolbar's sticky.
 export function AppDetailShell({
   accent = "var(--color-accent)",
   toolbar,
@@ -29,7 +30,7 @@ export function AppDetailShell({
   children,
 }: Readonly<Props>) {
   return (
-    <div className={cn("relative pt-16 pb-28 sm:pt-20 sm:pb-24", dimmed && "opacity-80")}>
+    <div className={cn("relative pt-12 pb-28 sm:pb-24", dimmed && "opacity-80")}>
       <div aria-hidden className="pointer-events-none absolute inset-0 overflow-clip">
         <GlowOrb
           className="-top-24 left-1/2 -translate-x-1/2"
