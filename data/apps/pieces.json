@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 304,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Captures a rolling ~9-month work timeline on-device and air-gapped by default, so memory questions never leave your machine.",
   "pros": [

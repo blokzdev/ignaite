@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 234,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Prices on 'actions' with unlimited agents on every tier, so cost tracks work done rather than per-agent headcount.",
   "pros": [

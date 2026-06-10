@@ -23,6 +23,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 72,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Targets production pipelines with clean topology and PBR materials, where most image-to-3D tools output messy meshes.",
   "pros": [

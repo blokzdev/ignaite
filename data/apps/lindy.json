@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 65,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Agents that wait on an inbox or calendar then act with judgment, rather than Zapier's one-shot triggers.",
   "pros": [

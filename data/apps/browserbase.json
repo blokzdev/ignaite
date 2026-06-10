@@ -34,6 +34,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 134,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Managed stealth-browser fleet (proxies + CAPTCHA solving) drivable by Playwright or its open-source Stagehand framework.",
   "pros": [

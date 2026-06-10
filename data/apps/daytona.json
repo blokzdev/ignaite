@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 202,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Boots an isolated sandbox with its own kernel and filesystem in under 90ms, so agents run untrusted code safely.",
   "pros": [

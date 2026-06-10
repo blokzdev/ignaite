@@ -27,6 +27,7 @@
     }
   ],
   "addedAt": "2026-06-10",
+  "addedSeq": 432,
   "lastVerifiedAt": "2026-06-10",
   "edge": "GLM-5 benchmarks near Claude Opus-class models at roughly 5–8x lower API price, and its weights are MIT-licensed for self-hosting.",
   "pros": [

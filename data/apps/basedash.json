@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 357,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Connects straight to production SQL warehouses and builds full dashboards from plain English — no SQL or table names needed.",
   "pros": [

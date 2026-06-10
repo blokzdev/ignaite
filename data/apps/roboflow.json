@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 33,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Owns the full annotate-train-deploy loop for custom vision models — the choice when an LLM isn't the answer.",
   "pros": [

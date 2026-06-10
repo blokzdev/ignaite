@@ -28,6 +28,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 211,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Models memory as a structured user profile plus timestamped event timeline — tops LOCOMO temporal-reasoning (~85%).",
   "pros": [

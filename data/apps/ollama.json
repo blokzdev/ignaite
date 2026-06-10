@@ -33,6 +33,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 74,
   "lastVerifiedAt": "2026-06-06",
   "edge": "The simplest one-command local LLM runner with a drop-in OpenAI-compatible server and broad model library.",
   "pros": [

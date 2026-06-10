@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 269,
   "lastVerifiedAt": "2026-06-08",
   "edge": "MIT-licensed (true OSI open source, unlike n8n's fair-code) and exposes its 400+ pieces as MCP tools for agents.",
   "pros": [

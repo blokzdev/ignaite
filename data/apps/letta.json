@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 35,
   "lastVerifiedAt": "2026-06-01",
   "edge": "The productized MemGPT successor — agents edit their own memory blocks (memory-as-OS) to manage a finite context window.",
   "pros": [

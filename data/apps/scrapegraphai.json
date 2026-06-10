@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 206,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Swaps CSS selectors for LLM graph pipelines — describe data in plain English; MIT core runs on any provider or Ollama.",
   "pros": [

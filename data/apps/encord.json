@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 245,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Labels DICOM, NIfTI, LiDAR and SAR alongside images/video — built for regulated medical and physical-world AI.",
   "pros": [

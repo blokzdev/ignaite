@@ -28,6 +28,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 87,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Open-sourced by PewDiePie — a private ChatGPT-style workspace wired to local llama.cpp/Ollama/vLLM with MCP built in.",
   "pros": [

@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 255,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Superset of the official MCP registry that scores servers and lets you test any of them in an ephemeral browser sandbox.",
   "pros": [

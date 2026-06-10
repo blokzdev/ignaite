@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 203,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Open-source, Docker-self-hostable browser sandbox unlike most closed agent-browser APIs — run local or in cloud.",
   "pros": [

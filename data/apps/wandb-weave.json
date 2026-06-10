@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 233,
   "lastVerifiedAt": "2026-06-08",
   "edge": "One @weave.op decorator gives both tracing and rigorous LLM-as-judge evals, tied into the W&B experiment platform.",
   "pros": [

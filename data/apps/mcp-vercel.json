@@ -21,6 +21,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 11,
   "lastVerifiedAt": "2026-06-01",
   "status": "archived",
   "edge": "Pulls build and runtime logs into agent context, so the AI diagnoses deploy failures without opening the dashboard.",

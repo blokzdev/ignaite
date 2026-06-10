@@ -29,6 +29,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 172,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Open-source terminal agent whose free tier serves Gemini 2.5 Pro at a 1M-token context — generous limits via a personal Google account.",
   "pros": [

@@ -25,6 +25,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 224,
   "lastVerifiedAt": "2026-06-08",
   "edge": "A computer-vision data engine that now also runs RLHF and RAG for text, one labeling-and-ops stack across modalities.",
   "pros": [

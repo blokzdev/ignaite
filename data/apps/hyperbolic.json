@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 317,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Runs partly as a GPU marketplace renting idle H100/H200s, which is how its open-model inference undercuts centralized clouds.",
   "pros": [

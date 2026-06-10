@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 339,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Open-source and self-hostable LLMOps that unifies prompt management, eval, and tracing in one tool on your own infra.",
   "pros": [

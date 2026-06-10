@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 262,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Pure OpenTelemetry: OpenLLMetry emits standard OTel spans, so traces flow to Datadog/Honeycomb, not a locked-in store.",
   "pros": [

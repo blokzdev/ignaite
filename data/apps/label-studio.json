@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 135,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Open-source UI labels every modality (image, text, audio, video, time-series) with ML backends to pre-annotate.",
   "pros": [

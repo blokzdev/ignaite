@@ -31,6 +31,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 104,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Open-source assistant across VS Code, JetBrains, and CLI that can run fully local via Ollama with your own keys.",
   "pros": [

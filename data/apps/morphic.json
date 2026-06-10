@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-06-08",
+  "addedSeq": 256,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Apache-2.0 answer engine you self-host — provider-agnostic across LLMs and search backends, one-click Vercel deploy.",
   "pros": [

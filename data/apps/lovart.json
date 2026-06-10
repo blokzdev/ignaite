@@ -26,6 +26,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 182,
   "lastVerifiedAt": "2026-06-07",
   "edge": "A conversational design agent that orchestrates many image/video models on one canvas, not a single-shot generator.",
   "pros": [

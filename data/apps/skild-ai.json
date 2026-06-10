@@ -23,6 +23,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 326,
   "lastVerifiedAt": "2026-06-09",
   "edge": "One 'omni-bodied' foundation model meant to control any robot it never trained on, via in-context adaptation in the wild.",
   "pros": [

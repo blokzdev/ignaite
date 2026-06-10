@@ -32,6 +32,7 @@
     }
   ],
   "addedAt": "2026-05-13",
+  "addedSeq": 59,
   "lastVerifiedAt": "2026-06-01",
   "edge": "Fastest path to agent memory — extracts distilled facts with a tiny token footprint and the biggest community.",
   "pros": [

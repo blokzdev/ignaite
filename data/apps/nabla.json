@@ -18,6 +18,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 297,
   "lastVerifiedAt": "2026-06-09",
   "edge": "EHR-agnostic ambient scribe — its Nabla Connect module drops into any EHR, versus Epic-only or single-EHR scribes.",
   "pros": [

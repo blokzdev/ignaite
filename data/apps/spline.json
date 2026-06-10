@@ -23,6 +23,7 @@
     }
   ],
   "addedAt": "2026-06-06",
+  "addedSeq": 81,
   "lastVerifiedAt": "2026-06-06",
   "edge": "A real collaborative 3D editor for interactive web scenes first, with AI generation bolted on as an accelerator — not a prompt-only toy.",
   "pros": [

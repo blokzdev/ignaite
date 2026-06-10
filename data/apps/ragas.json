@@ -30,6 +30,7 @@
     }
   ],
   "addedAt": "2026-06-07",
+  "addedSeq": 195,
   "lastVerifiedAt": "2026-06-07",
   "edge": "Popularized reference-free RAG metrics — faithfulness, context precision — scored by an LLM judge, so you evaluate without gold answers.",
   "pros": [

@@ -18,6 +18,7 @@
     }
   ],
   "addedAt": "2026-06-09",
+  "addedSeq": 364,
   "lastVerifiedAt": "2026-06-09",
   "edge": "Constrains agents to non-diagnostic tasks and supervises a talker model with 20+ safety models validated by clinicians.",
   "pros": [
