@@ -1,0 +1,44 @@
+{
+  "slug": "fiscal-ai",
+  "insight": "Began in 2023 as FinChat, an offshoot of Stratosphere.io; rebranded to Fiscal.ai in 2025 with a $10M Series A led by Social Leverage.",
+  "name": "Fiscal.ai",
+  "tagline": "AI-powered stock research terminal with institutional-grade financial data.",
+  "description": "Fiscal.ai is an investment research platform that pairs institutional-grade financial data on 100,000+ global public companies with a conversational AI copilot that answers questions with sourced figures and charts. Beyond standard financials it tracks segment data and company-specific KPIs — subscriber counts, same-store sales, revenue per user — and assembles them into custom dashboards. A developer API exposes the same data for programmatic use.",
+  "category": "finance",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Fiscal.ai",
+  "platforms": ["web", "api"],
+  "tags": ["stock-research", "financial-data", "equity-research", "copilot", "dashboards"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fiscal.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Tracks 2,250+ company-specific KPIs — subscriber counts, same-store sales — that generic stock screeners and most terminals don't carry.",
+  "pros": [
+    "100,000+ global companies covered",
+    "Segment and KPI-level data",
+    "AI answers cite source filings",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Web-only, no mobile apps",
+    "Light on technicals/derivatives",
+    "Full history requires paid tiers"
+  ],
+  "bestFor": ["Fundamental investors", "Equity research", "KPI-driven dashboards"],
+  "alternatives": ["alphasense", "rogo", "hebbia"],
+  "references": [
+    {
+      "title": "I Tried It: Fiscal.ai Review (Formerly FinChat IO)",
+      "url": "https://www.wallstreetzen.com/blog/finchat-io-fiscal-ai-review/",
+      "source": "WallStreetZen",
+      "kind": "review"
+    }
+  ]
+}

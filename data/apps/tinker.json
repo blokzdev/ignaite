@@ -1,0 +1,60 @@
+{
+  "slug": "tinker",
+  "insight": "The debut product of Thinking Machines Lab, the startup founded by ex-OpenAI CTO Mira Murati; launched October 2025.",
+  "name": "Tinker",
+  "tagline": "Managed fine-tuning API with low-level control over the training loop.",
+  "description": "Tinker is Thinking Machines Lab's training API for fine-tuning open-weight LLMs. It exposes low-level primitives — forward_backward, optim_step, sample — so researchers keep full control of data and algorithms while the service handles distributed GPU scheduling and failure recovery. LoRA-based runs cover models from small Llamas up to large mixture-of-experts like Qwen-235B and Kimi K2, and trained weights can be downloaded.",
+  "category": "fine-tuning",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Thinking Machines Lab",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Qwen", "Llama", "DeepSeek", "Kimi K2", "GPT-OSS"],
+    "notes": "Fine-tunes open-weight families via LoRA adapters; trained weights are downloadable."
+  },
+  "tags": ["fine-tuning", "lora", "post-training", "research", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thinkingmachines.ai/tinker/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://tinker-docs.thinkingmachines.ai"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/thinking-machines-lab/tinker-cookbook",
+      "label": "Tinker Cookbook"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Hands you the training loop itself — forward_backward and sample primitives — rather than a one-click fine-tune form, with distributed GPUs managed for you.",
+  "pros": [
+    "Low-level training primitives",
+    "Large MoE models supported",
+    "Downloadable trained weights",
+    "No GPU infra to manage"
+  ],
+  "cons": ["LoRA-based only (no full fine-tune)", "Usage-based, no free tier", "Python SDK only"],
+  "bestFor": ["Post-training research", "RL experimentation", "Academic labs"],
+  "alternatives": ["openpipe", "predibase", "unsloth", "axolotl"],
+  "references": [
+    {
+      "title": "Tinker API Makes It Easier to Fine-Tune Models on Many GPUs",
+      "url": "https://www.deeplearning.ai/the-batch/thinking-machines-new-tinker-api-makes-it-easier-to-fine-tune-models-on-many-gpus",
+      "source": "The Batch (DeepLearning.AI)",
+      "kind": "analysis"
+    },
+    {
+      "title": "Tinker Tutorial: Fine-Tuning LLMs With Thinking Machines Lab",
+      "url": "https://www.datacamp.com/tutorial/tinker-tutorial",
+      "source": "DataCamp",
+      "kind": "guide"
+    }
+  ]
+}

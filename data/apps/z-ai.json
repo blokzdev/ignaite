@@ -1,0 +1,53 @@
+{
+  "slug": "z-ai",
+  "insight": "Maker Zhipu's January 2026 Hong Kong IPO ($558M at a $7.1B valuation) made it the world's first publicly traded foundation-model company.",
+  "name": "Z.ai",
+  "tagline": "Zhipu's GLM assistant — frontier open-weight chat, free to use.",
+  "description": "Z.ai is the international assistant of Zhipu AI, built on the GLM model family. The free chat runs the flagship GLM-5 and GLM-5.1 models with reasoning and agentic modes, and the same models are served to developers over a low-cost, OpenAI-compatible API. GLM-5's open weights ship under the MIT license.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Z.ai (Zhipu AI)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GLM-5", "GLM-5.1"],
+    "notes": "Zhipu's GLM family; GLM-5 weights are MIT-licensed."
+  },
+  "tags": ["chat", "assistant", "open-weights", "reasoning", "china"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://chat.z.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.z.ai"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "GLM-5 benchmarks near Claude Opus-class models at roughly 5–8x lower API price, and its weights are MIT-licensed for self-hosting.",
+  "pros": [
+    "Free GLM-5 chat",
+    "MIT-licensed open weights",
+    "Very cheap API",
+    "Trained without NVIDIA hardware"
+  ],
+  "cons": [
+    "China-hosted data concerns",
+    "Younger international ecosystem",
+    "English UX less polished than rivals"
+  ],
+  "bestFor": ["Free frontier chat", "Open-weight self-hosting", "Cost-sensitive API use"],
+  "alternatives": ["deepseek", "kimi", "chatgpt"],
+  "references": [
+    {
+      "title": "GLM-5: China's First Public AI Company Ships a Frontier Model",
+      "url": "https://huggingface.co/blog/mlabonne/glm-5",
+      "source": "Hugging Face (mlabonne)",
+      "kind": "analysis"
+    }
+  ]
+}
