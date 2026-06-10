@@ -7,7 +7,7 @@
   "category": "orchestration",
   "pricing": "free",
   "openSource": true,
-  "featured": true,
+  "featured": false,
   "vendor": "LangChain",
   "platforms": ["api", "cli"],
   "modelSupport": {
@@ -46,5 +46,12 @@
     "Frequent breaking API churn"
   ],
   "bestFor": ["Complex multi-step chains", "Prototyping LLM apps", "Teams new to LLMs"],
-  "alternatives": ["llamaindex", "langgraph", "crewai", "vercel-ai-sdk"]
+  "alternatives": ["llamaindex", "langgraph", "crewai", "vercel-ai-sdk"],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
+    }
+  ]
 }

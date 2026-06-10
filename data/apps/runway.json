@@ -7,7 +7,7 @@
   "category": "video",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Runway",
   "platforms": ["web"],
   "modelSupport": {
@@ -49,6 +49,13 @@
       "url": "https://skywork.ai/blog/veo-3-1-vs-runway-vs-pika-vs-luma-2025-comparison/",
       "source": "Skywork",
       "kind": "comparison"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
     }
   ]
 }

@@ -52,5 +52,15 @@
       "source": "sanj.dev",
       "kind": "comparison"
     }
+  ],
+  "featured": true,
+  "featuredAt": "2026-06-10",
+  "accentColor": "#4C4A73",
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Featured this cycle (rotation)"
+    }
   ]
 }

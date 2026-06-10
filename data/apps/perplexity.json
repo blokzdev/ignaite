@@ -7,7 +7,7 @@
   "category": "search",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Perplexity AI",
   "platforms": ["web", "ios", "android", "macos", "windows", "api"],
   "modelSupport": {
@@ -54,6 +54,13 @@
       "url": "https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php",
       "source": "Columbia Journalism Review",
       "kind": "analysis"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
     }
   ]
 }

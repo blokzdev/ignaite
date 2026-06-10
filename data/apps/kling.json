@@ -15,7 +15,7 @@
     "notes": "Kuaishou's Kling video models."
   },
   "accentColor": "#14B8C4",
-  "featured": true,
+  "featured": false,
   "tags": ["video-gen", "image-to-video", "motion", "multishot"],
   "links": [
     {
@@ -46,6 +46,13 @@
       "url": "https://www.bloomberg.com/news/articles/2026-04-01/kling-ai-runway-vidu-the-ai-video-generators-set-to-replace-openai-s-sora",
       "source": "Bloomberg",
       "kind": "analysis"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
     }
   ]
 }

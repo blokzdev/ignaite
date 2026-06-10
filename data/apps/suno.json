@@ -7,7 +7,7 @@
   "category": "music",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Suno",
   "platforms": ["web", "ios", "android"],
   "modelSupport": {
@@ -38,6 +38,11 @@
       "date": "2026-06-09",
       "kind": "fixed",
       "summary": "Recategorized from audio to the new dedicated music-generation category."
+    },
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
     }
   ],
   "edge": "Defined prompt-to-song and leads on vocal quality plus song structure, with native iOS/Android apps rivals lack.",
