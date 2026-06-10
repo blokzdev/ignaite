@@ -1,0 +1,55 @@
+{
+  "slug": "zenity",
+  "insight": "Raised a $38M Series B in 2024, co-led by Third Point Ventures and DTCP with Microsoft's M12, to secure agentic AI and low-code apps.",
+  "name": "Zenity",
+  "tagline": "Security and governance for AI agents and copilots.",
+  "description": "Zenity is a security platform for AI agents, copilots, and low-code/no-code apps built across enterprise platforms. It discovers agents in use, applies governance and security guardrails, and continuously monitors for risks and threats — giving security teams observability and runtime protection over autonomous and business-built applications.",
+  "category": "security",
+  "pricing": "paid",
+  "vendor": "Zenity",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Secures agents and copilots regardless of the underlying model or platform."
+  },
+  "accentColor": "#4F46E5",
+  "tags": ["agent-security", "governance", "copilots", "low-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://zenity.io/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Secures AI agents and copilots across enterprise and low-code platforms — discovery, governance, and runtime threat protection from one console.",
+  "pros": [
+    "Agent/copilot-specific security posture",
+    "Covers low-code and no-code apps",
+    "Backed by Microsoft's M12",
+    "Discovery + runtime protection"
+  ],
+  "cons": [
+    "Enterprise-only, no public pricing",
+    "Demo-gated onboarding",
+    "Newer, fast-evolving category"
+  ],
+  "bestFor": ["Enterprise security teams", "Agent/copilot governance", "Low-code app security"],
+  "alternatives": ["lakera", "prompt-security", "lasso-security", "protect-ai"],
+  "references": [
+    {
+      "title": "Zenity Raises $38 Million to Secure Agentic AI",
+      "url": "https://www.securityweek.com/zenity-raises-38-million-to-secure-agentic-ai/",
+      "source": "SecurityWeek",
+      "kind": "analysis"
+    },
+    {
+      "title": "Zenity raises $38 million to secure agentic AI",
+      "url": "https://www.helpnetsecurity.com/2024/10/29/zenity-funding-38-million/",
+      "source": "Help Net Security",
+      "kind": "analysis"
+    }
+  ]
+}

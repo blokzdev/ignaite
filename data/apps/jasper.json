@@ -1,0 +1,45 @@
+{
+  "slug": "jasper",
+  "insight": "Launched as Conversion.ai, then Jarvis, before renaming to Jasper in 2022 amid Disney/Marvel trademark concerns over the 'Jarvis' name.",
+  "name": "Jasper",
+  "tagline": "AI content platform for marketing teams and brand-consistent campaigns.",
+  "description": "Jasper is an AI content-generation platform aimed at marketing teams, with a Brand Voice system, campaign workflows, and a library of templates for blogs, ads, and social copy. It layers on top of multiple underlying LLMs and offers a browser extension and API so marketers can generate on-brand content across their existing tools.",
+  "category": "marketing",
+  "pricing": "paid",
+  "vendor": "Jasper",
+  "deployment": "cloud",
+  "platforms": ["web", "browser-extension", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Routes across multiple underlying LLMs rather than a single fixed model."
+  },
+  "accentColor": "#7C3AED",
+  "tags": ["copywriting", "brand-voice", "content-marketing", "campaigns"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.jasper.ai/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.jasper.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Built around enforced Brand Voice and team marketing-campaign workflows rather than one-off copy, with templates, integrations, and a browser extension.",
+  "pros": [
+    "Strong brand-voice consistency",
+    "Marketing-team campaign workflows",
+    "Many templates + integrations",
+    "Browser extension reaches other tools"
+  ],
+  "cons": [
+    "No permanent free tier",
+    "Pricier than basic AI writers",
+    "Output still needs editing/fact-checking"
+  ],
+  "bestFor": ["Marketing teams", "On-brand content at scale", "Agencies"],
+  "alternatives": ["copy-ai", "writer", "rytr", "adcreative-ai"]
+}

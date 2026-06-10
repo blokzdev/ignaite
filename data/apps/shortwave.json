@@ -1,0 +1,58 @@
+{
+  "slug": "shortwave",
+  "insight": "Built by Firebase co-founder Andrew Lee and ex-Google Inbox/Firebase engineers as a 'spiritual successor' to Google's shut-down Inbox app.",
+  "name": "Shortwave",
+  "tagline": "AI email client built on top of Gmail.",
+  "description": "Shortwave is an AI-powered email client layered over Gmail, offering natural-language search across your inbox, AI thread summaries, and a Ghostwriter that drafts replies in your own voice. It revives Google Inbox-style features like bundling and a split inbox, with web, desktop, and mobile apps.",
+  "category": "productivity",
+  "pricing": "paid",
+  "vendor": "Shortwave",
+  "deployment": "cloud",
+  "platforms": ["web", "macos", "windows", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI search and assistant powered by LLMs; model choice available on higher tiers."
+  },
+  "accentColor": "#F97316",
+  "tags": ["email", "gmail", "inbox", "ai-assistant"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.shortwave.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.shortwave.com/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "An AI layer over Gmail — natural-language email search, thread summaries, and a voice-matching Ghostwriter, reviving Google Inbox-style bundling.",
+  "pros": [
+    "Natural-language AI email search",
+    "AI summaries + Ghostwriter drafting",
+    "Inbox bundling / split inbox",
+    "Fast keyboard-driven UI"
+  ],
+  "cons": [
+    "Gmail / Google Workspace only",
+    "No Outlook or Microsoft 365",
+    "No permanent free plan"
+  ],
+  "bestFor": ["Gmail power users", "Inbox-zero workflows", "Email-heavy professionals"],
+  "references": [
+    {
+      "title": "Shortwave gets $9M to bring back Google Inbox",
+      "url": "https://techcrunch.com/2022/02/15/shortwave-gets-9m-to-bring-back-google-inbox/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "How Shortwave Wants To Reinvent Email With AI",
+      "url": "https://thenewstack.io/how-shortwave-wants-to-reinvent-email-with-ai/",
+      "source": "The New Stack",
+      "kind": "review"
+    }
+  ]
+}

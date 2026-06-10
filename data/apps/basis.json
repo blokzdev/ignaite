@@ -1,0 +1,47 @@
+{
+  "slug": "basis",
+  "insight": "Hit a $1.15B valuation in Feb 2026 on a $100M Series B led by Accel; its agents are used by ~30% of the top 25 US accounting firms.",
+  "name": "Basis",
+  "tagline": "Autonomous AI agents built for accounting firms.",
+  "description": "Basis builds AI agents purpose-built for accountants that execute complex accounting workflows end-to-end and return finished output ready for review. It integrates with existing ledgers and systems to handle tax, audit, advisory, and client-accounting tasks, adapting to each firm's processes rather than relying on rigid rules.",
+  "category": "finance",
+  "pricing": "paid",
+  "vendor": "Basis",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "accentColor": "#2563EB",
+  "tags": ["accounting", "agents", "tax", "audit"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.getbasis.ai/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Autonomous agents purpose-built for accounting firms that run multi-step tax, audit, and advisory workflows end-to-end — beyond chat or single tasks.",
+  "pros": [
+    "Agents built for accounting firms",
+    "End-to-end workflow execution",
+    "Adopted by top-25 firms",
+    "Covers tax, audit, advisory"
+  ],
+  "cons": ["No public pricing", "Firm/enterprise focus", "Agent output still needs review"],
+  "bestFor": ["Accounting firms", "Tax & audit teams", "Client accounting services"],
+  "alternatives": ["numeric", "digits", "puzzle"],
+  "references": [
+    {
+      "title": "AI-for-Accounting Startup Basis Hits $1.15 Billion Valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/ai-for-accounting-startup-basis-hits-1-15-billion-valuation",
+      "source": "Bloomberg",
+      "kind": "analysis"
+    },
+    {
+      "title": "AI accounting startup Basis secures $100M at $1.15B valuation",
+      "url": "https://siliconangle.com/2026/02/24/ai-accounting-startup-basis-secures-100m-1-15b-valuation-firms-adopt-agent-based-workflows/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
