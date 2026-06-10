@@ -89,29 +89,3 @@ const subscribeNever = () => () => {};
 export function useSavedDirectoryQuery(): string {
   return useSyncExternalStore(subscribeNever, readSavedQuery, () => "");
 }
-
-// Per-tab count of in-app navigations — once > 0 there's an in-app entry behind
-// the current page, so router.back() won't exit the site. Bumped by <RouteMemory>.
-const NAV_COUNT_KEY = "ignaite:nav-count";
-
-export function bumpNavCount(): void {
-  try {
-    const n = Number(sessionStorage.getItem(NAV_COUNT_KEY) ?? "0");
-    sessionStorage.setItem(NAV_COUNT_KEY, String(n + 1));
-  } catch {
-    // ignore
-  }
-}
-
-function readInApp(): boolean {
-  try {
-    return Number(sessionStorage.getItem(NAV_COUNT_KEY) ?? "0") > 0;
-  } catch {
-    return false;
-  }
-}
-
-/** True once the visitor has navigated within the app this tab (back() is safe). */
-export function useInAppNav(): boolean {
-  return useSyncExternalStore(subscribeNever, readInApp, () => false);
-}
