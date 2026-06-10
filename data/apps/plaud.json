@@ -1,0 +1,44 @@
+{
+  "slug": "plaud",
+  "insight": "Sold 1.5M+ recorders since 2023 and reached a reported $250M annualized revenue while profitable, on roughly $5M of outside funding.",
+  "name": "Plaud",
+  "tagline": "AI voice-recorder hardware + app that turns conversations into summaries and action items.",
+  "description": "A line of AI voice recorders — the card-sized Note, wearable NotePin and room-scale Note Pro — paired with apps that transcribe in 112 languages, generate structured summaries and action items, and answer follow-up questions about what was said. A desktop notetaker app extends the same pipeline to online meetings. ISO 27001, SOC 2, GDPR and HIPAA certified.",
+  "category": "meeting",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Plaud.ai",
+  "platforms": ["ios", "android", "web", "macos", "windows"],
+  "tags": ["voice-recorder", "transcription", "wearable", "meetings"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.plaud.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Dedicated capture hardware goes where laptop notetakers can't — in-person rooms, calls and hallway chats — with 112-language transcription behind it.",
+  "pros": [
+    "Captures in-person, not just online calls",
+    "Transcribes 112 languages",
+    "Wearable, card and desktop form factors",
+    "ISO 27001, SOC 2, HIPAA certified"
+  ],
+  "cons": [
+    "Requires buying a device ($159–189)",
+    "Heavier use needs subscription tiers",
+    "Recordings are processed in the cloud"
+  ],
+  "bestFor": ["In-person meetings", "Field interviews", "Always-on capture"],
+  "alternatives": ["granola", "otter-ai", "fireflies", "circleback"],
+  "references": [
+    {
+      "title": "Plaud launches a new AI pin and a desktop meeting notetaker",
+      "url": "https://techcrunch.com/2026/01/04/plaud-launches-a-new-ai-pin-and-a-desktop-meeting-notetaker/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

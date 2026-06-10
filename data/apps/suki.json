@@ -1,0 +1,44 @@
+{
+  "slug": "suki",
+  "insight": "Founded by ex-Google PM and former Flipkart CPO Punit Soni; its $70M 2024 Series D brought total funding to $165M.",
+  "name": "Suki",
+  "tagline": "Ambient AI assistant for clinicians — notes, dictation, coding and orders from the visit.",
+  "description": "An AI assistant for clinicians that listens to the patient conversation and generates complete clinical notes, then goes further than a scribe: it takes dictation, suggests medical codes, answers questions and stages orders. Integrates in real time with Epic, Oracle Health, athenahealth and MEDITECH, and is used across 400+ health systems and 100+ specialties.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Suki AI",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["clinical-documentation", "ambient-scribe", "healthcare", "voice"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.suki.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Pairs ambient notes with dictation, coding and clinical Q&A in one assistant, with deep two-way EHR integration across Epic, Oracle Health and more.",
+  "pros": [
+    "Deep two-way EHR integrations",
+    "Used by 400+ health systems",
+    "Covers 100+ medical specialties",
+    "Dictation and coding beyond notes"
+  ],
+  "cons": [
+    "Enterprise sales, no self-serve pricing",
+    "US-healthcare focused",
+    "Value depends on EHR rollout"
+  ],
+  "bestFor": ["Health systems", "Ambulatory clinicians"],
+  "alternatives": ["abridge", "ambience-healthcare", "nabla", "heidi-health"],
+  "references": [
+    {
+      "title": "Suki raises $70M to expand healthcare AI scribe",
+      "url": "https://www.healthcaredive.com/news/suki-70-million-Series-D-funding/729573/",
+      "source": "Healthcare Dive",
+      "kind": "analysis"
+    }
+  ]
+}
