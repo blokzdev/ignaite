@@ -40,21 +40,22 @@ function readSavedQuery(): string {
 const STATUS_LABEL: Record<string, string> = { archived: "Archived", all: "All results" };
 
 export interface DirectoryReturn {
-  /** "search" renders an inline magnifier + the term; "text" is a plain label. */
-  kind: "search" | "text";
+  /** Drives the leading type-glyph: search=magnifier, category=grid, filter=sliders, directory=home. */
+  kind: "search" | "category" | "filter" | "directory";
+  /** The segment text ("" for directory — that state is icon-only). */
   label: string;
   href: string;
 }
 
-// Turn the saved query into the back control's label + href. Most-salient first:
-// a search term, then a single facet's specific value, then a generic "Results",
-// then the bare "Directory".
+// Turn the saved query into the back control's type + label + href. Priority: a
+// search term, then a PURE single category (its own glyph), then any filter set
+// (one filter glyph + the active values joined), then the bare directory.
 export function describeDirectoryReturn(search: string): DirectoryReturn {
   const href = search ? `/${search}` : "/";
   const p = new URLSearchParams(search.startsWith("?") ? search.slice(1) : search);
 
   const q = p.get("q")?.trim();
-  if (q) return { kind: "search", label: q.length > 18 ? `${q.slice(0, 18)}…` : q, href };
+  if (q) return { kind: "search", label: q.length > 40 ? `${q.slice(0, 40)}…` : q, href };
 
   const list = (key: string) => p.get(key)?.split(",").filter(Boolean) ?? [];
   const cats = list("category");
@@ -65,29 +66,20 @@ export function describeDirectoryReturn(search: string): DirectoryReturn {
   const status = p.get("status");
   const statusActive = status && status !== "active" ? status : null;
 
-  const groups = [cats, pricing, deployment, platform];
-  const total =
-    groups.reduce((n, a) => n + a.length, 0) + (license ? 1 : 0) + (statusActive ? 1 : 0);
+  // All active facet values, in a stable, readable order.
+  const labels = [
+    ...cats.map((c) => CATEGORY_LABEL[c as AppCategory]),
+    ...pricing.map((v) => PRICING_LABEL[v as AppPricing]),
+    ...(license ? [LICENSE_LABEL[license as LicenseSignal]] : []),
+    ...deployment.map((v) => DEPLOYMENT_LABEL[v as AppDeployment]),
+    ...platform.map((v) => PLATFORM_LABEL[v as AppPlatform]),
+    ...(statusActive ? [STATUS_LABEL[statusActive] ?? statusActive] : []),
+  ].filter(Boolean) as string[];
 
-  if (total === 0) return { kind: "text", label: "Directory", href: "/" };
-  if (total === 1) {
-    if (cats.length === 1)
-      return { kind: "text", label: CATEGORY_LABEL[cats[0] as AppCategory] ?? "Results", href };
-    if (pricing.length === 1)
-      return { kind: "text", label: PRICING_LABEL[pricing[0] as AppPricing] ?? "Results", href };
-    if (deployment.length === 1)
-      return {
-        kind: "text",
-        label: DEPLOYMENT_LABEL[deployment[0] as AppDeployment] ?? "Results",
-        href,
-      };
-    if (platform.length === 1)
-      return { kind: "text", label: PLATFORM_LABEL[platform[0] as AppPlatform] ?? "Results", href };
-    if (license)
-      return { kind: "text", label: LICENSE_LABEL[license as LicenseSignal] ?? "Results", href };
-    if (statusActive) return { kind: "text", label: STATUS_LABEL[statusActive] ?? "Results", href };
-  }
-  return { kind: "text", label: "Results", href };
+  if (labels.length === 0) return { kind: "directory", label: "", href: "/" };
+  // A pure single category gets its own grid glyph; anything else is a filter set.
+  if (labels.length === 1 && cats.length === 1) return { kind: "category", label: labels[0], href };
+  return { kind: "filter", label: labels.join(" + "), href };
 }
 
 // ── hydration-safe stores (server snapshot first, client value after mount) ──
