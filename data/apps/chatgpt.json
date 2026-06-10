@@ -15,7 +15,7 @@
     "notes": "OpenAI's own GPT models."
   },
   "accentColor": "#10A37F",
-  "featured": true,
+  "featured": false,
   "tags": ["chat", "assistant", "multimodal", "voice"],
   "links": [
     {
@@ -43,5 +43,12 @@
     "Usage limits on advanced models"
   ],
   "bestFor": ["General assistant use", "Broadest ecosystem"],
-  "alternatives": ["claude", "gemini", "grok", "perplexity"]
+  "alternatives": ["claude", "gemini", "grok", "perplexity"],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
+    }
+  ]
 }

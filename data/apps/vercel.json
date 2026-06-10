@@ -13,7 +13,7 @@
     "kind": "model-agnostic"
   },
   "accentColor": "#E8F1F8",
-  "featured": true,
+  "featured": false,
   "tags": ["hosting", "edge", "nextjs", "ci"],
   "links": [
     {
@@ -45,5 +45,12 @@
     "Some lock-in to platform primitives"
   ],
   "bestFor": ["Frontend + Next.js apps", "Preview deploys", "AI app hosting"],
-  "alternatives": ["cloudflare", "modal", "replit"]
+  "alternatives": ["cloudflare", "modal", "replit"],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
+    }
+  ]
 }

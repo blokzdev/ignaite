@@ -7,7 +7,7 @@
   "category": "image-gen",
   "pricing": "paid",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Midjourney",
   "platforms": ["web"],
   "modelSupport": {
@@ -43,5 +43,12 @@
     "Subscription-only, no real free tier"
   ],
   "bestFor": ["Concept art and key art", "Editorial illustration", "Cinematic mood boards"],
-  "alternatives": ["flux", "ideogram", "leonardo-ai", "recraft"]
+  "alternatives": ["flux", "ideogram", "leonardo-ai", "recraft"],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
+    }
+  ]
 }

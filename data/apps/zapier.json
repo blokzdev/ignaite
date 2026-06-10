@@ -7,7 +7,7 @@
   "category": "automation",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Zapier",
   "platforms": ["web", "api"],
   "modelSupport": {
@@ -47,5 +47,12 @@
     "AI features feel bolted-on"
   ],
   "bestFor": ["Non-technical users", "Simple SaaS glue", "Broad integration needs"],
-  "alternatives": ["make", "n8n", "activepieces", "pipedream"]
+  "alternatives": ["make", "n8n", "activepieces", "pipedream"],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
+    }
+  ]
 }

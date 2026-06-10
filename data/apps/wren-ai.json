@@ -71,5 +71,15 @@
       "source": "Keneth Mauricio Perez (Medium)",
       "kind": "guide"
     }
+  ],
+  "featured": true,
+  "featuredAt": "2026-06-10",
+  "accentColor": "#16A34A",
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Featured this cycle (rotation)"
+    }
   ]
 }

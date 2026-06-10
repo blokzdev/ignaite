@@ -15,7 +15,7 @@
     "notes": "Anthropic-only; runs against your API key or a Claude Pro/Max plan."
   },
   "accentColor": "#08D9D6",
-  "featured": true,
+  "featured": false,
   "tags": ["agentic", "cli", "ide", "mcp", "subagents"],
   "links": [
     {
@@ -47,5 +47,12 @@
     "Terminal-first learning curve"
   ],
   "bestFor": ["Agentic coding", "Terminal-native devs", "PR automation"],
-  "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"]
+  "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"],
+  "changelog": [
+    {
+      "date": "2026-06-10",
+      "kind": "updated",
+      "summary": "Rotated out of Featured"
+    }
+  ]
 }
