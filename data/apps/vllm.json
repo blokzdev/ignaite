@@ -59,12 +59,5 @@
   ],
   "featured": true,
   "featuredAt": "2026-06-10",
-  "accentColor": "#00B8D4",
-  "changelog": [
-    {
-      "date": "2026-06-10",
-      "kind": "updated",
-      "summary": "Featured this cycle (rotation)"
-    }
-  ]
+  "accentColor": "#00B8D4"
 }
