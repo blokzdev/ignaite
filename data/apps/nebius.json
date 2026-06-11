@@ -1,0 +1,56 @@
+{
+  "slug": "nebius",
+  "insight": "Formed in 2024 from Yandex N.V.'s non-Russian assets after Yandex's Russia exit; resumed Nasdaq trading as NBIS that October.",
+  "name": "Nebius",
+  "tagline": "Full-stack AI cloud for training and inference at scale.",
+  "description": "AI-native cloud built around large NVIDIA GPU clusters — bare-metal and virtualized H100 through Blackwell hardware with InfiniBand networking, managed Slurm and Kubernetes, high-speed storage, and MLOps tooling. Its Token Factory layer adds managed per-token inference for open-weight models. Microsoft signed a five-year capacity deal with Nebius worth up to $19.4B.",
+  "category": "inference",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Nebius Group",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Raw GPU infrastructure runs anything you bring; Token Factory serves open-weight models per token."
+  },
+  "tags": ["gpu-cloud", "training", "inference", "ai-hyperscaler"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://nebius.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.nebius.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://nebius.com/prices"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 460,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Covers the full AI stack — bare-metal GPU clusters, managed Slurm/Kubernetes, and per-token Token Factory inference — where many GPU clouds stop at compute.",
+  "pros": [
+    "Latest NVIDIA silicon, H100 through Blackwell",
+    "Managed Slurm and Kubernetes built in",
+    "Token Factory per-token inference layer",
+    "Nasdaq-listed, with Microsoft and Meta deals"
+  ],
+  "cons": [
+    "AI-only cloud — few general-purpose services",
+    "Younger ecosystem than the big general clouds"
+  ],
+  "bestFor": ["Large-scale model training", "Open-model inference at scale"],
+  "alternatives": ["coreweave", "lambda", "crusoe", "runpod"],
+  "references": [
+    {
+      "title": "Why Microsoft's AI infrastructure deal with Nebius is savvy",
+      "url": "https://www.constellationr.com/insights/news/why-microsofts-ai-infrastructure-deal-nebius-savvy",
+      "source": "Constellation Research",
+      "kind": "analysis"
+    }
+  ]
+}

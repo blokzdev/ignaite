@@ -1,0 +1,63 @@
+{
+  "slug": "deepnote",
+  "insight": "YC S19 alum; open-sourced its notebook under Apache 2.0 in 2025, pitching itself as the 'successor to Jupyter.'",
+  "name": "Deepnote",
+  "tagline": "AI-native collaborative notebook for data teams.",
+  "description": "Collaborative data notebook positioned as a drop-in Jupyter replacement: real-time multiplayer editing, SQL + Python + R blocks, warehouse integrations (Snowflake, BigQuery, Redshift), and notebooks that deploy as data apps and dashboards. Deepnote AI generates, fixes, and explains code, and an agent can run analyses autonomously.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "Deepnote",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Deepnote AI generates SQL/Python in-notebook; Enterprise plans can bring their own LLM."
+  },
+  "tags": ["notebook", "data-science", "sql", "collaboration", "analytics"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://deepnote.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/deepnote/deepnote"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://deepnote.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 462,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "A drop-in Jupyter replacement that adds real-time collaboration, native SQL blocks, and one-click data apps — now open source under Apache 2.0.",
+  "pros": [
+    "Real-time collaborative editing",
+    "Native SQL blocks + warehouse connectors",
+    "AI code generation and an autonomous agent",
+    "Open-source core (Apache 2.0)"
+  ],
+  "cons": [
+    "Free plan caps editors, projects, and AI use",
+    "Premium connectors gated to paid plans"
+  ],
+  "bestFor": ["Collaborative data teams", "SQL + Python analysis", "Teaching and coursework"],
+  "alternatives": ["hex", "julius", "quadratic", "powerdrill"],
+  "references": [
+    {
+      "title": "Deepnote, a 'Successor to Jupyter Notebook,' Goes Open Source",
+      "url": "https://thenewstack.io/deepnote-a-successor-to-jupyter-notebook-goes-open-source/",
+      "source": "The New Stack",
+      "kind": "analysis"
+    },
+    {
+      "title": "Deepnote raises $20M for its collaborative data science notebooks",
+      "url": "https://techcrunch.com/2022/01/31/deepnote-raises-20m-for-its-collaborative-data-science-notebooks/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
