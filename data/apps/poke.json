@@ -1,0 +1,42 @@
+{
+  "slug": "poke",
+  "insight": "Apple approved Poke as the first AI agent on its Messages for Business platform in June 2026.",
+  "name": "Poke",
+  "tagline": "An AI assistant that lives inside your messaging apps.",
+  "description": "Poke is a personal AI assistant from Interaction that works through the chat apps you already use — Apple Messages, WhatsApp, Telegram, and RCS — rather than its own app. It connects to email, calendar, and 30+ services to draft replies, manage your inbox, schedule, track health, and run proactive automations called \"recipes.\" Most non-real-time use is free; for heavier use you negotiate a monthly price with its AI before subscribing.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Interaction",
+  "platforms": ["ios", "android", "web"],
+  "tags": ["personal-assistant", "messaging", "automation", "imessage"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://poke.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://poke.com/docs"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 466,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Runs inside iMessage, WhatsApp, and Telegram — no new app to install — and you negotiate your monthly price with its AI.",
+  "pros": [
+    "No new app — works in your messengers",
+    "Proactive automations (\"recipes\")",
+    "Connects email, calendar, 30+ apps",
+    "Free for most non-real-time use"
+  ],
+  "cons": [
+    "Unusual negotiated pricing",
+    "Real-time automations cost more",
+    "Underlying models undisclosed",
+    "Consumer focus, not enterprise"
+  ],
+  "bestFor": ["Texting-first users", "Personal automation", "Inbox and calendar triage"],
+  "alternatives": ["lindy", "manus", "dia"]
+}

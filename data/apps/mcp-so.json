@@ -1,0 +1,47 @@
+{
+  "slug": "mcp-so",
+  "insight": "Among the first community MCP directories; now lists 19,000+ servers, one of the largest registries.",
+  "name": "mcp.so",
+  "tagline": "Community directory for discovering Model Context Protocol servers.",
+  "description": "mcp.so is a community-driven directory that collects and organizes third-party MCP (Model Context Protocol) servers so developers can browse, share, and integrate external tools for AI apps. It ranks servers by real call volume with a \"Call Ranking\" leaderboard and offers Featured, Latest, Official, and Hosted filters. The project is open-source and still in preview.",
+  "category": "mcp",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "chatmcp",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "A discovery/registry layer, not an LLM app."
+  },
+  "tags": ["mcp", "registry", "directory", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mcp.so",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/chatmcp/mcpso"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 468,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Ranks servers by real call volume via a \"Call Ranking\" leaderboard — discovery by actual usage, not just listings.",
+  "pros": [
+    "19,000+ MCP servers indexed",
+    "Usage-based \"Call Ranking\"",
+    "Open-source (Apache-2.0)",
+    "Featured/Official/Hosted filters"
+  ],
+  "cons": [
+    "Still in preview, may break",
+    "Community submissions vary in quality",
+    "Overlaps the official MCP registry",
+    "Listing quality not fully vetted"
+  ],
+  "bestFor": ["Discovering MCP servers", "Claude Desktop users", "MCP tool builders"],
+  "alternatives": ["smithery", "glama", "context7"]
+}

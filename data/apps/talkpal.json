@@ -1,0 +1,47 @@
+{
+  "slug": "talkpal",
+  "insight": "Built on OpenAI's GPT models for conversation rather than in-house speech tech; founded in 2023.",
+  "name": "Talkpal",
+  "tagline": "GPT-powered AI tutor for conversational language practice.",
+  "description": "Talkpal is an AI language-learning app that lets you hold open-ended voice and text conversations with a GPT-powered tutor across 80+ languages. It adapts to your level, corrects grammar and pronunciation in real time, and offers roleplays, debates, and topic-based practice. A free tier allows limited daily practice, with Premium removing limits.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Talkpal",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT"],
+    "notes": "Conversational tutor built on OpenAI's GPT models."
+  },
+  "tags": ["language-learning", "tutor", "conversation", "speaking"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://talkpal.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://talkpal.ai/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 467,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Open-ended GPT-driven conversation in 80+ languages with instant corrections — practice speaking, not just drills.",
+  "pros": [
+    "80+ languages, voice and text",
+    "Real conversational practice",
+    "Instant grammar and pronunciation feedback",
+    "Free tier to try it"
+  ],
+  "cons": [
+    "Free tier is time-limited",
+    "Depends on third-party GPT models",
+    "Less structured than gamified apps",
+    "No human tutors"
+  ],
+  "bestFor": ["Conversation practice", "Self-guided learners", "Many target languages"],
+  "alternatives": ["duolingo", "speak"]
+}
