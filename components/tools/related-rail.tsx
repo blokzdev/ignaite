@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
@@ -9,6 +10,10 @@ interface Props {
   /** When set (curated `alternatives`), overrides the heading entirely, e.g.
    *  "Alternatives to <name>". */
   title?: string;
+  /** When set, the header gains a "View all →" link to the category's static
+   *  landing page — an internal-link path from every detail page into
+   *  /category/<slug>. */
+  viewAllHref?: string;
   /** Server-rendered `<li>` card slots — kept off the client bundle (§6). */
   children: ReactNode;
 }
@@ -22,7 +27,7 @@ const GAP = 20; // gap-5
 // same-category list. The card slots are passed in as server-rendered children
 // so ToolCard stays out of this route's client bundle. (If a third rail appears,
 // extract a shared <CardRail>; not worth the abstraction for two.)
-export function RelatedRail({ categoryLabel, title, children }: Readonly<Props>) {
+export function RelatedRail({ categoryLabel, title, viewAllHref, children }: Readonly<Props>) {
   const reduced = useReducedMotion();
   const scrollerRef = useRef<HTMLUListElement | null>(null);
   const [canLeft, setCanLeft] = useState(false);
@@ -62,12 +67,22 @@ export function RelatedRail({ categoryLabel, title, children }: Readonly<Props>)
   return (
     <section aria-labelledby="related-heading" className="mt-24">
       <div className="mb-6 flex items-baseline justify-between gap-4">
-        <p
-          id="related-heading"
-          className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase"
-        >
-          {title ?? `Related in ${categoryLabel}`}
-        </p>
+        <div className="flex min-w-0 flex-wrap items-baseline gap-x-4 gap-y-1">
+          <p
+            id="related-heading"
+            className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase"
+          >
+            {title ?? `Related in ${categoryLabel}`}
+          </p>
+          {viewAllHref && (
+            <Link
+              href={viewAllHref}
+              className="rounded font-mono text-[10px] tracking-[0.16em] text-[var(--color-accent)] uppercase transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+            >
+              View all {categoryLabel} →
+            </Link>
+          )}
+        </div>
         {/* Desktop arrows — touch scrolls/swipes natively. */}
         <div className="hidden items-center gap-2 sm:flex">
           <RailArrow

@@ -10,3 +10,11 @@ export type FacetKey = "category" | "pricing" | "platform" | "deployment" | "lic
 export function facetHref(key: FacetKey, value: string): string {
   return `/?${key}=${encodeURIComponent(value)}`;
 }
+
+/** The category's static landing page (/category/<slug>) — the canonical,
+ *  indexable browse surface for a category. `facetHref("category", …)` remains
+ *  the deep-link into the INTERACTIVE pre-filtered directory; both encodings
+ *  stay in this one server-safe module. */
+export function categoryHref(category: string): string {
+  return `/category/${encodeURIComponent(category)}`;
+}

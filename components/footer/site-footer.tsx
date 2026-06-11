@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { BrandMark, BrandWordmark } from "@/components/brand/brand-logo";
 import { brand } from "@/data/brand";
+import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
+import { topCategories } from "@/lib/tools/category-stats";
+import { categoryHref } from "@/lib/tools/facet-links";
 
 // Brand glyphs as raw SVG path data (24×24, fill=currentColor). Paths from
 // Simple Icons (CC0); the logos remain their owners' marks — used here only to
@@ -90,6 +93,35 @@ export function SiteFooter() {
             ))}
           </ul>
         </div>
+
+        {/* Browse — compact category mesh (top 8 by active count + the full
+            index). RSC: the counts are derived at build time, zero client JS.
+            Crawl path: every category page is one hop from every page. */}
+        <nav aria-label="Browse by category" className="mt-10 border-t border-white/[0.06] pt-8">
+          <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+            Browse
+          </p>
+          <ul className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+            {topCategories(8).map(({ category }) => (
+              <li key={category}>
+                <Link
+                  href={categoryHref(category)}
+                  className="rounded font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+                >
+                  {CATEGORY_LABEL[category]}
+                </Link>
+              </li>
+            ))}
+            <li>
+              <Link
+                href="/categories"
+                className="rounded font-mono text-[11px] tracking-[0.04em] text-[var(--color-accent)] transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+              >
+                All categories →
+              </Link>
+            </li>
+          </ul>
+        </nav>
 
         <div className="mt-10 flex flex-col items-start justify-between gap-4 border-t border-white/[0.06] pt-8 md:flex-row md:items-center">
           <p className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">

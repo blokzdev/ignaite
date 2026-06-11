@@ -8,6 +8,12 @@ import { DEFAULT_SORT, type SortMode } from "@/lib/tools/sort";
 // any client component without dragging the hook's client module along).
 export type DirectoryFilter = DirectoryFilters["filter"];
 
+// Cards per infinite-scroll batch — also the size of the homepage's static
+// fallback grid, so the pre-hydration HTML and the hydrated first batch agree.
+// Lives here (not tools-browser.tsx) because that module is "use client" and
+// its exports can't be imported by server components.
+export const BATCH_SIZE = 24;
+
 // Single source of truth for the browse predicate. Lifted verbatim out of
 // tools-browser's useMemo so the grid (which renders the list) and the header
 // console (which only needs the count) score every app the same way — the live
