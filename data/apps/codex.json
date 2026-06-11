@@ -1,0 +1,55 @@
+{
+  "slug": "codex",
+  "insight": "Its terminal client, the Codex CLI, is open-source (Apache-2.0), written in Rust, with 67k+ GitHub stars.",
+  "name": "Codex",
+  "tagline": "OpenAI's coding agent across terminal, IDE, web, and ChatGPT.",
+  "description": "Codex is OpenAI's agentic coding tool that reads, edits, and runs code on your behalf. It spans a local terminal client (the open-source Codex CLI), a VS Code extension, a cloud agent that executes tasks in isolated containers with full repo access, and a surface inside ChatGPT. It runs on OpenAI's Codex-tuned models and can parallelize multiple agent tasks at once.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "OpenAI",
+  "platforms": ["cli", "vscode-extension", "web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT-5-Codex", "codex-mini"],
+    "notes": "Runs on OpenAI's Codex-optimized models."
+  },
+  "tags": ["coding-agent", "cli", "code-review", "openai"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://developers.openai.com/codex",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.openai.com/codex/cli"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 464,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Backed by OpenAI's Codex-tuned models and integrated across CLI, IDE, web, and ChatGPT — one coding agent everywhere you work.",
+  "pros": [
+    "Open-source Rust CLI (Apache-2.0)",
+    "Local CLI, cloud, IDE, and ChatGPT",
+    "Parallel cloud agent tasks",
+    "Backed by OpenAI's coding models"
+  ],
+  "cons": [
+    "Cloud agent and models are proprietary",
+    "Best value needs a ChatGPT plan",
+    "Token-credit billing can surprise",
+    "Newer than rival coding agents"
+  ],
+  "bestFor": [
+    "Developers in the OpenAI stack",
+    "Terminal-first coders",
+    "Parallel agent workflows"
+  ],
+  "alternatives": ["claude-code", "cursor", "aider", "amp"]
+}

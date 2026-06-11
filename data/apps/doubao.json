@@ -1,0 +1,43 @@
+{
+  "slug": "doubao",
+  "insight": "ByteDance's Doubao handled about 1.9 billion queries in one night during China's 2026 Spring Festival Gala.",
+  "name": "Doubao",
+  "tagline": "ByteDance's free AI assistant for chat, writing, and documents.",
+  "description": "Doubao (豆包) is ByteDance's consumer AI assistant for everyday Q&A, content creation, document processing, translation, coding help, and multimodal interaction. Core features — dialogue, basic creation, document summarization, and translation — are free with no ads or paywalls. It runs on ByteDance's own Doubao models and is the most-used AI chatbot in China.",
+  "category": "assistant",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "ByteDance",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Doubao"],
+    "notes": "Runs on ByteDance's in-house Doubao models."
+  },
+  "tags": ["chatbot", "assistant", "bytedance", "china"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.doubao.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 465,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "China's most-used AI assistant — 330M+ users by mid-2026 — and fully free, with no ads or paywalls on core features.",
+  "pros": [
+    "Completely free, no ads",
+    "100M+ daily active users",
+    "Strong Chinese-language support",
+    "Document, coding, and multimodal tools"
+  ],
+  "cons": [
+    "Primarily China-focused",
+    "Interface mostly in Chinese",
+    "Runs only on ByteDance models",
+    "Data subject to China jurisdiction"
+  ],
+  "bestFor": ["Chinese-language users", "Everyday Q&A and writing", "Document processing"],
+  "alternatives": ["kimi", "deepseek", "chatgpt"]
+}
