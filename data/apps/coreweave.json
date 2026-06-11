@@ -1,0 +1,64 @@
+{
+  "slug": "coreweave",
+  "insight": "Started in 2017 as Ethereum-mining startup Atlantic Crypto before pivoting to AI cloud; went public on Nasdaq in March 2025.",
+  "name": "CoreWeave",
+  "tagline": "The AI hyperscaler — GPU cloud built for large-scale training and inference.",
+  "description": "CoreWeave is a purpose-built AI cloud renting large-scale NVIDIA GPU capacity for training and inference, layered with managed Kubernetes, AI object storage, and Mission Control observability. Public on Nasdaq since March 2025, it counts most leading AI labs — including OpenAI, Meta, and Anthropic — among its customers, with a contracted revenue backlog reported near $100B in 2026.",
+  "category": "inference",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "CoreWeave",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Raw GPU infrastructure — run any model, framework, or container you bring."
+  },
+  "tags": ["gpu-cloud", "ai-hyperscaler", "training", "inference", "kubernetes"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.coreweave.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.coreweave.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 455,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Operates at a scale smaller GPU clouds can't match — first to stand up new NVIDIA generations, with nine of the ten top AI model providers as customers.",
+  "pros": [
+    "Frontier-scale GPU capacity",
+    "First to new NVIDIA generations",
+    "Managed Kubernetes + observability",
+    "Contracted by top AI labs"
+  ],
+  "cons": [
+    "Enterprise-oriented; no free tier",
+    "Less self-serve than smaller GPU clouds",
+    "Heavy debt-financed expansion"
+  ],
+  "bestFor": ["Frontier-scale training", "Production inference fleets", "AI-native enterprises"],
+  "alternatives": ["lambda", "runpod", "modal", "together-ai"],
+  "references": [
+    {
+      "title": "CoreWeave",
+      "url": "https://en.wikipedia.org/wiki/CoreWeave",
+      "source": "Wikipedia"
+    },
+    {
+      "title": "CoreWeave signs multi-year Anthropic deal as nine of ten top AI providers join",
+      "url": "https://thenextweb.com/news/coreweave-has-agreed-a-multi-year-gpu-cloud-deal-with-anthropic-to-power-claude-at-production-scale-its-second-major-ai-infrastructure-announcement-in-48-hours",
+      "source": "The Next Web",
+      "kind": "analysis"
+    },
+    {
+      "title": "CoreWeave Reaches a New Scale Threshold, But Can It Sustain Long-Tail Demand?",
+      "url": "https://hyperframeresearch.com/2026/05/11/coreweave-reaches-a-new-scale-threshold-but-can-the-ai-neocloud-sustain-long-tail-demand/",
+      "source": "HyperFRAME Research",
+      "kind": "analysis"
+    }
+  ]
+}
