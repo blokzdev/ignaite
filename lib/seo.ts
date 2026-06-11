@@ -60,7 +60,14 @@ export function buildMetadata({
       description,
       ...(ogImage ? { images: [ogImage] } : {}),
     },
-    alternates: { canonical: url },
+    // The feed alternate must live HERE (not the root layout): Next merges
+    // metadata shallowly per top-level key, so any route's `alternates` would
+    // otherwise clobber a layout-level `types`. Every buildMetadata() caller
+    // gets the feed <link rel="alternate"> for free.
+    alternates: {
+      canonical: url,
+      types: { "application/feed+json": `${siteUrl}/feed.json` },
+    },
     robots: { index: true, follow: true },
     appleWebApp: { capable: true, title: brand.name, statusBarStyle: "black-translucent" },
     formatDetection: { telephone: false },

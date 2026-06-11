@@ -182,7 +182,9 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
             </section>
           )}
 
-          {/* Tags */}
+          {/* Tags — deep-links into the directory search (the q predicate
+              matches tags), not tag landing pages: 793 distinct free-form tags,
+              59% singletons — see BACKLOG [future] for curated tag pages. */}
           {app.tags && app.tags.length > 0 && (
             <section className="mt-10">
               <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
@@ -190,11 +192,14 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
               </p>
               <ul className="mt-3 flex flex-wrap gap-1.5">
                 {app.tags.map((t) => (
-                  <li
-                    key={t}
-                    className="rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)]/90"
-                  >
-                    #{t}
+                  <li key={t}>
+                    <Link
+                      href={`/?q=${encodeURIComponent(t)}`}
+                      aria-label={`Search the directory for ${t}`}
+                      className="inline-flex rounded-full bg-white/[0.03] px-2 py-0.5 font-mono text-[11px] tracking-[0.04em] text-[var(--color-ink-dim)]/90 ring-1 ring-transparent transition-colors hover:bg-white/[0.06] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+                    >
+                      #{t}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -273,6 +278,14 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           applicationCategory: CATEGORY_LABEL[app.category],
           operatingSystem: app.platforms.map((p) => PLATFORM_LABEL[p]).join(", "),
           url: `${siteUrl}/apps/${app.slug}`,
+          // Entity resolution — the app's own web presence (vendor site, repo,
+          // social), pulled from the verified links. Omitted when empty.
+          sameAs: (() => {
+            const urls = app.links
+              .filter((l) => l.kind === "website" || l.kind === "github" || l.kind === "twitter")
+              .map((l) => l.url);
+            return urls.length > 0 ? urls : undefined;
+          })(),
           publisher: app.vendor ? { "@type": "Organization", name: app.vendor } : undefined,
           datePublished: app.addedAt,
           // Latest of the freshness stamp and the newest recorded change.
@@ -281,14 +294,41 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
               .filter((d): d is string => Boolean(d))
               .sort()
               .at(-1) ?? app.lastVerifiedAt,
+          // Offers map COST tiers only (openSource is a license signal, not a
+          // price): free/freemium have a true $0 entry point; paid/byo-key get
+          // NO offers block — omitting beats fabricating a price.
           offers:
-            app.pricing === "free" || app.openSource
-              ? {
-                  "@type": "Offer",
-                  price: "0",
-                  priceCurrency: "USD",
-                }
-              : undefined,
+            app.pricing === "free"
+              ? { "@type": "Offer", price: "0", priceCurrency: "USD" }
+              : app.pricing === "freemium"
+                ? {
+                    "@type": "Offer",
+                    price: "0",
+                    priceCurrency: "USD",
+                    description: "Free tier; paid plans available",
+                  }
+                : undefined,
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Directory", item: siteUrl },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: CATEGORY_LABEL[app.category],
+              item: `${siteUrl}${categoryHref(app.category)}`,
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: app.name,
+              item: `${siteUrl}/apps/${app.slug}`,
+            },
+          ],
         }}
       />
     </AppDetailShell>

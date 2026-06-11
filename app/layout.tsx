@@ -80,6 +80,26 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             },
           }}
         />
+        {/* WebSite + SearchAction — the directory's ?q= search is a real,
+            linkable surface (sitelinks-searchbox eligible). */}
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: brand.name,
+            url: siteUrl,
+            description: brand.tagline,
+            publisher: { "@type": "Organization", name: brand.legalName },
+            potentialAction: {
+              "@type": "SearchAction",
+              target: {
+                "@type": "EntryPoint",
+                urlTemplate: `${siteUrl}/?q={search_term_string}`,
+              },
+              "query-input": "required name=search_term_string",
+            },
+          }}
+        />
       </body>
     </html>
   );

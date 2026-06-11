@@ -134,7 +134,8 @@ export function DossierRail({ app, accent }: Readonly<{ app: App; accent: string
         >
           {app.lastVerifiedAt && (
             <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase">
-              Last verified · {formatDate(app.lastVerifiedAt)}
+              Last verified ·{" "}
+              <time dateTime={app.lastVerifiedAt}>{formatDate(app.lastVerifiedAt)}</time>
             </p>
           )}
           {hasHistory && (
