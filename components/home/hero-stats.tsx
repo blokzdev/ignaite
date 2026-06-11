@@ -8,7 +8,6 @@ const LABEL_CLASS = "font-mono text-[10px] tracking-[0.1em] text-[var(--color-in
 // numbers come from the live directory, passed in from page.tsx. The two numeric
 // cells animate 0→value via the <Counter> island; the "AI" cell's label cycles
 // verbs via the <ManagedTypewriter> island.
-// Mirrors the visual of components/home/stats-strip.tsx, tuned smaller.
 export function HeroStats({ total, categories }: Readonly<{ total: number; categories: number }>) {
   const cells: ReadonlyArray<{
     num?: number;
