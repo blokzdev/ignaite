@@ -1,0 +1,60 @@
+{
+  "slug": "murf",
+  "insight": "Founded in 2020 by three IIT Kharagpur alumni; its $10M Series A was led by Matrix Partners India (now Z47).",
+  "name": "Murf AI",
+  "tagline": "AI voice generator studio with 200+ voices, dubbing, and a low-latency TTS API.",
+  "description": "Murf AI is a text-to-speech platform pairing a studio editor — 200+ voices across 35+ languages, voice cloning, dubbing, and a voice changer — with developer APIs. Its Gen 2 speech model focuses on pronunciation accuracy and granular voice controls, while the Falcon API targets sub-130ms latency for real-time voice agents. Integrations include Canva, PowerPoint, and Google Slides.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Murf AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Gen 2", "Falcon"],
+    "notes": "Ships its own speech models."
+  },
+  "tags": ["text-to-speech", "voiceover", "dubbing", "voice-cloning"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://murf.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://murf.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 457,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Friendlier studio workflow than developer-first TTS rivals, with Canva, PowerPoint, and Google Slides integrations built in.",
+  "pros": [
+    "200+ voices, 35+ languages",
+    "Canva/Slides/PowerPoint integrations",
+    "Low-latency Falcon API",
+    "Free plan to test"
+  ],
+  "cons": [
+    "Commercial rights need a paid plan",
+    "Voice cloning gated to higher tiers",
+    "Less expressive than newer voice models"
+  ],
+  "bestFor": ["E-learning voiceovers", "Marketing videos", "Training content"],
+  "alternatives": ["elevenlabs", "speechify", "cartesia"],
+  "references": [
+    {
+      "title": "Murf AI Review 2026: Pricing, Features, API & Limits",
+      "url": "https://smallest.ai/blog/murf-ai-review-2026-pricing-features-api-limits",
+      "source": "Smallest.ai",
+      "kind": "review"
+    },
+    {
+      "title": "Murf.ai Reviews 2026: Details, Pricing, & Features",
+      "url": "https://www.g2.com/products/murf-ai/reviews",
+      "source": "G2",
+      "kind": "review"
+    }
+  ]
+}

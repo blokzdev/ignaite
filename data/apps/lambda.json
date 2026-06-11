@@ -1,0 +1,59 @@
+{
+  "slug": "lambda",
+  "insight": "Founded in 2012 selling deep-learning workstations; its $1.5B+ late-2025 Series E was led by TWG Global to build gigawatt 'AI factories'.",
+  "name": "Lambda",
+  "tagline": "The Superintelligence Cloud — on-demand GPUs, 1-Click Clusters, and superclusters.",
+  "description": "Lambda is a GPU cloud for AI training and inference, spanning on-demand HGX B200 and H100 instances, self-serve 1-Click Clusters, and single-tenant superclusters built on NVIDIA's latest generations. A GPU specialist since 2012, it sells compute by the hour without long-term hyperscaler contracts and co-engineers large deployments with NVIDIA.",
+  "category": "inference",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Lambda",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Raw GPU compute — bring any framework or model."
+  },
+  "tags": ["gpu-cloud", "training", "clusters", "nvidia", "compute"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lambda.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lambda.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 456,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "1-Click Clusters give self-serve, contract-free access to multi-node B200/H100 training clusters that elsewhere require procurement cycles.",
+  "pros": [
+    "Single GPUs up to superclusters",
+    "Self-serve multi-node clusters",
+    "GPU-focused since 2012",
+    "Deep NVIDIA collaboration"
+  ],
+  "cons": [
+    "No free tier",
+    "In-demand GPUs can sell out",
+    "Fewer managed services than hyperscalers"
+  ],
+  "bestFor": ["Model training runs", "Research teams", "Scaling startups"],
+  "alternatives": ["coreweave", "runpod", "modal", "lightning-ai"],
+  "references": [
+    {
+      "title": "AI cloud company Lambda raises more than $1.5bn in Series E funding round",
+      "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-company-lambda-raises-more-than-15bn-in-series-e-funding-round/",
+      "source": "Data Center Dynamics",
+      "kind": "analysis"
+    },
+    {
+      "title": "Lambda raises $1B to expand gigawatt-scale AI factories",
+      "url": "https://techstartups.com/2026/05/07/lambda-raises-1b-to-expand-gigawatt-scale-ai-factories-for-the-superintelligence-race/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    }
+  ]
+}

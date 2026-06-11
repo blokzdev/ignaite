@@ -1,0 +1,60 @@
+{
+  "slug": "friend",
+  "insight": "Founder Avi Schiffmann paid $1.8M for the friend.com domain and over $1M on a NYC subway ad blitz that became a graffiti magnet.",
+  "name": "Friend",
+  "tagline": "Always-listening AI companion pendant that texts you about your day.",
+  "description": "Friend is a wearable AI companion: a microphone pendant that listens to your day over Bluetooth and sends proactive, personality-driven comments and conversation through its iOS app. The $129 device is a one-time purchase with no subscription, and a free web chatbot lives at friend.com. It does not speak aloud — replies arrive as text messages.",
+  "category": "companion",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Friend",
+  "platforms": ["ios", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Vendor-chosen cloud LLM; no user model choice."
+  },
+  "tags": ["companion", "wearable", "pendant", "ambient-ai"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://friend.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 459,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Unlike chat-app companions, it lives in always-on pendant hardware and initiates comments about your real day — one-time $129, no subscription.",
+  "pros": [
+    "One-time price, no subscription",
+    "Proactive, ambient companionship",
+    "15-hour battery, USB-C"
+  ],
+  "cons": [
+    "Always-on mic raises privacy concerns",
+    "iOS app only",
+    "Text replies only — no voice",
+    "Polarizing public reception"
+  ],
+  "bestFor": ["Ambient companionship", "AI hardware early adopters"],
+  "alternatives": ["replika", "tolan", "character-ai", "nomi"],
+  "references": [
+    {
+      "title": "Friend (product)",
+      "url": "https://en.wikipedia.org/wiki/Friend_(product)",
+      "source": "Wikipedia"
+    },
+    {
+      "title": "I tried the viral AI 'Friend' necklace everyone's talking about",
+      "url": "https://fortune.com/2025/10/03/friend-ai-necklace-review-avi-schiffmann/",
+      "source": "Fortune",
+      "kind": "review"
+    },
+    {
+      "title": "How this tiny device became a symbol for the backlash against AI",
+      "url": "https://www.cnn.com/2025/11/16/tech/friend-ai-device-backlash-ceo-avi-schiffmann",
+      "source": "CNN",
+      "kind": "analysis"
+    }
+  ]
+}

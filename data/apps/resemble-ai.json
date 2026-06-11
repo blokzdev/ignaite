@@ -1,0 +1,56 @@
+{
+  "slug": "resemble-ai",
+  "insight": "Open-sourced its MIT-licensed Chatterbox TTS model while selling Detect, a deepfake detector scoring 98.1% on ASVspoof 2021.",
+  "name": "Resemble AI",
+  "tagline": "Voice cloning, audio watermarking, and deepfake detection in one platform.",
+  "description": "Resemble AI spans both sides of synthetic voice: generating it and policing it. The platform offers voice cloning and text-to-speech built on its Chatterbox models, real-time audio watermarking, and Detect, a multimodal deepfake detector covering audio, image, and video. It deploys in the cloud or fully on-premises for regulated environments.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Resemble AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Chatterbox", "DETECT-3B Omni"],
+    "notes": "Ships its own speech and detection models."
+  },
+  "tags": ["voice-cloning", "deepfake-detection", "watermarking", "tts", "security"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.resemble.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/resemble-ai"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 458,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "The rare voice platform that pairs generation with watermarking and deepfake detection, deployable fully on-prem for regulated audio work.",
+  "pros": [
+    "Generation + detection in one",
+    "On-prem deployment option",
+    "Open-source Chatterbox model",
+    "Real-time watermarking"
+  ],
+  "cons": ["Limited free tier", "Detection confidence drops on noisy audio"],
+  "bestFor": ["Consented voice cloning", "Deepfake detection", "Regulated industries"],
+  "alternatives": ["elevenlabs", "cartesia", "hume-ai"],
+  "references": [
+    {
+      "title": "Resemble AI Review 2026: Pricing, Voice Cloning, Detect + Alternatives",
+      "url": "https://www.voiceflow.com/blog/resemble-ai",
+      "source": "Voiceflow",
+      "kind": "review"
+    },
+    {
+      "title": "Deepfake Voice Detection: 3 Tools Tested",
+      "url": "https://www.kunalganglani.com/blog/deepfake-voice-detection-tools-tested",
+      "source": "Kunal Ganglani",
+      "kind": "comparison"
+    }
+  ]
+}
