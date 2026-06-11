@@ -22,7 +22,7 @@ v2 is the live site (this codebase). The legacy v1 Glitch template is preserved 
 
 | Layer            | Choice                                                  | Why                                                              | Version |
 | ---------------- | ------------------------------------------------------- | ---------------------------------------------------------------- | ------- |
-| Framework        | Next.js (App Router, RSC, Turbopack dev)                | SSG-first, RSC for content, native MDX, Vercel                   | 15.3.x  |
+| Framework        | Next.js (App Router, RSC, Turbopack dev)                | SSG-first, RSC for content, native MDX, Vercel                   | 15.5.x  |
 | UI runtime       | React                                                   | RSC + React Compiler (stable in 19)                              | 19.1.x  |
 | Language         | TypeScript, `strict: true`                              | Type safety end-to-end                                           | 5.6.x   |
 | Styling          | Tailwind CSS v4 (CSS-first `@theme`)                    | No JS config file; tokens in `globals.css`                       | 4.1.x   |
@@ -34,7 +34,7 @@ v2 is the live site (this codebase). The legacy v1 Glitch template is preserved 
 | Content          | `@next/mdx`, `rehype-pretty-code` (Shiki), `remark-gfm` | Manifesto/projects/workflow as MDX                               | latest  |
 | Directory data   | `velite` (+ its bundled `zod`)                          | Per-file `data/apps/*.json` validated + aggregated; build-only   | 0.3.x   |
 | URL state        | `nuqs`                                                  | `/apps` filter state in URL                                      | latest  |
-| Forms            | Native form + server action + `resend`                  | Contact form → `team@ignaite.app`                                | 4.x     |
+| Forms            | Native form + server action + `resend`                  | Contact form → `team@ignaite.app`                                | 6.x     |
 | Icons            | `lucide-react` + custom SVGs                            | Tree-shaken icons + custom chain marks                           | latest  |
 | Fonts            | `geist` npm pkg + `@fontsource/instrument-serif`        | Self-hosted Geist Sans/Mono via next/font, no Google Fonts fetch | latest  |
 | Analytics        | `@vercel/analytics` + `@vercel/speed-insights`          | Zero-config, privacy-friendly                                    | latest  |
@@ -174,7 +174,7 @@ content/                          # typed content + MDX
 data/                             # source-of-truth, typed
   apps/<slug>.json                # DIRECTORY: one JSON file per listing (~400), validated by Velite
   projects.ts                     # PORTFOLIO: Blokz's shipped projects (Project[])
-  sponsored.ts                    # sponsored directory slots
+  sponsored/<id>.json             # sponsored directory slots (per-file JSON, validated by Velite)
   brand.ts                        # logo, social handles, contact, hero copy
   chains.ts                       # chain metadata (icon, color, label)
 
@@ -410,7 +410,7 @@ interface Project {
 | CLS                             | < 0.05                      |
 | INP                             | < 200ms                     |
 | Bundle ceiling (route `/`)      | ≤ 200KB gz (incl. R3F lazy) |
-| Bundle ceiling (`/apps`)        | ≤ 160KB gz                  |
+| Bundle ceiling (`/apps/[slug]`) | ≤ 160KB gz                  |
 | Bundle ceiling (`/workflow`)    | n/a — dormant (see §1)      |
 | Bundle ceiling (other routes)   | ≤ 140KB gz                  |
 

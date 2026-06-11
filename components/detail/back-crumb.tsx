@@ -84,7 +84,14 @@ export function BackCrumb({ appName }: Readonly<{ appName: string }>) {
       <Link
         href={href}
         scroll={!hasReturn}
-        onClick={armDirectoryRestore}
+        onClick={(e) => {
+          // Arm only for a plain left-click that navigates THIS tab. Modified
+          // clicks (cmd/ctrl/shift/alt — new tab/window) still fire onClick,
+          // and arming here would leave the one-shot flag set in the ORIGINAL
+          // tab's sessionStorage, mis-restoring its next directory mount.
+          if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+          armDirectoryRestore();
+        }}
         aria-label={ariaFor(kind, label)}
         className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
       >
