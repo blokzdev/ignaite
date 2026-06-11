@@ -1,0 +1,41 @@
+{
+  "slug": "cora",
+  "insight": "Incubated inside Every, the AI media-and-software studio — six months in private beta managing email for 2,500 users before launch.",
+  "name": "Cora",
+  "tagline": "AI email chief of staff — screens your Gmail, drafts replies, briefs you twice a day.",
+  "description": "An AI email assistant that screens your inbox so only messages needing your response get through, drafts replies in your voice straight into your drafts folder, and summarizes everything else in a twice-daily brief. You can chat with it like a chief of staff — giving standing instructions for how kinds of email should be handled. Works with Gmail and Google Workspace accounts.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Every",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Processes email using models from Google, Anthropic, and OpenAI."
+  },
+  "tags": ["email", "gmail", "inbox-zero", "drafting"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cora.computer",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 452,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Replaces inbox-checking with a twice-daily brief instead of bolting a new client onto email — you keep Gmail, Cora does the triage.",
+  "pros": [
+    "Drafts appear in your own voice",
+    "Twice-daily brief cuts inbox checking",
+    "Standing chat instructions for triage",
+    "7-day free trial"
+  ],
+  "cons": [
+    "Gmail and Google Workspace only",
+    "No free tier after trial",
+    "Unlimited plan costs $39/month"
+  ],
+  "bestFor": ["Inbox-overloaded founders", "Gmail power users", "Email delegation"],
+  "alternatives": ["fyxer", "shortwave", "superhuman"]
+}

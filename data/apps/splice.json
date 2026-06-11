@@ -1,0 +1,55 @@
+{
+  "slug": "splice",
+  "insight": "Goldman Sachs led its $55M Series D in 2021 at a ~$500M valuation, bringing total funding past $155M.",
+  "name": "Splice",
+  "tagline": "Royalty-free sample platform with generative AI tools that pay the original creators.",
+  "description": "The leading royalty-free sample marketplace, now with generative AI built around its licensed catalog. Variations creates new versions of any Splice sample (structure, key, BPM), Craft turns samples into playable instruments, and Magic Fit adapts sounds to your session's harmonic and rhythmic context — and the original sample creator is compensated each time their sound seeds a generation. Integrates with major DAWs via VST3/AU plugins, with desktop and mobile apps.",
+  "category": "music",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Splice",
+  "platforms": ["web", "macos", "windows", "ios", "android"],
+  "tags": ["samples", "music-production", "royalty-free", "daw-plugin"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://splice.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://splice.com/plans"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 453,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "AI generation grounded in a licensed sample library — creators get paid every time their sound seeds a Variation, unlike prompt-to-song generators.",
+  "pros": [
+    "Licensed, royalty-free catalog",
+    "Creators compensated for AI variations",
+    "Deep DAW integrations (VST3/AU)",
+    "Downloaded samples are yours to keep"
+  ],
+  "cons": [
+    "No free plan",
+    "Credit system caps monthly downloads",
+    "AI tools tied to subscription tiers"
+  ],
+  "bestFor": ["Producers and beatmakers", "Sample-based workflows", "Royalty-free sourcing"],
+  "alternatives": ["landr", "suno", "udio"],
+  "references": [
+    {
+      "title": "Splice Extends Creator Compensation Model With New Generative AI Tools",
+      "url": "https://musicrow.com/2026/04/splice-extends-creator-compensation-model-with-new-generative-ai-tools/",
+      "source": "MusicRow",
+      "kind": "analysis"
+    },
+    {
+      "title": "Splice closes $55m Series D funding round led by Goldman Sachs",
+      "url": "https://www.musicbusinessworldwide.com/splice-closes-55m-series-d-funding-round-led-by-goldman-sachs/",
+      "source": "Music Business Worldwide",
+      "kind": "analysis"
+    }
+  ]
+}
