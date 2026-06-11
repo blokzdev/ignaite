@@ -1,0 +1,33 @@
+{
+  "slug": "magic-patterns",
+  "insight": "Grew profitably to $1M ARR with zero full-time employees before raising a $6M Series A led by Standard Capital in November 2025.",
+  "name": "Magic Patterns",
+  "tagline": "AI prototyping for product teams — generate UI in your own design system.",
+  "description": "An AI design tool that turns prompts into working UI prototypes product teams can test with users and hand to engineering. Version 2.0 imports components from Figma, Storybook, or any website via its Chrome extension, so generated screens match your real design system rather than generic mockups. Includes real-time collaboration and a free tier to start.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "North Park Labs",
+  "platforms": ["web"],
+  "tags": ["prototyping", "design-systems", "ui-generation", "product-teams"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.magicpatterns.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 451,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Generates prototypes inside your own design system — imported from Figma, Storybook, or any site — instead of generic AI mockups.",
+  "pros": [
+    "Design-system-aware generation",
+    "Figma and Storybook component import",
+    "Free tier to start",
+    "Built for team collaboration"
+  ],
+  "cons": ["Business tier jumps to $100/seat/month", "Web-only, no desktop app"],
+  "bestFor": ["Product teams", "Rapid user testing", "Design-system-bound prototypes"],
+  "alternatives": ["v0", "uizard", "figma-ai", "lovable"]
+}

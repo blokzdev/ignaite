@@ -1,0 +1,58 @@
+{
+  "slug": "s3-vectors",
+  "insight": "The first cloud object store with native vector support; its preview ingested 40B+ vectors before GA in December 2025.",
+  "name": "Amazon S3 Vectors",
+  "tagline": "Native vector storage and querying in S3 — serverless, billion-vector scale.",
+  "description": "Purpose-built vector storage inside Amazon S3: store and query up to two billion vectors per index across thousands of indexes per vector bucket, with S3's durability and elasticity and no clusters to manage. Frequent queries return in around 100ms and infrequent ones in under a second, and it plugs directly into Amazon Bedrock Knowledge Bases for RAG. You pay only for storage and queries.",
+  "category": "vector-db",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Amazon Web Services",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["serverless", "object-storage", "rag", "aws"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aws.amazon.com/s3/features/vectors/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 454,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Pay only for storage and queries — AWS claims up to 90% lower cost than dedicated vector DBs for large, infrequently queried indexes.",
+  "pros": [
+    "Two billion vectors per index",
+    "S3 durability and elasticity",
+    "No idle compute costs",
+    "Native Bedrock Knowledge Bases integration"
+  ],
+  "cons": [
+    "Locked to the AWS ecosystem",
+    "Cold queries are sub-second, not low-latency",
+    "Up to 100 results per query"
+  ],
+  "bestFor": ["RAG over huge corpora", "Cost-sensitive vector storage", "AWS-native stacks"],
+  "alternatives": ["pinecone", "turbopuffer", "lancedb", "milvus"],
+  "references": [
+    {
+      "title": "Amazon S3 Vectors Reaches GA, Introducing \"Storage-First\" Architecture for RAG",
+      "url": "https://www.infoq.com/news/2026/01/aws-s3-vectors-ga/",
+      "source": "InfoQ",
+      "kind": "analysis"
+    },
+    {
+      "title": "AWS claims 90% vector cost savings with S3 Vectors GA, calls it 'complementary'",
+      "url": "https://venturebeat.com/data-infrastructure/aws-claims-90-vector-cost-savings-with-s3-vectors-ga-calls-it-complementary",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    }
+  ]
+}
