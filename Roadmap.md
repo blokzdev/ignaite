@@ -75,6 +75,7 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | V-1   | Performance + SEO — 39 SSG category pages + link mesh + 82% homepage HTML cut           | #161      | ✅     |
 | V-2   | Performance + SEO — structured-data pack, tag deep-links, llms.txt, JSON feed           | #162      | ✅     |
 | V-3   | Performance + SEO — CSP/security headers, build-stamped SW, LHCI fix, portfolio removal | #163      | ✅     |
+| V-4   | Public-repo hygiene — README refresh + FSL-1.1-MIT / CC BY-NC licensing                 | #164      | ✅     |
 
 ---
 
@@ -124,6 +125,11 @@ downloads, and harden the edges.
   dead `/portfolio/blockchair` redirect in favor of `/category/agent`. And the dormant
   **portfolio track was fully removed** (code/data/assets; archive = git `12c3978`; inbound
   redirects retained; `images.remotePatterns` dropped, tightening `img-src` to `'self' data:`).
+- **Chunk V-4 — Public-repo hygiene (#164).** README rewritten to current reality (459 listings,
+  category pages, machine surfaces, PWA, headers; portfolio removal noted). LICENSE replaced: the
+  leftover v1 Glitch-template MIT (wrong copyright holder) → **FSL-1.1-MIT** for code (free
+  non-competing use, auto-MIT after 2 years) + a **CC BY-NC 4.0** addendum for the directory's
+  editorial content. Fixed the stale "R3F hero on `/`" claims in CLAUDE.md (it renders on `/about`).
 
 ---
 
