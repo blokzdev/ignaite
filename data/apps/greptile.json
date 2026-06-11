@@ -1,0 +1,59 @@
+{
+  "slug": "greptile",
+  "name": "Greptile",
+  "tagline": "AI code review with full-codebase context on every pull request.",
+  "description": "Greptile builds a graph index of your repository and runs a swarm of agents over each pull request, catching cross-file logic bugs, security risks, and style violations that diff-only reviewers miss. It learns team standards from past review comments, enforces custom rules written in plain English, and reviews PRs on GitHub and GitLab, with TREX generating and running tests per PR.",
+  "insight": "Founded by Georgia Tech grads out of YC W24; Benchmark led its $25M Series A in 2025 at a reported $180M valuation.",
+  "category": "agent",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Greptile",
+  "platforms": ["web", "api"],
+  "tags": ["code-review", "pull-requests", "devtools", "github"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.greptile.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.greptile.com/docs/introduction"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.greptile.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 476,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Indexes the whole repo into a graph so reviews carry full-codebase context, catching multi-file bugs that diff-scoped reviewers miss.",
+  "pros": [
+    "Full-repo context per review",
+    "Learns standards from past comments",
+    "Plain-English custom rules",
+    "Self-hosted enterprise option"
+  ],
+  "cons": [
+    "$30/seat includes only 50 reviews",
+    "$1 per additional review",
+    "Free tier only for qualified OSS"
+  ],
+  "bestFor": ["Large codebases", "GitHub/GitLab teams", "High-PR-volume teams"],
+  "alternatives": ["coderabbit", "qodo", "github-copilot"],
+  "references": [
+    {
+      "title": "Benchmark in talks to lead Series A valuing AI-code reviewer at $180M",
+      "url": "https://techcrunch.com/2025/07/18/benchmark-in-talks-to-lead-series-a-for-greptile-valuing-ai-code-reviewer-at-180m-sources-say/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "The Best AI Code Review Tools of 2026",
+      "url": "https://dev.to/heraldofsolace/the-best-ai-code-review-tools-of-2026-2mb3",
+      "source": "DEV Community",
+      "kind": "comparison"
+    }
+  ]
+}

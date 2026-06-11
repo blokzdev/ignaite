@@ -1,0 +1,56 @@
+{
+  "slug": "polyai",
+  "name": "PolyAI",
+  "tagline": "Lifelike enterprise voice AI agents for customer service calls.",
+  "description": "PolyAI's Agentic Dialog Platform builds voice agents that resolve customer service calls for large enterprises in banking, healthcare, hospitality, telecom, and retail. Agent Studio gives non-technical teams a no-code builder while the ADK exposes developer APIs, with SOC 2, HIPAA, GDPR, and PCI DSS compliance built in. Its proprietary Raven model is trained on over a billion enterprise conversations.",
+  "insight": "Spun out of Cambridge's Machine Intelligence Lab in 2017; a Dec 2025 Series D valued it at $750M, with Nvidia's NVentures backing.",
+  "category": "voice",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "PolyAI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Raven"],
+    "notes": "Proprietary Raven model trained on 1B+ enterprise conversations."
+  },
+  "tags": ["voice-agents", "customer-service", "contact-center", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://poly.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://polyai.github.io/adk"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 474,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "An end-to-end managed contact-center agent on its own Raven model — not a developer toolkit you assemble from telephony, LLM, and TTS parts.",
+  "pros": [
+    "Handles complex multi-turn calls",
+    "Enterprise compliance built in",
+    "No-code studio plus developer ADK",
+    "2,000+ live deployments, 45 languages"
+  ],
+  "cons": ["Custom enterprise contracts only", "No self-serve or SMB tier", "No public pricing"],
+  "bestFor": ["Enterprise contact centers", "Regulated industries", "High call volumes"],
+  "alternatives": ["parloa", "sierra", "retell-ai", "decagon"],
+  "references": [
+    {
+      "title": "Call center chatbot startup PolyAI raises $86M at a $750M valuation",
+      "url": "https://siliconangle.com/2025/12/15/call-center-chatbot-startup-polyai-raises-86m-750m-valuation/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "PolyAI Series D: $86M to Advance CX Automation in Large Enterprises",
+      "url": "https://www.cmswire.com/customer-experience/polyai-raises-86m-series-d-for-enterprise-voice-ai/",
+      "source": "CMSWire",
+      "kind": "analysis"
+    }
+  ]
+}
