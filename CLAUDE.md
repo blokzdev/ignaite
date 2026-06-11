@@ -8,7 +8,7 @@ This file is the contract between you (Claude) and this codebase. Read it end-to
 
 **Ignaite** (ignaite.app) is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line fact worth knowing. It is built and operated by **Blokz Development Company** (the studio, credited in the footer colophon), and is itself a demonstration of agentic engineering. The public surface is the **directory** (`/`), how it's managed (`/about`), and contact (`/contact`).
 
-> **The portfolio is dormant.** The studio's earlier non-AI work (nine Android blockchain explorers) was unpublished to keep the site focused on the AI-frontier vision. `/about` no longer shows a portfolio/stats grid; the `/portfolio/<slug>` route lives under the private folder `app/(marketing)/_portfolio/`, with `data/projects.ts`, `components/apps/*`, and the orphaned `components/home/{apps-preview,stats-strip}.tsx` retained for a future AI-app/web/OSS revival (the real OSS project **WebSight** is already seeded in `data/projects.ts`). To republish: rename `_portfolio` → `portfolio`, re-compose the sections on `/about`, and re-add the sitemap + redirect entries.
+> **The portfolio is REMOVED.** The studio's earlier non-AI work (nine Android blockchain explorers + the WebSight OSS seed) was first unpublished, then fully deleted in Chunk V — code, data, and assets (`app/(marketing)/_portfolio/`, `components/apps/*`, `components/home/stats-strip.tsx`, `data/{projects,chains}.ts`, `lib/projects.ts`, `types/project.ts`). **The archive is git history: commit `12c3978`** (the last commit containing the tree). The inbound redirects (`/portfolio/*`, legacy `/apps/<slug>` explorers → `/about`) remain in `next.config.ts`. To revive: restore the paths from that commit, then follow the BACKLOG `[future]` migration note (per-file JSON + zod, mirroring the apps data layer).
 
 > **`/workflow` is dormant.** The 4-stage Claude Code session walkthrough + 12 MDX artifacts were unpublished (Iteration 5, out-of-sequence product-direction change) to keep the homepage directory-focused and the detailed agentic process semi-proprietary. All of it is **retained in the repo** under the Next private folder `app/(marketing)/_workflow/` (underscore = excluded from routing), along with `components/workflow/*`, `components/claude-chat/*`, `content/workflow/*`, `hooks/use-workflow-*`, and `types/workflow.ts`. To republish: rename `_workflow` → `workflow` and re-add the references listed in `BACKLOG.md`. Everywhere below that describes `/workflow` as live should be read through this lens.
 
@@ -79,13 +79,13 @@ app/                              # Next App Router
     layout.tsx                    #   sets <SiteNav/> + <SiteFooter/>
     page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~400 entries across 39 categories)
     about/
-      page.tsx                    #   /about — studio identity (Hero, Now/Next, manifesto, portfolio grid)
+      page.tsx                    #   /about — studio identity (Hero, Now/Next, manifesto, How we work)
       opengraph-image.tsx         #   per-route OG
     apps/
       [slug]/page.tsx             #   /apps/<slug> — directory-app detail (SSG; renders components/tools/app-detail)
       [slug]/opengraph-image.tsx  #   per-app OG
-    _portfolio/                   #   DORMANT (private folder, not routed — see §1). Rename to `portfolio` to republish.
-      [slug]/page.tsx             #   was /portfolio/<slug> — Blokz shipped-PROJECT detail (data/projects.ts, SSG)
+    category/[slug]/page.tsx      #   /category/<slug> — 39 SSG category landing pages (pure RSC)
+    categories/page.tsx           #   /categories — cluster-grouped category index hub
     _workflow/                    #   DORMANT (private folder, not routed — see §1). Rename to `workflow` to republish.
       page.tsx                    #   was /workflow — 4-stage Claude Code session narrative (components/workflow/workflow.tsx)
       artifacts/[product]/[type]/page.tsx
@@ -97,7 +97,7 @@ app/                              # Next App Router
       opengraph-image.tsx
   manifest.ts                     # PWA manifest (typed)
   robots.ts                       # robots.txt
-  sitemap.ts                      # sitemap.xml (apps + static; portfolio + workflow dropped while dormant)
+  sitemap.ts                      # sitemap.xml (apps + categories + static; workflow dormant, portfolio removed)
   opengraph-image.tsx             # root OG image (per-route can override)
   icon.tsx / apple-icon.tsx       # dynamic favicons via next/og
   globals.css                     # Tailwind v4 @theme block + base/utility layers
@@ -110,12 +110,9 @@ app/                              # Next App Router
 #               re-exported derived types) · velite.config.ts → generated
 #               .velite/ (full apps.json + slim apps-search.json) · lib/apps.ts ·
 #               components/tools/*
-#   PORTFOLIO = Blokz's own shipped apps. DORMANT (see §1) — the blockchain
-#               heritage was unpublished; /about no longer shows it and the
-#               route lives at app/(marketing)/_portfolio/. Retained for a
-#               future AI-app/web/OSS revival (WebSight is seeded in the data).
-#               data/projects.ts · types/project.ts · lib/projects.ts · components/apps/*
-#               + the now-orphaned components/home/{apps-preview,stats-strip}.tsx
+#   PORTFOLIO = Blokz's own shipped apps. REMOVED in Chunk V (see §1) — restore
+#               from git commit 12c3978 if revived. Only the inbound redirects
+#               survive (next.config.ts).
 # ─────────────────────────────────────────────────────────────────────────
 
 components/
@@ -140,13 +137,6 @@ components/
     featured-carousel.tsx         #   featured rail (scroll-snap)
     sponsored-card.tsx            #   sponsored slot card
     app-detail.tsx                #   /apps/[slug] body
-  apps/                           # ── PORTFOLIO (Project) ──
-    apps-browser.tsx / apps-preview.tsx
-    project-grid.tsx              #   bento grid container
-    project-card{,-android,-oss,-web}.tsx   # dispatcher + variants
-    project-filter-bar.tsx
-    project-detail.tsx            #   /portfolio/[slug] body
-    card-bits.tsx                 #   shared chips / monogram / status glyphs
   workflow/                       # ── DORMANT (consumed only by app/(marketing)/_workflow; not in any shipped bundle) ──
     workflow.tsx                  # client orchestrator: product + platform tabs, renders stage segments
     workflow-intro.tsx            # hero: agentic-engineering framing, one-time setup, DocGraph
@@ -173,10 +163,8 @@ content/                          # typed content + MDX
 
 data/                             # source-of-truth, typed
   apps/<slug>.json                # DIRECTORY: one JSON file per listing (~400), validated by Velite
-  projects.ts                     # PORTFOLIO: Blokz's shipped projects (Project[])
   sponsored/<id>.json             # sponsored directory slots (per-file JSON, validated by Velite)
   brand.ts                        # logo, social handles, contact, hero copy
-  chains.ts                       # chain metadata (icon, color, label)
 
 velite.config.ts                  # Velite: validates data/apps/*.json + data/sponsored/*.json against
                                   #   lib/{apps,sponsored}-schema.ts, generates .velite/ (full apps.json +
@@ -190,7 +178,6 @@ lib/
   apps-schema.ts                  # DIRECTORY source-of-truth: zod schema; App = z.infer<…> (build-only)
   utils.ts                        # cn() + small formatters
   apps.ts                         # directory query helpers (listApps, getApp, relatedApps, …)
-  projects.ts                     # portfolio query helpers (listProjects, getProject, …)
   interleave.ts                   # deterministic sponsored-slot interleave
   rate-limit.ts                   # contact rate-limit (in-memory; upgrade path: Upstash)
   og-image.tsx                    # shared OG image template (Satori)
@@ -202,13 +189,11 @@ hooks/
 
 types/
   app.ts                          # DIRECTORY: App, AppCategory, AppPricing, AppPlatform, AppLinkKind, ModelSupport, …
-  project.ts                      # PORTFOLIO: Project, ProjectType, ProjectStatus, Chain, Platform, LinkKind, …
   sponsored.ts                    # Sponsored slot
   workflow.ts                     # WorkflowProduct, ArtifactType, Stage, ChatMessage, ChatToolBlock, …
 
 public/
   brand/                          # rehosted brand logo + favicons (Ignaite mark is code-gen: components/brand + lib/og-mark)
-  projects/<slug>/                # portfolio icons / screenshots
   app-ads.txt                     # ported from v1 (Play Store ad SDK requirement)
 
 CLAUDE.md  README.md  Roadmap.md  BACKLOG.md  LICENSE
@@ -220,8 +205,8 @@ package.json  pnpm-lock.yaml
 
 ## 5. Content authoring
 
-> Two tracks, two recipes — see the "TWO content tracks" callout in §4. The `/` homepage
-> directory is the **App** track; `/about` + `/portfolio` is the **Project** track.
+> One live content track — the `/` homepage directory (**App** track). The PORTFOLIO
+> (Project) track was removed in Chunk V — see the §4 callout for the revival path.
 
 ### Add a directory app (the `/` directory — App track)
 
@@ -229,17 +214,6 @@ package.json  pnpm-lock.yaml
 2. One card renders all apps — `components/tools/tool-card.tsx` (no per-type dispatch); the detail body is `components/tools/app-detail.tsx`.
 3. Set `featured: true` to surface it in the featured carousel (use sparingly).
 4. Run `pnpm dev` and verify it appears on `/`, that the category/pricing/status filter chips include it, and that `/apps/<slug>` renders. (One file per listing → concurrent `/add-app` & `/discover-apps` runs never conflict.)
-
-### Add a portfolio project (the Project track — DORMANT)
-
-> **Dormant feature (see §1).** The portfolio is unpublished: `/about` shows no portfolio grid and the route lives under `app/(marketing)/_portfolio/`. A new `Project` won't appear on the live site until you republish (rename `_portfolio` → `portfolio`, re-compose `/about`, re-add sitemap + redirect). The recipe below still applies for editing the retained data / a future revival.
-
-1. Append a `Project` entry to `data/projects.ts` (schema in `types/project.ts`). Required: `slug`, `name`, `tagline`, `description`, `type`, `status`, `platforms`, `chains`, `media.icon`, `stats`, `links` (≥1 `primary: true`).
-2. Drop assets in `public/projects/<slug>/`: `icon.png` (512×512 source), screenshots if any.
-3. Pick the right `type` so the correct card variant renders (dispatch in `components/apps/project-card.tsx`):
-   - `android-app` / `ios-app` → mobile card · `web-app` → web card · `oss-repo` / `library` / `service` → OSS card · `desktop-app` → mobile card layout.
-4. Set `featured: true` for projects that should lead the `/about` portfolio preview (use sparingly).
-5. Run `pnpm dev` and verify it appears on `/about` and `/portfolio/<slug>`.
 
 ### Add a new workflow stage
 
@@ -266,93 +240,13 @@ Edit the `@theme` block at the top of `app/globals.css`. Tailwind v4 picks up th
 
 ## 6. Component conventions
 
-- **File naming**: `kebab-case.tsx` (e.g., `project-card-android.tsx`). Export the component as `PascalCase` (`ProjectCardAndroid`). One component per file unless a tiny sibling component is exclusively used by it.
+- **File naming**: `kebab-case.tsx` (e.g., `featured-carousel.tsx`). Export the component as `PascalCase` (`FeaturedCarousel`). One component per file unless a tiny sibling component is exclusively used by it.
 - **Default to RSC**. Add `"use client"` only when the component uses hooks, browser APIs, event handlers, or motion libraries. Keep client islands small — pass server-rendered children down rather than promoting whole subtrees.
 - **R3F components are always client + dynamic-imported**: `const R3FHero = dynamic(() => import('./r3f-hero'), { ssr: false })`.
 - **Props**: prefer named props over positional. Use `Readonly<{}>` for component props. No default-export for utility components; reserve default-exports for Next route files (`page.tsx`, `layout.tsx`).
-- **Composition over conditional bloat**: e.g., `ProjectCard` dispatches to `ProjectCardAndroid` / `ProjectCardOss` / `ProjectCardWeb` via a small switch; do NOT add a giant `if/else` inside one card component.
+- **Composition over conditional bloat**: when a component genuinely varies by a type/kind union, dispatch to small variant components via a switch (cf. `components/claude-chat/tool-block.tsx`); do NOT grow a giant `if/else` inside one component.
 - **`cn()` utility**: import from `lib/utils.ts`. Always use it when conditionally composing classNames. Never string-concatenate Tailwind classes by hand.
 - **No barrel files** (`index.ts` re-exports) — they hurt tree-shaking and IDE jump-to-definition.
-
-### Project schema (frozen at v2 launch — extend, don't rewrite)
-
-```ts
-// types/project.ts
-type ProjectType =
-  | "android-app"
-  | "ios-app"
-  | "web-app"
-  | "desktop-app"
-  | "oss-repo"
-  | "library"
-  | "service";
-type ProjectStatus = "live" | "beta" | "coming-soon" | "archived";
-type Chain = "bitcoin" | "ethereum" | "bsc" | "tron" | "polygon" | "solana" | "multi-chain" | "n-a";
-type Platform = "android" | "ios" | "web" | "windows" | "macos" | "linux" | "cross-platform";
-type LinkKind =
-  | "play-store"
-  | "app-store"
-  | "github"
-  | "gitlab"
-  | "website"
-  | "docs"
-  | "demo"
-  | "download"
-  | "npm"
-  | "discord"
-  | "telegram"
-  | "video";
-
-interface ProjectLink {
-  kind: LinkKind;
-  url: string;
-  label?: string;
-  primary?: boolean;
-}
-interface ProjectStat {
-  kind:
-    | "downloads"
-    | "rating"
-    | "reviews"
-    | "stars"
-    | "forks"
-    | "users"
-    | "tvl"
-    | "version"
-    | "custom";
-  value: string;
-  raw?: number;
-  label?: string;
-}
-interface ProjectMedia {
-  icon: string;
-  cover?: string;
-  screenshots?: { src: string; alt: string; device?: "phone" | "tablet" | "desktop" }[];
-  video?: string;
-  accentColor?: string;
-}
-interface Project {
-  slug: string;
-  name: string;
-  tagline: string;
-  description: string;
-  type: ProjectType;
-  status: ProjectStatus;
-  platforms: Platform[];
-  chains: Chain[];
-  category?: "explorer" | "wallet" | "messaging" | "tool" | "infra" | "experiment";
-  tags?: string[];
-  media: ProjectMedia;
-  stats: ProjectStat[];
-  links: ProjectLink[];
-  launchedAt?: string;
-  updatedAt?: string;
-  featured?: boolean;
-  hasLongForm?: boolean;
-}
-```
-
-**To add a new project type or LinkKind**: extend the union, add a renderer (or rendering branch) where the type/kind is consumed, and never widen the type to `string` to skip the work.
 
 ---
 
@@ -421,7 +315,7 @@ The floor for any client-touched route is roughly 128 KB (React 19 + Next 15 fra
 - All `<img>` go through `next/image` with explicit `width` + `height` (or `fill` + parent aspect-ratio container).
 - AVIF first, WebP fallback, raster last.
 - `priority` flag is reserved for the hero brand mark and one above-the-fold project icon — never more.
-- Project screenshots: ship at 1x + 2x in `public/projects/<slug>/`, let `next/image` srcset.
+- Screenshots/raster assets: ship at 1x + 2x and let `next/image` srcset (the PWA store screenshots under `app/pwa-screenshot-*` are code-generated).
 
 **Font rules**:
 
@@ -448,7 +342,7 @@ You MUST confirm with the user before:
 - 🛑 Upgrading any pinned major version in §2.
 - 🛑 Changing `next.config.ts`, `tsconfig.json`, ESLint or Prettier configs.
 - 🛑 Editing `.env*`, `vercel.json`, `package.json` `engines`/`scripts`, GitHub Actions workflows.
-- 🛑 Changing the `Project` / workflow content schemas (extending unions is fine; restructuring isn't).
+- 🛑 Changing the workflow content schemas (extending unions is fine; restructuring isn't).
 - 🛑 Deploying, force-pushing, or any destructive git operation (`reset --hard`, `clean -f`, branch deletion).
 - 🛑 Editing or removing `LICENSE`.
 - 🛑 Committing files with secrets (`.env*`, keys, tokens).
@@ -520,14 +414,6 @@ Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biw
 **Routines** (account-owned — the user sets them up; they open PRs for review). Exact routine prompts:
 `docs/directory-playbook.md`.
 
-### Add a new app card type (e.g., `chrome-extension`)
-
-1. Extend `ProjectType` union in `types/project.ts`.
-2. Create `components/apps/project-card-extension.tsx` rendering the variant.
-3. Add a `case "chrome-extension":` branch to the dispatcher in `components/apps/project-card.tsx`.
-4. Update `lib/projects.ts` filter helpers if the new type unlocks a new filter chip.
-5. Add an example entry to `data/projects.ts` (status `"coming-soon"` if not real yet) so the variant ships exercised.
-
 ### Add a new workflow stage
 
 1. Append a `Stage` to each product array in `content/workflow/stages.ts` (keep `brief`/`forge`/`memo` parallel — same `id`, `number`, `beats` shape, `platformNotes`, and a `transcript`).
@@ -545,11 +431,6 @@ Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biw
 2. Update `data/brand.ts` `logo.src` to the local path.
 3. Run `pnpm dev`, verify nav + footer + manifest icon.
 
-### Add an OSS repo to the showcase
-
-1. New entry in `data/projects.ts` with `type: "oss-repo"`, `status: "live"`, `platforms: ["cross-platform"]`, stats `{ kind: "stars" }` + `{ kind: "forks" }` + `{ kind: "version" }`, links `{ kind: "github", primary: true }` + `{ kind: "npm" }` if published.
-2. Drop a 512×512 icon in `public/projects/<slug>/icon.png`.
-
 ---
 
 ## 13. Domain glossary & brand asset registry
@@ -558,9 +439,7 @@ Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biw
 
 - **Vibecoding** — agentic engineering: conceptualizing, prompting, and shipping software end-to-end with an AI agent as primary author and human as architect/reviewer.
 - **Sample products** — the three fictional products narrated across `/workflow` and its artifacts: **Blokz Brief** (arxiv → paper digest), **Eval Forge** (spec → eval suite), **Edge Memo** (on-device meeting capture). Not real products — illustrative of the workflow only. (The earlier single "Blokz Receipt" placeholder was retired.)
-- **Bento masonry** — the apps grid layout: CSS Grid + manual `span` annotations on `featured` entries; not a JS masonry lib.
 - **Glass card** — the standard surface treatment (recipe in §7).
-- **Chain mark** — small monogram badge for a blockchain (BTC, ETH, BSC, TRON, MULTI).
 
 **Brand asset registry**: see `data/brand.ts` for the live source-of-truth (extracted from legacy v1 `settings.json` before cleanup). Shape includes `name`, `legalName`, `domain`, `tagline`, `positioning`, `headline` (eyebrow/title/titleAccent/sub for the hero), `logo` (PNG src/alt/width/height — swap to `/public/brand/logo.svg` once a vector is supplied), `social` (telegram/github/linkedin/twitter/gdev/email/playStore/flowPage), and `nav` (top-level routes). Add new brand-level constants here rather than hardcoding.
 
