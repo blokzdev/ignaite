@@ -70,7 +70,8 @@ export default function HomePage() {
             NOTE: this Suspense is the route's ONLY loading boundary by design —
             a loading.tsx on this segment trips vercel/next.js#86151 (soft nav
             to /?category=… stuck on the fallback forever when the query was set
-            shallowly by nuqs). See about/loading.tsx + BACKLOG.md [debt]. */}
+            shallowly by nuqs). /apps/[slug] dropped its loading.tsx for the
+            same reason. See about/loading.tsx + BACKLOG.md [debt]. */}
         <Suspense
           fallback={
             <>

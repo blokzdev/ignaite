@@ -2,8 +2,10 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { ToolCardSkeleton } from "@/components/tools/tool-card-skeleton";
 
 // Navigation placeholder for /apps/[slug] — mirrors the AppDetail zone layout
-// (masthead → stat strip → brief + dossier) so the route transition shows an
-// instant, layout-faithful skeleton. Server component (the route's loading.tsx).
+// (masthead → stat strip → brief + dossier). Currently UNREFERENCED: the
+// route's loading.tsx was removed because a loading boundary can wedge a soft
+// navigation forever (vercel/next.js#86151 — see BACKLOG.md [debt]). Restore it
+// as the route's loading.tsx once the upstream bug is fixed.
 export function AppDetailSkeleton() {
   return (
     <div className="relative pt-12 pb-28 sm:pb-24">

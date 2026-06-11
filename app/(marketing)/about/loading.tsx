@@ -7,8 +7,10 @@ import { Skeleton } from "@/components/ui/skeleton";
 // `/?category=…` can get stuck on the fallback forever when the query was only
 // ever set shallowly (nuqs replaceState) — see BACKLOG.md [debt]. So the
 // directory deliberately has NO route-level loading boundary (its page-level
-// <Suspense> fallback covers it), and /about + /contact keep theirs per-route.
-// Don't re-add a loading.tsx at the (marketing) group root.
+// <Suspense> fallback covers it), /apps/[slug] dropped its loading.tsx for the
+// same reason, and /about + /contact keep theirs per-route (no query-string
+// navigation targets here). Don't re-add a loading.tsx at the (marketing)
+// group root or on the directory/detail segments.
 export default function Loading() {
   return (
     <div className="relative px-6 pt-40 pb-32 sm:pt-44">
