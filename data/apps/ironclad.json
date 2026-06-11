@@ -1,0 +1,49 @@
+{
+  "slug": "ironclad",
+  "insight": "Founded in 2014 by an ex-lawyer and an ex-Palantir engineer via Y Combinator; valued at $3.2B in 2022 and past $200M ARR in 2025.",
+  "name": "Ironclad",
+  "tagline": "AI-native contract lifecycle management used by legal teams at OpenAI, L'Oréal, and the AP.",
+  "description": "A contract lifecycle management platform where legal and business teams draft, negotiate, store, and query agreements. Its Jurist AI assistant reviews and redlines contracts agentically against your playbooks, while AI clause classifiers and conversational search work across the whole repository. Pricing is custom enterprise quoting rather than published tiers.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Ironclad",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generative features built on frontier LLMs (AI Assist launched on GPT-4) plus proprietary clause classifiers."
+  },
+  "tags": ["contracts", "clm", "legal-ops", "redlining"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ironcladapp.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 448,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Deeper lifecycle coverage than point review tools — Jurist redlines against your playbooks inside the same platform that runs intake, workflow, and storage.",
+  "pros": [
+    "Full CLM, not just review",
+    "Jurist agentic redlining",
+    "Strong enterprise customer base",
+    "No-code workflow designer"
+  ],
+  "cons": [
+    "Enterprise pricing ($30K+/year)",
+    "No published list pricing",
+    "Implementation takes weeks"
+  ],
+  "bestFor": ["In-house legal teams", "High contract volume", "Enterprise CLM"],
+  "alternatives": ["harvey", "spellbook", "luminance", "ivo"],
+  "references": [
+    {
+      "title": "Ironclad AI Capabilities: Contract Management Deep Dive",
+      "url": "https://intuitionlabs.ai/articles/ironclad-ai-contract-management-capabilities",
+      "source": "IntuitionLabs",
+      "kind": "analysis"
+    }
+  ]
+}

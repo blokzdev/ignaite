@@ -1,0 +1,49 @@
+{
+  "slug": "boston-dynamics",
+  "insight": "Passed from Google to SoftBank to Hyundai (majority owner since 2021); its electric Atlas won Best Robot in CNET's Best of CES 2026.",
+  "name": "Boston Dynamics",
+  "tagline": "Atlas humanoid, Spot quadruped, and Stretch logistics robots from the dynamics pioneer.",
+  "description": "The Hyundai-owned robotics company behind the Atlas humanoid, the Spot quadruped, and the Stretch warehouse robot. The production electric Atlas debuted at CES 2026, with its first fleets committed to Hyundai's Metaplant and Google DeepMind and factory deployment in Savannah targeted by 2028. Spot and Stretch are already sold commercially for industrial inspection and logistics.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Boston Dynamics",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Partnering with Google DeepMind to bring foundation models to Atlas; earlier large-behavior-model work with Toyota Research Institute."
+  },
+  "tags": ["humanoid", "quadruped", "embodied-ai", "industrial"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bostondynamics.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 446,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Decades ahead in dynamic locomotion — Spot is already deployed at industrial sites while the production Atlas ships to real factory work in 2026.",
+  "pros": [
+    "Production Atlas shipping in 2026",
+    "Spot and Stretch already commercial",
+    "Google DeepMind model partnership",
+    "Clear factory deployment path"
+  ],
+  "cons": [
+    "No public pricing for Atlas",
+    "2026 Atlas fleets fully committed",
+    "Autonomy still human-supervised"
+  ],
+  "bestFor": ["Industrial automation", "Warehouse logistics", "Site inspection"],
+  "alternatives": ["figure-ai", "1x", "apptronik", "agility-robotics"],
+  "references": [
+    {
+      "title": "Hyundai and Boston Dynamics unveil humanoid robot Atlas at CES",
+      "url": "https://www.wbur.org/news/2026/01/06/hyundai-boston-dynamics-humanoid-robot-atlas",
+      "source": "WBUR",
+      "kind": "analysis"
+    }
+  ]
+}

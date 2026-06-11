@@ -1,0 +1,49 @@
+{
+  "slug": "pylon",
+  "insight": "Raised a $31M Series B co-led by a16z and Bain Capital Ventures in August 2025, bringing total funding to $51M.",
+  "name": "Pylon",
+  "tagline": "B2B support platform unifying Slack, email, and in-app channels with AI agents.",
+  "description": "A support platform built specifically for B2B companies, unifying shared Slack and Teams channels, email, in-app chat, and community into one workspace for support, success, and engineering teams. AI agents draft and resolve responses grounded in your knowledge base, with ticketing, SLAs, and a customer portal layered on top. Plans start at $59 per seat per month with a three-seat minimum.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Pylon",
+  "platforms": ["web"],
+  "tags": ["customer-support", "b2b", "slack", "ticketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://usepylon.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.usepylon.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-10",
+  "addedSeq": 447,
+  "lastVerifiedAt": "2026-06-10",
+  "edge": "Built B2B-first — shared Slack and Teams channels are first-class support queues, not an afterthought bolted onto a B2C helpdesk.",
+  "pros": [
+    "Slack/Teams channels as queues",
+    "Support + CS + engineering in one",
+    "AI agent grounded in your docs",
+    "Modern alternative to legacy desks"
+  ],
+  "cons": [
+    "No free tier; 3-seat minimum",
+    "Per-seat pricing adds up",
+    "Younger ecosystem than incumbents"
+  ],
+  "bestFor": ["B2B SaaS support teams", "Slack-first customers", "Post-sales orgs"],
+  "alternatives": ["intercom-fin", "gorgias", "decagon", "lorikeet"],
+  "references": [
+    {
+      "title": "Pylon Raises $31M Series B to Transform B2B Support",
+      "url": "https://www.builtinsf.com/articles/pylon-raises-31m-series-b-20250820",
+      "source": "Built In SF",
+      "kind": "analysis"
+    }
+  ]
+}
