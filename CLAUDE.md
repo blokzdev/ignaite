@@ -269,10 +269,10 @@ Edit the `@theme` block at the top of `app/globals.css`. Tailwind v4 picks up th
 **Mandatory rule**: every motion-bearing component ships with a `prefers-reduced-motion` fallback. No exceptions.
 
 - **Reduced-motion source-of-truth**: `useReducedMotion()` from `hooks/use-reduced-motion.ts`. The `ReducedMotionProvider` toggles `data-motion="reduce"` on `<html>` so CSS-only fallbacks work via `[data-motion="reduce"] *`.
-- **R3F components**: always client + `next/dynamic({ ssr: false })`. Wrap in a `<Suspense>` with a fast SVG/CSS-gradient placeholder so LCP is text-driven, not canvas-driven. Hydrate after `requestIdleCallback`. R3F now lives **only on the hero (`/`)** — `/workflow` is a pure chat-transcript narrative with no canvas.
+- **R3F components**: always client + `next/dynamic({ ssr: false })`. Wrap in a `<Suspense>` with a fast SVG/CSS-gradient placeholder so LCP is text-driven, not canvas-driven. Hydrate after `requestIdleCallback`. R3F now lives **only on the `/about` hero** (the `/` masthead is text + plasma, no canvas) — `/workflow` is a pure chat-transcript narrative with no canvas.
 - **Lenis**: register once in `LenisProvider` (gated to `/about` via `SMOOTH_ROUTES`; re-add a route there if you republish `/workflow`); it integrates with `motion`'s scroll utilities. No GSAP/ScrollTrigger in the codebase. Always clean up listeners in the `useEffect` return.
 - **`motion` library**: use `whileInView` with `viewport={{ once: true, amount: 0.35 }}` for entrance animations so they don't re-fire on scroll-back. Use shared `layoutId` sparingly — they're powerful but easy to mis-pair. The workflow stage segments are `motion`-driven with a sticky layout (no scrub timelines); chat bubbles reveal via a reduced-motion-safe stagger.
-- **Three.js asset budget**: the hero flow-field is the only R3F scene. No postprocessing dependency (bloom was dropped); keep it cheap. `three` MUST stay out of every chunk except `/`.
+- **Three.js asset budget**: the `/about` hero flow-field is the only R3F scene. No postprocessing dependency (bloom was dropped); keep it cheap. `three` MUST stay out of every chunk except `/about`.
 - **No confetti**: `canvas-confetti` was removed with the `/workflow` redesign — don't reintroduce it without confirming a dependency add (§11).
 
 ---
@@ -303,12 +303,13 @@ Edit the `@theme` block at the top of `app/globals.css`. Tailwind v4 picks up th
 | LCP                             | < 2.5s                      |
 | CLS                             | < 0.05                      |
 | INP                             | < 200ms                     |
-| Bundle ceiling (route `/`)      | ≤ 200KB gz (incl. R3F lazy) |
+| Bundle ceiling (route `/`)      | ≤ 200KB gz                  |
+| Bundle ceiling (`/about`)       | ≤ 200KB gz (incl. R3F lazy) |
 | Bundle ceiling (`/apps/[slug]`) | ≤ 160KB gz                  |
 | Bundle ceiling (`/workflow`)    | n/a — dormant (see §1)      |
 | Bundle ceiling (other routes)   | ≤ 140KB gz                  |
 
-The floor for any client-touched route is roughly 128 KB (React 19 + Next 15 framework chunks + shared `motion` library). The ceilings above are set ~10–15 KB above measured current numbers so reasonable additions don't regress past them. Verify with `pnpm analyze`. `three` (R3F) MUST NOT appear in chunks for routes other than `/` (the hero is the only R3F scene).
+The floor for any client-touched route is roughly 128 KB (React 19 + Next 15 framework chunks + shared `motion` library). The ceilings above are set ~10–15 KB above measured current numbers so reasonable additions don't regress past them. Verify with `pnpm analyze`. `three` (R3F) MUST NOT appear in chunks for routes other than `/about` (its hero is the only R3F scene).
 
 **Image rules**:
 
