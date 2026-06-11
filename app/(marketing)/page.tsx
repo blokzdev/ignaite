@@ -66,7 +66,11 @@ export default function HomePage() {
         {/* Fallback IS the first static HTML (ToolsBrowser bails to client via
             nuqs/useSearchParams). Reserve the carousel + filters-row space so
             hydration adds the real chrome without reflowing the grid — the grid
-            stays content-first (real cards) for LCP/SEO. */}
+            stays content-first (real cards) for LCP/SEO.
+            NOTE: this Suspense is the route's ONLY loading boundary by design —
+            a loading.tsx on this segment trips vercel/next.js#86151 (soft nav
+            to /?category=… stuck on the fallback forever when the query was set
+            shallowly by nuqs). See about/loading.tsx + BACKLOG.md [debt]. */}
         <Suspense
           fallback={
             <>

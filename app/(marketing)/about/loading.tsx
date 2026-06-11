@@ -1,8 +1,14 @@
 import { Skeleton } from "@/components/ui/skeleton";
 
-// Shared navigation skeleton for the marketing routes (/, /about, /contact).
-// Neutral masthead + content slabs so it reads fine on any of them; /apps/[slug]
-// overrides this with its own richer skeleton.
+// Per-route navigation skeleton. This used to be a single group-level
+// app/(marketing)/loading.tsx shared by /, /about and /contact, but a loading
+// boundary on the `/` segment trips an open Next.js bug
+// (https://github.com/vercel/next.js/issues/86151): a soft navigation to
+// `/?category=…` can get stuck on the fallback forever when the query was only
+// ever set shallowly (nuqs replaceState) — see BACKLOG.md [debt]. So the
+// directory deliberately has NO route-level loading boundary (its page-level
+// <Suspense> fallback covers it), and /about + /contact keep theirs per-route.
+// Don't re-add a loading.tsx at the (marketing) group root.
 export default function Loading() {
   return (
     <div className="relative px-6 pt-40 pb-32 sm:pt-44">
