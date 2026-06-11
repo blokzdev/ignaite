@@ -1,0 +1,65 @@
+{
+  "slug": "scale-ai",
+  "name": "Scale AI",
+  "tagline": "Training data, evaluations, and enterprise GenAI from the data-labeling giant.",
+  "description": "Scale supplies the human-annotated training data behind most frontier AI labs through its Data Engine, spanning labeling, RLHF, and expert red-teaming. On top of the data business it runs evaluation leaderboards, an enterprise GenAI platform, and Donovan, its platform for the US public sector.",
+  "insight": "Meta took a 49% stake for $14.3B in June 2025 at a $29B valuation; co-founder CEO Alexandr Wang left to lead Meta's AI efforts.",
+  "category": "data-ops",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Scale AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Supplies training data and evaluations for any model builder."
+  },
+  "tags": ["data-labeling", "rlhf", "evals", "training-data"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scale.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.scale.com"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 475,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Human-data operations at a scale smaller labeling platforms can't staff — expert annotator networks serving frontier-lab RLHF and eval pipelines.",
+  "pros": [
+    "Frontier-scale human data ops",
+    "Expert annotator network",
+    "Evaluation leaderboards",
+    "Public-sector offerings (Donovan)"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Meta stake raised neutrality concerns",
+    "Some labs cut engagements post-deal"
+  ],
+  "bestFor": ["Frontier training data", "RLHF pipelines", "Government AI programs"],
+  "alternatives": ["encord", "label-studio", "dataloop", "supervisely"],
+  "references": [
+    {
+      "title": "Scale AI confirms 'significant' investment from Meta as CEO Wang departs",
+      "url": "https://techcrunch.com/2025/06/13/scale-ai-confirms-significant-investment-from-meta-says-ceo-alexandr-wang-is-leaving/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "How Meta's Scale Deal Upended the AI Data Industry",
+      "url": "https://time.com/7294699/meta-scale-ai-data-industry/",
+      "source": "TIME",
+      "kind": "analysis"
+    },
+    {
+      "title": "Meta's Investment in AI Data Labeling Explained",
+      "url": "https://spectrum.ieee.org/data-labeling-scale-ai-agents",
+      "source": "IEEE Spectrum",
+      "kind": "analysis"
+    }
+  ]
+}

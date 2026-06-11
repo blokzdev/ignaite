@@ -1,0 +1,64 @@
+{
+  "slug": "prime-intellect",
+  "name": "Prime Intellect",
+  "tagline": "Open compute marketplace and RL training stack for agentic models.",
+  "description": "Prime Intellect aggregates GPUs from 50+ providers into an on-demand marketplace (1–256 GPUs with SLURM or Kubernetes orchestration) and pairs it with an open reinforcement-learning stack: the prime-rl async training framework, the Verifiers environment library, and a hub of 2,500+ community RL environments. Its INTELLECT model series demonstrates the stack at frontier scale, with weights and training recipes released openly.",
+  "insight": "Its INTELLECT-1 was the first 10B-param model trained over decentralized nodes across 3 continents; Andrej Karpathy is a backer.",
+  "category": "infra",
+  "pricing": "paid",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "Prime Intellect",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Train, fine-tune, and deploy open models; the INTELLECT series is released openly."
+  },
+  "tags": ["gpu-compute", "reinforcement-learning", "decentralized-training", "open-models"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.primeintellect.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.primeintellect.ai"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/PrimeIntellect-ai"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 477,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Pairs a multi-cloud GPU spot marketplace with an open RL training stack — peers typically offer the compute or the training tooling, rarely both.",
+  "pros": [
+    "Multi-cloud GPU marketplace",
+    "Open-source RL stack (prime-rl)",
+    "2,500+ RL environments hub",
+    "Open INTELLECT model recipes"
+  ],
+  "cons": [
+    "Younger than major GPU clouds",
+    "RL stack targets advanced users",
+    "Spot capacity varies by provider"
+  ],
+  "bestFor": ["RL post-training", "Open-model builders", "Budget GPU compute"],
+  "alternatives": ["runpod", "lambda", "modal", "together-ai"],
+  "references": [
+    {
+      "title": "Prime Intellect funding, news & analysis",
+      "url": "https://sacra.com/c/prime-intellect/",
+      "source": "Sacra",
+      "kind": "analysis"
+    },
+    {
+      "title": "Prime Intellect Releases INTELLECT-1, Trained Collaboratively Across the Globe",
+      "url": "https://www.marktechpost.com/2024/11/29/prime-intellect-releases-intellect-1-instruct-base-the-first-10b-parameter-language-model-collaboratively-trained-across-the-globe/",
+      "source": "MarkTechPost",
+      "kind": "analysis"
+    }
+  ]
+}
