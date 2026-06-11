@@ -9,6 +9,7 @@ import { ToolsBrowser } from "@/components/tools/tools-browser";
 import { brand } from "@/data/brand";
 import { apps as allApps } from "@/.velite";
 import { buildMetadata, siteUrl } from "@/lib/seo";
+import { BATCH_SIZE, recentApps } from "@/lib/tools/filter-apps";
 
 export const metadata: Metadata = buildMetadata({
   title: "AI Apps Directory",
@@ -66,7 +67,11 @@ export default function HomePage() {
         {/* Fallback IS the first static HTML (ToolsBrowser bails to client via
             nuqs/useSearchParams). Reserve the carousel + filters-row space so
             hydration adds the real chrome without reflowing the grid — the grid
-            stays content-first (real cards) for LCP/SEO.
+            stays content-first (real cards) for LCP/SEO. It renders exactly the
+            hydrated grid's FIRST BATCH (active, newest-first — same comparator)
+            rather than all ~460 listings: that kept / at ~6.6 MB of HTML for
+            content no visitor ever saw. Crawl coverage of the full directory
+            lives on /category/[slug] + /categories + the sitemap.
             NOTE: this Suspense is the route's ONLY loading boundary by design —
             a loading.tsx on this segment trips vercel/next.js#86151 (soft nav
             to /?category=… stuck on the fallback forever when the query was set
@@ -77,7 +82,7 @@ export default function HomePage() {
             <>
               <FeaturedCarouselSkeleton />
               <div aria-hidden className="mb-6 h-8" />
-              <ToolGrid items={allApps} />
+              <ToolGrid items={recentApps(allApps, BATCH_SIZE)} />
             </>
           }
         >
@@ -85,6 +90,9 @@ export default function HomePage() {
         </Suspense>
       </div>
 
+      {/* Slim CollectionPage — the old 459-entry hasPart blob (~40 KB of HTML
+          on every load) moved to the per-category CollectionPages, where 5–40
+          entries is the right altitude; the sitemap carries full coverage. */}
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -92,11 +100,7 @@ export default function HomePage() {
           name: `${brand.name} — AI Apps Directory`,
           url: siteUrl,
           description: metadata.description ?? undefined,
-          hasPart: allApps.map((a) => ({
-            "@type": "SoftwareApplication",
-            name: a.name,
-            url: a.links.find((l) => l.primary)?.url ?? a.links[0]?.url,
-          })),
+          numberOfItems: total,
         }}
       />
     </div>

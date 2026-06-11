@@ -4,7 +4,7 @@ import type { App } from "@/types/app";
 import { cn, formatDate } from "@/lib/utils";
 import { StatScroller } from "@/components/detail/stat-scroller";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
-import { facetHref } from "@/lib/tools/facet-links";
+import { categoryHref, facetHref } from "@/lib/tools/facet-links";
 import { LICENSE_LABEL, licenseSignal } from "@/lib/tools/license";
 import {
   DEPLOYMENT_LABEL,
@@ -60,9 +60,11 @@ export function StatStrip({ app, accent }: Readonly<{ app: App; accent: string }
       />
       <StatScroller>
         <Cell label="Category">
+          {/* Category goes to its static landing page (the canonical browse
+              surface); every other facet keeps the interactive deep-link. */}
           <Link
-            href={facetHref("category", app.category)}
-            aria-label={`Category: ${CATEGORY_LABEL[app.category]} — browse matching apps`}
+            href={categoryHref(app.category)}
+            aria-label={`Category: ${CATEGORY_LABEL[app.category]} — view category page`}
             className={cn(linkCls, TONE.ink)}
           >
             {CATEGORY_LABEL[app.category]}

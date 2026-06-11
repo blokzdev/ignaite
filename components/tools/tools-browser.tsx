@@ -11,7 +11,7 @@ import {
   saveDirectoryQuery,
   saveDirectoryReturn,
 } from "@/lib/tools/directory-session";
-import { countMatches, filterApps } from "@/lib/tools/filter-apps";
+import { countMatches, filterApps, BATCH_SIZE } from "@/lib/tools/filter-apps";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import {
   CATEGORY_LABEL,
@@ -28,7 +28,6 @@ interface Props {
   apps: ReadonlyArray<App>;
 }
 
-const BATCH_SIZE = 24;
 // Serializes the current filter state back into its canonical "?…" query string
 // (defaults omitted, same encoding the parsers read) for the per-tab session
 // memory that powers the detail page's back-to-results crumb.

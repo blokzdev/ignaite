@@ -16,6 +16,7 @@ import { alternativeApps, relatedApps } from "@/lib/apps";
 import { cn } from "@/lib/utils";
 import { siteUrl } from "@/lib/seo";
 import { buildAppJson, buildAppMarkdown } from "@/lib/tools/app-export";
+import { categoryHref } from "@/lib/tools/facet-links";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { PLATFORM_LABEL } from "@/lib/tools/app-labels";
 import type { App } from "@/types/app";
@@ -246,7 +247,11 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
 
       {/* Alternatives / Related — full-width below the zones. */}
       {railApps.length > 0 && (
-        <RelatedRail categoryLabel={CATEGORY_LABEL[app.category]} title={railTitle}>
+        <RelatedRail
+          categoryLabel={CATEGORY_LABEL[app.category]}
+          title={railTitle}
+          viewAllHref={categoryHref(app.category)}
+        >
           {railApps.map((r) => (
             <li key={r.slug} className="flex w-[320px] shrink-0 snap-start sm:w-[380px]">
               <ToolCard app={r} />
