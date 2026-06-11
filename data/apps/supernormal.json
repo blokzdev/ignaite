@@ -1,0 +1,53 @@
+{
+  "slug": "supernormal",
+  "insight": "Raised a $10M seed led by Balderton (2023); in 2025 it pivoted from meeting notetaker to an AI agent that drafts client deliverables.",
+  "name": "Supernormal",
+  "tagline": "AI meeting notes that turn calls into finished decks, docs, and action items.",
+  "description": "Supernormal joins your Google Meet, Zoom, and Microsoft Teams calls to record, transcribe, and write structured notes with summaries and assigned action items the moment a meeting ends. Beyond notes, it now drafts post-meeting deliverables — slides, spreadsheets, and documents — from the meeting context plus connected files. Notes push automatically to Notion, Slack, Salesforce, HubSpot, and Google Drive.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Supernormal",
+  "platforms": ["web", "macos"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Built on OpenAI models (GPT-4o)."
+  },
+  "tags": ["meetings", "notetaker", "transcription", "action-items", "agency"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.supernormal.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.supernormal.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 469,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Goes past the transcript — turns a meeting into finished decks, docs, and spreadsheets, where most notetakers stop at a summary.",
+  "pros": [
+    "Auto-drafts post-meeting deliverables",
+    "Notes pushed to Notion, Slack, Salesforce",
+    "Free tier with unlimited meetings",
+    "Action items assigned to attendees"
+  ],
+  "cons": [
+    "Deliverable quality still needs review",
+    "Sends a bot into the call",
+    "Credit-based pricing can be hard to predict"
+  ],
+  "bestFor": ["Agencies & client teams", "Back-to-back meetings", "Sales/CS calls"],
+  "alternatives": ["fathom", "fireflies", "otter-ai", "circleback"],
+  "references": [
+    {
+      "title": "Supernormal raises $10M to transcribe and summarize meetings",
+      "url": "https://techcrunch.com/2023/01/25/supernormal-raises-10m-to-automatically-transcribe-and-summarize-meetings/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "compose-ai",
+  "insight": "A Y Combinator (W21) company backed by Craft Ventures; grew past 1M users with little marketing spend.",
+  "name": "Compose AI",
+  "tagline": "AI autocomplete and writing assistance inline across Gmail, Docs, and the web.",
+  "description": "Compose AI is a browser extension that adds AI-powered autocomplete and text generation directly into the fields you already type in — Gmail, Google Docs, and most web apps. It finishes sentences as you write, drafts full emails from a one-line instruction, rephrases text, and supports custom shortcuts to expand snippets. The core extension is free, with a premium tier for personalization features.",
+  "category": "browser-extension",
+  "vendor": "Compose AI",
+  "pricing": "freemium",
+  "platforms": ["browser-extension", "web"],
+  "tags": ["writing", "autocomplete", "email", "chrome-extension"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.compose.ai",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://chromewebstore.google.com/detail/compose-ai-ai-powered-wri/ddlbpiadoechcolndfeaonajmngmhblj",
+      "label": "Chrome Web Store"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 473,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Lives inline as autocomplete wherever you type — Gmail, Docs, the web — rather than a separate chat window you copy answers out of.",
+  "pros": [
+    "Inline autocomplete anywhere you type",
+    "Drafts full emails from one instruction",
+    "Free core tier",
+    "Custom text-expansion shortcuts"
+  ],
+  "cons": [
+    "Chromium browsers only",
+    "Best for short-form writing, not long docs",
+    "Personalization features gated to premium"
+  ],
+  "bestFor": ["Email-heavy roles", "Fast everyday writing", "Repetitive replies"],
+  "alternatives": ["monica", "maxai", "merlin-ai", "wordtune"],
+  "references": [
+    {
+      "title": "Compose AI Review — Free Chrome extension to automate writing",
+      "url": "https://originality.ai/blog/compose-ai-review",
+      "source": "Originality.AI",
+      "kind": "review"
+    }
+  ]
+}
