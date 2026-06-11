@@ -1,0 +1,51 @@
+{
+  "slug": "napkin-ai",
+  "insight": "Built by the founders of Osmo (sold to Byju's for $120M); launched from stealth in Aug 2024 with $10M from Accel and CRV.",
+  "name": "Napkin AI",
+  "tagline": "Turn your text into editable diagrams, charts, and infographics — no prompting.",
+  "description": "Napkin AI generates business visuals directly from text you already wrote: paste a paragraph, click, and it produces diagrams, flowcharts, scenes, and infographics with no prompt required. The AI reads context and relationships and offers multiple visual options you can recolor, restyle, and edit, then export as PPT, PNG, PDF, or SVG. It supports 60+ languages and real-time team collaboration.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Napkin AI",
+  "platforms": ["web"],
+  "tags": ["diagrams", "infographics", "visuals", "presentations"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.napkin.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 472,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Generates editable, on-brand diagrams straight from your existing text — no prompting — where most tools make static images or need a blank canvas.",
+  "pros": [
+    "No prompting — visuals come from your text",
+    "Fully editable output (recolor, restyle)",
+    "Exports to PPT, PNG, PDF, SVG",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Best for diagrams, not freeform illustration",
+    "Style range narrower than general image tools",
+    "Premium templates gated to paid"
+  ],
+  "bestFor": ["Docs & blog visuals", "Pitch decks", "Explaining processes"],
+  "alternatives": ["gamma", "canva", "recraft", "uizard"],
+  "references": [
+    {
+      "title": "Napkin turns text into visuals with generative AI",
+      "url": "https://techcrunch.com/2024/08/07/napkin-turns-text-into-visuals-with-a-bit-of-generative-ai/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "How these ex-Google engineers raised $10M for their AI startup",
+      "url": "https://www.inc.com/brian-contreras/how-these-ex-google-engineers-raised-10-million-for-their-ai-startup.html",
+      "source": "Inc.",
+      "kind": "interview"
+    }
+  ]
+}

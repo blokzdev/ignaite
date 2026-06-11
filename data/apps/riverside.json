@@ -1,0 +1,49 @@
+{
+  "slug": "riverside",
+  "insight": "Founded in 2019 by brothers Gideon and Nadav Keyson; raised a $30M Series C in Dec 2024 (≈$77M total).",
+  "name": "Riverside",
+  "tagline": "Record studio-quality podcasts and video remotely, then edit with AI.",
+  "description": "Riverside is a browser-based studio that records each participant locally in separate tracks — up to 4K video and uncompressed audio — so quality isn't tied to anyone's internet connection. Its AI layer handles text-based editing, filler-word and background-noise removal, automatic clip generation, show notes, captions, and translation/dubbing into 30+ languages. A 2025 chat-based editor lets creators cut and repurpose footage by talking to an agent.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "RiversideFM",
+  "platforms": ["web", "macos", "ios", "android"],
+  "tags": ["podcast", "recording", "video", "transcription", "clips"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://riverside.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://riverside.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 470,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Records every participant locally in separate tracks (up to 4K), so quality survives a weak connection — unlike cloud-only recorders.",
+  "pros": [
+    "Local per-track recording up to 4K",
+    "Text-based and chat-based AI editing",
+    "Auto clips, show notes, captions",
+    "AI translation/dubbing in 30+ languages"
+  ],
+  "cons": [
+    "Local upload can be slow on weak hardware",
+    "AI editing polish trails dedicated NLEs",
+    "Higher tiers needed for long recordings"
+  ],
+  "bestFor": ["Podcasters", "Remote video interviews", "Content repurposing"],
+  "alternatives": ["descript", "adobe-podcast", "opus-clip", "captions"],
+  "references": [
+    {
+      "title": "Riverside raises $30M Series C for its recording platform",
+      "url": "https://techcrunch.com/2024/12/09/riverside-raises-30-million-series-c-to-expand-its-podcast-and-video-recording-platform/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

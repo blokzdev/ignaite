@@ -1,0 +1,45 @@
+{
+  "slug": "loudly",
+  "insight": "Built by the team behind Music Maker JAM; its model trains on a proprietary, consent-licensed catalog rather than scraped music.",
+  "name": "Loudly",
+  "tagline": "Generate royalty-free music from text, built on a fully licensed catalog.",
+  "description": "Loudly is an AI music platform that generates studio-quality, royalty-free tracks from a text prompt or a chosen genre and mood in seconds. It adds a remix studio, stem splitter, and sample-pack generator, plus a distribution add-on that ships finished tracks to Spotify, Apple Music, YouTube, and 40+ platforms. The Berlin company stresses that its model is trained only on its own consent-licensed music dataset, not scraped audio.",
+  "category": "music",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Loudly",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Loudly's proprietary music-generation model."
+  },
+  "tags": ["music-gen", "royalty-free", "text-to-music", "stems"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.loudly.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.loudly.com/music/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 471,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Royalty-free output from a fully licensed training catalog, so tracks are commercially safe in a way scraped-data generators can't promise.",
+  "pros": [
+    "Trained on a consent-licensed catalog",
+    "100% royalty-free, commercial-safe output",
+    "Stem export and remix studio",
+    "Optional distribution to Spotify/Apple Music"
+  ],
+  "cons": [
+    "Free tier is exploration-only (30s, 1 download)",
+    "Less prompt fidelity than Suno/Udio",
+    "No vocals/lyric generation"
+  ],
+  "bestFor": ["Creators needing safe BGM", "Brands & ads", "Video soundtracks"],
+  "alternatives": ["suno", "udio", "soundraw", "mubert"]
+}
