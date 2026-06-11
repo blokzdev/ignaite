@@ -1,0 +1,58 @@
+{
+  "slug": "cvat",
+  "insight": "Built inside Intel in 2017 atop the VATIC video tool and open-sourced in 2018; the team spun out as CVAT.ai in 2022.",
+  "name": "CVAT",
+  "tagline": "Open-source annotation platform for vision AI datasets.",
+  "description": "Data-labeling suite for images, video, and 3D: bounding boxes, polygons, segmentation, keypoints, and object tracking, with AI-assisted labeling via SAM and custom models through its API and SDK. Ships as the MIT-licensed Community edition to self-host, the hosted CVAT Online with free and paid plans, or a self-hosted Enterprise tier.",
+  "category": "vision",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "CVAT.ai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "AI-assisted labeling via SAM 2/3 or custom models connected through the API/SDK."
+  },
+  "tags": ["annotation", "labeling", "computer-vision", "datasets"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cvat.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/cvat-ai/cvat"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.cvat.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.cvat.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 463,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "One of the most widely deployed open-source CV labeling tools — millions of self-hosted installs, deep video tooling, and free MIT self-hosting.",
+  "pros": [
+    "Free MIT-licensed self-hosted edition",
+    "Boxes, polygons, keypoints, 3D, and video",
+    "SAM 2/3-assisted auto-labeling",
+    "Large community: 15k+ GitHub stars"
+  ],
+  "cons": ["Self-hosting needs Docker ops effort", "Annotation only — no model training built in"],
+  "bestFor": ["CV dataset labeling", "Self-hosted annotation", "Video annotation"],
+  "alternatives": ["label-studio", "roboflow", "encord", "supervisely"],
+  "references": [
+    {
+      "title": "What is CVAT (Computer Vision Annotation Tool)?",
+      "url": "https://blog.roboflow.com/cvat/",
+      "source": "Roboflow Blog",
+      "kind": "guide"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "crusoe",
+  "insight": "Began converting stranded natural gas into compute for Bitcoin mining; sold that business to NYDIG in 2025 to focus entirely on AI.",
+  "name": "Crusoe",
+  "tagline": "Energy-first AI cloud and gigawatt-scale AI data centers.",
+  "description": "Vertically integrated AI infrastructure company: Crusoe Cloud offers NVIDIA and AMD GPU clusters with managed Kubernetes and managed inference, while its data-center arm develops and powers gigawatt-scale 'AI factories' — including OpenAI's 1.2 GW Stargate campus in Abilene, Texas, which Crusoe built and co-owns.",
+  "category": "inference",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Crusoe",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "GPU cloud runs any model or framework; Crusoe Managed Inference layers on top."
+  },
+  "tags": ["gpu-cloud", "data-centers", "energy", "training", "inference"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.crusoe.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.crusoecloud.com"
+    }
+  ],
+  "addedAt": "2026-06-11",
+  "addedSeq": 461,
+  "lastVerifiedAt": "2026-06-11",
+  "edge": "Builds and powers its own data centers — energy-first siting brings gigawatt-scale capacity online without waiting on utility grid constraints.",
+  "pros": [
+    "Owns power generation and data centers end to end",
+    "NVIDIA GB200/B200 and AMD MI300-class GPUs",
+    "Managed Kubernetes and inference services",
+    "Carbon-conscious siting: flare gas, renewables"
+  ],
+  "cons": [
+    "Pricing is sales-led rather than self-serve",
+    "Smaller services catalog than hyperscalers"
+  ],
+  "bestFor": ["Gigawatt-scale training", "Energy-conscious AI teams"],
+  "alternatives": ["coreweave", "nebius", "lambda", "runpod"],
+  "references": [
+    {
+      "title": "Crusoe Adds 4.5 GW Natural Gas to Fuel AI, Expands Abilene to 1.2 GW",
+      "url": "https://www.datacenterfrontier.com/hyperscale/article/55276169/crusoe-adds-45-gw-natural-gas-to-fuel-ai-expands-abilene-data-center-to-12-gw",
+      "source": "Data Center Frontier",
+      "kind": "analysis"
+    }
+  ]
+}
