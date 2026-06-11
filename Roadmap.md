@@ -70,12 +70,15 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | Q     | PWA — hand-rolled service worker + custom install prompt + `/offline`                   | #116      | ✅     |
 | R     | Detail-page DEX refit + state-aware back-crumb + enriched per-app share-card OG (Geist) | #120–#131 | ✅     |
 | S     | Homepage/directory elevation — masthead plasma, hero slogan, mobile quick-sort          | #132–#137 | ✅     |
-| T     | Sort overhaul (two-field + flip, dropdown z-fix) + fresh recent rail                    | #144      | 🟦     |
-| U     | Featured rotation — `/rotate-featured` routine + `featuredAt` field (biweekly)          | —         | 🟦     |
+| T     | Sort overhaul (two-field + flip, dropdown z-fix) + fresh recent rail                    | #144      | ✅     |
+| U     | Featured rotation — `/rotate-featured` routine + `featuredAt` field (biweekly)          | #145      | ✅     |
+| V-1   | Performance + SEO — 39 SSG category pages + link mesh + 82% homepage HTML cut           | #161      | ✅     |
+| V-2   | Performance + SEO — structured-data pack, tag deep-links, llms.txt, JSON feed           | #162      | ✅     |
+| V-3   | Performance + SEO — CSP/security headers, build-stamped SW, LHCI fix, portfolio removal | #163      | ✅     |
 
 ---
 
-## Iteration 9 — Directory browse & discovery freshness (Chunks T–U) 🟦 in progress
+## Iteration 9 — Directory browse & discovery freshness (Chunks T–U) ✅ complete
 
 The screenshot-driven follow-up to the directory work: fix the sort control and keep the two
 discovery rails from going stale.
@@ -87,10 +90,40 @@ discovery rails from going stale.
   `lib/tools/sort.ts`), active-row highlight instead of the radio dot, and a deterministic slug
   tie-break for bulk same-day adds. The **Recently-added** carousel now shuffles the 30 newest per
   visit (was a static top-14).
-- **Chunk U — Featured rotation.** New biweekly `/rotate-featured` routine + optional `featuredAt`
+- **Chunk U — Featured rotation (#145).** New biweekly `/rotate-featured` routine + optional `featuredAt`
   schema field: features one strong active app across ~14 random categories, rotates the prior set
   out (changelog per change), opens a PR. Keeps the Featured carousel fresh + spreads the spotlight
   across all 39 categories over ~3 cycles.
+
+---
+
+## Iteration 10 — Performance + SEO (Chunk V) ✅ complete
+
+The measurement-driven sweep: three audits (perf payloads, SEO surface, infra/docs) scoped one
+chunk across three sequential PRs — make the directory's scale crawlable, cut what nobody
+downloads, and harden the edges.
+
+- **Chunk V-1 — Category pages + homepage diet (#161).** 39 pure-RSC `/category/[slug]` landing
+  pages (zero route JS) + a `/categories` cluster hub closed the biggest SEO gap (categories
+  existed only as `/?category=` query state — zero indexable URLs). Internal-link mesh: detail
+  stat-strip category cell, related-rail "View all", footer Browse block, +40 sitemap entries with
+  audit-driven `lastModified`. Homepage static fallback trimmed from ALL ~460 cards to the hydrated
+  grid's exact first batch: **6.58 MB → 1.20 MB raw HTML (659 → 278 KB gz)**, also fixing a
+  fallback-vs-hydrated card-order mismatch.
+- **Chunk V-2 — Machine-readable pack (#162).** SoftwareApplication JSON-LD enriched (`sameAs`,
+  honest per-tier `offers` — paid apps get none rather than a fabricated price), BreadcrumbList
+  via the category pages, WebSite+SearchAction, `<time dateTime>` freshness. Tag chips became
+  `/?q=` deep-links (793 free-form tags, 59% singletons → no tag pages; curated pages BACKLOG'd).
+  Build-generated `/llms.txt` + `/llms-full.txt` (llmstxt.org) and `/feed.json` (JSON Feed 1.1,
+  50 newest), advertised via a site-wide feed alternate in `buildMetadata()`.
+- **Chunk V-3 — Headers, SW stamp, removal (#163).** CSP + COOP/Referrer/nosniff/Permissions
+  headers in `next.config.ts` (SSG-compatible: `'unsafe-inline'` script/style, preview-only
+  vercel.live allowances, dev-only `'unsafe-eval'`). `public/sw.js` → build-stamped
+  `app/sw.js/route.ts` (cache name embeds the deploy SHA → byte-diff → reinstall → fresh
+  `/offline` precache; closes the stale-precache debt). `lighthouserc.json` stopped auditing the
+  dead `/portfolio/blockchair` redirect in favor of `/category/agent`. And the dormant
+  **portfolio track was fully removed** (code/data/assets; archive = git `12c3978`; inbound
+  redirects retained; `images.remotePatterns` dropped, tightening `img-src` to `'self' data:`).
 
 ---
 
