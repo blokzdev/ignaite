@@ -1,0 +1,58 @@
+{
+  "slug": "endex",
+  "insight": "OpenAI Startup Fund led its $14M round in 2025 after Endex built an autonomous financial analyst on o1 as an early design partner.",
+  "name": "Endex",
+  "tagline": "AI financial analyst agent built natively into Excel.",
+  "description": "Endex is an AI financial analyst built natively into Microsoft Excel for institutional finance teams. Its agent runs long multi-step tasks — building three-statement models, DCFs, and presentation decks — grounded in a firm's internal data, public disclosures, and trusted financial sources, with custom LLMs tuned for financial documents. It is deployed at investment banks, private-equity firms, and hedge funds, with SOC 2 and ISO 27001 compliance and zero-data-retention agreements with model providers.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Endex",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "o-series"],
+    "notes": "Combines OpenAI frontier models with custom LLMs built for financial documents."
+  },
+  "tags": ["finance", "excel", "agent", "financial-modeling"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://endex.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 489,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Works natively inside Excel itself, building auditable three-statement models and DCFs in the grid where finance teams already work.",
+  "pros": [
+    "Native Excel integration",
+    "Runs multi-hour modeling tasks",
+    "Zero-data-retention model deals",
+    "SOC 2 and ISO 27001 compliant"
+  ],
+  "cons": ["Enterprise-only, waitlist access", "No public pricing", "Excel-bound workflow"],
+  "bestFor": ["Investment banking", "Private equity", "Hedge fund analysts"],
+  "alternatives": ["rogo", "hebbia", "fiscal-ai"],
+  "references": [
+    {
+      "title": "Building an autonomous financial analyst with o1 and o3-mini",
+      "url": "https://openai.com/index/endex/",
+      "source": "OpenAI",
+      "kind": "analysis"
+    },
+    {
+      "title": "Endex.ai raises $14M led by OpenAI Startup Fund to bring AI agents into Excel",
+      "url": "https://techstartups.com/2025/08/06/endex-ai-raises-14m-in-funding-led-by-openai-startup-fund-to-bring-ai-agents-directly-into-excel/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    },
+    {
+      "title": "Meet Tarun Amasa, the Duke dropout who secured a $14 million deal with OpenAI",
+      "url": "https://www.dukechronicle.com/article/duke-university-tarun-amasa-co-founder-endex-ai-financial-analyst-open-ai-14-million-dollars-20250826",
+      "source": "The Duke Chronicle",
+      "kind": "interview"
+    }
+  ]
+}
