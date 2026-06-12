@@ -1,0 +1,45 @@
+{
+  "slug": "camb-ai",
+  "name": "CAMB.AI",
+  "insight": "Dubs live sport in real time for Ligue 1, NASCAR and IMAX, and delivered the first publicly released AI-dubbed theatrical film.",
+  "tagline": "Real-time AI dubbing, translation, and voice for content, entertainment, and live sports.",
+  "description": "A localization AI platform for real-time dubbing, translation, and multilingual voice generation. Its in-house MARS speech models power live commentary for broadcasters and on-demand dubbing for film and OTT, preserving each speaker's voice and emotional tone. Spans live and file-based dubbing, text-to-speech, subtitles, and image translation across 50+ languages.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "CAMB.AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "In-house MARS speech and BOLI translation model families (50M–1.2B parameters)."
+  },
+  "tags": ["dubbing", "localization", "live-sports", "text-to-speech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.camb.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 498,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Purpose-built for live broadcast — real-time, multi-speaker dubbing at stadium scale, where most rivals only translate uploaded files.",
+  "pros": [
+    "Real-time dubbing of live streams",
+    "Preserves speaker voice and emotion",
+    "In-house speech models, API access",
+    "Proven at Ligue 1 / NASCAR / IMAX scale"
+  ],
+  "cons": ["Broadcast/enterprise-first focus", "Proprietary models only"],
+  "bestFor": ["Live sports broadcasts", "Film & OTT localization", "Multilingual live events"],
+  "alternatives": ["elevenlabs", "heygen", "deepl"],
+  "references": [
+    {
+      "title": "Dubbing Startup CAMB.AI Raises USD 4M in Seed Round",
+      "url": "https://slator.com/dubbing-startup-camb-ai-raises-usd-4m-in-seed-round/",
+      "source": "Slator",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "dust",
+  "name": "Dust",
+  "insight": "Founded by ex-OpenAI engineer Stanislas Polu; raised a $40M Series B led by Sequoia and Abstract in May 2026.",
+  "tagline": "Enterprise platform for building and sharing custom AI agents on company knowledge.",
+  "description": "An enterprise AI platform where teams build custom agents over shared company knowledge and reuse them org-wide. Connectors pull in Slack, Notion, Google Drive, and other workspace tools; each agent can run on a choice of frontier models. Used by 3,000+ organizations with over 300,000 agents deployed.",
+  "category": "agent",
+  "pricing": "paid",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Dust",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Mistral", "Gemini"],
+    "notes": "Pick the model per agent across major frontier providers."
+  },
+  "tags": ["agents", "enterprise", "knowledge", "connectors"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://dust.tt",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/dust-tt/dust"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://dust.tt/home/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 501,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Org-wide 'multiplayer' AI over shared company knowledge — agents are built once and reused across teams, not siloed per user.",
+  "pros": [
+    "Agents shareable across the org",
+    "Broad workspace connector library",
+    "Per-agent choice of frontier models",
+    "MIT-licensed open codebase"
+  ],
+  "cons": ["No free tier beyond a 14-day trial", "Per-seat cost scales with org size"],
+  "bestFor": ["Enterprise AI rollouts", "Internal knowledge agents", "Cross-team agent sharing"],
+  "alternatives": ["glean", "lindy", "relevance-ai", "crewai"],
+  "references": [
+    {
+      "title": "Sequoia backs AI agents scaleup Dust in $40m Series B",
+      "url": "https://sifted.eu/articles/dust-series-b-40m",
+      "source": "Sifted",
+      "kind": "analysis"
+    },
+    {
+      "title": "Dust raises $40M to make AI multiplayer inside the enterprise",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/dust-raises-40m-ai-multiplayer-133000633.html",
+      "source": "Yahoo Finance",
+      "kind": "analysis"
+    }
+  ]
+}

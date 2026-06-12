@@ -1,0 +1,41 @@
+{
+  "slug": "spiral",
+  "name": "Spiral",
+  "insight": "Built by Dan Shipper's AI media company Every; Spiral 4.0 went agent-native with MCP, CLI, and API access.",
+  "tagline": "An AI writing partner that learns your voice and keeps it consistent everywhere.",
+  "description": "An AI writing partner from Every that uses stylometry — analysis of your linguistic patterns — to build a profile of your voice and write in it. It interviews you before drafting, produces three parallel versions to mix and match, and carries your style from tweets to long-form essays.",
+  "category": "writing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Every",
+  "platforms": ["web", "api", "cli"],
+  "tags": ["writing", "voice-matching", "stylometry", "content"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://writewithspiral.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 500,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Goes deeper on voice-matching than generic AI writers — a stylometry-built profile of your prose keeps drafts in your register, not the model's.",
+  "pros": [
+    "Learns your voice from samples",
+    "Three parallel drafts to remix",
+    "Agent access via MCP, CLI, API",
+    "Built on Every's editorial standards"
+  ],
+  "cons": ["No free tier", "Prose-focused; not a general assistant"],
+  "bestFor": ["Newsletter writers", "Founders writing in public", "Repurposing work in your voice"],
+  "alternatives": ["lex", "wordtune", "sudowrite", "type"],
+  "references": [
+    {
+      "title": "Spiral: The AI writing partner with taste",
+      "url": "https://www.producthunt.com/products/spiral-8",
+      "source": "Product Hunt",
+      "kind": "review"
+    }
+  ]
+}
