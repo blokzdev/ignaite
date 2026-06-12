@@ -1,0 +1,58 @@
+{
+  "slug": "edison-scientific",
+  "name": "Edison Scientific",
+  "tagline": "Kosmos, the AI scientist — autonomous literature and data-analysis research runs.",
+  "insight": "Spun out of the Eric Schmidt-funded nonprofit FutureHouse in Nov 2025, raising a $70M seed at a ~$250M valuation weeks later.",
+  "description": "The for-profit spinout commercializing nonprofit lab FutureHouse's scientific agents. Its flagship Kosmos runs autonomous research campaigns — iterating data analysis, literature search, and hypothesis generation across roughly 1,500 papers per run — and returns fully cited research reports. The Edison Platform took over FutureHouse's hosted literature agents, with the first Kosmos runs free for academic researchers.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Edison Scientific",
+  "platforms": ["web", "api"],
+  "tags": ["ai-scientist", "literature-review", "biology", "drug-discovery"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.edisonscientific.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "label": "Edison Platform",
+      "url": "https://platform.edisonscientific.com"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 493,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Kosmos runs multi-hour autonomous campaigns over ~1,500 papers and returns reports where every conclusion links back to code or citations.",
+  "pros": [
+    "Every finding linked to code or citations",
+    "First six Kosmos runs free for academics",
+    "Lineage in FutureHouse's PaperQA agents",
+    "On-prem deployment for enterprises",
+    "SOC 2 Type II compliant"
+  ],
+  "cons": [
+    "$200 per Kosmos run after the free quota",
+    "Synthesized conclusions ~58% accurate in validation",
+    "Focused on biology and chemistry domains",
+    "Runs take hours — built for depth, not speed"
+  ],
+  "bestFor": ["Biopharma R&D teams", "Academic researchers", "Deep literature reviews"],
+  "alternatives": ["elicit", "consensus", "undermind", "scite"],
+  "references": [
+    {
+      "title": "FutureHouse spinout Edison lands $70M to build autonomous AI scientists",
+      "url": "https://techfundingnews.com/edison-raises-70m-ai-scientist-platform/",
+      "source": "Tech Funding News",
+      "kind": "analysis"
+    },
+    {
+      "title": "Introducing Kosmos: 'AI Scientist' That Makes Discoveries Overnight",
+      "url": "https://www.alzforum.org/news/research-news/introducing-kosmos-ai-scientist-makes-discoveries-overnight",
+      "source": "ALZFORUM",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "claude-cowork",
+  "name": "Claude Cowork",
+  "tagline": "Claude Code's agentic harness, repointed at non-coding knowledge work.",
+  "insight": "Microsoft picked Claude over its OpenAI stack to power Copilot Cowork, the Microsoft 365 counterpart it launched in March 2026.",
+  "description": "Anthropic's agentic desktop mode that completes multi-step knowledge work end-to-end. Point it at local folders and connected apps and it organizes files, builds spreadsheets, and prepares reports — showing its plan for approval before significant actions. Launched as a research preview in January 2026, it is now included in every paid Claude plan on macOS and Windows.",
+  "category": "agent",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Anthropic",
+  "platforms": ["macos", "windows"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Claude Opus", "Claude Sonnet"],
+    "notes": "Anthropic-only; runs on your existing paid Claude plan."
+  },
+  "accentColor": "#D97757",
+  "tags": ["agentic", "desktop", "knowledge-work", "automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://claude.com/product/cowork",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 491,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Brings Claude Code's local-file agent harness to non-developers — it edits real files in scoped folders, not just chat outputs.",
+  "pros": [
+    "Completes multi-step file tasks end-to-end",
+    "Scoped folder access with plan approval",
+    "Bundled into existing paid Claude plans",
+    "Slack, Chrome, and Zoom connectors"
+  ],
+  "cons": [
+    "Desktop-only — no web or mobile version",
+    "Requires a paid Claude plan",
+    "Anthropic models only",
+    "Long agentic runs can burn plan usage limits"
+  ],
+  "bestFor": ["Knowledge workers", "Ops and finance teams", "Report and file automation"],
+  "alternatives": ["manus", "genspark", "openclaw"],
+  "references": [
+    {
+      "title": "Claude Cowork expands to all paid plans on macOS and Windows",
+      "url": "https://the-decoder.com/claude-cowork-expands-to-all-paid-plans-on-macos-and-windows-with-new-org-controls/",
+      "source": "The Decoder",
+      "kind": "analysis"
+    },
+    {
+      "title": "Microsoft Launches Copilot Cowork, Powered by Anthropic's Claude",
+      "url": "https://winbuzzer.com/2026/03/10/microsoft-copilot-cowork-anthropic-claude-m365-agent-xcxwbn/",
+      "source": "WinBuzzer",
+      "kind": "analysis"
+    }
+  ]
+}

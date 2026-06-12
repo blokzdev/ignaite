@@ -1,0 +1,52 @@
+{
+  "slug": "opera-neon",
+  "name": "Opera Neon",
+  "tagline": "Opera's subscription agentic browser — built to act, not just browse.",
+  "insight": "The $19.90/month subscription bundles premium third-party model access — Gemini 3 Pro, GPT-5.1, Veo 3.1, and Nano Banana Pro.",
+  "description": "An agentic AI browser from Opera built around three agents: Neon Chat answers with page and history context, Do executes tasks directly on web pages, and Make generates mini-apps, sites, and documents. Tasks group related tabs and chats into workspaces, Cards package repeatable prompt workflows, and the ODRA agent compiles sourced deep-research reports. Opened to the public in December 2025 after an invite-only waitlist.",
+  "category": "assistant",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Opera",
+  "platforms": ["windows", "macos"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-agnostic engine; the subscription bundles premium models such as Gemini 3 Pro, GPT-5.1, Veo 3.1, and Nano Banana Pro."
+  },
+  "accentColor": "#FF1B2D",
+  "tags": ["browser", "agentic", "multi-model", "deep-research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.operaneon.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 492,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Agent-first where rivals bolt chat onto browsing — Do acts on live pages and Make builds mini-apps, beyond the sidebar-assistant browsers.",
+  "pros": [
+    "Chat, Do, and Make agents built in",
+    "Premium frontier models in one subscription",
+    "Cards make prompt workflows repeatable",
+    "ODRA deep-research agent cites sources",
+    "Built-in VPN and ad blocker"
+  ],
+  "cons": [
+    "Subscription-only — no free tier",
+    "$19.90/month where rival AI browsers are free",
+    "Explicitly experimental; features change weekly",
+    "Desktop-only (Windows and macOS)"
+  ],
+  "bestFor": ["AI early adopters", "Agentic browsing", "Multi-model power users"],
+  "alternatives": ["comet", "dia", "chatgpt-atlas"],
+  "references": [
+    {
+      "title": "Opera wants you to pay $20 a month to use its AI-powered browser Neon",
+      "url": "https://techcrunch.com/2025/12/11/opera-wants-you-to-pay-20-a-month-to-use-its-ai-powered-browser-neon/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
