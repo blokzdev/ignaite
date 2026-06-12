@@ -1,0 +1,55 @@
+{
+  "slug": "mindgard",
+  "insight": "Spun out of a decade of AI-security research at Lancaster University; has publicly disclosed 100+ AI vulnerabilities.",
+  "name": "Mindgard",
+  "tagline": "Automated AI red teaming and security testing for models and agents.",
+  "description": "Mindgard is an automated AI red-teaming and security-testing platform that runs attacker-aligned tests — prompt injection, jailbreaks, model extraction, agent misuse — against LLM applications, agents, and multimodal models. It discovers AI assets, tests continuously through CI/CD and Burp Suite integrations, and adds runtime guardrails informed by findings. The Lancaster University spinout is SOC 2 Type 2 certified and operates from London and Boston.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Mindgard",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Tests third-party and in-house LLMs, agents, and multimodal systems alike."
+  },
+  "tags": ["security", "red-teaming", "llm-security", "pentesting"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mindgard.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 490,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Attacker-aligned testing built from academic security research, covering models, agents, and multimodal systems — not just prompt-injection checklists.",
+  "pros": [
+    "Research-grade attack library",
+    "CI/CD and Burp Suite integration",
+    "Covers agents + multimodal models",
+    "SOC 2 Type 2 certified"
+  ],
+  "cons": [
+    "No public pricing",
+    "Enterprise-oriented sales motion",
+    "Smaller vendor than incumbents"
+  ],
+  "bestFor": ["AI security teams", "Red teamers", "Enterprises shipping LLM apps"],
+  "alternatives": ["lakera", "hiddenlayer", "prompt-security", "xbow"],
+  "references": [
+    {
+      "title": "5 Best AI Red Teaming Tools to Find AI Security Vulnerabilities in 2026",
+      "url": "https://www.confident-ai.com/knowledge-base/compare/best-ai-red-teaming-tools-2026",
+      "source": "Confident AI",
+      "kind": "comparison"
+    },
+    {
+      "title": "Best AI Red Teaming Providers: Top 10 Vendors in 2026",
+      "url": "https://www.mend.io/blog/best-ai-red-teaming-providers/",
+      "source": "Mend.io",
+      "kind": "comparison"
+    }
+  ]
+}

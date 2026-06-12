@@ -1,0 +1,57 @@
+{
+  "slug": "definely",
+  "insight": "Born after co-founder Feargus MacDaeid, a blind Freshfields lawyer, needed to read defined terms without leaving the clause at hand.",
+  "name": "Definely",
+  "tagline": "AI contract drafting, review, and proofing suite inside Microsoft Word.",
+  "description": "Definely is a Microsoft Word add-in suite that helps lawyers draft, review, and proof complex contracts. Its products — Draft, Proof, Vault, Cascade, and Enhance — surface defined terms and cross-references without leaving the clause, catch inconsistencies and broken references, and run AI-assisted review and contract changes. The London company is used by 150+ law firms and in-house teams and integrates with iManage, NetDocuments, and SharePoint.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Definely",
+  "platforms": ["web"],
+  "tags": ["legal", "contracts", "word-addin", "drafting", "proofreading"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.definely.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 488,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Goes deep on the unglamorous drafting work — definitions, cross-references, proofing — inside Word rather than bolting a chat panel onto legal review.",
+  "pros": [
+    "Native Microsoft Word workflow",
+    "Used by 150+ law firms",
+    "iManage + NetDocuments integrations",
+    "SOC 2 and ISO 27001 certified"
+  ],
+  "cons": [
+    "No public pricing — demo first",
+    "Tied to the Word workflow",
+    "Focused on pre-execution drafting"
+  ],
+  "bestFor": ["Law firm associates", "In-house counsel", "Contract-heavy teams"],
+  "alternatives": ["spellbook", "ivo", "luminance", "legora"],
+  "references": [
+    {
+      "title": "Legal tech platform Definely raises $30M Series B",
+      "url": "https://techcrunch.com/2025/06/12/legal-tech-platform-definely-raises-30m-series-b-to-make-contract-reviewing-more-efficient/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Definely raises $30m — we speak to co-founder/CEO Nnamdi Emelifeonwu",
+      "url": "https://legaltechnology.com/2025/06/09/definely-raises-30m-we-speak-to-co-founder-ceo-nnamdi-emelifeonwu/",
+      "source": "Legal IT Insider",
+      "kind": "interview"
+    },
+    {
+      "title": "Designing for the Edge: Definely's AI-Powered Contract Navigation",
+      "url": "https://www.geeklawblog.com/2025/06/designing-for-the-edge-feargus-macdaeid-and-nnamdi-emelifeonwu-on-definelys-ai-powered-contract-navigation.html",
+      "source": "3 Geeks and a Law Blog",
+      "kind": "interview"
+    }
+  ]
+}

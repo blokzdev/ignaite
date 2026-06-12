@@ -1,0 +1,56 @@
+{
+  "slug": "corti",
+  "insight": "Raised a $60M Series B in 2023; in May 2026 it reported its Symphony model outscoring OpenAI on HealthBench Professional.",
+  "name": "Corti",
+  "tagline": "Clinical-grade AI platform and APIs for healthcare developers.",
+  "description": "Corti is an AI platform for healthcare and life-science developers, offering clinical-grade APIs for medical speech-to-text, coding, and text generation plus an agentic framework with pre-built agents. Its proprietary Symphony model family powers more than a million clinical interactions a week, and the platform ships with FedRAMP, HIPAA, SOC 2, and ISO 13485 compliance plus an EU sovereign-cloud option. The Copenhagen company first made its name detecting cardiac arrests in live emergency calls.",
+  "category": "healthcare",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Corti",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Symphony"],
+    "notes": "Serves its own clinical-grade models, led by the Symphony family, via API."
+  },
+  "tags": ["healthcare", "clinical-ai", "speech-to-text", "medical-coding", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.corti.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 487,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Clinical-grade healthcare APIs with FedRAMP, HIPAA, and ISO 13485 compliance built in — regulatory depth general speech or LLM APIs don't carry.",
+  "pros": [
+    "Free $50 credits to prototype",
+    "FedRAMP, HIPAA, SOC 2, ISO 13485",
+    "Purpose-built clinical models",
+    "EU sovereign-cloud option"
+  ],
+  "cons": [
+    "Usage-based costs add up at scale",
+    "Healthcare-only scope",
+    "Smaller ecosystem than big clouds"
+  ],
+  "bestFor": ["Health-tech developers", "Clinical documentation", "Medical coding"],
+  "alternatives": ["abridge", "nabla", "ambience-healthcare", "heidi-health"],
+  "references": [
+    {
+      "title": "Corti will go public but not in 2026, says AI healthcare startup's CEO",
+      "url": "https://www.cnbc.com/2025/12/30/corti-will-go-public-but-not-in-2026-says-ai-healthcare-startups-ceo.html",
+      "source": "CNBC",
+      "kind": "interview"
+    },
+    {
+      "title": "Corti launches no-equity accelerator for healthcare AI startups",
+      "url": "https://tech.eu/2026/05/13/corti-launches-no-equity-accelerator-for-healthcare-ai-startups/",
+      "source": "Tech.eu",
+      "kind": "analysis"
+    }
+  ]
+}
