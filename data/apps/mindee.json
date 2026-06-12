@@ -1,0 +1,54 @@
+{
+  "slug": "mindee",
+  "insight": "Mindee created and maintains docTR, a widely used open-source deep-learning OCR library (mindee/doctr on GitHub).",
+  "name": "Mindee",
+  "tagline": "AI document-processing API that turns files into structured data.",
+  "description": "Mindee is a developer-first document-AI platform that converts photos, PDFs, and scans — invoices, receipts, IDs, financial and mail documents — into structured JSON through a single REST API, with no model training required. Beyond extraction it handles document splitting, classification, and cropping, and ships SDKs for Python, Java, PHP, and more. Billing is credit-based per page processed.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mindee",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own document-extraction models; no model training or BYO-key required."
+  },
+  "tags": ["document-ai", "ocr", "idp", "extraction", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.mindee.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.mindee.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.mindee.com"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/mindee/doctr"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 479,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Plug-and-play REST API with pretrained models for common document types — no training step — backed by the team behind the open-source docTR OCR library.",
+  "pros": [
+    "Pretrained APIs, no model training",
+    "Single API call per document",
+    "SDKs for Python, Java, PHP, more",
+    "Transparent per-page credit pricing",
+    "Open-source docTR OCR heritage"
+  ],
+  "cons": [
+    "Hosted API is proprietary",
+    "Credit costs scale with page volume",
+    "Custom doc types need a custom model"
+  ],
+  "bestFor": ["Invoice/receipt parsing", "Developer document pipelines", "KYC/ID extraction"],
+  "alternatives": ["nanonets", "reducto", "docling", "unstructured"]
+}

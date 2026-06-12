@@ -1,0 +1,45 @@
+{
+  "slug": "browse-ai",
+  "name": "Browse AI",
+  "tagline": "Scrape and monitor data from any website with no code.",
+  "description": "Browse AI lets you train a 'robot' by pointing at the data you want on a web page; it learns the pattern and then extracts that data on demand, on a schedule, or watches the page and alerts you when it changes. Results export to Google Sheets, Airtable, CSV/JSON, or a REST API, and connect onward through Zapier and Make. Built-in change monitoring and scheduled alerts make it suited to price tracking, job and listing alerts, and competitor watching.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Browse AI",
+  "platforms": ["web", "api", "browser-extension"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Uses its own AI to learn extraction patterns from a demonstrated example; no model choice exposed."
+  },
+  "tags": ["web-scraping", "monitoring", "no-code", "automation", "change-detection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.browse.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.browse.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 480,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Built-in change detection and scheduled alerts as first-class features — not just one-off scraping — so you can monitor a page over time, no code.",
+  "pros": [
+    "No-code: train a robot by example",
+    "Scheduled monitoring + change alerts",
+    "Exports to Sheets, Airtable, API",
+    "Integrates with Zapier and Make",
+    "Free tier to try on one site"
+  ],
+  "cons": [
+    "Credit-based limits can bind at scale",
+    "Proprietary, cloud-only",
+    "Brittle on heavy anti-bot sites"
+  ],
+  "bestFor": ["Price/competitor monitoring", "No-code data extraction", "Scheduled web alerts"],
+  "alternatives": ["apify", "firecrawl", "browser-use", "thunderbit"]
+}

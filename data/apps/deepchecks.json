@@ -1,0 +1,50 @@
+{
+  "slug": "deepchecks",
+  "insight": "Began as an open-source library for continuous validation of ML models and data, then extended into LLM evaluation.",
+  "name": "Deepchecks",
+  "tagline": "Testing-first evaluation and monitoring for LLM and ML systems.",
+  "description": "Deepchecks brings a testing-first approach to AI quality. Its open-source Python library validates ML models and data from research through production, and the LLM Evaluation product extends that into continuous validation of LLM applications — measuring quality, performance, and pitfalls across experimentation and production with CI/CD hooks. Enterprise deployment runs in VPC, on-prem, or bare metal for teams that can't use cloud-hosted eval.",
+  "category": "eval",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Deepchecks",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Evaluates any LLM- or ML-based application regardless of the underlying model."
+  },
+  "tags": ["eval", "llm-testing", "ml-validation", "observability", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://deepchecks.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/deepchecks/deepchecks"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.deepchecks.com"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 482,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Roots in classic ML validation give a testing-first model, plus VPC/on-prem/bare-metal deployment for teams that can't send evals to the cloud.",
+  "pros": [
+    "Open-source core (AGPL-3.0)",
+    "Testing-first, CI/CD-friendly evals",
+    "VPC, on-prem, bare-metal options",
+    "Covers both ML and LLM validation"
+  ],
+  "cons": [
+    "AGPL-3.0 may not suit all teams",
+    "Hosted platform pricing is steep",
+    "Breadth adds setup overhead"
+  ],
+  "bestFor": ["LLM app evaluation", "Regulated/on-prem teams", "ML + LLM validation"],
+  "alternatives": ["giskard", "deepeval", "ragas", "promptfoo"]
+}

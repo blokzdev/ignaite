@@ -1,0 +1,63 @@
+{
+  "slug": "clarifai",
+  "insight": "Founded in 2013 by Matthew Zeiler, whose deep-learning model won that year's ImageNet (ILSVRC) image-classification challenge.",
+  "name": "Clarifai",
+  "tagline": "Full-stack AI platform for computer vision and LLMs.",
+  "description": "Clarifai is a full-stack AI platform for building with unstructured image, video, text, and audio data. It pairs production computer-vision models — classification, detection, visual search — with a model hub for LLMs, plus data labeling, training of custom models, and inference, all behind one API and console. A free Community tier lets you discover and run models before moving to paid usage plans.",
+  "category": "vision",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Clarifai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Hosts and serves a catalog of vision and language models plus user-trained custom models behind one API."
+  },
+  "tags": ["computer-vision", "model-hub", "data-labeling", "inference", "mlops"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.clarifai.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.clarifai.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.clarifai.com"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 481,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "One of the longest-running production computer-vision platforms, spanning labeling, custom model training, and inference for vision and LLMs in a single stack.",
+  "pros": [
+    "Mature, end-to-end vision stack",
+    "Labeling + training + inference in one",
+    "Free Community tier to start",
+    "Model hub for vision and LLMs"
+  ],
+  "cons": [
+    "Broad platform has a learning curve",
+    "Operations-based pricing can surprise",
+    "Divested compute-orchestration arm (2026)"
+  ],
+  "bestFor": ["Production computer vision", "Custom vision models", "Enterprise AI platforms"],
+  "alternatives": ["roboflow", "landing-ai", "voxel51", "dataloop"],
+  "references": [
+    {
+      "title": "Clarifai",
+      "url": "https://en.wikipedia.org/wiki/Clarifai",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    },
+    {
+      "title": "Nebius snaps up Clarifai's compute orchestration tech and talent",
+      "url": "https://siliconangle.com/2026/05/12/nebius-snaps-clarifais-compute-orchestration-tech-talent-enhance-ai-inference/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}

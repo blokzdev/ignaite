@@ -1,0 +1,59 @@
+{
+  "slug": "crowdin",
+  "insight": "Founded in 2009 in Ternopil, Ukraine; localizes Minecraft, Khan Academy and 3M+ accounts' worth of projects.",
+  "name": "Crowdin",
+  "tagline": "AI localization platform for software, docs, and content.",
+  "description": "Crowdin is a translation-management platform that automates localizing apps, websites, games, and documentation. Strings flow in through 700+ integrations and 100+ file formats, then get translated via crowdsourcing, translation memory, and AI/machine-translation suggestions, with branching and an API/CLI to keep localization in sync with the codebase. Crowdin Enterprise adds data residency, SSO, and custom workflows.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Crowdin",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["GPT", "Claude", "Gemini"],
+    "notes": "AI translation routes to OpenAI, Google, and Anthropic models; AI usage is billed at the providers' direct API rates with no Crowdin markup."
+  },
+  "tags": ["localization", "translation", "i18n", "translation-memory", "developer-tools"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://crowdin.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://crowdin.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://support.crowdin.com"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 478,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Passes AI translation through at the provider's raw API rate (no markup), and is free for open-source and personal projects.",
+  "pros": [
+    "700+ integrations, 100+ file formats",
+    "AI billed at provider rates, no markup",
+    "Free for open-source and personal use",
+    "Git-style branching for strings",
+    "API + CLI for CI localization"
+  ],
+  "cons": [
+    "Proprietary, hosted SaaS",
+    "Data residency gated to Enterprise",
+    "Per-string/seat costs add up at scale"
+  ],
+  "bestFor": ["Software localization", "Open-source projects", "Continuous i18n"],
+  "alternatives": ["lokalise", "phrase", "smartcat", "lilt"],
+  "references": [
+    {
+      "title": "Crowdin",
+      "url": "https://en.wikipedia.org/wiki/Crowdin",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
+}
