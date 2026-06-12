@@ -1,0 +1,45 @@
+{
+  "slug": "arcads",
+  "insight": "Profitable within months of its 2024 launch with just seven employees, then raised a $16M Eurazeo-led seed at $10M ARR.",
+  "name": "Arcads",
+  "tagline": "AI video ads with realistic UGC-style actors in minutes.",
+  "description": "A video ad generator for performance marketers: pick from 1,000+ licensed AI actors or create a custom avatar, feed it a script, and get social-ready UGC-style ads with emotion control, captions, and B-roll. Localizes campaigns into 30+ languages and supports product demo, unboxing, and fashion try-on formats. Its workflow canvas lets ad teams batch and iterate variants together.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Arcads",
+  "platforms": ["web"],
+  "accentColor": "#F97316",
+  "tags": ["video-ads", "ugc", "ai-actors", "performance-marketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.arcads.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 497,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Purpose-built for performance marketers: 1,000+ AI actors with emotion control churn out UGC-style ad variants, not general-purpose video.",
+  "pros": [
+    "1,000+ licensed AI actors",
+    "30+ languages for localization",
+    "Emotion control for realistic reads",
+    "Workflow canvas for ad teams"
+  ],
+  "cons": [
+    "No free tier; subscription only",
+    "Pricing not public until signup",
+    "Ads-focused, not general video"
+  ],
+  "bestFor": ["Performance marketers", "DTC brands", "UGC ad testing"],
+  "alternatives": ["heygen", "synthesia", "adcreative-ai"],
+  "references": [
+    {
+      "title": "Arcads.ai Raises 16 Million USD in Seed Funding",
+      "url": "https://finance.yahoo.com/news/arcads-ai-raises-16-million-171500044.html",
+      "source": "Yahoo Finance"
+    }
+  ]
+}

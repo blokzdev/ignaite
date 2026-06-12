@@ -1,0 +1,63 @@
+{
+  "slug": "posthog",
+  "insight": "Born in Y Combinator's W20 batch; the company says 98% of its customers use it entirely for free.",
+  "name": "PostHog",
+  "tagline": "Open-source product analytics with LLM observability built in.",
+  "description": "A product analytics platform that folds session replay, feature flags, experiments, and a data warehouse into one stack. Its LLM analytics suite tracks traces, token costs, latency, and model errors for AI products, with automatic clustering that groups traces by behavior. Usage-based pricing with a generous free tier on every product.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "PostHog",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "LLM analytics captures traces and costs across providers via SDKs and integrations (OpenAI, Anthropic, LiteLLM, …)."
+  },
+  "accentColor": "#F54E00",
+  "tags": ["product-analytics", "llm-analytics", "session-replay", "feature-flags"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://posthog.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "kind": "docs",
+      "url": "https://posthog.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://posthog.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 494,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Folds LLM analytics into the same platform as product analytics, replay and flags — one stack instead of a separate AI-observability tool.",
+  "pros": [
+    "Generous free tier (1M events/mo)",
+    "Open source, self-hostable",
+    "LLM analytics + replay + flags in one",
+    "Usage-based pricing scales down"
+  ],
+  "cons": [
+    "Product breadth can overwhelm small teams",
+    "Self-hosting supported at hobby scale only",
+    "Lighter agent tracing than dedicated LLM-obs tools"
+  ],
+  "bestFor": ["Product engineers", "AI app teams", "All-in-one analytics"],
+  "alternatives": ["langfuse", "helicone", "langsmith"],
+  "references": [
+    {
+      "title": "PostHog Analytics 2026: Deep-Dive Review + Alternatives",
+      "url": "https://userpilot.com/blog/posthog-analytics/",
+      "source": "Userpilot",
+      "kind": "review"
+    }
+  ]
+}
