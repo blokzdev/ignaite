@@ -1,0 +1,62 @@
+{
+  "slug": "cerebrium",
+  "name": "Cerebrium",
+  "insight": "Cape Town-founded and YC-backed; raised an $8.5M seed led by Gradient in 2025 to scale its real-time serverless GPU platform.",
+  "tagline": "Serverless GPU infrastructure for real-time AI — voice, video, and LLM workloads.",
+  "description": "A serverless GPU platform for deploying real-time AI workloads — voice agents, video models, and LLMs — with cold starts in seconds, instant autoscaling, and multi-region failover. Bring custom code, Dockerfiles, or frameworks like vLLM and pay per second of compute across 12+ GPU types.",
+  "category": "infra",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cerebrium",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["gpu", "serverless", "real-time", "voice-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cerebrium.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://cerebrium.ai/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.cerebrium.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 499,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Tuned for real-time voice and video agents: cold starts in seconds, 12+ GPU types, and multi-region failover under a per-second usage bill.",
+  "pros": [
+    "2–4s cold starts, scale-to-zero",
+    "12+ GPU types up to B200",
+    "Multi-region deploys + failover",
+    "SOC 2, HIPAA, GDPR compliant"
+  ],
+  "cons": [
+    "$100/mo base on the Standard tier",
+    "Hobby tier capped at 3 apps, 5 GPUs",
+    "Younger platform, smaller community"
+  ],
+  "bestFor": ["Real-time voice agents", "Low-latency inference", "Multi-region AI services"],
+  "alternatives": ["modal", "runpod", "baseten", "beam"],
+  "references": [
+    {
+      "title": "SA's Cerebrium raises $8.5m to scale serverless AI platform",
+      "url": "https://disruptafrica.com/2025/07/09/sas-cerebrium-raises-8-5m-funding-to-scale-leading-high-performance-serverless-ai-platform/",
+      "source": "Disrupt Africa",
+      "kind": "analysis"
+    },
+    {
+      "title": "Cerebrium Raises $8.5 Million in Seed Round",
+      "url": "https://www.thesaasnews.com/news/cerebrium-raises-8-5-million-in-seed-round",
+      "source": "The SaaS News",
+      "kind": "analysis"
+    }
+  ]
+}
