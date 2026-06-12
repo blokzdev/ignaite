@@ -1,0 +1,61 @@
+{
+  "slug": "fieldai",
+  "insight": "Raised $405M across two 2025 rounds at a ~$2B valuation, backed by Bezos Expeditions, Gates Frontier, and Nvidia's NVentures.",
+  "name": "FieldAI",
+  "tagline": "One autonomy brain for all robots.",
+  "description": "FieldAI builds embodiment-agnostic foundation models that act as a general-purpose 'brain' for robots, letting a single autonomy stack drive many different robot bodies. Its risk-aware Field Foundation Models use a Belief World Model to operate in dynamic, unmapped environments without GPS or predefined trajectories. The company targets construction, industrial, energy, mining, and other real-world deployments.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "FieldAI",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Field Foundation Models"],
+    "notes": "Risk-aware, embodiment-agnostic robot foundation models that run on-robot."
+  },
+  "tags": ["robot-foundation-model", "embodied-ai", "autonomy"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fieldai.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.fieldai.com/news",
+      "label": "News"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 483,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Risk-aware, embodiment-agnostic foundation models: one 'robot brain' that drives many robot bodies without maps, GPS, or predefined trajectories.",
+  "pros": [
+    "Embodiment-agnostic: one brain, many robots",
+    "Risk-aware 'Belief World Model'",
+    "Works without maps, GPS, or set routes",
+    "Backed by Bezos, Gates, and Nvidia"
+  ],
+  "cons": [
+    "Enterprise-only, no public pricing",
+    "Aimed at robot makers, not end users",
+    "Early in commercial deployment"
+  ],
+  "bestFor": ["Robot OEMs", "Industrial autonomy", "Embodied AI teams"],
+  "alternatives": ["physical-intelligence", "skild-ai", "figure-ai", "wayve"],
+  "references": [
+    {
+      "title": "FieldAI raises $405M to build universal robot brains",
+      "url": "https://techcrunch.com/2025/08/20/fieldai-raises-405m-to-build-universal-robot-brains/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Robotics startup FieldAI, backed by Gates and Bezos, hits $2B valuation",
+      "url": "https://www.geekwire.com/2025/robotics-startup-fieldai-backed-by-gates-and-bezos-hits-2b-valuation-after-latest-funding/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}

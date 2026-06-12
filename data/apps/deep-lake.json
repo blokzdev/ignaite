@@ -1,0 +1,45 @@
+{
+  "slug": "deep-lake",
+  "insight": "Backed by Y Combinator and Samsung Next; raised an $11M Series A to bring its open-source 'database for AI' to the enterprise.",
+  "name": "Deep Lake",
+  "tagline": "Multimodal database for AI — vectors plus raw data, versioned.",
+  "description": "Deep Lake, by Activeloop, is a database for AI that stores vectors alongside raw multimodal data — text, image, video, audio, and metadata — in a single version-controlled format. It supports cross-modal queries and can stream data straight into training, and its open-source core can be self-hosted or run as a managed service. The newer Deep Lake PG unifies a serverless Postgres with its vector and tensor engine.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Activeloop",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["vector-database", "multimodal", "data-lake", "versioning"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.activeloop.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/activeloopai/deeplake"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 486,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Unifies vectors with raw multimodal data (text, image, video, audio) in one version-controlled store you can stream straight into model training.",
+  "pros": [
+    "Open-source core (self-host or cloud)",
+    "Multimodal: text, image, video, audio",
+    "Data versioning + streaming to training",
+    "Serverless Postgres + vector engine"
+  ],
+  "cons": [
+    "Smaller community than Pinecone/Qdrant",
+    "No public pricing on managed tier",
+    "More a data engine than a drop-in DB"
+  ],
+  "bestFor": ["Multimodal AI data", "Training data lakes", "Deep learning teams"],
+  "alternatives": ["lancedb", "pinecone", "qdrant", "weaviate"]
+}

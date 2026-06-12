@@ -1,0 +1,50 @@
+{
+  "slug": "cluely",
+  "insight": "Founders Roy Lee and Neel Shanmugam were suspended from Columbia in 2025 over Interview Coder, the cheating tool that became Cluely.",
+  "name": "Cluely",
+  "tagline": "Real-time AI meeting assistant — answers and notes during the call.",
+  "description": "Cluely is a desktop and mobile assistant that listens to your meetings, interviews, and sales calls and surfaces real-time notes and answers as an on-screen overlay. It markets an 'undetectable' mode that hides the overlay from screen-sharing software so other participants can't see it. The startup launched in April 2025 and raised $15M from Andreessen Horowitz, repositioning from its viral 'cheat on everything' origins into a mainstream meeting assistant.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Cluely",
+  "platforms": ["macos", "windows", "ios"],
+  "tags": ["meeting-assistant", "real-time", "notetaker", "overlay"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cluely.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://cluely.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 484,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Runs as an invisible desktop overlay that can stay hidden from screen-sharing software, rather than joining the call as a visible meeting bot.",
+  "pros": [
+    "Real-time, in-call answers and notes",
+    "Works over any meeting or call app",
+    "Free Starter tier",
+    "iOS plus Mac and Windows apps"
+  ],
+  "cons": [
+    "'Undetectable' mode raises consent concerns",
+    "Hidden mode costs $149.99/mo",
+    "Reputation from its 'cheating' origins",
+    "No Android app"
+  ],
+  "bestFor": ["Sales calls", "Live interviews", "In-call notes"],
+  "alternatives": ["otter-ai", "granola", "fathom", "read-ai"],
+  "references": [
+    {
+      "title": "Cluely, a startup that helps 'cheat on everything,' raises $15M from a16z",
+      "url": "https://techcrunch.com/2025/06/20/cluely-a-startup-that-helps-cheat-on-everything-raises-15m-from-a16z/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
