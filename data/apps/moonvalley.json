@@ -1,0 +1,56 @@
+{
+  "slug": "moonvalley",
+  "insight": "Raised $154M from backers incl. CAA, CoreWeave and Comcast Ventures to train Marey exclusively on licensed footage — no scraped data.",
+  "name": "Moonvalley",
+  "tagline": "Cinematic AI video generation from a fully licensed model.",
+  "description": "An AI research company whose Marey model generates text-to-video and image-to-video with cinematography-grade controls — pose transfer, camera moves, motion transfer, and trajectory control. Trained exclusively on owned and licensed high-resolution footage, it targets filmmakers and studios that need commercially safe output. Available as a web app, with API access via Fal and ComfyUI integrations.",
+  "category": "video",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Moonvalley AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Marey"],
+    "notes": "Proprietary Marey model trained only on licensed footage."
+  },
+  "accentColor": "#C8C2B6",
+  "tags": ["video-generation", "filmmaking", "licensed-data", "image-to-video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.moonvalley.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 495,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Built for filmmakers: pose, camera and motion-transfer controls on a fully licensed model make it the safe pick for commercial productions.",
+  "pros": [
+    "Trained only on licensed footage",
+    "Fine camera/pose/motion controls",
+    "Commercially safe for client work",
+    "API via Fal plus ComfyUI nodes"
+  ],
+  "cons": [
+    "No free plan or trial",
+    "Credits expire each billing cycle",
+    "Stylized look over raw photorealism"
+  ],
+  "bestFor": ["Filmmakers", "Commercial production", "Copyright-sensitive teams"],
+  "alternatives": ["runway", "kling", "sora", "higgsfield"],
+  "references": [
+    {
+      "title": "Moonvalley's 'ethical' AI video model for filmmakers is now publicly available",
+      "url": "https://techcrunch.com/2025/07/08/moonvalleys-ethical-ai-video-model-for-filmmakers-is-now-publicly-available/",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Can Ethical AI Work in Hollywood? This Startup Thinks So",
+      "url": "https://time.com/7300636/ai-hollywood-moonvalley-marey/",
+      "source": "TIME",
+      "kind": "analysis"
+    }
+  ]
+}
