@@ -1,0 +1,46 @@
+{
+  "slug": "type",
+  "insight": "Y Combinator–backed; raised a $2.8M seed round to build an AI-native document editor for writers.",
+  "name": "Type",
+  "tagline": "The AI-native document editor for long-form writing.",
+  "description": "Type is a web-based document editor with AI woven directly into the writing surface, letting you summon writing commands and an iterative chat without leaving the page. It targets long-form work — books, screenplays, and stories — with character, scene, and world-building tools and drafts up to 150,000 words. A free perpetual tier covers drafts, with paid plans for power users.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Type",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Writing commands and chat run on state-of-the-art LLMs."
+  },
+  "tags": ["writing", "document-editor", "long-form", "authors"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://type.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://type.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 485,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "A full long-form editor: handles book-length drafts up to 150,000 words with character, scene, and world-building tools, not just inline AI prompts.",
+  "pros": [
+    "Familiar, distraction-free editor",
+    "Long-form: up to 150k words per doc",
+    "Character, scene & world-building tools",
+    "Free perpetual drafts tier",
+    "Export to DOCX, PDF, or AI audio"
+  ],
+  "cons": [
+    "Web-only — no desktop or mobile apps",
+    "Skews to fiction over business docs",
+    "Smaller and newer than incumbents"
+  ],
+  "bestFor": ["Novelists", "Screenwriters", "Long-form writers"],
+  "alternatives": ["sudowrite", "novelai", "lex", "jenni"]
+}
