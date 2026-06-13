@@ -1,0 +1,49 @@
+{
+  "slug": "agno",
+  "insight": "Rebranded from Phidata in early 2025; its 2.0 release added AgentOS, a FastAPI runtime for serving agents in production.",
+  "name": "Agno",
+  "tagline": "High-performance Python framework for multi-agent systems.",
+  "description": "Agno is an open-source Python framework for building multi-agent systems with memory, knowledge, tools, and reasoning. Agents are fast to instantiate and can be composed into teams, and the companion AgentOS runtime serves them in production as a FastAPI app with a control plane.",
+  "category": "orchestration",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Agno",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Model-agnostic — pass any provider's models; abstracts function calling across OpenAI, Anthropic, and others."
+  },
+  "tags": ["agents", "multi-agent", "framework", "agentos", "python"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://agno.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/agno-agi/agno"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.agno.com"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 557,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Built for speed and scale — agents instantiate near-instantly with low memory, and ship to production via the bundled AgentOS FastAPI runtime.",
+  "pros": [
+    "Fast agent instantiation, low memory use",
+    "Multi-modal agents and agent teams",
+    "Bundled AgentOS production runtime",
+    "Model- and provider-agnostic"
+  ],
+  "cons": [
+    "Younger than LangChain and LlamaIndex",
+    "Rapid changes since the Phidata rename",
+    "Smaller community and ecosystem"
+  ],
+  "bestFor": ["Multi-agent systems", "Production agent runtimes", "Python developers"],
+  "alternatives": ["crewai", "langgraph", "pydantic-ai", "mastra"]
+}

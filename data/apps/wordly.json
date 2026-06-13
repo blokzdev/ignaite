@@ -1,0 +1,49 @@
+{
+  "slug": "wordly",
+  "insight": "Has powered over 1 billion minutes of live AI translation for 6M users across 120 countries, with $200M+ saved versus human interpreters.",
+  "name": "Wordly",
+  "tagline": "Real-time AI translation and captions for meetings and events.",
+  "description": "Wordly delivers real-time AI translation, live captions, transcripts, and summaries for meetings and events across dozens of languages — no special equipment or human interpreters required. It works with Zoom, Teams, Google Meet, Webex, and in-person events, and attendees join translated audio or captions from a browser or the mobile app.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Wordly",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Proprietary real-time speech-translation and captioning pipeline across dozens of languages."
+  },
+  "tags": ["translation", "captions", "interpretation", "events", "meetings"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wordly.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 553,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Purpose-built for live events: one hourly rate bundles translation, captions, transcripts, and summaries across dozens of languages, no hardware.",
+  "pros": [
+    "Real-time translation + captions for live events",
+    "Works with Zoom, Teams, Meet, and Webex",
+    "No hardware or human interpreters needed",
+    "Attendees join from a browser or phone"
+  ],
+  "cons": [
+    "No free tier — hourly paid pricing",
+    "Accuracy varies on noisy audio or strong accents",
+    "Event-focused, not document translation"
+  ],
+  "bestFor": ["Multilingual events", "Conferences", "Accessible meetings"],
+  "alternatives": ["deepl", "unbabel", "camb-ai", "translated"],
+  "references": [
+    {
+      "title": "Wordly Live AI Translation and Captioning Review",
+      "url": "https://meetings.skift.com/reviews/wordly-live-ai-translation-and-captioning-review/",
+      "source": "Skift Meetings",
+      "kind": "review"
+    }
+  ]
+}
