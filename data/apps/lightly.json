@@ -1,0 +1,52 @@
+{
+  "slug": "lightly",
+  "name": "Lightly",
+  "tagline": "Computer-vision data curation, labeling, and model pretraining.",
+  "description": "Lightly is a computer-vision data platform that helps teams curate the most informative samples from large image and video datasets using embeddings, active learning, and near-duplicate detection. Its suite spans LightlyStudio (curation and labeling), LightlyTrain (self-supervised pretraining and fine-tuning of vision models), and LightlyEdge (smart data selection on devices). The aim is to cut labeling cost by training on the data that actually improves models.",
+  "insight": "Grew out of LightlySSL, the team's open-source self-supervised-learning framework for computer vision.",
+  "category": "vision",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Lightly",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Works with your vision models; LightlyTrain pretrains and fine-tunes them."
+  },
+  "tags": ["computer-vision", "data-curation", "active-learning", "self-supervised"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lightly.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/lightly-ai/lightly"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 563,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Curation-first: picks the most informative frames via embeddings and active learning so you label and train on less data.",
+  "pros": [
+    "Embedding-based data curation and dedup",
+    "Active learning surfaces useful samples",
+    "Self-supervised pretraining (LightlyTrain)",
+    "Edge SDK for on-device selection",
+    "Open-source SSL library to build on"
+  ],
+  "cons": [
+    "No public pricing; sales-led",
+    "Focused on vision, not other modalities",
+    "Best value needs large datasets",
+    "Smaller ecosystem than labeling giants"
+  ],
+  "bestFor": [
+    "Computer-vision teams",
+    "Large image/video datasets",
+    "Reducing labeling cost",
+    "Edge & robotics data"
+  ],
+  "alternatives": ["roboflow", "voxel51", "encord", "supervisely"]
+}

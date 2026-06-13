@@ -1,0 +1,61 @@
+{
+  "slug": "splx",
+  "name": "SPLX",
+  "tagline": "Automated AI red teaming, runtime protection, and governance.",
+  "description": "SPLX is an AI security platform that runs automated red teaming against LLM apps and AI agents, simulating thousands of adversarial attacks — prompt injection, jailbreaks, data leakage — to surface vulnerabilities. It adds AI asset discovery, system-prompt hardening, runtime protection, and governance across the AI lifecycle, plus Agentic Radar, an open-source scanner for agentic workflows. It targets security teams shipping AI to production.",
+  "insight": "Zscaler acquired SPLX in late 2025, folding its automated AI red teaming into the Zero Trust Exchange platform.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Zscaler",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Tests and protects any LLM or agent; provider-independent."
+  },
+  "tags": ["ai-security", "red-teaming", "prompt-injection", "llm-security", "governance"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://splx.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/splx-ai/agentic-radar"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 565,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Continuous automated red teaming with thousands of domain-specific attack simulations, then turns findings into system-prompt hardening fixes.",
+  "pros": [
+    "Automated, continuous red teaming",
+    "Thousands of attack simulations",
+    "Prompt hardening plus remediation",
+    "Covers agents, RAG, and MCP servers",
+    "Agentic Radar scanner is open source"
+  ],
+  "cons": [
+    "Sales-led, no public pricing",
+    "Enterprise-oriented",
+    "Now folded into Zscaler's platform",
+    "Newer than traditional AppSec tools"
+  ],
+  "bestFor": ["AI security teams", "LLM app red teaming", "Agent & RAG security", "AI governance"],
+  "alternatives": ["lakera", "prompt-security", "protect-ai", "pillar-security"],
+  "references": [
+    {
+      "title": "SplxAI gets $7M to block prompt injection attacks with automated red teaming",
+      "url": "https://siliconangle.com/2025/03/26/splxai-gets-7m-try-block-prompt-injection-attacks-ai-agents-automated-red-teaming/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "Zscaler Buys AI Security Outfit SPLX",
+      "url": "https://www.datamation.com/security/zscaler-splx-deal/",
+      "source": "Datamation",
+      "kind": "analysis"
+    }
+  ]
+}

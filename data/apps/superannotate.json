@@ -1,0 +1,60 @@
+{
+  "slug": "superannotate",
+  "name": "SuperAnnotate",
+  "tagline": "Platform for building multimodal AI datasets and evaluation pipelines.",
+  "description": "SuperAnnotate is an enterprise data platform for creating, managing, and evaluating high-quality datasets for AI. It spans annotation across images, video, text, audio, and LiDAR, with AI-assisted labeling, customizable workflows, and an optional managed annotation workforce. Teams use it to build human-in-the-loop data and evaluation pipelines for agentic, multimodal, and frontier AI.",
+  "insight": "Its $50M Series B drew NVIDIA, Databricks, and Dell Technologies Capital; the company was founded in Armenia.",
+  "category": "data-ops",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "SuperAnnotate AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Labeling, fine-tuning data, and model/LLM evaluation; not tied to one model."
+  },
+  "tags": ["data-labeling", "annotation", "multimodal", "rlhf", "evaluation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.superannotate.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.superannotate.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 562,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Spans the full data loop — multimodal annotation, an optional expert workforce, and model evaluation — in one enterprise platform.",
+  "pros": [
+    "Multimodal: image, video, text, audio, LiDAR",
+    "AI-assisted labeling speeds annotation",
+    "Optional managed expert workforce",
+    "Built-in model evaluation pipelines",
+    "Enterprise security and governance"
+  ],
+  "cons": [
+    "No free tier; sales-led pricing",
+    "Enterprise focus is heavy for small teams",
+    "Setup and onboarding take time",
+    "Costs scale with volume and workforce"
+  ],
+  "bestFor": [
+    "Enterprise ML teams",
+    "Multimodal datasets",
+    "RLHF & model eval",
+    "Human-in-the-loop data"
+  ],
+  "alternatives": ["labelbox", "scale-ai", "v7-go", "encord"],
+  "references": [
+    {
+      "title": "SuperAnnotate snags $13M in funding to take on Scale AI and Surge AI",
+      "url": "https://siliconangle.com/2025/07/15/superannotate-snags-13m-funding-take-scale-ai-surge-ai/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
