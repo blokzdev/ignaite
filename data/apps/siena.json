@@ -1,0 +1,52 @@
+{
+  "slug": "siena",
+  "name": "Siena AI",
+  "tagline": "Autonomous AI customer experience platform for e-commerce brands.",
+  "description": "Siena AI is an autonomous customer experience platform built for e-commerce and retail brands, deploying AI agents that resolve support, shopping, and post-purchase questions across email, chat, and social DMs. It handles tasks like order tracking, returns, address changes, and subscription management in over 100 languages, and is designed to blend automation with brand-aligned, empathetic tone. It integrates with existing helpdesk and commerce stacks rather than replacing them.",
+  "insight": "Raised a $4.7M seed in 2023; its two founders are repeat conversational-commerce entrepreneurs who launched Siena in 2022.",
+  "category": "support",
+  "pricing": "paid",
+  "vendor": "Siena AI",
+  "deployment": "cloud",
+  "platforms": ["web", "api"],
+  "tags": ["customer-support", "ecommerce", "ai-agent", "cx-automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.siena.cx",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 519,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Built specifically for commerce CX — handles order tracking, returns, subscriptions, and social DMs across 100+ languages, not just chat deflection.",
+  "pros": [
+    "Purpose-built for e-commerce support",
+    "Works across email, chat, and social DMs",
+    "Supports 100+ languages",
+    "Automates returns, orders, subscriptions"
+  ],
+  "cons": [
+    "No public pricing; sales-led",
+    "Aimed at brands, not SMB self-serve",
+    "Scoped to commerce use cases",
+    "Younger vendor than incumbents"
+  ],
+  "bestFor": ["E-commerce brands", "DTC customer support", "Social and email CX"],
+  "alternatives": ["sierra", "decagon", "gorgias", "intercom-fin"],
+  "references": [
+    {
+      "title": "Siena: AI customer service company raises $4.7 million",
+      "url": "https://pulse2.com/siena-4-7-million-funding/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    },
+    {
+      "title": "Romanian founders unveil Siena AI for customer service",
+      "url": "https://therecursive.com/romanian-founders-based-in-us-unveil-siena-ai-adding-the-missing-piece-in-customer-service/",
+      "source": "The Recursive",
+      "kind": "analysis"
+    }
+  ]
+}
