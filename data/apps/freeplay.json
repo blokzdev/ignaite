@@ -1,0 +1,57 @@
+{
+  "slug": "freeplay",
+  "insight": "Founded in 2022 by two former Twitter developer-platform leaders; raised a $5.6M round led by Renegade Partners in June 2025.",
+  "name": "Freeplay",
+  "tagline": "Eval and observability ops platform for AI product teams.",
+  "description": "Freeplay is an LLM evaluation and observability platform that unifies prompt management, batch evals, experiments, and production monitoring in one workflow. Built for cross-functional teams, it lets engineers, PMs, and domain experts review the same traces, run model-graded and code-based evals, and align auto-evaluators with human labels before shipping.",
+  "category": "eval",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Freeplay",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Provider-agnostic — instruments and evaluates outputs across any LLM you call."
+  },
+  "tags": ["llm-eval", "observability", "prompt-management", "experiments"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://freeplay.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.freeplay.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://freeplay.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 552,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Brings engineers, PMs, and domain experts into one eval + observability loop reviewing the same traces, not separate dev-only tooling.",
+  "pros": [
+    "Unifies prompt mgmt, evals, and monitoring",
+    "Cross-functional review of the same traces",
+    "Model-graded, code-based, and human evals",
+    "SDKs for Python, Node, and JVM languages"
+  ],
+  "cons": [
+    "Paid plans start around $500/mo",
+    "Built for teams, not solo hobbyists",
+    "Newer and smaller than some incumbents"
+  ],
+  "bestFor": ["AI product teams", "Cross-functional eval", "Production LLM ops"],
+  "alternatives": ["braintrust", "vellum", "langfuse", "honeyhive"],
+  "references": [
+    {
+      "title": "Freeplay: New LLM Dev Tool for Java Developers (and Others)",
+      "url": "https://thenewstack.io/freeplay-new-llm-dev-tool-for-java-developers-and-others/",
+      "source": "The New Stack",
+      "kind": "analysis"
+    }
+  ]
+}

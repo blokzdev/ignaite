@@ -1,0 +1,46 @@
+{
+  "slug": "toolhouse",
+  "insight": "Its free Sandbox tier includes free OpenAI model usage, so you can build and launch an agent without bringing your own API key.",
+  "name": "Toolhouse",
+  "tagline": "Build and deploy AI agents as APIs, with MCP tools built in.",
+  "description": "Toolhouse is a backend-as-a-service for AI agents: define an agent in plain language or code and deploy it as an API in one command. Agents connect automatically to the Toolhouse MCP server, which provides RAG, memory, code execution, browser use, and 1,000+ tool integrations over the Model Context Protocol.",
+  "category": "mcp",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Toolhouse",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["OpenAI", "Anthropic"],
+    "notes": "Pro can switch between models; the free tier includes OpenAI usage."
+  },
+  "tags": ["mcp", "ai-agents", "tools", "rag", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://toolhouse.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.toolhouse.ai"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 554,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Bundles agent runtime, MCP tools, RAG, memory, and code execution behind one API, so you skip wiring the infrastructure together yourself.",
+  "pros": [
+    "Deploy agents as APIs in one command",
+    "1,000+ MCP tool integrations built in",
+    "Built-in RAG, memory, and code execution",
+    "Free tier includes OpenAI model usage"
+  ],
+  "cons": [
+    "Free Sandbox capped at 50 agent runs/month",
+    "Vendor-hosted; less control than self-hosting",
+    "Younger platform with a smaller ecosystem"
+  ],
+  "bestFor": ["Agent developers", "MCP tool access", "Fast agent prototyping"],
+  "alternatives": ["composio", "arcade", "smithery"]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "dspy",
+  "insight": "Created in the Stanford NLP group; the name stands for \"Declarative Self-improving Python.\"",
+  "name": "DSPy",
+  "tagline": "Program — don't prompt — your language models.",
+  "description": "DSPy is an open-source Python framework for building LLM applications by writing modular code instead of brittle prompt strings. You declare input/output signatures and compose modules, then DSPy compiles and optimizes the underlying prompts — and can even tune model weights — for classifiers, RAG pipelines, and agent loops.",
+  "category": "orchestration",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Stanford NLP",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Provider-agnostic — works with any LLM backend you configure."
+  },
+  "tags": ["llm-framework", "prompt-optimization", "rag", "agents", "python"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://dspy.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/stanfordnlp/dspy"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 556,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Optimizes prompts (and even model weights) automatically from your data, instead of leaving you to hand-tune brittle prompt strings.",
+  "pros": [
+    "Declarative, modular alternative to prompts",
+    "Automatic prompt and weight optimization",
+    "Provider- and model-agnostic",
+    "Strong research backing and adoption"
+  ],
+  "cons": [
+    "Steeper learning curve than direct prompting",
+    "Optimizers can add compute and cost",
+    "Smaller ecosystem than LangChain"
+  ],
+  "bestFor": ["LLM pipelines", "RAG and agents", "Prompt optimization"],
+  "alternatives": ["langchain", "langgraph", "llamaindex", "pydantic-ai"],
+  "references": [
+    {
+      "title": "DSPy: An open-source framework for LLM-powered applications",
+      "url": "https://www.infoworld.com/article/3956455/dspy-an-open-source-framework-for-llm-powered-applications.html",
+      "source": "InfoWorld",
+      "kind": "analysis"
+    }
+  ]
+}

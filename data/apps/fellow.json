@@ -1,0 +1,49 @@
+{
+  "slug": "fellow",
+  "insight": "Began as a meeting-agenda and management tool on fellow.app, then repositioned around AI notetaking and moved to the fellow.ai domain.",
+  "name": "Fellow",
+  "tagline": "AI meeting assistant that records, transcribes, and summarizes.",
+  "description": "Fellow is an AI meeting assistant and notetaker that transcribes, summarizes, and extracts action items from calls with human-level accuracy. It offers both bot-based and botless recording, works across Zoom, Google Meet, and Teams, and its Ask Fellow agent answers questions across past meetings.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Fellow",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["meetings", "notetaker", "transcription", "summaries"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fellow.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://fellow.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 555,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Pairs botless and bot-based recording with cross-meeting Ask Fellow search and a security posture aimed at regulated teams.",
+  "pros": [
+    "Botless and bot-based recording options",
+    "Ask Fellow searches across past meetings",
+    "Free plan with 10 AI notes and recordings",
+    "Security posture suited to regulated teams"
+  ],
+  "cons": [
+    "AI features capped on the free plan",
+    "Accuracy varies with audio quality",
+    "Best value needs a paid Team/Business plan"
+  ],
+  "bestFor": ["Security-conscious teams", "Cross-meeting recall", "Regulated industries"],
+  "alternatives": ["fathom", "fireflies", "otter-ai", "granola"],
+  "references": [
+    {
+      "title": "Fellow AI Review: All the Key Pros and Cons",
+      "url": "https://fritz.ai/fellow-ai-review/",
+      "source": "Fritz AI",
+      "kind": "review"
+    }
+  ]
+}
