@@ -1,0 +1,57 @@
+{
+  "slug": "genie-ai",
+  "name": "Genie AI",
+  "tagline": "Agentic legal AI that drafts, reviews, and negotiates contracts from your playbooks.",
+  "description": "Genie AI is a legal AI platform for drafting, reviewing, editing, and negotiating business contracts. It can generate personalized, jurisdiction-aware agreements — up to 50+ pages — in minutes, flag risks in existing documents, and learn an organization's standards and playbooks to keep edits on-policy. London-based, it offers a free tier plus paid Pro, Business, and Enterprise plans for in-house legal teams and firms.",
+  "insight": "Raised a $17.8M Series A in Oct 2024 led by Google Ventures, with Khosla Ventures — Genie's first institutional round.",
+  "category": "legal",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Genie AI Ltd.",
+  "platforms": ["web"],
+  "tags": ["legal-ai", "contract-drafting", "contract-review", "clm"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.genieai.co/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.genieai.co/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 574,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Goes beyond review-only legal AI: drafts full jurisdiction-aware contracts from a prompt and enforces your own playbooks across drafting and negotiation.",
+  "pros": [
+    "Drafts full contracts from a prompt",
+    "Learns org playbooks and standards",
+    "Jurisdiction-aware across markets",
+    "Free tier to start",
+    "Backed by Google Ventures and Khosla"
+  ],
+  "cons": [
+    "Per-user pricing climbs for teams",
+    "Document limits on lower tiers",
+    "Newer vs incumbent legal suites",
+    "Outputs need lawyer review"
+  ],
+  "bestFor": ["In-house legal teams", "Contract drafting", "SMBs and law firms"],
+  "alternatives": ["spellbook", "ironclad", "legora", "harvey"],
+  "references": [
+    {
+      "title": "Genie AI raises £13.3m Series A led by Google Ventures",
+      "url": "https://legaltechnology.com/2024/10/23/genie-ai-raises-13-3m-series-a-led-by-google-ventures/",
+      "source": "Legal IT Insider",
+      "kind": "analysis"
+    },
+    {
+      "title": "London-based Genie AI raises €16 million",
+      "url": "https://www.eu-startups.com/2024/10/london-based-genie-ai-raises-e16-million-to-reduce-legal-friction-and-boost-economic-efficiency/",
+      "source": "EU-Startups",
+      "kind": "analysis"
+    }
+  ]
+}

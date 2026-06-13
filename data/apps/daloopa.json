@@ -1,0 +1,61 @@
+{
+  "slug": "daloopa",
+  "name": "Daloopa",
+  "tagline": "Source-linked financial data extracted from filings, feeding analyst models, AI agents, and LLMs.",
+  "description": "Daloopa automatically extracts and standardizes fundamental financial data — from SEC filings, investor presentations, and earnings materials — for 5,500+ global tickers with up to 14 years of history, linking every number back to its source document for auditability. Analysts use it to build and update models faster, cutting time spent during earnings season. The same data is exposed to AI tools via API, an Excel add-in, and Model Context Protocol connectors for ChatGPT, Claude, Perplexity, and Rogo.",
+  "insight": "Raised a $47M Series C in 2026 (Brighton Park Capital), bringing total funding to roughly $84M since 2020.",
+  "category": "finance",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Daloopa",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "A data layer that feeds any LLM/agent; MCP connectors for ChatGPT, Claude, Perplexity, and Rogo."
+  },
+  "tags": ["financial-data", "fundamental-data", "equity-research", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://daloopa.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://daloopa.com/plans"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 572,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Every extracted metric links back to the exact source document, giving analysts auditable fundamentals across 5,500+ tickers rather than black-box numbers.",
+  "pros": [
+    "Source-linked, auditable data points",
+    "5,500+ tickers, up to 14 years history",
+    "Free Data Sheets tier",
+    "MCP and API access for AI tools",
+    "Excel add-in for modeling"
+  ],
+  "cons": [
+    "Paid tier pricing not public",
+    "Core/Premium require sales contact",
+    "Focused on public-company fundamentals",
+    "Free tier limited to 3 Data Sheets"
+  ],
+  "bestFor": ["Equity analysts", "Institutional investors", "Financial modeling"],
+  "alternatives": ["fiscal-ai", "rogo", "alphasense", "hebbia"],
+  "references": [
+    {
+      "title": "Daloopa Raises $18 Million for AI-Driven Financial Data Platform",
+      "url": "https://www.pymnts.com/news/fintech-investments/2025/daloopa-raises-18-million-dollars-ai-driven-financial-data-platform/",
+      "source": "PYMNTS",
+      "kind": "analysis"
+    },
+    {
+      "title": "Daloopa Secures $47M Series C to Power the Data Layer Behind AI-Driven Finance",
+      "url": "https://theaiinsider.tech/2026/06/01/daloopa-secures-47m-series-c-to-power-the-data-layer-behind-ai-driven-finance/",
+      "source": "The AI Insider",
+      "kind": "analysis"
+    }
+  ]
+}
