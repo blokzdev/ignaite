@@ -1,0 +1,59 @@
+{
+  "slug": "trulens",
+  "name": "TruLens",
+  "tagline": "Open-source evaluation and tracing for LLM and agent apps.",
+  "description": "TruLens is an open-source Python library for evaluating and tracing LLM, RAG, and agent applications. You wrap your app with feedback functions that score outputs on metrics like groundedness, context relevance, and answer relevance, then trace runs and compare versions on a metrics leaderboard. It integrates OpenTelemetry tracing and runs locally with a built-in dashboard.",
+  "insight": "Built by TruEra, whose AI-observability platform Snowflake acquired in 2024; Snowflake kept TruLens open source and now stewards it.",
+  "category": "eval",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Snowflake",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring any provider for the LLM-as-judge feedback functions."
+  },
+  "tags": ["eval", "tracing", "rag", "llm-as-judge", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.trulens.org",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/truera/trulens"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 514,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Pioneered the RAG Triad — context relevance, groundedness, answer relevance — as feedback functions you attach to score and trace any LLM app.",
+  "pros": [
+    "Open source and free, OpenTelemetry tracing",
+    "RAG Triad feedback functions built in",
+    "Provider-agnostic LLM-as-judge metrics",
+    "Leaderboard to compare app versions"
+  ],
+  "cons": [
+    "Python library, no hosted SaaS",
+    "Smaller community than LangSmith/Langfuse",
+    "Setup to wire feedback providers"
+  ],
+  "bestFor": ["RAG evaluation", "LLM app tracing", "Python developers"],
+  "alternatives": ["ragas", "deepeval", "langsmith", "arize-phoenix"],
+  "references": [
+    {
+      "title": "Snowflake acquires TruEra to deliver LLM observability inside data cloud",
+      "url": "https://venturebeat.com/ai/snowflake-acquires-truera-to-deliver-llm-observability-inside-data-cloud",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Snowflake acquires TruEra's AI observability platform",
+      "url": "https://www.infoworld.com/article/2336899/snowflake-acquires-truera-s-ai-observability-platform.html",
+      "source": "InfoWorld",
+      "kind": "analysis"
+    }
+  ]
+}

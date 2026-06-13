@@ -1,0 +1,57 @@
+{
+  "slug": "llamaparse",
+  "name": "LlamaParse",
+  "tagline": "Agentic document parsing that turns complex PDFs into AI-ready markdown.",
+  "description": "LlamaParse is LlamaIndex's managed document-parsing service: it extracts text, tables, charts, and images from PDFs and 90+ other formats into clean markdown for RAG pipelines. It offers layout-aware and multimodal parsing modes and 100+ language support, and anchors the LlamaCloud platform alongside Extract, Classify, Split, and Index.",
+  "insight": "The commercial cornerstone of LlamaIndex's LlamaCloud; its general availability was announced alongside the company's $19M Series A in 2024.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "LlamaIndex",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Premium modes use multimodal LLMs; output feeds any model/RAG stack."
+  },
+  "tags": ["document-parsing", "rag", "ocr", "pdf", "data-extraction"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.llamaindex.ai/llamaparse",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.llamaindex.ai/en/stable/llama_cloud/llama_parse/"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.llamaindex.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 515,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Parsing tuned for RAG by the team behind the LlamaIndex framework — layout-aware, multimodal extraction of tables and charts, not just flat OCR.",
+  "pros": [
+    "Strong on tables, charts, scanned PDFs",
+    "90+ formats, 100+ languages",
+    "Free tier with 10k credits/month",
+    "Tight fit with the LlamaIndex framework"
+  ],
+  "cons": [
+    "Cloud-only, credit-based costs add up",
+    "Best modes cost more credits per page",
+    "Core parser is proprietary, not open source"
+  ],
+  "bestFor": ["RAG document pipelines", "Complex PDFs and tables", "Enterprise knowledge bases"],
+  "alternatives": ["reducto", "unstructured", "docling", "chunkr"],
+  "references": [
+    {
+      "title": "Simplifying Document Parsing: Extracting Embedded Objects with LlamaParse",
+      "url": "https://www.analyticsvidhya.com/blog/2024/05/document-parsing-with-llamaparse/",
+      "source": "Analytics Vidhya",
+      "kind": "guide"
+    }
+  ]
+}
