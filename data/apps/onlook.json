@@ -1,0 +1,60 @@
+{
+  "slug": "onlook",
+  "insight": "Open-source (Apache-2.0) and a Y Combinator W25 startup; its visual-editor repo trended #1 on GitHub and has 25k+ stars.",
+  "name": "Onlook",
+  "tagline": "The Cursor for designers — edit React apps visually in real code.",
+  "description": "Onlook is an open-source visual editor that lets designers and developers build and edit Next.js + Tailwind apps directly on an infinite canvas while the actual codebase stays the source of truth. You drag, style and tweak live React components and Onlook writes the corresponding code, with AI assistance for larger changes. It can be self-hosted for free, with a managed cloud version for teams.",
+  "category": "design",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Onlook",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI-assisted editing built on frontier models, not locked to a single provider."
+  },
+  "tags": ["design-to-code", "react", "visual-editor", "open-source", "tailwind"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.onlook.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/onlook-dev/onlook"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 549,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Edits your real Next.js + Tailwind code visually on an infinite canvas, keeping the codebase as the source of truth instead of exporting throwaway markup.",
+  "pros": [
+    "Open-source, free to self-host",
+    "Edits real code, not exports",
+    "Infinite canvas with live components",
+    "Works with Next.js, Tailwind, shadcn"
+  ],
+  "cons": [
+    "Hosted cloud pricing not public",
+    "Scoped to the React/Next.js stack",
+    "Young project (YC W25)"
+  ],
+  "bestFor": ["Designer-developer teams", "Editing React UIs visually", "Open-source self-hosters"],
+  "alternatives": ["v0", "magic-patterns", "uizard", "figma-ai"],
+  "references": [
+    {
+      "title": "Onlook – The open source Cursor for Designers",
+      "url": "https://news.ycombinator.com/item?id=42862835",
+      "source": "Hacker News",
+      "kind": "analysis"
+    },
+    {
+      "title": "Onlook: The Open-Source “Cursor for Designers”",
+      "url": "https://www.blog.brightcoding.dev/2025/09/05/onlook-the-open-source-cursor-for-designers-that-lets-you-visually-build-style-and-edit-react-apps-with-ai/",
+      "source": "BrightCoding",
+      "kind": "review"
+    }
+  ]
+}

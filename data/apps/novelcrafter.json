@@ -1,0 +1,50 @@
+{
+  "slug": "novelcrafter",
+  "insight": "Bootstrapped and built by writers with no venture funding; AI is strictly bring-your-own-key, so the app never marks up model usage.",
+  "name": "Novelcrafter",
+  "tagline": "Plan, write and organize your novel with bring-your-own-key AI.",
+  "description": "Novelcrafter is a browser-based platform for fiction and non-fiction authors that pairs a full manuscript editor with a worldbuilding wiki called the Codex for characters, places and lore. AI features — scene generation, summaries, character extraction and beat-to-scene drafting — run through your own provider key, so you choose the model and pay the API rates directly. Plans start at $4/month after a free trial.",
+  "category": "writing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Novelcrafter",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["OpenAI", "Anthropic", "Google", "Mistral", "OpenRouter", "Ollama"],
+    "notes": "Connect a provider key or run local models via LM Studio/Ollama; AI usage is billed by the provider, not Novelcrafter."
+  },
+  "tags": ["fiction-writing", "novel", "worldbuilding", "byo-key", "authors"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.novelcrafter.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 550,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Combines a full manuscript editor and a worldbuilding ‘Codex’ wiki with bring-your-own-key AI, so you pick any model and pay only your provider's API rates.",
+  "pros": [
+    "Bring-your-own-key (any model)",
+    "Codex worldbuilding wiki",
+    "Affordable tiers ($4–20/mo)",
+    "Supports local models (LM Studio/Ollama)"
+  ],
+  "cons": ["AI API billed separately on top", "No permanent free tier", "Web-only, no offline app"],
+  "bestFor": [
+    "Novelists and fiction authors",
+    "Worldbuilding-heavy projects",
+    "BYO-key power users"
+  ],
+  "alternatives": ["sudowrite", "novelai", "type"],
+  "references": [
+    {
+      "title": "Novelcrafter Review: Pricing, Features, Writing Quality",
+      "url": "https://dreamgen.com/blog/articles/novelcrafter-review",
+      "source": "DreamGen",
+      "kind": "review"
+    }
+  ]
+}
