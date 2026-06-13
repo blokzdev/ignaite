@@ -1,0 +1,52 @@
+{
+  "slug": "semantic-scholar",
+  "insight": "Built in 2015 by the Allen Institute for AI (AI2), the nonprofit founded by Microsoft co-founder Paul Allen — free, no paywall.",
+  "name": "Semantic Scholar",
+  "tagline": "AI-powered academic search across 200M+ papers with one-sentence TLDR summaries.",
+  "description": "Semantic Scholar is a free scholarly search engine from the Allen Institute for AI that indexes over 200 million papers across every field of science and uses NLP to surface the most relevant and influential work. Its TLDR feature generates ultra-short, one-sentence summaries of papers, and the Semantic Reader adds inline citation cards and skimming highlights to PDFs. An open API and adaptive Research Feeds let developers and researchers build on the same corpus.",
+  "category": "research-platform",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Allen Institute for AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "AI2's own NLP models (e.g., TLDR summarization) run server-side; no user model choice."
+  },
+  "tags": ["academic-search", "literature-review", "paper-summaries", "citations"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.semanticscholar.org",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.semanticscholar.org/product/api"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 569,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "A free, nonprofit-run corpus of 200M+ papers with auto-generated TLDR summaries and an open API — no paywall or ads, unlike most research tools.",
+  "pros": [
+    "Completely free, no ads or paywall",
+    "TLDR one-sentence summaries for many papers",
+    "Open API over the full 200M+ corpus",
+    "Semantic Reader adds inline citation context"
+  ],
+  "cons": [
+    "TLDR coverage skews to CS, bio, and medicine",
+    "Not a chat/Q&A research assistant",
+    "Metadata gaps for some niche fields"
+  ],
+  "bestFor": ["Literature discovery", "Citation tracing", "Research APIs"],
+  "alternatives": ["consensus", "elicit", "scispace", "scite"],
+  "references": [
+    {
+      "title": "Semantic Scholar",
+      "url": "https://en.wikipedia.org/wiki/Semantic_Scholar",
+      "source": "Wikipedia"
+    }
+  ]
+}

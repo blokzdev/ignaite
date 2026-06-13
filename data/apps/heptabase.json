@@ -1,0 +1,53 @@
+{
+  "slug": "heptabase",
+  "insight": "Y Combinator-backed yet bootstrapped to profitability — the founder reported roughly $200K in monthly revenue.",
+  "name": "Heptabase",
+  "tagline": "Visual, whiteboard-based knowledge base with AI for understanding what you read.",
+  "description": "Heptabase is a visual note-taking and research tool that organizes ideas on infinite whiteboards built from linked cards, with a block editor, PDF annotation, web clipping, and bidirectional links. Its AI lets you ask questions and get cited answers across your PDFs, YouTube videos, notes, and journals, and an AI Tutor runs structured, personalized learning sessions. It runs on Mac, Windows, Linux, iOS, Android, and the web with offline support.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Hepta Platforms",
+  "platforms": ["macos", "windows", "linux", "ios", "android", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Built-in AI via monthly AI credits; no user-supplied API key."
+  },
+  "tags": ["visual-notes", "pkm", "whiteboard", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://heptabase.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://heptabase.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 570,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Pairs an infinite visual whiteboard with AI that answers across your own PDFs, videos, and notes — spatial sense-making most PKM apps lack.",
+  "pros": [
+    "Spatial whiteboards for connecting ideas",
+    "AI Q&A cited across your own sources",
+    "True cross-platform with offline support",
+    "Strong PDF annotation and web clipping"
+  ],
+  "cons": [
+    "No free tier — paid plans only",
+    "AI usage capped by monthly credits",
+    "Visual-first approach has a learning curve"
+  ],
+  "bestFor": ["Researchers", "Students", "Visual thinkers"],
+  "alternatives": ["mem", "reflect", "notion-ai", "tana"],
+  "references": [
+    {
+      "title": "How This Founder Bootstrapped a Visual Note-Taking Tool to $200K/Month",
+      "url": "https://www.starterstory.com/heptabase-breakdown",
+      "source": "Starter Story",
+      "kind": "interview"
+    }
+  ]
+}
