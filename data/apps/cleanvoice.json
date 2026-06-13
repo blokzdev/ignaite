@@ -1,0 +1,44 @@
+{
+  "slug": "cleanvoice",
+  "insight": "Detects and strips filler words across 20+ languages — unusually wide language coverage for an audio-cleanup tool.",
+  "name": "Cleanvoice AI",
+  "tagline": "Automatically edit podcasts and audio in minutes.",
+  "description": "An AI audio/video editor that removes filler words, background noise, mouth sounds, stutters, and dead silences from recordings, then re-levels the audio. Aimed at podcasters and creators who want a clean cut without manual waveform editing.",
+  "category": "audio",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cleanvoice",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained"
+  },
+  "tags": ["podcast", "audio-editing", "filler-words", "noise-removal"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cleanvoice.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://cleanvoice.ai/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 506,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Multilingual filler-word and silence removal (20+ languages) in one pass, so non-English podcasts get the same auto-cleanup most rivals reserve for English.",
+  "pros": [
+    "Removes filler words and silences",
+    "20+ language support",
+    "Fast, hands-off cleanup",
+    "Pay-as-you-go option"
+  ],
+  "cons": [
+    "No perpetual free tier (trial only)",
+    "Cloud-only, audio uploaded",
+    "Less control than manual editing"
+  ],
+  "bestFor": ["Podcasters", "Non-English audio", "Fast turnaround"],
+  "alternatives": ["adobe-podcast", "auphonic", "descript", "krisp"]
+}
