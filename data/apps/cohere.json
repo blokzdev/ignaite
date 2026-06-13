@@ -1,0 +1,52 @@
+{
+  "slug": "cohere",
+  "name": "Cohere",
+  "tagline": "Enterprise-grade LLMs, embeddings, and retrieval built for private deployment.",
+  "description": "Cohere builds large language models for the enterprise rather than the consumer. Its Command models cover agentic, multimodal, and multilingual generation; Embed and Rerank power high-quality search and retrieval; Aya is a multilingual research family spanning 70+ languages; and North is a workplace AI platform built on top. Cohere's emphasis is data control — models can run in a private VPC, on-premises, or via a managed Model Vault.",
+  "insight": "Co-founded by Aidan Gomez, a co-author of the 2017 'Attention Is All You Need' paper that introduced the Transformer.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Cohere Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Command", "Embed", "Rerank", "Aya"],
+    "notes": "Cohere's own model family; deployable in a private VPC or on-prem."
+  },
+  "tags": ["llm", "embeddings", "rerank", "enterprise", "rag", "multilingual"],
+  "links": [
+    { "kind": "website", "url": "https://cohere.com", "primary": true },
+    { "kind": "docs", "url": "https://docs.cohere.com" }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 530,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Enterprise-first models built for private VPC/on-prem deployment, with best-in-class Rerank/Embed retrieval rather than consumer chat.",
+  "pros": [
+    "Strong Rerank/Embed retrieval models",
+    "Private VPC / on-prem deployment",
+    "Multilingual (Aya, 70+ languages)",
+    "Enterprise data-control focus"
+  ],
+  "cons": [
+    "No consumer chat product to speak of",
+    "Smaller ecosystem than OpenAI/Anthropic",
+    "Production usage is paid"
+  ],
+  "bestFor": [
+    "Enterprise RAG and search",
+    "Private model deployment",
+    "Multilingual applications",
+    "Regulated industries"
+  ],
+  "alternatives": ["together-ai", "fireworks-ai", "deepseek"],
+  "references": [
+    {
+      "title": "AI startup Cohere, now valued at over $2.1B, raises $270M",
+      "url": "https://techcrunch.com/2023/06/08/ai-startup-cohere-now-valued-at-over-2-1b-raises-270m/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

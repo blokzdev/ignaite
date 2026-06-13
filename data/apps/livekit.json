@@ -1,0 +1,54 @@
+{
+  "slug": "livekit",
+  "name": "LiveKit",
+  "tagline": "Open-source framework and cloud for realtime voice, video, and physical AI agents.",
+  "description": "LiveKit is the realtime infrastructure layer most voice-AI stacks are built on. Its open-source Agents framework wires together streaming speech-to-text, an LLM, and text-to-speech with reliable turn detection, interruption handling, and telephony, so agents can join a session and converse in near real time. You bring your own STT, LLM, and TTS providers; LiveKit handles the low-latency WebRTC transport. It runs self-hosted under Apache 2.0 or as a managed cloud platform.",
+  "insight": "OpenAI runs ChatGPT Advanced Voice on LiveKit, which reached a $1B valuation in a Jan 2026 Series C led by Index Ventures.",
+  "category": "infra",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "LiveKit, Inc.",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "BYO STT, LLM, and TTS — plug in Deepgram/Whisper, Claude/GPT/Gemini, Cartesia/ElevenLabs, etc."
+  },
+  "tags": ["voice-ai", "webrtc", "realtime", "agents", "open-source", "infrastructure"],
+  "links": [
+    { "kind": "website", "url": "https://livekit.com", "primary": true },
+    { "kind": "github", "url": "https://github.com/livekit/livekit" },
+    { "kind": "docs", "url": "https://docs.livekit.io" }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 526,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "The open-source realtime layer most voice-agent stacks run on — sub-second STT-LLM-TTS with turn detection, interruptions, and telephony, BYO models.",
+  "pros": [
+    "Powers ChatGPT Advanced Voice in production",
+    "Apache-2.0 open source, self-hostable",
+    "BYO STT/LLM/TTS — no model lock-in",
+    "Sub-second latency, turn detection, telephony",
+    "Managed cloud option alongside the OSS"
+  ],
+  "cons": [
+    "Developer infrastructure, not a no-code product",
+    "You assemble and pay for STT/LLM/TTS separately",
+    "Realtime media ops add operational complexity"
+  ],
+  "bestFor": [
+    "Building voice AI agents",
+    "Realtime voice/video apps",
+    "Telephony automation",
+    "Developers"
+  ],
+  "alternatives": ["vapi", "retell-ai", "cartesia"],
+  "references": [
+    {
+      "title": "Voice AI engine and OpenAI partner LiveKit hits $1B valuation",
+      "url": "https://techcrunch.com/2026/01/22/voice-ai-engine-and-openai-partner-livekit-hits-1b-valuation/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
