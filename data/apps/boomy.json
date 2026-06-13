@@ -1,0 +1,63 @@
+{
+  "slug": "boomy",
+  "name": "Boomy",
+  "tagline": "Generate original songs with AI and release them to streaming platforms.",
+  "description": "Boomy lets anyone create original songs in seconds by picking a style and letting its AI compose and produce the track, with controls to tweak instruments, arrangement, and mix. Finished songs can be saved, downloaded, or distributed straight to Spotify, Apple Music, TikTok, and other services, where creators can earn streaming royalties. A free tier allows unlimited creation, with paid Creator and Pro subscriptions adding downloads, more saves, and commercial use.",
+  "insight": "In 2023 Spotify removed nearly 7% of all Boomy-uploaded tracks after Universal flagged bot-driven 'artificial streaming.'",
+  "category": "music",
+  "pricing": "freemium",
+  "vendor": "Boomy",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Generates and produces music with Boomy's own models; no external API key needed."
+  },
+  "tags": ["ai-music", "generative-music", "music-distribution", "royalties"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://boomy.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://boomy.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 518,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Auto-distributes your AI-made tracks to Spotify, Apple Music, and TikTok and pays streaming royalties — most AI music tools stop at the download.",
+  "pros": [
+    "Create full songs in seconds, no skills",
+    "Free tier with unlimited creation",
+    "Distributes to Spotify, Apple Music, TikTok",
+    "Earn streaming royalties on releases"
+  ],
+  "cons": [
+    "Tracks have faced streaming-platform removals",
+    "Less fine control than a full DAW",
+    "Commercial use needs a paid plan",
+    "Outputs can sound generic"
+  ],
+  "bestFor": [
+    "Hobbyist music makers",
+    "Background tracks for content",
+    "Aspiring streaming artists"
+  ],
+  "alternatives": ["suno", "udio", "soundraw", "mubert"],
+  "references": [
+    {
+      "title": "Spotify Removes Thousands of Boomy's AI-Generated Songs",
+      "url": "https://www.entrepreneur.com/business-news/spotify-removes-thousands-of-boomys-ai-generated-songs/451985",
+      "source": "Entrepreneur",
+      "kind": "analysis"
+    },
+    {
+      "title": "Boomy's AI tracks deleted by Spotify over 'stream manipulation'",
+      "url": "https://www.musicbusinessworldwide.com/ai-music-app-boomy-spotify-stream-manipulation/",
+      "source": "Music Business Worldwide",
+      "kind": "analysis"
+    }
+  ]
+}

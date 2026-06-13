@@ -1,0 +1,42 @@
+{
+  "slug": "relume",
+  "name": "Relume",
+  "tagline": "AI website builder that generates sitemaps, wireframes, and style guides.",
+  "description": "Relume helps designers and agencies build marketing websites faster by turning a short brief into AI-generated sitemaps, wireframes, and style guides. Its outputs export to Figma, Webflow, and React, and pair with a library of 1,000+ pre-built responsive components. A free-forever tier covers basics, with paid plans unlocking the full component library and unlimited projects.",
+  "insight": "Began as the world's largest Webflow component library before adding an AI Site Builder that turns a prompt into sitemaps and wireframes.",
+  "category": "design",
+  "pricing": "freemium",
+  "vendor": "Relume",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "tags": ["web-design", "wireframes", "webflow", "figma", "sitemaps"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.relume.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.relume.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 520,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Outputs aren't throwaway mockups — sitemaps and wireframes export straight to Figma, Webflow, and React from a 1,000+ component library.",
+  "pros": [
+    "Generates full sitemaps and wireframes fast",
+    "Exports to Figma, Webflow, and React",
+    "1,000+ pre-built responsive components",
+    "Free-forever tier"
+  ],
+  "cons": [
+    "Strongest inside the Webflow ecosystem",
+    "AI-drafted copy still needs editing",
+    "Component-driven look can feel templated",
+    "Advanced features gated to paid tiers"
+  ],
+  "bestFor": ["Webflow designers", "Agencies and freelancers", "Rapid site scaffolding"],
+  "alternatives": ["v0", "uizard", "magic-patterns", "figma-ai"]
+}

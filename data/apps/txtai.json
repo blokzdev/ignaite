@@ -1,0 +1,48 @@
+{
+  "slug": "txtai",
+  "name": "txtai",
+  "tagline": "All-in-one open-source embeddings database for semantic search and RAG.",
+  "description": "txtai is an open-source embeddings database that unifies dense and sparse vector indexes, graph networks, and a relational database into a single store for semantic search and LLM workflows. Beyond vector search it ships retrieval-augmented generation, pipelines, and agents, and can be built with Python or declarative YAML. It runs locally or self-hosted and exposes API bindings for JavaScript, Java, Rust, and Go.",
+  "insight": "First released in August 2020 — predating the vector-DB boom — txtai unifies dense/sparse vector, graph, and SQL indexes in one store.",
+  "category": "vector-db",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "NeuML",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Works with any Hugging Face or API embedding model; supports local and remote LLMs for RAG."
+  },
+  "tags": ["open-source", "embeddings", "semantic-search", "rag", "vector-search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://neuml.github.io/txtai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/neuml/txtai"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 521,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Unlike pure vector stores, it fuses dense + sparse vectors, graph networks, and a SQL database into one embeddings DB driven from Python or YAML.",
+  "pros": [
+    "Fully open source (Apache-2.0), runs locally",
+    "Vector + graph + SQL in one store",
+    "Build with Python or YAML",
+    "API bindings for JS, Java, Rust, Go",
+    "Built-in RAG, agents, and pipelines"
+  ],
+  "cons": [
+    "Maintained by a small team, not a big vendor",
+    "Smaller ecosystem than Pinecone/Weaviate",
+    "No managed cloud offering",
+    "More concepts than a plain vector DB"
+  ],
+  "bestFor": ["Local/self-hosted RAG", "Python developers", "Semantic search prototypes"],
+  "alternatives": ["chroma", "lancedb", "weaviate", "qdrant"]
+}
