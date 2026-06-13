@@ -1,0 +1,56 @@
+{
+  "slug": "bee",
+  "insight": "Amazon agreed to acquire Bee in July 2025, signaling its return to AI wearables; the startup had raised about $7M.",
+  "name": "Bee",
+  "tagline": "Wrist-worn personal AI that listens to your day and remembers it for you.",
+  "description": "Bee is an ambient personal-AI wearable: a $49.99 wristband (the Bee Pioneer) with dual microphones that continuously records and transcribes the conversations around you, then surfaces summaries, to-dos, reminders, and personal insights in its companion app. It connects to email and calendar so it can draft messages and create events from what it hears. The device works without a mandatory subscription; an optional premium tier unlocks advanced search and specialized agents.",
+  "category": "companion",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Bee",
+  "platforms": ["ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Vendor-managed cloud LLMs; no user model selection."
+  },
+  "tags": ["wearable", "ambient-ai", "personal-memory", "voice-recorder"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.bee.computer",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 567,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "One of the cheapest always-listening AI wearables — a $49.99 wristband with no mandatory subscription, unlike pendant rivals.",
+  "pros": [
+    "Inexpensive $49.99 device",
+    "No mandatory subscription to use it",
+    "Drafts emails and calendar events from speech",
+    "Up to 7-day battery life"
+  ],
+  "cons": [
+    "Always-on mic raises privacy concerns",
+    "Ships only to the United States",
+    "App support is iOS-first",
+    "Premium features gated behind a subscription"
+  ],
+  "bestFor": ["Ambient life-logging", "Conversation recall", "AI hardware early adopters"],
+  "alternatives": ["friend", "plaud", "screenpipe"],
+  "references": [
+    {
+      "title": "Amazon acquires Bee, the AI wearable that records everything you say",
+      "url": "https://techcrunch.com/2025/07/22/amazon-acquires-bee-the-ai-wearable-that-records-everything-you-say/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Amazon is acquiring Bee, maker of a wearable AI assistant",
+      "url": "https://www.geekwire.com/2025/amazon-is-acquiring-bee-maker-of-a-wearable-ai-assistant-that-listens-to-conversations/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}

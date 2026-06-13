@@ -1,0 +1,49 @@
+{
+  "slug": "zenlytic",
+  "insight": "Started in 2020 as commerce-specific BI before broadening into a general AI data analyst; raised a $9M Series A led by M13 in 2024.",
+  "name": "Zenlytic",
+  "tagline": "AI data analyst that investigates business questions against a governed semantic layer.",
+  "description": "Zenlytic is a self-serve business intelligence platform whose AI analyst, Zoë, answers natural-language questions by reasoning over a governed semantic layer rather than raw tables, so results map to agreed business definitions. It connects to warehouses like Snowflake, BigQuery, Redshift, and Databricks plus dbt and Looker semantic models, and returns inspectable analyses, visualizations, and reports inside the app or via Slack and Teams. The emphasis is on auditable, defensible answers for non-technical users.",
+  "category": "analytics",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Zenlytic",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Vendor-managed LLMs grounded by a semantic layer; not user-selectable."
+  },
+  "tags": ["business-intelligence", "semantic-layer", "text-to-sql", "data-analyst"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://zenlytic.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 568,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Grounds its AI analyst in a governed semantic layer, so answers reconcile to existing metric definitions instead of free-form SQL guesses.",
+  "pros": [
+    "Answers checked against a semantic layer",
+    "Connects to major warehouses, dbt, and Looker",
+    "Delivers analyses in Slack and Teams",
+    "Built for non-technical self-serve users"
+  ],
+  "cons": [
+    "Public pricing isn't listed (sales-led)",
+    "Requires a modeled semantic layer to shine",
+    "Smaller vendor than incumbent BI suites"
+  ],
+  "bestFor": ["Self-serve BI", "Commerce analytics", "Governed metric reporting"],
+  "alternatives": ["thoughtspot", "databricks-genie", "wren-ai", "julius"],
+  "references": [
+    {
+      "title": "Zenlytic develops commerce-specific, self-serve business intelligence tool",
+      "url": "https://techcrunch.com/2022/11/14/zenlytic-commerce-business-intelligence/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
