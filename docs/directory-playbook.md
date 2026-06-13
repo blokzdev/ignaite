@@ -9,7 +9,7 @@ the human overview; the executable routines live as Claude Code commands.
 | Command                                                            | Driven by                       | What it does                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **`/add-app <name \| url \| list>`**                               | a human supplies names          | Dedup → web-research → author a schema-valid `App` entry → validate → report.                                                                                                                                                                                                                                                                                                                                |
-| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`.                                                                                                                                                 |
+| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`. Run manually it stops at the PR; the **scheduled routine takes it all the way — drives CI green and auto-merges** (see [Scheduling](#scheduling-claude-code-routines)).                                                          |
 | **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR** when run unattended.                                                                                                                                                                                                                  |
 | **`/rotate-featured [count \| cluster]`**                          | autonomous (good for schedules) | Refreshes the homepage **Featured carousel** so it never goes stale: features one strong active app across ~14 random categories (biased away from recently-featured via `featuredAt`), rotates the prior set out, and **opens a PR**. Touches only `featured`/`featuredAt`/`accentColor` — never `changelog` (rotation is curation, not a listing change; its audit trail is `featuredAt` + the PR itself). |
 
@@ -62,7 +62,8 @@ here can invoke them. They encode the same flow we run manually.
   those churn fastest.
 - **Rotate the Featured set** biweekly with `/rotate-featured` so the homepage carousel stays fresh and
   spreads the spotlight across categories over time.
-- Each run is its own small PR — easy to review, easy to revert.
+- Each run is its own small PR — easy to review, easy to revert (discovery auto-merges once CI is
+  green, but a one-listing PR stays trivial to revert).
 
 ## Scheduling (Claude Code Routines)
 
@@ -71,15 +72,22 @@ The recurring routines run via Claude Code's **Routines** feature (scheduled clo
 > **You set these up — an agent can't.** Routines are **account-owned, not repo-owned**, so they
 > can't be committed here or created from inside a session. Create them yourself at
 > **[claude.ai/code/routines](https://claude.ai/code/routines)** (or run **`/schedule`**), pointed at
-> this repo. Min interval is 1 hour; weekly is recommended. They all **open a PR for review** —
-> never straight to `main` — so you keep the quality gate.
+> this repo. Min interval is 1 hour; weekly is recommended. `/audit-directory` and `/rotate-featured`
+> **open a PR for review** — never straight to `main` — so you keep a human quality gate.
+> `/discover-apps` runs fully **hands-off**: it opens a PR, drives CI green (fixing failures itself),
+> and **auto-merges** once all checks pass — the repo has auto-merge + delete-head-branch enabled, so
+> the strict velite gate + CI are the guard rather than a human review. If a failure needs a human
+> decision it leaves the PR open and says what's blocking.
 
 Create these scheduled routines and paste them as their prompts:
 
-- **Weekly — discover new apps**
+- **Weekly — discover new apps** (hands-off — lands automatically)
 
   > Run `/discover-apps`. Find notable AI apps not yet in the directory, author the genuinely
-  > directory-worthy ones per the playbook, and open a PR for review. If nothing is worth adding, do
+  > directory-worthy ones per the playbook, and open a PR. Then wait for CI (don't poll with sleeps),
+  > fix any failures until it's green — reproduce locally with `pnpm velite`/`typecheck`/`lint`/`build`
+  > — and merge into `main` (enable auto-merge so it lands the moment all checks pass). If a failure
+  > needs a human decision, leave the PR open and say what's blocking. If nothing is worth adding, do
   > nothing.
 
 - **Weekly — audit existing listings**
