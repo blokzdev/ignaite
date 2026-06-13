@@ -1,0 +1,60 @@
+{
+  "slug": "sana",
+  "name": "Sana",
+  "tagline": "Enterprise AI assistant that searches and acts across your tools.",
+  "description": "Sana is an enterprise AI assistant and agent platform from Stockholm-based Sana Labs that answers questions, drafts documents, and runs multi-step automations grounded in a company's own data. It connects to 100+ business applications, respects native permissions, and pairs a knowledge assistant and enterprise search with its Sana Agents and Sana Learn products. It's available on web and iOS, with a free tier and paid team and enterprise plans.",
+  "insight": "Workday agreed to acquire Stockholm-based Sana Labs for about $1.1B in 2025.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Sana Labs",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Connects to leading LLMs and 100+ company apps."
+  },
+  "tags": ["enterprise-search", "ai-assistant", "agents", "knowledge-management"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sanalabs.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://sanalabs.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 545,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Answers, drafts and runs multi-step agents over your real company data across 100+ connected tools with native permissions — not the public web.",
+  "pros": [
+    "Searches across 100+ company tools",
+    "Respects native app permissions",
+    "Builds multi-step AI agents",
+    "Web and iOS apps",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Enterprise focus",
+    "Future tied to Workday acquisition",
+    "Pricier beyond the free tier"
+  ],
+  "bestFor": ["Enterprise knowledge work", "Internal search & Q&A", "Ops & support teams"],
+  "alternatives": ["glean", "dust"],
+  "references": [
+    {
+      "title": "Workday to acquire Sana in $1.1B push for AI workplace",
+      "url": "https://www.eenewseurope.com/en/workday-to-acquire-sana-in-1-1b-push-for-ai-powered-workplace/",
+      "source": "eeNews Europe",
+      "kind": "analysis"
+    },
+    {
+      "title": "Is Workday's $1.1B Sana Acquisition Enough to Dominate the AI Agent Race?",
+      "url": "https://futurumgroup.com/insights/is-workdays-1-1b-sana-acquisition-enough-to-dominate-the-ai-agent-race/",
+      "source": "Futurum Group",
+      "kind": "analysis"
+    }
+  ]
+}

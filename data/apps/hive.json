@@ -1,0 +1,60 @@
+{
+  "slug": "hive",
+  "name": "Hive",
+  "tagline": "Cloud AI APIs for content moderation, search, and generation.",
+  "description": "Hive offers pre-trained deep-learning models delivered as cloud APIs for understanding, moderating, and generating visual, text, and audio content. Its core business is automated content moderation — flagging unsafe imagery, video, text, and audio at platform scale — alongside logo and object detection, AI-generated-content and deepfake detection, and reverse image search. The San Francisco company powers trust-and-safety pipelines for platforms including Reddit, Bluesky, and Midjourney. Models integrate with a few lines of code and run as managed or on-premise deployments.",
+  "insight": "In 2024 Hive won the Pentagon Defense Innovation Unit's first deepfake-detection contract, a $2.4M two-year deal.",
+  "category": "vision",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Hive",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary pre-trained deep-learning models served via API."
+  },
+  "tags": ["content-moderation", "computer-vision", "deepfake-detection", "moderation-api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thehive.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://thehive.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 543,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Pre-trained APIs cover image, video, text and audio moderation plus AI-content detection — the models behind Reddit, Bluesky and Midjourney.",
+  "pros": [
+    "Broad pre-trained moderation models",
+    "Image, video, text and audio coverage",
+    "Deepfake and AI-content detection",
+    "Used by Reddit, Bluesky, Midjourney",
+    "Simple API integration"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "No free self-serve tier",
+    "Geared to platforms at scale"
+  ],
+  "bestFor": ["Trust & safety teams", "Content moderation at scale", "Deepfake detection"],
+  "alternatives": ["clarifai"],
+  "references": [
+    {
+      "title": "The US Department of Defense is investing in deepfake detection",
+      "url": "https://www.technologyreview.com/2024/12/05/1107961/the-us-department-of-defense-is-investing-in-deepfake-detection/",
+      "source": "MIT Technology Review",
+      "kind": "analysis"
+    },
+    {
+      "title": "Hive raises $85M for AI-based APIs to help moderate content",
+      "url": "https://techcrunch.com/2021/04/21/hive-raises-85m-for-ai-based-apis-to-help-moderate-content-identify-objects-and-more/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
