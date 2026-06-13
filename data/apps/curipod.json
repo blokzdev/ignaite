@@ -1,0 +1,57 @@
+{
+  "slug": "curipod",
+  "name": "Curipod",
+  "tagline": "AI builds interactive, discussion-driven lessons that teachers run live with their class.",
+  "description": "Curipod is an AI lesson-building platform for teachers: enter a topic, grade level, and objective and it generates interactive slide decks with polls, word clouds, open questions, and drawing prompts that students answer live on their own devices. It gives real-time AI feedback on student writing and produces participation reports, aiming to drive classroom dialogue rather than passive viewing. Built for K-12 classrooms, it offers a free tier plus school and district licenses.",
+  "insight": "Founded in Bergen, Norway; its makers pitched it as a 'reverse Kahoot' — teacher-built interactive lessons instead of quiz games.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Curipod",
+  "platforms": ["web"],
+  "tags": ["edtech", "lesson-planning", "interactive-lessons", "k12"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://curipod.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://curipod.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 573,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Turns a topic prompt into a full interactive lesson students answer live — combining AI generation with real-time polls, drawings, and writing feedback.",
+  "pros": [
+    "Generates full interactive lessons fast",
+    "Live polls, word clouds, drawing prompts",
+    "Real-time AI feedback on student writing",
+    "Free tier for teachers",
+    "Anonymous student participation"
+  ],
+  "cons": [
+    "Built for K-12, not higher ed",
+    "Unlimited use needs Premium or site license",
+    "Quality of generated slides varies",
+    "Requires student devices in class"
+  ],
+  "bestFor": ["K-12 teachers", "Interactive lessons", "Classroom engagement"],
+  "alternatives": ["magicschool-ai", "brisk-teaching", "schoolai"],
+  "references": [
+    {
+      "title": "Thousands are using the Curipod platform",
+      "url": "https://www.nhh.no/en/nhh-bulletin/article-archive/2021/october/thousands-are-using-the-curipod-platform/",
+      "source": "NHH",
+      "kind": "analysis"
+    },
+    {
+      "title": "What is Curipod and How Can It Be Used for Teaching?",
+      "url": "https://www.techlearning.com/how-to/what-is-curipod-and-how-can-it-be-used-for-teaching-tips-and-tricks",
+      "source": "Tech & Learning",
+      "kind": "guide"
+    }
+  ]
+}

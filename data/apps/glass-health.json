@@ -1,0 +1,58 @@
+{
+  "slug": "glass-health",
+  "name": "Glass Health",
+  "tagline": "Ambient AI scribe and clinical decision support that drafts notes and differentials for clinicians.",
+  "description": "Glass Health is a clinical AI platform for physicians that pairs an ambient scribe with decision support: it listens to a visit and drafts the note, then generates three-tier differential diagnoses and assessment-and-plan suggestions with PubMed-cited reasoning. Clinicians review, edit, or reject every suggestion — it is positioned as a reasoning aid, not a diagnostic replacement. Higher tiers integrate with EHRs including Epic, athenahealth, eClinicalWorks, and Elation.",
+  "insight": "A Y Combinator (W23) company; its decision support rests on guidelines peer-reviewed by an in-house academic physician team.",
+  "category": "healthcare",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Glass Health",
+  "platforms": ["web"],
+  "tags": ["clinical-ai", "ambient-scribe", "decision-support", "differential-diagnosis"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://glass.health/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://glass.health/resources",
+      "label": "Resources"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 571,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Pairs an ambient scribe with structured three-tier differential diagnosis (most-likely, expanded, can't-miss) and PubMed-cited reasoning in one tool.",
+  "pros": [
+    "Ambient scribe plus clinical decision support",
+    "Three-tier differential with a can't-miss tier",
+    "Reasoning cites PubMed sources",
+    "EHR integrations on higher tiers",
+    "Free Lite tier to try"
+  ],
+  "cons": [
+    "A reasoning aid, not a diagnostic authority",
+    "Full EHR integration only on top tier",
+    "US-clinician focused",
+    "Output always requires clinician review"
+  ],
+  "bestFor": ["Physicians", "Clinical decision support", "Medical documentation"],
+  "alternatives": ["openevidence", "abridge", "nabla"],
+  "references": [
+    {
+      "title": "Glass Health is building an AI for suggesting medical diagnoses",
+      "url": "https://techcrunch.com/2023/09/08/glass-health-is-building-an-ai-for-suggesting-medical-diagnoses/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Glass Health Raises $5M in Funding",
+      "url": "https://www.finsmes.com/2023/09/glass-health-raises-5m-in-funding.html",
+      "source": "FinSMEs",
+      "kind": "analysis"
+    }
+  ]
+}
