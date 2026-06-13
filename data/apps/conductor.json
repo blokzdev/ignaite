@@ -1,0 +1,55 @@
+{
+  "slug": "conductor",
+  "name": "Conductor",
+  "tagline": "Run a team of parallel AI coding agents on your Mac.",
+  "description": "Conductor is a macOS app that runs multiple AI coding agents — Claude Code, Codex, and Cursor — in parallel, each in its own isolated git worktree. You dispatch tasks, watch each agent's progress in real time, then review and merge their changes without them stepping on each other. The app itself is free and runs on your own agent subscriptions; Conductor Cloud extends runs beyond your laptop.",
+  "insight": "Built by Melty Labs (YC S24); it grew out of the team's earlier 'Melty' AI code editor into a manager for parallel agents.",
+  "category": "agent",
+  "pricing": "free",
+  "deployment": "local",
+  "vendor": "Melty Labs",
+  "platforms": ["macos"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Runs your own Claude Code, Codex, or Cursor agents — bring those subscriptions/keys."
+  },
+  "tags": ["coding-agents", "parallel-agents", "git-worktrees", "claude-code", "mac"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://conductor.build",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.conductor.build"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 522,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "A native Mac control plane for several coding agents at once — Claude Code, Codex, Cursor — each sandboxed in its own git worktree for clean parallel review.",
+  "pros": [
+    "Runs many coding agents in parallel",
+    "Each agent isolated in a git worktree",
+    "Works with Claude Code, Codex, Cursor",
+    "App is free; bring your own agent plan",
+    "Real-time progress + easy merge review"
+  ],
+  "cons": [
+    "macOS (Apple Silicon) only",
+    "Not open source",
+    "Useful only with paid agent subscriptions",
+    "Young, fast-changing product"
+  ],
+  "bestFor": ["Mac developers", "Parallel agent workflows", "Claude Code power users"],
+  "alternatives": ["claude-code", "crush", "cline", "kilo-code"],
+  "references": [
+    {
+      "title": "Conductor: running multiple AI coding agents in parallel",
+      "url": "https://madewithlove.com/blog/conductor-running-multiple-ai-coding-agents-in-parallel/",
+      "source": "madewithlove",
+      "kind": "guide"
+    }
+  ]
+}

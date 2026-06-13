@@ -1,0 +1,50 @@
+{
+  "slug": "pillar-security",
+  "name": "Pillar Security",
+  "tagline": "Discover, govern, and secure the AI agents across your organization.",
+  "description": "Pillar Security is an end-to-end platform for securing enterprise AI — from discovering every AI agent, model, and integration in use to red-teaming them and enforcing runtime guardrails. It maps the AI supply chain across code, SaaS, and endpoints, then layers on governance, data-privacy controls, and compliance mapping. It targets AI-specific risks such as prompt injection, jailbreaks, and data poisoning.",
+  "insight": "Founded in 2023 by Dor Sarig and Ziv Karliner; raised a $9M seed led by Shield Capital in April 2025.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Pillar Security",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Secures AI apps and agents regardless of the underlying model; integrates with code, SaaS, and cloud AI platforms."
+  },
+  "tags": ["ai-security", "guardrails", "red-teaming", "ai-governance", "prompt-injection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.pillar.security",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 523,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Covers the whole AI lifecycle — discovery and supply-chain mapping, agentic red-teaming, and runtime guardrails — not just input/output filtering.",
+  "pros": [
+    "End-to-end AI lifecycle coverage",
+    "Agentic red-teaming + runtime guardrails",
+    "Maps AI use across code, SaaS, endpoints",
+    "Gartner 2026 Guardian Agents vendor"
+  ],
+  "cons": [
+    "Enterprise sales; no public pricing",
+    "Not open source",
+    "Aimed at orgs, not individuals",
+    "Young company (founded 2023)"
+  ],
+  "bestFor": ["Enterprise AI security teams", "Securing AI agents", "AI governance & compliance"],
+  "alternatives": ["lakera", "prompt-security", "lasso-security", "noma-security"],
+  "references": [
+    {
+      "title": "Pillar Security Banks $9M for AI Security Guardrails",
+      "url": "https://www.securityweek.com/pillar-security-banks-9m-for-ai-security-guardrails/",
+      "source": "SecurityWeek",
+      "kind": "analysis"
+    }
+  ]
+}

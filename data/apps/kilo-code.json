@@ -1,0 +1,55 @@
+{
+  "slug": "kilo-code",
+  "name": "Kilo Code",
+  "tagline": "Open-source AI coding agent for VS Code, JetBrains, and the CLI.",
+  "description": "Kilo Code is an open-source AI coding agent that plans, writes, edits, and runs code inside your editor. It offers specialized modes — Code, Architect, Ask, Debug, and Orchestrator — works across VS Code, JetBrains IDEs, and the CLI, and supports 500+ models with bring-your-own-key and zero markup. A free tier plus paid cloud and team options round it out.",
+  "insight": "Counts GitLab co-founder Sid Sijbrandij among its backers; the MIT-licensed agent raised an $8M seed after a March 2025 launch.",
+  "category": "agent",
+  "pricing": "freemium",
+  "openSource": true,
+  "vendor": "Kilo Code, Inc.",
+  "platforms": ["vscode-extension", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring your own key across 500+ models with zero markup, or use Kilo's hosted model routing."
+  },
+  "tags": ["open-source", "coding-agent", "vscode-extension", "byo-key", "multi-model"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kilo.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Kilo-Org/kilocode"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 525,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Open-source (MIT) agent spanning VS Code, JetBrains, and CLI with role modes (Code/Architect/Debug) and 500+ models at zero markup on your own keys.",
+  "pros": [
+    "Fully open source (MIT)",
+    "Works in VS Code, JetBrains, and CLI",
+    "500+ models, BYO key with zero markup",
+    "Specialized modes (Code, Architect, Debug)",
+    "Large, active community"
+  ],
+  "cons": [
+    "You manage model costs and keys",
+    "Cloud and team features are paid",
+    "Agent quality depends on chosen model",
+    "Young project (launched 2025)"
+  ],
+  "bestFor": ["Open-source agent fans", "Multi-model coding", "VS Code & JetBrains users"],
+  "alternatives": ["cline", "continue", "opencode", "crush"],
+  "references": [
+    {
+      "title": "Inside Kilo Code: an open-source AI coding agent",
+      "url": "https://tessl.io/blog/inside-kilo-code-an-open-source-ai-coding-agent-with-plans-to-reshape-software-development/",
+      "source": "AI Native Dev",
+      "kind": "interview"
+    }
+  ]
+}
