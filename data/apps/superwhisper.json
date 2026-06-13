@@ -1,0 +1,41 @@
+{
+  "slug": "superwhisper",
+  "insight": "Free-tier transcription runs on small AI models fully on-device, so audio need not leave your machine; cloud models are Pro-only.",
+  "name": "superwhisper",
+  "tagline": "Turn your voice into polished text in any app.",
+  "description": "A voice-to-text dictation app that transcribes speech into formatted, cleaned-up text system-wide across any application. Per-mode model selection lets you assign different local or cloud models to different tasks, with meeting recording, file transcription, and custom vocabulary on top.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "superwhisper",
+  "platforms": ["macos", "windows", "ios"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Per-mode choice of local Whisper-family models or cloud models (cloud reserved for Pro)."
+  },
+  "tags": ["dictation", "speech-to-text", "on-device", "macos"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://superwhisper.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 507,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "On-device local models on the free tier mean dictation that never uploads your audio — privacy most cloud-only dictation apps can't match.",
+  "pros": [
+    "Free tier with on-device models",
+    "Works system-wide in any app",
+    "Per-mode model selection",
+    "macOS, Windows, and iOS"
+  ],
+  "cons": [
+    "Cloud models gated to Pro",
+    "Mac is the most mature platform",
+    "Larger local models need more RAM"
+  ],
+  "bestFor": ["Privacy-conscious users", "Mac power users", "System-wide dictation"],
+  "alternatives": ["wispr-flow", "aqua-voice"]
+}

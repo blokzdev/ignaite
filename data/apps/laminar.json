@@ -1,0 +1,45 @@
+{
+  "slug": "laminar",
+  "insight": "Y Combinator S24 startup; raised a $3M seed in March 2026, and its tracing engine is written in Rust.",
+  "name": "Laminar",
+  "tagline": "Open-source observability built for AI agents.",
+  "description": "An observability and evals platform purpose-built for AI agents: one-line OpenTelemetry-native tracing across SDKs like the Vercel AI SDK, OpenAI, Anthropic, LangChain and browser agents, plus an evals SDK/CLI for local and CI runs. Self-host the Apache-2.0 stack or use Laminar Cloud to debug long-running agent failures.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Laminar",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["open-source", "tracing", "agents", "evals"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.laminar.sh",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/lmnr-ai/lmnr"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 505,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Agent-first tracing in one line of code, with an evals SDK in the same Apache-2.0 stack you can self-host — not a general LLM logger bolted onto agents.",
+  "pros": [
+    "Apache-2.0, self-hostable",
+    "One-line OpenTelemetry tracing",
+    "Built for long-running agents",
+    "Tracing + evals in one platform"
+  ],
+  "cons": [
+    "Younger than LangSmith/Langfuse",
+    "Smaller ecosystem and integrations",
+    "Self-host adds infra overhead"
+  ],
+  "bestFor": ["AI agent teams", "Self-hosted observability", "Debugging agent failures"],
+  "alternatives": ["langfuse", "langsmith", "helicone", "arize-phoenix"]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "aqua-voice",
+  "insight": "Y Combinator W24 startup; runs its own 'Avalon' speech model tuned for prompt-style speech and code vocabulary.",
+  "name": "Aqua Voice",
+  "tagline": "Fast, accurate voice typing for any app.",
+  "description": "A desktop dictation app that turns speech into text across any application, powered by its in-house Avalon model and tuned for low latency. Adds a custom dictionary and formatting so dictated text comes out clean, with a free tier and unlimited paid plans.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Aqua Voice",
+  "platforms": ["macos", "windows", "ios"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Built around Aqua's own Avalon speech model."
+  },
+  "tags": ["dictation", "speech-to-text", "voice-typing", "low-latency"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aquavoice.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 508,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Its purpose-built Avalon model targets low latency and handles prompt-style speech and code, where general dictation tools mis-transcribe technical terms.",
+  "pros": [
+    "Own Avalon model, low latency",
+    "Free-forever starter tier",
+    "Handles code/technical vocabulary",
+    "macOS, Windows, and iOS"
+  ],
+  "cons": [
+    "Free tier capped at 1,000 words/mo",
+    "Transcription is cloud-based",
+    "Newer, smaller track record"
+  ],
+  "bestFor": ["Developers", "Voice typing", "Fast dictation"],
+  "alternatives": ["wispr-flow", "superwhisper"]
+}

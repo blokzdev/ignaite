@@ -1,0 +1,40 @@
+{
+  "slug": "recall",
+  "insight": "Rebranded from getrecall.ai to recall.it; lets you pick which AI model summarizes each saved item.",
+  "name": "Recall",
+  "tagline": "Your AI-powered personal knowledge base.",
+  "description": "A personal knowledge base that saves, summarizes, and connects content from anywhere — articles, videos, PDFs — then lets you chat with it using the AI model of your choice. Capture from a Chrome or Firefox extension, the web app, or mobile, with spaced-repetition review to keep what you save.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "vendor": "Recall",
+  "platforms": ["browser-extension", "web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Choose which AI model summarizes and answers over your saved content."
+  },
+  "tags": ["knowledge-base", "summarization", "save-later", "spaced-repetition"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.recall.it",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 509,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Goes beyond save-and-summarize: auto-links saves into a knowledge graph and resurfaces them via spaced repetition, so your library compounds.",
+  "pros": [
+    "Save and summarize from anywhere",
+    "Chat with your library",
+    "Choice of AI model",
+    "Spaced-repetition review"
+  ],
+  "cons": [
+    "Best features behind premium",
+    "Cloud-synced, not self-hosted",
+    "Summary quality varies by source"
+  ],
+  "bestFor": ["Researchers", "Lifelong learners", "Heavy readers"],
+  "alternatives": ["glasp", "supermemory", "monica"]
+}
