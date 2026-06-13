@@ -1,0 +1,63 @@
+{
+  "slug": "labelbox",
+  "name": "Labelbox",
+  "tagline": "Data factory for AI teams — labeling, evals, and human data for training.",
+  "description": "Labelbox is a platform for generating and managing training data for AI models, combining annotation tools (Annotate), data curation (Catalog), and model-assisted labeling and evaluation (Model Foundry). It now spans reinforcement-learning data, custom evals, robotics datasets, and an on-demand network of expert human labelers, metered by a usage-based Labelbox Unit (LBU).",
+  "insight": "Raised a $110M Series D led by SoftBank Vision Fund 2 in 2022 (~$189M raised total); founded in 2018 by Manu Sharma.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Labelbox",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Produces training and eval data and labels for any model."
+  },
+  "tags": ["data-labeling", "training-data", "annotation", "evals", "rlhf"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://labelbox.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.labelbox.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://labelbox.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 516,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Combines an enterprise labeling UI, model-assisted pre-labeling, and an on-demand expert-labeler network in one usage-metered platform.",
+  "pros": [
+    "Mature, full-featured labeling UI",
+    "Model-assisted (auto) labeling",
+    "Catalog curation + Model Foundry evals",
+    "On-demand expert labeler network"
+  ],
+  "cons": [
+    "Usage-based LBU pricing hard to forecast",
+    "Enterprise focus, steeper for small teams",
+    "Proprietary platform, no self-host"
+  ],
+  "bestFor": ["Training-data ops", "Computer-vision labeling", "Enterprise ML teams"],
+  "alternatives": ["scale-ai", "encord", "label-studio", "supervisely"],
+  "references": [
+    {
+      "title": "Labelbox Raises $110M in Series D Funding",
+      "url": "https://www.finsmes.com/2022/01/labelbox-raises-110m-in-series-d-funding.html",
+      "source": "FinSMEs",
+      "kind": "analysis"
+    },
+    {
+      "title": "Labelbox's Path to PMF: Founders Need to be Contrarian and Right",
+      "url": "https://review.firstround.com/labelboxs-path-to-pmf-founders-need-to-be-contrarian-and-right-heres-how/",
+      "source": "First Round Review",
+      "kind": "interview"
+    }
+  ]
+}
