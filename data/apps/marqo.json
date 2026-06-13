@@ -1,0 +1,60 @@
+{
+  "slug": "marqo",
+  "name": "Marqo",
+  "tagline": "AI-native vector search for multimodal product discovery.",
+  "description": "Marqo is an end-to-end vector search engine that generates, stores, and retrieves embeddings for text and image data through a single API, so teams don't have to stitch together a separate embedding pipeline. It has since repositioned around AI-native ecommerce search, merchandising, and recommendations, with turnkey integrations for major commerce platforms.",
+  "insight": "Founded by two ex-Amazon engineers, one a former Amazon Robotics lead scientist; raised a $12.5M Series A led by Lightspeed in 2024.",
+  "category": "vector-db",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Marqo",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Generates multimodal (CLIP-based) embeddings in-engine and supports multiple embedding backends."
+  },
+  "accentColor": "#5B5BD6",
+  "tags": ["vector-search", "multimodal", "ecommerce", "embeddings"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.marqo.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/marqo-ai/marqo"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 531,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Bundles embedding generation, storage, and retrieval behind one API and can train a model on your own catalog — no separate embedding pipeline to wire up.",
+  "pros": [
+    "Single API for end-to-end vector search",
+    "Native multimodal (text + image) search",
+    "Turnkey ecommerce platform integrations",
+    "Backed by Lightspeed and Blackbird"
+  ],
+  "cons": [
+    "Open-source engine is deprecated, no longer updated",
+    "No public pricing; commercial product is sales-led",
+    "Scope narrowed toward ecommerce search"
+  ],
+  "bestFor": ["Ecommerce search", "Product discovery", "Multimodal search", "Recommendations"],
+  "alternatives": ["pinecone", "weaviate", "qdrant", "milvus"],
+  "references": [
+    {
+      "title": "Why vector databases are having a moment as the AI hype cycle peaks",
+      "url": "https://techcrunch.com/2024/04/20/why-vector-databases-are-having-a-moment-as-the-ai-hype-cycle-peaks/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Former Amazon duo bank $8.1 million Seed round for Marqo",
+      "url": "https://www.startupdaily.net/topic/funding/former-amazon-duo-bank-8-1-million-seed-round-for-marqo-the-ai-powered-search-engine-that-finds-better-stuff/",
+      "source": "Startup Daily",
+      "kind": "analysis"
+    }
+  ]
+}

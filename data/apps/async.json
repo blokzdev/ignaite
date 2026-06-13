@@ -1,0 +1,56 @@
+{
+  "slug": "async",
+  "name": "Async",
+  "tagline": "AI studio to record, edit, and produce podcasts and video.",
+  "description": "Async is a browser-based creative studio for recording, editing, and producing podcasts and video, with studio-quality remote recording, text-based editing, AI enhancement, and multilingual dubbing. Its Revoice feature clones a voice from a short sample to fix mistakes without re-recording, and a developer Voice API exposes its 1,000+ AI voices. It was known as Podcastle until a 2026 rebrand.",
+  "insight": "Launched in 2020 as a Chrome extension that turned articles into podcasts; rebranded from Podcastle to Async in January 2026.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Async",
+  "platforms": ["web", "api", "ios"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "1,000+ proprietary AI voices plus Revoice voice cloning from a short sample."
+  },
+  "accentColor": "#7C5CFC",
+  "tags": ["podcasting", "voice-clone", "audio-editing", "dubbing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://async.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://async.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 532,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Bundles studio recording, AI enhancement, text-based editing, voice cloning, and dubbing in one browser tab — not just text-to-speech.",
+  "pros": [
+    "All-in-one record, edit, and publish workflow",
+    "Revoice fixes flubs without re-recording",
+    "1,000+ AI voices with multilingual dubbing",
+    "Genuine free tier; web app is cross-platform",
+    "Records up to 4K video and lossless audio"
+  ],
+  "cons": [
+    "No Android app — web only on Android",
+    "Revoice quality depends on the input sample",
+    "Advanced features gated behind paid plans",
+    "Video editing lags dedicated competitors"
+  ],
+  "bestFor": ["Podcasters", "Video creators", "Voiceover & dubbing", "Remote interviews"],
+  "alternatives": ["descript", "riverside", "adobe-podcast", "wondercraft"],
+  "references": [
+    {
+      "title": "Podcastle Pro Review: AI Software To Clone Your Voice For Podcasting",
+      "url": "https://www.slashgear.com/1253318/podcastle-pro-review-ai-clone-voice-podcasting-software/",
+      "source": "SlashGear",
+      "kind": "review"
+    }
+  ]
+}

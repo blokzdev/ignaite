@@ -1,0 +1,71 @@
+{
+  "slug": "vectara",
+  "name": "Vectara",
+  "tagline": "Managed RAG-as-a-service with built-in hallucination control.",
+  "description": "Vectara is an enterprise GenAI platform that delivers retrieval-augmented generation as a managed service, bundling ingestion, embedding, retrieval, reranking, and grounded generation behind one API. It ships first-party retrieval and generation models and a built-in hallucination-evaluation model (HHEM) to measure and reduce ungrounded answers. It targets regulated, accuracy-critical applications and AI agents.",
+  "insight": "Founded in 2022 by ex-Google AI researchers; CEO Amr Awadallah earlier co-founded Cloudera.",
+  "category": "search",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Vectara",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "First-party Boomerang (embeddings), Mockingbird (RAG LLM), and the HHEM hallucination-evaluation model."
+  },
+  "accentColor": "#3B5BFE",
+  "tags": ["rag", "retrieval", "enterprise", "hallucination-detection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vectara.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.vectara.com"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/vectara"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 533,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Fully managed end-to-end RAG (ingest, retrieve, generate) with built-in, measurable hallucination detection and correction.",
+  "pros": [
+    "End-to-end managed RAG pipeline",
+    "Built-in hallucination evaluation (HHEM)",
+    "First-party multilingual retrieval models",
+    "Open-sources HHEM and eval tooling (Apache-2.0)",
+    "SaaS, VPC, or on-prem deployment options"
+  ],
+  "cons": [
+    "Enterprise-gated; contracts start around $100K/yr",
+    "Less flexible than a DIY RAG stack",
+    "Core platform is proprietary (only tools open)",
+    "Crowded managed-RAG and hyperscaler competition"
+  ],
+  "bestFor": [
+    "Enterprise RAG",
+    "AI agents & assistants",
+    "Regulated industries",
+    "Grounding & accuracy"
+  ],
+  "alternatives": ["jina-ai", "pinecone", "exa", "tavily"],
+  "references": [
+    {
+      "title": "Enterprise RAG Platforms Comparison 2026: Full Tool Breakdown",
+      "url": "https://atlan.com/know/enterprise-rag-platforms-comparison/",
+      "source": "Atlan",
+      "kind": "comparison"
+    },
+    {
+      "title": "Amr Awadallah, CEO & Founder of Vectara: $53 Million Raised",
+      "url": "https://www.frontlines.io/podcasts/amr-awadallah/",
+      "source": "Frontlines.io",
+      "kind": "interview"
+    }
+  ]
+}
