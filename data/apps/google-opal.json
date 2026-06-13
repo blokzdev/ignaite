@@ -1,0 +1,60 @@
+{
+  "slug": "google-opal",
+  "name": "Opal",
+  "tagline": "Build and share AI mini-apps from a plain-language description.",
+  "description": "Opal is an experimental Google Labs tool for building AI mini-apps without code. You describe a task in natural language and Opal generates a workflow that chains prompts, models, and tools, which you can refine in a visual node editor and share with others via a link. It targets marketers, analysts, and other non-engineers who want to prototype and ship small AI-powered tools quickly.",
+  "insight": "Built by Google Labs; launched July 2025 as a US-only public beta, then expanded to 15+ more countries.",
+  "category": "automation",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Google",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Powered by Google's Gemini models."
+  },
+  "tags": ["no-code", "workflow-builder", "ai-apps", "google-labs"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://opal.withgoogle.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.googleblog.com/introducing-opal/"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 558,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Turn a plain-language description into a shareable, visual mini-app that chains prompts, models, and tools — no code, hosted by Google.",
+  "pros": [
+    "Natural-language app building",
+    "Visual node editor to refine logic",
+    "Share finished apps via a link",
+    "Free Google Labs experiment",
+    "Starter templates and demo gallery"
+  ],
+  "cons": [
+    "Experimental Labs beta, may change",
+    "Tied to Google's model ecosystem",
+    "Availability still limited by country",
+    "Not aimed at complex production apps"
+  ],
+  "bestFor": [
+    "Prototyping AI workflows",
+    "Marketers & analysts",
+    "No-code builders",
+    "Sharing AI mini-tools"
+  ],
+  "alternatives": ["gumloop", "n8n", "lindy", "relay-app"],
+  "references": [
+    {
+      "title": "Google debuts no-code Opal tool for building 'AI mini apps'",
+      "url": "https://siliconangle.com/2025/07/25/google-debuts-no-code-opal-tool-building-ai-mini-apps/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}

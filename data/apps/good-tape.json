@@ -1,0 +1,59 @@
+{
+  "slug": "good-tape",
+  "name": "Good Tape",
+  "tagline": "Automated AI transcription in 100+ languages.",
+  "description": "Good Tape is an AI transcription tool that turns audio and video into accurate, searchable text across 100+ languages with automatic language detection. It adds speaker identification, AI summaries, and smart search, and is built around a privacy-first posture: GDPR compliance, ISO 27001 certification, EU-based servers, AES-256 encryption, and a commitment not to use uploads to train AI. It runs on the web plus iOS and Android apps.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Good Tape",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "AI speech-to-text across 100+ languages with auto language detection."
+  },
+  "tags": ["transcription", "speech-to-text", "privacy", "multilingual"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://goodtape.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://goodtape.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 561,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Privacy-first transcription — ISO 27001-certified, EU-hosted, and your audio is never used to train AI, across 100+ languages.",
+  "pros": [
+    "Accurate speech-to-text in 100+ languages",
+    "ISO 27001-certified, EU-based servers",
+    "Doesn't train AI on your audio",
+    "iOS, Android, and web apps",
+    "Free tier to try"
+  ],
+  "cons": [
+    "Free tier capped at a few short files",
+    "Advanced features need a paid plan",
+    "Lighter collaboration than some rivals",
+    "No live meeting-bot integration"
+  ],
+  "bestFor": [
+    "Journalists & researchers",
+    "Privacy-sensitive transcription",
+    "Multilingual transcription",
+    "Interviews & podcasts"
+  ],
+  "alternatives": ["otter-ai", "descript", "assemblyai"],
+  "references": [
+    {
+      "title": "Good Tape vs Otter: Comparing transcription workflows",
+      "url": "https://mediacopilot.ai/good-tape-vs-otter/",
+      "source": "The Media Copilot",
+      "kind": "comparison"
+    }
+  ]
+}
