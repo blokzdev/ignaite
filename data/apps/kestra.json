@@ -1,0 +1,71 @@
+{
+  "slug": "kestra",
+  "name": "Kestra",
+  "tagline": "Open-source orchestration for data, AI, and infrastructure workflows.",
+  "description": "Kestra is an open-source orchestration platform for building data, AI, and infrastructure pipelines as declarative YAML workflows. It is event-driven and language-agnostic, running Python, Bash, Node, Go, or containers across 1,500+ plugins, with a web UI for monitoring plus governance features like RBAC and audit logs. It ships as free self-hosted open source alongside paid Cloud and Enterprise editions.",
+  "insight": "Raised a $25M Series A in March 2026, bringing its total funding to about $36M.",
+  "category": "orchestration",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Kestra Technologies",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Orchestrates any task, including AI/LLM steps; not tied to a model."
+  },
+  "tags": ["orchestration", "data-pipelines", "workflows", "yaml"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kestra.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/kestra-io/kestra"
+    },
+    {
+      "kind": "docs",
+      "url": "https://kestra.io/docs"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 564,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Define pipelines as declarative YAML, not Python DAGs, with event triggers and 1,500+ plugins across data, AI, and infra in one engine.",
+  "pros": [
+    "Declarative YAML, low-code workflows",
+    "Event-driven plus scheduled execution",
+    "1,500+ plugins, language-agnostic",
+    "Apache-2.0 open source, self-hostable",
+    "Scales to enterprise (RBAC, audit logs)"
+  ],
+  "cons": [
+    "YAML can get verbose at scale",
+    "Younger ecosystem than Airflow",
+    "Advanced features gated to paid tiers",
+    "Cloud pricing not fully public"
+  ],
+  "bestFor": [
+    "Data engineering teams",
+    "AI/ML pipelines",
+    "Self-hosted orchestration",
+    "Event-driven workflows"
+  ],
+  "alternatives": ["inngest", "n8n", "activepieces"],
+  "references": [
+    {
+      "title": "French open-source orchestration platform Kestra raises $25M",
+      "url": "https://thenextweb.com/news/orchestration-platform-kestra-raises-25m",
+      "source": "TNW",
+      "kind": "analysis"
+    },
+    {
+      "title": "Paris-based Kestra lands €21M Series A for orchestration expansion",
+      "url": "https://www.eu-startups.com/2026/03/paris-based-kestra-lands-e21-million-series-a-for-orchestration-platform-expansion/",
+      "source": "EU-Startups",
+      "kind": "analysis"
+    }
+  ]
+}

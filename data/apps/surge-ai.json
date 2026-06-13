@@ -1,0 +1,62 @@
+{
+  "slug": "surge-ai",
+  "name": "Surge AI",
+  "tagline": "Premium human data and RLHF for frontier AI labs.",
+  "description": "Surge AI provides high-quality human-generated training data and reinforcement learning from human feedback (RLHF) for AI developers. It pairs a large network of expert annotators with a labeling platform and API to produce complex, specialized data — code, math, safety, and domain reasoning — used to train and align frontier models. Reported customers include OpenAI, Anthropic, Google, and Meta.",
+  "insight": "Bootstrapped with no outside capital, Surge AI's ~$1.4B revenue in 2025 reportedly surpassed rival Scale AI.",
+  "category": "data-ops",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Surge AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Human data and RLHF for any model; provider-independent."
+  },
+  "tags": ["data-labeling", "rlhf", "training-data", "human-feedback"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.surgehq.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 566,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Premium expert-annotator model focused on complex RLHF and reasoning data for frontier labs, not high-volume commodity labeling.",
+  "pros": [
+    "Expert annotators, high-quality data",
+    "Specializes in RLHF & reasoning data",
+    "Trusted by frontier AI labs",
+    "Profitable and bootstrapped",
+    "API plus platform for data delivery"
+  ],
+  "cons": [
+    "Premium pricing (sales-led)",
+    "Aimed at large labs, not small teams",
+    "Limited public product detail",
+    "Not for simple bulk labeling"
+  ],
+  "bestFor": [
+    "Frontier AI labs",
+    "RLHF datasets",
+    "Reasoning & code data",
+    "High-quality annotation"
+  ],
+  "alternatives": ["scale-ai", "superannotate", "labelbox", "v7-go"],
+  "references": [
+    {
+      "title": "Surge AI revenue, funding & news",
+      "url": "https://sacra.com/c/surge-ai/",
+      "source": "Sacra",
+      "kind": "analysis"
+    },
+    {
+      "title": "Surge AI seeks $1B raise as Scale AI loses customers and CEO to Meta",
+      "url": "https://techstartups.com/2025/07/01/surge-ai-seeks-1b-at-15b-valuation-in-first-ever-raise-as-scale-ai-loses-customers-and-ceo-to-meta/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    }
+  ]
+}
