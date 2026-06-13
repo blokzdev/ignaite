@@ -1,0 +1,61 @@
+{
+  "slug": "chatprd",
+  "insight": "Built in late 2023 as a side project by Claire Vo (CPO of LaunchDarkly); now used by 100,000+ PMs who've created 750,000+ documents.",
+  "name": "ChatPRD",
+  "tagline": "AI copilot for product managers — turn ideas into PRDs and specs.",
+  "description": "ChatPRD is an AI copilot for product managers that turns rough ideas into structured product requirements documents, user stories and technical specs, and coaches teams on product quality. It connects to tools like Linear, Notion, Slack, Google Drive and Confluence, and offers premium models on its paid tiers. Free to start, with a Pro plan at $15/mo billed annually.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "ChatPRD",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT-4o", "Claude", "o1"],
+    "notes": "Premium models available on paid tiers."
+  },
+  "tags": ["product-management", "prd", "writing", "documentation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.chatprd.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.chatprd.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 542,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Purpose-built for product managers — encodes PRD structure, user stories and PM coaching instead of starting from a blank general-purpose chat.",
+  "pros": [
+    "Purpose-built for product managers",
+    "Free tier to start",
+    "Integrates with Linear/Notion/Slack",
+    "Premium GPT and Claude models",
+    "Affordable Pro tier ($15/mo)"
+  ],
+  "cons": [
+    "Free tier limited to 3 chats",
+    "Niche to product workflows",
+    "Best value billed annually"
+  ],
+  "bestFor": ["Product managers", "Writing PRDs and specs", "Solo founders"],
+  "alternatives": ["notion-ai", "taskade"],
+  "references": [
+    {
+      "title": "She Built an AI Product Manager Bringing in Six Figures—As a Side Hustle",
+      "url": "https://every.to/podcast/she-built-an-ai-product-manager-bringing-in-six-figures-as-a-side-hustle-e46be9bc-f426-424d-992d-5a71fd7ac5e4",
+      "source": "Every",
+      "kind": "interview"
+    },
+    {
+      "title": "Product Minds: Building ChatPRD — Claire Vo",
+      "url": "https://www.mindtheproduct.com/product-minds-building-chatprd-claire-vo-cpo-launchdarkly-chatprd/",
+      "source": "Mind the Product",
+      "kind": "interview"
+    }
+  ]
+}

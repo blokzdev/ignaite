@@ -1,0 +1,51 @@
+{
+  "slug": "norm-ai",
+  "insight": "Built the first Regulatory AI Agent platform; a $48M 2025 round (Coatue, Vanguard, Marc Benioff) lifted total funding to ~$87M.",
+  "name": "Norm Ai",
+  "tagline": "Turns laws and regulations into AI compliance agents.",
+  "description": "Norm Ai converts laws, regulations and internal policies into AI agents that embed compliance checks directly into business workflows — reviewing AI-generated content, communications, agreements and filings against the rules that apply. Built on its Legal Engineering Automation Platform (Leap), lawyers and former regulators encode complex requirements into operational AI systems. It targets 'compliant by design' automation for regulated enterprises in finance and beyond.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Norm Ai",
+  "platforms": ["web"],
+  "tags": ["compliance", "regulatory", "legal-ai", "ai-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.norm.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 541,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Encodes statutes and regulations into agents that check content and filings as work happens — 'compliant by design,' not after-the-fact review.",
+  "pros": [
+    "Built by lawyers and ex-regulators",
+    "Embeds checks into live workflows",
+    "Backed by top-tier investors",
+    "Focus on auditable compliance"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Narrow compliance focus",
+    "Requires upfront policy encoding"
+  ],
+  "bestFor": ["Compliance teams", "Regulated enterprises", "Financial services"],
+  "alternatives": ["harvey", "luminance", "legalon"],
+  "references": [
+    {
+      "title": "Norm Ai Raises $48 Million to Develop Regulatory AI Agents",
+      "url": "https://www.pymnts.com/news/investment-tracker/2025/norm-ai-raises-48-million-to-develop-regulatory-ai-agents/",
+      "source": "PYMNTS",
+      "kind": "analysis"
+    },
+    {
+      "title": "Norm Ai Raises $48M for Agentic AI",
+      "url": "https://www.corporatecomplianceinsights.com/normai-raises-48-million-agentic-ai/",
+      "source": "Corporate Compliance Insights",
+      "kind": "analysis"
+    }
+  ]
+}

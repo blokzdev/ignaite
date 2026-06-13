@@ -1,0 +1,54 @@
+{
+  "slug": "tennr",
+  "insight": "Backed by IVP, a16z and Lightspeed; its 2025 $101M Series C brought total funding past $150M.",
+  "name": "Tennr",
+  "tagline": "AI that reads medical documents and automates patient referrals.",
+  "description": "Tennr is a healthcare operations platform that uses purpose-built language models to read inbound documents — referrals, faxes and insurance forms — extract the relevant data, and route patients through intake, authorization and care coordination. It targets the referral process, where patients commonly get lost between providers, automating the manual paperwork that bogs down clinics and provider groups. The New York-based company processes millions of healthcare documents every month.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Tennr",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Purpose-built models for reading and routing medical documents."
+  },
+  "tags": ["healthcare", "document-processing", "referrals", "workflow-automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tennr.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 539,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Purpose-built document models read messy faxed referrals and forms, then route the patient end-to-end — not just OCR, but the operational decision.",
+  "pros": [
+    "Automates referral intake and routing",
+    "Reads faxes, forms and insurance docs",
+    "Cuts manual paperwork and errors",
+    "Strong funding and adoption"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Healthcare-ops focus, not general",
+    "Tuned to the US healthcare system"
+  ],
+  "bestFor": ["Clinics and provider groups", "Referral management", "Healthcare back-office"],
+  "references": [
+    {
+      "title": "Tennr clinches $101M to build out AI that automates patient referrals",
+      "url": "https://www.fiercehealthcare.com/health-tech/tennr-clinches-101m-build-out-ai-automates-patient-referral-workflows",
+      "source": "Fierce Healthcare",
+      "kind": "analysis"
+    },
+    {
+      "title": "AI startup Tennr raises $37M to automate healthcare document processing",
+      "url": "https://siliconangle.com/2024/10/22/ai-startup-tennr-raises-37m-automate-healthcare-document-processing/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
