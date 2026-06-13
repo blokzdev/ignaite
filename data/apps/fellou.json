@@ -1,0 +1,52 @@
+{
+  "slug": "fellou",
+  "name": "Fellou",
+  "tagline": "Agentic browser that plans and executes web tasks for you.",
+  "description": "Fellou is an AI browser that goes beyond chat by embedding agents that autonomously carry out multi-step web work — deep research across many tabs, competitor analysis, form filling, file handling, and cross-app workflows — from a natural-language prompt. It first generates a step-by-step action plan you can review and edit, then executes it while letting you intervene at any step. It runs as a downloadable desktop browser and can analyze local files dragged into the interface.",
+  "insight": "Markets itself as the first 'agentic browser'; later shipped Fellou CE, billed as a spatial (Z-axis) edition with local-first execution.",
+  "category": "assistant",
+  "pricing": "free",
+  "deployment": "local",
+  "vendor": "Fellou AI",
+  "platforms": ["macos", "windows", "linux"],
+  "tags": ["agentic-browser", "web-automation", "ai-browser", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fellou.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 559,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Plans a visible, editable action plan and then autonomously executes multi-site tasks — research, forms, reports — instead of just answering questions.",
+  "pros": [
+    "Autonomous multi-site task execution",
+    "Editable action plan before it runs",
+    "Deep research across many tabs",
+    "Cross-platform: macOS, Windows, Linux",
+    "Drag-and-drop local file analysis"
+  ],
+  "cons": [
+    "Early-stage, credit-gated beta",
+    "No mobile version",
+    "Agentic browsing raises security questions",
+    "Free 'Spark' credits run out quickly"
+  ],
+  "bestFor": [
+    "Automated web research",
+    "Competitive analysis",
+    "Repetitive web workflows",
+    "Power users"
+  ],
+  "alternatives": ["comet", "dia", "chatgpt-atlas", "browser-use"],
+  "references": [
+    {
+      "title": "Fellou Browser: Agentic Features, Pros/Cons, and Security",
+      "url": "https://seraphicsecurity.com/learn/ai-browser/fellou-browser-agentic-features-pros-cons-and-security-concerns/",
+      "source": "Seraphic Security",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "mindstudio",
+  "name": "MindStudio",
+  "tagline": "No-code platform to build and deploy AI agents anywhere.",
+  "description": "MindStudio is a no-code platform for designing, building, and deploying AI agents. You assemble agents visually and ship them to web apps, browser extensions, email triggers, scheduled automations, APIs, and MCP servers, with optional custom JavaScript or Python for advanced steps. It connects 1,000+ apps and gives access to 200+ AI models through one interface, charging model usage at provider cost with no markup.",
+  "insight": "From GoMeta (the team behind the Koji creator platform, ~$36M raised); launched in 2023 as YouAi's MindStudio.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "GoMeta",
+  "platforms": ["web", "api", "browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"],
+    "notes": "200+ models through one interface; no per-provider API keys needed."
+  },
+  "tags": ["no-code", "ai-agents", "automation", "agent-builder"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.mindstudio.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.mindstudio.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 560,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Build an agent once and deploy it to web, browser extension, email, API, or MCP — across 200+ models with no markup on model usage costs.",
+  "pros": [
+    "No-code visual agent builder",
+    "200+ models via one interface",
+    "Deploy to web, API, email, extension",
+    "No markup on model usage costs",
+    "Free tier with 1,000 runs/month"
+  ],
+  "cons": [
+    "Advanced logic needs JS/Python",
+    "Usage billing on top of subscription",
+    "Complex for very large agents",
+    "Free tier limited to one agent"
+  ],
+  "bestFor": [
+    "No-code AI agents",
+    "Internal business tools",
+    "Automating workflows",
+    "Publishing AI apps"
+  ],
+  "alternatives": ["gumloop", "lindy", "relevance-ai", "flowise"],
+  "references": [
+    {
+      "title": "Meet YouAI's MindStudio, an AI App Developer Platform",
+      "url": "https://thelettertwo.com/2024/01/17/mindstudio-youai-ai-powered-enterprise-app-building/",
+      "source": "The Letter Two",
+      "kind": "analysis"
+    }
+  ]
+}
