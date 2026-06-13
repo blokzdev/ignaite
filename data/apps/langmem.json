@@ -1,0 +1,54 @@
+{
+  "slug": "langmem",
+  "insight": "Released by LangChain in February 2025; MIT-licensed and integrates natively with LangGraph's long-term memory store.",
+  "name": "LangMem",
+  "tagline": "Long-term memory SDK that lets agents learn and adapt over time.",
+  "description": "A memory toolkit for AI agents that extracts and stores facts from conversations and refines agent behavior through prompt updates. Exposes semantic, episodic, and procedural memory via a storage-agnostic core API plus tools agents can call during or after a conversation.",
+  "category": "memory",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "LangChain",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["GPT", "Claude", "Local"]
+  },
+  "accentColor": "#1C9C7C",
+  "tags": ["memory", "agents", "langchain", "sdk"],
+  "links": [
+    {
+      "kind": "docs",
+      "url": "https://langchain-ai.github.io/langmem/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/langchain-ai/langmem"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 535,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Backed by LangChain, it ships semantic/episodic/procedural memory tools that plug straight into LangGraph rather than a standalone store.",
+  "pros": [
+    "Semantic, episodic, procedural memory",
+    "Storage- and framework-agnostic core API",
+    "Native LangGraph integration",
+    "MIT-licensed and free"
+  ],
+  "cons": [
+    "Most value inside the LangChain stack",
+    "Young SDK, evolving API",
+    "You wire up your own storage layer"
+  ],
+  "bestFor": ["LangGraph agents", "Long-term agent memory", "Python developers"],
+  "alternatives": ["mem0", "letta", "zep", "cognee"],
+  "references": [
+    {
+      "title": "LangMem SDK for Agent Long-Term Memory",
+      "url": "https://www.digitalocean.com/community/tutorials/langmem-sdk-agent-long-term-memory",
+      "source": "DigitalOcean",
+      "kind": "guide"
+    }
+  ]
+}
