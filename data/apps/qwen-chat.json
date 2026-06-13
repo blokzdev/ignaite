@@ -1,0 +1,58 @@
+{
+  "slug": "qwen-chat",
+  "insight": "Launched in public beta in November 2025 and passed 100M+ monthly active users within months.",
+  "name": "Qwen Chat",
+  "tagline": "Alibaba's AI assistant for chat, coding, images, and agentic tasks.",
+  "description": "The consumer assistant built on Alibaba's Qwen (Tongyi Qianwen) model family, spanning text chat, coding help, document and image understanding, and image generation. Newer releases add agentic \"task\" capabilities that complete multi-step workflows and act across Alibaba's ecosystem. Free to use on the web and mobile apps.",
+  "category": "assistant",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Alibaba",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Qwen"],
+    "notes": "Runs on Alibaba's in-house Qwen models, which are also released as open weights."
+  },
+  "tags": ["assistant", "chatbot", "multimodal", "agentic"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://qwen.ai",
+      "primary": true
+    },
+    {
+      "kind": "demo",
+      "url": "https://chat.qwen.ai"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/QwenLM"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 511,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "A free frontier assistant backed by Alibaba's own open-weight Qwen models, with agentic task-completion wired into a large consumer ecosystem.",
+  "pros": [
+    "Free with generous usage",
+    "Built on capable in-house Qwen models",
+    "Multimodal: text, image, document, code",
+    "Web plus iOS and Android apps"
+  ],
+  "cons": [
+    "Tied to Alibaba's ecosystem and policies",
+    "Data handling under Chinese jurisdiction",
+    "Less third-party tooling than US rivals"
+  ],
+  "bestFor": ["Free assistant use", "Multilingual chat", "Qwen-model users"],
+  "alternatives": ["deepseek", "kimi", "grok", "le-chat"],
+  "references": [
+    {
+      "title": "Alibaba Turns Qwen From Chatbot to AI Task Performer",
+      "url": "https://www.yicaiglobal.com/news/qwen-transforms-ai-that-responds-into-action-ai-across-alibabas-app-suite",
+      "source": "Yicai Global",
+      "kind": "analysis"
+    }
+  ]
+}

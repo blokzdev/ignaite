@@ -1,0 +1,46 @@
+{
+  "slug": "crush",
+  "insight": "Released under the Functional Source License (FSL) — source-available at launch and converting to MIT open-source after two years.",
+  "name": "Crush",
+  "tagline": "Charm's glamorous agentic AI coding agent for your terminal.",
+  "description": "A terminal-based AI coding agent from Charm, the team behind Bubble Tea and other CLI tools. It plans and edits files, runs commands, and pulls code context via LSP, all inside a polished TUI. It is model-agnostic: bring your own keys for Anthropic, OpenAI, Google, Groq, OpenRouter, and other providers, and switch models mid-session.",
+  "category": "ide",
+  "pricing": "byo-key",
+  "deployment": "local",
+  "vendor": "Charm",
+  "platforms": ["cli", "macos", "linux", "windows"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "Groq", "OpenRouter"],
+    "notes": "Bring your own API keys; supports many providers and custom OpenAI/Anthropic-compatible endpoints."
+  },
+  "tags": ["coding-agent", "terminal", "tui", "byo-key"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/charmbracelet/crush",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://charm.land"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 513,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Charm's signature TUI polish over a model-agnostic terminal agent: switch providers mid-session and keep code, keys, and data on your own machine.",
+  "pros": [
+    "Polished, keyboard-driven terminal UI",
+    "Model-agnostic with mid-session switching",
+    "LSP-aware code context",
+    "Runs locally; you control keys and data"
+  ],
+  "cons": [
+    "Requires your own model API keys",
+    "Beta — some features still missing",
+    "FSL license is not OSI open-source yet"
+  ],
+  "bestFor": ["Terminal-first developers", "BYO-key users", "Local workflows"],
+  "alternatives": ["claude-code", "aider", "opencode", "goose"]
+}
