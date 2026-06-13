@@ -1,0 +1,53 @@
+{
+  "slug": "base44",
+  "insight": "Bootstrapped solo by Maor Shlomo with no outside funding, then acquired by Wix for $80M within months of launch.",
+  "name": "Base44",
+  "tagline": "Describe an app in plain English and get a working full-stack product.",
+  "description": "An AI no-code app builder that turns a conversational prompt into a fully functional web app — database, user auth, permissions, and hosting handled for you. It targets non-developers and founders who want to ship custom internal tools and products without writing code. Now operated by Wix following its 2025 acquisition.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Wix",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generates full-stack apps; frontier models managed by the platform."
+  },
+  "tags": ["app-builder", "no-code", "vibe-coding", "full-stack"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://base44.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://base44.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 510,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Generates the database, auth, and hosting for each app automatically, so non-coders ship working tools end-to-end without wiring a backend.",
+  "pros": [
+    "Full working apps from plain-English prompts",
+    "Built-in database, auth, and hosting",
+    "Free tier to start, no card required",
+    "Aimed squarely at non-developers"
+  ],
+  "cons": [
+    "Credit usage can climb on complex apps",
+    "Less control than hand-coding",
+    "Opinionated, platform-managed stack"
+  ],
+  "bestFor": ["Internal tools", "Founder MVPs", "Non-developers"],
+  "alternatives": ["lovable", "bolt-new", "v0", "replit"],
+  "references": [
+    {
+      "title": "Solo entrepreneur's Base44 acquired by Wix for $80 million",
+      "url": "https://www.calcalistech.com/ctechnews/article/s1iflnlelx",
+      "source": "Calcalist (CTech)",
+      "kind": "analysis"
+    }
+  ]
+}
