@@ -1,0 +1,51 @@
+{
+  "slug": "gradient-labs",
+  "insight": "Founded in 2023 by ex-Monzo employees; it expanded its Series A to $26M (Redpoint) and serves fintechs reaching 32M+ end users.",
+  "name": "Gradient Labs",
+  "tagline": "AI agents that handle complex customer support in regulated industries.",
+  "description": "Gradient Labs builds AI agents that resolve customer support and operations queries — disputes, KYC, lending and account questions — for banks, fintechs and other regulated businesses. Its agents learn a company's own products and procedures so they can handle nuanced cases end-to-end rather than deflecting to a human. Founded by early Monzo employees, it focuses on the accuracy and safety needed for high-stakes financial conversations.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Gradient Labs",
+  "platforms": ["web", "api"],
+  "tags": ["customer-support", "ai-agents", "fintech", "regulated-industries"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://gradient-labs.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 540,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Built for regulated finance: its agents learn company-specific procedures to resolve disputes, KYC and lending queries safely, not just FAQ deflection.",
+  "pros": [
+    "Handles complex, regulated cases",
+    "Learns company-specific procedures",
+    "Built by an ex-Monzo team",
+    "Strong reported resolution rates"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Focused on financial services",
+    "Newer company (founded 2023)"
+  ],
+  "bestFor": ["Fintechs and banks", "Regulated customer ops", "Complex support automation"],
+  "alternatives": ["decagon", "sierra", "lorikeet", "intercom-fin"],
+  "references": [
+    {
+      "title": "Ex-Monzo team's Gradient Labs raises $13M to rebuild customer support",
+      "url": "https://tech.eu/2025/07/08/ex-monzo-founders-raise-13m-for-gradient-labs-to-rebuild-customer-support-in-regulated-markets/",
+      "source": "Tech.eu",
+      "kind": "analysis"
+    },
+    {
+      "title": "Gradient Labs raises over €11M for its AI customer service agent",
+      "url": "https://www.eu-startups.com/2025/07/london-based-gradient-labs-raises-over-e11-million-for-its-ai-customer-service-agent/",
+      "source": "EU-Startups",
+      "kind": "analysis"
+    }
+  ]
+}
