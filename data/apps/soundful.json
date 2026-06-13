@@ -1,0 +1,59 @@
+{
+  "slug": "soundful",
+  "insight": "Founded in 2021 by composer Diaa El All; its $3.8M seed round drew leaders from Universal Music Group, Disney, Microsoft and Beatport.",
+  "name": "Soundful",
+  "tagline": "AI music generator for unique, royalty-free tracks.",
+  "description": "Soundful is an AI music platform that generates original, royalty-free instrumental tracks from a chosen genre and template, exporting MP3, WAV and separated stems with MIDI. Its models are built with real producers on owned and licensed material rather than scraped recordings, so finished tracks are clear to monetize. A free Standard tier covers personal use, with paid plans unlocking commercial licenses and stems.",
+  "category": "music",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Soundful",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Generates from Soundful's own producer-trained models; no user model selection."
+  },
+  "tags": ["music-generation", "royalty-free", "text-to-music", "content-creators"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://soundful.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://soundful.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 548,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Trains its models with real producers on owned/licensed material rather than scraping, so every generated track is genuinely royalty-free and safe to monetize.",
+  "pros": [
+    "Royalty-free, ownable output",
+    "Free Standard tier",
+    "Stems + MIDI export",
+    "150+ genre/style templates"
+  ],
+  "cons": [
+    "Template-driven, less freeform than Suno",
+    "Instrumental only (no vocals/lyrics)",
+    "Exclusive ownership needs top tier"
+  ],
+  "bestFor": ["Content creators", "Royalty-free background music", "Podcast and video producers"],
+  "alternatives": ["soundraw", "mubert", "loudly", "aiva"],
+  "references": [
+    {
+      "title": "AI-powered music platform Soundful raises $3.8m funding round",
+      "url": "https://www.musicbusinessworldwide.com/ai-powered-music-platform-soundful-raises-3-8m-funding-round/",
+      "source": "Music Business Worldwide",
+      "kind": "analysis"
+    },
+    {
+      "title": "How Diaa El All Went From Classical Musician to Tech Leader",
+      "url": "https://www.entrepreneur.com/starting-a-business/how-diaa-el-all-went-from-classical-musician-to-tech-leader/435500",
+      "source": "Entrepreneur",
+      "kind": "interview"
+    }
+  ]
+}

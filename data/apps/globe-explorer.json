@@ -1,0 +1,45 @@
+{
+  "slug": "globe-explorer",
+  "insight": "Went viral on X in 2024 as a free ‘discovery engine’ from Globe Engineer, drawing comparisons to a self-assembling Wikipedia.",
+  "name": "Globe Explorer",
+  "tagline": "A discovery engine — a Wikipedia page for anything.",
+  "description": "Globe Explorer is an AI discovery engine that turns any query into a single structured, visual page instead of a ranked list of links. It uses LLMs to break a topic into a hierarchy — broad overview down through subtopics — that you can explore, expand and share. It's free to use and aimed at learning and research rather than precise factual lookups.",
+  "category": "search",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Globe Engineer",
+  "platforms": ["web"],
+  "tags": ["ai-search", "discovery", "knowledge-map", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://explorer.globe.engineer/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 551,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Returns one explorable, hierarchical page mapping a whole topic from overview to subtopics, rather than a ranked link list or a single chat answer.",
+  "pros": [
+    "Free to use",
+    "Visual topic breakdowns",
+    "Great for broad exploration",
+    "Shareable result pages"
+  ],
+  "cons": [
+    "Not built for precise lookups",
+    "Sparse company/roadmap info",
+    "Lighter source citation than Perplexity"
+  ],
+  "bestFor": ["Exploring new topics", "Students and researchers", "Visual learners"],
+  "alternatives": ["perplexity", "felo", "you-com"],
+  "references": [
+    {
+      "title": "AI-powered knowledge exploration with Globe Explorer",
+      "url": "https://cylab.be/blog/356/ai-powered-knowledge-exploration-with-globe-explorer",
+      "source": "Cylab",
+      "kind": "guide"
+    }
+  ]
+}
