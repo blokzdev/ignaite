@@ -1,0 +1,50 @@
+{
+  "slug": "leonardo",
+  "insight": "Acquired by Canva in July 2024 (reported at $320M+); the Sydney startup builds its own image models, Phoenix and Lucid Origin.",
+  "name": "Leonardo.Ai",
+  "tagline": "Generate and control production-grade images with purpose-built models.",
+  "description": "AI image and video generation platform aimed at creators and studios, built on Leonardo's own foundational models (Phoenix, Lucid Origin). Offers fine-grained control — ControlNet-style guidance, reusable 'Elements', a real-time canvas, and image-to-motion — for game art, concept work, and marketing visuals.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Leonardo.Ai",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Phoenix", "Lucid Origin"]
+  },
+  "accentColor": "#7C3AED",
+  "tags": ["image-gen", "text-to-image", "game-art", "canva"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://leonardo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 537,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Pairs its own Phoenix/Lucid Origin models with fine-grained controls (ControlNet, Elements, real-time canvas) aimed at production game and concept art.",
+  "pros": [
+    "Own Phoenix/Lucid Origin image models",
+    "Fine-grained control (ControlNet, Elements)",
+    "Generous free daily credits",
+    "Real-time canvas + image-to-video"
+  ],
+  "cons": [
+    "Now folded into Canva's roadmap",
+    "Heavy use needs a paid plan",
+    "Credit system can constrain output"
+  ],
+  "bestFor": ["Game/concept art", "Marketing visuals", "Controlled image gen"],
+  "alternatives": ["ideogram", "recraft", "krea", "adobe-firefly"],
+  "references": [
+    {
+      "title": "Canva buys Australian AI design startup Leonardo.ai",
+      "url": "https://www.dealstreetasia.com/stories/canva-acquires-leonardo-ai-406183",
+      "source": "DealStreetAsia",
+      "kind": "analysis"
+    }
+  ]
+}

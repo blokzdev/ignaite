@@ -1,0 +1,54 @@
+{
+  "slug": "glarity",
+  "insight": "Made by Felo Inc. — the team behind the Felo AI search engine — and released open-source on GitHub under the sparticleinc org.",
+  "name": "Glarity",
+  "tagline": "Summarize YouTube, search, and any page with ChatGPT — free and ad-free.",
+  "description": "Open-source browser extension that adds AI summaries and translation across the web: YouTube videos, Google/Bing results, PDFs, emails, and arbitrary pages. Works free and ad-free out of the box, with an option to bring your own model key for heavier use.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "openSource": true,
+  "vendor": "Felo Inc.",
+  "platforms": ["browser-extension", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"]
+  },
+  "accentColor": "#2563EB",
+  "tags": ["summarize", "youtube", "translate", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://glarity.app",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/sparticleinc/chatgpt-google-summary-extension"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 534,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Free and ad-free by default with no sign-up — summarizes YouTube, search, and PDFs across five browsers, and is fully open-source.",
+  "pros": [
+    "Free, ad-free, no account required",
+    "Summarizes YouTube, search, PDFs, email",
+    "Chrome, Edge, Firefox, Safari, Opera",
+    "Open-source on GitHub"
+  ],
+  "cons": [
+    "Summary quality depends on chosen model",
+    "YouTube summaries need captions",
+    "Heavy use favors a BYO key"
+  ],
+  "bestFor": ["Web/YouTube summaries", "Research reading", "Multilingual browsing"],
+  "alternatives": ["sider", "monica", "harpa-ai", "maxai"],
+  "references": [
+    {
+      "title": "Glarity Review – Cost, Use Cases & Alternatives",
+      "url": "https://aichief.com/ai-text-tools/glarity/",
+      "source": "AIChief",
+      "kind": "review"
+    }
+  ]
+}

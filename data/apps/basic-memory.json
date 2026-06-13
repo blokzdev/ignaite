@@ -1,0 +1,55 @@
+{
+  "slug": "basic-memory",
+  "insight": "Licensed AGPL-3.0; the entire knowledge graph lives in local Markdown files on disk — no proprietary database, Obsidian-compatible.",
+  "name": "Basic Memory",
+  "tagline": "Persistent, local knowledge graph for AI tools — stored as plain Markdown.",
+  "description": "An MCP server that gives AI assistants a durable, local knowledge base built from your conversations, notes, and documents. Everything is written to standard Markdown files you own, indexed by a local SQLite store, and readable/editable in Obsidian. Connects to Claude, Cursor, VS Code, and other MCP-compatible clients.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Basic Machines",
+  "platforms": ["cli", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "MCP server; the connected AI client supplies the model."
+  },
+  "accentColor": "#6366F1",
+  "tags": ["memory", "mcp", "knowledge-graph", "markdown", "obsidian"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://basicmemory.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/basicmachines-co/basic-memory"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 536,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Unlike cloud memory stores, your graph stays in editable local Markdown you can open in Obsidian — portable and inspectable, not locked in a DB.",
+  "pros": [
+    "Plain-Markdown, local-first storage",
+    "Obsidian-compatible knowledge graph",
+    "Works across Claude, Cursor, VS Code via MCP",
+    "Open-source, no vendor lock-in"
+  ],
+  "cons": [
+    "AGPL-3.0 may not suit every team",
+    "Cross-device sync is a paid cloud add-on",
+    "Setup needs a local CLI install"
+  ],
+  "bestFor": ["Local-first knowledge base", "Obsidian users", "MCP-connected AI tools"],
+  "alternatives": ["cognee", "supermemory", "mem0", "graphlit"],
+  "references": [
+    {
+      "title": "Give Claude Permanent Memory with Basic Memory MCP + Obsidian",
+      "url": "https://samuellawrentz.com/blog/basic-memory-mcp-obsidian/",
+      "source": "Samuel Lawrentz",
+      "kind": "guide"
+    }
+  ]
+}
