@@ -1,0 +1,55 @@
+{
+  "slug": "creatify",
+  "name": "Creatify",
+  "tagline": "AI video ads from a product link — avatars, scripts, and batch testing.",
+  "description": "Creatify turns a product URL or brief into ready-to-run video ads with AI avatars, scripts, and voiceovers, and its AdMax agent chains creative ideation, production, batch testing, and performance analytics into one workflow. Over 10,000 teams including Alibaba.com, Comcast, and Zumper use it, with a free tier and an API rounding out the self-serve plans.",
+  "insight": "Crossed $9M ARR within 18 months of launch; its $15.5M Series A put WndrCo's Jeffrey Katzenberg on the board.",
+  "category": "marketing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Creatify",
+  "platforms": ["web", "api"],
+  "tags": ["video-ads", "ai-avatars", "ugc", "performance-marketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://creatify.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://creatify.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 503,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "AdMax closes the loop from ideation through batch testing to performance analytics in one agentic workflow — peers stop at generating the creative.",
+  "pros": [
+    "Free tier plus low-cost entry plans",
+    "AdMax end-to-end ad agent",
+    "URL-to-ad generation",
+    "API with volume pricing"
+  ],
+  "cons": [
+    "Credit-metered generations",
+    "API discounts need Enterprise",
+    "Ad-focused, not general video"
+  ],
+  "bestFor": ["DTC and ecommerce ads", "Marketers testing at scale", "Agencies"],
+  "alternatives": ["arcads", "topview", "heygen", "adcreative-ai"],
+  "references": [
+    {
+      "title": "Creatify revenue, funding & news",
+      "url": "https://sacra.com/c/creatify/",
+      "source": "Sacra",
+      "kind": "analysis"
+    },
+    {
+      "title": "Creatify: $15.5 Million Series A Raised For AI Ad Agent For Video",
+      "url": "https://pulse2.com/creatify-15-5-million-series-a-raised-for-ai-ad-agent-for-video/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}
