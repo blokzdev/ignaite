@@ -1,0 +1,55 @@
+{
+  "slug": "sema4-ai",
+  "name": "Sema4.ai",
+  "tagline": "Enterprise platform to build and run AI agents for knowledge work.",
+  "description": "Sema4.ai is a full-stack enterprise platform for building, running, and operating AI agents that automate complex back-office knowledge work across finance, procurement, and supply chain. It pairs large language models with deterministic, auditable actions so agents can handle tasks like invoice processing and regulatory compliance at scale. The platform runs natively on Snowflake's Data Cloud and grew out of the team behind open-source automation pioneer Robocorp. The Atlanta-based company came out of stealth in 2024.",
+  "insight": "Came out of stealth in 2024 backed by Benchmark and Mayfield, then acquired open-source automation pioneer Robocorp.",
+  "category": "automation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Sema4.ai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-powered agents with auditable, deterministic actions."
+  },
+  "tags": ["ai-agents", "enterprise-automation", "snowflake", "back-office"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sema4.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 547,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Enterprise AI agents that run natively inside Snowflake's Data Cloud with auditable accuracy for finance and procurement back-office work.",
+  "pros": [
+    "Runs natively on Snowflake",
+    "Auditable, deterministic agent actions",
+    "Built on open-source Robocorp roots",
+    "Targets finance & procurement ops"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "New company (out of stealth 2024)",
+    "Best fit for large enterprises"
+  ],
+  "bestFor": ["Enterprise back-office ops", "Finance & procurement teams", "Snowflake users"],
+  "alternatives": ["relevance-ai", "lindy"],
+  "references": [
+    {
+      "title": "How Sema4.ai is empowering business users to deploy AI agents in minutes",
+      "url": "https://venturebeat.com/ai/how-sema4-ai-is-empowering-business-users-to-deploy-ai-agents-in-minutes",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Sema4.ai Secures $30.5 Million to Bring AI to Enterprise Work",
+      "url": "https://www.pymnts.com/news/investment-tracker/2024/sema4-ai-secures-30-5-million-to-bring-ai-to-enterprise-work/",
+      "source": "PYMNTS",
+      "kind": "analysis"
+    }
+  ]
+}

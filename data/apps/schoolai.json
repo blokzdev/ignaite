@@ -1,0 +1,60 @@
+{
+  "slug": "schoolai",
+  "name": "SchoolAI",
+  "tagline": "AI platform for teachers — lessons, tutoring, and student insights.",
+  "description": "SchoolAI is a K-12 education platform that gives teachers AI assistants for prep and admin work plus 'Spaces' — personalized AI tutors, games, and lessons that adapt to each student. A 'Mission Control' dashboard lets teachers monitor student progress in real time, with safety guardrails and teacher control built in. It includes 'PowerUps' focused AI apps and a browser extension. Free for teachers to start, with paid plans for schools and districts.",
+  "insight": "Raised a $25M Series A led by Insight Partners in 2025; used in 1M+ classrooms across all 50 US states and 80+ countries.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "SchoolAI",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Teacher-controlled AI tutors ('Spaces') built on frontier LLMs."
+  },
+  "tags": ["education", "teachers", "ai-tutor", "k-12"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://schoolai.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://schoolai.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 546,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Purpose-built for K-12 with teacher controls, student-safety guardrails and a live progress dashboard, unlike general-purpose classroom chatbots.",
+  "pros": [
+    "Free for teachers to start",
+    "Teacher controls & safety guardrails",
+    "Live student-progress dashboard",
+    "Adaptive AI tutors ('Spaces')",
+    "Wide classroom adoption"
+  ],
+  "cons": [
+    "K-12 focused, not higher-ed/biz",
+    "Full features need paid/district plan",
+    "Some features school-managed"
+  ],
+  "bestFor": ["K-12 teachers", "Classroom AI tutoring", "Schools & districts"],
+  "alternatives": ["magicschool-ai", "brisk-teaching"],
+  "references": [
+    {
+      "title": "SchoolAI Raises $25M in Series A Funding",
+      "url": "https://www.finsmes.com/2025/04/schoolai-raises-25m-in-series-a-funding.html",
+      "source": "FinSMEs",
+      "kind": "analysis"
+    },
+    {
+      "title": "SchoolAI: $25 Million Series A Raised For Helping Teachers",
+      "url": "https://pulse2.com/schoolai-25-million-series-a-raised-for-helping-teachers-and-schools-with-ai-platform/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}

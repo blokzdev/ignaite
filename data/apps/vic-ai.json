@@ -1,0 +1,55 @@
+{
+  "slug": "vic-ai",
+  "name": "Vic.ai",
+  "tagline": "Autonomous AI for accounts payable and finance operations.",
+  "description": "Vic.ai is an AI-first accounts payable and autonomous finance platform that ingests, reads, codes, and approves invoices with minimal human intervention. Beyond invoice processing it spans bill pay, expense management, a vendor portal, and AP analytics, with agentic features for the AP inbox and finance workflows. It connects to ERPs including SAP, Oracle NetSuite, Workday, Microsoft Dynamics, and Sage Intacct. The company is jointly headquartered in New York and Oslo.",
+  "insight": "Founded in Oslo in 2017; raised a $52M Series C in 2022 (ICONIQ, GGV) for ~$115M total and was named a CNBC World's Top Fintech.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Vic.ai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary models that read and code invoices with human-level accuracy."
+  },
+  "tags": ["accounts-payable", "finance-automation", "accounting", "invoice-processing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vic.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 544,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Purpose-built to read, code and approve invoices autonomously with minimal human touch — AP automation, not generic document OCR.",
+  "pros": [
+    "Autonomous invoice processing",
+    "Learns to code & approve invoices",
+    "Integrates SAP, NetSuite, Workday",
+    "Strong fintech funding & adoption"
+  ],
+  "cons": [
+    "Enterprise sales, custom pricing",
+    "Focused on AP/finance ops",
+    "Best fit for mid-market and up"
+  ],
+  "bestFor": ["Finance & AP teams", "Invoice automation", "Controllers"],
+  "alternatives": ["digits", "ramp"],
+  "references": [
+    {
+      "title": "Vic.ai raises $52M, shows automating accounting can be profitable",
+      "url": "https://techcrunch.com/2022/12/13/vic-ai-shows-that-automating-accounting-processes-can-be-profitable-raises-52m/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Accounting automation platform Vic.ai bags $52m Series C funding",
+      "url": "https://www.fintechfutures.com/accounting-payroll/accounting-automation-platform-vic-ai-bags-52m-series-c-funding",
+      "source": "FinTech Futures",
+      "kind": "analysis"
+    }
+  ]
+}
