@@ -1,0 +1,59 @@
+{
+  "slug": "topview",
+  "name": "Topview",
+  "tagline": "Collaborative AI workspace for video ads, UGC, and avatar content.",
+  "description": "Topview is an AI video workspace for marketers and ecommerce brands: paste an Amazon, Shopify, or TikTok product link and it assembles complete video ads with AI avatars that can hold or wear the product. A database of 10M+ high-performing ads powers its recreator tool, and Topview 4.0 turns the editor into a collaborative, multiplayer content workspace.",
+  "insight": "Kamet Capital led its two-part $14M Series A (completed Feb 2026); it claims 5M users generating 500K+ videos a day.",
+  "category": "marketing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Topview",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Bundles leading video and image generation models behind one credit pool."
+  },
+  "tags": ["video-ads", "ugc", "ai-avatars", "ecommerce"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.topview.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.topview.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 504,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Product-aware avatars that hold or wear your item, plus a 10M-ad intelligence library, make it stronger for ecommerce creative than generic avatar tools.",
+  "pros": [
+    "URL-to-video from product links",
+    "Avatars interact with products",
+    "10M+ ad reference library",
+    "Collaborative 4.0 workspace"
+  ],
+  "cons": [
+    "Free tier watermarked, non-commercial",
+    "Credit-metered plans",
+    "Ads/UGC focus, not general video"
+  ],
+  "bestFor": ["Ecommerce video ads", "UGC-style creative", "Amazon/Shopify sellers"],
+  "alternatives": ["creatify", "arcads", "heygen", "opus-clip"],
+  "references": [
+    {
+      "title": "Kamet Capital invests $8.4M in Singapore's AI avatar platform TopView",
+      "url": "https://technode.global/2025/08/08/kamet-capital-invests-8-4m-in-singapores-ai-avatar-platform-topview/",
+      "source": "TNGlobal",
+      "kind": "analysis"
+    },
+    {
+      "title": "Topview unveils collaborative AI content platform after raising $5.5M",
+      "url": "https://techstartups.com/2026/02/09/topview-unveils-collaborative-ai-content-platform-after-raising-5-5m-and-reaching-5m-users/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    }
+  ]
+}

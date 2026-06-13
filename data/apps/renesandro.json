@@ -1,0 +1,50 @@
+{
+  "slug": "renesandro",
+  "name": "Renesandro",
+  "tagline": "Bulk-generate and test static and video ad creatives with AI.",
+  "description": "Renesandro is a B2B platform that mass-generates static and video ad creatives for performance marketing teams — up to 12 reference images and 12 prompts per task, yielding 50+ variations per batch on top of models like Veo, Sora, Kling, and Flux. It layers in AI avatars, lip-sync, localization, and bulk layer-based editing, sold as a subscription with unlimited monthly generations.",
+  "insight": "Bootstrapped solo by Ukrainian founder Stanislav Kravets; launched Oct 2023 with revenue covering 70%+ of expenses by early 2025.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Renesandro",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Veo", "Sora", "Kling", "Flux"],
+    "notes": "Generates ad creatives over leading video and image models."
+  },
+  "tags": ["ad-creatives", "video-ads", "performance-marketing", "ugc"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://renesandro.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-12",
+  "addedSeq": 502,
+  "lastVerifiedAt": "2026-06-12",
+  "edge": "Sells unlimited-generation subscriptions tuned for bulk creative testing — 50+ ad variations per batch — where most peers meter by credits.",
+  "pros": [
+    "Unlimited generations on subscription",
+    "50+ ad variations per batch",
+    "Multi-model (Veo, Sora, Kling, Flux)",
+    "Localization and lip-sync built in"
+  ],
+  "cons": [
+    "Early-stage: small team, few clients",
+    "$1.5K+/mo targets bigger ad budgets",
+    "No public self-serve tier"
+  ],
+  "bestFor": ["Performance marketing teams", "High-volume ad testing", "$50K+/mo ad budgets"],
+  "alternatives": ["arcads", "creatify", "topview", "adcreative-ai"],
+  "references": [
+    {
+      "title": "How the Ukrainian startup Renesandro AI was created",
+      "url": "https://vctr.media/en/testing-and-scaling-ad-creatives-10x-faster-how-the-ukrainian-startup-renesandro-ai-was-created-284159/",
+      "source": "Vector",
+      "kind": "interview"
+    }
+  ]
+}
