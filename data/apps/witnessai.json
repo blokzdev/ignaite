@@ -1,0 +1,43 @@
+{
+  "slug": "witnessai",
+  "name": "WitnessAI",
+  "tagline": "Security and governance gateway for enterprise AI use.",
+  "description": "WitnessAI is a unified security and governance platform for how an organization uses AI. It sits as a gateway over employee and AI-agent interactions, giving security teams three things: observability into all AI activity (including shadow AI), policy enforcement and governance, and protection against prompt injection, data leakage, and other model-layer threats. Each customer runs in an isolated, single-tenant environment encrypted with their own keys.",
+  "insight": "Founded in 2023 by ex–Palo Alto Networks exec Rick Caccia; raised a $27.5M Series A co-led by GV and Ballistic Ventures.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "WitnessAI, Inc.",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Observes, governs, and secures use of any AI model or app across the enterprise."
+  },
+  "tags": ["ai-security", "governance", "guardrails", "observability", "compliance"],
+  "links": [{ "kind": "website", "url": "https://witness.ai", "primary": true }],
+  "addedAt": "2026-06-13",
+  "addedSeq": 527,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Sits as a gateway over employee and agent AI use — observe, enforce policy, and block prompt-injection/data-leak across any model, not just one app.",
+  "pros": [
+    "Model-agnostic guardrails across all AI use",
+    "Visibility into shadow AI / employee usage",
+    "Single-tenant, customer-key encryption",
+    "Founders from Palo Alto Networks and Exabeam"
+  ],
+  "cons": [
+    "Enterprise sales motion, no public pricing",
+    "Aimed at large orgs, not individuals",
+    "Relatively new company (founded 2023)"
+  ],
+  "bestFor": ["Enterprise AI governance", "Securing employee AI use", "Compliance teams", "CISOs"],
+  "alternatives": ["lakera", "lasso-security", "prompt-security", "noma-security"],
+  "references": [
+    {
+      "title": "WitnessAI is building guardrails for generative AI models",
+      "url": "https://techcrunch.com/2024/05/21/witnessai-is-building-guardrails-for-generative-ai-models/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

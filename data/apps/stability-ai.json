@@ -1,0 +1,52 @@
+{
+  "slug": "stability-ai",
+  "name": "Stability AI",
+  "tagline": "Open-weight generative models for image, video, audio, and 3D.",
+  "description": "Stability AI is the company behind Stable Diffusion and a family of open and proprietary generative models spanning image (Stable Diffusion, Stable Image), video (Stable Video), audio (Stable Audio), and 3D. Its models can be self-hosted under Stability's licensing, called through the Platform API, or used in the DreamStudio web app, giving builders an open alternative to closed image-generation endpoints.",
+  "insight": "Bankrolled and released Stable Diffusion in August 2022 — the open-weight model that brought AI image generation to consumer GPUs.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Stability AI Ltd",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Stable Diffusion", "Stable Image", "Stable Audio", "Stable Video"],
+    "notes": "Stability's own open-weight and proprietary generative models."
+  },
+  "tags": ["image-generation", "stable-diffusion", "open-weights", "generative-ai", "multimodal"],
+  "links": [
+    { "kind": "website", "url": "https://stability.ai", "primary": true },
+    { "kind": "docs", "url": "https://platform.stability.ai/docs" }
+  ],
+  "addedAt": "2026-06-13",
+  "addedSeq": 528,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "Open-weight models you can self-host or call via API across image, video, audio, and 3D — not a single locked proprietary endpoint.",
+  "pros": [
+    "Open-weight models you can self-host",
+    "Spans image, video, audio, and 3D",
+    "API, DreamStudio, and on-prem licensing",
+    "Catalyzed the open image-gen ecosystem"
+  ],
+  "cons": [
+    "Quality trails closed leaders on some tasks",
+    "Community licenses aren't OSI open source",
+    "Past leadership and funding turbulence"
+  ],
+  "bestFor": [
+    "Self-hosted image generation",
+    "Developers and researchers",
+    "Open-weight model builders",
+    "Multimodal creation"
+  ],
+  "alternatives": ["midjourney", "flux", "ideogram", "leonardo-ai"],
+  "references": [
+    {
+      "title": "Stable Diffusion",
+      "url": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
+}

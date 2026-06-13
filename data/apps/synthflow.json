@@ -1,0 +1,48 @@
+{
+  "slug": "synthflow",
+  "name": "Synthflow",
+  "tagline": "No-code platform for AI voice agents that automate phone calls.",
+  "description": "Synthflow is an enterprise voice-AI platform for building and deploying AI agents that handle phone calls — inbound and outbound — without code. A visual flow designer, in-house telephony, real-time monitoring, and 200+ integrations across calendars, CRMs, and telephony let teams stand up agents for customer service, appointment scheduling, and lead qualification. It runs on a pay-as-you-go model: build and test free, then pay per call once live.",
+  "insight": "Raised a $20M Series A led by Accel in 2025; its voice agents have handled 45M+ calls to date.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Synthflow AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Choose from multiple LLM and TTS providers when configuring an agent."
+  },
+  "tags": ["voice-agents", "no-code", "telephony", "contact-center", "phone-automation"],
+  "links": [{ "kind": "website", "url": "https://synthflow.ai", "primary": true }],
+  "addedAt": "2026-06-13",
+  "addedSeq": 529,
+  "lastVerifiedAt": "2026-06-13",
+  "edge": "No-code visual builder with in-house telephony and 200+ integrations, tuned for high-volume contact-center phone automation.",
+  "pros": [
+    "No-code visual flow designer",
+    "In-house telephony, 200+ integrations",
+    "Pay-as-you-go, free to build and test",
+    "Proven at high call volumes (45M+ calls)"
+  ],
+  "cons": [
+    "Focused on phone/voice, not broad chat",
+    "Public pricing requires contacting sales",
+    "Advanced features gated to higher tiers"
+  ],
+  "bestFor": [
+    "Contact-center automation",
+    "Inbound/outbound phone agents",
+    "No-code teams",
+    "Appointment scheduling"
+  ],
+  "alternatives": ["vapi", "retell-ai", "bland-ai", "polyai"],
+  "references": [
+    {
+      "title": "Synthflow AI: $20M Secured for Voice AI Phone Automation",
+      "url": "https://pulse2.com/synthflow-ai-20-million-secured-for-advancing-voice-ai-platform-for-automated-phone-calls/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}
