@@ -7,6 +7,7 @@ import { useMediaQuery } from "@/hooks/use-media-query";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { countMatches } from "@/lib/tools/filter-apps";
 import { facetCounts } from "@/lib/tools/facet-counts";
+import { CATEGORY_CLUSTERS } from "@/lib/tools/category-clusters";
 import { POPULATED_CATEGORIES } from "@/lib/tools/populated-categories";
 import type { AppCategory } from "@/types/app";
 import { CATEGORY_LABEL, useDirectoryFilters } from "@/hooks/use-directory-filters";
@@ -30,6 +31,16 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { FilterControls } from "./filter-controls";
 import { FilterDrawer } from "./filter-drawer";
 import { BackToTop } from "./back-to-top";
+
+// The strip's clusters, intersected with the populated set once at module
+// load (POPULATED_CATEGORIES preserves enum order = cluster order, so chip
+// order is identical to the old flat map — deep-link scroll targets don't move).
+const POPULATED = new Set<AppCategory>(POPULATED_CATEGORIES);
+const STRIP_CLUSTERS = CATEGORY_CLUSTERS.map((cluster) => ({
+  label: cluster.label,
+  blurb: cluster.blurb,
+  categories: cluster.categories.filter((c) => POPULATED.has(c)),
+})).filter((cluster) => cluster.categories.length > 0);
 
 // The integrated directory chrome that lives inside the site header on `/`:
 // a persistent search field, an always-visible quick-Category strip, and the
@@ -376,15 +387,35 @@ export function DirectoryConsole() {
             onClick={filters.resetCategory}
             count={counts.all.category}
           />
-          {POPULATED_CATEGORIES.map((c) => (
-            <CategoryChip
-              key={c}
-              category={c}
-              label={CATEGORY_LABEL[c as AppCategory]}
-              active={filter.category.includes(c)}
-              onClick={() => filters.toggleCategory(c)}
-              count={counts.category[c]}
-            />
+          {STRIP_CLUSTERS.map((cluster) => (
+            // ≥sm, each cluster opens with a rule + its label so the long strip
+            // reads as five named runs instead of one undifferentiated row.
+            // Mobile keeps the compact unmarked strip (it gets the fully
+            // clustered sheet instead). The marker is aria-hidden — the group's
+            // aria-label already carries label + blurb for screen readers.
+            <span
+              key={cluster.label}
+              role="group"
+              aria-label={`${cluster.label} — ${cluster.blurb}`}
+              className="flex shrink-0 items-center gap-1.5"
+            >
+              <span aria-hidden className="hidden shrink-0 items-center gap-1.5 sm:flex">
+                <span className="h-4 w-px bg-white/[0.08]" />
+                <span className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+                  {cluster.label}
+                </span>
+              </span>
+              {cluster.categories.map((c) => (
+                <CategoryChip
+                  key={c}
+                  category={c}
+                  label={CATEGORY_LABEL[c]}
+                  active={filter.category.includes(c)}
+                  onClick={() => filters.toggleCategory(c)}
+                  count={counts.category[c]}
+                />
+              ))}
+            </span>
           ))}
         </div>
       </div>

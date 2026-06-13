@@ -79,64 +79,8 @@ export const CATEGORY_DESCRIPTION: Record<AppCategory, string> = {
   robotics: "Embodied AI and robotics — foundation models, humanoids, and autonomous machines.",
 };
 
-// The cluster grouping mirrors the comment structure of APP_CATEGORIES in
-// types/app.ts — used by the /categories hub to group the 39 category links the
-// way the enum is organized. Order within each cluster = enum order.
-export const CATEGORY_CLUSTERS: ReadonlyArray<{
-  label: string;
-  blurb: string;
-  categories: ReadonlyArray<AppCategory>;
-}> = [
-  {
-    label: "Build",
-    blurb: "Developer & infra tooling",
-    categories: [
-      "ide",
-      "agent",
-      "orchestration",
-      "mcp",
-      "eval",
-      "observability",
-      "inference",
-      "fine-tuning",
-      "infra",
-      "vector-db",
-      "memory",
-      "data-ops",
-      "security",
-    ],
-  },
-  {
-    label: "Create",
-    blurb: "Media & design",
-    categories: ["image-gen", "video", "audio", "music", "voice", "vision", "3d", "design"],
-  },
-  {
-    label: "Work",
-    blurb: "Knowledge, ops & go-to-market",
-    categories: [
-      "assistant",
-      "writing",
-      "productivity",
-      "search",
-      "research-platform",
-      "analytics",
-      "automation",
-      "browser-extension",
-      "translation",
-      "meeting",
-      "marketing",
-      "support",
-    ],
-  },
-  {
-    label: "Verticals",
-    blurb: "Domain-specific AI",
-    categories: ["companion", "healthcare", "legal", "finance", "education"],
-  },
-  {
-    label: "Frontier",
-    blurb: "Embodied & emerging",
-    categories: ["robotics"],
-  },
-];
+// The cluster grouping moved to category-clusters.ts when the filter UI (a
+// client surface) started consuming it — clusters are dual-side, while the
+// descriptions above stay server-only. Re-exported here so the existing server
+// consumers (/categories, /category/[slug], llms.txt) keep their import path.
+export { CATEGORY_CLUSTERS } from "./category-clusters";

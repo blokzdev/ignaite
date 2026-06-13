@@ -1,4 +1,5 @@
 "use client";
+import { useRef } from "react";
 import { Sheet, SheetClose, SheetContent, SheetTitle } from "@/components/ui/sheet";
 import { useDirectoryFilters } from "@/hooks/use-directory-filters";
 import type { FacetCounts } from "@/lib/tools/facet-counts";
@@ -22,11 +23,33 @@ export function FilterDrawerPortal({
   counts,
 }: Readonly<Props>) {
   const filters = useDirectoryFilters();
+  const contentRef = useRef<HTMLDivElement>(null);
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent
+        ref={contentRef}
         side="bottom"
+        tabIndex={-1}
+        onOpenAutoFocus={(e) => {
+          // The category type-ahead is the sheet's first focusable element;
+          // Radix auto-focusing it on open would pop the mobile keyboard over
+          // the just-opened sheet. Land focus on the dialog container instead —
+          // the title is still announced, and Tab reaches the input first.
+          e.preventDefault();
+          contentRef.current?.focus();
+        }}
+        onEscapeKeyDown={(e) => {
+          // Two-stage Esc for the category type-ahead: while it holds a query,
+          // the first press only clears it (the input's own keydown handler) —
+          // preventDefault here stops Radix from dismissing the sheet. Radix's
+          // listener runs in the capture phase, so the input can't veto this
+          // itself.
+          const el = document.activeElement;
+          if (el instanceof HTMLInputElement && el.value && el.dataset.escClears != null) {
+            e.preventDefault();
+          }
+        }}
         className="no-scrollbar max-h-[85dvh] overflow-y-auto rounded-t-2xl pt-5"
       >
         <SheetTitle className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
