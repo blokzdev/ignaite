@@ -1,0 +1,54 @@
+{
+  "slug": "respan",
+  "insight": "Formerly Keywords AI (YC W24); rebranded to Respan in 2026 alongside a $5M seed led by Gradient.",
+  "name": "Respan",
+  "tagline": "Self-driving observability, evals, and an AI gateway for LLM agents.",
+  "description": "Respan is a unified LLM-engineering platform that routes, observes, and evaluates every model call from one control plane. Its AI gateway fronts 500+ models with fallbacks, load balancing, and spend caps; trace trees, dashboards, and alerts cover observability; and rule checks, AI judges, and human review run as one evaluation workflow. An automated eval agent surfaces issues from production traffic so teams can fix what breaks without stitching tools together.",
+  "category": "observability",
+  "secondaryCategories": ["inference", "eval"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Keywords AI, Inc.",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["observability", "ai-gateway", "evals", "tracing", "llmops"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.respan.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.respan.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 656,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Bundles an AI gateway, observability, and an automated eval agent in one loop — detect, decide, and fix in production without stitching tools.",
+  "pros": [
+    "Gateway + observability + evals unified",
+    "500+ models via one endpoint",
+    "Automated eval agent + human review",
+    "Spend caps and fallback routing",
+    "Generous free tier (100k logs)"
+  ],
+  "cons": [
+    "Proprietary, no self-host option",
+    "Recent rebrand can confuse search",
+    "Team tier jumps to $199/mo"
+  ],
+  "bestFor": ["LLM app teams", "Production agent monitoring", "Gateway plus evals in one"],
+  "alternatives": ["helicone", "langfuse", "portkey", "openrouter"],
+  "references": [
+    {
+      "title": "How Respan is scaling LLM observability with ClickHouse Cloud",
+      "url": "https://clickhouse.com/blog/respan-ai-llm-observability",
+      "source": "ClickHouse",
+      "kind": "analysis"
+    }
+  ]
+}

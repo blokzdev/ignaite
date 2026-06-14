@@ -1,0 +1,51 @@
+{
+  "slug": "latitude",
+  "insight": "Open-source (MIT, 4k+ GitHub stars), built in Catalonia and pitched as 'Sentry, but for agents and LLMs.'",
+  "name": "Latitude",
+  "tagline": "Open-source observability and evals for AI agents.",
+  "description": "Latitude is an open-source monitoring platform for AI agents in production. It captures agent-native traces across multi-turn sessions, tool calls, and full execution paths, then clusters failures into tracked issues and alerts via Slack, email, or webhooks. It is OpenTelemetry-native, supports semantic search over sessions, and auto-builds evals from your team's judgments — run it as managed cloud or self-host the whole stack.",
+  "category": "observability",
+  "secondaryCategories": ["eval"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Latitude Data S.L.",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["open-source", "observability", "evals", "agents", "tracing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://latitude.so",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/latitude-dev/latitude-llm"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://latitude.so/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 657,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "MIT-licensed and OpenTelemetry-native, it auto-builds evals from your team's judgments and tracks alignment drift — self-host the whole stack free.",
+  "pros": [
+    "MIT-licensed, fully self-hostable",
+    "OpenTelemetry-native tracing",
+    "Auto-generates evals from feedback",
+    "Issue clustering + Slack/webhook alerts",
+    "Unlimited seats on the free tier"
+  ],
+  "cons": [
+    "Younger than LangSmith/Langfuse",
+    "Self-host infra to maintain",
+    "Smaller integration ecosystem"
+  ],
+  "bestFor": ["Self-hosted teams", "Agent observability", "Open-source stacks"],
+  "alternatives": ["langfuse", "langsmith", "langwatch", "braintrust"]
+}
