@@ -59,6 +59,7 @@ export type AppCategory =
   | "legal"
   | "finance"
   | "education"
+  | "real-estate"
   // Frontier
   | "robotics";
 
@@ -105,6 +106,7 @@ export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   "legal",
   "finance",
   "education",
+  "real-estate",
   // Frontier
   "robotics",
 ];

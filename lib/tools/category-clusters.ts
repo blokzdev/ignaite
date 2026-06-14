@@ -52,7 +52,7 @@ export const CATEGORY_CLUSTERS = [
   {
     label: "Verticals",
     blurb: "Domain-specific AI",
-    categories: ["companion", "healthcare", "legal", "finance", "education"],
+    categories: ["companion", "healthcare", "legal", "finance", "education", "real-estate"],
   },
   {
     label: "Frontier",

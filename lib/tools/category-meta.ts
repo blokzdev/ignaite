@@ -75,6 +75,8 @@ export const CATEGORY_DESCRIPTION: Record<AppCategory, string> = {
   legal: "AI for legal work — contract review, research, drafting, and matter management.",
   finance: "AI for finance — research copilots, accounting automation, and market intelligence.",
   education: "AI for learning — tutoring, course creation, and study tools.",
+  "real-estate":
+    "AI for real estate — property and parcel data, valuation, and CRE underwriting, leasing, and transaction workflows.",
   // Frontier
   robotics: "Embodied AI and robotics — foundation models, humanoids, and autonomous machines.",
 };

@@ -1,0 +1,41 @@
+{
+  "slug": "realie",
+  "name": "Realie",
+  "tagline": "Nationwide property data API powered by AI-collected public records.",
+  "description": "Realie is a property data platform that serves nationwide parcel, ownership, mortgage, and zoning data through a fast API. AI agents continuously collect records from public sources across 3,100+ U.S. counties in all 50 states, normalize the differing county layouts, and verify them so the data stays current. It handles search, lookups, and enrichment at sub-10ms latency, offers an automated valuation model and comparables, and supports full-state or nationwide bulk delivery via Amazon S3.",
+  "insight": "Exposes its property data to AI coding tools — Claude, Cursor, and VS Code — over the Model Context Protocol (MCP).",
+  "category": "real-estate",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Realie",
+  "platforms": ["api", "web"],
+  "tags": ["property-data", "real-estate", "parcel-data", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.realie.ai/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.realie.ai/introduction"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 581,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Undercuts incumbent property-data APIs that start near $350/mo — a free tier and paid plans from $50/mo, with sub-10ms lookups and bulk S3 delivery.",
+  "pros": [
+    "Free tier; paid plans from $50/mo",
+    "3,100+ counties across all 50 states",
+    "Sub-10ms lookups; bulk via Amazon S3",
+    "MCP access from Claude, Cursor, VS Code"
+  ],
+  "cons": [
+    "US-only coverage",
+    "Newer and smaller than legacy data vendors",
+    "Public-record data can lag county updates"
+  ],
+  "bestFor": ["Developers and analysts", "Property data pipelines", "Budget-conscious proptech"],
+  "alternatives": ["realestateapi", "cadastral"]
+}
