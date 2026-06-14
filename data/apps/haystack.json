@@ -1,0 +1,49 @@
+{
+  "slug": "haystack",
+  "insight": "Built by German company deepset; its 2.0 release rewrote the framework around composable, typed pipelines.",
+  "name": "Haystack",
+  "tagline": "Open-source Python framework for production RAG and agents.",
+  "description": "Orchestration framework for building LLM applications as modular pipelines — retrieval, routing, memory, and generation wired together with explicit, traceable data flow. It is model- and store-agnostic, integrating major providers and vector databases behind a stable component API. Aimed at production: serialization, logging, and deployment across cloud or on-prem.",
+  "category": "orchestration",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "deepset",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Integrates OpenAI, Anthropic, Mistral, Hugging Face, and others."
+  },
+  "tags": ["rag", "pipelines", "python", "open-source", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://haystack.deepset.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/deepset-ai/haystack"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.haystack.deepset.ai"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 611,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "More production-oriented and explicitly composable than lighter agent libraries: typed pipelines give direct control over retrieval, routing, and memory.",
+  "pros": [
+    "Composable, typed pipeline architecture",
+    "Model- and vector-store agnostic",
+    "Strong production tooling",
+    "Mature docs and integrations"
+  ],
+  "cons": [
+    "Pipeline model has a learning curve",
+    "Python-only",
+    "Heavier than minimal agent libraries"
+  ],
+  "bestFor": ["Production RAG systems", "Python teams", "Search applications"],
+  "alternatives": ["langchain", "llamaindex", "langgraph", "crewai"]
+}

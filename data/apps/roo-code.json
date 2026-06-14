@@ -1,0 +1,45 @@
+{
+  "slug": "roo-code",
+  "insight": "Started life as 'Roo Cline,' a fork of the Cline extension, before rebranding to Roo Code; released under Apache-2.0.",
+  "name": "Roo Code",
+  "tagline": "Open-source autonomous coding agent inside VS Code.",
+  "description": "VS Code extension that turns the editor into an agentic coder with real file-system access, terminal control, and multi-step task execution. It ships role-specific modes — Architect, Code, Ask, Debug, Test — each with its own prompt and tool permissions, and can hand off between them mid-task. Model-agnostic: connect any provider key, from frontier APIs to a local model, and pay only for your own token usage.",
+  "category": "agent",
+  "pricing": "freemium",
+  "openSource": true,
+  "vendor": "Roo Code",
+  "platforms": ["vscode-extension"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini", "DeepSeek", "Local (Ollama)"]
+  },
+  "tags": ["coding-agent", "vscode", "open-source", "agentic", "model-agnostic"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/RooCodeInc/Roo-Code",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.roocode.com"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 610,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Forked from Cline to push harder on autonomy: customizable role-based modes that hand off mid-task, fully open and model-agnostic with no vendor lock-in.",
+  "pros": [
+    "Fully open source (Apache-2.0)",
+    "Custom role-based modes with own prompts",
+    "Model-agnostic, bring any API key",
+    "Direct file and terminal access"
+  ],
+  "cons": [
+    "API token costs are on you",
+    "Autonomy needs careful approval review",
+    "Centered on VS Code and forks"
+  ],
+  "bestFor": ["VS Code developers", "Self-directed coding agents", "Cost-conscious teams"],
+  "alternatives": ["cline", "kilo-code", "cursor", "windsurf"]
+}
