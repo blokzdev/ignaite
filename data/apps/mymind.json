@@ -1,0 +1,49 @@
+{
+  "slug": "mymind",
+  "name": "mymind",
+  "tagline": "A private, AI-organized place to remember everything.",
+  "description": "mymind is a personal memory tool: save notes, links, articles, images, and quotes, and it auto-tags and sorts them for you — no folders, no manual filing. AI recognizes what each item is (article, product, recipe, book) and surfaces it again through fast visual, associative search. It's built privacy-first, with no ads, no tracking, and nothing sold or used to train models.",
+  "insight": "Independent and self-funded since 2020 with no outside investors — a privacy stance baked into its no-ads, no-tracking model.",
+  "category": "memory",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "mymind, Inc.",
+  "platforms": ["web", "ios", "android", "macos", "browser-extension"],
+  "accentColor": "#FFC83D",
+  "tags": ["personal-knowledge", "bookmarking", "notes", "privacy"],
+  "links": [
+    { "kind": "website", "url": "https://mymind.com", "primary": true },
+    { "kind": "pricing", "url": "https://access.mymind.com/pricing" }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 594,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "No folders, tags, or manual filing — AI auto-organizes every save, and nothing is tracked, sold, or used to train models.",
+  "pros": [
+    "No manual tagging or filing — AI sorts saves",
+    "Privacy-first: no ads, tracking, or training",
+    "Saves text, links, images, notes in one place",
+    "Native iOS, Android, Mac + browser extensions",
+    "Fast visual, associative search"
+  ],
+  "cons": [
+    "No free tier — paid subscription only",
+    "Personal use, not a team/collaboration tool",
+    "Limited structure for folder-minded users",
+    "Export options are limited"
+  ],
+  "bestFor": [
+    "Personal knowledge keeping",
+    "Visual thinkers & creatives",
+    "Privacy-conscious users"
+  ],
+  "alternatives": ["recall", "glasp", "supermemory", "pieces"],
+  "references": [
+    {
+      "title": "Building an extension of your mind with mymind",
+      "url": "https://nesslabs.com/mymind-featured-tool",
+      "source": "Ness Labs",
+      "kind": "interview"
+    }
+  ]
+}

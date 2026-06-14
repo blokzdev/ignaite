@@ -1,0 +1,48 @@
+{
+  "slug": "macwhisper",
+  "name": "MacWhisper",
+  "tagline": "Private, on-device audio and video transcription for Mac.",
+  "description": "MacWhisper transcribes audio and video files entirely on your Mac — no internet connection and no data leaving the machine. Drop in MP3, WAV, MOV, or MP4 and get a transcript with speaker labels, timestamps, and 50+ export formats. It runs OpenAI's open-source Whisper (and Nvidia's Parakeet) locally, hitting roughly 30x realtime on Apple Silicon via Metal acceleration.",
+  "insight": "Built by solo indie developer Jordi Bruin (Good Snooze); sold largely as a one-time lifetime license rather than a subscription.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Good Snooze",
+  "platforms": ["macos"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs Whisper and Parakeet models locally on-device."
+  },
+  "accentColor": "#8B5CF6",
+  "tags": ["transcription", "on-device", "whisper", "privacy", "speech-to-text"],
+  "links": [
+    { "kind": "website", "url": "https://goodsnooze.gumroad.com/l/macwhisper", "primary": true }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 597,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Fully on-device transcription (Whisper + Parakeet) — no upload, no subscription required, ~30x realtime on Apple Silicon.",
+  "pros": [
+    "Runs fully on-device — private by default",
+    "No subscription; one-time lifetime option",
+    "Fast (~30x realtime on Apple Silicon)",
+    "Speaker labels, timestamps, 50+ exports",
+    "Drag-and-drop audio/video files"
+  ],
+  "cons": [
+    "macOS only (no Windows/Linux/web)",
+    "Pro features and larger models are gated",
+    "Accuracy depends on chosen Whisper model",
+    "No cloud sync or collaboration"
+  ],
+  "bestFor": ["Private interview transcription", "Mac users", "Journalists & researchers"],
+  "alternatives": ["superwhisper", "good-tape", "descript", "wispr-flow"],
+  "references": [
+    {
+      "title": "Is the New MacWhisper Really 2-3X as Fast?",
+      "url": "https://www.podfeet.com/blog/2023/12/macwhisper-3x-faster/",
+      "source": "Podfeet",
+      "kind": "review"
+    }
+  ]
+}
