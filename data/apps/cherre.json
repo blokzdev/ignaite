@@ -1,0 +1,60 @@
+{
+  "slug": "cherre",
+  "name": "Cherre",
+  "insight": "Founded in 2016 by L.D. Salmanson; has raised about $105M from backers including Intel Capital and Nuveen.",
+  "tagline": "Real estate data platform for building AI agents on your connected data.",
+  "description": "Cherre is a real estate data management and intelligence platform that unifies fragmented internal and external data into a Universal Data Model and knowledge graph. Its 2025 Agent.STUDIO product lets firms build and deploy model-agnostic AI agents and pre-built 'Work Packages' for tasks like underwriting, tenant risk scoring, and variance analysis. It targets asset and investment managers, with enterprise contact-sales pricing.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cherre",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Model-agnostic — clients pick and switch between AI providers for their agents."
+  },
+  "tags": ["real-estate", "data-platform", "knowledge-graph", "ai-agents", "underwriting"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cherre.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://cherre.com/products/agent-studio/",
+      "label": "Agent.STUDIO"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 691,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Runs agents on a real-estate-specific Universal Data Model and knowledge graph of 3.3B+ addresses, not generic LLM retrieval.",
+  "pros": [
+    "Domain-specific data model + knowledge graph",
+    "Model-agnostic agent builder",
+    "Pre-built real-estate Work Packages",
+    "SOC 2; data not used for training"
+  ],
+  "cons": [
+    "Enterprise contact-sales only, no public pricing",
+    "Built for asset/investment managers, not solo agents",
+    "Value hinges on connecting your data sources"
+  ],
+  "bestFor": ["Asset managers", "CRE investment teams", "Real estate data ops"],
+  "alternatives": ["housecanary", "attom", "realie", "lofty"],
+  "references": [
+    {
+      "title": "Cherre, Real Estate Data Startup, Raises $50M",
+      "url": "https://therealdeal.com/national/2021/04/22/real-estate-data-firm-cherre-raises-50m/",
+      "source": "The Real Deal",
+      "kind": "analysis"
+    },
+    {
+      "title": "Cherre Raises $30M Series C to Expand Data Platform",
+      "url": "https://www.cretech.com/news/cherre-raises-30m-series-c-to-expand-real-estate-data-platform/",
+      "source": "CREtech",
+      "kind": "analysis"
+    }
+  ]
+}

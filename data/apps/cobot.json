@@ -1,0 +1,55 @@
+{
+  "slug": "cobot",
+  "name": "Cobot",
+  "insight": "Founded in 2022 by Brad Porter, who led deployment of 500,000+ robots as Amazon's VP of robotics.",
+  "tagline": "Proxie, an AI-powered mobile manipulator built for human workplaces.",
+  "description": "Cobot (Collaborative Robotics) makes Proxie, a wheeled, two-armed autonomous mobile manipulator designed to move carts, totes, and boxes alongside people rather than replace them. It deliberately avoids costly bipedal humanoid designs, combining omnidirectional mobility with AI-driven situational awareness. Early customers include Maersk, Mayo Clinic, Moderna, and Owens & Minor.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Collaborative Robotics",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary onboard AI for perception, mobility, and manipulation."
+  },
+  "tags": ["mobile-manipulator", "warehouse-robotics", "embodied-ai", "logistics"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.co.bot",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 692,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Bets on a wheeled two-armed mobile manipulator (Proxie) over costly bipedal humanoids, already piloting with Mayo Clinic, Maersk and Moderna.",
+  "pros": [
+    "Practical wheeled design vs pricey humanoids",
+    "Moves carts up to 1,500 lb",
+    "Real early customers across sectors",
+    "Founder led 500K+ robots at Amazon"
+  ],
+  "cons": [
+    "Not a general-purpose humanoid",
+    "Enterprise deployments, not buyable off-the-shelf",
+    "Capital-intensive, early commercial stage"
+  ],
+  "bestFor": ["Warehouse logistics", "Hospital operations", "Manufacturing"],
+  "alternatives": ["dexterity", "figure-ai", "agility-robotics", "apptronik"],
+  "references": [
+    {
+      "title": "Collaborative Robotics unveils Proxie mobile manipulator",
+      "url": "https://www.therobotreport.com/collaborative-robotics-unveils-proxie-mobile-manipulator/",
+      "source": "The Robot Report",
+      "kind": "analysis"
+    },
+    {
+      "title": "Collaborative Robotics raises $100M Series B",
+      "url": "https://www.therobotreport.com/collaborative-robotics-raises-100m-series-b-funding/",
+      "source": "The Robot Report",
+      "kind": "analysis"
+    }
+  ]
+}
