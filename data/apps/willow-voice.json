@@ -1,0 +1,41 @@
+{
+  "slug": "willow-voice",
+  "name": "Willow Voice",
+  "tagline": "AI dictation that turns speech into formatted text in any app — Mac, Windows, iPhone.",
+  "description": "Willow Voice is an AI dictation app that converts speech into written text across any application, with context-aware formatting, custom dictionaries, and automatic filler-word removal. An AI mode rewrites rough spoken notes into polished writing, and a style-matching feature adapts tone per app. It runs on Mac, Windows, and iPhone, supports 100+ languages, and offers an optional offline mode on Mac and iOS for privacy.",
+  "insight": "Founded by two Stanford dropouts in Y Combinator's Spring 2025 batch; angel backers include HubSpot founder Dharmesh Shah.",
+  "category": "voice",
+  "pricing": "freemium",
+  "vendor": "Willow",
+  "platforms": ["macos", "windows", "ios"],
+  "tags": ["dictation", "speech-to-text", "voice-typing", "productivity"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://willowvoice.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://willowvoice.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 685,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Cross-platform dictation (Mac, Windows, iPhone) with per-app style matching, custom vocabulary, and an optional on-device offline mode on Mac and iOS.",
+  "pros": [
+    "Free tier with weekly word allowance",
+    "Context-aware formatting + custom vocab",
+    "Optional offline mode (Mac/iOS)",
+    "SOC 2 Type II + HIPAA compliant",
+    "100+ languages"
+  ],
+  "cons": [
+    "Cloud transcription by default",
+    "Heavy use needs the paid plan",
+    "Crowded AI-dictation category"
+  ],
+  "bestFor": ["Knowledge workers", "Hands-free writing", "Privacy-conscious teams"],
+  "alternatives": ["wispr-flow", "aqua-voice", "superwhisper"]
+}
