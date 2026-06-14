@@ -1,0 +1,56 @@
+{
+  "slug": "draftwise",
+  "name": "Draftwise",
+  "tagline": "AI drafting agent that drafts, reviews, and negotiates contracts from your own precedent.",
+  "description": "Draftwise is an AI contract platform for law firms and in-house legal teams that drafts, reviews, and redlines agreements using a firm's own precedent language and negotiation history. Its AI Associate can take a contract from first draft through markup, searching across a firm's documents in parallel. It plugs into Microsoft Word, where lawyers already work.",
+  "insight": "Y Combinator-backed; raised a $20M Series A led by Index Ventures in 2024, with YC and Earlybird also joining.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Draftwise",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Runs on frontier models via Microsoft Azure AI Foundry."
+  },
+  "tags": ["contract-drafting", "legal-ai", "redlining", "negotiation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.draftwise.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 673,
+  "lastVerifiedAt": "2026-06-14",
+  "status": "active",
+  "edge": "Grounds every draft in your firm's own executed contracts and prior redlines, so output reflects house style rather than generic templates.",
+  "pros": [
+    "Drafts from your own precedent/redlines",
+    "AI Associate handles end-to-end markup",
+    "Works inside Microsoft Word",
+    "Backed by Index Ventures & YC"
+  ],
+  "cons": [
+    "No public pricing; demo-led",
+    "Aimed at firms/legal teams, not consumers",
+    "Value depends on your document corpus"
+  ],
+  "bestFor": ["Law firms", "In-house legal teams", "Contract negotiation"],
+  "alternatives": ["spellbook", "ivo", "legora", "harvey"],
+  "references": [
+    {
+      "title": "DraftWise secures funding to advance AI in legal drafting and negotiation",
+      "url": "https://www.canadianlawyermag.com/news/international/tech-startup-draftwise-secures-funding-to-advance-ai-in-legal-drafting-and-negotiation/384884",
+      "source": "Canadian Lawyer",
+      "kind": "analysis"
+    },
+    {
+      "title": "Draftwise company analysis",
+      "url": "https://sacra.com/c/draftwise/",
+      "source": "Sacra",
+      "kind": "analysis"
+    }
+  ]
+}
