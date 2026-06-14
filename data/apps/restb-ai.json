@@ -1,0 +1,37 @@
+{
+  "slug": "restb-ai",
+  "name": "Restb.ai",
+  "tagline": "Computer vision and AI for real estate property imagery.",
+  "description": "Restb.ai applies computer vision and AI to real estate photos at scale — classifying rooms, identifying interior and exterior features, scoring property condition and quality, recognizing architectural style, and generating image captions. Its API processes millions of listing images daily for AVMs, iBuyers, MLSs, portals, appraisers, and insurers, turning unstructured photos into structured, queryable property data.",
+  "insight": "Its property-image models are used by CoreLogic, Blackstone, and insurer Lemonade to read listing photos at scale.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Restb.ai",
+  "platforms": ["api"],
+  "tags": ["computer-vision", "real-estate", "property-imagery", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://restb.ai/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 604,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Purpose-built computer vision for real estate imagery — room, feature, condition, and architectural-style detection — rather than generic image tagging.",
+  "pros": [
+    "Reads millions of listing photos daily",
+    "Room, feature, condition, and style detection",
+    "Used by AVMs, iBuyers, MLSs, and insurers",
+    "Image captioning for SEO and accessibility"
+  ],
+  "cons": [
+    "Enterprise, contact-sales pricing",
+    "API-only — no end-user app",
+    "Accuracy varies with photo quality"
+  ],
+  "bestFor": ["AVMs and iBuyers", "MLS and portal data", "Appraisal and insurance"],
+  "alternatives": ["housecanary", "realie", "realestateapi"]
+}

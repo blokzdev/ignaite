@@ -1,0 +1,51 @@
+{
+  "slug": "attom",
+  "name": "ATTOM",
+  "tagline": "Nationwide property data with AI-native and MCP delivery.",
+  "description": "ATTOM is a property data provider covering 160M+ U.S. properties, combining public records — deeds, mortgages, assessor, and tax data — with foreclosure, boundary, and neighborhood datasets. It delivers data through a Property Data API, bulk licensing, Snowflake/Databricks connectors, and AI-native cloud delivery including an MCP server, so AI agents and analytics tools can query property data directly.",
+  "insight": "Founded in 1996 as RealtyTrac; rebranded to ATTOM Data Solutions in 2016 and sold the RealtyTrac brand to Nations Info in 2022.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "ATTOM",
+  "platforms": ["api"],
+  "tags": ["property-data", "real-estate", "mcp", "bulk-data"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.attomdata.com/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 607,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs one of the largest US public-records property datasets (160M+) with AI-native cloud and MCP delivery, not just a REST API.",
+  "pros": [
+    "160M+ US properties covered",
+    "Deeds, mortgage, tax, and boundary data",
+    "AI-native cloud delivery + MCP server",
+    "API, bulk, Snowflake/Databricks"
+  ],
+  "cons": [
+    "Enterprise, contact-sales pricing",
+    "US-only coverage",
+    "Data vendor, not an end-user app"
+  ],
+  "bestFor": ["Proptech and analytics platforms", "Lenders and investors", "Data and AI pipelines"],
+  "alternatives": ["realie", "realestateapi", "housecanary"],
+  "references": [
+    {
+      "title": "RealtyTrac Unveils Attom Data Warehouse And Rebrands",
+      "url": "https://www.inman.com/2016/07/18/realtytrac-unveils-attom-data-warehouse-rebrands/",
+      "source": "Inman",
+      "kind": "analysis"
+    },
+    {
+      "title": "ATTOM Data Solutions acquired by Lovell Minnick Partners",
+      "url": "https://www.housingwire.com/articles/47862-attom-data-solutions-acquired-by-private-equity-firm-lovell-minnick-partners/",
+      "source": "HousingWire",
+      "kind": "analysis"
+    }
+  ]
+}

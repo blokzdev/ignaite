@@ -1,0 +1,37 @@
+{
+  "slug": "archistar",
+  "name": "Archistar",
+  "tagline": "Generative AI for property development, zoning, and plan review.",
+  "description": "Archistar is an AI platform for property development and the built environment. It combines generative design, computer vision, and machine learning to analyze sites against planning and zoning rules, assess development feasibility, and automate building-code and zoning compliance checks (its AI PreCheck plan-review tool) for permit applications. It serves property developers, architects, and local governments to speed approvals and de-risk projects.",
+  "insight": "Its AI PreCheck plan-review tool is used by 30+ city and local governments to flag code and zoning issues before permit submission.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Archistar",
+  "platforms": ["web"],
+  "tags": ["proptech", "zoning", "generative-design", "real-estate"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.archistar.ai/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 605,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Brings generative site design and automated zoning/code compliance into one platform spanning developers, architects, and the councils that approve them.",
+  "pros": [
+    "Generative site and feasibility analysis",
+    "Automated zoning and code compliance",
+    "Used by 30+ governments",
+    "Partners include Autodesk and the ICC"
+  ],
+  "cons": [
+    "Enterprise, contact-sales pricing",
+    "Setup tied to local planning rules",
+    "Narrow to development and planning"
+  ],
+  "bestFor": ["Property developers", "Architects and planners", "Permit and planning authorities"],
+  "alternatives": ["cadastral", "realie"]
+}
