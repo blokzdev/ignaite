@@ -1,0 +1,43 @@
+{
+  "slug": "convai",
+  "name": "Convai",
+  "tagline": "Conversational AI characters and NPCs for games and virtual worlds.",
+  "description": "Convai is a developer platform for building lifelike, voice-driven non-player characters and virtual humans. Its SDKs for Unity, Unreal Engine, PlayCanvas, and the web add end-to-end speech, LLM reasoning, long-term memory, perception, and action execution so characters can hold natural conversations, understand their surroundings, and perform in-world tasks. Studios use it to ship interactive NPCs across games, XR, and the open web.",
+  "insight": "Its conversational-NPC tech was showcased in NVIDIA's ACE technology demos for AI-driven game characters.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Convai Technologies, Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Bundles speech (ASR/TTS) with pluggable LLM reasoning for embodied characters."
+  },
+  "tags": ["npc", "game-dev", "characters", "voice", "unity"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://convai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 648,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Purpose-built for embodied 3D NPCs — perception, in-world actions, and lip-sync across Unity, Unreal, and PlayCanvas — beyond text-only character bots.",
+  "pros": [
+    "Multimodal NPC perception (see/hear)",
+    "Unity, Unreal & PlayCanvas SDKs",
+    "Long-term character memory",
+    "65+ languages, 500+ voices",
+    "Free playground to start"
+  ],
+  "cons": [
+    "Requires game-engine integration",
+    "Latency depends on the cloud",
+    "Niche to games/virtual worlds",
+    "Advanced features need paid tiers"
+  ],
+  "bestFor": ["Game NPC developers", "VR/metaverse builders", "Interactive 3D characters"],
+  "alternatives": ["inworld"]
+}

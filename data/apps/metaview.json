@@ -1,0 +1,53 @@
+{
+  "slug": "metaview",
+  "name": "Metaview",
+  "tagline": "Vertical AI recruiting platform built around an interview notetaker.",
+  "description": "Metaview is an AI platform built specifically for hiring. Its flagship AI notetaker automatically captures and structures interview notes, while companion agents draft job posts, generate hiring reports and analytics, answer questions about candidates, and source profiles. Trained on millions of recruiting conversations, it targets in-house talent teams that want hiring-specific automation rather than a general meeting tool.",
+  "insight": "Raised a ~$35M (€30M) Series B led by GV (Google Ventures) in June 2025.",
+  "category": "hr",
+  "secondaryCategories": ["meeting"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Metaview",
+  "platforms": ["web"],
+  "tags": ["recruiting", "interview-notes", "notetaker", "hiring", "sourcing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.metaview.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 650,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Vertical AI built only for hiring — notes, sourcing, and reports tuned to recruiting calls, unlike general-purpose meeting notetakers.",
+  "pros": [
+    "Recruiting-specific AI notetaker",
+    "Auto-drafts job posts & reports",
+    "Candidate Q&A from interview data",
+    "Free sourcing tier to start",
+    "Backed by GV (Google Ventures)"
+  ],
+  "cons": [
+    "Recruiting-only, not general meetings",
+    "Profile sourcing capped on lower tiers",
+    "Usage-based pricing can add up"
+  ],
+  "bestFor": ["In-house recruiters", "Talent acquisition teams", "High-volume hiring"],
+  "alternatives": ["heymilo", "mercor", "paradox", "fireflies"],
+  "references": [
+    {
+      "title": "London-based AI platform Metaview raises €30.1 million dollars",
+      "url": "https://www.eu-startups.com/2025/06/london-based-ai-platform-metaview-raises-e30-1-million-dollars-to-help-recruiters-in-the-war-for-talent/",
+      "source": "EU-Startups",
+      "kind": "analysis"
+    },
+    {
+      "title": "Interviewing platform Metaview raises €30M in funding round",
+      "url": "https://www.staffingindustry.com/news/global-daily-news/interviewing-platform-metaview-raises-eu30m-in-funding-round",
+      "source": "Staffing Industry",
+      "kind": "analysis"
+    }
+  ]
+}
