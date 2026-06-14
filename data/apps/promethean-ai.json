@@ -1,0 +1,54 @@
+{
+  "slug": "promethean-ai",
+  "insight": "Founded in 2018 by Andrew Maximov, former Technical Art Director at Naughty Dog; a Disney Accelerator alum used by PlayStation Studios.",
+  "name": "Promethean AI",
+  "tagline": "AI assistant that builds and dresses 3D game environments.",
+  "description": "An AI assistant for professional game artists and environment designers that reasons over a studio's own asset library to generate, populate, and dress complex 3D scenes. It runs inside existing editors via plugins for Unreal Engine, Unity, 3ds Max, Maya, and Blender — and works without uploading assets to the cloud. Rather than generating images, it automates the repetitive placement and worldbuilding work behind large productions.",
+  "category": "gaming",
+  "secondaryCategories": ["3d"],
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Promethean AI",
+  "platforms": ["windows"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Reasons over your studio's own labeled asset library; runs locally without cloud upload."
+  },
+  "tags": ["worldbuilding", "environment-design", "game-art", "unreal-engine"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.prometheanai.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.prometheanai.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 681,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Built for pro game artists: dresses and populates 3D scenes inside your existing editor from your own asset library — no cloud upload required.",
+  "pros": [
+    "Works inside Unreal, Unity, Maya, Blender",
+    "Uses your own asset library, no cloud upload",
+    "Free tier for individuals",
+    "Built by an ex-Naughty Dog art director"
+  ],
+  "cons": [
+    "Windows desktop only",
+    "Aimed at pros, steep for hobbyists",
+    "Core engine is proprietary"
+  ],
+  "bestFor": ["Game environment artists", "Level designers", "3D production teams"],
+  "alternatives": ["scenario", "layer-ai", "rosebud-ai", "meshy"],
+  "references": [
+    {
+      "title": "Naughty Dog art director details Promethean AI world-building tech",
+      "url": "https://www.gamedeveloper.com/business/former-naughty-dog-tech-art-director-details-promethean-ai-world-building-technology",
+      "source": "Game Developer",
+      "kind": "interview"
+    }
+  ]
+}

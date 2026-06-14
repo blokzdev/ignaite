@@ -1,0 +1,46 @@
+{
+  "slug": "kaedim",
+  "insight": "Founded in 2020 by Konstantina Psoma in her final year at university; raised a $15M Series A led by a16z Games in March 2024.",
+  "name": "Kaedim",
+  "tagline": "Turn 2D images into production-ready 3D models.",
+  "description": "An AI 3D-asset production platform that converts 2D images and concept art into game-ready 3D models with clean topology. Pairs generative AI with a human-in-the-loop QA step so output meets production specs, custom art styles, and pipeline requirements. Used across games, e-commerce, product design, and AR/VR by studios including Aardman, Rebellion, and The Sandbox.",
+  "category": "3d",
+  "secondaryCategories": ["gaming"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Kaedim",
+  "platforms": ["web"],
+  "tags": ["3d-generation", "game-assets", "image-to-3d", "modeling"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.kaedim3d.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.kaedim3d.com"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 682,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs generative 3D with a human QA review step to deliver clean, production-ready topology, not raw meshes — aimed squarely at game and product pipelines.",
+  "pros": [
+    "Production-ready, game-ready topology",
+    "Used by Aardman, Rebellion, The Sandbox",
+    "2D image and concept art to 3D",
+    "Human QA review on output"
+  ],
+  "cons": ["Paid, no free tier", "Human-in-loop adds turnaround time", "Closed source"],
+  "bestFor": ["Game studios", "3D asset pipelines", "Product and AR/VR teams"],
+  "alternatives": ["meshy", "rodin", "tripo", "scenario"],
+  "references": [
+    {
+      "title": "Kaedim Raises $15M in Series A Funding",
+      "url": "https://www.finsmes.com/2024/03/kaedim-raises-15m-in-series-a-funding.html",
+      "source": "FinSMEs",
+      "kind": "analysis"
+    }
+  ]
+}
