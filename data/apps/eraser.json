@@ -1,0 +1,59 @@
+{
+  "slug": "eraser",
+  "name": "Eraser",
+  "tagline": "AI co-pilot for technical design — diagrams and docs as code.",
+  "description": "Eraser is a collaborative whiteboard and docs tool for engineering teams where diagrams are written as code. Its AI generates flowcharts, ERDs, sequence, and cloud-architecture diagrams from a prompt or a pasted code snippet, then lets you refine them in diagram-as-code syntax. It syncs with GitHub and embeds into Notion and Confluence.",
+  "insight": "Its 2023 sidecar DiagramGPT, which turns code or prose into diagrams, grew to drive roughly 30% of Eraser's signups.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Eraser",
+  "platforms": ["web", "vscode-extension", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT-4"],
+    "notes": "DiagramGPT generates diagrams from code or natural language; built on GPT-4."
+  },
+  "tags": ["diagrams", "diagram-as-code", "documentation", "engineering"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.eraser.io",
+      "primary": true
+    },
+    {
+      "kind": "demo",
+      "url": "https://www.eraser.io/diagramgpt",
+      "label": "DiagramGPT"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.eraser.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 589,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Generates diagrams as editable code, not static images, so engineers can version, diff, and refine architecture diagrams like source.",
+  "pros": [
+    "Diagrams from code or natural language",
+    "Diagram-as-code is versionable and editable",
+    "GitHub sync; Notion/Confluence embeds",
+    "Free plan plus VS Code extension"
+  ],
+  "cons": [
+    "Free plan caps files and AI credits",
+    "Aimed at technical diagrams, not general design",
+    "AI credits metered on every plan"
+  ],
+  "bestFor": ["Engineering teams", "Architecture diagrams", "Technical docs"],
+  "alternatives": ["napkin-ai", "gamma"],
+  "references": [
+    {
+      "title": "How an AI sidecar product drove 30% of sign-ups: Eraser's DiagramGPT",
+      "url": "https://openviewpartners.com/blog/how-an-ai-sidecar-product-drove-30-percent-of-sign-ups-eraser/",
+      "source": "OpenView",
+      "kind": "interview"
+    }
+  ]
+}

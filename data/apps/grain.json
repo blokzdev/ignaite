@@ -1,0 +1,49 @@
+{
+  "slug": "grain",
+  "name": "Grain",
+  "tagline": "AI meeting notetaker that records, transcribes, and clips calls.",
+  "description": "Grain records, transcribes, and summarizes video calls and in-person meetings, then surfaces action items and drafts follow-ups. Its signature feature is turning any moment of a transcript into a shareable video clip, with playlists and stories for organizing key calls. It also enriches CRM records and adds deal insights for revenue teams.",
+  "insight": "Founded in 2018 atop Zoom for clipping call highlights; its $16M Series A in 2022 was led by Tiger Global, with Zoom itself investing.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Grain",
+  "platforms": ["web", "macos", "windows"],
+  "tags": ["meeting-notes", "transcription", "video-clips", "revenue"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://grain.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://grain.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 588,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Built around turning transcript moments into shareable video clips and reels — clip-first, where most notetakers stop at text summaries.",
+  "pros": [
+    "Records, transcribes, and summarizes meetings",
+    "Clip any transcript moment into shareable video",
+    "Free plan with unlimited recordings",
+    "CRM enrichment and deal insights on paid"
+  ],
+  "cons": [
+    "Free plan limits AI-highlighted moments",
+    "Coaching and CRM features gated to Business",
+    "One notetaker seat on the free tier"
+  ],
+  "bestFor": ["Sales and customer calls", "Meeting highlight reels", "Revenue teams"],
+  "alternatives": ["fathom", "fireflies", "otter-ai", "granola"],
+  "references": [
+    {
+      "title": "Grain lands $16M led by Tiger Global to turn meetings into 'libraries'",
+      "url": "https://techcrunch.com/2022/04/12/grain-lands-16m-led-by-tiger-global-to-turn-virtual-meetings-into-libraries/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

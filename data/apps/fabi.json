@@ -1,0 +1,54 @@
+{
+  "slug": "fabi",
+  "name": "Fabi.ai",
+  "tagline": "AI data-analysis notebooks that turn questions into dashboards.",
+  "description": "Fabi.ai is an AI-native analytics platform built around Smartbooks — reactive notebooks that blend SQL, Python, and natural-language querying. Analysts ask a question and Fabi generates the query, chart, or workflow, then turns the result into a shareable dashboard or scheduled report. It connects to warehouses like Snowflake, BigQuery, and Redshift.",
+  "insight": "Raised a $3M seed in 2023 led by Eniac Ventures; pitched as an AI-native Jupyter and Google Colab alternative for data teams.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Fabi.ai",
+  "platforms": ["web"],
+  "tags": ["data-analysis", "notebooks", "sql", "python", "bi"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fabi.ai",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.fabi.ai/product/smartbooks",
+      "label": "Smartbooks"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.fabi.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 585,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs reactive SQL + Python notebooks with natural-language AI, so an ad-hoc question becomes a shareable dashboard without leaving one tool.",
+  "pros": [
+    "SQL, Python, and natural language in one notebook",
+    "Reactive cells auto-update downstream",
+    "Notebooks become shareable dashboards",
+    "Free-forever tier"
+  ],
+  "cons": [
+    "Aimed at data teams, not pure non-technical users",
+    "Younger product with a smaller ecosystem",
+    "Premium connectors gated to paid plans"
+  ],
+  "bestFor": ["Ad-hoc data analysis", "Data teams", "Notebook-to-dashboard workflows"],
+  "alternatives": ["hex", "deepnote", "julius", "quadratic"],
+  "references": [
+    {
+      "title": "Why we led Fabi.ai's seed round",
+      "url": "https://eniacvc.medium.com/why-we-led-fabi-ais-seed-round-90a0dc03447e",
+      "source": "Eniac Ventures",
+      "kind": "analysis"
+    }
+  ]
+}
