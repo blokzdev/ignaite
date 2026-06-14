@@ -1,0 +1,45 @@
+{
+  "slug": "findem",
+  "name": "Findem",
+  "tagline": "AI talent intelligence for sourcing, hiring, and planning.",
+  "description": "Findem is an AI talent-intelligence platform that builds enriched candidate profiles — its '3D data' attributes — from across the web to power sourcing, talent marketing, and analytics. Its agentic layer adds screening, scheduling, and job-post agents. Aimed at talent-acquisition teams hiring and planning beyond what a résumé shows.",
+  "insight": "Raised a $30M Series B in 2022, bringing total funding to about $37M, with Wing Venture Capital among its backers.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Findem",
+  "platforms": ["web"],
+  "tags": ["talent-intelligence", "sourcing", "recruiting", "workforce-planning", "ai-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.findem.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 654,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Goes beyond résumés with '3D' attribute data — inferred skills and career context — to surface candidates keyword search misses.",
+  "pros": [
+    "Rich attribute data beyond résumés",
+    "Sourcing, marketing, and analytics in one",
+    "Agentic screening and scheduling",
+    "Strong on diversity and talent insights"
+  ],
+  "cons": [
+    "Demo-only pricing, enterprise-oriented",
+    "Data accuracy depends on enrichment",
+    "Smaller database than some rivals"
+  ],
+  "bestFor": ["TA teams sourcing at scale", "Diversity hiring", "Workforce planning"],
+  "alternatives": ["seekout", "eightfold", "juicebox", "hirevue"],
+  "references": [
+    {
+      "title": "Findem Raises $30M in Series B Funding",
+      "url": "https://www.finsmes.com/2022/03/findem-raises-30m-in-series-b-funding.html",
+      "source": "FinSMEs",
+      "kind": "analysis"
+    }
+  ]
+}

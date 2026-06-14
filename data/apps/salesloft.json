@@ -1,0 +1,55 @@
+{
+  "slug": "salesloft",
+  "name": "Salesloft",
+  "tagline": "AI revenue orchestration for sales engagement and forecasting.",
+  "description": "Salesloft is an AI revenue-orchestration platform combining sales engagement (Cadence), conversation intelligence, deal management, and forecasting. Its Rhythm engine turns buyer signals into prioritized seller actions, and AI agents draft outreach informed by past conversations. A long-standing category leader for mid-market and enterprise revenue teams.",
+  "insight": "Merged with forecasting platform Clari in December 2025 under shared owner Vista Equity to form a combined revenue company.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Salesloft",
+  "platforms": ["web", "api"],
+  "tags": [
+    "sales-engagement",
+    "revenue-orchestration",
+    "conversation-intelligence",
+    "forecasting",
+    "cadence"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.salesloft.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.salesloft.com"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 653,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs a proven cadence engine with signal-driven Rhythm prioritization, and post-merger folds in Clari's forecasting under one revenue platform.",
+  "pros": [
+    "Strong engagement + conversation intelligence",
+    "Rhythm prioritizes actions from buyer signals",
+    "Backed by Vista; merged with Clari",
+    "Enterprise-grade integrations and analytics"
+  ],
+  "cons": [
+    "Enterprise pricing, no public tier",
+    "Post-merger platform consolidation ongoing",
+    "Complex for small teams"
+  ],
+  "bestFor": ["Mid-market & enterprise sales", "RevOps", "Conversation coaching"],
+  "alternatives": ["outreach", "apollo", "gong", "amplemarket"],
+  "references": [
+    {
+      "title": "Clari-Salesloft Merger: A Bold, High-Stakes Bid For Market Dominance",
+      "url": "https://www.forrester.com/blogs/clari-salesloft-merger-a-bold-high-stakes-bid-for-market-dominance/",
+      "source": "Forrester",
+      "kind": "analysis"
+    }
+  ]
+}

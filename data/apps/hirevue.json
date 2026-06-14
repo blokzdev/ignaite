@@ -1,0 +1,45 @@
+{
+  "slug": "hirevue",
+  "name": "HireVue",
+  "tagline": "AI hiring platform for assessments and video interviews.",
+  "description": "HireVue is an enterprise hiring platform that uses AI to screen and validate candidate skills through video interviews, game-based and technical assessments, and an AI Interviewer. It adds candidate matching, scheduling, and workflow automation, with deep ATS integrations. Widely used for high-volume and structured hiring.",
+  "insight": "Dropped facial-analysis scoring from its video interviews in 2021 after bias complaints, moving to language- and skills-based assessment.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "HireVue",
+  "platforms": ["web"],
+  "tags": ["hiring", "video-interview", "assessments", "screening", "ats"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hirevue.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 655,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "One of the most established, ATS-integrated video-assessment platforms, and FedRAMP-authorized for public-sector hiring.",
+  "pros": [
+    "Scales structured screening to high volume",
+    "Skills/game-based assessments, 40+ languages",
+    "Deep ATS integrations (Workday, SAP, Oracle)",
+    "FedRAMP-authorized for public sector"
+  ],
+  "cons": [
+    "Past bias/transparency criticism over AI scoring",
+    "Enterprise pricing, no public tier",
+    "Candidate experience can feel impersonal"
+  ],
+  "bestFor": ["High-volume hiring", "Enterprise TA", "Public-sector hiring"],
+  "alternatives": ["metaview", "heymilo", "micro1", "findem"],
+  "references": [
+    {
+      "title": "HireVue drops facial monitoring amid A.I. algorithm audit",
+      "url": "https://fortune.com/2021/01/19/hirevue-drops-facial-monitoring-amid-a-i-algorithm-audit/",
+      "source": "Fortune",
+      "kind": "analysis"
+    }
+  ]
+}
