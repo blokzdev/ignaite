@@ -1,0 +1,46 @@
+{
+  "slug": "attention",
+  "name": "Attention",
+  "tagline": "AI sales agents that learn from your best calls to automate CRM and coaching.",
+  "description": "Attention records and transcribes sales conversations, then uses AI agents trained on a team's best calls to auto-update the CRM, draft follow-ups, score reps against coaching scorecards, and surface forecasting and deal insights. It connects to dialers, meeting tools, and CRMs like Salesforce and HubSpot to cut manual data entry across go-to-market workflows.",
+  "insight": "Raised a $14M Series A led by French VC Alven in November 2024.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Attention",
+  "platforms": ["web"],
+  "tags": ["sales", "call-recording", "crm", "coaching", "revenue"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.attention.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 651,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Learns from your top reps' winning calls to auto-update the CRM and coach live, going beyond passive call transcription.",
+  "pros": [
+    "Auto CRM updates after calls",
+    "Real-time call coaching scorecards",
+    "Learns from top-rep conversations",
+    "200+ integrations",
+    "Salesforce & HubSpot sync"
+  ],
+  "cons": [
+    "No public pricing or free tier",
+    "Sales-team use case only",
+    "Needs access to call platforms"
+  ],
+  "bestFor": ["Sales teams", "RevOps", "Sales coaching"],
+  "alternatives": ["gong", "nooks", "regie", "apollo"],
+  "references": [
+    {
+      "title": "Attention Raises $14M by Automating Sales Calls and Adding $1.2M to Its Pipeline",
+      "url": "https://aimresearch.co/generative-ai/attention-raises-14m-by-automating-sales-calls-and-adding-1-2m-to-its-pipeline",
+      "source": "AIM Research",
+      "kind": "analysis"
+    }
+  ]
+}

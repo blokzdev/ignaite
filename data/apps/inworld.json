@@ -1,0 +1,58 @@
+{
+  "slug": "inworld",
+  "name": "Inworld AI",
+  "tagline": "Realtime voice AI infrastructure for consumer-facing apps.",
+  "description": "Inworld AI builds the infrastructure for production voice AI: a single Realtime API that unifies speech-to-text, an LLM router, and high-quality text-to-speech so developers can ship interactive voice agents, AI companions, and conversational apps at scale. Its Agent Runtime is free, with usage-based billing for model consumption. Inworld powers voice for a range of fast-growing consumer AI apps.",
+  "insight": "Launched in 2021 as a game-NPC 'Character Engine,' it pivoted in 2024 to general realtime voice AI infrastructure.",
+  "category": "voice",
+  "secondaryCategories": ["inference"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Inworld AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Own realtime TTS/STT models plus an LLM router across providers, on one API."
+  },
+  "tags": ["voice-ai", "tts", "realtime", "voice-agents", "infrastructure"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://inworld.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 649,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "One API unifies speech-to-text, an LLM router, and a TTS model ranked #1 on Artificial Analysis's blind quality leaderboard — not just a single voice layer.",
+  "pros": [
+    "#1-ranked realtime TTS (blind eval)",
+    "Sub-200ms latency",
+    "Unified STT + LLM router + TTS API",
+    "Agent Runtime free (pay per model)",
+    "Powers high-scale consumer apps"
+  ],
+  "cons": [
+    "Pivoted away from game-character focus",
+    "Usage costs scale with volume",
+    "Core platform is proprietary",
+    "Best suited to high-volume builders"
+  ],
+  "bestFor": ["Voice agent builders", "AI companion apps", "Consumer-scale realtime voice"],
+  "alternatives": ["elevenlabs", "cartesia", "hume-ai", "resemble-ai"],
+  "references": [
+    {
+      "title": "Inworld and its AI NPCs are now valued at $500M",
+      "url": "https://www.developer-tech.com/news/inworld-ai-npcs-now-valued-at-500m/",
+      "source": "Developer Tech",
+      "kind": "analysis"
+    },
+    {
+      "title": "What is Inworld AI? A deep dive for 2026",
+      "url": "https://www.eesel.ai/blog/inworld-ai",
+      "source": "eesel AI",
+      "kind": "guide"
+    }
+  ]
+}
