@@ -5,6 +5,7 @@
   "description": "Leena AI is an autonomous agentic platform for enterprise back-office service desks — HR, IT, and finance — rather than recruiting. It ships pre-built 'AI Colleagues' that auto-resolve employee tickets, answer policy questions, and generate documents, integrating with 200+ enterprise systems. It claims 70%+ ticket auto-resolution across 500+ enterprises.",
   "insight": "Raised a $30M Series B led by Bessemer Venture Partners (with Eduardo Saverin) in Sept 2021.",
   "category": "hr",
+  "secondaryCategories": ["support"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Leena AI",

@@ -5,6 +5,7 @@
   "tagline": "Open-source annotation platform for vision AI datasets.",
   "description": "Data-labeling suite for images, video, and 3D: bounding boxes, polygons, segmentation, keypoints, and object tracking, with AI-assisted labeling via SAM and custom models through its API and SDK. Ships as the MIT-licensed Community edition to self-host, the hosted CVAT Online with free and paid plans, or a self-hosted Enterprise tier.",
   "category": "vision",
+  "secondaryCategories": ["data-ops"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

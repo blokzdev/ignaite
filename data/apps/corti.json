@@ -5,6 +5,7 @@
   "tagline": "Clinical-grade AI platform and APIs for healthcare developers.",
   "description": "Corti is an AI platform for healthcare and life-science developers, offering clinical-grade APIs for medical speech-to-text, coding, and text generation plus an agentic framework with pre-built agents. Its proprietary Symphony model family powers more than a million clinical interactions a week, and the platform ships with FedRAMP, HIPAA, SOC 2, and ISO 13485 compliance plus an EU sovereign-cloud option. The Copenhagen company first made its name detecting cardiac arrests in live emergency calls.",
   "category": "healthcare",
+  "secondaryCategories": ["voice"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Corti",

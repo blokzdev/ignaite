@@ -5,6 +5,7 @@
   "tagline": "AI search and research copilot with cited answers.",
   "description": "An AI search and research assistant that returns cited, fact-checked answers across the web, YouTube, and PDFs, with dedicated modes for academic literature review (Liner Scholar) and professional writing (Liner Write). It grew out of a popular web-highlighting tool and now spans browser, mobile, desktop, and a browser extension. The free tier covers everyday search; Pro unlocks more models, file uploads, and unlimited copilot use.",
   "category": "search",
+  "secondaryCategories": ["research-platform"],
   "pricing": "freemium",
   "vendor": "Liner",
   "platforms": ["web", "ios", "android", "macos", "windows", "browser-extension"],

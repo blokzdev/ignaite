@@ -5,6 +5,7 @@
   "tagline": "AI deep-research agent that finds every relevant paper on a scientific question.",
   "description": "A research-discovery platform that takes a natural-language question and autonomously searches, reads, and evaluates hundreds of academic papers — following citation trails and explaining each result's relevance, mimicking how an expert runs a literature review. Built by MIT quantum-physics PhDs and backed by Y Combinator; used by researchers at MIT, Harvard, and Caltech.",
   "category": "research-platform",
+  "secondaryCategories": ["science"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Undermind",

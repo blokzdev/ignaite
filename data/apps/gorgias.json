@@ -5,6 +5,7 @@
   "tagline": "Ecommerce helpdesk with an AI Agent that resolves and converts.",
   "description": "A customer support helpdesk built for ecommerce, layered with an AI Agent that resolves support questions, automates actions like returns and order tracking, and converts shoppers through personalized chat. The helpdesk uses ticket-based pricing, while the AI Agent is billed per automated resolution. It integrates deeply with ecommerce stacks like Shopify.",
   "category": "support",
+  "secondaryCategories": ["sales"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Gorgias",

@@ -5,6 +5,7 @@
   "tagline": "Open-source evaluation and red-teaming for LLM agents and RAG apps.",
   "description": "Giskard is an open-source (Apache-2.0) Python library for testing LLMs, RAG pipelines, and ML models — its Scan automatically surfaces hallucinations, prompt injection, bias, and other vulnerabilities, while red-teaming agents run multi-turn adversarial attacks across dozens of probes. The paid Giskard Hub adds team collaboration, continuous testing, and scheduled scans. The team also publishes the open Phare LLM safety benchmark.",
   "category": "eval",
+  "secondaryCategories": ["security"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

@@ -5,6 +5,7 @@
   "description": "Hive offers pre-trained deep-learning models delivered as cloud APIs for understanding, moderating, and generating visual, text, and audio content. Its core business is automated content moderation — flagging unsafe imagery, video, text, and audio at platform scale — alongside logo and object detection, AI-generated-content and deepfake detection, and reverse image search. The San Francisco company powers trust-and-safety pipelines for platforms including Reddit, Bluesky, and Midjourney. Models integrate with a few lines of code and run as managed or on-premise deployments.",
   "insight": "In 2024 Hive won the Pentagon Defense Innovation Unit's first deepfake-detection contract, a $2.4M two-year deal.",
   "category": "vision",
+  "secondaryCategories": ["security"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Hive",

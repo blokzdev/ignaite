@@ -5,6 +5,7 @@
   "tagline": "Autonomous AI agents built for accounting firms.",
   "description": "Basis builds AI agents purpose-built for accountants that execute complex accounting workflows end-to-end and return finished output ready for review. It integrates with existing ledgers and systems to handle tax, audit, advisory, and client-accounting tasks, adapting to each firm's processes rather than relying on rigid rules.",
   "category": "finance",
+  "secondaryCategories": ["agent"],
   "pricing": "paid",
   "vendor": "Basis",
   "deployment": "cloud",

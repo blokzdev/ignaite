@@ -5,6 +5,7 @@
   "tagline": "Open-source Python framework for production RAG and agents.",
   "description": "Orchestration framework for building LLM applications as modular pipelines — retrieval, routing, memory, and generation wired together with explicit, traceable data flow. It is model- and store-agnostic, integrating major providers and vector databases behind a stable component API. Aimed at production: serialization, logging, and deployment across cloud or on-prem.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "vendor": "deepset",

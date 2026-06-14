@@ -5,6 +5,7 @@
   "tagline": "Simulate, evaluate, and observe AI agents end-to-end.",
   "description": "An end-to-end platform for testing and monitoring AI agents across their lifecycle. It combines a prompt experimentation IDE, agent simulation across scenarios and personas, offline and online evaluations with custom metrics, and production observability with tracing and alerts. Aimed at teams shipping reliable agentic and RAG systems.",
   "category": "eval",
+  "secondaryCategories": ["observability"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Maxim AI",

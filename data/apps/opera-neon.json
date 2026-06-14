@@ -5,6 +5,7 @@
   "insight": "The $19.90/month subscription bundles premium third-party model access — Gemini 3 Pro, GPT-5.1, Veo 3.1, and Nano Banana Pro.",
   "description": "An agentic AI browser from Opera built around three agents: Neon Chat answers with page and history context, Do executes tasks directly on web pages, and Make generates mini-apps, sites, and documents. Tasks group related tabs and chats into workspaces, Cards package repeatable prompt workflows, and the ODRA agent compiles sourced deep-research reports. Opened to the public in December 2025 after an invite-only waitlist.",
   "category": "assistant",
+  "secondaryCategories": ["browser-extension", "research-platform"],
   "pricing": "paid",
   "deployment": "local",
   "vendor": "Opera",

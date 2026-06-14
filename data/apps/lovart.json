@@ -5,6 +5,7 @@
   "tagline": "AI design agent — logos to full campaigns in one conversation.",
   "description": "Conversational design agent that takes a brief and produces full creative outputs — logos, posters, marketing campaigns — by orchestrating multiple image and video models on a single canvas. It iterates on the design rather than re-rolling prompts, with a credit-based freemium model.",
   "category": "image-gen",
+  "secondaryCategories": ["design"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Lovart",

@@ -5,6 +5,7 @@
   "description": "Kiro is AWS's agentic IDE that brings engineering rigor to AI coding. Instead of vibe-coding straight to a diff, it first generates durable spec artifacts — requirements, a technical design, and a task list — then implements them. Agent hooks automate routine actions on file events, and it runs on Claude models.",
   "insight": "Demand at its July 2025 launch was so high AWS imposed usage caps and a signup waitlist within weeks.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "local",
   "vendor": "AWS",

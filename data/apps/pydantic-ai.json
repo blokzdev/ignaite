@@ -5,6 +5,7 @@
   "tagline": "Type-safe Python agent framework, the Pydantic way.",
   "description": "An open-source Python framework for building production-grade agents with validated, structured outputs instead of raw-string parsing. Model-agnostic across OpenAI, Anthropic, Gemini and many more, with composable tools, durable execution, MCP support, and built-in observability via Pydantic Logfire. MIT-licensed from the team behind Pydantic.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "vendor": "Pydantic",

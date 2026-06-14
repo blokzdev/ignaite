@@ -5,6 +5,7 @@
   "tagline": "OpenAI's open-source coding agent for the terminal.",
   "description": "A lightweight, open-source coding agent that runs locally in your terminal, reading your repository, editing files, and running commands in a conversational loop you review in real time. Built in Rust for speed, it supports Model Context Protocol tools, subagents for parallel tasks, and switching between GPT models. Sign in with a ChatGPT plan (Plus, Pro, Business, Edu, or Enterprise) or use an OpenAI API key.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "local",

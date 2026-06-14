@@ -5,6 +5,7 @@
   "tagline": "Turn any website into clean, LLM-ready data — scrape, crawl, search.",
   "description": "A web data API for AI — scrape, crawl, map, and search pages into clean markdown or structured JSON, handling proxies, anti-bot, and JS rendering for you. Open-source core (AGPL) plus a hosted service; a default web-ingestion layer for agents and RAG pipelines.",
   "category": "data-ops",
+  "secondaryCategories": ["search"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

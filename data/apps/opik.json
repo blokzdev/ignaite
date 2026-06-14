@@ -5,6 +5,7 @@
   "tagline": "Open-source LLM evaluation, tracing, and monitoring.",
   "description": "Open-source platform from Comet for debugging and evaluating LLM and agent apps: full tracing of calls, tools, and agent steps, LLM-as-a-judge and heuristic evals, prompt management, and production dashboards. Self-host via Docker or Kubernetes, or use Comet's hosted cloud.",
   "category": "observability",
+  "secondaryCategories": ["eval"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

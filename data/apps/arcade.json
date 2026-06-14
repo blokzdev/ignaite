@@ -5,6 +5,7 @@
   "tagline": "The MCP runtime for secure, authenticated agent tool-calling.",
   "description": "A platform that lets AI agents take real, authenticated actions across business systems like Gmail, GitHub, Slack, and Notion. Arcade handles the hard part of agent tool-use — secure, per-user authorization — so a tool call runs with the actual end user's permissions rather than a shared API key. It ships agent-optimized prebuilt tools plus an open framework for building custom ones, exposed over MCP. A free tier is available for getting started.",
   "category": "mcp",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Arcade",

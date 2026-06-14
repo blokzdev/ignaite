@@ -5,6 +5,7 @@
   "tagline": "Multi-model AI search and enterprise research agents.",
   "description": "You.com is an AI search and answers product offering multi-model chat over OpenAI, Anthropic, and Google models on web and mobile. It has shifted toward enterprise with ARI, a research agent that synthesizes cited reports across hundreds of sources, alongside Search and Research APIs for developers.",
   "category": "search",
+  "secondaryCategories": ["research-platform"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "You.com",

@@ -5,6 +5,7 @@
   "tagline": "Prompt-to-app generator running in the browser. WebContainers under the hood.",
   "description": "StackBlitz's in-browser full-stack app builder. Generates a working project — frontend, backend, deps — and lets you iterate in a sandboxed Node runtime without leaving the tab.",
   "category": "agent",
+  "secondaryCategories": ["design"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "StackBlitz",

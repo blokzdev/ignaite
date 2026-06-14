@@ -5,6 +5,7 @@
   "description": "TruLens is an open-source Python library for evaluating and tracing LLM, RAG, and agent applications. You wrap your app with feedback functions that score outputs on metrics like groundedness, context relevance, and answer relevance, then trace runs and compare versions on a metrics leaderboard. It integrates OpenTelemetry tracing and runs locally with a built-in dashboard.",
   "insight": "Built by TruEra, whose AI-observability platform Snowflake acquired in 2024; Snowflake kept TruLens open source and now stewards it.",
   "category": "eval",
+  "secondaryCategories": ["observability"],
   "pricing": "free",
   "openSource": true,
   "vendor": "Snowflake",

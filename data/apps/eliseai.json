@@ -5,6 +5,7 @@
   "description": "EliseAI is an agentic AI platform that automates tenant and prospect communication for property management and multifamily housing. It answers inquiries, schedules tours, processes maintenance requests, and manages follow-ups across voice, SMS, email, and chat so operators can respond instantly around the clock. The same conversational platform has since been extended into healthcare for patient scheduling and non-clinical communication.",
   "insight": "Reached unicorn status with a 2024 $75M Series D at a $1B+ valuation (Sapphire Ventures), later extending its housing AI into healthcare.",
   "category": "real-estate",
+  "secondaryCategories": ["healthcare"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "EliseAI",

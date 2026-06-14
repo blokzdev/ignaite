@@ -5,6 +5,7 @@
   "description": "Scale supplies the human-annotated training data behind most frontier AI labs through its Data Engine, spanning labeling, RLHF, and expert red-teaming. On top of the data business it runs evaluation leaderboards, an enterprise GenAI platform, and Donovan, its platform for the US public sector.",
   "insight": "Meta took a 49% stake for $14.3B in June 2025 at a $29B valuation; co-founder CEO Alexandr Wang left to lead Meta's AI efforts.",
   "category": "data-ops",
+  "secondaryCategories": ["eval"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Scale AI",

@@ -5,6 +5,7 @@
   "tagline": "Continual learning memory for stateful agents. Better context, fewer tokens.",
   "description": "A memory and user-personalization layer for AI agents that keeps reasoning about each user across sessions, so apps get richer context without stuffing whole histories into the prompt. It models peers and sessions, runs background inference to derive durable facts, and answers natural-language questions about a user at query time. Available as a managed API or self-hosted FastAPI server, with Python and TypeScript SDKs.",
   "category": "memory",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

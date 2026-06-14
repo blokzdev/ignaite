@@ -5,6 +5,7 @@
   "description": "Marqo is an end-to-end vector search engine that generates, stores, and retrieves embeddings for text and image data through a single API, so teams don't have to stitch together a separate embedding pipeline. It has since repositioned around AI-native ecommerce search, merchandising, and recommendations, with turnkey integrations for major commerce platforms.",
   "insight": "Founded by two ex-Amazon engineers, one a former Amazon Robotics lead scientist; raised a $12.5M Series A led by Lightspeed in 2024.",
   "category": "vector-db",
+  "secondaryCategories": ["search"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Marqo",

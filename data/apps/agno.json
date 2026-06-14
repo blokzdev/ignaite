@@ -5,6 +5,7 @@
   "tagline": "High-performance Python framework for multi-agent systems.",
   "description": "Agno is an open-source Python framework for building multi-agent systems with memory, knowledge, tools, and reasoning. Agents are fast to instantiate and can be composed into teams, and the companion AgentOS runtime serves them in production as a FastAPI app with a control plane.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "vendor": "Agno",

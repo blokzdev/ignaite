@@ -5,6 +5,7 @@
   "tagline": "Domain-specific AI for legal and professional services.",
   "description": "Harvey is an AI platform built for law firms and corporate legal teams to research, analyze documents, and draft. It pairs an assistant and a secure document vault with purpose-built agents that execute complex legal work end to end. Sold through enterprise contracts rather than self-serve.",
   "category": "legal",
+  "secondaryCategories": ["agent"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Harvey AI",

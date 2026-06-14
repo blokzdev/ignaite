@@ -5,6 +5,7 @@
   "tagline": "Autonomous software engineer agent. Plans, codes, ships from a prompt.",
   "description": "Cognition's hosted SWE agent. Operates inside its own sandbox with a browser, terminal, and editor — plans the work, writes the code, and submits a PR. Aimed at long-horizon tickets rather than tab-completions.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Cognition AI",

@@ -5,6 +5,7 @@
   "description": "Tana is a meeting workspace with native video calling, real-time transcription, and AI agents that act during the call — generating artifacts like PRs, tickets, and storyboards rather than only summarizing afterward. A persistent context graph remembers people, projects, and decisions across meetings, and AI changes go through a human-approval proposal step. It evolved from Tana's earlier supertag-based note app.",
   "insight": "Pivoted from its supertag knowledge-graph note app — which drew a 160K waitlist and $25M in 2025 — to an agentic meeting platform.",
   "category": "meeting",
+  "secondaryCategories": ["productivity"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Tana",

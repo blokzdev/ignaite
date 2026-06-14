@@ -5,6 +5,7 @@
   "description": "HyperWrite is an AI writing assistant that drafts, rewrites, and autocompletes text across the web, with research and inline citations. It runs as a web app and a Chrome extension, and adds a personal-assistant agent that can carry out multi-step browser tasks. It is built by OthersideAI, one of the first companies to ship a consumer product on GPT-3.",
   "insight": "Built by OthersideAI, founded July 2020 — among the earliest commercial products built on OpenAI's GPT-3, with roughly 2M users.",
   "category": "writing",
+  "secondaryCategories": ["browser-extension"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "OthersideAI",

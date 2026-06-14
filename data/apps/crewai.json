@@ -5,6 +5,7 @@
   "tagline": "Multi-agent framework with explicit roles and tasks.",
   "description": "Python framework for orchestrating crews of specialised agents — researcher, writer, reviewer — coordinated through shared context. Opinionated about roles, sequencing, and delegation; good fit for content-and-research pipelines.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "vendor": "crewAIInc",

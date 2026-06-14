@@ -5,6 +5,7 @@
   "tagline": "Cloud IDE + Agent that builds, runs, and deploys from a prompt.",
   "description": "A browser IDE with Replit Agent — describe an app and it scaffolds, codes, runs, and deploys it, with a hosted database and one-click publish. Zero local setup, ships from anywhere.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Replit",

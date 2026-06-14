@@ -5,6 +5,7 @@
   "tagline": "1000+ authenticated toolkits for AI agents, via MCP or API.",
   "description": "Tool layer that gives AI agents secure, managed access to 1000+ toolkits and 20,000+ tools across SaaS apps, exposed via MCP or direct APIs. It handles authentication, tool search, and context management, and its MCP Gateway hands each team a managed endpoint to paste into Claude, Cursor, or ChatGPT. The core is MIT-licensed; a free tier covers 20K tool calls per month.",
   "category": "mcp",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "cloud",

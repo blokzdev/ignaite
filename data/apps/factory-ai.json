@@ -5,6 +5,7 @@
   "tagline": "Agent-native software development with autonomous 'Droids'.",
   "description": "An agent-native platform for software development built around 'Droids' — autonomous coding agents that plan, edit, and run tasks across a codebase. Works from a CLI/SDK and runs agents both in the cloud and locally in the background. Model-agnostic across frontier and open-weight models.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "paid",
   "deployment": "hybrid",
   "vendor": "Factory",

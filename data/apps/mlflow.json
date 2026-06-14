@@ -5,6 +5,7 @@
   "description": "MLflow is an open-source platform for managing the full machine-learning and GenAI lifecycle — experiment tracking, model registry, deployment, and, more recently, LLM/agent observability. Its GenAI stack adds OpenTelemetry-based tracing, systematic evaluation with built-in metrics and LLM judges, and prompt versioning. Framework- and provider-agnostic, it runs on your own infrastructure with no vendor lock-in.",
   "insight": "Created by Databricks in 2018 and donated to the Linux Foundation in June 2020; still Apache-2.0 with no managed-only core.",
   "category": "observability",
+  "secondaryCategories": ["eval"],
   "pricing": "free",
   "openSource": true,
   "deployment": "self-host",

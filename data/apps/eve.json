@@ -5,6 +5,7 @@
   "tagline": "AI platform for plaintiff law firms — works whole cases from intake to resolution.",
   "description": "Legal AI built specifically for plaintiff-side law firms in areas like personal injury and employment law. Eve evaluates incoming cases, builds medical chronologies, drafts complaints, demand letters, and discovery, and runs an AI Auditor that scans the firm's entire active caseload nightly to surface missed opportunities. The company says it is used by over 1,000 plaintiff firms and processes more than 200,000 cases a year.",
   "category": "legal",
+  "secondaryCategories": ["agent"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Eve Legal",

@@ -5,6 +5,7 @@
   "tagline": "Open-source autonomous coding agent in VS Code. BYO key.",
   "description": "Community-maintained VS Code extension that turns the editor into an agent surface — reads the repo, runs commands, edits files, and verifies its work. Pairs naturally with Claude. Formerly known as Claude Dev.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "byo-key",
   "openSource": true,
   "deployment": "local",

@@ -5,6 +5,7 @@
   "tagline": "Replace frontier-model spend with a fine-tuned small model.",
   "description": "Captures your production OpenAI / Anthropic calls, builds a dataset, fine-tunes a small open-weights model on your traffic, then serves the swap behind your existing SDK. The pitch: 10x cost reduction at parity.",
   "category": "fine-tuning",
+  "secondaryCategories": ["inference"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "OpenPipe",

@@ -5,6 +5,7 @@
   "tagline": "AI gateway with observability, guardrails, and governance.",
   "description": "A production AI gateway that gives apps and agents unified access to 1,600+ LLMs across providers behind a single API, with built-in observability, prompt management, guardrails, and governance. Portkey adds routing, caching, fallbacks, cost limits, PII redaction, RBAC, and an MCP gateway. Its core gateway is open-source; run it self-hosted/hybrid or use the managed cloud, which offers a free tier.",
   "category": "inference",
+  "secondaryCategories": ["observability"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

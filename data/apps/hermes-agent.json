@@ -5,6 +5,7 @@
   "tagline": "Self-improving personal AI agent that learns skills and keeps persistent memory.",
   "description": "A self-hostable AI agent from Nous Research that builds skills from experience, maintains long-term memory, and is reachable through a terminal TUI, a web dashboard, or messaging gateways (Telegram, Discord, Slack). It runs anywhere from a small VPS to local Docker, and works with any model via Nous Portal, OpenRouter, OpenAI, or self-hosted endpoints. Free and open source under MIT; you bring your own model access.",
   "category": "agent",
+  "secondaryCategories": ["memory"],
   "pricing": "byo-key",
   "openSource": true,
   "deployment": "self-host",

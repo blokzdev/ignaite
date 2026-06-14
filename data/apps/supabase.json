@@ -5,6 +5,7 @@
   "tagline": "Postgres + auth + storage + edge functions, open source.",
   "description": "A common default backend when an app needs persistence + auth + realtime. Open-source, self-hostable, very low friction to local dev with the CLI.",
   "category": "infra",
+  "secondaryCategories": ["vector-db"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

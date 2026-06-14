@@ -5,6 +5,7 @@
   "tagline": "Testing-first evaluation and monitoring for LLM and ML systems.",
   "description": "Deepchecks brings a testing-first approach to AI quality. Its open-source Python library validates ML models and data from research through production, and the LLM Evaluation product extends that into continuous validation of LLM applications — measuring quality, performance, and pitfalls across experimentation and production with CI/CD hooks. Enterprise deployment runs in VPC, on-prem, or bare metal for teams that can't use cloud-hosted eval.",
   "category": "eval",
+  "secondaryCategories": ["observability"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

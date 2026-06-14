@@ -5,6 +5,7 @@
   "tagline": "Generates conversion-focused ad creatives, video, and product shots with AI scoring.",
   "description": "AdCreative.ai generates ad banners, copy, product photography, and video ads for platforms like Google and Meta without design skills. Its Creative Scoring AI predicts which creatives will perform, and it pulls competitor and audience insights to inform generation.",
   "category": "marketing",
+  "secondaryCategories": ["design", "video"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Appier",

@@ -5,6 +5,7 @@
   "tagline": "Models, datasets, papers, spaces. The AI research commons.",
   "description": "Source-of-truth for open-weights models and datasets. Daily-paper feed for tracking research; Spaces for trying ideas without setting up infra. The default home for any model not behind a paid API.",
   "category": "research-platform",
+  "secondaryCategories": ["infra"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Hugging Face",

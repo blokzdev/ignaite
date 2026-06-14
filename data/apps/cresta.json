@@ -5,6 +5,7 @@
   "tagline": "AI agents and real-time agent assist for the contact center.",
   "description": "A contact-center AI platform that combines autonomous AI agents, real-time assistance for human agents, and analytics, coaching, and quality management. It runs omnichannel across voice and digital channels, preserving context between them, and its Agent Operations Center gives supervisors live visibility into both human and AI-led conversations. Used by enterprises including United Airlines and Cox Communications.",
   "category": "support",
+  "secondaryCategories": ["voice"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Cresta",

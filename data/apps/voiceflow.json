@@ -5,6 +5,7 @@
   "description": "Voiceflow is a no-code platform for designing, testing, and shipping chat and voice AI agents for customer support, lead generation, and beyond. A visual canvas lets designers, PMs, and developers collaborate on conversation logic, connect a knowledge base for RAG, and deploy to web widgets, phone, or any channel via API. It supports multiple model providers and scales to enterprise call and message volumes.",
   "insight": "Began in 2018 as a no-code builder for Amazon Alexa and Google Assistant skills before pivoting to general conversational AI agents.",
   "category": "agent",
+  "secondaryCategories": ["support", "voice"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Voiceflow, Inc.",

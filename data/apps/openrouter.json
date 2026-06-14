@@ -5,6 +5,7 @@
   "tagline": "One OpenAI-compatible API in front of 300+ models from every provider.",
   "description": "A unified gateway that routes a single endpoint and API key to models from Anthropic, OpenAI, Google, Meta, DeepSeek, xAI, and more — swap models by changing one parameter, with automatic fallbacks and one consolidated bill. Pass-through token pricing plus dozens of free models.",
   "category": "inference",
+  "secondaryCategories": ["orchestration"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "OpenRouter",

@@ -5,6 +5,7 @@
   "tagline": "Wrist-worn personal AI that listens to your day and remembers it for you.",
   "description": "Bee is an ambient personal-AI wearable: a $49.99 wristband (the Bee Pioneer) with dual microphones that continuously records and transcribes the conversations around you, then surfaces summaries, to-dos, reminders, and personal insights in its companion app. It connects to email and calendar so it can draft messages and create events from what it hears. The device works without a mandatory subscription; an optional premium tier unlocks advanced search and specialized agents.",
   "category": "companion",
+  "secondaryCategories": ["productivity"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Bee",

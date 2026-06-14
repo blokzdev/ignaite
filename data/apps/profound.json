@@ -5,6 +5,7 @@
   "tagline": "Answer engine optimization — see and shape how AI search talks about your brand.",
   "description": "Profound monitors how brands show up in AI-generated answers across ChatGPT, Perplexity, Gemini, Claude, Copilot, Grok, and Google AI Overviews — tracking citations, share of voice, and sentiment. Its agents then act on the gaps, drafting briefs, articles, and optimization recommendations based on what the models actually cite. Customers include Target, Walmart, Ramp, and MongoDB.",
   "category": "marketing",
+  "secondaryCategories": ["search"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Profound",

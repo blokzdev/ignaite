@@ -5,6 +5,7 @@
   "tagline": "On-device AI noise cancellation, transcription, and meeting notes.",
   "description": "Voice AI platform that removes background noise, transcribes calls, and generates meeting notes. It installs as a virtual microphone/speaker, so noise cancellation works across Zoom, Teams, Meet, and 800+ other apps without joining as a bot. Also offers accent conversion and a call-center product on the same engine.",
   "category": "audio",
+  "secondaryCategories": ["meeting", "voice"],
   "pricing": "freemium",
   "deployment": "local",
   "vendor": "Krisp",

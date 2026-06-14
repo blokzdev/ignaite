@@ -5,6 +5,7 @@
   "tagline": "Run, fine-tune, and deploy thousands of open models via one API.",
   "description": "A platform to run open-source models with one API call — image, video, audio, and language — plus fine-tuning and custom deploys with pay-per-second billing. No infra to manage.",
   "category": "inference",
+  "secondaryCategories": ["fine-tuning"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Replicate",

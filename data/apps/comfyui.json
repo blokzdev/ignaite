@@ -5,6 +5,7 @@
   "tagline": "Node-based visual AI — wire up image, video, and audio diffusion pipelines.",
   "description": "An open-source, node-graph interface for diffusion models — build precise, reproducible image/video/audio pipelines on an infinite canvas where every model and parameter is visible. Runs locally on your own GPU or as a desktop app, with thousands of community nodes.",
   "category": "image-gen",
+  "secondaryCategories": ["video"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "local",

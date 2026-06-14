@@ -5,6 +5,7 @@
   "description": "Kilo Code is an open-source AI coding agent that plans, writes, edits, and runs code inside your editor. It offers specialized modes — Code, Architect, Ask, Debug, and Orchestrator — works across VS Code, JetBrains IDEs, and the CLI, and supports 500+ models with bring-your-own-key and zero markup. A free tier plus paid cloud and team options round it out.",
   "insight": "Counts GitLab co-founder Sid Sijbrandij among its backers; the MIT-licensed agent raised an $8M seed after a March 2025 launch.",
   "category": "agent",
+  "secondaryCategories": ["ide", "orchestration"],
   "pricing": "freemium",
   "openSource": true,
   "vendor": "Kilo Code, Inc.",

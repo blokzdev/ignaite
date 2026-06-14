@@ -4,6 +4,7 @@
   "tagline": "AI workspace for tasks, projects, and multi-agent automated workflows.",
   "description": "Taskade turns prompts into apps, AI agents, and automated workflows in one workspace, blending task lists, projects, notes, and mind maps with real-time collaboration. Its AI agents handle research, writing, and reviewing with multi-agent handoffs, plus durable automations and 100+ integrations.",
   "category": "productivity",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Taskade",

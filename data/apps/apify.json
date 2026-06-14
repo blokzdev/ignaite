@@ -5,6 +5,7 @@
   "tagline": "Full-stack web scraping and browser automation platform for AI data.",
   "description": "A cloud platform for web scraping, data extraction, and browser automation built around 'Actors' — serverless programs that crawl sites and return structured data. Its store offers tens of thousands of ready-made Actors, and outputs clean Markdown or JSON that feed LLMs, vector databases, and RAG pipelines via LangChain and LlamaIndex. The company also maintains the open-source Crawlee crawling library for local development.",
   "category": "data-ops",
+  "secondaryCategories": ["automation"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Apify",

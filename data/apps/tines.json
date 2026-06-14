@@ -5,6 +5,7 @@
   "tagline": "No-code workflow automation and AI agents for security teams.",
   "description": "Tines is a no-code platform for building automated workflows that connect security and IT tools. Its Workbench chat and AI agents layer LLM reasoning onto deterministic 'stories,' so teams can automate incident response without writing code. A free Community Edition runs in the cloud; Business and Enterprise plans add self-hosting and governance controls.",
   "category": "automation",
+  "secondaryCategories": ["security"],
   "pricing": "freemium",
   "openSource": false,
   "deployment": "hybrid",

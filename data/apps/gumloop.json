@@ -5,6 +5,7 @@
   "tagline": "No-code AI workflow automation on a visual node canvas.",
   "description": "A drag-and-drop platform for building AI-powered automations as node graphs — web scraping, document parsing, image analysis, and multi-model chaining without code. Connects apps, data, and LLMs into triggered or scheduled flows. Backed by Y Combinator and a Benchmark-led Series B.",
   "category": "automation",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Gumloop",

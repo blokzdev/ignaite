@@ -5,6 +5,7 @@
   "tagline": "Google's open-source Gemini AI agent, in your terminal.",
   "description": "An open-source command-line agent that brings Gemini into the terminal for coding, debugging, content generation, and research. Ships built-in Google Search grounding, Model Context Protocol support, and project context via a GEMINI.md file, plus a non-interactive mode for scripting and CI. Free to use by signing in with a personal Google account, with paid options through AI Studio, Vertex AI, and Gemini Code Assist.",
   "category": "ide",
+  "secondaryCategories": ["agent", "mcp"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "local",

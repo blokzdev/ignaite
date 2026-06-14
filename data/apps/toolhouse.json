@@ -5,6 +5,7 @@
   "tagline": "Build and deploy AI agents as APIs, with MCP tools built in.",
   "description": "Toolhouse is a backend-as-a-service for AI agents: define an agent in plain language or code and deploy it as an API in one command. Agents connect automatically to the Toolhouse MCP server, which provides RAG, memory, code execution, browser use, and 1,000+ tool integrations over the Model Context Protocol.",
   "category": "mcp",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Toolhouse",

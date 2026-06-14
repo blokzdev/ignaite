@@ -5,6 +5,7 @@
   "tagline": "Open-source LLMOps: prompt management, evaluation, and observability.",
   "description": "An open-source platform for building and improving LLM apps. Agenta combines a prompt playground, prompt versioning, evaluation (human and LLM-as-judge), and tracing/observability in one tool. Available as managed cloud or self-hosted, so teams can keep the whole eval-and-trace loop on their own infra.",
   "category": "eval",
+  "secondaryCategories": ["observability"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

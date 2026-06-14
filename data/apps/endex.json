@@ -5,6 +5,7 @@
   "tagline": "AI financial analyst agent built natively into Excel.",
   "description": "Endex is an AI financial analyst built natively into Microsoft Excel for institutional finance teams. Its agent runs long multi-step tasks — building three-statement models, DCFs, and presentation decks — grounded in a firm's internal data, public disclosures, and trusted financial sources, with custom LLMs tuned for financial documents. It is deployed at investment banks, private-equity firms, and hedge funds, with SOC 2 and ISO 27001 compliance and zero-data-retention agreements with model providers.",
   "category": "finance",
+  "secondaryCategories": ["analytics"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Endex",

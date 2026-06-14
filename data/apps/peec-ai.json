@@ -5,6 +5,7 @@
   "description": "Peec AI is a generative engine optimization (GEO) analytics platform that tracks how brands appear across AI search engines like ChatGPT, Perplexity, and Google AI Overviews. It monitors mentions, sentiment, and the sources those engines cite, benchmarks competitors, and organizes prompts into reports so marketers can measure and improve AI-search visibility. The Berlin startup grew to 1,300+ customers and $4M+ ARR within its first year.",
   "insight": "Berlin-based, founded 2024; raised a $21M Series A led by Singular in Nov 2025, months after a seed led by Harry Stebbings' 20VC.",
   "category": "marketing",
+  "secondaryCategories": ["search"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Peec AI",

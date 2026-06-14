@@ -5,6 +5,7 @@
   "description": "micro1 is a human-data platform that uses its AI recruiter agent 'Zara' to source, interview, and vet domain experts at high velocity, then channels them into dataset creation for AI labs. The same Zara interviewer also powers a vetted-engineer and talent offering. It is positioned as a Scale AI competitor.",
   "insight": "Raised a $35M Series A led by 01 Advisors at a $500M valuation in Sept 2025; reportedly crossed $100M ARR by year-end.",
   "category": "hr",
+  "secondaryCategories": ["data-ops"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "micro1 Inc.",

@@ -5,6 +5,7 @@
   "tagline": "Headless browser infrastructure for AI agents.",
   "description": "Managed cloud fleet of headless browsers that let AI agents browse, authenticate, and act on the web at scale. Sessions ship with stealth proxies, automated CAPTCHA solving, and observability, driven via API or the open-source Stagehand framework. Usage-based billing on top of a monthly base plan.",
   "category": "infra",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Browserbase",

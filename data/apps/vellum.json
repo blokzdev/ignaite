@@ -5,6 +5,7 @@
   "tagline": "Build, evaluate, and deploy production LLM apps and agents.",
   "description": "An end-to-end development platform for building, testing, and shipping LLM applications and agents. Vellum pairs a visual drag-and-drop workflow builder with a Python SDK, and bundles prompt versioning, RAG, evaluation, and production monitoring in one place so technical and non-technical teammates can collaborate. Built-in eval and test suites let teams measure quality before and after deploy. A free tier is available; paid Pro and Enterprise plans add seats and scale.",
   "category": "eval",
+  "secondaryCategories": ["orchestration"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Vellum",

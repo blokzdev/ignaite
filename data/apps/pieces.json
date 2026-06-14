@@ -5,6 +5,7 @@
   "tagline": "On-device AI memory and copilot that recalls your work context.",
   "description": "Pieces is a developer-focused AI tool that automatically captures your work context — code snippets, docs, chats, and links — across your apps and surfaces it through a copilot. Its Long-Term Memory engine records a rolling window of activity at the OS level, enabling time-based questions about what you were doing. It runs on-device and air-gapped from the cloud by default, with optional cloud LLMs, and plugs into desktop, VS Code, JetBrains, and the browser.",
   "category": "memory",
+  "secondaryCategories": ["productivity"],
   "pricing": "freemium",
   "deployment": "local",
   "vendor": "Pieces",

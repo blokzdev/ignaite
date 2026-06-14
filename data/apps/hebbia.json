@@ -5,6 +5,7 @@
   "tagline": "Enterprise AI that analyzes vast document sets for finance and law.",
   "description": "Hebbia is an enterprise AI platform that lets analysts ask complex, multi-step questions across huge libraries of filings, transcripts, and internal documents. Its Matrix interface returns answers in a spreadsheet-style grid, with each cell traceable back to its source. It is used heavily across investment banking, private equity, and legal research.",
   "category": "finance",
+  "secondaryCategories": ["research-platform", "legal"],
   "pricing": "paid",
   "openSource": false,
   "deployment": "cloud",

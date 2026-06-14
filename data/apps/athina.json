@@ -5,6 +5,7 @@
   "tagline": "Build, test, and monitor LLM apps with evals and observability.",
   "description": "Athina AI is a collaborative platform for building, evaluating, and monitoring LLM features. It bundles prompt management, datasets, experiments, production tracing, and a library of 50+ preset and custom evaluations, with human annotation tools on top. The platform pairs with an open-source eval SDK and works with OpenAI, Azure, Bedrock, Vertex, and custom models hosted anywhere.",
   "category": "eval",
+  "secondaryCategories": ["observability"],
   "pricing": "freemium",
   "deployment": "hybrid",
   "vendor": "Athina AI",

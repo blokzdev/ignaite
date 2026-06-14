@@ -5,6 +5,7 @@
   "tagline": "Open-source MCP server giving AI clients terminal and file control.",
   "description": "Desktop Commander is an open-source Model Context Protocol server that lets MCP clients like Claude Desktop, Cursor, and VS Code run terminal commands, search the file system, and make surgical diff-based edits. It manages long-running processes, reads and writes files (including Excel and PDF), and turns an AI assistant into a hands-on coding and automation agent on your own machine. Free and MIT-licensed, with one of the larger community followings among MCP servers.",
   "category": "mcp",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "vendor": "wonderwhy-er",

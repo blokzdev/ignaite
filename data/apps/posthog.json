@@ -5,6 +5,7 @@
   "tagline": "Open-source product analytics with LLM observability built in.",
   "description": "A product analytics platform that folds session replay, feature flags, experiments, and a data warehouse into one stack. Its LLM analytics suite tracks traces, token costs, latency, and model errors for AI products, with automatic clustering that groups traces by behavior. Usage-based pricing with a generous free tier on every product.",
   "category": "analytics",
+  "secondaryCategories": ["observability"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

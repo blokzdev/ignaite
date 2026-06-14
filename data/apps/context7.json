@@ -5,6 +5,7 @@
   "tagline": "Up-to-date, version-specific library docs piped into any AI coding agent via MCP.",
   "description": "An MCP server from Upstash that pulls current, version-specific documentation and code examples for a library and feeds them straight into an LLM's context. It exposes two tools — resolve-library-id and a docs query — so agents in Cursor, Claude Code, Windsurf, and other MCP clients generate code against the real, current API.",
   "category": "mcp",
+  "secondaryCategories": ["ide"],
   "pricing": "free",
   "openSource": true,
   "vendor": "Upstash",

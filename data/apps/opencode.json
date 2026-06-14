@@ -4,6 +4,7 @@
   "tagline": "The open-source, provider-agnostic AI coding agent for your terminal, IDE, or desktop.",
   "description": "OpenCode is an open-source AI coding agent from Anomaly, the team behind SST. It runs in the terminal, a desktop app, or an IDE extension, connects to 75+ model providers through Models.dev — frontier APIs and local models alike — and stores none of your code on external servers. The optional paid Zen gateway adds a curated, benchmarked model set under one bill.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "local",

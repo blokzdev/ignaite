@@ -5,6 +5,7 @@
   "description": "An enterprise AI security platform that inventories every model, agent, MCP server, and data dependency across your stack, scans for misconfigurations and supply-chain risks, red-teams AI applications, and enforces runtime guardrails against prompt injection and rogue agent behavior. Founded in Tel Aviv in 2023, it counts UiPath, Best Buy, and Nielsen among its customers. Enterprise pricing via demo.",
   "insight": "Emerged from stealth in November 2024 and closed a $100M Series B just eight months later — $132M raised in under two years.",
   "category": "security",
+  "secondaryCategories": ["mcp"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Noma Security",

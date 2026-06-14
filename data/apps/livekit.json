@@ -5,6 +5,7 @@
   "description": "LiveKit is the realtime infrastructure layer most voice-AI stacks are built on. Its open-source Agents framework wires together streaming speech-to-text, an LLM, and text-to-speech with reliable turn detection, interruption handling, and telephony, so agents can join a session and converse in near real time. You bring your own STT, LLM, and TTS providers; LiveKit handles the low-latency WebRTC transport. It runs self-hosted under Apache 2.0 or as a managed cloud platform.",
   "insight": "OpenAI runs ChatGPT Advanced Voice on LiveKit, which reached a $1B valuation in a Jan 2026 Series C led by Index Ventures.",
   "category": "infra",
+  "secondaryCategories": ["voice", "agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

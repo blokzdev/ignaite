@@ -5,6 +5,7 @@
   "tagline": "Agentic automation. Long-running agents instead of one-shot triggers.",
   "description": "Builds AI agents that wait for emails, calendar invites, or webhooks — then take multi-step actions on your behalf. The 'agentic Zapier' pitch; strong for ops workflows that need judgement, not just routing.",
   "category": "automation",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Lindy AI",
