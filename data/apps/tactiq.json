@@ -1,0 +1,54 @@
+{
+  "slug": "tactiq",
+  "insight": "Captures meetings as a browser extension with no bot joining the call — its Chrome add-on passed 1M+ installs.",
+  "name": "Tactiq",
+  "tagline": "Bot-free AI note taker for Google Meet, Zoom, and Teams.",
+  "description": "Tactiq is a browser-based AI note taker that transcribes Google Meet, Zoom, and Microsoft Teams calls live — no recording bot joins the meeting. It generates summaries, action items, and AI insights in 60+ languages and pushes them to tools like Slack, HubSpot, and Linear.",
+  "category": "meeting",
+  "secondaryCategories": ["browser-extension"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Tactiq",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Transcription and summaries powered by OpenAI models."
+  },
+  "tags": ["meeting-notes", "transcription", "summaries", "chrome-extension", "bot-free"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://tactiq.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://tactiq.io/buy"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 698,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Runs as a browser extension that transcribes in real time without a visible recorder bot joining the call.",
+  "pros": [
+    "No recording bot joins the meeting",
+    "Works on Meet, Zoom, and Teams",
+    "60+ language transcription",
+    "Pushes notes to Slack, HubSpot, Linear",
+    "Free plan with monthly transcripts"
+  ],
+  "cons": [
+    "Free plan caps transcripts and AI credits",
+    "Browser-based capture (not a native desktop recorder)",
+    "Advanced AI gated behind paid tiers"
+  ],
+  "bestFor": ["Bot-free note-taking", "Sales calls", "Multilingual meetings"],
+  "alternatives": ["fireflies", "tldv", "otter-ai", "fathom"],
+  "references": [
+    {
+      "title": "Tactiq Review 2026: Features, Pricing, Pros & Cons",
+      "url": "https://aichief.com/ai-productivity-tools/tactiq/",
+      "kind": "review"
+    }
+  ]
+}

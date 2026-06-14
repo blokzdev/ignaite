@@ -1,0 +1,47 @@
+{
+  "slug": "kortix",
+  "insight": "Grew out of Suna, its open-source generalist agent (19k+ GitHub stars), then rebranded around an enterprise agent platform.",
+  "name": "Kortix",
+  "tagline": "Build, deploy, and govern company AI agents as code.",
+  "description": "Kortix is an open-source platform for building internal AI agents — defining their skills, tools, personas, and guardrails as code, running them in isolated sandboxes that propose work via git branches and pull requests. It ships as the open-source Suna agent plus a managed cloud, with self-host, on-prem, and air-gapped deployment options.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "openSource": true,
+  "vendor": "Kortix",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Bring your own LLM provider; works across frontier models."
+  },
+  "tags": ["ai-agents", "open-source", "self-hostable", "automation", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kortix.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/kortix-ai/suna"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 700,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Treats agents like software — version-controlled, sandboxed, and shippable self-hosted or air-gapped with no vendor lock-in.",
+  "pros": [
+    "Fully open source and self-hostable",
+    "One-command self-host plus managed cloud",
+    "Agents commit via git branches and PRs",
+    "On-prem and air-gapped deployment options",
+    "Bring your own model provider"
+  ],
+  "cons": [
+    "Self-hosting requires infra and LLM keys",
+    "Enterprise agent-as-code model has a learning curve",
+    "Managed cloud is seat plus usage priced"
+  ],
+  "bestFor": ["Internal company agents", "Self-hosted deployments", "Regulated environments"],
+  "alternatives": ["manus", "dify", "lindy", "relevance-ai"]
+}

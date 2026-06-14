@@ -1,0 +1,49 @@
+{
+  "slug": "emergent",
+  "insight": "An Indian vibe-coding startup that raised ~$100M and was valued at $300M in early 2026 after a fast climb to eight-figure ARR.",
+  "name": "Emergent",
+  "tagline": "Chat with AI agents that design, code, test, and deploy your app.",
+  "description": "Emergent is a vibe-coding platform that turns a conversation into a production-ready app — a coordinated team of AI agents designs, builds, tests, and deploys full-stack web and mobile applications from natural-language prompts. It targets small businesses and non-developers shipping software without a codebase.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Emergent",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Orchestrates multiple AI agents; frontier models under the hood."
+  },
+  "tags": ["app-builder", "vibe-coding", "full-stack", "no-code", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://emergent.sh",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 701,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Coordinates a team of specialized agents to design, code, test, and deploy in one flow — aimed at non-technical founders, not just developers.",
+  "pros": [
+    "Full app from a natural-language chat",
+    "Agents handle design, code, test, and deploy",
+    "Free tier with monthly credits",
+    "Aimed at non-developers"
+  ],
+  "cons": [
+    "Credits can run out on complex builds",
+    "Less control than hand-coding",
+    "Newer platform, smaller ecosystem"
+  ],
+  "bestFor": ["Non-technical founders", "Small business apps", "Rapid prototyping"],
+  "alternatives": ["lovable", "bolt-new", "base44", "replit"],
+  "references": [
+    {
+      "title": "Emergent triples valuation to $300M with $70M fundraise",
+      "url": "https://techcrunch.com/2026/01/20/indian-vibe-coding-startup-emergent-raises-70m-at-300m-valuation-from-softbank-khosla-ventures/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
