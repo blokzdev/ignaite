@@ -1,0 +1,65 @@
+{
+  "slug": "affine",
+  "name": "AFFiNE",
+  "tagline": "Open-source, local-first workspace for docs, whiteboards, and databases.",
+  "description": "AFFiNE is a local-first workspace that combines block-based docs, an infinite whiteboard canvas, and databases — an open-source alternative to Notion and Miro. Pages flip between document and edgeless (canvas) modes, and AFFiNE AI helps draft, summarize, and turn outlines into mind maps and slides. It runs on web, desktop, and mobile, with self-hosting available via Docker.",
+  "insight": "Built on BlockSuite, the team's own open-source block-editor framework; its built-in AI runs on Claude and Gemini.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "AFFiNE (toeverything)",
+  "platforms": ["web", "macos", "windows", "linux", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "Gemini"],
+    "notes": "Built-in AFFiNE AI uses Claude and Gemini."
+  },
+  "tags": ["knowledge-base", "whiteboard", "notes", "local-first"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://affine.pro",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/toeverything/AFFiNE"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 593,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "One canvas for docs, whiteboard, and databases — fully open-source and self-hostable, with local-first CRDT sync and offline editing.",
+  "pros": [
+    "Open-source (MIT editor), self-hostable",
+    "Docs + whiteboard + DB in one canvas",
+    "Local-first, offline-capable",
+    "Desktop, web, and mobile apps"
+  ],
+  "cons": [
+    "Self-host caps at 3 users without cloud",
+    "Databases less mature than Notion's",
+    "AI UI rough; lacks find-and-replace"
+  ],
+  "bestFor": [
+    "Data-ownership teams",
+    "Notion/Miro alternative seekers",
+    "Self-hosted knowledge bases"
+  ],
+  "alternatives": ["notion-ai", "tana", "reflect", "heptabase"],
+  "references": [
+    {
+      "title": "AFFiNE: A Self-Hosted Alternative to Notion and Miro",
+      "url": "https://betterstack.com/community/guides/linux/affine/",
+      "source": "Better Stack",
+      "kind": "guide"
+    },
+    {
+      "title": "Open-Source Notion Alternatives You Can Self-Host",
+      "url": "https://use-apify.com/blog/notion-alternatives-2026",
+      "source": "Apify",
+      "kind": "comparison"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "vast-ai",
+  "name": "Vast.ai",
+  "tagline": "GPU cloud marketplace for renting AI compute.",
+  "description": "Vast.ai is a marketplace for renting GPUs, connecting people who need AI compute with hosts who list spare hardware — from solo owners to Tier-4 data centers. Prices are set by supply and demand, billed per second, and queryable through code. It supports on-demand, interruptible (spot), and reserved instances across tens of thousands of GPUs and dozens of GPU types.",
+  "insight": "Founded in 2018, it pioneered the GPU-rental marketplace — the 'Airbnb of GPUs' — pooling spare GPUs from independent hosts worldwide.",
+  "category": "inference",
+  "pricing": "paid",
+  "vendor": "Vast.ai",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Raw GPU rental; run any framework, model, or container."
+  },
+  "tags": ["gpu", "gpu-marketplace", "cloud-compute", "spot-instances"],
+  "deployment": "cloud",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vast.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.vast.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://vast.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 592,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Marketplace pricing: independent hosts compete, so GPUs (incl. H100s) often run well below first-party clouds, with per-second billing from a $5 minimum.",
+  "pros": [
+    "Often the cheapest GPUs via marketplace",
+    "Per-second billing, $5 minimum",
+    "On-demand, spot, and reserved options",
+    "Large catalog of GPU types"
+  ],
+  "cons": [
+    "Host quality and reliability vary",
+    "Not a managed inference platform",
+    "Interruptible instances can be reclaimed"
+  ],
+  "bestFor": ["Cost-sensitive ML training", "GPU spot compute", "Researchers and indie builders"],
+  "alternatives": ["runpod", "coreweave", "lambda", "modal"],
+  "references": [
+    {
+      "title": "GPU Marketplace: Vast.ai vs Shadeform vs Prime Intellect",
+      "url": "https://aimultiple.com/gpu-marketplace",
+      "source": "AIMultiple",
+      "kind": "comparison"
+    },
+    {
+      "title": "Vast.ai Review: The GPU Marketplace That Undercuts Everyone",
+      "url": "https://chatforest.com/reviews/vastai-gpu-marketplace-spot-compute/",
+      "source": "ChatForest",
+      "kind": "review"
+    }
+  ]
+}
