@@ -1,0 +1,59 @@
+{
+  "slug": "definite",
+  "name": "Definite",
+  "tagline": "AI-native data platform: warehouse, ETL, BI, and agents in one.",
+  "description": "Definite is a data-platform-as-a-service that bundles a managed warehouse, ETL pipelines, modeling, and BI into one AI-native product. Its assistant, Fi, turns natural-language questions into SQL and builds full data apps — filters, KPIs, and tables — not just charts. It ships 500+ connectors and exposes data to external agents like Claude and Cursor over MCP.",
+  "insight": "Raised a $10M seed led by Costanoa Ventures in 2025; built on open-source DuckDB and Apache Iceberg to avoid lock-in.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Definite",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude"],
+    "notes": "Fi natural-language-to-SQL assistant; also connects external agents (Claude, Cursor) via MCP."
+  },
+  "tags": ["data-platform", "bi", "etl", "text-to-sql"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.definite.app",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.definite.app/product",
+      "label": "Product"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 586,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Collapses warehouse, ETL, and BI into one platform that spins up in minutes, instead of stitching separate tools together over months.",
+  "pros": [
+    "Warehouse, ETL, and BI in one product",
+    "Fi builds full data apps, not just charts",
+    "500+ connectors",
+    "Free tier; $250/mo Standard"
+  ],
+  "cons": [
+    "All-in-one means less best-of-breed depth",
+    "Younger platform, evolving quickly",
+    "Standard plan caps before Enterprise"
+  ],
+  "bestFor": [
+    "Startups consolidating their data stack",
+    "Fast analytics setup",
+    "Small data teams"
+  ],
+  "alternatives": ["fabi", "hex", "wren-ai", "databricks-genie"],
+  "references": [
+    {
+      "title": "Definite raises $10M seed to slash analytics setup",
+      "url": "https://techfundingnews.com/definite-raises-10m-seed-unified-data-platform/",
+      "source": "Tech Funding News",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "hyperwrite",
+  "name": "HyperWrite",
+  "tagline": "AI writing assistant with autocomplete, web research, and citations.",
+  "description": "HyperWrite is an AI writing assistant that drafts, rewrites, and autocompletes text across the web, with research and inline citations. It runs as a web app and a Chrome extension, and adds a personal-assistant agent that can carry out multi-step browser tasks. It is built by OthersideAI, one of the first companies to ship a consumer product on GPT-3.",
+  "insight": "Built by OthersideAI, founded July 2020 — among the earliest commercial products built on OpenAI's GPT-3, with roughly 2M users.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "OthersideAI",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Models abstracted from the user; has run on OpenAI and Cohere models over its history."
+  },
+  "tags": ["writing", "autocomplete", "chrome-extension", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hyperwriteai.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.hyperwriteai.com/personal-assistant",
+      "label": "Personal Assistant"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 587,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs a writing assistant with a browser agent that runs multi-step web tasks, going beyond drafting into doing the follow-up work.",
+  "pros": [
+    "Autocomplete and rewrite across any site",
+    "Web research with inline citations",
+    "Chrome extension and web app",
+    "Free tier available"
+  ],
+  "cons": [
+    "Output quality trails frontier chat assistants",
+    "Browser agent is still rough",
+    "Best features behind paid plans"
+  ],
+  "bestFor": ["Everyday writing help", "In-browser drafting", "Research with citations"],
+  "alternatives": ["rytr", "wordtune", "jenni", "grammarly"]
+}
