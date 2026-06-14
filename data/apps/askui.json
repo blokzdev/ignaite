@@ -1,0 +1,48 @@
+{
+  "slug": "askui",
+  "insight": "Founded in 2021 in Karlsruhe, Germany; backed by investors including Intel Ignite, Seedcamp, and Eurazeo.",
+  "name": "AskUI",
+  "tagline": "Vision-based agents that automate any UI across desktop, mobile, and web.",
+  "description": "AskUI builds and deploys computer-use agents that visually detect and operate on-screen elements across operating systems — desktop, mobile, web, embedded, and automotive HMIs — without relying on selectors or accessibility trees. Its AgentOS runtime and Python SDK let teams automate UI testing and workflows and route between models like Claude, Gemini, and OpenAI. It is aimed at enterprise automation and QA.",
+  "category": "automation",
+  "secondaryCategories": ["vision"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "AskUI",
+  "platforms": ["macos", "windows", "linux", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Routes between Claude, Gemini, OpenAI, and custom providers; no lock-in."
+  },
+  "tags": ["computer-use", "ui-automation", "test-automation", "vision-agents", "rpa"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.askui.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.askui.com"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 713,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Detects UI elements purely by vision — no selectors or accessibility trees — so the same agents run across desktop, mobile, web, and embedded screens.",
+  "pros": [
+    "Vision-based, no selectors needed",
+    "Cross-platform incl. embedded/HMI",
+    "Model-agnostic (Claude/Gemini/OpenAI)",
+    "Python SDK for automation and QA",
+    "Enterprise-grade deployment"
+  ],
+  "cons": [
+    "Enterprise focus, niche audience",
+    "Pricing not fully public",
+    "Smaller funding than rivals",
+    "Heavier setup than no-code RPA"
+  ],
+  "bestFor": ["UI test automation", "Computer-use agents", "Enterprise desktop automation"],
+  "alternatives": ["skyvern", "stagehand", "browse-ai", "bardeen"]
+}

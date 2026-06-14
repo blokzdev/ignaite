@@ -1,0 +1,50 @@
+{
+  "slug": "mistral-vibe",
+  "insight": "Mistral raised a €1.7B Series C in September 2025 led by ASML at a ~€11.7B valuation, with Nvidia among backers.",
+  "name": "Vibe",
+  "tagline": "Mistral's AI assistant and coding agent (formerly Le Chat).",
+  "description": "Vibe is Mistral AI's consumer assistant — renamed from Le Chat in 2026 — for chat, web search with citations, document and image analysis, image generation, and a built-in code interpreter. It now doubles as a coding agent with IDE plugins (VS Code, JetBrains, Zed) and a CLI. Free to use, with Pro, Team, and Enterprise tiers, running on Mistral's own European-built models.",
+  "category": "assistant",
+  "secondaryCategories": ["ide"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mistral AI",
+  "platforms": ["web", "ios", "android", "cli", "vscode-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Runs on Mistral's own models (Mistral Large and others); not user-configurable."
+  },
+  "accentColor": "#FA520F",
+  "tags": ["assistant", "chatbot", "coding-agent", "european-ai", "web-search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mistral.ai/products/vibe/",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://chat.mistral.ai",
+      "label": "Web app"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 710,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs an EU-built, privacy-minded assistant with Flash Answers (~1,000 words/sec) and a coding agent across web, IDE plugins, and CLI.",
+  "pros": [
+    "EU-built models and data residency",
+    "Very fast Flash Answers responses",
+    "Free tier covers most features",
+    "Doubles as an IDE/CLI coding agent",
+    "Image gen (Flux) + cited web search"
+  ],
+  "cons": [
+    "Locked to Mistral's own models",
+    "Recent Le Chat-to-Vibe rebrand churn",
+    "Smaller ecosystem than ChatGPT/Claude",
+    "Higher usage limits need paid Pro"
+  ],
+  "bestFor": ["Privacy-conscious EU users", "Fast everyday Q&A", "Mistral-stack developers"],
+  "alternatives": ["chatgpt", "claude", "gemini", "deepseek"]
+}

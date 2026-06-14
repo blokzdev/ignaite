@@ -1,0 +1,55 @@
+{
+  "slug": "subframe",
+  "insight": "Founded in 2022 in San Francisco by Filip Skrzesinski and Irvin Zhan.",
+  "name": "Subframe",
+  "tagline": "AI-native design tool that ships production React + Tailwind code.",
+  "description": "Subframe is a code-first design tool where you build interfaces from real, code-backed components on a visual canvas and export clean, production-ready React and Tailwind CSS. Designs map deterministically to code — what you draw is the code you ship — and connect to coding agents like Cursor and Claude Code via MCP. It syncs with Figma and auto-generates a custom design system.",
+  "category": "design",
+  "secondaryCategories": ["ide"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Subframe",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Built-in AI generation plus MCP hooks into agents like Cursor and Claude Code."
+  },
+  "tags": ["design-to-code", "react", "tailwind", "design-system", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.subframe.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.subframe.com"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 712,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Outputs deterministic production React/Tailwind from real components — what you design is the code you ship — and exposes designs to agents via MCP.",
+  "pros": [
+    "Deterministic, production-ready code",
+    "Designs from real coded components",
+    "MCP hooks into Cursor/Claude Code",
+    "Figma sync + auto design system",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Scoped to the React + Tailwind stack",
+    "Pro is per-editor ($29/mo)",
+    "Smaller community than Figma"
+  ],
+  "bestFor": ["Frontend developers", "Design systems", "Design-to-code workflows"],
+  "alternatives": ["onlook", "v0", "magic-patterns", "uizard"],
+  "references": [
+    {
+      "title": "Subframe: AI Design Tool With MCP for Coding Agents",
+      "url": "https://www.banani.co/blog/subframe-ai-review",
+      "source": "Banani",
+      "kind": "review"
+    }
+  ]
+}
