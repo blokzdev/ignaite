@@ -52,7 +52,7 @@ const socials: ReadonlyArray<{ href: string; label: string; paths: readonly stri
 export function SiteFooter() {
   return (
     <footer className="relative border-t border-white/[0.06] bg-[var(--color-canvas)]">
-      <div className="container-site px-6 py-12 sm:py-14">
+      <div className="container-site safe-px py-12 sm:py-14">
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
             <Link
@@ -97,7 +97,10 @@ export function SiteFooter() {
         {/* Browse — compact category mesh (top 8 by active count + the full
             index). RSC: the counts are derived at build time, zero client JS.
             Crawl path: every category page is one hop from every page. */}
-        <nav aria-label="Browse by category" className="mt-10 border-t border-white/[0.06] pt-8">
+        <nav
+          aria-label="Browse by category"
+          className="mt-10 hidden border-t border-white/[0.06] pt-8 md:block"
+        >
           <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
             Browse
           </p>

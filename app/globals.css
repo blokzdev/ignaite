@@ -59,8 +59,14 @@
     --nav-row-h: 3rem;
     /* Height of the /apps/[slug] sticky contextual toolbar. The dossier rail
        (and the #history scroll-margin) offset their sticky top from
-       min(--nav-h,--nav-row-h) + this, so they stay in lockstep if tuned. */
-    --detail-toolbar-h: 3rem;
+       min(--nav-h,--nav-row-h) + this, so they stay in lockstep if tuned.
+       3.5rem gives the 40px round controls comfortable breathing room (esp. when
+       the bar reclaims the top edge as the nav auto-hides). */
+    --detail-toolbar-h: 3.5rem;
+    /* Top safe-area inset (status bar / notch). 0 in a browser tab; non-zero in
+       standalone + on notched devices now that viewport-fit=cover is set. The top
+       chrome (nav row, detail toolbar) pads by this so icons clear the status bar. */
+    --safe-top: env(safe-area-inset-top, 0px);
   }
   @media (min-width: 40rem) {
     :root {
@@ -83,6 +89,15 @@
   html[data-route="directory"][data-nav-hidden="true"] {
     --nav-h: 6rem;
   }
+  /* On mobile app-detail pages the fixed bottom action bar (≈4.5rem + the home
+     indicator) would overlap the site footer — the footer is a sibling of <main>,
+     so the shell's own bottom padding can't reserve space for it. The action bar
+     toggles this attribute while mounted; pad the footer so its colophon clears it. */
+  @media (max-width: 39.99rem) {
+    html[data-detail-actionbar="true"] footer {
+      padding-bottom: calc(4.5rem + env(safe-area-inset-bottom) + 1rem);
+    }
+  }
 
   html {
     background-color: var(--color-canvas);
@@ -90,8 +105,19 @@
     color-scheme: dark;
     -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    /* In-page anchors clear the sticky nav (0 once the nav auto-hides). */
-    scroll-padding-top: var(--nav-h);
+    /* Reserve the scrollbar track so content doesn't shift horizontally when a
+       scrollbar appears/disappears (classic-scrollbar desktops). */
+    scrollbar-gutter: stable;
+    /* In-page anchors clear the sticky nav + the top safe-area (both 0 once the
+       nav auto-hides / in a browser tab). */
+    scroll-padding-top: calc(var(--nav-h) + var(--safe-top));
+  }
+  /* Installed-app feel: kill the page rubber-band/overscroll glow only in
+     standalone, so a browser tab keeps native pull-to-refresh + bounce. */
+  @media (display-mode: standalone) {
+    html {
+      overscroll-behavior-y: none;
+    }
   }
 
   body {

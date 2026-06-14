@@ -25,7 +25,7 @@ export function DossierRail({ app, accent }: Readonly<{ app: App; accent: string
   return (
     <aside
       aria-label="Details & links"
-      className="scrollbar-styled flex flex-col gap-5 overflow-y-auto rounded-2xl bg-white/[0.02] p-5 ring-1 ring-white/[0.08] ring-inset lg:max-h-[calc(100dvh-7rem)]"
+      className="scrollbar-styled flex flex-col gap-5 overflow-y-auto overscroll-contain rounded-2xl bg-white/[0.02] p-5 ring-1 ring-white/[0.08] ring-inset lg:max-h-[calc(100dvh-7rem)]"
     >
       {/* Links */}
       <div>

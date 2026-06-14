@@ -93,9 +93,9 @@ export function BackCrumb({ appName }: Readonly<{ appName: string }>) {
           armDirectoryRestore();
         }}
         aria-label={ariaFor(kind, label)}
-        className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+        className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/[0.04] text-[var(--color-ink-dim)] ring-1 ring-white/[0.08] transition-[color,background-color,transform] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none active:scale-95 motion-reduce:active:scale-100"
       >
-        <ArrowLeft aria-hidden className="h-3.5 w-3.5" />
+        <ArrowLeft aria-hidden className="h-4 w-4" />
       </Link>
 
       <div

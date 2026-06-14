@@ -199,7 +199,7 @@ function SearchView({
   onNavigate,
 }: Readonly<{ pathname: string; onNavigate: (href: string) => void }>) {
   return (
-    <CommandList className="animate-[overlay-in_120ms_ease-out]">
+    <CommandList className="animate-[overlay-in_120ms_ease-out] overscroll-contain">
       <CommandEmpty>No results.</CommandEmpty>
 
       {/* Apps lead the search view — when you're typing, apps are the target.

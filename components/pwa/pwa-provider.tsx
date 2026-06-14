@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { InstallPrompt } from "@/components/pwa/install-prompt";
+import { isStandalone } from "@/hooks/use-install-prompt";
 
 /**
  * Single client island that powers the PWA: registers the service worker (in
@@ -8,6 +9,17 @@ import { InstallPrompt } from "@/components/pwa/install-prompt";
  * Mounted once in the root layout.
  */
 export function PwaProvider() {
+  // Lock pinch-zoom ONLY when launched as an installed app — a browser tab keeps
+  // zoom so WCAG 1.4.4 / Lighthouse a11y stay intact (Lighthouse runs in-tab).
+  useEffect(() => {
+    if (!isStandalone()) return;
+    const meta = document.querySelector('meta[name="viewport"]');
+    const content = meta?.getAttribute("content");
+    if (meta && content && !content.includes("user-scalable")) {
+      meta.setAttribute("content", `${content}, maximum-scale=1, user-scalable=no`);
+    }
+  }, []);
+
   useEffect(() => {
     if (process.env.NODE_ENV !== "production") return;
     if (!("serviceWorker" in navigator)) return;

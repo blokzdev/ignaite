@@ -22,8 +22,8 @@ interface Props {
 // <BackCrumb>.
 export function DetailToolbar({ appName, shareUrl }: Readonly<Props>) {
   return (
-    <div className="sticky top-[min(var(--nav-h),var(--nav-row-h))] z-30 h-[var(--detail-toolbar-h)] border-b border-white/[0.06] bg-[var(--color-canvas)]/85 backdrop-blur-xl">
-      <div className="mx-auto flex h-full max-w-6xl items-center gap-3 px-6">
+    <div className="sticky top-[calc(min(var(--nav-h),var(--nav-row-h))+var(--safe-top))] z-30 h-[var(--detail-toolbar-h)] border-b border-white/[0.06] bg-[var(--color-canvas)]/85 backdrop-blur-xl">
+      <div className="safe-px mx-auto flex h-full max-w-6xl items-center gap-3">
         <BackCrumb appName={appName} />
         <CopyLinkButton url={shareUrl} iconOnly />
       </div>

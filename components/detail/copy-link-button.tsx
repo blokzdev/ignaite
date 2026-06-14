@@ -30,8 +30,8 @@ export function CopyLinkButton({ url, iconOnly, className }: Readonly<Props>) {
       onClick={copy}
       aria-label="Copy link to this page"
       className={cn(
-        "inline-flex shrink-0 items-center justify-center gap-1.5 rounded-full bg-white/[0.04] font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase ring-1 ring-white/[0.08] transition-colors ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
-        iconOnly ? "h-8 w-8" : "h-8 px-3",
+        "inline-flex shrink-0 items-center justify-center gap-1.5 rounded-full bg-white/[0.04] font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase ring-1 ring-white/[0.08] transition-[color,background-color,transform] ring-inset hover:bg-white/[0.08] hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none active:scale-95 motion-reduce:active:scale-100",
+        iconOnly ? "h-10 w-10" : "h-8 px-3",
         className,
       )}
     >

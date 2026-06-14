@@ -26,7 +26,10 @@ export function AppDetailShell({
   children,
 }: Readonly<Props>) {
   return (
-    <div className="relative pt-12 pb-28 sm:pb-24">
+    // pt = the 3rem nav-row rest height + the top safe-area inset (0 in a browser
+    // tab). --safe-top is a static env() — it never toggles on scroll, so it can
+    // join the padding without the reflow that a --nav-h-based padding would cause.
+    <div className="relative pt-[calc(3rem+var(--safe-top))] pb-28 sm:pb-24">
       <div aria-hidden className="pointer-events-none absolute inset-0 overflow-clip">
         <GlowOrb
           className="-top-24 left-1/2 -translate-x-1/2"
@@ -38,7 +41,7 @@ export function AppDetailShell({
 
       {toolbar}
 
-      <div className="relative mx-auto max-w-6xl px-6">{children}</div>
+      <div className="safe-px relative mx-auto max-w-6xl">{children}</div>
 
       {actionBar}
     </div>

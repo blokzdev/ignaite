@@ -56,7 +56,7 @@ export function SiteNav() {
   return (
     <header
       className={cn(
-        "ease-out-expo fixed inset-x-0 top-0 z-40 transition-[transform,background-color,border-color] duration-300",
+        "ease-out-expo fixed inset-x-0 top-0 z-40 pt-[var(--safe-top)] transition-[transform,background-color,border-color] duration-300",
         // Content routes slide the whole header away; the directory route keeps
         // its console pinned and only collapses the nav row (below). Reveal on
         // keyboard focus (:has(:focus-visible)) so users tabbing into a hidden
@@ -82,7 +82,7 @@ export function SiteNav() {
             "has-[:focus-visible]:max-h-[var(--nav-row-h)] has-[:focus-visible]:opacity-100",
         )}
       >
-        <nav className="container-site flex h-[var(--nav-row-h)] items-center justify-between px-6">
+        <nav className="container-site safe-px flex h-[var(--nav-row-h)] items-center justify-between">
           <Link
             href="/"
             className="group flex items-center gap-2.5"

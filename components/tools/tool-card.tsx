@@ -36,7 +36,7 @@ export function ToolCard({ app }: Readonly<Props>) {
         // cast a soft directional glow on hover (reduced-motion zeroes the move).
         isArchived
           ? "opacity-60 ring-white/[0.06]"
-          : "hover:-translate-y-1 hover:bg-[var(--color-surface)]/90 hover:shadow-[0_8px_30px_-12px_var(--color-accent)] hover:ring-[var(--color-accent)]/20",
+          : "hover:-translate-y-1 hover:bg-[var(--color-surface)]/90 hover:shadow-[0_8px_30px_-12px_var(--color-accent)] hover:ring-[var(--color-accent)]/20 active:scale-[0.99] motion-reduce:active:scale-100",
         !isArchived && NEUTRAL_RING,
       )}
     >
