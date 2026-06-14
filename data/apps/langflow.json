@@ -1,0 +1,58 @@
+{
+  "slug": "langflow",
+  "insight": "DataStax acquired Langflow in 2024; IBM then agreed to acquire DataStax in 2025, folding it into the watsonx portfolio.",
+  "name": "Langflow",
+  "tagline": "Visual low-code builder for AI agents and RAG apps.",
+  "description": "Open-source tool for prototyping and deploying agentic and RAG applications through a drag-and-drop canvas, with Python customization underneath each node. It connects major LLMs, vector databases, and tools, and can expose flows as APIs or MCP servers. Run it locally, as a desktop app, or on managed cloud.",
+  "category": "orchestration",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "DataStax",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Connects major LLM providers and vector databases via nodes."
+  },
+  "tags": ["low-code", "visual", "rag", "agents", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.langflow.org",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.langflow.org"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 612,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "A visual drag-and-drop canvas (vs code-first frameworks) for building agents and RAG, with Python under each node and self-host or cloud deployment.",
+  "pros": [
+    "Visual, low-code flow builder",
+    "Python-extensible nodes",
+    "Self-host or managed cloud",
+    "Export flows as APIs or MCP servers"
+  ],
+  "cons": [
+    "Complex flows get unwieldy visually",
+    "Less granular than pure-code frameworks",
+    "Still maturing post-acquisition"
+  ],
+  "bestFor": ["Rapid prototyping", "Visual builders", "RAG and agent demos"],
+  "alternatives": ["flowise", "dify", "n8n", "langchain"],
+  "references": [
+    {
+      "title": "Langflow, Cassandra: IBM's DataStax Buy",
+      "url": "https://thenewstack.io/ibm-to-acquire-datastax-to-boost-watsonx-ai-development/",
+      "source": "The New Stack",
+      "kind": "analysis"
+    }
+  ]
+}

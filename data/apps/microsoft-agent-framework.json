@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-agent-framework",
+  "insight": "Unifies Microsoft's earlier Semantic Kernel and AutoGen projects, which both entered maintenance mode as it superseded them.",
+  "name": "Microsoft Agent Framework",
+  "tagline": "Open SDK for production AI agents in .NET and Python.",
+  "description": "Microsoft's multi-language framework for building, orchestrating, and operating AI agents and multi-agent workflows. It offers a consistent API across C#/.NET and Python with first-class support for both, plus built-in durability, restartability, observability, and human-in-the-loop control. Provider-flexible, so the underlying models can change without rewrites.",
+  "category": "orchestration",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Microsoft",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Provider-flexible across OpenAI, Azure OpenAI, and others."
+  },
+  "tags": ["agents", "multi-agent", "dotnet", "python", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/microsoft/agent-framework"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 613,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Microsoft-backed with first-class .NET and Python parity plus built-in durability, observability, and human-in-the-loop from a single vendor.",
+  "pros": [
+    "First-class .NET and Python parity",
+    "MIT-licensed and open source",
+    "Durability and observability built in",
+    "Migration paths from SK and AutoGen"
+  ],
+  "cons": [
+    "Younger than the frameworks it replaces",
+    "Tilts toward the Azure ecosystem",
+    "Smaller community than LangChain"
+  ],
+  "bestFor": [".NET teams", "Enterprise agent systems", "Multi-agent workflows"],
+  "alternatives": ["langgraph", "crewai", "pydantic-ai", "agno"]
+}
