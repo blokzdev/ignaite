@@ -1,0 +1,49 @@
+{
+  "slug": "myscale",
+  "name": "MyScale",
+  "tagline": "SQL vector database built on ClickHouse — vector, full-text, and analytics in one query.",
+  "description": "MyScale is a SQL-native vector database built as a ClickHouse fork, so a single SQL statement can combine vector similarity search, full-text search, and standard structured/analytical queries. It is offered as a managed cloud service with a free starter pod, and its core engine, MyScaleDB, is open source. The SQL-first design lets teams join embeddings with their existing relational data without standing up a separate vector store.",
+  "insight": "MyScaleDB, its ClickHouse-fork engine, was open-sourced under Apache-2.0 in 2024, making SQL-native vector search self-hostable.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "MyScale",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["vector-database", "clickhouse", "sql", "open-source", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://myscale.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/myscale/MyScaleDB"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 683,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Built as a ClickHouse fork, so one SQL query can mix vector search, full-text search, and analytics—no separate vector store to keep in sync.",
+  "pros": [
+    "Open source (Apache-2.0), self-hostable",
+    "SQL joins vectors with structured data",
+    "Built on battle-tested ClickHouse",
+    "Free managed starter pod"
+  ],
+  "cons": [
+    "Smaller community than Pinecone/Milvus",
+    "Open-source release cadence slowed after 2024",
+    "SQL-first model has a learning curve"
+  ],
+  "bestFor": [
+    "Teams already on SQL/ClickHouse",
+    "Metadata-rich vector search",
+    "Self-hosted RAG backends"
+  ],
+  "alternatives": ["milvus", "qdrant", "weaviate", "pgvector"]
+}
