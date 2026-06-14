@@ -10,8 +10,8 @@ the human overview; the executable routines live as Claude Code commands.
 | ------------------------------------------------------------------ | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **`/add-app <name \| url \| list>`**                               | a human supplies names          | Dedup → web-research → author a schema-valid `App` entry → validate → report.                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`. Run manually it just opens the PR; the **scheduled routine is fire-and-forget — it enables auto-merge and ends, and GitHub lands the PR server-side once CI is green** (see [Scheduling](#scheduling-claude-code-routines)). |
-| **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, curates `secondaryCategories`, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR** when run unattended.                                                                                                                                                                                                                                                                |
-| **`/rotate-featured [count \| cluster]`**                          | autonomous (good for schedules) | Refreshes the homepage **Featured carousel** so it never goes stale: features one strong active app across ~14 random categories (biased away from recently-featured via `featuredAt`), rotates the prior set out, and **opens a PR**. Touches only `featured`/`featuredAt`/`accentColor` — never `changelog` (rotation is curation, not a listing change; its audit trail is `featuredAt` + the PR itself).                                                                              |
+| **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, curates `secondaryCategories`, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR + enables auto-merge** when run unattended (lands on green CI).                                                                                                                                                                                                                       |
+| **`/rotate-featured [count \| cluster]`**                          | autonomous (good for schedules) | Refreshes the homepage **Featured carousel** so it never goes stale: features one strong active app across ~14 random categories (biased away from recently-featured via `featuredAt`), rotates the prior set out, and **opens a PR (auto-merges on green CI)**. Touches only `featured`/`featuredAt`/`accentColor` — never `changelog` (rotation is curation, not a listing change; its audit trail is `featuredAt` + the PR itself).                                                    |
 
 All four are defined in `.claude/commands/` and committed to the repo, so anyone running Claude Code
 here can invoke them. They encode the same flow we run manually.
@@ -72,8 +72,9 @@ here can invoke them. They encode the same flow we run manually.
   those churn fastest.
 - **Rotate the Featured set** biweekly with `/rotate-featured` so the homepage carousel stays fresh and
   spreads the spotlight across categories over time.
-- Each run is its own small PR — easy to review, easy to revert (discovery auto-merges once CI is
-  green, but a one-listing PR stays trivial to revert).
+- Each run is its own small PR. All three scheduled routines (`/discover-apps`, `/audit-directory`,
+  `/rotate-featured`) now **auto-merge on green CI** — no babysitting — and each PR stays small and
+  trivial to `git revert` if a change ever needs undoing.
 
 ## Scheduling (Claude Code Routines)
 
@@ -83,15 +84,17 @@ The recurring routines run via Claude Code's **Routines** feature (scheduled clo
 > can't be committed here or created from inside a session. Create them yourself at
 > **[claude.ai/code/routines](https://claude.ai/code/routines)** (or run **`/schedule`**), pointed at
 > this repo. Min interval is 1 hour; pick the cadence to match the seeding stage (see _Suggested
-> cadence_). `/audit-directory` and `/rotate-featured` **open a PR for review** — never straight to
-> `main` — so you keep a human quality gate.
-> `/discover-apps` runs **fire-and-forget**: it validates locally (the strict velite gate + typecheck
->
-> - lint + build — the same checks CI runs), opens a PR, **enables squash auto-merge, and ends** — it
->   does **not** stay online to watch CI or confirm the merge. GitHub merges server-side the moment CI is
->   green and deletes the branch (the repo has auto-merge + delete-head-branch enabled), so the local
->   gate + CI are the guard rather than a human review. If CI ever fails, auto-merge simply doesn't fire
->   — the PR sits open for the next run or a human, no babysitting session required.
+> cadence_). **All three scheduled routines run fire-and-forget:** each validates locally (the strict
+> velite gate + typecheck + lint + build — the same checks CI runs), opens a PR, **enables squash
+> auto-merge, and ends** — none stays online to watch CI or confirm the merge. GitHub merges
+> server-side the moment CI is green and deletes the branch (the repo has auto-merge +
+> delete-head-branch enabled), so the local gate + CI are the guard rather than a pre-merge human
+> review; if CI ever fails, auto-merge simply doesn't fire and the PR sits open for the next run or a
+> human. `/discover-apps` is purely additive and `/rotate-featured` is reversible curation, so this is
+> low-risk; `/audit-directory` edits trusted factual data, so its guard is the routine's
+> change-only-when-the-source-contradicts discipline + a cited `changelog` entry per change + `git
+revert` (it still leaves genuinely ambiguous calls unchanged and flags them in the PR rather than
+> guessing).
 
 Create these scheduled routines and paste them as their prompts:
 
@@ -104,17 +107,22 @@ Create these scheduled routines and paste them as their prompts:
   > server-side once CI is green; if CI fails the PR just stays open for the next run. If nothing is
   > worth adding, do nothing.
 
-- **Weekly — audit existing listings**
+- **Weekly — audit existing listings** (fire-and-forget — lands automatically)
 
   > Run `/audit-directory` on the oldest-verified batch. Re-verify links, pricing, platforms, and
-  > status; fix drift; curate `secondaryCategories` (add a genuine second home, drop one that no longer
-  > fits); archive anything discontinued; bump `lastVerifiedAt`; and open a PR for review. If nothing
+  > status; fix drift (changing a field only when the source contradicts it, with a cited `changelog`
+  > entry per substantive change); curate `secondaryCategories` (add a genuine second home, drop one
+  > that no longer fits); archive anything discontinued; bump `lastVerifiedAt`; and open a PR. Then
+  > **enable squash auto-merge and END the run** — do NOT subscribe to the PR, wait for CI, sleep, or
+  > schedule a check-in. GitHub merges it server-side once CI is green; if CI fails it stays open for
+  > the next run. Leave any genuinely ambiguous call unchanged and flag it in the PR. If nothing
   > changed, do nothing.
 
-- **Biweekly — rotate the Featured set**
+- **Biweekly — rotate the Featured set** (fire-and-forget — lands automatically)
   > Run `/rotate-featured`. Refresh the homepage Featured carousel: feature one strong active app
   > across ~14 random categories (biased away from recently-featured), rotate the prior set out, and
-  > open a PR for review. If the set is already fresh, do nothing.
+  > open a PR. Then **enable squash auto-merge and END the run** — do NOT wait for CI or schedule a
+  > check-in. GitHub merges it once CI is green. If the set is already fresh, do nothing.
 
 _(Alternative: a GitHub Actions `schedule:` cron with `anthropics/claude-code-action` can do the same,
 but it spends Actions minutes + needs an `ANTHROPIC_API_KEY` secret. Routines is the cleaner native

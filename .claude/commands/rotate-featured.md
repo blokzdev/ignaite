@@ -6,9 +6,10 @@ argument-hint: [optional count or category focus, e.g. 14 or "verticals"]
 You are the **featured-rotation** routine for the Ignaite AI-apps directory (one JSON file per
 listing at `data/apps/<slug>.json`, validated by the zod schema in `lib/apps-schema.ts`). The
 homepage **Featured carousel** reads every app with `featured: true`; left untouched it goes stale.
-This routine refreshes that set on a **biweekly** cadence so discovery stays alive. It runs unattended,
-so it ends by **opening a PR for review** — never committing to `main`. **Never fabricate**: this only
-re-curates existing, already-verified listings; it does not invent apps or facts.
+This routine refreshes that set on a **biweekly** cadence so discovery stays alive. It runs unattended
+and **fire-and-forget**: it opens a PR, **enables auto-merge, and ends** — GitHub lands it server-side
+once CI is green (rotation is reversible curation, so it doesn't wait for a human review). **Never
+fabricate**: this only re-curates existing, already-verified listings; it does not invent apps or facts.
 
 Optional focus: **$ARGUMENTS** (a count override, or a cluster like `verticals`/`frontier` to bias
 category selection; otherwise pick categories at random across all clusters).
@@ -66,16 +67,21 @@ for rotation is `featuredAt` + the rotation PR itself (+ git history).
 
 - `pnpm velite` must pass — it runs `velite build --strict`, validating every JSON against the schema
   and **exiting non-zero** on any error (the `featured ⇒ accentColor` refinement included). Then
-  `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean.
+  `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean. These are the **same gates CI runs**, so a
+  clean local run means CI will pass.
 - Sanity-check the result: exactly the intended count carry `featured: true`, each across a distinct
   category, each with an `accentColor` + today's `featuredAt`.
 
-## 5. Open a PR (this is a scheduled run)
+## 5. Open a PR + hand off (fire-and-forget)
 
 - Create a branch `claude/rotate-featured-<date>`, commit, push, and open a PR into `main`. In the body,
   list the **new featured set** (slug · category) and the apps **rotated out**, note which categories
   this cycle covered (and which are still waiting their turn), and flag if the open-PR de-dup check was
-  skipped. **Do not merge.**
+  skipped. Then **enable squash auto-merge and END the run** — do **not** subscribe to the PR, watch CI,
+  sleep, or schedule a check-in. The rotation is curation-only (touches `featured`/`featuredAt`/
+  `accentColor`, fully reversible) and you already passed every CI gate locally, so GitHub merges it
+  server-side once CI is green and deletes the branch; if CI fails the PR just stays open for the next
+  run or a human.
 - If the current set is already fresh and diverse (e.g. a rotation ran very recently), it's fine to
   **do nothing** — no branch, no empty PR — and say so briefly.
 
