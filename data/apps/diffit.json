@@ -1,0 +1,55 @@
+{
+  "slug": "diffit",
+  "insight": "Founded in 2024 in Berkeley, California and backed by education investor NewSchools Venture Fund.",
+  "name": "Diffit",
+  "tagline": "AI that adapts reading materials to any level for teachers.",
+  "description": "Diffit lets teachers paste a topic, article URL, or YouTube link and instantly generates leveled reading passages with summaries, vocabulary, and comprehension and discussion questions. Outputs can be set to different reading levels and 100+ languages, then pushed straight to Google Classroom. Free for individual educators, with paid Pro and school/district plans.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Diffit",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Uses an underlying LLM to generate and level content; not user-configurable."
+  },
+  "accentColor": "#6D5BD0",
+  "tags": ["education", "teachers", "differentiation", "reading", "lesson-planning"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://web.diffit.me",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://web.diffit.me/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 711,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Purpose-built for differentiation: one click turns any text, URL, or video into the same passage at several reading levels with ready-made questions.",
+  "pros": [
+    "Free for individual educators",
+    "Levels any text/URL/YouTube fast",
+    "Auto-generates questions and vocab",
+    "Google Classroom integration",
+    "Supports 100+ languages"
+  ],
+  "cons": [
+    "Narrow scope (reading differentiation)",
+    "Unlimited use needs a paid plan",
+    "Output still needs teacher review"
+  ],
+  "bestFor": ["K-12 teachers", "Differentiated instruction", "ELL/mixed-ability classes"],
+  "alternatives": ["magicschool-ai", "brisk-teaching", "schoolai", "curipod"],
+  "references": [
+    {
+      "title": "Diffit AI for Teachers Review",
+      "url": "https://www.educatorstechnology.com/2024/11/diffit-ai-for-teachers-review.html",
+      "source": "Educators Technology",
+      "kind": "review"
+    }
+  ]
+}
