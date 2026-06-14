@@ -1,0 +1,53 @@
+{
+  "slug": "runware",
+  "insight": "Raised a $50M Series A led by Dawn Capital in December 2025, bringing total funding to about $66M.",
+  "name": "Runware",
+  "tagline": "One pay-as-you-go API for 400K+ image, video, audio, and 3D models.",
+  "description": "Runware is a unified AI inference platform that exposes 400K+ models — image, video, audio, text, and 3D — behind a single pay-as-you-go API. It runs a proprietary Sonic Inference Engine on custom GPU hardware, claiming sub-second cold starts and up to 10x lower cost per generation than typical hosted inference. A REST and WebSocket API plus a web playground let developers swap models without per-provider integrations.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Runware",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model"
+  },
+  "tags": ["inference", "api", "image-generation", "video-generation", "pay-as-you-go"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://runware.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://runware.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 659,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Custom-GPU Sonic Inference Engine with sub-second cold starts claims up to 10x lower cost per generation than typical hosted inference APIs.",
+  "pros": [
+    "400K+ models via one API",
+    "Pay-per-request, no commitments",
+    "Claims up to 10x lower cost",
+    "Sub-second cold starts",
+    "Image, video, audio, 3D, and LLMs"
+  ],
+  "cons": [
+    "Proprietary, cloud-only",
+    "Only $2 free credits to trial",
+    "Pricing varies by model/params"
+  ],
+  "bestFor": ["Generative-media apps", "Cost-sensitive inference", "Multi-modal API access"],
+  "alternatives": ["fal", "replicate", "together-ai", "openrouter"],
+  "references": [
+    {
+      "title": "Runware raises $50M Series A from Dawn Capital, Comcast Ventures",
+      "url": "https://techcrunch.com/2025/12/11/runware-raises-50m-series-a-from-dawn-capital-comcast-ventures-to-become-the-api-for-all-ai",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
