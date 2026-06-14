@@ -1,0 +1,38 @@
+{
+  "slug": "skywork",
+  "name": "Skywork",
+  "insight": "At its May 2025 launch it reported a #1 score on the GAIA agent benchmark, ahead of Manus and OpenAI Deep Research.",
+  "tagline": "An AI 'super agent' office suite that drafts docs, slides, sheets and more.",
+  "description": "Skywork is an agentic AI office suite that generates editable documents, slideshows, spreadsheets, webpages and podcasts from a prompt, backed by a deep-research pipeline. It pairs five specialized 'expert' agents — for docs, slides, sheets, podcasts and webpages — with a general agent for multimodal content. It launched globally in May 2025.",
+  "category": "agent",
+  "secondaryCategories": ["productivity"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Skywork AI",
+  "platforms": ["web"],
+  "tags": ["super-agent", "document-generation", "slides", "deep-research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://skywork.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 696,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Outputs native, editable Office files (DOCX/PPTX/XLSX) end-to-end, where most agents stop at text or markdown.",
+  "pros": [
+    "Produces editable Office-format files",
+    "Specialized agents per document type",
+    "Built-in deep research",
+    "Free daily credits to try"
+  ],
+  "cons": [
+    "Credit limits on the free tier",
+    "Output quality varies by task",
+    "Crowded agent-suite market"
+  ],
+  "bestFor": ["Knowledge workers", "Slide and report drafting", "Researchers"],
+  "alternatives": ["manus", "genspark", "gamma"]
+}
