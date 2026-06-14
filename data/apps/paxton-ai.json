@@ -1,0 +1,54 @@
+{
+  "slug": "paxton-ai",
+  "name": "Paxton AI",
+  "tagline": "All-in-one AI legal assistant for research, drafting, and document analysis.",
+  "description": "Paxton AI is a generative-AI legal assistant that helps lawyers research law, draft documents, and analyze case files. It can build medical chronologies and billing summaries, summarize depositions and discovery, and produce citation-backed legal research across US federal regulations, state laws, and case law in all 50 states. Outputs include drafted motions, contracts, and client letters generated from prompts and uploaded files.",
+  "insight": "Raised a $22M Series A in January 2025 led by Unusual Ventures, bringing total funding to about $28M.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Paxton",
+  "platforms": ["web"],
+  "tags": ["legal-research", "legal-ai", "contract-review", "document-drafting", "law"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.paxton.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.paxton.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 687,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Combines citation-backed research over all-50-states case law and federal regulations with drafting and document analysis in a single assistant.",
+  "pros": [
+    "All-50-states case law + federal regs",
+    "Research, drafting, and analysis in one tool",
+    "Citations on research output",
+    "7-day free trial"
+  ],
+  "cons": [
+    "Pricey at $499/user/month",
+    "No permanently free tier",
+    "No practice-management integrations",
+    "Users must verify citations"
+  ],
+  "bestFor": [
+    "Litigators & legal researchers",
+    "Solo & small-firm lawyers",
+    "Contract-heavy practices"
+  ],
+  "alternatives": ["harvey", "legora", "spellbook", "eve"],
+  "references": [
+    {
+      "title": "Paxton AI Review: Features, Cost, Pros & Cons",
+      "url": "https://lawyerist.com/reviews/artificial-intelligence-in-law-firms/paxton-ai-review-artificial-intelligence-for-lawyers/",
+      "source": "Lawyerist",
+      "kind": "review"
+    }
+  ]
+}

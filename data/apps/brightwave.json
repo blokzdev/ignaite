@@ -1,0 +1,49 @@
+{
+  "slug": "brightwave",
+  "name": "Brightwave",
+  "tagline": "AI agents that build analyst-grade financial research from filings, calls, and your dataroom.",
+  "description": "Brightwave is an enterprise AI research platform for finance that deploys agents to synthesize filings, earnings-call transcripts, sell-side reports, news, expert calls, and internal documents into citation-backed deliverables. Rather than answering one-off questions, it produces 'living documents' that update as new information lands. It targets hedge funds, asset managers, and deal teams, and integrates into Microsoft Office and the browser.",
+  "insight": "Raised a $15M Series A in 2024 led by Decibel Partners (total funding ~$21M); early clients managed over $120B in assets.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Brightwave",
+  "platforms": ["web"],
+  "tags": ["financial-research", "investment-research", "ai-agents", "due-diligence", "finance"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.brightwave.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 686,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Goes beyond Q&A chat to assemble living, analyst-grade research memos across filings, transcripts, and your own dataroom — every claim cited.",
+  "pros": [
+    "Living research docs, not one-off answers",
+    "Synthesizes filings, transcripts, calls, memos",
+    "Citations on outputs; no-hallucination focus",
+    "Microsoft Office + browser integrations"
+  ],
+  "cons": [
+    "No public pricing (enterprise sales)",
+    "No free tier",
+    "Finance-specific, not general research"
+  ],
+  "bestFor": [
+    "Hedge funds & asset managers",
+    "Investment research teams",
+    "Deal & diligence rooms"
+  ],
+  "alternatives": ["hebbia", "rogo", "alphasense", "fiscal-ai"],
+  "references": [
+    {
+      "title": "AI-Powered Financial Research Assistant Brightwave Raises $6M In Seed Funding",
+      "url": "https://www.wealthmanagement.com/financial-technology/ai-powered-financial-research-assistant-brightwave-raises-6m-in-seed-funding",
+      "source": "WealthManagement.com",
+      "kind": "analysis"
+    }
+  ]
+}

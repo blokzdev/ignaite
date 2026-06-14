@@ -1,0 +1,45 @@
+{
+  "slug": "maki",
+  "name": "Maki",
+  "tagline": "Conversational AI agents that source, screen, interview, and assess candidates end to end.",
+  "description": "Maki runs hiring as AI agents across five stages — intake, screening, assessment, interview, and hire recommendation — layered on top of a company's existing ATS and HRIS. Its agents interview candidates by voice, video, or text and evaluate skills using proprietary models and psychometric science. It targets high-volume, enterprise talent teams, with customers including H&M, BNP Paribas, PwC, Deloitte, and FIFA.",
+  "insight": "Founded 2022; raised a $28.6M Series A in January 2025 led by Blossom Capital, with DST Global participating.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Maki",
+  "platforms": ["web"],
+  "tags": ["recruiting", "talent-acquisition", "hiring", "ai-interviews", "hr-tech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.makipeople.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 688,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Runs the whole top-of-funnel — sourcing, screening, and voice/video/text interviews with skill assessment — as AI agents layered on your existing ATS.",
+  "pros": [
+    "Agents source, screen, and interview",
+    "Voice, video, or text interviews",
+    "Layers on existing ATS/HRIS",
+    "Audited for bias by New York State"
+  ],
+  "cons": [
+    "Enterprise-only, demo-driven pricing",
+    "No self-serve or free tier",
+    "Candidate trust in AI interviews varies"
+  ],
+  "bestFor": ["High-volume recruiters", "Enterprise talent teams", "Global hiring at scale"],
+  "alternatives": ["heymilo", "micro1", "paradox", "mercor"],
+  "references": [
+    {
+      "title": "As Gen Z job applicants balloon, companies are turning to AI agent recruiters",
+      "url": "https://techcrunch.com/2025/01/15/as-gen-z-job-applicants-balloon-companies-are-turning-to-ai-agent-recruiters/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

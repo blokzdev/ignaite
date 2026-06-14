@@ -1,0 +1,49 @@
+{
+  "slug": "quartr",
+  "name": "Quartr",
+  "tagline": "Earnings calls, transcripts, and AI chat across thousands of public companies.",
+  "description": "Quartr is a financial research platform that turns clunky investor-relations pages into a podcast-style experience — live earnings calls, searchable transcripts with text-to-audio, investor presentations, and filings across 13,000+ public companies. AI chat lets users question 50M+ documents with answers linked to the source. It ships as a free mobile app, the Quartr Pro web platform, and a real-time data API used by 700+ financial institutions and AI companies.",
+  "insight": "Began as a free consumer app surfacing earnings-call audio, then expanded into a pro research platform and a real-time data API.",
+  "category": "finance",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Quartr",
+  "platforms": ["web", "ios", "android", "api"],
+  "tags": ["earnings-calls", "investment-research", "financial-data", "transcripts", "finance"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://quartr.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://quartr.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 689,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Turns clunky IR pages into a podcast-style earnings-call app with searchable transcripts, then layers AI chat over 13,000+ companies — free on mobile.",
+  "pros": [
+    "Free iOS/Android app",
+    "13,000+ companies, 50M+ documents",
+    "Searchable transcripts + text-to-audio",
+    "AI chat with source-linked answers"
+  ],
+  "cons": [
+    "Pro and API pricing is quote-only",
+    "No stock prices or trading",
+    "Pro features gated behind paid plan"
+  ],
+  "bestFor": ["Individual investors", "Equity research analysts", "Fundamental investors"],
+  "alternatives": ["alphasense", "fiscal-ai", "daloopa", "brightwave"],
+  "references": [
+    {
+      "title": "Quartr Review: Listen to Companies' Earnings Calls Free",
+      "url": "https://www.euinvestinghub.com/articles/quartr-review",
+      "source": "EU Investing Hub",
+      "kind": "review"
+    }
+  ]
+}
