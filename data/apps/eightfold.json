@@ -1,0 +1,41 @@
+{
+  "slug": "eightfold",
+  "name": "Eightfold AI",
+  "tagline": "Talent intelligence platform for AI-driven hiring and workforce planning.",
+  "description": "Eightfold AI runs a Talent Intelligence Platform that uses deep learning to match candidates and employees to roles based on skills and potential rather than keywords. Built on a dataset of over a billion career profiles, it powers talent acquisition, internal mobility, and workforce planning, with agentic features like an AI Interviewer and an AI-native applicant tracking system.",
+  "insight": "Founded by ex-Google/Facebook engineers Ashutosh Garg and Varun Kacholia; reached a $2.1B valuation in a 2021 SoftBank-led $220M Series E.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Eightfold AI",
+  "platforms": ["web"],
+  "tags": ["talent-intelligence", "recruiting", "skills", "workforce"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://eightfold.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 646,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Models skills and adjacencies across 1B+ career profiles, surfacing non-obvious internal and external candidates that keyword-based ATS filters miss.",
+  "pros": [
+    "Huge talent dataset",
+    "Skills-based matching",
+    "Internal mobility tooling",
+    "Bias-mitigation features"
+  ],
+  "cons": ["Enterprise-only pricing", "Complex deployment", "Opaque pricing", "Overkill for SMBs"],
+  "bestFor": ["Enterprise talent acquisition", "Internal mobility", "Workforce planning"],
+  "alternatives": ["paradox", "mercor", "seekout", "juicebox"],
+  "references": [
+    {
+      "title": "AI startup Eightfold valued at $2.1B in SoftBank-led $220M funding",
+      "url": "https://techcrunch.com/2021/06/10/ai-startup-eightfold-valued-at-2-1b-in-softbank-led-220m-funding/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

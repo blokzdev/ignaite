@@ -1,0 +1,41 @@
+{
+  "slug": "regie",
+  "name": "Regie.ai",
+  "tagline": "AI sales engagement platform that automates outbound prospecting.",
+  "description": "Regie.ai is an AI-native sales engagement platform whose AI agents handle outbound prospecting — sourcing and enriching contacts, writing personalized messages, and running multichannel sequences across email, phone, and social — while human reps focus on live conversations. Its RegieOne platform unifies enrichment, a parallel dialer, sequencing, and reporting in one workflow.",
+  "insight": "Raised a $30M Series B in Feb 2025 and launched RegieOne, repositioning from an AI content tool into a full AI sales engagement platform.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Regie.ai",
+  "platforms": ["web"],
+  "tags": ["sales-engagement", "outbound", "prospecting", "sdr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.regie.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 647,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Combines autonomous prospecting agents with a built-in parallel dialer and sequencer in one platform, rather than bolting an AI SDR onto a separate SEP.",
+  "pros": [
+    "AI agents automate sourcing",
+    "Built-in parallel dialer",
+    "Multichannel sequences",
+    "Human-in-the-loop control"
+  ],
+  "cons": ["Opaque pricing", "Crowded category", "Demo-led sales", "Output needs review"],
+  "bestFor": ["Outbound SDR teams", "Pipeline generation", "GTM automation"],
+  "alternatives": ["11x", "artisan", "clay", "amplemarket"],
+  "references": [
+    {
+      "title": "Regie AI Review 2026: Worth It for Outbound Personalization?",
+      "url": "https://reply.io/blog/regie-ai-review/",
+      "source": "Reply.io",
+      "kind": "review"
+    }
+  ]
+}
