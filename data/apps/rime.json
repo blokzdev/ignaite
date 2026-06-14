@@ -1,0 +1,57 @@
+{
+  "slug": "rime",
+  "name": "Rime",
+  "tagline": "Enterprise text-to-speech built for real-time voice agents.",
+  "description": "Rime builds AI voice models for high-stakes business conversations like IVRs, contact centers, and AI phone agents. Its Arcana and Mist models target ultra-low latency and natural, conversational delivery, with deterministic pronunciation control so terms are spoken consistently without retraining. Rime can be deployed on-prem, in a VPC, or via cloud API, and is offered directly or through voice-AI partner platforms.",
+  "insight": "Open-sourced Rimecaster in 2025, billed as the first open speaker model trained on natural conversational — not audiobook — speech.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Rime",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Arcana", "Mist"],
+    "notes": "Ships its own TTS models; deploy on-prem, in a VPC, or via cloud API."
+  },
+  "tags": ["text-to-speech", "voice-ai", "tts", "contact-center", "voice-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://rime.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 666,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Sub-second, on-prem-capable TTS tuned for live phone agents, with deterministic pronunciation control built for regulated contact centers.",
+  "pros": [
+    "Very low latency for real-time voice agents",
+    "On-prem / VPC / cloud deployment",
+    "Deterministic pronunciation control",
+    "200+ voices across many accents",
+    "SOC 2 and HIPAA compliant"
+  ],
+  "cons": [
+    "Enterprise-focused, not a consumer tool",
+    "Fewer expressive/creative use cases than rivals",
+    "Smaller voice library than the largest players",
+    "Best value at contact-center scale"
+  ],
+  "bestFor": [
+    "Voice agents & IVR",
+    "Contact centers",
+    "Regulated industries",
+    "Real-time phone AI"
+  ],
+  "alternatives": ["elevenlabs", "cartesia", "deepgram", "resemble-ai"],
+  "references": [
+    {
+      "title": "Rime introduces Arcana and Rimecaster, open-source voice AI tools",
+      "url": "https://www.marktechpost.com/2025/05/14/rime-introduces-arcana-and-rimecaster-open-source-practical-voice-ai-tools-built-on-real-world-speech/",
+      "source": "MarkTechPost",
+      "kind": "analysis"
+    }
+  ]
+}

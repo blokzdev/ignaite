@@ -1,0 +1,53 @@
+{
+  "slug": "klavis-ai",
+  "name": "Klavis AI",
+  "tagline": "Open-source MCP integrations and live environments for AI agents.",
+  "description": "Klavis AI is an open-source layer of Model Context Protocol (MCP) servers and clients that lets AI agents reliably use external tools like GitHub, Gmail, Google Sheets, Jira, and Slack. It handles OAuth and multi-tenant auth, ships hosted servers plus self-hostable images, and has expanded into managed sandbox environments for training and evaluating long-horizon agents. Teams can call the hosted endpoints or run the open-source servers on their own infra.",
+  "insight": "Backed by Y Combinator (X25) and HSG (ex-Sequoia China); founded by ex-Google DeepMind and ex-Lyft engineers.",
+  "category": "mcp",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Klavis AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "MCP layer works with any agent or model that speaks the protocol."
+  },
+  "tags": ["mcp", "model-context-protocol", "integrations", "agents", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.klavis.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Klavis-AI/klavis"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 664,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Hosted, OAuth-handled MCP servers benchmarked above several official ones on tool-call accuracy — and fully self-hostable as open source.",
+  "pros": [
+    "Open-source MCP servers (5k+ GitHub stars)",
+    "Hosted, multi-tenant OAuth handled for you",
+    "Broad app catalog: GitHub, Gmail, Jira, Slack",
+    "Self-host the images or use managed cloud",
+    "SOC 2 Type II and GDPR compliant"
+  ],
+  "cons": [
+    "Younger than general agent frameworks",
+    "Hosted pricing for scale not fully transparent",
+    "MCP ecosystem still fast-moving and unstable",
+    "Focused on integrations, not a full agent runtime"
+  ],
+  "bestFor": [
+    "Agent builders",
+    "Adding tool integrations fast",
+    "Self-hosted MCP",
+    "Multi-tenant SaaS agents"
+  ],
+  "alternatives": ["composio", "smithery", "toolhouse", "glama"]
+}
