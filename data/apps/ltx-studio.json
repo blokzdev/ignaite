@@ -1,0 +1,67 @@
+{
+  "slug": "ltx-studio",
+  "name": "LTX Studio",
+  "tagline": "An AI platform for end-to-end video production.",
+  "description": "LTX Studio is Lightricks' AI filmmaking suite that turns a script or prompt into characters, storyboards, and edited video sequences. It pairs generation (text-to-video, image-to-video, video-to-video) with director-style controls — camera framing, keyframe animation, character consistency, and a timeline editor — so creators can shape a full production, not just one clip. It runs on Lightricks' own LTX models and also integrates third-party models for generation and audio.",
+  "insight": "Lightricks open-sourced its LTX-2 engine in 2025 — billed as the first complete open-weights 4K audio+video foundation model.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Lightricks",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["LTX-2", "Veo 3"],
+    "notes": "Built on Lightricks' open LTX video models; also integrates third-party models like Google Veo."
+  },
+  "tags": ["video", "text-to-video", "filmmaking", "storyboard", "lightricks"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ltx.io/studio",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Lightricks/LTX-Video"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 665,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Storyboard-to-film control — characters, camera, keyframes, and timeline editing in one place — backed by Lightricks' own open-source LTX video models.",
+  "pros": [
+    "End-to-end: script → storyboard → edited film",
+    "Camera, keyframe & character-consistency control",
+    "Built on open LTX models (open weights)",
+    "Free tier to start",
+    "Integrates third-party models like Veo"
+  ],
+  "cons": [
+    "The hosted platform itself isn't open source",
+    "Generation credits/compute can run out fast",
+    "AI video still has consistency limits",
+    "Learning curve for the full control set"
+  ],
+  "bestFor": [
+    "Filmmakers & storyboarding",
+    "Ad & marketing video",
+    "Pre-visualization",
+    "Solo creators"
+  ],
+  "alternatives": ["runway", "kling", "moonvalley", "pika"],
+  "references": [
+    {
+      "title": "Lightricks bets on open-source AI video to challenge Big Tech",
+      "url": "https://venturebeat.com/ai/exclusive-lightricks-bets-on-open-source-ai-video-to-challenge-big-tech",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Lightricks lets creators direct long-form AI-generated videos in real time",
+      "url": "https://siliconangle.com/2025/07/16/lightricks-latest-release-allows-creators-direct-longform-ai-generated-videos-real-time/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
