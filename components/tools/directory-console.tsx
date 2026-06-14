@@ -11,6 +11,7 @@ import { CATEGORY_CLUSTERS } from "@/lib/tools/category-clusters";
 import { POPULATED_CATEGORIES } from "@/lib/tools/populated-categories";
 import type { AppCategory } from "@/types/app";
 import { CATEGORY_LABEL, useDirectoryFilters } from "@/hooks/use-directory-filters";
+import { useViewMode } from "@/hooks/use-view-mode";
 import {
   DEFAULT_SORT,
   FIELD_DEFAULT,
@@ -30,6 +31,7 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { FilterControls } from "./filter-controls";
 import { FilterDrawer } from "./filter-drawer";
+import { ViewToggle } from "./view-toggle";
 import { BackToTop } from "./back-to-top";
 
 // The strip's clusters, intersected with the populated set once at module
@@ -51,6 +53,7 @@ const STRIP_CLUSTERS = CATEGORY_CLUSTERS.map((cluster) => ({
 export function DirectoryConsole() {
   const filters = useDirectoryFilters();
   const { filter, setQuery, setSort, sortMode, hasFilter, clearAll } = filters;
+  const [view, setView] = useViewMode();
 
   // Debounced search → nuqs `q` (mirrors the retired filter bar). The focus guard
   // keeps the box from being clobbered when `q` is cleared elsewhere (a removed
@@ -289,6 +292,8 @@ export function DirectoryConsole() {
               })}
             </DropdownMenuContent>
           </DropdownMenu>
+
+          <ViewToggle view={view} onChange={setView} />
 
           <div className="hidden sm:block">
             <Popover>

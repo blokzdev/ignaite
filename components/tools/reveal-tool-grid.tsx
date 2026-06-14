@@ -3,7 +3,10 @@ import { useEffect, useLayoutEffect, useRef } from "react";
 import type { App } from "@/types/app";
 import type { SponsoredSlot } from "@/types/sponsored";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
+import type { ViewMode } from "@/hooks/use-view-mode";
+import { cn } from "@/lib/utils";
 import { ToolCard } from "./tool-card";
+import { ToolRow } from "./tool-row";
 import { SponsoredCard } from "./sponsored-card";
 
 type Item = App | SponsoredSlot;
@@ -22,6 +25,8 @@ interface Props {
   /** Canonical query string for the current results. A change means the filter
    *  set was rewritten, so the whole new set should reveal (not just appends). */
   revealKey: string;
+  /** "grid" → card grid (default); "list" → condensed rows. */
+  view?: ViewMode;
 }
 
 // Client grid with a reduced-motion-safe staggered "rise" entrance. The static
@@ -31,7 +36,7 @@ interface Props {
 // infinite-scroll batch — never on the first paint (which would flash / hurt LCP).
 // Reveal state is driven imperatively from effects (no ref reads during render),
 // so React never fights the class we toggle.
-export function RevealToolGrid({ items, revealKey }: Readonly<Props>) {
+export function RevealToolGrid({ items, revealKey, view = "grid" }: Readonly<Props>) {
   const reduced = useReducedMotion();
   const gridRef = useRef<HTMLUListElement>(null);
   const observer = useRef<IntersectionObserver | null>(null);
@@ -68,9 +73,12 @@ export function RevealToolGrid({ items, revealKey }: Readonly<Props>) {
       const key = li.dataset.revealKey ?? String(idx);
       if (seen.current.has(key)) return;
       seen.current.add(key);
-      // The very first paint stays at rest (LCP-safe, no hydration flash). Cards
-      // that appear later — appended batches or a fresh filter set — rise in.
-      if (firstPaint.current) return;
+      // On the first paint, leave ABOVE-the-fold cards at rest (LCP-safe, no
+      // hydration flash) but let BELOW-the-fold ones rise as they scroll into
+      // view — so a long list (a big category, or the first batch on mobile)
+      // staggers in instead of being all-at-once. Cards that appear later
+      // (appended batches / a fresh filter set) always rise.
+      if (firstPaint.current && li.getBoundingClientRect().top < window.innerHeight) return;
       // Light per-card cascade; modulo keeps appended batches lively without an
       // ever-growing delay.
       li.style.transitionDelay = `${(idx % 6) * 40}ms`;
@@ -82,16 +90,27 @@ export function RevealToolGrid({ items, revealKey }: Readonly<Props>) {
 
   useEffect(() => () => observer.current?.disconnect(), []);
 
+  const list = view === "list";
   return (
     <ul
       ref={gridRef}
-      className="grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4"
+      className={cn(
+        list
+          ? "flex flex-col gap-2"
+          : "grid auto-rows-fr grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4",
+      )}
     >
       {items.map((item, i) => {
         const key = keyOf(item, i);
         return (
           <li key={key} data-reveal-key={key}>
-            {isSponsored(item) ? <SponsoredCard slot={item} /> : <ToolCard app={item} />}
+            {isSponsored(item) ? (
+              <SponsoredCard slot={item} />
+            ) : list ? (
+              <ToolRow app={item} />
+            ) : (
+              <ToolCard app={item} />
+            )}
           </li>
         );
       })}

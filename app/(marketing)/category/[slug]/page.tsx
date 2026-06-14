@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import { GlowOrb } from "@/components/effects/glow-orb";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ToolGrid } from "@/components/tools/tool-grid";
+import { CategoryListing } from "@/components/tools/category-listing";
 import { buildMetadata, siteUrl } from "@/lib/seo";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { CATEGORY_DESCRIPTION } from "@/lib/tools/category-meta";
@@ -16,11 +18,12 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-// 39 fully static category landing pages — the crawlable, indexable browse
-// surface per category ("AI agent tools", "vector DB apps", …). Pure RSC by
-// design: no filters/sort/infinite scroll here — the page links INTO the
-// interactive directory (/?category=…) for that. Near-zero route-specific
-// client JS (§10).
+// One static category landing page per populated category — the crawlable,
+// indexable browse surface ("AI agent tools", "vector DB apps", …). Still SSG:
+// the full app grid is server-rendered (every app stays crawlable via the
+// <Suspense> fallback), and a thin client island (<CategoryListing>) hydrates
+// over it for the grid/list view toggle + staggered reveal. No filters/sort here
+// — the page links INTO the interactive directory (/?category=…) for that.
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -110,8 +113,12 @@ export default async function CategoryPage({ params }: PageProps) {
           </Link>
         </div>
 
+        {/* SSR fallback renders the full grid (every app crawlable); the client
+            island hydrates over it to add the grid/list toggle + staggered reveal. */}
         <div className="mt-12">
-          <ToolGrid items={apps} />
+          <Suspense fallback={<ToolGrid items={apps} />}>
+            <CategoryListing apps={apps} />
+          </Suspense>
         </div>
       </div>
 
