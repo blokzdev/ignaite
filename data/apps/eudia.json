@@ -1,0 +1,53 @@
+{
+  "slug": "eudia",
+  "name": "Eudia",
+  "tagline": "Augmented-intelligence platform turning legal knowledge into enterprise AI agents.",
+  "description": "Eudia builds AI agents for in-house legal, compliance, and procurement teams, codifying a company's contracts, policies, and institutional knowledge into automated review and risk workflows. It targets Fortune 500 legal departments rather than law firms, framing AI as augmentation of human expertise. The platform launched publicly in early 2025 after roughly 18 months in stealth.",
+  "insight": "Emerged from stealth in Feb 2025 with a $105M Series A led by General Catalyst, $75M of it earmarked for acquisitions.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Eudia",
+  "platforms": ["web"],
+  "tags": ["legal-ai", "contract-review", "compliance", "legal-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://eudia.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 672,
+  "lastVerifiedAt": "2026-06-14",
+  "status": "active",
+  "edge": "Built for in-house enterprise legal teams rather than law firms, pairing AI agents with an M&A strategy that acquired a 300-person legal-services firm.",
+  "pros": [
+    "Purpose-built for in-house legal teams",
+    "Codifies company-specific knowledge",
+    "Backed by General Catalyst ($105M)",
+    "Spans legal, compliance, procurement"
+  ],
+  "cons": [
+    "Enterprise-only; no public pricing",
+    "Aimed at Fortune 500, not small firms",
+    "Young platform (public since 2025)",
+    "Demo/sales-led onboarding"
+  ],
+  "bestFor": ["In-house legal teams", "Fortune 500 enterprises", "Compliance & procurement"],
+  "alternatives": ["harvey", "legora", "norm-ai", "cocounsel"],
+  "references": [
+    {
+      "title": "Eudia Secures $105M Series A to Transform Legal Work with AI",
+      "url": "https://technews180.com/funding-news/eudia-secures-105m-in-series-a-funding/",
+      "source": "TechNews180",
+      "kind": "analysis"
+    },
+    {
+      "title": "Eudia — vendor profile",
+      "url": "https://www.legaltechnologyhub.com/vendors/eudia/",
+      "source": "Legaltech Hub",
+      "kind": "analysis"
+    }
+  ]
+}

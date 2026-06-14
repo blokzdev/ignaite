@@ -1,0 +1,48 @@
+{
+  "slug": "supio",
+  "name": "Supio",
+  "tagline": "Agentic AI for plaintiff law — intake, medical chronologies, demands, and litigation.",
+  "description": "Supio is an agentic AI platform built specifically for plaintiff-side personal injury and mass tort law firms. It automates case work across intake, medical-record chronologies, demand letters, and litigation drafting, turning large document sets into structured case files. The company partners with Thomson Reuters and is used by PI and mass tort firms nationwide.",
+  "insight": "Thomson Reuters Ventures joined its $60M Series B (2025); Supio says cases on it have supported over $1B in settlements.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Supio",
+  "platforms": ["web"],
+  "tags": ["legal-ai", "personal-injury", "litigation", "medical-records"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.supio.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 674,
+  "lastVerifiedAt": "2026-06-14",
+  "status": "active",
+  "edge": "Purpose-built for plaintiff PI and mass-tort work, automating medical chronologies and demand letters general legal AI tools don't specialize in.",
+  "pros": [
+    "Specialized for plaintiff PI/mass tort",
+    "Automates medical chronologies",
+    "Thomson Reuters partnership",
+    "$91M raised; ARR quadrupled post-Series A"
+  ],
+  "cons": ["Narrow focus on plaintiff-side firms", "No public pricing; demo-led", "US-focused"],
+  "bestFor": ["Personal injury firms", "Mass tort practices", "Plaintiff litigation"],
+  "alternatives": ["evenup", "eve", "harvey"],
+  "references": [
+    {
+      "title": "Legal Tech Startup Supio Secures $60 Million in Series B Funding",
+      "url": "https://www.lawnext.com/2025/05/legal-tech-startup-supio-secures-60-million-in-series-b-funding-to-expand-ai-platform-for-personal-injury-law.html",
+      "source": "LawSites",
+      "kind": "analysis"
+    },
+    {
+      "title": "Supio — vendor profile",
+      "url": "https://www.legaltechnologyhub.com/vendors/supio/",
+      "source": "Legaltech Hub",
+      "kind": "analysis"
+    }
+  ]
+}

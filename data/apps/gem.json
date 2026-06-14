@@ -1,0 +1,56 @@
+{
+  "slug": "gem",
+  "name": "Gem",
+  "tagline": "AI-first all-in-one recruiting platform — ATS, CRM, sourcing, and outreach.",
+  "description": "Gem is an AI-first recruiting platform that combines applicant tracking, candidate CRM, sourcing, scheduling, and analytics in one system. Its AI agents source across 800M+ profiles with natural-language queries, summarize candidates, and automate personalized outreach. It is used by over 1,200 companies including Airbnb, DoorDash, and Zillow.",
+  "insight": "Hit unicorn status with a $100M Series C in Sept 2021 led by ICONIQ at a $1.2B valuation ($148M raised total).",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Gem",
+  "platforms": ["web", "browser-extension"],
+  "tags": ["recruiting", "sourcing", "ats", "talent-crm"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.gem.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.gem.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 675,
+  "lastVerifiedAt": "2026-06-14",
+  "status": "active",
+  "edge": "Consolidates ATS, CRM, sourcing, and outreach in one AI platform, with a Chrome extension that sources from LinkedIn and 800M+ profiles.",
+  "pros": [
+    "All-in-one: ATS, CRM, sourcing, outreach",
+    "AI sourcing across 800M+ profiles",
+    "Chrome extension for LinkedIn sourcing",
+    "Used by Airbnb, DoorDash, Zillow"
+  ],
+  "cons": [
+    "No free tier; paid plans only",
+    "Custom pricing above startup tier",
+    "Geared to recruiting teams, not solos"
+  ],
+  "bestFor": ["In-house recruiting teams", "Talent sourcing", "High-volume hiring"],
+  "alternatives": ["findem", "seekout", "juicebox", "eightfold"],
+  "references": [
+    {
+      "title": "Gem Software Pricing, Alternatives & More",
+      "url": "https://www.capterra.com/p/204052/Gem/",
+      "source": "Capterra",
+      "kind": "review"
+    },
+    {
+      "title": "Gem Raises $100M Series C, Solidifies Unicorn Status",
+      "url": "https://www.builtinsf.com/articles/gem-raises-100m-series-c-recruiting-platform-unicorn",
+      "source": "Built In",
+      "kind": "analysis"
+    }
+  ]
+}
