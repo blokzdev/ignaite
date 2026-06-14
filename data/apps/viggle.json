@@ -1,0 +1,41 @@
+{
+  "slug": "viggle",
+  "insight": "Built on JST-1, a foundation model the team describes as having an actual understanding of 3D physics and motion.",
+  "name": "Viggle",
+  "tagline": "Animate any character by mapping a motion video onto a still image.",
+  "description": "Viggle is an AI video tool that brings still images to life — drop in a character photo and a motion reference clip, and it generates a video of that character performing the movement. It powers viral memes, VTubing, and previz, with web and mobile apps and a near real-time webcam-driven Live mode.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Viggle AI",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs on Viggle's own JST-1 video foundation model."
+  },
+  "tags": ["video-generation", "character-animation", "motion-transfer", "memes"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://viggle.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 699,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Specializes in controllable character motion — transfer a reference dance or action onto any image rather than prompt-to-clip generation.",
+  "pros": [
+    "Maps reference motion onto any character",
+    "Web plus iOS and Android apps",
+    "Near real-time Live webcam mode",
+    "Generous free beta access"
+  ],
+  "cons": [
+    "Narrow focus on character motion, not general video",
+    "Output quality varies with source images",
+    "Free tier subject to beta limits and queues"
+  ],
+  "bestFor": ["Meme and short-form video", "VTubing", "Character previz"],
+  "alternatives": ["runway", "pika", "kling", "hedra"]
+}
