@@ -245,7 +245,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
         </div>
 
         {/* The dossier — sticky reference sidebar (stacks after the brief < lg). */}
-        <div className="lg:sticky lg:top-[calc(min(var(--nav-h),var(--nav-row-h))_+_var(--detail-toolbar-h)_+_1rem)] lg:self-start">
+        <div className="lg:sticky lg:top-[calc(min(var(--nav-h),var(--nav-row-h))_+_var(--detail-toolbar-h)_+_var(--safe-top)_+_1rem)] lg:self-start">
           <DossierRail app={app} accent={accent} />
         </div>
       </div>

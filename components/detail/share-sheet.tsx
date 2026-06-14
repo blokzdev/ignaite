@@ -89,7 +89,7 @@ export function ShareSheet({
       </SheetTrigger>
       <SheetContent
         side="bottom"
-        className="no-scrollbar max-h-[85dvh] overflow-y-auto rounded-t-2xl pt-5 pb-[calc(1.5rem+env(safe-area-inset-bottom))]"
+        className="no-scrollbar max-h-[85dvh] overflow-y-auto overscroll-contain rounded-t-2xl pt-5 pb-[calc(1.5rem+env(safe-area-inset-bottom))]"
       >
         <SheetTitle className="px-3 font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
           Share {name}

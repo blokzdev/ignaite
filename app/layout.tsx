@@ -30,6 +30,10 @@ export const viewport: Viewport = {
   colorScheme: "dark",
   width: "device-width",
   initialScale: 1,
+  // Extend under the notch/home-indicator so `env(safe-area-inset-*)` returns
+  // real insets — without this every safe-area rule in the app resolves to 0.
+  // Pairs with the iOS `black-translucent` status bar (lib/seo.ts appleWebApp).
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

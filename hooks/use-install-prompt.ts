@@ -13,7 +13,7 @@ export type InstallMode = "install" | "ios" | null;
 const DISMISS_KEY = "ignaite:pwa-dismissed";
 const DISMISS_TTL_MS = 30 * 24 * 60 * 60 * 1000; // re-eligible after ~30 days
 
-function isStandalone(): boolean {
+export function isStandalone(): boolean {
   if (typeof window === "undefined") return false;
   return (
     window.matchMedia("(display-mode: standalone)").matches ||

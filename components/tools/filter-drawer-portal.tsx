@@ -50,7 +50,7 @@ export function FilterDrawerPortal({
             e.preventDefault();
           }
         }}
-        className="no-scrollbar max-h-[85dvh] overflow-y-auto rounded-t-2xl pt-5"
+        className="no-scrollbar max-h-[85dvh] overflow-y-auto overscroll-contain rounded-t-2xl pt-5"
       >
         <SheetTitle className="font-mono text-[11px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
           Filters
