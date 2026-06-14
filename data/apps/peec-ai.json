@@ -1,0 +1,52 @@
+{
+  "slug": "peec-ai",
+  "name": "Peec AI",
+  "tagline": "Analytics for how your brand shows up in AI search answers.",
+  "description": "Peec AI is a generative engine optimization (GEO) analytics platform that tracks how brands appear across AI search engines like ChatGPT, Perplexity, and Google AI Overviews. It monitors mentions, sentiment, and the sources those engines cite, benchmarks competitors, and organizes prompts into reports so marketers can measure and improve AI-search visibility. The Berlin startup grew to 1,300+ customers and $4M+ ARR within its first year.",
+  "insight": "Berlin-based, founded 2024; raised a $21M Series A led by Singular in Nov 2025, months after a seed led by Harry Stebbings' 20VC.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Peec AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["ChatGPT", "Perplexity", "Gemini", "Google AI Overviews"],
+    "notes": "Monitors brand presence across these AI answer engines."
+  },
+  "tags": ["geo", "ai-search-visibility", "brand-monitoring", "marketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://peec.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 640,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Surfaces not just whether AI engines mention your brand but which sources they cite — and is priced for SMB and agency teams, not just enterprise.",
+  "pros": [
+    "Tracks citations and sources",
+    "Competitor benchmarking",
+    "Fast-growing, frequent updates",
+    "Accessible to SMBs/agencies",
+    "Multi-engine coverage"
+  ],
+  "cons": [
+    "Young product (founded 2024)",
+    "GEO metrics still maturing",
+    "Reporting depth varies by plan",
+    "No on-page optimization itself"
+  ],
+  "bestFor": ["Marketing and SEO teams", "Agencies", "AI-search visibility tracking"],
+  "alternatives": ["profound", "evertune"],
+  "references": [
+    {
+      "title": "As consumers ditch Google for ChatGPT, Peec AI raises $21M",
+      "url": "https://techcrunch.com/2025/11/17/as-consumers-ditch-google-for-chatgpt-peec-ai-raises-21m-to-help-brands-adapt/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

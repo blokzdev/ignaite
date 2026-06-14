@@ -1,0 +1,47 @@
+{
+  "slug": "1mind",
+  "name": "1mind",
+  "tagline": "AI 'Superhumans' with a face and voice that sell across the funnel.",
+  "description": "1mind builds AI 'Superhumans' — digital go-to-market teammates with a photorealistic face, a voice, and deep product knowledge that engage buyers 24/7 across websites, live video calls, product tours, and deal rooms. They qualify leads, deliver demos, handle objections, and onboard customers without human handoffs. The company launched publicly in late 2025 and counts HubSpot, ZoomInfo, and Nutanix among early customers.",
+  "insight": "Founded by Amanda Kahlow, who earlier founded and led ABM pioneer 6sense; launched publicly in Nov 2025 with $40M.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "1mind AI",
+  "platforms": ["web", "api"],
+  "tags": ["ai-sales", "digital-humans", "sales-engineer", "sales"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://1mind.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 639,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Gives each AI 'Superhuman' a photorealistic face and voice that can join live video sales calls and run demos — not just text or voice chat.",
+  "pros": [
+    "Photorealistic face + voice avatars",
+    "Joins live video sales calls",
+    "Full-funnel: qualify to onboard",
+    "Founder is the 6sense creator",
+    "Named enterprise customers"
+  ],
+  "cons": [
+    "Enterprise, demo-led pricing",
+    "Very new (public Nov 2025)",
+    "Avatar realism may unsettle some",
+    "Narrow GTM focus"
+  ],
+  "bestFor": ["GTM and sales teams", "Live demo automation", "Buyer self-serve"],
+  "alternatives": ["rox", "11x", "artisan"],
+  "references": [
+    {
+      "title": "1mind Launched With $40 Million to Advance AI-Led Sales",
+      "url": "https://pulse2.com/1mind-launched-with-40-million-to-advance-ai-led-sales-with-emotionally-intelligent-digital-superhumans/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}
