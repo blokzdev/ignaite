@@ -1,0 +1,49 @@
+{
+  "slug": "outreach",
+  "name": "Outreach",
+  "tagline": "Agentic AI platform for sales and revenue teams.",
+  "description": "Outreach is a sales execution platform that automates prospecting sequences, deal management, forecasting, and rep coaching across email, phone, and LinkedIn. Its agentic layer — Outreach Omni, Agent Studio, and task-specific agents — drafts outreach, preps meetings, and flags at-risk deals. Long a category-defining sales-engagement tool for mid-market and enterprise B2B teams.",
+  "insight": "Closed a $200M Series G in 2021 at a $4.4B valuation as the sales-engagement category leader.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Outreach",
+  "platforms": ["web", "api"],
+  "tags": ["sales-engagement", "outbound", "revenue-intelligence", "ai-agents", "forecasting"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.outreach.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.outreach.io"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 652,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "The deepest sequence-and-workflow engine in sales engagement, now wrapped in agents that execute prospecting and deal tasks end to end.",
+  "pros": [
+    "Mature, deep sequencing and workflow engine",
+    "Strong forecasting and revenue intelligence",
+    "Agentic features for prospecting and prep",
+    "Broad CRM and GTM-stack integrations"
+  ],
+  "cons": [
+    "Enterprise pricing, no public/free tier",
+    "Steep setup and learning curve",
+    "Overkill for small teams"
+  ],
+  "bestFor": ["Enterprise B2B sales", "Outbound SDR teams", "RevOps"],
+  "alternatives": ["salesloft", "apollo", "amplemarket", "clay"],
+  "references": [
+    {
+      "title": "Outreach lands $200 million, pushing valuation to $4.4 billion",
+      "url": "https://www.geekwire.com/2021/outreach-lands-200-million-pushing-valuation-sales-software-startup-4-4-billion/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}
