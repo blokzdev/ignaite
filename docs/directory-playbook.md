@@ -6,12 +6,12 @@ the human overview; the executable routines live as Claude Code commands.
 
 ## The routines
 
-| Command                                                            | Driven by                       | What it does                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **`/add-app <name \| url \| list>`**                               | a human supplies names          | Dedup → web-research → author a schema-valid `App` entry → validate → report.                                                                                                                                                                                                                                                                                                                                |
-| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`. Run manually it just opens the PR; the **scheduled routine is fire-and-forget — it enables auto-merge and ends, and GitHub lands the PR server-side once CI is green** (see [Scheduling](#scheduling-claude-code-routines)).                                                          |
-| **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR** when run unattended.                                                                                                                                                                                                                  |
-| **`/rotate-featured [count \| cluster]`**                          | autonomous (good for schedules) | Refreshes the homepage **Featured carousel** so it never goes stale: features one strong active app across ~14 random categories (biased away from recently-featured via `featuredAt`), rotates the prior set out, and **opens a PR**. Touches only `featured`/`featuredAt`/`accentColor` — never `changelog` (rotation is curation, not a listing change; its audit trail is `featuredAt` + the PR itself). |
+| Command                                                            | Driven by                       | What it does                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------ | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`/add-app <name \| url \| list>`**                               | a human supplies names          | Dedup → web-research → author a schema-valid `App` entry → validate → report.                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`. Run manually it just opens the PR; the **scheduled routine is fire-and-forget — it enables auto-merge and ends, and GitHub lands the PR server-side once CI is green** (see [Scheduling](#scheduling-claude-code-routines)). |
+| **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, curates `secondaryCategories`, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR** when run unattended.                                                                                                                                                                                                                                                                |
+| **`/rotate-featured [count \| cluster]`**                          | autonomous (good for schedules) | Refreshes the homepage **Featured carousel** so it never goes stale: features one strong active app across ~14 random categories (biased away from recently-featured via `featuredAt`), rotates the prior set out, and **opens a PR**. Touches only `featured`/`featuredAt`/`accentColor` — never `changelog` (rotation is curation, not a listing change; its audit trail is `featuredAt` + the PR itself).                                                                              |
 
 All four are defined in `.claude/commands/` and committed to the repo, so anyone running Claude Code
 here can invoke them. They encode the same flow we run manually.
@@ -41,11 +41,18 @@ here can invoke them. They encode the same flow we run manually.
   the trust signal), `bestFor`, curated `alternatives` (peer slugs powering the "Alternatives to <name>"
   rail), and third-party `references` (independent coverage — verify-or-omit, never the vendor's own
   pages). Same no-fabrication bar; `/audit-directory` backfills + re-verifies these over the cycle.
+- **Listings can be multi-category.** Each carries one primary `category` (its canonical home — card
+  chip, related rail, breadcrumb, JSON-LD, sort) plus optional **`secondaryCategories`** (≤2) for genuine
+  second homes, so an app surfaces on **every** category it truly belongs to (page, filter, count,
+  sitemap). Strict bar — a real second home a user would also look under, never the primary or a
+  tag-mention; **most apps have none.** `/add-app` + `/discover-apps` set them at authoring time and
+  `/audit-directory` curates them over the cycle.
 - **`featured` is rare** — it spans two columns and enters the carousel; reserve it for true standouts.
 - **Schema is the contract** (`types/app.ts`). Required: `slug`, `name`, `tagline`, `description`,
   `category`, `pricing`, `platforms`, `links` (exactly one `primary`), `addedSeq` (the accession
   number — highest existing + 1, counting open discovery PRs; the Newest/Oldest sort orders by it,
-  and it is never reused or renumbered). Mobile apps use the `android` /
+  and it is never reused or renumbered). Optional **`secondaryCategories`** (≤2) tag additional genuine
+  homes beyond the primary `category`. Mobile apps use the `android` /
   `ios` platforms + an official `website` link (there's no store link kind).
 - **Price ≠ license ≠ hosting.** `pricing` is cost only (`free`/`freemium`/`paid`/`byo-key`);
   `openSource: true` is the separate license signal; `deployment` (`cloud`/`self-host`/`local`/
@@ -79,11 +86,12 @@ The recurring routines run via Claude Code's **Routines** feature (scheduled clo
 > cadence_). `/audit-directory` and `/rotate-featured` **open a PR for review** — never straight to
 > `main` — so you keep a human quality gate.
 > `/discover-apps` runs **fire-and-forget**: it validates locally (the strict velite gate + typecheck
-> + lint + build — the same checks CI runs), opens a PR, **enables squash auto-merge, and ends** — it
-> does **not** stay online to watch CI or confirm the merge. GitHub merges server-side the moment CI is
-> green and deletes the branch (the repo has auto-merge + delete-head-branch enabled), so the local
-> gate + CI are the guard rather than a human review. If CI ever fails, auto-merge simply doesn't fire
-> — the PR sits open for the next run or a human, no babysitting session required.
+>
+> - lint + build — the same checks CI runs), opens a PR, **enables squash auto-merge, and ends** — it
+>   does **not** stay online to watch CI or confirm the merge. GitHub merges server-side the moment CI is
+>   green and deletes the branch (the repo has auto-merge + delete-head-branch enabled), so the local
+>   gate + CI are the guard rather than a human review. If CI ever fails, auto-merge simply doesn't fire
+>   — the PR sits open for the next run or a human, no babysitting session required.
 
 Create these scheduled routines and paste them as their prompts:
 
@@ -99,8 +107,9 @@ Create these scheduled routines and paste them as their prompts:
 - **Weekly — audit existing listings**
 
   > Run `/audit-directory` on the oldest-verified batch. Re-verify links, pricing, platforms, and
-  > status; fix drift; archive anything discontinued; bump `lastVerifiedAt`; and open a PR for review.
-  > If nothing changed, do nothing.
+  > status; fix drift; curate `secondaryCategories` (add a genuine second home, drop one that no longer
+  > fits); archive anything discontinued; bump `lastVerifiedAt`; and open a PR for review. If nothing
+  > changed, do nothing.
 
 - **Biweekly — rotate the Featured set**
   > Run `/rotate-featured`. Refresh the homepage Featured carousel: feature one strong active app
