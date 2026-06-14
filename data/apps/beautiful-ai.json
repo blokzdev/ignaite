@@ -1,0 +1,58 @@
+{
+  "slug": "beautiful-ai",
+  "name": "Beautiful.ai",
+  "insight": "Founder Mitch Grasso earlier built SlideRocket, the first cloud presentation tool, acquired by VMware in 2011.",
+  "tagline": "AI presentation maker whose smart templates auto-design every slide as you add content.",
+  "description": "A web-based presentation tool that pairs generative AI with a library of \"smart\" templates: type a prompt and DesignerBot drafts a full deck, then each Smart Slide auto-adjusts its layout, spacing, and alignment as you add or remove content so the design stays consistent without manual fiddling. Includes PowerPoint import/export, brand controls for teams, and viewer analytics on shared decks.",
+  "category": "design",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Beautiful Slides, Inc.",
+  "platforms": ["web"],
+  "tags": ["presentations", "slides", "design", "decks", "pitch-deck"],
+  "accentColor": "#6C5CE7",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.beautiful.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.beautiful.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 576,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Smart Slide templates auto-adjust layout as you add content, so decks stay designed without the manual nudging a blank canvas demands.",
+  "pros": [
+    "Generates full decks from a single prompt",
+    "Smart templates keep slides on-brand",
+    "PowerPoint import and export",
+    "Viewer analytics on shared decks",
+    "Team brand and asset controls"
+  ],
+  "cons": [
+    "No permanent free tier (14-day trial)",
+    "Less creative freedom than a blank canvas",
+    "Web-only; no offline desktop app",
+    "Smaller template range than Canva"
+  ],
+  "bestFor": ["Business presentations", "Pitch decks", "Team brand decks"],
+  "alternatives": ["gamma", "napkin-ai", "canva"],
+  "references": [
+    {
+      "title": "The best AI presentation makers",
+      "url": "https://zapier.com/blog/best-ai-presentation-maker/",
+      "source": "Zapier",
+      "kind": "guide"
+    },
+    {
+      "title": "Mitch Grasso - Founder of Beautiful.AI",
+      "url": "https://ideamensch.com/mitch-grasso/",
+      "source": "IdeaMensch",
+      "kind": "interview"
+    }
+  ]
+}

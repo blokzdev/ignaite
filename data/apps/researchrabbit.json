@@ -1,0 +1,62 @@
+{
+  "slug": "researchrabbit",
+  "name": "ResearchRabbit",
+  "insight": "Commits to keeping a feature-complete tier free forever; the paid RR+ tier is purchasing-power-parity priced across 100+ countries.",
+  "tagline": "Citation-based literature mapping that visualizes how papers connect.",
+  "description": "A literature-discovery tool for researchers that maps the scholarly landscape instead of returning flat result lists. Start from one or more \"seed\" papers and it surfaces related work, citing/cited papers, and relevant authors as an interactive network — drawing on 270M+ papers — so connections appear even when articles don't cite each other directly. Collections sync to Zotero and can trigger new-paper alerts.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "ResearchRabbit",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Citation-network recommendations over 270M+ papers — a discovery graph, not an LLM chatbot."
+  },
+  "tags": ["literature-review", "research", "citations", "academia", "discovery"],
+  "accentColor": "#7C3AED",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.researchrabbit.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.researchrabbit.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 578,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Spotify-style visual citation maps from a seed paper surface related work even when papers don't cite each other directly.",
+  "pros": [
+    "Free Forever tier is genuinely usable",
+    "Visual citation and author network maps",
+    "Syncs collections to Zotero",
+    "270M+ papers indexed",
+    "No paywall to start exploring"
+  ],
+  "cons": [
+    "Not an LLM Q&A or summarizer",
+    "No full-text PDF reading or analysis",
+    "Web-only",
+    "Seed-input cap on the free tier"
+  ],
+  "bestFor": ["Literature reviews", "Discovering related work", "Grad students & researchers"],
+  "alternatives": ["elicit", "consensus", "scispace", "semantic-scholar"],
+  "references": [
+    {
+      "title": "Research Guides: ResearchRabbit",
+      "url": "https://research.lib.buffalo.edu/publication-research-help/researchrabbit",
+      "source": "Univ. at Buffalo",
+      "kind": "guide"
+    },
+    {
+      "title": "Streamlining Your Literature Review Workflow with ResearchRabbit",
+      "url": "https://www.choice360.org/libtech-insight/streamlining-your-literature-review-workflow-with-researchrabbit/",
+      "source": "Choice360",
+      "kind": "review"
+    }
+  ]
+}

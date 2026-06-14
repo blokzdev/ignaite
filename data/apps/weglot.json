@@ -1,0 +1,62 @@
+{
+  "slug": "weglot",
+  "name": "Weglot",
+  "insight": "French startup founded in Paris in 2016; raised a €45M growth round led by Partech in 2022.",
+  "tagline": "No-code website translation that drops into any CMS via one snippet.",
+  "description": "A website localization platform that translates a site into multiple languages without a developer or localization team. It integrates with Shopify, WordPress, Webflow, Squarespace, Wix, and custom builds through a single snippet, auto-detects new and updated content to translate, and handles multilingual SEO (hreflang, translated URLs). Combines neural machine translation with optional brand-tuned custom AI models and a manual-editing layer.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Weglot",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Neural machine translation with optional brand-tuned custom AI models; outputs are editable."
+  },
+  "tags": ["translation", "localization", "website", "no-code", "multilingual-seo"],
+  "accentColor": "#FF5B49",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.weglot.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.weglot.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 577,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Installs on any CMS via one snippet and auto-detects new content to translate — minimal dev work versus a full translation-management system.",
+  "pros": [
+    "Works on any CMS via one snippet",
+    "Auto-detects and translates new content",
+    "Multilingual SEO handled automatically",
+    "Free tier to start",
+    "Custom brand-tuned AI models"
+  ],
+  "cons": [
+    "Word-count pricing scales expensive",
+    "Subscription, not a one-time translation",
+    "Less control than a full TMS",
+    "Per-language tiers add up"
+  ],
+  "bestFor": ["Website localization", "Multilingual e-commerce", "No-code teams"],
+  "alternatives": ["smartling", "lokalise", "crowdin", "lilt"],
+  "references": [
+    {
+      "title": "Weglot Raises EUR 45m to Scale in SaaS Website Localization",
+      "url": "https://slator.com/weglot-raises-eur-45m-to-scale-saas-website-localization/",
+      "source": "Slator",
+      "kind": "analysis"
+    },
+    {
+      "title": "French startup Weglot raises €45 million for its web translation solution",
+      "url": "https://www.eu-startups.com/2022/03/french-startup-weglot-raises-e45-million-for-its-web-translation-solution/",
+      "source": "EU-Startups",
+      "kind": "analysis"
+    }
+  ]
+}
