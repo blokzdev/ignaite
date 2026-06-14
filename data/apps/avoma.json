@@ -5,6 +5,7 @@
   "tagline": "AI meeting assistant plus conversation and revenue intelligence for sales teams.",
   "description": "Avoma records, transcribes (75+ languages), and notes meetings with custom templates and an Ask Avoma copilot, then layers conversation intelligence with call scoring and talk-pattern analytics. Higher tiers add a scheduler, lead router, and revenue intelligence with deal-risk alerts and forecasting.",
   "category": "meeting",
+  "secondaryCategories": ["sales"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Avoma",

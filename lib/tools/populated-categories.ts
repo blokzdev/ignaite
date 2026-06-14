@@ -10,7 +10,9 @@ import { APP_CATEGORIES, type AppCategory } from "@/types/app";
 // enum, so a category added to the enum ahead of its listings — the taxonomy
 // rolls out across several PRs — never shows an empty "0" chip. The full enum
 // stays reachable via the URL (?category=…) and the ⌘K palette.
-const present = new Set<string>(appsIndex.map((a) => a.category));
+// Full membership: a category is "populated" if any app lists it as primary OR
+// secondary, so a category that lives only as a secondary still shows its chip.
+const present = new Set<string>(appsIndex.flatMap((a) => [a.category, ...a.secondaryCategories]));
 
 export const POPULATED_CATEGORIES: ReadonlyArray<AppCategory> = APP_CATEGORIES.filter((c) =>
   present.has(c),

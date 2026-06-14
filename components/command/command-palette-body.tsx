@@ -39,8 +39,10 @@ const PAGES: ReadonlyArray<{
 const TOP_CATEGORIES: ReadonlyArray<{ category: AppCategory; count: number }> = (() => {
   const counts = new Map<AppCategory, number>();
   for (const app of appsIndex) {
-    const c = app.category as AppCategory;
-    counts.set(c, (counts.get(c) ?? 0) + 1);
+    // Full membership: count an app under its primary and any secondary categories.
+    for (const c of [app.category, ...app.secondaryCategories] as AppCategory[]) {
+      counts.set(c, (counts.get(c) ?? 0) + 1);
+    }
   }
   return [...counts.entries()]
     .sort((a, b) => b[1] - a[1])
@@ -208,7 +210,12 @@ function SearchView({
           <CommandItem
             key={app.slug}
             value={`${app.name} ${app.vendor ?? ""}`}
-            keywords={[...(app.tags ?? []), app.category, app.vendor ?? ""]}
+            keywords={[
+              ...(app.tags ?? []),
+              app.category,
+              ...app.secondaryCategories,
+              app.vendor ?? "",
+            ]}
             onSelect={() => onNavigate(`/apps/${app.slug}`)}
           >
             <span className="truncate text-[var(--color-ink)]">{app.name}</span>

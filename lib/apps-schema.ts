@@ -114,6 +114,16 @@ export const appSchema = z
      *  no sharp fact verifies (coverage is intentionally partial, not universal). */
     insight: z.string().max(140, "insight must be ≤140 chars").optional(),
     category: z.enum(literals<AppCategory>(APP_CATEGORIES)),
+    /** Optional additional categories this listing GENUINELY belongs to (a real
+     *  second home, not a tangential mention). Drives full cross-category
+     *  membership — the app appears on each category's page, filter, count, and
+     *  sitemap entry — while `category` stays the single canonical home (card
+     *  chip, related rail, JSON-LD, sort). Cap 2; must not include or duplicate
+     *  the primary `category` (enforced by the refine below). */
+    secondaryCategories: z
+      .array(z.enum(literals<AppCategory>(APP_CATEGORIES)))
+      .max(2, "at most 2 secondary categories")
+      .optional(),
     /** Cost model only — license/openness is the separate `openSource` flag. */
     pricing: z.enum(literals<AppPricing>(APP_PRICING)),
     /** True when the app's source is open. Decoupled from `pricing` so an app
@@ -212,7 +222,17 @@ export const appSchema = z
   .refine((a) => !a.featured || !!a.accentColor, {
     message: "featured apps must set accentColor (it drives the carousel/hero gradient)",
     path: ["accentColor"],
-  });
+  })
+  .refine(
+    (a) => {
+      const sec = a.secondaryCategories ?? [];
+      return new Set(sec).size === sec.length && !sec.includes(a.category);
+    },
+    {
+      message: "secondaryCategories must be unique and must not include the primary category",
+      path: ["secondaryCategories"],
+    },
+  );
 
 export type App = z.infer<typeof appSchema>;
 export type AppLink = z.infer<typeof linkSchema>;

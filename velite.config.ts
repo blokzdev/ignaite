@@ -88,6 +88,9 @@ export default defineConfig({
       name: a.name,
       vendor: a.vendor,
       category: a.category,
+      // Always emit the key (empty when none) so the JSON-inferred type stays a
+      // uniform string[] for the populated-categories + palette consumers.
+      secondaryCategories: a.secondaryCategories ?? [],
       tags: a.tags,
     }));
     const dir = join(process.cwd(), ".velite");

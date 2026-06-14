@@ -5,6 +5,7 @@
   "tagline": "GTM data enrichment and AI research agents in a spreadsheet-style workflow.",
   "description": "Clay is a go-to-market platform that enriches leads from 150+ data providers via a waterfall, runs AI research agents (Claygents) to answer custom questions about each prospect, and orchestrates the results into CRM updates and outbound sequences. Teams build the logic in a familiar table interface with API and webhook hooks.",
   "category": "sales",
+  "secondaryCategories": ["data-ops"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Clay Labs, Inc.",

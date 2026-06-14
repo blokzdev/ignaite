@@ -4,6 +4,7 @@ import type { App } from "@/types/app";
 import { cn, formatDate } from "@/lib/utils";
 import { StatScroller } from "@/components/detail/stat-scroller";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
+import { appCategories } from "@/lib/tools/category-membership";
 import { categoryHref, facetHref } from "@/lib/tools/facet-links";
 import { LICENSE_LABEL, licenseSignal } from "@/lib/tools/license";
 import {
@@ -59,16 +60,27 @@ export function StatStrip({ app, accent }: Readonly<{ app: App; accent: string }
         style={{ background: `${accent}55` }}
       />
       <StatScroller>
-        <Cell label="Category">
-          {/* Category goes to its static landing page (the canonical browse
-              surface); every other facet keeps the interactive deep-link. */}
-          <Link
-            href={categoryHref(app.category)}
-            aria-label={`Category: ${CATEGORY_LABEL[app.category]} — view category page`}
-            className={cn(linkCls, TONE.ink)}
-          >
-            {CATEGORY_LABEL[app.category]}
-          </Link>
+        <Cell label={appCategories(app).length > 1 ? "Categories" : "Category"}>
+          {/* Primary category first, then any secondaries — each deep-links to
+              its static landing page (the canonical browse surface). */}
+          <span className="flex items-center gap-x-1.5 whitespace-nowrap">
+            {appCategories(app).map((c, i) => (
+              <span key={c} className="contents">
+                {i > 0 && (
+                  <span aria-hidden className="text-[var(--color-ink-dim)]/40">
+                    ·
+                  </span>
+                )}
+                <Link
+                  href={categoryHref(c)}
+                  aria-label={`Category: ${CATEGORY_LABEL[c]} — view category page`}
+                  className={cn(linkCls, TONE.ink)}
+                >
+                  {CATEGORY_LABEL[c]}
+                </Link>
+              </span>
+            ))}
+          </span>
         </Cell>
 
         <Cell label="Pricing">

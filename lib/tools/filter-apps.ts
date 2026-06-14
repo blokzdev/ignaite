@@ -1,6 +1,7 @@
 import type { App } from "@/types/app";
 import type { DirectoryFilters } from "@/hooks/use-directory-filters";
 import { licenseSignal } from "@/lib/tools/license";
+import { appCategories } from "@/lib/tools/category-membership";
 import { DEFAULT_SORT, type SortMode } from "@/lib/tools/sort";
 
 // The directory's filter state, exactly as exposed by `useDirectoryFilters`
@@ -22,7 +23,11 @@ export function matchesApp(a: App, filter: DirectoryFilter): boolean {
   const query = filter.q?.trim().toLowerCase() ?? "";
   const statusMode = filter.status ?? "active";
 
-  if (filter.category.length > 0 && !filter.category.includes(a.category)) return false;
+  // Full membership: match if ANY of the app's categories (primary or secondary)
+  // is selected — mirrors the OR-match the other multi-select facets use.
+  if (filter.category.length > 0 && !appCategories(a).some((c) => filter.category.includes(c))) {
+    return false;
+  }
   if (filter.pricing.length > 0 && !filter.pricing.includes(a.pricing)) return false;
   if (filter.deployment.length > 0) {
     if (!a.deployment || !filter.deployment.includes(a.deployment)) return false;
@@ -48,7 +53,7 @@ export function matchesApp(a: App, filter: DirectoryFilter): boolean {
       a.description,
       a.insight ?? "",
       a.vendor ?? "",
-      a.category,
+      ...appCategories(a),
       ...(a.tags ?? []),
       ...(a.modelSupport?.models ?? []),
     ]
