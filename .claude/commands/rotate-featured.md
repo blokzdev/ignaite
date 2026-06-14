@@ -13,7 +13,8 @@ re-curates existing, already-verified listings; it does not invent apps or facts
 Optional focus: **$ARGUMENTS** (a count override, or a cluster like `verticals`/`frontier` to bias
 category selection; otherwise pick categories at random across all clusters).
 
-Target set size: **14** apps (the carousel's widest responsive count), **one per category**, across
+Target set size: **14** apps (the carousel's widest responsive count), **one per category** (an app
+fills its **primary** `category`'s slot — ignore `secondaryCategories` for selection), across
 **14 distinct, randomly chosen categories** — unless `$ARGUMENTS` overrides the count.
 
 ## 1. Read the current state — on `main` **and** in open PRs
@@ -23,13 +24,13 @@ Target set size: **14** apps (the carousel's widest responsive count), **one per
 - **Fold in any open, unmerged `claude/rotate-featured-*` PR** (GitHub MCP: list open PRs → read its
   changed files) so two runs fired close together don't both rotate and collide. If you can't enumerate
   open PRs here, say so in the PR body.
-- Build the list of all 39 categories (`APP_CATEGORIES` in `types/app.ts`) and tally how many active,
+- Build the list of all 44 categories (`APP_CATEGORIES` in `types/app.ts`) and tally how many active,
   well-enriched candidates each has — you can only feature a category that has a worthy app.
 
 ## 2. Choose this cycle's categories + apps
 
 - **Pick 14 categories at random**, biased **away from** categories featured in the **last ~2 cycles**
-  (use `featuredAt` recency on their members) so coverage rotates through all 39 over ~3 cycles. Honor a
+  (use `featuredAt` recency on their members) so coverage rotates through all 44 over ~3–4 cycles. Honor a
   `$ARGUMENTS` cluster bias if given. Skip a category that has no worthy candidate (pick another) rather
   than forcing a weak one.
 - For each chosen category, select **one** app that is:
