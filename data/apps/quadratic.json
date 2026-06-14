@@ -4,6 +4,7 @@
   "tagline": "An AI spreadsheet where cells run Python, SQL, and JavaScript against live data connections.",
   "description": "Quadratic is a from-scratch spreadsheet built on Rust, WASM, and WebGL that pairs AI analysis with real code: cells can execute Python, SQL, and JavaScript, and connect to 25+ sources like Postgres, Snowflake, BigQuery, and QuickBooks. Ask questions in natural language and get working formulas, code, and charts back in the grid.",
   "category": "analytics",
+  "secondaryCategories": ["productivity"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Quadratic",

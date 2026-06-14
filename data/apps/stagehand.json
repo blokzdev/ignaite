@@ -5,6 +5,7 @@
   "tagline": "Open-source SDK for building reliable AI browser agents.",
   "description": "Stagehand is an open-source (MIT) SDK from Browserbase for building browser agents in TypeScript or Python. It exposes act(), extract(), and observe() primitives so you can drive a page with natural language while keeping deterministic code wherever you need it. v3 dropped its hard Playwright dependency for a modular Chrome DevTools Protocol driver.",
   "category": "automation",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "vendor": "Browserbase",

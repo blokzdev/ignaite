@@ -5,6 +5,7 @@
   "description": "SuperAnnotate is an enterprise data platform for creating, managing, and evaluating high-quality datasets for AI. It spans annotation across images, video, text, audio, and LiDAR, with AI-assisted labeling, customizable workflows, and an optional managed annotation workforce. Teams use it to build human-in-the-loop data and evaluation pipelines for agentic, multimodal, and frontier AI.",
   "insight": "Its $50M Series B drew NVIDIA, Databricks, and Dell Technologies Capital; the company was founded in Armenia.",
   "category": "data-ops",
+  "secondaryCategories": ["eval"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "SuperAnnotate AI",

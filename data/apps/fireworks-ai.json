@@ -5,6 +5,7 @@
   "tagline": "Fast inference + fine-tuning. Production deployments at scale.",
   "description": "Optimized inference platform for open-weights models with strong latency numbers and serverless + dedicated deployment options. Fine-tuning supported; vision and audio models alongside text.",
   "category": "inference",
+  "secondaryCategories": ["fine-tuning"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Fireworks AI",

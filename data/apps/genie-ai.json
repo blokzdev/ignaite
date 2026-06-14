@@ -5,6 +5,7 @@
   "description": "Genie AI is a legal AI platform for drafting, reviewing, editing, and negotiating business contracts. It can generate personalized, jurisdiction-aware agreements — up to 50+ pages — in minutes, flag risks in existing documents, and learn an organization's standards and playbooks to keep edits on-policy. London-based, it offers a free tier plus paid Pro, Business, and Enterprise plans for in-house legal teams and firms.",
   "insight": "Raised a $17.8M Series A in Oct 2024 led by Google Ventures, with Khosla Ventures — Genie's first institutional round.",
   "category": "legal",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Genie AI Ltd.",

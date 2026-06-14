@@ -5,6 +5,7 @@
   "tagline": "An AI medical scribe and care partner with a free tier for individual clinicians.",
   "description": "Heidi is an AI clinical assistant that transcribes consults and generates notes, letters, and forms for clinicians, with clinical decision support via its Evidence feature and a wearable Heidi Remote microphone for hands-free capture. It supports over two million consults a week in 110 languages, used by GPs, specialists, nurses, and allied health globally. A free tier covers core scribing; paid plans unlock advanced features and team controls.",
   "category": "healthcare",
+  "secondaryCategories": ["meeting"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Heidi Health",

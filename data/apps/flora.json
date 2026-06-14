@@ -5,6 +5,7 @@
   "tagline": "Node-based creative canvas chaining 50+ AI models into team workflows.",
   "description": "An infinite-canvas creative environment where designers chain image, video, and text models into reusable node-based workflows. One subscription covers 50+ models — Veo, FLUX, Kling, Nano Banana, GPT, and more — and the built-in FAUNA agent helps assemble and iterate on pipelines. Pitched at professional teams who want repeatable, taste-driven output instead of one-off prompting.",
   "category": "design",
+  "secondaryCategories": ["video"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "FLORA",

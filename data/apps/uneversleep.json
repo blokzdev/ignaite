@@ -4,6 +4,7 @@
   "tagline": "Auto-responds to matching Upwork jobs with AI-written proposals within minutes.",
   "description": "U Never Sleep filters Upwork job postings against your budget, keyword, and client-history criteria, then generates and submits a personalized proposal within minutes of a job going live. It tracks proposals, open rates, and responses in a dashboard and ships a free Chrome extension that scores your Upwork profile.",
   "category": "marketing",
+  "secondaryCategories": ["sales"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Hi No Code Inc.",

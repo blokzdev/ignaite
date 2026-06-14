@@ -5,6 +5,7 @@
   "tagline": "Evaluation and observability for GenAI apps and agents, with inline guardrails.",
   "description": "A platform for testing, monitoring, and guardrailing LLM and agent applications. It ships 20+ out-of-the-box evals for RAG, agents, and safety, lets teams author custom evaluators, and turns those offline evals into real-time production guardrails powered by its own Luna eval models.",
   "category": "observability",
+  "secondaryCategories": ["eval", "security"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Galileo",

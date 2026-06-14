@@ -5,6 +5,7 @@
   "tagline": "Fine-tune open-source LLMs and serve them in production.",
   "description": "Predibase is an enterprise platform for fine-tuning open-source models and serving them in production. It pairs a post-training stack — supervised fine-tuning plus an end-to-end reinforcement fine-tuning (RFT) flow — with an optimized inference engine, and its open-source LoRAX framework serves many fine-tuned LoRA adapters from a single GPU. Runs as managed SaaS or inside your own VPC.",
   "category": "fine-tuning",
+  "secondaryCategories": ["inference"],
   "pricing": "paid",
   "deployment": "hybrid",
   "vendor": "Predibase (Rubrik)",

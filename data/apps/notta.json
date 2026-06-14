@@ -5,6 +5,7 @@
   "tagline": "Japanese-first AI transcription and meeting notes across web, mobile, and Chrome.",
   "description": "An AI transcription platform from Tokyo-based Notta Inc. that captures live meetings, uploaded recordings, and in-person conversations, then produces summaries and action items. It is strongest in Japanese — the market it was built for — with support for dozens of other languages, real-time translation, and capture via web, mobile apps, and a Chrome extension. A free tier exists but caps recording length per session.",
   "category": "meeting",
+  "secondaryCategories": ["translation"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Notta Inc.",

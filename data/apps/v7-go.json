@@ -5,6 +5,7 @@
   "tagline": "Agentic AI that automates document-heavy knowledge work and data extraction.",
   "description": "An operational AI platform from V7 Labs that builds and runs agents over complex documents — extracting financial, legal, and commercial terms, completing DDQs, and generating memos with source traceability. It chains foundation models from OpenAI, Anthropic, and Google into multi-step, auditable workflows aimed at finance, insurance, legal, and real-estate teams.",
   "category": "data-ops",
+  "secondaryCategories": ["agent"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "V7 Labs",

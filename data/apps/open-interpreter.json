@@ -5,6 +5,7 @@
   "tagline": "Natural-language interface that lets LLMs run code locally in your terminal.",
   "description": "Gives LLMs a ChatGPT-like terminal interface to write and execute Python, JavaScript, Shell, and more on your own machine, asking approval before each run. It works with hosted models or fully local models via Ollama, LM Studio, or Jan using a --local flag. Free and open source under AGPL-3.0; you supply your own model (API key or local).",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "byo-key",
   "openSource": true,
   "deployment": "local",

@@ -5,6 +5,7 @@
   "tagline": "Agentic development environment born out of the terminal.",
   "description": "A modern terminal and agent platform — multi-agent orchestration, codebase indexing, a built-in editor (Warp Code), and granular permission controls for running coding agents. Adds the Oz cloud layer for remote agent execution and team knowledge via Warp Drive. Free tier with monthly AI credits; paid Build/Max/Business plans add more credits and BYOK.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "local",
   "vendor": "Warp",

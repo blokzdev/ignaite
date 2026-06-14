@@ -5,6 +5,7 @@
   "tagline": "Turn your text into editable diagrams, infographics, and visuals.",
   "description": "A visual AI for business storytelling that converts written text — prose, outlines, notes — into editable diagrams, flowcharts, mind maps, and infographics in seconds. Generates multiple visual options from a passage, then lets you tweak icons, connectors, colors, and fonts and export to PNG, PDF, or SVG for decks, blogs, and docs.",
   "category": "design",
+  "secondaryCategories": ["productivity"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Napkin AI",

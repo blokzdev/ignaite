@@ -5,6 +5,7 @@
   "description": "PolyAI's Agentic Dialog Platform builds voice agents that resolve customer service calls for large enterprises in banking, healthcare, hospitality, telecom, and retail. Agent Studio gives non-technical teams a no-code builder while the ADK exposes developer APIs, with SOC 2, HIPAA, GDPR, and PCI DSS compliance built in. Its proprietary Raven model is trained on over a billion enterprise conversations.",
   "insight": "Spun out of Cambridge's Machine Intelligence Lab in 2017; a Dec 2025 Series D valued it at $750M, with Nvidia's NVentures backing.",
   "category": "voice",
+  "secondaryCategories": ["support"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "PolyAI",

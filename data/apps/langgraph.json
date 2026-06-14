@@ -5,6 +5,7 @@
   "tagline": "Graph-based agent orchestration. Stateful loops with checkpoints.",
   "description": "LangChain's agent layer. Model agents as nodes in a state graph with persistent checkpoints, human-in-the-loop steps, and durable execution. Strong when you need a long-running, debuggable agent rather than a one-shot chain.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "vendor": "LangChain",

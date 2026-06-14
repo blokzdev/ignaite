@@ -5,6 +5,7 @@
   "description": "Lightly is a computer-vision data platform that helps teams curate the most informative samples from large image and video datasets using embeddings, active learning, and near-duplicate detection. Its suite spans LightlyStudio (curation and labeling), LightlyTrain (self-supervised pretraining and fine-tuning of vision models), and LightlyEdge (smart data selection on devices). The aim is to cut labeling cost by training on the data that actually improves models.",
   "insight": "Grew out of LightlySSL, the team's open-source self-supervised-learning framework for computer vision.",
   "category": "vision",
+  "secondaryCategories": ["data-ops"],
   "pricing": "paid",
   "deployment": "hybrid",
   "vendor": "Lightly",

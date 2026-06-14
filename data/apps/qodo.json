@@ -5,6 +5,7 @@
   "tagline": "AI code review and test generation across IDE, PRs, and CLI.",
   "description": "Qodo (formerly CodiumAI) is a code-quality platform that runs AI review on pull requests, generates tests, and assists inside the editor. Its multi-agent reviewer pulls context from the codebase and PR history across GitHub, GitLab, Bitbucket, and Azure DevOps, with VS Code and JetBrains plugins plus a CLI so issues surface before merge.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Qodo",

@@ -5,6 +5,7 @@
   "description": "Topview is an AI video workspace for marketers and ecommerce brands: paste an Amazon, Shopify, or TikTok product link and it assembles complete video ads with AI avatars that can hold or wear the product. A database of 10M+ high-performing ads powers its recreator tool, and Topview 4.0 turns the editor into a collaborative, multiplayer content workspace.",
   "insight": "Kamet Capital led its two-part $14M Series A (completed Feb 2026); it claims 5M users generating 500K+ videos a day.",
   "category": "marketing",
+  "secondaryCategories": ["video"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Topview",

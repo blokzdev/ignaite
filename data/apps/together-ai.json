@@ -5,6 +5,7 @@
   "tagline": "Fine-tuning + inference for open-weights models. Broad coverage.",
   "description": "Hosted inference and fine-tuning across hundreds of open-weights models (Llama, Mistral, DeepSeek, Qwen, etc.). Strong pricing for inference-at-scale; LoRA + full fine-tuning supported.",
   "category": "inference",
+  "secondaryCategories": ["fine-tuning"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Together",

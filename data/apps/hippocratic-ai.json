@@ -5,6 +5,7 @@
   "tagline": "Safety-focused generative AI healthcare agents for patient-facing, non-diagnostic tasks.",
   "description": "Hippocratic AI builds voice-based generative AI 'healthcare agents' for health systems, payors, and pharma to handle patient-facing tasks like post-discharge check-ins and chronic-care follow-up. By design its agents do not diagnose or prescribe, and it targets enterprise healthcare deployments rather than consumers.",
   "category": "healthcare",
+  "secondaryCategories": ["voice"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Hippocratic AI",

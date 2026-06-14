@@ -5,6 +5,7 @@
   "description": "Grain records, transcribes, and summarizes video calls and in-person meetings, then surfaces action items and drafts follow-ups. Its signature feature is turning any moment of a transcript into a shareable video clip, with playlists and stories for organizing key calls. It also enriches CRM records and adds deal insights for revenue teams.",
   "insight": "Founded in 2018 atop Zoom for clipping call highlights; its $16M Series A in 2022 was led by Tiger Global, with Zoom itself investing.",
   "category": "meeting",
+  "secondaryCategories": ["sales"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Grain",

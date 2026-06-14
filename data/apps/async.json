@@ -5,6 +5,7 @@
   "description": "Async is a browser-based creative studio for recording, editing, and producing podcasts and video, with studio-quality remote recording, text-based editing, AI enhancement, and multilingual dubbing. Its Revoice feature clones a voice from a short sample to fix mistakes without re-recording, and a developer Voice API exposes its 1,000+ AI voices. It was known as Podcastle until a 2026 rebrand.",
   "insight": "Launched in 2020 as a Chrome extension that turned articles into podcasts; rebranded from Podcastle to Async in January 2026.",
   "category": "audio",
+  "secondaryCategories": ["voice"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Async",

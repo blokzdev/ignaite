@@ -5,6 +5,7 @@
   "tagline": "Full-stack AI platform for computer vision and LLMs.",
   "description": "Clarifai is a full-stack AI platform for building with unstructured image, video, text, and audio data. It pairs production computer-vision models — classification, detection, visual search — with a model hub for LLMs, plus data labeling, training of custom models, and inference, all behind one API and console. A free Community tier lets you discover and run models before moving to paid usage plans.",
   "category": "vision",
+  "secondaryCategories": ["data-ops", "inference"],
   "pricing": "freemium",
   "deployment": "hybrid",
   "vendor": "Clarifai",

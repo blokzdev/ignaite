@@ -5,6 +5,7 @@
   "tagline": "Open-source memory for AI agents.",
   "description": "An open-source semantic memory layer for AI agents. Cognee ingests documents, relational data, and system context, then runs an Extract-Cognify-Load pipeline that uses an LLM to build a knowledge graph with embeddings and relationships. Agents query it for durable, cross-session context that captures how concepts connect. Self-host the Python SDK for free, or use the managed cloud tiers.",
   "category": "memory",
+  "secondaryCategories": ["vector-db"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

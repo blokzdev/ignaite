@@ -5,6 +5,7 @@
   "tagline": "All-in-one private AI app for chatting with your documents, with agents.",
   "description": "An all-in-one application for private, ChatGPT-style chat over your own documents, with built-in RAG, AI agents, and multi-user workspaces. Runs as a local desktop app (Mac/Windows/Linux) or self-hosted via Docker, and supports 40+ LLM providers plus local models with your own keys. Open source under MIT; Mintplex Labs also offers a paid hosted instance, making it freemium.",
   "category": "assistant",
+  "secondaryCategories": ["agent", "search"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

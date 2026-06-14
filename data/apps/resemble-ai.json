@@ -5,6 +5,7 @@
   "tagline": "Voice cloning, audio watermarking, and deepfake detection in one platform.",
   "description": "Resemble AI spans both sides of synthetic voice: generating it and policing it. The platform offers voice cloning and text-to-speech built on its Chatterbox models, real-time audio watermarking, and Detect, a multimodal deepfake detector covering audio, image, and video. It deploys in the cloud or fully on-premises for regulated environments.",
   "category": "voice",
+  "secondaryCategories": ["security"],
   "pricing": "freemium",
   "deployment": "hybrid",
   "vendor": "Resemble AI",

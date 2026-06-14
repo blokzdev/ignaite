@@ -5,6 +5,7 @@
   "tagline": "Visually build AI agents and LLM workflows — drag-and-drop, self-hosted.",
   "description": "A low-code visual builder for AI agents, chatflows, and multi-agent systems on a drag-and-drop canvas. It self-hosts locally through npm or Docker, or deploys to major clouds, and is provider-agnostic across many LLMs via its node ecosystem. The core is Apache-2.0; a managed Flowise Cloud tier exists, making it freemium.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

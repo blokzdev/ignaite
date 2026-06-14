@@ -5,6 +5,7 @@
   "tagline": "AI medical scribe that turns patient visits into clinical notes and pushes them to EHRs.",
   "description": "Freed is an AI medical scribe for clinicians: it listens to patient visits and produces complete, specialty-templated clinical notes within moments of the encounter. Higher tiers add EHR push integration, visit-prep summaries, referral letters, and ICD-10/CPT coding. It is HIPAA-compliant and SOC 2 Type II certified, and does not store patient recordings.",
   "category": "healthcare",
+  "secondaryCategories": ["voice"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Freed",

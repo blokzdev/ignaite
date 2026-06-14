@@ -5,6 +5,7 @@
   "tagline": "Tracing and evaluation for LLM apps, from Weights & Biases.",
   "description": "An observability and evaluation toolkit for generative-AI applications. A single @weave.op decorator traces every model call — capturing inputs, outputs, latency, token cost, and errors — and the same SDK builds rigorous evaluations using LLM-as-judge and custom scorers. Traces and experiments are organized in the Weights & Biases web platform for side-by-side comparison across prompts and models.",
   "category": "observability",
+  "secondaryCategories": ["eval"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

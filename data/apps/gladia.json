@@ -5,6 +5,7 @@
   "tagline": "Real-time speech-to-text and audio intelligence through a single API.",
   "description": "End-to-end audio infrastructure to record, transcribe, and enrich speech via one API — real-time streaming under ~300ms latency, batch transcription, diarization, translation, and summarization across 100+ languages. Reengineered Whisper for production before shipping its own Solaria models, with EU data residency for compliance-bound teams.",
   "category": "voice",
+  "secondaryCategories": ["audio"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Gladia",

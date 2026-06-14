@@ -5,6 +5,7 @@
   "tagline": "B2B support platform unifying Slack, email, and in-app channels with AI agents.",
   "description": "A support platform built specifically for B2B companies, unifying shared Slack and Teams channels, email, in-app chat, and community into one workspace for support, success, and engineering teams. AI agents draft and resolve responses grounded in your knowledge base, with ticketing, SLAs, and a customer portal layered on top. Plans start at $59 per seat per month with a three-seat minimum.",
   "category": "support",
+  "secondaryCategories": ["automation"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Pylon",

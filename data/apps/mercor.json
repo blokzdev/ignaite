@@ -5,6 +5,7 @@
   "description": "Mercor runs an AI-powered talent marketplace that matches vetted experts — engineers, scientists, doctors, and lawyers — with AI labs and companies, largely to generate and review training and reinforcement data. AI conducts the initial screening interview, then humans are placed on hourly paid work. It began as an AI recruiting tool and became a leading supplier of 'human data' for frontier-model training.",
   "insight": "Raised a $350M Series C led by Felicis at a $10B valuation in Oct 2025 — 5x its $2B round eight months earlier.",
   "category": "hr",
+  "secondaryCategories": ["data-ops"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Mercor",

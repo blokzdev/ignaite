@@ -5,6 +5,7 @@
   "tagline": "The observability and evaluation layer for production AI agents.",
   "description": "A platform that unifies monitoring and testing for LLM apps and agents into one improvement loop: distributed tracing, online evaluations and alerts, offline experiments, annotation queues for expert feedback, and CI/CD-integrated regression testing. Built OpenTelemetry-native with support for 100+ models and agent frameworks. The free Developer tier covers small teams; Enterprise adds scale, self-host, and compliance.",
   "category": "eval",
+  "secondaryCategories": ["observability"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "HoneyHive",

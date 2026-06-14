@@ -5,6 +5,7 @@
   "tagline": "Free AI-native IDE with an autonomous build mode.",
   "description": "VS Code-based AI IDE from ByteDance whose Builder/SOLO agent plans tasks, edits across files, runs commands, and previews results. Bundles access to frontier models like Claude, GPT, Gemini, and DeepSeek without requiring your own API key, on free and paid usage tiers.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "local",
   "vendor": "ByteDance",

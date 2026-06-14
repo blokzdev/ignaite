@@ -5,6 +5,7 @@
   "tagline": "Go-to-market AI platform for sales and marketing workflows.",
   "description": "Copy.ai started as an AI copywriting assistant and now positions itself as a go-to-market (GTM) AI platform, consolidating sales, marketing, and operations work into reusable workflows. It combines a chat interface, a workflow builder, brand-voice controls, and a company knowledge base so teams can automate prospecting, content, and pipeline tasks.",
   "category": "marketing",
+  "secondaryCategories": ["sales"],
   "pricing": "paid",
   "vendor": "CopyAI, Inc",
   "deployment": "cloud",

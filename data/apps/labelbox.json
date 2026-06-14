@@ -5,6 +5,7 @@
   "description": "Labelbox is a platform for generating and managing training data for AI models, combining annotation tools (Annotate), data curation (Catalog), and model-assisted labeling and evaluation (Model Foundry). It now spans reinforcement-learning data, custom evals, robotics datasets, and an on-demand network of expert human labelers, metered by a usage-based Labelbox Unit (LBU).",
   "insight": "Raised a $110M Series D led by SoftBank Vision Fund 2 in 2022 (~$189M raised total); founded in 2018 by Manu Sharma.",
   "category": "data-ops",
+  "secondaryCategories": ["eval"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Labelbox",

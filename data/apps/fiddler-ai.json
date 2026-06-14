@@ -5,6 +5,7 @@
   "tagline": "AI observability and security platform for LLM apps, agents, and ML models.",
   "description": "An enterprise platform to monitor, analyze, and safeguard generative AI and ML in production. The Fiddler Trust Service scores prompts and responses for hallucination, toxicity, PII leakage, and prompt-injection, with low-latency guardrails plus real-time alerting and root-cause analysis. Originally an explainable-AI and model-monitoring pioneer, now spanning LLM and agent observability.",
   "category": "observability",
+  "secondaryCategories": ["security"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Fiddler AI",

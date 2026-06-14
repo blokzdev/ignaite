@@ -5,6 +5,7 @@
   "tagline": "Open-source autonomous coding agent inside VS Code.",
   "description": "VS Code extension that turns the editor into an agentic coder with real file-system access, terminal control, and multi-step task execution. It ships role-specific modes — Architect, Code, Ask, Debug, Test — each with its own prompt and tool permissions, and can hand off between them mid-task. Model-agnostic: connect any provider key, from frontier APIs to a local model, and pay only for your own token usage.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "freemium",
   "openSource": true,
   "vendor": "Roo Code",

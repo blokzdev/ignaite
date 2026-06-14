@@ -5,6 +5,7 @@
   "tagline": "Prompt-to-UI generator from Vercel. Outputs React + Tailwind + shadcn.",
   "description": "Vercel's generative UI surface. Type a description, get a working React component using Tailwind and shadcn primitives — copy the code or fork into a v0 project for iteration.",
   "category": "agent",
+  "secondaryCategories": ["design"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Vercel",

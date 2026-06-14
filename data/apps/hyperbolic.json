@@ -5,6 +5,7 @@
   "tagline": "Open-access AI cloud: serverless inference + a GPU marketplace.",
   "description": "An AI cloud offering serverless inference for open models (Llama, Qwen, DeepSeek, SDXL, Flux) behind an OpenAI-compatible API, alongside an on-demand GPU marketplace for H100/H200 rentals. It aggregates idle and reserved compute to price inference and GPU hours below centralized clouds. Aimed at developers training, fine-tuning, and serving open-weights models.",
   "category": "inference",
+  "secondaryCategories": ["infra"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Hyperbolic",

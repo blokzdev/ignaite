@@ -5,6 +5,7 @@
   "tagline": "Privacy-first AI coding assistant you control — completions, chat, and agents.",
   "description": "An AI coding assistant built for enterprise control, offering completions, chat, and agentic workflows across all major IDEs. It never trains on or retains your code, and can be deployed as SaaS, in a VPC, on-premises, or fully air-gapped. Supports access to major LLMs plus bring-your-own and private models.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "paid",
   "deployment": "hybrid",
   "vendor": "Tabnine",

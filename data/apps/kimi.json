@@ -5,6 +5,7 @@
   "tagline": "Moonshot's assistant — long-context chat, deep research, and agents.",
   "description": "Moonshot AI's assistant — long-context chat, Deep Research, and an agent mode (Kimi Code, parallel subagents). Built on the open-weight Kimi K2 model family.",
   "category": "assistant",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Moonshot AI",

@@ -5,6 +5,7 @@
   "tagline": "Multilingual AI search that turns answers into slides and mind maps.",
   "description": "An AI search and answer engine built around multilingual research — it searches across 25+ languages and synthesizes cited answers. Beyond text, Felo can generate editable presentations (AI PPT), mind maps, and agent workflows from a single query, making it a research-to-output tool rather than a pure search box.",
   "category": "search",
+  "secondaryCategories": ["productivity"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Felo Inc.",

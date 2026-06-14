@@ -5,6 +5,7 @@
   "tagline": "Enterprise voice AI platform for automated phone calls.",
   "description": "An enterprise platform for building AI agents that handle inbound and outbound phone calls 24/7 with natural, real-time conversation. Bland bundles the language model, speech-to-text, text-to-speech, and telephony into a single per-minute rate, and integrates with tools like Twilio, Salesforce, HubSpot, and Zapier. Build agents in a web dashboard or via a REST API; a free tier lets you start before moving to usage-based paid tiers.",
   "category": "voice",
+  "secondaryCategories": ["support"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Bland",

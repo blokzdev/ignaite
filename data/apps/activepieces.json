@@ -5,6 +5,7 @@
   "tagline": "Open-source, AI-first workflow automation — a self-hostable Zapier alternative.",
   "description": "A no-code automation platform with a visual drag-and-drop builder, 400+ app integrations, and native AI steps. It runs as a managed cloud or fully self-hosted on your own infrastructure, and its pieces double as MCP tools that AI agents can call.",
   "category": "automation",
+  "secondaryCategories": ["mcp"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

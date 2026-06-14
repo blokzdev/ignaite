@@ -5,6 +5,7 @@
   "description": "Daloopa automatically extracts and standardizes fundamental financial data — from SEC filings, investor presentations, and earnings materials — for 5,500+ global tickers with up to 14 years of history, linking every number back to its source document for auditability. Analysts use it to build and update models faster, cutting time spent during earnings season. The same data is exposed to AI tools via API, an Excel add-in, and Model Context Protocol connectors for ChatGPT, Claude, Perplexity, and Rogo.",
   "insight": "Raised a $47M Series C in 2026 (Brighton Park Capital), bringing total funding to roughly $84M since 2020.",
   "category": "finance",
+  "secondaryCategories": ["data-ops"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Daloopa",

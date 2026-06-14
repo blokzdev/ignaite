@@ -5,6 +5,7 @@
   "tagline": "Enterprise data engine for labeling and managing unstructured AI data.",
   "description": "An AI-ready data platform that manages, labels, and orchestrates unstructured data — images, video, LiDAR, audio, and text — across the model lifecycle. It pairs data management and human-in-the-loop annotation with a serverless pipeline layer for pre/post-processing, RLHF, and RAG, plus a model-and-app marketplace. Originally focused on computer-vision production pipelines.",
   "category": "vision",
+  "secondaryCategories": ["data-ops"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Dataloop",

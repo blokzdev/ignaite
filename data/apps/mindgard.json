@@ -5,6 +5,7 @@
   "tagline": "Automated AI red teaming and security testing for models and agents.",
   "description": "Mindgard is an automated AI red-teaming and security-testing platform that runs attacker-aligned tests — prompt injection, jailbreaks, model extraction, agent misuse — against LLM applications, agents, and multimodal models. It discovers AI assets, tests continuously through CI/CD and Burp Suite integrations, and adds runtime guardrails informed by findings. The Lancaster University spinout is SOC 2 Type 2 certified and operates from London and Boston.",
   "category": "security",
+  "secondaryCategories": ["eval"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Mindgard",

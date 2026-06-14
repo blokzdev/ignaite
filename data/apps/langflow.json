@@ -5,6 +5,7 @@
   "tagline": "Visual low-code builder for AI agents and RAG apps.",
   "description": "Open-source tool for prototyping and deploying agentic and RAG applications through a drag-and-drop canvas, with Python customization underneath each node. It connects major LLMs, vector databases, and tools, and can expose flows as APIs or MCP servers. Run it locally, as a desktop app, or on managed cloud.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

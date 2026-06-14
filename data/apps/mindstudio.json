@@ -5,6 +5,7 @@
   "description": "MindStudio is a no-code platform for designing, building, and deploying AI agents. You assemble agents visually and ship them to web apps, browser extensions, email triggers, scheduled automations, APIs, and MCP servers, with optional custom JavaScript or Python for advanced steps. It connects 1,000+ apps and gives access to 200+ AI models through one interface, charging model usage at provider cost with no markup.",
   "insight": "From GoMeta (the team behind the Koji creator platform, ~$36M raised); launched in 2023 as YouAi's MindStudio.",
   "category": "automation",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "GoMeta",

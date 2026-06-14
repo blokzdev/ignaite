@@ -5,6 +5,7 @@
   "tagline": "Zhipu's GLM assistant — frontier open-weight chat, free to use.",
   "description": "Z.ai is the international assistant of Zhipu AI, built on the GLM model family. The free chat runs the flagship GLM-5 and GLM-5.1 models with reasoning and agentic modes, and the same models are served to developers over a low-cost, OpenAI-compatible API. GLM-5's open weights ship under the MIT license.",
   "category": "assistant",
+  "secondaryCategories": ["inference"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Z.ai (Zhipu AI)",

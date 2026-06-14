@@ -4,6 +4,7 @@
   "tagline": "AI teammate inside Notion: writing, workspace Q&A, agents, and meeting notes.",
   "description": "Notion AI is the assistant built into the Notion workspace, drafting and editing content, answering questions across your pages and connected apps, taking AI meeting notes, and running custom agents on triggers or schedules. Enterprise Search reaches into Slack, Google Drive, and GitHub, and the Notion Agent can complete multi-step tasks with workspace context.",
   "category": "productivity",
+  "secondaryCategories": ["writing", "meeting"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Notion Labs",

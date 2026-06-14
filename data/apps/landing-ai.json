@@ -5,6 +5,7 @@
   "tagline": "Visual prompting + vision agents from Andrew Ng's lab.",
   "description": "Build vision applications with a labelling-light workflow — point at examples, get a deployable detector. Recently extended into vision agents that reason over images and PDFs without bespoke training.",
   "category": "vision",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "LandingAI",

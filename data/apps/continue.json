@@ -5,6 +5,7 @@
   "tagline": "Open-source AI coding assistant for VS Code, JetBrains, and the CLI.",
   "description": "An open-source AI coding assistant delivered as a VS Code extension, a JetBrains plugin, and a CLI, with chat, autocomplete, and agent workflows. It runs locally in your editor and works with any model provider, including local models via Ollama, using your own keys. The core is Apache-2.0 and free; the company also offers a hosted Continue Hub for sharing and managing assistants.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "local",

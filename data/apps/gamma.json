@@ -5,6 +5,7 @@
   "tagline": "Generate presentations, websites, and documents from a single prompt.",
   "description": "An AI design tool that turns a prompt or pasted content into polished presentations, websites, documents, and social posts — automatically handling layout, copy structure, and visuals. It can import and restructure existing PDFs, slide decks, and Word files, and supports interactive embeds like live charts, videos, and forms. A Generate API added in early 2026 lets teams produce content programmatically at scale.",
   "category": "assistant",
+  "secondaryCategories": ["design", "productivity"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Gamma",

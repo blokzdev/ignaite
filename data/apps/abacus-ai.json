@@ -5,6 +5,7 @@
   "tagline": "Multi-model AI super-assistant with an agent layer for tasks and apps.",
   "description": "An AI platform whose consumer product, ChatLLM, puts many frontier models — GPT, Claude, Gemini, and others — behind one subscription, alongside image generation and a code/app builder. Its DeepAgent layer runs multi-step agentic tasks like dashboards, automations, and app builds. The company also sells an end-to-end enterprise generative-AI and ML platform.",
   "category": "assistant",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Abacus.AI",

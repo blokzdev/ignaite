@@ -5,6 +5,7 @@
   "tagline": "Agentic coding tool from Sourcegraph for terminal and editor.",
   "description": "Amp is an agentic coding tool from Sourcegraph that works in the terminal and across editors, autonomously editing code and running tasks. It routes between frontier models across deep, smart, and fast modes, and centers on shareable 'threads' so teammates can view and search each other's agent sessions.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Sourcegraph",

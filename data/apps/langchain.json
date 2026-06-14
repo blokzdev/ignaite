@@ -5,6 +5,7 @@
   "tagline": "The default open-source framework for composing LLM apps.",
   "description": "Python + TypeScript framework for chaining prompts, tools, retrievers, and memory into LLM applications. Ubiquitous in the ecosystem; pairs with LangGraph for agent orchestration and LangSmith for tracing.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "featured": false,

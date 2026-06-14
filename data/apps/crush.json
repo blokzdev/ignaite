@@ -5,6 +5,7 @@
   "tagline": "Charm's glamorous agentic AI coding agent for your terminal.",
   "description": "A terminal-based AI coding agent from Charm, the team behind Bubble Tea and other CLI tools. It plans and edits files, runs commands, and pulls code context via LSP, all inside a polished TUI. It is model-agnostic: bring your own keys for Anthropic, OpenAI, Google, Groq, OpenRouter, and other providers, and switch models mid-session.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "byo-key",
   "deployment": "local",
   "vendor": "Charm",

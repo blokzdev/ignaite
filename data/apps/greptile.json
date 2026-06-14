@@ -5,6 +5,7 @@
   "description": "Greptile builds a graph index of your repository and runs a swarm of agents over each pull request, catching cross-file logic bugs, security risks, and style violations that diff-only reviewers miss. It learns team standards from past review comments, enforces custom rules written in plain English, and reviews PRs on GitHub and GitLab, with TREX generating and running tests per PR.",
   "insight": "Founded by Georgia Tech grads out of YC W24; Benchmark led its $25M Series A in 2025 at a reported $180M valuation.",
   "category": "agent",
+  "secondaryCategories": ["ide"],
   "pricing": "paid",
   "deployment": "hybrid",
   "vendor": "Greptile",

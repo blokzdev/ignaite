@@ -5,6 +5,7 @@
   "tagline": "Microsoft's official MCP server for browser automation, driven by Playwright.",
   "description": "An open-source Model Context Protocol server from Microsoft that lets LLMs and agents browse and act on the web through Playwright. It exposes 40+ tools for navigation, forms, clicking, network mocking, tracing, and more, operating on structured accessibility snapshots rather than pixels so each interactive element gets a deterministic ref. Works with Claude, VS Code, Cursor, Windsurf, and any MCP client.",
   "category": "mcp",
+  "secondaryCategories": ["automation"],
   "pricing": "free",
   "openSource": true,
   "vendor": "Microsoft",

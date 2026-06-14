@@ -5,6 +5,7 @@
   "description": "ByteRover gives coding agents long-term, structured memory that persists across sessions and tools. It organizes project knowledge into hierarchical context trees, stores them locally by default, and serves relevant context back to agents through an MCP server and CLI. It plugs into Cursor, Claude Code, Windsurf, and other assistants, and an optional cloud tier lets teams sync and share context.",
   "insight": "Began as the 'Cipher' memory MCP server before rebranding to ByteRover; the CLI is source-available under the Elastic License 2.0.",
   "category": "memory",
+  "secondaryCategories": ["mcp"],
   "pricing": "freemium",
   "deployment": "hybrid",
   "vendor": "ByteRover",

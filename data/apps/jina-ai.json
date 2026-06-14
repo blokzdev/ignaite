@@ -5,6 +5,7 @@
   "tagline": "Search-foundation APIs — Reader, embeddings, and reranker — for grounding LLMs.",
   "description": "A suite of search-foundation APIs for retrieval and RAG: a Reader that turns any URL or web search into LLM-ready markdown, multilingual multimodal embeddings, and a reranker. One key spans every service, the Reader is open source, and the embedding models are also released as open weights for self-hosting.",
   "category": "search",
+  "secondaryCategories": ["data-ops"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "cloud",

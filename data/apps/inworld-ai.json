@@ -5,6 +5,7 @@
   "tagline": "A full-stack voice runtime for building human-sounding AI agents.",
   "description": "A developer platform for real-time voice AI — an integrated STT + LLM + TTS pipeline exposed through REST and WebSocket APIs (OpenAI Realtime-compatible) for companions, character chat, support, and phone agents. Beyond the voice stack it offers a model Router, inference, and compute, with cloud and enterprise on-prem deployment.",
   "category": "voice",
+  "secondaryCategories": ["support", "companion"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Inworld AI",

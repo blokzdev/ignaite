@@ -5,6 +5,7 @@
   "tagline": "The data framework for LLM apps — RAG, agents, and document workflows.",
   "description": "An open-source framework (Python + TypeScript) for connecting LLMs to your data — ingestion, indexing, retrieval, and agentic document workflows. Pairs with the managed LlamaCloud (LlamaParse) for production parsing and extraction. The most-used RAG framework after LangChain.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "vendor": "LlamaIndex",

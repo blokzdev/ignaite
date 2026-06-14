@@ -5,6 +5,7 @@
   "tagline": "Fair-code workflow automation with first-class AI nodes.",
   "description": "Visual workflow builder bridging APIs, databases, and AI providers. Self-hostable; commercial cloud available. The default Zapier-style surface for the agentic-workflow crowd.",
   "category": "orchestration",
+  "secondaryCategories": ["automation"],
   "pricing": "freemium",
   "deployment": "hybrid",
   "vendor": "n8n",

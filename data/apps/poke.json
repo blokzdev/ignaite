@@ -5,6 +5,7 @@
   "tagline": "An AI assistant that lives inside your messaging apps.",
   "description": "Poke is a personal AI assistant from Interaction that works through the chat apps you already use — Apple Messages, WhatsApp, Telegram, and RCS — rather than its own app. It connects to email, calendar, and 30+ services to draft replies, manage your inbox, schedule, track health, and run proactive automations called \"recipes.\" Most non-real-time use is free; for heavier use you negotiate a monthly price with its AI before subscribing.",
   "category": "assistant",
+  "secondaryCategories": ["automation"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Interaction",

@@ -5,6 +5,7 @@
   "tagline": "Automate browser-based workflows on any website with AI.",
   "description": "An AI agent that completes browser workflows — form fills, logins, data extraction, multi-step flows — by combining computer vision with LLMs rather than hand-written selectors, so a single agent generalizes across sites it has never seen. Run it via the cloud app and API or self-host the open-source engine; bring your own model (OpenAI, Anthropic, Gemini, or local Ollama).",
   "category": "automation",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

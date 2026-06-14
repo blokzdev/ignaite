@@ -5,6 +5,7 @@
   "tagline": "AI audio studio that turns ideas into produced podcasts and audiobooks.",
   "description": "Wondercraft is a browser-based AI audio studio that turns ideas, documents, or URLs into fully produced audio — podcasts, audiobooks, and ads — complete with scripts, natural-sounding voices, music, and sound effects. It offers hundreds of AI voices across dozens of languages plus voice cloning, with a timeline editor for assembling and revising episodes. Free for individuals, with paid creator and business tiers.",
   "category": "audio",
+  "secondaryCategories": ["voice"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Wondercraft",

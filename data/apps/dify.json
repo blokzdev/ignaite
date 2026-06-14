@@ -5,6 +5,7 @@
   "tagline": "Visual platform for agentic workflows, RAG pipelines, and LLM apps.",
   "description": "An LLMOps platform that bundles a drag-and-drop workflow builder, RAG pipelines, agent tooling, model management, and observability into one surface — prototype to production without much glue code. Connects hundreds of proprietary and open models across providers. Self-host the source-available edition for free, or use Dify Cloud's paid tiers.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "hybrid",
   "vendor": "Dify (LangGenius)",

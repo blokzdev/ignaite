@@ -5,6 +5,7 @@
   "tagline": "Real-time AI translation and captions for meetings and events.",
   "description": "Wordly delivers real-time AI translation, live captions, transcripts, and summaries for meetings and events across dozens of languages — no special equipment or human interpreters required. It works with Zoom, Teams, Google Meet, Webex, and in-person events, and attendees join translated audio or captions from a browser or the mobile app.",
   "category": "translation",
+  "secondaryCategories": ["meeting"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Wordly",

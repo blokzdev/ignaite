@@ -5,6 +5,7 @@
   "tagline": "Subscription AI storyteller and anime image generator with encrypted stories.",
   "description": "NovelAI is a subscription platform for AI-assisted fiction writing and anime-style image generation, built around Anlatan's own storytelling models rather than general-purpose assistants. Paid tiers include unlimited text generation with adjustable context sizes, plus Anlas credits for its NAI Diffusion image models. Stories are stored end-to-end encrypted, so only the author can read them.",
   "category": "writing",
+  "secondaryCategories": ["image-gen"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Anlatan",

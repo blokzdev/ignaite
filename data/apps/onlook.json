@@ -5,6 +5,7 @@
   "tagline": "The Cursor for designers — edit React apps visually in real code.",
   "description": "Onlook is an open-source visual editor that lets designers and developers build and edit Next.js + Tailwind apps directly on an infinite canvas while the actual codebase stays the source of truth. You drag, style and tweak live React components and Onlook writes the corresponding code, with AI assistance for larger changes. It can be self-hosted for free, with a managed cloud version for teams.",
   "category": "design",
+  "secondaryCategories": ["ide"],
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",

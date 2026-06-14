@@ -5,6 +5,7 @@
   "tagline": "Real-time conversational video AI and digital human replicas.",
   "description": "A developer platform for building face-to-face AI agents that see, listen, and respond in live video through its Conversational Video Interface (CVI). It also generates personalized videos at scale from digital replicas of a real person. Built on Tavus's own models — Phoenix for rendering, Raven for perception, and Sparrow for conversational timing — with the ability to plug in custom LLMs and text-to-speech.",
   "category": "video",
+  "secondaryCategories": ["voice"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Tavus",

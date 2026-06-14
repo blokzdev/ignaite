@@ -5,6 +5,7 @@
   "tagline": "Open SDK for production AI agents in .NET and Python.",
   "description": "Microsoft's multi-language framework for building, orchestrating, and operating AI agents and multi-agent workflows. It offers a consistent API across C#/.NET and Python with first-class support for both, plus built-in durability, restartability, observability, and human-in-the-loop control. Provider-flexible, so the underlying models can change without rewrites.",
   "category": "orchestration",
+  "secondaryCategories": ["agent"],
   "pricing": "free",
   "openSource": true,
   "vendor": "Microsoft",

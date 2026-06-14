@@ -5,6 +5,7 @@
   "tagline": "Full-stack enterprise generative AI platform for building agents and apps.",
   "description": "An enterprise platform that pairs an application layer for building AI agents and workflows with its own foundation models, the Palmyra LLM family. It targets regulated industries with SOC 2 Type II, PCI, and HIPAA compliance and a no-training-on-customer-data policy. Specialized models like Palmyra Med and Palmyra Fin tune the platform for healthcare and finance use cases.",
   "category": "assistant",
+  "secondaryCategories": ["agent"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Writer",

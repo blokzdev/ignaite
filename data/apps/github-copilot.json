@@ -5,6 +5,7 @@
   "tagline": "AI pair programmer in your editor — completions, chat, and agents.",
   "description": "The original in-editor AI coding assistant, offering multi-line completions, chat with codebase context, agent mode, and a cloud coding agent that opens pull requests. Runs across VS Code, JetBrains, Visual Studio, the CLI, and GitHub.com. A free tier covers light use; paid tiers add premium models and more allowance.",
   "category": "ide",
+  "secondaryCategories": ["agent"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "GitHub (Microsoft)",

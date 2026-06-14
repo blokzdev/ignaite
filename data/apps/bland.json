@@ -5,6 +5,7 @@
   "tagline": "Build, run, and monitor AI phone agents that hold real conversations at scale.",
   "description": "Enterprise voice-AI platform for automating high-volume inbound and outbound phone calls. Bland runs the full stack — language model, speech-to-text, text-to-speech, and telephony — on its own infrastructure, with conversational pathways, voice cloning, and webhook integrations. Positioned for regulated industries with SOC 2, HIPAA, and PCI compliance.",
   "category": "voice",
+  "secondaryCategories": ["support"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Bland",
