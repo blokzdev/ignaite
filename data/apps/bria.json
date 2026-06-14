@@ -1,0 +1,62 @@
+{
+  "slug": "bria",
+  "name": "Bria",
+  "insight": "Getty Images is both an investor and a training-data partner; Bria raised a $24M Series A in 2024 co-led by Intel Capital.",
+  "tagline": "Enterprise visual AI trained only on licensed data, with IP indemnification.",
+  "description": "A visual generative AI platform for enterprises that generates and edits images and video while keeping output commercially safe. Its models are trained exclusively on licensed data from Getty Images, Alamy, and Envato, and generations come with IP indemnification. A \"Visual Generative Language\" lets developers control lighting, camera, composition, and objects with structured parameters rather than free-text prompts, delivered via API, cloud, BYOC, or on-prem.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Bria AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "In-house image/video models trained only on licensed data; weights available via API and on Hugging Face under a commercial license."
+  },
+  "tags": ["image-generation", "enterprise", "licensed-data", "ip-safe", "api"],
+  "accentColor": "#111827",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bria.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://bria.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 580,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Trains its models exclusively on licensed data (Getty, Alamy, Envato) with IP indemnification — output is safe for commercial use where provenance matters.",
+  "pros": [
+    "Models trained only on licensed data",
+    "IP indemnification on generated outputs",
+    "Structured controls (VGL) beyond prompts",
+    "Cloud, BYOC, or on-prem deployment",
+    "Models available on Hugging Face"
+  ],
+  "cons": [
+    "Source-available models need a commercial license",
+    "Developer- and enterprise-focused, not consumer",
+    "Narrower aesthetic range than Midjourney",
+    "Usage-based costs add up at scale"
+  ],
+  "bestFor": ["Enterprise image generation", "Commercial-safe visuals", "Developers & API"],
+  "alternatives": ["adobe-firefly", "recraft", "ideogram", "stability-ai"],
+  "references": [
+    {
+      "title": "Israeli visual generative AI co BRIA raises $24m",
+      "url": "https://en.globes.co.il/en/article-israeli-visual-generative-ai-co-bria-raises-24m-1001471733",
+      "source": "Globes",
+      "kind": "analysis"
+    },
+    {
+      "title": "Getty-backed AI startup BRIA raises $24M in Series A funding",
+      "url": "https://techstartups.com/2024/02/21/getty-backed-ai-startup-bria-raises-24-million-in-series-a-funding-for-responsible-ai-image-generation/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "kapa-ai",
+  "name": "kapa.ai",
+  "insight": "Seed backers include RAG paper co-author Douwe Kiela, Replit's Amjad Masad, and Docker founder Solomon Hykes.",
+  "tagline": "Turns your technical docs into a RAG assistant that answers users' questions.",
+  "description": "A platform that ingests a company's technical documentation and 30+ other sources (GitHub, forums, Slack, Discord, Zendesk) and turns them into an AI assistant that answers complex product questions with citations. Built for external end users, where accuracy matters most, it flags low-confidence answers and surfaces unanswered questions so teams can close documentation gaps. Deploys as a docs widget, chat integration, or API.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "kapa.ai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Managed RAG over your own docs and sources; answers are grounded and cited."
+  },
+  "tags": ["support", "documentation", "rag", "ticket-deflection", "developer-tools"],
+  "accentColor": "#2563EB",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.kapa.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.kapa.ai"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 579,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Purpose-built for external end users — tuned for answer accuracy with citations to avoid misleading customers, not just internal ticket deflection.",
+  "pros": [
+    "RAG grounded in your own docs plus 30+ sources",
+    "Deploys to docs, Slack, Discord, Zendesk",
+    "Analytics surface unanswered questions",
+    "SOC 2 Type II compliant",
+    "Proven at OpenAI and Docker scale"
+  ],
+  "cons": [
+    "Opaque, sales-led pricing",
+    "No self-serve free tier",
+    "Enterprise-oriented setup",
+    "Answer quality depends on your docs"
+  ],
+  "bestFor": ["Docs & support deflection", "Developer tools", "Technical products"],
+  "alternatives": ["intercom-fin", "forethought", "ada-cx", "decagon"],
+  "references": [
+    {
+      "title": "How Kapa uses LLMs to help companies answer users' technical questions",
+      "url": "https://techcrunch.com/2024/10/03/how-kapa-uses-llms-to-help-companies-answer-users-technical-questions-reliably/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
