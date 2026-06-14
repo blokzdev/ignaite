@@ -1,0 +1,45 @@
+{
+  "slug": "cadastral",
+  "name": "Cadastral",
+  "tagline": "AI analyst for commercial real estate underwriting and diligence.",
+  "description": "Cadastral is an AI-native, vertically specific platform for commercial real estate, billed as an 'AI analyst out of the box' that works without customer-specific training. It automates complex CRE workflows including T-12 analysis, lease abstraction, loan compliance, acquisitions due diligence, and end-to-end underwriting for real estate, private equity, and private credit teams.",
+  "insight": "Founder Abe Somani previously built Leverton, an AI lease-abstraction company acquired by MRI Software in 2019.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cadastral",
+  "platforms": ["web"],
+  "tags": ["commercial-real-estate", "underwriting", "due-diligence", "ai-agent"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cadastral.ai/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 583,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Ships as a CRE 'analyst out of the box' — no per-customer model training — covering underwriting, lease abstraction, and due diligence in one vertical platform.",
+  "pros": [
+    "Purpose-built for CRE workflows",
+    "No per-customer model training",
+    "Backed by JLL Spark, AvalonBay, Equity Residential",
+    "40+ customers since late-2025 launch"
+  ],
+  "cons": [
+    "Enterprise, sales-led pricing",
+    "Commercial real estate focus only",
+    "Young company (founded 2023)"
+  ],
+  "bestFor": ["CRE acquisitions teams", "Underwriting and diligence", "Private equity and credit"],
+  "alternatives": ["realie", "realestateapi", "eliseai"],
+  "references": [
+    {
+      "title": "Cadastral: $9.5 Million Raised To Build 'AI Analyst In A Box'",
+      "url": "https://pulse2.com/cadastral-9-5-million/",
+      "source": "Pulse 2",
+      "kind": "analysis"
+    }
+  ]
+}

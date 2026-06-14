@@ -1,0 +1,44 @@
+{
+  "slug": "realestateapi",
+  "name": "RealEstateAPI",
+  "tagline": "Expressive property data APIs for building proptech.",
+  "description": "RealEstateAPI (REAPI) is a developer-focused property data platform offering APIs for property search, detail, comparables, parcel boundaries, address autocomplete, and skip tracing across roughly 95% of U.S. properties. It targets proptech startups and data-heavy products that want flexible, modern access to nationwide real estate data, and provides lender-grade automated valuations with confidence scoring for pre-qualification, underwriting, and portfolio monitoring.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "RealEstateAPI",
+  "platforms": ["api"],
+  "tags": ["property-data", "real-estate", "proptech", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.realestateapi.com/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 582,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "One developer-friendly API set spanning search, comps, parcel boundaries, autocomplete, and skip tracing — not separate single-purpose endpoints.",
+  "pros": [
+    "Covers ~95% of U.S. properties",
+    "Search, comps, parcel, skip-tracing APIs",
+    "Lender-grade AVM with confidence scores",
+    "7-day free trial for developers"
+  ],
+  "cons": [
+    "Pricing not public — contact sales",
+    "US-only coverage",
+    "API-only — no end-user dashboard"
+  ],
+  "bestFor": ["Proptech developers", "Underwriting and valuation", "Skip tracing and lead data"],
+  "alternatives": ["realie", "cadastral"],
+  "references": [
+    {
+      "title": "RealEstateAPI and the Rise of AI-Native Real Estate Infrastructure",
+      "url": "https://www.geekwire.com/contributor-content/realestateapi-and-the-rise-of-ai-native-real-estate-infrastructure/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}

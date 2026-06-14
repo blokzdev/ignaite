@@ -50,6 +50,7 @@ export const CATEGORY_LABEL: Record<AppCategory, string> = {
   legal: "Legal",
   finance: "Finance",
   education: "Education",
+  "real-estate": "Real Estate",
   // Frontier
   robotics: "Robotics",
 };
