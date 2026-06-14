@@ -1,0 +1,55 @@
+{
+  "slug": "trigger-dev",
+  "name": "Trigger.dev",
+  "tagline": "Build and deploy durable AI agents and background workflows in TypeScript.",
+  "description": "Trigger.dev is an open-source framework for writing long-running background tasks, AI agents, and workflows as plain TypeScript — with no timeouts, automatic retries, durable cron schedules, queues, and built-in observability. It runs on a fully managed cloud or self-hosted via Docker or Kubernetes under Apache 2.0. Features include human-in-the-loop steps, streaming LLM responses, and Python and browser-automation tasks.",
+  "insight": "Y Combinator-backed (W23); raised a $16M Series A led by Standard Capital on top of an earlier $3M seed.",
+  "category": "orchestration",
+  "secondaryCategories": ["automation"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Trigger.dev",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["background-jobs", "workflows", "typescript", "ai-agents", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://trigger.dev",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://trigger.dev/docs"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/triggerdotdev/trigger.dev"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://trigger.dev/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 676,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Write durable, long-running AI workflows as plain TypeScript — no timeouts, automatic retries, and built-in observability.",
+  "pros": [
+    "Apache-2.0 open source",
+    "Self-host or managed cloud",
+    "No task timeouts",
+    "Automatic retries + queues",
+    "Built-in run observability"
+  ],
+  "cons": [
+    "TypeScript/JavaScript only",
+    "Self-hosting needs Postgres + Redis ops",
+    "Younger ecosystem than Temporal"
+  ],
+  "bestFor": ["TypeScript teams", "AI agent backends", "Background jobs & cron"],
+  "alternatives": ["inngest", "n8n", "zapier", "make"]
+}

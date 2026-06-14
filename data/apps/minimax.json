@@ -1,0 +1,59 @@
+{
+  "slug": "minimax",
+  "name": "MiniMax",
+  "tagline": "Multimodal foundation models and developer API for text, code, video, speech, and music.",
+  "description": "MiniMax is a Shanghai foundation-model lab whose platform serves its own model family through a developer API and agent app: the M-series LLMs (M2/M3) built for coding and agentic workflows with up to a 1M-token context, the Hailuo video models, and MiniMax Speech and Music. Developers get chat completions, text-to-speech, and text-to-video on token-based pricing, with a free agent tier for getting started.",
+  "insight": "Open-weighted its M-series LLMs — M2, a 230B-param MoE, shipped Oct 2025 at roughly 8% of Claude Sonnet's per-token price.",
+  "category": "inference",
+  "secondaryCategories": ["video"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "MiniMax",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["MiniMax M2", "MiniMax M3", "Hailuo 2.3", "MiniMax Speech", "MiniMax Music"]
+  },
+  "tags": ["foundation-models", "llm", "api", "video", "open-weights"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.minimax.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://platform.minimax.io"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/MiniMax-AI"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 677,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Frontier-class coding and agent models (M-series, 1M-token context) at a fraction of US-lab API prices, with open weights to self-host.",
+  "pros": [
+    "Frontier coding/agent M-series models",
+    "Up to 1M-token context",
+    "Open-weight models on Hugging Face",
+    "Multimodal: text, video, speech, music",
+    "Aggressive token pricing"
+  ],
+  "cons": [
+    "China-based; data-residency considerations",
+    "Free agent tier is credit-limited",
+    "Docs less mature than US incumbents"
+  ],
+  "bestFor": ["Cost-sensitive inference", "Coding & agent apps", "Multimodal generation"],
+  "alternatives": ["deepseek", "z-ai", "together-ai", "hailuo-ai"],
+  "references": [
+    {
+      "title": "Chinese LLM firm MiniMax launches Hong Kong IPO, targets Jan. 9 debut",
+      "url": "https://www.yicaiglobal.com/news/chinese-llm-firm-minimax-launches-hong-kong-ipo-targets-jan-9-debut",
+      "source": "Yicai Global",
+      "kind": "analysis"
+    }
+  ]
+}
