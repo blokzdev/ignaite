@@ -1,0 +1,59 @@
+{
+  "slug": "gladia",
+  "insight": "Paris startup, founded 2022; seed-backed by Sequoia, raised a $16M Series A in 2024, and runs EU-hosted with full GDPR data residency.",
+  "name": "Gladia",
+  "tagline": "Real-time speech-to-text and audio intelligence through a single API.",
+  "description": "End-to-end audio infrastructure to record, transcribe, and enrich speech via one API — real-time streaming under ~300ms latency, batch transcription, diarization, translation, and summarization across 100+ languages. Reengineered Whisper for production before shipping its own Solaria models, with EU data residency for compliance-bound teams.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Gladia",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Gladia's own Solaria models, with Whisper-based heritage."
+  },
+  "tags": ["stt", "transcription", "streaming", "diarization", "multilingual"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.gladia.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.gladia.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.gladia.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 599,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Sub-300ms multilingual real-time transcription with EU data residency — a GDPR-friendly alternative to US-hosted Deepgram and AssemblyAI.",
+  "pros": [
+    "Low-latency real-time streaming",
+    "100+ languages with strong accent handling",
+    "EU data residency (GDPR, HIPAA, SOC 2)",
+    "Generous free tier and pay-as-you-go"
+  ],
+  "cons": ["API-only, no end-user app", "Proprietary models", "Younger than incumbent STT rivals"],
+  "bestFor": ["Production STT", "Voice agents", "EU-compliant transcription"],
+  "alternatives": ["deepgram", "assemblyai", "speechmatics", "elevenlabs"],
+  "references": [
+    {
+      "title": "French AI startup Gladia secures $16M Series A for real-time audio transcription",
+      "url": "https://techstartups.com/2024/10/15/french-ai-startup-gladia-secures-16m-series-a-for-real-time-audio-transcription-and-analytics/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    },
+    {
+      "title": "Multilingual AI: Paris-based Gladia raises $16m to make AI understand accents",
+      "url": "https://sifted.eu/articles/gladia-raise-ai-france-news",
+      "source": "Sifted",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "veed",
+  "insight": "Bootstrapped to profitability and once rejected by Y Combinator before Sequoia led a $35M Series A in 2022.",
+  "name": "VEED.IO",
+  "tagline": "Browser-based AI video editor with subtitles, dubbing, and avatars.",
+  "description": "An all-in-one online video creation platform: a real timeline editor paired with AI tools for auto-subtitles, translation and dubbing, text-to-speech, AI avatars, background and noise removal, eye-contact correction, and text-to-video generation. Runs entirely in the browser, aimed at marketers, creators, and teams making social and brand video.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "VEED",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Bundles multiple generative models for video, voice, and avatars."
+  },
+  "tags": ["video-editing", "subtitles", "dubbing", "avatars", "text-to-video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.veed.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.veed.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 603,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "An all-in-one browser editor that pairs a real timeline with AI subtitles, dubbing, avatars, and generation — no install, unlike desktop NLEs.",
+  "pros": [
+    "Full editor plus AI tools in the browser",
+    "Strong auto-subtitles and dubbing",
+    "AI avatars and text-to-video",
+    "No install, collaborative"
+  ],
+  "cons": [
+    "Free tier watermarks and caps exports",
+    "Less control than pro desktop NLEs",
+    "Heavy projects can feel sluggish in-browser"
+  ],
+  "bestFor": ["Social video", "Subtitling and dubbing", "Marketing teams"],
+  "alternatives": ["descript", "captions", "opus-clip", "submagic"],
+  "references": [
+    {
+      "title": "Veed, an online video editing platform, picks up $35M from Sequoia",
+      "url": "https://techcrunch.com/2022/02/02/veed-an-online-video-editing-platform-picks-up-35m-from-sequoia/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

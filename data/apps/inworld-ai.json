@@ -1,0 +1,57 @@
+{
+  "slug": "inworld-ai",
+  "insight": "Started as a game-NPC 'character engine' that hit a $500M+ valuation in 2023 before pivoting to a voice-AI runtime for agents.",
+  "name": "Inworld AI",
+  "tagline": "A full-stack voice runtime for building human-sounding AI agents.",
+  "description": "A developer platform for real-time voice AI — an integrated STT + LLM + TTS pipeline exposed through REST and WebSocket APIs (OpenAI Realtime-compatible) for companions, character chat, support, and phone agents. Beyond the voice stack it offers a model Router, inference, and compute, with cloud and enterprise on-prem deployment.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Inworld AI",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Inworld's own TTS/STT models; a Router can dispatch to third-party LLMs."
+  },
+  "tags": ["voice-agents", "tts", "stt", "realtime", "characters"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://inworld.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.inworld.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://inworld.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 602,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Bundles STT, LLM routing, and TTS into one OpenAI Realtime-compatible voice pipeline, priced aggressively for consumer-scale voice agents.",
+  "pros": [
+    "Integrated full-stack voice pipeline",
+    "OpenAI Realtime-compatible API",
+    "Aggressive usage-based pricing at scale",
+    "Free on-demand tier for prototyping"
+  ],
+  "cons": [
+    "Developer API, not an end-user app",
+    "Pivoted from its original character-engine focus",
+    "Voice quality varies by model tier"
+  ],
+  "bestFor": ["Voice agents", "AI companions", "Interactive characters"],
+  "alternatives": ["vapi", "retell-ai", "cartesia", "elevenlabs"],
+  "references": [
+    {
+      "title": "Inworld Cuts Prices to Take Down the Biggest Wall in Consumer AI: Cost",
+      "url": "https://www.businesswire.com/news/home/20260610968386/en/Inworld-Cuts-Prices-to-Take-Down-the-Biggest-Wall-in-Consumer-AI-Cost",
+      "source": "Business Wire",
+      "kind": "analysis"
+    }
+  ]
+}

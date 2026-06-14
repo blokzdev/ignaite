@@ -1,0 +1,53 @@
+{
+  "slug": "topaz-labs",
+  "insight": "Founded in 2005; in October 2025 it ended its longtime perpetual licenses to move every app to subscription only.",
+  "name": "Topaz Labs",
+  "tagline": "Pro-grade AI upscaling, denoise, and detail recovery for photo and video.",
+  "description": "A suite of AI image- and video-enhancement apps — Topaz Photo, Topaz Video, and Gigapixel — that upscale (up to 16x), denoise, sharpen, deblur, and recover detail using proprietary models that render locally on your GPU. Long the default for photographers, restorers, and post houses, with newer cloud and API options alongside the desktop apps.",
+  "category": "image-gen",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Topaz Labs",
+  "platforms": ["macos", "windows", "web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Topaz's own enhancement models; desktop apps run locally on-device."
+  },
+  "tags": ["upscaling", "enhancement", "denoise", "photo", "video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.topazlabs.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.topazlabs.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 600,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Detail-preserving photo/video upscaling and denoise that runs locally on your own GPU, not a cloud-only web tool — built for pro post workflows.",
+  "pros": [
+    "Industry-standard quality for upscaling and denoise",
+    "Runs locally on Mac/Windows GPUs",
+    "Dedicated photo, video, and Gigapixel apps",
+    "Plugin and API integration paths"
+  ],
+  "cons": [
+    "Subscription-only since October 2025, no perpetual license",
+    "GPU-heavy, slow on older hardware",
+    "Enhancement only — does not generate from prompts"
+  ],
+  "bestFor": ["Photographers", "Video restoration", "Print and post production"],
+  "alternatives": ["magnific", "krea", "recraft"],
+  "references": [
+    {
+      "title": "Topaz Labs to end perpetual licenses of its software",
+      "url": "https://www.cgchannel.com/2025/09/topaz-labs-to-end-perpetual-licenses-of-its-software/",
+      "source": "CG Channel",
+      "kind": "analysis"
+    }
+  ]
+}
