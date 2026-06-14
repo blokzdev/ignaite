@@ -28,7 +28,9 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
   skipped.
 - **Tally coverage per category** — grep the `"category"` field across `data/apps/*.json`, count each
   value, and note the **thinnest** categories. Compute this fresh each run (it's a moving target; don't
-  hardcode counts). These coverage gaps are where the directory most needs growth — you'll bias toward
+  hardcode counts). (An app belongs to its primary `category` plus any `secondaryCategories`, so a
+  category can be served either by net-new primaries or by an app's secondary fit — but bias the count
+  on primaries.) These coverage gaps are where the directory most needs growth — you'll bias toward
   them in step 2, subject to the quality bar.
 
 ## 2. Discover candidates (web)
@@ -55,8 +57,9 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 
 - Follow the **exact authoring spec + conventions + quality bar in `.claude/commands/add-app.md`**
   (schema, required fields, mobile-via-platforms, an authored `insight` per app, the "honest brief"
-  enrichment fields — `edge`/`pros`/`cons`/`bestFor`/`alternatives`/`references` — `featured` only for
-  true standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify,
+  enrichment fields — `edge`/`pros`/`cons`/`bestFor`/`alternatives`/`references` — optional
+  `secondaryCategories` (≤2) where the app has a genuine second home — strict bar, most get none —
+  `featured` only for true standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify,
   use the conservative value and flag it — never invent (`insight`, `edge`, `cons`, and `references`
   especially must be grounded; `references` are verify-or-omit and `alternatives` must be real slugs).
 - Write each as its own `data/apps/<slug>.json` (per-file authoring means parallel discovery runs

@@ -53,12 +53,17 @@ For each entry in scope:
   the "honest brief" fields** — `edge`, `pros`, `cons`, `bestFor`, `alternatives`, `references` (specs in
   `add-app.md`) — where research surfaces verifiable content. Same no-fabrication bar: `references` are
   verify-or-omit (real third-party URLs only); `alternatives` must be existing slugs; never invent a
-  `con` or a differentiator.
+  `con` or a differentiator. **Also curate `secondaryCategories`** (≤2; spec in `add-app.md`): if the
+  listing clearly has a genuine **second home** category it isn't tagged with, add it; if a tagged
+  secondary no longer fits, drop it. Strict bar — a real second home a user would also look under, never
+  the primary, never a tag-mention. Most entries have none; this is how full multi-category coverage
+  completes itself over the cycle.
 
 ## 2. Apply fixes
 
 - Update changed `pricing`, `platforms`, `modelSupport`, `tags`, `vendor`, `links` (fix/replace dead
-  URLs), or any stale enrichment field (`edge`, `pros`, `cons`, `bestFor`, `alternatives`, `references`).
+  URLs), the `category`/`secondaryCategories` classification, or any stale enrichment field (`edge`,
+  `pros`, `cons`, `bestFor`, `alternatives`, `references`).
 - If an app is **discontinued / shut down**, set `status: "archived"` in its JSON (the file stays as
   record, hidden from the default browse) — don't delete the file.
 - If a featured app is no longer a standout, consider dropping `featured`.
@@ -69,10 +74,12 @@ For each entry in scope:
 ## 2.5 Record the change (`changelog`) — only when something actually changed
 
 Whenever you apply a **substantive** edit above (pricing, platforms, modelSupport, links, `openSource`,
-`deployment`, `status`, `insight`, `vendor`, `tags`, `featured`, or an `edge`/`alternatives` change),
-**append an entry** to that listing's `changelog` array — this is the visible audit trail on the app
-detail page. (A pure first-time backfill of enrichment fields needn't log a changelog entry — it's like
-the initial authoring; only log when you _change_ an existing value or correct one.) Shape (schema:
+`deployment`, `status`, `insight`, `vendor`, `tags`, `featured`, a **`category` change or `secondaryCategories`
+recategorization**, or an `edge`/`alternatives` change), **append an entry** to that listing's `changelog`
+array — this is the visible audit trail on the app detail page. (A pure first-time backfill of enrichment
+fields — including first-time **adding** `secondaryCategories` to an unclassified entry — needn't log a
+changelog entry; it's like the initial authoring. Only log when you _change_ an existing value or correct
+one — e.g. moving the primary `category`, or removing/swapping a secondary that no longer fits.) Shape (schema:
 `changeEntrySchema` in `lib/apps-schema.ts`):
 
 ```json

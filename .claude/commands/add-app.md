@@ -86,12 +86,22 @@ Conventions (match existing entries):
     actually fetched — never construct a plausible link.** Omit if none verifiable.
 - **`featured: true`** sparingly (it spans 2 columns + enters the carousel) — only for true standouts,
   and only if the user agrees.
-- Pick the most specific fitting `category`; favor thin/empty ones where the app genuinely belongs
-  (check coverage). Extending the `AppCategory` union is allowed if a real new use-case has no home —
-  if so, add it to **both** the `AppCategory` union and the `APP_CATEGORIES` tuple in `types/app.ts`
-  (the zod schema derives its enum from the tuple automatically) and the single `CATEGORY_LABEL` map in
-  `lib/tools/category-labels.ts` (the one source of truth, re-exported from `hooks/use-directory-filters.ts`;
-  `Record<AppCategory,string>` makes a missing label a compile error).
+- Pick the most specific fitting **primary** `category`; favor thin/empty ones where the app genuinely
+  belongs (check coverage). Extending the `AppCategory` union is allowed if a real new use-case has no
+  home — if so, add it in **four** places: the `AppCategory` union **and** the `APP_CATEGORIES` tuple in
+  `types/app.ts` (the zod schema derives its enum from the tuple), the `CATEGORY_LABEL` map in
+  `lib/tools/category-labels.ts`, the `CATEGORY_DESCRIPTION` map in `lib/tools/category-meta.ts`, and the
+  matching cluster's `categories` list in `lib/tools/category-clusters.ts`. Compile-time guards
+  (`Record<AppCategory,…>` + the cluster guard) fail the build until label, description, and cluster all
+  exist; everything else (filters, category pages, sitemap, palette) is enum-driven and follows.
+- **`secondaryCategories`** (optional array, ≤2) — additional categories the app **genuinely also
+  belongs to** (a real second home a user would reasonably look under too), distinct from the primary
+  `category`. Setting them drives **full cross-category membership** — the app then appears on each
+  category's page, filter, count, and sitemap entry — while the primary `category` stays the single
+  canonical home (the card chip, related rail, breadcrumb, JSON-LD, and sort). **Strict bar:** never the
+  primary, never a mere tag-mention or tangential feature; **most apps get none.** The schema refine
+  rejects self-refs and duplicates. (Example: a meeting notetaker that's also a sales/revenue-intelligence
+  platform → `category: "meeting"`, `secondaryCategories: ["sales"]`.)
 - One file per app means concurrent `/add-app` / `/discover-apps` runs never conflict; display order
   is sort-driven, not file order.
 
