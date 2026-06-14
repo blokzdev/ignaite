@@ -1,0 +1,46 @@
+{
+  "slug": "gong",
+  "name": "Gong",
+  "tagline": "Revenue AI that captures and analyzes customer conversations to close deals.",
+  "description": "Gong is a Revenue AI platform that records and analyzes sales calls, emails, and meetings to surface deal risk, coaching opportunities, and more accurate forecasts. Its Revenue Graph and AI agents automate follow-ups, pipeline updates, and forecast corrections across products like Gong Engage, Forecast, and Enable. It is widely used by enterprise revenue teams.",
+  "insight": "Raised a $250M Series E in June 2021 at a $7.25B valuation, led by Franklin Templeton.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Gong.io, Inc.",
+  "platforms": ["web", "ios", "android", "api"],
+  "tags": ["revenue-intelligence", "conversation-intelligence", "sales", "forecasting"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.gong.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 609,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "The category-defining revenue-intelligence incumbent — deepest call-analysis dataset and enterprise-grade forecasting versus newer point tools.",
+  "pros": [
+    "Industry-leading call and deal analysis",
+    "Accurate AI forecasting",
+    "Strong coaching and enablement",
+    "Broad CRM integrations"
+  ],
+  "cons": [
+    "No public pricing (sales-led)",
+    "Expensive at enterprise tiers",
+    "Overkill for very small teams",
+    "Setup and onboarding overhead"
+  ],
+  "bestFor": ["Enterprise sales teams", "Revenue operations", "Sales coaching", "Forecasting"],
+  "alternatives": ["apollo", "nooks", "11x"],
+  "references": [
+    {
+      "title": "Gong grabs $250M Series E on $7.25B valuation",
+      "url": "https://techcrunch.com/2021/06/03/gong-going-gangbusters-grabs-250m-series-e-on-7-25b-valuation/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

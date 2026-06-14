@@ -1,0 +1,47 @@
+{
+  "slug": "juicebox",
+  "name": "Juicebox",
+  "tagline": "PeopleGPT — natural-language candidate sourcing across 800M+ profiles.",
+  "description": "Juicebox is an AI recruiting platform whose core product, PeopleGPT, lets recruiters search 800M+ profiles across 30+ sources using natural-language prompts instead of boolean filters. It verifies candidates and automates multi-step personalized outreach, and integrates with dozens of ATS and CRM systems plus a Chrome extension.",
+  "insight": "A Y Combinator (S22) company; raised a $30M Series A led by Sequoia in 2025 (part of $36M total).",
+  "category": "hr",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Juicebox",
+  "platforms": ["web", "api", "browser-extension"],
+  "tags": ["recruiting", "talent-sourcing", "peoplegpt", "hr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://juicebox.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 631,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pioneered natural-language ('PeopleGPT') sourcing — describe the candidate in a sentence rather than building boolean strings.",
+  "pros": [
+    "Natural-language candidate search",
+    "800M+ profiles, 30+ sources",
+    "Free tier to start",
+    "Automated outreach sequences",
+    "40+ ATS integrations"
+  ],
+  "cons": [
+    "Sourcing-only (no interviewing)",
+    "Outreach reply rates vary",
+    "Profile freshness varies",
+    "Smaller than enterprise incumbents"
+  ],
+  "bestFor": ["Recruiters and sourcers", "Startups and agencies", "NL talent search"],
+  "alternatives": ["seekout", "mercor", "micro1"],
+  "references": [
+    {
+      "title": "Juicebox lands $30M to transform recruiting with PeopleGPT",
+      "url": "https://techfundingnews.com/juicebox-lands-30m-to-revolutionise-hiring-with-ai-powered-recruitment-tool-peoplegpt/",
+      "source": "Tech Funding News",
+      "kind": "analysis"
+    }
+  ]
+}

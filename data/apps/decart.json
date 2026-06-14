@@ -1,0 +1,41 @@
+{
+  "slug": "decart",
+  "name": "Decart",
+  "tagline": "Real-time generative world and video models (Oasis, Lucy).",
+  "description": "Decart is an AI lab building real-time generative world and video models, including Oasis (a fully AI-generated, playable Minecraft-style open world) and Lucy (real-time video transformation used in gaming, ads, and virtual try-on). Its Oasis 3 is positioned as an API-accessible world model for Physical AI, with a low-latency inference stack. Products are accessed via the platform API and interactive demos.",
+  "insight": "Raised $32M at a $500M valuation (Dec 2024, Benchmark), then $300M at ~$3.1B (Aug 2025); founders came out of IDF Unit 8200.",
+  "category": "gaming",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Decart",
+  "platforms": ["web", "api"],
+  "tags": ["gaming", "world-models", "real-time-video", "generative"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://decart.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 625,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Generates fully playable, frame-by-frame AI worlds in real time (Oasis) — a category most 'game AI' tools don't touch.",
+  "pros": [
+    "Real-time world-model generation",
+    "Famous Oasis Minecraft demo",
+    "Very well-funded (~$3.1B val)",
+    "Strong research lineage"
+  ],
+  "cons": ["Sales-led, API-first, no free tier", "Research-stage for game dev", "Compute-heavy"],
+  "bestFor": ["Generative game worlds", "Real-time video AI", "Physical AI and sim", "R&D teams"],
+  "alternatives": ["inworld-ai", "rosebud-ai"],
+  "references": [
+    {
+      "title": "Decart adds another $32M at a $500M valuation",
+      "url": "https://techcrunch.com/2024/12/19/decart-adds-another-32m-at-a-500m-valuation",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

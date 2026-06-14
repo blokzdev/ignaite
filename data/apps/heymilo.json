@@ -1,0 +1,47 @@
+{
+  "slug": "heymilo",
+  "name": "HeyMilo",
+  "tagline": "AI interviewer agents that screen candidates across voice, video, and SMS.",
+  "description": "HeyMilo builds AI interviewer agents that automate first-round candidate screening. Its AI reads a job description from the ATS, generates an adaptive interview, and conducts it across voice, video, phone, or SMS, asking follow-up questions, then transcribes and scores responses for hiring managers.",
+  "insight": "Raised a $2.2M seed led by Canaan Partners (Mar 2025); founders are ex-Instagram, Microsoft, and Salesforce.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "HeyMilo",
+  "platforms": ["web", "api"],
+  "tags": ["recruiting", "ai-interview", "screening", "hr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.heymilo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 629,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Conducts adaptive interviews across voice, video, phone, and SMS — broader channel coverage than video-only AI screeners.",
+  "pros": [
+    "Multi-channel (voice/video/phone/SMS)",
+    "Auto-builds interviews from JD",
+    "Adaptive follow-up questions",
+    "Transcribes and scores",
+    "ATS-driven setup"
+  ],
+  "cons": [
+    "Early-stage, small seed",
+    "No public pricing",
+    "AI interviews can feel impersonal",
+    "Screening only"
+  ],
+  "bestFor": ["High-volume screening", "Recruiting teams", "Phone/SMS-first roles"],
+  "alternatives": ["micro1", "mercor", "seekout"],
+  "references": [
+    {
+      "title": "HeyMilo Secures $2.2M to Interview Candidates at Scale with AI Agents",
+      "url": "https://www.prnewswire.com/news-releases/heymilo-secures-2-2-million-to-interview-and-evaluate-candidates-at-scale-with-ai-agents-302389651.html",
+      "source": "PR Newswire",
+      "kind": "analysis"
+    }
+  ]
+}

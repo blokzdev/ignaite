@@ -1,0 +1,47 @@
+{
+  "slug": "leena-ai",
+  "name": "Leena AI",
+  "tagline": "Autonomous AI agents for HR, IT, and finance service desks.",
+  "description": "Leena AI is an autonomous agentic platform for enterprise back-office service desks — HR, IT, and finance — rather than recruiting. It ships pre-built 'AI Colleagues' that auto-resolve employee tickets, answer policy questions, and generate documents, integrating with 200+ enterprise systems. It claims 70%+ ticket auto-resolution across 500+ enterprises.",
+  "insight": "Raised a $30M Series B led by Bessemer Venture Partners (with Eduardo Saverin) in Sept 2021.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Leena AI",
+  "platforms": ["web", "ios", "android", "api"],
+  "tags": ["hr-service-desk", "employee-experience", "agentic-ai", "hr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://leena.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 632,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Targets post-hire HR and employee operations (service desk, ticket auto-resolution) rather than recruiting — broadening the category beyond hiring.",
+  "pros": [
+    "Auto-resolves 70%+ of tickets",
+    "200+ system integrations",
+    "Pre-built HR/IT/Finance agents",
+    "Voice, Teams, and mobile",
+    "Enterprise scale"
+  ],
+  "cons": [
+    "Not a hiring/recruiting tool",
+    "Enterprise pricing, demo-led",
+    "45-day go-live",
+    "Older funding (2021)"
+  ],
+  "bestFor": ["Enterprise HR service desks", "Employee self-service", "IT/Finance ops"],
+  "alternatives": ["seekout", "mercor"],
+  "references": [
+    {
+      "title": "Leena AI Announces $30M Series B led by Bessemer",
+      "url": "https://www.prnewswire.com/news-releases/leena-ai-announces-30m-series-b-round-led-by-bessemer-venture-partners-301387209.html",
+      "source": "PR Newswire",
+      "kind": "analysis"
+    }
+  ]
+}

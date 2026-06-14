@@ -1,0 +1,52 @@
+{
+  "slug": "apollo",
+  "name": "Apollo.io",
+  "tagline": "AI GTM platform unifying prospecting, enrichment, outreach, and deal execution.",
+  "description": "Apollo.io is a unified AI go-to-market platform combining a B2B database of 230M+ contacts and 30M+ companies with multichannel outreach, data enrichment, inbound routing, and deal-execution tools like AI meeting prep, call summaries, and conversation intelligence. It serves 600,000+ companies and replaces several point tools in the sales stack.",
+  "insight": "Raised a $100M Series D in Aug 2023 led by Bain Capital Ventures at a $1.6B valuation.",
+  "category": "sales",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Apollo GTM, Inc.",
+  "platforms": ["web", "api", "browser-extension"],
+  "tags": ["sales", "prospecting", "lead-enrichment", "gtm"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.apollo.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 612,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs a 230M+ contact database with outreach, enrichment, and deal tools and a real free tier — the most accessible self-serve all-in-one of the group.",
+  "pros": [
+    "Free self-serve plan available",
+    "230M+ contact database built in",
+    "All-in-one prospect-to-close stack",
+    "Chrome extension and open API",
+    "Used by 600k+ companies"
+  ],
+  "cons": [
+    "Data accuracy varies by segment",
+    "Free tiers have credit limits",
+    "UI breadth can overwhelm",
+    "Less specialized than point tools"
+  ],
+  "bestFor": [
+    "SMB and mid-market sales",
+    "Prospecting and enrichment",
+    "Self-serve teams",
+    "Outbound at scale"
+  ],
+  "alternatives": ["clay", "amplemarket", "gong"],
+  "references": [
+    {
+      "title": "Apollo.io bags $100M at a $1.6B valuation",
+      "url": "https://techcrunch.com/2023/08/29/apollo-io-a-full-stack-sales-tech-platform-bags-100m-at-a-1-6b-valuation/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

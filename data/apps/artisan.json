@@ -1,0 +1,46 @@
+{
+  "slug": "artisan",
+  "name": "Artisan",
+  "tagline": "Ava, an AI BDR that finds leads, runs outreach, and books meetings.",
+  "description": "Artisan's flagship 'AI employee' is Ava, an autonomous AI BDR that sources leads from a database of 250M+ verified B2B contacts, runs personalized multi-channel campaigns across email, social, and phone, handles replies and objections, and books meetings. The platform integrates with existing GTM stacks like HubSpot and Salesforce with no migration.",
+  "insight": "Raised a $25M Series A in April 2025 led by Glade Brook Capital, with HubSpot Ventures and Y Combinator.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Artisan AI, Inc.",
+  "platforms": ["web", "api"],
+  "tags": ["ai-bdr", "outbound", "sales", "ai-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.artisan.co",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 611,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Packages a single named 'AI BDR employee' (Ava) as a near-complete human-BDR replacement — the hardest autonomous-employee positioning of the cohort.",
+  "pros": [
+    "Autonomous end-to-end BDR (Ava)",
+    "250M+ B2B contact database",
+    "No rip-and-replace integration",
+    "Free trial credits to start"
+  ],
+  "cons": [
+    "Aggressive 'replace your BDR' claims",
+    "No published recurring pricing",
+    "Heavy autonomy needs supervision",
+    "Smaller dataset than incumbents"
+  ],
+  "bestFor": ["SMB/mid-market outbound", "Lean sales teams", "AI BDR pilots"],
+  "alternatives": ["11x", "amplemarket", "apollo"],
+  "references": [
+    {
+      "title": "Artisan: $25 Million Series A Raised For Outbound Sales Platform",
+      "url": "https://pulse2.com/artisan-25-million-series-a-raised-for-outbound-sales-platform/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}

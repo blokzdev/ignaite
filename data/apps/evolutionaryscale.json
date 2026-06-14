@@ -1,0 +1,47 @@
+{
+  "slug": "evolutionaryscale",
+  "name": "EvolutionaryScale",
+  "tagline": "Frontier protein language models (the ESM family) for biology.",
+  "description": "EvolutionaryScale builds frontier protein language models — the ESM family, including ESM3, which reasons jointly over sequence, structure, and function. ESM3-open ships open weights and code under a non-commercial license, while larger models are served via its Forge API and AWS/NVIDIA partnerships. It is both an open-model provider and an API platform for protein design and understanding.",
+  "insight": "Founded in 2023 by ex-Meta FAIR scientists after Meta cut its protein team; launched ESM3 with a $142M seed round.",
+  "category": "science",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "EvolutionaryScale",
+  "platforms": ["api", "web"],
+  "tags": ["protein-language-model", "esm3", "biotech", "open-weights"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.evolutionaryscale.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 619,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "The team behind Meta's original ESM models, now shipping open ESM3 weights plus a hosted Forge API — research-grade openness with commercial serving.",
+  "pros": [
+    "Open ESM3 weights",
+    "Reasons over sequence/structure/function",
+    "Forge API plus AWS/NVIDIA",
+    "Ex-Meta ESM team"
+  ],
+  "cons": [
+    "Open weights non-commercial only",
+    "Forge in closed beta",
+    "Largest models gated",
+    "Pricing undisclosed"
+  ],
+  "bestFor": ["Protein design/generation", "Structure prediction", "Bio ML research"],
+  "alternatives": ["chai-discovery", "profluent", "cradle"],
+  "references": [
+    {
+      "title": "EvolutionaryScale emerges with ESM3 and $142M seed",
+      "url": "https://www.maginative.com/article/evolutionaryscale-emerges-from-stealth-with-esm3-the-largest-protein-language-model-and-142m-seed-round/",
+      "source": "Maginative",
+      "kind": "analysis"
+    }
+  ]
+}
