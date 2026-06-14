@@ -1,0 +1,51 @@
+{
+  "slug": "dreamina",
+  "name": "Dreamina",
+  "tagline": "ByteDance's all-in-one AI suite for image and video generation.",
+  "description": "Dreamina is ByteDance's creative platform for turning text and reference images into images and video, powered by its Seedream image models and Seedance video models. It offers text-to-image, image-to-image, and a multi-layer canvas with inpainting, expansion, and removal, plus text- and image-to-video — and integrates with the CapCut video editor. Use cases span character design, product photography, marketing assets, and social content.",
+  "insight": "Its Seedance 2.0 video model's global rollout was paused in 2026 over Hollywood copyright-infringement concerns.",
+  "category": "image-gen",
+  "secondaryCategories": ["video"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "ByteDance",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Seedream 4.0", "Seedance 2.0"]
+  },
+  "tags": ["image-generation", "video-generation", "creative-suite", "bytedance", "capcut"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://dreamina.capcut.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 679,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "One creative suite spanning ByteDance's top-ranked Seedream image and Seedance video models, with canvas editing and CapCut integration.",
+  "pros": [
+    "Seedream 4.0 ranks among top image models",
+    "Image + video in one canvas",
+    "Inpainting, expand, remove tools",
+    "Free tier to start",
+    "CapCut editing integration"
+  ],
+  "cons": [
+    "Video rollout limited by region",
+    "Copyright controversy around outputs",
+    "Tied to ByteDance/CapCut ecosystem"
+  ],
+  "bestFor": ["Social content creators", "Marketing visuals", "Short-form video"],
+  "alternatives": ["krea", "ideogram", "kling", "hailuo-ai"],
+  "references": [
+    {
+      "title": "ByteDance's Dreamina Seedance 2.0 comes to CapCut",
+      "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "graphite",
+  "name": "Graphite",
+  "tagline": "AI code review and stacked pull requests for fast-moving engineering teams.",
+  "description": "Graphite is a code-review platform built around stacked pull requests and Diamond, an AI reviewer that comments on PRs with senior-engineer rigor — catching bugs, style issues, and architectural concerns. It layers a merge queue, a CLI, a VS Code extension, and a collaborative review interface on top of GitHub-based workflows, and now runs agents directly inside the PR.",
+  "insight": "Raised a $52M Series B led by Accel (with Anthropic and Sequoia backing) and launched its Diamond AI reviewer in 2025.",
+  "category": "agent",
+  "secondaryCategories": ["ide"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Graphite",
+  "platforms": ["web", "cli", "api"],
+  "tags": ["code-review", "pull-requests", "stacked-prs", "devtools", "github"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://graphite.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://graphite.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://graphite.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 678,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs stacked pull requests with Diamond, an AI reviewer tuned to comment with senior-engineer rigor rather than nitpicks.",
+  "pros": [
+    "Stacked PRs keep changes small",
+    "Diamond AI reviewer per PR",
+    "Merge queue + CLI + VS Code",
+    "Diamond free up to 100 PRs/month"
+  ],
+  "cons": [
+    "Centered on GitHub workflows",
+    "Stacking has a learning curve",
+    "Paid tiers priced per contributor"
+  ],
+  "bestFor": ["High-velocity teams", "GitHub-based orgs", "Stacked-diff workflows"],
+  "alternatives": ["coderabbit", "greptile", "qodo"],
+  "references": [
+    {
+      "title": "Graphite debuts Diamond AI code reviewer",
+      "url": "https://devclass.com/2025/03/19/graphite-debuts-diamond-ai-code-reviewer-insists-ai-will-never-replace-human-code-review/",
+      "source": "DevClass",
+      "kind": "analysis"
+    },
+    {
+      "title": "The Best AI Code Review Tools of 2026",
+      "url": "https://dev.to/heraldofsolace/the-best-ai-code-review-tools-of-2026-2mb3",
+      "source": "DEV Community",
+      "kind": "comparison"
+    }
+  ]
+}
