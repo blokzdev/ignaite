@@ -111,7 +111,7 @@ function MenuView({
   return (
     <nav
       aria-label="Site"
-      className="no-scrollbar max-h-[60vh] animate-[overlay-in_120ms_ease-out] overflow-x-hidden overflow-y-auto p-2 sm:max-h-80"
+      className="no-scrollbar max-h-[60dvh] animate-[overlay-in_120ms_ease-out] overflow-x-hidden overflow-y-auto overscroll-contain p-2 sm:max-h-80"
     >
       <ul className="flex flex-col gap-1">
         {PAGES.map((p) => {
