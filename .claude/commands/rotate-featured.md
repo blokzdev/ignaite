@@ -24,13 +24,15 @@ fills its **primary** `category`'s slot — ignore `secondaryCategories` for sel
 - **Fold in any open, unmerged `claude/rotate-featured-*` PR** (GitHub MCP: list open PRs → read its
   changed files) so two runs fired close together don't both rotate and collide. If you can't enumerate
   open PRs here, say so in the PR body.
-- Build the list of all 44 categories (`APP_CATEGORIES` in `types/app.ts`) and tally how many active,
+- Build the list of all categories (`APP_CATEGORIES` in `types/app.ts` — read its length, don't assume a
+  count) and tally how many active,
   well-enriched candidates each has — you can only feature a category that has a worthy app.
 
 ## 2. Choose this cycle's categories + apps
 
 - **Pick 14 categories at random**, biased **away from** categories featured in the **last ~2 cycles**
-  (use `featuredAt` recency on their members) so coverage rotates through all 44 over ~3–4 cycles. Honor a
+  (use `featuredAt` recency on their members) so coverage rotates through every category over successive
+  cycles (≈ the category count ÷ 14). Honor a
   `$ARGUMENTS` cluster bias if given. Skip a category that has no worthy candidate (pick another) rather
   than forcing a weak one.
 - For each chosen category, select **one** app that is:
