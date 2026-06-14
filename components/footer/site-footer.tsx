@@ -52,8 +52,8 @@ const socials: ReadonlyArray<{ href: string; label: string; paths: readonly stri
 export function SiteFooter() {
   return (
     <footer className="relative border-t border-white/[0.06] bg-[var(--color-canvas)]">
-      <div className="container-site safe-px py-12 sm:py-14">
-        <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+      <div className="container-site safe-px py-9 md:py-14">
+        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
             <Link
               href="/"
@@ -63,7 +63,9 @@ export function SiteFooter() {
               <BrandMark className="h-6 w-6 drop-shadow-[0_0_10px_rgba(8,217,214,0.45)] transition-transform group-hover:scale-110" />
               <BrandWordmark className="text-sm text-[var(--color-ink)]" />
             </Link>
-            <p className="mt-4 max-w-xs text-sm text-[var(--color-ink-dim)]">
+            {/* Tagline is brand reinforcement on desktop; on mobile it duplicates
+                the hero, so drop it to keep the footer slim + app-like. */}
+            <p className="mt-4 hidden max-w-xs text-sm text-[var(--color-ink-dim)] md:block">
               An AI-managed directory of AI apps.
             </p>
           </div>
@@ -126,7 +128,7 @@ export function SiteFooter() {
           </ul>
         </nav>
 
-        <div className="mt-10 flex flex-col items-start justify-between gap-4 border-t border-white/[0.06] pt-8 md:flex-row md:items-center">
+        <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.06] pt-6 md:mt-10 md:pt-8">
           <p className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
             © {new Date().getFullYear()} {brand.legalName}
           </p>

@@ -12,7 +12,7 @@ import {
   saveDirectoryReturn,
 } from "@/lib/tools/directory-session";
 import { countMatches, filterApps, BATCH_SIZE } from "@/lib/tools/filter-apps";
-import { useMediaQuery } from "@/hooks/use-media-query";
+import { useViewMode } from "@/hooks/use-view-mode";
 import {
   CATEGORY_LABEL,
   directoryFilterOptions,
@@ -183,18 +183,17 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Desktop auto-loads via IntersectionObserver; mobile uses an explicit button
-  // (touch users were never able to reach the old sr-only control). useMediaQuery
-  // is false on the server / first paint, so the observer simply attaches once it
-  // resolves true on desktop — the mobile button is CSS-hidden on sm+ regardless.
-  const isDesktop = useMediaQuery("(min-width: 640px)");
+  // Auto-load the next batch as the sentinel nears the viewport — on every
+  // viewport now (mobile included), so the staggered reveal carries you down the
+  // list without ever reaching for a button. The explicit "Load more" below stays
+  // as the keyboard / no-JS / no-observer fallback.
+  const [view] = useViewMode();
   const loadMore = () => setVisibleCount((n) => Math.min(n + BATCH_SIZE, filtered.length));
 
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const node = sentinelRef.current;
     if (!node) return;
-    if (!isDesktop) return;
     if (visibleCount >= filtered.length) return;
     const io = new IntersectionObserver(
       (entries) => {
@@ -208,7 +207,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
     );
     io.observe(node);
     return () => io.disconnect();
-  }, [visibleCount, filtered.length, isDesktop]);
+  }, [visibleCount, filtered.length]);
 
   const visible = filtered.slice(0, visibleCount);
   // Sponsored slots only appear in the unfiltered default browse — narrow
@@ -263,14 +262,14 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
             </button>
           )}
           <div onClickCapture={rememberLeavePoint}>
-            <RevealToolGrid items={items} revealKey={serializeDirectoryQuery(filter)} />
+            <RevealToolGrid items={items} revealKey={serializeDirectoryQuery(filter)} view={view} />
           </div>
           {hasMore ? (
             <>
-              {/* Desktop: the observer auto-loads before this is reached. */}
+              {/* The observer auto-loads before this is reached; the button is the
+                  keyboard / no-JS fallback (rarely surfaced once auto-load fires). */}
               <div ref={sentinelRef} aria-hidden className="h-px" />
-              {/* Mobile: an explicit ≥44px control (also the keyboard fallback). */}
-              <div className="mt-8 flex justify-center sm:hidden">
+              <div className="mt-8 flex justify-center">
                 <button
                   type="button"
                   onClick={loadMore}
