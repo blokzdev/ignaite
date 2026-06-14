@@ -1,0 +1,62 @@
+{
+  "slug": "insilico-medicine",
+  "name": "Insilico Medicine",
+  "tagline": "Generative AI drug discovery — the end-to-end Pharma.ai suite.",
+  "description": "Insilico Medicine is a clinical-stage drug discovery company whose Pharma.ai suite applies generative AI across the pipeline: PandaOmics for target identification, Chemistry42 for de novo molecule design, and inClinico for clinical-trial outcome prediction. The cloud software is licensed to pharma, and the company says it serves 13 of the top 20 global drugmakers. It also runs its own internal pipeline of AI-discovered drug candidates.",
+  "insight": "INS018_055, its fibrosis candidate, was the first drug both discovered and designed by AI to reach Phase 2 human trials, in 2023.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Insilico Medicine",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary generative models (PandaOmics, Chemistry42) trained on omics and chemistry data."
+  },
+  "tags": ["drug-discovery", "generative-chemistry", "target-discovery", "biotech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://insilico.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 702,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Sells its full discovery pipeline as licensed software — pharma can run PandaOmics and Chemistry42 directly, not just via a partner-only program.",
+  "pros": [
+    "End-to-end Pharma.ai software suite",
+    "Used by most of the top-20 pharma",
+    "First AI-designed drug into Phase 2",
+    "$2.75B Eli Lilly partnership"
+  ],
+  "cons": [
+    "Enterprise-only, opaque pricing",
+    "Built for pharma R&D, not general users",
+    "No approved drug yet",
+    "Heavy domain expertise required"
+  ],
+  "bestFor": ["Pharma R&D teams", "Target discovery", "Generative chemistry"],
+  "alternatives": ["isomorphic-labs", "recursion", "chai-discovery", "cradle"],
+  "references": [
+    {
+      "title": "Eli Lilly reaches $2.75B deal for Insilico's AI drugs",
+      "url": "https://www.cnbc.com/2026/03/29/eli-lilly-reaches-deal-to-bring-ai-developed-drugs-to-global-market.html",
+      "source": "CNBC",
+      "kind": "analysis"
+    },
+    {
+      "title": "Insilico Pharma.AI platform analysis",
+      "url": "https://intuitionlabs.ai/articles/insilico-pharma-ai-drug-discovery",
+      "source": "IntuitionLabs",
+      "kind": "analysis"
+    },
+    {
+      "title": "12 AI drug discovery companies to know in 2025",
+      "url": "https://www.labiotech.eu/best-biotech/ai-drug-discovery-companies/",
+      "source": "Labiotech",
+      "kind": "guide"
+    }
+  ]
+}

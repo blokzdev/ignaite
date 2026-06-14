@@ -1,0 +1,50 @@
+{
+  "slug": "recursion",
+  "name": "Recursion",
+  "tagline": "AI-driven drug discovery on the Recursion OS platform.",
+  "description": "Recursion is a clinical-stage, technology-enabled drug discovery company built around Recursion OS, which pairs one of biopharma's largest proprietary datasets with automated wet labs and machine learning for target and molecule discovery. Its LOWE interface lets scientists query the platform in natural language to find targets, generate compounds, and schedule experiments. It advances an internal pipeline and partners with pharma rather than selling self-serve software.",
+  "insight": "Acquired Exscientia in an all-stock merger completed November 2024, combining two public AI-drug platforms under Nasdaq ticker RXRX.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Recursion Pharmaceuticals",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary phenomics and ML models trained on its own biological data; LOWE adds an LLM query layer."
+  },
+  "tags": ["drug-discovery", "phenomics", "biotech", "automated-labs"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.recursion.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 703,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Runs a vast in-house automated wet lab generating millions of cell experiments weekly, feeding a 50+ petabyte dataset few rivals can match.",
+  "pros": [
+    "Recursion OS with LOWE language layer",
+    "Massive proprietary biology dataset",
+    "Automated wet lab at scale",
+    "Public company with pharma partners"
+  ],
+  "cons": [
+    "No self-serve product or API",
+    "Partner and internal use only",
+    "Opaque pricing",
+    "No approved drug yet"
+  ],
+  "bestFor": ["Pharma R&D collaborations", "Phenomics-based discovery", "Target identification"],
+  "alternatives": ["isomorphic-labs", "insilico-medicine", "chai-discovery", "profluent"],
+  "references": [
+    {
+      "title": "12 AI drug discovery companies to know in 2025",
+      "url": "https://www.labiotech.eu/best-biotech/ai-drug-discovery-companies/",
+      "source": "Labiotech",
+      "kind": "guide"
+    }
+  ]
+}
