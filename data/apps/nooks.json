@@ -1,0 +1,46 @@
+{
+  "slug": "nooks",
+  "name": "Nooks",
+  "tagline": "AI sales workspace with a parallel dialer, sequencing, signals, and coaching.",
+  "description": "Nooks is an AI sales workspace where reps work alongside AI agents on outbound tasks. Its AI Dialer uses parallel dialing to connect with roughly 3x more prospects by auto-detecting live answers and skipping voicemails, alongside AI sequencing, intent signals and lead prioritization, and conversation-based AI coaching.",
+  "insight": "Raised a $43M Series B led by Kleiner Perkins in Oct 2024, with roughly $70M raised in total.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Nooks AI, Inc.",
+  "platforms": ["web", "api"],
+  "tags": ["ai-dialer", "cold-calling", "sales", "outbound"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nooks.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 618,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Built around a parallel AI dialer (~3x connects) plus call coaching — the strongest fit for high-volume phone outbound versus email-first platforms.",
+  "pros": [
+    "Parallel dialer ~3x more connects",
+    "AI coaching from real calls",
+    "Unified dialer, sequencing, signals",
+    "Kleiner Perkins-backed"
+  ],
+  "cons": [
+    "No public pricing or free tier",
+    "Phone-outbound focus is narrow",
+    "Newer entrant",
+    "Best ROI needs call-heavy motion"
+  ],
+  "bestFor": ["High-volume SDR teams", "Cold calling", "Sales coaching"],
+  "alternatives": ["11x", "gong", "apollo"],
+  "references": [
+    {
+      "title": "Nooks announces $43M Series B and AI Sales Assistant Platform",
+      "url": "https://www.prnewswire.com/news-releases/nooks-announces-43m-series-b-and-launches-ai-sales-assistant-platform-302285425.html",
+      "source": "PR Newswire",
+      "kind": "analysis"
+    }
+  ]
+}

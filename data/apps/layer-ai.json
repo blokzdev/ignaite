@@ -1,0 +1,50 @@
+{
+  "slug": "layer-ai",
+  "name": "Layer AI",
+  "tagline": "AI production platform for game creative, ads, and live-ops assets.",
+  "description": "Layer is an AI production platform that helps game studios scale creative output — user-acquisition ads, live-ops content, and marketing assets — across image, video, 3D, and audio, with custom style training for on-brand results. It supports batch generation of 500+ variants per day and integrates with Photoshop, Blender, Maya, Unreal, Unity, and Figma. It is used by 300+ entertainment brands including Zynga, King, and SciPlay.",
+  "insight": "Raised a $6.5M seed in May 2025 led by Arcadia, with ties to King co-founder Riccardo Zacconi; founded 2023 by ex-Unity veterans.",
+  "category": "gaming",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Layer AI",
+  "platforms": ["web", "api"],
+  "tags": ["gaming", "game-art", "creative-production", "ua"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://layer.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 629,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Optimized for live-ops and UA creative throughput with deep DCC-tool integration, not one-off asset generation.",
+  "pros": [
+    "Built for studio-scale batch output",
+    "Deep DCC integrations",
+    "On-brand style training",
+    "Strong mobile-games adoption"
+  ],
+  "cons": [
+    "Sales-led, no clear free tier",
+    "Focused on marketing/live-ops",
+    "Smaller raise than peers"
+  ],
+  "bestFor": [
+    "UA and live-ops creative",
+    "Mobile game studios",
+    "Marketing asset scale",
+    "Brand-consistent output"
+  ],
+  "alternatives": ["scenario", "ludo-ai", "rosebud-ai"],
+  "references": [
+    {
+      "title": "Layer AI closes $6.5m seed round",
+      "url": "https://www.pocketgamer.biz/layer-ai-closes-65m-seed-round-with-generative-ai-tools-geared-to-mobile-devs/",
+      "source": "PocketGamer.biz",
+      "kind": "analysis"
+    }
+  ]
+}

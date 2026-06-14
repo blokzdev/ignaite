@@ -1,0 +1,47 @@
+{
+  "slug": "chai-discovery",
+  "name": "Chai Discovery",
+  "tagline": "Foundation models for molecular structure and antibody design.",
+  "description": "Chai Discovery builds foundation models for drug discovery — Chai-1 for biomolecular structure prediction across proteins, ligands, DNA/RNA, and glycans, and Chai-2 for de novo antibody design. Chai-1 weights and inference code are released for non-commercial use, and a free web server runs the model in-browser. It is both a model provider and a usable platform.",
+  "insight": "OpenAI-backed; raised a $130M Series B at a ~$1.3B valuation in Dec 2025, co-led by Oak HC/FT and General Catalyst.",
+  "category": "science",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "Chai Discovery",
+  "platforms": ["web", "api"],
+  "tags": ["protein-structure", "antibody-design", "drug-discovery", "open-weights"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.chaidiscovery.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 621,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "One of the few drug-discovery shops to ship open model weights plus a free in-browser server, rather than locking everything behind pharma partnerships.",
+  "pros": [
+    "Free in-browser structure prediction",
+    "Open Chai-1 weights",
+    "SOTA protein-ligand accuracy",
+    "OpenAI-backed"
+  ],
+  "cons": [
+    "Weights non-commercial only",
+    "Chai-2 not open",
+    "Young company (2024)",
+    "Core IP still proprietary"
+  ],
+  "bestFor": ["Structure prediction", "De novo antibody design", "Drug-discovery research"],
+  "alternatives": ["evolutionaryscale", "profluent", "isomorphic-labs"],
+  "references": [
+    {
+      "title": "OpenAI-backed Chai Discovery raises $130M",
+      "url": "https://hitconsultant.net/2025/12/15/openai-backed-chai-discovery-raises-130m-to-tackle-undruggable-targets-with-generative-ai/",
+      "source": "HIT Consultant",
+      "kind": "analysis"
+    }
+  ]
+}

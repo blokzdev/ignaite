@@ -1,0 +1,46 @@
+{
+  "slug": "isomorphic-labs",
+  "name": "Isomorphic Labs",
+  "tagline": "AI-first drug design built on AlphaFold for pharma R&D.",
+  "description": "Isomorphic Labs is an AI-first drug discovery company spun out of Google DeepMind, building generative and predictive ML models for molecular design and drug-performance prediction. Its Drug Design Engine builds on AlphaFold to advance internal and partnered pipelines with Eli Lilly, Novartis, and J&J. It is a drug-discovery company that works through pharma R&D partnerships rather than a self-serve product.",
+  "insight": "DeepMind spinout (2021); raised a $600M Series A led by Thrive Capital with Alphabet and GV in March 2025 — its first external capital.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Isomorphic Labs",
+  "platforms": ["web"],
+  "tags": ["drug-discovery", "alphafold", "protein", "biotech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.isomorphiclabs.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 620,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Direct lineage to Nobel-winning AlphaFold plus Alphabet backing — few AI-drug shops pair that model pedigree with deep-pocket pharma partnerships.",
+  "pros": [
+    "AlphaFold-derived design models",
+    "Alphabet-backed capital",
+    "Top-pharma partnerships",
+    "Nobel-laureate leadership"
+  ],
+  "cons": [
+    "Pharma partnerships only",
+    "No public product or API",
+    "No approved drug yet",
+    "Opaque pricing"
+  ],
+  "bestFor": ["Pharma R&D collaborations", "AI drug design", "Structure-based discovery"],
+  "alternatives": ["chai-discovery", "profluent", "lila-sciences"],
+  "references": [
+    {
+      "title": "Isomorphic Labs raises $600M from Thrive",
+      "url": "https://techcrunch.com/2025/03/31/alphabets-ai-drug-discovery-platform-isomorphic-labs-raises-600m-from-thrive/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

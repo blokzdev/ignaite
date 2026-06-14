@@ -1,0 +1,50 @@
+{
+  "slug": "scenario",
+  "name": "Scenario",
+  "tagline": "Train custom models to generate style-consistent game assets.",
+  "description": "Scenario lets game developers train custom models on their own art references (5-100 images) to generate style-consistent assets across image, video, 3D, and audio. It offers a node-based workflow editor, 550+ underlying models, and an API plus MCP server for agent integration. It is used in production by studios including Ubisoft, Unity, and Scopely.",
+  "insight": "Raised a $6M seed (Jan 2023) led by Play Ventures; angels include Oculus's Brendan Iribe and Hugging Face's Clement Delangue.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Scenario",
+  "platforms": ["web", "api"],
+  "tags": ["gaming", "game-art", "asset-generation", "image-gen"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.scenario.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 626,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Custom-trained per-studio style models keep generated assets on-brand — beyond generic text-to-image tools.",
+  "pros": [
+    "Style-consistent custom models",
+    "SOC 2; no cross-customer data reuse",
+    "Unity plugin, API, and MCP",
+    "Real studio adoption"
+  ],
+  "cons": [
+    "Credit-based cost adds up at scale",
+    "Quality depends on training set",
+    "Crowded AI-art space"
+  ],
+  "bestFor": [
+    "Game art pipelines",
+    "On-brand asset gen",
+    "Indie and AAA studios",
+    "2D/3D/audio assets"
+  ],
+  "alternatives": ["layer-ai", "ludo-ai", "rosebud-ai"],
+  "references": [
+    {
+      "title": "Scenario rolls out generative AI tool targeted at game devs",
+      "url": "https://www.gamedeveloper.com/art/scenario-inc-rolls-out-generative-ai-tool-targeted-at-game-devs",
+      "source": "Game Developer",
+      "kind": "analysis"
+    }
+  ]
+}

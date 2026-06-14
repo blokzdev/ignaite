@@ -40,6 +40,7 @@ export type AppCategory =
   | "vision"
   | "3d"
   | "design"
+  | "gaming"
   // Work — knowledge, ops & go-to-market
   | "assistant"
   | "writing"
@@ -53,6 +54,8 @@ export type AppCategory =
   | "meeting"
   | "marketing"
   | "support"
+  | "sales"
+  | "hr"
   // Verticals
   | "companion"
   | "healthcare"
@@ -61,7 +64,8 @@ export type AppCategory =
   | "education"
   | "real-estate"
   // Frontier
-  | "robotics";
+  | "robotics"
+  | "science";
 
 export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   // Build
@@ -87,6 +91,7 @@ export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   "vision",
   "3d",
   "design",
+  "gaming",
   // Work
   "assistant",
   "writing",
@@ -100,6 +105,8 @@ export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   "meeting",
   "marketing",
   "support",
+  "sales",
+  "hr",
   // Verticals
   "companion",
   "healthcare",
@@ -109,6 +116,7 @@ export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   "real-estate",
   // Frontier
   "robotics",
+  "science",
 ];
 
 export type AppPricing = "free" | "freemium" | "paid" | "byo-key";

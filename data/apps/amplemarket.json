@@ -1,0 +1,46 @@
+{
+  "slug": "amplemarket",
+  "name": "Amplemarket",
+  "tagline": "All-in-one AI sales platform with Duo, a copilot for finding and engaging buyers.",
+  "description": "Amplemarket is an all-in-one AI sales platform for finding prospects, personalizing outreach, and running multichannel campaigns. Its AI copilot, Duo, detects buying signals across millions of data points — job changes, website visits, and competitor signals — researches accounts, and builds personalized multichannel sequences across email, calls, social, and AI voice notes, learning from rep feedback.",
+  "insight": "Founded in 2018 by three Portuguese physicists; raised a $12M Series A co-led by Comcast Ventures and Armilar.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Amplemarket, Inc.",
+  "platforms": ["web", "api"],
+  "tags": ["sales", "buying-signals", "outbound", "ai-copilot"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.amplemarket.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 619,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Signal-driven prospecting (Duo) ties intent detection directly into personalized sequences — strong for data/signal-led outbound over volume-first tools.",
+  "pros": [
+    "Buying-signal detection built in",
+    "All-in-one find-to-engage workflow",
+    "AI voice notes and multichannel",
+    "Copilot learns from feedback"
+  ],
+  "cons": [
+    "No public recurring pricing",
+    "Free trial only, not freemium",
+    "Smaller scale than incumbents",
+    "Data coverage varies by region"
+  ],
+  "bestFor": ["Signal-led outbound", "Mid-market sales", "Personalized prospecting"],
+  "alternatives": ["clay", "apollo", "11x"],
+  "references": [
+    {
+      "title": "Amplemarket Raises $12 Million in Series A",
+      "url": "https://www.thesaasnews.com/news/amplemarket-raises-12-million-in-series-a",
+      "source": "The SaaS News",
+      "kind": "analysis"
+    }
+  ]
+}

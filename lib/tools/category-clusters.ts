@@ -29,7 +29,17 @@ export const CATEGORY_CLUSTERS = [
   {
     label: "Create",
     blurb: "Media & design",
-    categories: ["image-gen", "video", "audio", "music", "voice", "vision", "3d", "design"],
+    categories: [
+      "image-gen",
+      "video",
+      "audio",
+      "music",
+      "voice",
+      "vision",
+      "3d",
+      "design",
+      "gaming",
+    ],
   },
   {
     label: "Work",
@@ -47,6 +57,8 @@ export const CATEGORY_CLUSTERS = [
       "meeting",
       "marketing",
       "support",
+      "sales",
+      "hr",
     ],
   },
   {
@@ -57,7 +69,7 @@ export const CATEGORY_CLUSTERS = [
   {
     label: "Frontier",
     blurb: "Embodied & emerging",
-    categories: ["robotics"],
+    categories: ["robotics", "science"],
   },
 ] as const satisfies ReadonlyArray<{
   label: string;

@@ -1,0 +1,41 @@
+{
+  "slug": "ludo-ai",
+  "name": "Ludo.ai",
+  "tagline": "AI game ideation, market research, and asset generation.",
+  "description": "Ludo.ai began as the first dedicated AI game-ideation tool — generating game concepts, surfacing market and trend research, and helping developers validate ideas. It has since broadened into asset generation (sprites and spritesheets, 2D/3D models, audio, and video) alongside its ideation and market-analysis features. Access is via a web app, REST API, an MCP integration, and a Unity Editor plugin.",
+  "insight": "Founded in 2020 by Tom Pigott and billed as the first dedicated AI game-ideation tool, predating the generative-asset wave.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Ludo.ai",
+  "platforms": ["web", "api"],
+  "tags": ["gaming", "game-design", "ideation", "asset-generation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ludo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 627,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs idea generation with live market and trend research — a 'what should I build' co-pilot most asset tools lack.",
+  "pros": [
+    "Ideation plus market research",
+    "Now also generates assets",
+    "API, Unity, and MCP",
+    "Early mover in the niche"
+  ],
+  "cons": ["Positioning shifted to asset gen", "Pricing not on homepage", "Funding details thin"],
+  "bestFor": ["Game ideation", "Market/trend research", "Rapid prototyping", "Sprite generation"],
+  "alternatives": ["scenario", "rosebud-ai", "layer-ai"],
+  "references": [
+    {
+      "title": "Ludo: AI-Powered Toolkit Helping Developers Create Games",
+      "url": "https://80.lv/articles/ludo-ai-powered-toolkit-helping-developers-create-games",
+      "source": "80 Level",
+      "kind": "review"
+    }
+  ]
+}

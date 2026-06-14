@@ -1,0 +1,47 @@
+{
+  "slug": "mercor",
+  "name": "Mercor",
+  "tagline": "AI talent marketplace matching vetted experts to AI labs and companies.",
+  "description": "Mercor runs an AI-powered talent marketplace that matches vetted experts — engineers, scientists, doctors, and lawyers — with AI labs and companies, largely to generate and review training and reinforcement data. AI conducts the initial screening interview, then humans are placed on hourly paid work. It began as an AI recruiting tool and became a leading supplier of 'human data' for frontier-model training.",
+  "insight": "Raised a $350M Series C led by Felicis at a $10B valuation in Oct 2025 — 5x its $2B round eight months earlier.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Mercor",
+  "platforms": ["web", "api"],
+  "tags": ["recruiting", "talent-marketplace", "ai-data", "hr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mercor.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 632,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Unlike sourcing tools, Mercor is a marketplace optimized for staffing domain experts onto AI-lab training-data work, not for filling your own roles.",
+  "pros": [
+    "AI-screens experts at scale",
+    "Top AI labs as customers",
+    "Pays experts hourly",
+    "Multi-domain (STEM, law, med)",
+    "Fast vetting pipeline"
+  ],
+  "cons": [
+    "Not a self-serve hiring tool",
+    "Sales-/marketplace-led",
+    "Aimed at AI-data work",
+    "No public pricing"
+  ],
+  "bestFor": ["AI labs sourcing experts", "Training-data staffing", "Expert gig work"],
+  "alternatives": ["micro1", "seekout", "juicebox"],
+  "references": [
+    {
+      "title": "Mercor quintuples valuation to $10B with $350M Series C",
+      "url": "https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

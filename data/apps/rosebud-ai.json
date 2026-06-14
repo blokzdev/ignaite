@@ -1,0 +1,50 @@
+{
+  "slug": "rosebud-ai",
+  "name": "Rosebud AI",
+  "tagline": "Build playable 3D browser games with natural-language vibe coding.",
+  "description": "Rosebud AI lets anyone build playable browser games — 2D, 3D, and multiplayer — by describing them in natural language ('vibe coding'), with no installs or manual coding required. It bundles a Game Creator plus tools like PixelVibe for AI game assets, an RPG/Visual Novel maker, and AI Storybook. Over 500,000 games have reportedly been created on the platform.",
+  "insight": "Founded out of Y Combinator (S19) by Lisha Li, a Berkeley deep-learning PhD who later became an a16z partner.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Rosebud AI, Inc.",
+  "platforms": ["web"],
+  "tags": ["gaming", "no-code", "game-creation", "vibe-coding"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://rosebud.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 628,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Generates fully playable, shareable browser games from a prompt — not just assets or code snippets.",
+  "pros": [
+    "Prompt-to-playable game",
+    "No install, runs in browser",
+    "2D/3D/multiplayer support",
+    "Bundled asset and maker tools"
+  ],
+  "cons": [
+    "Output depth limited vs engines",
+    "Browser-only target",
+    "Founder transitioned to a16z"
+  ],
+  "bestFor": [
+    "No-code game makers",
+    "Education and kids",
+    "Rapid game prototypes",
+    "Hobbyist creators"
+  ],
+  "alternatives": ["ludo-ai", "scenario", "inworld-ai"],
+  "references": [
+    {
+      "title": "Lisha Li: Democratizing Game Creation Through AI",
+      "url": "https://www.buzzsprout.com/222312/episodes/17966589-lisha-li-democratizing-game-creation-through-ai",
+      "source": "Getting2Alpha",
+      "kind": "interview"
+    }
+  ]
+}

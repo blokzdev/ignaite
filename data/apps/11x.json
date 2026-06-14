@@ -1,0 +1,46 @@
+{
+  "slug": "11x",
+  "name": "11x",
+  "tagline": "Autonomous AI digital workers for outbound sales and inbound phone calls.",
+  "description": "11x builds autonomous AI sales agents — 'digital workers' that run outbound prospecting and inbound call handling end to end. Alice, its AI SDR, identifies, researches, personalizes, and engages prospects across email, phone, social, and SMS, while Julian handles inbound calls and qualification. It is positioned as an AI growth engine for go-to-market teams.",
+  "insight": "Raised a $50M Series B led by Andreessen Horowitz in Nov 2024, after a Benchmark-led Series A.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "11x, Inc.",
+  "platforms": ["web", "api"],
+  "tags": ["ai-sdr", "outbound", "sales", "ai-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.11x.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 615,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "A fully autonomous 'digital worker' framing spanning both outbound (Alice) and inbound voice (Julian) in one platform, unlike single-function SDR tools.",
+  "pros": [
+    "Autonomous multi-channel outbound",
+    "Inbound AI phone agent included",
+    "Tier-1 VC backing (a16z, Benchmark)",
+    "50+ data sources for targeting"
+  ],
+  "cons": [
+    "No public pricing or free tier",
+    "2025 scrutiny over churn claims",
+    "Autonomous agents need oversight",
+    "Relatively young product"
+  ],
+  "bestFor": ["Outbound GTM teams", "AI SDR adoption", "Inbound call qualification"],
+  "alternatives": ["artisan", "amplemarket", "nooks"],
+  "references": [
+    {
+      "title": "11x Raises a $50 Million Series B Led by Andreessen Horowitz",
+      "url": "https://www.globenewswire.com/news-release/2024/11/11/2978485/0/en/11x-Raises-a-50-Million-Series-B-Led-by-Andreessen-Horowitz-to-Accelerate-the-Era-of-Digital-Workers.html",
+      "source": "GlobeNewswire",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "series-ai",
+  "name": "Series AI",
+  "tagline": "AI-native game engine and platform for building games with generative AI.",
+  "description": "Series AI is a generative-AI game development company building Rho Engine, an AI-native, full-stack platform that uses generative models to speed up game creation — from concept and assets through to playable builds. Founded by veteran game developer Pany Haritatos, it works with studios and IP holders to co-develop AI-native games.",
+  "insight": "Founded by ex-Kongregate CEO Pany Haritatos; raised a $28M Series A from Netflix, Dell, and a16z for its AI-native Rho game engine.",
+  "category": "gaming",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Series AI",
+  "platforms": ["web"],
+  "tags": ["gaming", "game-engine", "generative-ai", "game-development"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://series.inc",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 631,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "An AI-native game engine (Rho) built from scratch around generative models, rather than AI features bolted onto a traditional engine.",
+  "pros": [
+    "AI-native Rho game engine",
+    "Full-stack game creation",
+    "Backed by a16z, Netflix, Dell",
+    "Veteran game-dev leadership"
+  ],
+  "cons": ["Sales-led, no public pricing", "Platform/studio, not self-serve", "Early-stage engine"],
+  "bestFor": ["Studios and IP holders", "AI-native game builds", "Game prototyping"],
+  "alternatives": ["rosebud-ai", "ludo-ai", "scenario"],
+  "references": [
+    {
+      "title": "Series AI raises $7.9M in funding for game-building tools",
+      "url": "https://gamesbeat.com/series-ai-raises-7-9m-in-funding-for-game-building-tools/",
+      "source": "GamesBeat",
+      "kind": "analysis"
+    }
+  ]
+}

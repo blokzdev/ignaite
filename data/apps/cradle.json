@@ -1,0 +1,46 @@
+{
+  "slug": "cradle",
+  "name": "Cradle",
+  "tagline": "AI protein-engineering platform for faster lab design rounds.",
+  "description": "Cradle is an AI-powered protein-engineering SaaS platform that guides scientists through design rounds — candidate generation, multi-property optimization, and results analysis — using ML models trained per-customer on proprietary wet-lab data. It runs its own validation wet lab in Amsterdam and serves biopharma and industrial-biotech R&D teams including Novo Nordisk and Johnson & Johnson. It is sold via subscription with no royalties, and customers keep full IP.",
+  "insight": "Amsterdam-based; raised a $73M Series B led by IVP in Nov 2024, taking total funding past $100M, and runs its own validation wet lab.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cradle",
+  "platforms": ["web"],
+  "tags": ["protein-engineering", "biotech", "drug-discovery"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cradle.bio",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 622,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Self-serve web SaaS for protein engineering with per-customer models and an in-house wet lab — a usable product where most rivals are partnership-only.",
+  "pros": [
+    "Self-serve web platform",
+    "Multi-property optimization",
+    "Own validation wet lab",
+    "Customers keep IP, no royalties"
+  ],
+  "cons": [
+    "Enterprise sales-led pricing",
+    "No public free tier",
+    "Needs customer wet-lab data",
+    "Not a downloadable model"
+  ],
+  "bestFor": ["Antibody/enzyme engineering", "Protein optimization", "Biotech R&D teams"],
+  "alternatives": ["profluent", "chai-discovery", "evolutionaryscale"],
+  "references": [
+    {
+      "title": "AI protein discovery platform Cradle raises $73M",
+      "url": "https://siliconangle.com/2024/11/26/ai-driven-protein-discovery-platform-cradle-raises-73m/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "micro1",
+  "name": "micro1",
+  "tagline": "AI interviewer 'Zara' that sources and vets experts at scale.",
+  "description": "micro1 is a human-data platform that uses its AI recruiter agent 'Zara' to source, interview, and vet domain experts at high velocity, then channels them into dataset creation for AI labs. The same Zara interviewer also powers a vetted-engineer and talent offering. It is positioned as a Scale AI competitor.",
+  "insight": "Raised a $35M Series A led by 01 Advisors at a $500M valuation in Sept 2025; reportedly crossed $100M ARR by year-end.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "micro1 Inc.",
+  "platforms": ["web", "api"],
+  "tags": ["recruiting", "ai-interview", "ai-data", "hr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.micro1.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 633,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Centers an AI interviewer ('Zara') that vets experts at scale, blending recruiting automation with AI-training-data delivery in one platform.",
+  "pros": [
+    "Zara AI interviewer at scale",
+    "Fast expert vetting",
+    "Strong ARR growth",
+    "Multi-industry experts",
+    "Scale AI alternative"
+  ],
+  "cons": [
+    "Focused on AI-data, not general hiring",
+    "No public pricing",
+    "Sales-led",
+    "Young company"
+  ],
+  "bestFor": ["AI labs needing experts", "Vetted-engineer hiring", "Data-annotation teams"],
+  "alternatives": ["mercor", "heymilo", "seekout"],
+  "references": [
+    {
+      "title": "micro1, a competitor to Scale AI, raises at $500M valuation",
+      "url": "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

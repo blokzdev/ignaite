@@ -1,0 +1,46 @@
+{
+  "slug": "lila-sciences",
+  "name": "Lila Sciences",
+  "tagline": "Autonomous AI labs pursuing scientific superintelligence.",
+  "description": "Lila Sciences is building a 'scientific superintelligence' platform that pairs a proprietary AI model with autonomous AI Science Factory lab instruments to generate hypotheses, design and run experiments, and learn in real time. It offers Catalyst, which augments existing R&D, and Creation, for new discoveries, across materials, therapeutics, chemicals, and energy. It is a platform and research company engaged through partnership rather than self-serve.",
+  "insight": "Founded inside Flagship Pioneering; unveiled March 2025 and has since raised about $550M for its 'scientific superintelligence' bet.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Lila Sciences",
+  "platforms": ["web"],
+  "tags": ["autonomous-lab", "materials", "drug-discovery", "scientific-ai"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lila.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 625,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "A domain-agnostic autonomous 'AI + robotic lab' loop spanning materials, chemicals, and therapeutics — broader than the protein/drug-only focus of peers.",
+  "pros": [
+    "Autonomous experiment loop",
+    "Cross-domain (materials to therapeutics)",
+    "Flagship Pioneering-backed",
+    "Deep funding (~$550M)"
+  ],
+  "cons": [
+    "Partnership-only engagement",
+    "No public product or API",
+    "'Superintelligence' claims unproven",
+    "Opaque pricing"
+  ],
+  "bestFor": ["Autonomous R&D labs", "Materials discovery", "Multi-domain science"],
+  "alternatives": ["isomorphic-labs", "cradle"],
+  "references": [
+    {
+      "title": "Flagship startup raises $200M for scientific superintelligence",
+      "url": "https://www.biopharmadive.com/news/lila-flagship-ai-superintelligence-startup-seed/742213/",
+      "source": "BioPharma Dive",
+      "kind": "analysis"
+    }
+  ]
+}

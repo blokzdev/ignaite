@@ -1,0 +1,46 @@
+{
+  "slug": "profluent",
+  "name": "Profluent",
+  "tagline": "Generative protein language models that design novel proteins.",
+  "description": "Profluent uses generative AI — its ProGen-lineage protein language models — to author novel proteins from scratch or from natural scaffolds, for medicine and agriculture. It released OpenCRISPR-1, described as the first AI-designed gene editor (open-licensed and published in Nature), and is expanding into antibodies and enzymes. It operates as an AI protein-design company working through partnerships with open-sequence releases, not a self-serve consumer platform.",
+  "insight": "Spun out of a Salesforce-funded ProGen project; open-released OpenCRISPR-1, billed as the first AI-designed gene editor.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Profluent Bio",
+  "platforms": ["web"],
+  "tags": ["protein-design", "gene-editing", "drug-discovery", "biotech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.profluent.bio",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 623,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs frontier protein LLMs with openly released designs like OpenCRISPR-1, while most peers keep AI-designed molecules proprietary.",
+  "pros": [
+    "ProGen protein-LLM lineage",
+    "Open-released gene editor",
+    "Nature-published work",
+    "Eli Lilly and IDT partnerships"
+  ],
+  "cons": [
+    "Partnership/licensing only",
+    "No self-serve platform",
+    "Open releases are sequences, not a service",
+    "Opaque pricing"
+  ],
+  "bestFor": ["AI-designed gene editing", "Protein/enzyme design", "Genetic-medicine partners"],
+  "alternatives": ["cradle", "evolutionaryscale", "chai-discovery"],
+  "references": [
+    {
+      "title": "Profluent Bio raises $106M to scale AI-designed proteins",
+      "url": "https://vctavern.com/profluent-bio-raises-106m-to-scale-ai-designed-proteins-and-programmable-biology-platform/",
+      "source": "VC Tavern",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -31,6 +31,7 @@ export const CATEGORY_LABEL: Record<AppCategory, string> = {
   vision: "Vision",
   "3d": "3D",
   design: "Design",
+  gaming: "Gaming",
   // Work — knowledge, ops & go-to-market
   assistant: "Assistant",
   writing: "Writing",
@@ -44,6 +45,8 @@ export const CATEGORY_LABEL: Record<AppCategory, string> = {
   meeting: "Meeting",
   marketing: "Marketing",
   support: "Support",
+  sales: "Sales",
+  hr: "HR",
   // Verticals
   companion: "Companion",
   healthcare: "Healthcare",
@@ -53,4 +56,5 @@ export const CATEGORY_LABEL: Record<AppCategory, string> = {
   "real-estate": "Real Estate",
   // Frontier
   robotics: "Robotics",
+  science: "Science",
 };
