@@ -110,7 +110,9 @@ one — e.g. moving the primary `category`, or removing/swapping a secondary tha
 ## 3. Validate + report
 
 - `pnpm velite` (runs `velite build --strict` — schema-validates every touched JSON, exiting non-zero
-  with precise per-file errors), then `pnpm typecheck`, `pnpm lint`, `pnpm build` clean.
+  with precise per-file errors), then `pnpm typecheck`, `pnpm lint`, `pnpm build` clean. These are the
+  **same gates CI runs**, so a clean local run means CI will pass (this is what lets the scheduled mode
+  below auto-merge without babysitting).
 - **Interactive run:** report a concise diff (entries reviewed, what changed and why, what was
   archived, anything ambiguous needing a human decision). Don't commit unless the user asked.
 
@@ -124,7 +126,15 @@ oldest-`lastVerifiedAt` batch **past the 14-day freshness floor**, then:
   fresh data. If the whole directory is within the floor, do nothing.
 - Apply the verified fixes and bump `lastVerifiedAt` as above.
 - If anything changed: create a branch (e.g. `claude/audit-directory-<date>`), commit, push, and open
-  a PR into `main` summarizing the diff + any "needs human decision" items. **Do not merge.**
+  a PR into `main` summarizing the diff + any "needs human decision" items. Then **enable squash
+  auto-merge and END the run** — do **not** subscribe to the PR, watch CI, sleep, or schedule a
+  check-in. You already passed every CI gate locally and auto-merge fires only on green, so GitHub
+  merges it server-side once CI passes and deletes the branch (the repo has auto-merge +
+  delete-head-branch on); if CI ever fails the PR just stays open for the next run or a human. Because
+  an audit edits **trusted factual data**, its guard isn't a pre-merge review but the routine's
+  discipline — change only when the source contradicts, a cited `changelog` entry per substantive
+  change (step 2.5), and `git revert` as the undo. (A genuinely ambiguous "needs human decision" item is
+  the exception: leave that entry unchanged and call it out in the PR body rather than guessing.)
 - If nothing changed: **do nothing** — no branch, no empty PR. Briefly state the batch was clean.
 
 Cadence: run ~weekly (or before a release), cycling oldest-`lastVerifiedAt` entries first so the whole
