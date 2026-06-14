@@ -1,0 +1,47 @@
+{
+  "slug": "rox",
+  "name": "Rox",
+  "tagline": "Revenue on autopilot — an agent swarm layered over your CRM.",
+  "description": "Rox is an AI revenue platform that deploys swarms of autonomous agents on top of a company's existing stack to handle sales work end to end — generating pipeline, researching prospects, booking meetings, managing deals, and keeping the CRM updated. It plugs into Salesforce, HubSpot, Slack, and Google/Microsoft workspaces rather than replacing them, and ships web, desktop, mobile, and Chrome-extension clients. Marketed as 'Revenue on Autopilot,' it counts Ramp, MongoDB, and New Relic among early customers.",
+  "insight": "Founded by ex-New Relic growth chief Ishan Mukherjee; hit a reported ~$1.2B valuation under two years after its 2024 stealth launch.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Rox",
+  "platforms": ["web", "browser-extension", "api"],
+  "tags": ["sales-agents", "revenue-operations", "agentic-crm", "sales"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://rox.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 638,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Acts as an 'agent swarm' layered over your existing CRM (Salesforce, HubSpot) rather than replacing it — automating account monitoring and CRM updates.",
+  "pros": [
+    "Layers onto existing CRM stack",
+    "Autonomous multi-agent 'swarm'",
+    "End-to-end sales workflow",
+    "Web, desktop, mobile, extension",
+    "Notable early enterprise customers"
+  ],
+  "cons": [
+    "Enterprise pricing, not public",
+    "Young company (founded 2024)",
+    "Agent autonomy needs oversight",
+    "Heavy CRM integration setup"
+  ],
+  "bestFor": ["Enterprise revenue teams", "Salesforce/HubSpot shops", "Account expansion"],
+  "alternatives": ["11x", "artisan", "1mind"],
+  "references": [
+    {
+      "title": "Sales automation startup Rox AI hits $1.2B valuation, sources say",
+      "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

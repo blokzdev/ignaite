@@ -1,0 +1,52 @@
+{
+  "slug": "evertune",
+  "name": "Evertune",
+  "tagline": "Enterprise generative engine optimization and AI visibility.",
+  "description": "Evertune is an enterprise generative engine optimization platform that measures and improves how brands show up in AI answers across ChatGPT, Gemini, Claude, Perplexity, and Google AI Mode. It pairs statistically grounded brand and competitive monitoring with content activation and an emerging AI-advertising offering, aiming to help marketers 'own the AI customer journey.' Clients include Roku, Virgin Voyages, WPP, and HexClad.",
+  "insight": "NYC-based; raised a $15M Series A led by Felicis Ventures in Aug 2025, bringing total funding to about $19M.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Evertune",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["ChatGPT", "Gemini", "Claude", "Perplexity", "Google AI Mode"],
+    "notes": "Tracks brand visibility across these AI answer engines."
+  },
+  "tags": ["geo", "ai-visibility", "brand-monitoring", "marketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.evertune.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 641,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pitches statistically significant brand measurement plus AI advertising — going beyond monitoring to placing ads inside AI conversations.",
+  "pros": [
+    "Enterprise-grade measurement",
+    "Covers major AI answer engines",
+    "Content activation tools",
+    "Emerging AI-ad placements",
+    "Named enterprise clients"
+  ],
+  "cons": [
+    "Enterprise focus, pricing opaque",
+    "GEO category still nascent",
+    "Ad product is early",
+    "Overlaps with SEO tooling"
+  ],
+  "bestFor": ["Enterprise brand marketers", "AI visibility measurement", "GEO content teams"],
+  "alternatives": ["profound", "peec-ai"],
+  "references": [
+    {
+      "title": "Evertune Raises $15 Million in Series A",
+      "url": "https://www.thesaasnews.com/news/evertune-raises-15-million-in-series-a",
+      "source": "The SaaS News",
+      "kind": "analysis"
+    }
+  ]
+}
