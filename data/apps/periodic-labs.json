@@ -1,0 +1,47 @@
+{
+  "slug": "periodic-labs",
+  "name": "Periodic Labs",
+  "tagline": "AI scientists paired with autonomous labs to discover new materials.",
+  "description": "Periodic Labs is building AI scientists and the autonomous laboratories for them to operate, automating hypothesis generation, experiments, and analysis across the physical sciences. Its initial targets include discovering higher-temperature superconductors and new materials for chipmakers. It is a research-stage company deploying with industry partners rather than a self-serve product.",
+  "insight": "Emerged from stealth in 2025 with a $300M seed — one of the largest ever — backed by a16z, Nvidia, Jeff Bezos, and Eric Schmidt.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Periodic Labs",
+  "platforms": ["web"],
+  "tags": ["materials-science", "superconductors", "autonomous-lab", "ai-scientist"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://periodic.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 643,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs frontier AI with its own autonomous robotic labs — closing the loop from hypothesis to physical experiment, not just simulation.",
+  "pros": [
+    "Founders behind ChatGPT & GNoME",
+    "$300M seed runway",
+    "Owns autonomous labs",
+    "Tackles superconductors"
+  ],
+  "cons": ["No public product", "Research-stage", "Opaque pricing", "Long time horizon"],
+  "bestFor": ["Materials discovery", "Physical-science R&D", "Industry lab partnerships"],
+  "alternatives": ["isomorphic-labs", "lila-sciences", "evolutionaryscale"],
+  "references": [
+    {
+      "title": "Periodic Labs raises $300M to accelerate scientific research with AI",
+      "url": "https://siliconangle.com/2025/10/01/periodic-labs-raises-300m-accelerate-scientific-research-ai/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "Periodic Labs emerges from stealth with $300M seed for AI scientists",
+      "url": "https://theaiinsider.tech/2025/10/01/periodic-labs-emerges-from-stealth-with-300-million-seed-round-to-build-ai-scientists/",
+      "source": "The AI Insider",
+      "kind": "analysis"
+    }
+  ]
+}

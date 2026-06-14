@@ -1,0 +1,51 @@
+{
+  "slug": "latent-labs",
+  "name": "Latent Labs",
+  "tagline": "Browser-based generative AI for push-button protein design.",
+  "description": "Latent Labs builds frontier generative AI models for molecular biology, delivered through a no-code web platform. Its Latent-X model designs de novo protein binders — mini-binders and macrocycles — directly in the browser, letting scientists upload a target and generate candidates without specialized infrastructure. The platform is in early access.",
+  "insight": "Founded by Simon Kohl, a co-developer of DeepMind's Nobel-winning AlphaFold; launched its web-based Latent-X model in July 2025.",
+  "category": "science",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Latent Labs",
+  "platforms": ["web", "api"],
+  "tags": ["protein-design", "biology", "generative-ai", "drug-discovery"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.latentlabs.com",
+      "primary": true
+    },
+    {
+      "kind": "demo",
+      "url": "https://platform.latentlabs.com",
+      "label": "Latent Platform"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 644,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Puts frontier protein-binder design in a no-code browser app — lab-validated hit rates without the HPC setup most de novo design tools require.",
+  "pros": [
+    "No-code browser workflow",
+    "Lab-validated binders",
+    "AlphaFold-pedigree team",
+    "Free early access"
+  ],
+  "cons": [
+    "Early access only",
+    "Narrow to protein design",
+    "Pricing unconfirmed",
+    "Requires waitlist"
+  ],
+  "bestFor": ["Protein binder design", "Antibody engineering", "Computational biology"],
+  "alternatives": ["isomorphic-labs", "chai-discovery", "profluent", "evolutionaryscale"],
+  "references": [
+    {
+      "title": "Latent Labs launches web-based AI model to democratize protein design",
+      "url": "https://techcrunch.com/2025/07/21/latent-labs-launches-web-based-ai-model-to-democratize-protein-design/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

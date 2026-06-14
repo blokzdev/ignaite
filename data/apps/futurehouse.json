@@ -1,0 +1,58 @@
+{
+  "slug": "futurehouse",
+  "name": "FutureHouse",
+  "tagline": "AI agents that automate scientific literature research and discovery.",
+  "description": "FutureHouse is a nonprofit AI-for-science lab building AI agents that automate steps of the research process. Its free FutureHouse Platform exposes specialized agents — including Crow, Falcon, Owl, and Phoenix — for literature search, synthesis, and chemistry, plus Kosmos, an 'AI Scientist' that runs autonomous multi-step analyses. The agents are available through a web app and an open API.",
+  "insight": "Nonprofit funded mainly by Eric & Wendy Schmidt; its founders spun the Kosmos AI Scientist into for-profit Edison Scientific in Nov 2025.",
+  "category": "science",
+  "secondaryCategories": ["research-platform"],
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "FutureHouse",
+  "platforms": ["web", "api"],
+  "tags": ["research", "science-agents", "literature", "nonprofit"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.futurehouse.org",
+      "primary": true
+    },
+    {
+      "kind": "demo",
+      "url": "https://platform.futurehouse.org",
+      "label": "FutureHouse Platform"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 642,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Unlike chat-based research tools, its agents are tuned and benchmarked on scientific literature tasks — PaperQA2 posted superhuman lit-search scores.",
+  "pros": [
+    "Free to use",
+    "Specialized science agents",
+    "Open API access",
+    "Strong lit-search benchmarks"
+  ],
+  "cons": [
+    "Narrow to research workflows",
+    "Accuracy not guaranteed",
+    "Smaller model ecosystem",
+    "Newer platform"
+  ],
+  "bestFor": ["Literature review", "Scientific research", "Hypothesis generation"],
+  "alternatives": ["edison-scientific", "elicit", "consensus", "scispace"],
+  "references": [
+    {
+      "title": "FutureHouse debuts AI scientist Kosmos and for-profit spinoff",
+      "url": "https://endpoints.news/research-institute-futurehouse-debuts-ai-scientist-kosmos-and-for-profit-spinoff/",
+      "source": "Endpoints News",
+      "kind": "analysis"
+    },
+    {
+      "title": "FutureHouse Launches AI Platform to Accelerate Scientific Discovery",
+      "url": "https://www.hpcwire.com/aiwire/2025/07/03/futurehouse-launches-ai-platform-to-accelerate-scientific-discovery/",
+      "source": "AIwire",
+      "kind": "analysis"
+    }
+  ]
+}

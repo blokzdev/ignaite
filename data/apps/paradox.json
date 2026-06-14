@@ -1,0 +1,52 @@
+{
+  "slug": "paradox",
+  "name": "Paradox",
+  "tagline": "Conversational AI recruiting assistant for high-volume hiring.",
+  "description": "Paradox makes Olivia, a conversational AI assistant that automates high-volume recruiting — screening candidates, answering questions, scheduling interviews, and handling onboarding over text, chat, and career sites. It integrates with ATS platforms like Workday and SAP SuccessFactors and is aimed at hourly and frontline hiring in retail, healthcare, and hospitality.",
+  "insight": "Founded in 2016 by Aaron Matos; raised a $200M Series C in Dec 2021 at a $1.5B valuation, reaching unicorn status.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Paradox",
+  "platforms": ["web"],
+  "tags": ["recruiting", "conversational-ai", "ats", "hiring"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.paradox.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 645,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Purpose-built for high-volume hourly hiring — Olivia screens and schedules over SMS in minutes, where applicant-tracking suites leave candidates waiting.",
+  "pros": [
+    "Fast text-based screening",
+    "Strong ATS integrations",
+    "Proven at enterprise scale",
+    "24/7 candidate chat"
+  ],
+  "cons": [
+    "Enterprise sales only",
+    "Opaque pricing",
+    "Best for high-volume roles",
+    "Less fit for niche hiring"
+  ],
+  "bestFor": ["High-volume hiring", "Hourly & frontline roles", "Interview scheduling"],
+  "alternatives": ["eightfold", "leena-ai", "mercor"],
+  "references": [
+    {
+      "title": "Recruiting startup Paradox valued at $1.5B following $200M round",
+      "url": "https://siliconangle.com/2021/12/28/recruiting-startup-paradox-valued-1-5b-following-200m-funding-round/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "Paradox raises $200M, hits unicorn status and acquires Traitify",
+      "url": "https://technical.ly/startups/paradox-raise-unicorn-traitify/",
+      "source": "Technical.ly",
+      "kind": "analysis"
+    }
+  ]
+}
