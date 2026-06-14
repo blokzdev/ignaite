@@ -4,7 +4,7 @@
   "name": "Smartlead",
   "tagline": "Cold email outreach at scale with unlimited mailboxes and built-in warmup.",
   "description": "Smartlead is a cold email platform for running outbound campaigns with unlimited connected mailboxes, automated warmup, and deliverability tooling. It unifies replies in a master inbox and adds AI agents, lead verification, and a SmartDialer for multichannel outreach.",
-  "category": "marketing",
+  "category": "sales",
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Five2One Products Pty Ltd",
@@ -37,5 +37,12 @@
     "UI learning curve at scale"
   ],
   "bestFor": ["Cold email at scale", "Agencies", "Outbound sales teams"],
-  "alternatives": ["lavender", "clay", "surfer-seo"]
+  "alternatives": ["lavender", "clay", "surfer-seo"],
+  "changelog": [
+    {
+      "date": "2026-06-14",
+      "kind": "updated",
+      "summary": "Recategorized from marketing to sales with the new Sales category."
+    }
+  ]
 }

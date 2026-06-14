@@ -46,6 +46,8 @@ export const CATEGORY_DESCRIPTION: Record<AppCategory, string> = {
     "Computer-vision platforms and APIs — detection, OCR, visual search, and multimodal understanding.",
   "3d": "AI tools for 3D — text-to-3D asset generation, NeRFs, and spatial capture for games and design.",
   design: "AI design tools — UI generation, brand assets, and design-to-code workflows.",
+  gaming:
+    "AI for games — intelligent NPCs, world and level generation, and game-art and asset pipelines for studios and indie devs.",
   // Work — knowledge, ops & go-to-market
   assistant:
     "General-purpose AI assistants and chat interfaces — the daily-driver copilots for work and life.",
@@ -68,6 +70,9 @@ export const CATEGORY_DESCRIPTION: Record<AppCategory, string> = {
   marketing: "AI marketing tools — campaign copy, SEO content, ad creative, and growth analytics.",
   support:
     "AI customer support — autonomous ticket resolution, support copilots, and CX automation.",
+  sales:
+    "AI for sales — autonomous SDRs, outbound prospecting, and conversation and revenue intelligence that research, write, and book pipeline.",
+  hr: "AI for hiring and people ops — sourcing, AI interviewing and screening, onboarding, and HR support copilots.",
   // Verticals
   companion: "AI companions — conversational characters for connection, roleplay, and wellbeing.",
   healthcare:
@@ -79,6 +84,8 @@ export const CATEGORY_DESCRIPTION: Record<AppCategory, string> = {
     "AI for real estate — property and parcel data, valuation, and CRE underwriting, leasing, and transaction workflows.",
   // Frontier
   robotics: "Embodied AI and robotics — foundation models, humanoids, and autonomous machines.",
+  science:
+    "AI for scientific discovery — drug design, protein and antibody engineering, and lab automation accelerating R&D.",
 };
 
 // The cluster grouping moved to category-clusters.ts when the filter UI (a
