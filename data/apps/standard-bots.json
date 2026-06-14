@@ -1,0 +1,56 @@
+{
+  "slug": "standard-bots",
+  "name": "Standard Bots",
+  "tagline": "No-code AI robotic arms built for US manufacturing.",
+  "description": "Standard Bots makes the Core (formerly RO1), a six-axis collaborative robot arm programmed through no-code software — drag, tap, and teach, with no engineers required. A transformer-based model lets the arm learn intricate tasks by human demonstration, targeting CNC machine tending, palletizing, welding, and pick-and-place. The arms are designed and built in the US.",
+  "insight": "Reached a $1B valuation via a $200M Series C in June 2026, led by General Catalyst — and builds its robot arms in the US.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Standard Bots",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Transformer-based model trained by human demonstration; runs on the robot."
+  },
+  "tags": ["robotics", "cobot", "manufacturing", "automation", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://standardbots.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 660,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Claims a ~30% price advantage over legacy cobot makers, with a no-code teach-by-demonstration workflow any factory worker can run in a day.",
+  "pros": [
+    "No-code: train it by demonstration",
+    "~30% cheaper than legacy cobots (~$37k)",
+    "18kg payload, 1.3m reach, ±0.025mm repeat",
+    "Designed and built in the US",
+    "Used by NASA, Amazon, Lockheed Martin"
+  ],
+  "cons": [
+    "Significant upfront hardware cost (~$37k+)",
+    "Industrial arm only — not a humanoid",
+    "US-focused manufacturing deployments",
+    "Learn-by-demonstration AI still maturing"
+  ],
+  "bestFor": [
+    "CNC machine tending",
+    "Palletizing & pick-and-place",
+    "US factory automation",
+    "Small/mid manufacturers"
+  ],
+  "alternatives": ["figure-ai", "agility-robotics", "physical-intelligence"],
+  "references": [
+    {
+      "title": "Standard Bots raises $200M to build robotic arms in the US",
+      "url": "https://thenextweb.com/news/standard-bots-200m-unicorn-robotic-arms-us-manufacturing",
+      "source": "The Next Web",
+      "kind": "analysis"
+    }
+  ]
+}

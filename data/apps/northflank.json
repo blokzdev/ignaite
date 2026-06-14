@@ -1,0 +1,63 @@
+{
+  "slug": "northflank",
+  "name": "Northflank",
+  "tagline": "Deploy apps, databases, and AI/GPU workloads on any cloud.",
+  "description": "Northflank is a developer platform for deploying applications, databases, jobs, and AI/GPU workloads from Git to production. It abstracts away Kubernetes and runs on Northflank's managed cloud or in your own AWS, GCP, Azure, or bare-metal account (BYOC), billed by the second. Teams like Writer, Sentry, and Chai Discovery run on it.",
+  "insight": "Founded in London in 2019 by two engineers who met in a multiplayer game; raised $22.3M in 2024 led by Bain Capital Ventures.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Northflank",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Runs any container or model on managed or your own GPUs."
+  },
+  "tags": ["deployment", "paas", "gpu", "kubernetes", "byoc"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://northflank.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://northflank.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://northflank.com/docs"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 663,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "One platform for apps and AI/GPU workloads, run on Northflank's cloud or your own AWS/GCP/Azure/bare-metal (BYOC) with per-second billing.",
+  "pros": [
+    "Apps, databases, jobs & GPUs in one platform",
+    "BYOC: run in your own cloud or bare metal",
+    "Per-second billing, no idle GPU charges",
+    "Abstracts Kubernetes; Git-to-production",
+    "Free always-on Sandbox tier"
+  ],
+  "cons": [
+    "Smaller ecosystem than hyperscalers",
+    "Breadth can mean a learning curve",
+    "Pay-as-you-go costs need monitoring at scale"
+  ],
+  "bestFor": [
+    "Deploying LLM/GPU workloads",
+    "Self-hosting in your own cloud",
+    "Full-stack app + DB hosting",
+    "Platform/SRE teams"
+  ],
+  "alternatives": ["vercel", "modal", "cerebrium", "beam"],
+  "references": [
+    {
+      "title": "Northflank secures $22.3 million for its developer workload platform",
+      "url": "https://pulse2.com/northflank-developer-workload-platform-company-secures-22-3-million/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}
