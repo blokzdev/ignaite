@@ -1,0 +1,40 @@
+{
+  "slug": "promptlayer",
+  "name": "PromptLayer",
+  "tagline": "Prompt CMS, evals, and observability for LLM teams.",
+  "description": "PromptLayer is a prompt-engineering platform that treats prompts as a content-managed asset: version, edit, and deploy them without touching application code. It pairs that registry with an evaluation harness (datasets, scoring) and an observability stack that logs every request and tracks cost and latency. The collaborative model lets non-technical domain experts iterate on prompts alongside engineers.",
+  "category": "eval",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "PromptLayer",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Provider-agnostic — logs and manages prompts across model vendors."
+  },
+  "accentColor": "#F97316",
+  "tags": ["prompt-management", "evaluation", "observability", "llmops"],
+  "links": [
+    { "kind": "website", "url": "https://www.promptlayer.com", "primary": true },
+    { "kind": "docs", "url": "https://docs.promptlayer.com" }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 598,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Treats prompts as a CMS so non-technical experts can edit and version them without code, then eval and monitor in one place.",
+  "pros": [
+    "Prompt CMS — edit/version without code",
+    "Built-in eval harness + datasets",
+    "Request logging, cost + latency monitoring",
+    "Provider-agnostic across model vendors",
+    "Non-technical experts can collaborate"
+  ],
+  "cons": [
+    "Cloud-hosted (no self-host on lower tiers)",
+    "Overlaps with broader observability suites",
+    "Adds another layer to your stack",
+    "Best value at team scale"
+  ],
+  "bestFor": ["Prompt engineering teams", "Non-technical prompt editors", "LLM eval + monitoring"],
+  "alternatives": ["langfuse", "vellum", "agenta", "braintrust"]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "voiceflow",
+  "name": "Voiceflow",
+  "tagline": "No-code platform to build, launch, and scale AI agents.",
+  "description": "Voiceflow is a no-code platform for designing, testing, and shipping chat and voice AI agents for customer support, lead generation, and beyond. A visual canvas lets designers, PMs, and developers collaborate on conversation logic, connect a knowledge base for RAG, and deploy to web widgets, phone, or any channel via API. It supports multiple model providers and scales to enterprise call and message volumes.",
+  "insight": "Began in 2018 as a no-code builder for Amazon Alexa and Google Assistant skills before pivoting to general conversational AI agents.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Voiceflow, Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Works across providers like OpenAI, Anthropic, and Google."
+  },
+  "accentColor": "#4F46E5",
+  "tags": ["no-code", "agent-builder", "chatbot", "voice", "customer-support"],
+  "links": [
+    { "kind": "website", "url": "https://www.voiceflow.com", "primary": true },
+    { "kind": "docs", "url": "https://docs.voiceflow.com" },
+    { "kind": "pricing", "url": "https://www.voiceflow.com/pricing" }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 596,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Visual no-code canvas that designers and PMs can build on alongside engineers — used by 130k+ people including Fortune 500 teams.",
+  "pros": [
+    "No-code visual builder for chat + voice",
+    "Cross-functional: designers, PMs, devs",
+    "Multi-model (OpenAI, Anthropic, Google)",
+    "Built-in knowledge base / RAG",
+    "Scales to enterprise volumes"
+  ],
+  "cons": [
+    "Advanced/scaled usage gets pricey",
+    "Credit-based pricing can be hard to predict",
+    "Less code-level control than SDK frameworks",
+    "Steeper curve for complex flows"
+  ],
+  "bestFor": ["Customer-support automation", "No-code agent teams", "Enterprise conversational AI"],
+  "alternatives": ["mindstudio", "relevance-ai", "sierra", "parloa"],
+  "references": [
+    {
+      "title": "Invocable shuts down, transitioning users to Voiceflow",
+      "url": "https://voicebot.ai/2019/04/15/invocable-formerly-known-as-storyline-is-shutting-down-transitioning-users-to-voiceflow/",
+      "source": "Voicebot.ai",
+      "kind": "analysis"
+    }
+  ]
+}
