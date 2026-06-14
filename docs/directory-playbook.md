@@ -9,7 +9,7 @@ the human overview; the executable routines live as Claude Code commands.
 | Command                                                            | Driven by                       | What it does                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **`/add-app <name \| url \| list>`**                               | a human supplies names          | Dedup → web-research → author a schema-valid `App` entry → validate → report.                                                                                                                                                                                                                                                                                                                                |
-| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`. Run manually it stops at the PR; the **scheduled routine takes it all the way — drives CI green and auto-merges** (see [Scheduling](#scheduling-claude-code-routines)).                                                          |
+| **`/discover-apps [focus]`**                                       | autonomous (good for schedules) | Finds net-new apps not yet listed (dedups against `main` **and** open discovery PRs; biases toward the thinnest under-covered categories, never padding sparse ones), authors the worthy ones, and **opens a PR**. The unattended counterpart to `/add-app`. Run manually it just opens the PR; the **scheduled routine is fire-and-forget — it enables auto-merge and ends, and GitHub lands the PR server-side once CI is green** (see [Scheduling](#scheduling-claude-code-routines)).                                                          |
 | **`/audit-directory [--category c] [--stale-since date] [slug…]`** | manual or scheduled             | Re-verifies existing listings (links, pricing, platforms, model support, still-alive), fixes drift, archives discontinued apps, bumps `lastVerifiedAt`; **opens a PR** when run unattended.                                                                                                                                                                                                                  |
 | **`/rotate-featured [count \| cluster]`**                          | autonomous (good for schedules) | Refreshes the homepage **Featured carousel** so it never goes stale: features one strong active app across ~14 random categories (biased away from recently-featured via `featuredAt`), rotates the prior set out, and **opens a PR**. Touches only `featured`/`featuredAt`/`accentColor` — never `changelog` (rotation is curation, not a listing change; its audit trail is `featuredAt` + the PR itself). |
 
@@ -56,7 +56,10 @@ here can invoke them. They encode the same flow we run manually.
 ## Suggested cadence
 
 - **Add** opportunistically with `/add-app` whenever you spot apps worth listing.
-- **Discover** on a schedule (see below) with `/discover-apps` — weekly is the sweet spot.
+- **Discover** on a schedule (see below) with `/discover-apps`. Pick the interval to match where the
+  directory is: run it **frequently while seeding** (the AI-app landscape since ~2022 is large and
+  mostly un-listed, so there's plenty to find), then **dial it back as coverage saturates** and net-new
+  worthy apps get rarer. Empty runs are cheap and harmless — the quality bar self-limits what lands.
 - **Audit** weekly with `/audit-directory` (no args = the staleest batch), plus an ad-hoc
   `/audit-directory --category <thin-or-fast-moving>` (e.g. `video`, `image-gen`, `assistant`) since
   those churn fastest.
@@ -72,23 +75,26 @@ The recurring routines run via Claude Code's **Routines** feature (scheduled clo
 > **You set these up — an agent can't.** Routines are **account-owned, not repo-owned**, so they
 > can't be committed here or created from inside a session. Create them yourself at
 > **[claude.ai/code/routines](https://claude.ai/code/routines)** (or run **`/schedule`**), pointed at
-> this repo. Min interval is 1 hour; weekly is recommended. `/audit-directory` and `/rotate-featured`
-> **open a PR for review** — never straight to `main` — so you keep a human quality gate.
-> `/discover-apps` runs fully **hands-off**: it opens a PR, drives CI green (fixing failures itself),
-> and **auto-merges** once all checks pass — the repo has auto-merge + delete-head-branch enabled, so
-> the strict velite gate + CI are the guard rather than a human review. If a failure needs a human
-> decision it leaves the PR open and says what's blocking.
+> this repo. Min interval is 1 hour; pick the cadence to match the seeding stage (see _Suggested
+> cadence_). `/audit-directory` and `/rotate-featured` **open a PR for review** — never straight to
+> `main` — so you keep a human quality gate.
+> `/discover-apps` runs **fire-and-forget**: it validates locally (the strict velite gate + typecheck
+> + lint + build — the same checks CI runs), opens a PR, **enables squash auto-merge, and ends** — it
+> does **not** stay online to watch CI or confirm the merge. GitHub merges server-side the moment CI is
+> green and deletes the branch (the repo has auto-merge + delete-head-branch enabled), so the local
+> gate + CI are the guard rather than a human review. If CI ever fails, auto-merge simply doesn't fire
+> — the PR sits open for the next run or a human, no babysitting session required.
 
 Create these scheduled routines and paste them as their prompts:
 
-- **Weekly — discover new apps** (hands-off — lands automatically)
+- **Discover new apps** (fire-and-forget — lands automatically; interval to taste, see _Suggested cadence_)
 
   > Run `/discover-apps`. Find notable AI apps not yet in the directory, author the genuinely
-  > directory-worthy ones per the playbook, and open a PR. Then wait for CI (don't poll with sleeps),
-  > fix any failures until it's green — reproduce locally with `pnpm velite`/`typecheck`/`lint`/`build`
-  > — and merge into `main` (enable auto-merge so it lands the moment all checks pass). If a failure
-  > needs a human decision, leave the PR open and say what's blocking. If nothing is worth adding, do
-  > nothing.
+  > directory-worthy ones per the playbook, validate locally (`pnpm velite` + `typecheck` + `lint` +
+  > `build` — the same gates CI runs), and open a PR. Then **enable squash auto-merge and END the run**
+  > — do NOT subscribe to the PR, wait for CI, sleep, or schedule a check-in. GitHub merges it
+  > server-side once CI is green; if CI fails the PR just stays open for the next run. If nothing is
+  > worth adding, do nothing.
 
 - **Weekly — audit existing listings**
 
@@ -100,10 +106,6 @@ Create these scheduled routines and paste them as their prompts:
   > Run `/rotate-featured`. Refresh the homepage Featured carousel: feature one strong active app
   > across ~14 random categories (biased away from recently-featured), rotate the prior set out, and
   > open a PR for review. If the set is already fresh, do nothing.
-
-Cadence note: **weekly beats daily** for discovery — there usually aren't several net-new
-directory-worthy AI apps every day, so daily mostly produces empty runs at extra cost. Bump to daily
-only if a category is moving that fast.
 
 _(Alternative: a GitHub Actions `schedule:` cron with `anthropics/claude-code-action` can do the same,
 but it spends Actions minutes + needs an `ANTHROPIC_API_KEY` secret. Routines is the cleaner native
