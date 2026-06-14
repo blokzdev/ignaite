@@ -1,0 +1,63 @@
+{
+  "slug": "eleven-music",
+  "name": "Eleven Music",
+  "insight": "Launched August 2025 trained only on music licensed via Merlin and Kobalt deals, on a 50/50 royalty split.",
+  "tagline": "Generate studio-quality, commercially cleared songs from a text prompt.",
+  "description": "Eleven Music is ElevenLabs' AI music generator, turning text prompts into full songs with vocals and instrumentals across genres and languages. Unlike its rivals, the model is trained only on licensed catalogs — via deals with the Merlin network and publisher Kobalt — so generated tracks are cleared for commercial use. It launched in August 2025 and is offered through ElevenLabs' platform and API.",
+  "category": "music",
+  "pricing": "freemium",
+  "openSource": false,
+  "deployment": "cloud",
+  "vendor": "ElevenLabs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Eleven Music"],
+    "notes": "Ships its own music model trained on licensed data; not a bring-your-own-key product."
+  },
+  "tags": ["music-generation", "text-to-music", "licensed-ai", "vocals"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://elevenlabs.io/music",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 694,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Trained only on licensed music (Merlin, Kobalt) so output is cleared for commercial use — unlike Suno and Udio, which face label lawsuits.",
+  "pros": [
+    "Trained on licensed data, commercially safe",
+    "High audio quality with vocal control",
+    "Multi-language song generation",
+    "Available via web and API"
+  ],
+  "cons": [
+    "Self-serve commercial use excludes film/TV",
+    "Smaller community than Suno or Udio",
+    "Tied to ElevenLabs subscription credits"
+  ],
+  "bestFor": ["Creators needing cleared music", "Developers", "Ad and content teams"],
+  "alternatives": ["suno", "udio", "mureka"],
+  "references": [
+    {
+      "title": "ElevenLabs Launches AI Music Model, Signs Licenses With Merlin & Kobalt",
+      "url": "https://www.billboard.com/pro/elevenlabs-ai-music-model-merlin-kobalt-licenses-details/",
+      "source": "Billboard",
+      "kind": "analysis"
+    },
+    {
+      "title": "Eleven Music launches with Kobalt, Merlin deals",
+      "url": "https://www.musicbusinessworldwide.com/eleven-music-new-ai-rival-to-suno-launches-with-merlin-kobalt-licensing-deals-in-the-bag/",
+      "source": "Music Business Worldwide",
+      "kind": "analysis"
+    },
+    {
+      "title": "ElevenLabs debuts AI music service with Kobalt and Merlin deals",
+      "url": "https://musically.com/2025/08/06/elevenlabs-debuts-ai-music-service-with-kobalt-and-merlin-deals/",
+      "source": "Music Ally",
+      "kind": "analysis"
+    }
+  ]
+}

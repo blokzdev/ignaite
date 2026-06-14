@@ -1,0 +1,57 @@
+{
+  "slug": "delphi",
+  "name": "Delphi",
+  "insight": "Raised a $16M Series A in June 2025 led by Sequoia, with participation from Anthropic's Anthology Fund.",
+  "tagline": "Turn your expertise into a 'digital mind' that answers in your voice 24/7.",
+  "description": "Delphi lets experts, creators and coaches clone their knowledge into a conversational 'digital mind' trained on their writing, talks and frameworks, which then answers their audience's questions in their voice around the clock. It supports text and voice interaction, multilingual replies and audience analytics. The San Francisco company calls the personas 'digital minds' rather than clones.",
+  "category": "companion",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Delphi",
+  "platforms": ["web"],
+  "tags": ["digital-mind", "expert-clone", "creator-tools", "voice-clone"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.delphi.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 697,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Purpose-built to clone one expert's full body of work into an on-brand, voice-matched assistant — not a generic character chatbot.",
+  "pros": [
+    "Clones a real expert's voice and frameworks",
+    "Free tier with 100k training words",
+    "Text and voice interaction",
+    "Sequoia and Anthropic-backed"
+  ],
+  "cons": [
+    "Higher tiers are pricey ($299/mo)",
+    "Quality depends on training material",
+    "Niche creator/expert use case"
+  ],
+  "bestFor": ["Creators and coaches", "Experts scaling Q&A", "Course and community owners"],
+  "alternatives": ["character-ai"],
+  "references": [
+    {
+      "title": "Can an AI doppelganger help me do my job?",
+      "url": "https://www.technologyreview.com/2025/09/02/1122856/can-an-ai-doppelganger-help-me-do-my-job/",
+      "source": "MIT Technology Review",
+      "kind": "review"
+    },
+    {
+      "title": "How AI 'digital minds' startup Delphi scaled up with Pinecone",
+      "url": "https://venturebeat.com/data-infrastructure/how-ai-digital-minds-startup-delphi-stopped-drowning-in-user-data-and-scaled-up-with-pinecone",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Meet Delphi, the AI startup that lets experts turn themselves into chatbots",
+      "url": "https://www.fastcompany.com/91356476/delphi-ai-digital-mind",
+      "source": "Fast Company",
+      "kind": "interview"
+    }
+  ]
+}
