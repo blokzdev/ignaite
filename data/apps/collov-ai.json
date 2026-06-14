@@ -1,0 +1,50 @@
+{
+  "slug": "collov-ai",
+  "name": "Collov AI",
+  "tagline": "AI virtual staging and interior redesign for property listings.",
+  "description": "Collov AI is an AI-powered virtual staging and interior design tool for real estate, turning empty or dated listing photos into furnished, styled rooms in seconds. It also removes furniture, declutters, enhances photos, and generates redesigns and 360-degree tours, with MLS-compliant 'virtually staged' labeling. It targets agents, brokerages, and interior designers.",
+  "insight": "Raised about $46M to date, including a $23M round for its agentic visual models; partners include the San Francisco Association of Realtors.",
+  "category": "real-estate",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Collov AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary multi-modal models for staging and interior generation; free trial credits add a watermark."
+  },
+  "tags": ["virtual-staging", "interior-design", "real-estate", "image-editing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://collov.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 705,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Bundles staging, furniture removal, photo enhancement, and 360-degree tours in one tool, with built-in MLS-compliant 'virtually staged' labeling.",
+  "pros": [
+    "One-click virtual staging in seconds",
+    "Furniture removal, declutter, enhance",
+    "MLS-compliant disclaimer labeling",
+    "Affordable per-photo credit pricing"
+  ],
+  "cons": [
+    "Free trial renders are watermarked",
+    "Credit caps reset monthly",
+    "API only on the Enterprise plan",
+    "Crowded virtual-staging field"
+  ],
+  "bestFor": ["Real estate agents", "Brokerages", "Interior designers"],
+  "alternatives": ["restb-ai", "archistar"],
+  "references": [
+    {
+      "title": "In a crowded virtual staging category, Collov AI offers ease",
+      "url": "https://www.inman.com/2025/11/24/in-crowded-virtual-staging-category-collov-ai-offers-ease-affordability-tech-review/",
+      "source": "Inman",
+      "kind": "review"
+    }
+  ]
+}

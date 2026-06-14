@@ -1,0 +1,51 @@
+{
+  "slug": "meta-ai",
+  "name": "Meta AI",
+  "tagline": "Meta's Llama-powered assistant — chat, voice, and image generation.",
+  "description": "Meta AI is Meta's general-purpose AI assistant, available as a standalone app and at meta.ai and built on the company's open-weight Llama models. It handles text chat, natural voice conversations, and image generation and editing, and can draw on context from linked Facebook and Instagram accounts. The standalone app also serves as the companion for Ray-Ban Meta smart glasses.",
+  "insight": "Launched as a standalone app at Meta's first LlamaCon on April 29, 2025, replacing the Meta View companion app for Ray-Ban Meta glasses.",
+  "category": "assistant",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Meta",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Llama"],
+    "notes": "Powered by Meta's own Llama models (Llama 4 at the standalone-app launch)."
+  },
+  "tags": ["assistant", "chatbot", "voice", "image-generation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.meta.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 704,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Wired into Facebook and Instagram so it can personalize on your social context, and it doubles as the controller for Ray-Ban Meta smart glasses.",
+  "pros": [
+    "Free, with generous chat usage",
+    "Voice and image generation built in",
+    "Personalizes from Facebook/Instagram",
+    "Powers Ray-Ban Meta glasses"
+  ],
+  "cons": [
+    "Privacy concerns over social-data use",
+    "Tied to the Meta account ecosystem",
+    "Trails GPT/Gemini on some benchmarks",
+    "Limited availability in some regions"
+  ],
+  "bestFor": ["Everyday questions", "Voice assistant", "Meta ecosystem users"],
+  "alternatives": ["chatgpt", "gemini", "grok", "le-chat"],
+  "references": [
+    {
+      "title": "Meta launches standalone AI chat app on Llama 4",
+      "url": "https://9to5mac.com/2025/04/29/meta-launches-standalone-ai-chat-app-based-on-llama-4-for-iphone-and-ipad/",
+      "source": "9to5Mac",
+      "kind": "analysis"
+    }
+  ]
+}
