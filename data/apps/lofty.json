@@ -1,0 +1,45 @@
+{
+  "slug": "lofty",
+  "name": "Lofty",
+  "tagline": "AI-powered operating system for real estate agents and teams.",
+  "description": "Lofty (formerly Chime) is an AI-powered platform for real estate professionals that unifies lead generation, CRM, IDX websites, a power dialer, and automation. Its agentic AI features — an AI Assistant, an AI Sales Agent (virtual ISA), Social Agent, and Homeowner Agent — engage leads, schedule appointments, and run follow-ups autonomously. It supports 70,000+ agents and is used by brokerages including Coldwell Banker, Berkshire Hathaway, eXp Realty, and Keller Williams.",
+  "insight": "Rebranded from Chime Technologies to Lofty in November 2023, partly to end confusion with the Chime neobank.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Lofty",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["real-estate-crm", "lead-generation", "agentic-ai", "real-estate"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lofty.com/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 608,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Bundles lead gen, CRM, IDX sites, and a power dialer with agentic AI agents (ISA, social, homeowner) for solo agents and teams in one OS.",
+  "pros": [
+    "All-in-one operating system for agents",
+    "Agentic AI ISA and assistants",
+    "70,000+ agents; major brokerages",
+    "Web, iOS, and Android apps"
+  ],
+  "cons": [
+    "Contact-sales pricing",
+    "Feature breadth has a learning curve",
+    "Aimed at agents/teams, not consumers"
+  ],
+  "bestFor": ["Real estate agents and teams", "Lead gen and nurturing", "Brokerage operations"],
+  "alternatives": ["eliseai", "cadastral"],
+  "references": [
+    {
+      "title": "To Elevate The Industry, Chime Becomes Lofty",
+      "url": "https://www.inman.com/2023/11/07/to-elevate-the-industry-chime-becomes-lofty/",
+      "source": "Inman",
+      "kind": "analysis"
+    }
+  ]
+}

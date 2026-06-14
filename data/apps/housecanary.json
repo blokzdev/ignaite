@@ -1,0 +1,37 @@
+{
+  "slug": "housecanary",
+  "name": "HouseCanary",
+  "tagline": "AI-powered property valuation and real estate analytics.",
+  "description": "HouseCanary is a property valuation and analytics platform covering 136M+ U.S. properties. It uses machine learning — including image recognition that reads home condition from photos — to produce automated valuations (AVMs), comparables, market forecasts, and portfolio monitoring, plus CanaryAI, a generative AI assistant. It serves mortgage lenders, single-family-rental investors, REITs, and agents through an API and web products.",
+  "insight": "Operates as a licensed real-estate brokerage in multiple states in addition to selling its valuation data and AVMs.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "HouseCanary",
+  "platforms": ["api", "web"],
+  "tags": ["avm", "valuation", "real-estate-analytics", "real-estate"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.housecanary.com/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 606,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Pairs a lender-grade AVM with ML that reads home condition from listing photos and a generative assistant (CanaryAI) over 136M+ properties.",
+  "pros": [
+    "AVM, comps, and market forecasts",
+    "Image recognition for home condition",
+    "CanaryAI generative assistant",
+    "Used by major single-family-rental REITs"
+  ],
+  "cons": [
+    "Pricing not public — contact sales",
+    "US-only coverage",
+    "Enterprise and investor focus"
+  ],
+  "bestFor": ["Mortgage lenders", "SFR investors and REITs", "Valuation and underwriting"],
+  "alternatives": ["realie", "realestateapi", "restb-ai"]
+}
