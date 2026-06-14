@@ -1,0 +1,63 @@
+{
+  "slug": "byterover",
+  "name": "ByteRover",
+  "tagline": "Persistent memory layer for AI coding agents.",
+  "description": "ByteRover gives coding agents long-term, structured memory that persists across sessions and tools. It organizes project knowledge into hierarchical context trees, stores them locally by default, and serves relevant context back to agents through an MCP server and CLI. It plugs into Cursor, Claude Code, Windsurf, and other assistants, and an optional cloud tier lets teams sync and share context.",
+  "insight": "Began as the 'Cipher' memory MCP server before rebranding to ByteRover; the CLI is source-available under the Elastic License 2.0.",
+  "category": "memory",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "ByteRover",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Memory infrastructure; works with any model/provider via MCP."
+  },
+  "tags": ["agent-memory", "coding-agents", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.byterover.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/campfirein/byterover-cli"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.byterover.dev"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 590,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Purpose-built for coding agents: hierarchical knowledge trees and a local-first CLI that syncs context across Cursor, Claude Code, and Windsurf.",
+  "pros": [
+    "Local-first, no telemetry by default",
+    "Works across Cursor/Claude Code/Windsurf",
+    "Source-available CLI (Elastic 2.0)",
+    "Free-forever tier"
+  ],
+  "cons": [
+    "Source-available, not OSI open source",
+    "Younger than general-purpose memory APIs",
+    "Cloud sync and team sharing are paid"
+  ],
+  "bestFor": ["Coding agents", "Cross-IDE context", "Solo devs and teams"],
+  "alternatives": ["mem0", "supermemory", "zep", "cognee"],
+  "references": [
+    {
+      "title": "Byterover on Product Hunt",
+      "url": "https://www.producthunt.com/products/byterover",
+      "source": "Product Hunt",
+      "kind": "review"
+    },
+    {
+      "title": "Best AI Agent Memory Frameworks in 2026",
+      "url": "https://atlan.com/know/best-ai-agent-memory-frameworks-2026/",
+      "source": "Atlan",
+      "kind": "comparison"
+    }
+  ]
+}

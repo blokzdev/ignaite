@@ -1,0 +1,49 @@
+{
+  "slug": "rork",
+  "name": "Rork",
+  "tagline": "Build native mobile apps by chatting with AI.",
+  "description": "Rork turns plain-language prompts into working iOS and Android apps. Its Pro tier generates React Native + Expo projects you can preview live and ship to the App Store and Google Play, while Rork Max builds native SwiftUI apps compiled with Xcode. It focuses on mobile as the target surface rather than web pages, and produces real native apps instead of web wrappers.",
+  "insight": "Launched February 2025 via a single tweet, then raised a $15M seed led by Left Lane Capital with a16z Speedrun participating.",
+  "category": "agent",
+  "pricing": "freemium",
+  "vendor": "Rork",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Claude"],
+    "notes": "Rork Max is powered by Anthropic's Claude (Claude Code / Claude Opus)."
+  },
+  "tags": ["app-builder", "mobile", "react-native", "vibe-coding"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://rork.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 591,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Mobile-first vibe coding: generates real native iOS/Android apps (Swift, React Native, Expo) you can ship to the stores — not web wrappers.",
+  "pros": [
+    "Builds real native apps, not web wrappers",
+    "Ships to App Store and Google Play",
+    "React Native + Expo (SwiftUI in Max)",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Rork Max is iOS-only (no Android)",
+    "Higher tiers are credit-limited",
+    "Premium native builder is $200+/mo"
+  ],
+  "bestFor": ["Indie app makers", "Mobile prototyping", "Non-coders shipping to stores"],
+  "alternatives": ["lovable", "bolt-new", "v0", "base44"],
+  "references": [
+    {
+      "title": "Rork Raises $15 Million for AI Mobile App Creation",
+      "url": "https://pulse2.com/rork-15-million-raised-for-ai-mobile-app-creation-platform/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}
