@@ -1,0 +1,47 @@
+{
+  "slug": "potato",
+  "name": "Potato",
+  "tagline": "AI co-scientist for designing and running experiments.",
+  "description": "Potato is an AI platform for life-science researchers that pairs literature search and synthesis with an AI co-scientist, 'Tater,' to plan and run experiments end to end. It can generate hypotheses and protocols, translate them into robotic scripts, and analyze results, with human review at each step. It's used in academic and biotech labs and offers free and paid plans.",
+  "category": "science",
+  "secondaryCategories": ["research-platform"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Potato",
+  "platforms": ["web"],
+  "tags": ["ai-co-scientist", "lab-automation", "protocols", "life-sciences"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.potato.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 668,
+  "lastVerifiedAt": "2026-06-14",
+  "insight": "Raised a $4.5M seed (2025); partners with Ginkgo Automation to run AI-designed protocols on lab robots.",
+  "edge": "Goes beyond literature Q&A: turns AI-generated protocols into robot-executable scripts for autonomous wet-lab experiments.",
+  "pros": [
+    "AI co-scientist for the full experiment loop",
+    "Protocol-to-robot script generation",
+    "Literature search and synthesis",
+    "Used at major university labs",
+    "Free tier available"
+  ],
+  "cons": [
+    "Early-stage, small seed funding",
+    "Life-sciences focus only",
+    "Human review still required"
+  ],
+  "bestFor": ["Wet-lab biologists", "Computational biology teams", "Academic and biotech R&D"],
+  "alternatives": ["futurehouse", "edison-scientific", "elicit"],
+  "references": [
+    {
+      "title": "Potato lands $4.5M to automate science experiments using AI",
+      "url": "https://www.geekwire.com/2025/startup-aiming-to-revolutionize-research-with-fully-automated-science-experimentation-lands-4-5m/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}
