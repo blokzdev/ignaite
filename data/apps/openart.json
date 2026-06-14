@@ -1,0 +1,53 @@
+{
+  "slug": "openart",
+  "insight": "Founded by ex-Google engineers and backed by Basis Set Ventures; grew to 10M+ creators and ~$20M ARR on a $5M raise.",
+  "name": "OpenArt",
+  "tagline": "All-in-one AI studio for images, video, and characters.",
+  "description": "OpenArt is a consumer AI creation platform for generating and editing images and video, building consistent AI characters, and producing multi-scene visual stories. Rather than one proprietary model, it routes across many engines — Stable Diffusion, FLUX, DALL-E, and thousands of community-trained models — and adds LoRA training, canvas editing, and a model-and-prompt marketplace. It began as one of the largest community hubs for Stable Diffusion.",
+  "category": "image-gen",
+  "secondaryCategories": ["video"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "OpenArt",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Stable Diffusion", "FLUX", "DALL-E"],
+    "notes": "Routes across many image and video models plus thousands of community-trained LoRAs."
+  },
+  "tags": ["image-generation", "video-generation", "ai-characters", "storytelling", "community"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://openart.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 709,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Bundles many image and video models with LoRA training, character consistency, and multi-scene story tools in one consumer studio.",
+  "pros": [
+    "Access to many models in one place",
+    "Community model + prompt marketplace",
+    "LoRA training and character consistency",
+    "Generous free tier"
+  ],
+  "cons": ["Web-only", "Quality varies by chosen model", "Credit-based limits on free tier"],
+  "bestFor": ["Hobbyist creators", "Social content", "AI character and story art"],
+  "alternatives": ["leonardo-ai", "krea", "recraft", "midjourney"],
+  "references": [
+    {
+      "title": "Former Google Employees' AI Startup OpenArt Raises $5 Million",
+      "url": "https://finance.yahoo.com/news/former-google-employees-ai-startup-141606700.html",
+      "source": "Yahoo Finance",
+      "kind": "analysis"
+    },
+    {
+      "title": "OpenArt revenue, funding & news",
+      "url": "https://sacra.com/c/openart/",
+      "source": "Sacra",
+      "kind": "analysis"
+    }
+  ]
+}

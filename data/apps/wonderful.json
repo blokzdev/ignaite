@@ -1,0 +1,56 @@
+{
+  "slug": "wonderful",
+  "insight": "Founded in early 2025; raised a $150M Series B at a $2B valuation in March 2026, about 13 months after launch.",
+  "name": "Wonderful",
+  "tagline": "Culturally fluent AI customer-service agents for global enterprises.",
+  "description": "Wonderful is an enterprise platform for AI customer-service agents that handle inquiries across chat, voice, and email — and take action to resolve them. Its distinctive bet is localization: agents are tuned per market for language, cultural norms, and regulation, with local teams sent to manage deployment, aimed squarely at non-English-speaking markets. Used across telecom, finance, healthcare, and manufacturing.",
+  "category": "support",
+  "secondaryCategories": ["voice"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Wonderful",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Agents fine-tuned per market for language, cultural norms, and local regulation."
+  },
+  "tags": ["customer-support", "agents", "enterprise", "multilingual", "localization"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wonderful.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 706,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Localizes agents per market — language, cultural norms, and regulation — with local deployment teams, unlike English-first support platforms.",
+  "pros": [
+    "Culturally and linguistically tuned agents",
+    "Chat, voice, and email",
+    "On-the-ground deployment teams",
+    "Fast enterprise traction"
+  ],
+  "cons": [
+    "Enterprise sales-only",
+    "No transparent public pricing",
+    "Young company (founded 2025)"
+  ],
+  "bestFor": ["Non-English support markets", "Global enterprises"],
+  "alternatives": ["decagon", "sierra", "parloa", "ada-cx"],
+  "references": [
+    {
+      "title": "Wonderful raises $150M Series B at $2B valuation",
+      "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Wonderful raised $100M Series A for customer-service AI agents",
+      "url": "https://techcrunch.com/2025/11/11/wonderful-raised-100m-series-a-to-put-ai-agents-on-the-front-lines-of-customer-service/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

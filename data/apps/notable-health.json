@@ -1,0 +1,45 @@
+{
+  "slug": "notable-health",
+  "insight": "Founded 2017 and backed by Greylock, ICONIQ, and F-Prime; deployed at 10,000+ sites of care automating 1M+ workflows a day.",
+  "name": "Notable",
+  "tagline": "AI platform that automates healthcare operations and patient access.",
+  "description": "Notable is an AI platform purpose-built for healthcare that automates administrative and clinical workflows through AI agents. Its low-code Flow Builder lets teams design automations and its natural-language Sidekick assistant runs them across patient access, scheduling, intake, prior authorizations, revenue cycle, and care-gap closure. Deployed across health systems and plans including CommonSpirit, MUSC, and UC San Diego Health.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Notable",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI agents automate healthcare workflows; specific underlying models are not publicly disclosed."
+  },
+  "tags": ["healthcare", "automation", "agents", "revenue-cycle", "patient-access"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.notablehealth.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 708,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Combines a low-code Flow Builder and a natural-language Sidekick to automate administrative and clinical healthcare work end-to-end.",
+  "pros": [
+    "Purpose-built for healthcare",
+    "Low-code Flow Builder",
+    "Natural-language Sidekick assistant",
+    "Broad health-system deployment"
+  ],
+  "cons": ["Enterprise sales-only", "No public pricing", "US healthcare-focused"],
+  "bestFor": ["Health systems", "Health plans", "Revenue-cycle automation"],
+  "alternatives": ["abridge", "nabla", "suki", "tennr"],
+  "references": [
+    {
+      "title": "Notable nabs $100M to automate administrative tasks in healthcare",
+      "url": "https://www.fiercehealthcare.com/digital-health/notable-nabs-100m-to-automate-administrative-tasks-healthcare",
+      "source": "Fierce Healthcare",
+      "kind": "analysis"
+    }
+  ]
+}

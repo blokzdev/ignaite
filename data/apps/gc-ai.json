@@ -1,0 +1,42 @@
+{
+  "slug": "gc-ai",
+  "insight": "Used by 1,700+ in-house legal teams across 53 countries; SOC 2 certified with a zero-data-retention model.",
+  "name": "GC AI",
+  "tagline": "AI legal assistant purpose-built for in-house counsel.",
+  "description": "GC AI is an AI platform for in-house legal teams that drafts, reviews, and researches in seconds. It includes Easy Prompt (turns plain language into legal requests), Exact Quote (verifiable, sourced citations), a Skill Library of reusable workflows, and a Microsoft Word contract agent. Sold per seat to corporate legal departments rather than law firms.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "GC AI",
+  "platforms": ["web"],
+  "tags": ["legal", "in-house-counsel", "drafting", "contract-review", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://gc.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 707,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Built specifically for in-house counsel (not law firms), with Exact Quote sourced citations and a reusable Skill Library.",
+  "pros": [
+    "Purpose-built for in-house counsel",
+    "Verifiable Exact Quote citations",
+    "Microsoft Word contract agent",
+    "Reusable Skill Library",
+    "SOC 2, zero data retention"
+  ],
+  "cons": ["Pricey at $500/seat per month", "Web-only", "Scoped to in-house, not litigation"],
+  "bestFor": ["In-house legal teams", "Corporate counsel", "Contract review"],
+  "alternatives": ["harvey", "legora", "spellbook", "ironclad"],
+  "references": [
+    {
+      "title": "Understanding GC AI: An AI Tool for In-house Counsel",
+      "url": "https://www.msba.org/site/site/content/News-and-Publications/News/General-News/Understanding_GC_AI_An_AI_Tool_for_In-house_Counsel.aspx",
+      "source": "Maryland State Bar Assoc.",
+      "kind": "analysis"
+    }
+  ]
+}
