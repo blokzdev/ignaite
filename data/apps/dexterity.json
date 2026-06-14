@@ -1,0 +1,61 @@
+{
+  "slug": "dexterity",
+  "name": "Dexterity",
+  "insight": "Raised $95M in 2025 at a $1.65B valuation; its robots load trucks for FedEx, UPS, and GXO.",
+  "tagline": "Physical AI robots for warehouse manipulation and truck loading.",
+  "description": "Dexterity builds 'Physical AI' robots that handle complex manipulation in logistics — including DexR, a truck-loading robot, and Mech, a two-armed mobile 'superhumanoid' that lifts up to 132 lb. Its Foresight world model is trained on over 100 million autonomous actions run in production. Customers include FedEx, UPS, GXO, and Sumitomo, and the company reached a $1.65B valuation in 2025.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "local",
+  "vendor": "Dexterity",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Foresight"],
+    "notes": "Foresight world model for Physical AI, trained on 100M+ in-production actions."
+  },
+  "tags": ["physical-ai", "warehouse-robotics", "manipulation", "logistics", "world-model"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.dexterity.ai",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.dexterity.ai/mech",
+      "label": "Mech"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 693,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Its Foresight 'world model for Physical AI' is trained on 100M+ autonomous actions already run in live production warehouses.",
+  "pros": [
+    "Deployed at FedEx, UPS, GXO today",
+    "Foresight world model on real production data",
+    "Tackles hard tasks like truck loading",
+    "$1.65B valuation, ~$300M raised"
+  ],
+  "cons": [
+    "Enterprise/industrial only, not buyable direct",
+    "Narrow to logistics manipulation",
+    "Hardware capital and integration heavy"
+  ],
+  "bestFor": ["Warehouse automation", "Parcel/logistics", "Truck loading"],
+  "alternatives": ["cobot", "figure-ai", "agility-robotics", "apptronik"],
+  "references": [
+    {
+      "title": "Dexterity picks up $95M for container-loading robots",
+      "url": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+      "source": "The Robot Report",
+      "kind": "analysis"
+    },
+    {
+      "title": "AI Robotics Startup Dexterity Lands $1.65B Valuation",
+      "url": "https://www.bloomberg.com/news/articles/2025-03-11/ai-robotics-startup-dexterity-lands-1-65-billion-valuation",
+      "source": "Bloomberg",
+      "kind": "analysis"
+    }
+  ]
+}

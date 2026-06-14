@@ -1,0 +1,55 @@
+{
+  "slug": "autoscience",
+  "name": "Autoscience",
+  "insight": "Its AI agent Carl produced the first fully AI-generated paper to pass double-blind academic peer review.",
+  "tagline": "Autonomous AI research lab whose agents run experiments end-to-end.",
+  "description": "Autoscience is an applied research lab building a virtual laboratory of autonomous AI scientists that generate hypotheses, design and run machine-learning experiments, and write up the results. Its agent Carl authored a full-length paper that passed double-blind peer review with only minor human edits. The San Mateo company raised a $14M seed round in March 2026 led by General Catalyst.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Autoscience",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Carl"],
+    "notes": "Autonomous research agents run the experiment loop; not a model you bring keys to."
+  },
+  "tags": ["ai-scientist", "research-automation", "agents", "ml-research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.autoscience.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 690,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Its agents run the whole research loop end-to-end, not just assist — Carl's paper passed peer review with only formatting and citation edits.",
+  "pros": [
+    "Carl cleared real double-blind peer review",
+    "Full experiment loop, not just ideation",
+    "Backed by General Catalyst-led seed"
+  ],
+  "cons": [
+    "Early-stage; no public self-serve product",
+    "Scope so far is ML research papers",
+    "Autonomy at scale still unproven"
+  ],
+  "bestFor": ["ML researchers", "Research labs", "AI-for-science watchers"],
+  "alternatives": ["futurehouse", "edison-scientific", "periodic-labs", "lila-sciences"],
+  "references": [
+    {
+      "title": "Autoscience builds automated research lab with $14M",
+      "url": "https://siliconangle.com/2026/03/19/autoscience-builds-automated-research-lab-machine-learning-models-14m/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "AI agent Carl wrote the first peer-reviewed paper",
+      "url": "https://www.rdworldonline.com/startup-autoscience-says-its-ai-agent-carl-just-wrote-the-first-academically-peer-reviewed-paper/",
+      "source": "R&D World",
+      "kind": "analysis"
+    }
+  ]
+}
