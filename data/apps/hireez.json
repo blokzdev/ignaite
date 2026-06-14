@@ -1,0 +1,49 @@
+{
+  "slug": "hireez",
+  "insight": "Founded as Hiretual; rebranded to hireEZ — pronounced 'hire easy' — in Feb 2022 alongside an oversubscribed $26M Series B.",
+  "name": "hireEZ",
+  "tagline": "Agentic AI recruiting platform that sits on your ATS.",
+  "description": "Outbound recruiting platform that sources, screens, engages, and schedules candidates with AI agents layered on top of whatever ATS a team already runs. Its EZ Agent searches 750M+ candidate profiles across 45+ open-web platforms, screens applicants, and automates outreach and interview scheduling. Built for recruiting teams that want passive-candidate discovery without replacing their stack.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "hireEZ",
+  "platforms": ["web"],
+  "tags": ["recruiting", "sourcing", "ats", "talent-acquisition"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://hireez.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://hireez.com/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 680,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Layers AI sourcing onto your existing ATS (Workday, Greenhouse, iCIMS) instead of replacing it, drawing on 750M+ profiles across 45+ open-web platforms.",
+  "pros": [
+    "750M+ candidate profiles from 45+ platforms",
+    "Layers onto your existing ATS",
+    "Agentic sourcing, screening, scheduling",
+    "Strong passive-candidate discovery"
+  ],
+  "cons": [
+    "Quote-based pricing, no public tiers",
+    "Enterprise-oriented, costly for small teams",
+    "Closed source"
+  ],
+  "bestFor": ["Outbound sourcing", "Recruiting teams", "Enterprise hiring"],
+  "alternatives": ["seekout", "gem", "findem", "juicebox"],
+  "references": [
+    {
+      "title": "HireEZ, formerly Hiretual, raises $26M to expand its platform",
+      "url": "https://venturebeat.com/ai/hireez-formerly-hiretual-raises-26m-to-expand-its-ai-powered-recruitment-platform",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    }
+  ]
+}
