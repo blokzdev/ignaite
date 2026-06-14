@@ -326,10 +326,13 @@
      collapse the transition regardless). */
   .reveal-rise {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(20px);
     transition-property: opacity, transform;
-    transition-duration: var(--transition-duration-base);
-    transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+    /* A deliberate faded slide-up: longer + an easeOutCubic curve (not the
+       front-loaded easeOutQuint, which finished the travel instantly and read as
+       a plain fade) so the rise is actually felt. */
+    transition-duration: 560ms;
+    transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
     will-change: opacity, transform;
   }
   .reveal-rise[data-shown="true"] {

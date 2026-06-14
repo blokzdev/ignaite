@@ -81,7 +81,7 @@ export function RevealToolGrid({ items, revealKey, view = "grid" }: Readonly<Pro
       if (firstPaint.current && li.getBoundingClientRect().top < window.innerHeight) return;
       // Light per-card cascade; modulo keeps appended batches lively without an
       // ever-growing delay.
-      li.style.transitionDelay = `${(idx % 6) * 40}ms`;
+      li.style.transitionDelay = `${(idx % 6) * 50}ms`;
       li.classList.add("reveal-rise");
       observer.current?.observe(li);
     });
