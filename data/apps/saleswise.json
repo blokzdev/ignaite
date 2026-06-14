@@ -1,0 +1,32 @@
+{
+  "slug": "saleswise",
+  "name": "Saleswise",
+  "tagline": "AI workspace built for real estate agents.",
+  "description": "Saleswise is an AI toolkit for real estate agents that generates client-ready comparative market analyses (CMAs), listing descriptions, emails, scripts, and social posts from real-estate-trained models. Its Studio tools add virtual staging, decluttering, and sky replacement for listing photos, plus a branded flyer maker. It's a single flat-rate subscription rather than a full CRM.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Saleswise",
+  "platforms": ["web"],
+  "tags": ["real-estate", "cma", "listing-marketing", "virtual-staging"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.saleswise.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 669,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Bundles CMA generation, photo staging, and 30+ agent-trained content tools into one $39/mo subscription built specifically for realtors.",
+  "pros": [
+    "Real-estate-trained AI tools",
+    "Fast client-ready CMAs",
+    "Virtual staging and photo edits",
+    "Flat $39/mo, unlimited use"
+  ],
+  "cons": ["Single vertical: realtors only", "No free tier (paid trial)", "Not a full CRM"],
+  "bestFor": ["Real estate agents", "Listing marketing", "CMA and content creation"],
+  "alternatives": ["lofty", "eliseai"]
+}

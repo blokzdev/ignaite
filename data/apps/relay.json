@@ -1,0 +1,45 @@
+{
+  "slug": "relay",
+  "name": "Relay.app",
+  "tagline": "AI-powered workflow automation across 200+ apps.",
+  "description": "Relay.app is a workflow automation platform that pairs 200+ app integrations with built-in AI steps and human-in-the-loop approvals. You build automations in a visual editor or by describing them in natural language, then add AI actions, custom code, and approval gates that pause a flow for a person before it acts. A genuine free tier ships with AI credits, with paid plans for more steps and team seats.",
+  "category": "automation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Relay",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Built-in AI steps run on leading LLMs (e.g. Claude, GPT)."
+  },
+  "tags": ["workflow-automation", "ai-agents", "integrations", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://relay.app",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://relay.app/pricing"
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 667,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Combines deep app integrations with native AI steps and human-in-the-loop approval gates, so a workflow can pause for a person before acting.",
+  "pros": [
+    "200+ app integrations",
+    "Native AI steps inside workflows",
+    "Human-in-the-loop approvals",
+    "Natural-language workflow building",
+    "Genuine free tier"
+  ],
+  "cons": [
+    "Smaller ecosystem than Zapier",
+    "Step and AI-credit caps on lower tiers",
+    "Fewer prebuilt templates than incumbents"
+  ],
+  "bestFor": ["Teams automating ops", "AI-assisted workflows", "Approval-gated automations"],
+  "alternatives": ["gumloop", "lindy", "bardeen"]
+}

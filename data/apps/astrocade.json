@@ -1,0 +1,52 @@
+{
+  "slug": "astrocade",
+  "name": "Astrocade",
+  "tagline": "Create and play AI-generated games from a prompt.",
+  "description": "Astrocade is an AI-native platform for creating and playing games without code. Describe an idea and its AI generates playable experiences — handling art, animation, music, sound, and gameplay logic — then publishes them to a social feed where others can discover and play. Founded by brothers Amir and Ali Sadeghian, it reached over 20 million users within eight months of launch.",
+  "category": "gaming",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Astrocade",
+  "platforms": ["web"],
+  "tags": ["ai-game-creation", "no-code", "ugc", "social-games"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.astrocade.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 671,
+  "lastVerifiedAt": "2026-06-14",
+  "insight": "Raised $56M across Series A/B (Sequoia led the B, Sea Limited the A), backed by Google's AI fund and Nvidia.",
+  "edge": "Generates the whole game — art, animation, music, and mechanics — from a single prompt, then ships it to a built-in social play feed.",
+  "pros": [
+    "Full game generation from a prompt",
+    "No coding required",
+    "Built-in social discovery feed",
+    "Backed by Sequoia, Google, and Nvidia",
+    "20M+ users in eight months"
+  ],
+  "cons": [
+    "Casual/UGC games, not pro-grade titles",
+    "Monetization and pricing still unclear",
+    "Output quality varies by prompt"
+  ],
+  "bestFor": ["Casual game creators", "No-code makers", "Social game players"],
+  "alternatives": ["rosebud-ai", "hidden-door", "ludo-ai"],
+  "references": [
+    {
+      "title": "Astrocade raises $56m to expand AI games creation platform",
+      "url": "https://www.pocketgamer.biz/astrocade-raises-56m-to-expand-ai-powered-games-creation-platform/",
+      "source": "PocketGamer.biz",
+      "kind": "analysis"
+    },
+    {
+      "title": "Sequoia-backed Astrocade raises $56 million to let everyone build games",
+      "url": "https://fortune.com/2026/05/05/astrocade-raises-56-million-series-b-sequoia-video-games-platform-ali-amir-sadeghian/",
+      "source": "Fortune",
+      "kind": "analysis"
+    }
+  ]
+}

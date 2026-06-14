@@ -1,0 +1,37 @@
+{
+  "slug": "alex",
+  "name": "Alex",
+  "tagline": "AI recruiter that interviews candidates over live video.",
+  "description": "Alex is an AI recruiting platform from Apriora that conducts live, conversational video interviews with candidates, asking real-time follow-up questions based on their answers. It also screens resumes, verifies candidate identity to flag fraud, coordinates scheduling, and rediscovers past ATS applicants across video, phone, SMS, and WhatsApp. Pricing is custom for employers.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Apriora",
+  "platforms": ["web"],
+  "tags": ["ai-recruiter", "interviewing", "hiring", "candidate-screening"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.alex.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 670,
+  "lastVerifiedAt": "2026-06-14",
+  "insight": "Founded as Apriora (a Y Combinator startup); rebranded to Alex after raising about $20M.",
+  "edge": "Runs the live interview itself — a natural voice conversation with real-time follow-ups — not just async one-way video or resume scoring.",
+  "pros": [
+    "Conducts live AI video interviews",
+    "Real-time adaptive follow-ups",
+    "Resume screening and identity fraud checks",
+    "Multi-channel: video, phone, SMS, WhatsApp"
+  ],
+  "cons": [
+    "Enterprise/custom pricing only",
+    "Candidate comfort with AI interviewers varies",
+    "Newer entrant in the hiring stack"
+  ],
+  "bestFor": ["High-volume recruiting", "Screening and interviewing", "Talent acquisition teams"],
+  "alternatives": ["hirevue", "heymilo", "metaview"]
+}
