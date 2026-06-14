@@ -5,6 +5,7 @@
   "description": "Decart is an AI lab building real-time generative world and video models, including Oasis (a fully AI-generated, playable Minecraft-style open world) and Lucy (real-time video transformation used in gaming, ads, and virtual try-on). Its Oasis 3 is positioned as an API-accessible world model for Physical AI, with a low-latency inference stack. Products are accessed via the platform API and interactive demos.",
   "insight": "Raised $32M at a $500M valuation (Dec 2024, Benchmark), then $300M at ~$3.1B (Aug 2025); founders came out of IDF Unit 8200.",
   "category": "gaming",
+  "secondaryCategories": ["video"],
   "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Decart",

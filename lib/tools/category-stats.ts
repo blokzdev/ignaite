@@ -1,6 +1,7 @@
 import { apps } from "@/.velite";
 import type { App, AppCategory } from "@/types/app";
 import { recentApps } from "@/lib/tools/filter-apps";
+import { appCategories, inCategory } from "@/lib/tools/category-membership";
 
 // Server-only category aggregates over the full Velite dataset, shared by the
 // category pages, the /categories hub, the footer's Browse block, and the
@@ -13,7 +14,7 @@ const isActive = (a: App) => (a.status ?? "active") === "active";
 /** A category's ACTIVE apps in the directory's default browse order
  *  (newest-first by `addedSeq`, the same comparator the hydrated grid uses). */
 export function activeCategoryApps(category: AppCategory): App[] {
-  const pool = apps.filter((a) => a.category === category);
+  const pool = apps.filter((a) => inCategory(a, category));
   return recentApps(pool, pool.length);
 }
 
@@ -23,7 +24,9 @@ export function activeCountByCategory(): ReadonlyMap<AppCategory, number> {
   const counts = new Map<AppCategory, number>();
   for (const a of apps) {
     if (!isActive(a)) continue;
-    counts.set(a.category, (counts.get(a.category) ?? 0) + 1);
+    // Full membership: an app counts toward every category it belongs to, so
+    // these per-category counts sum above the total listing count (intended).
+    for (const c of appCategories(a)) counts.set(c, (counts.get(c) ?? 0) + 1);
   }
   return counts;
 }
@@ -43,7 +46,7 @@ export function topCategories(n: number): ReadonlyArray<{ category: AppCategory;
 export function categoryLastVerified(category: AppCategory): Date | null {
   let latest: string | null = null;
   for (const a of apps) {
-    if (a.category !== category || !isActive(a) || !a.lastVerifiedAt) continue;
+    if (!inCategory(a, category) || !isActive(a) || !a.lastVerifiedAt) continue;
     if (!latest || a.lastVerifiedAt > latest) latest = a.lastVerifiedAt;
   }
   return latest ? new Date(latest) : null;

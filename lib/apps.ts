@@ -1,5 +1,6 @@
 import { apps } from "@/.velite";
 import type { App, AppCategory, AppPricing } from "@/types/app";
+import { appCategories, inCategory } from "@/lib/tools/category-membership";
 
 export interface ListAppsOptions {
   category?: AppCategory;
@@ -10,7 +11,7 @@ export interface ListAppsOptions {
 export function listApps(opts: ListAppsOptions = {}): ReadonlyArray<App> {
   const query = opts.text?.trim().toLowerCase() ?? "";
   const filtered = apps.filter((a) => {
-    if (opts.category && a.category !== opts.category) return false;
+    if (opts.category && !inCategory(a, opts.category)) return false;
     if (opts.pricing && a.pricing !== opts.pricing) return false;
     if (query && !matchApp(a, query)) return false;
     return true;
@@ -64,7 +65,7 @@ function matchApp(a: App, query: string): boolean {
     a.description,
     a.insight ?? "",
     a.vendor ?? "",
-    a.category,
+    ...appCategories(a),
     ...(a.tags ?? []),
     ...(a.modelSupport?.models ?? []),
   ]
