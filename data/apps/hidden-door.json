@@ -1,0 +1,47 @@
+{
+  "slug": "hidden-door",
+  "name": "Hidden Door",
+  "tagline": "AI roleplay games set in your favorite story worlds.",
+  "description": "Hidden Door is a social AI storytelling platform where players roleplay collaborative adventures guided by an AI Narrator, presented as interactive graphic novels. It launched with public-domain worlds like Pride and Prejudice, The Call of Cthulhu, and The Wizard of Oz, and licenses IP through revenue-share with creators rather than training on their work without permission. Every playthrough differs because choices reshape the story.",
+  "insight": "Co-founded by Hilary Mason — the data scientist behind Fast Forward Labs (acquired by Cloudera) and ex-chief-scientist at bit.ly.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Hidden Door",
+  "platforms": ["web"],
+  "tags": ["gaming", "roleplay", "storytelling", "interactive-fiction", "narrative"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hiddendoor.co",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 662,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "Licenses fictional worlds via revenue-share with creators rather than training on their work, pairing an AI Narrator with a collectible-card story system.",
+  "pros": [
+    "AI Narrator adapts every playthrough",
+    "Licensed worlds via creator revenue-share",
+    "Interactive graphic-novel presentation",
+    "Play collaboratively with friends",
+    "Free to start"
+  ],
+  "cons": [
+    "Browser-based; limited platform reach",
+    "Catalog of worlds still growing",
+    "Casual storytelling, not a full RPG",
+    "Experience depends on the chosen world"
+  ],
+  "bestFor": ["Collaborative storytelling", "Fan-fiction & roleplay fans", "Casual narrative play"],
+  "alternatives": ["character-ai", "convai", "rosebud-ai"],
+  "references": [
+    {
+      "title": "Hidden Door launches AI role-playing platform for fan fiction",
+      "url": "https://variety.com/2025/gaming/news/hidden-door-ai-role-playing-fan-fiction-game-platform-1236488265/",
+      "source": "Variety",
+      "kind": "analysis"
+    }
+  ]
+}

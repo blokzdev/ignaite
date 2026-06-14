@@ -1,0 +1,46 @@
+{
+  "slug": "artificial-agency",
+  "name": "Artificial Agency",
+  "tagline": "A generative behavior engine for living game characters.",
+  "description": "Artificial Agency's behavior engine uses foundation models to turn game systems into autonomous agents at runtime — characters that remember player interactions and personalize encounters, plus 'game director' systems that adapt story and pacing. Studios integrate it into any genre without game-specific training, keeping their existing tools and workflows. The engine launched in alpha to select studios via a pilot program.",
+  "insight": "Founded 2023 in Edmonton by ex-DeepMind researchers; emerged from stealth in 2024 with $16M from Radical Ventures and Toyota Ventures.",
+  "category": "gaming",
+  "pricing": "paid",
+  "vendor": "Artificial Agency",
+  "platforms": ["api"],
+  "tags": ["gaming", "npc", "game-ai", "behavior-engine", "generative-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.artificial.agency",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-14",
+  "addedSeq": 661,
+  "lastVerifiedAt": "2026-06-14",
+  "edge": "A dedicated runtime behavior engine — drops generative NPCs and adaptive game directors into any genre, with no game-specific model training.",
+  "pros": [
+    "Generative NPCs that remember and personalize",
+    "Runtime 'game director' adapts story & pacing",
+    "Engine-agnostic; keep your existing tools",
+    "No game-specific model training required",
+    "Team & backers from DeepMind and AAA studios"
+  ],
+  "cons": [
+    "Alpha — limited to select studios via pilot",
+    "No public pricing or self-serve access",
+    "Runtime LLM behavior raises latency/cost questions",
+    "Unproven in shipped commercial titles"
+  ],
+  "bestFor": ["Game studios", "Dynamic NPCs & encounters", "Emergent narrative gameplay"],
+  "alternatives": ["inworld", "convai"],
+  "references": [
+    {
+      "title": "Artificial Agency launches Behavior Engine to create games that feel 'alive'",
+      "url": "https://gamesbeat.com/artificial-agency-launches-behavior-engine-to-create-games-that-feel-alive/",
+      "source": "GamesBeat",
+      "kind": "analysis"
+    }
+  ]
+}
