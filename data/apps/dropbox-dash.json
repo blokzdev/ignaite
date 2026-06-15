@@ -1,0 +1,56 @@
+{
+  "slug": "dropbox-dash",
+  "name": "Dropbox Dash",
+  "tagline": "AI universal search across your apps, files, and tools.",
+  "description": "Dropbox Dash is an AI-powered universal search and knowledge workspace that indexes content across connected apps — Google Drive, OneDrive, Notion, Slack, and more — to return instant, sourced answers. It adds a unified start page, AI writing tools, and admin access controls, with a business tier that uses self-hosted AI to keep data inside Dropbox's trust boundary.",
+  "insight": "Built on Command E, the desktop universal-search startup Dropbox acquired in 2021 and rebranded as Dash.",
+  "category": "search",
+  "secondaryCategories": ["productivity"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Dropbox",
+  "platforms": ["web", "macos", "windows", "browser-extension"],
+  "tags": ["enterprise-search", "universal-search", "knowledge", "productivity"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://dash.dropbox.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://dash.dropbox.com/plans"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 731,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Searches across your connected SaaS apps and files from one bar, and its business tier runs self-hosted AI so content stays in Dropbox's trust boundary.",
+  "pros": [
+    "Searches across many connected apps",
+    "Sourced, cited answers",
+    "Self-hosted AI option for business",
+    "Unified start page plus Stacks"
+  ],
+  "cons": [
+    "Best value needs many connected apps",
+    "Richer features gated to paid tiers",
+    "Younger than incumbent search rivals"
+  ],
+  "bestFor": ["Knowledge workers", "Teams with scattered tools", "Enterprise content search"],
+  "alternatives": ["glean", "dust", "sana", "guru"],
+  "references": [
+    {
+      "title": "Dropbox Q4 2025 revenue hit as focus shifts to AI search tool Dash",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/2/dropbox-q4-2025-revenue-hit-by-formswift-as-focus-shifts-to-ai-search-tool-dash-98859815",
+      "source": "S&P Global",
+      "kind": "analysis"
+    },
+    {
+      "title": "Dropbox updates universal search and knowledge product",
+      "url": "https://futurecio.tech/dropbox-updates-universal-search-and-knowledge-management-product/",
+      "source": "FutureCIO",
+      "kind": "analysis"
+    }
+  ]
+}

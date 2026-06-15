@@ -1,0 +1,60 @@
+{
+  "slug": "guru",
+  "name": "Guru",
+  "tagline": "AI enterprise search on a verified company knowledge layer.",
+  "description": "Guru is an enterprise knowledge platform combining AI search, a verified company wiki, and an intranet, surfacing trusted answers inside the tools teams already use. Knowledge Agents give departments like HR, sales, and support cited responses grounded in governed content, backed by 100+ integrations and a browser extension.",
+  "insight": "Shipped a Slack MCP integration in March 2026, letting AI agents query live Slack conversations as a knowledge source.",
+  "category": "search",
+  "secondaryCategories": ["support"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Guru",
+  "platforms": ["web", "browser-extension", "api"],
+  "tags": ["enterprise-search", "knowledge-management", "wiki", "agentic-search", "support"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.getguru.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.getguru.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 733,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Grounds AI answers in a human-verified wiki with expiring 'trust' dates, so search returns governed knowledge instead of stale or hallucinated content.",
+  "pros": [
+    "Answers grounded in verified knowledge",
+    "Strong browser extension and in-app delivery",
+    "100+ integrations including Slack and Teams",
+    "Knowledge Agents per department"
+  ],
+  "cons": [
+    "Pricing is now custom and sales-led",
+    "Needs upkeep of verified content",
+    "Overlaps with broader search rivals"
+  ],
+  "bestFor": [
+    "Support and ops teams",
+    "Internal knowledge management",
+    "Verified enterprise answers"
+  ],
+  "alternatives": ["glean", "dust", "dropbox-dash", "sana"],
+  "references": [
+    {
+      "title": "Guru vs Glean 2026: Why Verified AI Beats Enterprise Search",
+      "url": "https://techplustrends.com/guru-vs-glean-2026-enterprise-ai-knowledge-tools/",
+      "source": "TechPlusTrends",
+      "kind": "comparison"
+    },
+    {
+      "title": "Guru review 2026 — AI-searchable knowledge management",
+      "url": "https://www.toolsforhumans.ai/ai-tools/guru",
+      "source": "Tools For Humans",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "aisera",
+  "name": "Aisera",
+  "tagline": "Agentic AI platform for IT, HR, and customer service desks.",
+  "description": "Aisera is an enterprise agentic AI platform that automates service interactions across IT, HR, finance, and customer support. It resolves and deflects tickets autonomously using domain-specific 'Hyperflows' and prebuilt templates, with tools like Agent Composer and LLM Studio to configure conversational and back-office automation in one loop.",
+  "insight": "Acquired by RPA company Automation Anywhere in 2025 to pair its service AI with agentic process automation.",
+  "category": "support",
+  "secondaryCategories": ["agent"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Aisera",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-agnostic; LLM Studio configures and routes across multiple models for resolution."
+  },
+  "tags": ["ai-service-desk", "itsm", "customer-support", "agentic-ai", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aisera.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 732,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Ships domain-tuned Hyperflows and is trained on 400M+ service interactions, so it resolves IT/HR/CX tickets end-to-end rather than just routing them.",
+  "pros": [
+    "Autonomous ticket resolution and deflection",
+    "Spans IT, HR, finance, and CX",
+    "Prebuilt domain Hyperflows",
+    "Gartner-recognized in ITSM"
+  ],
+  "cons": [
+    "Enterprise pricing is not public",
+    "Complex to deploy and tune",
+    "Best fit for large organizations"
+  ],
+  "bestFor": [
+    "Enterprise IT and HR desks",
+    "Customer support automation",
+    "Large-scale ticket deflection"
+  ],
+  "alternatives": ["decagon", "sierra", "ada-cx", "intercom-fin"],
+  "references": [
+    {
+      "title": "Aisera AI Agent Platform Reviews & Ratings",
+      "url": "https://www.gartner.com/reviews/product/aisera-ai-agent-platform",
+      "source": "Gartner Peer Insights",
+      "kind": "review"
+    }
+  ]
+}
