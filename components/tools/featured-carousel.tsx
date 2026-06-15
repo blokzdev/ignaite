@@ -163,14 +163,21 @@ export function FeaturedCarousel({ apps, view = "grid" }: Readonly<Props>) {
           </div>
         </div>
 
-        {/* The rail bleeds to the tray's inner edges (-mx cancels the tray
-              padding) so card #1 aligns with the header and the right edge fades
-              at the ring. py-3 / -my-3 keeps a 12px breathing zone so the card's
-              hover-lift + focus ring aren't clipped by overflow-x: auto. List view
-              keeps the SAME carousel, just condensed rows in narrower cells. */}
+        {/* Grid view bleeds the rail to the tray's inner edges (-mx cancels the
+              tray padding) so card #1 aligns with the header and the right edge
+              fades at the ring. py-3 / -my-3 keeps a 12px breathing zone so the
+              card's hover-lift + focus ring aren't clipped by overflow-x: auto.
+              List view keeps the SAME carousel (condensed rows) but drops the
+              bleed so each w-full card fills the scroll viewport and centers. */}
         <ul
           ref={scrollerRef}
-          className="no-scrollbar scroll-fade-x -mx-4 -my-3 flex snap-x snap-mandatory gap-5 overflow-x-auto px-4 py-3 sm:-mx-5 sm:px-5"
+          className={cn(
+            "no-scrollbar scroll-fade-x -my-3 flex snap-x snap-mandatory gap-5 overflow-x-auto py-3",
+            // Grid view bleeds the rail to the tray's inner edges (a right-peek
+            // "more →" affordance); list view drops the bleed so each w-full card
+            // exactly fills the scroll viewport and reads centered (no left-lean).
+            !list && "-mx-4 px-4 sm:-mx-5 sm:px-5",
+          )}
           role="list"
         >
           {items.map((app) => (
