@@ -1,0 +1,55 @@
+{
+  "slug": "prophet-security",
+  "name": "Prophet Security",
+  "tagline": "Agentic AI SOC platform that autonomously investigates and responds to alerts.",
+  "description": "Prophet Security's agentic AI SOC platform triages, investigates, and responds to security alerts across endpoint, email, identity, cloud, and DLP sources, mimicking how an expert analyst reasons through an alert. Alongside its AI SOC Analyst it ships a threat hunter that surfaces suspicious patterns and a detection advisor that improves coverage and reduces noise. It connects to existing security tooling through bi-directional integrations spanning the investigation lifecycle.",
+  "insight": "Founded in 2023; came out of stealth with a $30M Series A led by Accel in 2025, ~$41M raised total.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Prophet Security",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses LLM-driven agents to reason across an organization's security stack."
+  },
+  "tags": ["soc", "agentic-ai", "alert-triage", "threat-hunting", "security-operations"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.prophetsecurity.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 771,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs an autonomous AI SOC Analyst with a threat hunter and detection advisor, so it improves detections over time instead of only clearing the queue.",
+  "pros": [
+    "Autonomous Tier 1-3 alert investigation",
+    "Adds threat hunting and detection tuning",
+    "Bi-directional integrations across the stack",
+    "Backed by Accel, Bain, Amex and Citi ventures"
+  ],
+  "cons": [
+    "Demo-led sales, no public pricing",
+    "Early-stage Series A company",
+    "Enterprise focus, not for individuals"
+  ],
+  "bestFor": ["Enterprise SOC teams", "Autonomous alert triage"],
+  "alternatives": ["dropzone-ai", "exaforce"],
+  "references": [
+    {
+      "title": "Prophet Security raises $30M to replace human analysts with autonomous defenders",
+      "url": "https://venturebeat.com/ai/ai-vs-ai-prophet-security-raises-30m-to-replace-human-analysts-with-autonomous-defenders",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Prophet Security Raises $30M, Launches AI SOC Platform",
+      "url": "https://www.builtinsf.com/articles/prophet-security-raises-30m-series-a-20250804",
+      "source": "Built In SF",
+      "kind": "analysis"
+    }
+  ]
+}
