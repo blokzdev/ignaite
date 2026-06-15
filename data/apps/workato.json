@@ -1,0 +1,74 @@
+{
+  "slug": "workato",
+  "name": "Workato",
+  "tagline": "Enterprise iPaaS for integration, automation, and AI agents.",
+  "description": "Workato is an enterprise integration and automation platform (iPaaS) with 1,200+ prebuilt connectors spanning CRMs, ERPs, HR systems, and databases. Its Workato ONE layer adds agentic orchestration — Otto, Agent Studio, and an enterprise MCP gateway — so teams build, run, and govern AI agents alongside traditional low-code recipe workflows.",
+  "insight": "Its 2021 Series E raised $200M at a $5.7 billion valuation.",
+  "category": "automation",
+  "secondaryCategories": ["orchestration"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Workato",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Agent Studio and Otto build LLM-powered agents that act across connected systems."
+  },
+  "tags": ["ipaas", "integration", "workflow-automation", "ai-agents", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.workato.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.workato.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.workato.com"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 730,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Marries 1,200+ enterprise connectors with agentic orchestration, so AI agents act across your real systems instead of stopping at chat.",
+  "pros": [
+    "1,200+ prebuilt enterprise connectors",
+    "Agentic orchestration via Workato ONE",
+    "Low-code recipe builder",
+    "Strong enterprise governance and security"
+  ],
+  "cons": [
+    "Enterprise pricing is sales-led and opaque",
+    "Overkill for simple personal automations",
+    "Learning curve for advanced recipes"
+  ],
+  "bestFor": [
+    "Enterprise IT and ops teams",
+    "System integration at scale",
+    "Agentic process automation"
+  ],
+  "alternatives": ["zapier", "make", "n8n", "pipedream"],
+  "references": [
+    {
+      "title": "Workato doubles down on agents",
+      "url": "https://diginomica.com/workato-doubles-down-agents-will-its-customers-be-able-keep-pace",
+      "source": "diginomica",
+      "kind": "analysis"
+    },
+    {
+      "title": "AI agents power Workato's push for automation",
+      "url": "https://siliconangle.com/2025/08/22/customers-ai-agents-workato-launch-worldofworkato/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "Workato Business Breakdown & Founding Story",
+      "url": "https://research.contrary.com/company/workato",
+      "source": "Contrary Research",
+      "kind": "analysis"
+    }
+  ]
+}
