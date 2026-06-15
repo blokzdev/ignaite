@@ -1,0 +1,53 @@
+{
+  "slug": "spinach",
+  "name": "Spinach AI",
+  "tagline": "An AI meeting assistant built for agile teams.",
+  "description": "Spinach AI joins video calls to record, transcribe, and summarize meetings, then turns them into clear notes, decisions, and action items. Designed for agile teams, it runs standups, retros, and sprint syncs and pushes follow-ups into the tools engineers already use. It integrates with Zoom, Google Meet, Microsoft Teams, and Webex plus 30+ destinations including Slack, Jira, Salesforce, HubSpot, and Notion.",
+  "insight": "Backed by Y Combinator and strategic investors Zoom and Atlassian; started in 2021 as an AI standup tool for agile engineering teams.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Spinach (StayIn, Inc.)",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-powered note-taking, summaries, and action-item extraction."
+  },
+  "tags": ["meeting-notes", "scrum", "standup", "action-items"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.spinach.ai/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.spinach.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 797,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Built for agile teams: it runs standups and retros and pushes action items straight into Jira, Slack, and Linear — not just generic meeting notes.",
+  "pros": [
+    "Strong agile / scrum workflow fit",
+    "Free unlimited recording tier",
+    "30+ integrations (Jira, Slack, HubSpot)",
+    "Auto-pushes action items to your tools"
+  ],
+  "cons": [
+    "Web-only, bot joins the call to capture",
+    "Less general than horizontal notetakers",
+    "Pay-per-hour Pro can add up"
+  ],
+  "bestFor": ["Agile / scrum teams", "Standups & retros", "Engineering managers"],
+  "alternatives": ["fathom", "circleback", "read-ai", "granola"],
+  "references": [
+    {
+      "title": "Spinach.io wants to help agile engineering teams run better online meetings",
+      "url": "https://techcrunch.com/2022/08/02/spinach-io-wants-to-help-agile-engineering-teams-run-better-online-meetings/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
