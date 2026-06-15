@@ -1,0 +1,63 @@
+{
+  "slug": "playground",
+  "insight": "Founded by Mixpanel co-founder Suhail Doshi; the AI graphics startup has raised about $40M to advance computer graphics.",
+  "name": "Playground",
+  "tagline": "Make pro-looking graphics from a prompt, no design skills needed.",
+  "description": "An AI design studio that turns text prompts and templates into logos, social posts, posters, stickers, and merchandise designs. It pairs generation across multiple image models with editing tools like style swapping, object removal, and mockups, and can print finished designs onto physical products. Originally launched as an AI image generator before pivoting to a non-designer-focused graphics studio.",
+  "category": "design",
+  "secondaryCategories": ["image-gen"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Playground",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Generates across several third-party image models."
+  },
+  "tags": ["graphic-design", "logos", "social-graphics", "print-on-demand"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://playground.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 757,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Aims finished, on-brand assets — logos, social posts, merch — at non-designers from a prompt, and prints them on real products, not just raw image output.",
+  "pros": [
+    "Templates across many design categories",
+    "Generates logos, social posts, merch",
+    "Print-on-demand on real products",
+    "Free tier, no card required",
+    "Beginner-friendly, no design skills"
+  ],
+  "cons": [
+    "Pivoted away from open image-gen roots",
+    "Less control than pro design tools",
+    "Output quality varies by model",
+    "Geared to marketing graphics, not fine art"
+  ],
+  "bestFor": [
+    "Small businesses",
+    "Social media creators",
+    "Non-designers",
+    "Merch and logo design"
+  ],
+  "alternatives": ["canva", "microsoft-designer", "looka", "recraft"],
+  "references": [
+    {
+      "title": "The AI-First Graphics Editor — with Suhail Doshi of Playground",
+      "url": "https://www.latent.space/p/suhail-doshi",
+      "source": "Latent Space",
+      "kind": "interview"
+    },
+    {
+      "title": "The Pixel Revolution Part 2 with Suhail Doshi, Founder of Playground",
+      "url": "https://www.cognitiverevolution.ai/the-pixel-revolution-part-2-with-suhail-doshi-founder-of-playground-ai/",
+      "source": "Cognitive Revolution",
+      "kind": "interview"
+    }
+  ]
+}
