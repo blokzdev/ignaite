@@ -1,0 +1,56 @@
+{
+  "slug": "intellcre",
+  "name": "IntellCRE",
+  "tagline": "AI deal-flow engine for commercial real estate — underwrite and market in minutes.",
+  "description": "IntellCRE automates the commercial real estate workflow: it sources listings and market data, runs underwriting and financial modeling, and turns the result into investor-ready marketing collateral. From one deal it can generate brochures, offering memorandums, broker opinions of value, pitch decks, and listing websites on brand. It targets brokers, investors, lenders, and analysts working multifamily and CRE deals.",
+  "insight": "Runs on a proprietary database of 150M+ U.S. commercial properties, auto-sourcing comps and market data for each deal.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "IntellCRE",
+  "platforms": ["web"],
+  "tags": ["cre", "underwriting", "deal-marketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://intellcre.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://intellcre.com/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 787,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs automated CRE underwriting with AI-generated marketing collateral — OMs, BOVs, brochures, listing sites — not just analysis or docs alone.",
+  "pros": [
+    "End-to-end: underwriting plus marketing",
+    "Large built-in property and comps database",
+    "Investor-ready documents in minutes",
+    "Affordable entry tier (~$69/mo)"
+  ],
+  "cons": [
+    "Focused on multifamily/CRE only",
+    "No free tier",
+    "Web-only",
+    "US property data coverage"
+  ],
+  "bestFor": ["CRE brokers", "Multifamily investors", "Deal underwriting"],
+  "alternatives": ["rechat", "lofty"],
+  "references": [
+    {
+      "title": "IntellCRE Software Pricing, Alternatives & More 2026",
+      "url": "https://www.capterra.com/p/275516/Intellcre/",
+      "source": "Capterra",
+      "kind": "review"
+    },
+    {
+      "title": "AI Tools for Commercial Real Estate (Summer 2026 Edition)",
+      "url": "https://www.adventuresincre.com/ai-tools-commercial-real-estate/",
+      "source": "Adventures in CRE",
+      "kind": "guide"
+    }
+  ]
+}

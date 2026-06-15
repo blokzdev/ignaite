@@ -1,0 +1,51 @@
+{
+  "slug": "voyage",
+  "name": "Voyage",
+  "tagline": "AI-native RPG platform where every world is built and played from a prompt.",
+  "description": "Voyage lets anyone describe a world in natural language and drops them inside it as a playable, text-based RPG. Built on Latitude's World Engine, characters carry their own motivations and memories, storylines emerge from player choices, and the world keeps evolving even after you log off. Up to four players can share a world in co-op.",
+  "insight": "Built by Latitude, the AI Dungeon studio; its World Engine took five years to develop and is backed by Google's AI Futures Fund.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Latitude",
+  "platforms": ["web", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Gemini"],
+    "notes": "Built on Latitude's World Engine; uses Google Gemini models."
+  },
+  "tags": ["ai-rpg", "worldbuilding", "interactive-fiction"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://beta.voyage.io/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 786,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Unlike scripted AI-NPC demos, every Voyage world, quest, and character is generated and persists — characters keep evolving even after you log off.",
+  "pros": [
+    "Fully unscripted, player-described worlds",
+    "Persistent characters with memory",
+    "Up to 4-player co-op",
+    "Free during expanded beta"
+  ],
+  "cons": [
+    "Text-based, no rich graphics",
+    "Still in beta; subscriptions not final",
+    "Android/web only at launch",
+    "Quality depends on underlying LLM"
+  ],
+  "bestFor": ["Solo RPG players", "Interactive-fiction fans", "AI worldbuilding"],
+  "alternatives": ["hidden-door", "rosebud-ai", "convai"],
+  "references": [
+    {
+      "title": "AI Dungeon maker Latitude unveils Voyage, a platform for AI-powered RPGs",
+      "url": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
