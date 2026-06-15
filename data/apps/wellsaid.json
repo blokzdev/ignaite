@@ -1,0 +1,57 @@
+{
+  "slug": "wellsaid",
+  "name": "WellSaid",
+  "tagline": "Enterprise AI text-to-speech with voices licensed from real voice actors.",
+  "description": "An enterprise-grade AI voice generator that produces realistic voiceovers from scripts. It offers 120+ voices across languages and accents — modeled on licensed recordings by real voice actors — plus a studio for script import and audio tuning, team workspaces, pronunciation libraries, Adobe integrations, and an API for products, LMS platforms, and IVRs.",
+  "insight": "Spun out of the Allen Institute for AI (AI2) incubator in 2019; raised a $10M Series A led by FUSE in 2021.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "WellSaid Labs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary neural TTS voices modeled on licensed voice-actor recordings."
+  },
+  "tags": ["text-to-speech", "voiceover", "tts", "enterprise", "synthetic-voice"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wellsaid.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.wellsaid.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 785,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Enterprise TTS built on voices licensed from real voice actors, with workspace controls, pronunciation libraries, and Adobe integrations.",
+  "pros": [
+    "Voices licensed from real voice actors",
+    "120+ voices across languages and accents",
+    "Team workspaces and pronunciation control",
+    "API plus Adobe integrations"
+  ],
+  "cons": [
+    "Voiceover-focused, not conversational/agent TTS",
+    "Premium pricing geared to teams",
+    "Smaller voice catalog than some rivals"
+  ],
+  "bestFor": [
+    "Corporate training and e-learning",
+    "Product and marketing video",
+    "Enterprise voiceover"
+  ],
+  "alternatives": ["elevenlabs", "murf", "resemble-ai", "cartesia"],
+  "references": [
+    {
+      "title": "Matt Hocking, Co-Founder of WellSaid Labs - Interview Series",
+      "url": "https://www.unite.ai/matt-hocking-co-founder-ceo-of-wellsaid-labs-interview-series/",
+      "source": "Unite.AI",
+      "kind": "interview"
+    }
+  ]
+}
