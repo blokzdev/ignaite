@@ -1,0 +1,56 @@
+{
+  "slug": "atlas",
+  "name": "Atlas",
+  "tagline": "Multi-agent AI platform that builds production 3D asset pipelines for games.",
+  "description": "Atlas (Atlas AI Studio) orchestrates fleets of specialized AI agents that generate, texture, optimize, and engine-integrate 3D, 2D, and motion assets from natural-language descriptions and moodboards. Rather than producing isolated outputs from a single model, it assembles end-to-end production pipelines aimed at studio workflows, with exports to Unreal and Blender. The Vienna-based company targets games, CGI, and immersive worldbuilding.",
+  "insight": "Backed by Final Fantasy studio Square Enix; AI Studio left closed beta for general availability in March 2026.",
+  "category": "gaming",
+  "secondaryCategories": ["3d"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Atlas",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Assembles and deploys combinations of AI models across a 3D production pipeline."
+  },
+  "tags": ["game-dev", "3d-assets", "multi-agent", "asset-pipeline", "worldbuilding"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://atlas.design",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 772,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Builds whole production pipelines via collaborating agents, not one-shot 'prompt to asset' outputs — aimed at studios shipping into Unreal and Blender.",
+  "pros": [
+    "Multi-agent pipelines, not single-model outputs",
+    "Targets production-ready studio workflows",
+    "Exports to Unreal and Blender",
+    "AAA partners incl. Square Enix and Shrapnel"
+  ],
+  "cons": [
+    "No public pricing tiers disclosed",
+    "Geared to studios over solo creators",
+    "Generative game assets raise IP/style questions"
+  ],
+  "bestFor": ["Game studios", "3D and CGI pipelines"],
+  "alternatives": ["meshy", "scenario", "kaedim", "tripo"],
+  "references": [
+    {
+      "title": "Square Enix-Backed Atlas Uses AI to Turn Text and Images Into Game Worlds",
+      "url": "https://decrypt.co/205923/final-fantasy-developer-square-enix-backs-3d-ai-platform-atlas",
+      "source": "Decrypt",
+      "kind": "analysis"
+    },
+    {
+      "title": "3D generative AI platform Atlas emerges from stealth with $6M",
+      "url": "https://techcrunch.com/2023/11/14/3d-generative-ai-platform-atlas-emerges-stealth-6m-accelerate-virtual-worldbuilding/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

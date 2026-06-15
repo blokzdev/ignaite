@@ -1,0 +1,55 @@
+{
+  "slug": "exaforce",
+  "name": "Exaforce",
+  "tagline": "Agentic SOC platform that detects, triages, investigates, and responds to threats.",
+  "description": "Exaforce runs an agentic security operations center built around AI agents it calls 'Exabots' that detect threats, cut alert noise, investigate incidents, and execute response actions with analyst oversight. It combines large language models with semantic, statistical, and behavioral models, and integrates with 100+ sources spanning SIEMs, cloud, identity, and SaaS. Available as a self-managed platform or a managed detection and response (MDR) service.",
+  "insight": "Founded in 2023; raised a $75M Series A in 2025 then a $125M Series B in May 2026, ~$200M total.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Exaforce",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Pairs LLMs with semantic, statistical, and behavioral models for detection and triage."
+  },
+  "tags": ["soc", "agentic-ai", "threat-detection", "mdr", "security-operations"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.exaforce.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 770,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Multi-model Exabots span the full SOC loop — detect, triage, investigate, respond — rather than bolting AI onto a single alert-triage step.",
+  "pros": [
+    "Covers detection through response, not just triage",
+    "Combines LLMs with statistical/behavioral models",
+    "Integrates 100+ security and cloud sources",
+    "Offered as platform or managed MDR service"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing or self-serve",
+    "Young company (founded 2023)",
+    "Aimed at security teams, not individuals"
+  ],
+  "bestFor": ["Enterprise security teams", "SOC alert-fatigue reduction"],
+  "alternatives": ["dropzone-ai", "prophet-security"],
+  "references": [
+    {
+      "title": "Exaforce raises $125M Series B to build AI for catching cyberattacks",
+      "url": "https://techcrunch.com/2026/05/12/exaforce-raises-125m-series-b-to-build-ai-for-catching-and-stopping-cyberattacks-as-they-happen/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Exaforce Banks Hefty $75 Million for AI-Powered SOC Remake",
+      "url": "https://www.securityweek.com/exaforce-banks-hefty-75-million-for-ai-powered-soc-remake/",
+      "source": "SecurityWeek",
+      "kind": "analysis"
+    }
+  ]
+}
