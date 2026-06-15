@@ -1,0 +1,57 @@
+{
+  "slug": "docker-mcp",
+  "name": "Docker MCP Toolkit",
+  "tagline": "Run and manage containerized MCP servers from Docker Desktop.",
+  "description": "Docker's Model Context Protocol stack: a Catalog of 200+ verified, containerized MCP servers (from publishers like Stripe, GitHub, Grafana, MongoDB, and Notion), a Toolkit built into Docker Desktop for one-click install and secret/OAuth management, and an open-source Gateway that proxies many servers behind a single secure endpoint. Each server runs in its own isolated container, so agents in Claude Desktop, Cursor, or VS Code get controlled tool access without hand-editing JSON config.",
+  "insight": "Docker open-sourced the MCP Gateway under MIT in 2025, so it runs on any community Docker engine — not only paid Docker Desktop.",
+  "category": "mcp",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Docker",
+  "platforms": ["macos", "windows", "linux", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["mcp", "containers", "tool-use", "agents", "gateway"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://hub.docker.com/mcp",
+      "primary": true,
+      "label": "MCP Catalog"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.docker.com/ai/mcp-catalog-and-toolkit/"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/docker/mcp-gateway"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 753,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Runs each MCP server in an isolated container with Docker's secrets + OAuth, so tool access is sandboxed instead of trusting npx-installed servers.",
+  "pros": [
+    "200+ verified catalog servers",
+    "One-click install in Docker Desktop",
+    "Containerized isolation + secrets",
+    "Open-source MIT gateway"
+  ],
+  "cons": [
+    "Requires Docker to run servers",
+    "Docker Desktop paid for large orgs",
+    "Newer than community registries"
+  ],
+  "bestFor": ["Secure MCP tool access", "Running MCP servers locally", "Docker-based dev"],
+  "alternatives": ["smithery", "glama", "composio", "toolhouse"],
+  "references": [
+    {
+      "title": "7 MCP Registries Worth Checking Out",
+      "url": "https://nordicapis.com/7-mcp-registries-worth-checking-out/",
+      "source": "Nordic APIs",
+      "kind": "guide"
+    }
+  ]
+}

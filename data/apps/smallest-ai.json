@@ -1,0 +1,53 @@
+{
+  "slug": "smallest-ai",
+  "name": "Smallest.ai",
+  "tagline": "Real-time voice AI: fast TTS and production phone agents.",
+  "description": "An enterprise voice-AI platform built on deliberately small, fast speech models. Waves handles text-to-speech, voice cloning, and conversion in 30+ languages, while Atoms is a real-time voice-agent platform that plugs into business systems for support, lead qualification, and outbound calls. The company says it can generate 10 seconds of speech in about 100 milliseconds for sub-second voicebot responsiveness.",
+  "insight": "Raised an $8M seed led by Sierra Ventures in 2025; its voice agents already handle over 1M enterprise calls.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Smallest.ai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "In-house small TTS models (Lightning, Waves)."
+  },
+  "tags": ["tts", "voice-agents", "voice-cloning", "low-latency"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://smallest.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://smallest.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 755,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Bets on small, fast models — claims ~100ms to generate 10s of speech — to undercut the latency and cost of larger voice stacks.",
+  "pros": [
+    "Very low TTS latency",
+    "TTS + voice agents in one platform",
+    "30+ languages incl. Indian langs",
+    "Cost-focused small models"
+  ],
+  "cons": [
+    "Younger, smaller company",
+    "Enterprise/developer-oriented",
+    "English + select langs strongest"
+  ],
+  "bestFor": ["Phone/voice agents", "Real-time TTS", "Multilingual voicebots"],
+  "alternatives": ["cartesia", "elevenlabs", "rime", "vapi"],
+  "references": [
+    {
+      "title": "smallest.ai Raises $8 Mn to Build Enterprise-Grade Voice AI",
+      "url": "https://inc42.com/buzz/smallest-ai-raises-8-mn-to-build-enterprise-grade-voice-ai/",
+      "source": "Inc42",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "wiseone",
+  "name": "Wiseone",
+  "tagline": "AI search and reading copilot that lives in your browser.",
+  "description": "A browser extension that overlays an AI assistant on any web page: summarize long articles, ask questions about what you're reading, and use Focus to unpack complex terms in place. Its Cross-check feature pulls independent sources on a claim, and Suggestions surfaces related news, academic papers, and videos — so research happens without leaving the tab.",
+  "category": "browser-extension",
+  "pricing": "freemium",
+  "vendor": "Wiseone",
+  "platforms": ["browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Routes across commercial LLMs (e.g. GPT-4, Mistral Large)."
+  },
+  "tags": ["reading", "research", "summarization", "fact-checking"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://wiseone.io",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://chromewebstore.google.com/detail/wiseone-your-ai-search-re/paodpkkacimmkacaecjmhdncjgjepcai",
+      "label": "Chrome Web Store"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 752,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Built for reading on the open web — its Cross-check and Focus tools verify claims and explain jargon in-place, not just summarize.",
+  "pros": [
+    "Summarize + Q&A on any page",
+    "Cross-check surfaces independent sources",
+    "Focus explains complex terms in place",
+    "Generous free tier"
+  ],
+  "cons": [
+    "Free tier capped at 10 queries/day",
+    "Chrome/Edge focused",
+    "Depends on third-party LLMs"
+  ],
+  "bestFor": ["Online research", "Reading dense articles", "Fact-checking"],
+  "alternatives": ["sider", "monica", "merlin-ai", "maxai"],
+  "references": [
+    {
+      "title": "Wiseone Chrome extension stats",
+      "url": "https://chrome-stats.com/d/paodpkkacimmkacaecjmhdncjgjepcai",
+      "source": "Chrome-Stats",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "soniox",
+  "name": "Soniox",
+  "tagline": "One speech AI API for real-time transcription, TTS, and translation.",
+  "description": "A multilingual speech platform built on Soniox's own universal recognition model: real-time and async speech-to-text, text-to-speech, and any-to-any speech translation across 60+ languages from a single API. It returns token-level results within milliseconds and keeps transcribing through crosstalk, speaker overlap, and mid-sentence language switches. A consumer app (web and iOS) wraps the same engine for recording, transcription, and notes.",
+  "insight": "Keeps transcribing when a speaker switches language mid-sentence across 60+ languages, with no need to set the language upfront.",
+  "category": "voice",
+  "secondaryCategories": ["translation"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Soniox",
+  "platforms": ["api", "web", "ios"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary universal speech model (STT/TTS)."
+  },
+  "tags": ["stt", "transcription", "speech-translation", "real-time", "tts"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://soniox.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://soniox.com/docs"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://soniox.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 754,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Unifies real-time STT, TTS, and any-to-any speech translation in one low-cost API (~$0.10-0.12/hr) where rivals split these across separate products.",
+  "pros": [
+    "60+ languages, mid-sentence switching",
+    "Real-time + async in one API",
+    "Speech-to-speech translation",
+    "Low per-hour pricing"
+  ],
+  "cons": [
+    "Smaller brand than incumbents",
+    "Free credits tightened over abuse",
+    "Token-based pricing takes math"
+  ],
+  "bestFor": ["Multilingual transcription", "Live captions", "Voice agents"],
+  "alternatives": ["deepgram", "assemblyai", "speechmatics", "gladia"],
+  "references": [
+    {
+      "title": "Soniox Speech-to-Text: Use Cases, Pricing & Alternatives",
+      "url": "https://www.futurepedia.io/tool/soniox-speech-to-text",
+      "source": "Futurepedia",
+      "kind": "review"
+    }
+  ]
+}
