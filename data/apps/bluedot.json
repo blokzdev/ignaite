@@ -1,0 +1,58 @@
+{
+  "slug": "bluedot",
+  "insight": "Founded in 2022 by Ukrainian engineers; early angel backing came from Daniel Gross and Google for Startups.",
+  "name": "Bluedot",
+  "tagline": "Bot-free AI notetaker that records and summarizes meetings.",
+  "description": "Bluedot captures, transcribes, and summarizes online and in-person meetings without sending a bot into the call — recording happens through the browser extension or desktop app instead. It generates use-case-tailored notes and can push summaries to your CRM, Notion, and other tools. Works across Google Meet, Zoom, Microsoft Teams, Webex, and live conversations.",
+  "category": "meeting",
+  "secondaryCategories": ["browser-extension"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Bluedot",
+  "platforms": ["web", "browser-extension", "macos", "windows", "ios", "android"],
+  "accentColor": "#2E6BE6",
+  "tags": ["meeting-notes", "transcription", "bot-free", "summaries"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.bluedothq.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://chromewebstore.google.com/detail/bluedot-ai-notetaker-meet/aeeninnnlhgaojlolnbpljadhbionlal",
+      "label": "Chrome Web Store"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 744,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Records Zoom, Meet, and Teams calls without sending a bot into the meeting — capture happens via the browser or desktop, not a visible participant.",
+  "pros": [
+    "No bot joins the call — less intrusive",
+    "Works on Zoom, Meet, Teams, and in person",
+    "Auto-syncs notes to CRM and Notion",
+    "Free tier to try it out"
+  ],
+  "cons": [
+    "Free plan capped at 5 lifetime meetings",
+    "Capture is tied to your browser/device",
+    "Newer, smaller vendor than incumbents"
+  ],
+  "bestFor": ["Bot-free meeting notes", "Sales & customer calls", "Google Meet users"],
+  "alternatives": ["granola", "fathom", "fireflies", "otter-ai"],
+  "references": [
+    {
+      "title": "Ukrainian-founded Bluedot raises €560k for AI Chrome extension",
+      "url": "https://www.vestbee.com/insights/articles/bluedot-raises-560-k",
+      "source": "Vestbee",
+      "kind": "analysis"
+    },
+    {
+      "title": "Bluedot founder deep dive: fast, flexible AI notes for Meet",
+      "url": "https://arrows.to/guide/top-ai-notetakers/bluedot-founder-deep-dive-fast-flexible-ai-notes-built-for-google-meet",
+      "source": "Arrows",
+      "kind": "interview"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "brainly",
+  "insight": "Founded in 2009 in Kraków, Poland as Zadane.pl; its AI study helper, Ginny, runs on OpenAI's GPT-4.",
+  "name": "Brainly",
+  "tagline": "AI learning companion atop a community homework-help platform.",
+  "description": "Brainly is a global learning platform where students get homework help backed by a moderated base of community and expert answers. It layers AI on top of that knowledge base — an assistant named Ginny that simplifies, expands, and personalizes answers across school subjects and grades. The free Q&A community is supplemented by a paid Brainly Plus tier.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Brainly",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["GPT-4"],
+    "notes": "Ginny AI features are built on OpenAI's GPT-4 over Brainly's answer knowledge base."
+  },
+  "tags": ["homework-help", "tutoring", "q-and-a", "students"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://brainly.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 746,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "One of the largest community Q&A learning platforms, layering AI answers over a moderated base of 250M+ student and expert solutions.",
+  "pros": [
+    "Huge moderated answer knowledge base",
+    "AI plus human-verified community answers",
+    "Broad subject and grade coverage",
+    "Free tier available"
+  ],
+  "cons": [
+    "Community answer quality varies",
+    "Best features behind Brainly Plus",
+    "AI can still produce errors"
+  ],
+  "bestFor": ["K-12 homework help", "Students & parents", "Quick concept answers"],
+  "alternatives": ["gauth", "photomath", "quizlet", "studyfetch"],
+  "references": [
+    {
+      "title": "Brainly Raises $15 Million Series B Beyond Homework Help",
+      "url": "https://www.edsurge.com/news/2016-05-13-brainly-raises-15-million-series-b-to-expand-q-a-platform-beyond-homework-help",
+      "source": "EdSurge",
+      "kind": "analysis"
+    },
+    {
+      "title": "Brainly raises $14M after hitting 100 million users",
+      "url": "https://venturebeat.com/business/polish-p2p-learning-platform-brainly-raises-14m-after-hitting-100m-users",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    }
+  ]
+}

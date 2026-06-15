@@ -1,0 +1,51 @@
+{
+  "slug": "deepscribe",
+  "insight": "Spun out of UC Berkeley's AI Research lab in 2017; raised a $30M Series A led by Index Ventures.",
+  "name": "DeepScribe",
+  "tagline": "Ambient AI medical scribe that documents clinical visits.",
+  "description": "DeepScribe is an ambient AI platform that listens to natural patient-clinician conversations and automatically drafts clinical notes, cutting time spent on documentation. Beyond the scribe, it automates medical coding (E/M, ICD-10, HCC), offers pre-visit intelligence, and lets clinicians customize how notes are generated. It is aimed at practices and specialty care, with EHR integration.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "DeepScribe",
+  "platforms": ["web", "ios"],
+  "tags": ["ambient-scribe", "clinical-documentation", "medical-coding", "ehr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.deepscribe.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 747,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs ambient clinical documentation with automated medical coding (E/M, ICD-10, HCC) and a studio to customize note style.",
+  "pros": [
+    "Ambient capture of patient conversations",
+    "Automated medical coding",
+    "Customizable note generation",
+    "Reduces clinician documentation time"
+  ],
+  "cons": [
+    "Enterprise pricing, not public",
+    "Geared to practices, not individuals",
+    "Requires EHR integration setup"
+  ],
+  "bestFor": ["Clinicians & practices", "Ambient documentation", "Specialty care"],
+  "alternatives": ["abridge", "ambience-healthcare", "nabla", "suki"],
+  "references": [
+    {
+      "title": "DeepScribe raises $30M to unburden doctors from data entry",
+      "url": "https://techcrunch.com/2022/01/12/ai-powered-transcription-platform-deepscribe-raises-30m-to-unburden-doctors-from-tedious-data-entry/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "DeepScribe Lands $5.2M Seed for AI Medical Assistant",
+      "url": "https://www.healthcareittoday.com/2021/05/14/medical-prodigy-deepscribe-lands-5-2m-seed-funding-for-life-changing-ai-assistant/",
+      "source": "Healthcare IT Today",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "structurely",
+  "insight": "Its AI inside-sales agent is named 'Aisa Holmes,' and the platform now nurtures mortgage leads beyond its real-estate roots.",
+  "name": "Structurely",
+  "tagline": "Conversational AI inside-sales agent for real-estate leads.",
+  "description": "Structurely runs an AI inside-sales agent that engages new real-estate and mortgage leads over SMS, web chat, and voice, qualifying them on timeline, budget, and motivation. It books appointments, performs live phone transfers to a human agent, and keeps nurturing leads for over a year until they are sales-ready. It plugs into CRMs such as Follow Up Boss, HubSpot, and Salesforce.",
+  "category": "real-estate",
+  "secondaryCategories": ["sales"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Structurely",
+  "platforms": ["web"],
+  "tags": ["real-estate", "lead-qualification", "inside-sales", "sms"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.structurely.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 745,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Purpose-built AI inside-sales agent that texts, calls, and live-transfers real-estate leads, then nurtures them for 12+ months.",
+  "pros": [
+    "Engages new leads within about a minute",
+    "Long-horizon nurture (12+ months)",
+    "Live transfer to a human agent",
+    "Integrates with major real-estate CRMs"
+  ],
+  "cons": [
+    "Paid only; setup fee on some tiers",
+    "Priced by lead volume",
+    "Multi-month minimum commitment"
+  ],
+  "bestFor": ["Real-estate teams", "Lead qualification", "Mortgage lead nurture"],
+  "alternatives": ["lofty", "rechat", "saleswise"],
+  "references": [
+    {
+      "title": "The real estate chatbot helping agents sell more homes",
+      "url": "https://www.zendesk.com/blog/ai/chatbots/structurely-realtor-chatbots/",
+      "source": "Zendesk",
+      "kind": "analysis"
+    },
+    {
+      "title": "Structurely — Company Profile",
+      "url": "https://www.housingwire.com/company-profile/structurely/",
+      "source": "HousingWire",
+      "kind": "analysis"
+    }
+  ]
+}
