@@ -65,8 +65,6 @@ export function FeaturedCarousel({ apps, view = "grid" }: Readonly<Props>) {
     apps.some((a) => a.featured) ? "featured" : "recent",
   );
   const items = (mode === "featured" ? shuffledFeatured : shuffledRecent).slice(0, count);
-  // List view condenses the rail to a short stack of rows (no horizontal carousel).
-  const listItems = items.slice(0, 5);
 
   const scrollerRef = useRef<HTMLUListElement | null>(null);
   const [canLeft, setCanLeft] = useState(false);
@@ -135,8 +133,9 @@ export function FeaturedCarousel({ apps, view = "grid" }: Readonly<Props>) {
           glow frames the rail as the page's spotlight module. p-px reveals the
           gradient as a 1px edge around the inner surface. */}
       <div className="rounded-2xl bg-gradient-to-b from-[var(--color-violet)] to-[var(--color-violet-deep)] p-px shadow-[var(--shadow-glow-violet)]">
-        {/* Contained "spotlight" tray — an elevated surface above the canvas grid. */}
-        <div className="relative overflow-hidden rounded-[15px] bg-[var(--color-surface)]/60 p-4 ring-1 ring-white/[0.04] ring-inset sm:p-5">
+        {/* Contained "spotlight" tray. Solid (opaque) surface so the gradient
+            wrapper shows ONLY as the 1px border, not bleeding through the fill. */}
+        <div className="relative overflow-hidden rounded-[15px] bg-[var(--color-surface)] p-4 ring-1 ring-white/[0.06] ring-inset sm:p-5">
           {/* Twin glows give the tray genuine "spotlight" depth (both clipped by the
             tray): a cool accent wash top-left, a faint warm one bottom-right to
             tie into the page's lower flame orb. */}
@@ -152,85 +151,72 @@ export function FeaturedCarousel({ apps, view = "grid" }: Readonly<Props>) {
           <div className="relative mb-4 flex items-center justify-between gap-4">
             <SpotlightToggle mode={mode} onChange={setMode} />
 
-            {/* Desktop arrows — touch uses swipe + dots. Carousel-only (list view
-              has no horizontal scroller). */}
-            {!list && (
-              <div className="hidden items-center gap-2 sm:flex">
-                <CarouselArrow
-                  label="Previous apps"
-                  disabled={!canLeft}
-                  onClick={() => scrollByCard(-1)}
-                >
-                  <ChevronLeft className="h-4 w-4" />
-                </CarouselArrow>
-                <CarouselArrow
-                  label="Next apps"
-                  disabled={!canRight}
-                  onClick={() => scrollByCard(1)}
-                >
-                  <ChevronRight className="h-4 w-4" />
-                </CarouselArrow>
-              </div>
-            )}
+            {/* Desktop arrows — touch uses swipe + dots. */}
+            <div className="hidden items-center gap-2 sm:flex">
+              <CarouselArrow
+                label="Previous apps"
+                disabled={!canLeft}
+                onClick={() => scrollByCard(-1)}
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </CarouselArrow>
+              <CarouselArrow label="Next apps" disabled={!canRight} onClick={() => scrollByCard(1)}>
+                <ChevronRight className="h-4 w-4" />
+              </CarouselArrow>
+            </div>
           </div>
 
-          {list ? (
-            // Condensed list view — a short stack of compact rows, no carousel.
-            <ul className="flex flex-col gap-2" role="list">
-              {listItems.map((app) => (
-                <li key={app.slug}>
-                  <ToolRow app={app} />
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <>
-              {/* The rail bleeds to the tray's inner edges (-mx cancels the tray
-                padding) so card #1 aligns with the header and the right edge fades
-                at the ring. py-3 / -my-3 keeps a 12px breathing zone so the card's
-                hover-lift + focus ring aren't clipped by overflow-x: auto. */}
-              <ul
-                ref={scrollerRef}
-                className="no-scrollbar scroll-fade-x -mx-4 -my-3 flex snap-x snap-mandatory gap-5 overflow-x-auto px-4 py-3 sm:-mx-5 sm:px-5"
-                role="list"
+          {/* The rail bleeds to the tray's inner edges (-mx cancels the tray
+              padding) so card #1 aligns with the header and the right edge fades
+              at the ring. py-3 / -my-3 keeps a 12px breathing zone so the card's
+              hover-lift + focus ring aren't clipped by overflow-x: auto. List view
+              keeps the SAME carousel, just condensed rows in narrower cells. */}
+          <ul
+            ref={scrollerRef}
+            className="no-scrollbar scroll-fade-x -mx-4 -my-3 flex snap-x snap-mandatory gap-5 overflow-x-auto px-4 py-3 sm:-mx-5 sm:px-5"
+            role="list"
+          >
+            {items.map((app) => (
+              <li
+                key={app.slug}
+                className={cn(
+                  "flex shrink-0 snap-start",
+                  list ? "w-[280px] sm:w-[320px]" : "w-[320px] sm:w-[380px]",
+                )}
               >
-                {items.map((app) => (
-                  <li key={app.slug} className="flex w-[320px] shrink-0 snap-start sm:w-[380px]">
-                    <ToolCard app={app} />
-                  </li>
-                ))}
-              </ul>
+                {list ? <ToolRow app={app} /> : <ToolCard app={app} />}
+              </li>
+            ))}
+          </ul>
 
-              {/* Position dots — primary advance affordance on touch. Each button is a
-                24px hit target (WCAG 2.5.8) with a small visual bar centered inside.
-                flex-nowrap + the responsive `count` keep them to a single row. */}
-              <div
-                className="relative mt-3 flex flex-nowrap justify-center gap-0.5"
-                role="group"
-                aria-label="Carousel pagination"
+          {/* Position dots — primary advance affordance on touch. Each button is a
+              24px hit target (WCAG 2.5.8) with a small visual bar centered inside.
+              flex-nowrap + the responsive `count` keep them to a single row. */}
+          <div
+            className="relative mt-3 flex flex-nowrap justify-center gap-0.5"
+            role="group"
+            aria-label="Carousel pagination"
+          >
+            {items.map((app, i) => (
+              <button
+                key={app.slug}
+                type="button"
+                onClick={() => scrollToIndex(i)}
+                aria-label={`Go to ${app.name}`}
+                aria-current={i === activeIndex}
+                className="group inline-flex h-6 w-6 items-center justify-center rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
               >
-                {items.map((app, i) => (
-                  <button
-                    key={app.slug}
-                    type="button"
-                    onClick={() => scrollToIndex(i)}
-                    aria-label={`Go to ${app.name}`}
-                    aria-current={i === activeIndex}
-                    className="group inline-flex h-6 w-6 items-center justify-center rounded-full focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-                  >
-                    <span
-                      className={cn(
-                        "h-1.5 rounded-full transition-all",
-                        i === activeIndex
-                          ? "w-5 bg-[var(--color-accent)] shadow-[0_0_10px_-2px_var(--color-accent)]"
-                          : "w-1.5 bg-white/30 group-hover:bg-white/50",
-                      )}
-                    />
-                  </button>
-                ))}
-              </div>
-            </>
-          )}
+                <span
+                  className={cn(
+                    "h-1.5 rounded-full transition-all",
+                    i === activeIndex
+                      ? "w-5 bg-[var(--color-accent)] shadow-[0_0_10px_-2px_var(--color-accent)]"
+                      : "w-1.5 bg-white/30 group-hover:bg-white/50",
+                  )}
+                />
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </section>

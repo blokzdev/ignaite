@@ -26,7 +26,7 @@ export function ToolRow({ app }: Readonly<Props>) {
   return (
     <article
       className={cn(
-        "group relative flex items-start gap-3 overflow-hidden rounded-xl bg-[var(--color-surface)]/60 px-3 py-3 ring-1 transition-[background-color,box-shadow] ring-inset sm:gap-4 sm:px-4",
+        "group relative flex h-full w-full items-start gap-3 overflow-hidden rounded-xl bg-[var(--color-surface)]/60 px-3 py-3 ring-1 transition-[background-color,box-shadow] ring-inset sm:gap-4 sm:px-4",
         isArchived
           ? "opacity-60 ring-white/[0.06]"
           : "ring-white/[0.08] hover:bg-[var(--color-surface)]/90 hover:ring-[var(--color-accent)]/20",
