@@ -1,0 +1,62 @@
+{
+  "slug": "truefoundry",
+  "name": "TrueFoundry",
+  "tagline": "Enterprise AI gateway and deployment platform that runs in your own cloud.",
+  "description": "A unified platform for deploying, scaling, and governing LLM and agentic AI systems. It pairs an AI gateway that routes and orchestrates calls across providers with infrastructure for hosting models (vLLM, TGI, Triton), fine-tuning, and full-stack observability — deployed inside your own VPC, on-prem, or air-gapped environment with enterprise RBAC and audit logging.",
+  "insight": "Raised a $19M Series A led by Intel Capital in February 2025, bringing total funding to about $21M.",
+  "category": "infra",
+  "secondaryCategories": ["inference"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "TrueFoundry",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "AI gateway routes across hosted providers and self-hosted open models."
+  },
+  "tags": ["ai-gateway", "model-deployment", "mlops", "enterprise", "self-host"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.truefoundry.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.truefoundry.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.truefoundry.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 782,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Bundles an LLM gateway, model deployment, fine-tuning, and observability into one platform you run inside your own VPC or on-prem.",
+  "pros": [
+    "Runs in your own cloud, on-prem, or air-gapped",
+    "AI gateway plus model hosting in one platform",
+    "Enterprise governance: RBAC, audit logging",
+    "Framework-agnostic agent deployment"
+  ],
+  "cons": [
+    "Enterprise-oriented; no public free tier",
+    "Heavier setup than a hosted-only API",
+    "Broad scope overlaps several point tools"
+  ],
+  "bestFor": [
+    "Enterprise ML/AI platform teams",
+    "Self-hosted model serving",
+    "Governed agent deployment"
+  ],
+  "alternatives": ["baseten", "modal", "portkey", "litellm"],
+  "references": [
+    {
+      "title": "TrueFoundry raises $19M in Series A led by Intel Capital",
+      "url": "https://techstartups.com/2025/02/06/truefoundry-raises-19m-in-series-a-funding-led-by-intel-capital-to-simplify-ai-infrastructure/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    }
+  ]
+}

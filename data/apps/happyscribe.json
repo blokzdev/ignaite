@@ -1,0 +1,53 @@
+{
+  "slug": "happyscribe",
+  "name": "Happy Scribe",
+  "tagline": "Transcription, subtitles, and AI meeting notes in 150+ languages.",
+  "description": "A transcription and subtitling platform that turns calls, interviews, and recordings into accurate, searchable text. It offers instant AI transcription, a professional human transcriber network for 99%+ accuracy, automatic subtitles and translation across 150+ languages, and an AI notetaker that joins Google Meet, Microsoft Teams, and Zoom calls.",
+  "insight": "Bootstrapped since 2017, founded by two Dublin City University students after a class assignment to transcribe research interviews.",
+  "category": "audio",
+  "secondaryCategories": ["meeting"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Happy Scribe",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["transcription", "subtitles", "translation", "notetaker", "captions"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.happyscribe.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.happyscribe.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 783,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Offers both instant AI transcription and a professional human transcriber network (99%+ accuracy) in 150+ languages, side by side.",
+  "pros": [
+    "AI and human transcription side by side",
+    "150+ languages for transcription and subtitles",
+    "AI notetaker for Meet, Teams, and Zoom",
+    "SOC 2 Type II with EU data residency"
+  ],
+  "cons": [
+    "Volume-priced by audio minute",
+    "Human transcription costs more and is slower",
+    "AI accuracy varies with audio quality"
+  ],
+  "bestFor": ["Researchers and journalists", "Subtitling and captions", "Meeting transcription"],
+  "alternatives": ["good-tape", "descript", "otter-ai"],
+  "references": [
+    {
+      "title": "How Andre Bastie Is Scaling Happy Scribe After Instant Product-Market Fit",
+      "url": "https://slator.com/andre-bastie-scaling-happy-scribe-after-finding-instant-product-market-fit/",
+      "source": "Slator",
+      "kind": "interview"
+    }
+  ]
+}

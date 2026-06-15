@@ -1,0 +1,53 @@
+{
+  "slug": "move-ai",
+  "name": "Move AI",
+  "tagline": "Markerless 3D motion capture from ordinary video — even a single iPhone.",
+  "description": "Markerless motion-capture technology that turns 2D video into broadcast-quality 3D animation data using computer vision, biomechanics, and physics. The Move One app captures motion from a single iPhone, while multi-camera setups serve studio production; output exports to FBX and USD for game engines and animation pipelines. Used by studios including Ubisoft, Sony, and Disney.",
+  "insight": "Founded 2019 in London; raised a $10M (£8.2M) 2023 seed backed by Warner Music Group and Animoca Brands.",
+  "category": "vision",
+  "secondaryCategories": ["3d"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Move AI",
+  "platforms": ["web", "ios", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary computer-vision and biomechanics models extract 3D motion from video."
+  },
+  "tags": ["motion-capture", "markerless", "3d-animation", "mocap", "computer-vision"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.move.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.move.ai"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 784,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Captures 3D motion from ordinary video — even a single iPhone — with no markers, suits, or specialist hardware.",
+  "pros": [
+    "Markerless capture from a single iPhone",
+    "Multi-camera option for studio quality",
+    "Exports to FBX and USD",
+    "Used by major studios"
+  ],
+  "cons": [
+    "Cloud processing; credit-based pricing",
+    "Single-camera accuracy trails multi-camera",
+    "Capture length capped on lower tiers"
+  ],
+  "bestFor": ["Game and film animation", "Indie 3D creators", "Virtual production"],
+  "references": [
+    {
+      "title": "Move AI's New Tool for Single-Camera Motion Capture with iPhone",
+      "url": "https://80.lv/articles/move-ai-s-new-tool-for-single-camera-motion-capture-with-iphone",
+      "source": "80 Level",
+      "kind": "analysis"
+    }
+  ]
+}
