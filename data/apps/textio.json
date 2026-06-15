@@ -1,0 +1,61 @@
+{
+  "slug": "textio",
+  "insight": "Founded in 2014, Textio coined the term \"augmented writing\"; it says ~25% of the Fortune 500 have used it.",
+  "name": "Textio",
+  "tagline": "Augmented-writing guidance that strips bias from job posts and performance feedback.",
+  "description": "Textio is an AI writing platform built for HR: it gives real-time guidance as managers and recruiters write job posts, recruiting emails, and performance reviews, flagging biased or off-tone language before it goes out. Its models are trained on a large corpus of HR documents rather than general text, and it ships separate products for recruiting and for manager feedback.",
+  "category": "hr",
+  "secondaryCategories": ["writing"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Textio",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary models trained on a large corpus of hiring and performance-management documents."
+  },
+  "accentColor": "#2563EB",
+  "tags": ["hr", "inclusive-writing", "recruiting", "bias-detection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://textio.com/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 760,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Purpose-trained on HR-specific language for hiring and feedback, where general writing assistants aren't tuned for bias or legal risk.",
+  "pros": [
+    "Real-time inclusive-language guidance",
+    "Trained on HR-specific corpus",
+    "Covers hiring and performance feedback",
+    "Integrates with ATS / HR systems"
+  ],
+  "cons": [
+    "Enterprise-only, sales-led pricing",
+    "Narrowly focused on HR writing",
+    "No public self-serve plan"
+  ],
+  "bestFor": [
+    "Enterprise HR teams",
+    "Inclusive job posts",
+    "Performance reviews",
+    "Recruiting content"
+  ],
+  "references": [
+    {
+      "title": "This AI Tool Makes Job Descriptions More Inclusive",
+      "url": "https://www.fastcompany.com/40525753/this-ai-tool-makes-job-descriptions-more-inclusive",
+      "source": "Fast Company",
+      "kind": "review"
+    },
+    {
+      "title": "Augmented writing platform Textio now predicts what you want to say",
+      "url": "https://www.geekwire.com/2019/augmented-writing-platform-textio-now-predicts-want-say/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}
