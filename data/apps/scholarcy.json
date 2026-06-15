@@ -1,0 +1,43 @@
+{
+  "slug": "scholarcy",
+  "insight": "London-based Scholarcy launched in 2019 and says its flashcard summaries are used by over 500,000 students and researchers.",
+  "name": "Scholarcy",
+  "tagline": "AI that turns research papers into structured, referenced summary flashcards.",
+  "description": "Scholarcy reads full-length academic papers, articles, and book chapters and breaks them into interactive summary flashcards that surface the synopsis, key findings, methods, figures, tables, and references. It imports from PDFs, Google Drive, Zotero, and the web, and highlights cited claims so researchers can grasp a paper's core arguments quickly. A premium Scholarcy Library adds unlimited use plus saving, annotating, sharing, and exporting of flashcards.",
+  "category": "research-platform",
+  "secondaryCategories": ["browser-extension"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Scholarcy",
+  "platforms": ["web", "browser-extension"],
+  "tags": ["research", "summarization", "academic", "flashcards", "pdf"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.scholarcy.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.scholarcy.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 741,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Breaks papers into structured, referenced flashcards with extracted figures, tables, and citations — more granular than a plain chat-style summary.",
+  "pros": [
+    "Structured flashcard summaries",
+    "Extracts figures, tables, references",
+    "Imports from PDF, Zotero, web",
+    "Chrome, Edge, and Firefox extensions",
+    "Affordable paid tier"
+  ],
+  "cons": [
+    "Free tier limited to ~1 summary/day",
+    "Summaries still need human verification",
+    "Less suited to open-ended Q&A"
+  ],
+  "bestFor": ["Students", "Researchers", "Literature reviews", "Fast paper triage"],
+  "alternatives": ["scispace", "elicit", "scite", "paperpal"]
+}
