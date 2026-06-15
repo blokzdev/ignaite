@@ -1,0 +1,53 @@
+{
+  "slug": "junie",
+  "insight": "Reached general availability on April 16, 2025 — the same day JetBrains added a free AI tier across its IDEs.",
+  "name": "Junie",
+  "tagline": "Autonomous AI coding agent built into JetBrains IDEs.",
+  "description": "JetBrains' agentic coding assistant that plans and executes multi-step tasks — writing code, running tests, refactoring, and debugging — from natural-language prompts inside the IDE. Runs natively in IntelliJ IDEA Ultimate, PyCharm Pro, WebStorm, GoLand, and other JetBrains editors, drawing on their deep project indexes. Included with JetBrains AI subscriptions.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "JetBrains",
+  "platforms": ["macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Backed by JetBrains AI; Ultimate tier adds a Claude-powered agent mode."
+  },
+  "tags": ["coding-agent", "ide", "jetbrains", "refactoring", "testing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.jetbrains.com/junie/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.jetbrains.com/ai-ides/buy/"
+    },
+    {
+      "kind": "docs",
+      "url": "https://plugins.jetbrains.com/plugin/26104-junie-the-ai-coding-agent-by-jetbrains"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 763,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Runs natively inside JetBrains IDEs (IntelliJ, PyCharm, WebStorm, GoLand), pairing an autonomous agent with their deep project indexes.",
+  "pros": [
+    "Native to JetBrains IDEs",
+    "Multi-step agentic tasks",
+    "Runs and verifies tests",
+    "Free tier to start"
+  ],
+  "cons": ["JetBrains IDEs only", "Credit-based usage limits", "Ultimate tier for best models"],
+  "bestFor": ["JetBrains IDE users", "Agentic refactoring and tests"],
+  "alternatives": ["cursor", "github-copilot", "windsurf", "qodo"],
+  "references": [
+    {
+      "title": "JetBrains goes live with Junie AI agent, adds free tier",
+      "url": "https://devclass.com/2025/04/16/jetbrains-goes-live-with-junie-ai-agent-updates-ai-assistant-adds-free-tier/",
+      "source": "DevClass",
+      "kind": "analysis"
+    }
+  ]
+}
