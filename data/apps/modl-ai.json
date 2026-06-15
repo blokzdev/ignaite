@@ -1,0 +1,40 @@
+{
+  "slug": "modl-ai",
+  "name": "modl.ai",
+  "tagline": "AI agents that playtest your game and file the bugs.",
+  "description": "modl.ai is an AI QA automation platform that tests games the way a player would — entirely through the screen, with no SDK or code integration. You describe tests in plain language (\"complete the tutorial\") and its agents explore the build, surfacing crashes, performance issues, and gameplay-logic bugs, then generate reports with visual evidence and severity scores. It also offers on-demand bots that simulate real players at varied skill levels for multiplayer balancing and load.",
+  "insight": "Danish (Copenhagen) startup backed by Microsoft's M12 and Griffin Gaming Partners; raised an $8.4M Series A in 2022.",
+  "category": "gaming",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "modl.ai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary vision-based game-playing AI agents; accepts natural-language test instructions."
+  },
+  "tags": ["game-testing", "qa-automation", "playtesting", "game-dev"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://modl.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 779,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Tests games black-box through the screen — no SDK, plugins, or code changes — and takes plain-language test instructions like a human QA tester.",
+  "pros": [
+    "No SDK or code integration needed",
+    "Plain-language test instructions",
+    "Bug reports with visual evidence + severity",
+    "Player-simulation bots for multiplayer"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Console and iOS support still expanding",
+    "Aimed at studios, not solo hobbyists"
+  ],
+  "bestFor": ["Game studios", "QA teams", "Multiplayer balancing"]
+}

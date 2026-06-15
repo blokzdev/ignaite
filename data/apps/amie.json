@@ -1,0 +1,51 @@
+{
+  "slug": "amie",
+  "name": "Amie",
+  "tagline": "A calendar, to-dos, and bot-free AI meeting notes in one app.",
+  "description": "Amie combines a fast calendar, task management, and an AI meeting note-taker in a single app. It records meetings locally on your device — no bot joins the call — then generates summaries, action items, and follow-up drafts. Natural-language input adds events and tasks, and it connects to tools like Notion, Slack, and Linear.",
+  "insight": "Founded by ex-N26 product manager Dennis Müller; backed by Creandum, an early Spotify investor.",
+  "category": "productivity",
+  "secondaryCategories": ["meeting"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Amie",
+  "platforms": ["macos", "windows", "ios"],
+  "tags": ["calendar", "tasks", "meeting-notes", "scheduling"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://amie.so",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://amie.so/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 780,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Records meetings locally on your device with no bot joining the call, bundling notes with a full calendar and to-dos in one app.",
+  "pros": [
+    "Calendar, tasks, and AI notes unified",
+    "Bot-free, on-device meeting recording",
+    "Natural-language scheduling",
+    "Integrates Notion, Slack, Linear"
+  ],
+  "cons": [
+    "No free plan, 7-day trial only",
+    "Premium price point",
+    "No Android app",
+    "Small team / niche product"
+  ],
+  "bestFor": ["Calendar power users", "Solo professionals", "Small teams"],
+  "alternatives": ["motion", "reclaim", "sunsama", "granola"],
+  "references": [
+    {
+      "title": "Amie is a new calendar app with a social twist",
+      "url": "https://techcrunch.com/2022/03/17/amie-is-a-new-calendar-app-with-a-social-twist",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
