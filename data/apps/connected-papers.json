@@ -1,0 +1,55 @@
+{
+  "slug": "connected-papers",
+  "insight": "Builds its graphs from co-citation and bibliographic coupling over the Semantic Scholar corpus, not direct citations.",
+  "name": "Connected Papers",
+  "tagline": "Visual graphs that map the literature around any academic paper.",
+  "description": "Connected Papers builds an interactive similarity graph around a seed paper, clustering related work by how strongly papers share references and citations rather than direct links alone. Researchers use it to get up to speed on a field, find prior and derivative work a keyword search misses, and explore a visual map of a research area. The free tier allows a handful of graphs per month, with unlimited graphs on paid academic and business plans.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Connected Papers",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Similarity-graph engine over citation data, not an LLM chatbot."
+  },
+  "accentColor": "#0EA5E9",
+  "tags": ["literature-review", "citation-graph", "academic-search", "research", "visualization"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.connectedpapers.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.connectedpapers.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 729,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "A visual citation-graph map rather than a chat assistant — surfaces adjacent prior and derivative work a keyword search would overlook.",
+  "pros": [
+    "Visual map of a research area",
+    "Finds related work beyond keywords",
+    "Built on the Semantic Scholar corpus",
+    "Free tier with 5 graphs per month",
+    "Affordable academic plan"
+  ],
+  "cons": [
+    "Free tier capped at 5 graphs/month",
+    "Coverage limited to indexed papers",
+    "Not a full-text reading or chat tool"
+  ],
+  "bestFor": ["Literature reviews", "Researchers and students", "Field exploration"],
+  "alternatives": ["researchrabbit", "elicit", "semantic-scholar", "consensus"],
+  "references": [
+    {
+      "title": "Connected Papers: My Deep Dive into the Visual Research Tool (2025 Review)",
+      "url": "https://skywork.ai/skypage/en/Connected-Papers:-My-Deep-Dive-into-the-Visual-Research-Tool-(2025-Review)/1972566882891395072",
+      "source": "Skywork",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "ace-studio",
+  "insight": "Built by Beijing's TimedomAIn; its 140+ royalty-free voices span 8 languages, and a paid subscription converts into a lifetime license.",
+  "name": "ACE Studio",
+  "tagline": "AI music studio for studio-quality singing vocals from MIDI and lyrics.",
+  "description": "ACE Studio generates expressive, human-like singing vocals from MIDI and lyrics, edited in a piano-roll where you control pitch, timing, vibrato, pronunciation, dynamics, and emotional intensity. It ships 140+ royalty-free AI voice models across eight languages, plus AI instruments, voice cloning, stem splitting, and choir/ensemble modes. It runs as a standalone desktop app and as VST/AU/AAX plugins, with vocal generation processed in the cloud.",
+  "category": "music",
+  "secondaryCategories": ["voice"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "TimedomAIn",
+  "platforms": ["macos", "windows", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own AI vocal and instrument models; supports cloning from your samples."
+  },
+  "accentColor": "#A855F7",
+  "tags": ["singing-synthesis", "vocals", "voice-cloning", "midi", "daw-plugin"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://acestudio.ai/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://acestudio.ai/pricing/"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.acestudio.ai/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 728,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Unlike text-to-song generators, it gives piano-roll control over pitch, vibrato, and emotion for studio-grade singing built from your MIDI and lyrics.",
+  "pros": [
+    "Editable, studio-quality AI vocals",
+    "140+ royalty-free voices, 8 languages",
+    "Fine pitch/vibrato/emotion control",
+    "Runs as standalone app and DAW plugin",
+    "Voice cloning from your own samples"
+  ],
+  "cons": [
+    "Needs MIDI + lyrics, not just a prompt",
+    "Vocal rendering processed in the cloud",
+    "Learning curve for the piano-roll editor"
+  ],
+  "bestFor": ["Music producers", "Songwriters", "Vocal demos and covers"],
+  "alternatives": ["kits-ai", "suno", "udio", "mureka"],
+  "references": [
+    {
+      "title": "ACE Studio 2.0 is an AI music studio for AI-generated vocals and instruments",
+      "url": "https://bedroomproducersblog.com/2025/12/18/ace-studio/",
+      "source": "Bedroom Producers Blog",
+      "kind": "review"
+    }
+  ]
+}

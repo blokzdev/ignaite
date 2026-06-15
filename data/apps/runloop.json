@@ -1,0 +1,56 @@
+{
+  "slug": "runloop",
+  "insight": "Raised a $7M seed led by The General Partnership and shipped public Devbox benchmarks for measuring AI coding agents.",
+  "name": "Runloop",
+  "tagline": "Cloud Devboxes and benchmarks for running AI coding agents at scale.",
+  "description": "Runloop provides isolated, cloud-based development environments — \"Devboxes\" — where AI coding agents safely execute code with full filesystem, build-tool, and compiler access. Teams spin up thousands of Devboxes on demand for large-scale agent tasks and tear them down when done. A benchmarking suite lets you evaluate and compare agents on standardized tests, and enterprise deployments add compliance and VPC options.",
+  "category": "infra",
+  "secondaryCategories": ["eval"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Runloop AI, Inc.",
+  "platforms": ["api", "cli", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Infrastructure for agents — you bring whatever model/agent runs inside the Devbox."
+  },
+  "accentColor": "#6366F1",
+  "tags": ["devbox", "code-sandbox", "coding-agents", "agent-infra", "benchmarks"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.runloop.ai/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.runloop.ai/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 725,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs on-demand coding-agent Devboxes with a public benchmarking suite, so you can both run agents and measure them on one platform.",
+  "pros": [
+    "Isolated cloud sandboxes for agent code",
+    "Scales to thousands of parallel Devboxes",
+    "Built-in benchmarks for coding agents",
+    "$50 in free starter credits",
+    "Enterprise VPC + compliance options"
+  ],
+  "cons": [
+    "Usage-based pricing can be hard to forecast",
+    "Aimed at developers, not end users",
+    "Proprietary, no self-host option"
+  ],
+  "bestFor": ["Coding-agent builders", "Production agent infra", "Agent evaluation"],
+  "alternatives": ["e2b", "daytona", "modal", "blaxel"],
+  "references": [
+    {
+      "title": "Runloop lands $7M to power AI coding agents with cloud-based devboxes",
+      "url": "https://venturebeat.com/infrastructure/runloop-lands-7m-to-power-ai-coding-agents-with-cloud-based-devboxes",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    }
+  ]
+}

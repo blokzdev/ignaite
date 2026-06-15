@@ -1,0 +1,51 @@
+{
+  "slug": "freestyle",
+  "insight": "Its micro-VMs provision in under 600ms and pair with API-first Git filesystems agents can commit to directly.",
+  "name": "Freestyle",
+  "tagline": "VMs and Git for AI agents — run, version, and deploy the code AI writes.",
+  "description": "Freestyle is cloud infrastructure for AI app builders and coding agents. Freestyle VMs are full Linux micro-VMs that provision in under 600ms with live forking and pause/resume, while Freestyle Git provides API-first Git filesystems with branching and GitHub sync that agents can read from and commit to. Together they give an agent a place to write, run, version, preview, and deploy a full-stack app.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Freestyle",
+  "platforms": ["api", "cli", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Runtime for AI-written code; the agent or app supplies the model."
+  },
+  "accentColor": "#F97316",
+  "tags": ["micro-vm", "git", "agent-infra", "app-builder", "deployment"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.freestyle.sh/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.freestyle.sh/"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/freestyle-sh"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 727,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Combines sub-second Linux VMs with API-first Git hosting, aimed at AI app builders that must run, version, and deploy agent-written code.",
+  "pros": [
+    "Micro-VMs boot in under 600ms",
+    "API-first Git filesystems for agents",
+    "Live forking and pause/resume",
+    "GitHub sync built in",
+    "Open-source tooling (Adorable, CLI)"
+  ],
+  "cons": [
+    "Core VM/Git cloud is proprietary SaaS",
+    "Centered on TypeScript/JS stacks",
+    "Early-stage company (founded 2024)"
+  ],
+  "bestFor": ["AI app builders", "Coding-agent runtimes", "Full-stack TypeScript agents"],
+  "alternatives": ["e2b", "daytona", "blaxel", "runloop"]
+}

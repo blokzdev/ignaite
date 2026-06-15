@@ -1,0 +1,55 @@
+{
+  "slug": "blaxel",
+  "insight": "Graduated Y Combinator's Spring 2025 batch and raised a $7.3M seed led by First Round, branding itself the \"AWS for AI agents.\"",
+  "name": "Blaxel",
+  "tagline": "Perpetual secure sandboxes that keep AI agents on warm standby.",
+  "description": "Blaxel is serverless infrastructure for AI agents: secure sandboxes that spin up in seconds, hibernate after a second of inactivity at zero idle cost, and resume in roughly 25ms with full memory and filesystem state intact. It co-hosts agents, MCP servers, and batch tasks on one backbone, and adds an LLM gateway with caching, rate-limiting, and observability. Snapshots and forking let teams branch agent state for rapid experimentation.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Blaxel",
+  "platforms": ["api", "cli", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Hosts any agent; its gateway proxies major LLM providers behind one endpoint."
+  },
+  "accentColor": "#22C55E",
+  "tags": ["sandbox", "agent-infra", "serverless", "mcp-hosting", "snapshots"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://blaxel.ai/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.blaxel.ai/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 726,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Keeps sandboxes on warm standby that resume in ~25ms at $0 idle cost, so co-hosted agents skip the cold starts generic sandboxes pay.",
+  "pros": [
+    "Near-instant ~25ms sandbox resume",
+    "Zero cost while idle/hibernated",
+    "Co-hosts agents, MCP servers, and tasks",
+    "Snapshots and forking of agent state",
+    "Up to $200 in free credits"
+  ],
+  "cons": [
+    "Cloud-only, no self-host",
+    "Early-stage (YC S25) startup",
+    "Developer infra, not an end-user app"
+  ],
+  "bestFor": ["Agent infrastructure teams", "MCP server hosting", "Latency-sensitive agents"],
+  "alternatives": ["e2b", "modal", "daytona", "runloop"],
+  "references": [
+    {
+      "title": "Blaxel raises $7.3M seed round to build 'AWS for AI agents'",
+      "url": "https://venturebeat.com/ai/blaxel-raises-7-3m-seed-round-to-build-aws-for-ai-agents-after-processing-billions-of-agent-requests",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    }
+  ]
+}
