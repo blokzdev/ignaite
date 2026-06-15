@@ -1,0 +1,54 @@
+{
+  "slug": "amazon-q-developer",
+  "insight": "Evolved from AWS CodeWhisperer, which Amazon rebranded and folded into Amazon Q Developer in April 2024.",
+  "name": "Amazon Q Developer",
+  "tagline": "AWS's generative-AI assistant for software development.",
+  "description": "Amazon Q Developer is AWS's generative-AI coding assistant that supports developers across the software lifecycle. It offers inline code completions, agentic chat, automated code transformation for language and framework upgrades, security scanning, and AWS-aware troubleshooting. It runs in popular IDEs, the command line, and the AWS console, with deep integration into AWS services.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Amazon Web Services",
+  "platforms": ["web", "cli", "vscode-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Backed by foundation models on Amazon Bedrock; the underlying models are abstracted from the user."
+  },
+  "tags": ["coding-assistant", "aws", "code-completion", "developer-tools"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aws.amazon.com/q/developer/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://aws.amazon.com/q/developer/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 724,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Tightest AWS integration of any coding assistant — agentic code transformation for Java/.NET upgrades plus AWS-aware help in the console and CLI.",
+  "pros": [
+    "Generous perpetual free tier",
+    "Deep AWS service integration",
+    "Agentic code transformation for upgrades",
+    "Works in IDEs, CLI, and AWS console",
+    "IP indemnity on the Pro tier"
+  ],
+  "cons": [
+    "Best value inside the AWS ecosystem",
+    "Less compelling for non-AWS stacks",
+    "Smaller community than GitHub Copilot"
+  ],
+  "bestFor": ["AWS developers", "Java/.NET upgrades", "Cloud troubleshooting"],
+  "alternatives": ["github-copilot", "cursor", "tabnine", "augment-code"],
+  "references": [
+    {
+      "title": "Amazon Q Developer: Pricing, Features and Alternatives in 2026",
+      "url": "https://www.superblocks.com/blog/amazon-qdeveloper-pricing",
+      "source": "Superblocks",
+      "kind": "analysis"
+    }
+  ]
+}
