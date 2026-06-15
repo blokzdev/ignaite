@@ -1,0 +1,46 @@
+{
+  "slug": "truewind",
+  "insight": "A Y Combinator W23 company; its 2024 Series A was co-led by Thomson Reuters Ventures, a data giant's bet on AI bookkeeping.",
+  "name": "Truewind",
+  "tagline": "AI bookkeeping that turns statements and workpapers into ledger-ready entries.",
+  "description": "Truewind is an AI accounting platform that converts bank statements and workpapers into general-ledger-ready journal entries, reconciliations, and flux analysis. It pairs an AI agent with a human accounting team and syncs natively with QuickBooks Online, Sage Intacct, and Intuit Enterprise Suite, targeting accounting firms, startups, and family offices closing their books.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Truewind",
+  "platforms": ["web"],
+  "accentColor": "#0EA5E9",
+  "tags": ["accounting", "bookkeeping", "finance-ops", "automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.truewind.ai/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 761,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs an AI bookkeeping agent with a human accountant team and native QuickBooks/Sage Intacct sync, rather than pure self-serve software.",
+  "pros": [
+    "Automates coding and reconciliation",
+    "QuickBooks / Sage Intacct integrations",
+    "Human accountant plus AI hybrid",
+    "SOC 2 certified"
+  ],
+  "cons": [
+    "Sales-led, opaque pricing",
+    "Aimed at firms more than solo users",
+    "Output still needs human review"
+  ],
+  "bestFor": ["Accounting firms", "Startup month-end close", "Bookkeeping automation", "CPAs"],
+  "alternatives": ["basis", "puzzle", "digits"],
+  "references": [
+    {
+      "title": "Truewind Review 2026: AI Month-End Close for Startups",
+      "url": "https://accountingaitools.com/tools/truewind/",
+      "source": "Accounting AI Tools",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "freepik",
+  "insight": "Málaga, Spain–based Freepik acquired AI image-upscaler Magnific in 2024, folding it into its generation studio.",
+  "name": "Freepik",
+  "tagline": "AI creative suite — generate images, video, and audio beside a vast stock library.",
+  "description": "Freepik pairs its long-running stock-asset marketplace with an AI studio that bundles dozens of third-party generation models behind one subscription. Users generate images with models like Flux, its in-house Mystic, and Ideogram, plus video, upscaling, and editing tools, then drop results next to Freepik's stock photos, vectors, and templates.",
+  "category": "image-gen",
+  "secondaryCategories": ["design"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Freepik Company",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Flux", "Mystic", "Ideogram", "Google Imagen"],
+    "notes": "Aggregates 40+ third-party and in-house generation models in one studio."
+  },
+  "accentColor": "#1273EB",
+  "tags": ["image-gen", "stock-assets", "video", "design"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.freepik.com/ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.freepik.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 759,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Bundles 40+ image/video models (Flux, Mystic, Ideogram) plus a huge stock-asset library behind one subscription.",
+  "pros": [
+    "40+ generation models in one place",
+    "Huge stock + vector asset library",
+    "Mystic model strong at photorealism",
+    "Free tier to try before paying"
+  ],
+  "cons": [
+    "Commercial rights need a paid plan",
+    "Credit limits on lower tiers",
+    "Quality varies across bundled models"
+  ],
+  "bestFor": ["Marketers and designers", "Photorealistic images", "Rapid creative iteration"],
+  "alternatives": ["leonardo-ai", "ideogram", "recraft", "adobe-firefly"],
+  "references": [
+    {
+      "title": "Move over Midjourney — Freepik Mystic is the most realistic AI generator",
+      "url": "https://www.tomsguide.com/ai/ai-image-video/move-over-midjourney-freepik-mystic-is-the-most-realistic-ai-image-generator-ive-tried",
+      "source": "Tom's Guide",
+      "kind": "review"
+    }
+  ]
+}
