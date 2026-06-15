@@ -1,0 +1,49 @@
+{
+  "slug": "unify",
+  "insight": "Raised a $40M Series B led by Battery Ventures in July 2025; customers include Cursor, Perplexity, Airwallex, and Together AI.",
+  "name": "Unify",
+  "tagline": "AI go-to-market platform that turns intent signals into automated, personalized outreach.",
+  "description": "Unify is an AI-native go-to-market platform that helps sales and growth teams build pipeline by combining 25+ intent signals, B2B contact data, and AI agents that research accounts and write personalized outreach. It orchestrates multichannel sequences across email and LinkedIn with built-in deliverability infrastructure, so reps reach high-intent prospects at the right moment. It's aimed at revenue teams that want prospecting, enrichment, and engagement in one system rather than a stack of point tools.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Unify",
+  "platforms": ["web", "api"],
+  "tags": ["go-to-market", "outbound", "intent-data", "sales-automation", "prospecting"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.unifygtm.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.unifygtm.com"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 718,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs 25+ intent signals with AI research agents and automated multichannel sequences, so one platform both finds warm accounts and runs the outreach.",
+  "pros": [
+    "Combines intent data, enrichment, and outreach",
+    "AI agents research and personalize at scale",
+    "Built-in email deliverability infrastructure",
+    "Backed by OpenAI Startup Fund and Thrive"
+  ],
+  "cons": [
+    "Pricing is demo-driven, not public",
+    "Enterprise/revenue-team focus",
+    "Outbound automation needs careful tuning"
+  ],
+  "bestFor": ["Revenue teams", "Outbound prospecting", "Pipeline generation"],
+  "alternatives": ["clay", "11x", "artisan", "amplemarket"],
+  "references": [
+    {
+      "title": "Unify Raises $40M Series B to Transform Go-To-Market with AI",
+      "url": "https://theaiinsider.tech/2025/07/17/unify-raises-40m-series-b-to-transform-go-to-market-with-ai/",
+      "source": "The AI Insider",
+      "kind": "analysis"
+    }
+  ]
+}
