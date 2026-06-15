@@ -1,0 +1,57 @@
+{
+  "slug": "scira",
+  "name": "Scira",
+  "tagline": "Open-source AI answer engine that searches the web and cites its sources.",
+  "description": "Scira (formerly MiniPerplx) is an open-source, AI-powered answer engine — a Perplexity alternative built on the Vercel AI SDK. It plans a query, retrieves from the web, and returns concise answers with inline citations, drawing on 60+ models including Grok, Claude, Gemini, GPT, and DeepSeek. The AGPL-3.0 code is self-hostable, and a hosted app at scira.ai offers a free tier plus a Pro plan with connectors, memory, and voice.",
+  "insight": "Began in 2023 as the open-source Perplexity clone 'MiniPerplx', was renamed Scira, and was picked for the 2025 Vercel AI Accelerator.",
+  "category": "search",
+  "secondaryCategories": ["research-platform"],
+  "vendor": "Scira",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "60+ models incl. Grok, Claude, Gemini, GPT and DeepSeek."
+  },
+  "tags": ["ai-search", "open-source", "answer-engine", "citations", "perplexity-alternative"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scira.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/zaidmukaddam/scira",
+      "label": "GitHub"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 736,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Fully open-source (AGPL-3.0) answer engine that cites sources inline and lets you choose from 60+ models — self-host it or use the hosted app.",
+  "pros": [
+    "Fully open source (AGPL-3.0)",
+    "Inline citations on every answer",
+    "Choice of 60+ models",
+    "Free hosted tier",
+    "Self-hostable"
+  ],
+  "cons": [
+    "Largely a solo/community project",
+    "Smaller team than rivals",
+    "Pro features behind a paywall"
+  ],
+  "bestFor": ["Open-source advocates", "Cited web research", "Self-hosting tinkerers"],
+  "alternatives": ["perplexity", "felo", "you-com", "genspark"],
+  "references": [
+    {
+      "title": "Scira: Open-Source AI Search Engine from India Taking On Perplexity",
+      "url": "https://itmatterss.in/india/scira-open-source-ai-search-from-india/",
+      "source": "ITmatterss",
+      "kind": "analysis"
+    }
+  ]
+}

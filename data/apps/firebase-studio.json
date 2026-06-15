@@ -1,0 +1,50 @@
+{
+  "slug": "firebase-studio",
+  "name": "Firebase Studio",
+  "tagline": "Agentic cloud IDE for building and shipping full-stack AI apps with Gemini.",
+  "description": "Firebase Studio is Google's cloud-based, agentic development environment for building and shipping full-stack AI apps from the browser. It unifies the former Project IDX with Gemini-powered agents and the Genkit framework, giving you a full Code OSS editor, app prototyping from natural-language prompts, emulators, and one-click deploy to Firebase App Hosting. It runs entirely in the browser with no local setup. The core environment is free, with optional paid Cloud Billing for hosting and higher quotas.",
+  "insight": "Evolved from Google's Project IDX; built on Code OSS, the open-source core behind VS Code.",
+  "category": "ide",
+  "vendor": "Google",
+  "pricing": "free",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Gemini"],
+    "notes": "Powered by Google's Gemini models via Genkit."
+  },
+  "tags": ["ide", "gemini", "full-stack", "cloud-ide", "google"],
+  "accentColor": "#ffa000",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://firebase.studio",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://firebase.google.com/docs/studio",
+      "label": "Docs"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 734,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Browser-based and free, it pairs a full Code OSS editor with Gemini agents and one-click Firebase deploy — no local setup needed.",
+  "pros": [
+    "Runs fully in the browser, no setup",
+    "Built on Code OSS (VS Code core)",
+    "One-click deploy to Firebase",
+    "Free core tier",
+    "Prototype apps from a prompt"
+  ],
+  "cons": [
+    "Still in preview",
+    "Tied to the Google/Firebase ecosystem",
+    "Gemini-only assistant",
+    "Workspace limits on the free tier"
+  ],
+  "bestFor": ["Firebase developers", "Full-stack prototyping", "Cloud-based coding"],
+  "alternatives": ["v0", "lovable", "windsurf", "kiro"]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "vizard",
+  "name": "Vizard",
+  "tagline": "Turns long videos into short, captioned clips for social in one click.",
+  "description": "Vizard is an AI video tool that automatically slices long-form videos — podcasts, webinars, interviews, livestreams — into short, social-ready vertical clips. It transcribes the source, finds the highlight moments, adds auto-captions, and reframes to keep the speaker centered for TikTok, Reels, and YouTube Shorts. A free plan lets you try clipping without signing up, with paid Creator and Business tiers for more exports and longer videos.",
+  "category": "video",
+  "vendor": "Vizard",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "tags": ["video-clips", "short-form", "captions", "repurposing", "social-media"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vizard.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.vizard.ai/pricing",
+      "label": "Pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 735,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Turns one long video into dozens of captioned vertical clips with speaker-tracking reframe, and lets you try it free with no signup.",
+  "pros": [
+    "Auto-finds highlight moments",
+    "Accurate auto-captions",
+    "Speaker-tracking reframe",
+    "Free to try, no signup",
+    "Supports many languages"
+  ],
+  "cons": [
+    "Cloud-only, no offline editing",
+    "Clip selection needs review",
+    "Export limits on lower tiers"
+  ],
+  "bestFor": ["Podcasters", "Social content teams", "Repurposing long videos"],
+  "alternatives": ["opus-clip", "submagic", "captions", "descript"]
+}
