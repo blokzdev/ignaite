@@ -1,0 +1,50 @@
+{
+  "slug": "yahoo-scout",
+  "insight": "Yahoo's January 2026 return to search; the answer engine runs on Anthropic's Claude with Microsoft Bing's grounding API.",
+  "name": "Yahoo Scout",
+  "tagline": "AI answer engine that synthesizes the web with cited sources.",
+  "description": "Yahoo's AI-powered answer engine, synthesizing the open web, Yahoo data, and Yahoo content into concise responses with rich media, structured tables, and inline citations. Available as a standalone engine at scout.yahoo.com and inside the Yahoo Search app, with experiences woven across Yahoo Mail, News, Finance, and Sports. Built to drive traffic back to source publishers.",
+  "category": "search",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Yahoo",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Claude"],
+    "notes": "Customized Claude plus Microsoft Bing's grounding API and Yahoo's proprietary data."
+  },
+  "tags": ["search", "answer-engine", "citations", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scout.yahoo.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://help.yahoo.com/kb/SLN37203.html"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 764,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Grounds answers in Yahoo's knowledge graph of 1B+ entities and decades of search data, with inline citations that route traffic to publishers.",
+  "pros": [
+    "Inline citations on answers",
+    "Free, no subscription",
+    "Web plus iOS/Android apps",
+    "Tied into Yahoo Finance/Sports"
+  ],
+  "cons": ["U.S.-only beta at launch", "Newer than rivals", "Tied to Yahoo ecosystem"],
+  "bestFor": ["Quick cited answers", "Everyday web research"],
+  "alternatives": ["perplexity", "you-com", "felo", "genspark"],
+  "references": [
+    {
+      "title": "Yahoo debuts Scout, an AI search and companion experience",
+      "url": "https://searchengineland.com/yahoo-scout-yahoos-return-to-search-and-web-discovery-467907",
+      "source": "Search Engine Land",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "lara-translate",
+  "insight": "Built by Rome-based Translated on 25M professional human translations; its 2025 'Lara Think' reasoning step cut errors 50–60%.",
+  "name": "Lara Translate",
+  "tagline": "AI translator for text, documents, audio, and images across 200+ languages.",
+  "description": "A translation app and API from Translated that pairs context-aware machine translation with an optional reasoning step and three style modes — Faithful, Fluid, and Creative. Translates text, documents, audio, and images from one shared character quota, with web, mobile, CLI, and MCP access. Trained specifically on professional translation data rather than repurposed from a general-purpose LLM.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Translated",
+  "platforms": ["web", "ios", "android", "api", "cli"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary translation models (Lara, plus the Lara Think reasoning model) trained on professional translation data."
+  },
+  "tags": ["translation", "localization", "documents", "reasoning", "api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://laratranslate.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://app.laratranslate.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.laratranslate.com"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 762,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Trained only on professional translation data with a reasoning step and three style modes — not a repurposed general LLM.",
+  "pros": [
+    "Reasoning step improves accuracy",
+    "Faithful/Fluid/Creative styles",
+    "Text, document, audio, image",
+    "Web, mobile, API, CLI, MCP"
+  ],
+  "cons": ["Shared monthly character quota", "Newer than incumbents", "Not a general assistant"],
+  "bestFor": ["Professional translation", "Document localization"],
+  "alternatives": ["deepl", "lokalise", "smartcat", "lilt"],
+  "references": [
+    {
+      "title": "Translated Redefines Translation AI Quality With Lara",
+      "url": "https://slator.com/200-languages-and-a-new-reasoning-model-translated-redefines-translation-ai-quality-with-lara/",
+      "source": "Slator",
+      "kind": "analysis"
+    }
+  ]
+}
