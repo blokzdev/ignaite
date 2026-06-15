@@ -1,0 +1,49 @@
+{
+  "slug": "flowith",
+  "name": "Flowith",
+  "tagline": "Agentic AI workspace on an infinite canvas with autonomous multi-task agents.",
+  "description": "Flowith is an AI workspace built around an infinite two-dimensional canvas, where you branch threads and organize work visually instead of in a linear chat. Its autonomous agent, NEO, plans and executes multi-step tasks with tool calling and persistent context, while the Oracle scheduler breaks complex jobs into subtasks. It supports leading models including GPT and Claude. A free Starter tier offers limited credits, with paid Professional, Ultimate, and Infinite plans.",
+  "insight": "Founded in 2023 in Shanghai by Yichen Wu and Derek Nee; a Y Combinator-backed startup.",
+  "category": "agent",
+  "vendor": "Flowith",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Supports models incl. OpenAI GPT and Anthropic Claude."
+  },
+  "tags": ["ai-agent", "infinite-canvas", "autonomous-agent", "workspace", "automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://flowith.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 737,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Runs work on an infinite visual canvas where its NEO agent executes many multi-step tasks in parallel, instead of one linear chat thread.",
+  "pros": [
+    "Infinite-canvas, non-linear workflow",
+    "Autonomous multi-step NEO agent",
+    "Runs tasks in parallel",
+    "Free starter tier"
+  ],
+  "cons": [
+    "Credit-based usage can add up",
+    "Canvas has a learning curve",
+    "Higher tiers are pricey"
+  ],
+  "bestFor": ["Visual thinkers", "Multi-step research", "Parallel task automation"],
+  "alternatives": ["manus", "genspark", "skywork"],
+  "references": [
+    {
+      "title": "Flowith Review 2026: Overhyped or Worth It?",
+      "url": "https://www.fahimai.com/flowith",
+      "source": "FahimAI",
+      "kind": "review"
+    }
+  ]
+}
