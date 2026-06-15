@@ -1,0 +1,43 @@
+{
+  "slug": "coactive-ai",
+  "insight": "Raised a $30M Series B at a roughly $200M valuation, co-led by Cherryrock Capital and Emerson Collective.",
+  "name": "Coactive AI",
+  "tagline": "Multimodal platform that makes images and video searchable and structured.",
+  "description": "Coactive AI is an enterprise multimodal application platform that pulls context directly from the pixels and audio in images and video — no manual tagging or metadata required. Teams use it to semantically search, label, govern, and structure large visual libraries at scale, turning unstructured media into queryable data. It is aimed at media, retail, and other enterprises with vast image and video archives.",
+  "category": "vision",
+  "secondaryCategories": ["search"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Coactive AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs Coactive's own multimodal embedding models over your visual data."
+  },
+  "tags": ["multimodal", "visual-search", "video-understanding", "data-labeling", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.coactive.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 717,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Indexes images and video straight from pixels and audio — no manual tagging — so teams can semantically search and structure visual libraries at scale.",
+  "pros": [
+    "Search visual data with no tagging",
+    "Scales to large enterprise archives",
+    "Structures and governs media as data",
+    "Strong investor backing (a16z, Bessemer)"
+  ],
+  "cons": [
+    "Enterprise-only, no public pricing",
+    "Not a self-serve or hobbyist tool",
+    "Narrowly focused on visual data",
+    "Onboarding requires sales contact"
+  ],
+  "bestFor": ["Media and retail archives", "Visual content search", "Enterprise data teams"],
+  "alternatives": ["twelve-labs", "voxel51", "roboflow", "landing-ai"]
+}

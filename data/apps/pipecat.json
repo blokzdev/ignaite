@@ -1,0 +1,53 @@
+{
+  "slug": "pipecat",
+  "insight": "Created and open-sourced by Daily, the WebRTC video-API company, under a permissive BSD-2-Clause license.",
+  "name": "Pipecat",
+  "tagline": "Open-source framework for real-time voice and multimodal AI agents.",
+  "description": "Pipecat is a Python framework for building voice and multimodal conversational agents that can listen, speak, and see in real time. It orchestrates streaming speech-to-text, an LLM, and text-to-speech into one low-latency pipeline, wiring together 40+ AI services with no vendor lock-in. Client SDKs cover JavaScript, React, React Native, Swift, Kotlin, C++, and ESP32, and Pipecat Cloud offers managed hosting at scale.",
+  "category": "voice",
+  "secondaryCategories": ["orchestration"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Daily",
+  "platforms": ["api", "web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Vendor-neutral; mixes and matches 40+ STT, LLM, and TTS providers in a pipeline."
+  },
+  "tags": ["voice-agents", "conversational-ai", "real-time", "open-source", "framework"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pipecat.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/pipecat-ai/pipecat"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.pipecat.ai"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 714,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Open-source and vendor-neutral, it wires 40+ STT, LLM, and TTS services into one low-latency pipeline — unlike single-vendor voice-agent platforms.",
+  "pros": [
+    "Open source (BSD-2), self-hostable",
+    "Vendor-neutral, 40+ AI services",
+    "Real-time, low-latency pipeline",
+    "Client SDKs across web/mobile/embedded",
+    "Optional managed Pipecat Cloud"
+  ],
+  "cons": [
+    "Python framework, not a no-code tool",
+    "You wire and pay for each AI service",
+    "Tuning latency needs real expertise",
+    "Smaller ecosystem than hosted rivals"
+  ],
+  "bestFor": ["Custom voice agents", "Real-time multimodal apps", "Developers avoiding lock-in"],
+  "alternatives": ["livekit", "vapi", "retell-ai", "synthflow"]
+}
