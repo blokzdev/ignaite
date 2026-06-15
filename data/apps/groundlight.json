@@ -1,0 +1,64 @@
+{
+  "slug": "groundlight",
+  "insight": "Founded in 2019 by ex-AWS SageMaker principal engineer Leo Dirac; named to CB Insights' AI 100 in 2024.",
+  "name": "Groundlight",
+  "tagline": "Build reliable computer vision by asking plain-English questions about images.",
+  "description": "Groundlight lets developers create visual detectors by describing what to look for in natural language, with no training dataset required. Its system pairs ML models with built-in 24/7 human labeling, so applications return reliable answers from day one and the models improve automatically over time. It ships a Python SDK and REST API, supports edge inference on hardware like Raspberry Pi, and powers monitoring, industrial inspection, and robotics use cases.",
+  "category": "vision",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Groundlight AI",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own vision models with built-in human-in-the-loop labeling; no dataset required."
+  },
+  "tags": ["computer-vision", "edge-ai", "human-in-the-loop", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.groundlight.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.groundlight.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 777,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Define a vision detector by asking a plain-English question; built-in 24/7 human labeling means it answers from day one with no training data.",
+  "pros": [
+    "Natural-language visual queries",
+    "Works with zero training data",
+    "Built-in human-in-the-loop labeling",
+    "Edge inference on Raspberry Pi",
+    "Python SDK and REST API"
+  ],
+  "cons": [
+    "Narrower than general vision platforms",
+    "Human review can add latency",
+    "Paid pricing not fully public"
+  ],
+  "bestFor": [
+    "Edge and IoT monitoring",
+    "Industrial inspection",
+    "Developers without ML expertise"
+  ],
+  "alternatives": ["roboflow", "landing-ai"],
+  "references": [
+    {
+      "title": "Groundlight emerges from stealth with $10M seed round",
+      "url": "https://venturebeat.com/ai/groundlight-emerges-stealth-10m-seed-round-businesses-computer-vision",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Amazon and Microsoft vets raise $10M for computer vision startup",
+      "url": "https://www.geekwire.com/2023/amazon-and-microsoft-vets-raise-10m-for-computer-vision-startup-used-in-warehouses/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}

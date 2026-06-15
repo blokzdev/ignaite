@@ -1,0 +1,57 @@
+{
+  "slug": "twinmind",
+  "insight": "Backed by Stephen Wolfram's first-ever startup investment; founded in 2024 by an ex-Google X trio.",
+  "name": "TwinMind",
+  "tagline": "An always-on AI second brain that captures and remembers everything you hear.",
+  "description": "TwinMind runs in the background on your phone, continuously listening to meetings, lectures, and conversations to build a private, searchable memory you can query in plain language. It transcribes on-device, generates notes, to-dos, and daily digests, and answers questions across everything it has heard. The proprietary Ear-3 speech model handles 140+ languages, and audio is processed locally for privacy, with cloud AI chat in the paid tiers.",
+  "category": "memory",
+  "secondaryCategories": ["meeting"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "TwinMind",
+  "platforms": ["ios", "android", "browser-extension", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Own Ear-3 speech model for transcription; paid tiers add ChatGPT, Gemini, and Claude for chat."
+  },
+  "tags": ["ambient-capture", "second-brain", "transcription", "on-device"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://twinmind.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 776,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Transcribes meetings and conversations continuously for up to 17 hours on-device in 140+ languages, building a searchable personal memory.",
+  "pros": [
+    "On-device capture, privacy-first",
+    "Up to 17h continuous transcription",
+    "140+ languages via Ear-3 model",
+    "Generous free tier",
+    "iOS, Android, and Chrome"
+  ],
+  "cons": [
+    "Speaker ID is Pro-only",
+    "Always-on capture raises privacy questions",
+    "Young product, founded 2024"
+  ],
+  "bestFor": ["Meeting capture", "Personal knowledge base", "Students and researchers"],
+  "alternatives": ["screenpipe", "granola", "otter-ai"],
+  "references": [
+    {
+      "title": "Ex-Google X trio wants their AI to be your second brain",
+      "url": "https://techcrunch.com/2025/09/10/ex-google-x-trio-wants-their-ai-to-be-your-second-brain-and-they-just-raised-6m-to-make-it-happen/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "TwinMind raises $5.7M and announces breakthrough speech model",
+      "url": "https://www.maginative.com/article/twinmind-aims-to-be-your-second-brain-raises-5-7m-and-announces-breakthrough-speech-model/",
+      "source": "Maginative",
+      "kind": "analysis"
+    }
+  ]
+}
