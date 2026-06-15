@@ -1,0 +1,52 @@
+{
+  "slug": "fish-audio",
+  "insight": "Develops the open-source Fish Speech / OpenAudio text-to-speech models alongside its proprietary hosted platform.",
+  "name": "Fish Audio",
+  "tagline": "Expressive, emotionally controllable text-to-speech, voice cloning, and voice agents.",
+  "description": "Fish Audio is a voice AI platform for real-time text-to-speech with emotion tags, voice cloning from clips as short as 15 seconds, speech-to-text, and end-to-end voice agents. Its flagship S2 model targets natural, expressive, multilingual narration, and the company maintains the open-source Fish Speech (OpenAudio) models on GitHub. A free tier covers personal use, with paid plans and an API for commercial use.",
+  "category": "audio",
+  "secondaryCategories": ["voice"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Fish Audio",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs Fish Audio's own S2 / Fish Speech models; not user-swappable."
+  },
+  "tags": ["text-to-speech", "voice-cloning", "speech-to-text", "voice-agents", "multilingual"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fish.audio",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/fishaudio/fish-speech"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.fish.audio"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 715,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Open-weight models plus a hosted API at a fraction of ElevenLabs' price, with emotion-tagged speech and 15-second voice cloning.",
+  "pros": [
+    "Expressive, emotion-controllable TTS",
+    "Fast voice cloning from ~15s of audio",
+    "Open-source Fish Speech models",
+    "Notably cheaper than ElevenLabs",
+    "Multilingual with a developer API"
+  ],
+  "cons": [
+    "Hosted platform itself is proprietary",
+    "Free tier has monthly generation caps",
+    "Smaller voice library than incumbents",
+    "Voice cloning carries misuse risk"
+  ],
+  "bestFor": ["Cost-sensitive TTS", "Voice cloning", "Multilingual narration"],
+  "alternatives": ["elevenlabs", "cartesia", "rime", "murf"]
+}

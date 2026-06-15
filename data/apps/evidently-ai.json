@@ -1,0 +1,53 @@
+{
+  "slug": "evidently-ai",
+  "insight": "Started in 2020 as an open-source ML-monitoring library and expanded to LLM and RAG evaluation; Apache-2.0 licensed.",
+  "name": "Evidently AI",
+  "tagline": "Open-source evaluation and observability for ML and LLM systems.",
+  "description": "Evidently is an open-source Python framework for evaluating, testing, and monitoring AI systems — from tabular ML models to LLM apps, RAG pipelines, and agents. It ships 100+ built-in metrics covering data drift, quality, hallucinations, PII leaks, and jailbreaks, plus LLM-as-judge scoring and monitoring dashboards. Evidently Cloud adds a hosted service with no-code evals, alerting, and team management on top of the open library.",
+  "category": "observability",
+  "secondaryCategories": ["eval"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Evidently AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Evaluation framework; LLM-as-judge runs against your choice of provider."
+  },
+  "tags": ["evaluation", "observability", "ml-monitoring", "llm-testing", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.evidentlyai.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/evidentlyai/evidently"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.evidentlyai.com"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 716,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "One open-source library spanning classic ML monitoring and LLM/RAG evals — 100+ metrics from data drift to hallucination — with an optional cloud.",
+  "pros": [
+    "Open source (Apache-2.0), self-hostable",
+    "Covers both ML and LLM evaluation",
+    "100+ built-in metrics and presets",
+    "LLM-as-judge plus drift detection",
+    "Optional hosted cloud with free tier"
+  ],
+  "cons": [
+    "Python-library learning curve",
+    "Less agent-trace-centric than rivals",
+    "Cloud features gated to paid tiers",
+    "Reports can get heavy at scale"
+  ],
+  "bestFor": ["ML + LLM monitoring", "RAG evaluation", "Self-hosted eval pipelines"],
+  "alternatives": ["langfuse", "arize-phoenix", "deepeval", "giskard"]
+}
