@@ -1,0 +1,58 @@
+{
+  "slug": "papago",
+  "insight": "Built by South Korea's Naver and launched in 2017; 'Papago' is Esperanto for 'parrot,' nodding to its language focus.",
+  "name": "Papago",
+  "tagline": "Naver's free neural translator, tuned for East Asian languages.",
+  "description": "Papago is Naver's free AI translation app, covering 14 languages with text, voice, image, and handwriting input. Its neural machine translation is especially strong on East Asian pairs — Korean to and from Japanese, English, and Chinese — making it a go-to for travel and study across the region. Available on the web and as iOS and Android apps.",
+  "category": "translation",
+  "pricing": "free",
+  "vendor": "Naver",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Naver's own neural machine-translation models."
+  },
+  "tags": ["translation", "korean", "east-asian", "mobile", "free"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://papago.naver.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://apps.apple.com/us/app/naver-papago-ai-translator/id1147874819",
+      "label": "iOS App Store"
+    },
+    {
+      "kind": "website",
+      "url": "https://play.google.com/store/apps/details?id=com.naver.labs.translator",
+      "label": "Google Play"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 801,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Tuned for East Asian languages — best-in-class Korean to/from Japanese and English accuracy, free across mobile and web.",
+  "pros": [
+    "Free with no paid tier",
+    "Strong Korean and Japanese accuracy",
+    "Text, voice, image, handwriting input",
+    "Native iOS and Android apps"
+  ],
+  "cons": [
+    "Only 14 languages",
+    "Weaker on non-Asian language pairs",
+    "Consumer focus, limited API/business tooling"
+  ],
+  "bestFor": ["Travel and study in East Asia", "Korean/Japanese translation"],
+  "alternatives": ["deepl", "lara-translate", "systran"],
+  "references": [
+    {
+      "title": "Naver Papago",
+      "url": "https://en.wikipedia.org/wiki/Naver_Papago",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
+}
