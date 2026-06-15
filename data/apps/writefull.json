@@ -1,0 +1,54 @@
+{
+  "slug": "writefull",
+  "insight": "Part-owned by Digital Science (owner of Overleaf, Dimensions, and Figshare) since 2018, and fully acquired by it in November 2023.",
+  "name": "Writefull",
+  "tagline": "AI language feedback and editing for academic writing.",
+  "description": "Writefull is an academic writing assistant whose language models are trained on millions of published journal articles, giving discipline-aware language feedback, paraphrasing, and copyediting. It generates titles and abstracts, checks LaTeX, and runs automated language revision over a full manuscript. Works on the web and integrates with Microsoft Word and Overleaf.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Writefull (Digital Science)",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary models trained on scholarly text; no model choice or BYO key."
+  },
+  "tags": ["academic-writing", "editing", "paraphrasing", "latex"],
+  "accentColor": "#0B6E4F",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.writefull.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.writefull.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 789,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Its models are trained on millions of published journal articles, so suggestions match academic register better than general-purpose grammar tools.",
+  "pros": [
+    "Language models tuned on scholarly prose",
+    "Integrates with Word and Overleaf",
+    "Title and abstract generation",
+    "Free tier for everyday checks"
+  ],
+  "cons": [
+    "Free tier caps daily revisions",
+    "Scoped to academic writing only",
+    "Proprietary models — no LLM choice or BYO key"
+  ],
+  "bestFor": ["Researchers", "ESL academics", "Manuscript editing"],
+  "alternatives": ["paperpal", "grammarly", "quillbot", "scispace"],
+  "references": [
+    {
+      "title": "Writefull Review: Features, Pricing and Alternatives",
+      "url": "https://paperpal.com/blog/news-updates/industry-insights/writefull-review",
+      "source": "Paperpal",
+      "kind": "comparison"
+    }
+  ]
+}

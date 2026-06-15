@@ -1,0 +1,49 @@
+{
+  "slug": "paperguide",
+  "name": "Paperguide",
+  "tagline": "AI research assistant and reference manager for academics.",
+  "description": "Paperguide is an all-in-one academic research platform combining an AI assistant, reference manager, and chat-with-PDF in one workspace. It searches papers with real citations, runs literature-review workbooks, extracts data into tables, annotates PDFs, and drafts with an AI writer and plagiarism checker. Built for students, educators, and research teams, with a browser extension to save sources.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Paperguide",
+  "platforms": ["web", "browser-extension"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses frontier models (e.g. GPT-4o, Claude) under the hood; no model picker."
+  },
+  "tags": ["academic-research", "reference-manager", "literature-review", "chat-with-pdf"],
+  "accentColor": "#E0564B",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://paperguide.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://paperguide.ai/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 793,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Bundles AI paper search, a reference manager, PDF chat, and an AI writer in one workspace, instead of stitching several separate research apps together.",
+  "pros": [
+    "Search, references, PDF chat, and writing in one tool",
+    "Free tier with 1,000 monthly AI credits",
+    "Search returns real citations",
+    "Student discount available"
+  ],
+  "cons": ["AI credits cap monthly usage", "Newer and smaller than incumbents", "No model choice"],
+  "bestFor": ["Students", "Literature reviews", "Reference management"],
+  "alternatives": ["paperpal", "scispace", "elicit", "scite"],
+  "references": [
+    {
+      "title": "PaperGuide Review: AI Research Assistant for Academics",
+      "url": "https://daveswift.com/paperguide/",
+      "source": "Dave Swift",
+      "kind": "review"
+    }
+  ]
+}

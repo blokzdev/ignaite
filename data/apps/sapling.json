@@ -1,0 +1,47 @@
+{
+  "slug": "sapling",
+  "insight": "Y Combinator (W19) startup founded in 2018 by Stanford NLP researcher Ziang Xie.",
+  "name": "Sapling",
+  "tagline": "AI writing assistant for customer-facing teams.",
+  "description": "Sapling is a language-model toolkit that gives customer-facing teams real-time autocomplete, grammar and tone suggestions, and reusable snippets inside helpdesks and CRMs like Zendesk, Salesforce, and Intercom. It exposes an API and SDK to embed the same suggestions into custom apps, plus a browser extension for everyday writing. The company also ships a widely cited AI-content detector.",
+  "category": "support",
+  "secondaryCategories": ["writing"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Sapling Intelligence",
+  "platforms": ["web", "browser-extension", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary in-house language models; no model picker or BYO key."
+  },
+  "tags": ["customer-support", "autocomplete", "grammar", "snippets"],
+  "accentColor": "#2F8F4E",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sapling.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://sapling.ai/docs"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 790,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Built for support and sales desks rather than general prose — it autocompletes whole replies from your canned-response library inside the helpdesk.",
+  "pros": [
+    "Real-time reply autocomplete from your library",
+    "Works across Zendesk, Salesforce, Intercom",
+    "API and SDK for custom apps",
+    "Free tier and browser extension"
+  ],
+  "cons": [
+    "Free tier limits premium suggestions",
+    "Proprietary models — no BYO key",
+    "AI-detector accuracy is disputed"
+  ],
+  "bestFor": ["Support teams", "Sales reps", "CX agents"],
+  "alternatives": ["grammarly", "wordtune", "compose-ai"]
+}

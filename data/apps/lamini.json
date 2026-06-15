@@ -1,0 +1,61 @@
+{
+  "slug": "lamini",
+  "insight": "Co-founded by Greg Diamos, a creator of the MLPerf benchmark, and Stanford's Sharon Zhou; backed by Andrew Ng and Andrej Karpathy.",
+  "name": "Lamini",
+  "tagline": "Enterprise platform to tune and run open LLMs in your own environment.",
+  "description": "Lamini is an enterprise LLM platform for fine-tuning open models and serving them, designed to run on-prem, in a VPC, or on Lamini's cloud — including on AMD GPUs. It pairs tuning (LoRA/PEFT and memory tuning to reduce hallucinations) with an inference stack and agentic pipelines, accessed via a Python client, REST API, or web UI. Built for teams that need to keep models and data in-house.",
+  "category": "fine-tuning",
+  "secondaryCategories": ["inference"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Lamini",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Fine-tunes and serves open model families (Llama, Mistral, and others)."
+  },
+  "tags": ["fine-tuning", "llm", "enterprise", "on-prem"],
+  "accentColor": "#5B8DEF",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lamini.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.lamini.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.lamini.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 791,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "One of the few tuning platforms that runs on AMD GPUs and fully inside your own VPC or on-prem, keeping regulated data off third-party clouds.",
+  "pros": [
+    "Runs on-prem or in your own VPC",
+    "Supports AMD GPUs, not just NVIDIA",
+    "Memory tuning to cut hallucinations",
+    "Founded by an MLPerf and ex-NVIDIA team"
+  ],
+  "cons": ["Enterprise-focused pricing", "Open models only", "Smaller ecosystem than hyperscalers"],
+  "bestFor": ["Regulated enterprises", "On-prem LLMs", "In-house tuning teams"],
+  "alternatives": ["predibase", "openpipe", "together-ai", "tinker"],
+  "references": [
+    {
+      "title": "Dropbox, Figma CEOs back Lamini, a generative AI platform for enterprises",
+      "url": "https://techcrunch.com/2024/05/02/dropbox-figma-ceos-back-lamini-a-startup-building-a-generative-ai-platform-for-enterprises/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Lamini raises $25M for its AI development and inference platform",
+      "url": "https://siliconangle.com/2024/05/03/lamini-raises-25m-ai-development-inference-platform/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
