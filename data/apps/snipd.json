@@ -1,0 +1,45 @@
+{
+  "slug": "snipd",
+  "insight": "Saved highlights ('snips') sync to Readwise, Notion, and Obsidian, turning podcast listening into spaced-repetition study notes.",
+  "name": "Snipd",
+  "tagline": "AI podcast player with chapters, episode summaries, and shareable highlights.",
+  "description": "Snipd is an AI-powered podcast app that transcribes episodes, breaks them into chapters, and generates summaries and key takeaways you can read before listening. While playing, it detects highlight-worthy moments and lets you save them as 'snips' — short clips with auto-generated transcripts and notes — and you can chat with an episode's content. Built by a Zurich-based team, it positions podcast listening as active learning.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Snipd",
+  "platforms": ["ios", "android", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "AI transcription, chapterization, and summarization built into the player."
+  },
+  "tags": ["podcasts", "summarization", "transcription", "note-taking", "learning"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.snipd.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.snipd.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 743,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "A full podcast player with AI chapters, episode summaries, and chat that turns saved 'snips' into Readwise/Notion/Obsidian notes — not just a summarizer.",
+  "pros": [
+    "AI chapters and episode summaries",
+    "Save highlight 'snips' with transcripts",
+    "Syncs to Readwise, Notion, Obsidian",
+    "Chat with an episode's content",
+    "Free tier available"
+  ],
+  "cons": [
+    "Mobile-first; web app is newer",
+    "Premium needed for unlimited AI features",
+    "AI processing can lag for niche episodes"
+  ],
+  "bestFor": ["Podcast listeners", "Active learning", "Knowledge capture", "Researchers"]
+}

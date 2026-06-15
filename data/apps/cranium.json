@@ -1,0 +1,55 @@
+{
+  "slug": "cranium",
+  "insight": "Cranium is the first technology company spun out of KPMG's startup incubator; its $25M Series A brought total funding to $32M.",
+  "name": "Cranium",
+  "tagline": "Enterprise platform for AI security, governance, and trust.",
+  "description": "Cranium helps enterprises see, secure, and govern the AI across their organization by discovering models, datasets, and pipelines and assembling them into an AI Bill of Materials (AI-BOM). It runs automated evaluations and red-teaming to surface unsafe behavior, configuration gaps, and compliance risk, and monitors AI systems in production. The platform targets security, risk, and compliance teams standing up responsible-AI programs.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cranium",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Secures and governs the customer's own AI/ML models rather than serving an LLM itself."
+  },
+  "tags": ["ai-security", "ai-governance", "ai-bom", "compliance", "red-teaming"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cranium.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 742,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Builds an AI Bill of Materials across your models, datasets, and pipelines for governance and compliance — not just runtime prompt filtering.",
+  "pros": [
+    "AI Bill of Materials (AI-BOM)",
+    "Model, dataset, and pipeline discovery",
+    "Governance and compliance focus",
+    "Added red-teaming via its Arena product",
+    "KPMG-incubated pedigree"
+  ],
+  "cons": [
+    "Enterprise-only; no public pricing",
+    "No free or self-serve tier",
+    "Heavier than a single guardrail tool"
+  ],
+  "bestFor": [
+    "Enterprise AI governance",
+    "Security teams",
+    "AI risk and compliance",
+    "Model inventory"
+  ],
+  "alternatives": ["protect-ai", "hiddenlayer", "lakera", "noma-security"],
+  "references": [
+    {
+      "title": "Cranium raises $25m in series A funding to advance AI security solutions",
+      "url": "https://cfotech.com.au/story/cranium-raises-25m-in-series-a-funding-to-advance-ai-security-solutions",
+      "source": "CFOtech",
+      "kind": "analysis"
+    }
+  ]
+}
