@@ -1,0 +1,47 @@
+{
+  "slug": "mutiny",
+  "insight": "Y Combinator alum (S18); raised a $50M Series B in 2022 led by Sequoia, with Tiger Global, at a reported ~$600M valuation.",
+  "name": "Mutiny",
+  "tagline": "AI agent for personalized, on-brand B2B website and GTM content.",
+  "description": "Mutiny is a B2B platform that uses AI to personalize websites and generate customer-facing go-to-market assets — landing pages, proposals, case studies, and account-based experiences — without designers or dev work. It identifies the companies visiting a site and tailors headlines, testimonials, and CTAs to each account, with analytics tying personalization to pipeline. Customers include Notion, Snowflake, Ramp, and Dropbox.",
+  "category": "marketing",
+  "secondaryCategories": ["sales"],
+  "pricing": "paid",
+  "vendor": "Mutiny",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "accentColor": "#4F46E5",
+  "tags": ["abm", "personalization", "b2b-marketing", "landing-pages"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.mutinyhq.com/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 774,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs account-level visitor identification with no-code AI personalization, so GTM teams ship tailored pages and pipeline analytics without engineering.",
+  "pros": [
+    "Account-based web personalization",
+    "No-code, no designers needed",
+    "Pipeline + attribution analytics",
+    "Used by major B2B brands"
+  ],
+  "cons": [
+    "Enterprise pricing, no free tier",
+    "Best ROI needs high site traffic",
+    "B2B / ABM focus only"
+  ],
+  "bestFor": ["B2B marketing teams", "Account-based marketing", "Demand-gen / GTM teams"],
+  "alternatives": ["clay", "typeface", "jasper", "airops"],
+  "references": [
+    {
+      "title": "Mutiny raises $50M to personalize website copy with AI",
+      "url": "https://techcrunch.com/2022/04/20/mutiny-which-personalizes-website-copy-and-headlines-using-ai-raises-50m/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

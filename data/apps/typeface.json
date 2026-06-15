@@ -1,0 +1,60 @@
+{
+  "slug": "typeface",
+  "insight": "Founded by former Adobe CTO Abhay Parasnis; reached a $1B valuation in 2023 on a $100M Series B led by Salesforce Ventures.",
+  "name": "Typeface",
+  "tagline": "Enterprise generative-AI platform for on-brand marketing content at scale.",
+  "description": "Typeface is an enterprise marketing platform that orchestrates AI agents, brand guidelines, and approval workflows to generate on-brand text and images across campaigns and channels. Its Brand Hub captures a company's voice and assets so output stays consistent, while agents handle planning, creation, and performance analysis. It targets large marketing teams that need governed, secure content generation rather than one-off copy.",
+  "category": "marketing",
+  "pricing": "paid",
+  "vendor": "Typeface",
+  "deployment": "cloud",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Orchestrates AI agents over multiple underlying foundation models."
+  },
+  "accentColor": "#6E56CF",
+  "tags": ["content-marketing", "brand-governance", "campaigns", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.typeface.ai/",
+      "primary": true
+    },
+    {
+      "kind": "demo",
+      "url": "https://www.typeface.ai/contact-sales"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 773,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Enterprise-grade brand governance: a Brand Hub captures company voice and assets so agent-generated content stays on-brand and approval-gated at scale.",
+  "pros": [
+    "Strong brand governance + voice",
+    "Multimodal text + image output",
+    "Agentic campaign workflows",
+    "Enterprise security + integrations"
+  ],
+  "cons": [
+    "Enterprise pricing, no free tier",
+    "Overkill for solo/small teams",
+    "Sales-led onboarding (demo only)"
+  ],
+  "bestFor": ["Enterprise marketing teams", "On-brand content at scale", "Regulated brands"],
+  "alternatives": ["jasper", "copy-ai", "airops", "mutiny"],
+  "references": [
+    {
+      "title": "What is Typeface AI? A 2025 overview of the platform",
+      "url": "https://www.eesel.ai/blog/typeface-ai",
+      "source": "eesel AI",
+      "kind": "guide"
+    },
+    {
+      "title": "Typeface Review (2026): Enterprise Marketing AI Platform",
+      "url": "https://theaiagentindex.com/agents/typeface",
+      "source": "The AI Agent Index",
+      "kind": "review"
+    }
+  ]
+}

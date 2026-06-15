@@ -1,0 +1,55 @@
+{
+  "slug": "odyssey",
+  "insight": "Founded by self-driving veterans Oliver Cameron and Jeff Hawke; trained on scenes shot with a custom 360° backpack camera rig.",
+  "name": "Odyssey",
+  "tagline": "Real-time world model that generates interactive, explorable AI video.",
+  "description": "Odyssey is a world-model startup whose AI generates interactive video you can steer in real time — explorable, 3D-like scenes streamed frame by frame without a game engine. Its current model, Odyssey-2, turns a text prompt or image into a multi-minute simulation you navigate as it is generated. It is positioned for film, gaming, and interactive media, and is available as a free research-preview experience.",
+  "category": "video",
+  "secondaryCategories": ["gaming"],
+  "pricing": "free",
+  "vendor": "Odyssey",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs on Odyssey's own real-time world model (Odyssey-2)."
+  },
+  "accentColor": "#5B8DEF",
+  "tags": ["world-model", "interactive-video", "real-time", "simulation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://odyssey.ml",
+      "primary": true
+    },
+    {
+      "kind": "demo",
+      "url": "https://experience.odyssey.ml"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 775,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Streams interactive, navigable video in real time from a single prompt or image — no game engine, no pre-built assets — unlike clip-only video generators.",
+  "pros": [
+    "Real-time interactive generation",
+    "Steerable, multi-minute scenes",
+    "No game engine or assets needed",
+    "Free research-preview access"
+  ],
+  "cons": [
+    "Research preview, not production-ready",
+    "Limited resolution / visual fidelity",
+    "No commercial terms or pricing yet"
+  ],
+  "bestFor": ["Interactive media R&D", "Game / film prototyping", "World-model experimentation"],
+  "alternatives": ["decart", "marble", "runway", "luma-dream-machine"],
+  "references": [
+    {
+      "title": "Odyssey's new AI model streams 3D interactive worlds",
+      "url": "https://techcrunch.com/2025/05/28/odysseys-new-ai-model-streams-3d-interactive-worlds",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
