@@ -1,0 +1,50 @@
+{
+  "slug": "songscription",
+  "name": "Songscription",
+  "tagline": "Turn any audio into sheet music, MIDI, and guitar tabs with AI.",
+  "description": "Songscription transcribes audio recordings into readable notation — sheet music, MIDI, MusicXML, and GuitarPro tabs — across instruments including piano, guitar, bass, strings, horns, drums, and vocals. Often described as a 'Shazam for sheet music', it automates a task that traditionally took hours by ear. A free tier covers unlimited 30-second clips, with paid plans for longer recordings and more export formats.",
+  "insight": "Stanford-founded; its model builds on co-founder Tim Beyer's research, backed by Reach Capital through Stanford's StartX accelerator.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Songscription",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary audio-to-notation transcription models."
+  },
+  "tags": ["music-transcription", "sheet-music", "midi"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.songscription.ai/",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 788,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Outputs real notation — sheet music, MIDI, MusicXML, GuitarPro tabs across many instruments — where rivals stop at stems or text transcripts.",
+  "pros": [
+    "Audio to sheet music, MIDI, and tabs",
+    "Many instruments supported",
+    "Free unlimited 30-second clips",
+    "MusicXML and GuitarPro export"
+  ],
+  "cons": [
+    "Free tier capped at 30-second clips",
+    "Web-only (piano app in the works)",
+    "Transcription accuracy varies by source",
+    "Niche use case"
+  ],
+  "bestFor": ["Musicians transcribing by ear", "Music students", "Arrangers"],
+  "alternatives": ["moises"],
+  "references": [
+    {
+      "title": "Songscription launches an AI-powered 'Shazam for sheet music'",
+      "url": "https://techcrunch.com/2025/06/30/songscription-launches-an-ai-powered-shazam-for-sheet-music",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
