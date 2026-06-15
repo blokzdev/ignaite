@@ -1,0 +1,65 @@
+{
+  "slug": "microsoft-discovery",
+  "insight": "Reached general availability at Microsoft Build 2026; was used to help develop Microsoft's Majorana 2 topological quantum chip.",
+  "name": "Microsoft Discovery",
+  "tagline": "An agentic platform for enterprise scientific R&D on Azure.",
+  "description": "An enterprise platform that lets research teams deploy specialized AI agents over a graph-based knowledge engine to run the full R&D loop — exploring literature, generating hypotheses, optimizing experiments, and validating results. It spans chemistry, materials science, biology, pharmaceuticals, and semiconductors, and runs on Azure HPC and AI Foundry infrastructure with enterprise governance. Researchers can integrate their own models, tools, and datasets.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Microsoft",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Integrates Azure AI Foundry models plus customers' own models."
+  },
+  "tags": ["scientific-discovery", "agentic-rd", "materials-science", "drug-discovery"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://azure.microsoft.com/en-us/solutions/discovery/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://learn.microsoft.com/en-us/azure/microsoft-discovery/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 758,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Couples specialized R&D agents with a graph knowledge engine and Azure HPC across chemistry, materials, and biology — one governed stack, not a point tool.",
+  "pros": [
+    "Specialized agents across science domains",
+    "Graph-based knowledge engine",
+    "Backed by Azure HPC and AI Foundry",
+    "Enterprise governance and transparency",
+    "Bring your own models and datasets"
+  ],
+  "cons": [
+    "Enterprise Azure setup, not self-serve",
+    "Researcher app still in preview",
+    "Tied to the Azure ecosystem",
+    "Pricing not publicly listed"
+  ],
+  "bestFor": [
+    "Enterprise R&D teams",
+    "Materials and drug discovery",
+    "Scientific and engineering labs"
+  ],
+  "alternatives": ["futurehouse", "lila-sciences", "periodic-labs", "autoscience"],
+  "references": [
+    {
+      "title": "Microsoft Discovery GA on Azure, Powering the AI behind Majorana 2",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-discovery-majorana-2/",
+      "source": "InfoQ",
+      "kind": "analysis"
+    },
+    {
+      "title": "Microsoft Discovery Reaches GA for Agentic Scientific and Engineering Workflows",
+      "url": "https://www.hpcwire.com/aiwire/2026/06/03/microsoft-discovery-reaches-general-availability-for-agentic-scientific-and-engineering-workflows/",
+      "source": "HPCwire",
+      "kind": "analysis"
+    }
+  ]
+}

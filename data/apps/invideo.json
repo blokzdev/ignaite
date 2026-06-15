@@ -1,0 +1,62 @@
+{
+  "slug": "invideo",
+  "insight": "Mumbai-founded; its AI text-to-video product, launched in 2023, scaled to roughly $70M ARR within about 18 months.",
+  "name": "invideo AI",
+  "tagline": "Describe a video in plain text and get a finished, edited cut.",
+  "description": "An AI video creation platform that turns a text prompt into a publish-ready video — selecting stock footage, generating a voiceover, adding subtitles and music, and assembling the edit. Its newer Agent One flow routes across models like Sora, Veo, and Kling and keeps project context so you revise the cut by chatting rather than editing a timeline. Built for marketers, social creators, and faceless-channel video.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "invideo",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Sora", "Veo", "Kling"],
+    "notes": "Routes generation across multiple third-party video and image models."
+  },
+  "tags": ["text-to-video", "video-editing", "voiceover", "social-video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://invideo.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 756,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "One prompt yields a complete edited video — stock footage, voiceover, captions and music — and you revise it by chatting, not timeline-editing.",
+  "pros": [
+    "Prompt-to-finished-video in one pass",
+    "Edit by chatting in plain English",
+    "Large stock media and voice library",
+    "Routes across top models (Sora, Veo, Kling)",
+    "Web plus iOS and Android apps"
+  ],
+  "cons": [
+    "Credit limits on higher-quality output",
+    "AI edits can need manual cleanup",
+    "Stock-footage look without custom assets",
+    "Commercial use needs a paid plan"
+  ],
+  "bestFor": [
+    "Marketers and social creators",
+    "Faceless YouTube videos",
+    "Quick ad and promo videos"
+  ],
+  "alternatives": ["veed", "synthesia", "captions", "vizard"],
+  "references": [
+    {
+      "title": "AI Film Studio Launched by India's Abundantia Entertainment, InVideo",
+      "url": "https://variety.com/2026/global/news/ai-film-studio-india-abundantia-entertainment-invideo-1236665369/",
+      "source": "Variety",
+      "kind": "analysis"
+    },
+    {
+      "title": "Decoding GenAI Startup Invideo's Explosive $30 Mn Revenue Run",
+      "url": "https://inc42.com/startups/decoding-genai-startup-invideos-explosive-30-mn-revenue-run-4x-user-growth/",
+      "source": "Inc42",
+      "kind": "analysis"
+    }
+  ]
+}
