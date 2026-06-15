@@ -1,0 +1,56 @@
+{
+  "slug": "cloudflare-vectorize",
+  "name": "Cloudflare Vectorize",
+  "tagline": "A globally distributed vector database built into Cloudflare Workers.",
+  "description": "Vectorize is Cloudflare's vector database for building AI-powered apps on its Workers platform. It stores and queries embeddings for semantic search, recommendation, classification, and RAG, and cross-references results against data in R2, D1, and KV. Embeddings can come from Workers AI or external providers like OpenAI, and indexes are configured via the dashboard, Wrangler CLI, or REST API.",
+  "insight": "Reached general availability in 2024, when its per-index capacity jumped 25× from 200,000 to 5 million vectors.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Cloudflare",
+  "platforms": ["api", "cli", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Stores embeddings from Workers AI or any external provider (OpenAI, Cohere, etc.)."
+  },
+  "tags": ["vector-database", "rag", "edge", "embeddings"],
+  "accentColor": "#f38020",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cloudflare.com/developer-platform/products/vectorize/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.cloudflare.com/vectorize/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 794,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Unlike standalone vector DBs, it lives inside Cloudflare Workers, so embeddings, search, and storage (R2/D1/KV) all run on one global edge platform.",
+  "pros": [
+    "Native to Cloudflare Workers and edge",
+    "Free tier on Workers Free/Paid plans",
+    "Tight Workers AI + R2/D1/KV integration",
+    "No infrastructure to manage",
+    "Low-latency queries from the edge"
+  ],
+  "cons": [
+    "Tied to the Cloudflare ecosystem",
+    "Fewer index/algorithm knobs than dedicated DBs",
+    "5M vectors-per-index ceiling",
+    "Younger than standalone vector databases"
+  ],
+  "bestFor": ["Cloudflare Workers apps", "Edge RAG", "Serverless AI builders"],
+  "alternatives": ["pinecone", "turbopuffer", "s3-vectors", "qdrant"],
+  "references": [
+    {
+      "title": "Cloudflare Speeds Up AI Apps With Vector Database and Larger Models",
+      "url": "https://www.hpcwire.com/bigdatawire/this-just-in/cloudflare-speeds-up-ai-applications-with-vector-database-and-larger-model-support/",
+      "source": "BigDATAwire",
+      "kind": "analysis"
+    }
+  ]
+}

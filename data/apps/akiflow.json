@@ -1,0 +1,45 @@
+{
+  "slug": "akiflow",
+  "name": "Akiflow",
+  "tagline": "One app for tasks and calendars, powered by AI.",
+  "description": "Akiflow is a keyboard-first daily planner that pulls tasks from email, Slack, Notion, and dozens of other tools into a single inbox, then lets you time-block them onto a unified calendar. Its built-in assistant, Aki, handles AI scheduling, prioritization, daily briefings, and natural-language and voice commands. It runs on macOS, Windows, web, iOS, and Android with real-time sync.",
+  "insight": "Backed by Y Combinator; the keyboard-first command bar predates the 'Aki' AI assistant, which was layered on later.",
+  "category": "productivity",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Akiflow",
+  "platforms": ["macos", "windows", "web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Aki assistant for AI scheduling, prioritization, and voice/natural-language commands."
+  },
+  "tags": ["task-management", "calendar", "time-blocking", "planner"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://akiflow.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://akiflow.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 798,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Keyboard-first command bar that unifies tasks from email, Slack, and Notion into one time-blocked calendar, with the Aki assistant auto-planning your day.",
+  "pros": [
+    "Unifies tasks from many tools in one inbox",
+    "Fast keyboard-first command bar",
+    "Native desktop, web, and mobile apps",
+    "Aki assistant for AI scheduling"
+  ],
+  "cons": [
+    "No permanent free tier (trial only)",
+    "AI is a newer layer on a planner",
+    "Can be overkill for light task lists"
+  ],
+  "bestFor": ["Busy professionals", "Time-blocking", "Calendar + task unification"],
+  "alternatives": ["motion", "reclaim", "sunsama", "amie"]
+}

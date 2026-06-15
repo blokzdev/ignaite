@@ -1,0 +1,61 @@
+{
+  "slug": "deepinfra",
+  "name": "DeepInfra",
+  "tagline": "Low-cost, pay-as-you-go API access to 100+ AI models.",
+  "description": "DeepInfra is a cloud inference platform that lets developers run open and proprietary models through a simple, OpenAI-compatible API without managing hardware. It serves text generation, embeddings, image/audio/video, and speech models with token-based, pay-as-you-go pricing, and offers DeepCluster dedicated NVIDIA GPU capacity for heavier workloads. It is SOC 2 and ISO 27001 certified with a zero data-retention policy.",
+  "insight": "Raised a $107M Series B in May 2026 (investors include Nvidia and Samsung Next) and processes roughly 5 trillion tokens a week.",
+  "category": "inference",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "DeepInfra",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama", "DeepSeek", "Qwen", "Mistral"],
+    "notes": "100+ models via one API; DeepCluster offers dedicated NVIDIA GPUs."
+  },
+  "tags": ["inference", "open-models", "gpu-cloud", "llm-api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://deepinfra.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://deepinfra.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 795,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Among the lowest per-token prices of the hosted-inference providers, pairing 100+ open models with optional dedicated GPU clusters at roughly $2/GPU-hour.",
+  "pros": [
+    "Very low per-token pricing",
+    "100+ models behind one OpenAI-compatible API",
+    "Dedicated GPU clusters (DeepCluster) available",
+    "SOC 2 / ISO 27001, zero data retention",
+    "No hardware to manage"
+  ],
+  "cons": [
+    "Pay-as-you-go only, no free tier",
+    "Skews toward open models",
+    "Not a fine-tuning-first platform"
+  ],
+  "bestFor": ["Cost-sensitive inference", "Open-model serving", "Production-scale APIs"],
+  "alternatives": ["together-ai", "fireworks-ai", "groq", "replicate"],
+  "references": [
+    {
+      "title": "AI cloud DeepInfra raises $107m in Series B funding round",
+      "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-deepinfra-raises-107m-in-series-b-funding-round/",
+      "source": "Data Center Dynamics",
+      "kind": "analysis"
+    },
+    {
+      "title": "DeepInfra Closes $107M Series B to Power Production-Scale AI Inference",
+      "url": "https://www.hpcwire.com/aiwire/2026/05/06/deepinfra-closes-107m-series-b-to-power-production-scale-ai-inference/",
+      "source": "AIwire",
+      "kind": "analysis"
+    }
+  ]
+}
