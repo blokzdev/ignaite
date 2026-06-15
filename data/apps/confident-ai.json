@@ -1,0 +1,50 @@
+{
+  "slug": "confident-ai",
+  "insight": "Builds the open-source DeepEval framework (~2M evals/day) and raised a $2.2M YC-backed seed in Aug 2025.",
+  "name": "Confident AI",
+  "tagline": "The AI quality platform from the team behind DeepEval.",
+  "description": "Confident AI is the hosted platform built on top of DeepEval, the open-source LLM evaluation framework. It adds dataset and test management, research-backed metrics, production tracing and monitoring, adversarial red teaming, and governance dashboards so teams can benchmark, observe, and safeguard LLM apps across the dev-to-prod loop. Python and TypeScript SDKs plug into CI and OpenTelemetry, with managed cloud and enterprise self-hosting.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Confident AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring any provider/model for the LLM-as-judge metrics."
+  },
+  "tags": ["eval", "observability", "red-teaming", "llm-as-judge", "ci"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.confident-ai.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.confident-ai.com/docs"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/confident-ai/deepeval"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 799,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs research-backed eval metrics with production tracing, red-teaming, and governance in one platform — from the team behind DeepEval.",
+  "pros": [
+    "Built on open-source DeepEval",
+    "Eval + observability + red-teaming",
+    "CI and OpenTelemetry integrations",
+    "SOC 2 / HIPAA / self-host options"
+  ],
+  "cons": [
+    "Platform itself is proprietary",
+    "LLM-as-judge metrics add cost",
+    "Heavier than a pure OSS harness"
+  ],
+  "bestFor": ["LLM eval and monitoring teams", "RAG and agent quality"],
+  "alternatives": ["braintrust", "langfuse", "patronus-ai", "galileo"]
+}

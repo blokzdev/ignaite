@@ -1,0 +1,54 @@
+{
+  "slug": "systran",
+  "insight": "Founded 1968; powered Google's language tools until 2007 and Yahoo Babel Fish until 2012; acquired by France's ChapsVision in 2024.",
+  "name": "SYSTRAN",
+  "tagline": "Enterprise neural machine translation with on-prem options.",
+  "description": "SYSTRAN is one of the oldest machine-translation companies, now offering Pure Neural Machine Translation across 55+ languages and 150+ language pairs. It translates documents, web pages, and speech with domain-tuned models for legal, financial, defense, pharmaceutical, and industrial use, and supports 30+ file formats. Available as managed SaaS, on-premise server, or private cloud — built for organizations needing confidential, high-volume translation under strict compliance.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "ChapsVision",
+  "platforms": ["web", "api", "browser-extension"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "SYSTRAN's own neural MT engines and domain models."
+  },
+  "tags": ["translation", "enterprise", "neural-mt", "self-host", "on-prem"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.systransoft.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.chapsvision.com/en-us/solution/systran-translate/",
+      "label": "SYSTRAN by ChapsVision"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 800,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Decades of domain-tuned neural models (legal, defense, pharma) deployable on-prem or private-cloud for confidential, regulated translation.",
+  "pros": [
+    "55+ languages, 150+ pairs",
+    "On-prem and private-cloud deployment",
+    "Domain-specific translation models",
+    "Strong compliance posture (ISO 27001, GDPR)"
+  ],
+  "cons": [
+    "Enterprise pricing, no free tier",
+    "Heavier setup than consumer tools",
+    "Fewer languages than some web rivals"
+  ],
+  "bestFor": ["Regulated, confidential translation", "Enterprise localization teams"],
+  "alternatives": ["deepl", "lara-translate", "lilt"],
+  "references": [
+    {
+      "title": "SYSTRAN",
+      "url": "https://en.wikipedia.org/wiki/SYSTRAN",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
+}
