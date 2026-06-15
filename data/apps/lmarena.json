@@ -1,0 +1,54 @@
+{
+  "slug": "lmarena",
+  "name": "LMArena",
+  "tagline": "Crowdsourced LLM leaderboard where humans vote on anonymous model battles.",
+  "description": "An open evaluation platform where a user enters a prompt, two anonymous models answer side by side, and the user picks the better response. Those millions of blind pairwise votes are aggregated into Elo-style rankings across text, vision, coding, and other arenas. It works directly with major AI labs and has become the most-cited public reference for comparing frontier model quality.",
+  "insight": "Spun out of UC Berkeley's LMSYS Chatbot Arena; raised $150M at a $1.7B valuation in January 2026.",
+  "category": "eval",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "LMArena",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Hosts and compares all major frontier models from OpenAI, Google, Anthropic, xAI and others."
+  },
+  "tags": ["leaderboard", "benchmark", "model-evaluation", "llm"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lmarena.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 748,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Ranks models on millions of real human head-to-head votes instead of static benchmarks — the most-cited public LLM leaderboard.",
+  "pros": [
+    "Real human preference votes",
+    "Covers all major frontier models",
+    "Free and open to use",
+    "Widely cited industry standard"
+  ],
+  "cons": [
+    "No public API yet",
+    "Crowd votes can be noisy or gamed",
+    "A leaderboard, not a dev test harness"
+  ],
+  "bestFor": ["Comparing LLMs", "Model selection", "AI researchers"],
+  "references": [
+    {
+      "title": "LMArena lands $1.7B valuation four months after launching its product",
+      "url": "https://techcrunch.com/2026/01/06/lmarena-lands-1-7b-valuation-four-months-after-launching-its-product/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "LMArena",
+      "url": "https://en.wikipedia.org/wiki/LMArena",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
+}

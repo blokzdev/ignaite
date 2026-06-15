@@ -1,0 +1,59 @@
+{
+  "slug": "qoder",
+  "name": "Qoder",
+  "tagline": "Alibaba's standalone agentic IDE with project-wide context and a Quest Mode.",
+  "description": "An AI-first desktop IDE from Alibaba built around agentic coding rather than autocomplete. It indexes a whole project to reason over dependencies and architecture, offers a conversational Agent Mode for pair programming, and a Quest Mode that takes a written spec, plans the work, and produces tested, production-ready code end to end. A Repo Wiki keeps long-lived context across sessions.",
+  "insight": "Built by Alibaba on its Qwen3-Coder model and launched August 2025; 'Quest Mode' delegates entire coding tasks autonomously.",
+  "category": "ide",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Alibaba",
+  "platforms": ["macos", "windows"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Backed by Alibaba's Qwen3-Coder with support for frontier models."
+  },
+  "tags": ["ide", "agentic-coding", "qwen", "alibaba"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://qoder.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://qoder.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 749,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "A standalone agentic IDE from a hyperscaler, pairing free unlimited completions with an autonomous Quest Mode that ships whole tasks.",
+  "pros": [
+    "Free unlimited completions and edits",
+    "Project-wide context via Repo Wiki",
+    "Autonomous Quest Mode",
+    "Backed by Alibaba's Qwen models"
+  ],
+  "cons": [
+    "Credit limits on chat and agent use",
+    "Pricing still finalizing post-preview",
+    "Smaller ecosystem than Cursor"
+  ],
+  "bestFor": ["Agentic coding", "Whole-task delegation", "Codebase exploration"],
+  "alternatives": ["cursor", "windsurf", "trae", "kiro"],
+  "references": [
+    {
+      "title": "Alibaba Qoder IDE vs Cursor vs Claude Code - Which one is better?",
+      "url": "https://blog.getbind.co/2025/08/24/alibaba-qoder-ide-vs-cursor-vs-claude-code-which-one-is-better/",
+      "source": "Bind AI",
+      "kind": "comparison"
+    },
+    {
+      "title": "Qoder AI IDE Review: Alibaba's Agentic Coding Platform in Real Workflows",
+      "url": "https://jimmysong.io/blog/qoder-alibaba-ai-ide-personal-review/",
+      "source": "Jimmy Song",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "paradigm",
+  "name": "Paradigm",
+  "tagline": "Agentic spreadsheet where every cell runs its own AI agent to research and fill data.",
+  "description": "A web-based spreadsheet reimagined as a living workspace powered by swarms of AI agents. Each cell can run its own agent that finds, verifies, and fills in data, so the sheet actively researches, analyzes, and produces deliverables in real time. It's aimed at bulk data gathering and enrichment across consulting, finance, sales, and operations workflows.",
+  "insight": "Founded by 23-year-old Anna Monaco; raised $7M (Y Combinator, General Catalyst) for a spreadsheet whose every cell runs an AI agent.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Paradigm",
+  "platforms": ["web"],
+  "tags": ["spreadsheet", "agents", "data-enrichment", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://paradigmai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 751,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Runs thousands of per-cell agents in parallel to research and fill a sheet at up to 5,000 cells/minute, not one assistant per file.",
+  "pros": [
+    "Per-cell AI agents",
+    "Fast bulk data enrichment",
+    "Web-based, no setup",
+    "Verifies gathered data"
+  ],
+  "cons": [
+    "Free tier has limits",
+    "Newer, smaller company",
+    "Best for research/enrichment workflows"
+  ],
+  "bestFor": ["Bulk data research", "List building", "Sales and ops enrichment"],
+  "alternatives": ["shortcut", "quadratic", "julius", "hex"],
+  "references": [
+    {
+      "title": "Paradigm, founded by 23-year-old Anna Monaco, raises $5M from General Catalyst",
+      "url": "https://techstartups.com/2025/08/19/paradigm-founded-by-23-year-old-ai-prodigy-anna-monaco-raises-5m-from-general-catalyst-for-viral-ai-spreadsheet/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    }
+  ]
+}
