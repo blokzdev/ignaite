@@ -1,0 +1,50 @@
+{
+  "slug": "orbital-witness",
+  "name": "Orbital",
+  "tagline": "AI copilot for real estate law and property due diligence.",
+  "description": "Orbital (formerly Orbital Witness) is an AI platform purpose-built for real estate law. Its Orbital Copilot reviews and drafts complex property documents — title reports, leases, surveys, and contracts — extracting key provisions and flagging risks across a transaction. It is sold to law firms, insurers, and corporate legal teams via enterprise contracts.",
+  "insight": "Rebranded from Orbital Witness; raised a $60M Series B in January 2026 led by Brighton Park Capital.",
+  "category": "legal",
+  "secondaryCategories": ["real-estate"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Orbital Witness",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Built on frontier LLMs, tuned for real estate legal documents."
+  },
+  "tags": ["legal", "real-estate", "due-diligence", "conveyancing", "contract-review"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.orbital.tech",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 781,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Purpose-built for real estate law rather than general legal AI — covers title, leases, and surveys, and powers 200K+ property transactions a year.",
+  "pros": [
+    "Specialized in real estate / property law",
+    "Reviews title reports, leases, surveys",
+    "Drafting across the full transaction",
+    "Backed by JLL Spark, RELX (REV), Grosvenor"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Narrow to real estate legal work",
+    "UK-rooted, US expansion still underway"
+  ],
+  "bestFor": ["Real estate lawyers", "Conveyancers", "Property due diligence"],
+  "alternatives": ["harvey", "legora", "luminance"],
+  "references": [
+    {
+      "title": "Orbital raises $60M to modernize real estate law with AI",
+      "url": "https://siliconangle.com/2026/01/26/orbital-raises-60m-modernize-real-estate-law-ai/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
