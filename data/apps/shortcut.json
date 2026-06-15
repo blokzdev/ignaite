@@ -1,0 +1,46 @@
+{
+  "slug": "shortcut",
+  "name": "Shortcut",
+  "tagline": "AI agent for spreadsheets that builds and edits financial models in Excel and Sheets.",
+  "description": "An AI agent purpose-built for spreadsheet work, from cleaning data and writing formulas to building full financial models — DCFs, LBOs, and three-statement models — from a natural-language prompt. It runs as a web app and as native add-ins for Excel and Google Sheets, with a Windows CLI for power users. Built for analysts who live in spreadsheets rather than as a generic chatbot bolted onto a grid.",
+  "insight": "From MIT-founded Fundamental Research Labs; in tests it beat first-year McKinsey and Goldman analysts about 89% of the time.",
+  "category": "finance",
+  "secondaryCategories": ["analytics"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Fundamental Research Labs",
+  "platforms": ["web", "macos", "windows", "cli"],
+  "tags": ["spreadsheet", "excel", "financial-modeling", "agent"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://shortcut.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://shortcut.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 750,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Tuned for real financial modeling — DCF, LBO, three-statement — inside Excel and Sheets, not a generic chat bolted onto a grid.",
+  "pros": [
+    "Native Excel and Google Sheets add-ins",
+    "Strong on financial models",
+    "Benchmarked against human analysts",
+    "Free tier to start"
+  ],
+  "cons": ["Credit-based usage caps", "CLI is Windows-only", "Finance/analyst-focused scope"],
+  "bestFor": ["Financial analysts", "Excel modeling", "Finance teams"],
+  "alternatives": ["paradigm", "endex", "quadratic", "julius"],
+  "references": [
+    {
+      "title": "Is 'Shortcut' the New Excel? MIT Startup Behind Viral AI Tool Thinks So",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2025/is-shortcut-the-new-excel-mit-startup-behind-viral-tool-thinks-so/",
+      "source": "PYMNTS",
+      "kind": "analysis"
+    }
+  ]
+}
