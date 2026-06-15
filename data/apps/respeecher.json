@@ -1,0 +1,56 @@
+{
+  "slug": "respeecher",
+  "insight": "Recreated young Luke Skywalker's voice in Disney+'s The Mandalorian and Darth Vader from James Earl Jones's archival recordings.",
+  "name": "Respeecher",
+  "tagline": "Ethical AI voice cloning and speech-to-speech for film, games, and media.",
+  "description": "Respeecher is a synthetic-voice platform built for professional media production, offering voice cloning, speech-to-speech conversion, and text-to-speech. Its speech-to-speech model maps one performer's delivery onto a target voice while preserving the original emotion and timing, and in-house sound professionals refine the output. The company is known for high-profile film, TV, and game work, from Star Wars to Cyberpunk 2077.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Respeecher",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary speech-to-speech and TTS models; real-time TTS API and a Pro Tools plugin."
+  },
+  "tags": ["voice-cloning", "speech-to-speech", "tts", "film", "media"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.respeecher.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 740,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Speech-to-speech that preserves an actor's emotion and is refined by in-house sound pros — built for film/TV dubbing, not generic text-to-speech.",
+  "pros": [
+    "Proven in major film/TV (Star Wars)",
+    "Speech-to-speech preserves performance",
+    "Ethical, consent-based cloning",
+    "Real-time TTS API",
+    "Pro Tools plugin"
+  ],
+  "cons": [
+    "Premium, media-production oriented",
+    "Smaller self-serve voice library than rivals",
+    "Focused on media, not general TTS"
+  ],
+  "bestFor": ["Film and TV dubbing", "Game voice production", "Localization with original actors"],
+  "alternatives": ["elevenlabs", "resemble-ai", "murf", "cartesia"],
+  "references": [
+    {
+      "title": "How one company's controversial cloning technique is changing Star Wars forever",
+      "url": "https://www.inverse.com/innovation/horizons-obi-wan-luke-skywalker-voice",
+      "source": "Inverse",
+      "kind": "analysis"
+    },
+    {
+      "title": "Darth Vader: AI to keep alive the voice of sci-fi's greatest villain",
+      "url": "https://aibusiness.com/ml/darth-vader-ai-to-keep-alive-the-voice-of-sci-fi-s-greatest-villain",
+      "source": "AI Business",
+      "kind": "analysis"
+    }
+  ]
+}

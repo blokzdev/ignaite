@@ -1,0 +1,58 @@
+{
+  "slug": "transifex",
+  "insight": "Acquired by localization technology firm XTM International on January 30, 2025.",
+  "name": "Transifex",
+  "tagline": "AI-powered translation management for software, websites, and apps.",
+  "description": "Transifex is a SaaS translation management system (TMS) that combines automated localization workflows, AI translation, and team collaboration. Transifex AI leverages your glossaries, style guides, and translation memory to keep tone and terminology on-brand, while the Translation Quality Index (TQI) scores each string in real time and routes low-confidence content to reviewers. Over-the-air updates push translations live to web and mobile apps without redeploying code.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "XTM International",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Transifex AI translates using your translation memory and glossaries, with TQI quality scoring per string."
+  },
+  "tags": ["localization", "translation", "tms", "i18n"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.transifex.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.transifex.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.transifex.com/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 739,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Over-the-air updates push translations live to web and apps without redeploying code, with real-time TQI quality scoring per string.",
+  "pros": [
+    "Free starter tier",
+    "Over-the-air translation updates",
+    "TQI per-string quality scoring",
+    "46+ integrations (GitHub, Figma, Jira)",
+    "Developer and content-team workflows"
+  ],
+  "cons": [
+    "Now part of XTM, no longer independent",
+    "Enterprise pricing is opaque",
+    "Web and API only"
+  ],
+  "bestFor": ["Continuous web/app localization", "Product and dev teams"],
+  "alternatives": ["lokalise", "crowdin", "phrase", "lingo-dev"],
+  "references": [
+    {
+      "title": "XTM International Expands Localization Leadership with Acquisition of Transifex",
+      "url": "https://slator.com/xtm-international-expands-localization-leadership-with-strategic-acquisition-of-transifex/",
+      "source": "Slator",
+      "kind": "analysis"
+    }
+  ]
+}

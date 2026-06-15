@@ -1,0 +1,65 @@
+{
+  "slug": "lingo-dev",
+  "insight": "Formerly Replexica; rebranded to Lingo.dev in Dec 2024 after a $4.2M YC seed led by Initialized Capital.",
+  "name": "Lingo.dev",
+  "tagline": "Open-source AI localization for web and mobile apps, built for developers and CI/CD.",
+  "description": "Lingo.dev is a localization engineering platform that translates app content through configurable localization engines persisting glossaries, brand voice, and per-locale model chains. Developers call it from an open-source CLI, a React compiler, a GitHub Action, or the API, so translations regenerate automatically on every commit instead of being pasted into a separate web tool. Customers include Mistral AI, Cal.com, and Solana.",
+  "category": "translation",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "Lingo.dev",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Configurable per-locale model chains; LLM costs passed through at zero markup plus an infrastructure fee."
+  },
+  "tags": ["localization", "translation", "i18n", "open-source", "ci-cd"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lingo.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/lingodotdev/lingo.dev"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lingo.dev/en/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 738,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Runs as an open-source CLI and compiler inside your repo and CI, auto-translating on each commit — not a separate web TMS you paste strings into.",
+  "pros": [
+    "Open-source CLI and compiler (Apache-2.0)",
+    "Native Git and CI/CD workflow",
+    "Per-locale model chains",
+    "LLM cost passed through at zero markup",
+    "14+ file formats supported"
+  ],
+  "cons": [
+    "Hosted engine is proprietary, only the tooling is open",
+    "Production plan starts at $99/mo",
+    "Developer-oriented, not for non-technical translators"
+  ],
+  "bestFor": ["Developer localization", "CI/CD i18n", "Multilingual apps"],
+  "alternatives": ["crowdin", "lokalise", "phrase", "transifex"],
+  "references": [
+    {
+      "title": "Software Localization Startup Lingo.dev Raises USD 4.2M Seed Round",
+      "url": "https://slator.com/software-localization-startup-lingo-dev-raises-4m-seed-round/",
+      "source": "Slator",
+      "kind": "analysis"
+    },
+    {
+      "title": "Lingo.dev is an app localization engine for developers",
+      "url": "https://techcrunch.com/2025/02/18/lingo-dev-is-an-app-localization-engine-for-developers/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
