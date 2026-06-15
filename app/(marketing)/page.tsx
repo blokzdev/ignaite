@@ -30,6 +30,14 @@ export default function HomePage() {
   const total = live.length;
   const categories = new Set(live.map((a) => a.category)).size;
 
+  // Secondary signals the hero ticker cycles through — each a live count off the
+  // same `live` set (so they track the directory, never hardcoded).
+  const openSource = live.filter((a) => a.openSource).length;
+  const freeToTry = live.filter((a) => a.pricing === "free" || a.pricing === "freemium").length;
+  const selfHost = live.filter(
+    (a) => a.deployment === "self-host" || a.deployment === "local" || a.deployment === "hybrid",
+  ).length;
+
   // Top padding clears the pinned directory console (nav + search + category
   // strip) fixed-positioned in the shared header. The masthead is a plain block
   // (not a <header> — site-nav owns the one <header> landmark) and scrolls away
@@ -61,7 +69,15 @@ export default function HomePage() {
             <span className="text-display text-[var(--color-ink-soft)]">The signal,</span>{" "}
             <span className="text-display text-[var(--color-accent)]">not the hype.</span>
           </p>
-          <HeroStats total={total} categories={categories} />
+          <HeroStats
+            total={total}
+            categories={categories}
+            metrics={[
+              { value: openSource, label: "Open source" },
+              { value: freeToTry, label: "Free to try" },
+              { value: selfHost, label: "Self-host" },
+            ]}
+          />
         </div>
 
         {/* Fallback IS the first static HTML (ToolsBrowser bails to client via
