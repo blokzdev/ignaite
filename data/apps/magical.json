@@ -1,0 +1,53 @@
+{
+  "slug": "magical",
+  "insight": "Started as the 'Auto Text Expander' Chrome extension; raised a $35M Series A led by Coatue in 2022.",
+  "name": "Magical",
+  "tagline": "AI text expander and autofill that automates repetitive typing.",
+  "description": "Browser extension that automates repetitive typing and data entry across web apps. Users create reusable text snippets and templates, personalize them with contact data, and one-click autofill forms, CRMs, spreadsheets, and EMRs by moving data between open tabs. Its AI writing features are powered by OpenAI, and it works across Salesforce, Gmail, LinkedIn, Zendesk, and thousands of other sites.",
+  "category": "browser-extension",
+  "secondaryCategories": ["productivity"],
+  "pricing": "freemium",
+  "vendor": "Magical",
+  "platforms": ["browser-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "AI writing features are powered by OpenAI's models."
+  },
+  "tags": ["text-expander", "autofill", "automation", "snippets"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.getmagical.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.getmagical.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 769,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Combines snippet expansion with cross-tab autofill that moves data between web apps, so it automates data entry, not just canned text.",
+  "pros": [
+    "Snippet expansion plus cross-app autofill",
+    "Works across thousands of web apps",
+    "Generous free tier",
+    "Quick setup, no coding"
+  ],
+  "cons": [
+    "Browser extension only",
+    "AI features depend on OpenAI",
+    "Best for repetitive, templated work"
+  ],
+  "bestFor": ["Support and recruiting teams", "Sales and CRM data entry"],
+  "alternatives": ["compose-ai", "bardeen", "monica", "sider"],
+  "references": [
+    {
+      "title": "Magical nabs $35M to move data across webpages automatically",
+      "url": "https://techcrunch.com/2022/06/06/magical-nabs-35m-to-move-data-across-webpages-automatically/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "hyperbrowser",
+  "insight": "Y Combinator–backed; ships the open-source HyperAgent framework and an official MCP server for live-web access.",
+  "name": "Hyperbrowser",
+  "tagline": "Cloud headless-browser infrastructure for AI agents.",
+  "description": "Managed cloud platform that gives AI agents scalable headless browser sessions with built-in stealth mode, proxy rotation, and CAPTCHA solving. Sessions launch in under a second and are driven via API with Playwright, Puppeteer, or Selenium. It also offers HyperAgent, an open-source framework that extends Playwright with natural-language commands, and an official MCP server so LLMs like Claude can browse the live web.",
+  "category": "infra",
+  "secondaryCategories": ["agent"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Hyperbrowser",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Browser runtime for any agent framework or model."
+  },
+  "tags": ["headless-browser", "agents", "web-automation", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hyperbrowser.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/hyperbrowserai/HyperAgent"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.hyperbrowser.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 768,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Pairs a managed stealth-browser fleet with an open-source agent framework and an official MCP server, so LLMs can act on the live web directly.",
+  "pros": [
+    "Sub-second session launches",
+    "Stealth, proxies, and CAPTCHA solving built in",
+    "Open-source HyperAgent framework",
+    "Official MCP server for LLM access"
+  ],
+  "cons": [
+    "Session-based pricing on a monthly base",
+    "Infra layer — you still build the agent",
+    "Cloud-only, no self-host"
+  ],
+  "bestFor": ["High-volume web agents", "MCP-driven browsing"],
+  "alternatives": ["browserbase", "browser-use", "steel", "apify"],
+  "references": [
+    {
+      "title": "Best Cloud Browser APIs in 2026",
+      "url": "https://scrapfly.io/blog/posts/best-cloud-browser-apis",
+      "source": "Scrapfly",
+      "kind": "comparison"
+    }
+  ]
+}

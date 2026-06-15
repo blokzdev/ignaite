@@ -1,0 +1,53 @@
+{
+  "slug": "snorkel-ai",
+  "insight": "Spun out of the Stanford AI Lab in 2019; raised a $100M Series D in 2025 at a $1.3B valuation.",
+  "name": "Snorkel AI",
+  "tagline": "Data development platform for programmatically labeling AI training data.",
+  "description": "Enterprise platform for building and curating AI training and evaluation data with programmatic labeling instead of hand-annotating examples one by one. Teams encode domain knowledge as labeling functions that Snorkel Flow applies and refines at scale, then use the resulting datasets to fine-tune and evaluate models. Built around research from the Stanford AI Lab.",
+  "category": "data-ops",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Snorkel AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Produces training/eval datasets for any downstream model."
+  },
+  "tags": ["data-labeling", "training-data", "data-centric-ai", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://snorkel.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.snorkel.ai"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 767,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Programmatic, labeling-function-driven data development that scales annotation far past manual labeling for specialized enterprise domains.",
+  "pros": [
+    "Programmatic labeling scales past manual",
+    "Stanford AI Lab research lineage",
+    "Covers training and evaluation data",
+    "Strong enterprise/regulated-industry focus"
+  ],
+  "cons": [
+    "Enterprise pricing, no self-serve tier",
+    "Steeper learning curve than point taggers",
+    "Aimed at ML teams, not individuals"
+  ],
+  "bestFor": ["Enterprise ML data teams", "Domain-specific training data"],
+  "alternatives": ["scale-ai", "labelbox", "label-studio", "superannotate"],
+  "references": [
+    {
+      "title": "Snorkel AI raises $100M Series D for its data development platform",
+      "url": "https://pulse2.com/snorkel-ai-100-million-series-d-raised-for-data-development-platform/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}
