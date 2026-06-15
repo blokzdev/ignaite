@@ -235,7 +235,7 @@ export function ToolsBrowser({ apps }: Readonly<Props>) {
   return (
     <>
       <Toaster />
-      {!filtersApplied && <FeaturedCarousel apps={apps} />}
+      {!filtersApplied && <FeaturedCarousel apps={apps} view={view} />}
       {filtered.length === 0 ? (
         <DirectoryEmpty
           filtersApplied={filtersApplied}

@@ -14,6 +14,7 @@
   --color-flame-soft: #ffb066;
   --color-plum: #7c3aed; /* tertiary — rich purple */
   --color-violet: #a78bfa; /* light lavender (existing accents) */
+  --color-violet-deep: #5b21b6; /* deep purple — paired with --color-violet for the featured gradient border */
 
   --color-success: #5eead4;
   --color-warn: #fbbf24;
@@ -42,6 +43,7 @@
      The --shadow-* namespace mints shadow-* utilities. */
   --shadow-glow-accent: 0 0 12px var(--color-accent); /* nav/footer accent dot */
   --shadow-glow-hot: 0 0 24px var(--color-accent-hot);
+  --shadow-glow-violet: 0 0 36px -8px rgba(167, 139, 250, 0.45); /* featured tray glow */
 }
 
 @theme inline {
