@@ -402,6 +402,29 @@
     padding-right: max(1.5rem, env(safe-area-inset-right));
   }
 
+  /* A 1px violet gradient BORDER (light lavender → deep purple) that follows the
+     element's rounded corners crisply — the p-px wrapper trick lost the border on
+     the curves. Mask = full box XOR content-box, so only the padding ring paints.
+     Apply on a `relative rounded-* ` element; the gradient is purely decorative. */
+  .gradient-ring-violet {
+    position: relative;
+  }
+  .gradient-ring-violet::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(to bottom, var(--color-violet), var(--color-violet-deep));
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
   /* Hide the scrollbar while keeping the element scrollable. Consolidates the
      repeated [scrollbar-width:none] [&::-webkit-scrollbar]:hidden pattern. */
   .no-scrollbar {
