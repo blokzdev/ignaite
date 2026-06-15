@@ -1,0 +1,60 @@
+{
+  "slug": "rossum",
+  "insight": "Acquired by Coupa in May 2026; its 2021 $100M Series A was among the largest ever in Eastern Europe.",
+  "name": "Rossum",
+  "tagline": "AI-first intelligent document processing for end-to-end transaction automation.",
+  "description": "Rossum reads transactional documents like invoices and purchase orders, then captures, validates, and transforms the data and pushes it into downstream ERP and approval workflows. It is built on a proprietary transactional large language model trained on tens of millions of documents that learns continuously from each customer's feedback, supports 276 languages plus handwriting, and is cloud-native. The platform targets accounts-payable and complex invoicing automation for enterprises.",
+  "category": "data-ops",
+  "secondaryCategories": ["finance"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Rossum (Coupa)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary transactional LLM (T-LLM) trained on tens of millions of documents; learns per-customer."
+  },
+  "tags": ["intelligent-document-processing", "invoice-automation", "ocr", "accounts-payable"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://rossum.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 778,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "A purpose-built transactional LLM trained on tens of millions of documents reads invoices end-to-end across 276 languages, including handwriting.",
+  "pros": [
+    "Purpose-built transactional LLM",
+    "276 languages plus handwriting",
+    "End-to-end AP automation",
+    "Strong enterprise track record"
+  ],
+  "cons": [
+    "Enterprise pricing, no public tiers",
+    "Now part of Coupa post-acquisition",
+    "Overkill for simple OCR needs"
+  ],
+  "bestFor": [
+    "Accounts payable teams",
+    "Invoice and PO automation",
+    "Enterprise document workflows"
+  ],
+  "alternatives": ["reducto", "unstructured", "llamaparse"],
+  "references": [
+    {
+      "title": "Rossum's $100m Series A is one of eastern Europe's largest ever",
+      "url": "https://sifted.eu/articles/rossum-100m-raise-b2b",
+      "source": "Sifted",
+      "kind": "analysis"
+    },
+    {
+      "title": "Inside Coupa's Acquisition of AI-First IDP Leader Rossum",
+      "url": "https://aimagazine.com/news/coupa-acquires-ai-idp-leader-rossum",
+      "source": "AI Magazine",
+      "kind": "analysis"
+    }
+  ]
+}
