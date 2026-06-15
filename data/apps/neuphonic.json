@@ -1,0 +1,56 @@
+{
+  "slug": "neuphonic",
+  "insight": "Open-sourced NeuTTS Air in Oct 2025, an Apache-2.0 748M-param TTS model that runs on CPU and clones a voice from ~3 seconds of audio.",
+  "name": "Neuphonic",
+  "tagline": "Ultra-low-latency text-to-speech that runs on-device.",
+  "description": "Neuphonic is a voice-AI company building text-to-speech and voice cloning that run locally with very low latency. Its cloud API targets real-time voice agents, and in October 2025 it open-sourced NeuTTS Air, a 748M-parameter speech language model that runs on CPU via llama.cpp and clones a voice from a few seconds of audio. Aimed at private, offline, and voice-agent use cases.",
+  "category": "voice",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Neuphonic",
+  "platforms": ["web", "api", "macos", "windows", "linux"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Neuphonic's own voices plus the open-source NeuTTS Air model and NeuCodec."
+  },
+  "tags": ["text-to-speech", "voice-cloning", "on-device", "open-source"],
+  "accentColor": "#6D5AE0",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.neuphonic.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/neuphonic/neutts-air",
+      "label": "NeuTTS Air"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 792,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Runs realistic TTS and voice cloning fully on-device on a CPU — no GPU or cloud — so audio never leaves the machine.",
+  "pros": [
+    "On-device, CPU-only synthesis",
+    "Instant voice cloning from ~3s of audio",
+    "Open-source model under Apache-2.0",
+    "Very low latency for voice agents"
+  ],
+  "cons": [
+    "Cloud API pricing not clearly published",
+    "Young company (founded 2024, pre-seed)",
+    "Open model is 748M — smaller than top cloud voices"
+  ],
+  "bestFor": ["On-device voice agents", "Privacy-sensitive apps", "Offline TTS"],
+  "alternatives": ["cartesia", "elevenlabs", "rime", "resemble-ai"],
+  "references": [
+    {
+      "title": "NeuTTS Air: Open-source on-device TTS speech language model",
+      "url": "https://quantumzeitgeist.com/neutts-air-open-source-on-device-tts-speech-language-model/",
+      "source": "Quantum Zeitgeist",
+      "kind": "analysis"
+    }
+  ]
+}
