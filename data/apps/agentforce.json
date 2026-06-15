@@ -1,0 +1,60 @@
+{
+  "slug": "agentforce",
+  "insight": "Launched at Dreamforce 2024; Salesforce reported 12,000+ customers and 6,000+ paid Agentforce deals within roughly a year.",
+  "name": "Agentforce",
+  "tagline": "Salesforce's platform for building and deploying autonomous AI agents.",
+  "description": "Agentforce is Salesforce's platform for building, customizing, and deploying autonomous AI agents that act on enterprise data. Prebuilt agents handle service, sales, and other workflows, grounded in Salesforce CRM data and Data Cloud and reasoned over by the Atlas Reasoning Engine with enterprise guardrails. The 2025 Agentforce 360 release expanded it into a platform for orchestrating humans and agents together, with tools like Agent Script for custom agent logic.",
+  "category": "agent",
+  "secondaryCategories": ["support", "sales"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Salesforce",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Atlas Reasoning Engine supports multiple LLMs, including Salesforce's own models and partner models via the Einstein Trust Layer."
+  },
+  "tags": ["ai-agents", "crm", "enterprise", "customer-service"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.salesforce.com/agentforce/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.salesforce.com/agentforce/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 723,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Agents are natively grounded in Salesforce CRM data and Data Cloud via the Atlas Reasoning Engine — turnkey for existing Salesforce shops.",
+  "pros": [
+    "Native grounding in Salesforce CRM + Data Cloud",
+    "Prebuilt service and sales agents",
+    "Enterprise guardrails via Einstein Trust Layer",
+    "Large partner and integration ecosystem"
+  ],
+  "cons": [
+    "Most valuable inside the Salesforce ecosystem",
+    "Per-conversation pricing can scale costs",
+    "Setup and governance are enterprise-complex"
+  ],
+  "bestFor": ["Salesforce customers", "Enterprise CX", "Sales & service automation"],
+  "alternatives": ["sierra", "decagon", "relevance-ai", "microsoft-copilot"],
+  "references": [
+    {
+      "title": "Salesforce makes its Agentforce 360 case to be your AI agent platform",
+      "url": "https://www.constellationr.com/insights/news/salesforce-makes-its-agentforce-360-case-be-your-ai-agent-platform",
+      "source": "Constellation Research",
+      "kind": "analysis"
+    },
+    {
+      "title": "Salesforce unveils its Agentforce 360 platform to build, deploy AI agents",
+      "url": "https://www.ciodive.com/news/salesforce-agentforce-platform-agentic-AI-dreamforce/802622/",
+      "source": "CIO Dive",
+      "kind": "analysis"
+    }
+  ]
+}

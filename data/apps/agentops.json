@@ -1,0 +1,59 @@
+{
+  "slug": "agentops",
+  "insight": "Its open-source (MIT) Python/TS SDK instruments an agent in two lines of code and integrates with 400+ LLMs and agent frameworks.",
+  "name": "AgentOps",
+  "tagline": "Observability and tracing built for AI agents.",
+  "description": "AgentOps is a developer platform for monitoring, debugging, and evaluating AI agents. It records every LLM call, tool use, and decision in a replayable session trace, with time-travel debugging, token and cost tracking, and agent benchmarking. Its open-source SDK drops into Python or TypeScript agents in two lines and integrates with frameworks like CrewAI, LangChain, Autogen, and the OpenAI Agents SDK.",
+  "category": "observability",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "AgentOps",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Framework- and model-agnostic; traces calls across 400+ LLMs and agent SDKs."
+  },
+  "tags": ["agent-monitoring", "tracing", "debugging", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.agentops.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/AgentOps-AI/agentops"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.agentops.ai"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 722,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Purpose-built for multi-step agents — session replay with time-travel debugging and per-run cost tracking, not just flat LLM-call logging.",
+  "pros": [
+    "Open-source MIT SDK, two-line setup",
+    "400+ LLM and framework integrations",
+    "Session replay with time-travel debugging",
+    "Token and cost tracking per run",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Python/TypeScript SDK-centric",
+    "Full analytics rely on the hosted dashboard",
+    "Younger than general-purpose APM tools"
+  ],
+  "bestFor": ["Agent developers", "CrewAI / LangChain users", "Debugging agent runs"],
+  "alternatives": ["langfuse", "arize-phoenix", "helicone", "traceloop"],
+  "references": [
+    {
+      "title": "The Practitioner's Guide to AgentOps",
+      "url": "https://machinelearningmastery.com/the-practitioners-guide-to-agentops/",
+      "source": "Machine Learning Mastery",
+      "kind": "guide"
+    }
+  ]
+}

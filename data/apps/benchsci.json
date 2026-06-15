@@ -1,0 +1,53 @@
+{
+  "slug": "benchsci",
+  "insight": "Backed by ~$218M total funding; its preclinical AI platform is licensed by pharma majors including Sanofi, Merck, and Thermo Fisher.",
+  "name": "BenchSci",
+  "tagline": "AI platform for preclinical drug-discovery research.",
+  "description": "BenchSci builds AI software for preclinical pharmaceutical R&D, helping scientists generate hypotheses, identify targets, and design experiments faster. Its platform reads and structures public scientific literature plus a customer's proprietary data into a Biological Evidence Knowledge Graph that scientists query in natural language. Its newer EMET agentic research environment chains domain-specific scientific tools, alongside the established ASCEND disease-biology platform used across major pharma.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "BenchSci",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Combines proprietary text- and image-based ML models with LLMs over a curated biological knowledge graph."
+  },
+  "tags": ["drug-discovery", "preclinical", "biology", "life-sciences"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.benchsci.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.benchsci.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-15",
+  "addedSeq": 721,
+  "lastVerifiedAt": "2026-06-15",
+  "edge": "Built on a decade-curated Biological Evidence Knowledge Graph of 100M+ papers and figures, not a general LLM bolted onto literature search.",
+  "pros": [
+    "Grounds answers in curated biomedical evidence",
+    "Reduces unnecessary preclinical experiments",
+    "Integrates a customer's proprietary internal data",
+    "Adopted by top-10 pharma companies"
+  ],
+  "cons": [
+    "Enterprise-only; pricing not public",
+    "Narrowly scoped to preclinical R&D",
+    "Requires onboarding with a dedicated team"
+  ],
+  "bestFor": ["Preclinical R&D teams", "Pharma & biotech", "Target discovery"],
+  "alternatives": ["edison-scientific", "recursion", "insilico-medicine", "futurehouse"],
+  "references": [
+    {
+      "title": "BenchSci Launches AI Tool to Map Disease Biology for Preclinical Drug Discovery",
+      "url": "https://www.genengnews.com/news/benchsci-launches-ai-tool-to-map-disease-biology-for-preclinical-drug-discovery/",
+      "source": "GEN",
+      "kind": "analysis"
+    }
+  ]
+}
