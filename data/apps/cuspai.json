@@ -1,0 +1,46 @@
+{
+  "slug": "cuspai",
+  "name": "CuspAI",
+  "tagline": "AI platform that designs new materials on demand, like a search engine for molecules.",
+  "description": "CuspAI is a materials-discovery company building an AI platform that takes a target set of properties and generates viable, synthesizable material candidates, with carbon capture and other sustainability applications as early focuses. It combines generative AI foundation models, deep learning, and molecular simulation into one loop to shortcut conventional trial-and-error discovery. It is engaged as an enterprise platform and research partner rather than a self-serve product.",
+  "insight": "Co-founded by AI pioneer Max Welling; closed a $100M Series A in Sept 2025 co-led by NEA and Temasek, with NVIDIA among backers.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "CuspAI",
+  "platforms": ["web"],
+  "tags": ["materials-discovery", "generative-ai", "molecular-simulation", "deep-tech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cusp.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 807,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Aims at carbon-capture and sustainability materials, fusing generative foundation models with molecular simulation in a single discovery loop.",
+  "pros": [
+    "Co-founded by AI pioneer Max Welling",
+    "Generative models plus simulation in one platform",
+    "Heavily funded (~$130M total)",
+    "NVIDIA, Samsung, Hyundai among backers"
+  ],
+  "cons": [
+    "Partnership-only, no self-serve",
+    "Very young (founded 2024)",
+    "No public product or pricing",
+    "Narrow enterprise focus"
+  ],
+  "bestFor": ["Materials R&D teams", "Carbon capture", "Industrial chemistry"],
+  "alternatives": ["periodic-labs", "lila-sciences", "profluent"],
+  "references": [
+    {
+      "title": "CuspAI raises $100M to build AI search engine to transform materials science",
+      "url": "https://siliconangle.com/2025/09/10/cuspai-raises-100m-build-ai-search-engine-transform-materials-science/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}

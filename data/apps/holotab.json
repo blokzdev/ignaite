@@ -1,0 +1,49 @@
+{
+  "slug": "holotab",
+  "name": "HoloTab",
+  "tagline": "Free Chrome extension that runs an AI agent to complete tasks across any website.",
+  "description": "HoloTab is a browser extension from H Company that deploys a computer-use AI agent inside Chrome: describe a task in natural language and it navigates sites, clicks, fills forms, and makes decisions like a person would, without technical setup. A Routines feature lets you record a task once and re-run or schedule it later. It is aimed at everyday users rather than developers.",
+  "insight": "Launched April 2026 by Paris-based H Company, the French lab that raised ~$220M; runs on its in-house Holo 3 computer-use model.",
+  "category": "browser-extension",
+  "pricing": "free",
+  "vendor": "H Company",
+  "platforms": ["browser-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Holo 3"],
+    "notes": "Powered by H Company's in-house Holo 3 computer-use model."
+  },
+  "tags": ["browser-agent", "computer-use", "web-automation", "chrome-extension"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://hcompany.ai/meet-holotab",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 808,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Brings H's enterprise-grade computer-use agent to everyday users for free, with a record-and-replay Routines feature to automate repeat tasks.",
+  "pros": [
+    "Completely free",
+    "Powered by the SOTA Holo 3 computer-use model",
+    "Record-and-replay Routines",
+    "No technical setup"
+  ],
+  "cons": [
+    "Chrome only",
+    "New (launched April 2026)",
+    "Consumer focus, limited enterprise controls"
+  ],
+  "bestFor": ["Repetitive web tasks", "Form filling", "Personal automation"],
+  "alternatives": ["browser-use", "monica", "sider", "harpa-ai"],
+  "references": [
+    {
+      "title": "HCompany pushes into computer use with its HoloTab browser agent",
+      "url": "https://thenewstack.io/hugging-face-holotab/",
+      "source": "The New Stack",
+      "kind": "analysis"
+    }
+  ]
+}
