@@ -1,0 +1,48 @@
+{
+  "slug": "finny",
+  "name": "FINNY",
+  "tagline": "AI prospecting and marketing platform built for financial advisors.",
+  "description": "FINNY is an AI growth platform purpose-built for financial advisors and wealth managers, automating prospecting, outreach, and marketing. Its proprietary F-Score engine scores and prioritizes prospects from thousands of data points per lead, while Intent Search surfaces high-intent prospects from billions of daily-updated signals and Multi-Channel Campaigns automate personalized outreach across email, LinkedIn, voicemail, and direct mail.",
+  "insight": "Raised a $17M Series A led by Venrock in December 2025 (total >$20M); backers include former Vanguard CEO Bill McNabb.",
+  "category": "sales",
+  "secondaryCategories": ["finance"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "FINNY AI Inc.",
+  "platforms": ["web"],
+  "tags": ["prospecting", "financial-advisors", "wealth-management", "outbound", "intent-signals"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.finny.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 822,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Purpose-built for financial advisors: an F-Score model and 1.8B daily intent signals target high-net-worth prospects that generic AI SDR tools miss.",
+  "pros": [
+    "Built specifically for financial advisors",
+    "F-Score prospect prioritization",
+    "1.8B daily-updated intent signals",
+    "Automates multichannel outreach",
+    "Osaic broker-dealer partnership"
+  ],
+  "cons": [
+    "No public/self-serve pricing",
+    "Demo-only onboarding",
+    "US wealth-management focus",
+    "Newer entrant vs incumbents"
+  ],
+  "bestFor": ["Financial advisors", "RIAs and wealth managers", "Organic client growth"],
+  "alternatives": ["clay", "apollo", "amplemarket"],
+  "references": [
+    {
+      "title": "FINNY Raises $17M Series A for AI Prospecting Platform",
+      "url": "https://www.wealthmanagement.com/advisor-support-platforms/finny-ai-raises-17-million",
+      "source": "WealthManagement.com",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "amira-learning",
+  "name": "Amira Learning",
+  "tagline": "AI reading tutor that listens to K-12 students read aloud and coaches in real time.",
+  "description": "Amira is an AI-powered reading assistant that listens to students read aloud, assesses fluency, flags errors, and delivers one-on-one tutoring in real time — combining dynamic assessment, lesson planning, and tutoring in a single system. Grounded in the science of reading and used by school districts across more than 15 countries, it offers an English/Spanish bilingual edition (Amira Lectura).",
+  "insight": "Its reading-science + AI tech traces to 1990s Carnegie Mellon research; Amira is now used by 2M+ students across 15+ countries.",
+  "category": "education",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "platforms": ["web"],
+  "tags": ["reading", "literacy", "k-12", "tutoring", "speech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://amiralearning.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 823,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Speech-based: students read aloud and Amira coaches pronunciation and fluency live, where most ed-AI tutors only handle text and quizzes, not oral reading.",
+  "pros": [
+    "Real-time oral reading assessment",
+    "1:1 tutoring grounded in reading science",
+    "English/Spanish bilingual (Lectura)",
+    "Adopted by major school districts",
+    "Combines assess + instruct + tutor"
+  ],
+  "cons": [
+    "District/school licensing, no consumer plan",
+    "Focused on early-literacy/reading",
+    "Pricing not public",
+    "Requires classroom devices + mics"
+  ],
+  "bestFor": ["K-12 reading instruction", "School districts", "Early literacy intervention"],
+  "alternatives": ["khanmigo", "speak", "synthesis-tutor"],
+  "references": [
+    {
+      "title": "Meet Amira, the AI tutor helping Louisiana students improve reading",
+      "url": "https://www.wwno.org/education/2024-10-08/meet-amira-the-ai-tutor-helping-louisiana-students-improve-their-reading-skills",
+      "source": "WWNO",
+      "kind": "analysis"
+    }
+  ]
+}
