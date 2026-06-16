@@ -1,0 +1,42 @@
+{
+  "slug": "ludus",
+  "name": "Ludus AI",
+  "tagline": "AI agent for Unreal Engine — generate C++, Blueprints and 3D from prompts.",
+  "description": "An AI toolkit that embeds directly inside Unreal Engine 5 to accelerate game development. From natural-language prompts it generates and explains C++ code, builds and analyzes Blueprints, produces textured 3D models, and answers context-aware questions about Unreal concepts. An agent mode can chain these into multi-step changes across a project.",
+  "insight": "Founded by Piotr Penar, former CEO of game studio DreamStorm Studios, to put agentic AI natively inside Unreal Engine.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "vendor": "Ludus",
+  "platforms": ["windows", "macos"],
+  "accentColor": "#F5A623",
+  "tags": ["unreal-engine", "game-dev", "blueprints", "3d-generation", "code-assistant"],
+  "links": [
+    { "kind": "website", "url": "https://ludusengine.com/", "primary": true },
+    { "kind": "docs", "url": "https://docs.ludusengine.com/" }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 813,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Runs inside Unreal Engine 5 itself, generating C++, Blueprints and textured 3D models from prompts without leaving the editor.",
+  "pros": [
+    "Native to the Unreal Engine 5 editor",
+    "Generates C++, Blueprints and 3D models",
+    "Context-aware Unreal docs and explanations",
+    "Free tier plus indie-priced plan"
+  ],
+  "cons": [
+    "Unreal Engine only — no Unity or Godot",
+    "Credit-metered across all plans",
+    "Generated code/assets still need review"
+  ],
+  "bestFor": ["Unreal Engine developers", "Indie game studios", "Rapid prototyping"],
+  "alternatives": ["rosebud", "scenario", "layer-ai"],
+  "references": [
+    {
+      "title": "Ludus AI in Unreal Engine: Helpful Sidekick or Over-Hyped Hologram?",
+      "url": "https://smythos.com/ai-trends/ludus-ai-in-unreal-engine/",
+      "source": "SmythOS",
+      "kind": "analysis"
+    }
+  ]
+}
