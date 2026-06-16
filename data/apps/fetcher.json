@@ -1,0 +1,55 @@
+{
+  "slug": "fetcher",
+  "insight": "Launched as Scout before rebranding to Fetcher; its 2022 Series B brought total funding to about $40M.",
+  "name": "Fetcher",
+  "tagline": "AI candidate sourcing that pairs automation with human recruiters.",
+  "description": "Fetcher automates outbound recruiting — its AI assembles batches of qualified candidates for a role, then runs personalized multi-step email outreach and syncs everyone into your ATS and CRM. Teams use it for both passive sourcing and sorting inbound applicants, with diversity targets built into the search.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Fetcher",
+  "platforms": ["web"],
+  "tags": ["recruiting", "sourcing", "talent", "outreach", "ats"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fetcher.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://fetcher.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 824,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Layers a managed team of human 'sourcers' on top of the AI, so curated candidate lists arrive vetted rather than as raw search results.",
+  "pros": [
+    "AI plus human-curated candidate lists",
+    "Automated multi-step email outreach",
+    "ATS, CRM, and Slack integrations",
+    "Diversity goals built into search"
+  ],
+  "cons": [
+    "No free tier; starts at $115/mo",
+    "Sourcing quality varies by role",
+    "Outbound-focused, not a full ATS"
+  ],
+  "bestFor": ["In-house talent teams", "Passive sourcing", "Staffing agencies"],
+  "alternatives": ["findem", "gem", "seekout", "hireez"],
+  "references": [
+    {
+      "title": "Fetcher Brings In $27 Million for Automated Candidate Sourcing",
+      "url": "https://gritdaily.com/fetcher-brings-in-27-million-for-its-automated-candidate-sourcing-and-outreach-solution/",
+      "source": "Grit Daily",
+      "kind": "analysis"
+    },
+    {
+      "title": "Fetcher Review: AI Candidate Sourcing",
+      "url": "https://www.testgorilla.com/blog/fetcher-review/",
+      "source": "TestGorilla",
+      "kind": "review"
+    }
+  ]
+}

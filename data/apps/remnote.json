@@ -1,0 +1,41 @@
+{
+  "slug": "remnote",
+  "name": "RemNote",
+  "tagline": "Notes, PDF annotation, and spaced-repetition flashcards in one AI study app.",
+  "description": "RemNote combines outliner notes, PDF annotation, and spaced-repetition flashcards in a single app aimed at students. Its built-in AI generates quiz questions and flashcards in one click from your notes, PDFs, or lecture transcripts, then schedules reviews with a spaced-repetition algorithm. Works offline across web, desktop, and mobile.",
+  "category": "education",
+  "secondaryCategories": ["productivity"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "RemNote",
+  "platforms": ["web", "macos", "windows", "ios", "android"],
+  "tags": ["flashcards", "spaced-repetition", "study", "notes", "students"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.remnote.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.remnote.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 825,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Bakes Anki-style spaced repetition directly into the note editor, so making and reviewing flashcards happens inline instead of in a separate app.",
+  "pros": [
+    "Notes, flashcards, and PDFs in one app",
+    "One-click AI flashcard generation",
+    "Spaced repetition built in",
+    "Free tier plus offline mode"
+  ],
+  "cons": [
+    "AI tools gated to the paid plan",
+    "Outliner UI has a learning curve",
+    "Best suited to study use cases"
+  ],
+  "bestFor": ["Students", "Spaced-repetition learners", "Exam prep"],
+  "alternatives": ["quizlet", "studyfetch", "notebooklm"]
+}
