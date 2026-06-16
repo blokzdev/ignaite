@@ -1,0 +1,62 @@
+{
+  "slug": "genesis",
+  "name": "Genesis",
+  "tagline": "A generative, ultra-fast physics platform for robotics and embodied AI.",
+  "description": "An open-source simulation platform for general-purpose robotics and embodied-AI learning, rebuilt from the ground up in pure Python. Combines a unified multi-physics engine, a photorealistic renderer, and a generative data engine that turns natural-language prompts into simulation scenes and training data.",
+  "insight": "Began as a Dec 2024 academic project; its backer Genesis AI left stealth in July 2025 with a $105M seed co-led by Eclipse and Khosla.",
+  "category": "robotics",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Genesis AI",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "A physics/simulation platform, not an LLM app; pairs with any robot-learning policy."
+  },
+  "accentColor": "#6366F1",
+  "tags": ["robotics", "simulation", "physics-engine", "embodied-ai", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://genesis-embodied-ai.github.io/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Genesis-Embodied-AI/Genesis"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 803,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Pure-Python robotics simulator that is far quicker to set up than classic engines, with built-in photorealistic rendering and generative scene/data tooling.",
+  "pros": [
+    "Ultra-fast pure-Python simulation",
+    "Photorealistic rendering built in",
+    "Apache-2.0 open-source",
+    "Unifies rigid, soft, and fluid physics"
+  ],
+  "cons": [
+    "Generative data engine still rolling out",
+    "Young project, evolving APIs",
+    "GPU recommended for real speed",
+    "Research-grade, not a production sim"
+  ],
+  "bestFor": ["Robot-learning research", "Sim-to-real pipelines", "Embodied-AI training data"],
+  "alternatives": ["lerobot"],
+  "references": [
+    {
+      "title": "Khosla-backed robotics startup Genesis AI has gone full stack",
+      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Genesis AI emerges from stealth with $105M seed funding",
+      "url": "https://techfundingnews.com/genesis-ai-105m-seed-funding/",
+      "source": "TFN",
+      "kind": "analysis"
+    }
+  ]
+}
