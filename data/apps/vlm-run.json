@@ -1,0 +1,41 @@
+{
+  "slug": "vlm-run",
+  "name": "VLM Run",
+  "tagline": "Unified API gateway that extracts structured JSON from images, video, and documents.",
+  "description": "VLM Run is a developer platform for visual AI that returns reliable structured JSON from images, video, and documents through a single API, combining hyper-specialized vision-language models with computer-vision tools for tasks like document parsing, structured OCR, object detection, and segmentation. It offers fine-tuning to specialize models for a domain, dashboards, and flexible deployment. The platform is operated by Autonomi AI.",
+  "category": "vision",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Autonomi AI",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["vlm-1"],
+    "notes": "Runs its own hyper-specialized vlm-1 vision-language models."
+  },
+  "tags": ["visual-ai", "document-extraction", "vision-language-model", "ocr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vlm.run",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.vlm.run"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 810,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Hyper-specialized VLMs plus fine-tuning return parse-ready structured JSON from visual data, rather than free text you have to clean up.",
+  "pros": [
+    "One API for images, video, and documents",
+    "Structured JSON output",
+    "Free starter credits",
+    "Fine-tuning for specialized extraction"
+  ],
+  "cons": ["Pro tier jumps to $799/mo", "Small team", "Less brand recognition than incumbents"],
+  "bestFor": ["Document automation", "Visual data extraction", "Developers"],
+  "alternatives": ["moondream", "roboflow", "landing-ai", "reka-vision"]
+}
