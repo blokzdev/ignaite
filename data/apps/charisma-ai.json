@@ -1,0 +1,53 @@
+{
+  "slug": "charisma-ai",
+  "name": "Charisma.ai",
+  "tagline": "No-code engine for AI characters that talk, remember and stay on-script.",
+  "description": "Charisma.ai is a no-code platform for building interactive stories and conversational AI characters with voice, memory, emotion and goals. A controllable story-graph keeps characters on the writer's narrative while still allowing generative improvisation, and SDKs drop the characters into Unity, Unreal and the web. It's used for games, training simulations, brand experiences and digital companions.",
+  "insight": "Counts the BBC, Sky and Warner Bros. among its clients, and partnered with Keywords Studios to reach game developers.",
+  "category": "gaming",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Charisma Entertainment",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Controllable story engine layered with optional generative-AI character improvisation."
+  },
+  "accentColor": "#7C5CFC",
+  "tags": ["npc", "interactive-story", "conversational-ai", "no-code"],
+  "links": [
+    { "kind": "website", "url": "https://charisma.ai", "primary": true },
+    { "kind": "docs", "url": "https://docs.charisma.ai" },
+    { "kind": "pricing", "url": "https://charisma.ai/pricing" }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 827,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "A controllable story-graph keeps AI characters on-script — guaranteeing plot beats and brand-safe replies where free-form LLM NPCs can drift.",
+  "pros": [
+    "No-code story graph with voice and avatars",
+    "Controllable AI keeps characters on-script",
+    "Memory, emotion and goal tracking",
+    "SDKs for Unity, Unreal and web"
+  ],
+  "cons": [
+    "No permanent free tier — Pro licence required",
+    "Credit-based pricing adds up at scale",
+    "Less open-ended than pure LLM NPCs"
+  ],
+  "bestFor": [
+    "Interactive narrative",
+    "Training simulations",
+    "Game NPC dialogue",
+    "Brand experiences"
+  ],
+  "alternatives": ["inworld-ai", "convai", "hidden-door", "series-ai"],
+  "references": [
+    {
+      "title": "Keywords and Charisma partner on AI-powered storytelling",
+      "url": "https://www.gamedeveloper.com/production/keywords-and-charisma-partner-to-let-devs-harness-ai-powered-storytelling-platform",
+      "source": "Game Developer",
+      "kind": "analysis"
+    }
+  ]
+}

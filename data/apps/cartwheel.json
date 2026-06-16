@@ -1,0 +1,53 @@
+{
+  "slug": "cartwheel",
+  "name": "Cartwheel",
+  "tagline": "Generate editable 3D character animation from text or phone video.",
+  "description": "Cartwheel is a generative-motion tool that turns a text prompt, a smartphone video or a motion library into production-ready 3D character animation. Outputs stay fully editable and export to Unreal, Unity, Blender and Maya, so they slot into an existing pipeline rather than locking you into one app. It targets animators, game and video creators who want to skip slow keyframing or expensive mocap.",
+  "insight": "Co-founded by ex-OpenAI Codex researcher Andrew Carr and former Google Creative Lab director Jonathan Jarvis.",
+  "category": "3d",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Cartwheel",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary generative-motion models; no user model selection."
+  },
+  "accentColor": "#FF5C39",
+  "tags": ["3d-animation", "text-to-motion", "character-animation", "motion-capture"],
+  "links": [
+    { "kind": "website", "url": "https://getcartwheel.com", "primary": true },
+    { "kind": "pricing", "url": "https://getcartwheel.com/pricing" }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 828,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Turns text or phone-captured video into editable 3D character animation you can export to Unreal, Unity, Blender or Maya.",
+  "pros": [
+    "Text- and video-to-3D-animation",
+    "Editable output, not a black box",
+    "Exports to Unreal, Unity, Blender, Maya",
+    "Free Creator tier to start"
+  ],
+  "cons": [
+    "Credit/'spin' limits on lower tiers",
+    "Focused on character motion, not full scenes",
+    "Newer tool with an evolving feature set"
+  ],
+  "bestFor": ["3D animators", "Game & video creators", "Indie studios", "Previsualization"],
+  "alternatives": ["move-ai", "meshy", "kaedim"],
+  "references": [
+    {
+      "title": "AI Startup Cartwheel Raises $10 Million; Releases Its First Animation Tools",
+      "url": "https://variety.com/2025/artisans/news/ai-cartwheel-raises-10-million-character-animation-1236395878/",
+      "source": "Variety",
+      "kind": "analysis"
+    },
+    {
+      "title": "Cartwheel uses AI to make 3D animation 100 times faster",
+      "url": "https://www.fastcompany.com/91337364/cartwheel-uses-ai-to-make-3d-animation-100-times-faster-for-creators-and-studios",
+      "source": "Fast Company",
+      "kind": "analysis"
+    }
+  ]
+}
