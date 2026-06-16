@@ -1,0 +1,61 @@
+{
+  "slug": "dyna-robotics",
+  "insight": "Co-founded by the Caper AI team that earlier sold its AI smart-cart startup to Instacart for ~$350M.",
+  "name": "Dyna Robotics",
+  "tagline": "Commercial robot foundation models for autonomous, round-the-clock dexterity.",
+  "description": "Dyna Robotics builds general-purpose robots powered by DYNA-1, an embodied AI foundation model aimed at commercial-grade, fully autonomous dexterity. In a public demo, DYNA-1 folded 800+ napkins over a continuous 24-hour run at a reported 99.4% success rate with no human intervention. The Redwood City company targets restaurant, grocery, and other service deployments.",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Dyna Robotics",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["DYNA-1"],
+    "notes": "Proprietary embodied AI foundation model for dexterous manipulation."
+  },
+  "tags": ["robot-foundation-model", "embodied-ai", "dexterity", "commercial-robotics"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.dynarobotics.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 820,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Pitched as the first commercial-ready robot foundation model — DYNA-1 ran 24h of autonomous folding at a reported 99.4% success rate.",
+  "pros": [
+    "Commercial-grade autonomous dexterity",
+    "Demonstrated 24h continuous operation",
+    "Founders sold prior startup to Instacart",
+    "Backed by CRV, First Round, Salesforce"
+  ],
+  "cons": [
+    "Narrow demonstrated task set so far",
+    "Closed, enterprise deployment model",
+    "Early commercial traction vs big claims",
+    "Requires its own robot hardware"
+  ],
+  "bestFor": [
+    "Service-industry automation",
+    "Repetitive dexterous tasks",
+    "Embodied AI deployments"
+  ],
+  "alternatives": ["physical-intelligence", "skild-ai", "generalist-ai", "figure-ai"],
+  "references": [
+    {
+      "title": "Dyna Robotics debuts DYNA-1 foundation model for powering robots",
+      "url": "https://siliconangle.com/2025/04/29/dyna-robotics-debuts-dyna-1-foundation-model-powering-robots/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "Dyna Robotics raises $120 million to scale robotic foundation models",
+      "url": "https://roboticsandautomationnews.com/2025/09/16/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-path-to-physical-artificial-general-intelligence/94453/",
+      "source": "Robotics & Automation News",
+      "kind": "analysis"
+    }
+  ]
+}

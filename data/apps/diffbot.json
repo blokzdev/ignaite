@@ -1,0 +1,56 @@
+{
+  "slug": "diffbot",
+  "insight": "Released the first open-source GraphRAG LLM in 2025 — a Llama-3.3 fine-tune grounded in its trillion-fact Knowledge Graph.",
+  "name": "Diffbot",
+  "tagline": "Web-scale data extraction and a knowledge graph that grounds AI in facts.",
+  "description": "Diffbot reads the public web like a person and turns it into structured data: an Extract API for articles and products, a Crawl service, a Natural Language API, and a Knowledge Graph of billions of entities and over a trillion facts. The graph is refreshed continuously, so AI systems can ground answers in current, verifiable data rather than model memory. Diffbot also ships its own factually grounded GraphRAG language model.",
+  "category": "data-ops",
+  "secondaryCategories": ["search"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Diffbot",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Diffbot GraphRAG LLM"],
+    "notes": "Own extraction models plus an open-weight GraphRAG LLM (a Llama-3.3 fine-tune)."
+  },
+  "tags": ["knowledge-graph", "web-data", "graphrag", "extraction-api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.diffbot.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.diffbot.com"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 817,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Grounds answers in a continuously refreshed knowledge graph of 10B+ entities and 1T+ facts, not model memory or one-off web scraping.",
+  "pros": [
+    "Trillion-fact, continuously refreshed graph",
+    "Open-source GraphRAG LLM released",
+    "Extract, Crawl, and NL APIs over the open web",
+    "Free tier, no credit card required",
+    "Strong factual-grounding benchmarks"
+  ],
+  "cons": [
+    "Enterprise pricing for serious volume",
+    "Niche versus general LLM tooling",
+    "Graph coverage varies by entity type"
+  ],
+  "bestFor": ["RAG grounding", "Web-scale data extraction", "Entity intelligence"],
+  "alternatives": ["firecrawl", "scrapegraphai", "exa", "crawl4ai"],
+  "references": [
+    {
+      "title": "Diffbot's AI model doesn't guess — it knows",
+      "url": "https://venturebeat.com/ai/diffbots-ai-model-doesnt-guess-it-knows-thanks-to-a-trillion-fact-knowledge-graph",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    }
+  ]
+}
