@@ -1,0 +1,53 @@
+{
+  "slug": "soundverse",
+  "insight": "Published a public 'ethical framework for AI music' and pays artists royalties when their trained 'DNA' models are used.",
+  "name": "Soundverse",
+  "tagline": "AI music generator and assistant with a marketplace for artist-trained models.",
+  "description": "Soundverse generates full tracks from text prompts and bundles music tools — stem separation, lyric writing, and a chat-style 'assistant' — into one studio. Its 'DNA' program lets artists train their own AI models and earn when others create with them. Available on the web, iOS, Android, and via an enterprise API.",
+  "category": "music",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Soundverse AI",
+  "platforms": ["web", "ios", "android", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs its own generative music models; artists can train custom 'DNA' models."
+  },
+  "tags": ["music-generation", "text-to-music", "stem-separation", "royalties"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.soundverse.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.soundverse.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 826,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Pairs text-to-music with an artist-model marketplace and a stated ethical-licensing framework built on creator consent and royalty payouts.",
+  "pros": [
+    "Text-to-music plus editing tools",
+    "Artists can train and monetize models",
+    "Stem separation and lyric writing",
+    "Web, mobile, and API access"
+  ],
+  "cons": [
+    "Smaller and newer than Suno or Udio",
+    "Output quality varies by genre",
+    "Best features need a paid plan"
+  ],
+  "bestFor": ["Background-music creators", "Artists licensing a style"],
+  "alternatives": ["suno", "udio", "mureka", "soundraw"],
+  "references": [
+    {
+      "title": "Soundverse sets out its 'ethical framework for AI music'",
+      "url": "https://musically.com/2026/01/09/soundverse-sets-out-its-ethical-framework-for-ai-music/",
+      "source": "Music Ally",
+      "kind": "analysis"
+    }
+  ]
+}
