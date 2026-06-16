@@ -1,0 +1,67 @@
+{
+  "slug": "lerobot",
+  "name": "LeRobot",
+  "tagline": "Open-source models, datasets, and tools for real-world robotics in PyTorch.",
+  "description": "Hugging Face's robotics stack — pretrained policies (ACT, Diffusion Policy, SmolVLA, Pi0), shared datasets, simulation environments, and designs for low-cost manipulator kits. Aims to be the 'Transformers for robotics', lowering the barrier to training and sharing robot-learning models.",
+  "insight": "Built by Hugging Face as the 'Transformers for robotics'; NVIDIA partnered on it in 2025 to accelerate open-source robot learning.",
+  "category": "robotics",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Hugging Face",
+  "platforms": ["cli", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["ACT", "Diffusion Policy", "SmolVLA", "Pi0"],
+    "notes": "Ships pretrained robot-learning policies and tools to train your own."
+  },
+  "accentColor": "#FFD21E",
+  "tags": ["robotics", "open-source", "pytorch", "imitation-learning", "vla"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://huggingface.co/lerobot",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/huggingface/lerobot"
+    },
+    {
+      "kind": "docs",
+      "url": "https://huggingface.co/docs/lerobot"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 802,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "The de-facto open-source hub for real-world robot learning — shared datasets, pretrained policies, and low-cost hardware designs under one Apache-2.0 stack.",
+  "pros": [
+    "Apache-2.0, fully open-source",
+    "Shared datasets + pretrained VLA policies",
+    "Backed by Hugging Face, NVIDIA partnership",
+    "Low-cost hardware designs (SO-101 arms)"
+  ],
+  "cons": [
+    "Python/PyTorch skills required",
+    "Real-robot setup is involved",
+    "Fast-moving APIs, breaking changes",
+    "Not a turnkey consumer product"
+  ],
+  "bestFor": ["Robotics researchers", "ML engineers", "Embodied-AI hobbyists"],
+  "alternatives": ["genesis"],
+  "references": [
+    {
+      "title": "Hugging Face launches LeRobot open-source robotics library",
+      "url": "https://venturebeat.com/automation/hugging-face-launches-lerobot-open-source-robotics-code-library",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Hugging Face launches a $2,500 DIY humanoid robot",
+      "url": "https://www.hackster.io/news/hugging-face-launches-2-500-diy-humanoid-robot-a49e0be72221",
+      "source": "Hackster.io",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "pyannoteai",
+  "name": "pyannoteAI",
+  "tagline": "Speaker intelligence — diarization that tells who spoke when.",
+  "description": "pyannoteAI turns conversational audio into speaker-attributed transcripts: it identifies speakers, separates overlapping voices, and provides speaker metadata. Built on the widely used open-source pyannote.audio library, it adds a premium REST API and Python SDK with higher accuracy and near real-time speed.",
+  "insight": "Its open-source pyannote.audio library sees 45M+ monthly downloads; the Paris company raised an €8.1M seed in April 2025.",
+  "category": "audio",
+  "secondaryCategories": ["voice"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "pyannoteAI",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own speaker-diarization models; not an LLM app."
+  },
+  "accentColor": "#2563EB",
+  "tags": ["audio", "speaker-diarization", "speech", "open-source", "transcription"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.pyannote.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/pyannote/pyannote-audio"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.pyannote.ai"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 805,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Best-in-class speaker diarization — its premium model beats open-source baselines by ~20% while running roughly 2x faster.",
+  "pros": [
+    "State-of-the-art diarization accuracy",
+    "Open-source library plus premium API",
+    "Fast, near real-time processing",
+    "Language-agnostic speaker intelligence"
+  ],
+  "cons": [
+    "Diarization only, not transcription",
+    "Top accuracy needs the paid API",
+    "Self-hosting needs ML ops",
+    "Tuning needed for hard audio"
+  ],
+  "bestFor": ["Meeting transcription", "Call-center analytics", "Podcast and media tooling"],
+  "alternatives": ["assemblyai", "deepgram", "gladia", "speechmatics"],
+  "references": [
+    {
+      "title": "pyannoteAI raises $9M for its speech processing AI",
+      "url": "https://siliconangle.com/2025/04/07/pyannoteai-raises-9m-speech-processing-ai/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "pyannoteAI raises €8M for language-agnostic speaker intelligence",
+      "url": "https://www.eu-startups.com/2025/04/pyannoteai-raises-e8-million-to-build-the-first-language-agnostic-speaker-intelligence-platform/",
+      "source": "EU-Startups",
+      "kind": "analysis"
+    }
+  ]
+}
