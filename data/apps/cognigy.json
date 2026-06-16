@@ -1,0 +1,55 @@
+{
+  "slug": "cognigy",
+  "name": "Cognigy",
+  "tagline": "Enterprise conversational & agentic AI for voice and chat customer service.",
+  "description": "Cognigy is a customer-service AI platform that builds voice and chat agents on a low-code flow builder, with an Agent Copilot that assists human agents in real time. It's LLM-agnostic, integrates with contact-center stacks, and runs as managed cloud or self-hosted. Enterprises like Adidas, Nestlé and Toyota use it to automate front- and back-office customer interactions.",
+  "insight": "Acquired by contact-center vendor NiCE in September 2025 for about $955M; still offered as a standalone platform.",
+  "category": "support",
+  "secondaryCategories": ["voice"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "NiCE",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini"],
+    "notes": "LLM-agnostic — connect your own model or provider."
+  },
+  "accentColor": "#1A4BFF",
+  "tags": ["customer-service", "voice-agents", "conversational-ai", "contact-center"],
+  "links": [
+    { "kind": "website", "url": "https://www.cognigy.com", "primary": true },
+    { "kind": "docs", "url": "https://docs.cognigy.com" }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 829,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Combines voice and chat AI agents with a low-code flow builder and LLM-agnostic model choice, tuned for enterprise contact centers at scale.",
+  "pros": [
+    "Voice and chat agents in one platform",
+    "Low-code flow builder",
+    "LLM-agnostic model choice",
+    "Cloud or self-hosted deployment"
+  ],
+  "cons": [
+    "Enterprise sales motion; no public pricing",
+    "Now part of NiCE after acquisition",
+    "Overkill for small or simple use cases"
+  ],
+  "bestFor": ["Enterprise contact centers", "Voice & chat automation", "Customer service teams"],
+  "alternatives": ["parloa", "polyai", "sierra", "decagon"],
+  "references": [
+    {
+      "title": "NiCE to Acquire Cognigy, Wants to Set a New Standard for AI in CX",
+      "url": "https://www.cxtoday.com/contact-center/nice-to-acquire-cognigy-wants-to-set-a-new-standard-for-ai-in-customer-experience/",
+      "source": "CX Today",
+      "kind": "analysis"
+    },
+    {
+      "title": "NiCE Accelerates Agentic AI Focus with Cognigy Acquisition",
+      "url": "https://www.nojitter.com/contact-centers/nice-accelerates-agentic-ai-focus-with-cognigy-acquisition",
+      "source": "No Jitter",
+      "kind": "analysis"
+    }
+  ]
+}
