@@ -1,0 +1,50 @@
+{
+  "slug": "topk",
+  "name": "TopK",
+  "tagline": "Retrieval engine with hybrid search, multi-vector, and custom ranking in one query.",
+  "description": "TopK is a serverless retrieval engine that unifies vector (semantic), keyword (lexical), and multi-vector search with custom ranking in a single query and API — replacing the multi-database stack that RAG and search apps usually stitch together. Storage, inference (embedding, OCR, parsing), and queries run inside the engine or your own VPC, with SDKs for Python, JavaScript/TypeScript, and Rust plus a CLI and an MCP server.",
+  "category": "vector-db",
+  "secondaryCategories": ["search"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "TopK",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["hybrid-search", "vector-search", "retrieval", "rag", "serverless"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.topk.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.topk.io"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 821,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "One query spans vector, keyword, and multi-vector search with custom ranking — no separate search + vector + reranker stack to stitch together.",
+  "pros": [
+    "Hybrid + multi-vector in one query",
+    "Runs in your own VPC (BYOC)",
+    "Built-in embedding/OCR inference",
+    "Low latency at billion-doc scale",
+    "SDKs for Python, JS, Rust + MCP"
+  ],
+  "cons": [
+    "Newer, smaller ecosystem than peers",
+    "No open-source self-host",
+    "Developer/API-first, no managed UI",
+    "Smaller community vs Pinecone/Qdrant"
+  ],
+  "bestFor": [
+    "RAG retrieval",
+    "Hybrid semantic + keyword search",
+    "Data-residency-sensitive teams"
+  ],
+  "alternatives": ["turbopuffer", "pinecone", "qdrant", "lancedb"]
+}
