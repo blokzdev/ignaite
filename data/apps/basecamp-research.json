@@ -1,0 +1,46 @@
+{
+  "slug": "basecamp-research",
+  "name": "Basecamp Research",
+  "tagline": "A biodiversity-scale protein database for training biological AI models.",
+  "description": "A techbio company building BaseData, a proprietary database of protein and genome sequences collected from biodiversity worldwide under formal benefit-sharing agreements. The dataset is designed to train generative AI foundation models for protein and enzyme design, powering drug discovery, industrial biology and planetary-health applications that public databases can't reach.",
+  "insight": "Its BaseData holds 9.8 billion protein sequences — a 10x expansion of known protein diversity over all public databases combined.",
+  "category": "science",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Basecamp Research",
+  "platforms": ["web"],
+  "accentColor": "#2EC4B6",
+  "tags": ["protein-design", "techbio", "foundation-models", "drug-discovery", "biodiversity"],
+  "links": [{ "kind": "website", "url": "https://www.basecamp-research.com/", "primary": true }],
+  "addedAt": "2026-06-16",
+  "addedSeq": 815,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Mines DNA from biodiversity worldwide under formal benefit-sharing to build the largest non-public protein database, then trains models on it.",
+  "pros": [
+    "Largest proprietary protein/genome dataset",
+    "Data sourced under formal benefit-sharing",
+    "Built for training generative protein models",
+    "Backed by $85M+ across Series A and B"
+  ],
+  "cons": [
+    "Enterprise/partnership only, no self-serve",
+    "Pricing not publicly disclosed",
+    "Aimed at biotech teams, not general users"
+  ],
+  "bestFor": ["Protein and enzyme design", "Drug discovery teams", "Biological foundation models"],
+  "alternatives": ["profluent", "chai-discovery", "periodic-labs"],
+  "references": [
+    {
+      "title": "Basecamp Research raises $60m Series B to scale its AI-powered database of life",
+      "url": "https://sifted.eu/articles/basecamp-research-60m-series-b",
+      "source": "Sifted",
+      "kind": "analysis"
+    },
+    {
+      "title": "Million Species Listing: Basecamp Research Unearths Trove of Sequence Data",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/million-species-listing-basecamp-research-unearths-trove-of-sequence-data-from-novel-species/",
+      "source": "GEN",
+      "kind": "analysis"
+    }
+  ]
+}

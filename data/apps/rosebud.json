@@ -1,0 +1,44 @@
+{
+  "slug": "rosebud",
+  "name": "Rosebud AI",
+  "tagline": "Describe a game in plain language and play it — no-code, prompt-to-game.",
+  "description": "A browser-based platform that turns natural-language descriptions into playable 2D and 3D games. Instead of writing scripts you describe scenes, rules and behaviors, and Rosebud generates the code, art and mechanics with real-time previews and instant deployment. It pairs AI-generated visuals with templates and curated assets, and lets creators publish, share and monetize what they build.",
+  "insight": "Started as an AI photo and avatar generator before pivoting to a no-code, prompt-to-game creation platform.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Rosebud AI, Inc.",
+  "platforms": ["web"],
+  "accentColor": "#FF5FA2",
+  "tags": ["game-creation", "no-code", "text-to-game", "3d", "vibe-coding"],
+  "links": [
+    { "kind": "website", "url": "https://rosebud.ai/", "primary": true },
+    { "kind": "demo", "url": "https://lab.rosebud.ai/" }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 814,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Describe a game in plain language and it generates playable 2D or 3D code, art and mechanics in-browser, with built-in monetization.",
+  "pros": [
+    "Prompt-to-game, no coding required",
+    "Builds both 2D and 3D games",
+    "Generates art and code together",
+    "Built-in publishing and monetization",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Browser-only, web games not native builds",
+    "Commercial rights need a paid plan",
+    "Output suits prototypes more than large titles"
+  ],
+  "bestFor": ["Hobbyist game makers", "Educators", "Rapid game prototyping"],
+  "alternatives": ["ludus", "scenario", "inworld"],
+  "references": [
+    {
+      "title": "Rosebud AI x Marble: from world generation to multiplayer",
+      "url": "https://www.worldlabs.ai/case-studies/rosebud",
+      "source": "World Labs",
+      "kind": "analysis"
+    }
+  ]
+}
