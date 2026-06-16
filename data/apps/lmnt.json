@@ -1,0 +1,47 @@
+{
+  "slug": "lmnt",
+  "insight": "Ships as a first-class voice provider in the Vercel AI SDK, Pipecat, LiveKit, and Vapi voice-agent stacks.",
+  "name": "LMNT",
+  "tagline": "Fast, lifelike, affordable text-to-speech with low-latency streaming and voice cloning.",
+  "description": "LMNT is an AI text-to-speech platform that turns text into natural speech with ultra-low latency, built for conversational agents, games, and real-time apps. It supports instant voice cloning from a short sample and multilingual synthesis, and is exposed as a developer API plus a web playground. It is offered as a built-in voice provider across major voice-agent frameworks.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "LMNT",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["LMNT TTS"],
+    "notes": "Ships its own streaming text-to-speech and voice-cloning models."
+  },
+  "tags": ["text-to-speech", "voice-cloning", "low-latency", "tts-api"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lmnt.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lmnt.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 816,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Built for real-time agents — ~150–200ms streaming latency and voice cloning from a 5-second sample, priced below premium TTS rivals.",
+  "pros": [
+    "Low-latency streaming (~150–200ms)",
+    "Voice cloning from a 5-second sample",
+    "Free tier plus affordable paid plans",
+    "Integrates with major voice-agent stacks",
+    "Commercial license on paid tiers"
+  ],
+  "cons": [
+    "Smaller voice library than ElevenLabs",
+    "Quality trails top expressive TTS models",
+    "Less brand recognition than incumbents"
+  ],
+  "bestFor": ["Voice agents", "Real-time apps", "Indie developers"],
+  "alternatives": ["cartesia", "rime", "elevenlabs", "neuphonic"]
+}

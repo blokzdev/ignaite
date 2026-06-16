@@ -1,0 +1,57 @@
+{
+  "slug": "generalist-ai",
+  "insight": "Raised $400M in 2026 at a ~$2B valuation, backed by Nvidia and Bezos Expeditions.",
+  "name": "Generalist AI",
+  "tagline": "Embodied foundation models that train robots to do real physical work.",
+  "description": "Generalist is a frontier AI lab building general-purpose foundation models for the physical world, founded in 2024 by researchers from OpenAI, Google DeepMind, and Boston Dynamics. Its hardware-agnostic GEN-1 model targets dexterous, reliable manipulation across many robot embodiments — factories, warehouses, and homes. The company frames its mission simply: 'we train robots that work.'",
+  "category": "robotics",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Generalist AI",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["GEN-1"],
+    "notes": "Hardware-agnostic robot foundation model for dexterous manipulation."
+  },
+  "tags": ["robot-foundation-model", "embodied-ai", "dexterity", "manipulation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://generalistai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 819,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Hardware-agnostic GEN-1 aims to run dexterous tasks across many robot bodies, rather than tying its model to one in-house humanoid.",
+  "pros": [
+    "Cross-embodiment foundation model",
+    "Founders from DeepMind and Boston Dynamics",
+    "Heavily funded (Nvidia, Bezos)",
+    "Focus on dexterity and reliability"
+  ],
+  "cons": [
+    "Pre-commercial research stage",
+    "No public product or API yet",
+    "Requires robot hardware",
+    "Generality claims still unproven in field"
+  ],
+  "bestFor": ["Robotics researchers", "Embodied AI labs", "Robot makers"],
+  "alternatives": ["physical-intelligence", "skild-ai", "figure-ai", "dyna-robotics"],
+  "references": [
+    {
+      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/nvidia-backed-robotics-startup-generalist-ai-valued-at-2-billion",
+      "source": "Bloomberg",
+      "kind": "analysis"
+    },
+    {
+      "title": "Generalist AI raises $400 million for robot foundation models",
+      "url": "https://roboticsandautomationnews.com/2026/06/05/generalist-ai-raises-400-million-to-scale-robot-intelligence-platform/102307/",
+      "source": "Robotics & Automation News",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "tellius",
+  "name": "Tellius",
+  "tagline": "Agentic analytics that investigates why your metrics moved and delivers the answer.",
+  "description": "Tellius is an AI-native analytics platform that lets teams ask questions of enterprise data in natural language and get finished insights back, not raw dashboards. Its Kaiya assistant handles conversational analytics, automated anomaly detection, and autonomous root-cause investigation, chaining detection, explanation, and delivery into agentic 'missions'. Outputs include board-ready presentations and executive memos.",
+  "category": "analytics",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Tellius",
+  "platforms": ["web", "api"],
+  "tags": ["agentic-analytics", "root-cause-analysis", "conversational-bi", "augmented-analytics"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tellius.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-16",
+  "addedSeq": 818,
+  "lastVerifiedAt": "2026-06-16",
+  "edge": "Beyond NL-to-SQL — it autonomously investigates why a metric moved, ranking drivers across hypotheses, and returns board-ready memos rather than dashboards.",
+  "pros": [
+    "Automated root-cause and driver analysis",
+    "Conversational NL analytics (Kaiya)",
+    "Proactive 'missions' monitor KPIs",
+    "Outputs presentation-ready insights"
+  ],
+  "cons": [
+    "Enterprise sales motion; no public pricing",
+    "Overkill for simple dashboards",
+    "Smaller ecosystem than BI incumbents"
+  ],
+  "bestFor": ["Enterprise analytics teams", "Root-cause investigation", "Self-service insights"],
+  "alternatives": ["thoughtspot", "zenlytic", "databricks-genie", "vanna"]
+}
