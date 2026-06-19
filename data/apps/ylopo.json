@@ -1,0 +1,50 @@
+{
+  "slug": "ylopo",
+  "name": "Ylopo",
+  "tagline": "AI lead generation and nurture for real estate agents.",
+  "description": "Ylopo is a digital marketing and lead-generation platform built for real estate agents and teams. It runs AI-powered Facebook, Instagram, and Google remarketing to capture buyer and seller leads, then nurtures them with its 'raiya' AI assistant over SMS and voice — qualifying prospects and booking appointments around the clock. It plugs into IDX home-search sites and popular CRMs to keep leads engaged across a long buying cycle.",
+  "insight": "Beyond the monthly fee, Ylopo requires its own ad spend plus a one-time setup fee of around $1,500.",
+  "category": "real-estate",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Ylopo, LLC",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary 'raiya' AI assistant for text (raiya Text) and voice (raiya Voice) follow-up."
+  },
+  "tags": ["real-estate", "lead-generation", "crm", "marketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ylopo.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 837,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Pairs paid social and Google remarketing with a 'raiya' AI assistant that nurtures leads over both text and voice — generation and follow-up in one stack.",
+  "pros": [
+    "Strong paid-social and Google lead generation",
+    "raiya AI does both text and voice follow-up",
+    "Branded IDX home-search sites included",
+    "Integrates with major real estate CRMs"
+  ],
+  "cons": [
+    "No public pricing; requires a demo",
+    "Setup fee plus required ad spend on top",
+    "Often a 6–12 month contract",
+    "Needs a separate CRM/conversion process"
+  ],
+  "bestFor": ["Real estate teams", "Agents running paid lead gen"],
+  "alternatives": ["lofty", "rechat", "eliseai"],
+  "references": [
+    {
+      "title": "Ylopo Review: An In-Depth Look at Features and Pricing",
+      "url": "https://theclose.com/ylopo-reviews/",
+      "source": "The Close",
+      "kind": "review"
+    }
+  ]
+}

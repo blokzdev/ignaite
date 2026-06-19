@@ -1,0 +1,40 @@
+{
+  "slug": "hyperspell",
+  "name": "Hyperspell",
+  "tagline": "Memory and context layer for AI agents.",
+  "description": "Hyperspell is a context and memory layer that connects an agent to its user's workspace data — Slack, Gmail, Notion, Linear, Salesforce, and more — through 50+ pre-built connectors. It continuously indexes that data into a context graph and exposes it to agents as a queryable filesystem, so any framework can give its agents governed, personalized memory. It targets production use with SOC 2 and GDPR compliance.",
+  "category": "memory",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Hyperspell (Digital Workers of California, Inc.)",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Works with any agent framework — Claude Code, Codex, Cursor, and custom agents."
+  },
+  "tags": ["memory", "context", "agents", "connectors"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://hyperspell.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 840,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Ships 50+ connectors and presents the result as a filesystem agents can mount, instead of making you build retrieval and a vector store yourself.",
+  "pros": [
+    "50+ prebuilt workspace connectors",
+    "Filesystem interface works with any agent",
+    "Continuous indexing into a context graph",
+    "SOC 2 and GDPR compliant"
+  ],
+  "cons": [
+    "No public pricing listed",
+    "Young, early-stage product",
+    "Cloud-only; data is indexed off-box"
+  ],
+  "bestFor": ["Agent developers", "Workspace-grounded agents"],
+  "alternatives": ["mem0", "supermemory", "zep", "cognee"]
+}

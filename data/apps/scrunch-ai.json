@@ -1,0 +1,50 @@
+{
+  "slug": "scrunch-ai",
+  "name": "Scrunch AI",
+  "tagline": "Generative engine optimization for AI search visibility.",
+  "description": "Scrunch AI is an enterprise platform for monitoring and improving how brands show up in AI search and chat answers. It tracks citations and share-of-voice across ChatGPT, Perplexity, Claude, Gemini, and Copilot, benchmarks against competitors by prompt, and flags crawl errors that keep pages out of AI answers. Its Agent Experience Platform serves AI-optimized versions of web pages so models and agents can read and cite them more reliably.",
+  "insight": "Raised a $15M Series A in 2025 led by Decibel — about $19M total — with angels incl. Webflow's Bryant Chou and Clara Shih.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Scrunch AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["ChatGPT", "Perplexity", "Claude", "Gemini", "Copilot"],
+    "notes": "Monitors brand visibility across multiple AI search engines."
+  },
+  "tags": ["geo", "aeo", "ai-search", "brand-monitoring"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scrunch.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 838,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Beyond tracking AI-search mentions, its Agent Experience Platform serves AI-optimized page versions to boost how often models actually cite your site.",
+  "pros": [
+    "Cross-LLM citation and share-of-voice tracking",
+    "Agent Experience Platform serves AI-ready pages",
+    "Competitive benchmarking by prompt",
+    "Crawl-error detection for AI bots"
+  ],
+  "cons": [
+    "Enterprise-focused; no public pricing",
+    "Free access limited to a 7-day trial",
+    "GEO is a fast-shifting, unproven discipline"
+  ],
+  "bestFor": ["Enterprise marketing teams", "Brand AI-search visibility"],
+  "alternatives": ["profound", "peec-ai", "evertune"],
+  "references": [
+    {
+      "title": "Scrunch AI Raises $15M to Strengthen Marketing Platform",
+      "url": "https://builtin.com/articles/scrunch-raises-15m-to-strengthen-ai-marketing-platform-20250723",
+      "source": "Built In",
+      "kind": "analysis"
+    }
+  ]
+}
