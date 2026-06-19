@@ -13,8 +13,12 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 
 ## 1. Know what's already listed — on `main` **and** in open PRs
 
-- List `data/apps/` (each filename is a slug) and grep it to build the set of existing slugs / names
-  / vendors / domains.
+- List `data/apps/` (each filename is a slug) and build the set of existing slugs / names / vendors /
+  domains. Index two **dedup keys** per listing — these are what you'll match candidates against in
+  step 2, since the trap is a **slug variant** (the same app re-added under a different slug, e.g.
+  `bland` beside `bland-ai`, which a slug-only check misses):
+  - **normalized name** — lowercase + strip non-alphanumerics (`"Bland AI"` → `blandai`);
+  - **primary-link domain** — the host of the primary URL, `www.`-stripped (`bland.ai`).
 - **Also fold in apps already proposed by open, unmerged discovery PRs** — otherwise two runs fired
   close together (before the first merges) both "discover" the same app and you get duplicate listings
   (a slug double-authored across two PRs). Don't rely on the merge to catch it — by then both PRs exist.
@@ -53,6 +57,27 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 - Drop anything that's: already listed **or already proposed in an open discovery PR** (step 1), not
   actually an app (a raw model/paper), low-quality/spam, defunct, or that you can't verify.
 
+- **Dedup scan before authoring (by name + domain, not just slug).** Once you have a shortlist, run
+  each candidate's **normalized name** and **primary domain** against the directory (edit `cands` to
+  your `[name, primaryUrl]` pairs):
+
+  ```bash
+  node -e '
+  const fs=require("fs"),p="data/apps";
+  const norm=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"");
+  const host=u=>{try{return new URL(u).host.replace(/^www\./,"").toLowerCase()}catch{return""}};
+  const idx=fs.readdirSync(p).filter(f=>f.endsWith(".json")).map(f=>{const a=JSON.parse(fs.readFileSync(p+"/"+f,"utf8"));return{slug:a.slug,n:norm(a.name),h:host((a.links.find(l=>l.primary)||a.links[0]).url)};});
+  const cands=[["EXAMPLE NAME","https://example.com"]]; // ← your shortlist
+  for(const [name,url] of cands){const n=norm(name),h=host(url);const hit=idx.filter(e=>e.n===n||e.h===h);
+  console.log(hit.length?("DUP  "+name+"  ->  "+hit.map(e=>e.slug+" ["+[e.n===n?"name":"",e.h===h?"domain":""].filter(Boolean).join("+")+"]").join(", ")):("ok   "+name));}'
+  ```
+
+  **Drop any `DUP` hit** (also cross-check the open-PR slugs/names from step 1). A **domain** hit with a
+  genuinely different product name can be a legitimate sibling on a shared company domain
+  (`langchain`/`langgraph`, `adobe-express`/`adobe-firefly`) — keep it only if it's truly a distinct
+  product. Backstop: `velite build --strict` **hard-fails** on a duplicate (same normalized name +
+  primary domain), so a missed dup fails CI — but catching it here avoids wasted authoring and a dead PR.
+
 ## 3. Author the worthy ones
 
 - Follow the **exact authoring spec + conventions + quality bar in `.claude/commands/add-app.md`**
@@ -68,8 +93,9 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 ## 4. Validate
 
 - `pnpm velite` must pass — it runs `velite build --strict`, which validates every new JSON against
-  the schema and **exits non-zero** with a precise per-file error if anything is off (a duplicate slug
-  fails too); fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean (each
+  the schema and **exits non-zero** with a precise per-file error if anything is off (a duplicate slug,
+  or a **duplicate listing** sharing a normalized name + primary domain with another entry, fails too);
+  fix until clean. Then `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean (each
   re-runs the strict validation, so a bad entry hard-fails CI rather than silently dropping). Link-check each new primary URL resolves. An anti-bot block (`403`/`429`/`503`) on a
   **demonstrably live** site is fine — don't skip the app: corroborate liveness via independent
   current sources (search results, live docs/blog subdomains, recent third-party coverage), verify
@@ -81,8 +107,8 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 - If you added ≥1 app: create a branch (e.g. `claude/discover-apps-<date>`), commit, push, and open a
   PR into `main`. Title it clearly; in the body list each app (slug · category · pricing) and an
   explicit **"needs human re-verify"** section for anything you couldn't fully confirm. Note which thin
-  categories you targeted, and that you de-duplicated against open discovery PRs (step 1) — or flag if
-  that check was skipped. **Do not merge.**
+  categories you targeted, and that you de-duplicated by **name + domain** against the directory and
+  open discovery PRs (steps 1–2) — or flag if the open-PR check was skipped. **Do not merge.**
 - If nothing met the bar: **do nothing** — no branch, no empty PR. Briefly state that you found
   nothing new worth adding this run.
 
