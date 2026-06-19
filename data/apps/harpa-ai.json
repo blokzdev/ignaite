@@ -1,9 +1,9 @@
 {
   "slug": "harpa-ai",
-  "insight": "Runs as a browser extension across Chrome, Edge, Firefox, Brave and Opera, with on-page automation processed locally, not server-side.",
   "name": "HARPA AI",
   "tagline": "AI browser agent for Chrome that automates web tasks.",
   "description": "A browser extension that fuses large language models with on-page web automation, letting an AI agent read, understand, and act on web pages — navigating, extracting data, filling forms, and monitoring sites for changes. It connects to multiple AI providers and ships 100+ preset commands for research, SEO, and writing. Available for Chrome, Edge, Firefox, Brave, and Opera.",
+  "insight": "Runs as a browser extension across Chrome, Edge, Firefox, Brave and Opera, with on-page automation processed locally, not server-side.",
   "category": "automation",
   "secondaryCategories": ["data-ops"],
   "pricing": "freemium",
@@ -15,6 +15,7 @@
     "notes": "Use the providers' web UIs via your logged-in sessions or bring your own API keys."
   },
   "tags": ["browser-agent", "web-automation", "chrome-extension", "scraping", "research"],
+  "accentColor": "#7C5CFF",
   "links": [
     {
       "kind": "website",
@@ -43,5 +44,13 @@
     "Primarily Chromium-based browsers"
   ],
   "bestFor": ["Web task automation", "Competitive/price monitoring"],
-  "alternatives": ["monica", "sider", "merlin-ai", "thunderbit"]
+  "alternatives": ["monica", "sider", "merlin-ai", "thunderbit"],
+  "references": [
+    {
+      "title": "Learn about Harpa: the AI automation agent for Chrome",
+      "url": "https://daily.dev/blog/learn-about-harpa-the-ai-automation-agent-for-chrome/",
+      "source": "daily.dev",
+      "kind": "guide"
+    }
+  ]
 }

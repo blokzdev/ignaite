@@ -10,6 +10,7 @@
   "vendor": "Rosebud AI, Inc.",
   "platforms": ["web"],
   "tags": ["gaming", "no-code", "game-creation", "vibe-coding"],
+  "accentColor": "#FF5FA2",
   "links": [
     {
       "kind": "website",

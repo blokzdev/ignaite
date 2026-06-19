@@ -34,7 +34,7 @@
     "Unproven in shipped commercial titles"
   ],
   "bestFor": ["Game studios", "Dynamic NPCs & encounters", "Emergent narrative gameplay"],
-  "alternatives": ["inworld", "convai"],
+  "alternatives": ["inworld-ai", "convai"],
   "references": [
     {
       "title": "Artificial Agency launches Behavior Engine to create games that feel 'alive'",

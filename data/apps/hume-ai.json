@@ -1,10 +1,11 @@
 {
   "slug": "hume-ai",
-  "insight": "Founder Alan Cowen is an ex-Google scientist whose ‘semantic space theory’ of emotion underpins the product; $50M Series B (EQT, 2024).",
   "name": "Hume AI",
   "tagline": "Empathic Voice Interface — speech-to-speech AI that hears tone.",
   "description": "A voice AI toolkit built around the Empathic Voice Interface (EVI), a speech-to-speech model that infers emotion and prosody from a user's voice and modulates its replies accordingly. Exposed as an API for building expressive voice agents and assistants. From a research lab focused on emotional intelligence in AI.",
+  "insight": "Founder Alan Cowen is an ex-Google scientist whose ‘semantic space theory’ of emotion underpins the product; $50M Series B (EQT, 2024).",
   "category": "voice",
+  "secondaryCategories": ["audio"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Hume AI",
@@ -14,6 +15,7 @@
     "notes": "Pairs Hume's own voice/emotion models with a configurable LLM (e.g. Claude, GPT)."
   },
   "tags": ["voice", "speech-to-speech", "emotion", "api"],
+  "accentColor": "#F0703C",
   "links": [
     {
       "kind": "website",
@@ -46,5 +48,19 @@
     "Smaller ecosystem than ElevenLabs"
   ],
   "bestFor": ["Empathic voice agents", "Emotion-aware UX", "Conversational AI"],
-  "alternatives": ["elevenlabs", "cartesia", "vapi", "deepgram"]
+  "alternatives": ["elevenlabs", "cartesia", "vapi", "deepgram"],
+  "references": [
+    {
+      "title": "Hume AI Raises $50M Series B, Unveils Empathic Voice Interface",
+      "url": "https://www.maginative.com/article/hume-ai-raises-50m-series-b-unveils-empathic-voice-interface/",
+      "source": "Maginative",
+      "kind": "analysis"
+    },
+    {
+      "title": "Hume AI's Empathic Voice Interface brings 'Her' closer to reality",
+      "url": "https://the-decoder.com/hume-ais-empathic-voice-interface-brings-the-charming-ai-from-her-closer-to-reality/",
+      "source": "The Decoder",
+      "kind": "review"
+    }
+  ]
 }
