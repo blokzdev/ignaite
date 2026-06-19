@@ -1,0 +1,55 @@
+{
+  "slug": "hyperscience",
+  "insight": "Founded in 2014; FedRAMP High–authorized and used by U.S. government agencies including the Social Security Administration and VA.",
+  "name": "Hyperscience",
+  "tagline": "Enterprise document processing that turns messy paperwork into structured data.",
+  "description": "Hyperscience is an enterprise intelligent document processing (IDP) platform that reads, classifies, and extracts data from forms, invoices, and handwritten paperwork at high accuracy. It trains custom machine-learning models per document type and routes low-confidence cases to humans, targeting straight-through automation for high-volume back-office workflows. Sold to large enterprises and government agencies, with cloud, private-cloud, and air-gapped on-prem deployment options.",
+  "category": "vision",
+  "secondaryCategories": ["data-ops"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Hyperscience",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Trains its own document ML models; integrates external LLMs for its GenAI workflows."
+  },
+  "tags": ["document-processing", "idp", "ocr", "enterprise", "automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.hyperscience.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 861,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Trains custom ML models per document type for 99%+ accuracy, and runs on-prem or air-gapped for regulated and government workloads.",
+  "pros": [
+    "Very high extraction accuracy at scale",
+    "Handles handwriting and unstructured docs",
+    "On-prem / air-gapped deployment option",
+    "FedRAMP High for government use",
+    "Trusted by large enterprises and agencies"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Overkill for simple, low-volume OCR",
+    "Setup and model tuning require effort"
+  ],
+  "bestFor": [
+    "Enterprise document automation",
+    "Regulated & government workloads",
+    "High-volume forms processing"
+  ],
+  "alternatives": ["rossum", "reducto", "nanonets", "mindee"],
+  "references": [
+    {
+      "title": "Automation startup Hyperscience raises $60M to accelerate development",
+      "url": "https://siliconangle.com/2020/06/04/automation-startup-hyperscience-raises-60m-accelerate-platform-growth/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
