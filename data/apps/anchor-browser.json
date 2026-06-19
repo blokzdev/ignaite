@@ -1,0 +1,56 @@
+{
+  "slug": "anchor-browser",
+  "insight": "Raised a $6M seed led by Blumberg Capital (Oct 2025); founded by Unit 8200 / SentinelOne veterans, with Cloudflare and Groq as partners.",
+  "name": "Anchor Browser",
+  "tagline": "Cloud browser infrastructure for AI agents.",
+  "description": "Anchor Browser runs fully managed, stealth Chromium instances in the cloud so AI agents can navigate websites, log in, fill forms, and extract data like a human would. It ships built-in authentication (OmniConnect), an enterprise VPN, a Web Action Cache for deterministic workflows, and scales to many parallel sessions. The Chromium fork is verified by Cloudflare's Web-Bot-Auth to survive bot detection.",
+  "category": "automation",
+  "secondaryCategories": ["infra"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Anchor",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Browser infrastructure; bring your own inference provider and agent framework."
+  },
+  "tags": ["browser-automation", "web-agent", "stealth-browser", "infrastructure"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://anchorbrowser.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.anchorbrowser.io"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 869,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Cloudflare-verified stealth Chromium with built-in auth and VPN, built to survive bot detection that blocks generic headless browsers.",
+  "pros": [
+    "Stealth Chromium resists bot detection",
+    "Built-in auth (OmniConnect) and VPN",
+    "Scales to many parallel sessions",
+    "Deployable in your own cloud",
+    "Free tier with 5 concurrent browsers"
+  ],
+  "cons": [
+    "Closed source",
+    "Usage metered in credits",
+    "Newer, smaller track record",
+    "Overkill for simple scraping jobs"
+  ],
+  "bestFor": ["Agent developers", "Web automation at scale", "Enterprises"],
+  "alternatives": ["browserbase", "steel", "hyperbrowser", "browser-use"],
+  "references": [
+    {
+      "title": "Anchor Browser Raises $6M Seed Round",
+      "url": "https://theaiinsider.tech/2025/11/07/anchor-browser-raises-6m-seed-round-to-power-the-next-generation-of-agentic-ai-with-reliable-browser-automation/",
+      "source": "The AI Insider",
+      "kind": "analysis"
+    }
+  ]
+}

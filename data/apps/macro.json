@@ -1,0 +1,58 @@
+{
+  "slug": "macro",
+  "insight": "Began as an AI PDF/document reader, then pivoted to a unified work OS; raised a $9.3M seed led by Andreessen Horowitz.",
+  "name": "Macro",
+  "tagline": "The unified system for work.",
+  "description": "Macro is an open-source workspace that folds email, messages, documents, tasks, calls, and a lightweight CRM into one interface, with AI agents that share full workspace context. Documents use CRDTs for instant, offline-capable collaborative editing, and a unified inbox pulls in email and GitHub pull requests. It markets itself as faster than Superhuman, quieter than Slack, and simpler than Notion.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Macro",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Claude", "GPT", "Gemini"],
+    "notes": "Uses models from Anthropic, OpenAI, and Google; zero data retention with providers."
+  },
+  "tags": ["workspace", "open-source", "email", "documents", "ai-agents"],
+  "accentColor": "#6d5efc",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://macro.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://macro.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 868,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Folds email, docs, tasks, calls and a CRM into one open-source workspace where AI agents share full context across all of it.",
+  "pros": [
+    "Open-source and self-hostable",
+    "Unifies email, docs, tasks, CRM, calls",
+    "Agents get full workspace context",
+    "SOC 2 Type II; zero data retention",
+    "CRDT real-time collaborative editing"
+  ],
+  "cons": [
+    "Pro plan is $40/seat per month",
+    "Self-hosting gated to Enterprise tier",
+    "Early-stage; smaller ecosystem",
+    "Free plan adds a 'Sent with Macro' signature"
+  ],
+  "bestFor": ["Startups", "Small teams", "Email-heavy professionals"],
+  "alternatives": ["notion-ai", "superhuman", "granola", "cora"],
+  "references": [
+    {
+      "title": "Macro raises $9.3M to layer intelligence on top of digital documents",
+      "url": "https://techcrunch.com/2023/02/08/macro-raises-9-3-to-layer-intelligence-on-top-of-digital-documents/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

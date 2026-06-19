@@ -1,0 +1,54 @@
+{
+  "slug": "datature",
+  "insight": "Singapore-based; raised a US$2.7M seed led by Openspace in 2022, with backers including Enterprise Singapore and Rolls-Royce.",
+  "name": "Datature",
+  "tagline": "Build and deploy computer-vision models without code.",
+  "description": "Datature is an end-to-end, no-code platform for computer vision. Its Label module provides AI-assisted, pixel-perfect annotation with multi-annotator review; Train offers drag-and-drop model building with hyperparameter tuning; and Deploy ships models to edge or cloud via API. It supports image classification, object detection, keypoint annotation, and semantic segmentation across industries from healthcare to manufacturing.",
+  "category": "vision",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Datature",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Trains and serves its own computer-vision models; no LLM required."
+  },
+  "tags": ["computer-vision", "no-code", "annotation", "mlops", "model-training"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://datature.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developers.datature.io"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 870,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "One no-code, browser-based pipeline to label, train and deploy detection or segmentation models to edge or cloud without writing training code.",
+  "pros": [
+    "Covers label, train and deploy in one place",
+    "No-code training, drag-and-drop workflows",
+    "AI-assisted annotation",
+    "Edge and cloud deployment",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Pricing not transparent on the site",
+    "Vision-only, not general ML",
+    "Smaller than general-purpose ML platforms"
+  ],
+  "bestFor": ["CV teams without ML expertise", "Enterprises", "Edge vision apps"],
+  "alternatives": ["roboflow", "encord", "voxel51", "supervisely"],
+  "references": [
+    {
+      "title": "Singapore ML firm Datature raises $2.7M from Openspace",
+      "url": "https://technode.global/2022/03/16/singapore-machine-learning-firm-datature-raises-2-7m-from-openspace/",
+      "source": "TNGlobal",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "valyu",
+  "insight": "Backed by Andreessen Horowitz at pre-seed; gives agents licensed access to paywalled sources — academic papers, filings and patents.",
+  "name": "Valyu",
+  "tagline": "Real-time search and deep research API for AI agents.",
+  "description": "Valyu is a search and retrieval API built for AI agents and LLMs. Its DeepSearch returns full extracted, structured content — not just links — from the open web plus proprietary and paywalled sources like academic papers, regulatory filings, patents, and financial data. A separate DeepResearch API runs asynchronous, multi-step research across those sources and synthesizes the results into reports and structured data.",
+  "category": "search",
+  "secondaryCategories": ["research-platform"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Valyu",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Search/retrieval API; plugs into any agent or LLM stack."
+  },
+  "tags": ["search-api", "deep-research", "rag", "retrieval", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.valyu.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.valyu.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.valyu.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 871,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Returns structured, extracted content from paywalled papers, filings and patents — not just links — with flat per-task deep-research pricing.",
+  "pros": [
+    "Searches proprietary and paywalled sources",
+    "Returns structured content, not just links",
+    "Deep research API for multi-step tasks",
+    "Flat per-task pricing"
+  ],
+  "cons": [
+    "No free tier",
+    "Early-stage company",
+    "Developer / API-only",
+    "Premium data sources cost more"
+  ],
+  "bestFor": ["Agent developers", "Finance and research workflows", "RAG pipelines"],
+  "alternatives": ["exa", "tavily", "linkup", "parallel"]
+}
