@@ -1,0 +1,37 @@
+{
+  "slug": "pentera",
+  "insight": "Crossed $100M ARR in January 2026 and was named a Leader in the 2026 Frost Radar for Automated Security Validation.",
+  "name": "Pentera",
+  "tagline": "Automated security validation that emulates real attacks to prove exploitable exposures.",
+  "description": "Pentera is an automated security validation platform that safely emulates real-world attacks across internal networks, external attack surfaces, and cloud to show which vulnerabilities are genuinely exploitable. It maps complete attack paths, prioritizes remediation by proven risk, and re-validates after fixes. Its 2026 'Pentera 8' release added Pentera Peer, an agentic AI interface that lets teams direct testing and investigate findings in natural language.",
+  "category": "security",
+  "pricing": "paid",
+  "vendor": "Pentera",
+  "platforms": ["web", "api"],
+  "tags": ["security-validation", "pentesting", "exposure-management", "adversarial-testing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pentera.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 852,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Agentless adversarial validation that safely runs real exploits to surface which exposures are truly exploitable across network, cloud, and external.",
+  "pros": [
+    "Proves real exploitability, not just CVE lists",
+    "Agentless deployment",
+    "Maps full attack paths",
+    "Agentic AI interface (Pentera Peer)",
+    "$100M+ ARR, 1,000+ customers"
+  ],
+  "cons": [
+    "Enterprise pricing, quote-only",
+    "Built for mature security teams",
+    "Overlaps with existing scanners for some"
+  ],
+  "bestFor": ["Enterprise security teams", "Exposure validation programs", "Reducing CVE noise"],
+  "alternatives": ["horizon3-ai", "xbow"]
+}
