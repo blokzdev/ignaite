@@ -1,0 +1,55 @@
+{
+  "slug": "spotdraft",
+  "insight": "Raised $8M from Qualcomm Ventures in Jan 2026 to build on-device AI for enterprise legal; ~$113M raised in total.",
+  "name": "SpotDraft",
+  "tagline": "AI-powered contract lifecycle management for fast-growing teams.",
+  "description": "SpotDraft is an AI-powered contract lifecycle management (CLM) platform for legal and business teams to create, negotiate, sign, store, and track contracts in one place. Its VerifAI assistant reviews and redlines contracts against your playbook, while workflows, e-signature, a searchable repository, and obligation tracking cover the full lifecycle. Integrates with Microsoft Word, Slack, and Teams.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "SpotDraft",
+  "platforms": ["web"],
+  "tags": ["legal", "contracts", "clm", "contract-management", "word-addin"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.spotdraft.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.spotdraft.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 858,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Covers the whole contract lifecycle — drafting, negotiation, e-sign, repository, and obligation tracking — with AI review (VerifAI), not just point drafting.",
+  "pros": [
+    "Full contract lifecycle in one platform",
+    "VerifAI AI review and redlining",
+    "Word, Slack, and Teams integrations",
+    "SOC 2 / GDPR / HIPAA compliant"
+  ],
+  "cons": [
+    "Enterprise sales/demo, no public free tier",
+    "Heavier than a single-purpose drafting tool",
+    "Best fit for in-house legal teams"
+  ],
+  "bestFor": ["In-house legal teams", "Contract lifecycle management", "High-volume contracting"],
+  "alternatives": ["ironclad", "spellbook", "draftwise", "legora"],
+  "references": [
+    {
+      "title": "SpotDraft raises $54 mn to lead AI-powered contract lifecycle management",
+      "url": "https://www.business-standard.com/companies/start-ups/spotdraft-raises-54-mn-to-lead-ai-powered-contract-lifecycle-management-125021201823_1.html",
+      "source": "Business Standard",
+      "kind": "analysis"
+    },
+    {
+      "title": "SpotDraft Secures $54M To Lead AI Contract Lifecycle Management",
+      "url": "https://theaiinsider.tech/2025/02/14/spotdraft-secures-54m-to-lead-ai-contract-lifecycle-management/",
+      "source": "The AI Insider",
+      "kind": "analysis"
+    }
+  ]
+}

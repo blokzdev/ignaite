@@ -1,0 +1,45 @@
+{
+  "slug": "anyscale",
+  "insight": "Founded in 2019 by Ray's UC Berkeley RISELab creators (Ion Stoica, Robert Nishihara, Philipp Moritz); valued around $1B.",
+  "name": "Anyscale",
+  "tagline": "Production AI compute platform built by the creators of Ray.",
+  "description": "Anyscale is a managed platform for running large-scale AI workloads — distributed training, multimodal data processing, batch inference, and post-training — on Ray, the open-source compute engine. It pools GPUs across AWS, GCP, Azure, and other clouds behind a control plane that adds scaling, observability, and enterprise security (SSO/SAML/SCIM). Built by the UC Berkeley team behind Ray.",
+  "category": "infra",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Anyscale",
+  "platforms": ["web", "cli"],
+  "tags": ["ray", "distributed-computing", "gpu", "training", "batch-inference", "mlops"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.anyscale.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.anyscale.com"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/ray-project/ray"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 859,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Built by Ray's creators — runs training, batch inference, and data processing on your own multi-cloud GPUs, not a fixed serverless endpoint.",
+  "pros": [
+    "Built by the original Ray creators",
+    "Scales across AWS/GCP/Azure GPUs",
+    "One engine for training, data, and inference",
+    "Enterprise security and observability"
+  ],
+  "cons": [
+    "Aimed at ML engineers, steep for beginners",
+    "Usage-based GPU costs add up",
+    "Overkill for small single-node jobs"
+  ],
+  "bestFor": ["ML/AI engineering teams", "Distributed training at scale", "Large batch inference"],
+  "alternatives": ["modal", "baseten", "runpod", "skypilot"]
+}
