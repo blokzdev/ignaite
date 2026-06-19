@@ -1,0 +1,51 @@
+{
+  "slug": "contextforge",
+  "insight": "Created and open-sourced by IBM under Apache 2.0; federates not just MCP but also A2A agents and REST/gRPC APIs behind one gateway.",
+  "name": "ContextForge",
+  "tagline": "Open-source MCP gateway, registry, and proxy.",
+  "description": "ContextForge is an open-source gateway that sits in front of Model Context Protocol servers, federating them — alongside A2A agents and REST/gRPC APIs — behind a single endpoint with centralized governance. It speaks HTTP, JSON-RPC, WebSocket, SSE, stdio, and streamable HTTP, and ships an admin UI, OpenTelemetry-based observability, Redis-backed caching, and multi-cluster federation. Built and maintained by IBM, it targets production deployments that need to manage many MCP tools at once.",
+  "category": "mcp",
+  "secondaryCategories": ["infra"],
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "IBM",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Protocol gateway; routes tool calls from any MCP-capable client/model."
+  },
+  "tags": ["mcp", "gateway", "registry", "open-source"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/IBM/mcp-context-forge",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 841,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "One self-hosted control plane unifying MCP servers with A2A agents and REST/gRPC APIs, plus an admin UI and OpenTelemetry observability.",
+  "pros": [
+    "Apache-2.0, backed by IBM",
+    "Federates MCP, A2A, and REST/gRPC",
+    "Built-in observability and admin UI",
+    "Multi-cluster federation"
+  ],
+  "cons": [
+    "Self-host setup and ops overhead",
+    "Heavier than a single MCP server",
+    "Enterprise-oriented complexity"
+  ],
+  "bestFor": ["Enterprise MCP fleets", "Self-hosted teams"],
+  "alternatives": ["smithery", "glama", "toolhouse", "composio"],
+  "references": [
+    {
+      "title": "MCP Gateways in 2026: Top 10 Tools for AI Agents and Workflows",
+      "url": "https://bytebridge.medium.com/mcp-gateways-in-2026-top-10-tools-for-ai-agents-and-workflows-d98f54c3577a",
+      "source": "ByteBridge",
+      "kind": "analysis"
+    }
+  ]
+}
