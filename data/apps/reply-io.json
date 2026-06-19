@@ -1,0 +1,49 @@
+{
+  "slug": "reply-io",
+  "name": "Reply.io",
+  "tagline": "AI sales engagement platform with Jason, an autonomous AI SDR agent.",
+  "description": "Reply.io is a multichannel sales engagement platform that helps B2B teams run outbound at scale across email, calls, LinkedIn, and SMS. It bundles sequence automation, a built-in B2B contact database, and an email-deliverability toolkit, and centers on Jason, an AI SDR agent that can source prospects, build and send sequences, handle replies, and book meetings — either fully autonomously (autopilot) or drafting each step for rep approval (copilot).",
+  "insight": "Founded in 2014 by Oleg Bilozor; began as a single-channel cold-email tool before expanding into a full AI sales-engagement platform.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Reply",
+  "platforms": ["web", "api", "browser-extension"],
+  "tags": ["sales-engagement", "ai-sdr", "outbound", "multichannel", "email-deliverability"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://reply.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://reply.io/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 866,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Pairs multichannel sequencing and a built-in B2B contact database with Jason, an AI SDR that can source, sequence, and book meetings autonomously.",
+  "pros": [
+    "Mature multichannel sequencing",
+    "Built-in contact database and deliverability tools",
+    "Jason AI SDR runs in autopilot or copilot mode",
+    "Founded in 2014 — established platform"
+  ],
+  "cons": [
+    "Jason AI SDR tiers start around $800/month",
+    "Free trial only, no permanent free tier",
+    "Breadth of features has a learning curve"
+  ],
+  "bestFor": ["B2B outbound teams", "Multichannel prospecting", "AI-assisted SDR workflows"],
+  "alternatives": ["outreach", "salesloft", "apollo", "amplemarket"],
+  "references": [
+    {
+      "title": "Reply.io Review 2026: Features, Pricing, Pros, & Cons",
+      "url": "https://snov.io/blog/reply-io-review/",
+      "source": "Snov.io",
+      "kind": "review"
+    }
+  ]
+}

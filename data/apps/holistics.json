@@ -1,0 +1,47 @@
+{
+  "slug": "holistics",
+  "name": "Holistics",
+  "tagline": "AI-assisted self-service BI built on a programmable, governed semantic layer.",
+  "description": "Holistics is a business intelligence platform that lets data teams define centralized metrics and modeling logic in a programmable semantic layer, then lets business users explore the data through AI queries or point-and-click without writing SQL. Its AI reasons over the governed semantic layer — generating AQL (Analytics Query Language) rather than raw text-to-SQL — so answers stay grounded in defined metrics, with lineage, multi-turn context, and Git-based version control for analytics-as-code.",
+  "insight": "Bootstrapped since 2015 with no outside VC; reached about $5M revenue with a roughly 37-person team by 2024.",
+  "category": "analytics",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Holistics Software",
+  "platforms": ["web", "api"],
+  "tags": [
+    "business-intelligence",
+    "semantic-layer",
+    "text-to-sql",
+    "self-service-bi",
+    "analytics-as-code"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.holistics.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.holistics.io/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 867,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Its AI reasons over a governed semantic layer (AQL) so answers stay grounded in defined metrics — verifiable BI, not ad-hoc text-to-SQL.",
+  "pros": [
+    "Governed semantic layer keeps AI answers consistent",
+    "Analytics-as-code with Git and dbt integration",
+    "Self-service exploration for non-technical users",
+    "Established, profitable, bootstrapped vendor"
+  ],
+  "cons": [
+    "Paid-only — plans start around $800/month",
+    "Semantic-layer modeling has a setup cost",
+    "Smaller ecosystem than incumbent BI suites"
+  ],
+  "bestFor": ["Data teams", "Governed self-service BI", "Metric-driven analytics"],
+  "alternatives": ["zenlytic", "wren-ai", "hex", "thoughtspot"]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "contextual-ai",
+  "name": "Contextual AI",
+  "tagline": "Enterprise RAG platform for building grounded, specialized AI agents over technical knowledge.",
+  "description": "Contextual AI is an enterprise platform for building retrieval-augmented AI agents that answer over a company's technical documentation, specifications, and institutional knowledge. It exposes individually tunable RAG components — document parsing, retrieval, reranking, and grounded generation — plus an agentic search and research layer, so teams in regulated, high-accuracy domains (finance, engineering, legal) can automate complex knowledge work while keeping answers grounded in source material. Available as multi-tenant SaaS, single-tenant SaaS, or private VPC, with developer APIs.",
+  "insight": "Founded in 2023 by Douwe Kiela, who co-authored the original RAG paper while leading research at Meta.",
+  "category": "search",
+  "secondaryCategories": ["agent"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Contextual AI",
+  "platforms": ["web", "api"],
+  "tags": ["rag", "enterprise-search", "grounding", "agents", "knowledge-management"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://contextual.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.contextual.ai"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 865,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Built around specialized, individually-tunable RAG components — parse, rerank, and generate — for grounded accuracy in high-stakes technical domains.",
+  "pros": [
+    "Purpose-built for grounded, citation-backed answers",
+    "Tunable RAG components (parse, rerank, generate)",
+    "Private VPC and single-tenant deployment options",
+    "Founding team pioneered RAG research"
+  ],
+  "cons": [
+    "Pricing is enterprise sales-led, not transparent",
+    "Aimed at technical/regulated industries, not consumers",
+    "Requires data and knowledge-base setup to shine"
+  ],
+  "bestFor": ["Enterprise knowledge work", "Regulated industries", "Grounded RAG agents"],
+  "alternatives": ["vectara", "glean", "exa"],
+  "references": [
+    {
+      "title": "San Francisco's Contextual AI raises $80m to scale platform",
+      "url": "https://www.siliconrepublic.com/start-ups/contextual-ai-funding-series-a-douwe-kiela-rag-platform",
+      "source": "Silicon Republic",
+      "kind": "analysis"
+    }
+  ]
+}
