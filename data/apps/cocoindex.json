@@ -1,0 +1,46 @@
+{
+  "slug": "cocoindex",
+  "insight": "Open-source under Apache 2.0 with a Rust core and a declarative Python API; passed 10k+ GitHub stars.",
+  "name": "CocoIndex",
+  "tagline": "Incremental data framework for fresh AI context.",
+  "description": "CocoIndex is an open-source data transformation framework that keeps AI agents and LLM apps supplied with continuously fresh, structured context. It turns sources like codebases, PDFs, databases, and Slack into vector or graph stores, and reprocesses only what changed (delta-only) with parallel execution by default. A Rust core drives reliability while pipelines are defined declaratively in Python, with end-to-end lineage and an observability UI called CocoInsight.",
+  "category": "data-ops",
+  "secondaryCategories": ["vector-db"],
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "CocoIndex",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring your own LLM and embedding providers for transforms."
+  },
+  "tags": ["data-pipeline", "etl", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://cocoindex.io"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 844,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Delta-only incremental recomputation keeps context fresh without rebuilding the whole pipeline, with data lineage tracked end to end.",
+  "pros": [
+    "Apache-2.0 with a Rust core",
+    "Incremental, delta-only processing",
+    "Declarative Python pipelines",
+    "End-to-end lineage + CocoInsight UI"
+  ],
+  "cons": [
+    "Younger, smaller ecosystem",
+    "Python-centric authoring",
+    "Bring your own model/embedding cost"
+  ],
+  "bestFor": ["RAG pipelines", "Agent context engineering"],
+  "alternatives": ["docling", "unstructured", "llamaindex"]
+}

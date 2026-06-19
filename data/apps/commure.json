@@ -1,0 +1,41 @@
+{
+  "slug": "commure",
+  "insight": "Formed by the 2024 Commure–Athelas merger (led by Athelas CEO Tanay Tandon, backed by General Catalyst) at a ~$6B combined valuation.",
+  "name": "Commure",
+  "tagline": "AI platform automating healthcare operations end to end.",
+  "description": "Commure is an AI-native platform that automates healthcare operations across clinical documentation, revenue cycle management, and patient engagement. Its products span ambient AI scribing, dictation, coding and claims, workflow agents, and care-coordination tools, deployed across hundreds of health systems. The company was formed by the 2024 merger of Commure and Athelas and is backed by General Catalyst.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Commure",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary healthcare AI across documentation, RCM, coding, and agents."
+  },
+  "tags": ["healthcare", "ambient-ai", "revenue-cycle", "clinical-documentation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.commure.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 843,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Bundles ambient scribe, RCM, coding, and patient engagement into one platform where most rivals cover documentation alone.",
+  "pros": [
+    "End-to-end operations, not just scribing",
+    "Deployed across 100+ health systems",
+    "Backed by General Catalyst",
+    "Integrates with existing EHRs"
+  ],
+  "cons": [
+    "Enterprise sales; pricing not public",
+    "Heavy for small practices",
+    "Broad suite can mean more to adopt"
+  ],
+  "bestFor": ["Health systems", "Hospital operations teams"],
+  "alternatives": ["abridge", "ambience-healthcare", "suki", "nabla"]
+}

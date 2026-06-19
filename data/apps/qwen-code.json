@@ -1,0 +1,56 @@
+{
+  "slug": "qwen-code",
+  "insight": "Forked from Google's Gemini CLI and re-optimized for Alibaba's open-weight Qwen3-Coder models; Apache-2.0 licensed.",
+  "name": "Qwen Code",
+  "tagline": "Open-source AI coding agent that lives in your terminal.",
+  "description": "Qwen Code is a command-line coding agent from Alibaba's Qwen team, adapted from Google's Gemini CLI and tuned for the open-weight Qwen3-Coder models. It runs an interactive or headless terminal UI with agentic features — auto-memory, subagents, agent teams, and MCP support — for codebase comprehension, editing, and multi-step automation. It supports OpenAI-, Anthropic-, and Gemini-compatible providers plus local models, and offers a free Qwen OAuth tier alongside bring-your-own-key usage.",
+  "category": "ide",
+  "secondaryCategories": ["agent"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Alibaba",
+  "platforms": ["cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Qwen3-Coder", "OpenAI", "Anthropic", "Gemini"],
+    "notes": "OpenAI/Anthropic/Gemini-compatible providers plus local models; optimized for Qwen3-Coder."
+  },
+  "tags": ["coding-agent", "cli", "open-source", "terminal"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://qwen.ai/qwencode"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 842,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Parser and prompts tuned for Qwen3-Coder, with a free Qwen OAuth tier and native multi-provider support out of the box.",
+  "pros": [
+    "Apache-2.0 and free to run",
+    "Free Qwen OAuth tier",
+    "Multi-provider + local models",
+    "Agentic: subagents, MCP, memory"
+  ],
+  "cons": [
+    "Best results need Qwen models",
+    "Younger than Gemini CLI upstream",
+    "Terminal-only workflow"
+  ],
+  "bestFor": ["Qwen-model users", "Terminal-first developers"],
+  "alternatives": ["openai-codex", "gemini-cli", "crush", "goose"],
+  "references": [
+    {
+      "title": "Qwen Code CLI: A Guide With Examples",
+      "url": "https://www.datacamp.com/tutorial/qwen-code",
+      "source": "DataCamp",
+      "kind": "guide"
+    }
+  ]
+}

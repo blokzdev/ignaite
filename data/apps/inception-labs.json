@@ -1,0 +1,50 @@
+{
+  "slug": "inception-labs",
+  "insight": "Shipped Mercury (Feb 2025), the first commercially available diffusion-based LLM; founded by Stanford's Stefano Ermon.",
+  "name": "Inception Labs",
+  "tagline": "Diffusion LLMs for ultra-fast text and code.",
+  "description": "Inception Labs builds diffusion-based large language models (dLLMs) that generate tokens in parallel rather than sequentially, claiming several times the speed and under half the cost of conventional autoregressive LLMs at comparable quality. Its Mercury family — including the Mercury 2 reasoning model and Mercury Edit for code — is served through an OpenAI-compatible API and also via AWS Bedrock and Azure. The Stanford spinout, led by Stefano Ermon, raised $50M from Menlo Ventures with angels including Andrew Ng and Andrej Karpathy.",
+  "category": "inference",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Inception Labs",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Mercury 2", "Mercury Edit 2"],
+    "notes": "First-party diffusion LLMs; OpenAI-compatible API, also on AWS Bedrock and Azure."
+  },
+  "tags": ["inference", "diffusion-llm", "low-latency", "code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.inceptionlabs.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 845,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Diffusion decoding generates tokens in parallel for 1,000+ tokens/sec — several times faster and cheaper than autoregressive LLMs of similar quality.",
+  "pros": [
+    "1,000+ tokens/sec throughput",
+    "Lower per-token cost than peers",
+    "OpenAI-compatible API",
+    "Available on Bedrock and Azure"
+  ],
+  "cons": [
+    "Own model family only (Mercury)",
+    "Newer, less battle-tested than GPT/Claude",
+    "Paid API, no large free tier"
+  ],
+  "bestFor": ["Latency-critical apps", "High-throughput code generation"],
+  "alternatives": ["groq", "cerebras", "fireworks-ai", "together-ai"],
+  "references": [
+    {
+      "title": "Inception raises $50 million to build diffusion models for code and text",
+      "url": "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
