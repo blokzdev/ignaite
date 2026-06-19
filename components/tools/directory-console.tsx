@@ -94,6 +94,9 @@ export function DirectoryConsole() {
   // paints first — it never truncates.)
   const wide = useMediaQuery("(min-width: 640px)");
   const stripRef = useRef<HTMLDivElement>(null);
+  // Focus target for the desktop Filters popover (keeps open-focus off the
+  // in-panel Category type-ahead — see PopoverContent.onOpenAutoFocus).
+  const popoverRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const strip = stripRef.current;
     if (!strip) return;
@@ -141,9 +144,12 @@ export function DirectoryConsole() {
     ],
   );
 
-  // Secondary-facet count for the Filters badge — everything except Category (the
-  // strip owns it) and the free-text query (the field owns it).
-  const secondaryCount =
+  // Active-filter count for the Filters badge, shared by both surfaces (desktop
+  // popover + mobile drawer now carry the same facets incl. Category). Counts
+  // every narrowing facet; the free-text query and sort stay out — each has its
+  // own visible control. Matches the active-filter pills row.
+  const activeFilterCount =
+    filter.category.length +
     filter.pricing.length +
     filter.deployment.length +
     filter.platform.length +
@@ -298,10 +304,12 @@ export function DirectoryConsole() {
           <div className="hidden sm:block">
             <Popover>
               <PopoverTrigger
-                aria-label={secondaryCount > 0 ? `Filters, ${secondaryCount} applied` : "Filters"}
+                aria-label={
+                  activeFilterCount > 0 ? `Filters, ${activeFilterCount} applied` : "Filters"
+                }
                 className={cn(
                   "inline-flex h-8 shrink-0 items-center gap-2 rounded-full px-2.5 font-mono text-[11px] tracking-[0.08em] uppercase ring-1 transition-colors ring-inset focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none",
-                  secondaryCount > 0
+                  activeFilterCount > 0
                     ? "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-[var(--color-accent)]/30 hover:bg-[var(--color-accent)]/[0.18] data-[state=open]:bg-[var(--color-accent)]/[0.18]"
                     : "bg-white/[0.04] text-[var(--color-ink)] ring-white/[0.08] hover:bg-white/[0.08] data-[state=open]:bg-white/[0.08]",
                 )}
@@ -309,26 +317,49 @@ export function DirectoryConsole() {
                 <SlidersHorizontal
                   className={cn(
                     "h-3.5 w-3.5",
-                    secondaryCount > 0
+                    activeFilterCount > 0
                       ? "text-[var(--color-accent)]"
                       : "text-[var(--color-ink-dim)]",
                   )}
                 />
                 Filters
-                {secondaryCount > 0 && (
+                {activeFilterCount > 0 && (
                   <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[var(--color-accent)] px-1 text-[10px] text-[var(--color-canvas)]">
-                    {secondaryCount}
+                    {activeFilterCount}
                   </span>
                 )}
               </PopoverTrigger>
-              <PopoverContent align="end" className="w-80">
-                <FilterControls
-                  filters={filters}
-                  variant="stacked"
-                  omit={["category"]}
-                  counts={counts}
-                />
-                <div className="mt-4 flex items-center justify-between gap-3 border-t border-white/[0.06] pt-3">
+              <PopoverContent
+                ref={popoverRef}
+                align="end"
+                tabIndex={-1}
+                onOpenAutoFocus={(e) => {
+                  // Don't yank focus into the Category type-ahead on open (it'd
+                  // jump the view to the search field); land on the panel so Tab
+                  // reaches the input first. Mirrors the mobile sheet.
+                  e.preventDefault();
+                  popoverRef.current?.focus();
+                }}
+                onEscapeKeyDown={(e) => {
+                  // Two-stage Esc for the Category type-ahead: while it holds a
+                  // query the input's own handler clears it, so veto Radix's
+                  // dismiss here (capture-phase) — a second, empty Esc closes.
+                  const el = document.activeElement;
+                  if (el instanceof HTMLInputElement && el.value && el.dataset.escClears != null) {
+                    e.preventDefault();
+                  }
+                }}
+                className="flex max-h-[min(70vh,34rem)] w-80 flex-col"
+              >
+                <div className="no-scrollbar -mx-1 flex-1 overflow-y-auto px-1">
+                  <FilterControls
+                    filters={filters}
+                    variant="stacked"
+                    categoryIdPrefix="popover"
+                    counts={counts}
+                  />
+                </div>
+                <div className="mt-4 flex shrink-0 items-center justify-between gap-3 border-t border-white/[0.06] pt-3">
                   <p
                     className="font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase"
                     aria-live="polite"
@@ -354,7 +385,7 @@ export function DirectoryConsole() {
               faceted from the same source as the strip, so the two always agree. */}
           <div className="sm:hidden">
             <FilterDrawer
-              activeCount={secondaryCount}
+              activeCount={activeFilterCount}
               total={statusScope}
               filtered={filtered}
               counts={counts}

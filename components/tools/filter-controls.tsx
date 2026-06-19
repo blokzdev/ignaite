@@ -26,11 +26,20 @@ interface Props {
   variant?: "inline" | "stacked";
   /** Facet rows to hide (the owning surface renders them instead). */
   omit?: ReadonlyArray<FacetKey>;
+  /** Namespaces the Category type-ahead's element ids per surface ("drawer" |
+   *  "popover"), so the two never collide if both happen to be mounted. */
+  categoryIdPrefix?: string;
   /** Live faceted counts. When omitted, chips render without counts/dimming. */
   counts?: FacetCounts;
 }
 
-export function FilterControls({ filters, variant = "inline", omit, counts }: Readonly<Props>) {
+export function FilterControls({
+  filters,
+  variant = "inline",
+  omit,
+  categoryIdPrefix = "drawer",
+  counts,
+}: Readonly<Props>) {
   const { filter } = filters;
   const stacked = variant === "stacked";
   const hidden = (key: FacetKey) => omit?.includes(key) ?? false;
@@ -48,7 +57,7 @@ export function FilterControls({ filters, variant = "inline", omit, counts }: Re
         // single scrolling row (currently caller-less; the console strip is a
         // separate surface).
         (stacked ? (
-          <CategoryClusterPicker filters={filters} counts={counts} idPrefix="drawer" />
+          <CategoryClusterPicker filters={filters} counts={counts} idPrefix={categoryIdPrefix} />
         ) : (
           <FilterRow label="Category" stacked={stacked}>
             <FilterChip
