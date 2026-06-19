@@ -1,0 +1,43 @@
+{
+  "slug": "hamming",
+  "insight": "Y Combinator S24 company; raised a $3.8M seed (Dec 2024); founders previously built ML systems at Tesla and Citizen.",
+  "name": "Hamming",
+  "tagline": "Automated testing and monitoring for voice and chat agents.",
+  "description": "Hamming is an enterprise platform for testing and monitoring conversational AI agents. It auto-generates test scenarios from an agent's prompt, load-tests with tens of thousands of concurrent calls, replays production calls for regression testing, and scores 50+ audio-native metrics like latency, hallucinations, sentiment, and compliance. It integrates natively with Vapi, Retell, ElevenLabs, LiveKit, and Pipecat.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Hamming",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Tests and monitors any voice or chat agent regardless of underlying model."
+  },
+  "tags": ["voice-agents", "testing", "evaluation", "monitoring", "load-testing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://hamming.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.hamming.ai"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 872,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Audio-native eval scores tone, interruptions and emotion from the call itself (~95% human agreement), and load-tests 50K+ concurrent calls.",
+  "pros": [
+    "Audio-native eval (~95% human agreement)",
+    "Load-test 50K+ concurrent calls",
+    "Production call replay and regression",
+    "Integrates Vapi, Retell, LiveKit, Pipecat",
+    "SOC 2 Type II, HIPAA-ready"
+  ],
+  "cons": ["No public pricing or free tier", "Focused on voice/chat agents", "Newer company"],
+  "bestFor": ["Voice AI teams", "Contact-center automation", "Regulated industries"],
+  "alternatives": ["coval", "maxim-ai", "langwatch", "confident-ai"]
+}
