@@ -1,0 +1,46 @@
+{
+  "slug": "querio",
+  "name": "Querio",
+  "tagline": "Agentic notebooks that let any team explore data in natural language with inspectable SQL.",
+  "description": "Querio is a data platform built around agentic notebooks: teams and customers ask questions in natural language and Querio's agents generate the SQL and Python to answer them, with every query visible and editable. It connects to multiple data sources, integrates with Slack, and can embed analytics into customer-facing applications for users of any technical level.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Querio",
+  "platforms": ["web"],
+  "tags": [
+    "text-to-sql",
+    "analytics",
+    "agentic-notebooks",
+    "business-intelligence",
+    "embedded-analytics"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://querio.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://querio.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 881,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Agentic notebooks let non-technical users query any database in natural language, inspect the generated SQL, and embed it in customer-facing apps.",
+  "pros": [
+    "Natural-language querying with inspectable SQL",
+    "Agentic notebooks usable at any skill level",
+    "Embeddable customer-facing analytics",
+    "Free Startup tier, no card required"
+  ],
+  "cons": [
+    "Newer product with a limited public track record",
+    "Data-connection limits on lower tiers",
+    "Self-hosting reserved for Enterprise"
+  ],
+  "bestFor": ["Self-serve analytics", "Embedded analytics"],
+  "alternatives": ["wren-ai", "vanna", "julius", "hex"]
+}

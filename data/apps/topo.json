@@ -1,0 +1,41 @@
+{
+  "slug": "topo",
+  "insight": "A Y Combinator W24 company building autonomous AI SDR agents that run outbound across email and LinkedIn.",
+  "name": "Topo",
+  "tagline": "Autonomous AI SDR agents that run multichannel outbound from your ICP and CRM.",
+  "description": "Topo is an AI sales platform whose agents train on your ideal customer profile and CRM data, then find and enrich matching leads, detect intent signals, and run personalized outbound across email and LinkedIn to book meetings. Reps supervise and steer every agent action from Slack or Teams.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Topo",
+  "platforms": ["web"],
+  "tags": ["ai-sdr", "outbound", "sales", "prospecting", "lead-generation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.topo.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.topo.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 878,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Agents train on your ICP and CRM, then run email + LinkedIn outbound autonomously while you supervise each action from Slack or Teams.",
+  "pros": [
+    "Trains on your ICP and CRM data",
+    "Autonomous email + LinkedIn outbound",
+    "Slack/Teams oversight of every agent action",
+    "Y Combinator-backed"
+  ],
+  "cons": [
+    "Entry plan starts at $900/mo, no free tier",
+    "Setup requires a clearly defined ICP",
+    "Younger company with a shorter track record"
+  ],
+  "bestFor": ["SMB outbound teams", "Founder-led sales"],
+  "alternatives": ["aisdr", "11x", "artisan", "amplemarket"]
+}

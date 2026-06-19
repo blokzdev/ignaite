@@ -1,0 +1,42 @@
+{
+  "slug": "lovo",
+  "insight": "Backed by Kakao Entertainment and LG CNS ($13.4M raised); its Genny platform has passed 2 million users.",
+  "name": "LOVO AI",
+  "tagline": "AI voice generation studio with 500+ voices, voice cloning and a built-in video editor.",
+  "description": "LOVO AI's Genny platform generates text-to-speech voiceovers in 500+ voices across 100+ languages, with voice cloning from short samples and directable, expressive delivery. The browser-based studio bundles an online video editor, auto subtitles, an AI script writer and a developer API, targeting creators producing YouTube videos, e-learning, podcasts and ads.",
+  "category": "voice",
+  "secondaryCategories": ["audio"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "LOVO, Inc.",
+  "platforms": ["web", "api"],
+  "tags": ["text-to-speech", "voice-cloning", "voiceover", "video-editing", "genny"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lovo.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://lovo.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 882,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Bundles 500+ voices in 100+ languages with a video editor, subtitle generator and voice cloning in one browser studio, instead of TTS alone.",
+  "pros": [
+    "500+ voices across 100+ languages",
+    "All-in-one studio with video editor and subtitles",
+    "Voice cloning from short samples",
+    "Free plan and developer API"
+  ],
+  "cons": [
+    "Credit limits constrain heavy use",
+    "Quality varies across the voice library",
+    "Video editor is lighter than dedicated tools"
+  ],
+  "bestFor": ["Faceless YouTube", "E-learning narration"],
+  "alternatives": ["elevenlabs", "murf", "speechify", "wellsaid"]
+}

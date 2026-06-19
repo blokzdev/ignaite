@@ -1,0 +1,49 @@
+{
+  "slug": "aisdr",
+  "insight": "Reports booking over 12,000 customer meetings in 2025 across 250+ companies, and publishes its flat $900/mo price openly.",
+  "name": "AiSDR",
+  "tagline": "Fully autonomous AI sales rep for outbound across email, LinkedIn and phone.",
+  "description": "AiSDR is an AI sales development platform that targets prospects from intent signals, researches each lead, and runs personalized multichannel campaigns across email, LinkedIn and phone to qualify and book meetings. It pulls from HubSpot and Salesforce records to personalize outreach and positions itself as a replacement for a stack of point sales tools.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "AiSDR",
+  "platforms": ["web"],
+  "tags": ["ai-sdr", "outbound", "email", "linkedin", "sales"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aisdr.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://aisdr.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 879,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Signal-based targeting with deep per-prospect research across email, LinkedIn and phone — sold at a transparent flat price instead of demo-gated quotes.",
+  "pros": [
+    "Autonomous outbound across email, LinkedIn and phone",
+    "Transparent flat $900/mo pricing",
+    "Native HubSpot and Salesforce integration",
+    "Signal-based targeting and per-lead research"
+  ],
+  "cons": [
+    "$900/mo entry is steep for small teams",
+    "Longer setup; needs a defined ICP",
+    "Output quality depends on data inputs"
+  ],
+  "bestFor": ["B2B outbound", "Lean sales teams"],
+  "alternatives": ["topo", "11x", "artisan", "amplemarket"],
+  "references": [
+    {
+      "title": "9 Best AI SDR Tools in 2026 (I Tested Each One)",
+      "url": "https://www.saleshandy.com/blog/ai-sdr-tools/",
+      "source": "Saleshandy",
+      "kind": "review"
+    }
+  ]
+}
