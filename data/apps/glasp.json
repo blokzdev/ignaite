@@ -4,7 +4,7 @@
   "name": "Glasp",
   "tagline": "Highlight, summarise, and chat with anything you read on the web.",
   "description": "Web-highlighter + AI extension. Save passages from any page, then ask AI for summaries, related ideas, or chat across your knowledge base. BYO key keeps your reading history private.",
-  "category": "browser-extension",
+  "category": "productivity",
   "pricing": "freemium",
   "vendor": "Glasp",
   "platforms": ["browser-extension", "web"],

@@ -4,7 +4,7 @@
   "name": "Merlin AI",
   "tagline": "Multi-model AI assistant in a browser side-panel, on any tab.",
   "description": "A Chrome extension and web app that opens a Claude / GPT / Gemini / DeepSeek panel on any page (Ctrl/⌘+M) to summarize articles, chat with PDFs, draft replies on Gmail and LinkedIn, and answer alongside Google results. One subscription spans many models on a shared query-credit allowance.",
-  "category": "browser-extension",
+  "category": "assistant",
   "pricing": "freemium",
   "vendor": "Foyer",
   "platforms": ["browser-extension", "web"],

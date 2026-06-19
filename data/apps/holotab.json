@@ -4,7 +4,7 @@
   "tagline": "Free Chrome extension that runs an AI agent to complete tasks across any website.",
   "description": "HoloTab is a browser extension from H Company that deploys a computer-use AI agent inside Chrome: describe a task in natural language and it navigates sites, clicks, fills forms, and makes decisions like a person would, without technical setup. A Routines feature lets you record a task once and re-run or schedule it later. It is aimed at everyday users rather than developers.",
   "insight": "Launched April 2026 by Paris-based H Company, the French lab that raised ~$220M; runs on its in-house Holo 3 computer-use model.",
-  "category": "browser-extension",
+  "category": "automation",
   "pricing": "free",
   "vendor": "H Company",
   "platforms": ["browser-extension"],

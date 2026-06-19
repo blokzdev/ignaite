@@ -3,7 +3,7 @@
   "name": "Wiseone",
   "tagline": "AI search and reading copilot that lives in your browser.",
   "description": "A browser extension that overlays an AI assistant on any web page: summarize long articles, ask questions about what you're reading, and use Focus to unpack complex terms in place. Its Cross-check feature pulls independent sources on a claim, and Suggestions surfaces related news, academic papers, and videos — so research happens without leaving the tab.",
-  "category": "browser-extension",
+  "category": "search",
   "pricing": "freemium",
   "vendor": "Wiseone",
   "platforms": ["browser-extension"],

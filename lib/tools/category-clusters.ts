@@ -52,7 +52,6 @@ export const CATEGORY_CLUSTERS = [
       "research-platform",
       "analytics",
       "automation",
-      "browser-extension",
       "translation",
       "meeting",
       "marketing",

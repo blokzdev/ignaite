@@ -4,7 +4,7 @@
   "name": "Monica",
   "tagline": "All-in-one AI assistant sidebar for any browser tab.",
   "description": "Monica is an all-in-one AI assistant that lives in a browser side-panel and across mobile and desktop apps, bundling chat, search, writing, translation, and page or video summarization. It aggregates many frontier models — plus image and video generation — into one subscription that works alongside any webpage.",
-  "category": "browser-extension",
+  "category": "assistant",
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Monica",

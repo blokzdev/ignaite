@@ -94,7 +94,7 @@ discovery rails from going stale.
 - **Chunk U — Featured rotation (#145).** New biweekly `/rotate-featured` routine + optional `featuredAt`
   schema field: features one strong active app across ~14 random categories, rotates the prior set
   out (changelog per change), opens a PR. Keeps the Featured carousel fresh + spreads the spotlight
-  across all 39 categories over ~3 cycles.
+  across all 43 categories over ~3 cycles.
 
 ---
 

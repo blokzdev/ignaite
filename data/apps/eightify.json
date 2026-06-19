@@ -4,7 +4,7 @@
   "tagline": "AI YouTube summarizer that turns any video into key takeaways and timestamps.",
   "description": "Eightify is an AI summarizer for YouTube, delivered as a browser extension with companion mobile apps. It condenses a video into key insights, a short overview, and timestamped sections so you can grasp the main points in seconds and jump straight to what matters, with summaries and translations in 40+ languages. Summaries are generated using ChatGPT and Claude, and it handles videos up to several hours long.",
   "insight": "Summaries run on both Claude and ChatGPT, and a single account works across its Chrome extension and native iOS and Android apps.",
-  "category": "browser-extension",
+  "category": "productivity",
   "pricing": "freemium",
   "platforms": ["browser-extension", "ios", "android"],
   "modelSupport": {

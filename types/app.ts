@@ -49,7 +49,6 @@ export type AppCategory =
   | "research-platform"
   | "analytics"
   | "automation"
-  | "browser-extension"
   | "translation"
   | "meeting"
   | "marketing"
@@ -100,7 +99,6 @@ export const APP_CATEGORIES: ReadonlyArray<AppCategory> = [
   "research-platform",
   "analytics",
   "automation",
-  "browser-extension",
   "translation",
   "meeting",
   "marketing",

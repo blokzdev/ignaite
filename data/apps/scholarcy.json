@@ -5,7 +5,6 @@
   "tagline": "AI that turns research papers into structured, referenced summary flashcards.",
   "description": "Scholarcy reads full-length academic papers, articles, and book chapters and breaks them into interactive summary flashcards that surface the synopsis, key findings, methods, figures, tables, and references. It imports from PDFs, Google Drive, Zotero, and the web, and highlights cited claims so researchers can grasp a paper's core arguments quickly. A premium Scholarcy Library adds unlimited use plus saving, annotating, sharing, and exporting of flashcards.",
   "category": "research-platform",
-  "secondaryCategories": ["browser-extension"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Scholarcy",
