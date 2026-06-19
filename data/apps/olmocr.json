@@ -1,0 +1,48 @@
+{
+  "slug": "olmocr",
+  "insight": "Released by the Allen Institute for AI (Ai2) under Apache 2.0; converts roughly 1M PDF pages for about $190 in compute.",
+  "name": "olmOCR",
+  "tagline": "Open-source OCR that converts PDFs and scans into clean, structured text.",
+  "description": "olmOCR is an open-source toolkit from the Allen Institute for AI that turns PDFs and document images into clean, reading-order plain text, preserving tables, equations, and handwriting. It runs a fine-tuned 7B vision-language model with a document-anchoring prompting technique, and is built for cheap, dataset-scale conversion for LLM training and retrieval. Released with model weights, training data, and inference code; runs on your own GPUs or via third-party inference providers.",
+  "category": "vision",
+  "secondaryCategories": ["data-ops"],
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Allen Institute for AI",
+  "platforms": ["cli", "api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own fine-tuned 7B vision-language model (based on Qwen2-VL)."
+  },
+  "tags": ["ocr", "open-source", "pdf", "document-parsing", "vision-language-model"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://olmocr.allen.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/allenai/olmocr"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 862,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Open-weights VLM OCR that tops accuracy benchmarks while running locally at a fraction of cloud-API cost — fully Apache-2.0.",
+  "pros": [
+    "Fully open source (Apache 2.0)",
+    "Strong accuracy on complex layouts",
+    "Very low cost to run at scale",
+    "Handles tables, equations, handwriting",
+    "Self-hostable, data stays on your infra"
+  ],
+  "cons": [
+    "Requires a capable GPU to self-host",
+    "Not a turnkey hosted product",
+    "Built for batch, dataset-scale workflows"
+  ],
+  "bestFor": ["LLM dataset preparation", "Self-hosted document OCR", "Large-scale PDF conversion"],
+  "alternatives": ["docling", "reducto", "llamaparse", "mindee"]
+}

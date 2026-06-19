@@ -1,0 +1,49 @@
+{
+  "slug": "alitu",
+  "insight": "Launched in 2017 by Colin Gray of The Podcast Host, a podcasting-education site running since 2011.",
+  "name": "Alitu",
+  "tagline": "All-in-one podcast maker: record, auto-clean, edit, and host.",
+  "description": "Alitu is a podcast production platform that guides creators through recording, automatic audio cleanup, transcript-based editing, and publishing in one app. It automates the technical work — noise removal, leveling, and processing — so non-technical podcasters can record and publish the same day, with built-in hosting and one-click distribution to Apple Podcasts and Spotify. Made by The Podcast Host team.",
+  "category": "audio",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "The Podcast Host",
+  "platforms": ["web"],
+  "tags": ["podcast", "audio-editing", "podcast-hosting", "noise-removal", "recording"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://alitu.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://alitu.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 864,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Automates the technical side — noise cleanup, leveling, and editing — into a guided workflow for non-technical podcasters, with hosting built in.",
+  "pros": [
+    "Beginner-friendly guided workflow",
+    "Automatic noise removal and leveling",
+    "Recording, editing, and hosting in one",
+    "Transcript-based editing"
+  ],
+  "cons": [
+    "Subscription with no free tier",
+    "Less control than pro DAWs",
+    "Focused only on podcasting"
+  ],
+  "bestFor": ["Beginner podcasters", "Solo & hobbyist shows", "Fast episode turnaround"],
+  "alternatives": ["descript", "riverside", "podsqueeze", "auphonic"],
+  "references": [
+    {
+      "title": "Colin Gray on Growing ThePodcastHost.com and Alitu",
+      "url": "https://soundsprofitable.com/insights/colin-gray-interview/",
+      "source": "Sounds Profitable",
+      "kind": "interview"
+    }
+  ]
+}

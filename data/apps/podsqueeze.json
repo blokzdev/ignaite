@@ -1,0 +1,41 @@
+{
+  "slug": "podsqueeze",
+  "insight": "Bootstrapped by two indie founders, Podsqueeze reached $100K ARR within five months of launching.",
+  "name": "Podsqueeze",
+  "tagline": "Turn podcast episodes into show notes, clips, and posts in one click.",
+  "description": "Podsqueeze is an AI assistant for podcasters that takes an episode and generates show notes, timestamps, titles, transcripts, newsletters, blog posts, and social clips automatically. It targets the post-production and promotion busywork that follows recording, repurposing a single upload into a full set of distribution assets. A bootstrapped indie product used by tens of thousands of podcasters and agencies.",
+  "category": "audio",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Podsqueeze",
+  "platforms": ["web"],
+  "tags": ["podcast", "show-notes", "transcription", "content-repurposing", "ai-writing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://podsqueeze.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://podsqueeze.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 863,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Purpose-built for podcast repurposing — one upload yields show notes, timestamps, clips, a newsletter, and social posts, not just a transcript.",
+  "pros": [
+    "One-click show notes, clips, and posts",
+    "Many asset types from one episode",
+    "Affordable for indie podcasters",
+    "Integrates with podcast hosts"
+  ],
+  "cons": [
+    "Outputs need human editing and polish",
+    "Narrow to podcast workflows",
+    "Small team vs. enterprise tools"
+  ],
+  "bestFor": ["Indie podcasters", "Podcast agencies", "Show-notes automation"],
+  "alternatives": ["descript", "riverside", "wondercraft", "adobe-podcast"]
+}
