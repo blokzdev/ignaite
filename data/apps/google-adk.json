@@ -1,0 +1,61 @@
+{
+  "slug": "google-adk",
+  "insight": "Open-sourced at Google Cloud Next 2025; the same framework that powers Google's own Agentspace and Customer Engagement Suite agents.",
+  "name": "Agent Development Kit (ADK)",
+  "tagline": "Open-source, code-first framework for building and deploying multi-agent systems.",
+  "description": "Agent Development Kit (ADK) is Google's open-source framework for building, evaluating, and deploying AI agents and multi-agent systems with a code-first, software-engineering workflow. Agents are defined in code and composed into hierarchies, equipped with prebuilt tools, MCP tools, third-party libraries, or other agents. ADK supports bidirectional audio and video streaming, ships built-in evaluation, and deploys anywhere — your own infrastructure, Cloud Run, GKE, or Vertex AI Agent Engine.",
+  "category": "orchestration",
+  "secondaryCategories": ["agent"],
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Google",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Gemini-first but model-agnostic — works with any model via LiteLLM (Anthropic, Meta, Mistral, others) or the Vertex AI Model Garden."
+  },
+  "tags": ["agents", "multi-agent", "framework", "google", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://google.github.io/adk-docs/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/google/adk-python"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 836,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Code-first and model-agnostic with bidirectional audio/video streaming and built-in evals, across Python, Java, Go and TypeScript.",
+  "pros": [
+    "Backed by Google, code-first design",
+    "Model- and deployment-agnostic",
+    "Bidirectional audio/video streaming",
+    "Built-in evaluation and dev UI",
+    "Multi-language: Python, Java, Go, TS"
+  ],
+  "cons": [
+    "Optimized for Gemini and Google Cloud",
+    "Younger than LangChain / LlamaIndex",
+    "Enterprise features lean on Vertex AI"
+  ],
+  "bestFor": ["Multi-agent systems", "Google Cloud / Gemini stacks", "Production agent deployment"],
+  "alternatives": ["langgraph", "crewai", "agno", "microsoft-agent-framework"],
+  "references": [
+    {
+      "title": "Hands-on with the Google Agent Development Kit",
+      "url": "https://www.infoworld.com/article/4153857/hands-on-with-the-google-agent-development-kit.html",
+      "source": "InfoWorld",
+      "kind": "review"
+    },
+    {
+      "title": "Google launches Agent Development Kit for TypeScript",
+      "url": "https://devops.com/google-launches-agent-development-kit-for-typescript-a-code-first-approach-to-building-ai-agents/",
+      "source": "DevOps.com",
+      "kind": "analysis"
+    }
+  ]
+}

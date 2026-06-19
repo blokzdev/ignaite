@@ -1,0 +1,47 @@
+{
+  "slug": "coval",
+  "insight": "Founded by Brooke Hopkins, who built evaluation infrastructure for self-driving cars at Waymo; a YC Summer 2024 company.",
+  "name": "Coval",
+  "tagline": "Simulation and evaluation platform for voice and chat AI agents.",
+  "description": "Coval is an evaluation and monitoring platform for conversational AI agents, applying the simulation-driven testing rigor developed in self-driving to voice and chat. From a handful of test cases it generates thousands of realistic scenarios, runs them against an agent over text or live phone calls, and scores the results on built-in or custom metrics. In production it monitors and scores real calls so teams can catch regressions across millions of conversations.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Coval",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Tests any voice or chat agent regardless of the underlying model or framework."
+  },
+  "tags": ["agent-eval", "voice-agents", "simulation", "monitoring"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.coval.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.coval.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 835,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Brings autonomous-vehicle-style simulation testing to voice agents — turns a few test cases into thousands of scenarios and scores live calls.",
+  "pros": [
+    "Thousands of scenarios from a few cases",
+    "Tests both voice and chat agents",
+    "Production call monitoring + scoring",
+    "Founders' self-driving eval pedigree"
+  ],
+  "cons": [
+    "No free tier — 7-day trial only",
+    "Starts at $100/month",
+    "Focused narrowly on conversational agents",
+    "Younger than general LLM eval tools"
+  ],
+  "bestFor": ["Voice AI teams", "Conversational agent QA", "Pre-launch agent testing"],
+  "alternatives": ["braintrust", "langsmith", "athina", "patronus-ai"]
+}
