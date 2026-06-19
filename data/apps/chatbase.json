@@ -1,0 +1,61 @@
+{
+  "slug": "chatbase",
+  "insight": "Bootstrapped solo by founder Yasser Elsaid with zero venture funding; crossed $10M ARR by 2026 with an ~18-person team.",
+  "name": "Chatbase",
+  "tagline": "Build no-code AI support agents trained on your own data.",
+  "description": "Chatbase is a platform for building and deploying AI customer-support agents trained on your docs, website, and files. Agents answer customer questions, take actions via integrations (Zendesk, Slack, Stripe, Salesforce, WhatsApp), and escalate complex issues to humans, with analytics over performance. It launched in early 2023 as one of the first 'ChatGPT for your website' tools and now serves thousands of businesses across 80+ languages.",
+  "category": "support",
+  "vendor": "Chatbase, Inc.",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT-4o", "Claude", "Gemini"],
+    "notes": "Choose the underlying model powering each agent."
+  },
+  "tags": ["customer-support", "chatbot", "no-code", "rag", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.chatbase.co",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.chatbase.co/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 830,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "One of the simplest no-code paths from your docs to a live support agent — deploy across web, WhatsApp, and Slack without engineering.",
+  "pros": [
+    "No-code agent builder, fast setup",
+    "Trains on your docs, sites, and files",
+    "Human handoff and 80+ languages",
+    "Broad integrations (Zendesk, Slack, CRMs)",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Message credits cap usage on lower tiers",
+    "Focused on support, not general automation",
+    "Answer quality depends on your source content"
+  ],
+  "bestFor": ["SMB customer support", "No-code teams", "Docs-trained chatbots"],
+  "alternatives": ["kapa-ai", "sierra", "decagon", "gorgias"],
+  "references": [
+    {
+      "title": "How Chatbase Hit $3M/ARR In 12 Months [Bootstrapped]",
+      "url": "https://www.starterstory.com/stories/chatbase-breakdown",
+      "source": "Starter Story",
+      "kind": "analysis"
+    },
+    {
+      "title": "How Chatbase Hit $8M ARR with 18 People",
+      "url": "https://productled.com/blog/how-chatbase-hit-8m-arr-with-18-people",
+      "source": "ProductLed",
+      "kind": "analysis"
+    }
+  ]
+}

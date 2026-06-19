@@ -1,0 +1,47 @@
+{
+  "slug": "memu",
+  "insight": "Apache-2.0 licensed; its file-based memory design claims ~10x token reduction versus full-context recall, with ~14k GitHub stars.",
+  "name": "memU",
+  "tagline": "Open-source memory framework for long-running AI agents.",
+  "description": "memU is a memory framework for proactive, always-on AI agents from NevaMind AI. It ingests multimodal inputs (conversations, documents, images), extracts them into structured memory organized as a hierarchical file system, and retrieves the right context via vector-indexed semantic recall. The approach is designed to keep agents online continuously at a fraction of the usual token cost. It is open source under Apache 2.0, with self-hosting plus a hosted cloud API.",
+  "category": "memory",
+  "vendor": "NevaMind AI",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Memory layer; works with any LLM backend."
+  },
+  "tags": ["memory", "agents", "open-source", "rag", "knowledge"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://memu.so",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/NevaMind-AI/memU"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 833,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Stores memories as a hierarchical file system rather than only vector embeddings, cutting context tokens roughly 10x for always-on agents.",
+  "pros": [
+    "Apache-2.0 open source",
+    "File-based, ~10x token reduction",
+    "Semantic recall via vector indexing",
+    "Self-host or hosted cloud API",
+    "Multimodal memory ingestion"
+  ],
+  "cons": [
+    "Younger project, evolving API",
+    "Smaller ecosystem than vector DBs",
+    "Hosted pricing details limited"
+  ],
+  "bestFor": ["Always-on AI agents", "Self-hosted memory", "Companion and assistant apps"],
+  "alternatives": ["mem0", "cognee", "zep", "letta"]
+}
