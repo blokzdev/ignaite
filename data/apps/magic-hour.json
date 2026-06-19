@@ -1,0 +1,49 @@
+{
+  "slug": "magic-hour",
+  "name": "Magic Hour",
+  "tagline": "AI video generator and creative suite with a developer API.",
+  "description": "Magic Hour is an AI creative platform for video, image and audio generation aimed at creators, marketers and developers. It bundles 100+ tools — text-to-video, image-to-video, face swap, lip sync, talking photo, image generation and upscaling, plus voice cloning and music generation — behind one shared credit balance. Beyond the browser app it exposes a REST API with official Python, Node.js, Go and Rust SDKs.",
+  "insight": "Y Combinator–backed; the company reports 3.4M+ creators and ships a REST API with official Python, Node.js, Go and Rust SDKs.",
+  "category": "video",
+  "secondaryCategories": ["image-gen"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Magic Hour AI, Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Aggregates multiple generation models across video, image, voice and music behind one interface and API."
+  },
+  "tags": ["ai-video", "image-generation", "video-editing", "api", "creative-suite"],
+  "accentColor": "#7c5cff",
+  "links": [
+    { "kind": "website", "url": "https://magichour.ai", "primary": true },
+    { "kind": "docs", "url": "https://docs.magichour.ai" }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 874,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Wraps 100+ generation and editing tools (text/image-to-video, face swap, lip sync, voice clone) behind one credit balance and a multi-language developer API.",
+  "pros": [
+    "100+ tools under one subscription",
+    "Free tier, no credit card to start",
+    "REST API with Python/Node/Go/Rust SDKs",
+    "Browser-based, no downloads",
+    "Y Combinator–backed"
+  ],
+  "cons": [
+    "Breadth over best-in-class depth per tool",
+    "Credit-based usage can add up at volume",
+    "Quality varies across the many tools"
+  ],
+  "bestFor": ["Social content creators", "Marketing teams", "Developers needing a video API"],
+  "alternatives": ["runway", "pika", "kling", "luma-dream-machine"],
+  "references": [
+    {
+      "title": "2025 Year-End Review: The Best 8 AI Image and Video Generation Tools",
+      "url": "https://dev.to/nolan_0714/2025-year-end-review-the-best-8-ai-image-and-video-generation-tools-poc",
+      "source": "DEV Community",
+      "kind": "review"
+    }
+  ]
+}

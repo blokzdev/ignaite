@@ -1,0 +1,44 @@
+{
+  "slug": "mecha-health",
+  "name": "Mecha Health",
+  "tagline": "Radiology foundation models that draft clinical reports from scans.",
+  "description": "Mecha Health builds AI foundation models for radiology. It analyzes DICOM medical images with pixel- and voxel-level reasoning and generates complete, editable draft reports — structured findings and impressions — in seconds for radiologist review. It spans multiple imaging modalities and anatomies and integrates with PACS, delivering results over FHIR/HL7, deployable in the cloud or on-premise.",
+  "insight": "Y Combinator (W25); raised a $4.1M seed (Valia Ventures); says its first radiology model beat Microsoft, Google and OpenAI baselines.",
+  "category": "healthcare",
+  "secondaryCategories": ["vision"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Mecha Health",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own radiology foundation models rather than wrapping a third-party LLM."
+  },
+  "tags": ["radiology", "medical-imaging", "healthcare", "foundation-models", "clinical-reports"],
+  "links": [{ "kind": "website", "url": "https://www.mecha-health.ai", "primary": true }],
+  "addedAt": "2026-06-19",
+  "addedSeq": 877,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Drafts full radiology reports from scans in seconds via pixel/voxel reasoning, on a compact model the vendor says beat Big-Tech baselines on accuracy.",
+  "pros": [
+    "Purpose-built radiology foundation models",
+    "Sub-second scan analysis, draft reports",
+    "PACS integration via FHIR/HL7",
+    "Cloud or on-premise, SOC 2 / HIPAA-ready",
+    "YC-backed, $4.1M seed"
+  ],
+  "cons": [
+    "Enterprise-only; no public pricing",
+    "Accuracy claims are vendor-reported",
+    "Early-stage company"
+  ],
+  "bestFor": ["Radiology practices", "Teleradiology providers", "Hospital imaging teams"],
+  "references": [
+    {
+      "title": "Mecha Health raises $4.1M seed round to build foundation models for radiology",
+      "url": "https://radiologybusiness.com/press-release/mecha-health-raises-41m-seed-round-build-next-generation-foundation-models-radiology",
+      "source": "Radiology Business",
+      "kind": "analysis"
+    }
+  ]
+}

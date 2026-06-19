@@ -1,0 +1,51 @@
+{
+  "slug": "openobserve",
+  "name": "OpenObserve",
+  "tagline": "Open-source observability for logs, metrics, traces and LLMs in one platform.",
+  "description": "OpenObserve (O2) is a unified, open-source observability platform that ingests logs, metrics, traces and real-user monitoring with dashboards, alerts and session replay. It adds LLM observability, a natural-language query assistant and an SRE agent for automated incident correlation and root-cause analysis. It runs as a single self-hosted binary or Helm chart, or as fully managed OpenObserve Cloud.",
+  "insight": "Open-source under AGPL-3.0; raised a $10M Series A in April 2026 (Nexus Venture Partners, Dell Technologies Capital); 18k+ GitHub stars.",
+  "category": "observability",
+  "secondaryCategories": ["infra"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "OpenObserve Inc.",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Infrastructure observability; LLM observability traces apps regardless of the underlying model."
+  },
+  "tags": ["observability", "logs", "metrics", "tracing", "open-source"],
+  "accentColor": "#5960ff",
+  "links": [
+    { "kind": "website", "url": "https://openobserve.ai", "primary": true },
+    { "kind": "github", "url": "https://github.com/openobserve/openobserve" },
+    { "kind": "docs", "url": "https://openobserve.ai/docs" }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 873,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Claims ~140x lower storage cost than Elasticsearch via Parquet columnar storage, and unifies logs, metrics, traces, RUM and LLM observability in one binary.",
+  "pros": [
+    "Single binary self-host or managed cloud",
+    "Logs, metrics, traces, RUM in one tool",
+    "Large storage-cost savings vs Elasticsearch",
+    "Fully open source (AGPL-3.0)",
+    "18k+ GitHub stars, 6,000+ orgs"
+  ],
+  "cons": [
+    "AGPL-3.0 can deter some commercial embedding",
+    "Younger ecosystem than Datadog/Grafana",
+    "Enterprise features gated above 50GB/day"
+  ],
+  "bestFor": ["Self-hosted teams", "Cost-sensitive observability", "LLM app monitoring"],
+  "alternatives": ["langfuse", "helicone", "opik", "braintrust"],
+  "references": [
+    {
+      "title": "OpenObserve Raises $10 Million Series A to Accelerate AI-native Observability",
+      "url": "https://www.businesswire.com/news/home/20260429840147/en/OpenObserve-Raises-$10-Million-Series-A-to-Accelerate-AI-native-Observability",
+      "source": "BusinessWire",
+      "kind": "analysis"
+    }
+  ]
+}
