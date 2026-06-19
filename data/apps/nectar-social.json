@@ -1,0 +1,44 @@
+{
+  "slug": "nectar-social",
+  "name": "Nectar Social",
+  "tagline": "Agentic AI for social commerce and community management.",
+  "description": "Nectar Social is an AI 'social operating system' that helps consumer brands turn social media engagement into revenue. Its agents autonomously reply to comments, mentions, and DMs across Instagram, TikTok, and other channels, recommend products, and attribute purchases back to those conversations. It integrates with commerce and messaging tools such as Klaviyo and Attentive.",
+  "insight": "Came out of stealth with $10.6M from GV; its 2026 Series A was co-led by Anthropic's Anthology Fund and Menlo Ventures.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Nectar Social",
+  "platforms": ["web"],
+  "tags": ["social-media", "social-commerce", "community", "marketing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nectarsocial.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 839,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "One platform unifies AI community management with revenue attribution, tying social DMs, comments, and mentions directly to purchases.",
+  "pros": [
+    "Autonomous agents reply across Instagram/TikTok",
+    "Ties social conversations to revenue",
+    "Founded by ex-Meta product/eng leaders",
+    "Integrates with Klaviyo and Attentive"
+  ],
+  "cons": [
+    "No public pricing; brand/enterprise focus",
+    "Young company, still proving scale",
+    "Centered on consumer/DTC social channels"
+  ],
+  "bestFor": ["Consumer/DTC brands", "Social commerce teams"],
+  "references": [
+    {
+      "title": "Nectar Social buzzes out of stealth with $10.6M backing from GV, True Ventures",
+      "url": "https://fortune.com/2025/06/05/nectar-social-buzzes-out-of-stealth-with-10-6-million-backing-from-gv-and-true-ventures/",
+      "source": "Fortune",
+      "kind": "analysis"
+    }
+  ]
+}
