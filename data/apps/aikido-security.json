@@ -1,0 +1,50 @@
+{
+  "slug": "aikido-security",
+  "insight": "Raised a $60M Series B at a $1B valuation in February 2026, becoming Europe's fastest-growing cybersecurity unicorn.",
+  "name": "Aikido Security",
+  "tagline": "All-in-one AppSec that finds and fixes vulnerabilities across code, cloud, and runtime.",
+  "description": "Aikido Security consolidates the application-security toolchain — SAST, dependency/SCA scanning, secret detection, IaC and container scanning, CSPM, DAST, and API security — into one developer-facing platform. It deduplicates and prioritizes findings by real exploitability to cut alert noise, and its AI AutoFix proposes code changes to remediate issues. It is built for engineering teams that want broad coverage without stitching together separate point tools.",
+  "category": "security",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Aikido",
+  "platforms": ["web", "api", "cli"],
+  "tags": ["appsec", "sast", "sca", "cspm", "devsecops"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.aikido.dev",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.aikido.dev/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 850,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Replaces ~10 separate scanners (SAST, SCA, secrets, IaC, CSPM, DAST, containers) with one dashboard that dedupes and ranks alerts by exploitability.",
+  "pros": [
+    "Consolidates ~10 scanners in one platform",
+    "Free tier, no credit card required",
+    "AI AutoFix proposes remediations",
+    "Ranks alerts by real exploitability",
+    "Fast, no-friction onboarding"
+  ],
+  "cons": [
+    "Larger teams and features need paid plans",
+    "Depth may trail best-of-breed point tools",
+    "Newer than incumbent AppSec vendors"
+  ],
+  "bestFor": ["Startups and scale-ups", "Developer-led security", "Consolidating point tools"],
+  "alternatives": ["snyk", "xbow"],
+  "references": [
+    {
+      "title": "How Aikido Security reached unicorn status in three years",
+      "url": "https://techfundingnews.com/aikido-security-60m-series-b-1b-valuation/",
+      "source": "TFN",
+      "kind": "analysis"
+    }
+  ]
+}

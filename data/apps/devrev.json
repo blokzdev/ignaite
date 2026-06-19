@@ -1,0 +1,50 @@
+{
+  "slug": "devrev",
+  "insight": "Founded by Nutanix co-founder Dheeraj Pandey; its July 2024 Series A debuted DevRev as a $1.15B unicorn.",
+  "name": "DevRev",
+  "tagline": "AI-native platform unifying customer support and software development on one knowledge graph.",
+  "description": "DevRev is an AI-native platform that connects customer support and product development on a single knowledge graph, so support conversations, tickets, and engineering work live in one system. Its AI agents resolve support requests, power enterprise search, and automate service-desk and product workflows, with analytics and an agent-building studio on top. The company positions its current flagship agent product, 'Computer,' as a team-wide assistant built on that graph.",
+  "category": "support",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "DevRev",
+  "platforms": ["web", "api"],
+  "tags": ["customer-support", "ai-agents", "knowledge-graph", "service-desk", "enterprise-search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://devrev.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://devrev.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 853,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Unifies customer support and product development on one knowledge graph, so resolved issues flow straight to engineering — most rivals automate support alone.",
+  "pros": [
+    "Unifies support and product development",
+    "Free Mini tier to start",
+    "Built on a knowledge graph",
+    "AI agents for tickets and search",
+    "Founded by Nutanix's Dheeraj Pandey"
+  ],
+  "cons": [
+    "Pro and Max are quote-only",
+    "Consumption-credit pricing can be opaque",
+    "Broad scope means a learning curve"
+  ],
+  "bestFor": ["SaaS support teams", "Product-led companies", "Unifying support and engineering"],
+  "alternatives": ["decagon", "sierra", "forethought", "intercom-fin"],
+  "references": [
+    {
+      "title": "DevRev Raises $100M Series A At $1.1B Valuation",
+      "url": "https://pulse2.com/devrev-ai-based-customer-support-company-raises-100-million-series-a-at-1-1-billion-valuation/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}

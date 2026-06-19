@@ -1,0 +1,42 @@
+{
+  "slug": "horizon3-ai",
+  "insight": "Co-founded by Snehal Antani, the first CTO of U.S. Joint Special Operations Command (JSOC) and a former Splunk CTO.",
+  "name": "Horizon3.ai",
+  "tagline": "Autonomous pentesting that safely runs real attacks in production to find exploitable risk.",
+  "description": "Horizon3.ai's NodeZero platform runs autonomous, production-safe penetration tests that chain real attacker techniques — credential abuse, misconfigurations, and exploitable CVEs — across internal, external, cloud, and hybrid environments without deploying agents. It shows exactly how an attacker could move and what they would reach, prioritizes fixes by impact, and re-tests to verify remediation. It is sold to enterprises and government as continuous attack-surface validation rather than a once-a-year manual engagement.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Horizon3.ai",
+  "platforms": ["web", "api"],
+  "tags": ["pentesting", "offensive-security", "attack-surface", "autonomous-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://horizon3.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 851,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Agentless, production-safe pentests you can run continuously and on demand — replacing periodic manual engagements with always-on attack validation.",
+  "pros": [
+    "Agentless, production-safe testing",
+    "Runs continuously, not once a year",
+    "Verifies fixes by re-testing",
+    "Covers internal, external, cloud, hybrid",
+    "225k+ pentests run to date"
+  ],
+  "cons": [
+    "Enterprise pricing, quote-only",
+    "Aimed at orgs with security teams",
+    "Offensive testing needs careful scoping"
+  ],
+  "bestFor": [
+    "Enterprise security teams",
+    "Continuous attack validation",
+    "Government and regulated orgs"
+  ],
+  "alternatives": ["xbow", "pentera"]
+}
