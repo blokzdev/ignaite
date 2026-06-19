@@ -1,0 +1,62 @@
+{
+  "slug": "atla",
+  "insight": "Its 8B Selene Mini judge model is released open-weight on Hugging Face and Ollama; Atla is YC-backed and has raised ~$5.5M.",
+  "name": "Atla",
+  "tagline": "Evaluation layer that finds and fixes AI agent failures.",
+  "description": "Atla is an evaluation platform that automatically discovers, clusters, and ranks failures in AI agents, then suggests fixes. Rather than prompting a general model to grade outputs, it runs on Atla's own Selene LLM-judge models, purpose-trained to score and critique generative-AI responses. It offers Python and TypeScript SDKs and integrates with stacks like OpenAI and LangChain.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "vendor": "Atla",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Selene 1", "Selene Mini"],
+    "notes": "Evaluations run on Atla's purpose-built Selene judge models."
+  },
+  "tags": ["evaluation", "llm-as-judge", "agents", "observability"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://atla-ai.com/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/atla-ai"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 832,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Built around its own Selene LLM-judge models instead of prompting a general model, then clusters and ranks agent failures so you fix the most impactful first.",
+  "pros": [
+    "Purpose-built Selene judge models",
+    "Clusters and ranks agent failures",
+    "Open-weight Selene Mini available",
+    "Python and TypeScript SDKs",
+    "Y Combinator-backed team"
+  ],
+  "cons": [
+    "Younger platform, small team",
+    "Judge-model approach is opinionated",
+    "Free tier capped at 300 calls/month"
+  ],
+  "bestFor": ["LLM-as-judge evaluation", "Agent failure analysis", "AI engineering teams"],
+  "alternatives": ["deepeval", "ragas", "galileo", "braintrust"],
+  "references": [
+    {
+      "title": "Atla Selene Mini: A General-Purpose Evaluation Model",
+      "url": "https://arxiv.org/abs/2501.17195",
+      "source": "arXiv",
+      "kind": "benchmark"
+    },
+    {
+      "title": "Atla Launches Selene: The World's Most Accurate LLM-as-a-Judge",
+      "url": "https://fondo.com/blog/atla-launches-selene",
+      "source": "Fondo",
+      "kind": "analysis"
+    }
+  ]
+}

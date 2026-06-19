@@ -1,0 +1,61 @@
+{
+  "slug": "inkeep",
+  "insight": "Raised a $13M seed in 2025 led by Khosla Ventures; its agent framework is source-available and deployed by Anthropic and Midjourney.",
+  "name": "Inkeep",
+  "tagline": "Source-available platform for building AI agents for support and docs.",
+  "description": "Inkeep is an AI agent platform for customer-experience and operations teams, pairing a no-code visual builder with a TypeScript framework that stay in two-way sync. Agents draw on unified search and RAG over your docs and company data, connect to apps via MCPs and integrations, and report monitoring insights. The Inkeep Agents framework is source-available on GitHub and self-hostable, alongside a managed cloud.",
+  "category": "support",
+  "secondaryCategories": ["agent"],
+  "vendor": "Inkeep",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Model-agnostic agents with RAG over your own data and tools."
+  },
+  "tags": ["customer-support", "agents", "docs", "rag", "no-code"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://inkeep.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/inkeep/agents"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 831,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Bridges a no-code visual builder and a TypeScript agent framework with two-way sync, so non-developers and engineers build the same agents.",
+  "pros": [
+    "No-code builder plus TypeScript framework",
+    "Two-way sync between visual and code",
+    "Unified RAG over docs and company data",
+    "Source-available and self-hostable",
+    "Trusted by Anthropic, Midjourney, Pinecone"
+  ],
+  "cons": [
+    "Elastic License 2.0 restricts competing use",
+    "Newer platform, smaller community",
+    "Managed-tier pricing not public"
+  ],
+  "bestFor": ["CX and support teams", "Docs AI assistants", "Dev teams building agents"],
+  "alternatives": ["kapa-ai", "chatbase", "maven-agi", "sierra"],
+  "references": [
+    {
+      "title": "Inkeep secures $13M Seed funding for no-code AI agent platform",
+      "url": "https://aiworld.eu/story/inkeep-secures-13m-seed-funding-for-no-code-ai-agent-platform",
+      "source": "AI World",
+      "kind": "analysis"
+    },
+    {
+      "title": "Inkeep $13M Seed Funding Round",
+      "url": "https://blog.amy.vc/inkeep-13m-seed-funding-round/",
+      "source": "Amy.vc",
+      "kind": "analysis"
+    }
+  ]
+}
