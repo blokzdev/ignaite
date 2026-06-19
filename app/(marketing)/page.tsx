@@ -14,7 +14,7 @@ import { BATCH_SIZE, recentApps } from "@/lib/tools/filter-apps";
 export const metadata: Metadata = buildMetadata({
   title: "AI Apps Directory",
   description:
-    "An AI-managed directory of the AI apps worth knowing — 400+ tools across 39 categories, kept current by Claude Code and searchable by category, pricing, license, deployment, and platform.",
+    "An AI-managed directory of the AI apps worth knowing — 400+ tools across 40+ categories, kept current by Claude Code and searchable by category, pricing, license, deployment, and platform.",
   path: "/",
   // `/` lives in the (marketing) route group, so it doesn't pick up the root
   // app/opengraph-image.tsx by inheritance once it exports its own openGraph.

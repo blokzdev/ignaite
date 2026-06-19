@@ -42,7 +42,7 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
   the count bias**: only add genuinely notable, real, verifiable apps; **never pad a thin category with
   marginal entries to raise its count.** Distinguish two reasons a category is thin:
   - **Under-covered** — many real, notable apps exist that we simply haven't listed yet (e.g. `audio`,
-    `automation`, `eval`, `observability`, `vision`, `search`, `mcp`, `browser-extension`). Go mine these.
+    `automation`, `eval`, `observability`, `vision`, `search`, `mcp`). Go mine these.
   - **Naturally sparse** — the real-world universe is genuinely small or still nascent (e.g.
     `fine-tuning`, `3d`), so a low count is **correct, not a gap**. Don't force-fill them.
 

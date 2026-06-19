@@ -4,7 +4,7 @@
   "name": "Immersive Translate",
   "tagline": "Bilingual side-by-side translation for web pages, PDFs, ebooks, and video subtitles.",
   "description": "Immersive Translate is a browser extension that renders foreign-language pages bilingually, showing the translation alongside the original text instead of replacing it. It covers web pages, PDFs (including scanned OCR), EPUBs, video subtitles on 100+ platforms, and manga/image translation, and lets you switch between a dozen-plus machine-translation engines and LLMs. The core extension is free; a Pro membership bundles premium engine quota.",
-  "category": "browser-extension",
+  "category": "translation",
   "pricing": "freemium",
   "vendor": "Immersive Translate",
   "platforms": ["browser-extension", "web", "ios", "android"],

@@ -4,8 +4,7 @@
   "tagline": "Page-aware AI agent in your browser — summarize, automate, extract.",
   "description": "A browser extension that turns any web page into a workspace for a multi-model AI agent. It reads the page you're on to summarize articles, YouTube videos and PDFs, draft and reply to email, proofread, generate content, and scrape or monitor sites. A library of prebuilt commands plus visual automation lets it click, fill forms and export results, and it connects to Zapier, Make and n8n for longer workflows.",
   "insight": "Built in Finland; ISO 27001-certified and runs its web automation locally in the browser rather than on a server.",
-  "category": "browser-extension",
-  "secondaryCategories": ["automation"],
+  "category": "automation",
   "pricing": "freemium",
   "vendor": "HARPA AI Technologies",
   "platforms": ["browser-extension"],
@@ -23,8 +22,15 @@
     "chrome-extension"
   ],
   "links": [
-    { "kind": "website", "url": "https://harpa.ai/", "primary": true },
-    { "kind": "docs", "url": "https://harpa.ai/guide" }
+    {
+      "kind": "website",
+      "url": "https://harpa.ai/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://harpa.ai/guide"
+    }
   ],
   "addedAt": "2026-06-16",
   "addedSeq": 811,

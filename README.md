@@ -51,7 +51,7 @@ Pre-push auto-runs `pnpm typecheck`.
 
 ## What's in the box
 
-- **`/`** — the **AI-apps directory**: ~460 listings across 39 categories with category / pricing / license / deployment / platform / status filters + search + two-field sort (`nuqs` URL state), a rotating featured carousel, a recently-added rail, infinite scroll, and light-touch sponsored slots
+- **`/`** — the **AI-apps directory**: ~460 listings across 43 categories with category / pricing / license / deployment / platform / status filters + search + two-field sort (`nuqs` URL state), a rotating featured carousel, a recently-added rail, infinite scroll, and light-touch sponsored slots
 - **`/apps/[slug]`** — one SSG detail page per listing: the honest brief (description, "Worth knowing" insight, the edge, pros/cons), curated alternatives, references, a dated change history, and `SoftwareApplication` + `BreadcrumbList` JSON-LD
 - **`/category/[slug]`** + **`/categories`** — 39 static category landing pages (pure RSC) and a cluster-grouped index hub
 - **`/about`** — how the directory is AI-managed: R3F hero (cursor-reactive flow-field shader) → Now/Next band → how-we-work → manifesto

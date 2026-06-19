@@ -40,7 +40,6 @@ export const CATEGORY_LABEL: Record<AppCategory, string> = {
   "research-platform": "Research",
   analytics: "Analytics",
   automation: "Automation",
-  "browser-extension": "Browser Ext.",
   translation: "Translation",
   meeting: "Meeting",
   marketing: "Marketing",

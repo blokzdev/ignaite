@@ -127,6 +127,11 @@ const nextConfig: NextConfig = {
       // detailed agentic process now surfaces as the "How we work" band on /about.
       { source: "/workflow", destination: "/about#how-we-work", permanent: false },
       { source: "/workflow/:path*", destination: "/about", permanent: false },
+      // "Browser Ext." was retired as a CATEGORY — it described delivery, not
+      // kind, and duplicated the browser-extension PLATFORM facet. Its members
+      // were re-homed to real categories; extensions stay browsable via
+      // /?platform=browser-extension. Permanent — the category is gone for good.
+      { source: "/category/browser-extension", destination: "/categories", permanent: true },
     ];
   },
 };

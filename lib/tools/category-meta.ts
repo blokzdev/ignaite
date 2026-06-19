@@ -63,8 +63,6 @@ export const CATEGORY_DESCRIPTION: Record<AppCategory, string> = {
     "AI analytics — natural-language BI, automated insights, and data exploration copilots.",
   automation:
     "AI workflow automation — no-code builders and platforms that wire LLMs into business processes.",
-  "browser-extension":
-    "Browser-based AI — extensions and agentic browsers that read, summarize, and act on the web.",
   translation: "AI translation and localization — document, app, and real-time speech translation.",
   meeting: "AI meeting tools — recording, transcription, summaries, and action items from calls.",
   marketing: "AI marketing tools — campaign copy, SEO content, ad creative, and growth analytics.",

@@ -4,7 +4,7 @@
   "name": "Glarity",
   "tagline": "Summarize YouTube, search, and any page with ChatGPT — free and ad-free.",
   "description": "Open-source browser extension that adds AI summaries and translation across the web: YouTube videos, Google/Bing results, PDFs, emails, and arbitrary pages. Works free and ad-free out of the box, with an option to bring your own model key for heavier use.",
-  "category": "browser-extension",
+  "category": "assistant",
   "pricing": "freemium",
   "openSource": true,
   "vendor": "Felo Inc.",

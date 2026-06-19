@@ -5,7 +5,7 @@
   "description": "An AI-native Chromium browser from Perplexity that puts a persistent assistant in the sidebar — it summarizes pages, compares products, and takes actions like drafting emails or managing tabs using the context of what you're browsing. Perplexity search is the default, with Deep Research and voice mode built in. Free on Windows, macOS, Android, and iOS; an optional $5/month Comet Plus tier unlocks premium publisher content.",
   "insight": "Launched July 2025 exclusively for $200/month Max subscribers; Perplexity made it free for everyone that October.",
   "category": "assistant",
-  "secondaryCategories": ["search", "browser-extension"],
+  "secondaryCategories": ["search"],
   "pricing": "freemium",
   "deployment": "local",
   "vendor": "Perplexity",

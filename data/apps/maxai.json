@@ -3,7 +3,7 @@
   "name": "MaxAI",
   "tagline": "All-in-one in-browser AI assistant. Multi-model.",
   "description": "Same shape as Sider — multi-model AI sidebar that follows you across the web. Strong on quick actions (summarise, rewrite, translate) and saved prompt templates.",
-  "category": "browser-extension",
+  "category": "assistant",
   "pricing": "freemium",
   "vendor": "MaxAI.me",
   "platforms": ["browser-extension"],

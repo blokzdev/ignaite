@@ -4,7 +4,7 @@
   "name": "Compose AI",
   "tagline": "AI autocomplete and writing assistance inline across Gmail, Docs, and the web.",
   "description": "Compose AI is a browser extension that adds AI-powered autocomplete and text generation directly into the fields you already type in — Gmail, Google Docs, and most web apps. It finishes sentences as you write, drafts full emails from a one-line instruction, rephrases text, and supports custom shortcuts to expand snippets. The core extension is free, with a premium tier for personalization features.",
-  "category": "browser-extension",
+  "category": "writing",
   "vendor": "Compose AI",
   "pricing": "freemium",
   "platforms": ["browser-extension", "web"],

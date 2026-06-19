@@ -5,7 +5,6 @@
   "tagline": "Bot-free AI notetaker that records and summarizes meetings.",
   "description": "Bluedot captures, transcribes, and summarizes online and in-person meetings without sending a bot into the call — recording happens through the browser extension or desktop app instead. It generates use-case-tailored notes and can push summaries to your CRM, Notion, and other tools. Works across Google Meet, Zoom, Microsoft Teams, Webex, and live conversations.",
   "category": "meeting",
-  "secondaryCategories": ["browser-extension"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Bluedot",

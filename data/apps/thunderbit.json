@@ -4,7 +4,7 @@
   "name": "Thunderbit",
   "tagline": "AI web scraper that turns any page into structured data in two clicks.",
   "description": "A no-code AI web scraper and automation agent that runs as a Chrome extension. It visually reads a page, suggests the fields to capture, and extracts structured rows with support for pagination, subpages, and bulk lists — exporting to Excel, Google Sheets, Airtable, or Notion. Built for lead lists, price monitoring, and research without writing selectors or code.",
-  "category": "browser-extension",
+  "category": "data-ops",
   "pricing": "freemium",
   "vendor": "Thunderbit",
   "platforms": ["browser-extension", "web"],

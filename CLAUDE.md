@@ -77,14 +77,14 @@ Pre-push (auto): `pnpm typecheck`.
 app/                              # Next App Router
   (marketing)/                    # route group sharing nav + footer
     layout.tsx                    #   sets <SiteNav/> + <SiteFooter/>
-    page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~400 entries across 39 categories)
+    page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~460 entries across 43 categories)
     about/
       page.tsx                    #   /about — studio identity (Hero, Now/Next, manifesto, How we work)
       opengraph-image.tsx         #   per-route OG
     apps/
       [slug]/page.tsx             #   /apps/<slug> — directory-app detail (SSG; renders components/tools/app-detail)
       [slug]/opengraph-image.tsx  #   per-app OG
-    category/[slug]/page.tsx      #   /category/<slug> — 39 SSG category landing pages (pure RSC)
+    category/[slug]/page.tsx      #   /category/<slug> — 43 SSG category landing pages (pure RSC)
     categories/page.tsx           #   /categories — cluster-grouped category index hub
     _workflow/                    #   DORMANT (private folder, not routed — see §1). Rename to `workflow` to republish.
       page.tsx                    #   was /workflow — 4-stage Claude Code session narrative (components/workflow/workflow.tsx)

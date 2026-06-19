@@ -4,7 +4,7 @@
   "name": "Sider",
   "tagline": "Multi-model AI side-panel for any browser tab.",
   "description": "Browser extension that drops a Claude / GPT / Gemini panel onto any page — summarize the article, chat with the PDF, translate the YouTube transcript. Pluggable across providers in one subscription.",
-  "category": "browser-extension",
+  "category": "assistant",
   "pricing": "freemium",
   "vendor": "Sider AI",
   "platforms": ["browser-extension"],
