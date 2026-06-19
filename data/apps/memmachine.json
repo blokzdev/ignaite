@@ -1,0 +1,47 @@
+{
+  "slug": "memmachine",
+  "name": "MemMachine",
+  "tagline": "Open-source memory layer for AI agents.",
+  "description": "MemMachine is an open-source memory layer that lets AI agents learn, store and recall information across sessions, turning stateless chatbots into personalized, context-aware assistants. It combines episodic memory (conversational context) with profile memory (long-term user facts) and is model-agnostic, working across providers. It is self-hosted and built primarily in Python.",
+  "insight": "Open-source under Apache-2.0 (~3k+ GitHub stars); initially incubated by MemVerge before becoming community-driven.",
+  "category": "memory",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "MemMachine",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Memory infrastructure that works across multiple AI models and providers simultaneously."
+  },
+  "tags": ["agent-memory", "open-source", "episodic-memory", "personalization", "rag"],
+  "links": [
+    { "kind": "website", "url": "https://memmachine.ai", "primary": true },
+    { "kind": "github", "url": "https://github.com/MemMachine/MemMachine" }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 876,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Pairs episodic (conversational) and profile (long-term user-fact) memory in one model-agnostic, self-hostable layer under a permissive Apache-2.0 license.",
+  "pros": [
+    "Fully open source (Apache-2.0)",
+    "Episodic + profile memory in one layer",
+    "Model-agnostic across providers",
+    "Self-hostable, Python-first"
+  ],
+  "cons": [
+    "Younger than Mem0/Zep",
+    "Self-hosting and ops on you",
+    "Managed enterprise tier not yet GA"
+  ],
+  "bestFor": ["Agent builders", "Self-hosted teams", "Personalized assistants"],
+  "alternatives": ["mem0", "zep", "letta", "cognee"],
+  "references": [
+    {
+      "title": "Top 10 AI Memory Products 2026: The Emerging Memory Layer for Agents",
+      "url": "https://medium.com/@bumurzaqov2/top-10-ai-memory-products-2026-09d7900b5ab1",
+      "source": "Medium",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "optifye",
+  "name": "Optifye",
+  "tagline": "Computer-vision monitoring of factory-floor efficiency from existing cameras.",
+  "description": "Optifye is an AI computer-vision platform for manufacturing operations. It connects to a plant's existing IP/CCTV cameras to measure per-operator cycle times, detect bottlenecks and check standard-operating-procedure compliance in real time, then turns that into efficiency analytics and automated production reports. It targets labour-intensive lines across automotive, apparel, welding, medical and electronics manufacturing.",
+  "insight": "Y Combinator (W25); YC pulled its Feb 2025 launch post after the worker-monitoring demo drew 'dystopian surveillance' backlash.",
+  "category": "vision",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Optifye",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own computer-vision models for operator and process monitoring."
+  },
+  "tags": ["computer-vision", "manufacturing", "operations", "monitoring", "analytics"],
+  "links": [{ "kind": "website", "url": "https://www.optifye.ai", "primary": true }],
+  "addedAt": "2026-06-19",
+  "addedSeq": 875,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Runs on a factory's existing IP/CCTV cameras to score per-operator cycle times and SOP compliance — no new hardware, sensors or wearables to install.",
+  "pros": [
+    "Uses existing CCTV, no new hardware",
+    "Real-time per-operator efficiency metrics",
+    "Automated production reporting",
+    "Deployed across 50+ manufacturers"
+  ],
+  "cons": [
+    "Worker-surveillance and privacy concerns",
+    "No public pricing; enterprise sales only",
+    "Narrow to manufacturing operations"
+  ],
+  "bestFor": ["Manufacturing operations", "Factory line managers", "Industrial efficiency teams"],
+  "alternatives": ["landing-ai", "lightly", "roboflow"],
+  "references": [
+    {
+      "title": "Y Combinator Removes Video After Backlash Over Worker Surveillance",
+      "url": "https://www.404media.co/optifyeai-ycombinator-startup-ai-factory/",
+      "source": "404 Media",
+      "kind": "analysis"
+    }
+  ]
+}
