@@ -1,0 +1,47 @@
+{
+  "slug": "cekura",
+  "insight": "Formerly Vocera; the YC F24 startup (legally Tatva Labs) was founded by IIT Bombay alumni on a $2.4M seed led by Y Combinator.",
+  "name": "Cekura",
+  "tagline": "Test, monitor, and self-improve voice and chat AI agents.",
+  "description": "Cekura is an automated QA and observability platform for conversational AI agents. Before launch it runs simulations across thousands of diverse personas and edge cases, with red-teaming for bias, toxicity, and jailbreaks; in production it monitors live conversations for instruction-following, hallucinations, and voice-specific quality regressions with real-time alerting. It targets regulated sectors like healthcare and finance where reliability and compliance matter.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cekura",
+  "platforms": ["web", "api"],
+  "tags": ["voice-agents", "agent-testing", "qa", "red-teaming", "conversational-ai"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cekura.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 857,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Purpose-built for voice/chat agents: persona-driven simulation plus red-teaming pre-launch, then production monitoring with voice-specific signals.",
+  "pros": [
+    "Simulates thousands of persona conversations",
+    "Red-teaming for bias, toxicity, jailbreaks",
+    "Production monitoring with real-time alerts",
+    "Voice-specific quality signals",
+    "Focus on regulated industries"
+  ],
+  "cons": [
+    "No public pricing; demo/trial required",
+    "Scoped to conversational (voice/chat) agents",
+    "Early-stage (YC F24) company"
+  ],
+  "bestFor": ["Voice AI teams", "Conversational agent QA", "Regulated-industry deployments"],
+  "alternatives": ["coval", "confident-ai", "maxim-ai"],
+  "references": [
+    {
+      "title": "AI Startup Cekura Secures $2.4 Million Seed Funding Led by Y Combinator",
+      "url": "https://mlq.ai/news/ai-startup-cekura-secures-24-million-seed-funding-led-by-y-combinator/",
+      "source": "MLQ.ai",
+      "kind": "analysis"
+    }
+  ]
+}

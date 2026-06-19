@@ -1,0 +1,52 @@
+{
+  "slug": "humanly",
+  "insight": "Seattle-based Humanly raised a $25M round in 2026, bringing total funding to ~$55.6M.",
+  "name": "Humanly",
+  "tagline": "Conversational AI recruiting that screens, schedules, and interviews candidates at scale.",
+  "description": "Humanly is an AI recruiting platform that automates the high-volume, repetitive parts of hiring — candidate screening, interview scheduling, conducting interviews, reference checks, and re-engagement — across SMS, chat, email, voice, and video. It unifies ATS, CRM, and sourcing into one system and adds interview-intelligence notes, integrating with common applicant-tracking systems like Greenhouse, Lever, Bullhorn, and ADP. It also offers a job-seeker-facing product with AI coaching on interview prep, resumes, and negotiation.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Humanly",
+  "platforms": ["web"],
+  "tags": [
+    "recruiting",
+    "candidate-screening",
+    "ats",
+    "interview-intelligence",
+    "high-volume-hiring"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.humanly.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 855,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Built for high-volume/hourly hiring and unusually candidate-side too — it ships a job-seeker product with AI interview, resume, and negotiation coaching.",
+  "pros": [
+    "Automates screening, scheduling, and interviews",
+    "Unifies ATS, CRM, and sourcing",
+    "Works across SMS, chat, email, voice, video",
+    "Integrates with hundreds of ATSs",
+    "Job-seeker-facing coaching product"
+  ],
+  "cons": [
+    "No free tier or public pricing",
+    "Best fit is high-volume hiring",
+    "Custom quote requires a demo"
+  ],
+  "bestFor": ["High-volume hiring", "Hourly and early-career roles", "Recruiting teams"],
+  "alternatives": ["juicebox", "hirevue", "mercor"],
+  "references": [
+    {
+      "title": "Humanly raises $25M to put AI to work for job seekers, not just companies hiring",
+      "url": "https://www.geekwire.com/2026/humanly-raises-25m-to-put-ai-to-work-for-job-seekers-not-just-the-companies-hiring-them/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}

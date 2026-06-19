@@ -1,0 +1,38 @@
+{
+  "slug": "ux-pilot",
+  "insight": "Built by UX agency Adam Fard Studio; the company says it is trusted by over 1M users.",
+  "name": "UX Pilot",
+  "tagline": "Superfast UX/UI design with AI — wireframes and high-fidelity screens from a prompt.",
+  "description": "UX Pilot is an AI UX/UI design tool that generates wireframes, high-fidelity screens, and full user flows from text prompts, letting product teams ideate, design, and hand off web and mobile apps in one place. It can wireframe using a team's own design system — feed it a component library once and it reuses those components, spacing, and color tokens — and offers a companion Figma plugin. It targets designers, product teams, and founders who need quality designs quickly.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Adam Fard Studio",
+  "platforms": ["web"],
+  "tags": ["ui-design", "ux", "wireframes", "design-to-code", "figma"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://uxpilot.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 856,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Feed it your component library once and it wireframes in your exact design system — components, spacing, and color tokens — not generic mockups.",
+  "pros": [
+    "Free tier with starter credits, no card",
+    "Generates wireframes to hi-fi screens",
+    "Reuses your design system components",
+    "Companion Figma plugin",
+    "End-to-end ideate-to-handoff flow"
+  ],
+  "cons": [
+    "Credit-based usage on paid plans",
+    "Polished output still needs designer review",
+    "Web-only (plus Figma plugin)"
+  ],
+  "bestFor": ["Product designers", "Founders prototyping", "Early-stage UI exploration"],
+  "alternatives": ["magic-patterns", "google-stitch", "subframe"]
+}
