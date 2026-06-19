@@ -8,11 +8,18 @@
   "pricing": "freemium",
   "vendor": "Ludus",
   "platforms": ["windows", "macos"],
-  "accentColor": "#F5A623",
   "tags": ["unreal-engine", "game-dev", "blueprints", "3d-generation", "code-assistant"],
+  "accentColor": "#F5A623",
   "links": [
-    { "kind": "website", "url": "https://ludusengine.com/", "primary": true },
-    { "kind": "docs", "url": "https://docs.ludusengine.com/" }
+    {
+      "kind": "website",
+      "url": "https://ludusengine.com/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.ludusengine.com/"
+    }
   ],
   "addedAt": "2026-06-16",
   "addedSeq": 813,
@@ -30,7 +37,7 @@
     "Generated code/assets still need review"
   ],
   "bestFor": ["Unreal Engine developers", "Indie game studios", "Rapid prototyping"],
-  "alternatives": ["rosebud", "scenario", "layer-ai"],
+  "alternatives": ["rosebud-ai", "scenario", "layer-ai"],
   "references": [
     {
       "title": "Ludus AI in Unreal Engine: Helpful Sidekick or Over-Hyped Hologram?",

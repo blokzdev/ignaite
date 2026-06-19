@@ -1,10 +1,11 @@
 {
   "slug": "lalal-ai",
-  "insight": "Founded in 2020 and operated by Swiss company OmniSale GmbH.",
   "name": "LALAL.AI",
   "tagline": "AI vocal remover and stem separation, built for pro-level quality.",
   "description": "An AI audio service that removes vocals and splits any track into clean stems — vocals, drums, bass, guitars, piano, and more — using transformer-based separation models. It adds voice cleaning, echo and reverb removal, and lead/backing vocal separation. Available on the web, desktop, native iOS and Android apps, a DAW plugin, and a developer API.",
+  "insight": "Founded in 2020 and operated by Swiss company OmniSale GmbH.",
   "category": "audio",
+  "secondaryCategories": ["music"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "LALAL.AI",
@@ -14,6 +15,7 @@
     "notes": "Proprietary transformer-based stem-separation models."
   },
   "tags": ["stem-separation", "vocal-remover", "music", "audio-cleanup"],
+  "accentColor": "#FF4D6D",
   "links": [
     {
       "kind": "website",

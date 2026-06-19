@@ -132,6 +132,20 @@ const nextConfig: NextConfig = {
       // were re-homed to real categories; extensions stay browsable via
       // /?platform=browser-extension. Permanent — the category is gone for good.
       { source: "/category/browser-extension", destination: "/categories", permanent: true },
+      // Duplicate listings folded into their canonical (older) entry — the bare
+      // slug was an accidental re-add of an already-listed app. Redirect each
+      // retired detail URL to the survivor it merged into. Permanent — the
+      // duplicate slug is gone for good.
+      { source: "/apps/bland", destination: "/apps/bland-ai", permanent: true },
+      { source: "/apps/harpa", destination: "/apps/harpa-ai", permanent: true },
+      { source: "/apps/heidi", destination: "/apps/heidi-health", permanent: true },
+      { source: "/apps/hume", destination: "/apps/hume-ai", permanent: true },
+      { source: "/apps/inworld", destination: "/apps/inworld-ai", permanent: true },
+      { source: "/apps/lalal", destination: "/apps/lalal-ai", permanent: true },
+      { source: "/apps/leonardo", destination: "/apps/leonardo-ai", permanent: true },
+      { source: "/apps/napkin", destination: "/apps/napkin-ai", permanent: true },
+      { source: "/apps/relay", destination: "/apps/relay-app", permanent: true },
+      { source: "/apps/rosebud", destination: "/apps/rosebud-ai", permanent: true },
     ];
   },
 };

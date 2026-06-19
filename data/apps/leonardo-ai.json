@@ -1,9 +1,9 @@
 {
   "slug": "leonardo-ai",
-  "insight": "Acquired by Canva in July 2024 (cash + stock); all ~120 staff joined but Leonardo still runs as an independent unit.",
   "name": "Leonardo AI",
   "tagline": "Image generation with fine-tuned models, control, and game-asset focus.",
   "description": "Image platform with custom fine-tuned models, ControlNet-style guidance, real-time canvas, and upscaling. Popular with game studios and concept artists for consistent asset pipelines.",
+  "insight": "Acquired by Canva in July 2024 (cash + stock); all ~120 staff joined but Leonardo still runs as an independent unit.",
   "category": "image-gen",
   "pricing": "freemium",
   "deployment": "cloud",
@@ -13,8 +13,8 @@
     "kind": "single-model",
     "notes": "Leonardo's Phoenix + fine-tuned image models."
   },
-  "accentColor": "#8B5CF6",
   "tags": ["image-gen", "game-assets", "control", "upscaling"],
+  "accentColor": "#8B5CF6",
   "links": [
     {
       "kind": "website",
@@ -38,5 +38,13 @@
     "Quality varies by model"
   ],
   "bestFor": ["Game studios", "Concept artists", "Consistent asset pipelines"],
-  "alternatives": ["midjourney", "krea", "recraft", "ideogram"]
+  "alternatives": ["midjourney", "krea", "recraft", "ideogram"],
+  "references": [
+    {
+      "title": "Canva buys Australian AI design startup Leonardo.ai",
+      "url": "https://www.dealstreetasia.com/stories/canva-acquires-leonardo-ai-406183",
+      "source": "DealStreetAsia",
+      "kind": "analysis"
+    }
+  ]
 }

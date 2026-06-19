@@ -1,15 +1,19 @@
 {
   "slug": "napkin-ai",
-  "insight": "Built by the founders of Osmo (sold to Byju's for $120M); launched from stealth in Aug 2024 with $10M from Accel and CRV.",
   "name": "Napkin AI",
   "tagline": "Turn your text into editable diagrams, charts, and infographics — no prompting.",
   "description": "Napkin AI generates business visuals directly from text you already wrote: paste a paragraph, click, and it produces diagrams, flowcharts, scenes, and infographics with no prompt required. The AI reads context and relationships and offers multiple visual options you can recolor, restyle, and edit, then export as PPT, PNG, PDF, or SVG. It supports 60+ languages and real-time team collaboration.",
+  "insight": "Built by the founders of Osmo (sold to Byju's for $120M); launched from stealth in Aug 2024 with $10M from Accel and CRV.",
   "category": "design",
   "secondaryCategories": ["productivity"],
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Napkin AI",
   "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary text-to-visual pipeline over LLM parsing."
+  },
   "tags": ["diagrams", "infographics", "visuals", "presentations"],
   "links": [
     {
