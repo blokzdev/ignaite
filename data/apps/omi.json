@@ -1,0 +1,62 @@
+{
+  "slug": "omi",
+  "insight": "Crowdfunded as 'Friend'; renamed Omi after Avi Schiffmann's rival Friend bought the friend.com domain for $1.8M.",
+  "name": "Omi",
+  "tagline": "Open-source AI wearable that captures conversations and turns them into notes, tasks, and recall.",
+  "description": "Omi is an open-source AI wearable from Based Hardware: an $89 pendant that listens to your conversations and screen, then transcribes them and generates summaries, action items, and a searchable memory through a companion app. The hardware and software are fully open source, so you can self-host the backend, bring your own model keys, and avoid the mandatory monthly cloud subscription most AI pendants charge. A developer community has built hundreds of apps on top of the platform.",
+  "category": "productivity",
+  "secondaryCategories": ["companion"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Based Hardware",
+  "platforms": ["ios", "android", "macos", "web"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Open source — hosted app uses cloud LLMs plus Deepgram/Whisper transcription, but you can self-host and bring your own model keys."
+  },
+  "tags": ["wearable", "pendant", "open-source", "note-taking", "ambient-ai"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.omi.me",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/BasedHardware/omi"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 834,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Open-source app and open hardware — run on-device with your own keys and skip the $20–30/month cloud subscription rival AI pendants charge.",
+  "pros": [
+    "Fully open-source app and hardware",
+    "No mandatory cloud subscription",
+    "$89 — cheaper than rival pendants",
+    "Own your data, self-host option",
+    "Large community app ecosystem"
+  ],
+  "cons": [
+    "Always-on mic raises privacy concerns",
+    "Hardware often preorder / out of stock",
+    "Hosted features still use third-party LLMs",
+    "Less polished than big-tech wearables"
+  ],
+  "bestFor": [
+    "Ambient note-taking",
+    "AI hardware tinkerers",
+    "Privacy-conscious users",
+    "Wearable app developers"
+  ],
+  "alternatives": ["friend", "plaud", "bee"],
+  "references": [
+    {
+      "title": "Omi, a competitor to Friend, wants to boost productivity using AI",
+      "url": "https://techcrunch.com/2025/01/08/omi-a-competitor-to-friend-wants-to-boost-your-productivity-using-ai-and-a-brain-interface/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
