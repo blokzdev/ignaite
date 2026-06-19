@@ -1,0 +1,47 @@
+{
+  "slug": "mcp-use",
+  "name": "mcp-use",
+  "tagline": "Open-source toolkit to connect any LLM to any MCP server.",
+  "description": "mcp-use is an open-source framework for building MCP clients, servers, and agents in TypeScript and Python. It lets you connect any LLM to any Model Context Protocol server in a few lines of code — configuring servers, choosing a model, and spinning up a tool-using agent — without depending on a closed application client. On top of the official SDK it adds opinionated developer ergonomics: hot reload, dev tools, auth providers, and UI components.",
+  "insight": "Built by Manufact, which also runs a commercial MCP Cloud; the open-source SDK has passed 7M downloads and 10k GitHub stars.",
+  "category": "mcp",
+  "secondaryCategories": ["agent"],
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Manufact",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Connects any LLM to any MCP server; you bring the model."
+  },
+  "tags": ["mcp", "agents", "sdk", "typescript", "python", "open-source"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.mcp-use.com"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 849,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Adds hot reload, dev tools, and UI components on top of the official MCP SDK, and connects any LLM to any server in a few lines of code.",
+  "pros": [
+    "Connect any LLM to any MCP server",
+    "TypeScript and Python SDKs",
+    "Hot reload and dev tooling",
+    "Builds tool-using agents",
+    "MIT licensed, widely adopted"
+  ],
+  "cons": [
+    "Cloud deployment is a paid Manufact product",
+    "Opinionated over the low-level SDK",
+    "Still maturing API surface"
+  ],
+  "bestFor": ["MCP app developers", "Building tool-using agents", "Connecting LLMs to MCP servers"],
+  "alternatives": ["fastmcp", "composio", "toolhouse", "arcade"]
+}
