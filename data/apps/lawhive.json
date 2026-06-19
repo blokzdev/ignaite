@@ -1,0 +1,55 @@
+{
+  "slug": "lawhive",
+  "insight": "In Sept 2025 acquired Woodstock Legal Services — believed to be the first purchase of a traditional law firm by an AI company.",
+  "name": "Lawhive",
+  "tagline": "AI-native UK law firm for affordable consumer legal help.",
+  "description": "Lawhive is a UK consumer legal platform that pairs an AI legal assistant, \"Lawrence,\" with SRA-regulated solicitors to handle everyday matters — divorce, employment, immigration, landlord and tenant, conveyancing, and small claims — at fixed, upfront fees. Lawrence drafts documents, runs research, and handles intake; human solicitors review and deliver the work.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Lawhive",
+  "platforms": ["web"],
+  "tags": ["legal", "consumer-legal", "uk", "law-firm", "ai-assistant"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lawhive.co.uk",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 860,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Consumer fixed-fee legal help: its AI 'Lawrence' (81% on the SQE) does routine work while SRA-regulated solicitors deliver — not enterprise lawyer tooling.",
+  "pros": [
+    "Fixed, upfront consumer pricing",
+    "SRA-regulated solicitors deliver work",
+    "AI 'Lawrence' speeds intake and drafting",
+    "Covers many everyday legal areas"
+  ],
+  "cons": [
+    "UK-only (US expansion underway)",
+    "Consumer matters, not enterprise legal",
+    "You still pay solicitor fees per matter"
+  ],
+  "bestFor": [
+    "UK consumers and small businesses",
+    "Divorce, employment, immigration",
+    "Fixed-fee legal help"
+  ],
+  "alternatives": ["genie-ai", "gc-ai", "harvey"],
+  "references": [
+    {
+      "title": "Lawhive raises $60m to scale AI-native consumer law firm across the US",
+      "url": "https://bmmagazine.co.uk/get-funded/lawhive-raises-60m-series-b-ai-consumer-law-us/",
+      "source": "Business Matters",
+      "kind": "analysis"
+    },
+    {
+      "title": "UK LegalTech startup Lawhive secures EUR 50 million to scale",
+      "url": "https://www.eu-startups.com/2026/02/uk-legaltech-startup-lawhive-secures-e50-million-to-scale-ai-driven-consumer-law-firm-model/",
+      "source": "EU-Startups",
+      "kind": "analysis"
+    }
+  ]
+}
