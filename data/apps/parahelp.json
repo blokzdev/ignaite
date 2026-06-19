@@ -1,0 +1,50 @@
+{
+  "slug": "parahelp",
+  "name": "Parahelp",
+  "tagline": "AI support agents that stay current as your product ships.",
+  "description": "Parahelp is an AI customer support platform built for fast-moving software companies. It pairs a Customer Agent that resolves support tickets end-to-end with an Internal Agent that continuously builds and updates that agent as the product evolves, so answers stay accurate without engineering work. It enforces policy compliance, calls tools, and ships with role-based access control, SOC 2 Type II, and GDPR compliance.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Parahelp",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Support agents run on frontier LLMs; model selection is handled by the platform."
+  },
+  "tags": ["customer-support", "support-agent", "ticket-resolution", "saas", "yc"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.parahelp.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 885,
+  "lastVerifiedAt": "2026-06-19",
+  "insight": "Copenhagen-based and YC-backed; raised $21.2M, with its AI support agents running for Perplexity, Replit, Bolt and other AI startups.",
+  "edge": "Built for technical SaaS support: an internal agent keeps the customer-facing agent current as the product ships, resolving tickets end-to-end.",
+  "pros": [
+    "Resolves tickets end-to-end",
+    "Self-updating from product changes",
+    "Used by leading AI startups",
+    "SOC 2 Type II and GDPR compliant",
+    "Fast setup without engineers"
+  ],
+  "cons": [
+    "Aimed at software companies",
+    "Pricing not public (demo-led)",
+    "Newer than incumbent CX suites"
+  ],
+  "bestFor": ["SaaS support teams", "AI startups", "Scaling support"],
+  "alternatives": ["decagon", "sierra", "lorikeet"],
+  "references": [
+    {
+      "title": "Parahelp from Denmark raises $21.2M to scale AI support agents",
+      "url": "https://www.founderstoday.news/parahelp-raises-over-21-millions-in-funding/",
+      "source": "Founders Today",
+      "kind": "analysis"
+    }
+  ]
+}

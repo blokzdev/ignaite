@@ -1,0 +1,47 @@
+{
+  "slug": "mixpeek",
+  "name": "Mixpeek",
+  "tagline": "Find any scene in your video and multimodal library.",
+  "description": "Mixpeek is a multimodal retrieval API for searching across video, images, audio, and documents with natural language. It extracts and indexes structured features — faces, scenes, transcripts, OCR, and embeddings — over object storage like S3, GCS, and R2, then runs hybrid dense, sparse, and BM25 search with reranking. Cross-modal joins let a single query combine signals such as faces, spoken phrases, and on-screen text.",
+  "category": "vision",
+  "secondaryCategories": ["search"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mixpeek",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Retrieval and embedding infrastructure; not tied to a single model provider."
+  },
+  "tags": ["multimodal-search", "video-search", "retrieval", "embeddings", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mixpeek.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://mixpeek.com/docs"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 887,
+  "lastVerifiedAt": "2026-06-19",
+  "insight": "Its vector store offers 1M vectors free with no expiration, with managed multimodal indexing billed per usage credit.",
+  "edge": "One API for cross-modal retrieval over video, audio, images, and documents — joining faces, transcripts, and on-screen text in a single query.",
+  "pros": [
+    "Searches video, image, audio, and docs",
+    "Cross-modal joins in one query",
+    "Hybrid dense/sparse/BM25 retrieval",
+    "Indexes directly from object storage",
+    "Free vector-store tier"
+  ],
+  "cons": [
+    "Developer/API-first, not no-code",
+    "Core platform is not open source",
+    "Smaller than general vector DBs"
+  ],
+  "bestFor": ["Video search", "Multimodal RAG", "Media libraries"],
+  "alternatives": ["twelve-labs", "coactive-ai", "voxel51"]
+}
