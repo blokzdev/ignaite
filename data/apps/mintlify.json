@@ -1,0 +1,61 @@
+{
+  "slug": "mintlify",
+  "insight": "Raised a $45M Series B at a $500M valuation in April 2026, led by a16z and Salesforce Ventures.",
+  "name": "Mintlify",
+  "tagline": "AI-native documentation platform that generates and keeps docs current for humans and agents.",
+  "description": "Mintlify is a documentation platform that helps teams author, publish, and continuously maintain developer and product docs. It generates and updates content from a codebase, answers reader questions through an embedded AI assistant, and ships an MCP server so AI agents can read the docs directly. Teams get a hosted docs site with a web editor, custom domains, authentication, and analytics.",
+  "category": "infra",
+  "secondaryCategories": ["writing"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Mintlify",
+  "platforms": ["web", "cli"],
+  "tags": ["documentation", "developer-docs", "mcp", "api-docs", "knowledge-base"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mintlify.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://mintlify.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://mintlify.com/docs"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 854,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Self-updating docs generated from your codebase, plus a built-in MCP server so AI agents read your documentation natively — not just humans.",
+  "pros": [
+    "Free Starter plan for individuals/small teams",
+    "Generates and updates docs from code",
+    "Ships an MCP server for AI agents",
+    "Embedded AI assistant answers reader questions",
+    "Powers docs for 20,000+ companies"
+  ],
+  "cons": [
+    "Advanced features need custom Enterprise plan",
+    "Opinionated workflow vs docs-as-code tools",
+    "No public pricing above the free tier"
+  ],
+  "bestFor": ["Developer documentation", "API reference docs", "Agent-readable knowledge bases"],
+  "alternatives": ["context7", "guru"],
+  "references": [
+    {
+      "title": "Software Platform Mintlify Raises $45M in Series B Funding",
+      "url": "https://www.builtinsf.com/articles/mintlify-raises-45m-series-b-20260417",
+      "source": "Built In SF",
+      "kind": "analysis"
+    },
+    {
+      "title": "Mintlify Lands $45M Series B at $500M Valuation",
+      "url": "https://techbullion.com/mintlify-lands-45m-series-b-at-500m-valuation-as-ai-agents-become-docs-biggest-readers/",
+      "source": "TechBullion",
+      "kind": "analysis"
+    }
+  ]
+}
