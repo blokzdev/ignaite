@@ -1,0 +1,59 @@
+{
+  "slug": "credal",
+  "name": "Credal",
+  "tagline": "The control plane for enterprise AI agents.",
+  "description": "Credal is a platform for building, governing, and deploying enterprise AI agents and MCP servers powered by company data. It syncs and inherits permissions from 50+ source systems, redacts sensitive data, and logs every run for audit, so security and governance are woven into each agent. Teams ship no-code agents to surfaces like Slack, ChatGPT, and Claude while keeping centralized access controls and compliance.",
+  "category": "security",
+  "secondaryCategories": ["orchestration"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Credal",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Routes to multiple providers (OpenAI, Anthropic, and others) behind a governed control plane."
+  },
+  "tags": ["ai-governance", "enterprise-agents", "permissions", "audit", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.credal.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.credal.ai"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 886,
+  "lastVerifiedAt": "2026-06-19",
+  "insight": "Founded in 2022 by two ex-Palantir engineers; raised a $4.8M seed led by Spark Capital.",
+  "edge": "Wraps enterprise agents in permission-syncing and audit governance across 50+ data sources — a security control plane, not just an agent builder.",
+  "pros": [
+    "Permission sync from 50+ sources",
+    "Full audit logging of agent runs",
+    "Sensitive-data redaction / PII masking",
+    "Deploys to Slack, ChatGPT, Claude",
+    "SOC 2 Type 2, GDPR, CCPA"
+  ],
+  "cons": [
+    "Enterprise focus, custom pricing",
+    "Overkill for small teams",
+    "Value depends on connected systems"
+  ],
+  "bestFor": [
+    "Enterprise AI governance",
+    "Regulated industries",
+    "Internal agents on company data"
+  ],
+  "alternatives": ["glean", "dust"],
+  "references": [
+    {
+      "title": "Credal.ai Raises $4.8 Million in Seed Round",
+      "url": "https://www.thesaasnews.com/news/credal-ai-raises-4-8-million-in-seed-round",
+      "source": "The SaaS News",
+      "kind": "analysis"
+    }
+  ]
+}

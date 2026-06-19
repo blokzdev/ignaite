@@ -1,0 +1,42 @@
+{
+  "slug": "okareo",
+  "name": "Okareo",
+  "tagline": "Simulate real users to ship reliable voice and text agents.",
+  "description": "Okareo is an evaluation and testing platform for AI agents. It drives an agent with synthetic users (\"Drivers\") that hold personality-rich, multi-turn conversations across voice, text, and headless channels, surfacing edge cases before release. Teams gate releases on conversation quality in CI/CD, turn production failures into automated test scenarios, and evaluate models, RAG pipelines, and agents from one workspace.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Okareo",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Tests any agent or model; synthetic-user simulation is framework- and provider-agnostic."
+  },
+  "tags": ["agent-evaluation", "simulation", "synthetic-users", "voice-agents", "ci-cd"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.okareo.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 883,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Tests agents with personality-driven synthetic users across voice and text in 120+ languages — finding multi-turn edge cases, not just scoring single responses.",
+  "pros": [
+    "Multi-turn synthetic-user simulation",
+    "Covers voice and text agents",
+    "CI/CD release gating on quality",
+    "Production failures become test cases",
+    "120+ language simulation"
+  ],
+  "cons": [
+    "Younger than general eval platforms",
+    "Simulation tuning has a learning curve",
+    "Pricing not fully public"
+  ],
+  "bestFor": ["Voice agent teams", "Conversation QA", "Pre-release agent testing"],
+  "alternatives": ["langwatch", "maxim-ai", "promptfoo", "confident-ai"]
+}

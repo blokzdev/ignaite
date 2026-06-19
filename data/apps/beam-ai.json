@@ -1,0 +1,46 @@
+{
+  "slug": "beam-ai",
+  "name": "Beam AI",
+  "tagline": "Self-learning AI agents for enterprise operations.",
+  "description": "Beam AI is an agentic process automation platform that turns written standard operating procedures into self-learning AI agents for back-office work. Agents handle data entry and extraction, document processing, and communication tasks across functions like finance, HR, and customer operations, integrating with existing enterprise systems. Beam targets mission-critical workflows where data privacy and deep integration matter, and reports production use at large enterprises.",
+  "category": "agent",
+  "secondaryCategories": ["automation"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Beam AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Agents are built on frontier LLMs; model choice is abstracted by the platform."
+  },
+  "tags": ["agentic-automation", "back-office", "enterprise", "workflow-agents", "sop"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://beam.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.beam.ai"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 884,
+  "lastVerifiedAt": "2026-06-19",
+  "insight": "Berlin- and New-York-based; its agents are authored from a company's existing written SOPs rather than coded from scratch.",
+  "edge": "Turns a written SOP into a self-learning agent for back-office ops — built for deeply integrated enterprise workflows, not lightweight task automation.",
+  "pros": [
+    "Builds agents from existing SOPs",
+    "Deep enterprise system integration",
+    "Spans finance, HR, and ops",
+    "Self-learning / improving agents"
+  ],
+  "cons": [
+    "Enterprise sales, custom pricing",
+    "Not aimed at individual users",
+    "Setup needs process documentation"
+  ],
+  "bestFor": ["Enterprise operations", "Back-office automation", "Finance & HR teams"],
+  "alternatives": ["lindy", "gumloop", "sim"]
+}
