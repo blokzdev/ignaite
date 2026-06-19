@@ -1,0 +1,42 @@
+{
+  "slug": "jotme",
+  "insight": "Used by 100,000+ professionals across 1,700 teams in 134 countries, translating meetings in 200+ languages.",
+  "name": "JotMe",
+  "tagline": "Agentic AI translation, transcription and meeting notes across 200+ languages.",
+  "description": "JotMe is an agentic translation platform that delivers real-time translation, transcription and AI meeting notes in 200+ languages, preserving context and speaker intent. It works across Zoom, Microsoft Teams, Google Meet and Webex as well as in-person events, and gives each participant their notes and summaries in their own language.",
+  "category": "translation",
+  "secondaryCategories": ["meeting"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "JotMe",
+  "platforms": ["web", "macos", "windows", "ios", "android", "browser-extension"],
+  "tags": ["translation", "meeting-notes", "transcription", "multilingual", "real-time"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.jotme.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.jotme.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 880,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Live translation, transcription and meeting notes in 200+ languages in one agentic tool — each participant gets their notes in their own language.",
+  "pros": [
+    "200+ languages with live translation",
+    "Per-participant notes in their own language",
+    "Works across Zoom/Teams/Meet/Webex and in person",
+    "Free tier available"
+  ],
+  "cons": [
+    "Free tier capped at 20 min of translation",
+    "SOC 2 Type II still in progress",
+    "Credit-based limits on lower tiers"
+  ],
+  "bestFor": ["Multilingual meetings", "Global teams"],
+  "alternatives": ["wordly", "notta", "deepl", "otter-ai"]
+}
