@@ -1,0 +1,47 @@
+{
+  "slug": "metamcp",
+  "name": "MetaMCP",
+  "tagline": "Aggregate many MCP servers into one secured gateway.",
+  "description": "MetaMCP is an open-source gateway that aggregates multiple Model Context Protocol (MCP) servers into unified, namespaced endpoints. Running as a single Docker service, it lets you group servers, apply middleware to filter or rewrite the tools they expose, and serve everything over SSE or streamable HTTP to any MCP client. It adds API-key and OAuth authentication, multi-tenancy, and a built-in MCP inspector for debugging.",
+  "insight": "Open-sourced under the MIT license by Metatool AI; it is itself an MCP server, so it plugs into any MCP client unchanged.",
+  "category": "mcp",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "self-host",
+  "vendor": "Metatool AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Protocol gateway; aggregates and routes tool calls from any MCP-capable client."
+  },
+  "tags": ["mcp", "gateway", "aggregator", "proxy", "self-hosted"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/metatool-ai/metamcp",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 848,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Aggregation, middleware, auth, and multi-tenancy in one self-hosted Docker gateway that is itself an MCP server — so any client connects unchanged.",
+  "pros": [
+    "One Docker service to run",
+    "Namespaces many MCP servers",
+    "Middleware to filter/rewrite tools",
+    "API-key and OAuth auth",
+    "MIT licensed, self-hosted"
+  ],
+  "cons": [
+    "Self-host only; no managed cloud",
+    "Requires Docker/infra to operate",
+    "Young project, evolving fast"
+  ],
+  "bestFor": [
+    "Teams running many MCP servers",
+    "Securing MCP behind auth",
+    "Self-hosted MCP deployments"
+  ],
+  "alternatives": ["composio", "klavis-ai", "smithery", "docker-mcp"]
+}

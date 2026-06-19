@@ -1,0 +1,54 @@
+{
+  "slug": "upstash-vector",
+  "name": "Upstash Vector",
+  "tagline": "Serverless vector database for AI search and RAG.",
+  "description": "Upstash Vector is a fully managed, serverless vector database for semantic search, retrieval-augmented generation, and recommendations. It exposes a simple REST API with first-class Python and TypeScript SDKs, stores JSON metadata alongside embeddings for filtered queries, and can generate embeddings for you with built-in models. Billing is pay-as-you-go with a free tier, so there is no infrastructure to provision or scale.",
+  "insight": "Built by Upstash, the serverless-Redis company, and powered by Microsoft Research's DiskANN nearest-neighbor algorithm.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Upstash",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Offers optional built-in embedding models; otherwise you upsert your own vectors."
+  },
+  "tags": ["vector-database", "rag", "semantic-search", "serverless"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://upstash.com/vector",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://upstash.com/docs/vector"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://upstash.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 846,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Pay-per-request serverless pricing and an optional built-in embedding model, so small RAG apps run at near-zero idle cost with no cluster to manage.",
+  "pros": [
+    "Serverless, pay-per-use pricing",
+    "Simple REST API + Python/TS SDKs",
+    "Optional built-in embedding models",
+    "Metadata filtering on queries",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Managed-only; not self-hostable",
+    "Proprietary, not open source",
+    "Fewer index controls than dedicated DBs"
+  ],
+  "bestFor": [
+    "Serverless RAG apps",
+    "Edge and Vercel deployments",
+    "Small-to-mid vector workloads"
+  ],
+  "alternatives": ["pinecone", "qdrant", "turbopuffer", "chroma"]
+}

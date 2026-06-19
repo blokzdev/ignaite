@@ -1,0 +1,51 @@
+{
+  "slug": "sqlite-vec",
+  "name": "sqlite-vec",
+  "tagline": "Vector search as a zero-dependency SQLite extension.",
+  "description": "sqlite-vec is a small SQLite extension that adds vector search directly to the database engine. Written in pure C with no dependencies, it compiles and runs anywhere SQLite does — Linux, macOS, Windows, the browser via WebAssembly, mobile, and even a Raspberry Pi — and stores float, int8, and binary vectors in ordinary SQLite tables. It ships bindings for Python, Node.js, Ruby, Go, and Rust, making local-first RAG possible without a separate vector database.",
+  "insight": "Created by Alex Garcia as the successor to his sqlite-vss, and backed as a Mozilla Builders project with Fly.io and Turso sponsorship.",
+  "category": "vector-db",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "Alex Garcia",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["vector-search", "sqlite", "embedded", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/asg017/sqlite-vec",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://alexgarcia.xyz/sqlite-vec/"
+    }
+  ],
+  "addedAt": "2026-06-19",
+  "addedSeq": 847,
+  "lastVerifiedAt": "2026-06-19",
+  "edge": "Embeds vector search inside the SQLite file itself, so RAG can run fully local — in the browser via WASM or on a Raspberry Pi — with no server.",
+  "pros": [
+    "Zero dependencies, pure C",
+    "Runs anywhere SQLite runs",
+    "Bindings for Python, JS, Ruby, Go, Rust",
+    "Local-first, no server needed",
+    "MIT / Apache 2.0 licensed"
+  ],
+  "cons": [
+    "Exhaustive (brute-force) search, not ANN",
+    "Not built for very large datasets",
+    "Single-node, embedded only"
+  ],
+  "bestFor": [
+    "Local-first RAG",
+    "Edge and on-device apps",
+    "Prototypes and small datasets",
+    "Apps already on SQLite"
+  ],
+  "alternatives": ["pgvector", "chroma", "lancedb", "qdrant"]
+}
