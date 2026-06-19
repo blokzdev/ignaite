@@ -16,11 +16,36 @@ Apps to add: **$ARGUMENTS**
 
 Work through this flow for each app:
 
-## 1. Dedup
+## 1. Dedup (by slug **and** name **and** primary domain)
 
-- Check `data/apps/` for an existing file by likely slug, and grep the dir for the name / vendor /
-  homepage domain. If it already exists, stop and tell the user (offer `/audit-directory <slug>` to
-  refresh it instead). The filename **is** the slug, so slugs are unique by construction.
+The trap is a **slug variant**: the same app re-added under a different slug (e.g. `bland` beside
+`bland-ai`, `leonardo` beside `leonardo-ai`) — a slug-only check sails right past it. So check **all
+three** signals against every existing listing (and open discovery PRs):
+
+- **Normalized name** — lowercase + strip non-alphanumerics (`"Bland AI"` → `blandai`).
+- **Primary-link domain** — the host of the candidate's primary URL, `www.`-stripped (`bland.ai`).
+- **Slug** — the filename.
+
+Run this candidate checker over `data/apps/*.json` (edit the `cands` list to your candidates):
+
+```bash
+node -e '
+const fs=require("fs"),p="data/apps";
+const norm=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"");
+const host=u=>{try{return new URL(u).host.replace(/^www\./,"").toLowerCase()}catch{return""}};
+const idx=fs.readdirSync(p).filter(f=>f.endsWith(".json")).map(f=>{const a=JSON.parse(fs.readFileSync(p+"/"+f,"utf8"));return{slug:a.slug,n:norm(a.name),h:host((a.links.find(l=>l.primary)||a.links[0]).url)};});
+const cands=[["EXAMPLE NAME","https://example.com"]]; // ← your [name, primaryUrl] pairs
+for(const [name,url] of cands){const n=norm(name),h=host(url);const hit=idx.filter(e=>e.n===n||e.h===h);
+console.log(hit.length?("DUP  "+name+"  ->  "+hit.map(e=>e.slug+" ["+[e.n===n?"name":"",e.h===h?"domain":""].filter(Boolean).join("+")+"]").join(", ")):("ok   "+name));}'
+```
+
+- A **name OR domain** hit means it's almost certainly already listed → **stop** and tell the user
+  (offer `/audit-directory <slug>` to refresh it instead).
+- A **domain** hit with a genuinely **different product name** can be a legitimate sibling on a shared
+  company domain (e.g. `langchain`/`langgraph`, `adobe-express`/`adobe-firefly`) — allowed, but only
+  when it's truly a distinct product, not the same app.
+- Backstop: `velite build --strict` now **hard-fails** on a duplicate (same normalized name + primary
+  domain), so a missed dup fails CI — but catch it here first to avoid wasted authoring.
 
 ## 2. Research (web-verify — no guessing)
 
@@ -109,7 +134,8 @@ Conventions (match existing entries):
 
 - `pnpm velite` must pass — it runs `velite build --strict`, validating the new JSON against the schema
   and **exiting non-zero** with a precise per-file error (bad enum, >140-char insight, missing/duplicate
-  primary link, non-ISO date, duplicate slug, …) if anything is off; fix until clean. Then
+  primary link, non-ISO date, duplicate slug, a **duplicate listing** sharing a name + primary domain
+  with another entry, …) if anything is off; fix until clean. Then
   `pnpm typecheck`, `pnpm lint`, `pnpm build` must be clean.
   Link-check the primary URL resolves. An anti-bot block (`403`/`429`/`503`) on a **demonstrably
   live** site is fine — don't skip the app: corroborate liveness via independent current sources

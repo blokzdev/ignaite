@@ -80,6 +80,39 @@ export default defineConfig({
         );
       }
     }
+    // A listing is a near-certain DUPLICATE of an existing one when they share
+    // the same primary-link host (www-stripped) AND the same normalized name.
+    // Distinct products on a shared company domain differ in name
+    // (langchain/langgraph, adobe-express/adobe-firefly), so this signature has
+    // ~no false positives — but it catches the same app RE-ADDED under a new
+    // slug (e.g. "bland" beside "bland-ai"), which the unique-slug guard above
+    // structurally cannot. The authoring routines also scan name+domain before
+    // adding (see .claude/commands/{add-app,discover-apps}.md); this is the
+    // hard backstop for what slips through (e.g. two PRs racing).
+    const normName = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "");
+    const primaryHost = (a: (typeof apps)[number]) => {
+      const url = a.links.find((l) => l.primary)?.url ?? a.links[0]?.url;
+      try {
+        return new URL(url!).host.replace(/^www\./, "").toLowerCase();
+      } catch {
+        return "";
+      }
+    };
+    const seenIdentity = new Map<string, string>();
+    for (const a of apps) {
+      const host = primaryHost(a);
+      if (!host) continue;
+      const sig = `${normName(a.name)}@${host}`;
+      const prior = seenIdentity.get(sig);
+      if (prior) {
+        throw new Error(
+          `Duplicate listing: "${a.slug}" and "${prior}" share name "${a.name}" + primary domain ` +
+            `"${host}" — the same app listed twice. Keep one canonical entry and redirect the other ` +
+            `/apps/<slug> in next.config.ts (see the dedup step in .claude/commands/add-app.md).`,
+        );
+      }
+      seenIdentity.set(sig, a.slug);
+    }
     // After the full collection is written, derive a SLIM search index for the
     // client command palette so it ships only the 5 fields it renders — not all
     // ~125 full records. The palette imports `@/.velite/apps-search.json`.

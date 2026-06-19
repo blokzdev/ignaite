@@ -171,7 +171,8 @@ velite.config.ts                  # Velite: validates data/apps/*.json + data/sp
                                   #   slim apps-search.json). Runs via `velite build --strict` prepended to
                                   #   build/lint/typecheck (NOT dev) — invalid data fails CI/pre-push (the
                                   #   config-level `strict` flag is a no-op in 0.3.1; only the CLI flag exits
-                                  #   non-zero). The `complete()` hook also throws on duplicate slugs/ids.
+                                  #   non-zero). The `complete()` hook also throws on duplicate slugs/ids
+                                  #   and on DUPLICATE LISTINGS (same normalized name + primary-link domain).
 .velite/                          # GENERATED + gitignored — never edit/commit; import via @/.velite
 
 lib/
@@ -395,11 +396,12 @@ The `/` directory is the product — keep it comprehensive + current. Committed 
 encode the flow (see `docs/directory-playbook.md`):
 
 - **`/add-app <name | url | list>`** — research + author new `App` listings as `data/apps/<slug>.json`
-  (dedup → web-verify → schema-valid entry → `pnpm velite`, which runs `--strict` and hard-fails on a
-  bad/duplicate entry). No fabrication; author a verifiable
+  (dedup by **slug + name + primary domain** → web-verify → schema-valid entry → `pnpm velite`, which
+  runs `--strict` and hard-fails on a bad/duplicate entry). No fabrication; author a verifiable
   `insight`; `addedAt`/`lastVerifiedAt` = today; `featured` sparingly.
 - **`/discover-apps [focus]`** — autonomous counterpart to `/add-app`: finds net-new apps not yet
-  listed and opens a PR. Built for unattended/scheduled runs.
+  listed (dedups by **slug + name + primary domain** against `main` and open discovery PRs) and opens a
+  PR. Built for unattended/scheduled runs.
 - **`/audit-directory [--category c] [--stale-since date]`** — re-verify existing listings (links,
   pricing, platforms, model support, still-alive), fix drift, archive discontinued apps, bump
   `lastVerifiedAt`, and **append a `changelog` entry on every substantive change** (the visible audit
