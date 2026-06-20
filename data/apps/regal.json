@@ -1,0 +1,47 @@
+{
+  "slug": "regal",
+  "name": "Regal",
+  "tagline": "Voice AI agent platform for contact centers.",
+  "description": "A platform to build, deploy, and manage AI voice agents that handle inbound and outbound customer interactions across phone, SMS, chat, and WebRTC. Agents learn from past conversations, and a 2026 Copilot lets teams stand up a working voice agent within a day using existing business processes.",
+  "insight": "Founded 2020 by Alex Levin and Rebecca Greene; backed by ~$83M, its agents handled roughly 350M calls in 2025.",
+  "category": "voice",
+  "secondaryCategories": ["support"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Regal",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Vendor-managed voice agent stack; model orchestration handled by Regal."
+  },
+  "tags": ["voice-agents", "contact-center", "cx", "outbound"],
+  "links": [
+    { "kind": "website", "url": "https://www.regal.ai", "primary": true },
+    { "kind": "pricing", "url": "https://www.regal.ai/pricing" }
+  ],
+  "edge": "Tuned for high-volume contact-center calling — its agents draw on millions of prior calls, and Copilot ships a working voice agent in about a day.",
+  "pros": [
+    "Phone, SMS, chat, and WebRTC in one platform",
+    "Agents improve from past call data",
+    "Copilot shortens build time to ~a day",
+    "Proven at contact-center call volume"
+  ],
+  "cons": [
+    "No public free tier — demo/sales-led",
+    "Enterprise focus; heavier setup than DIY APIs",
+    "Pricing not published"
+  ],
+  "bestFor": ["Contact centers", "Outbound sales calling", "CX automation"],
+  "alternatives": ["vapi", "retell-ai", "synthflow", "bland-ai"],
+  "references": [
+    {
+      "title": "Regal AI launches Copilot for building self-improving voice AI agents",
+      "url": "https://siliconangle.com/2026/04/08/regal-ai-launches-copilot-building-self-improving-voice-ai-agents/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 906,
+  "lastVerifiedAt": "2026-06-20"
+}

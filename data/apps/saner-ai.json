@@ -1,0 +1,38 @@
+{
+  "slug": "saner-ai",
+  "name": "Saner.AI",
+  "tagline": "ADHD-friendly AI personal assistant for notes, tasks, and email.",
+  "description": "A personal knowledge and productivity assistant built for ADHD workflows. Its assistant, Skai, captures quick notes, auto-tags and organizes them, lets you chat over your own documents, and pulls tasks, email, and calendar into one workspace to fight context-switching and overwhelm.",
+  "insight": "Niche-built for ADHD executive dysfunction rather than retrofitted from a general note app — its assistant is named Skai.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Saner.AI",
+  "platforms": ["web", "ios", "android", "browser-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Vendor-managed AI assistant (Skai) over the user's notes and tasks."
+  },
+  "tags": ["adhd", "personal-knowledge", "notes", "assistant"],
+  "links": [
+    { "kind": "website", "url": "https://saner.ai", "primary": true },
+    { "kind": "pricing", "url": "https://saner.ai/pricing" }
+  ],
+  "edge": "Designed around ADHD executive function — quick capture, automatic tagging, and a single surface for notes, tasks, email, and calendar to reduce overwhelm.",
+  "pros": [
+    "Low-friction quick capture",
+    "Automatic AI tagging and organization",
+    "Chat over your own notes and docs",
+    "Free plan, no credit card"
+  ],
+  "cons": [
+    "Free plan caps AI messages and notes",
+    "Lighter inline editing than dedicated note apps",
+    "Smaller team and ecosystem"
+  ],
+  "bestFor": ["ADHD workflows", "Personal knowledge management", "Brain-dump to plan"],
+  "alternatives": ["mem", "reflect", "notion-ai", "taskade"],
+  "addedAt": "2026-06-20",
+  "addedSeq": 908,
+  "lastVerifiedAt": "2026-06-20"
+}
