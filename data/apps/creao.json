@@ -1,0 +1,68 @@
+{
+  "slug": "creao",
+  "insight": "Raised $10M led by Prosperity7 (~$25M total in under a year) and reached 200K users within months of its Sept 2025 launch.",
+  "name": "Creao AI",
+  "tagline": "No-code 'Super Agent' that builds and runs autonomous workflow apps from plain English.",
+  "description": "Creao AI is a no-code platform whose 'Super Agent' turns a plain-language request into a working app: it writes the logic, calls APIs, and runs the task in a sandbox. Successful workflows lock into reusable 'Agent Apps' that run on a schedule 24/7 without further AI involvement, which avoids hallucination on repeat runs. It connects to 15+ services (Gmail, Google Sheets, GitHub, Slack, Notion) and can learn new integrations from supplied API docs.",
+  "category": "agent",
+  "secondaryCategories": ["automation"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Creao AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Builds on frontier LLMs; the Pro plan adds access to the latest frontier models."
+  },
+  "accentColor": "#7C5CFC",
+  "tags": ["ai-agent", "no-code", "workflow-automation", "app-builder", "super-agent"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://creao.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.creao.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://creao.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 917,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Closes the loop — the agent both builds the tool and runs it on a schedule, turning one-off chats into persistent apps that execute without re-prompting.",
+  "pros": [
+    "Build full apps/workflows in plain English",
+    "Workflows run 24/7 on a schedule",
+    "Locked Agent Apps avoid repeat hallucination",
+    "Learns custom integrations from API docs",
+    "Generous no-card free tier"
+  ],
+  "cons": [
+    "Young product, rapidly changing",
+    "Credit-metered usage can limit runs",
+    "Only ~15 native integrations",
+    "Unproven on complex enterprise needs"
+  ],
+  "bestFor": ["Solo builders", "B2B automation", "Non-coders"],
+  "alternatives": ["emergent", "manus", "lindy", "gumloop"],
+  "references": [
+    {
+      "title": "Creao AI raises $10M for autonomous super-agent platform",
+      "url": "https://pulse2.com/creao-ai-10-million-raised-to-build-autonomous-super-agent-platform-for-ai-workflows/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    },
+    {
+      "title": "CREAO launches Super Agent for AI-powered workflow apps",
+      "url": "https://www.testingcatalog.com/creao-launches-super-agent-for-ai-powered-workflow-apps/",
+      "source": "TestingCatalog",
+      "kind": "analysis"
+    }
+  ]
+}
