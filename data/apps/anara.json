@@ -1,0 +1,53 @@
+{
+  "slug": "anara",
+  "insight": "Rebranded from Unriddle in March 2025; backed by Y Combinator and the founders of GitHub and Reddit.",
+  "name": "Anara",
+  "tagline": "AI research assistant for searching, reading, and writing across scientific papers.",
+  "description": "Anara builds a personal library from a researcher's uploaded PDFs and connected sources, then lets you search the literature, ask questions across documents with inline citations, and draft and cite papers. It searches PubMed, arXiv, and JSTOR directly and connects to Zotero, Mendeley, Notion, and cloud drives. A free plan covers core reading and search; paid Plus, Pro, and Max tiers raise limits and add team features.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Anara (formerly Unriddle)",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses frontier LLMs over your library and indexed literature; models not user-selectable."
+  },
+  "tags": ["research", "literature-review", "citations", "pdf-chat", "academic-writing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://anara.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://anara.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 891,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Pulls citations from PubMed, arXiv, and JSTOR and syncs with Zotero, Mendeley, Notion, and Drive from one workspace.",
+  "pros": [
+    "Reference-manager and cloud-drive sync",
+    "Inline citations across your library",
+    "Direct PubMed/arXiv/JSTOR search",
+    "Usable free tier"
+  ],
+  "cons": [
+    "Coverage limited to indexed/uploaded sources",
+    "Higher limits gated to paid tiers",
+    "Underlying models not selectable"
+  ],
+  "bestFor": ["Literature reviews", "Academic researchers", "Citation-backed writing"],
+  "alternatives": ["scispace", "elicit", "scholarcy", "answerthis"],
+  "references": [
+    {
+      "title": "Anara AI Alternatives (Unriddle AI Review)",
+      "url": "https://paperpal.com/blog/news-updates/anara-ai-alternatives-unriddle-review",
+      "source": "Paperpal",
+      "kind": "review"
+    }
+  ]
+}

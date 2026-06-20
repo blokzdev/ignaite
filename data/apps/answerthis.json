@@ -1,0 +1,45 @@
+{
+  "slug": "answerthis",
+  "insight": "Backed by Y Combinator; built around an index of 250M+ research papers and other academic sources.",
+  "name": "AnswerThis",
+  "tagline": "AI research assistant for citation-backed answers and literature reviews.",
+  "description": "AnswerThis searches academic literature and returns comprehensive answers with line-by-line citations linked back to the source papers. It drafts structured literature reviews, organizes a research library, and helps write research content grounded in verified sources rather than open-web text. A free tier covers everyday searching, with an Enterprise plan aimed at pharma, biotech, and medical-device teams.",
+  "category": "research-platform",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "AnswerThis",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Runs LLMs over its academic-paper corpus; models not user-selectable."
+  },
+  "tags": ["research", "literature-review", "citations", "evidence-synthesis"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://answerthis.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://answerthis.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 892,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Answers and full literature reviews carry line-by-line citations tied to the originating paper, not just a source list.",
+  "pros": [
+    "Line-by-line citations to source papers",
+    "Drafts structured literature reviews",
+    "Large multi-source academic index",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Coverage limited to indexed literature",
+    "Public pricing detail is thin",
+    "Underlying models not selectable"
+  ],
+  "bestFor": ["Literature reviews", "Academic researchers", "Evidence synthesis"],
+  "alternatives": ["elicit", "consensus", "scispace", "anara"]
+}

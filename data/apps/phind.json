@@ -1,0 +1,54 @@
+{
+  "slug": "phind",
+  "insight": "Founded as Hello Cognition (YC S22); raised $10.4M led by Bessemer in late 2025.",
+  "name": "Phind",
+  "tagline": "AI answer engine for developers — technical search with code and citations.",
+  "description": "Phind is a conversational search engine built for developers: it combines live web results with generative AI to answer technical questions, returning explanations, code snippets, and cited sources. It uses multi-step reasoning over documentation and the web, and integrates into the editor via a VS Code extension. A free tier covers everyday use, with Plus and Pro plans adding stronger models, longer context, and higher limits.",
+  "category": "search",
+  "secondaryCategories": ["ide"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Phind (Hello Cognition)",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Routes across frontier LLMs plus Phind's own models, depending on plan."
+  },
+  "tags": ["developer-search", "coding", "answer-engine", "citations", "documentation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phind.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.phind.com/plans"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 894,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Tunes search for programmers — answers come as code and steps with cited sources, plus an in-editor VS Code extension.",
+  "pros": [
+    "Developer-tuned technical answers",
+    "Code snippets with cited sources",
+    "VS Code extension",
+    "Usable free tier"
+  ],
+  "cons": [
+    "Narrow focus outside technical queries",
+    "Best models gated to paid plans",
+    "Deep IDE support mainly VS Code"
+  ],
+  "bestFor": ["Developers", "Debugging and how-tos", "Technical research"],
+  "alternatives": ["perplexity", "you-com", "exa", "cursor"],
+  "references": [
+    {
+      "title": "AI answer engine Phind raises $10.4M",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2025/12/03/answer-engine-phind-y-combinator-bessemer",
+      "source": "Axios",
+      "kind": "analysis"
+    }
+  ]
+}

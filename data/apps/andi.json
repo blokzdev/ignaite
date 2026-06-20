@@ -1,0 +1,49 @@
+{
+  "slug": "andi",
+  "insight": "Founded by Angela Hoover (YC W22); raised $2.5M and named PCMag's Best Free AI Search Engine three years running.",
+  "name": "Andi",
+  "tagline": "Ad-free, privacy-first AI search that answers instead of returning links.",
+  "description": "Andi is a generative AI search engine that gives direct, summarized answers in a conversational interface rather than a page of links. It runs its own search index and a proprietary content-understanding backend, layering language models on top to assess source meaning and quality. It positions itself as private and ad-free, with the core search staying free.",
+  "category": "search",
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Andi",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Combines LLMs with its own search index and semantic backend; models not user-selectable."
+  },
+  "tags": ["ai-search", "answer-engine", "privacy", "ad-free", "conversational-search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://andisearch.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 895,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Privacy-first and ad-free with its own search index — direct answers and summaries instead of tracked link lists.",
+  "pros": [
+    "Ad-free and privacy-focused",
+    "Direct, summarized answers",
+    "Runs its own search index",
+    "Core search is free"
+  ],
+  "cons": [
+    "Answers can lack depth vs larger rivals",
+    "Smaller team and index than incumbents",
+    "Paid pro tier still limited"
+  ],
+  "bestFor": ["Private web search", "Quick factual answers", "Ad-free browsing"],
+  "alternatives": ["perplexity", "you-com", "kagi", "exa"],
+  "references": [
+    {
+      "title": "Y Combinator-backed Andi taps AI to build a better search engine",
+      "url": "https://techcrunch.com/2022/09/13/y-combinator-backed-andi-taps-ai-to-built-a-better-search-engine/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
