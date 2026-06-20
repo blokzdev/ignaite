@@ -1,0 +1,55 @@
+{
+  "slug": "youlearn",
+  "name": "YouLearn",
+  "tagline": "An AI tutor that turns your study materials into lessons.",
+  "insight": "Y Combinator-backed; the company says YouLearn serves over 2 million learners.",
+  "description": "YouLearn ingests PDFs, YouTube videos, slides, lecture recordings, and notes, then turns them into summaries, flashcards, quizzes, transcripts, and audio podcasts — plus a tutor you can chat with that answers grounded in your own material. It runs on the web and as native iOS and Android apps, with a free tier (capped daily chats and uploads) and paid Pro and Max plans.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "YouLearn",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Built-in AI tutor; no user-facing model selection."
+  },
+  "tags": ["ai-tutor", "study", "flashcards", "quizzes", "chat-with-pdf"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.youlearn.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://app.youlearn.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 960,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Turns YouTube videos, PDFs, slides, and lectures into one AI tutor with quizzes, flashcards, and podcasts — on web, iOS, and Android.",
+  "pros": [
+    "Wide input types (video/PDF/slides)",
+    "Free tier, no card",
+    "Web, iOS, and Android",
+    "Quizzes, flashcards, podcasts",
+    "Chat grounded in your materials"
+  ],
+  "cons": [
+    "Free tier has daily limits",
+    "Upload size and page caps",
+    "General LLM, not subject-tuned",
+    "No model selection"
+  ],
+  "bestFor": ["College students", "Self-paced learners", "Exam prep", "Lecture review"],
+  "alternatives": ["studyfetch", "studdy", "notebooklm"],
+  "references": [
+    {
+      "title": "YouLearn AI Review: All You Need to Know",
+      "url": "https://updf.com/chatgpt/youlearn-ai-review/",
+      "source": "UPDF",
+      "kind": "review"
+    }
+  ]
+}
