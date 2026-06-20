@@ -1,0 +1,57 @@
+{
+  "slug": "tinfoil",
+  "insight": "A Y Combinator (X25) startup; says it is the only platform offering multi-GPU confidential computing for AI inference.",
+  "name": "Tinfoil",
+  "tagline": "Verifiably private AI inference inside secure hardware enclaves.",
+  "description": "Tinfoil runs open-weight LLMs inside confidential-computing GPU enclaves so that neither Tinfoil nor the cloud provider can see your prompts or data — and the setup is remotely attestable rather than a policy promise. It offers a private chat, an OpenAI-compatible inference API, and Tinfoil Containers for arbitrary Docker workloads, serving models like GPT-OSS, Llama 3.3, and Kimi K2. The software stack is open source and verifiable.",
+  "category": "inference",
+  "secondaryCategories": ["security"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "Tinfoil",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["Llama 3.3", "GPT-OSS", "Kimi K2", "Gemma 3", "Mistral"],
+    "notes": "Open-weight models served inside the enclave; no proprietary GPT-4/Claude."
+  },
+  "tags": ["confidential-computing", "privacy", "inference", "secure-enclave", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://tinfoil.sh",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/tinfoilsh"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.tinfoil.sh"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://tinfoil.sh/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 890,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Hardware-enforced privacy: inference runs in attestable GPU enclaves so neither Tinfoil nor the cloud can see your data — verifiable, not just a promise.",
+  "pros": [
+    "Hardware-enforced, verifiable privacy",
+    "Open-source, attestable stack",
+    "OpenAI-compatible API",
+    "Free private chat to try",
+    "Runs popular open-weight models"
+  ],
+  "cons": [
+    "Open-weight models only, no GPT-4/Claude",
+    "Smaller model selection than big clouds",
+    "Enclave approach adds some overhead"
+  ],
+  "bestFor": ["Privacy-sensitive inference", "Regulated industries", "Confidential AI workloads"],
+  "alternatives": ["together-ai", "fireworks-ai", "openrouter"]
+}

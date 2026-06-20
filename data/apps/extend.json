@@ -1,0 +1,59 @@
+{
+  "slug": "extend",
+  "insight": "Raised $17M (seed + Series A) led by Innovation Endeavors in 2025; backers include Y Combinator and Vercel CEO Guillermo Rauch.",
+  "name": "Extend",
+  "tagline": "Full-stack document processing platform for AI agents and pipelines.",
+  "description": "Extend is an LLM-powered document processing platform that parses, extracts, classifies, splits, and edits complex documents — handwriting, tables, and mixed formats — into reliable structured data via API or its web Studio. It combines multiple frontier models with proprietary context engineering to target 99%+ accuracy on messy real-world files. Used by teams at Brex, Square, Checkr, and Flatiron Health.",
+  "category": "data-ops",
+  "secondaryCategories": ["vision"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Extend AI",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Ensembles multiple frontier LLMs/VLMs under the hood."
+  },
+  "tags": ["document-processing", "ocr", "extraction", "vlm", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.extend.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.extend.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.extend.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 888,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Ensembles multiple frontier models and pairs the API with a web Studio for schema iteration and evals — tuned for 99%+ accuracy on handwriting and tables.",
+  "pros": [
+    "Ensemble of frontier models for accuracy",
+    "Studio UI for schema design + evals",
+    "SDKs for Python, TypeScript, and CLI",
+    "Free credits, then pay-as-you-go",
+    "Used by Brex, Square, Checkr"
+  ],
+  "cons": [
+    "Newer than incumbent IDP vendors",
+    "Cloud-first; self-host is enterprise-only",
+    "Usage-credit pricing needs estimation"
+  ],
+  "bestFor": ["Fintech & healthcare documents", "RAG pipelines", "Agentic document workflows"],
+  "alternatives": ["reducto", "chunkr", "mindee", "llamaparse"],
+  "references": [
+    {
+      "title": "Extend raises $17 million to build the document processing cloud",
+      "url": "https://roboticsandautomationnews.com/2025/06/17/extend-raises-17-million-to-build-document-processing-cloud/92174/",
+      "source": "Robotics & Automation News",
+      "kind": "analysis"
+    }
+  ]
+}

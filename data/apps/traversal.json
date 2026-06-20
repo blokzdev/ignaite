@@ -1,0 +1,61 @@
+{
+  "slug": "traversal",
+  "insight": "Raised $48M from Sequoia and Kleiner Perkins, plus a strategic investment from American Express's Amex Ventures.",
+  "name": "Traversal",
+  "tagline": "An autonomous AI SRE that triages alerts and finds root causes in minutes.",
+  "description": "Traversal is an AI site reliability engineer (SRE) that autonomously triages noisy alerts, traces incidents across services and dependencies to isolate root causes, and feeds production context back to prevent recurrence. Its causal search engine and 'production world model' narrow failures down at petabyte scale. At American Express it reached 82% root-cause accuracy and cut potential MTTR by ~32%, with PepsiCo also among its enterprise users.",
+  "category": "observability",
+  "secondaryCategories": ["agent"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Traversal",
+  "platforms": ["web"],
+  "tags": ["sre", "incident-response", "root-cause-analysis", "aiops", "devops"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.traversal.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.traversal.com"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 889,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "A purpose-built AI SRE: its causal search engine traces root cause across services in minutes at petabyte scale, beyond dashboards or LLM chat-over-logs.",
+  "pros": [
+    "Autonomous root-cause analysis",
+    "Backed by Sequoia & Kleiner Perkins",
+    "Proven at Amex: 82% RCA accuracy",
+    "Triages and filters noisy alerts",
+    "Scales to petabyte telemetry"
+  ],
+  "cons": [
+    "Enterprise sales-only, no public pricing",
+    "Aimed at large, complex systems",
+    "Newer, limited public track record"
+  ],
+  "bestFor": [
+    "Enterprise SRE/DevOps teams",
+    "Complex distributed systems",
+    "Incident root-cause analysis"
+  ],
+  "alternatives": ["aisera"],
+  "references": [
+    {
+      "title": "Traversal Raises $48M to Launch Enterprise AI SRE Agent",
+      "url": "https://www.builtinnyc.com/articles/traversal-raises-48m-to-launch-ai-sre-20250620",
+      "source": "Built In NYC",
+      "kind": "analysis"
+    },
+    {
+      "title": "Inside the AI SRE Boom: Anish Agarwal on Traversal",
+      "url": "https://www.dash0.com/podcast/33-inside-the-ai-sre-boom-anish-agarwal",
+      "source": "Dash0",
+      "kind": "interview"
+    }
+  ]
+}
