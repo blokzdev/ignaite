@@ -1,0 +1,54 @@
+{
+  "slug": "t-rex-label",
+  "name": "T-Rex Label",
+  "tagline": "Zero-shot AI image annotation that batch-labels with visual prompts.",
+  "description": "T-Rex Label is a browser-based image annotation tool built on the T-Rex2 open-set detection model. Point it at one example and its visual-prompt, zero-shot detection finds and labels matching objects across an entire dataset—no training or fine-tuning required—handling dense, occluded, and varied-lighting scenes. It exports to COCO and YOLO formats and integrates with tools like Roboflow and Labelbox.",
+  "insight": "Built on the T-Rex2 open-set detection model (ECCV 2024) from IDEA Research's CV team, now operating as Visincept.",
+  "category": "vision",
+  "secondaryCategories": ["data-ops"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Visincept (IDEA Research)",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["T-Rex2"],
+    "notes": "Uses the in-house T-Rex2 open-set detector for zero-shot labeling."
+  },
+  "tags": [
+    "image-annotation",
+    "object-detection",
+    "zero-shot",
+    "dataset-labeling",
+    "computer-vision"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://trexlabel.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/IDEA-Research/T-Rex"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 982,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Visual-prompt zero-shot detection auto-labels every matching object across a dataset from one example box—no per-class training like traditional annotators.",
+  "pros": [
+    "Zero-shot, no training needed",
+    "Batch-labels from one example box",
+    "Handles dense and occluded scenes",
+    "COCO and YOLO export",
+    "Integrates with Roboflow, Labelbox"
+  ],
+  "cons": [
+    "Browser-only, no offline mode",
+    "Pricing not clearly published",
+    "Detection-focused (boxes and masks)"
+  ],
+  "bestFor": ["CV dataset labeling", "Rare-object detection", "Fast annotation at scale"],
+  "alternatives": ["roboflow", "encord", "labelbox", "voxel51"]
+}
