@@ -1,0 +1,50 @@
+{
+  "slug": "causaly",
+  "insight": "Serves 12 of the world's top 20 pharmaceutical companies, including Novo Nordisk, Gilead, and Regeneron.",
+  "name": "Causaly",
+  "tagline": "Agentic AI for life-sciences R&D, grounded in a biomedical knowledge graph.",
+  "description": "Causaly is an agentic AI platform for life-sciences research and development that distills tens of millions of scientific publications and datasets into a high-precision biomedical knowledge graph, then lets domain-specific AI agents plan, search, reason, and synthesize evidence. Researchers use it to map biomarkers, molecular targets, and disease mechanisms and to move from hypothesis to evidence-backed decision in hours rather than weeks. It is sold to pharmaceutical and life-sciences enterprises.",
+  "category": "science",
+  "secondaryCategories": ["research-platform"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Causaly",
+  "platforms": ["web"],
+  "tags": ["life-sciences", "drug-discovery", "knowledge-graph", "biomedical"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.causaly.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 933,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Purpose-built for biomedical R&D with a curated 500M-fact knowledge graph, so agents cite verifiable evidence rather than generic web chat.",
+  "pros": [
+    "Curated biomedical knowledge graph (500M facts)",
+    "Agents cite traceable scientific evidence",
+    "Adopted by top-20 pharma companies",
+    "Built for high-stakes R&D, not generic chat"
+  ],
+  "cons": [
+    "Enterprise life-sciences focus only",
+    "No public pricing",
+    "Not for general-purpose research"
+  ],
+  "bestFor": ["Pharma R&D teams", "Drug discovery", "Biomedical researchers"],
+  "alternatives": ["benchsci", "futurehouse", "scispace", "consensus"],
+  "references": [
+    {
+      "title": "Causaly Introduces First Agentic AI Platform for Life Sciences",
+      "url": "https://www.drugdiscoverynews.com/causaly-introduces-first-agentic-ai-platform-built-for-life-sciences-research-and-development-16614",
+      "source": "Drug Discovery News"
+    },
+    {
+      "title": "Causaly and Microsoft Integrate Scientific Reasoning for R&D",
+      "url": "https://www.hpcwire.com/aiwire/2026/06/04/causaly-and-microsoft-integrate-scientific-reasoning-and-analytics-for-drug-discovery/",
+      "source": "AIwire"
+    }
+  ]
+}
