@@ -1,0 +1,42 @@
+{
+  "slug": "gram",
+  "name": "Gram",
+  "tagline": "Build, curate, and host Model Context Protocol servers from your APIs or TypeScript.",
+  "description": "Gram is a platform for creating, curating, and hosting Model Context Protocol (MCP) servers. Instead of exposing raw API endpoints that confuse agents, it lets you compose higher-order, business-level tools from an OpenAPI document or TypeScript functions, group them into toolsets, and deploy each as a hosted, authenticated MCP server. Every toolset is instantly usable from Claude, ChatGPT, Cursor, or any MCP-compatible client, with an optional OAuth 2.1 proxy and org-wide access controls.",
+  "insight": "Made by Speakeasy, the OpenAPI SDK-generator company; released open source under the copyleft AGPL-3.0 license.",
+  "category": "mcp",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Speakeasy",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "MCP servers are model-agnostic; consumed by any MCP-compatible agent (Claude, ChatGPT, Cursor)."
+  },
+  "tags": ["mcp", "tools", "openapi", "agents"],
+  "links": [
+    { "kind": "website", "url": "https://www.getgram.ai", "primary": true },
+    { "kind": "github", "url": "https://github.com/speakeasy-api/gram" },
+    { "kind": "docs", "url": "https://www.speakeasy.com/docs/gram" }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 974,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Curates and composes business-level tools from your OpenAPI or TypeScript instead of exposing raw API endpoints, so agents get cleaner toolsets.",
+  "pros": [
+    "Open source (AGPL-3.0)",
+    "Hosted MCP servers, no infra",
+    "OpenAPI and TypeScript sources",
+    "Built-in OAuth 2.1 proxy",
+    "Tool curation, not raw APIs"
+  ],
+  "cons": [
+    "Still in public beta",
+    "Usage-based costs at scale",
+    "Tied to Speakeasy ecosystem",
+    "Newer, smaller community"
+  ],
+  "bestFor": ["API teams shipping MCP", "Agent tool builders", "SaaS product MCP servers"],
+  "alternatives": ["fastmcp", "composio", "toolhouse", "arcade"]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "endel",
+  "name": "Endel",
+  "tagline": "Personalized, real-time soundscapes that adapt to help you focus, relax, and sleep.",
+  "description": "Endel generates personalized, adaptive soundscapes in real time, blending music and atmospheric elements with techniques like binaural beats and colored noise. Its patented Endel Pacific engine responds to inputs such as time of day, weather, location, circadian rhythm, and heart rate to create sound for focus, relaxation, sleep, and activity. The app spans a wide device ecosystem, from phones and Mac to Apple Watch, Apple TV, and in-car wellness systems.",
+  "insight": "In 2019 it became the first algorithm to sign a music distribution deal with a major label, Warner Music Group.",
+  "category": "music",
+  "pricing": "freemium",
+  "vendor": "Endel Sound GmbH",
+  "platforms": ["ios", "android", "macos"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Endel Pacific"],
+    "notes": "Patented generative-audio engine; no third-party LLM involved."
+  },
+  "tags": ["soundscapes", "focus", "sleep", "generative-audio", "wellness"],
+  "links": [{ "kind": "website", "url": "https://endel.io", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 976,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Generates adaptive soundscapes in real time from your biometrics and environment, heart rate, weather, time of day, unlike static focus playlists.",
+  "pros": [
+    "Real-time adaptive generation",
+    "Grounded in neuroscience research",
+    "Wide device ecosystem",
+    "Patented sound engine",
+    "Releases on Warner Music"
+  ],
+  "cons": [
+    "Subscription for full access",
+    "Not for making your own songs",
+    "Soundscapes, not tracks",
+    "Effects are subjective"
+  ],
+  "bestFor": ["Focus and deep work", "Sleep and relaxation", "Wellness routines"],
+  "references": [
+    {
+      "title": "Endel raises $15M for its AI sound-wellness technology",
+      "url": "https://techcrunch.com/2022/04/05/endel-raises-15m-to-further-develop-its-ai-powered-sound-wellness-technology/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Warner's Spinnin' Records partners with Endel on AI wellness albums",
+      "url": "https://www.musicbusinessworldwide.com/warners-spinnin-records-partners-with-generative-ai-startup-endel-to-create-50-ai-generated-wellness-albums/",
+      "source": "Music Business Worldwide",
+      "kind": "analysis"
+    }
+  ]
+}
