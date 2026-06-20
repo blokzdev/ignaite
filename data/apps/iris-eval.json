@@ -1,0 +1,51 @@
+{
+  "slug": "iris-eval",
+  "name": "Iris",
+  "tagline": "MCP-native eval and observability server for AI agents.",
+  "description": "Iris scores AI agent output, catches safety failures, and enforces cost budgets — exposed as an MCP server rather than an SDK. Any MCP-compatible agent discovers its tools (trace logging, output evaluation, rule management, LLM-as-judge) and uses them automatically, with no code changes, so every output flowing through the protocol gets evaluated. It detects PII leaks, prompt injection, hallucinations, and budget anomalies. The core is MIT-licensed and free to self-host; a managed cloud adds dashboards and alerting.",
+  "insight": "Open-source core is MIT-licensed and shipped as an MCP server, so agents auto-discover its eval tools over the protocol.",
+  "category": "eval",
+  "secondaryCategories": ["observability", "mcp"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Iris",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "LLM-as-judge eval rules run against your own model/provider."
+  },
+  "tags": ["agent-eval", "observability", "mcp", "open-source", "safety"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://iris-eval.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/iris-eval"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://iris-eval.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 903,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "MCP-native: every output through the protocol is scored automatically with no SDK or instrumentation, rather than wiring evals into your code.",
+  "pros": [
+    "MIT-licensed open-source core",
+    "No-code, MCP-native integration",
+    "Free self-host, free cloud tier",
+    "PII, injection, and cost checks"
+  ],
+  "cons": [
+    "Newer, niche MCP-focused tool",
+    "Best fit for MCP-based agents",
+    "Smaller ecosystem than SDK evals"
+  ],
+  "bestFor": ["MCP agent developers", "Agent safety monitoring", "Eval coverage"],
+  "alternatives": ["braintrust", "deepeval", "promptfoo"]
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "pin",
+  "name": "Pin",
+  "tagline": "End-to-end AI recruiting agent that sources, screens, and schedules.",
+  "description": "Pin is an AI recruiting platform that runs the top of the hiring funnel autonomously. Its agent searches across 850M+ candidate profiles, matches them to a role with skills-based ranking, runs multi-channel outreach sequences, and books interviews — then syncs everything to your ATS via 120+ integrations. It targets recruiters and founders who want sourcing-through-scheduling handled without stitching point tools together.",
+  "insight": "New York startup; launched out of stealth in Dec 2024 with a $3M seed led by Expa Ventures.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Pin",
+  "platforms": ["web"],
+  "tags": ["recruiting", "sourcing", "candidate-matching", "outreach", "ats"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.pin.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.pin.com/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 900,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Bundles sourcing, screening, outreach, and scheduling into one agent over 850M+ profiles and 120+ ATS integrations, rather than a single-step tool.",
+  "pros": [
+    "End-to-end sourcing to scheduling",
+    "850M+ candidate profile reach",
+    "120+ ATS integrations",
+    "Skills-based candidate matching"
+  ],
+  "cons": [
+    "No free tier (starts at $99/mo)",
+    "Per-seat pricing on higher plans",
+    "Young company, founded 2024"
+  ],
+  "bestFor": ["Startup founders hiring", "In-house recruiters", "High-volume sourcing"],
+  "alternatives": ["hireez", "seekout", "findem", "gem"],
+  "references": [
+    {
+      "title": "Pin thinks AI can fix recruitment's biggest problems",
+      "url": "https://venturebeat.com/ai/pin-thinks-ai-can-fix-recruitments-biggest-problems-and-it-has-the-numbers-to-prove-it",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    },
+    {
+      "title": "Pin: AI-Based Recruitment Platform Raises $3 Million Seed",
+      "url": "https://pulse2.com/pin-ai-based-recruitment-platform-company-raises-3-million-seed/",
+      "source": "Pulse 2.0",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "soundhound-ai",
+  "name": "SoundHound AI",
+  "tagline": "Voice-native conversational AI platform for enterprise agents.",
+  "description": "SoundHound AI builds voice-native conversational AI used to deploy autonomous agents for customer interactions across automotive, restaurants, financial services, healthcare, and smart devices. Its full-stack speech technology pairs Speech-to-Meaning understanding with the Amelia enterprise agent platform and newer OASYS stack, automating phone answering, drive-thru ordering, and IT service management. It powers billions of conversations a year and is offered to developers and enterprises via APIs and embedded SDKs.",
+  "insight": "Nasdaq-listed (SOUN); acquired enterprise conversational-AI firm Amelia for $80M in August 2024.",
+  "category": "voice",
+  "secondaryCategories": ["agent"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "SoundHound AI",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary full-stack speech (ASR/TTS) and Speech-to-Meaning understanding."
+  },
+  "tags": ["voice-ai", "conversational-ai", "customer-service", "enterprise", "speech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.soundhound.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 904,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Owns its full speech stack (no third-party ASR/TTS) with Speech-to-Meaning understanding, deployable on-device or in the cloud at enterprise scale.",
+  "pros": [
+    "Full-stack proprietary speech tech",
+    "On-device or cloud deployment",
+    "Enterprise-proven (Amelia platform)",
+    "Billions of conversations handled"
+  ],
+  "cons": [
+    "Enterprise focus, custom pricing",
+    "Broad platform, longer onboarding",
+    "Less suited to small teams"
+  ],
+  "bestFor": [
+    "Enterprise voice agents",
+    "Drive-thru & IVR automation",
+    "Embedded voice assistants"
+  ],
+  "alternatives": ["polyai", "vapi", "retell-ai", "synthflow"],
+  "references": [
+    {
+      "title": "SoundHound Touts New Voice AI Agent Platform After Q1 2026",
+      "url": "https://slator.com/soundhound-q1-2026-new-voice-ai-agent-platform/",
+      "source": "Slator",
+      "kind": "analysis"
+    },
+    {
+      "title": "SoundHound Expands Reach With Amelia Acquisition",
+      "url": "https://www.pymnts.com/acquisitions/2024/soundhound-expands-reach-conversational-ai-offering-with-amelia-acquisition/",
+      "source": "PYMNTS",
+      "kind": "analysis"
+    }
+  ]
+}
