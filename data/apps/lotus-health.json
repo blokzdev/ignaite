@@ -1,0 +1,52 @@
+{
+  "slug": "lotus-health",
+  "insight": "Founder KJ Dhaliwal earlier sold dating app Dil Mil for $50M; raised a $35M Series A from CRV and Kleiner Perkins in Feb 2026.",
+  "name": "Lotus Health",
+  "tagline": "Free AI-powered primary care, with every diagnosis and prescription reviewed by real physicians.",
+  "description": "Lotus Health is a consumer primary-care app whose AI conducts patient consultations and drafts diagnoses, prescriptions, lab orders, and referrals, with board-certified physicians reviewing each before it's finalized. Care is free to patients, licensed across all 50 US states, and available 24/7 in dozens of languages; urgent cases or anything needing a physical exam are routed to in-person care.",
+  "category": "healthcare",
+  "pricing": "free",
+  "vendor": "Lotus Health",
+  "platforms": ["ios", "web"],
+  "tags": ["ai-doctor", "primary-care", "telehealth", "prescriptions", "free"],
+  "links": [
+    { "kind": "website", "url": "https://lotus.ai", "primary": true },
+    {
+      "kind": "website",
+      "url": "https://apps.apple.com/us/app/lotus-health-ai/id6736791154",
+      "label": "iOS App Store"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 952,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Goes beyond AI symptom-checkers to deliver actual care — diagnoses, prescriptions, and labs reviewed by board-certified physicians — at no cost.",
+  "pros": [
+    "Free care: no insurance or fees",
+    "Physician-reviewed diagnoses & scripts",
+    "Licensed in all 50 US states",
+    "24/7, available in 50+ languages",
+    "Sends prescriptions & labs at no cost"
+  ],
+  "cons": [
+    "US-only",
+    "iOS-first, limited web/no Android",
+    "Sponsorship-funded model still evolving",
+    "Not for emergencies or physical exams",
+    "Newer entrant, limited track record"
+  ],
+  "bestFor": [
+    "Uninsured / cost-sensitive patients",
+    "Non-urgent primary care",
+    "Prescription refills & labs"
+  ],
+  "alternatives": ["k-health", "ada-health", "hippocratic-ai"],
+  "references": [
+    {
+      "title": "Lotus Health nabs $35M for AI doctor that sees patients for free",
+      "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
