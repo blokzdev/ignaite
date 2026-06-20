@@ -1,0 +1,65 @@
+{
+  "slug": "hindsight",
+  "name": "Hindsight",
+  "tagline": "Open-source agent memory that retains, recalls, and reflects.",
+  "description": "Hindsight is an open-source memory system for AI agents that works like human memory — organizing world facts, agent experiences, entity summaries, and evolving beliefs into four networks. Its retain/recall/reflect operations let agents reflect on past runs and update beliefs instead of repeating mistakes. It was built by Vectorize with Virginia Tech and The Washington Post.",
+  "insight": "Scored 91.4% on the LongMemEval benchmark — the highest recorded — in research by Vectorize with Virginia Tech.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Vectorize",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["Claude", "GPT", "Gemini"],
+    "notes": "Uses an LLM for the reflect step; bring your own provider key."
+  },
+  "accentColor": "#14B8A6",
+  "tags": ["memory", "agents", "open-source", "reflection"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vectorize.io/hindsight",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "kind": "docs",
+      "url": "https://hindsight.vectorize.io"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 950,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Goes beyond storing facts: agents reflect on past runs to update beliefs and avoid repeating mistakes, topping LongMemEval for long-horizon recall.",
+  "pros": [
+    "Reflection: agents learn from experience",
+    "Top LongMemEval accuracy (91.4%)",
+    "MIT-licensed, self-hostable",
+    "Human-like memory networks",
+    "Managed Hindsight Cloud option"
+  ],
+  "cons": [
+    "New (2026), small ecosystem so far",
+    "Tied to Vectorize's stack and roadmap",
+    "Reflection adds LLM cost and latency"
+  ],
+  "bestFor": [
+    "Long-horizon agent memory",
+    "Agents that learn over time",
+    "Temporal/multi-session recall"
+  ],
+  "alternatives": ["mem0", "zep", "letta", "cognee"],
+  "references": [
+    {
+      "title": "Open-source Hindsight agentic memory hits 91% accuracy",
+      "url": "https://venturebeat.com/data/with-91-accuracy-open-source-hindsight-agentic-memory-provides-20-20-vision",
+      "source": "VentureBeat",
+      "kind": "analysis"
+    }
+  ]
+}

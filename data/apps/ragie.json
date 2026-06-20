@@ -1,0 +1,64 @@
+{
+  "slug": "ragie",
+  "name": "Ragie",
+  "tagline": "Managed RAG-as-a-service — the context engine for AI agents and apps.",
+  "description": "Ragie is a fully managed retrieval-augmented-generation platform. It ingests data through native connectors like Google Drive and Notion, parses multimodal content (PDFs, images, audio, video), and serves hybrid vector + keyword + summary retrieval over an API and MCP server. Developers add accurate, grounded context to LLM apps without building their own ingestion and retrieval pipeline.",
+  "insight": "Raised a $5.5M seed led by Craft Ventures (David Sacks); its production tier is a flat $500/month.",
+  "category": "search",
+  "secondaryCategories": ["data-ops"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Ragie, Corp",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Retrieval layer that supplies context to any LLM."
+  },
+  "accentColor": "#8B5CF6",
+  "tags": ["rag", "retrieval", "context", "mcp"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ragie.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.ragie.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.ragie.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 951,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Fully managed RAG with native connectors, multimodal parsing, and an MCP server — skip building ingestion, chunking, and hybrid retrieval yourself.",
+  "pros": [
+    "Fully managed, fast to integrate",
+    "Native connectors (Drive, Notion, etc.)",
+    "Multimodal parsing (PDF, image, audio, video)",
+    "Hybrid vector + keyword + summary search",
+    "MCP server for agentic retrieval"
+  ],
+  "cons": [
+    "Production tier starts at $500/month",
+    "Proprietary, cloud-only (no self-host)",
+    "Less control than rolling your own RAG"
+  ],
+  "bestFor": [
+    "Developers adding RAG fast",
+    "Multimodal document retrieval",
+    "Agent context pipelines"
+  ],
+  "alternatives": ["vectara", "graphlit", "llamaindex", "inkeep"],
+  "references": [
+    {
+      "title": "Ragie Launches $500/Month RAG-as-a-Service Platform",
+      "url": "https://getcoai.com/news/ragie-launches-500-month-rag-platform-to-streamline-enterprise-ai/",
+      "source": "CO/AI",
+      "kind": "analysis"
+    }
+  ]
+}
