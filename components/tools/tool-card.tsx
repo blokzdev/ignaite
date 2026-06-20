@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { ArrowUpRight, Lightbulb } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import type { App } from "@/types/app";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { licenseSignal } from "@/lib/tools/license";
 import { LINK_ICON, PRICING_LABEL } from "@/lib/tools/app-labels";
 import { cn } from "@/lib/utils";
+import { CardProsCons } from "./card-pros-cons";
 
 const NEUTRAL_RING = "ring-white/[0.08]";
 
@@ -117,24 +118,12 @@ export function ToolCard({ app }: Readonly<Props>) {
         </p>
       </div>
 
-      {/* Worth knowing — one verifiable, non-obvious fact about the listing.
-          The label is a real (visible) eyebrow now, so the signal reads as
-          distinct from the description rather than relying on an sr-only cue. */}
-      {app.insight && (
-        <div className="flex items-start gap-2 rounded-xl bg-[var(--color-accent)]/[0.06] px-3 py-2 ring-1 ring-[var(--color-accent)]/15 ring-inset">
-          <Lightbulb
-            aria-hidden
-            className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-accent)]"
-          />
-          <div className="min-w-0">
-            <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--color-accent)] uppercase">
-              Worth knowing
-            </p>
-            <p className="mt-0.5 line-clamp-2 text-xs leading-relaxed text-[var(--color-ink-soft)]">
-              {app.insight}
-            </p>
-          </div>
-        </div>
+      {/* Pros / cons — two single-line flippers replace the old "Worth knowing"
+          box. pros/cons are populated on every listing, so the card always has a
+          filled, uniform footer signal (the insight lives on the detail page,
+          where the ~3% of entries without one read fine). */}
+      {((app.pros?.length ?? 0) > 0 || (app.cons?.length ?? 0) > 0) && (
+        <CardProsCons pros={app.pros} cons={app.cons} />
       )}
 
       {/* Tags — first 4, with a +N chip for the rest */}
