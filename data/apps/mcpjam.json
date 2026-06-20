@@ -1,0 +1,49 @@
+{
+  "slug": "mcpjam",
+  "name": "MCPJam",
+  "tagline": "Open-source inspector to test, debug, and evaluate MCP servers and ChatGPT apps.",
+  "description": "MCPJam is a local-first developer tool, a 'Postman for MCP', for testing, debugging, inspecting, and evaluating Model Context Protocol servers. You can manually run tools, resources, resource templates, prompts, and elicitation flows with full JSON-RPC observability, debug every message and OAuth exchange, and run evaluations across multiple LLMs to catch regressions. It runs as a hosted web app, a Mac/Windows desktop app, or via npx in your terminal.",
+  "insight": "Open source under Apache-2.0; tests OpenAI's ChatGPT Apps (Apps SDK) alongside MCP servers, not just MCP alone.",
+  "category": "mcp",
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "local",
+  "vendor": "MCPJam",
+  "platforms": ["web", "macos", "windows", "cli"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Test and eval across multiple LLM providers; free frontier-model chat or bring your own key."
+  },
+  "tags": ["mcp", "inspector", "debugging", "testing", "evals"],
+  "links": [
+    { "kind": "website", "url": "https://www.mcpjam.com", "primary": true },
+    { "kind": "github", "url": "https://github.com/MCPJam/inspector" },
+    { "kind": "docs", "url": "https://docs.mcpjam.com" }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 977,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "A visual 'Postman for MCP': run tools and inspect every JSON-RPC and OAuth exchange, then score servers with multi-LLM evals in one local UI.",
+  "pros": [
+    "Open source (Apache-2.0)",
+    "Local-first, runs via npx",
+    "Full JSON-RPC and OAuth inspection",
+    "Multi-LLM evaluation runs",
+    "Web, desktop, and CLI"
+  ],
+  "cons": [
+    "Niche developer tool",
+    "Hosted version limited (no STDIO)",
+    "Young, fast-moving project",
+    "Requires Node 20+ locally"
+  ],
+  "bestFor": ["MCP server developers", "Debugging agent tools", "Testing ChatGPT apps"],
+  "references": [
+    {
+      "title": "Testing MCP servers with MCPJam Inspector",
+      "url": "https://dev.to/therabbithole/testing-mcp-servers-like-a-pro-using-mcpjam-inspector-22ka",
+      "source": "DEV Community",
+      "kind": "guide"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "cleric",
+  "name": "Cleric",
+  "tagline": "An autonomous AI SRE that investigates production alerts and finds root cause.",
+  "description": "Cleric is an AI agent for site reliability engineering that automates incident response. When an alert fires, it investigates across your observability dashboards, performs root-cause analysis in minutes, recommends and verifies fixes against the live environment, and retains what it learns as institutional knowledge for the team. It works inside Slack and existing tooling with read-only access by default, adding write access only when teams are ready.",
+  "insight": "Raised $9.8M total; Vertex Ventures US led a $5.5M round in Dec 2025 alongside its self-learning AI SRE launch.",
+  "category": "observability",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Cleric",
+  "platforms": ["web"],
+  "tags": ["ai-sre", "incident-response", "root-cause", "devops"],
+  "links": [{ "kind": "website", "url": "https://cleric.ai", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 975,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Acts as an autonomous on-call teammate that triages alerts and root-causes in minutes with read-only access, not just another dashboard to read.",
+  "pros": [
+    "Autonomous alert triage",
+    "~5-minute root-cause analysis",
+    "Read-only access by default",
+    "Learns from each incident",
+    "SOC 2 Type II compliant"
+  ],
+  "cons": [
+    "No public pricing",
+    "Demo-led enterprise sales",
+    "Young product (2024-25)",
+    "Needs observability integrations"
+  ],
+  "bestFor": [
+    "On-call engineering teams",
+    "Kubernetes/microservices ops",
+    "Reducing alert fatigue"
+  ],
+  "alternatives": ["traversal"],
+  "references": [
+    {
+      "title": "Cleric Launches Self-Learning AI SRE",
+      "url": "https://www.apmdigest.com/cleric-launches-self-learning-ai-sre",
+      "source": "APMdigest",
+      "kind": "analysis"
+    }
+  ]
+}
