@@ -1,0 +1,41 @@
+{
+  "slug": "asapp",
+  "insight": "Raised $400M total, including a $120M Series C that doubled its valuation to roughly $1.6B.",
+  "name": "ASAPP",
+  "tagline": "Agentic customer-experience platform for enterprise contact centers.",
+  "description": "ASAPP is an agentic customer experience platform (CXP) for enterprise contact centers. Its GenerativeAgent autonomously listens, reasons, and acts to resolve customer issues across voice and digital channels, routing to rule-based automation or a human-in-the-loop agent when needed. It targets large enterprises in industries like financial services, telecom, and travel.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "ASAPP",
+  "platforms": ["web", "api"],
+  "accentColor": "#6E3AFF",
+  "tags": ["contact-center", "customer-experience", "conversational-ai", "ai-agents", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.asapp.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 924,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Enterprise-grade autonomous agent that escalates to a human-in-the-loop when needed — built for high-stakes voice and digital contact centers.",
+  "pros": [
+    "Autonomous + human-in-the-loop routing",
+    "Voice and digital channels",
+    "Enterprise guardrails and security",
+    "Backed by $400M in funding",
+    "Proven at large contact centers"
+  ],
+  "cons": [
+    "Enterprise-only, no public pricing",
+    "Heavy implementation effort",
+    "Overkill for small teams",
+    "Contact-center–specific scope"
+  ],
+  "bestFor": ["Enterprise contact centers", "Financial services CX", "Voice + digital support"],
+  "alternatives": ["cresta", "sierra", "decagon", "cognigy"]
+}
