@@ -1,0 +1,45 @@
+{
+  "slug": "phonic",
+  "insight": "Raised a $4M seed in 2025 backed by Lux Capital and the founders of Replit, Hugging Face, and Modal.",
+  "name": "Phonic",
+  "tagline": "Speech-to-speech platform for reliable voice agents.",
+  "description": "Phonic is a platform for building production voice agents on its own end-to-end speech-to-speech models, rather than chaining separate speech-to-text, LLM, and text-to-speech stages. It targets sub-300ms latency for natural turn-taking and reliable tool calling, and bundles evaluation, session records, and real-time observability to surface failure points. Aimed at enterprises, it offers cloud API access plus containerized deployment in your own environment.",
+  "category": "voice",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Phonic",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Built on Phonic's own speech-to-speech audio foundation models."
+  },
+  "tags": ["voice-agents", "speech-to-speech", "conversational-ai", "low-latency", "observability"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://phonic.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 968,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Runs one proprietary speech-to-speech model at sub-300ms latency instead of an STT→LLM→TTS chain, with eval and observability built in for voice agents.",
+  "pros": [
+    "Own end-to-end speech-to-speech models",
+    "Sub-300ms conversational latency",
+    "Built-in eval and observability",
+    "Self-host / containerized option"
+  ],
+  "cons": [
+    "Enterprise-focused, no public free tier",
+    "Pricing not published",
+    "Younger than larger voice platforms"
+  ],
+  "bestFor": [
+    "Enterprise voice agents",
+    "Low-latency phone support",
+    "Teams needing voice observability"
+  ],
+  "alternatives": ["vapi", "retell-ai", "cartesia", "bland-ai"]
+}

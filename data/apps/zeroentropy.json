@@ -1,0 +1,46 @@
+{
+  "slug": "zeroentropy",
+  "insight": "Trains its rerankers with a chess-style Elo method it calls zELO, and releases zerank-1-small as open weights under Apache 2.0.",
+  "name": "ZeroEntropy",
+  "tagline": "Rerankers and embeddings that sharpen AI retrieval.",
+  "description": "ZeroEntropy builds specialized models — rerankers, embeddings, and custom retrieval models — that improve search accuracy in RAG pipelines and agentic apps. Its zerank rerankers reorder retrieved results so the most relevant passages reach the model, reportedly beating Cohere and Gemini rerankers at lower cost. The models are served through a single, latency-optimized API with Python and TypeScript SDKs, and the smaller zerank model is released as open weights.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "ZeroEntropy",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Serves its own zerank rerankers and zembed embedding models."
+  },
+  "tags": ["reranker", "retrieval", "rag", "embeddings", "search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.zeroentropy.dev",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.zeroentropy.dev"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 967,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Drop-in reranker API that reorders any retriever's results, reportedly beating Cohere and Gemini rerankers on accuracy at about half the price.",
+  "pros": [
+    "zerank tops several reranker benchmarks",
+    "Cheaper than Cohere rerank",
+    "Open-weight small model (Apache 2.0)",
+    "Single API with Python/TS SDKs",
+    "Multilingual across 100+ languages"
+  ],
+  "cons": [
+    "Hosted API/platform is proprietary",
+    "Narrow scope: a retrieval layer only",
+    "Young, seed-stage company"
+  ],
+  "bestFor": ["RAG pipelines", "Search relevance tuning", "Agentic retrieval"],
+  "alternatives": ["cohere", "contextual-ai"]
+}
