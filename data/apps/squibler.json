@@ -1,0 +1,41 @@
+{
+  "slug": "squibler",
+  "name": "Squibler",
+  "tagline": "Turn an idea into a full book, novel or screenplay with AI.",
+  "description": "Squibler is an AI writing platform for long-form fiction and screenwriting that drafts outlines, chapters, characters and settings from a prompt, then helps edit and refine the manuscript. It includes an AI co-author, a distraction-free editor, story templates, and AI image generation for scenes, with support for 80+ languages. Plans range from a limited free tier to paid Plus and Pro subscriptions.",
+  "category": "writing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Squibler",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Built-in AI co-author for drafting, outlining and editing long-form work."
+  },
+  "tags": ["fiction-writing", "novel", "screenwriting", "story-generator", "ai-writing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.squibler.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.squibler.io/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 942,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Generates whole books and screenplays from a prompt — with AI scene images and 80+ language support — inside one distraction-free long-form editor.",
+  "pros": [
+    "Whole-book & screenplay drafting",
+    "AI co-author plus editor",
+    "AI image generation for scenes",
+    "80+ languages",
+    "Free tier to start"
+  ],
+  "cons": ["Web-only, no native app", "Generic AI prose needs editing", "Higher tiers get pricey"],
+  "bestFor": ["Indie novelists", "Screenwriters", "Fast first drafts"],
+  "alternatives": ["sudowrite", "novelcrafter", "novelai"]
+}

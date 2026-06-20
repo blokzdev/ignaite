@@ -1,0 +1,45 @@
+{
+  "slug": "studdy",
+  "insight": "A Y Combinator S23 startup; its ‘Studdy Buddy’ tutor reads a photographed problem and teaches the solution on a voice-driven whiteboard.",
+  "name": "Studdy",
+  "tagline": "AI tutor that teaches step by step on a whiteboard.",
+  "description": "Studdy is an AI tutor app whose ‘Studdy Buddy’ guides students through problems one step at a time on an interactive whiteboard, using voice, text and image recognition. Students snap a photo of an assignment or upload study materials, then get personalized 1:1 lessons across math, science and other subjects and can interrupt with questions anytime. It runs on iOS, Android and the web.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Studdy",
+  "platforms": ["ios", "android", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary AI tutor combining speech, text and image recognition."
+  },
+  "tags": ["ai-tutor", "homework-help", "math", "whiteboard", "students"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://studdyai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 941,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Teaches interactively on a step-by-step voice whiteboard rather than just returning a final answer like photo-solver apps.",
+  "pros": [
+    "Step-by-step whiteboard teaching",
+    "Voice and photo input",
+    "Covers many subjects",
+    "iOS, Android and web"
+  ],
+  "cons": [
+    "Small, early-stage team",
+    "Limited public traction data",
+    "Subscription after free trial"
+  ],
+  "bestFor": [
+    "Students wanting guided help",
+    "Homework & exam prep",
+    "Visual, interactive learners"
+  ],
+  "alternatives": ["photomath", "gauth", "khanmigo"]
+}
