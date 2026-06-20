@@ -1,0 +1,42 @@
+{
+  "slug": "tensorlake",
+  "insight": "Founded in 2022 and backed by about $8M; its document-parsing/OCR API was reworked into a sandbox cloud for agents.",
+  "name": "Tensorlake",
+  "tagline": "Sandbox-native cloud for AI agents.",
+  "description": "Tensorlake is a cloud platform that gives AI agents their own isolated, stateful sandboxes for running code and calling tools safely. Each sandbox is a microVM that can pause and resume, so long-running agentic loops keep their state across restarts and can run for hours. It exposes serverless Python workflow APIs that scale to zero when idle, and its earlier document-parsing and OCR API now runs as one workload on top. A free tier is available.",
+  "category": "infra",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Tensorlake",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Infrastructure layer — runs any agent's or model's code and tool calls."
+  },
+  "tags": ["agent-infra", "sandbox", "code-execution", "microvm", "serverless"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tensorlake.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 966,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Sandboxes are stateful microVMs that pause and resume, so a long agent loop survives restarts instead of losing state on ephemeral runners.",
+  "pros": [
+    "Stateful pause/resume sandboxes",
+    "Isolated microVM code/tool execution",
+    "Serverless workflows scale to zero",
+    "SOC 2 Type 2, encrypted storage",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Newer, smaller than general clouds",
+    "Usage-based cost can add up",
+    "Self-host only on the enterprise tier"
+  ],
+  "bestFor": ["Agent builders", "Sandboxed code execution", "Long-running agent loops"],
+  "alternatives": ["e2b", "daytona", "modal"]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "zencoder",
+  "insight": "Founded by Andrew Filev, who earlier bootstrapped work-management platform Wrike to a $2.25B exit.",
+  "name": "Zencoder",
+  "tagline": "AI coding agent for your IDE and terminal.",
+  "description": "Zencoder is an AI coding agent that indexes an entire repository to understand its architecture and dependencies, then writes, tests, and fixes code across the development lifecycle. Its Zen Agents are customizable, shareable autonomous agents for tasks like generating tests, updating dependencies, or opening PRs, while Zentester focuses on automated unit and end-to-end tests. It runs inside popular IDEs like VS Code and JetBrains and via a CLI, supporting 70+ languages.",
+  "category": "ide",
+  "pricing": "freemium",
+  "vendor": "Zencoder",
+  "platforms": ["vscode-extension", "cli"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Uses leading frontier LLMs under the hood."
+  },
+  "tags": ["coding-agent", "code-generation", "testing", "repo-indexing", "swe-bench"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://zencoder.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 969,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Repo-wide indexing plus shareable custom 'Zen Agents' and an error-correcting pipeline; reports a ~70% score on SWE-bench Verified.",
+  "pros": [
+    "Indexes whole repos for context",
+    "Custom, shareable Zen Agents",
+    "Built-in test generation (Zentester)",
+    "Works in VS Code, JetBrains, and CLI",
+    "Strong SWE-bench results (vendor-reported)"
+  ],
+  "cons": [
+    "Quality varies on large codebases",
+    "Credit-based usage limits",
+    "Smaller ecosystem than Cursor/Copilot"
+  ],
+  "bestFor": ["IDE-based coding", "Automated test generation", "Teams standardizing agents"],
+  "alternatives": ["cursor", "windsurf", "augment-code", "qodo"]
+}
