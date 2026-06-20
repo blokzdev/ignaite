@@ -1,0 +1,49 @@
+{
+  "slug": "aperturedb",
+  "insight": "ApertureData raised an $8.25M seed led by TQ Ventures in October 2024, launching ApertureDB Cloud alongside its self-hosted edition.",
+  "name": "ApertureDB",
+  "tagline": "Vector + graph database for multimodal AI data.",
+  "description": "ApertureDB is a purpose-built database that unifies vector search, a knowledge graph, and multimodal data management — images, video, documents, and their metadata — in a single system. Instead of stitching together a vector store, object storage, and a graph database, teams query embeddings, relationships, and the underlying media together to power GenAI pipelines and agents.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "ApertureData",
+  "platforms": ["web", "api", "linux"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Stores and searches your embeddings and media; bring your own models."
+  },
+  "tags": ["multimodal", "vector-search", "knowledge-graph", "images", "video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.aperturedata.io",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.aperturedata.io"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/aperture-data/aperturedb-python"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 911,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "One database for vectors, a knowledge graph, and the underlying images and video — no separate object store or graph DB to stitch together.",
+  "pros": [
+    "Unifies vectors, graph, and media",
+    "Built for images, video, and documents",
+    "Cloud or self-hosted deployment",
+    "Strong multimodal retrieval"
+  ],
+  "cons": [
+    "Niche vs general-purpose vector DBs",
+    "Smaller ecosystem and community",
+    "Free tier is limited"
+  ],
+  "bestFor": ["Multimodal RAG", "Visual data management", "CV/GenAI pipelines"],
+  "alternatives": ["lancedb", "weaviate", "milvus", "qdrant"]
+}

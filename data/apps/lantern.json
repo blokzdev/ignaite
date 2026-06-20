@@ -1,0 +1,50 @@
+{
+  "slug": "lantern",
+  "insight": "Built by an early Timescale engineer (Narek Galstyan) and backed by Y Combinator and the founders of Citus Data.",
+  "name": "Lantern",
+  "tagline": "Open-source Postgres vector database for AI apps.",
+  "description": "Lantern is a PostgreSQL extension and managed cloud service that turns Postgres into a production vector database for AI. It implements HNSW indexing for fast approximate nearest-neighbour search and layers on embedding generation, vector compression, and hybrid search that combines vector similarity with BM25 full-text and reranking — all inside the database teams already run.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Lantern",
+  "platforms": ["api", "linux", "macos"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Generates or accepts embeddings; storage and retrieval layer."
+  },
+  "tags": ["postgres", "vector-search", "hnsw", "pgvector", "hybrid-search", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lantern.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/lanterndata/lantern"
+    },
+    {
+      "kind": "docs",
+      "url": "https://lantern.dev/docs"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 910,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Adds production vector search inside Postgres itself — HNSW, embedding generation, and hybrid BM25 search with no separate vector store.",
+  "pros": [
+    "Lives inside the Postgres you already run",
+    "Open-source, self-host or managed cloud",
+    "HNSW plus hybrid BM25 search",
+    "Built-in embedding generation"
+  ],
+  "cons": [
+    "Tied to the Postgres ecosystem",
+    "Smaller community than pgvector",
+    "Managed cloud tier still maturing"
+  ],
+  "bestFor": ["Postgres-based RAG", "Teams avoiding a separate DB", "Hybrid search"],
+  "alternatives": ["pgvector", "qdrant", "pinecone", "lancedb"]
+}
