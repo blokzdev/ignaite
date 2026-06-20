@@ -1,0 +1,61 @@
+{
+  "slug": "koala-ai",
+  "name": "Koala AI",
+  "tagline": "AI SEO writer that turns a keyword into a ranking article.",
+  "description": "Koala AI is a content suite built around KoalaWriter, which generates publish-ready long-form articles using real-time SERP analysis to fold in the keywords, topics, and entities top results rank for. It pairs with KoalaChat, KoalaImages, internal-linking, and lead-magnet tools, and publishes directly to WordPress, Shopify, Webflow, and Ghost. A limited free trial precedes paid plans starting at $9/month.",
+  "category": "writing",
+  "secondaryCategories": ["marketing"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Koala AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude"],
+    "notes": "Choose between GPT and Claude models for generation."
+  },
+  "tags": ["seo", "content-writing", "blog", "serp-analysis", "ai-writer"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://koala.sh",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://koala.sh/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 959,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Bakes live SERP analysis into one-click long-form drafts, so articles ship keyword- and entity-optimized out of the box.",
+  "pros": [
+    "Strong built-in SERP/SEO analysis",
+    "Fast one-click long-form drafts",
+    "Publishes to WordPress/Shopify/Webflow",
+    "Choice of GPT or Claude",
+    "Five-tool content suite"
+  ],
+  "cons": [
+    "No perpetual free tier",
+    "Drafts still need human editing",
+    "Credit-based usage limits",
+    "Weaker on niche technical topics"
+  ],
+  "bestFor": [
+    "SEO content teams",
+    "Affiliate and blog publishers",
+    "High-volume drafting",
+    "Solo marketers"
+  ],
+  "alternatives": ["surfer-seo", "jasper", "writesonic"],
+  "references": [
+    {
+      "title": "KoalaWriter AI Review - The Best One-Click SEO AI Writer",
+      "url": "https://originality.ai/blog/koalawriter-ai-review",
+      "source": "Originality.AI",
+      "kind": "review"
+    }
+  ]
+}

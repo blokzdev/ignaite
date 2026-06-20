@@ -1,0 +1,54 @@
+{
+  "slug": "visily",
+  "name": "Visily",
+  "tagline": "AI-powered UI design for non-designers.",
+  "description": "Visily turns text prompts, screenshots, and hand-drawn sketches into editable wireframes, mockups, and clickable prototypes on a single collaborative canvas. It targets non-designers — founders, PMs, and engineers — with drag-and-drop components, AI-assisted layout, and a short learning curve. Designs import from and export to Figma, and a generous free Starter tier needs no credit card.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Visily",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary AI design models; no model selection exposed."
+  },
+  "tags": ["ui-design", "wireframing", "prototyping", "text-to-ui", "screenshot-to-design"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visily.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.visily.ai/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 957,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Turns screenshots, sketches, and text prompts into editable high-fidelity UI in minutes — built for non-designers, not Figma pros.",
+  "pros": [
+    "Screenshot / sketch to editable UI",
+    "Minimal learning curve",
+    "Generous free tier, no card",
+    "Figma import and export",
+    "Real-time collaboration"
+  ],
+  "cons": [
+    "Not a full pro design tool",
+    "Cloud-only, no desktop app",
+    "AI usage gated by credits",
+    "Less fine control than Figma"
+  ],
+  "bestFor": ["Non-designers", "Rapid wireframing", "PMs and founders", "Early-stage prototypes"],
+  "alternatives": ["uizard", "magic-patterns", "google-stitch"],
+  "references": [
+    {
+      "title": "Visily Reviews & Profile",
+      "url": "https://www.softwareadvice.com/wireframe/visily-profile/",
+      "source": "Software Advice",
+      "kind": "review"
+    }
+  ]
+}

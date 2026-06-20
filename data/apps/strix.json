@@ -1,0 +1,66 @@
+{
+  "slug": "strix",
+  "name": "Strix",
+  "tagline": "Open-source AI agents that pentest your app and prove findings.",
+  "insight": "Open-sourced in late 2025 under Apache-2.0; surpassed 25k GitHub stars within months of launch.",
+  "description": "Strix runs autonomous AI agents that behave like real attackers: they execute your code dynamically, explore the app through an HTTP proxy and headless browser, and surface vulnerabilities — then validate each with a working proof-of-concept instead of a static-analysis guess. It runs locally via Docker from the CLI, against a local codebase, a GitHub repo, or a black-box web target, with a hosted cloud version and GitHub Actions integration for CI.",
+  "category": "security",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Strix",
+  "platforms": ["cli", "web"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "models": ["OpenAI", "Anthropic", "Google"],
+    "notes": "Bring your own LLM provider key (OpenAI / Anthropic / Google)."
+  },
+  "tags": ["pentest", "security-testing", "ai-agents", "vulnerability", "appsec", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://strix.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.strix.ai"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 958,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Runs the app and confirms each vulnerability with a working proof-of-concept, cutting the false positives static scanners produce.",
+  "pros": [
+    "Open-source (Apache-2.0)",
+    "Validates findings with PoCs",
+    "Runs locally via Docker or cloud",
+    "Bring-your-own LLM provider",
+    "GitHub Actions integration"
+  ],
+  "cons": [
+    "Requires your own LLM API key",
+    "Needs Docker to run locally",
+    "LLM costs scale with use",
+    "Newer, shorter track record"
+  ],
+  "bestFor": [
+    "AppSec teams",
+    "Developers shipping fast",
+    "Bug bounty research",
+    "CI security testing"
+  ],
+  "alternatives": ["horizon3-ai", "xbow", "pentera"],
+  "references": [
+    {
+      "title": "Strix: Open-source AI agents for penetration testing",
+      "url": "https://www.helpnetsecurity.com/2025/11/17/strix-open-source-ai-agents-penetration-testing/",
+      "source": "Help Net Security",
+      "kind": "analysis"
+    }
+  ]
+}
