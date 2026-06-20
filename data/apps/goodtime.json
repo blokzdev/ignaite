@@ -1,0 +1,52 @@
+{
+  "slug": "goodtime",
+  "name": "GoodTime",
+  "tagline": "AI interview scheduling and coordination for hiring teams.",
+  "description": "GoodTime automates the logistics of hiring: it schedules interviews across calendars and time zones, balances interviewer load, books panels and debriefs, and keeps candidates updated end to end. Its AI teammate, Cori, takes action on coordination tasks rather than just suggesting them, and the platform layers on hiring analytics. It plugs into major ATS platforms and targets enterprise talent-acquisition teams drowning in scheduling overhead.",
+  "insight": "Founded in 2016 in San Francisco; raised a $9.5M Series A led by KTB Ventures in 2021.",
+  "category": "hr",
+  "secondaryCategories": ["automation"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "GoodTime",
+  "platforms": ["web"],
+  "tags": ["interview-scheduling", "recruiting", "coordination", "hiring", "analytics"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.goodtime.io",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 901,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Purpose-built for interview coordination — auto-balancing panels, time zones, and debriefs at enterprise scale, not a generic calendar scheduler.",
+  "pros": [
+    "Automates complex panel scheduling",
+    "Balances interviewer workloads",
+    "Cori AI acts, not just suggests",
+    "Deep ATS integrations"
+  ],
+  "cons": ["Enterprise focus, custom pricing", "No public free tier", "Recruiting-only scope"],
+  "bestFor": [
+    "Enterprise recruiting teams",
+    "High-volume interview scheduling",
+    "Talent operations"
+  ],
+  "alternatives": ["paradox", "gem", "metaview", "humanly"],
+  "references": [
+    {
+      "title": "Automated Scheduling Solution GoodTime Raises $5 Million",
+      "url": "https://ere.net/just-in-time-to-be-commoditized-automated-scheduling-solution-goodtime-raises-5-million",
+      "source": "ERE",
+      "kind": "analysis"
+    },
+    {
+      "title": "GoodTime Hire Review, Pricing, Alternatives",
+      "url": "https://www.selectsoftwarereviews.com/reviews/goodtime",
+      "source": "SelectSoftware",
+      "kind": "review"
+    }
+  ]
+}

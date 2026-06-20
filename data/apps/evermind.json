@@ -1,0 +1,54 @@
+{
+  "slug": "evermind",
+  "name": "EverMind",
+  "tagline": "Open-source, self-evolving long-term memory OS for AI agents.",
+  "description": "EverMind builds persistent memory infrastructure for AI agents. Its open-source EverOS (a.k.a. EverMemOS) is a brain-inspired memory operating system — sensory encoding, hippocampal-style indexing, and long-term consolidation — that gives agents context that survives across sessions and platforms, with multimodal retrieval and agent-trajectory recording. It's a portable layer meant to plug into Claude Code, Codex, and other agents; self-host the Apache-2.0 core or use the managed EverOS Cloud.",
+  "insight": "Incubated under Shanda Investment Group, the firm of Chinese billionaire Chen Tianqiao.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "EverMind",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Portable memory layer across agents (Claude Code, Codex, and more); bring your own models."
+  },
+  "tags": ["agent-memory", "long-term-memory", "open-source", "multimodal", "rag"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://evermind.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/EverMind-AI/EverOS"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 902,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "A brain-inspired, self-evolving memory OS that's portable across agents, posting strong LongMemEval and LoCoMo scores rather than a single-app store.",
+  "pros": [
+    "Apache-2.0 open-source core",
+    "Self-host or managed cloud",
+    "Portable across agents/platforms",
+    "Strong long-memory benchmark scores"
+  ],
+  "cons": [
+    "Newer project, smaller ecosystem",
+    "Self-host setup overhead",
+    "Cloud pricing not fully public"
+  ],
+  "bestFor": ["Agent memory infrastructure", "Cross-session context", "Self-hosting teams"],
+  "alternatives": ["mem0", "zep", "letta", "cognee"],
+  "references": [
+    {
+      "title": "China's EverMind Launches Open-Source Long-Term Memory System",
+      "url": "https://www.yicaiglobal.com/news/chinas-evermind-launches-open-source-long-term-memory-system-for-ai-agents",
+      "source": "Yicai Global",
+      "kind": "analysis"
+    }
+  ]
+}
