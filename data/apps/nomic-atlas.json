@@ -1,0 +1,59 @@
+{
+  "slug": "nomic-atlas",
+  "insight": "From Nomic AI — makers of the open GPT4All local LLM app and the open-weight nomic-embed models; raised a $17M Series A.",
+  "name": "Nomic Atlas",
+  "tagline": "Explore, structure, and analyze millions of unstructured records as interactive embedding maps.",
+  "description": "Nomic Atlas is a data-intelligence platform that embeds large collections of text, image, and audio data and renders them as interactive 2-D maps you can browse, search, cluster, and label in the browser. Powered by Nomic's own embedding and topic-modeling models, it scales from hundreds to tens of millions of points and exposes the same pipeline through a developer API for embeddings and retrieval.",
+  "category": "analytics",
+  "secondaryCategories": ["data-ops"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Nomic AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Uses Nomic's own embedding models (nomic-embed) for mapping and retrieval."
+  },
+  "tags": [
+    "data-visualization",
+    "embeddings",
+    "unstructured-data",
+    "topic-modeling",
+    "exploration"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://atlas.nomic.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.nomic.ai"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 965,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Turns millions of unstructured records into a zoomable, embedding-powered map you can visually search, cluster, and label — no notebook required.",
+  "pros": [
+    "Visual maps of huge unstructured datasets",
+    "Text, image, and audio modalities",
+    "Backed by open nomic-embed models",
+    "Developer API for embeddings/retrieval"
+  ],
+  "cons": [
+    "Public free tier exposes maps publicly",
+    "Niche vs general BI tools",
+    "Large datasets need paid plans"
+  ],
+  "bestFor": ["Dataset exploration", "Embedding analysis", "ML data curation"],
+  "references": [
+    {
+      "title": "Nomic AI secures $17 million in Series A funding",
+      "url": "https://www.trysignalbase.com/news/funding/nomic-ai-secures-17-million-in-series-a-funding-to-revolutionize-unstructured-data-handling",
+      "source": "SignalBase",
+      "kind": "analysis"
+    }
+  ]
+}

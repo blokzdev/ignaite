@@ -1,0 +1,50 @@
+{
+  "slug": "podcastle",
+  "insight": "Backed by Andrew Ng's AI Fund; in 2025 launched its own Asyncflow v1.0 text-to-speech model with more than 450 AI voices.",
+  "name": "Podcastle",
+  "tagline": "AI-powered studio for recording, editing, and producing audio and video.",
+  "description": "Podcastle is a browser-based content-creation platform for podcasters and video creators: multi-track remote recording, AI text-to-speech and voice cloning, transcription, and one-click audio and video editing with noise removal and leveling. It bundles studio capture, AI voices, and editing into a single workflow so creators don't need a separate DAW or video editor.",
+  "category": "audio",
+  "secondaryCategories": ["voice"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Podcastle",
+  "platforms": ["web", "ios"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Uses its own Asyncflow TTS model and in-house audio AI."
+  },
+  "tags": ["podcasting", "text-to-speech", "voice-cloning", "transcription", "audio-editing"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://podcastle.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 963,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "All-in-one browser studio that combines remote recording, AI voices, transcription, and audio + video editing without a separate DAW.",
+  "pros": [
+    "Recording + AI voices + editing in one app",
+    "450+ AI voices via its Asyncflow model",
+    "Remote multi-track recording",
+    "Beginner-friendly workflow"
+  ],
+  "cons": [
+    "Cloud-only; needs a connection",
+    "Advanced features gated to paid tiers",
+    "Less control than a full DAW"
+  ],
+  "bestFor": ["Podcast creators", "Solo video creators", "AI voiceover"],
+  "alternatives": ["descript", "adobe-podcast", "elevenlabs"],
+  "references": [
+    {
+      "title": "Podcastle launches a text-to-speech model with 450+ AI voices",
+      "url": "https://techcrunch.com/2025/03/03/podcasting-platform-podcastle-launches-a-text-to-speech-model-with-more-than-450-ai-voices/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
