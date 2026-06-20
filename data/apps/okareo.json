@@ -1,5 +1,6 @@
 {
   "slug": "okareo",
+  "insight": "Founded by ex-Meta product leaders after a year in stealth; seed-backed by AV8 Ventures, Bee Partners and Race Capital.",
   "name": "Okareo",
   "tagline": "Simulate real users to ship reliable voice and text agents.",
   "description": "Okareo is an evaluation and testing platform for AI agents. It drives an agent with synthetic users (\"Drivers\") that hold personality-rich, multi-turn conversations across voice, text, and headless channels, surfacing edge cases before release. Teams gate releases on conversation quality in CI/CD, turn production failures into automated test scenarios, and evaluate models, RAG pipelines, and agents from one workspace.",

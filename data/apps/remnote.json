@@ -1,5 +1,6 @@
 {
   "slug": "remnote",
+  "insight": "Started at MIT; raised a $2.8M seed in 2021 backed by General Catalyst and Dorm Room Fund.",
   "name": "RemNote",
   "tagline": "Notes, PDF annotation, and spaced-repetition flashcards in one AI study app.",
   "description": "RemNote combines outliner notes, PDF annotation, and spaced-repetition flashcards in a single app aimed at students. Its built-in AI generates quiz questions and flashcards in one click from your notes, PDFs, or lecture transcripts, then schedules reviews with a spaced-repetition algorithm. Works offline across web, desktop, and mobile.",

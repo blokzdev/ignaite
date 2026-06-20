@@ -1,5 +1,6 @@
 {
   "slug": "tellius",
+  "insight": "Founder Ajay Khanna earlier co-founded Celcite (telecom analytics, acquired by Amdocs); Tellius has since raised about $36M.",
   "name": "Tellius",
   "tagline": "Agentic analytics that investigates why your metrics moved and delivers the answer.",
   "description": "Tellius is an AI-native analytics platform that lets teams ask questions of enterprise data in natural language and get finished insights back, not raw dashboards. Its Kaiya assistant handles conversational analytics, automated anomaly detection, and autonomous root-cause investigation, chaining detection, explanation, and delivery into agentic 'missions'. Outputs include board-ready presentations and executive memos.",

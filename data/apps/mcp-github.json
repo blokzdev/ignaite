@@ -1,5 +1,6 @@
 {
   "slug": "mcp-github",
+  "insight": "GitHub's official MCP server (not a community port) — rewritten in Go and also offered as a GitHub-hosted remote endpoint.",
   "name": "GitHub MCP",
   "tagline": "Reads + writes GitHub from any MCP-aware agent.",
   "description": "Official GitHub MCP server. Wired into Claude Code and most agentic surfaces to read PRs, post comments, create branches, and run secret-scanning.",

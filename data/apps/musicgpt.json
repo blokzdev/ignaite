@@ -1,5 +1,6 @@
 {
   "slug": "musicgpt",
+  "insight": "Open-source; runs music generators like Meta's MusicGen fully offline on-device, with no Python or ML frameworks to install.",
   "name": "MusicGPT",
   "tagline": "Generate full songs, vocals, and instrumentals from a text prompt.",
   "description": "MusicGPT turns a text prompt into a complete, produced song with AI vocals, lyrics, and instrumentation across many genres. Beyond song generation it handles audio tasks like stem extraction, remixing, and a built-in lyrics generator. It runs in the browser and as native iOS and Android apps, with a developer API for programmatic generation. A free plan grants a monthly song quota and credits; non-expiring credit top-ups cover heavier use.",

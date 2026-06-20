@@ -1,5 +1,6 @@
 {
   "slug": "realestateapi",
+  "insight": "Bootstrapped with no institutional VC to 150M+ properties, then acquired in an eight-figure deal by AI-infra company Beacon.",
   "name": "RealEstateAPI",
   "tagline": "Expressive property data APIs for building proptech.",
   "description": "RealEstateAPI (REAPI) is a developer-focused property data platform offering APIs for property search, detail, comparables, parcel boundaries, address autocomplete, and skip tracing across roughly 95% of U.S. properties. It targets proptech startups and data-heavy products that want flexible, modern access to nationwide real estate data, and provides lender-grade automated valuations with confidence scoring for pre-qualification, underwriting, and portfolio monitoring.",

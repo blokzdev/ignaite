@@ -1,5 +1,6 @@
 {
   "slug": "maia",
+  "insight": "Built by Matillion, the established cloud data-integration company, as its AI-native data-automation platform.",
   "name": "Maia",
   "tagline": "An agentic 'AI data team' that turns requests into production-ready data pipelines.",
   "description": "Maia is an AI data automation platform that uses agentic AI mapped to real data-team roles to build, govern, and manage data pipelines from natural-language requests. It covers pipeline design, data quality, integration, DataOps monitoring, cost (FinOps) optimization, and legacy ETL migration. It targets enterprise data teams, with customers including DocuSign, Autodesk, Siemens Healthineers, and Cisco.",
@@ -7,7 +8,7 @@
   "pricing": "paid",
   "deployment": "cloud",
   "featured": false,
-  "vendor": "Maia",
+  "vendor": "Matillion",
   "platforms": ["web", "api"],
   "accentColor": "#2DBE8E",
   "tags": ["data-engineering", "data-pipelines", "etl", "agentic-ai", "dataops"],

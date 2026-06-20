@@ -1,5 +1,6 @@
 {
   "slug": "powerdrill",
+  "insight": "Built by Singapore deep-tech firm DataCloud Technology, the same company behind the Relyt AI-native data infrastructure.",
   "name": "Powerdrill",
   "tagline": "Conversational AI data analysis for files, databases, and the web.",
   "description": "A no-code data analysis tool that turns natural-language questions into instant insights, charts, and presentations. Users upload Excel, CSV, TSV, and SQL files or paste URLs, and the AI handles cleaning, statistical analysis, and visualization with suggested follow-up questions. Supports multi-modal inputs including images and audio.",
