@@ -1,0 +1,60 @@
+{
+  "slug": "lumo",
+  "name": "Lumo",
+  "tagline": "Privacy-first AI assistant with zero-access encrypted chats.",
+  "description": "Lumo is Proton's privacy-focused AI assistant. Conversations are protected with zero-access encryption and decrypt only on your device, with no server-side logs and nothing used for model training. It runs on open-source language models hosted in Proton's European datacenters, and the app itself is open source. Free to use without an account; Lumo Plus adds unlimited chats and larger uploads.",
+  "insight": "From Proton (Proton Mail/VPN); chats use zero-access encryption and run on open-source models in EU datacenters, never used for training.",
+  "category": "assistant",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "Proton",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Runs on open-weight models hosted in Proton's EU datacenters; no model picker."
+  },
+  "accentColor": "#6d4aff",
+  "tags": ["privacy", "assistant", "encrypted", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lumo.proton.me",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://proton.me/lumo",
+      "label": "About Lumo"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 897,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "A genuinely private chatbot — open-source, zero-access-encrypted, EU-hosted, with no logging or training on your data — from the maker of Proton Mail.",
+  "pros": [
+    "Zero-access encrypted chat history",
+    "Open-source app and underlying models",
+    "No logs; data not used for training",
+    "Free tier, no account required"
+  ],
+  "cons": [
+    "Open models lag the top frontier LLMs",
+    "No third-party model choice",
+    "Fewer integrations than big assistants"
+  ],
+  "bestFor": [
+    "Privacy-conscious users",
+    "Encrypted research and writing",
+    "Proton ecosystem users"
+  ],
+  "alternatives": ["le-chat", "jan", "claude", "chatgpt"],
+  "references": [
+    {
+      "title": "I tried Proton's privacy-focused AI and the results were disappointing",
+      "url": "https://www.xda-developers.com/proton-lumo-ai-feature/",
+      "source": "XDA Developers",
+      "kind": "review"
+    }
+  ]
+}

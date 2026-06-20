@@ -1,0 +1,50 @@
+{
+  "slug": "robin-ai",
+  "name": "Robin AI",
+  "tagline": "AI copilot for drafting, reviewing and negotiating contracts.",
+  "description": "Robin AI is a legal AI platform for contract drafting, review and negotiation, used by in-house legal teams and large enterprises. Its Contract Copilot works in a web app and a Microsoft Word add-in, and a natural-language query layer searches across an entire contract repository. It pairs Anthropic's Claude with proprietary data from millions of contracts to extract terms and flag risks.",
+  "insight": "One of Anthropic's first legal launch partners; its contract copilot runs on Claude layered over data from 2M+ contracts.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Robin AI",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Claude"],
+    "notes": "Contract copilot built on Anthropic's Claude, layered over proprietary contract data."
+  },
+  "tags": ["legal", "contracts", "review", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://robinai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 898,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Specializes in enterprise contract drafting, review and negotiation — with a Word add-in and natural-language search across your entire contract repository.",
+  "pros": [
+    "Strong contract review and negotiation focus",
+    "Microsoft Word add-in (Contract Copilot)",
+    "Repository-wide contract Q&A",
+    "Used by large enterprises and banks"
+  ],
+  "cons": [
+    "Enterprise pricing; not for individuals",
+    "Narrow scope (contracts)",
+    "Less suited to litigation or legal research"
+  ],
+  "bestFor": ["In-house legal teams", "Contract review and negotiation", "M&A due diligence"],
+  "alternatives": ["spellbook", "cocounsel", "legora", "harvey"],
+  "references": [
+    {
+      "title": "Robin AI Lands $25M as Customers Double Down as Investors",
+      "url": "https://www.maginative.com/article/robin-ai-lands-25m-as-customers-double-down-as-investors/",
+      "source": "Maginative",
+      "kind": "analysis"
+    }
+  ]
+}
