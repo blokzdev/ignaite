@@ -1,0 +1,49 @@
+{
+  "slug": "tortus",
+  "insight": "First UK company to meet the NHS DTAC compliance standard for clinical AI; seed round led by Khosla Ventures.",
+  "name": "TORTUS",
+  "tagline": "Ambient clinical AI co-pilot built and regulated with the NHS.",
+  "description": "TORTUS is a clinical AI assistant for doctors that uses ambient voice to capture patient consultations and auto-generate structured notes, letters, referrals, and coding suggestions directly inside the electronic health record. Its O.S.L.E.R. system acts as an AI agent across documentation and admin tasks, while a proprietary 'Shell' safety layer detects and strips hallucinations before a clinician reviews the note. Built with the NHS, it is sold to health systems and GP practices rather than to individual clinicians.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Tortus AI",
+  "platforms": ["web"],
+  "tags": ["ambient-ai", "clinical-documentation", "ai-scribe", "nhs"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://tortus.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 931,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Pairs ambient scribing with a 'Shell' safety layer that removes ~93% of detected hallucinations, co-developed and regulated with the NHS.",
+  "pros": [
+    "Built and regulated with the NHS",
+    "'Shell' layer strips ~93% of hallucinations",
+    "Goes beyond notes to orders and referrals",
+    "Writes structured data into the EHR"
+  ],
+  "cons": [
+    "Enterprise / health-system sales only",
+    "No public pricing",
+    "UK / NHS-centric deployment"
+  ],
+  "bestFor": ["NHS trusts", "GP practices", "Hospital clinicians"],
+  "alternatives": ["heidi-health", "nabla", "abridge", "suki"],
+  "references": [
+    {
+      "title": "TORTUS secures $4.2M Seed Funding for clinical documentation",
+      "url": "https://tech.eu/2024/02/12/tortus-secures-4-2m-seed-funding-for-clinical-documentation-automation/",
+      "source": "Tech.eu"
+    },
+    {
+      "title": "TORTUS secures $4.2m to give every clinician a personal AI assistant",
+      "url": "https://www.digitalhealth.net/2024/02/tortus-secures-4-2m-to-give-every-clinician-a-personal-ai-assistant/",
+      "source": "Digital Health"
+    }
+  ]
+}
