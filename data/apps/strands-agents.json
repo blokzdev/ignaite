@@ -1,0 +1,51 @@
+{
+  "slug": "strands-agents",
+  "insight": "Open-sourced by AWS in May 2025 from the tech behind Amazon Q Developer; passed one million downloads within four months.",
+  "name": "Strands Agents",
+  "tagline": "Model-driven, open-source agent SDK for Python and TypeScript.",
+  "description": "AWS's open-source SDK for building production agents with a model-driven approach: you supply a model, tools, and a prompt, and the model plans and drives the loop. Model-agnostic (Amazon Bedrock, Anthropic, OpenAI, Ollama, and more), with native MCP tool support, 20+ built-in tools, conversation/context management, hooks, guardrails, and built-in OpenTelemetry observability.",
+  "category": "agent",
+  "secondaryCategories": ["orchestration"],
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "AWS",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Supports Amazon Bedrock, Anthropic, OpenAI, Ollama, and other providers."
+  },
+  "tags": ["agents", "sdk", "model-driven", "mcp", "open-source", "aws"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://strandsagents.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/strands-agents/sdk-python"
+    },
+    {
+      "kind": "docs",
+      "url": "https://strandsagents.com/latest/documentation/docs/"
+    }
+  ],
+  "edge": "Model-driven loop — give it a model, tools, and a prompt and it plans the steps itself; model-agnostic with native MCP and OpenTelemetry tracing.",
+  "pros": [
+    "Simple model-driven agent loop",
+    "Python and TypeScript SDKs",
+    "Native MCP support, 20+ built-in tools",
+    "Observability built in",
+    "Battle-tested inside Amazon"
+  ],
+  "cons": [
+    "Newer ecosystem than LangChain",
+    "Deepest integration is with AWS/Bedrock",
+    "TypeScript SDK trails the Python one"
+  ],
+  "bestFor": ["Production agents", "AWS/Bedrock stacks", "MCP tool use"],
+  "alternatives": ["langgraph", "crewai", "agno"],
+  "addedAt": "2026-06-20",
+  "addedSeq": 913,
+  "lastVerifiedAt": "2026-06-20"
+}
