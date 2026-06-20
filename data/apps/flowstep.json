@@ -1,0 +1,38 @@
+{
+  "slug": "flowstep",
+  "name": "Flowstep",
+  "tagline": "AI UI design that exports production React + Tailwind.",
+  "description": "Flowstep is an AI design tool that generates fully editable UI screens from conversational prompts, supports multi-screen flows, and lets you customize the result by hand. It integrates with Figma for handoff and exports production-ready React, TypeScript, and Tailwind CSS code, aiming to compress the design-to-code kickoff.",
+  "category": "design",
+  "secondaryCategories": ["ide"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Flowstep",
+  "platforms": ["web"],
+  "tags": ["ui-design", "design-to-code", "prototyping", "figma"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://flowstep.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 937,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Generates editable UI screens from prompts and exports production React + TypeScript + Tailwind, plus Figma handoff.",
+  "pros": [
+    "Prompt-to-UI in seconds",
+    "Exports React/TypeScript/Tailwind code",
+    "Figma handoff",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Generated code may need refactoring",
+    "Newer, smaller tool",
+    "Best for kickoff, not full builds"
+  ],
+  "bestFor": ["Design-to-code", "Prototyping", "Frontend kickstart"],
+  "alternatives": ["uizard", "magic-patterns", "subframe", "v0"]
+}

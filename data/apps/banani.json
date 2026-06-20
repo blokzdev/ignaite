@@ -1,0 +1,37 @@
+{
+  "slug": "banani",
+  "name": "Banani",
+  "tagline": "Text-to-UI: prompt to editable multi-screen prototype.",
+  "description": "Banani is an AI UI design tool that turns a plain-language description, screenshot, or design reference into editable, multi-screen prototypes in seconds. You refine the result with prompts or manual edits, add click interactions, and export to Figma, HTML/CSS, or images. It targets founders, PMs, and non-designers who need fast mockups.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Banani",
+  "platforms": ["web"],
+  "tags": ["ui-design", "text-to-ui", "prototyping", "figma"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.banani.co",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 936,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Turns a plain-language prompt into editable, multi-screen prototypes and exports straight to Figma or HTML/CSS.",
+  "pros": [
+    "Prompt-to-prototype in seconds",
+    "Editable, multi-screen output",
+    "Exports to Figma and HTML/CSS",
+    "Usable without design skills"
+  ],
+  "cons": [
+    "AI output still needs manual polish",
+    "Smaller ecosystem than incumbents",
+    "Not a full design-system tool"
+  ],
+  "bestFor": ["Rapid prototyping", "Non-designers", "Early product mockups"],
+  "alternatives": ["uizard", "magic-patterns", "subframe", "google-stitch"]
+}

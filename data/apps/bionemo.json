@@ -1,0 +1,47 @@
+{
+  "slug": "bionemo",
+  "name": "BioNeMo",
+  "tagline": "NVIDIA's development platform for AI drug discovery.",
+  "description": "BioNeMo is NVIDIA's development platform for AI-driven biology and drug discovery. It bundles open biology foundation models, libraries, datasets, and GPU-optimized training recipes, plus NVIDIA NIM microservices that package models for protein structure prediction, molecular design, and virtual screening. The BioNeMo Framework is open source; production models deploy as managed microservices.",
+  "insight": "Part of NVIDIA Clara; the BioNeMo Framework is open source (Apache-2.0) while production models ship as paid NVIDIA NIM microservices.",
+  "category": "science",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "featured": false,
+  "vendor": "NVIDIA",
+  "platforms": ["api", "linux"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships biology foundation models (e.g. ESM-2, protein structure) optimized for NVIDIA GPUs."
+  },
+  "tags": ["drug-discovery", "biology", "protein", "nvidia", "framework"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nvidia.com/en-us/clara/bionemo/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/NVIDIA/bionemo-framework"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 935,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "GPU-optimized recipes claim ~2x faster biofoundation-model training and ~6x faster inference versus unoptimized pipelines.",
+  "pros": [
+    "Open-source framework (Apache-2.0)",
+    "GPU-optimized training and inference",
+    "Prebuilt models for protein and molecule tasks",
+    "NIM microservices for production deployment"
+  ],
+  "cons": [
+    "Requires NVIDIA GPUs",
+    "Steep learning curve for non-ML scientists",
+    "Production microservices are paid"
+  ],
+  "bestFor": ["Drug discovery", "Protein and molecule modeling", "Computational biology"],
+  "alternatives": ["isomorphic-labs", "evolutionaryscale", "chai-discovery", "recursion"]
+}

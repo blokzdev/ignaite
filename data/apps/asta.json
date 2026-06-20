@@ -1,0 +1,52 @@
+{
+  "slug": "asta",
+  "name": "Asta",
+  "tagline": "Open agentic research assistant for scientists, from Ai2.",
+  "description": "Asta is an open ecosystem of AI agents for science from the Allen Institute for AI (Ai2). The Asta assistant helps researchers find relevant papers, generate cited literature summaries, and (in beta) run basic data analyses, with planned hypothesis generation and experiment replication. It ships alongside AstaBench, a benchmark suite for evaluating scientific agents.",
+  "insight": "From Ai2; launched Aug 2025 with AstaBench, billed as the first standardized benchmark suite for scientific AI agents (2,400+ problems).",
+  "category": "science",
+  "secondaryCategories": ["research-platform"],
+  "pricing": "free",
+  "openSource": true,
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Ai2 (Allen Institute for AI)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Agent baselines run across multiple frontier models; AstaBench ranks systems on both accuracy and cost."
+  },
+  "tags": ["science", "research", "agent", "literature", "benchmark"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://asta.allen.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 934,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Ranks science agents on AstaBench by both accuracy and cost, and grounds answers in cited, reproducible literature analyses.",
+  "pros": [
+    "Cited literature summaries with sources",
+    "Open ecosystem plus the AstaBench benchmark",
+    "Built by a respected nonprofit AI lab (Ai2)",
+    "Rankings weigh cost, not just accuracy"
+  ],
+  "cons": [
+    "Data analysis is in limited beta",
+    "Narrower than general-purpose research assistants",
+    "Focused on scholarly/scientific workflows"
+  ],
+  "bestFor": ["Literature review", "Scientific research", "Agent benchmarking"],
+  "alternatives": ["futurehouse", "elicit", "consensus", "undermind"],
+  "references": [
+    {
+      "title": "An open-source AI sidekick for scientists: Ai2's new Asta platform",
+      "url": "https://www.geekwire.com/2025/an-open-source-ai-sidekick-for-scientists-ai2s-new-asta-agent-platform-aims-to-spark-big-discoveries/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}
