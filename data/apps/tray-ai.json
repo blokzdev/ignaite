@@ -1,0 +1,44 @@
+{
+  "slug": "tray-ai",
+  "name": "Tray.ai",
+  "tagline": "AI-ready iPaaS: build agents, govern MCP, automate across 700+ apps.",
+  "description": "Enterprise integration and automation platform that layers AI agents and governed Model Context Protocol (MCP) onto a mature iPaaS. Teams build conversational or autonomous agents in the Merlin agent builder, expose 700+ app connectors as governed MCP tools through an Agent Gateway, and automate processes with visual low-code or headless code-first builds — all under role-based access, audit, and compliance controls.",
+  "insight": "Began as the iPaaS Tray.io and rebranded to Tray.ai as it pivoted to AI agents and governed MCP.",
+  "category": "automation",
+  "secondaryCategories": ["mcp"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Tray",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Agents are model-flexible across major LLM providers."
+  },
+  "tags": ["ipaas", "integration", "ai-agents", "mcp", "automation"],
+  "links": [
+    { "kind": "website", "url": "https://tray.ai", "primary": true },
+    { "kind": "docs", "url": "https://developer.tray.io" },
+    { "kind": "pricing", "url": "https://tray.ai/pricing" }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 985,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Bolts AI agents and a governed MCP gateway onto a mature 700+ connector iPaaS, so automations, agents and tools share one integration and governance layer.",
+  "pros": [
+    "700+ prebuilt app connectors",
+    "Visual low-code plus headless code builds",
+    "Governed MCP gateway with audit",
+    "Enterprise RBAC and compliance"
+  ],
+  "cons": [
+    "Enterprise pricing, demo-only",
+    "Overkill for simple personal automations",
+    "Steeper learning curve than no-code rivals"
+  ],
+  "bestFor": [
+    "Enterprise integration teams",
+    "Governed AI agent rollouts",
+    "Replacing legacy iPaaS"
+  ],
+  "alternatives": ["n8n", "make", "zapier", "workato"]
+}

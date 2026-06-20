@@ -1,0 +1,35 @@
+{
+  "slug": "concourse",
+  "name": "Concourse",
+  "tagline": "AI agents for finance teams — chat with your data, automate reporting.",
+  "description": "Finance automation platform whose AI agents let teams query financial systems in natural language — no SQL required — and automate reporting workflows like flux analysis, AR aging, and revenue forecasting. It connects to ERPs (NetSuite, QuickBooks), data warehouses (Snowflake), and billing systems, and exports analysis in multiple formats.",
+  "category": "finance",
+  "secondaryCategories": ["analytics"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Concourse",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Natural-language analysis over connected financial systems."
+  },
+  "tags": ["finance", "fpa", "financial-analysis", "reporting", "agents"],
+  "links": [{ "kind": "website", "url": "https://www.concourse.co", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 989,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Wires natural-language analysis into ERPs (NetSuite, QuickBooks) and the warehouse, so finance teams query live financials and automate reports without SQL.",
+  "pros": [
+    "Connects to NetSuite, QuickBooks, Snowflake",
+    "Natural-language queries, no SQL",
+    "Automates flux, AR-aging, forecasts",
+    "Usage-based pricing with free trial"
+  ],
+  "cons": ["Newer entrant", "Value depends on clean data sources", "Finance-only scope"],
+  "bestFor": [
+    "FP&A and accounting teams",
+    "Automated financial reporting",
+    "Self-serve financial analysis"
+  ],
+  "alternatives": ["rogo", "basis", "fiscal-ai", "numeric"]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "parcha",
+  "name": "Parcha",
+  "tagline": "AI agents that automate compliance — KYB, KYC, AML and due diligence.",
+  "description": "Compliance automation platform whose AI agents run KYB (Know Your Business) and KYC verification, AML and sanctions screening, document verification, and enhanced due diligence for fintechs, banks, lenders, and crypto exchanges. Returns case decisions in minutes instead of hours, with audit-ready reasoning.",
+  "insight": "SOC 2 Type II certified, screening across 90+ global watchlists and operating in 140+ jurisdictions.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Parcha",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-driven compliance agents over verification data sources."
+  },
+  "tags": ["compliance", "kyb", "kyc", "aml", "fintech", "agents"],
+  "links": [{ "kind": "website", "url": "https://parcha.ai", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 990,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Purpose-built KYB/KYC/AML and due-diligence agents for fintech onboarding, rather than a general-purpose agent platform.",
+  "pros": [
+    "Specialized compliance and KYB/AML agents",
+    "SOC 2 Type II certified",
+    "140+ jurisdictions, 200+ languages",
+    "Free credits to trial"
+  ],
+  "cons": [
+    "Narrow compliance focus",
+    "Built for regulated/enterprise buyers",
+    "Accuracy claims vendor-reported"
+  ],
+  "bestFor": [
+    "Fintech and bank onboarding",
+    "KYB/KYC and AML screening",
+    "Compliance operations teams"
+  ],
+  "alternatives": ["basis", "concourse"]
+}
