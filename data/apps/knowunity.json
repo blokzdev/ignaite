@@ -1,0 +1,50 @@
+{
+  "slug": "knowunity",
+  "insight": "Berlin edtech founded 2020; raised a €27M Series B in 2025 (total €45M), and ships its AI tutor as ‘SchoolGPT.’",
+  "name": "Knowunity",
+  "tagline": "AI study companion with crowdsourced notes for students.",
+  "description": "Knowunity is a mobile-first learning platform where students access crowdsourced study notes, flashcards, quizzes and practice tests, alongside an AI tutor called SchoolGPT that answers subject questions and explains problems step by step. Founded in Berlin in 2020, it covers 20+ subjects across 15 countries and is free to use, monetizing through optional premium features. The app reports 20M+ students.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Knowunity",
+  "platforms": ["ios", "android", "web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "SchoolGPT — a built-in AI study assistant for Q&A and step-by-step explanations."
+  },
+  "tags": ["study-notes", "flashcards", "ai-tutor", "students", "mobile"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://knowunity.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 938,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Pairs an AI tutor (SchoolGPT) with a large library of peer-made notes and flashcards, so answers arrive with student-created study material attached.",
+  "pros": [
+    "Free core app",
+    "20M+ students across 15 countries",
+    "Crowdsourced notes + flashcards",
+    "SchoolGPT AI tutor",
+    "iOS, Android and web"
+  ],
+  "cons": [
+    "Consumer app, not a classroom LMS",
+    "Crowdsourced note quality varies",
+    "Premium gates some features"
+  ],
+  "bestFor": ["Secondary & high-school students", "Homework help", "Exam revision"],
+  "alternatives": ["brainly", "gauth", "photomath"],
+  "references": [
+    {
+      "title": "Knowunity raises €27M to scale its AI tutor globally",
+      "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
+      "source": "Tech.eu",
+      "kind": "analysis"
+    }
+  ]
+}

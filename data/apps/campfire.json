@@ -1,0 +1,52 @@
+{
+  "slug": "campfire",
+  "insight": "Founder John Glasgow earlier built Invoice2go (acquired by Bill.com); Campfire raised a $65M Series B in 2025, ~$100M total.",
+  "name": "Campfire",
+  "tagline": "AI-first ERP for modern finance and accounting teams.",
+  "description": "Campfire is an AI-native ERP that replaces legacy systems like NetSuite, unifying the general ledger, revenue automation and month-end close on one platform. Embedded AI agents draft journal entries, reconcile accounts and answer finance questions in natural language. Founded in 2023, it serves high-growth companies including Replit, PostHog and Decagon.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Campfire",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Embedded AI agents for journal entries, reconciliation and a natural-language finance assistant."
+  },
+  "tags": ["erp", "accounting", "general-ledger", "close-management", "fintech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.campfire.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 939,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "A full AI-native ERP replacement (GL, revenue, close) — not a bolt-on AI feature on legacy software — built for startups migrating off NetSuite.",
+  "pros": [
+    "Full ERP, not a point tool",
+    "AI agents automate close & GL",
+    "Wins migrations off NetSuite",
+    "Backed by Accel and Ribbit",
+    "Used by Replit, PostHog, Decagon"
+  ],
+  "cons": ["Paid only, no free tier", "Young (founded 2023)", "Aimed at finance teams, not SMBs"],
+  "bestFor": ["High-growth startups", "Replacing legacy ERP", "Finance & accounting teams"],
+  "alternatives": ["puzzle", "numeric", "digits"],
+  "references": [
+    {
+      "title": "Tiny AI ERP startup Campfire is winning startups from NetSuite",
+      "url": "https://techcrunch.com/2025/06/30/tiny-ai-erp-startup-campfire-is-winning-so-many-startups-from-netsuite-accel-led-a-35m-series-a",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Campfire CEO targets ‘systems-first’ accounting approach",
+      "url": "https://www.cfodive.com/news/campfire-ceo-targets-systems-first-accounting-approach/805732/",
+      "source": "CFO Dive",
+      "kind": "interview"
+    }
+  ]
+}

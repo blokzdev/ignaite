@@ -1,0 +1,53 @@
+{
+  "slug": "zeni",
+  "insight": "Founded in 2019 by twin brothers Swapnil and Snehal Shinde; raised a $34M Series B in 2021 (Elevation Capital), $47.5M total.",
+  "name": "Zeni",
+  "tagline": "AI bookkeeping and finance concierge for startups.",
+  "description": "Zeni is an AI-powered bookkeeping and accounting platform that pairs machine-learning automation with a team of human finance experts. It categorizes transactions, reconciles accounts, pays bills and runs reimbursements, then surfaces real-time burn, runway and cash metrics on the Zeni Dashboard, with optional fractional-CFO services. It targets venture-backed startups and growing SMBs.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Zeni",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary AI bookkeeping engine paired with human finance experts."
+  },
+  "tags": ["bookkeeping", "accounting", "startups", "cfo-services", "fintech"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.zeni.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.zeni.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 940,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Blends AI bookkeeping with a human finance team plus built-in banking and bill-pay, acting as an outsourced finance department rather than software alone.",
+  "pros": [
+    "AI plus human finance experts",
+    "Real-time burn & runway dashboard",
+    "Bill pay, reimbursements, banking",
+    "Fractional CFO add-ons"
+  ],
+  "cons": ["Paid service, no free tier", "Pricing not fully public", "Best fit is funded startups"],
+  "bestFor": [
+    "Venture-backed startups",
+    "Founders outsourcing finance",
+    "Real-time cash visibility"
+  ],
+  "alternatives": ["puzzle", "truewind", "digits"],
+  "references": [
+    {
+      "title": "Zeni banks $34M to show SMBs their finances in real time",
+      "url": "https://techcrunch.com/2021/08/04/financial-concierge-startup-zeni-banks-34m-to-show-smbs-their-finances-in-real-time/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
