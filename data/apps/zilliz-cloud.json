@@ -1,0 +1,64 @@
+{
+  "slug": "zilliz-cloud",
+  "name": "Zilliz Cloud",
+  "tagline": "Fully managed vector database service built on open-source Milvus.",
+  "description": "Zilliz Cloud is a fully managed vector database from the creators of Milvus. It runs billion-scale similarity search for RAG, semantic search, and AI applications without the operational burden of self-hosting, offering a free serverless tier, auto-scaling serverless, and dedicated clusters across major clouds. Features include GPU-accelerated indexing, tiered storage, and hybrid dense/sparse search.",
+  "insight": "Built by the original creators of Milvus, the open-source vector DB they donated to the LF AI & Data Foundation.",
+  "category": "vector-db",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Zilliz",
+  "platforms": ["web", "api"],
+  "tags": ["vector-database", "rag", "similarity-search", "milvus", "serverless"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://zilliz.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://zilliz.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.zilliz.com"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 980,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Managed Milvus from its original creators — a free serverless tier scaling to billion-vector dedicated clusters, with GPU indexing and tiered storage.",
+  "pros": [
+    "Built by Milvus's original creators",
+    "Free serverless tier, no card required",
+    "Scales to billions of vectors",
+    "Fully managed and auto-scaling",
+    "Multi-cloud (AWS, GCP, Azure)"
+  ],
+  "cons": [
+    "The managed service itself is proprietary",
+    "Costs grow with compute and scale",
+    "Vector DB only, not a full RAG stack"
+  ],
+  "bestFor": [
+    "RAG & semantic search",
+    "Production vector workloads",
+    "Teams avoiding self-hosted Milvus"
+  ],
+  "alternatives": ["milvus", "pinecone", "weaviate", "qdrant"],
+  "references": [
+    {
+      "title": "Milvus & Zilliz Cloud Pricing 2026: Full Breakdown",
+      "url": "https://leanopstech.com/blog/milvus-zilliz-cloud-pricing-2026/",
+      "source": "LeanOps",
+      "kind": "analysis"
+    },
+    {
+      "title": "Milvus Vector Database Pricing: Cloud vs Self-Hosted Cost Guide",
+      "url": "https://airbyte.com/data-engineering-resources/milvus-database-pricing",
+      "source": "Airbyte",
+      "kind": "guide"
+    }
+  ]
+}

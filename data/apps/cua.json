@@ -1,0 +1,60 @@
+{
+  "slug": "cua",
+  "name": "Cua",
+  "tagline": "Open-source infrastructure for computer-use agents across full desktops.",
+  "description": "Cua (also styled c/ua) is infrastructure for building and scaling computer-use agents. One API boots Linux, Windows, macOS, and Android machines in lightweight, isolated virtual containers, and SDKs plus benchmarks let agents observe and control full operating systems — clicking, typing, browsing, and running real apps. On Apple Silicon it reaches near-native speed via Apple's Virtualization.framework and the Lume CLI, and it runs locally with any LLM or on Cua's managed cloud.",
+  "insight": "A Y Combinator X25 company; its MIT-licensed core crossed 15k GitHub stars.",
+  "category": "agent",
+  "secondaryCategories": ["automation"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Cua",
+  "platforms": ["macos", "linux", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Run locally or in the cloud with any LLM you choose."
+  },
+  "tags": ["computer-use", "agents", "sandbox", "open-source", "vm"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cua.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/trycua/cua"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 979,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Boots Linux/Windows/macOS/Android VMs from one API for computer-use agents, hitting near-native speed on Apple Silicon via Apple's Virtualization.framework.",
+  "pros": [
+    "MIT-licensed open-source core",
+    "One API for Linux/Win/macOS/Android VMs",
+    "Near-native speed on Apple Silicon",
+    "Run locally with any LLM",
+    "Cloud, BYOC, or on-prem hosting"
+  ],
+  "cons": [
+    "Cloud hosting is paid/commercial",
+    "Developer/infra tool, not an end-user app",
+    "Computer-use agents are still error-prone"
+  ],
+  "bestFor": [
+    "Building computer-use agents",
+    "Agent training & evaluation",
+    "Desktop automation at scale"
+  ],
+  "alternatives": ["browser-use", "stagehand", "skyvern"],
+  "references": [
+    {
+      "title": "trycua/cua Review: Open-Source Computer-Use Agents",
+      "url": "https://andrew.ooo/posts/trycua-cua-open-source-computer-use-agents/",
+      "source": "andrew.ooo",
+      "kind": "review"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "relace",
+  "name": "Relace",
+  "tagline": "Purpose-built AI models and infrastructure for coding agents.",
+  "description": "Relace builds specialized models and infrastructure that slot into AI code-generation products. Its Instant Apply model merges partial diffs from frontier models into full files at thousands of tokens per second, and its two-stage code retrieval (embedding search plus a code reranker) finds the right context fast. Relace also offers managed repository hosting with automatic per-commit indexing, so coding agents get cheaper, faster, more reliable edits and search.",
+  "insight": "Raised a $23M Series A led by Andreessen Horowitz in Oct 2025; a Y Combinator W23 company.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Relace",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Serves its own specialized models — Instant Apply, embeddings, and a code reranker — via API."
+  },
+  "tags": ["coding-agents", "instant-apply", "code-retrieval", "codegen"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://relace.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.relace.ai"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 978,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "An 'Instant Apply' model merges LLM diffs into full files at thousands of tokens/sec — faster and cheaper than a frontier model rewriting whole files.",
+  "pros": [
+    "Instant Apply merges diffs very fast",
+    "SoTA code retrieval + reranker",
+    "Drops into existing codegen stacks",
+    "Powers Lovable, Create, Magic Patterns",
+    "Self-host / VPC option for enterprise"
+  ],
+  "cons": [
+    "No public pricing detail",
+    "Narrow focus: codegen infra only",
+    "Newer and smaller than general LLM APIs"
+  ],
+  "bestFor": [
+    "AI coding agents",
+    "Codegen products",
+    "Fast diff application",
+    "Code search & retrieval"
+  ],
+  "alternatives": ["morph"],
+  "references": [
+    {
+      "title": "Relace raises $23M led by Andreessen Horowitz for AI coding agent tools",
+      "url": "https://techstartups.com/2025/10/08/relace-raises-23m-in-funding-led-by-andreessen-horowitz-to-build-tools-for-ai-coding-agents/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    },
+    {
+      "title": "Relace funding, news & analysis",
+      "url": "https://sacra.com/c/relace/",
+      "source": "Sacra",
+      "kind": "analysis"
+    }
+  ]
+}
