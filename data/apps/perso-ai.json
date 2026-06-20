@@ -1,0 +1,39 @@
+{
+  "slug": "perso-ai",
+  "name": "Perso AI",
+  "tagline": "AI video dubbing and localization in 99+ languages.",
+  "description": "A video localization platform that translates and dubs footage across 99+ languages with voice cloning and AI lip-sync. The pipeline covers audio separation, speech-to-text, subtitle editing, and per-speaker voices, and the suite extends to interactive AI avatars and an AI human studio.",
+  "insight": "Built by South Korean software maker ESTsoft, the company behind the ALYac antivirus and ALTools utilities.",
+  "category": "translation",
+  "secondaryCategories": ["video"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "ESTsoft",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "ESTsoft's own dubbing, voice-cloning, and lip-sync models."
+  },
+  "tags": ["dubbing", "localization", "voice-cloning", "lip-sync"],
+  "links": [
+    { "kind": "website", "url": "https://perso.ai", "primary": true },
+    { "kind": "pricing", "url": "https://perso.ai/pricing" }
+  ],
+  "edge": "Pairs voice cloning with AI lip-sync per speaker, so dubbed video keeps each voice and mouth movement aligned across 99+ languages.",
+  "pros": [
+    "99+ languages with voice cloning",
+    "Per-speaker dubbing and lip-sync",
+    "Free tier to try one generation",
+    "Built-in subtitle editing"
+  ],
+  "cons": [
+    "Credit-based plans cap monthly output",
+    "Web-only — no native mobile/desktop app",
+    "Avatar/studio features overlap a crowded field"
+  ],
+  "bestFor": ["Video localization", "Creators going multilingual", "Marketing teams"],
+  "alternatives": ["camb-ai", "heygen", "elevenlabs", "lara-translate"],
+  "addedAt": "2026-06-20",
+  "addedSeq": 907,
+  "lastVerifiedAt": "2026-06-20"
+}

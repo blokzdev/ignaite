@@ -1,0 +1,49 @@
+{
+  "slug": "tabstack",
+  "name": "Tabstack",
+  "tagline": "Browsing infrastructure for AI agents — extract, research, automate.",
+  "description": "A managed web API that lets agents browse the live web without running headless Chrome. /extract turns pages into Markdown or structured JSON, /generate transforms content on the fly, and /automate clicks, scrolls, and fills forms. Lightweight fetches escalate to full browser automation only when a site needs JS execution.",
+  "insight": "Built by Mozilla; its execution engine, Pilo, is open-sourced under Apache-2.0 as the OSS core beneath the hosted API.",
+  "category": "infra",
+  "secondaryCategories": ["data-ops", "automation"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "cloud",
+  "vendor": "Mozilla",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Infrastructure layer — returns LLM-ready web data to any agent or model."
+  },
+  "tags": ["browser-automation", "web-extraction", "agents", "open-core"],
+  "links": [
+    { "kind": "website", "url": "https://tabstack.ai", "primary": true },
+    { "kind": "github", "url": "https://github.com/mozilla/pilo" },
+    { "kind": "pricing", "url": "https://tabstack.ai/pricing" }
+  ],
+  "edge": "Mozilla-backed and escalates from cheap fetch to full automation only when a page demands it — paying for a browser only when you need one.",
+  "pros": [
+    "Single API for extract, generate, and automate",
+    "Markdown/JSON output tuned for LLM context",
+    "Open-source engine (Pilo, Apache-2.0)",
+    "Free tier with 10,000 credits"
+  ],
+  "cons": [
+    "Hosted service is proprietary (only the engine is OSS)",
+    "Credit-based pricing can be hard to forecast",
+    "Newer entrant vs. established browser-infra players"
+  ],
+  "bestFor": ["Agent developers", "Lead enrichment", "Market research tools"],
+  "alternatives": ["browserbase", "hyperbrowser", "firecrawl", "stagehand"],
+  "references": [
+    {
+      "title": "Show HN: Tabstack – Browser infrastructure for AI agents (by Mozilla)",
+      "url": "https://news.ycombinator.com/item?id=46620358",
+      "source": "Hacker News",
+      "kind": "analysis"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 905,
+  "lastVerifiedAt": "2026-06-20"
+}
