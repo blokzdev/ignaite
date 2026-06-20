@@ -1,0 +1,49 @@
+{
+  "slug": "datarobot",
+  "insight": "An AutoML pioneer founded in 2012; a repeat Leader in Gartner's Magic Quadrant for Data Science and ML Platforms.",
+  "name": "DataRobot",
+  "tagline": "Enterprise AI platform for building, deploying, and governing ML and agentic AI.",
+  "description": "DataRobot is an enterprise AI platform spanning the full lifecycle: predictive AI with automated machine learning (AutoML), generative and agentic AI, plus observability and governance. Its AutoML builds and compares many models at once so teams ship production-ready AI faster, and newer agent kits make enterprise AI agents practical to deploy. It runs in the cloud or on-premises for large organizations.",
+  "category": "data-ops",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "featured": false,
+  "vendor": "DataRobot",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Builds and serves your own ML models and works across many LLMs for generative and agentic AI."
+  },
+  "accentColor": "#00B3A4",
+  "tags": ["automl", "mlops", "enterprise-ai", "predictive-ai", "governance"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.datarobot.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.datarobot.com"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 926,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "End-to-end enterprise AI: AutoML model-building plus generative and agentic AI, observability, and governance in one governed platform.",
+  "pros": [
+    "AutoML builds many models fast",
+    "Covers predictive + generative + agentic",
+    "Built-in governance and observability",
+    "Cloud or on-prem deployment",
+    "Gartner Magic Quadrant Leader"
+  ],
+  "cons": [
+    "Enterprise pricing, often six figures",
+    "Complex, very broad platform",
+    "No transparent public pricing",
+    "Overkill for small teams"
+  ],
+  "bestFor": ["Enterprise data science", "MLOps at scale", "Regulated industries"],
+  "alternatives": ["clarifai", "scale-ai"]
+}
