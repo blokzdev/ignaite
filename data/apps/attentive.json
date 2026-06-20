@@ -1,0 +1,50 @@
+{
+  "slug": "attentive",
+  "insight": "Reached a ~$7B valuation in 2021 (backed by Sequoia and Coatue) and crossed ~$500M ARR in 2024.",
+  "name": "Attentive",
+  "tagline": "AI-powered SMS and email marketing for enterprise consumer brands.",
+  "description": "Attentive is a conversational marketing platform centered on SMS, plus email, for consumer brands. Attentive AI (launched 2023) generates and optimizes messages, builds audiences, and personalizes sends, with 100+ integrations into commerce and data systems. It is an enterprise-grade platform used by large retailers to drive revenue from text and email programs.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Attentive",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#FFD400",
+  "tags": [
+    "sms-marketing",
+    "email-marketing",
+    "conversational-marketing",
+    "ecommerce",
+    "enterprise"
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.attentive.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 922,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "SMS-first at enterprise scale — Attentive AI writes, targets, and optimizes text and email campaigns for large consumer brands.",
+  "pros": [
+    "SMS-first, built for scale",
+    "Attentive AI generates + optimizes sends",
+    "100+ integrations",
+    "Strong enterprise deliverability",
+    "Proven revenue-lift case studies"
+  ],
+  "cons": [
+    "No public pricing; contract-based",
+    "Enterprise spend minimums",
+    "AI is part of a broader suite",
+    "Overkill for small senders"
+  ],
+  "bestFor": ["Enterprise retailers", "SMS marketing", "Consumer brands"],
+  "alternatives": ["klaviyo"]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "liquid-ai",
+  "insight": "Spun out of MIT CSAIL; its Liquid Foundation Models use a hybrid, non-transformer architecture built for fast on-device inference.",
+  "name": "Liquid AI",
+  "tagline": "On-device foundation models (LFMs) plus LEAP, an edge platform to ship them to any device.",
+  "description": "Liquid AI builds Liquid Foundation Models (LFMs) — compact, fast models designed to run on phones, laptops, and edge hardware rather than the cloud. Its LEAP platform lets developers discover, fine-tune, bundle, and deploy these models on-device through an Edge SDK, taking a model 'from concept to on-device in minutes.' The LFM2/LFM2.5 family spans 350M–8.3B parameters with a hybrid architecture tuned for low-latency local inference.",
+  "category": "inference",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "featured": false,
+  "vendor": "Liquid AI",
+  "platforms": ["web", "ios", "android", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Ships its own LFM2/LFM2.5 models; LEAP also serves other LEAP-compatible open models."
+  },
+  "accentColor": "#1E66F5",
+  "tags": ["on-device", "edge-ai", "small-models", "open-weight", "sdk"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.liquid.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.liquid.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://leap.liquid.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 918,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Runs capable LLMs fully on-device — no cloud, low latency, private — via compact LFMs you can fine-tune and ship with one Edge SDK.",
+  "pros": [
+    "Models run on-device, no cloud needed",
+    "Low latency, offline, and private",
+    "LEAP core is free for all users",
+    "Fine-tune and bundle for edge fast",
+    "Open-weight LFM2/LFM2.5 family"
+  ],
+  "cons": [
+    "Small models trail frontier cloud LLMs",
+    "On-device deployment adds app work",
+    "Enterprise support is sales-gated",
+    "Custom (non-OSI) model license"
+  ],
+  "bestFor": ["On-device AI apps", "Privacy-sensitive use", "Mobile/edge developers"],
+  "alternatives": ["ollama", "groq", "replicate"]
+}

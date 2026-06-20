@@ -1,0 +1,42 @@
+{
+  "slug": "viktor",
+  "insight": "Raised a $75M Series A led by Accel — the largest ever by a Polish tech company; angel backers include Slack's co-founders.",
+  "name": "Viktor",
+  "tagline": "An 'AI employee' that lives in Slack and Teams, connects to 3,200+ tools, and does the work.",
+  "description": "Viktor is an AI agent that works like a virtual coworker embedded in Slack or Microsoft Teams. It connects to 3,200+ tools, then executes tasks end-to-end — pulling data, building dashboards and reports, writing and deploying code, opening pull requests, and automating recurring workflows. It targets founders, marketing, engineering, and ops teams who want finished work delivered in chat rather than another dashboard to operate.",
+  "category": "agent",
+  "secondaryCategories": ["automation"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Viktor",
+  "platforms": ["web"],
+  "accentColor": "#6D5BF6",
+  "tags": ["ai-agent", "ai-coworker", "slack", "microsoft-teams", "automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://viktor.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 920,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Delivers finished work right inside Slack/Teams across 3,200+ tools — an autonomous coworker, not a chatbot you have to operate.",
+  "pros": [
+    "Works inside Slack and Teams",
+    "3,200+ tool integrations",
+    "Executes tasks end-to-end",
+    "Generous $100 free credits",
+    "Backed by Accel + star angels"
+  ],
+  "cons": [
+    "Young, fast-changing product",
+    "Chat-driven UX can obscure control",
+    "Credit/usage costs can add up",
+    "Enterprise governance still maturing"
+  ],
+  "bestFor": ["Founders & small teams", "Cross-tool automation", "Slack/Teams-first orgs"],
+  "alternatives": ["manus", "lindy", "gumloop", "pokee"]
+}

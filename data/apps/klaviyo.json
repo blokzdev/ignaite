@@ -1,0 +1,48 @@
+{
+  "slug": "klaviyo",
+  "insight": "Went public on the NYSE in 2023 (~$9B valuation); Shopify holds ~11% after a $100M investment in 2022.",
+  "name": "Klaviyo",
+  "tagline": "Email + SMS marketing automation with AI segmentation, predictions, and agents.",
+  "description": "Klaviyo is a marketing automation platform for email, SMS, and push, built on a unified customer database. Its AI layer powers predictive analytics (lifetime value, churn risk, next-order timing), AI segmentation, automated A/B testing, and newer agentic features (Composer and Customer Agent). It is especially dominant in ecommerce, with deep Shopify integration.",
+  "category": "marketing",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Klaviyo",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#3B82F6",
+  "tags": ["email-marketing", "sms-marketing", "predictive-analytics", "ecommerce", "automation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.klaviyo.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.klaviyo.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 921,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "The ecommerce default: AI predictions (CLV, churn) on a unified customer database, with the deepest Shopify integration among SMS/email platforms.",
+  "pros": [
+    "Strong predictive analytics + segmentation",
+    "Unified email/SMS/push on one database",
+    "Deep Shopify/ecommerce integration",
+    "Automated A/B testing",
+    "Has a usable free tier"
+  ],
+  "cons": [
+    "Costs climb fast with list size",
+    "AI is part of a broader suite",
+    "Overkill for simple newsletters",
+    "Primarily ecommerce-focused"
+  ],
+  "bestFor": ["Ecommerce brands", "Shopify stores", "Lifecycle marketing"],
+  "alternatives": ["attentive"]
+}
