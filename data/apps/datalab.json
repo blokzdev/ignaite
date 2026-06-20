@@ -1,0 +1,61 @@
+{
+  "slug": "datalab",
+  "insight": "Built on its open-source Marker (~29k★) PDF-to-markdown converter and the Surya OCR toolkit (~19k★) covering 90+ languages.",
+  "name": "Datalab",
+  "tagline": "High-accuracy document parsing — PDFs and images to markdown, JSON, and HTML.",
+  "description": "Datalab turns PDFs, images, and office documents into clean markdown, JSON, and HTML with layout, table, math, and code preservation. It is the commercial, hosted layer over the open-source Marker converter and Surya OCR toolkit, offered as a pay-as-you-go API with a free monthly allowance, while the underlying models stay free to self-host for research and small startups.",
+  "category": "data-ops",
+  "secondaryCategories": ["vision"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Datalab",
+  "platforms": ["api", "cli"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs its own document AI models (Marker + Surya); optional LLM pass for extra accuracy."
+  },
+  "tags": ["document-parsing", "ocr", "pdf-to-markdown", "rag", "data-extraction"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.datalab.to",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/datalab-to/marker"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 964,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Open-source-rooted parsing (Marker + Surya) you can self-host for free or call as a hosted API, with strong table and math handling.",
+  "pros": [
+    "Open-source core (Marker + Surya)",
+    "Self-host free for research/small startups",
+    "Preserves tables, math, and code",
+    "90+ language OCR"
+  ],
+  "cons": [
+    "Hosted API metered per page",
+    "Self-hosting needs GPU for throughput",
+    "Best results may need an LLM pass"
+  ],
+  "bestFor": ["RAG ingestion", "Document intelligence", "Bulk PDF conversion"],
+  "alternatives": ["docling", "reducto", "mindee", "unstructured"],
+  "references": [
+    {
+      "title": "Datalab develops small AI models to power document intelligence",
+      "url": "https://www.forkable.io/p/datalab-develops-small-ai-models",
+      "source": "Forkable",
+      "kind": "analysis"
+    },
+    {
+      "title": "Deploy high-throughput document intelligence with Datalab",
+      "url": "https://modal.com/blog/datalab-and-modal",
+      "source": "Modal",
+      "kind": "guide"
+    }
+  ]
+}

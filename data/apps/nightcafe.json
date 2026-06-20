@@ -1,0 +1,43 @@
+{
+  "slug": "nightcafe",
+  "insight": "Launched in 2019, before the diffusion era — it began with neural style transfer and VQGAN+CLIP, predating today's diffusion image models.",
+  "name": "NightCafe",
+  "tagline": "Multi-model AI art generator wrapped in a creative community.",
+  "description": "NightCafe is a browser-based AI art platform that generates and edits images from text prompts across many engines in one place — FLUX, Stable Diffusion, DALL·E, Google Imagen, Ideogram and more — plus image-to-video and style-transfer tools. It runs on daily free credits and a credit-pack/PRO model, and is built around an active community with shared galleries, chat rooms, and a daily AI Art Challenge.",
+  "category": "image-gen",
+  "secondaryCategories": ["video"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "NightCafe Studio",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["FLUX", "Stable Diffusion", "DALL-E", "Google Imagen", "Ideogram"],
+    "notes": "Routes across many text-to-image and image-to-video models behind one credit-based studio."
+  },
+  "tags": ["image-generation", "ai-art", "community", "style-transfer", "image-to-video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://creator.nightcafe.studio",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 961,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Bundles many image and video models (FLUX, SDXL, DALL·E, Imagen, Ideogram) in one credit-based studio, wrapped in an active art community with daily challenges.",
+  "pros": [
+    "Many models accessible in one place",
+    "Generous daily free credits",
+    "Active community + daily art challenges",
+    "Beginner-friendly browser interface"
+  ],
+  "cons": [
+    "Web/PWA only — no native desktop app",
+    "Credit limits gate heavy use",
+    "Output quality varies by chosen model"
+  ],
+  "bestFor": ["Hobbyist creators", "AI art beginners", "Community-driven prompting"],
+  "alternatives": ["openart", "leonardo-ai", "midjourney", "krea"]
+}

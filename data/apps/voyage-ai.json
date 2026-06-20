@@ -1,0 +1,59 @@
+{
+  "slug": "voyage-ai",
+  "insight": "Founded by Stanford professor Tengyu Ma; acquired by MongoDB in Feb 2025 (~$220M) after raising ~$28M from Snowflake and Databricks.",
+  "name": "Voyage AI",
+  "tagline": "Best-in-class embedding and reranking models for retrieval and RAG.",
+  "description": "Voyage AI builds retrieval-specialized embedding and reranking models served via API to ground LLM applications. Its voyage-3 series of text and code embeddings, domain-tuned variants, and rerank models (e.g. rerank-2.5) are aimed at higher RAG accuracy than general-purpose embeddings. Now part of MongoDB, its models are being woven into Atlas Vector Search while the standalone API continues to operate.",
+  "category": "search",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "MongoDB (Voyage AI)",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Serves its own embedding and reranker models; not an LLM gateway."
+  },
+  "tags": ["embeddings", "reranker", "rag", "retrieval", "vector-search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.voyageai.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.voyageai.com"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 962,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Retrieval-tuned embeddings + rerankers (voyage-3.5, rerank-2.5) built to beat general-purpose embedding models on RAG benchmarks.",
+  "pros": [
+    "Strong RAG retrieval accuracy",
+    "Embeddings + rerankers from one vendor",
+    "Domain and code-specific models",
+    "Free monthly token allowance"
+  ],
+  "cons": [
+    "Proprietary, API-only — no open weights",
+    "Roadmap now tied to MongoDB Atlas",
+    "Hosted-only; metered by tokens"
+  ],
+  "bestFor": ["RAG pipelines", "Enterprise retrieval", "Reranking search results"],
+  "alternatives": ["jina-ai", "mixedbread", "cohere"],
+  "references": [
+    {
+      "title": "Voyage AI is building RAG tools to make AI hallucinate less",
+      "url": "https://techcrunch.com/2024/10/03/voyage-ai-is-building-rag-tools-to-make-ai-hallucinate-less/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "MongoDB acquires embedding model provider Voyage AI",
+      "url": "https://siliconangle.com/2025/02/24/mongodb-acquires-embedding-model-provider-voyage-ai/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    }
+  ]
+}
