@@ -1,0 +1,35 @@
+{
+  "slug": "shadow",
+  "name": "Shadow",
+  "tagline": "Bot-free, on-device AI meeting assistant for Mac.",
+  "description": "A macOS meeting assistant that detects calls at the operating-system level across Zoom, Meet, Teams, Webex and Discord without joining as a visible participant. Transcribes audio on-device, captures smart screenshots, and runs autonomous post-meeting Skills like notes, follow-up drafts, and CRM updates.",
+  "insight": "Built by San Francisco's Taper Labs (CEO Jay Song); transcription runs on-device so audio never leaves your Mac.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Taper Labs",
+  "platforms": ["macos"],
+  "accentColor": "#0F172A",
+  "tags": ["meeting", "notetaker", "on-device", "privacy", "transcription"],
+  "links": [
+    { "kind": "website", "url": "https://www.shadow.do", "primary": true },
+    { "kind": "pricing", "url": "https://www.shadow.do/pricing" }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 945,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Captures meetings at the OS level without joining as a bot, with transcription kept on-device — unlike notetakers that send a visible participant into the call.",
+  "pros": [
+    "No meeting bot joins the call",
+    "On-device transcription for privacy",
+    "Auto-detects calls across many apps",
+    "Generous free tier; Plus is just $8/mo"
+  ],
+  "cons": [
+    "Mac only — no Windows/web",
+    "AI features require the paid Plus tier",
+    "Younger product, smaller review base"
+  ],
+  "bestFor": ["Privacy-conscious teams", "Mac users", "Bot-free meeting capture"],
+  "alternatives": ["granola", "circleback", "otter-ai", "fireflies"]
+}

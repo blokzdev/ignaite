@@ -1,0 +1,33 @@
+{
+  "slug": "cypris",
+  "name": "Cypris",
+  "tagline": "AI R&D and innovation intelligence over patents and research.",
+  "description": "An enterprise R&D and innovation-intelligence platform that aggregates patents, scientific literature, market data, and grants into a searchable AI workspace. Built for research and IP teams doing technology scouting, competitive analysis, freedom-to-operate assessments, and landscape reports.",
+  "insight": "Operated by IP Web, Inc.; its AI dashboard searches a corpus of 500M+ patents and research documents.",
+  "category": "research-platform",
+  "secondaryCategories": ["science"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "IP Web, Inc.",
+  "platforms": ["web", "api"],
+  "accentColor": "#2563EB",
+  "tags": ["research", "patents", "innovation", "ip", "competitive-intelligence"],
+  "links": [{ "kind": "website", "url": "https://www.cypris.ai", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 946,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Purpose-built on structured patent + scientific-literature data for technology scouting and freedom-to-operate, rather than a general-purpose chatbot.",
+  "pros": [
+    "Searches 500M+ patents and papers",
+    "Built for R&D, IP, and FTO workflows",
+    "Combines patents, literature, and market data",
+    "Analyst-supported research briefs"
+  ],
+  "cons": [
+    "Enterprise pricing, not self-serve",
+    "Aimed at IP/R&D teams, not casual research",
+    "Public pricing not disclosed"
+  ],
+  "bestFor": ["R&D teams", "IP and patent analysis", "Technology scouting"],
+  "alternatives": ["consensus", "scite", "alphasense", "elicit"]
+}
