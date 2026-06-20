@@ -1,0 +1,48 @@
+{
+  "slug": "crescendo",
+  "name": "Crescendo",
+  "tagline": "Augmented-AI customer experience platform blending AI agents with human support.",
+  "description": "Crescendo is an augmented-AI customer experience platform that handles support across chat, voice, email, and messaging, escalating to human agents when needed. It charges on outcomes rather than seats, and pairs its AI with thousands of human CX professionals gained through its PartnerHero acquisition. Integrates with Salesforce, Zendesk, Shopify, and more.",
+  "insight": "In 2024 the ~20-person startup acquired PartnerHero, adding 3,000 human CX agents — a rare early-stage acquisition of that scale.",
+  "category": "support",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Crescendo",
+  "platforms": ["web", "api"],
+  "tags": ["customer-support", "cx", "contact-center", "ai-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.crescendo.ai",
+      "primary": true
+    }
+  ],
+  "edge": "Pays-on-outcome pricing instead of per-seat, with 3,000 human agents standing behind the AI across chat, voice, email, and multimodal channels.",
+  "pros": [
+    "Outcome-based pricing, not per-seat",
+    "3,000 human agents back the AI",
+    "Chat, voice, email & multimodal channels",
+    "Backed by General Catalyst at $500M valuation"
+  ],
+  "cons": [
+    "Enterprise sales motion; custom pricing",
+    "~60-day go-live, not instant",
+    "Best fit for high-volume CX"
+  ],
+  "bestFor": [
+    "High-volume customer support",
+    "CX outsourcing replacement",
+    "Outcome-based CX buyers"
+  ],
+  "alternatives": ["sierra", "decagon", "maven-agi", "lorikeet"],
+  "references": [
+    {
+      "title": "Crescendo Secures $50 Million for AI-Enhanced Contact Center Platform",
+      "url": "https://moneycheck.com/crescendo-secures-50-million-for-ai-enhanced-contact-center-platform/",
+      "source": "Money Check"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 928,
+  "lastVerifiedAt": "2026-06-20"
+}
