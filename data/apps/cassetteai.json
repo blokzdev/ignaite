@@ -1,0 +1,42 @@
+{
+  "slug": "cassetteai",
+  "name": "CassetteAI",
+  "tagline": "Real-time generative audio API for music, sound effects, and speech.",
+  "description": "CassetteAI is a generative audio platform that produces music, sound effects, and speech from text prompts through a single API. Its latent-diffusion models render a 30-second sample in roughly two seconds and full multi-minute tracks at 44.1 kHz stereo, aimed at creators and developers who need audio on demand. It is offered pay-per-use with a free monthly tier.",
+  "insight": "Built by Pixl Technologies; founder Akhil Tolani is an O'Shaughnessy Ventures Fellowship grantee.",
+  "category": "music",
+  "secondaryCategories": ["audio"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Pixl Technologies, Inc.",
+  "platforms": ["api", "web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs CassetteAI's own music, SFX, and text-to-speech models."
+  },
+  "tags": ["music-generation", "sound-effects", "text-to-audio", "api", "royalty-free"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cassetteai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 981,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Optimized for sub-second latency—a 30s clip in about two seconds at 44.1kHz—so it fits real-time and high-volume API use, unlike batch-only generators.",
+  "pros": [
+    "Sub-second generation latency",
+    "Music, SFX, and speech in one API",
+    "Pay-per-use, no subscription lock-in",
+    "44.1kHz stereo output"
+  ],
+  "cons": [
+    "Newer, smaller catalog than Suno/Udio",
+    "API-first; limited standalone editor",
+    "Commercial-rights terms not clearly stated"
+  ],
+  "bestFor": ["Developers adding audio", "Real-time background music", "High-volume content"],
+  "alternatives": ["suno", "udio", "stable-audio", "beatoven"]
+}

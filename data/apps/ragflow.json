@@ -1,0 +1,48 @@
+{
+  "slug": "ragflow",
+  "name": "RAGFlow",
+  "tagline": "Open-source RAG engine with deep document understanding.",
+  "description": "RAGFlow is an open-source retrieval-augmented generation engine that turns complex documents—PDFs, slides, spreadsheets, scans, and web pages—into grounded, citation-backed context for LLMs. Its DeepDoc parser and hybrid vector plus full-text search aim for reliable, hallucination-resistant question answering, and it now bundles an agent-orchestration layer. Self-host the Apache-2.0 engine or use the managed cloud.",
+  "insight": "Among GitHub's most-starred RAG engines (~80k stars); maker InfiniFlow also builds the Infinity vector database it can run on.",
+  "category": "search",
+  "secondaryCategories": ["orchestration"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "InfiniFlow Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Works with most LLMs for generation; ships its own DeepDoc parsing and retrieval."
+  },
+  "tags": ["rag", "retrieval", "document-understanding", "open-source", "vector-search"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ragflow.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/infiniflow/ragflow"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 984,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "DeepDoc parsing turns messy PDFs, tables, and scans into citation-backed chunks—grounding answers better than naive text-splitting RAG stacks.",
+  "pros": [
+    "Apache-2.0, fully self-hostable",
+    "Deep document, table, and scan parsing",
+    "Citation-backed answers",
+    "Hybrid vector + full-text search",
+    "Built-in agent orchestration"
+  ],
+  "cons": [
+    "Heavier setup than hosted RAG APIs",
+    "Cloud tiers cap apps and storage",
+    "Resource-intensive to self-host"
+  ],
+  "bestFor": ["Self-hosted enterprise RAG", "Complex document QA", "Citation-grounded chatbots"],
+  "alternatives": ["llamaindex", "haystack", "ragie", "onyx"]
+}

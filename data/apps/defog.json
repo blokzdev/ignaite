@@ -1,0 +1,50 @@
+{
+  "slug": "defog",
+  "name": "Defog",
+  "tagline": "Natural-language data analyst that turns questions into SQL.",
+  "description": "Defog is an AI data analyst that converts natural-language questions into SQL across databases, warehouses, and CSVs, returning answers without writing queries. It is built on SQLCoder, the company's own open-source text-to-SQL model, and emphasizes privacy—your data is never sent to or used to train the model. Defog Agents extend it to multi-step SQL, Python, and R workflows.",
+  "insight": "Open-sourced SQLCoder in 2023, a specialized text-to-SQL LLM that has surpassed 300,000 downloads.",
+  "category": "analytics",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Defog, Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["SQLCoder"],
+    "notes": "Built on Defog's fine-tuned SQLCoder text-to-SQL model."
+  },
+  "tags": ["text-to-sql", "nl-to-sql", "data-analysis", "sqlcoder", "open-model"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://defog.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/defog-ai/sqlcoder"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 983,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Powered by its own open SQLCoder model rather than a general LLM, with a privacy stance that never sends your data to the model.",
+  "pros": [
+    "Purpose-built SQLCoder model",
+    "Strong data-privacy stance",
+    "Connects to many DBs and warehouses",
+    "YC-backed (W23)"
+  ],
+  "cons": [
+    "Pricing not publicly listed",
+    "Small team and product",
+    "Scope focused on SQL analytics"
+  ],
+  "bestFor": [
+    "Self-serve data questions",
+    "NL-to-SQL on warehouses",
+    "Privacy-sensitive analytics"
+  ],
+  "alternatives": ["vanna", "julius", "hex", "tellius"]
+}
