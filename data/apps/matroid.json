@@ -1,0 +1,41 @@
+{
+  "slug": "matroid",
+  "insight": "Founded in 2016 by Stanford adjunct professor Reza Zadeh; raised about $33.5M including a $20M Series B led by Energize Ventures.",
+  "name": "Matroid",
+  "tagline": "No-code computer vision to detect anything in images and video.",
+  "description": "Matroid is an enterprise platform for building custom computer vision detectors without writing code. Non-programmers train detectors to find objects, defects, people, events, and actions, then deploy them against any existing camera or video feed. It is widely used for industrial visual inspection and quality control, where it can flag cracks, weld defects, and assembly errors in real time.",
+  "category": "vision",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Matroid",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Trains and serves its own vision detectors; no external LLM."
+  },
+  "tags": ["computer-vision", "no-code", "object-detection", "manufacturing", "video-analytics"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.matroid.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 909,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Lets non-engineers build production CV detectors with no code and run them on any existing camera — visual inspection in minutes.",
+  "pros": [
+    "No-code detector training",
+    "Works with any existing camera",
+    "Strong on manufacturing defect QC",
+    "Cloud, on-prem, and edge deployment"
+  ],
+  "cons": [
+    "Enterprise sales, no public pricing",
+    "Aimed at industrial/defense use",
+    "Vision-only, not a general AI tool"
+  ],
+  "bestFor": ["Manufacturing QC", "Visual inspection", "Security & defense"],
+  "alternatives": ["landing-ai", "roboflow", "clarifai", "groundlight"]
+}
