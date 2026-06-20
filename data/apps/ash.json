@@ -1,0 +1,56 @@
+{
+  "slug": "ash",
+  "name": "Ash",
+  "tagline": "AI built specifically for therapy and mental-health support.",
+  "description": "Ash is a mental-health support app built on a purpose-built psychology foundation model rather than a general-purpose chatbot. It draws on therapeutic approaches like CBT, DBT, ACT and motivational interviewing to help users work through thoughts and patterns, and is designed to challenge rather than simply validate. Free on iOS and Android; positioned as support, not a replacement for a licensed therapist.",
+  "insight": "Runs on a purpose-built psychology foundation model; maker Slingshot AI raised $93M and launched Ash publicly in July 2025.",
+  "category": "healthcare",
+  "secondaryCategories": ["companion"],
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Slingshot AI",
+  "platforms": ["ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Built on Slingshot's purpose-built foundation model for psychology."
+  },
+  "tags": ["mental health", "therapy", "companion", "wellness"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.talktoash.com/",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://slingshotai.com",
+      "label": "Slingshot AI"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 896,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Unlike general chatbots tuned to agree with you, Ash is trained only for therapy on a psychology-specific model and is built to push back, not just validate.",
+  "pros": [
+    "Purpose-built model for therapy (CBT, DBT, ACT)",
+    "Free on iOS and Android",
+    "Designed to challenge, not just validate",
+    "Built by a dedicated mental-health research lab"
+  ],
+  "cons": [
+    "Not a replacement for a licensed therapist",
+    "No crisis or emergency care",
+    "Long-term efficacy still unproven",
+    "Free now; a paid tier is expected later"
+  ],
+  "bestFor": ["Self-guided mental health", "Between-session support", "Reflective journaling"],
+  "alternatives": ["wysa", "pi", "replika"],
+  "references": [
+    {
+      "title": "Slingshot AI, the a16z-backed startup, launches a therapy chatbot",
+      "url": "https://www.statnews.com/2025/07/22/slingshot-new-investors-generative-ai-mental-health-therapy-chatbot-called-ash/",
+      "source": "STAT",
+      "kind": "analysis"
+    }
+  ]
+}
