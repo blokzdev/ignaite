@@ -1,5 +1,6 @@
 {
   "slug": "mcp-supabase",
+  "insight": "Supabase's official MCP server; offers a read-only mode that runs every query as a read-only Postgres user for safe agent access.",
   "name": "Supabase MCP",
   "tagline": "Postgres + auth + edge functions from inside the agent.",
   "description": "MCP server that exposes Supabase project ops — list tables, apply migrations, deploy edge functions, fetch advisors. Removes a context-switch cliff between code and database.",

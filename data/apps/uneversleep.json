@@ -1,5 +1,6 @@
 {
   "slug": "uneversleep",
+  "insight": "Hybrid by design: AI drafts each Upwork proposal, but real human business managers submit it for you within ~15 minutes.",
   "name": "U Never Sleep",
   "tagline": "Auto-responds to matching Upwork jobs with AI-written proposals within minutes.",
   "description": "U Never Sleep filters Upwork job postings against your budget, keyword, and client-history criteria, then generates and submits a personalized proposal within minutes of a job going live. It tracks proposals, open rates, and responses in a dashboard and ships a free Chrome extension that scores your Upwork profile.",

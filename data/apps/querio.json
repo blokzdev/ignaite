@@ -1,5 +1,6 @@
 {
   "slug": "querio",
+  "insight": "Founded in 2023 by a former Amazon Robotics and Alexa lead; raised about $4.3M from Forum Ventures and others.",
   "name": "Querio",
   "tagline": "Agentic notebooks that let any team explore data in natural language with inspectable SQL.",
   "description": "Querio is a data platform built around agentic notebooks: teams and customers ask questions in natural language and Querio's agents generate the SQL and Python to answer them, with every query visible and editable. It connects to multiple data sources, integrates with Slack, and can embed analytics into customer-facing applications for users of any technical level.",
