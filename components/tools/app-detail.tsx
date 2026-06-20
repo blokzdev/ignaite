@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Archive, ArrowUpRight, BookOpen, Check, Lightbulb, Minus, Target } from "lucide-react";
+import { Archive, ArrowUpRight, BookOpen, Lightbulb, Minus, Plus, Target } from "lucide-react";
 import type { ReactElement, ReactNode } from "react";
 import { AccuracyNote } from "@/components/tools/accuracy-note";
 import { AppDetailShell } from "@/components/detail/app-detail-shell";
@@ -150,7 +150,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
                           key={p}
                           className="flex items-start gap-2.5 text-sm text-[var(--color-ink)]"
                         >
-                          <Check
+                          <Plus
                             aria-hidden
                             className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[var(--color-success)]"
                           />
