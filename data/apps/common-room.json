@@ -1,0 +1,41 @@
+{
+  "slug": "common-room",
+  "name": "Common Room",
+  "tagline": "AI go-to-market platform that turns buying signals into automated outreach.",
+  "description": "Common Room unifies first-party data from CRM, product, marketing, and community sources, resolves identities across a 400M+ contact graph, and surfaces buying signals like job changes and product usage. Its RoomieAI agents then research accounts and personalize outreach for revenue teams. Integrates with Salesforce, HubSpot, Slack, and 50+ tools, plus a Chrome extension.",
+  "insight": "Founded in Seattle in 2020; has raised about $105M from Index Ventures, Madrona, and Greylock.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Common Room",
+  "platforms": ["web", "browser-extension"],
+  "tags": ["go-to-market", "sales-intelligence", "signals", "ai-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.commonroom.io",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.commonroom.io/pricing/"
+    }
+  ],
+  "edge": "Resolves identities across a 400M+ contact graph, then lets RoomieAI agents auto-research accounts and personalize outreach from unified signals.",
+  "pros": [
+    "Unifies CRM, product, marketing & community signals",
+    "400M+ contact enrichment graph",
+    "AI agents auto-research accounts & personalize",
+    "Chrome extension + 50+ integrations"
+  ],
+  "cons": [
+    "No free tier; entry plan ~$2,500/mo",
+    "Built for B2B revenue teams, not SMBs",
+    "Data-integration setup is heavy"
+  ],
+  "bestFor": ["B2B revenue teams", "Outbound prospecting", "Signal-based selling", "RevOps"],
+  "alternatives": ["clay", "apollo", "unify", "11x"],
+  "addedAt": "2026-06-20",
+  "addedSeq": 927,
+  "lastVerifiedAt": "2026-06-20"
+}

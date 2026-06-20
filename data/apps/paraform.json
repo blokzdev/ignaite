@@ -1,0 +1,44 @@
+{
+  "slug": "paraform",
+  "name": "Paraform",
+  "tagline": "Agentic hiring marketplace pairing AI sourcing with expert recruiters.",
+  "description": "Paraform is an agentic hiring marketplace that connects companies with thousands of specialized recruiters, augmented by AI agents that learn each search, surface candidates, schedule interviews, and handle follow-ups. Companies pay on successful hires rather than for software seats. Used by 1,000+ companies, often for high-compensation technical roles.",
+  "insight": "Raised a $40M Series B (Scale Venture Partners) in 2026 for $65M total; backers include execs from Palantir, Stripe, and Canva.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Paraform",
+  "platforms": ["web"],
+  "tags": ["recruiting", "hiring", "marketplace", "ai-agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.paraform.com",
+      "primary": true
+    }
+  ],
+  "edge": "Pairs AI sourcing agents with a 10,000+ vetted recruiter marketplace, betting on humans-in-the-loop over fully automated candidate sourcing.",
+  "pros": [
+    "10,000+ vetted specialist recruiters",
+    "AI agents source, screen & schedule",
+    "Outcome-driven: pay on hire",
+    "Backed by Palantir/Stripe/Canva execs"
+  ],
+  "cons": [
+    "Marketplace model, not self-serve software",
+    "Skews to high-comp technical roles",
+    "Cost tied to placements"
+  ],
+  "bestFor": ["Startups hiring specialists", "Hard-to-fill roles", "Recruiting teams"],
+  "alternatives": ["mercor", "micro1", "juicebox"],
+  "references": [
+    {
+      "title": "Paraform: $65M Raised for Agentic Hiring Platform",
+      "url": "https://pulse2.com/paraform-65-million-raised-for-agentic-hiring-platform-expanding-ai-driven-recruiting/",
+      "source": "Pulse 2.0"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 930,
+  "lastVerifiedAt": "2026-06-20"
+}
