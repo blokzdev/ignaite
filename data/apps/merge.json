@@ -1,0 +1,53 @@
+{
+  "slug": "merge",
+  "insight": "In 2025 Merge added Agent Handler — production MCP connectors that expose its hundreds of SaaS integrations as ready tools for AI agents.",
+  "name": "Merge",
+  "tagline": "Unified API for hundreds of B2B integrations — plus MCP tools for AI agents.",
+  "description": "Merge offers a single Unified API that adds hundreds of product integrations (HR, ATS, CRM, accounting, ticketing, file storage) behind one normalized schema. Its Agent Handler product exposes those same integrations as production-ready MCP connectors, giving AI agents thousands of pre-built, authenticated tools. Engineering teams use it to ship integrations and agent tool-calling without hand-building each connector.",
+  "category": "mcp",
+  "secondaryCategories": ["automation"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Merge",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#2B59FF",
+  "tags": ["unified-api", "integrations", "mcp", "agents", "saas"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.merge.dev",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.merge.dev"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.merge.dev/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 916,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "One API spanning hundreds of B2B SaaS integrations across HR, CRM, accounting and ticketing — plus an MCP layer to hand them to agents.",
+  "pros": [
+    "Hundreds of normalized integrations",
+    "Single schema across a category",
+    "MCP tools for agents via Agent Handler",
+    "Built-in auth, security, observability",
+    "Strong enterprise/compliance posture"
+  ],
+  "cons": [
+    "Paid tiers are contract/sales-based",
+    "Pricey beyond the free 3 accounts",
+    "Agent Handler is tool-calls only, no syncs",
+    "Coverage varies by integration"
+  ],
+  "bestFor": ["SaaS products adding integrations", "Agent tool-calling", "Enterprise teams"],
+  "alternatives": ["composio", "pipedream", "activepieces", "n8n"]
+}
