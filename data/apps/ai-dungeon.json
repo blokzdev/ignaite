@@ -1,0 +1,45 @@
+{
+  "slug": "ai-dungeon",
+  "insight": "One of the first consumer apps built on OpenAI's GPT-2 (2019) and later GPT-3; created by Nick Walton and run by studio Latitude.",
+  "name": "AI Dungeon",
+  "tagline": "AI-powered text adventure that turns your every action into an open-ended story.",
+  "description": "AI Dungeon is an AI-driven text adventure where the model acts as a dungeon master, generating an open-ended story that responds to whatever you type — any action, any genre, with no fixed script. Players can pick from preset settings or author custom scenarios and worlds, and the game keeps track of characters and events as the narrative unfolds across web and mobile.",
+  "category": "gaming",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Latitude",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["interactive-fiction", "text-adventure", "storytelling", "rpg", "gpt"],
+  "links": [{ "kind": "website", "url": "https://aidungeon.com", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 956,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "A persistent, open-ended AI storyteller with no fixed script — you can attempt any action in any genre, unlike templated AI-story or chatbot apps.",
+  "pros": [
+    "Open-ended, any-genre storytelling",
+    "Multiplatform: web, iOS, Android",
+    "Custom scenarios & worlds",
+    "Large, active community",
+    "Free tier available"
+  ],
+  "cons": [
+    "Output can drift or lose coherence",
+    "Best features behind a subscription",
+    "Past content-moderation controversies",
+    "Not a structured game with set goals"
+  ],
+  "bestFor": [
+    "Interactive-fiction fans",
+    "Collaborative storytelling",
+    "Solo tabletop-style RPG play"
+  ],
+  "alternatives": ["novelai", "character-ai", "inworld-ai"],
+  "references": [
+    {
+      "title": "AI Dungeon",
+      "url": "https://en.wikipedia.org/wiki/AI_Dungeon",
+      "source": "Wikipedia",
+      "kind": "analysis"
+    }
+  ]
+}

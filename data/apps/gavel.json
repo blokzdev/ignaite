@@ -1,0 +1,45 @@
+{
+  "slug": "gavel",
+  "insight": "Rebranded from no-code legal-doc startup Documate in 2023; now used by nearly 2,000 legal organizations across 23 countries.",
+  "name": "Gavel",
+  "tagline": "No-code legal document automation plus AI contract drafting and review for lawyers.",
+  "description": "Gavel pairs Gavel Workflows — a no-code platform that turns intake answers into finished Word documents and PDFs — with Gavel Exec, an AI contract reviewer and drafter that runs both as a Microsoft Word add-in and on the web. Exec applies a firm's own playbooks and precedent to generate first-pass reviews, redlines, and clauses, benchmark language against market standards, and run batch analysis across portfolios of contracts.",
+  "category": "legal",
+  "secondaryCategories": ["automation"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Gavel (formerly Documate)",
+  "platforms": ["web"],
+  "tags": ["contract-review", "document-automation", "no-code", "legal", "word-addin"],
+  "links": [
+    { "kind": "website", "url": "https://www.gavel.io", "primary": true },
+    { "kind": "website", "url": "https://exec.gavel.io", "label": "Gavel Exec" }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 953,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Combines no-code legal-document automation (Workflows) with an in-Word and web AI contract reviewer (Exec) driven by a firm's own playbooks and precedent.",
+  "pros": [
+    "No-code legal document automation",
+    "AI contract review in Word and on web",
+    "Firm-specific playbooks & precedent",
+    "Market benchmarking + batch analysis",
+    "Self-serve signup, no sales call"
+  ],
+  "cons": [
+    "Focused on transactional/contract work",
+    "Exec starts around $160/user/month",
+    "Word-centric workflow",
+    "Smaller than Harvey or Legora"
+  ],
+  "bestFor": ["Transactional lawyers", "Solo & small law firms", "Contract review & automation"],
+  "alternatives": ["draftwise", "spellbook", "legalon"],
+  "references": [
+    {
+      "title": "Gavel Launches Web-Based AI Contract Platform",
+      "url": "https://www.lawnext.com/2026/04/gavel-launches-web-based-ai-contract-platform-expanding-gavel-exec-beyond-its-word-add-in.html",
+      "source": "LawSites",
+      "kind": "analysis"
+    }
+  ]
+}

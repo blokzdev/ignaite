@@ -1,0 +1,40 @@
+{
+  "slug": "darrow",
+  "insight": "Founded in 2020; has raised ~$63M to date and has been cash-flow positive since 2023 — unusual for a legal-AI startup.",
+  "name": "Darrow",
+  "tagline": "AI legal intelligence that detects large-scale violations and sizes litigation before it's filed.",
+  "description": "Darrow is an AI legal-intelligence platform that scans public data to surface harmful events — data-privacy breaches, antitrust, environmental, and financial violations — then estimates the number of victims, predicts outcomes, and sizes a case's value. Its 2026 platform lets plaintiffs' firms run case discovery, evaluation, and portfolio management in one workflow, positioning itself 'upstream' of litigation rather than on downstream legal operations.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Darrow",
+  "platforms": ["web"],
+  "tags": ["legal-intelligence", "litigation", "class-action", "risk", "enterprise"],
+  "links": [{ "kind": "website", "url": "https://www.darrow.ai", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 955,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Works the plaintiff side — detecting unflagged violations and sizing cases — rather than the contract or research workflows most legal-AI tools automate.",
+  "pros": [
+    "Surfaces unflagged legal violations",
+    "Estimates case value & victim counts",
+    "Portfolio view of active litigation",
+    "Used by 80+ legal organizations"
+  ],
+  "cons": [
+    "Enterprise sales, pricing undisclosed",
+    "Plaintiff-side niche, not general legal",
+    "US-centric legal coverage",
+    "No self-serve or public reviews"
+  ],
+  "bestFor": ["Plaintiffs' law firms", "Litigation finance & risk", "Class-action discovery"],
+  "alternatives": ["harvey", "legora", "draftwise"],
+  "references": [
+    {
+      "title": "Darrow Launches a Platform to Manage Litigation Like a Portfolio",
+      "url": "https://www.lawnext.com/2026/05/darrow-the-ai-lab-for-legal-risk-launches-a-platform-to-let-plaintiffs-firms-manage-litigation-like-an-investment-portfolio.html",
+      "source": "LawSites",
+      "kind": "analysis"
+    }
+  ]
+}
