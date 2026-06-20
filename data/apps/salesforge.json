@@ -1,0 +1,36 @@
+{
+  "slug": "salesforge",
+  "name": "Salesforge",
+  "tagline": "Multi-channel cold outreach with an autonomous AI SDR.",
+  "description": "An outbound sales platform for cold email and LinkedIn that bundles unlimited mailboxes, deliverability tooling, and reply management. Its flagship AI SDR, Agent Frank, finds prospects, writes and personalizes outreach, runs follow-ups, and books meetings in auto-pilot or co-pilot mode.",
+  "insight": "Part of a 'Forge' GTM suite alongside Mailforge (mailboxes), Leadsforge (lead data), and the Agent Frank AI SDR.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Salesforge",
+  "platforms": ["web", "browser-extension", "api", "ios", "android"],
+  "accentColor": "#6C5CE7",
+  "tags": ["sales", "ai-sdr", "cold-email", "outbound", "linkedin"],
+  "links": [
+    { "kind": "website", "url": "https://www.salesforge.ai", "primary": true },
+    { "kind": "website", "url": "https://www.salesforge.ai/agent/frank", "label": "Agent Frank" },
+    { "kind": "pricing", "url": "https://www.salesforge.ai/pricing" }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 943,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Pairs unlimited mailboxes and deliverability tooling with an autonomous AI SDR, so prospecting and sending live in one platform.",
+  "pros": [
+    "Agent Frank automates prospecting end-to-end",
+    "Auto-pilot and co-pilot operating modes",
+    "Unlimited mailboxes and LinkedIn senders",
+    "Writes outreach in 20+ languages"
+  ],
+  "cons": [
+    "AI SDR plan is expensive ($416+/month)",
+    "No permanent free tier (trial only)",
+    "Reply quality reportedly weaker than top-of-funnel"
+  ],
+  "bestFor": ["Outbound SDR teams", "Cold email + LinkedIn", "AI-assisted prospecting"],
+  "alternatives": ["artisan", "11x", "amplemarket", "clay"]
+}

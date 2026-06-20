@@ -1,0 +1,33 @@
+{
+  "slug": "nyota",
+  "name": "Nyota",
+  "tagline": "AI meeting notetaker that syncs to your project tools and CRM.",
+  "description": "An AI meeting assistant that joins Zoom, Google Meet, and Microsoft Teams to transcribe and summarize calls, then pushes action items into project management tools and CRMs like Jira, Asana, ClickUp, HubSpot, and Salesforce. Also prepares agendas and tracks follow-ups across recurring meetings.",
+  "insight": "Generates notes, summaries, and transcripts in 90+ languages and auto-creates tasks/tickets in connected PM tools.",
+  "category": "meeting",
+  "secondaryCategories": ["productivity"],
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Nyota",
+  "platforms": ["web"],
+  "accentColor": "#F59E0B",
+  "tags": ["meeting", "notetaker", "project-management", "crm", "action-items"],
+  "links": [{ "kind": "website", "url": "https://www.nyota.ai", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 947,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Leans into project/people management — auto-creating tickets and tracking action items in PM tools — rather than just producing a transcript.",
+  "pros": [
+    "Two-way sync with PM tools and CRMs",
+    "Auto-creates tasks and tickets",
+    "Notes and transcripts in 90+ languages",
+    "Agenda prep for recurring meetings"
+  ],
+  "cons": [
+    "No permanent free plan (trial only)",
+    "Joins calls as a bot participant",
+    "Web-only client"
+  ],
+  "bestFor": ["Project managers", "Cross-functional teams", "CRM/PM sync"],
+  "alternatives": ["fathom", "fireflies", "circleback", "supernormal"]
+}

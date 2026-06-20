@@ -1,0 +1,35 @@
+{
+  "slug": "trellus",
+  "name": "Trellus",
+  "tagline": "Embedded AI auto-dialer and live cold-call coach for SDRs.",
+  "description": "A sales calling copilot that embeds a parallel/auto-dialer and real-time coaching directly inside sales engagement platforms. Listens to live calls and surfaces behavioral cues and objection-handling prompts, then scores talk tracks and analyzes calls afterward.",
+  "insight": "Backed by Y Combinator (W22) and founded by former MIT researchers Craig Bonnoit and Ajinkya Nene.",
+  "category": "sales",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Trellus",
+  "platforms": ["web", "browser-extension"],
+  "accentColor": "#1FB6A6",
+  "tags": ["sales", "dialer", "call-coaching", "sdr", "outbound"],
+  "links": [
+    { "kind": "website", "url": "https://www.trellus.ai", "primary": true },
+    { "kind": "pricing", "url": "https://www.trellus.ai/pricing" }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 944,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Embeds a parallel dialer plus live in-call coaching inside Salesloft, Outreach, HubSpot and Apollo, pitched as far cheaper than standalone parallel dialers.",
+  "pros": [
+    "Real-time, in-call coaching (not just post-call)",
+    "Embeds into existing engagement platforms",
+    "Parallel dialing to lift connect rates",
+    "Objection-handling prompts surfaced live"
+  ],
+  "cons": [
+    "No free tier",
+    "Value tied to high call volume",
+    "Coaching quality varies by call audio"
+  ],
+  "bestFor": ["SDR/BDR cold calling", "Live call coaching", "Parallel dialing"],
+  "alternatives": ["nooks", "apollo", "salesloft", "outreach"]
+}
