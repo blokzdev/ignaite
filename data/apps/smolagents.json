@@ -1,0 +1,47 @@
+{
+  "slug": "smolagents",
+  "insight": "Open-sourced by Hugging Face in late 2024; its entire core agent logic fits in roughly 1,000 lines of code.",
+  "name": "smolagents",
+  "tagline": "Barebones Python library for agents that think in code.",
+  "description": "Hugging Face's minimal agent library: agents express their actions as executable Python code snippets rather than JSON tool calls, which tends to take fewer steps than tool-calling loops. Model-agnostic via LiteLLM (local Transformers, OpenAI, Anthropic, and 100+ providers), with sandboxed execution (E2B, Docker, Modal) and tools/agents shareable on the Hugging Face Hub.",
+  "category": "orchestration",
+  "secondaryCategories": ["agent"],
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Hugging Face",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Any LLM via LiteLLM — local Transformers, Inference providers, OpenAI, Anthropic, and more."
+  },
+  "tags": ["agents", "code-agents", "python", "open-source", "huggingface"],
+  "links": [
+    {
+      "kind": "github",
+      "url": "https://github.com/huggingface/smolagents",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://huggingface.co/docs/smolagents/"
+    }
+  ],
+  "edge": "Agents 'think in code' — actions are executable Python snippets instead of JSON tool calls, which the docs say cuts step count by about 30%.",
+  "pros": [
+    "Tiny, readable core (~1,000 LOC)",
+    "Code-writing agents, fewer steps",
+    "Model-agnostic via LiteLLM",
+    "Sandboxed execution options",
+    "Tight Hugging Face Hub integration"
+  ],
+  "cons": [
+    "Minimal by design — less batteries-included",
+    "Code execution needs careful sandboxing",
+    "Smaller feature surface than larger frameworks"
+  ],
+  "bestFor": ["Lightweight agents", "Code-first tool use", "Hugging Face users"],
+  "alternatives": ["langgraph", "crewai", "pydantic-ai"],
+  "addedAt": "2026-06-20",
+  "addedSeq": 912,
+  "lastVerifiedAt": "2026-06-20"
+}

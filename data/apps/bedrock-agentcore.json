@@ -1,0 +1,47 @@
+{
+  "slug": "bedrock-agentcore",
+  "insight": "AWS's serverless runtime for production agents; reached general availability in October 2025 and runs agents from any framework.",
+  "name": "Amazon Bedrock AgentCore",
+  "tagline": "Serverless runtime and services for deploying AI agents in production.",
+  "description": "AWS's enterprise platform for taking AI agents from prototype to production. A secure, serverless Runtime hosts agents built with any framework (Strands, LangChain, LangGraph, CrewAI) and any model, alongside modular services for Memory, Identity, Gateway (turning APIs/Lambdas into MCP tools), a Code Interpreter, Browser tool, and Observability.",
+  "category": "agent",
+  "secondaryCategories": ["infra"],
+  "pricing": "paid",
+  "openSource": false,
+  "deployment": "cloud",
+  "vendor": "AWS",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Framework- and model-agnostic; runs agents built on any framework with any model."
+  },
+  "tags": ["agent-runtime", "serverless", "mcp", "enterprise", "aws"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aws.amazon.com/bedrock/agentcore/",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html"
+    }
+  ],
+  "edge": "Framework- and model-agnostic managed runtime — deploy agents built in Strands, LangGraph, or CrewAI with built-in identity, memory, and tools.",
+  "pros": [
+    "Serverless runtime for any agent framework",
+    "Modular memory, identity, gateway, browser, code tools",
+    "Enterprise security and isolation",
+    "Built-in observability"
+  ],
+  "cons": [
+    "AWS-only, usage-priced",
+    "Newly GA — ecosystem still maturing",
+    "Lock-in to the AWS platform"
+  ],
+  "bestFor": ["Production agent deployment", "Enterprise AWS teams", "Scaling agents"],
+  "alternatives": ["langgraph", "crewai", "modal"],
+  "addedAt": "2026-06-20",
+  "addedSeq": 914,
+  "lastVerifiedAt": "2026-06-20"
+}

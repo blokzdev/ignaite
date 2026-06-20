@@ -1,0 +1,51 @@
+{
+  "slug": "rev",
+  "insight": "Rev runs both an AI speech-to-text engine — exposed to developers as the Rev AI API — and a marketplace of human transcriptionists.",
+  "name": "Rev",
+  "tagline": "AI and human transcription, captions, and speech-to-text.",
+  "description": "Transcription and captioning service offering fast AI transcription (~96% accuracy) plus on-demand human transcription at 99%+ accuracy, captions, and subtitles in dozens of languages. Adds AI note-taking and clip generation, and exposes its in-house ASR to developers via the Rev AI speech-to-text API.",
+  "category": "audio",
+  "secondaryCategories": ["meeting"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Rev",
+  "platforms": ["web", "ios", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Uses Rev's own ASR models; human transcription handled by a transcriptionist marketplace."
+  },
+  "tags": ["transcription", "captions", "speech-to-text", "subtitles"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.rev.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.rev.com/pricing"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.rev.ai"
+    }
+  ],
+  "edge": "A rare two-tier choice: fast ~96% AI transcription or human transcription at 99%+ accuracy, plus captions and subtitles across 37+ languages.",
+  "pros": [
+    "Both AI and human transcription options",
+    "High human-transcription accuracy",
+    "Developer speech-to-text API (Rev AI)",
+    "Captions and multilingual subtitles",
+    "Permanent free tier (limited minutes)"
+  ],
+  "cons": [
+    "Human transcription costs add up per minute",
+    "Free tier is English-only and capped",
+    "AI accuracy trails human on hard audio"
+  ],
+  "bestFor": ["Podcasters and journalists", "Video captioning", "Developer STT"],
+  "alternatives": ["descript", "good-tape", "happyscribe", "macwhisper"],
+  "addedAt": "2026-06-20",
+  "addedSeq": 915,
+  "lastVerifiedAt": "2026-06-20"
+}
