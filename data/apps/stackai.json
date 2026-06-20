@@ -1,0 +1,60 @@
+{
+  "slug": "stackai",
+  "name": "StackAI",
+  "tagline": "No-code platform to build, deploy, and manage enterprise AI agents.",
+  "description": "StackAI is a no-code platform for designing, testing, and deploying AI agents and automated workflows that act across enterprise systems. A drag-and-drop builder wires LLMs to 100+ integrations, with human-in-the-loop oversight and model flexibility. It ships across managed cloud, VPC, and on-premise deployments.",
+  "insight": "Acquired by Asana for ~$75M (announced May 28, 2026); a Y Combinator W23 startup whose founders joined Asana.",
+  "category": "automation",
+  "secondaryCategories": ["agent"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "StackAI (Asana)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT", "Claude", "Gemini", "Llama"]
+  },
+  "accentColor": "#6366F1",
+  "tags": ["no-code", "agents", "workflow", "enterprise"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.stackai.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.stack-ai.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.stackai.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 948,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Enterprise no-code agent builder with VPC/on-prem deploy and SOC 2/HIPAA/ISO compliance — now backed by Asana's work platform.",
+  "pros": [
+    "No-code drag-and-drop agent builder",
+    "Cloud, VPC, or on-prem deployment",
+    "100+ enterprise integrations",
+    "Strong compliance (SOC 2, HIPAA, ISO)",
+    "Backed by Asana post-acquisition"
+  ],
+  "cons": [
+    "Enterprise focus; pricing skews high",
+    "Roadmap now tied to Asana integration",
+    "Crowded market vs Zapier and AI labs"
+  ],
+  "bestFor": ["Enterprise workflow automation", "No-code agent teams", "Regulated industries"],
+  "alternatives": ["relevance-ai", "lindy", "gumloop", "dust"],
+  "references": [
+    {
+      "title": "Asana acquires no-code agent-builder StackAI",
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

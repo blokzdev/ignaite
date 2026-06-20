@@ -1,0 +1,57 @@
+{
+  "slug": "memvid",
+  "name": "Memvid",
+  "tagline": "Portable single-file memory layer for AI agents — no database.",
+  "description": "Memvid stores an agent's knowledge as compressed 'Smart Frames' in a single portable .mv2 file that bundles data, embeddings, and the search index — replacing vector databases and complex RAG pipelines. It offers sub-5ms retrieval, append-only versioned storage, and runs fully offline. The format is model-agnostic and multimodal.",
+  "insight": "Open-sourced under Apache-2.0 with ~16k GitHub stars; commercialized by Memvid, Inc. behind the .mv2 file format.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Memvid, Inc.",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Storage + retrieval layer; works with any embedding model and LLM."
+  },
+  "accentColor": "#F43F5E",
+  "tags": ["memory", "agents", "rag", "offline"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://memvid.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/memvid/memvid"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.memvid.com"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 949,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "No database or infra to run — memory ships as one portable, offline .mv2 file with sub-5ms retrieval, unlike server-based memory layers.",
+  "pros": [
+    "Single portable .mv2 file, no database",
+    "Works fully offline",
+    "Sub-5ms retrieval, low storage footprint",
+    "Apache-2.0 licensed",
+    "Append-only, versioned storage"
+  ],
+  "cons": [
+    "Video-frame approach is novel and debated",
+    "Smaller ecosystem than mem0-style stacks",
+    "Young commercial offering (2026)",
+    "Best for embed/edge, not multi-writer servers"
+  ],
+  "bestFor": [
+    "Offline/edge agent memory",
+    "Portable knowledge bundles",
+    "Embedding memory in apps"
+  ],
+  "alternatives": ["mem0", "zep", "cognee", "supermemory"]
+}
