@@ -1,0 +1,38 @@
+{
+  "slug": "sully-ai",
+  "name": "Sully.ai",
+  "tagline": "A team of clinical AI agents — scribe, coder, receptionist, pharmacist.",
+  "description": "Healthcare platform that deploys role-specialized AI agents to handle clinical and administrative work, from patient check-in and triage to ambient documentation, medical coding, and prescriptions. Agents integrate with Epic, Cerner, MEDITECH, and 50+ other EHRs and support multiple specialties, aiming to cut clinician admin load and burnout.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Sully.ai",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Agentic clinical workflows over LLM backends."
+  },
+  "tags": ["clinical-ai", "ambient-scribe", "medical-coding", "ehr", "agents"],
+  "links": [{ "kind": "website", "url": "https://www.sully.ai", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 987,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Deploys a whole team of role-specialized clinical agents — scribe, coder, receptionist, pharmacist — across 50+ EHRs, beyond a single ambient scribe.",
+  "pros": [
+    "Covers clinical and admin roles",
+    "Broad EHR integration (50+)",
+    "Ambient documentation included",
+    "Multi-specialty support"
+  ],
+  "cons": [
+    "Enterprise sales, demo-only",
+    "Accuracy claims vendor-reported",
+    "Newer vs. established scribes"
+  ],
+  "bestFor": [
+    "Hospitals and clinics",
+    "Reducing clinician admin load",
+    "Multi-specialty practices"
+  ],
+  "alternatives": ["abridge", "ambience-healthcare", "nabla", "suki"]
+}

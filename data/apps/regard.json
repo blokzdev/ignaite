@@ -1,0 +1,35 @@
+{
+  "slug": "regard",
+  "name": "Regard",
+  "tagline": "Proactive clinical AI that reads the whole chart before the visit.",
+  "description": "Clinical insights platform that analyzes a patient's full chart — averaging tens of thousands of data points — before an encounter, then surfaces undiagnosed conditions, recommends diagnoses, and drafts near-complete documentation for physician review. Deployed across health systems including Cedars-Sinai, Banner Health, and UVA Health to reduce documentation burden and improve diagnosis capture.",
+  "insight": "Cedars-Sinai is both an investor in and a clinical deployment site for Regard.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Regard",
+  "platforms": ["web"],
+  "tags": ["clinical-ai", "diagnosis", "documentation", "ehr"],
+  "links": [{ "kind": "website", "url": "https://regard.com", "primary": true }],
+  "addedAt": "2026-06-20",
+  "addedSeq": 988,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Reads the full chart proactively before the visit — surfacing undiagnosed conditions and drafting the note, vs. ambient scribes that only capture the encounter.",
+  "pros": [
+    "Proactive chart-wide analysis",
+    "Surfaces undiagnosed conditions",
+    "Drafts near-complete notes",
+    "Used by major health systems"
+  ],
+  "cons": [
+    "Enterprise deployment only",
+    "Requires deep EHR integration",
+    "Diagnosis suggestions need MD review"
+  ],
+  "bestFor": [
+    "Hospital inpatient teams",
+    "Diagnosis capture and coding",
+    "Reducing documentation burden"
+  ],
+  "alternatives": ["navina", "abridge", "openevidence", "nabla"]
+}
