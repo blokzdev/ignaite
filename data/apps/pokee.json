@@ -1,0 +1,42 @@
+{
+  "slug": "pokee",
+  "insight": "Raised a $12M seed in 2025 led by Point72 Ventures (Qualcomm and Samsung joined); founder Bill Zhu led Meta's Applied RL team.",
+  "name": "Pokee AI",
+  "tagline": "RL-powered agent that runs multi-step workflows across 90+ apps and thousands of tools.",
+  "description": "Pokee AI is an agent platform that plans, reasons, and executes multi-step tasks across your software stack from natural-language instructions. It connects via one-click OAuth to 90+ integrations (Google Workspace, Slack, Notion, Jira, GitHub, Salesforce, plus social platforms) and thousands of tools. It is built on proprietary reinforcement learning for tool selection rather than hand-built workflows, and can run hosted or fully inside your own network.",
+  "category": "agent",
+  "secondaryCategories": ["automation"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "featured": false,
+  "vendor": "Pokee AI",
+  "platforms": ["web", "api"],
+  "accentColor": "#5B5BD6",
+  "tags": ["ai-agent", "workflow-automation", "reinforcement-learning", "integrations", "oauth"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pokee.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 919,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Leans on reinforcement learning (a claimed ~97% tool-selection accuracy) to route multi-step tasks across thousands of tools without predefined flows.",
+  "pros": [
+    "Free tier plus low-cost paid plans",
+    "90+ OAuth integrations, 1000s of tools",
+    "RL-based accurate tool selection",
+    "Runs hosted or fully in your network",
+    "Strong RL research pedigree"
+  ],
+  "cons": [
+    "Young, early-stage startup",
+    "Smaller integration set than incumbents",
+    "RL accuracy claims are self-reported",
+    "On-prem needs custom setup"
+  ],
+  "bestFor": ["Cross-app automation", "Privacy-sensitive teams", "Ops + knowledge workers"],
+  "alternatives": ["manus", "genspark", "lindy", "gumloop"]
+}

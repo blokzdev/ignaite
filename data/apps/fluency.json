@@ -1,0 +1,42 @@
+{
+  "slug": "fluency",
+  "name": "Fluency",
+  "tagline": "A 'Digital Advertising Operating System' that runs thousands of ad campaigns with agentic AI.",
+  "description": "Fluency is a digital advertising platform — a self-described Digital Advertising Operating System — that automates campaign creation, management, and optimization at scale across Google, Meta, TikTok, Amazon, and more. Its Muse AI and agentic automation execute tactical optimizations with built-in governance, and campaigns can be generated dynamically from CRM and data sources. It targets agencies, enterprise brands, and multi-location businesses running large campaign volumes.",
+  "category": "marketing",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "featured": false,
+  "vendor": "Fluency",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "accentColor": "#5A3FD6",
+  "tags": ["digital-advertising", "ad-automation", "ppc", "agencies", "agentic"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fluency.inc",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 923,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Built for agencies and brands running thousands of ad campaigns at once — agentic optimizations with governance across every major ad channel.",
+  "pros": [
+    "Automates campaigns at huge scale",
+    "Spans Google, Meta, TikTok, Amazon+",
+    "Agentic optimization with governance",
+    "Dynamic campaigns from data sources",
+    "Large claimed time savings"
+  ],
+  "cons": [
+    "No public pricing; sales-gated",
+    "Aimed at agencies/enterprise",
+    "Niche vs general marketing suites",
+    "Onboarding/data setup required"
+  ],
+  "bestFor": ["Ad agencies", "Multi-location brands", "High-volume PPC"]
+}
