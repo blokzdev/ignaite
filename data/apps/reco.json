@@ -1,0 +1,52 @@
+{
+  "slug": "reco",
+  "insight": "Raised a $30M Series B led by Zeev Ventures (total funding $85M) after growing ARR 400% in 2025.",
+  "name": "Reco",
+  "tagline": "Security posture and threat detection for SaaS and AI agents.",
+  "description": "Reco is a SaaS security platform that discovers and secures the apps, identities, and AI agents running across an organization. It maps human and non-human identities, surfaces shadow AI and misconfigurations, and detects threats across 200+ integrated applications. Its AI Agent Security adds visibility and control over autonomous agents like Copilot and Agentforce.",
+  "category": "security",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Reco",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Secures SaaS apps, identities, and AI agents regardless of the underlying model."
+  },
+  "accentColor": "#6366F1",
+  "tags": ["saas-security", "sspm", "agent-security", "identity"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.reco.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 973,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Extends SaaS security posture management to AI agents, discovering and governing tools like Copilot and Agentforce alongside human identities.",
+  "pros": [
+    "200+ SaaS app integrations",
+    "Covers human and AI-agent identities",
+    "Shadow-AI and misconfig discovery",
+    "Cyera integration for data-aware alerts",
+    "Strong investor backing"
+  ],
+  "cons": [
+    "Enterprise-only, no public pricing",
+    "Demo-gated onboarding",
+    "Cloud-only",
+    "Fast-evolving SSPM category"
+  ],
+  "bestFor": ["Enterprise security teams", "SaaS posture management", "AI-agent governance"],
+  "alternatives": ["zenity", "witnessai", "prompt-security", "lasso-security"],
+  "references": [
+    {
+      "title": "Reco Raises $30 Million to Enhance AI SaaS Security",
+      "url": "https://www.securityweek.com/reco-raises-30-million-to-enhance-ai-saas-security/",
+      "source": "SecurityWeek",
+      "kind": "analysis"
+    }
+  ]
+}

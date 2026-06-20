@@ -1,0 +1,38 @@
+{
+  "slug": "finic",
+  "insight": "Founded by the ex-Robinhood identity team, who cut account-takeover fraud losses there by 95%.",
+  "name": "Finic",
+  "tagline": "AI agents that investigate financial fraud for institutions.",
+  "description": "Finic builds AI agents that automate fraud investigations for banks and fintechs. Its agents connect to existing tools through the browser like a human analyst, pull structured and unstructured data, triage cases, and write up case notes — letting fraud-ops teams clear far more reviews without added headcount. Founded by engineers from Robinhood's identity team.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Finic",
+  "platforms": ["web"],
+  "accentColor": "#10B981",
+  "tags": ["fraud-detection", "investigation-agents", "fintech", "compliance"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.finic.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 972,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Its agents work like a human analyst, operating existing fraud tools through the browser, so they deploy without waiting on API integrations.",
+  "pros": [
+    "Automates end-to-end fraud investigations",
+    "Browser-based, minimal integration work",
+    "Handles structured and unstructured data",
+    "Built by ex-Robinhood fraud engineers"
+  ],
+  "cons": [
+    "Enterprise B2B; no public pricing",
+    "Narrow focus on fraud ops",
+    "Early-stage startup",
+    "Cloud-only"
+  ],
+  "bestFor": ["Bank fraud teams", "Fintech risk ops", "Investigation automation"]
+}

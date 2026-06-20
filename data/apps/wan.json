@@ -1,0 +1,49 @@
+{
+  "slug": "wan",
+  "insight": "Open-sourced by Alibaba's Tongyi Lab under Apache 2.0, with weights, training, and inference code all public.",
+  "name": "Wan",
+  "tagline": "Open-source text- and image-to-video generation from Alibaba.",
+  "description": "Wan is an open-source family of video generation models from Alibaba's Tongyi Lab, covering text-to-video, image-to-video, and image generation and editing. Released under Apache 2.0 with weights, training, and inference code public, it can be self-hosted or used free on the wan.video site. Successive versions, including Wan 2.2's mixture-of-experts architecture, have topped open-video benchmarks.",
+  "category": "video",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Alibaba (Tongyi Lab)",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "models": ["Wan 2.1", "Wan 2.2"],
+    "notes": "Open-weight video models; runnable locally or via the hosted site and API."
+  },
+  "accentColor": "#FF6A00",
+  "tags": ["video-generation", "open-source", "text-to-video", "image-to-video"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://wan.video",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Wan-Video/Wan2.1"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 971,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "A fully open (Apache 2.0) video model you can self-host or run free online, matching closed models like Sora on the VBench benchmark.",
+  "pros": [
+    "Fully open weights under Apache 2.0",
+    "Self-host or use free at wan.video",
+    "Text-, image-, and edit-to-video",
+    "Top VBench open-model scores"
+  ],
+  "cons": [
+    "Self-hosting needs strong GPUs",
+    "Short clips at 480p/720p",
+    "Hosted site has usage limits",
+    "Docs and tooling skew technical"
+  ],
+  "bestFor": ["Self-hosted video gen", "Open-source builders", "Researchers"],
+  "alternatives": ["kling", "sora", "runway", "genmo"]
+}

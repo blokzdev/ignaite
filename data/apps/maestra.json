@@ -1,0 +1,55 @@
+{
+  "slug": "maestra",
+  "insight": "Counts enterprises like HP, Walmart, Meta, and the NHS among its users, and supports 125+ languages.",
+  "name": "Maestra",
+  "tagline": "Transcribe, subtitle, dub, and voiceover in 125+ languages.",
+  "description": "Maestra is a cloud media platform that converts audio and video to text, then generates translated subtitles, AI voiceovers, and dubbing across 125+ languages. It handles transcription, captioning, translation, and live captions in one workspace, with an editor for cleanup and export. Built by Katara Tech for creators and enterprise localization teams.",
+  "category": "translation",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Katara Tech",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Proprietary in-house speech-to-text, translation, and AI voice models."
+  },
+  "accentColor": "#7C5CFC",
+  "tags": ["transcription", "subtitles", "dubbing", "voiceover"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://maestra.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://maestra.ai/pricing"
+    }
+  ],
+  "addedAt": "2026-06-20",
+  "addedSeq": 970,
+  "lastVerifiedAt": "2026-06-20",
+  "edge": "Bundles transcription, multilingual subtitles, AI voiceover, and dubbing in one editor across 125+ languages instead of separate tools.",
+  "pros": [
+    "125+ languages in one workspace",
+    "Transcription, subtitles, dubbing, voiceover",
+    "Live and on-demand captioning",
+    "Editor for cleanup and export"
+  ],
+  "cons": [
+    "No full free tier; trial only",
+    "Output needs review for technical terms",
+    "Cloud-only, no self-host",
+    "Credit-based pricing per module"
+  ],
+  "bestFor": ["Video localization", "Subtitling teams", "Multilingual creators"],
+  "alternatives": ["notta", "camb-ai", "descript", "deepl"],
+  "references": [
+    {
+      "title": "Maestra Review 2026: Features, Pricing, and Alternatives",
+      "url": "https://sonix.ai/resources/maestra-pricing-review/",
+      "source": "Sonix",
+      "kind": "review"
+    }
+  ]
+}
