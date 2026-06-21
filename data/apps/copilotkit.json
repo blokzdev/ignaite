@@ -1,0 +1,68 @@
+{
+  "slug": "copilotkit",
+  "name": "CopilotKit",
+  "tagline": "Frontend stack for building in-app AI copilots and agents.",
+  "description": "CopilotKit is a framework for embedding AI copilots and agents directly inside web apps — chat, generative UI that renders live React components, shared application state, and frontend tool calls. It connects to agent frameworks like LangGraph, CrewAI, LlamaIndex, and Pydantic AI rather than shipping its own agent, and offers both headless APIs and prebuilt UI components. The company says its stack is used across the majority of Fortune 500 companies and powers millions of agent-user interactions per week.",
+  "insight": "Authored the open AG-UI protocol for agent-to-UI communication, adopted by Google, Microsoft, AWS, Oracle, LangChain, and LlamaIndex.",
+  "category": "orchestration",
+  "secondaryCategories": ["agent"],
+  "pricing": "freemium",
+  "openSource": true,
+  "vendor": "CopilotKit",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Frontend infrastructure — works with any agent framework and underlying model; you bring the agent."
+  },
+  "tags": ["ai-agents", "generative-ui", "ag-ui", "copilot", "react"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.copilotkit.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/CopilotKit/CopilotKit"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.copilotkit.ai"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1015,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Ships generative-UI primitives and the AG-UI protocol so agents render live React components and share app state, not just stream chat.",
+  "pros": [
+    "Connects to LangGraph, CrewAI, LlamaIndex",
+    "Generative UI + shared frontend state",
+    "Headless APIs and prebuilt components",
+    "Wide enterprise production adoption"
+  ],
+  "cons": [
+    "Frontend-focused — you bring the agent",
+    "Advanced enterprise features are paid",
+    "AG-UI protocol still maturing"
+  ],
+  "bestFor": [
+    "Embedding agents in web apps",
+    "Generative UI experiences",
+    "Agent-native product teams"
+  ],
+  "alternatives": ["vercel-ai-sdk", "langgraph", "crewai"],
+  "references": [
+    {
+      "title": "CopilotKit raises $27M to help devs deploy app-native AI agents",
+      "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "CopilotKit raises $27 million to build infrastructure for AI agents",
+      "url": "https://www.calcalistech.com/ctechnews/article/bkbjddprbx",
+      "source": "Calcalist",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "golden-analytics",
+  "name": "Golden Analytics",
+  "tagline": "AI-native business intelligence and data visualization platform.",
+  "description": "Golden Analytics is a web-based business intelligence platform that combines data connection, discovery, preparation, analysis, and dashboarding in one tool. It profiles datasets automatically, surfaces patterns, and a 'Slider of Autonomy' lets users dial how much the AI does versus how much they drive themselves — taking a raw dataset to a shared dashboard in as little as two clicks. It offers a free tier, with Team and Enterprise plans that include all features without token metering.",
+  "insight": "Founded by Francois Ajenstat, Tableau's longtime chief product officer; launched April 2026 with a $7M seed co-led by NEA and Madrona.",
+  "category": "analytics",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Golden Analytics",
+  "platforms": ["web"],
+  "tags": ["business-intelligence", "bi", "dashboards", "data-visualization", "analytics"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.goldenanalytics.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1017,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Built AI-first rather than bolting AI onto legacy BI, with a 'Slider of Autonomy' that dials how much the AI does versus the analyst.",
+  "pros": [
+    "AI at the core, not bolted on",
+    "Slider of Autonomy for control",
+    "Auto data profiling and dashboards",
+    "Free tier to start",
+    "From ex-Tableau product leadership"
+  ],
+  "cons": ["Very new (launched 2026)", "Cloud-only", "Limited track record vs. incumbents"],
+  "bestFor": [
+    "AI-assisted dashboards",
+    "Analysts wanting BI control",
+    "Teams modernizing legacy BI"
+  ],
+  "alternatives": ["thoughtspot", "querio", "holistics", "hex"],
+  "references": [
+    {
+      "title": "Former Tableau product chief launches Golden Analytics",
+      "url": "https://www.geekwire.com/2026/former-tableau-product-chief-launches-golden-analytics-using-ai-to-challenge-the-bi-old-guard/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    },
+    {
+      "title": "Golden Analytics emerges from stealth with $7M to build AI-native BI",
+      "url": "https://techstartups.com/2026/04/07/golden-analytics-emerges-from-stealth-with-7m-in-funding-to-build-ai-native-bi-platform-that-turns-raw-data-into-dashboards-in-seconds/",
+      "source": "Tech Startups",
+      "kind": "analysis"
+    }
+  ]
+}
