@@ -43,5 +43,7 @@
     "Tighter free-tier usage caps"
   ],
   "bestFor": ["Writing and coding", "Long-context work", "MCP workflows"],
-  "alternatives": ["chatgpt", "gemini", "grok", "le-chat"]
+  "alternatives": ["chatgpt", "gemini", "grok", "le-chat"],
+  "featured": true,
+  "featuredAt": "2026-06-21"
 }

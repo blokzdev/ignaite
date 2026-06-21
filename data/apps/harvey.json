@@ -43,5 +43,8 @@
     "Heavy enterprise onboarding"
   ],
   "bestFor": ["Large law firms", "Diligence-heavy matters"],
-  "alternatives": ["cocounsel", "legora", "spellbook", "luminance"]
+  "alternatives": ["cocounsel", "legora", "spellbook", "luminance"],
+  "featured": true,
+  "featuredAt": "2026-06-21",
+  "accentColor": "#4F46E5"
 }

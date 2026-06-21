@@ -51,7 +51,7 @@
       "kind": "comparison"
     }
   ],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-10",
   "accentColor": "#B6F400"
 }
