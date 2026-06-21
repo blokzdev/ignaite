@@ -1,0 +1,46 @@
+{
+  "slug": "quark",
+  "insight": "The only AI app in China to top 100M monthly active users; Alibaba relaunched it as an 'AI super-box' on its Qwen/Tongyi models.",
+  "name": "Quark",
+  "tagline": "Alibaba's AI super-app for search, writing, research and document tasks.",
+  "description": "Quark is Alibaba's flagship consumer AI app, positioned as an 'AI super-box' that folds chat, deep search, deep research, AI writing, slide and image generation, document tools and cloud storage into a single interface. It identifies the intent behind a request, then plans and executes multi-step tasks. Quark runs on Alibaba's Qwen/Tongyi models and is offered across web, mobile and desktop.",
+  "category": "assistant",
+  "secondaryCategories": ["search"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Alibaba",
+  "platforms": ["web", "ios", "android", "windows"],
+  "tags": ["ai-assistant", "super-app", "deep-research", "china", "alibaba"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.quark.cn",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 998,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Folds AI chat, deep search, research, document and image tools plus cloud storage into one app, backed by Alibaba's Qwen models.",
+  "pros": [
+    "Search, writing, slides and research in one super-app",
+    "Backed by Alibaba's Qwen/Tongyi models",
+    "Core AI features are free",
+    "Includes cloud drive and document tools"
+  ],
+  "cons": [
+    "China-focused; needs Chinese language and a local account",
+    "Limited to Alibaba's own Qwen model family",
+    "Paid tiers are mainly cloud-storage upsells"
+  ],
+  "bestFor": ["Chinese-language users", "All-in-one mobile AI assistant"],
+  "alternatives": ["doubao", "kimi", "perplexity"],
+  "references": [
+    {
+      "title": "Quark: only AI app in China with 100M+ monthly active users",
+      "url": "https://www.aibase.com/news/16665",
+      "source": "AIbase",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "turboscribe",
+  "insight": "Runs on OpenAI's open-source Whisper model and offers genuinely uncapped transcription on its flat-rate Unlimited plan.",
+  "name": "TurboScribe",
+  "tagline": "Unlimited audio and video transcription powered by Whisper.",
+  "description": "TurboScribe converts audio and video files into text using OpenAI's Whisper speech-to-text model. It supports 98+ languages, automatic speaker recognition and translation of transcripts or subtitles into 134+ languages, with exports to formats like DOCX, PDF, SRT and VTT. A free tier allows three transcriptions a day, while the paid Unlimited plan removes usage caps for a flat monthly fee.",
+  "category": "voice",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "TurboScribe",
+  "platforms": ["web"],
+  "tags": ["transcription", "speech-to-text", "whisper", "subtitles", "translation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://turboscribe.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 999,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Genuinely unlimited transcription for a flat ~$10/month in 98+ languages, with speaker labels and translation to 134+ languages.",
+  "pros": [
+    "Truly unlimited transcription on the paid plan",
+    "98+ languages with speaker recognition",
+    "Three free transcriptions per day",
+    "Whisper-grade accuracy",
+    "Translates transcripts to 134+ languages"
+  ],
+  "cons": [
+    "Free tier capped at 3 files/day, 30 minutes each",
+    "Built on a single model (Whisper)",
+    "No real-time or live-meeting transcription"
+  ],
+  "bestFor": [
+    "Podcasters and journalists",
+    "Bulk audio/video transcription",
+    "Multilingual subtitling"
+  ],
+  "alternatives": ["otter-ai", "assemblyai", "speechmatics"],
+  "references": [
+    {
+      "title": "The Top 100 Gen AI Consumer Apps — 6th Edition",
+      "url": "https://a16z.com/100-gen-ai-apps-6/",
+      "source": "a16z",
+      "kind": "analysis"
+    }
+  ]
+}
