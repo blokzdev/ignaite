@@ -87,6 +87,9 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
   `featured` only for true standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify,
   use the conservative value and flag it — never invent (`insight`, `edge`, `cons`, and `references`
   especially must be grounded; `references` are verify-or-omit and `alternatives` must be real slugs).
+  Honor the **no cross-field redundancy** rule (see `add-app.md`): the `tagline` describes (no
+  stats/superlatives/comparison); a distinctive stat lives in `description` once + at most one of
+  {`edge`, `pros`}, never stacked across tagline + edge + pros.
 - Write each as its own `data/apps/<slug>.json` (per-file authoring means parallel discovery runs
   never conflict).
 

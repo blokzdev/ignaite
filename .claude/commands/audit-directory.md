@@ -42,6 +42,13 @@ For each entry in scope:
   - **`insight` ("Worth knowing") still true** — the fact hasn't gone stale (the acquisition closed,
     the rename completed, a "first" no longer holds). Rewrite if reality moved; if it has drifted into a
     description paraphrase or a re-statement of `edge`, sharpen it to a real fact or drop it.
+  - **No cross-field redundancy** (the rule in `add-app.md`) — re-read `tagline`, `description`,
+    `insight`, `edge`, `pros` together: the `tagline` should *describe*, not sell (no stats/superlatives/
+    comparison), and a distinctive stat/phrase should appear in `description` once + at most one of
+    {`edge`, `pros`}, never stacked across tagline + edge + pros. If a point echoes, give it one home
+    (comparative → `edge`; fact → `insight`; one strength among several → `pros`) and strip the rest;
+    rework a tagline that sells into one that describes. Editorial-only fixes like this still get a
+    `changelog` entry only if they ride along with a substantive change — a pure wording dedup does not.
   - **`references` resolve** — if present, link-check each third-party reference URL (an anti-bot
     `403`/`429`/`503` on a live source is OK; 404/dead → drop or replace). Confirm an `edge`/`cons` claim hasn't gone stale (a gap the app has
     since closed, a differentiator a competitor matched).
