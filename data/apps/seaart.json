@@ -1,0 +1,45 @@
+{
+  "slug": "seaart",
+  "insight": "Singapore-based; ranks among a16z's top global Gen-AI web apps and bundles third-party models like Flux, Kling, Sora and Veo.",
+  "name": "SeaArt",
+  "tagline": "AI art platform that turns prompts into images, videos and characters.",
+  "description": "SeaArt is an AI creative platform for generating and editing images and videos and for building chat-able characters. It exposes many underlying models (Flux, Seedance, Sora, Kling, Veo and others) plus tools for upscaling, background removal and editing, wrapped around a large community gallery where users share creations, prompts and workflows. It is available on the web and as iOS and Android apps.",
+  "category": "image-gen",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Sunrise AI",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["ai-art", "image-generation", "model-aggregator", "community", "video-generation"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.seaart.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 997,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Bundles many leading image and video models (Flux, Kling, Sora, Veo) plus a creator community and roleplay characters in one freemium app.",
+  "pros": [
+    "Free daily generation credits",
+    "Access to many models in one place (Flux, Kling, Sora, Veo)",
+    "Large community gallery with shared prompts and workflows",
+    "Web and mobile apps"
+  ],
+  "cons": [
+    "Community content is uncurated and includes NSFW",
+    "Free tier throttled by daily credits",
+    "Output quality varies across the bundled models"
+  ],
+  "bestFor": ["Hobbyist AI artists", "Trying many models cheaply", "Character art and roleplay"],
+  "alternatives": ["civitai", "leonardo-ai", "midjourney"],
+  "references": [
+    {
+      "title": "The Top 100 Gen AI Consumer Apps — 6th Edition",
+      "url": "https://a16z.com/100-gen-ai-apps-6/",
+      "source": "a16z",
+      "kind": "analysis"
+    }
+  ]
+}

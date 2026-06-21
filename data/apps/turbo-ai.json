@@ -1,0 +1,45 @@
+{
+  "slug": "turbo-ai",
+  "insight": "Built by two 20-year-old college dropouts; grew to 5M+ users and eight-figure ARR on just $750K raised. Formerly TurboLearn.",
+  "name": "Turbo AI",
+  "tagline": "Turns lectures, PDFs and videos into notes, flashcards, quizzes and podcasts.",
+  "description": "Turbo AI is an AI study assistant that converts lecture recordings, PDFs, slides and YouTube videos into structured notes, flashcards, quizzes and audio summaries. It preserves technical formatting for math, chemistry and code, and includes a chatbot that answers questions about your uploaded material. Notes sync across web and mobile, and a free tier lets students try it before subscribing.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Turbo AI",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["study-tools", "note-taking", "flashcards", "students", "lecture-transcription"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.turbo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 996,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Generates notes, flashcards, quizzes and podcasts from one upload in a single student-priced app, with strong handling of math and code.",
+  "pros": [
+    "Free tier covers 2 hours of lecture transcription monthly",
+    "Handles math, chemistry and code formatting",
+    "Notes, flashcards, quizzes and audio from one upload",
+    "Web, iOS and Android with cross-device sync"
+  ],
+  "cons": [
+    "Free tier is quite limited (2 hrs, 1 PDF, 5 quizzes/month)",
+    "Built for studying, not general note-taking",
+    "Underlying AI model is not disclosed"
+  ],
+  "bestFor": ["Students", "Lecture-heavy courses", "Exam revision"],
+  "alternatives": ["studyfetch", "notebooklm", "quizlet"],
+  "references": [
+    {
+      "title": "20-year-old dropouts built AI notetaker Turbo AI and grew it to 5 million users",
+      "url": "https://techcrunch.com/2025/10/23/20-year-old-dropouts-built-ai-notetaker-turbo-ai-to-5-million-users/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
