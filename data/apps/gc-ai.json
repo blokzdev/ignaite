@@ -1,6 +1,6 @@
 {
   "slug": "gc-ai",
-  "insight": "Used by 1,700+ in-house legal teams across 53 countries; SOC 2 certified with a zero-data-retention model.",
+  "insight": "Used by 1,700+ in-house legal teams across 53 countries.",
   "name": "GC AI",
   "tagline": "AI legal assistant purpose-built for in-house counsel.",
   "description": "GC AI is an AI platform for in-house legal teams that drafts, reviews, and researches in seconds. It includes Easy Prompt (turns plain language into legal requests), Exact Quote (verifiable, sourced citations), a Skill Library of reusable workflows, and a Microsoft Word contract agent. Sold per seat to corporate legal departments rather than law firms.",
@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Built specifically for in-house counsel (not law firms), with Exact Quote sourced citations and a reusable Skill Library.",
   "pros": [
-    "Purpose-built for in-house counsel",
+    "Drafts, reviews, researches in seconds",
     "Verifiable Exact Quote citations",
     "Microsoft Word contract agent",
     "Reusable Skill Library",

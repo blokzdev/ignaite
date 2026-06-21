@@ -1,8 +1,8 @@
 {
   "slug": "maestra",
-  "insight": "Counts enterprises like HP, Walmart, Meta, and the NHS among its users, and supports 125+ languages.",
+  "insight": "Counts enterprises like HP, Walmart, Meta, and the NHS among its users.",
   "name": "Maestra",
-  "tagline": "Transcribe, subtitle, dub, and voiceover in 125+ languages.",
+  "tagline": "Transcribe, subtitle, dub, and voiceover across many languages.",
   "description": "Maestra is a cloud media platform that converts audio and video to text, then generates translated subtitles, AI voiceovers, and dubbing across 125+ languages. It handles transcription, captioning, translation, and live captions in one workspace, with an editor for cleanup and export. Built by Katara Tech for creators and enterprise localization teams.",
   "category": "translation",
   "pricing": "freemium",
@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Bundles transcription, multilingual subtitles, AI voiceover, and dubbing in one editor across 125+ languages instead of separate tools.",
   "pros": [
-    "125+ languages in one workspace",
+    "Many languages in one workspace",
     "Transcription, subtitles, dubbing, voiceover",
     "Live and on-demand captioning",
     "Editor for cleanup and export"

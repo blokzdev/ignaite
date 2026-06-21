@@ -26,9 +26,9 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Spans meetings, email and chat in one copilot, adding engagement/sentiment analytics most note-takers don't track.",
   "pros": [
-    "Covers meetings, email and chat",
     "Engagement & sentiment analytics",
-    "Search across all conversations",
+    "Ask Read search across conversations",
+    "Ada digital twin handles tasks",
     "Broad platform coverage"
   ],
   "cons": [

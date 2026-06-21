@@ -27,7 +27,6 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Built for consistent game-asset pipelines via custom fine-tuned models and control tools — and now backed by Canva.",
   "pros": [
-    "Custom fine-tuned models",
     "ControlNet-style guidance",
     "Real-time canvas + upscaling",
     "Strong for game/concept art"

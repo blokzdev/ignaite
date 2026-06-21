@@ -1,7 +1,7 @@
 {
   "slug": "scira",
   "name": "Scira",
-  "tagline": "Open-source AI answer engine that searches the web and cites its sources.",
+  "tagline": "AI answer engine that searches the web and cites its sources.",
   "description": "Scira (formerly MiniPerplx) is an open-source, AI-powered answer engine — a Perplexity alternative built on the Vercel AI SDK. It plans a query, retrieves from the web, and returns concise answers with inline citations, drawing on 60+ models including Grok, Claude, Gemini, GPT, and DeepSeek. The AGPL-3.0 code is self-hostable, and a hosted app at scira.ai offers a free tier plus a Pro plan with connectors, memory, and voice.",
   "insight": "Began in 2023 as the open-source Perplexity clone 'MiniPerplx', was renamed Scira, and was picked for the 2025 Vercel AI Accelerator.",
   "category": "search",
@@ -31,13 +31,13 @@
   "addedAt": "2026-06-15",
   "addedSeq": 736,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Fully open-source (AGPL-3.0) answer engine that cites sources inline and lets you choose from 60+ models — self-host it or use the hosted app.",
+  "edge": "Open-source (AGPL-3.0) answer engine that cites sources inline and lets you choose from 60+ models — self-host it or use the hosted app.",
   "pros": [
-    "Fully open source (AGPL-3.0)",
+    "Open source (AGPL-3.0), self-hostable",
     "Inline citations on every answer",
-    "Choice of 60+ models",
+    "Pro adds connectors, memory, and voice",
     "Free hosted tier",
-    "Self-hostable"
+    "Built on the Vercel AI SDK"
   ],
   "cons": [
     "Largely a solo/community project",

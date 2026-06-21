@@ -36,7 +36,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Context Engine indexes entire multi-repo codebases — built for enterprise monorepos, not single-project editing.",
   "pros": [
-    "Indexes large multi-repo codebases",
+    "Context Engine indexes whole codebases",
     "VS Code, JetBrains, CLI, remote agents",
     "Cross-file dependency reasoning",
     "Tuned for enterprise scale"

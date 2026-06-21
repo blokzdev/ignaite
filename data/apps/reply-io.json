@@ -24,12 +24,12 @@
   "addedAt": "2026-06-19",
   "addedSeq": 866,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Pairs multichannel sequencing and a built-in B2B contact database with Jason, an AI SDR that can source, sequence, and book meetings autonomously.",
+  "edge": "Bundles prospecting data, deliverability tooling, and the Jason SDR agent in one platform, so outbound doesn't need a separate data vendor or warm-up tool.",
   "pros": [
     "Mature multichannel sequencing",
-    "Built-in contact database and deliverability tools",
-    "Jason AI SDR runs in autopilot or copilot mode",
-    "Founded in 2014 — established platform"
+    "Built-in contact database",
+    "Jason runs in autopilot or copilot mode",
+    "Email-deliverability toolkit"
   ],
   "cons": [
     "Jason AI SDR tiers start around $800/month",

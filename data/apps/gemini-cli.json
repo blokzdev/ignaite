@@ -32,11 +32,10 @@
   "addedAt": "2026-06-07",
   "addedSeq": 172,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Open-source terminal agent whose free tier serves Gemini 2.5 Pro at a 1M-token context — generous limits via a personal Google account.",
+  "edge": "Its free tier serves Gemini 2.5 Pro at a 1M-token context via a personal Google account — unusually generous limits for a terminal coding agent.",
   "pros": [
     "Apache-2.0 and fully open source",
-    "Generous free tier on Gemini 2.5 Pro",
-    "1M-token context window",
+    "Generous free tier via Google account",
     "Built-in Google Search grounding + MCP",
     "Non-interactive mode for CI scripting"
   ],

@@ -31,10 +31,10 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "One of the few note apps pairing genuine end-to-end encryption with a capable cloud AI assistant.",
   "pros": [
-    "End-to-end encrypted notes",
     "Backlinked graph + fast sync",
     "GPT + Whisper writing/voice help",
-    "Calendar and web/Kindle clipping"
+    "Calendar and web/Kindle clipping",
+    "Voice-note transcription"
   ],
   "cons": [
     "Paid only, no free tier",

@@ -3,7 +3,7 @@
   "name": "Aidoc",
   "tagline": "Enterprise clinical AI that triages medical imaging across specialties.",
   "description": "Clinical AI platform for health systems that runs FDA-cleared algorithms over medical imaging and clinical data to flag critical findings, prioritize cases, and coordinate care-team notifications across radiology, cardiology, neurovascular, and vascular care. Its aiOS operating system orchestrates models in existing hospital workflows to speed time-to-treatment.",
-  "insight": "Runs at 1,600+ medical facilities and touts the largest portfolio of FDA-cleared imaging-AI algorithms on a single platform.",
+  "insight": "Unveiled CARE1, among the first clinical-grade CT foundation models, at RSNA 2024.",
   "category": "healthcare",
   "pricing": "paid",
   "deployment": "cloud",
@@ -18,11 +18,10 @@
   "addedAt": "2026-06-21",
   "addedSeq": 994,
   "lastVerifiedAt": "2026-06-21",
-  "edge": "Workflow-integrated triage spanning radiology, cardiology and vascular care on one FDA-cleared platform, beyond a single point-solution algorithm.",
+  "edge": "Workflow-integrated triage spanning radiology, cardiology and vascular care on one platform, beyond a single point-solution algorithm.",
   "pros": [
     "Large portfolio of FDA-cleared algorithms",
     "Integrates into existing radiology workflow",
-    "Multi-specialty triage on one platform",
     "Deployed at 1,600+ facilities",
     "Care coordination and notifications"
   ],

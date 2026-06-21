@@ -3,7 +3,7 @@
   "name": "MemMachine",
   "tagline": "Open-source memory layer for AI agents.",
   "description": "MemMachine is an open-source memory layer that lets AI agents learn, store and recall information across sessions, turning stateless chatbots into personalized, context-aware assistants. It combines episodic memory (conversational context) with profile memory (long-term user facts) and is model-agnostic, working across providers. It is self-hosted and built primarily in Python.",
-  "insight": "Open-source under Apache-2.0 (~3k+ GitHub stars); initially incubated by MemVerge before becoming community-driven.",
+  "insight": "Initially incubated by enterprise-memory vendor MemVerge before spinning out as a community-driven project (~3k+ GitHub stars).",
   "category": "memory",
   "pricing": "free",
   "openSource": true,
@@ -22,10 +22,10 @@
   "addedAt": "2026-06-19",
   "addedSeq": 876,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Pairs episodic (conversational) and profile (long-term user-fact) memory in one model-agnostic, self-hostable layer under a permissive Apache-2.0 license.",
+  "edge": "Pairs episodic (conversational) and profile (long-term user-fact) memory in one model-agnostic, self-hostable layer.",
   "pros": [
     "Fully open source (Apache-2.0)",
-    "Episodic + profile memory in one layer",
+    "Recall persists across sessions",
     "Model-agnostic across providers",
     "Self-hostable, Python-first"
   ],

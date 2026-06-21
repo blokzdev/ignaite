@@ -1,6 +1,5 @@
 {
   "slug": "lunary",
-  "insight": "Apache-2.0 and self-hostable, it bundles prompt versioning, A/B tests, and human review alongside tracing — not observability alone.",
   "name": "Lunary",
   "tagline": "Open-source observability and prompt management for LLM apps.",
   "description": "An open-source platform for monitoring, debugging, and improving LLM applications and chatbots. Lunary combines request tracing, cost and user analytics, versioned prompt management with A/B testing, plus human-in-the-loop review and automated scoring. Self-host the Apache-2.0 community edition or use the managed cloud, which starts free with a 10k-events monthly tier.",
@@ -40,7 +39,7 @@
   "edge": "Bundles prompt versioning, A/B tests, and human review with tracing — fast zero-to-observability for RAG/chatbots.",
   "pros": [
     "Apache-2.0, self-hostable",
-    "Prompt versioning + A/B testing",
+    "Cost and user analytics built in",
     "Human-in-the-loop review and scoring",
     "Quick setup for RAG/chatbot apps"
   ],

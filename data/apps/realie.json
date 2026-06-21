@@ -26,9 +26,9 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Undercuts incumbent property-data APIs that start near $350/mo — a free tier and paid plans from $50/mo, with sub-10ms lookups and bulk S3 delivery.",
   "pros": [
-    "Free tier; paid plans from $50/mo",
+    "Free tier available",
     "3,100+ counties across all 50 states",
-    "Sub-10ms lookups; bulk via Amazon S3",
+    "AVM and comparables included",
     "MCP access from Claude, Cursor, VS Code"
   ],
   "cons": [

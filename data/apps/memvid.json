@@ -36,9 +36,9 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "No database or infra to run — memory ships as one portable, offline .mv2 file with sub-5ms retrieval, unlike server-based memory layers.",
   "pros": [
-    "Single portable .mv2 file, no database",
+    "No vector DB or RAG pipeline to run",
     "Works fully offline",
-    "Sub-5ms retrieval, low storage footprint",
+    "Model-agnostic and multimodal",
     "Apache-2.0 licensed",
     "Append-only, versioned storage"
   ],

@@ -1,9 +1,9 @@
 {
   "slug": "dyad",
-  "insight": "Core is Apache-2.0 open source and runs fully on your machine; only the optional 'pro' module uses the fair-source FSL 1.1 license.",
+  "insight": "Open-core: the Apache-2.0 core is fully OSI-licensed, while only the optional 'pro' module ships under the fair-source FSL 1.1 license.",
   "name": "Dyad",
   "tagline": "Local, open-source AI app builder that runs on your machine with your own API keys.",
-  "description": "Dyad is a desktop AI app builder — like Lovable, v0, or Bolt, but running locally on your own machine. You describe an app and it scaffolds full-stack web projects, bringing your own keys across providers (OpenAI, Anthropic, Google, Ollama, LM Studio), with built-in Supabase, GitHub, and Vercel integration plus security scanning. The core is open source under Apache 2.0.",
+  "description": "Dyad is a desktop AI app builder — like Lovable, v0, or Bolt, but running locally on your own machine. You describe an app and it scaffolds full-stack web projects, bringing your own keys across providers (OpenAI, Anthropic, Google, Ollama, LM Studio), with built-in Supabase, GitHub, and Vercel integration plus security scanning.",
   "category": "agent",
   "secondaryCategories": ["ide"],
   "pricing": "freemium",
@@ -27,7 +27,7 @@
   "edge": "Runs the whole app-builder locally with your own API keys, so unlike cloud tools like Lovable or v0 your code and data never leave your machine.",
   "pros": [
     "Runs locally, code stays private",
-    "Open source (Apache-2.0 core)",
+    "Scaffolds full-stack web projects",
     "BYO keys across many providers",
     "Supabase, GitHub & Vercel integration",
     "Free tier, no vendor lock-in"

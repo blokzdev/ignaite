@@ -1,7 +1,7 @@
 {
   "slug": "perso-ai",
   "name": "Perso AI",
-  "tagline": "AI video dubbing and localization in 99+ languages.",
+  "tagline": "AI video dubbing and localization with voice cloning and lip-sync.",
   "description": "A video localization platform that translates and dubs footage across 99+ languages with voice cloning and AI lip-sync. The pipeline covers audio separation, speech-to-text, subtitle editing, and per-speaker voices, and the suite extends to interactive AI avatars and an AI human studio.",
   "insight": "Built by South Korean software maker ESTsoft, the company behind the ALYac antivirus and ALTools utilities.",
   "category": "translation",
@@ -19,10 +19,10 @@
     { "kind": "website", "url": "https://perso.ai", "primary": true },
     { "kind": "pricing", "url": "https://perso.ai/pricing" }
   ],
-  "edge": "Pairs voice cloning with AI lip-sync per speaker, so dubbed video keeps each voice and mouth movement aligned across 99+ languages.",
+  "edge": "Aligns cloned voice and lip-sync per speaker, so multi-speaker video keeps each person's voice and mouth movement matched.",
   "pros": [
-    "99+ languages with voice cloning",
-    "Per-speaker dubbing and lip-sync",
+    "99+ languages supported",
+    "AI avatars and AI human studio",
     "Free tier to try one generation",
     "Built-in subtitle editing"
   ],

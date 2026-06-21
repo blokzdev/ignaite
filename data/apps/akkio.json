@@ -30,7 +30,7 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Narrowed from generic no-code ML to media/agency analytics — forecasting and audience models tuned for marketing data.",
   "pros": [
-    "No-code, chat + drag-and-drop",
+    "Build models via chat and drag-and-drop",
     "Connects Salesforce/HubSpot/Snowflake",
     "Client-ready report generation",
     "Fast model building from CSV"

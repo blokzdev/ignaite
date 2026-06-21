@@ -3,7 +3,7 @@
   "name": "OpenObserve",
   "tagline": "Open-source observability for logs, metrics, traces and LLMs in one platform.",
   "description": "OpenObserve (O2) is a unified, open-source observability platform that ingests logs, metrics, traces and real-user monitoring with dashboards, alerts and session replay. It adds LLM observability, a natural-language query assistant and an SRE agent for automated incident correlation and root-cause analysis. It runs as a single self-hosted binary or Helm chart, or as fully managed OpenObserve Cloud.",
-  "insight": "Open-source under AGPL-3.0; raised a $10M Series A in April 2026 (Nexus Venture Partners, Dell Technologies Capital); 18k+ GitHub stars.",
+  "insight": "Raised a $10M Series A in April 2026 led by Nexus Venture Partners with Dell Technologies Capital; 18k+ GitHub stars.",
   "category": "observability",
   "secondaryCategories": ["infra"],
   "pricing": "freemium",
@@ -28,10 +28,10 @@
   "edge": "Claims ~140x lower storage cost than Elasticsearch via Parquet columnar storage, and unifies logs, metrics, traces, RUM and LLM observability in one binary.",
   "pros": [
     "Single binary self-host or managed cloud",
-    "Logs, metrics, traces, RUM in one tool",
-    "Large storage-cost savings vs Elasticsearch",
+    "Dashboards, alerts, and session replay",
+    "NL query assistant and SRE agent",
     "Fully open source (AGPL-3.0)",
-    "18k+ GitHub stars, 6,000+ orgs"
+    "Trusted by 6,000+ orgs"
   ],
   "cons": [
     "AGPL-3.0 can deter some commercial embedding",

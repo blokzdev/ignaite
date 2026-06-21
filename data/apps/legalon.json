@@ -27,8 +27,7 @@
   "edge": "Redlines inside Microsoft Word against 50+ attorney-built playbooks — grounded in legal expertise, not a raw model.",
   "pros": [
     "Redlines directly in Word",
-    "50+ attorney-built playbooks",
-    "Risk detection grounded in expertise",
+    "Risk detection grounded in legal expertise",
     "Used by thousands of legal teams"
   ],
   "cons": ["Contract review focus only", "Paid, no free tier", "Web/Word-bound workflow"],

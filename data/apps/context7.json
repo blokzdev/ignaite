@@ -29,7 +29,7 @@
   "addedSeq": 236,
   "lastVerifiedAt": "2026-06-08",
   "edge": "Injects version-specific, current library docs into the prompt, cutting the stale-API hallucinations models learn at training.",
-  "pros": ["Free and open-source", "Version-specific up-to-date docs", "Works in any MCP client"],
+  "pros": ["Free and open-source", "Simple two-tool MCP setup", "Works in any MCP client"],
   "cons": [
     "Only as good as indexed libraries",
     "Adds tokens to every prompt",

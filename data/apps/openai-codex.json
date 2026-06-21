@@ -34,10 +34,10 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Open-source Rust rewrite of OpenAI's terminal coding agent; sign in with a paid ChatGPT plan or bring your own API key.",
   "pros": [
-    "Open source, runs locally",
+    "Runs locally in your terminal",
     "Fast Rust implementation",
     "MCP tools and parallel subagents",
-    "Use ChatGPT plan or API key"
+    "Reviewable conversational edit loop"
   ],
   "cons": ["Best with OpenAI/GPT models", "Terminal-only, no full IDE", "Newer than rival CLIs"],
   "bestFor": ["Terminal-first coders", "ChatGPT plan holders", "Repo-aware automation"],

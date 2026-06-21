@@ -35,11 +35,10 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Frontier-class coding and agent models (M-series, 1M-token context) at a fraction of US-lab API prices, with open weights to self-host.",
   "pros": [
-    "Frontier coding/agent M-series models",
-    "Up to 1M-token context",
+    "Coding- and agent-tuned M-series models",
     "Open-weight models on Hugging Face",
     "Multimodal: text, video, speech, music",
-    "Aggressive token pricing"
+    "Free agent tier to get started"
   ],
   "cons": [
     "China-based; data-residency considerations",

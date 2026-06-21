@@ -25,11 +25,11 @@
   "addedAt": "2026-06-14",
   "addedSeq": 595,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "The most widely adopted open-source option: one Apache-2.0 platform spanning tracing, evals, prompt registry, and classic ML.",
+  "edge": "The most widely adopted open-source option: one platform spanning tracing, evals, prompt registry, and classic ML.",
   "pros": [
-    "Fully open source (Apache-2.0), no lock-in",
-    "Spans tracing, evals, prompts + classic ML",
+    "Fully open source, no lock-in",
     "OpenTelemetry-based, framework-agnostic",
+    "Built-in metrics and LLM judges",
     "Large community + Linux Foundation backing",
     "Self-host on your own infrastructure"
   ],

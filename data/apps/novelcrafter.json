@@ -1,6 +1,6 @@
 {
   "slug": "novelcrafter",
-  "insight": "Bootstrapped and built by writers with no venture funding; AI is strictly bring-your-own-key, so the app never marks up model usage.",
+  "insight": "Bootstrapped and built by writers with no venture funding.",
   "name": "Novelcrafter",
   "tagline": "Plan, write and organize your novel with bring-your-own-key AI.",
   "description": "Novelcrafter is a browser-based platform for fiction and non-fiction authors that pairs a full manuscript editor with a worldbuilding wiki called the Codex for characters, places and lore. AI features — scene generation, summaries, character extraction and beat-to-scene drafting — run through your own provider key, so you choose the model and pay the API rates directly. Plans start at $4/month after a free trial.",
@@ -27,7 +27,7 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "Combines a full manuscript editor and a worldbuilding ‘Codex’ wiki with bring-your-own-key AI, so you pick any model and pay only your provider's API rates.",
   "pros": [
-    "Bring-your-own-key (any model)",
+    "Full manuscript editor in the browser",
     "Codex worldbuilding wiki",
     "Affordable tiers ($4–20/mo)",
     "Supports local models (LM Studio/Ollama)"

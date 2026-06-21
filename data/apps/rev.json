@@ -1,6 +1,5 @@
 {
   "slug": "rev",
-  "insight": "Rev runs both an AI speech-to-text engine — exposed to developers as the Rev AI API — and a marketplace of human transcriptionists.",
   "name": "Rev",
   "tagline": "AI and human transcription, captions, and speech-to-text.",
   "description": "Transcription and captioning service offering fast AI transcription (~96% accuracy) plus on-demand human transcription at 99%+ accuracy, captions, and subtitles in dozens of languages. Adds AI note-taking and clip generation, and exposes its in-house ASR to developers via the Rev AI speech-to-text API.",
@@ -32,8 +31,8 @@
   ],
   "edge": "A rare two-tier choice: fast ~96% AI transcription or human transcription at 99%+ accuracy, plus captions and subtitles across 37+ languages.",
   "pros": [
-    "Both AI and human transcription options",
-    "High human-transcription accuracy",
+    "Human option hits 99%+ accuracy",
+    "AI note-taking and clip generation",
     "Developer speech-to-text API (Rev AI)",
     "Captions and multilingual subtitles",
     "Permanent free tier (limited minutes)"

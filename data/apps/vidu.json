@@ -26,9 +26,8 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Multi-Entity Consistency: feed 3–7 reference images and it keeps multiple characters/objects consistent across a clip.",
   "pros": [
-    "Multi-subject reference consistency",
-    "Fast, low-cost generation",
     "Text-, image- and reference-to-video",
+    "Fast, low-cost generation",
     "Up to 1080p output"
   ],
   "cons": [

@@ -1,8 +1,8 @@
 {
   "slug": "jotme",
-  "insight": "Used by 100,000+ professionals across 1,700 teams in 134 countries, translating meetings in 200+ languages.",
+  "insight": "Used by 100,000+ professionals across 1,700 teams in 134 countries.",
   "name": "JotMe",
-  "tagline": "Agentic AI translation, transcription and meeting notes across 200+ languages.",
+  "tagline": "Agentic AI translation, transcription and meeting notes for calls.",
   "description": "JotMe is an agentic translation platform that delivers real-time translation, transcription and AI meeting notes in 200+ languages, preserving context and speaker intent. It works across Zoom, Microsoft Teams, Google Meet and Webex as well as in-person events, and gives each participant their notes and summaries in their own language.",
   "category": "translation",
   "secondaryCategories": ["meeting"],
@@ -27,7 +27,7 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Live translation, transcription and meeting notes in 200+ languages in one agentic tool — each participant gets their notes in their own language.",
   "pros": [
-    "200+ languages with live translation",
+    "Live translation in many languages",
     "Per-participant notes in their own language",
     "Works across Zoom/Teams/Meet/Webex and in person",
     "Free tier available"

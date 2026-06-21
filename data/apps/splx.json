@@ -31,8 +31,8 @@
   "edge": "Continuous automated red teaming with thousands of domain-specific attack simulations, then turns findings into system-prompt hardening fixes.",
   "pros": [
     "Automated, continuous red teaming",
-    "Thousands of attack simulations",
-    "Prompt hardening plus remediation",
+    "AI asset discovery and governance",
+    "Runtime protection for live AI apps",
     "Covers agents, RAG, and MCP servers",
     "Agentic Radar scanner is open source"
   ],

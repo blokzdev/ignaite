@@ -26,8 +26,8 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Covers the whole contract lifecycle — drafting, negotiation, e-sign, repository, and obligation tracking — with AI review (VerifAI), not just point drafting.",
   "pros": [
-    "Full contract lifecycle in one platform",
     "VerifAI AI review and redlining",
+    "E-signature and searchable repository",
     "Word, Slack, and Teams integrations",
     "SOC 2 / GDPR / HIPAA compliant"
   ],

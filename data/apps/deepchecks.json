@@ -34,12 +34,12 @@
   "addedAt": "2026-06-12",
   "addedSeq": 482,
   "lastVerifiedAt": "2026-06-12",
-  "edge": "Roots in classic ML validation give a testing-first model, plus VPC/on-prem/bare-metal deployment for teams that can't send evals to the cloud.",
+  "edge": "Offers VPC, on-prem, and bare-metal deployment for regulated teams that can't send evals to the cloud — rare among LLM eval tools.",
   "pros": [
     "Open-source core (AGPL-3.0)",
     "Testing-first, CI/CD-friendly evals",
-    "VPC, on-prem, bare-metal options",
-    "Covers both ML and LLM validation"
+    "Covers both ML and LLM validation",
+    "Continuous production monitoring"
   ],
   "cons": [
     "AGPL-3.0 may not suit all teams",

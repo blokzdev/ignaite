@@ -28,7 +28,7 @@
   "addedAt": "2026-06-19",
   "addedSeq": 870,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "One no-code, browser-based pipeline to label, train and deploy detection or segmentation models to edge or cloud without writing training code.",
+  "edge": "Replaces a stitched-together CV stack with one browser pipeline, so teams without ML engineers can ship detection or segmentation models.",
   "pros": [
     "Covers label, train and deploy in one place",
     "No-code training, drag-and-drop workflows",

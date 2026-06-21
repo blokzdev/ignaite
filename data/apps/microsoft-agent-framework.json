@@ -31,9 +31,9 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Microsoft-backed with first-class .NET and Python parity plus built-in durability, observability, and human-in-the-loop from a single vendor.",
   "pros": [
-    "First-class .NET and Python parity",
     "MIT-licensed and open source",
     "Durability and observability built in",
+    "Human-in-the-loop control",
     "Migration paths from SK and AutoGen"
   ],
   "cons": [

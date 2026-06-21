@@ -1,7 +1,7 @@
 {
   "slug": "tray-ai",
   "name": "Tray.ai",
-  "tagline": "AI-ready iPaaS: build agents, govern MCP, automate across 700+ apps.",
+  "tagline": "AI-ready iPaaS to build agents, govern MCP, and automate across apps.",
   "description": "Enterprise integration and automation platform that layers AI agents and governed Model Context Protocol (MCP) onto a mature iPaaS. Teams build conversational or autonomous agents in the Merlin agent builder, expose 700+ app connectors as governed MCP tools through an Agent Gateway, and automate processes with visual low-code or headless code-first builds — all under role-based access, audit, and compliance controls.",
   "insight": "Began as the iPaaS Tray.io and rebranded to Tray.ai as it pivoted to AI agents and governed MCP.",
   "category": "automation",
@@ -23,7 +23,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 985,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Bolts AI agents and a governed MCP gateway onto a mature 700+ connector iPaaS, so automations, agents and tools share one integration and governance layer.",
+  "edge": "Bolts AI agents and a governed MCP gateway onto a mature iPaaS, so automations, agents and tools share one integration and governance layer.",
   "pros": [
     "700+ prebuilt app connectors",
     "Visual low-code plus headless code builds",

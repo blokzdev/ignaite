@@ -1,6 +1,6 @@
 {
   "slug": "skypilot",
-  "insight": "From UC Berkeley's Sky Computing Lab; brokers across 20+ clouds and Kubernetes, picking the cheapest GPUs and failing over on capacity loss.",
+  "insight": "Originated at UC Berkeley's Sky Computing Lab, the group behind the 'sky computing' vision of treating clouds as interchangeable utilities.",
   "name": "SkyPilot",
   "tagline": "Run AI and batch jobs on any cloud or Kubernetes, from one interface.",
   "description": "An open-source framework for running, managing, and scaling AI and batch workloads across Kubernetes, Slurm, and 20+ cloud providers through a single unified interface. It abstracts away per-provider setup, optimizes for cost and GPU availability, and automatically fails over between regions and clouds when capacity is scarce. You run it yourself against your own infrastructure — the software is free and Apache-2.0 licensed; you pay only your own cloud bills.",
@@ -29,10 +29,10 @@
   "lastVerifiedAt": "2026-06-08",
   "edge": "Declarative task-level orchestration that fails over across 20+ clouds and Kubernetes chasing the cheapest available GPUs.",
   "pros": [
-    "One interface across 20+ clouds and Kubernetes",
+    "One interface across many clouds and Kubernetes",
     "Auto cost/availability optimization, spot failover",
-    "Free and open-source; runs on your own accounts",
-    "Berkeley Sky Computing Lab pedigree"
+    "Runs on your own cloud accounts",
+    "Abstracts away per-provider setup"
   ],
   "cons": [
     "Task-level tool, not a full managed platform",

@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Collapses warehouse, ETL, and BI into one platform that spins up in minutes, instead of stitching separate tools together over months.",
   "pros": [
-    "Warehouse, ETL, and BI in one product",
+    "Exposes data to Claude/Cursor via MCP",
     "Fi builds full data apps, not just charts",
     "500+ connectors",
     "Free tier; $250/mo Standard"

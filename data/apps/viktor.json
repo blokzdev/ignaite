@@ -2,7 +2,7 @@
   "slug": "viktor",
   "insight": "Raised a $75M Series A led by Accel — the largest ever by a Polish tech company; angel backers include Slack's co-founders.",
   "name": "Viktor",
-  "tagline": "An 'AI employee' that lives in Slack and Teams, connects to 3,200+ tools, and does the work.",
+  "tagline": "An 'AI employee' in Slack and Teams that connects to your tools and does the work.",
   "description": "Viktor is an AI agent that works like a virtual coworker embedded in Slack or Microsoft Teams. It connects to 3,200+ tools, then executes tasks end-to-end — pulling data, building dashboards and reports, writing and deploying code, opening pull requests, and automating recurring workflows. It targets founders, marketing, engineering, and ops teams who want finished work delivered in chat rather than another dashboard to operate.",
   "category": "agent",
   "secondaryCategories": ["automation"],
@@ -23,7 +23,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 920,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Delivers finished work right inside Slack/Teams across 3,200+ tools — an autonomous coworker, not a chatbot you have to operate.",
+  "edge": "Delivers finished work right inside Slack/Teams — an autonomous coworker, not a chatbot you have to operate.",
   "pros": [
     "Works inside Slack and Teams",
     "3,200+ tool integrations",

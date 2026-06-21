@@ -1,9 +1,9 @@
 {
   "slug": "scispace",
-  "insight": "Formerly Typeset.io; pairs a 280M-paper index with agentic 'Deep Review' literature search added in 2025.",
+  "insight": "Rebranded from Typeset.io, the academic-formatting tool, into a broader AI research workspace.",
   "name": "SciSpace",
   "tagline": "AI research assistant: search, read, and review the literature.",
-  "description": "AI workspace for academics that searches a corpus of 280M+ papers, runs literature reviews, and answers questions over PDFs with citations. Adds writing aids like a paraphraser and citation generator. Formerly Typeset.io; introduced agentic 'Deep Review' literature search in 2025. Free Basic tier with paid upgrades.",
+  "description": "AI workspace for academics that searches a corpus of 280M+ papers, runs literature reviews, and answers questions over PDFs with citations. Adds writing aids like a paraphraser and citation generator, plus an agentic 'Deep Review' literature search introduced in 2025. Free Basic tier with paid upgrades.",
   "category": "research-platform",
   "pricing": "freemium",
   "deployment": "cloud",
@@ -28,7 +28,7 @@
   "addedAt": "2026-06-07",
   "addedSeq": 132,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Pairs a 280M+ paper index with agentic 'Deep Review' literature search and PDF Q&A in one academic workspace.",
+  "edge": "Search, PDF Q&A, and agentic literature review sit in one academic workspace, against a larger paper index than most rivals query.",
   "pros": [
     "280M+ paper corpus",
     "Agentic Deep Review search",

@@ -1,8 +1,8 @@
 {
   "slug": "affine",
   "name": "AFFiNE",
-  "tagline": "Open-source, local-first workspace for docs, whiteboards, and databases.",
-  "description": "AFFiNE is a local-first workspace that combines block-based docs, an infinite whiteboard canvas, and databases — an open-source alternative to Notion and Miro. Pages flip between document and edgeless (canvas) modes, and AFFiNE AI helps draft, summarize, and turn outlines into mind maps and slides. It runs on web, desktop, and mobile, with self-hosting available via Docker.",
+  "tagline": "Local-first workspace for docs, whiteboards, and databases.",
+  "description": "AFFiNE is a local-first workspace that combines block-based docs, an infinite whiteboard canvas, and databases — an alternative to Notion and Miro. Pages flip between document and edgeless (canvas) modes, and AFFiNE AI helps draft, summarize, and turn outlines into mind maps and slides. It runs on web, desktop, and mobile, with self-hosting available via Docker.",
   "insight": "Built on BlockSuite, the team's own open-source block-editor framework; its built-in AI runs on Claude and Gemini.",
   "category": "productivity",
   "pricing": "freemium",
@@ -30,11 +30,11 @@
   "addedAt": "2026-06-14",
   "addedSeq": 593,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "One canvas for docs, whiteboard, and databases — fully open-source and self-hostable, with local-first CRDT sync and offline editing.",
+  "edge": "One canvas for docs, whiteboard, and databases — self-hostable, with local-first CRDT sync and offline editing.",
   "pros": [
     "Open-source (MIT editor), self-hostable",
     "Docs + whiteboard + DB in one canvas",
-    "Local-first, offline-capable",
+    "Offline-capable with CRDT sync",
     "Desktop, web, and mobile apps"
   ],
   "cons": [

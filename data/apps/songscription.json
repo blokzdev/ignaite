@@ -24,12 +24,12 @@
   "addedAt": "2026-06-15",
   "addedSeq": 788,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Outputs real notation — sheet music, MIDI, MusicXML, GuitarPro tabs across many instruments — where rivals stop at stems or text transcripts.",
+  "edge": "Outputs real, readable notation across many instruments — where rivals stop at separated stems or rough text transcripts.",
   "pros": [
-    "Audio to sheet music, MIDI, and tabs",
+    "Sheet music, MIDI, MusicXML, tabs",
     "Many instruments supported",
     "Free unlimited 30-second clips",
-    "MusicXML and GuitarPro export"
+    "'Shazam for sheet music'"
   ],
   "cons": [
     "Free tier capped at 30-second clips",

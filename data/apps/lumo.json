@@ -2,8 +2,8 @@
   "slug": "lumo",
   "name": "Lumo",
   "tagline": "Privacy-first AI assistant with zero-access encrypted chats.",
-  "description": "Lumo is Proton's privacy-focused AI assistant. Conversations are protected with zero-access encryption and decrypt only on your device, with no server-side logs and nothing used for model training. It runs on open-source language models hosted in Proton's European datacenters, and the app itself is open source. Free to use without an account; Lumo Plus adds unlimited chats and larger uploads.",
-  "insight": "From Proton (Proton Mail/VPN); chats use zero-access encryption and run on open-source models in EU datacenters, never used for training.",
+  "description": "Lumo is Proton's privacy-focused AI assistant. Conversations are protected with zero-access encryption and decrypt only on your device, with no server-side logs and nothing used for model training. It runs on open-source language models hosted in Proton's European datacenters. Free to use without an account; Lumo Plus adds unlimited chats and larger uploads.",
+  "insight": "From Proton, the Swiss maker of Proton Mail and Proton VPN.",
   "category": "assistant",
   "pricing": "freemium",
   "openSource": true,
@@ -31,9 +31,9 @@
   "addedAt": "2026-06-20",
   "addedSeq": 897,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "A genuinely private chatbot — open-source, zero-access-encrypted, EU-hosted, with no logging or training on your data — from the maker of Proton Mail.",
+  "edge": "A genuinely private chatbot — zero-access-encrypted, EU-hosted, with no logging or training on your data — from the maker of Proton Mail.",
   "pros": [
-    "Zero-access encrypted chat history",
+    "Decrypts only on your device",
     "Open-source app and underlying models",
     "No logs; data not used for training",
     "Free tier, no account required"
