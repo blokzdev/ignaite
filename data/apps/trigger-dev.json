@@ -37,7 +37,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 676,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Write durable, long-running AI workflows as plain TypeScript — no timeouts, automatic retries, and built-in observability.",
+  "edge": "Durable, long-running workflows as plain TypeScript functions, without learning a separate DSL or workflow engine like Temporal.",
   "pros": [
     "Apache-2.0 open source",
     "Self-host or managed cloud",

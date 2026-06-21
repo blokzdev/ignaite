@@ -33,10 +33,10 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Open-sourced by PewDiePie — a private ChatGPT-style workspace wired to local llama.cpp/Ollama/vLLM with MCP built in.",
   "pros": [
-    "Self-hosted, privacy-first",
+    "ChatGPT/Claude-style interface",
     "Local models or BYO API key",
     "Built-in MCP servers, agents, memory",
-    "MIT-licensed, free"
+    "Docker support for Linux, Mac, Windows"
   ],
   "cons": [
     "Self-host setup and upkeep on you",

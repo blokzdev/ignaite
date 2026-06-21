@@ -25,9 +25,9 @@
   "addedAt": "2026-06-19",
   "addedSeq": 861,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Trains custom ML models per document type for 99%+ accuracy, and runs on-prem or air-gapped for regulated and government workloads.",
+  "edge": "Trains a custom ML model per document type for 99%+ straight-through accuracy, rather than one generic OCR engine.",
   "pros": [
-    "Very high extraction accuracy at scale",
+    "Routes low-confidence cases to humans",
     "Handles handwriting and unstructured docs",
     "On-prem / air-gapped deployment option",
     "FedRAMP High for government use",

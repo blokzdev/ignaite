@@ -2,7 +2,7 @@
   "slug": "kling",
   "insight": "From Hong Kong-listed Kuaishou; since its 2024 launch Kling has passed 60M+ users and ~$240M in annual revenue.",
   "name": "Kling AI",
-  "tagline": "State-of-the-art AI video + image, with strong motion and multishot.",
+  "tagline": "AI video and image generation with strong motion and multishot sequences.",
   "description": "Kuaishou's creative studio — text- and image-to-video with convincing motion, lip-sync, and multishot sequences up to ~15s, plus image generation. A leading Runway/Sora rival.",
   "category": "video",
   "pricing": "freemium",
@@ -30,7 +30,7 @@
   "edge": "Kuaishou's video model leads on motion realism and multishot sequences — the strongest non-Western Sora/Runway rival.",
   "pros": [
     "Convincing complex motion and physics",
-    "Multishot sequences and lip-sync",
+    "Lip-sync on generated clips",
     "Fast, high-volume social output",
     "Image generation included"
   ],

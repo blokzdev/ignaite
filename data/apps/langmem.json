@@ -29,7 +29,7 @@
   "addedAt": "2026-06-13",
   "addedSeq": 535,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Backed by LangChain, it ships semantic/episodic/procedural memory tools that plug straight into LangGraph rather than a standalone store.",
+  "edge": "Backed by LangChain, its memory tools plug straight into LangGraph rather than running as a standalone store.",
   "pros": [
     "Semantic, episodic, procedural memory",
     "Storage- and framework-agnostic core API",

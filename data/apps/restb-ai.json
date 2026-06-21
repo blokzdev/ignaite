@@ -23,7 +23,7 @@
   "edge": "Purpose-built computer vision for real estate imagery — room, feature, condition, and architectural-style detection — rather than generic image tagging.",
   "pros": [
     "Reads millions of listing photos daily",
-    "Room, feature, condition, and style detection",
+    "Turns photos into structured property data",
     "Used by AVMs, iBuyers, MLSs, and insurers",
     "Image captioning for SEO and accessibility"
   ],

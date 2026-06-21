@@ -2,7 +2,7 @@
   "slug": "zenlytic",
   "insight": "Started in 2020 as commerce-specific BI before broadening into a general AI data analyst; raised a $9M Series A led by M13 in 2024.",
   "name": "Zenlytic",
-  "tagline": "AI data analyst that investigates business questions against a governed semantic layer.",
+  "tagline": "AI data analyst that answers business questions in plain language.",
   "description": "Zenlytic is a self-serve business intelligence platform whose AI analyst, Zoë, answers natural-language questions by reasoning over a governed semantic layer rather than raw tables, so results map to agreed business definitions. It connects to warehouses like Snowflake, BigQuery, Redshift, and Databricks plus dbt and Looker semantic models, and returns inspectable analyses, visualizations, and reports inside the app or via Slack and Teams. The emphasis is on auditable, defensible answers for non-technical users.",
   "category": "analytics",
   "pricing": "paid",

@@ -33,12 +33,12 @@
   "addedAt": "2026-06-11",
   "addedSeq": 462,
   "lastVerifiedAt": "2026-06-11",
-  "edge": "A drop-in Jupyter replacement that adds real-time collaboration, native SQL blocks, and one-click data apps — now open source under Apache 2.0.",
+  "edge": "A drop-in Jupyter replacement that adds real-time collaboration, native SQL blocks, and one-click data apps.",
   "pros": [
     "Real-time collaborative editing",
     "Native SQL blocks + warehouse connectors",
     "AI code generation and an autonomous agent",
-    "Open-source core (Apache 2.0)"
+    "Notebooks deploy as data apps & dashboards"
   ],
   "cons": [
     "Free plan caps editors, projects, and AI use",

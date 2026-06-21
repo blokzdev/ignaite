@@ -30,8 +30,8 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "An 'Instant Apply' model merges LLM diffs into full files at thousands of tokens/sec — faster and cheaper than a frontier model rewriting whole files.",
   "pros": [
-    "Instant Apply merges diffs very fast",
-    "SoTA code retrieval + reranker",
+    "Two-stage code retrieval + reranker",
+    "Managed repo hosting, auto-indexed per commit",
     "Drops into existing codegen stacks",
     "Powers Lovable, Create, Magic Patterns",
     "Self-host / VPC option for enterprise"

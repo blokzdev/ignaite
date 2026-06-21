@@ -2,7 +2,7 @@
   "slug": "rechat",
   "insight": "Its Lucy AI assistant launched July 28, 2025, after roughly two years in beta since 2023.",
   "name": "Rechat",
-  "tagline": "AI-powered real estate operating system — CRM, marketing, and deals in one super app.",
+  "tagline": "Real estate platform uniting CRM, marketing, and transaction management.",
   "description": "Rechat is an AI-powered operating system for real estate brokerages and agents that consolidates CRM, marketing design, and transaction management into a single platform. Its modules cover contacts and lead routing (People), marketing across websites, email, social, and print (Studio), and deal and compliance tracking (Deals). Its AI assistant, Lucy, generates marketing content and listing sites, drafts client communications, and reads and interprets transaction forms — pulling from MLS data, brand guidelines, and agent preferences.",
   "category": "real-estate",
   "pricing": "paid",
@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Bundles CRM, a marketing studio, transaction management, and the Lucy AI assistant into one real-estate OS instead of stitching point tools together.",
   "pros": [
-    "All-in-one CRM, marketing, and deals",
+    "Marketing studio for web, email, and print",
     "Lucy AI generates content and reads forms",
     "Pulls from MLS data and brand guidelines",
     "Web plus iOS and Android apps",

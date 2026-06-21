@@ -3,7 +3,7 @@
   "insight": "A YC S23 open-source project with 40k+ GitHub stars, used inside Fortune 500s like Accenture and AWS.",
   "name": "Flowise",
   "tagline": "Visually build AI agents and LLM workflows — drag-and-drop, self-hosted.",
-  "description": "A low-code visual builder for AI agents, chatflows, and multi-agent systems on a drag-and-drop canvas. It self-hosts locally through npm or Docker, or deploys to major clouds, and is provider-agnostic across many LLMs via its node ecosystem. The core is Apache-2.0; a managed Flowise Cloud tier exists, making it freemium.",
+  "description": "A low-code visual builder for AI agents, chatflows, and multi-agent systems on a node canvas. It self-hosts locally through npm or Docker, or deploys to major clouds, and is provider-agnostic across many LLMs via its node ecosystem. The core is Apache-2.0; a managed Flowise Cloud tier exists, making it freemium.",
   "category": "orchestration",
   "secondaryCategories": ["agent"],
   "pricing": "freemium",

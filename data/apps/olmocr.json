@@ -30,9 +30,9 @@
   "addedAt": "2026-06-19",
   "addedSeq": 862,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Open-weights VLM OCR that tops accuracy benchmarks while running locally at a fraction of cloud-API cost — fully Apache-2.0.",
+  "edge": "Open-weights VLM OCR that tops accuracy benchmarks while running locally at a fraction of cloud-API cost.",
   "pros": [
-    "Fully open source (Apache 2.0)",
+    "Ships weights, training data, and code",
     "Strong accuracy on complex layouts",
     "Very low cost to run at scale",
     "Handles tables, equations, handwriting",

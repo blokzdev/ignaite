@@ -31,11 +31,11 @@
   "addedAt": "2026-06-15",
   "addedSeq": 792,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Runs realistic TTS and voice cloning fully on-device on a CPU — no GPU or cloud — so audio never leaves the machine.",
+  "edge": "Runs realistic TTS fully on-device on a CPU — no GPU or cloud — so audio never leaves the machine.",
   "pros": [
     "On-device, CPU-only synthesis",
-    "Instant voice cloning from ~3s of audio",
-    "Open-source model under Apache-2.0",
+    "Instant voice cloning from a short sample",
+    "Self-hostable open model (NeuTTS Air)",
     "Very low latency for voice agents"
   ],
   "cons": [

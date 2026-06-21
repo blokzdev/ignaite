@@ -28,7 +28,7 @@
   "edge": "One prompt yields a complete edited video — stock footage, voiceover, captions and music — and you revise it by chatting, not timeline-editing.",
   "pros": [
     "Prompt-to-finished-video in one pass",
-    "Edit by chatting in plain English",
+    "Keeps project context across revisions",
     "Large stock media and voice library",
     "Routes across top models (Sora, Veo, Kling)",
     "Web plus iOS and Android apps"

@@ -1,7 +1,7 @@
 {
   "slug": "memori",
   "name": "Memori",
-  "tagline": "Open-source, SQL-native memory engine for LLMs and AI agents.",
+  "tagline": "SQL-native memory engine for LLMs and AI agents.",
   "description": "An LLM-agnostic memory layer that turns agent conversations and execution into persistent, queryable state stored in standard SQL databases (Postgres, MySQL, SQLite). It adds long-term memory to any LLM app with roughly one line of code, using a dual-mode system for working and long-term recall. MemoriLabs also offers a hosted enterprise memory fabric on top of the open core.",
   "category": "memory",
   "pricing": "freemium",
@@ -26,9 +26,9 @@
   "edge": "Stores agent memory in ordinary SQL (Postgres/MySQL/SQLite) with one line of code — no separate vector database to run or pay for.",
   "pros": [
     "Persistent memory in standard SQL databases",
-    "One-line integration, LLM-agnostic",
+    "LLM-agnostic; bring any provider key",
     "No vendor lock-in; data stays in your DB",
-    "Apache-2.0 open source"
+    "Dual-mode working + long-term recall"
   ],
   "cons": [
     "Younger than Mem0/Zep, smaller ecosystem",

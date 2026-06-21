@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Ships trained evaluator models (Lynx, GLIDER, Percival) rather than only prompt-based LLM-judge scoring.",
   "pros": [
-    "Research-backed evaluator models, not just prompts",
+    "Research-backed Lynx, GLIDER, and Percival models",
     "Covers hallucination, judging, and agent-trace debug",
     "Self-serve API with free credits",
     "Guardrails + monitoring across the lifecycle"

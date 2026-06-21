@@ -26,7 +26,7 @@
   "addedAt": "2026-06-08",
   "addedSeq": 209,
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Security-first automation: deterministic 'stories' with AI agents layered on, plus self-hosting and audited governance.",
+  "edge": "Security-first automation: deterministic 'stories' with AI agents layered on top, not a generic Zapier-style builder.",
   "pros": [
     "Built for SOC/security incident response",
     "Deterministic workflows, AI optional",

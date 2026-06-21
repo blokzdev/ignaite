@@ -27,8 +27,7 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "One of the fastest image/text-to-3D generators with clean topology options and a generous free tier — speed over polish.",
   "pros": [
-    "Very fast generation, seconds per model",
-    "Generous free tier",
+    "Generates a model in seconds",
     "Image-to-3D and text-to-3D",
     "Texturing and topology controls",
     "API access available"

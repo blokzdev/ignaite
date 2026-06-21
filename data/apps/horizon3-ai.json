@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Agentless, production-safe pentests you can run continuously and on demand — replacing periodic manual engagements with always-on attack validation.",
   "pros": [
-    "Agentless, production-safe testing",
+    "No agents to deploy in your environment",
     "Runs continuously, not once a year",
     "Verifies fixes by re-testing",
     "Covers internal, external, cloud, hybrid",

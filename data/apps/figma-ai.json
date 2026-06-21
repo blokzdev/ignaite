@@ -28,7 +28,7 @@
   "addedAt": "2026-06-09",
   "addedSeq": 310,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "AI lives inside the tool designers already use, and Figma Make plus an MCP server push design context into real code.",
+  "edge": "AI lives inside the tool designers already use, then pushes real design context straight into code — no rebuild in a separate app.",
   "pros": [
     "Native to existing Figma files",
     "Figma Make produces working prototypes",

@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-12",
   "edge": "Goes deeper on voice-matching than generic AI writers — a stylometry-built profile of your prose keeps drafts in your register, not the model's.",
   "pros": [
-    "Learns your voice from samples",
+    "Stylometry profile of your prose",
     "Three parallel drafts to remix",
     "Agent access via MCP, CLI, API",
     "Built on Every's editorial standards"

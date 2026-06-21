@@ -20,7 +20,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 931,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Pairs ambient scribing with a 'Shell' safety layer that removes ~93% of detected hallucinations, co-developed and regulated with the NHS.",
+  "edge": "Pairs ambient scribing with a 'Shell' safety layer that removes ~93% of detected hallucinations before a clinician reviews the note.",
   "pros": [
     "Built and regulated with the NHS",
     "'Shell' layer strips ~93% of hallucinations",

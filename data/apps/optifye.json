@@ -20,8 +20,8 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Runs on a factory's existing IP/CCTV cameras to score per-operator cycle times and SOP compliance — no new hardware, sensors or wearables to install.",
   "pros": [
-    "Uses existing CCTV, no new hardware",
-    "Real-time per-operator efficiency metrics",
+    "Detects bottlenecks in real time",
+    "Checks SOP compliance on the line",
     "Automated production reporting",
     "Deployed across 50+ manufacturers"
   ],

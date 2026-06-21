@@ -32,10 +32,10 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "Unlimited text generation on every paid tier plus anime-focused image models, with stories stored end-to-end encrypted.",
   "pros": [
-    "Unlimited text gens on all paid tiers",
-    "End-to-end encrypted story storage",
+    "Adjustable context sizes",
     "Anime image generation included",
-    "Trains its own storytelling models"
+    "Trains its own storytelling models",
+    "Purpose-built for fiction, not generic chat"
   ],
   "cons": [
     "No ongoing free tier (trial only)",

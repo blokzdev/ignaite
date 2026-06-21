@@ -27,7 +27,7 @@
   "edge": "Tuned for stylized, anime, and VFX-transition output at high speed, where Veo and Sora optimize for photorealism.",
   "pros": [
     "Fast generation",
-    "Strong on anime and stylized output",
+    "Text-to-video and image-to-video",
     "Web, mobile, and developer API",
     "Effects and transition templates"
   ],

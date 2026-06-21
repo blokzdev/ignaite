@@ -32,7 +32,7 @@
   "pros": [
     "100% local capture by default",
     "Source code available to audit",
-    "On-device PII removal",
+    "OCR plus local audio transcription",
     "Feeds context to coding agents",
     "macOS, Windows, and Linux"
   ],

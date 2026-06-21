@@ -29,11 +29,11 @@
   "addedAt": "2026-06-10",
   "addedSeq": 428,
   "lastVerifiedAt": "2026-06-10",
-  "edge": "An AI layer over Gmail — natural-language email search, thread summaries, and a voice-matching Ghostwriter, reviving Google Inbox-style bundling.",
+  "edge": "An AI layer over Gmail — natural-language email search, thread summaries, and a voice-matching Ghostwriter in one client.",
   "pros": [
-    "Natural-language AI email search",
     "AI summaries + Ghostwriter drafting",
     "Inbox bundling / split inbox",
+    "Web, desktop, and mobile apps",
     "Fast keyboard-driven UI"
   ],
   "cons": [

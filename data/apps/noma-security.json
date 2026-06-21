@@ -24,7 +24,7 @@
   "edge": "Spans the whole AI lifecycle — discovery, posture, red teaming, and runtime guardrails for agents and MCP servers — where most rivals cover one slice.",
   "pros": [
     "End-to-end posture to runtime",
-    "Covers agents and MCP servers",
+    "Inventories every model and data dependency",
     "Built-in AI red teaming",
     "Enterprise customer references"
   ],

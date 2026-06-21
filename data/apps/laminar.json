@@ -28,10 +28,10 @@
   "addedAt": "2026-06-13",
   "addedSeq": 505,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Agent-first tracing in one line of code, with an evals SDK in the same Apache-2.0 stack you can self-host — not a general LLM logger bolted onto agents.",
+  "edge": "Agent-first tracing in one line of code, with an evals SDK in the same stack — not a general LLM logger bolted onto agents.",
   "pros": [
-    "Apache-2.0, self-hostable",
-    "One-line OpenTelemetry tracing",
+    "Self-hostable, Apache-2.0 licensed",
+    "OpenTelemetry-native, vendor-portable",
     "Built for long-running agents",
     "Tracing + evals in one platform"
   ],

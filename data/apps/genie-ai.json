@@ -25,9 +25,9 @@
   "addedAt": "2026-06-13",
   "addedSeq": 574,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Goes beyond review-only legal AI: drafts full jurisdiction-aware contracts from a prompt and enforces your own playbooks across drafting and negotiation.",
+  "edge": "Goes beyond review-only legal AI: drafts full contracts from a prompt, not just redlines on documents you already have.",
   "pros": [
-    "Drafts full contracts from a prompt",
+    "Generates agreements up to 50+ pages",
     "Learns org playbooks and standards",
     "Jurisdiction-aware across markets",
     "Free tier to start",

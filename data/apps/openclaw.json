@@ -31,9 +31,9 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Self-hosted assistant run from WhatsApp/Telegram/Slack/Discord — one of the few that also runs on iOS and Android.",
   "pros": [
-    "Open source (MIT), local-first",
+    "Free to self-host on your own devices",
     "Controlled from common chat apps",
-    "Runs on desktop and mobile",
+    "Gateway control plane, onboarding wizard",
     "BYO model key, no vendor lock-in"
   ],
   "cons": [

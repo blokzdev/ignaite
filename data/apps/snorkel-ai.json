@@ -3,7 +3,7 @@
   "insight": "Spun out of the Stanford AI Lab in 2019; raised a $100M Series D in 2025 at a $1.3B valuation.",
   "name": "Snorkel AI",
   "tagline": "Data development platform for programmatically labeling AI training data.",
-  "description": "Enterprise platform for building and curating AI training and evaluation data with programmatic labeling instead of hand-annotating examples one by one. Teams encode domain knowledge as labeling functions that Snorkel Flow applies and refines at scale, then use the resulting datasets to fine-tune and evaluate models. Built around research from the Stanford AI Lab.",
+  "description": "Enterprise platform for building and curating AI training and evaluation data with programmatic labeling instead of hand-annotating examples one by one. Teams encode domain knowledge as labeling functions that Snorkel Flow applies and refines at scale, then use the resulting datasets to fine-tune and evaluate models.",
   "category": "data-ops",
   "pricing": "paid",
   "deployment": "cloud",
@@ -31,7 +31,7 @@
   "edge": "Programmatic, labeling-function-driven data development that scales annotation far past manual labeling for specialized enterprise domains.",
   "pros": [
     "Programmatic labeling scales past manual",
-    "Stanford AI Lab research lineage",
+    "Encode domain knowledge as labeling functions",
     "Covers training and evaluation data",
     "Strong enterprise/regulated-industry focus"
   ],

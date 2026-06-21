@@ -17,7 +17,7 @@
   "edge": "Reads the full chart proactively before the visit — surfacing undiagnosed conditions and drafting the note, vs. ambient scribes that only capture the encounter.",
   "pros": [
     "Proactive chart-wide analysis",
-    "Surfaces undiagnosed conditions",
+    "Improves diagnosis and coding capture",
     "Drafts near-complete notes",
     "Used by major health systems"
   ],

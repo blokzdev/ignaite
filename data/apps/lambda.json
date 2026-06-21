@@ -2,7 +2,7 @@
   "slug": "lambda",
   "insight": "Founded in 2012 selling deep-learning workstations; its $1.5B+ late-2025 Series E was led by TWG Global to build gigawatt 'AI factories'.",
   "name": "Lambda",
-  "tagline": "The Superintelligence Cloud — on-demand GPUs, 1-Click Clusters, and superclusters.",
+  "tagline": "GPU cloud for AI training — on-demand GPUs, 1-Click Clusters, and superclusters.",
   "description": "Lambda is a GPU cloud for AI training and inference, spanning on-demand HGX B200 and H100 instances, self-serve 1-Click Clusters, and single-tenant superclusters built on NVIDIA's latest generations. A GPU specialist since 2012, it sells compute by the hour without long-term hyperscaler contracts and co-engineers large deployments with NVIDIA.",
   "category": "inference",
   "pricing": "paid",
@@ -32,7 +32,7 @@
   "pros": [
     "Single GPUs up to superclusters",
     "Self-serve multi-node clusters",
-    "GPU-focused since 2012",
+    "No long-term hyperscaler contracts",
     "Deep NVIDIA collaboration"
   ],
   "cons": [

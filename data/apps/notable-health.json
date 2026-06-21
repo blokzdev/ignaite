@@ -27,8 +27,8 @@
   "edge": "Combines a low-code Flow Builder and a natural-language Sidekick to automate administrative and clinical healthcare work end-to-end.",
   "pros": [
     "Purpose-built for healthcare",
-    "Low-code Flow Builder",
-    "Natural-language Sidekick assistant",
+    "Spans intake, scheduling, prior auth, RCM",
+    "AI agents for clinical and admin work",
     "Broad health-system deployment"
   ],
   "cons": ["Enterprise sales-only", "No public pricing", "US healthcare-focused"],

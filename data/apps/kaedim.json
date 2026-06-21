@@ -27,7 +27,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Pairs generative 3D with a human QA review step to deliver clean, production-ready topology, not raw meshes — aimed squarely at game and product pipelines.",
   "pros": [
-    "Production-ready, game-ready topology",
+    "Matches custom art styles and specs",
     "Used by Aardman, Rebellion, The Sandbox",
     "2D image and concept art to 3D",
     "Human QA review on output"

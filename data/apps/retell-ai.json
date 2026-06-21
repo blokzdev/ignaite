@@ -33,9 +33,9 @@
   "addedAt": "2026-06-07",
   "addedSeq": 194,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Bring-your-own-LLM over SIP/Twilio with a proprietary turn-taking model, so the voice agent isn't locked to one model.",
+  "edge": "Bring your own LLM behind the voice agent, so it isn't locked to a single model like most all-in-one voice platforms.",
   "pros": [
-    "BYO LLM behind the voice agent",
+    "Inbound and outbound call handling",
     "SIP/Twilio telephony built in",
     "Low-latency turn-taking model",
     "No-code builder plus API"

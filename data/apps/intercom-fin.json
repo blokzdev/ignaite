@@ -31,7 +31,7 @@
   "edge": "Outcome pricing — $0.99 only when it resolves — and runs on top of Zendesk, Salesforce, or Freshdesk, not just Intercom.",
   "pros": [
     "Pay per resolution, not per seat",
-    "Works on Zendesk/Salesforce/Freshdesk too",
+    "No migration off your current helpdesk",
     "Multi-channel: chat, email, voice, social",
     "Performance guarantee on resolution targets"
   ],

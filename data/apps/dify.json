@@ -38,8 +38,8 @@
   "pros": [
     "Drag-and-drop workflow builder",
     "RAG + agents + observability in one",
-    "Self-hostable for free",
-    "Connects hundreds of models"
+    "Prototype to production, little glue code",
+    "Provider-agnostic model management"
   ],
   "cons": [
     "License is source-available, not OSI",

@@ -29,9 +29,9 @@
   "addedAt": "2026-06-19",
   "addedSeq": 872,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Audio-native eval scores tone, interruptions and emotion from the call itself (~95% human agreement), and load-tests 50K+ concurrent calls.",
+  "edge": "Scores tone, interruptions and emotion from the call audio itself (~95% human agreement), not just the text transcript.",
   "pros": [
-    "Audio-native eval (~95% human agreement)",
+    "Audio-native scoring of voice agents",
     "Load-test 50K+ concurrent calls",
     "Production call replay and regression",
     "Integrates Vapi, Retell, LiveKit, Pipecat",

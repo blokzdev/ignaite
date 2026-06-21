@@ -32,7 +32,7 @@
   "addedAt": "2026-05-13",
   "addedSeq": 25,
   "lastVerifiedAt": "2026-06-01",
-  "edge": "Durable, resumable functions — retries, sleeps, fan-out — with no queue or worker pool for you to stand up.",
+  "edge": "Durable, resumable functions with no message queue or worker pool for you to stand up and operate.",
   "pros": [
     "Durable execution, automatic retries",
     "Pause/resume + fan-out + scheduling",

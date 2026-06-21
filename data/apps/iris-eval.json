@@ -3,7 +3,6 @@
   "name": "Iris",
   "tagline": "MCP-native eval and observability server for AI agents.",
   "description": "Iris scores AI agent output, catches safety failures, and enforces cost budgets — exposed as an MCP server rather than an SDK. Any MCP-compatible agent discovers its tools (trace logging, output evaluation, rule management, LLM-as-judge) and uses them automatically, with no code changes, so every output flowing through the protocol gets evaluated. It detects PII leaks, prompt injection, hallucinations, and budget anomalies. The core is MIT-licensed and free to self-host; a managed cloud adds dashboards and alerting.",
-  "insight": "Open-source core is MIT-licensed and shipped as an MCP server, so agents auto-discover its eval tools over the protocol.",
   "category": "eval",
   "secondaryCategories": ["observability", "mcp"],
   "pricing": "freemium",
@@ -36,9 +35,9 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "MCP-native: every output through the protocol is scored automatically with no SDK or instrumentation, rather than wiring evals into your code.",
   "pros": [
-    "MIT-licensed open-source core",
-    "No-code, MCP-native integration",
+    "No SDK or instrumentation to add",
     "Free self-host, free cloud tier",
+    "Trace logging and LLM-as-judge scoring",
     "PII, injection, and cost checks"
   ],
   "cons": [

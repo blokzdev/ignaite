@@ -27,10 +27,10 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "A general operator that plans and executes multi-step non-code work autonomously, not a single-prompt chatbot.",
   "pros": [
-    "Autonomous multi-step task execution",
+    "Runs tasks autonomously over hours",
     "Multi-agent orchestration in a Linux sandbox",
     "Strong GAIA benchmark scores",
-    "Broad non-code knowledge work"
+    "Browses, drafts, and schedules for you"
   ],
   "cons": [
     "Credits drain fast on complex tasks",

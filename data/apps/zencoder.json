@@ -23,13 +23,13 @@
   "addedAt": "2026-06-20",
   "addedSeq": 969,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Repo-wide indexing plus shareable custom 'Zen Agents' and an error-correcting pipeline; reports a ~70% score on SWE-bench Verified.",
+  "edge": "Repo-wide indexing and an error-correcting pipeline; reports a ~70% score on SWE-bench Verified, ahead of many IDE agents.",
   "pros": [
     "Indexes whole repos for context",
     "Custom, shareable Zen Agents",
     "Built-in test generation (Zentester)",
     "Works in VS Code, JetBrains, and CLI",
-    "Strong SWE-bench results (vendor-reported)"
+    "Supports 70+ languages"
   ],
   "cons": [
     "Quality varies on large codebases",

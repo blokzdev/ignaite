@@ -27,11 +27,11 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Tests agents with personality-driven synthetic users across voice and text in 120+ languages — finding multi-turn edge cases, not just scoring single responses.",
   "pros": [
-    "Multi-turn synthetic-user simulation",
-    "Covers voice and text agents",
+    "Personality-rich synthetic-user Drivers",
+    "Evaluates models, RAG, and agents",
     "CI/CD release gating on quality",
     "Production failures become test cases",
-    "120+ language simulation"
+    "One workspace for the full eval loop"
   ],
   "cons": [
     "Younger than general eval platforms",

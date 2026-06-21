@@ -23,7 +23,7 @@
   "edge": "Pairs ambient clinical documentation with automated medical coding (E/M, ICD-10, HCC) and a studio to customize note style.",
   "pros": [
     "Ambient capture of patient conversations",
-    "Automated medical coding",
+    "Pre-visit intelligence and EHR integration",
     "Customizable note generation",
     "Reduces clinician documentation time"
   ],

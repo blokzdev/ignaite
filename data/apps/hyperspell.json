@@ -24,7 +24,7 @@
   "addedAt": "2026-06-19",
   "addedSeq": 840,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Ships 50+ connectors and presents the result as a filesystem agents can mount, instead of making you build retrieval and a vector store yourself.",
+  "edge": "Presents connected workspace data as a filesystem agents can mount, instead of making you build retrieval and a vector store yourself.",
   "pros": [
     "50+ prebuilt workspace connectors",
     "Filesystem interface works with any agent",

@@ -32,10 +32,10 @@
   "lastVerifiedAt": "2026-06-08",
   "edge": "Models memory as a structured user profile plus timestamped event timeline — tops LOCOMO temporal-reasoning (~85%).",
   "pros": [
-    "Profile + event-timeline model",
+    "Distills chats, not raw embeddings",
     "Strong temporal-reasoning benchmark",
-    "Explicit per-event timestamps",
-    "Apache-2.0; Python/Node/Go SDKs + MCP"
+    "Low-latency on FastAPI/Postgres/Redis",
+    "Python/Node/Go SDKs + MCP server"
   ],
   "cons": [
     "Smaller community than mem0/Zep",

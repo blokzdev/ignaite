@@ -30,8 +30,8 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "Stands out for accent and dialect robustness plus deployment flexibility — the same engine runs in cloud, container, on-prem, or fully on-device.",
   "pros": [
-    "Strong accuracy across accents",
-    "Cloud, container, on-prem, on-device",
+    "STT, TTS, and voice agents in one API",
+    "55+ languages supported",
     "Free tier (8 hrs of STT per month)",
     "ISO 27001, SOC 2, HIPAA compliant"
   ],

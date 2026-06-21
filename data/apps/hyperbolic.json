@@ -32,7 +32,7 @@
   "edge": "Runs partly as a GPU marketplace renting idle H100/H200s, which is how its open-model inference undercuts centralized clouds.",
   "pros": [
     "Serverless inference + GPU marketplace",
-    "Undercuts centralized cloud pricing",
+    "On-demand H100/H200 GPU rentals",
     "OpenAI-compatible API",
     "Open models: Llama, Qwen, DeepSeek, FLUX"
   ],

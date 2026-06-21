@@ -23,9 +23,9 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Fully on-device transcription (Whisper + Parakeet) — no upload, no subscription required, ~30x realtime on Apple Silicon.",
   "pros": [
-    "Runs fully on-device — private by default",
-    "No subscription; one-time lifetime option",
-    "Fast (~30x realtime on Apple Silicon)",
+    "One-time lifetime license option",
+    "Runs Whisper and Parakeet models",
+    "Metal-accelerated on Apple Silicon",
     "Speaker labels, timestamps, 50+ exports",
     "Drag-and-drop audio/video files"
   ],

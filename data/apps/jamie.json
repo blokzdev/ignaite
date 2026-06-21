@@ -1,7 +1,7 @@
 {
   "slug": "jamie",
   "name": "jamie",
-  "insight": "Founded in Berlin in 2022; captures on-device audio instead of sending a bot into the call, then labels speakers afterward.",
+  "insight": "Founded in Berlin in 2022; processes data only on EU servers in Frankfurt and is ISO 27001 certified.",
   "tagline": "Bot-free AI note taker for any meeting — online, hybrid, or in person.",
   "description": "jamie is an AI meeting assistant that writes structured summaries, action items, and transcripts without ever joining the call as a bot. Instead of adding a participant, its desktop and iPhone apps capture audio directly from the device, so it works on any platform — Zoom, Meet, Teams — and in face-to-face conversations. After the meeting it assigns accurate speaker names and lets you query the notes with an Ask-AI feature.",
   "category": "meeting",

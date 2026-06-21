@@ -30,7 +30,7 @@
   "addedAt": "2026-06-13",
   "addedSeq": 554,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Bundles agent runtime, MCP tools, RAG, memory, and code execution behind one API, so you skip wiring the infrastructure together yourself.",
+  "edge": "Bundles the agent runtime and MCP tooling behind one API, so you skip wiring the infrastructure together yourself.",
   "pros": [
     "Deploy agents as APIs in one command",
     "1,000+ MCP tool integrations built in",

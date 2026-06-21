@@ -29,7 +29,7 @@
   "addedAt": "2026-06-13",
   "addedSeq": 543,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Pre-trained APIs cover image, video, text and audio moderation plus AI-content detection — the models behind Reddit, Bluesky and Midjourney.",
+  "edge": "Ready-to-call moderation plus AI-content and deepfake detection in one API — no model training or labeling work on your side.",
   "pros": [
     "Broad pre-trained moderation models",
     "Image, video, text and audio coverage",

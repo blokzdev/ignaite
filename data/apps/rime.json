@@ -25,7 +25,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 666,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Sub-second, on-prem-capable TTS tuned for live phone agents, with deterministic pronunciation control built for regulated contact centers.",
+  "edge": "Sub-second TTS tuned specifically for live phone agents and regulated contact centers, not general creative voiceover.",
   "pros": [
     "Very low latency for real-time voice agents",
     "On-prem / VPC / cloud deployment",

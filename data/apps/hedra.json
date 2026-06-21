@@ -31,7 +31,7 @@
   "edge": "Real-time Live Avatars stream lip-synced talking heads at sub-100ms latency, giving voice agents a face cheaply.",
   "pros": [
     "Phoneme-accurate lip-sync from one image",
-    "Real-time Live Avatars (~$0.05/min)",
+    "Streaming avatars at ~$0.05/min",
     "Expressive blinks/gaze from a photo",
     "Multi-model access in one platform"
   ],

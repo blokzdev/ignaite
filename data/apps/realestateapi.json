@@ -23,7 +23,7 @@
   "edge": "One developer-friendly API set spanning search, comps, parcel boundaries, autocomplete, and skip tracing — not separate single-purpose endpoints.",
   "pros": [
     "Covers ~95% of U.S. properties",
-    "Search, comps, parcel, skip-tracing APIs",
+    "Modern, expressive developer API design",
     "Lender-grade AVM with confidence scores",
     "7-day free trial for developers"
   ],

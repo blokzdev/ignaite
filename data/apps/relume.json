@@ -24,7 +24,7 @@
   "addedAt": "2026-06-13",
   "addedSeq": 520,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Outputs aren't throwaway mockups — sitemaps and wireframes export straight to Figma, Webflow, and React from a 1,000+ component library.",
+  "edge": "Outputs aren't throwaway mockups — generated sitemaps and wireframes export as editable design files, not just static previews.",
   "pros": [
     "Generates full sitemaps and wireframes fast",
     "Exports to Figma, Webflow, and React",

@@ -36,7 +36,7 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "One of the few tuning platforms that runs on AMD GPUs and fully inside your own VPC or on-prem, keeping regulated data off third-party clouds.",
   "pros": [
-    "Runs on-prem or in your own VPC",
+    "Keeps models and data fully in-house",
     "Supports AMD GPUs, not just NVIDIA",
     "Memory tuning to cut hallucinations",
     "Founded by an MLPerf and ex-NVIDIA team"

@@ -36,9 +36,8 @@
   "edge": "Combines an enterprise labeling UI, model-assisted pre-labeling, and an on-demand expert-labeler network in one usage-metered platform.",
   "pros": [
     "Mature, full-featured labeling UI",
-    "Model-assisted (auto) labeling",
     "Catalog curation + Model Foundry evals",
-    "On-demand expert labeler network"
+    "Spans RLHF, robotics, and eval datasets"
   ],
   "cons": [
     "Usage-based LBU pricing hard to forecast",

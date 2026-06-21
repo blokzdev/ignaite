@@ -30,7 +30,7 @@
   "pros": [
     "Access to many models in one place",
     "Community model + prompt marketplace",
-    "LoRA training and character consistency",
+    "Multi-scene visual story tools",
     "Generous free tier"
   ],
   "cons": ["Web-only", "Quality varies by chosen model", "Credit-based limits on free tier"],

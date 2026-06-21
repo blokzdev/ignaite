@@ -3,7 +3,6 @@
   "name": "Soniox",
   "tagline": "One speech AI API for real-time transcription, TTS, and translation.",
   "description": "A multilingual speech platform built on Soniox's own universal recognition model: real-time and async speech-to-text, text-to-speech, and any-to-any speech translation across 60+ languages from a single API. It returns token-level results within milliseconds and keeps transcribing through crosstalk, speaker overlap, and mid-sentence language switches. A consumer app (web and iOS) wraps the same engine for recording, transcription, and notes.",
-  "insight": "Keeps transcribing when a speaker switches language mid-sentence across 60+ languages, with no need to set the language upfront.",
   "category": "voice",
   "secondaryCategories": ["translation"],
   "pricing": "freemium",

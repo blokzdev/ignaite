@@ -24,7 +24,7 @@
   "addedAt": "2026-06-15",
   "addedSeq": 737,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Runs work on an infinite visual canvas where its NEO agent executes many multi-step tasks in parallel, instead of one linear chat thread.",
+  "edge": "Its NEO agent executes many tasks in parallel across a branching workspace, instead of one linear chat thread.",
   "pros": [
     "Infinite-canvas, non-linear workflow",
     "Autonomous multi-step NEO agent",

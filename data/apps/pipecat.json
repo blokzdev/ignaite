@@ -34,11 +34,11 @@
   "addedAt": "2026-06-15",
   "addedSeq": 714,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Open-source and vendor-neutral, it wires 40+ STT, LLM, and TTS services into one low-latency pipeline — unlike single-vendor voice-agent platforms.",
+  "edge": "Vendor-neutral, it wires 40+ STT, LLM, and TTS services into one low-latency pipeline — unlike single-vendor voice-agent platforms.",
   "pros": [
-    "Open source (BSD-2), self-hostable",
-    "Vendor-neutral, 40+ AI services",
-    "Real-time, low-latency pipeline",
+    "Self-hostable, no vendor lock-in",
+    "Mix and match any STT, LLM, and TTS",
+    "Real-time listen, speak, and see",
     "Client SDKs across web/mobile/embedded",
     "Optional managed Pipecat Cloud"
   ],

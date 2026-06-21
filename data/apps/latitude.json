@@ -2,7 +2,7 @@
   "slug": "latitude",
   "insight": "Open-source (MIT, 4k+ GitHub stars), built in Catalonia and pitched as 'Sentry, but for agents and LLMs.'",
   "name": "Latitude",
-  "tagline": "Open-source observability and evals for AI agents.",
+  "tagline": "Observability and evals for AI agents in production.",
   "description": "Latitude is an open-source monitoring platform for AI agents in production. It captures agent-native traces across multi-turn sessions, tool calls, and full execution paths, then clusters failures into tracked issues and alerts via Slack, email, or webhooks. It is OpenTelemetry-native, supports semantic search over sessions, and auto-builds evals from your team's judgments — run it as managed cloud or self-host the whole stack.",
   "category": "observability",
   "secondaryCategories": ["eval"],
@@ -35,9 +35,8 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "MIT-licensed and OpenTelemetry-native, it auto-builds evals from your team's judgments and tracks alignment drift — self-host the whole stack free.",
   "pros": [
-    "MIT-licensed, fully self-hostable",
-    "OpenTelemetry-native tracing",
-    "Auto-generates evals from feedback",
+    "Fully self-hostable stack",
+    "Agent-native multi-turn traces",
     "Issue clustering + Slack/webhook alerts",
     "Unlimited seats on the free tier"
   ],

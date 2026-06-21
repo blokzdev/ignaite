@@ -24,7 +24,7 @@
   "addedAt": "2026-06-19",
   "addedSeq": 878,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Agents train on your ICP and CRM, then run email + LinkedIn outbound autonomously while you supervise each action from Slack or Teams.",
+  "edge": "Agents run email + LinkedIn outbound autonomously while reps supervise each action from Slack or Teams, not a fire-and-forget tool.",
   "pros": [
     "Trains on your ICP and CRM data",
     "Autonomous email + LinkedIn outbound",

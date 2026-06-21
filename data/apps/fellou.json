@@ -23,7 +23,7 @@
   "edge": "Plans a visible, editable action plan and then autonomously executes multi-site tasks — research, forms, reports — instead of just answering questions.",
   "pros": [
     "Autonomous multi-site task execution",
-    "Editable action plan before it runs",
+    "Review and intervene at any step",
     "Deep research across many tabs",
     "Cross-platform: macOS, Windows, Linux",
     "Drag-and-drop local file analysis"

@@ -37,10 +37,10 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "GPU-accelerated Rust editor from the Atom/Tree-sitter creators, with an open protocol letting external agents drive it.",
   "pros": [
-    "Fast GPU-accelerated Rust core",
-    "Fully open source (GPL-3)",
+    "Very fast, low-latency editing",
     "Open Agent Client Protocol",
     "Plugs in Claude Code and CLI agents",
+    "Parallel agents and edit prediction",
     "Built-in multiplayer collaboration"
   ],
   "cons": [

@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Runs in-process on the disk-efficient Lance format — no server, no port, zero-copy reads; strong on multimodal data.",
   "pros": [
-    "Embedded, in-process — no server to operate",
+    "Embeds in your app; runs on edge/desktop",
     "Disk-efficient Lance format, low cost",
     "Native multimodal (text, image, video)",
     "Hybrid vector + full-text + SQL queries"

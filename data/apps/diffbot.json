@@ -32,11 +32,10 @@
   "lastVerifiedAt": "2026-06-16",
   "edge": "Grounds answers in a continuously refreshed knowledge graph of 10B+ entities and 1T+ facts, not model memory or one-off web scraping.",
   "pros": [
-    "Trillion-fact, continuously refreshed graph",
-    "Open-source GraphRAG LLM released",
+    "Continuously refreshed knowledge graph",
+    "Ships its own GraphRAG language model",
     "Extract, Crawl, and NL APIs over the open web",
-    "Free tier, no credit card required",
-    "Strong factual-grounding benchmarks"
+    "Free tier, no credit card required"
   ],
   "cons": [
     "Enterprise pricing for serious volume",

@@ -34,9 +34,8 @@
   "edge": "Pivoted to enterprise research: its ARI agent synthesizes cited reports over hundreds of sources, priced per report.",
   "pros": [
     "Multi-model chat (OpenAI, Anthropic, Google)",
-    "ARI deep-research agent",
-    "Cited reports over many sources",
-    "Search and Research APIs",
+    "ARI agent for deep research reports",
+    "Search and Research APIs for developers",
     "Per-report pricing"
   ],
   "cons": [

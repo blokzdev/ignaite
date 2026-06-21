@@ -31,9 +31,9 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "Unlike general-purpose checkers, it is tuned for scholarly prose — discipline-aware edits, citations in 10,000+ styles, and journal submission checks.",
   "pros": [
-    "Discipline-aware editing tuned to scholarly prose",
+    "Editing tuned to scholarly prose",
     "Works in Word, Google Docs, and Overleaf",
-    "Citations in 10,000+ styles, 250M+ article index",
+    "250M+ article research index built in",
     "Backed by Editage's 20+ years of academic editing"
   ],
   "cons": [

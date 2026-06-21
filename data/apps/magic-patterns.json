@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-11",
   "edge": "Generates prototypes inside your own design system — imported from Figma, Storybook, or any site — instead of generic AI mockups.",
   "pros": [
-    "Design-system-aware generation",
+    "Prototypes you can test and hand off",
     "Figma and Storybook component import",
     "Free tier to start",
     "Built for team collaboration"

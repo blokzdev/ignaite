@@ -3,7 +3,7 @@
   "insight": "Began as an AI PDF/document reader, then pivoted to a unified work OS; raised a $9.3M seed led by Andreessen Horowitz.",
   "name": "Macro",
   "tagline": "The unified system for work.",
-  "description": "Macro is an open-source workspace that folds email, messages, documents, tasks, calls, and a lightweight CRM into one interface, with AI agents that share full workspace context. Documents use CRDTs for instant, offline-capable collaborative editing, and a unified inbox pulls in email and GitHub pull requests. It markets itself as faster than Superhuman, quieter than Slack, and simpler than Notion.",
+  "description": "Macro is a workspace that folds email, messages, documents, tasks, calls, and a lightweight CRM into one interface, with AI agents that share full workspace context. Documents use CRDTs for instant, offline-capable collaborative editing, and a unified inbox pulls in email and GitHub pull requests. It markets itself as faster than Superhuman, quieter than Slack, and simpler than Notion.",
   "category": "productivity",
   "pricing": "freemium",
   "openSource": true,
@@ -33,7 +33,7 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Folds email, docs, tasks, calls and a CRM into one open-source workspace where AI agents share full context across all of it.",
   "pros": [
-    "Open-source and self-hostable",
+    "Self-hostable on the Enterprise tier",
     "Unifies email, docs, tasks, CRM, calls",
     "Agents get full workspace context",
     "SOC 2 Type II; zero data retention",
