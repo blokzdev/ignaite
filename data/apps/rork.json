@@ -24,9 +24,9 @@
   "addedAt": "2026-06-14",
   "addedSeq": 591,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Mobile-first vibe coding: generates real native iOS/Android apps (Swift, React Native, Expo) you can ship to the stores — not web wrappers.",
+  "edge": "Mobile-first vibe coding that ships real native iOS/Android apps to the stores, where most prompt-to-app tools output web pages or wrappers.",
   "pros": [
-    "Builds real native apps, not web wrappers",
+    "Live preview before you ship",
     "Ships to App Store and Google Play",
     "React Native + Expo (SwiftUI in Max)",
     "Free tier to start"

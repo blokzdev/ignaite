@@ -35,7 +35,7 @@
     "Built-in eval harness + datasets",
     "Request logging, cost + latency monitoring",
     "Provider-agnostic across model vendors",
-    "Non-technical experts can collaborate"
+    "Deploy prompt changes without a release"
   ],
   "cons": [
     "Cloud-hosted (no self-host on lower tiers)",

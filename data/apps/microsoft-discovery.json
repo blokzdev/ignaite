@@ -31,8 +31,8 @@
   "edge": "Couples specialized R&D agents with a graph knowledge engine and Azure HPC across chemistry, materials, and biology — one governed stack, not a point tool.",
   "pros": [
     "Specialized agents across science domains",
-    "Graph-based knowledge engine",
-    "Backed by Azure HPC and AI Foundry",
+    "Runs the full R&D loop end to end",
+    "Spans chemistry, biology, materials, pharma",
     "Enterprise governance and transparency",
     "Bring your own models and datasets"
   ],

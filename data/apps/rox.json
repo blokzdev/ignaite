@@ -22,9 +22,9 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Acts as an 'agent swarm' layered over your existing CRM (Salesforce, HubSpot) rather than replacing it — automating account monitoring and CRM updates.",
   "pros": [
-    "Layers onto existing CRM stack",
-    "Autonomous multi-agent 'swarm'",
-    "End-to-end sales workflow",
+    "Plugs into Salesforce, HubSpot, Slack",
+    "Generates pipeline and books meetings",
+    "Keeps the CRM updated automatically",
     "Web, desktop, mobile, extension",
     "Notable early enterprise customers"
   ],

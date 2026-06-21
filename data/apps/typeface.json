@@ -29,7 +29,7 @@
   "addedAt": "2026-06-15",
   "addedSeq": 773,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Enterprise-grade brand governance: a Brand Hub captures company voice and assets so agent-generated content stays on-brand and approval-gated at scale.",
+  "edge": "Enterprise brand governance: a Brand Hub captures company voice and assets and gates agent output through approval workflows at scale.",
   "pros": [
     "Strong brand governance + voice",
     "Multimodal text + image output",

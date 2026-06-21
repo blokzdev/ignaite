@@ -34,7 +34,7 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "Deepest native LangChain/LangGraph tracing — but cloud-only, where Langfuse lets you self-host the same.",
   "pros": [
-    "Deep LangChain/LangGraph integration",
+    "Native LangChain/LangGraph tracing",
     "Works standalone via SDKs",
     "Datasets + eval orchestration",
     "Prompt playground built in"

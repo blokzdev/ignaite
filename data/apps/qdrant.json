@@ -36,7 +36,7 @@
   "edge": "Rust single-binary you can self-host, with payload filtering strong enough that teams pick it for metadata-heavy search.",
   "pros": [
     "Open source, written in Rust",
-    "Self-host as a single binary",
+    "Self-host or managed cloud",
     "Strong payload/metadata filtering",
     "Predictable latency at scale"
   ],

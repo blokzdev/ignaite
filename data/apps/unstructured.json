@@ -33,7 +33,7 @@
   "addedAt": "2026-06-06",
   "addedSeq": 109,
   "lastVerifiedAt": "2026-06-06",
-  "edge": "Handles the messy pre-RAG layer — OCR, tables, document hierarchy across 64+ file types — with an open-source library plus a managed platform.",
+  "edge": "A dedicated pre-RAG ingestion layer with both an open-source library and a managed platform, rather than a one-off parser you wire up yourself.",
   "pros": [
     "64+ file types ingested",
     "OCR, tables, hierarchy handled",

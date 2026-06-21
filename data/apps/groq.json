@@ -2,7 +2,7 @@
   "slug": "groq",
   "insight": "Nvidia agreed a ~$20B cash deal on Dec 24, 2025 to license Groq's LPU IP and acquihire its team — Nvidia's largest deal ever.",
   "name": "Groq",
-  "tagline": "Ultra-fast inference on custom LPU chips. Open-weights at 500+ tokens/sec.",
+  "tagline": "Low-latency inference for open-weights models on custom LPU chips.",
   "description": "GroqCloud serves open-weights models (Llama, DeepSeek, Qwen, Kimi) on Groq's purpose-built LPU hardware, hitting hundreds of tokens per second where GPUs manage tens. OpenAI-compatible API with a free tier; the default when token latency is the product.",
   "category": "inference",
   "secondaryCategories": ["infra"],

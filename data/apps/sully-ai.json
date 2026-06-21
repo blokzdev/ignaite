@@ -17,7 +17,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 987,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Deploys a whole team of role-specialized clinical agents — scribe, coder, receptionist, pharmacist — across 50+ EHRs, beyond a single ambient scribe.",
+  "edge": "Deploys a whole team of role-specialized clinical agents — scribe, coder, receptionist, pharmacist — not just a single ambient scribe.",
   "pros": [
     "Covers clinical and admin roles",
     "Broad EHR integration (50+)",
