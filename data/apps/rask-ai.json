@@ -1,0 +1,38 @@
+{
+  "slug": "rask-ai",
+  "name": "Rask AI",
+  "insight": "Built by Brask Inc. (backed by a $6.6M seed); reached $1M ARR within 149 days of its 2023 launch and surpassed a million users.",
+  "tagline": "AI video localization and dubbing into 130+ languages with voice cloning.",
+  "description": "Rask AI is a video localization and dubbing platform that translates and re-voices video and audio into 130+ languages. It generates synthetic voiceovers with voice cloning in 32 languages, adds automatic lip-sync, detects multiple speakers, and produces translated captions and subtitles. Aimed at creators and marketing teams adapting content for global audiences, it runs in the browser and via API.",
+  "category": "translation",
+  "secondaryCategories": ["video"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Brask Inc.",
+  "platforms": ["web", "api"],
+  "tags": ["dubbing", "video-localization", "voice-cloning", "subtitles"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.rask.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1006,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Covers 130+ languages with voice cloning in 32 and automatic lip-sync — a broader language range than most AI dubbing tools.",
+  "pros": [
+    "130+ languages; voice cloning in 32",
+    "Automatic lip-sync and captions",
+    "Multi-speaker detection",
+    "Free tier and API access"
+  ],
+  "cons": ["Cloud-only, minute/credit-based pricing", "Dub quality can vary across languages"],
+  "bestFor": [
+    "Creators localizing videos",
+    "Marketing & social content",
+    "Course & podcast translation"
+  ],
+  "alternatives": ["camb-ai", "heygen", "synthesia", "elevenlabs"]
+}

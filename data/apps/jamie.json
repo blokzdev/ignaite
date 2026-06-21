@@ -1,0 +1,45 @@
+{
+  "slug": "jamie",
+  "name": "jamie",
+  "insight": "Founded in Berlin in 2022; captures on-device audio instead of sending a bot into the call, then labels speakers afterward.",
+  "tagline": "Bot-free AI note taker for any meeting — online, hybrid, or in person.",
+  "description": "jamie is an AI meeting assistant that writes structured summaries, action items, and transcripts without ever joining the call as a bot. Instead of adding a participant, its desktop and iPhone apps capture audio directly from the device, so it works on any platform — Zoom, Meet, Teams — and in face-to-face conversations. After the meeting it assigns accurate speaker names and lets you query the notes with an Ask-AI feature.",
+  "category": "meeting",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "jamie",
+  "platforms": ["macos", "windows", "ios", "web"],
+  "tags": ["meeting-notes", "transcription", "bot-free", "privacy"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.meetjamie.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1004,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Captures meetings without sending a bot into the call, so it works on any platform and in person — then assigns speaker names after the meeting.",
+  "pros": [
+    "No bot joins your calls",
+    "Works online, hybrid, and in person",
+    "Accurate post-call speaker labels",
+    "Free tier; many languages"
+  ],
+  "cons": ["Desktop/iOS capture only (no Android app)", "Notes processed in the cloud"],
+  "bestFor": [
+    "Privacy-conscious teams",
+    "In-person & hybrid meetings",
+    "Consultants & client calls"
+  ],
+  "alternatives": ["granola", "fathom", "fireflies", "fellow"],
+  "references": [
+    {
+      "title": "This AI meeting assistant is the first one I've tried that isn't annoying",
+      "url": "https://www.makeuseof.com/jamie-ai-meeting-assistant/",
+      "source": "MakeUseOf",
+      "kind": "review"
+    }
+  ]
+}
