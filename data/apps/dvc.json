@@ -1,0 +1,44 @@
+{
+  "slug": "dvc",
+  "name": "DVC",
+  "tagline": "Open-source Git extension for versioning data, models, and ML experiments.",
+  "description": "DVC (Data Version Control) brings software-engineering practices to machine learning: it versions datasets, models, and pipelines alongside code in any Git repository, storing large files in your own remote storage while keeping lightweight pointers in Git. Enables reproducible experiments, data/model lineage, and pipeline orchestration from the command line.",
+  "insight": "Now part of lakeFS, which acquired the DVC project; it stays free and open source as the Git-extension companion to lakeFS.",
+  "category": "data-ops",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "lakeFS",
+  "platforms": ["cli"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Versioning and pipeline tooling — no LLM involved."
+  },
+  "tags": ["data-versioning", "mlops", "reproducibility", "ml-pipelines", "open-source", "git"],
+  "links": [
+    { "kind": "website", "url": "https://dvc.org", "primary": true },
+    { "kind": "github", "url": "https://github.com/iterative/dvc" },
+    { "kind": "docs", "url": "https://dvc.org/doc" }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 992,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "A lightweight Git extension that versions datasets and ML models next to code with no server to run — unlike data-lake platforms such as lakeFS.",
+  "pros": [
+    "Free and open source",
+    "Versions data and models with Git",
+    "No server to operate",
+    "Works with any storage backend",
+    "Reproducible ML pipelines"
+  ],
+  "cons": [
+    "CLI-centric learning curve",
+    "Large-scale lakes better served by lakeFS",
+    "Roadmap now tied to lakeFS"
+  ],
+  "bestFor": [
+    "Individual data scientists",
+    "Versioning datasets and models",
+    "Reproducible ML pipelines"
+  ],
+  "alternatives": ["lakefs", "mlflow", "comet"]
+}

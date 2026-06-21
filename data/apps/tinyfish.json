@@ -1,0 +1,57 @@
+{
+  "slug": "tinyfish",
+  "name": "TinyFish",
+  "tagline": "Enterprise web agents that run complete web workflows at scale.",
+  "description": "Enterprise infrastructure for AI web agents that understand and act on the live web — navigating dynamic pages, filling forms, authenticating, and retrieving data even when layouts change. TinyFish runs outcome-focused workflows such as price and inventory tracking, market intelligence, and large-scale data aggregation across thousands of sites simultaneously.",
+  "insight": "Launched Aug 2025 with a $47M Series A led by ICONIQ; founded by ex-Nutanix president Sudheesh Nair.",
+  "category": "automation",
+  "secondaryCategories": ["agent"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "TinyFish",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-driven web agents over real browser sessions."
+  },
+  "tags": [
+    "web-agents",
+    "automation",
+    "web-scraping",
+    "browser-automation",
+    "enterprise",
+    "data-extraction"
+  ],
+  "links": [{ "kind": "website", "url": "https://www.tinyfish.ai", "primary": true }],
+  "addedAt": "2026-06-21",
+  "addedSeq": 995,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Managed enterprise web agents that run complete, outcome-based workflows at Fortune-500 scale, beyond a self-serve browser-automation library.",
+  "pros": [
+    "Web agents handle dynamic, changing pages",
+    "Outcome-based enterprise workflows",
+    "Runs across thousands of sites at once",
+    "Founded by experienced operators"
+  ],
+  "cons": ["Enterprise-oriented", "Pricing tiers not fully clear", "Young company (launched 2025)"],
+  "bestFor": [
+    "Enterprise web automation",
+    "Market and price intelligence",
+    "Large-scale data aggregation"
+  ],
+  "alternatives": ["skyvern", "browser-use", "firecrawl", "browserbase"],
+  "references": [
+    {
+      "title": "TinyFish Launches With $47M to Scale Enterprise Web Agents",
+      "url": "https://www.builtinsf.com/articles/tinyfish-launches-raises-47m-series-a-20250822",
+      "source": "Built In",
+      "kind": "analysis"
+    },
+    {
+      "title": "TinyFish Raises $47M Series A for Enterprise Web Agents",
+      "url": "https://www.unite.ai/tinyfish-raises-47m-series-a-to-power-the-next-wave-of-enterprise-web-agents/",
+      "source": "Unite.AI",
+      "kind": "analysis"
+    }
+  ]
+}

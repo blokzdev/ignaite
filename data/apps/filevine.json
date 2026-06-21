@@ -1,0 +1,36 @@
+{
+  "slug": "filevine",
+  "name": "Filevine",
+  "tagline": "Legal case-management platform with firm-wide AI agents that do the work.",
+  "description": "Cloud legal practice- and case-management platform whose AI layer, LOIS (Legal Operating Intelligence System), runs agents across an entire firm to draft documents, manage deadlines and matters, automate tasks, and surface analytics. Agents read and write — executing legal work with source traceability rather than only summarizing — grounded in a proprietary legal graph.",
+  "insight": "Filevine's LOIS agents are grounded in a proprietary legal graph built from over 40 million legal matters.",
+  "category": "legal",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Filevine",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "LLM-driven legal agents over a proprietary legal knowledge graph."
+  },
+  "tags": ["legal", "case-management", "law-firm", "legal-agents", "document-drafting"],
+  "links": [{ "kind": "website", "url": "https://www.filevine.com", "primary": true }],
+  "addedAt": "2026-06-21",
+  "addedSeq": 993,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Firm-wide AI agents that execute legal work end-to-end inside a full case-management system, not just a standalone research or drafting chatbot.",
+  "pros": [
+    "Agents execute work, not just summarize",
+    "Built on a large legal-matter graph",
+    "Full case and practice management",
+    "Source traceability on outputs",
+    "Used by large firms and enterprises"
+  ],
+  "cons": [
+    "No public pricing (demo only)",
+    "Geared to firms and legal ops",
+    "AI outcome claims vendor-reported"
+  ],
+  "bestFor": ["Law firms", "Legal operations", "Case and matter management"],
+  "alternatives": ["harvey", "legora", "ironclad", "spotdraft"]
+}
