@@ -1,0 +1,55 @@
+{
+  "slug": "highlight-ai",
+  "insight": "Spun out of gaming-clips startup Medal in October 2024 with $10M in funding led by General Catalyst.",
+  "name": "Highlight AI",
+  "tagline": "A desktop AI assistant that sees your screen and works across every app.",
+  "description": "Highlight AI is a desktop assistant that reads on-screen context across the apps you use, so you can ask about and act on whatever you're looking at without copying it into a chat box. It captures screen content, voice, and documents to answer questions, summarize, and transcribe meetings locally. A free tier offers unlimited chat with auto-selected base models; Pro unlocks premium frontier models and cloud transcription.",
+  "category": "assistant",
+  "secondaryCategories": ["meeting"],
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Highlight",
+  "platforms": ["macos"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Auto-selects base models for free chats; Pro adds premium frontier models."
+  },
+  "tags": ["desktop-assistant", "screen-context", "meeting-notes", "transcription", "local"],
+  "accentColor": "#7c5cff",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://highlightai.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://highlightai.com/pricing"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1010,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Grounds answers in your live on-screen context across every app, so you query what you're looking at without copy-paste into a chat window.",
+  "pros": [
+    "Reads on-screen context across all apps",
+    "Free tier with unlimited base-model chat",
+    "Local audio transcription",
+    "Auto-selects a model per task"
+  ],
+  "cons": [
+    "Desktop only (no mobile)",
+    "Some features still in transition",
+    "Premium models gated to Pro credits"
+  ],
+  "bestFor": ["Screen-aware Q&A", "Meeting capture", "Desktop power users"],
+  "alternatives": ["cluely", "chatgpt", "claude"],
+  "references": [
+    {
+      "title": "Desktop AI assistant app Highlight spins out of Medal with $10M in funding",
+      "url": "https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "goblin-tools",
+  "insight": "Built and maintained solo by Belgian developer Bram De Buyser; the website stays free, funded by sponsors and the paid mobile apps.",
+  "name": "Goblin Tools",
+  "tagline": "A set of small AI tools to help neurodivergent people get unstuck.",
+  "description": "Goblin Tools is a collection of single-purpose AI utilities aimed at people who find everyday tasks overwhelming. Its best-known tool, Magic ToDo, recursively breaks a vague task into smaller steps with an adjustable difficulty ('spiciness') setting. Others reword text for tone (Formalizer), gauge the mood of a message (Judge), explain things simply (Professor), estimate effort, and turn brain-dumps into action lists.",
+  "category": "productivity",
+  "secondaryCategories": ["writing"],
+  "pricing": "free",
+  "deployment": "cloud",
+  "vendor": "Bram De Buyser",
+  "platforms": ["web", "ios", "android"],
+  "modelSupport": {
+    "kind": "single-model",
+    "notes": "Large-language-model text generation under the hood; the web app is free."
+  },
+  "tags": ["adhd", "task-breakdown", "neurodivergent", "accessibility", "to-do"],
+  "accentColor": "#3fa34d",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://goblin.tools",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://goblin.tools/About",
+      "label": "About"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1007,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Built for neurodivergent users: Magic ToDo recursively shatters a vague task into bite-size steps with an adjustable difficulty 'spiciness'.",
+  "pros": [
+    "Free, no account or paywall",
+    "Recursive task breakdown to any depth",
+    "Adjustable difficulty ('spiciness')",
+    "Several focused tools beyond to-dos",
+    "Low-friction, distraction-free UI"
+  ],
+  "cons": [
+    "No accounts or cross-device sync",
+    "Limited project/collaboration features",
+    "Depends on external LLM availability"
+  ],
+  "bestFor": ["ADHD & neurodivergent users", "Overwhelming task planning", "Students"],
+  "alternatives": ["motion", "reclaim", "sunsama"],
+  "references": [
+    {
+      "title": "Magic ToDo — AI Tools for Education",
+      "url": "https://guides.libraries.uc.edu/ai-education/mt",
+      "source": "Univ. of Cincinnati",
+      "kind": "guide"
+    }
+  ]
+}

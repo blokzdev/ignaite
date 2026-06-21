@@ -1,0 +1,47 @@
+{
+  "slug": "brain-fm",
+  "insight": "Its functional-music research is NSF-funded and published in Nature Communications (2024); the neural-modulation technique is patented.",
+  "name": "Brain.fm",
+  "tagline": "AI-generated functional music engineered to help you focus, relax, and sleep.",
+  "description": "Brain.fm streams functional music designed with auditory neuroscience to shift the brain into states for focus, relaxation, meditation, or sleep. Rather than curating existing tracks, it generates music combined with a patented modulation technique intended to drive neural phase-locking. The catalog is organized by goal, with a dedicated mode tuned for ADHD attention.",
+  "category": "music",
+  "secondaryCategories": ["productivity"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Brain.fm",
+  "platforms": ["web", "ios", "android", "macos", "windows"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary functional-music engine (human composition plus generative modulation)."
+  },
+  "tags": ["focus", "deep-work", "sleep", "adhd", "functional-music"],
+  "accentColor": "#5b6cff",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.brain.fm",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.brain.fm/pricing"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1008,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Unlike streaming playlists, it generates functional music with patented modulation shown in peer-reviewed trials to support sustained attention.",
+  "pros": [
+    "Grounded in peer-reviewed neuroscience",
+    "Modes for focus, sleep, relax, meditate",
+    "Dedicated ADHD focus mode",
+    "Cross-platform with offline listening"
+  ],
+  "cons": [
+    "Subscription required after the trial",
+    "Functional, not conventional, music",
+    "Reported effect varies by individual"
+  ],
+  "bestFor": ["Deep work & focus", "ADHD concentration", "Sleep & relaxation"],
+  "alternatives": ["endel"]
+}
