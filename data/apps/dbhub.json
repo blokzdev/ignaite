@@ -1,0 +1,49 @@
+{
+  "slug": "dbhub",
+  "insight": "Made by Bytebase (the open-source database DevSecOps platform); ships just two MCP tools to stay token-efficient across five databases.",
+  "name": "DBHub",
+  "tagline": "Zero-dependency, token-efficient database MCP server.",
+  "description": "An open-source Model Context Protocol server that lets AI coding assistants connect to and query databases through one unified gateway. DBHub deliberately exposes only two tools — execute_sql (with transaction support and safety controls) and search_objects (schema/table/column exploration) — to keep the agent's context window lean. It supports Postgres, MySQL, SQL Server, MariaDB, and SQLite, works with clients like Claude Desktop, Claude Code, Cursor, VS Code, and Copilot CLI, and includes a built-in web interface for running queries and viewing request traces.",
+  "category": "mcp",
+  "secondaryCategories": ["data-ops"],
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Bytebase",
+  "platforms": ["cli", "web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "tags": ["mcp", "database", "sql", "postgres", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://dbhub.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/bytebase/dbhub"
+    },
+    {
+      "kind": "docs",
+      "url": "https://dbhub.ai/installation"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1012,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Zero-dependency MIT gateway exposing just two tools (execute_sql, search_objects), so it burns far less context than multi-tool database MCP servers.",
+  "pros": [
+    "Free and MIT-licensed",
+    "Token-efficient: only two MCP tools",
+    "Five databases via one gateway",
+    "Built-in web UI for queries + traces"
+  ],
+  "cons": [
+    "SQL databases only (no NoSQL)",
+    "Minimal tool surface by design",
+    "Self-run; no managed hosting"
+  ],
+  "bestFor": ["Querying DBs from coding agents", "Local dev with MCP", "Schema exploration"],
+  "alternatives": ["mcp-supabase", "composio", "smithery"]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "unstract",
+  "insight": "Open-source under AGPL-3.0 with 6.7k+ GitHub stars; its 'Prompt Studio' IDE lets you tune extraction prompts field by field.",
+  "name": "Unstract",
+  "tagline": "Turn unstructured documents into structured data.",
+  "description": "An agentic document-processing platform that extracts clean, structured JSON from PDFs, scans, and other complex documents using LLMs. Its Prompt Studio gives a no-code IDE to author and test extraction prompts per field, which you then deploy as APIs or ETL pipelines into your warehouse. Built by Zipstack, Unstract is open source under AGPL-3.0 and self-hostable via Docker Compose, with a managed cloud that adds SSO, human-in-the-loop review, and compliance certifications (SOC 2, HIPAA, ISO 27001, GDPR).",
+  "category": "data-ops",
+  "secondaryCategories": ["vision"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Zipstack",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring any LLM; Prompt Studio can compare models per extraction field."
+  },
+  "tags": ["document-extraction", "unstructured-data", "etl", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://unstract.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/Zipstack/unstract"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.unstract.com"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1013,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Prompt Studio offers a no-code IDE to build and test per-field extraction prompts, then deploy them as APIs or ETL pipelines — and the whole stack self-hosts.",
+  "pros": [
+    "Open-source (AGPL-3.0), self-hostable",
+    "Prompt Studio: no-code extraction IDE",
+    "Deploy extractions as APIs or ETL",
+    "Cloud adds SOC 2 / HIPAA / HITL review"
+  ],
+  "cons": [
+    "AGPL-3.0 may deter some commercial use",
+    "Self-host setup is involved",
+    "LLM costs scale with document volume"
+  ],
+  "bestFor": ["Unstructured-to-structured ETL", "Self-hosted doc extraction", "RAG data prep"],
+  "alternatives": ["reducto", "chunkr", "llamaparse", "extend"]
+}
