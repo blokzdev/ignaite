@@ -1,0 +1,42 @@
+{
+  "slug": "chronicle",
+  "name": "Chronicle",
+  "insight": "Backed by a $7.5M seed from Accel and Square Peg with angels from Apple, Google and Stripe; opened publicly in 2025.",
+  "tagline": "AI presentation maker that turns a prompt into a polished, on-brand deck.",
+  "description": "Chronicle is a presentation tool that generates entire slide decks from a prompt and lets you refine them on a widget-based canvas. Rather than editing one slide at a time, its AI agent — pitched as \"Cursor for presentations\" — drafts, restyles, and restructures whole decks, embedding content from other tools and keeping output on-brand. It targets startups and modern teams who want polished decks without a designer.",
+  "category": "design",
+  "secondaryCategories": ["productivity"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Chronicle",
+  "platforms": ["web"],
+  "tags": ["presentations", "slides", "decks", "ai-design"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://chroniclehq.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1005,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Pitches itself as \"Cursor for presentations\" — an AI agent that drafts and restyles entire decks on a canvas, not just one slide at a time.",
+  "pros": [
+    "Generates full decks from a prompt",
+    "Widget/canvas-based editing",
+    "Clean, on-brand templates",
+    "Generous free tier"
+  ],
+  "cons": ["Web-only (no native or offline app)", "AI usage metered by tokens"],
+  "bestFor": ["Startup pitch decks", "Team presentations", "Sales & marketing decks"],
+  "alternatives": ["gamma", "beautiful-ai"],
+  "references": [
+    {
+      "title": "Accel, Square Peg back Chronicle's tool for presentations",
+      "url": "https://techcrunch.com/2023/02/21/chronicle/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
