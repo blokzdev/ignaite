@@ -1,6 +1,6 @@
 {
   "slug": "seaart",
-  "insight": "Singapore-based; ranks among a16z's top global Gen-AI web apps and bundles third-party models like Flux, Kling, Sora and Veo.",
+  "insight": "Singapore-based app from Sunrise AI; ranks among a16z's top 100 global consumer Gen-AI web apps.",
   "name": "SeaArt",
   "tagline": "AI art platform that turns prompts into images, videos and characters.",
   "description": "SeaArt is an AI creative platform for generating and editing images and videos and for building chat-able characters. It exposes many underlying models (Flux, Seedance, Sora, Kling, Veo and others) plus tools for upscaling, background removal and editing, wrapped around a large community gallery where users share creations, prompts and workflows. It is available on the web and as iOS and Android apps.",
@@ -23,7 +23,7 @@
   "edge": "Bundles many leading image and video models (Flux, Kling, Sora, Veo) plus a creator community and roleplay characters in one freemium app.",
   "pros": [
     "Free daily generation credits",
-    "Access to many models in one place (Flux, Kling, Sora, Veo)",
+    "Upscaling, background removal, editing",
     "Large community gallery with shared prompts and workflows",
     "Web and mobile apps"
   ],

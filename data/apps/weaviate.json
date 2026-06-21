@@ -33,9 +33,8 @@
   "addedAt": "2026-05-13",
   "addedSeq": 18,
   "lastVerifiedAt": "2026-06-01",
-  "edge": "Built-in vectorizers embed text inline — raw text in, vectors out — plus hybrid BM25 + vector search out of the box.",
+  "edge": "Built-in vectorizer modules embed text inline — raw text in, vectors out — so you skip running a separate embedding pipeline.",
   "pros": [
-    "Inline vectorizer modules",
     "Hybrid BM25 + vector search",
     "Open source, self-hostable",
     "Managed cloud option",

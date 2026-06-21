@@ -31,7 +31,7 @@
   "addedAt": "2026-06-06",
   "addedSeq": 94,
   "lastVerifiedAt": "2026-06-06",
-  "edge": "Reimagines the terminal as an agent surface — a from-scratch Rust terminal grown into a multi-agent dev environment.",
+  "edge": "Reimagines the terminal itself as the agent surface — a from-scratch Rust terminal rebuilt for running coding agents, not a CLI wrapper.",
   "pros": [
     "Fast Rust-built terminal",
     "Multi-agent orchestration",
