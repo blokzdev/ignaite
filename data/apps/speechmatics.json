@@ -2,7 +2,7 @@
   "slug": "speechmatics",
   "insight": "Founded in Cambridge in 2006 by Tony Robinson, a 1980s pioneer of recurrent-neural-network speech recognition.",
   "name": "Speechmatics",
-  "tagline": "Enterprise speech APIs — real-time STT, TTS, and voice agents in 55+ languages.",
+  "tagline": "Enterprise speech APIs — real-time STT, TTS, and voice agents.",
   "description": "Speechmatics provides speech-to-text (batch and sub-second real-time), text-to-speech, and a Flow API for building voice agents, with accuracy that holds up across accents and dialects in 55+ languages. The same engine deploys in cloud, container, on-prem, or fully on-device, and it powers products from Adobe, LiveKit, and Ubisoft.",
   "category": "voice",
   "pricing": "freemium",

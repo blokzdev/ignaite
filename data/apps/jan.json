@@ -34,7 +34,7 @@
   "addedAt": "2026-06-06",
   "addedSeq": 120,
   "lastVerifiedAt": "2026-06-06",
-  "edge": "Open-source ChatGPT alternative that runs 100% offline with a bundled model runner — no account, no telemetry, fully free.",
+  "edge": "Bundles its own model runner so it works offline out of the box — no account, no telemetry, and no paid tier.",
   "pros": [
     "Local-first; data stays on your machine",
     "Open source (Apache-2.0), no paid tier",

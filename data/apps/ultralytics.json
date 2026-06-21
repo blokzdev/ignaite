@@ -2,7 +2,7 @@
   "slug": "ultralytics",
   "insight": "AGPL-3.0 licensed: products that embed it must open-source their own code or buy an Ultralytics enterprise license.",
   "name": "Ultralytics YOLO",
-  "tagline": "State-of-the-art YOLO models for real-time object detection and vision.",
+  "tagline": "YOLO models for real-time object detection and vision.",
   "description": "The open-source PyTorch framework behind the YOLO (You Only Look Once) family of vision models. One unified API covers object detection, instance and semantic segmentation, image classification, pose estimation, and oriented bounding boxes, with both a CLI and a Python interface. The 2026 flagship, YOLO26, is an end-to-end, NMS-free architecture tuned for edge and low-power deployment.",
   "category": "vision",
   "pricing": "freemium",

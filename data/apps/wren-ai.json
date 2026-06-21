@@ -42,7 +42,7 @@
   "pros": [
     "Self-host via Docker or use managed cloud",
     "Semantic layer grounds SQL, cuts hallucination",
-    "20+ warehouses and databases via one engine",
+    "Many warehouses and databases via one engine",
     "LLM-agnostic: OpenAI, Claude, Gemini, Ollama"
   ],
   "cons": [
