@@ -2,7 +2,7 @@
   "slug": "flora",
   "insight": "Raised a $42M Redpoint-led Series A in Jan 2026; Nike, Netflix and Pentagram use its FAUNA creative agent in production.",
   "name": "FLORA",
-  "tagline": "Node-based creative canvas chaining 50+ AI models into team workflows.",
+  "tagline": "Node-based creative canvas chaining AI models into team workflows.",
   "description": "An infinite-canvas creative environment where designers chain image, video, and text models into reusable node-based workflows. One subscription covers 50+ models — Veo, FLUX, Kling, Nano Banana, GPT, and more — and the built-in FAUNA agent helps assemble and iterate on pipelines. Pitched at professional teams who want repeatable, taste-driven output instead of one-off prompting.",
   "category": "design",
   "secondaryCategories": ["video"],
@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-12",
   "edge": "An infinite node canvas that chains 50+ models into reusable team workflows — built around shared taste rather than one-shot prompting.",
   "pros": [
-    "50+ models in one subscription",
+    "Many image/video/text models, one plan",
     "Reusable, shareable workflows",
     "Free tier to start",
     "Used in production by major brands"

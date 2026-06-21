@@ -24,7 +24,7 @@
   "edge": "Resolves identities across a 400M+ contact graph, then lets RoomieAI agents auto-research accounts and personalize outreach from unified signals.",
   "pros": [
     "Unifies CRM, product, marketing & community signals",
-    "400M+ contact enrichment graph",
+    "Cross-source identity resolution & enrichment",
     "AI agents auto-research accounts & personalize",
     "Chrome extension + 50+ integrations"
   ],

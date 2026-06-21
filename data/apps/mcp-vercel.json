@@ -2,8 +2,8 @@
   "slug": "mcp-vercel",
   "insight": "Archived here: the community github.com/vercel/mcp URL was retired once Vercel folded MCP into its first-party platform instead.",
   "name": "Vercel MCP",
-  "tagline": "Deploys + build logs + runtime logs in agent context.",
-  "description": "Vercel-native MCP server for deploying directly from chat, inspecting build/runtime logs, and reading deployment metadata. Original github.com/vercel/mcp community URL is no longer published; first-party MCP integration ships via the Vercel docs.",
+  "tagline": "Deploy and inspect Vercel projects from inside an AI agent.",
+  "description": "Vercel-native MCP server for deploying directly from chat, inspecting build/runtime logs, and reading deployment metadata. The first-party integration ships via the Vercel docs.",
   "category": "mcp",
   "pricing": "free",
   "vendor": "Vercel",
@@ -33,7 +33,6 @@
   ],
   "cons": [
     "Useful mainly to Vercel users",
-    "Community github.com/vercel/mcp URL retired",
     "Permissions/data access need review",
     "Scope limited to Vercel platform"
   ],

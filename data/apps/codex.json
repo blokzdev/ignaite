@@ -35,10 +35,9 @@
   "lastVerifiedAt": "2026-06-11",
   "edge": "Backed by OpenAI's Codex-tuned models and integrated across CLI, IDE, web, and ChatGPT — one coding agent everywhere you work.",
   "pros": [
-    "Open-source Rust CLI (Apache-2.0)",
     "Local CLI, cloud, IDE, and ChatGPT",
-    "Parallel cloud agent tasks",
-    "Backed by OpenAI's coding models"
+    "Cloud agent runs in isolated containers",
+    "Parallel cloud agent tasks"
   ],
   "cons": [
     "Cloud agent and models are proprietary",

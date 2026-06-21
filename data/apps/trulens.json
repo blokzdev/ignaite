@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "Pioneered the RAG Triad — context relevance, groundedness, answer relevance — as feedback functions you attach to score and trace any LLM app.",
   "pros": [
-    "Open source and free, OpenTelemetry tracing",
+    "OpenTelemetry tracing, runs locally",
     "RAG Triad feedback functions built in",
     "Provider-agnostic LLM-as-judge metrics",
     "Leaderboard to compare app versions"

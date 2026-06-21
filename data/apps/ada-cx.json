@@ -30,7 +30,6 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Multi-LLM reasoning agents (not keyword bots) with broad CRM/channel integration, aimed squarely at large enterprises.",
   "pros": [
-    "Multi-LLM reasoning, not keyword matching",
     "Connects to Zendesk, Salesforce, Twilio",
     "Multi-channel and multilingual coverage",
     "Claims first AIUC-1 agentic certification"

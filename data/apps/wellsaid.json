@@ -30,8 +30,8 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Enterprise TTS built on voices licensed from real voice actors, with workspace controls, pronunciation libraries, and Adobe integrations.",
   "pros": [
-    "Voices licensed from real voice actors",
     "120+ voices across languages and accents",
+    "Studio for script import and audio tuning",
     "Team workspaces and pronunciation control",
     "API plus Adobe integrations"
   ],

@@ -2,7 +2,7 @@
   "slug": "microsoft-copilot",
   "insight": "Its in-house MAI models, debuting in 2025, are led by DeepMind co-founder Mustafa Suleyman, now CEO of Microsoft AI.",
   "name": "Microsoft Copilot",
-  "tagline": "Microsoft's assistant across Windows, Edge, and Microsoft 365.",
+  "tagline": "Microsoft's everyday AI assistant for chat, images, and vision.",
   "description": "Microsoft's everyday assistant — chat, image generation, and Copilot Vision, woven into Windows, Edge, and the Microsoft 365 apps. The consumer front-door to Microsoft's AI.",
   "category": "assistant",
   "pricing": "freemium",
@@ -28,7 +28,7 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Reaches users at the OS level inside Windows and Edge, now blending OpenAI, Anthropic, and Microsoft's own MAI models.",
   "pros": [
-    "Built into Windows, Edge, Microsoft 365",
+    "Built into the OS and Office apps",
     "Mixes OpenAI, Claude, and in-house MAI",
     "Useful free tier on GPT-4o",
     "Copilot Vision and image generation"

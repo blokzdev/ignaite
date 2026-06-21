@@ -22,10 +22,10 @@
   "addedAt": "2026-06-10",
   "addedSeq": 393,
   "lastVerifiedAt": "2026-06-10",
-  "edge": "Autonomous agents purpose-built for accounting firms that run multi-step tax, audit, and advisory workflows end-to-end — beyond chat or single tasks.",
+  "edge": "Runs multi-step tax, audit, and advisory workflows end-to-end and returns review-ready output — beyond chat or single-task assistants.",
   "pros": [
-    "Agents built for accounting firms",
-    "End-to-end workflow execution",
+    "Adapts to each firm's processes",
+    "Returns review-ready output",
     "Adopted by top-25 firms",
     "Covers tax, audit, advisory"
   ],

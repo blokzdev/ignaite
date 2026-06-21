@@ -23,7 +23,7 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Purpose-built for biomedical R&D with a curated 500M-fact knowledge graph, so agents cite verifiable evidence rather than generic web chat.",
   "pros": [
-    "Curated biomedical knowledge graph (500M facts)",
+    "Distills tens of millions of publications",
     "Agents cite traceable scientific evidence",
     "Adopted by top-20 pharma companies",
     "Built for high-stakes R&D, not generic chat"

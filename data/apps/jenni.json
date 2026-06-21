@@ -1,7 +1,7 @@
 {
   "slug": "jenni",
   "name": "Jenni",
-  "tagline": "AI academic writing assistant with autocomplete, source-grounded citations, and 2,600+ styles.",
+  "tagline": "AI academic writing assistant with autocomplete and source-grounded citations.",
   "description": "Jenni is an AI writing workspace for students and researchers. It autocompletes drafts in your voice, grounds claims in uploaded PDFs with citations that link to the exact page and paragraph, and formats references in over 2,600 citation styles with Zotero and Mendeley support. More than 6 million academics have used it.",
   "category": "writing",
   "pricing": "freemium",
@@ -24,10 +24,10 @@
   "addedAt": "2026-06-10",
   "addedSeq": 407,
   "lastVerifiedAt": "2026-06-10",
-  "edge": "Purpose-built for academia: citations link back to the exact source passage, in 2,600+ styles — not generic chatbot prose.",
+  "edge": "Purpose-built for academia: citations link back to the exact source passage — not generic chatbot prose.",
   "pros": [
-    "Citations tied to source passages",
     "2,600+ citation styles",
+    "Autocompletes drafts in your voice",
     "Zotero / Mendeley integration",
     "Free plan to start"
   ],

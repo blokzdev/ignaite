@@ -28,10 +28,9 @@
   "addedAt": "2026-06-12",
   "addedSeq": 485,
   "lastVerifiedAt": "2026-06-12",
-  "edge": "A full long-form editor: handles book-length drafts up to 150,000 words with character, scene, and world-building tools, not just inline AI prompts.",
+  "edge": "A full long-form editor built for book-length drafts up to 150,000 words, not just an inline AI prompt bolted onto a notes app.",
   "pros": [
     "Familiar, distraction-free editor",
-    "Long-form: up to 150k words per doc",
     "Character, scene & world-building tools",
     "Free perpetual drafts tier",
     "Export to DOCX, PDF, or AI audio"

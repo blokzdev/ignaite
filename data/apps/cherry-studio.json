@@ -2,7 +2,7 @@
   "slug": "cherry-studio",
   "insight": "Free for individuals and small teams, but its AGPL terms require a paid commercial license once an org passes ten people.",
   "name": "Cherry Studio",
-  "tagline": "Desktop AI client unifying frontier LLMs, local models, and 300+ assistants.",
+  "tagline": "Desktop AI client unifying frontier LLMs and local models.",
   "description": "A cross-platform desktop AI productivity app for chatting across cloud and local models, with autonomous agents and 300+ prebuilt assistants. It runs on your own machine and supports local models via Ollama and LM Studio alongside cloud providers using your own keys. The community edition is AGPL-3.0; organizations over ten people require a paid commercial license.",
   "category": "assistant",
   "pricing": "freemium",
@@ -34,7 +34,7 @@
   "pros": [
     "Cross-platform desktop, runs locally",
     "Cloud + local models (Ollama, LM Studio)",
-    "300+ prebuilt assistants",
+    "Autonomous agents and prebuilt assistants",
     "Open-source community edition"
   ],
   "cons": [

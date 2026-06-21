@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Cloudflare-verified stealth Chromium with built-in auth and VPN, built to survive bot detection that blocks generic headless browsers.",
   "pros": [
-    "Stealth Chromium resists bot detection",
+    "Web Action Cache for deterministic runs",
     "Built-in auth (OmniConnect) and VPN",
     "Scales to many parallel sessions",
     "Deployable in your own cloud",

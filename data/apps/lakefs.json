@@ -33,8 +33,8 @@
   "edge": "Git-like branch, commit and merge over your existing object storage with zero data copy — versioning the whole data lake, not individual files.",
   "pros": [
     "Open source (Apache 2.0)",
-    "Git-like branch/commit/merge for data",
-    "Works over existing object storage",
+    "Isolated experiments and reproducible pipelines",
+    "Rollback and data-quality gates",
     "Integrates with Spark, Trino, Iceberg, Delta",
     "Managed Cloud and self-host options"
   ],

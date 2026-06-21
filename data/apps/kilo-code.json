@@ -29,13 +29,13 @@
   "addedAt": "2026-06-13",
   "addedSeq": 525,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Open-source (MIT) agent spanning VS Code, JetBrains, and CLI with role modes (Code/Architect/Debug) and 500+ models at zero markup on your own keys.",
+  "edge": "Routes 500+ models at zero markup on your own keys, so you pay providers directly — unlike agents that mark up or lock you to one model.",
   "pros": [
     "Fully open source (MIT)",
     "Works in VS Code, JetBrains, and CLI",
-    "500+ models, BYO key with zero markup",
+    "Plans, writes, edits, and runs code",
     "Specialized modes (Code, Architect, Debug)",
-    "Large, active community"
+    "Free tier plus paid cloud and team plans"
   ],
   "cons": [
     "You manage model costs and keys",

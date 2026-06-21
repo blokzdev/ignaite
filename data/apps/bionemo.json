@@ -33,9 +33,9 @@
   "edge": "GPU-optimized recipes claim ~2x faster biofoundation-model training and ~6x faster inference versus unoptimized pipelines.",
   "pros": [
     "Open-source framework (Apache-2.0)",
-    "GPU-optimized training and inference",
     "Prebuilt models for protein and molecule tasks",
-    "NIM microservices for production deployment"
+    "NIM microservices for production deployment",
+    "Bundles datasets and training recipes"
   ],
   "cons": [
     "Requires NVIDIA GPUs",

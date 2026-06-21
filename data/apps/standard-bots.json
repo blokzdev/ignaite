@@ -3,7 +3,7 @@
   "name": "Standard Bots",
   "tagline": "No-code AI robotic arms built for US manufacturing.",
   "description": "Standard Bots makes the Core (formerly RO1), a six-axis collaborative robot arm programmed through no-code software — drag, tap, and teach, with no engineers required. A transformer-based model lets the arm learn intricate tasks by human demonstration, targeting CNC machine tending, palletizing, welding, and pick-and-place. The arms are designed and built in the US.",
-  "insight": "Reached a $1B valuation via a $200M Series C in June 2026, led by General Catalyst — and builds its robot arms in the US.",
+  "insight": "Reached a $1B valuation via a $200M Series C in June 2026, led by General Catalyst.",
   "category": "robotics",
   "pricing": "paid",
   "deployment": "local",
@@ -26,7 +26,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Claims a ~30% price advantage over legacy cobot makers, with a no-code teach-by-demonstration workflow any factory worker can run in a day.",
   "pros": [
-    "No-code: train it by demonstration",
+    "Teach it tasks by demonstration",
     "~30% cheaper than legacy cobots (~$37k)",
     "18kg payload, 1.3m reach, ±0.025mm repeat",
     "Designed and built in the US",

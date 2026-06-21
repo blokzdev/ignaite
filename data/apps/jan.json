@@ -2,7 +2,7 @@
   "slug": "jan",
   "insight": "Made by Menlo Research (formerly Homebrew), which pivoted from Jan into an applied lab building AI for humanoid robots.",
   "name": "Jan",
-  "tagline": "Open-source ChatGPT alternative that runs 100% offline on your computer.",
+  "tagline": "ChatGPT alternative that runs 100% offline on your computer.",
   "description": "An open-source desktop assistant that runs AI models 100% offline on your own machine, bundling a local model runner so you can download and chat with open models like Llama, Gemma, and Qwen. It also supports bring-your-own keys for cloud providers when you want them, and exposes a local OpenAI-compatible server. Fully open source under Apache 2.0 with no paid tier.",
   "category": "assistant",
   "pricing": "free",
@@ -36,8 +36,8 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Open-source ChatGPT alternative that runs 100% offline with a bundled model runner — no account, no telemetry, fully free.",
   "pros": [
-    "Runs 100% offline, local-first",
-    "Fully open source (Apache-2.0), no paid tier",
+    "Local-first; data stays on your machine",
+    "Open source (Apache-2.0), no paid tier",
     "Bundled model runner + model hub",
     "BYO cloud keys when wanted",
     "Local OpenAI-compatible server"

@@ -1,6 +1,6 @@
 {
   "slug": "bedrock-agentcore",
-  "insight": "AWS's serverless runtime for production agents; reached general availability in October 2025 and runs agents from any framework.",
+  "insight": "Announced at AWS Summit NY in July 2025 and reached general availability that October.",
   "name": "Amazon Bedrock AgentCore",
   "tagline": "Serverless runtime and services for deploying AI agents in production.",
   "description": "AWS's enterprise platform for taking AI agents from prototype to production. A secure, serverless Runtime hosts agents built with any framework (Strands, LangChain, LangGraph, CrewAI) and any model, alongside modular services for Memory, Identity, Gateway (turning APIs/Lambdas into MCP tools), a Code Interpreter, Browser tool, and Observability.",
@@ -29,7 +29,7 @@
   ],
   "edge": "Framework- and model-agnostic managed runtime — deploy agents built in Strands, LangGraph, or CrewAI with built-in identity, memory, and tools.",
   "pros": [
-    "Serverless runtime for any agent framework",
+    "Scales serverlessly, no infra to manage",
     "Modular memory, identity, gateway, browser, code tools",
     "Enterprise security and isolation",
     "Built-in observability"

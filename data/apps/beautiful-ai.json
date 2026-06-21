@@ -2,7 +2,7 @@
   "slug": "beautiful-ai",
   "name": "Beautiful.ai",
   "insight": "Founder Mitch Grasso earlier built SlideRocket, the first cloud presentation tool, acquired by VMware in 2011.",
-  "tagline": "AI presentation maker whose smart templates auto-design every slide as you add content.",
+  "tagline": "AI presentation maker that drafts and auto-designs full slide decks.",
   "description": "A web-based presentation tool that pairs generative AI with a library of \"smart\" templates: type a prompt and DesignerBot drafts a full deck, then each Smart Slide auto-adjusts its layout, spacing, and alignment as you add or remove content so the design stays consistent without manual fiddling. Includes PowerPoint import/export, brand controls for teams, and viewer analytics on shared decks.",
   "category": "design",
   "pricing": "paid",

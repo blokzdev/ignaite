@@ -2,7 +2,7 @@
   "slug": "murf",
   "insight": "Founded in 2020 by three IIT Kharagpur alumni; its $10M Series A was led by Matrix Partners India (now Z47).",
   "name": "Murf AI",
-  "tagline": "AI voice generator studio with 200+ voices, dubbing, and a low-latency TTS API.",
+  "tagline": "AI voice generator studio with dubbing and a low-latency TTS API.",
   "description": "Murf AI is a text-to-speech platform pairing a studio editor — 200+ voices across 35+ languages, voice cloning, dubbing, and a voice changer — with developer APIs. Its Gen 2 speech model focuses on pronunciation accuracy and granular voice controls, while the Falcon API targets sub-130ms latency for real-time voice agents. Integrations include Canva, PowerPoint, and Google Slides.",
   "category": "voice",
   "pricing": "freemium",

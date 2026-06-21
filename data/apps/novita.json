@@ -1,7 +1,7 @@
 {
   "slug": "novita",
   "name": "Novita AI",
-  "tagline": "One API for 120+ AI models, plus agent sandboxes and GPU cloud.",
+  "tagline": "One API for many AI models, plus agent sandboxes and GPU cloud.",
   "description": "Novita AI is an AI and agent cloud for developers that combines serverless model APIs with on-demand compute. A single API serves 120+ text, image, audio, video, and vision models, while Agent Sandbox provides isolated runtimes for tool-using agents and the GPU cloud offers dedicated instances, serverless GPUs, and bare-metal clusters. It advertises sub-50ms time-to-first-token and startup-friendly, usage-based pricing.",
   "insight": "An official Hugging Face inference provider, serving open models to Hugging Face's 5M+ developers via a 'Deploy on Novita' experience.",
   "category": "inference",
@@ -33,7 +33,7 @@
   "edge": "Pairs serverless model APIs with on-demand GPU instances and isolated agent sandboxes in one platform, so inference and the compute to run agents live together.",
   "pros": [
     "120+ models behind one API",
-    "Agent sandboxes plus GPU cloud in one vendor",
+    "Text, image, audio, video, vision models",
     "Low TTFT, startup-friendly pricing",
     "Official Hugging Face inference partner"
   ],

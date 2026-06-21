@@ -20,7 +20,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 583,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Ships as a CRE 'analyst out of the box' — no per-customer model training — covering underwriting, lease abstraction, and due diligence in one vertical platform.",
+  "edge": "Ships as a CRE 'analyst out of the box' — works without per-customer model training, unlike platforms that need bespoke setup.",
   "pros": [
     "Purpose-built for CRE workflows",
     "No per-customer model training",

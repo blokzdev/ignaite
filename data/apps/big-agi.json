@@ -39,12 +39,12 @@
   "addedAt": "2026-06-06",
   "addedSeq": 88,
   "lastVerifiedAt": "2026-06-06",
-  "edge": "MIT-licensed, one-click Vercel deploy, and its 'beam' runs one prompt across many models side-by-side to compare.",
+  "edge": "Its 'beam' runs one prompt across many models side-by-side to compare, with one-click self-host on Vercel or Docker.",
   "pros": [
-    "MIT-licensed and free",
-    "One-click self-host on Vercel or Docker",
     "Beam compares many models at once",
-    "Connects to local engines (Ollama, LM Studio)"
+    "One-click self-host on Vercel or Docker",
+    "Connects to local engines (Ollama, LM Studio)",
+    "Voice, image gen, web search, code exec"
   ],
   "cons": [
     "Bring-your-own API keys required",

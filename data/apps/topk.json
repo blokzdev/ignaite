@@ -30,7 +30,7 @@
   "lastVerifiedAt": "2026-06-16",
   "edge": "One query spans vector, keyword, and multi-vector search with custom ranking — no separate search + vector + reranker stack to stitch together.",
   "pros": [
-    "Hybrid + multi-vector in one query",
+    "Serverless, no infra to manage",
     "Runs in your own VPC (BYOC)",
     "Built-in embedding/OCR inference",
     "Low latency at billion-doc scale",

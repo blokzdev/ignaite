@@ -1,7 +1,7 @@
 {
   "slug": "juicebox",
   "name": "Juicebox",
-  "tagline": "PeopleGPT — natural-language candidate sourcing across 800M+ profiles.",
+  "tagline": "PeopleGPT — natural-language candidate sourcing for recruiters.",
   "description": "Juicebox is an AI recruiting platform whose core product, PeopleGPT, lets recruiters search 800M+ profiles across 30+ sources using natural-language prompts instead of boolean filters. It verifies candidates and automates multi-step personalized outreach, and integrates with dozens of ATS and CRM systems plus a Chrome extension.",
   "insight": "A Y Combinator (S22) company; raised a $30M Series A led by Sequoia in 2025 (part of $36M total).",
   "category": "hr",
@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Pioneered natural-language ('PeopleGPT') sourcing — describe the candidate in a sentence rather than building boolean strings.",
   "pros": [
-    "Natural-language candidate search",
+    "Verifies candidates before outreach",
     "800M+ profiles, 30+ sources",
     "Free tier to start",
     "Automated outreach sequences",

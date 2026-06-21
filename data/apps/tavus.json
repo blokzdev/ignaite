@@ -33,7 +33,7 @@
   "addedAt": "2026-06-07",
   "addedSeq": 170,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Real-time conversational video built on its own models (Phoenix, Raven, Sparrow) with sub-500ms turn-taking.",
+  "edge": "Runs on its own render/perception/timing models (Phoenix, Raven, Sparrow) with sub-500ms turn-taking, yet still lets you bring a custom LLM and TTS.",
   "pros": [
     "Live face-to-face AI video",
     "Own render/perception/timing models",

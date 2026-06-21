@@ -30,11 +30,11 @@
       "url": "https://strandsagents.com/latest/documentation/docs/"
     }
   ],
-  "edge": "Model-driven loop — give it a model, tools, and a prompt and it plans the steps itself; model-agnostic with native MCP and OpenTelemetry tracing.",
+  "edge": "Lets the model plan the loop instead of hardcoding it, so agents need less orchestration scaffolding than graph-based frameworks.",
   "pros": [
-    "Simple model-driven agent loop",
     "Python and TypeScript SDKs",
     "Native MCP support, 20+ built-in tools",
+    "Model-agnostic across providers",
     "Observability built in",
     "Battle-tested inside Amazon"
   ],

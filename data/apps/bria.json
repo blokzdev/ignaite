@@ -29,10 +29,9 @@
   "addedAt": "2026-06-14",
   "addedSeq": 580,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Trains its models exclusively on licensed data (Getty, Alamy, Envato) with IP indemnification — output is safe for commercial use where provenance matters.",
+  "edge": "Trains its models exclusively on licensed data with IP indemnification — output is safe for commercial use where provenance matters.",
   "pros": [
-    "Models trained only on licensed data",
-    "IP indemnification on generated outputs",
+    "Sourced from Getty, Alamy, and Envato",
     "Structured controls (VGL) beyond prompts",
     "Cloud, BYOC, or on-prem deployment",
     "Models available on Hugging Face"

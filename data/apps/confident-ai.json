@@ -35,8 +35,8 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Pairs research-backed eval metrics with production tracing, red-teaming, and governance in one platform — from the team behind DeepEval.",
   "pros": [
-    "Built on open-source DeepEval",
-    "Eval + observability + red-teaming",
+    "Built on the DeepEval framework",
+    "Unifies eval, observability & monitoring",
     "CI and OpenTelemetry integrations",
     "SOC 2 / HIPAA / self-host options"
   ],

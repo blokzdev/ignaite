@@ -30,10 +30,10 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Magic Studio is brand-aware — it pipes your Brand Kit colors, fonts, and voice into every AI generation.",
   "pros": [
-    "Brand Kit feeds every AI generation",
-    "Huge template + asset library",
     "Magic Write, Dream Lab, Magic Edit/Resize",
-    "Cross-platform: web, mobile, desktop"
+    "Huge template + asset library",
+    "Cross-platform: web, mobile, desktop",
+    "Beginner-friendly drag-and-drop editor"
   ],
   "cons": [
     "Best AI features need Pro subscription",

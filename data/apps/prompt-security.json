@@ -30,9 +30,9 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Covers both employee GenAI use (shadow-AI visibility) and homegrown LLM apps in one runtime layer — now backed by SentinelOne.",
   "pros": [
-    "Shadow-AI visibility for employee tools",
-    "Runtime data-leak and injection defense",
-    "Covers both usage and homegrown apps",
+    "Real-time data-leak prevention",
+    "Blocks prompt-injection attacks",
+    "Browser-extension and API coverage",
     "Part of SentinelOne Singularity platform"
   ],
   "cons": [

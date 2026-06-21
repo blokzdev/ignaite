@@ -1,6 +1,6 @@
 {
   "slug": "inkeep",
-  "insight": "Raised a $13M seed in 2025 led by Khosla Ventures; its agent framework is source-available and deployed by Anthropic and Midjourney.",
+  "insight": "Raised a $13M seed in 2025 led by Khosla Ventures; counts Anthropic, Midjourney, and Pinecone among its users.",
   "name": "Inkeep",
   "tagline": "Source-available platform for building AI agents for support and docs.",
   "description": "Inkeep is an AI agent platform for customer-experience and operations teams, pairing a no-code visual builder with a TypeScript framework that stay in two-way sync. Agents draw on unified search and RAG over your docs and company data, connect to apps via MCPs and integrations, and report monitoring insights. The Inkeep Agents framework is source-available on GitHub and self-hostable, alongside a managed cloud.",
@@ -31,11 +31,10 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Bridges a no-code visual builder and a TypeScript agent framework with two-way sync, so non-developers and engineers build the same agents.",
   "pros": [
-    "No-code builder plus TypeScript framework",
-    "Two-way sync between visual and code",
     "Unified RAG over docs and company data",
-    "Source-available and self-hostable",
-    "Trusted by Anthropic, Midjourney, Pinecone"
+    "Self-hostable or managed cloud",
+    "Connects to apps via MCP",
+    "Monitoring and insights built in"
   ],
   "cons": [
     "Elastic License 2.0 restricts competing use",

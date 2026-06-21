@@ -26,8 +26,8 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Runs one proprietary speech-to-speech model at sub-300ms latency instead of an STT→LLM→TTS chain, with eval and observability built in for voice agents.",
   "pros": [
-    "Own end-to-end speech-to-speech models",
-    "Sub-300ms conversational latency",
+    "Reliable tool calling for voice agents",
+    "Natural turn-taking, low latency",
     "Built-in eval and observability",
     "Self-host / containerized option"
   ],

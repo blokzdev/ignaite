@@ -26,8 +26,8 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Grounds answers in licensed Westlaw and Practical Law content, so cites are verifiable rather than open-web guesses.",
   "pros": [
-    "Backed by Thomson Reuters legal content",
-    "Westlaw + Practical Law + Microsoft 365 integration",
+    "Research, contract analysis, and drafting",
+    "Integrates into Microsoft 365 workflows",
     "Prompts not used to train models"
   ],
   "cons": ["Expensive enterprise pricing", "Not a standalone product", "US-centric legal coverage"],
