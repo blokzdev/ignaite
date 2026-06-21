@@ -43,7 +43,7 @@
   "pros": [
     "Generous free tier (1M events/mo)",
     "Open source, self-hostable",
-    "LLM analytics + replay + flags in one",
+    "Auto-clusters LLM traces by behavior",
     "Usage-based pricing scales down"
   ],
   "cons": [

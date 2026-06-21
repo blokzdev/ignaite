@@ -25,11 +25,11 @@
   "addedAt": "2026-06-20",
   "addedSeq": 898,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Specializes in enterprise contract drafting, review and negotiation — with a Word add-in and natural-language search across your entire contract repository.",
+  "edge": "Works inside Microsoft Word and runs natural-language search across your entire contract repository, not just one document at a time.",
   "pros": [
-    "Strong contract review and negotiation focus",
-    "Microsoft Word add-in (Contract Copilot)",
-    "Repository-wide contract Q&A",
+    "Extracts terms and flags contract risks",
+    "Built on Claude with proprietary data",
+    "Drafting, review, and negotiation in one",
     "Used by large enterprises and banks"
   ],
   "cons": [

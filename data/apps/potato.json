@@ -23,7 +23,7 @@
   "insight": "Raised a $4.5M seed (2025); partners with Ginkgo Automation to run AI-designed protocols on lab robots.",
   "edge": "Goes beyond literature Q&A: turns AI-generated protocols into robot-executable scripts for autonomous wet-lab experiments.",
   "pros": [
-    "AI co-scientist for the full experiment loop",
+    "Plans and runs the full experiment loop",
     "Protocol-to-robot script generation",
     "Literature search and synthesis",
     "Used at major university labs",

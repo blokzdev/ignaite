@@ -3,7 +3,7 @@
   "name": "Memories.ai",
   "tagline": "A 'visual memory' layer for AI — search and reason over huge video libraries.",
   "description": "Video understanding platform built around a large visual memory model. It ingests long-form and large-scale video, then supports natural-language search, transcription, clip retrieval, and content analysis with unlimited video context. Applied to security and surveillance review, sports analytics, media production, and robotics, with a free playground and on-device processing options.",
-  "insight": "Backed by Qualcomm, Samsung and NVIDIA's venture arms.",
+  "insight": "Founded in 2024 by ex-Meta engineers who built the AI behind the Ray-Ban smart glasses.",
   "category": "vision",
   "secondaryCategories": ["memory"],
   "pricing": "freemium",

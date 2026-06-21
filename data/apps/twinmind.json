@@ -25,10 +25,10 @@
   "addedAt": "2026-06-15",
   "addedSeq": 776,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Transcribes meetings and conversations continuously for up to 17 hours on-device in 140+ languages, building a searchable personal memory.",
+  "edge": "Runs always-on for up to 17 hours of continuous capture, building a searchable personal memory rather than per-meeting transcripts.",
   "pros": [
     "On-device capture, privacy-first",
-    "Up to 17h continuous transcription",
+    "Notes, to-dos, and daily digests",
     "140+ languages via Ear-3 model",
     "Generous free tier",
     "iOS, Android, and Chrome"

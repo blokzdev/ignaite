@@ -2,7 +2,7 @@
   "slug": "unsloth",
   "insight": "Built by Australian brothers Daniel and Michael Han (YC S24); Daniel made his name upstream-fixing bugs in Gemma, Llama and Mistral.",
   "name": "Unsloth",
-  "tagline": "Fine-tune open LLMs 2x faster with far less VRAM. Open source.",
+  "tagline": "Fine-tune open LLMs faster with far less VRAM.",
   "description": "An open-source (Apache-2.0) framework for fine-tuning and running open-weight models with custom CUDA kernels — roughly 2x faster training and large VRAM savings, so 7B–13B models fit on a single consumer GPU. Free tier runs on Colab/Kaggle or locally; Pro and Enterprise tiers add multi-GPU and multi-node speedups. Exports to GGUF/Safetensors for llama.cpp, vLLM, and Ollama.",
   "category": "fine-tuning",
   "pricing": "freemium",
@@ -37,9 +37,9 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Hand-written CUDA kernels roughly halve fine-tuning time and VRAM, so 7B–13B models train on a single consumer GPU — free and Apache-2.0.",
   "pros": [
-    "~2x faster training, big VRAM savings",
-    "Fits larger models on one GPU",
-    "Open source (Apache-2.0)",
+    "LoRA, QLoRA, and full fine-tuning",
+    "Supports Llama, Qwen, Gemma, DeepSeek",
+    "Custom CUDA kernels under the hood",
     "Exports GGUF/Safetensors for llama.cpp/vLLM/Ollama",
     "Runs free on Colab/Kaggle"
   ],

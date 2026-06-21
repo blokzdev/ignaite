@@ -2,7 +2,7 @@
   "slug": "claude",
   "insight": "Made by Anthropic, founded in 2021 by ex-OpenAI staff including siblings Dario and Daniela Amodei.",
   "name": "Claude",
-  "tagline": "Anthropic's assistant. Thoughtful, long-context, strong at code + writing.",
+  "tagline": "Anthropic's AI assistant for chat, coding, and long-form writing.",
   "description": "The Claude consumer app — chat with Projects, artifacts, file analysis, and MCP connectors. Known for careful reasoning, large context, and being a strong writing + coding partner.",
   "category": "assistant",
   "pricing": "freemium",

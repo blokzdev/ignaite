@@ -1,8 +1,8 @@
 {
   "slug": "memu",
-  "insight": "Apache-2.0 licensed; its file-based memory design claims ~10x token reduction versus full-context recall, with ~14k GitHub stars.",
+  "insight": "Open-sourced under Apache-2.0 by NevaMind AI; the repo has drawn ~14k GitHub stars.",
   "name": "memU",
-  "tagline": "Open-source memory framework for long-running AI agents.",
+  "tagline": "Memory framework for long-running, always-on AI agents.",
   "description": "memU is a memory framework for proactive, always-on AI agents from NevaMind AI. It ingests multimodal inputs (conversations, documents, images), extracts them into structured memory organized as a hierarchical file system, and retrieves the right context via vector-indexed semantic recall. The approach is designed to keep agents online continuously at a fraction of the usual token cost. It is open source under Apache 2.0, with self-hosting plus a hosted cloud API.",
   "category": "memory",
   "vendor": "NevaMind AI",
@@ -31,8 +31,7 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Stores memories as a hierarchical file system rather than only vector embeddings, cutting context tokens roughly 10x for always-on agents.",
   "pros": [
-    "Apache-2.0 open source",
-    "File-based, ~10x token reduction",
+    "Built for proactive, always-on agents",
     "Semantic recall via vector indexing",
     "Self-host or hosted cloud API",
     "Multimodal memory ingestion"
