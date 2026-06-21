@@ -7,6 +7,7 @@
   "category": "video",
   "pricing": "freemium",
   "deployment": "local",
+  "status": "archived",
   "vendor": "Pickle",
   "platforms": ["macos"],
   "modelSupport": {
@@ -39,5 +40,14 @@
     "Paid plans capped by minutes"
   ],
   "bestFor": ["Camera-off video meetings", "Remote workers", "On-camera presence"],
-  "alternatives": ["heygen", "synthesia", "captions"]
+  "alternatives": ["heygen", "synthesia", "captions"],
+  "changelog": [
+    {
+      "date": "2026-06-21",
+      "kind": "archived",
+      "summary": "Archived — Pickle pivoted from the AI-avatar-for-video-calls app to a personal-AI 'memory OS' + AR glasses; the avatar is now only a sub-feature.",
+      "asOf": "2026-01-13",
+      "source": "https://sfstandard.com/2026/01/13/pickle-ai-soul-computer-vaporware/"
+    }
+  ]
 }

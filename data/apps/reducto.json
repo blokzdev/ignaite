@@ -1,6 +1,6 @@
 {
   "slug": "reducto",
-  "insight": "Founded in 2023 by MIT alumni; raised a $24.5M Series A led by Benchmark in 2025, with customers including Harvey, Scale AI and Vanta.",
+  "insight": "Founded 2023 by MIT alumni; a16z led a $75M Series B in Oct 2025, lifting total funding to $108M, with over a billion pages parsed.",
   "name": "Reducto",
   "tagline": "Agentic document parsing and extraction for AI teams, via one API.",
   "description": "A document-intelligence API that parses, splits, extracts, and edits PDFs, images, spreadsheets, and slides into clean, structured output for RAG and AI pipelines. It blends custom in-house models with frontier ones and bills via usage credits, automatically discounting pages it can parse without the heavier pipeline.",
@@ -30,7 +30,16 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 229,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-06-21",
+  "changelog": [
+    {
+      "date": "2026-06-21",
+      "kind": "updated",
+      "summary": "Funding updated — a16z led a $75M Series B (Oct 2025), bringing total funding to $108M (was a $24.5M Series A led by Benchmark).",
+      "asOf": "2025-10-14",
+      "source": "https://reducto.ai/blog/reducto-series-b-funding"
+    }
+  ],
   "edge": "Tuned for governed, regulated-industry extraction — claims higher accuracy on complex layouts than LlamaParse.",
   "pros": [
     "Strong on complex/nested table layouts",
