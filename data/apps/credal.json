@@ -31,7 +31,7 @@
   "insight": "Founded in 2022 by two ex-Palantir engineers; raised a $4.8M seed led by Spark Capital.",
   "edge": "Wraps enterprise agents in permission-syncing and audit governance across 50+ data sources — a security control plane, not just an agent builder.",
   "pros": [
-    "Permission sync from 50+ sources",
+    "Inherits permissions from source systems",
     "Full audit logging of agent runs",
     "Sensitive-data redaction / PII masking",
     "Deploys to Slack, ChatGPT, Claude",

@@ -25,11 +25,11 @@
   "addedAt": "2026-06-07",
   "addedSeq": 175,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Largest hub for open image models — every feed image links to the exact model, prompt, and settings that made it.",
+  "edge": "Every feed image links to the exact model, prompt, and settings that made it — reproducibility most model galleries lack.",
   "pros": [
     "Thousands of SD/Flux checkpoints and LoRAs",
-    "Images paired with reproducible prompts",
     "On-site browser generation",
+    "Sample galleries on every model",
     "Platform code is Apache-2.0 open source"
   ],
   "cons": [

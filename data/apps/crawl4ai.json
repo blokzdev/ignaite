@@ -34,12 +34,12 @@
   "addedAt": "2026-06-08",
   "addedSeq": 238,
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Apache-2.0, self-host-first crawler whose core needs no API key, among GitHub's most-starred web-to-Markdown tools.",
+  "edge": "Self-host-first crawler whose core needs no API key, among GitHub's most-starred web-to-Markdown tools.",
   "pros": [
-    "Free, Apache-2.0, self-host",
-    "No API key for core",
+    "Core runs fully locally",
     "Handles JS rendering",
-    "Clean LLM-ready Markdown"
+    "Clean LLM-ready Markdown",
+    "Python library, CLI, or Docker server"
   ],
   "cons": ["You run the infra", "Hosted Cloud API still beta", "Optional LLM extraction adds cost"],
   "bestFor": ["RAG pipelines", "Self-hosted scraping"],

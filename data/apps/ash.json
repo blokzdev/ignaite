@@ -3,7 +3,7 @@
   "name": "Ash",
   "tagline": "AI built specifically for therapy and mental-health support.",
   "description": "Ash is a mental-health support app built on a purpose-built psychology foundation model rather than a general-purpose chatbot. It draws on therapeutic approaches like CBT, DBT, ACT and motivational interviewing to help users work through thoughts and patterns, and is designed to challenge rather than simply validate. Free on iOS and Android; positioned as support, not a replacement for a licensed therapist.",
-  "insight": "Runs on a purpose-built psychology foundation model; maker Slingshot AI raised $93M and launched Ash publicly in July 2025.",
+  "insight": "Maker Slingshot AI raised $93M (a16z-backed) and launched Ash publicly in July 2025.",
   "category": "healthcare",
   "secondaryCategories": ["companion"],
   "pricing": "free",

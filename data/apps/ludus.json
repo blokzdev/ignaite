@@ -27,7 +27,7 @@
   "edge": "Runs inside Unreal Engine 5 itself, generating C++, Blueprints and textured 3D models from prompts without leaving the editor.",
   "pros": [
     "Native to the Unreal Engine 5 editor",
-    "Generates C++, Blueprints and 3D models",
+    "Agent mode chains multi-step changes",
     "Context-aware Unreal docs and explanations",
     "Free tier plus indie-priced plan"
   ],

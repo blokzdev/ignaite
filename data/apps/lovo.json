@@ -2,7 +2,7 @@
   "slug": "lovo",
   "insight": "Backed by Kakao Entertainment and LG CNS ($13.4M raised); its Genny platform has passed 2 million users.",
   "name": "LOVO AI",
-  "tagline": "AI voice generation studio with 500+ voices, voice cloning and a built-in video editor.",
+  "tagline": "AI voice generation studio with voice cloning and a built-in video editor.",
   "description": "LOVO AI's Genny platform generates text-to-speech voiceovers in 500+ voices across 100+ languages, with voice cloning from short samples and directable, expressive delivery. The browser-based studio bundles an online video editor, auto subtitles, an AI script writer and a developer API, targeting creators producing YouTube videos, e-learning, podcasts and ads.",
   "category": "voice",
   "secondaryCategories": ["audio"],
@@ -25,11 +25,11 @@
   "addedAt": "2026-06-19",
   "addedSeq": 882,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Bundles 500+ voices in 100+ languages with a video editor, subtitle generator and voice cloning in one browser studio, instead of TTS alone.",
+  "edge": "Bundles 500+ voices in 100+ languages with a video editor and subtitle generator in one browser studio, instead of TTS alone.",
   "pros": [
-    "500+ voices across 100+ languages",
-    "All-in-one studio with video editor and subtitles",
+    "Large voice library across many languages",
     "Voice cloning from short samples",
+    "Auto subtitles and AI script writer",
     "Free plan and developer API"
   ],
   "cons": [

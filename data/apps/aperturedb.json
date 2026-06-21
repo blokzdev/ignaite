@@ -34,7 +34,6 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "One database for vectors, a knowledge graph, and the underlying images and video — no separate object store or graph DB to stitch together.",
   "pros": [
-    "Unifies vectors, graph, and media",
     "Built for images, video, and documents",
     "Cloud or self-hosted deployment",
     "Strong multimodal retrieval"
