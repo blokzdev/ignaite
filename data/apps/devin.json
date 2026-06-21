@@ -29,7 +29,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 56,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-06-21",
   "edge": "Runs asynchronously in its own cloud sandbox aimed at whole tickets, not autocomplete — plans, codes, and opens a PR.",
   "pros": [
     "Autonomous, async whole-ticket work",
