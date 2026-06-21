@@ -1,0 +1,61 @@
+{
+  "slug": "lakefs",
+  "name": "lakeFS",
+  "tagline": "Git-like version control for data lakes over your existing object storage.",
+  "description": "Open-source data version control that turns object storage (S3, GCS, Azure Blob, MinIO) into Git-like repositories. Teams branch, commit, merge, and roll back petabyte-scale data lakes for isolated experimentation, reproducible ML pipelines, data-quality gates, and compliance lineage — without copying data. Integrates with Spark, Trino, Databricks, Delta Lake, and Iceberg.",
+  "insight": "lakeFS acquired DVC (Data Version Control), uniting two leading open-source data-versioning projects under one roof.",
+  "category": "data-ops",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Treeverse",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Data versioning infrastructure — no LLM involved."
+  },
+  "tags": [
+    "data-versioning",
+    "data-lake",
+    "mlops",
+    "reproducibility",
+    "object-storage",
+    "open-source"
+  ],
+  "links": [
+    { "kind": "website", "url": "https://lakefs.io", "primary": true },
+    { "kind": "github", "url": "https://github.com/treeverse/lakeFS" },
+    { "kind": "docs", "url": "https://docs.lakefs.io" }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 991,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Git-like branch, commit and merge over your existing object storage with zero data copy — versioning the whole data lake, not individual files.",
+  "pros": [
+    "Open source (Apache 2.0)",
+    "Git-like branch/commit/merge for data",
+    "Works over existing object storage",
+    "Integrates with Spark, Trino, Iceberg, Delta",
+    "Managed Cloud and self-host options"
+  ],
+  "cons": [
+    "Operational overhead to self-host",
+    "Aimed at data-lake-scale teams",
+    "Advanced features gated to paid tiers"
+  ],
+  "bestFor": [
+    "Data lake versioning",
+    "ML reproducibility",
+    "Data engineering teams",
+    "Data lineage and compliance"
+  ],
+  "alternatives": ["dvc", "deep-lake", "mlflow"],
+  "references": [
+    {
+      "title": "Data versioning in Red Hat OpenShift AI with lakeFS",
+      "url": "https://www.redhat.com/en/blog/data-versioning-red-hat-openshift-ai-lakefs",
+      "source": "Red Hat",
+      "kind": "guide"
+    }
+  ]
+}
