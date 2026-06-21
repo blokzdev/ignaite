@@ -1,6 +1,6 @@
 # Ignaite
 
-**Ignaite** is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line fact worth knowing. Built and operated by **Blokz Development Co.**
+**Ignaite** is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line fact worth knowing.
 
 The site is itself the product — and a demonstration of agentic engineering: the directory (`/`) is researched, written, and audited by Claude Code on recurring routines; `/about` explains how it's managed; `/contact` reaches the studio behind it.
 
