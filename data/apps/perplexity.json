@@ -34,7 +34,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 52,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-06-21",
   "edge": "Pairs a consumer cited-answer engine with the Sonar API, so the same retrieval layer powers both.",
   "pros": [
     "Inline citations on synthesized answers",

@@ -2,12 +2,12 @@
   "slug": "windsurf",
   "insight": "OpenAI’s ~$3B deal to buy it collapsed July 2025; Google licensed the tech for $2.4B and hired the CEO, and Cognition bought the rest.",
   "name": "Windsurf",
-  "tagline": "Agent-first IDE with the Cascade planning agent, from Codeium.",
+  "tagline": "Agent-first IDE with the Cascade planning agent.",
   "description": "Agent-first IDE that pairs autocomplete with Cascade, a planning-then-acting agent. Strong terminal integration; good when the diff spans many files.",
   "category": "ide",
   "pricing": "freemium",
   "deployment": "local",
-  "vendor": "Codeium",
+  "vendor": "Cognition",
   "platforms": ["macos", "windows", "linux"],
   "modelSupport": {
     "kind": "multi-model",
@@ -29,7 +29,15 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 48,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-06-21",
+  "changelog": [
+    {
+      "date": "2026-06-21",
+      "kind": "updated",
+      "summary": "Vendor corrected Codeium → Cognition: windsurf.com now permanently redirects to devin.ai/desktop, where the product is rebranded 'Devin Desktop' under Cognition.",
+      "source": "https://devin.ai/desktop"
+    }
+  ],
   "edge": "Cascade plans before it edits, paying off on multi-file changes — with a cleaner, less busy UX than rivals.",
   "pros": [
     "Cascade agent plans then acts",

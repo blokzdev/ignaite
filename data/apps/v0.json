@@ -29,7 +29,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 46,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-06-21",
   "edge": "Emits real shadcn/ui + Tailwind React code you can paste into a project — production primitives, not throwaway mockup markup.",
   "pros": [
     "Uses production shadcn/ui primitives",
