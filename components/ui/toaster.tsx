@@ -3,7 +3,7 @@ import type { CSSProperties } from "react";
 import { Toaster as SonnerToaster } from "sonner";
 
 // Token-themed sonner host. sonner reads these CSS custom properties for its
-// default toast surface; we point them at the Blokz palette. sonner already
+// default toast surface; we point them at the Ignaite palette. sonner already
 // respects prefers-reduced-motion internally.
 const tokenStyle = {
   "--normal-bg": "var(--color-surface)",

@@ -1,14 +1,14 @@
 # CLAUDE.md
 
-This file is the contract between you (Claude) and this codebase. Read it end-to-end before making non-trivial changes. It documents the v2 architecture, conventions, and agent guardrails for the Ignaite (ignaite.app) landing site — the product, operated by Blokz Development Co. For the forward-looking plan of record (iterations + chunks) see `Roadmap.md`; for tracked-but-deferred items see `BACKLOG.md`. (The original `/root/.claude/plans/*.md` lives only in the ephemeral dev environment and is not the source of truth.)
+This file is the contract between you (Claude) and this codebase. Read it end-to-end before making non-trivial changes. It documents the v2 architecture, conventions, and agent guardrails for the Ignaite (ignaite.app) landing site — the product, operated by Ignaite Labs. For the forward-looking plan of record (iterations + chunks) see `Roadmap.md`; for tracked-but-deferred items see `BACKLOG.md`. (The original `/root/.claude/plans/*.md` lives only in the ephemeral dev environment and is not the source of truth.)
 
 ---
 
 ## 1. Overview
 
-**Ignaite** (ignaite.app) is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line fact worth knowing. It is built and operated by **Blokz Development Company** (the studio, credited in the footer colophon), and is itself a demonstration of agentic engineering. The public surface is the **directory** (`/`), how it's managed (`/about`), and contact (`/contact`).
+**Ignaite** (ignaite.app) is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line fact worth knowing. It is built and operated by **Ignaite Labs** (credited in the footer colophon), and is itself a demonstration of agentic engineering. The public surface is the **directory** (`/`), how it's managed (`/about`), and contact (`/contact`).
 
-> **The portfolio is REMOVED.** The studio's earlier non-AI work (nine Android blockchain explorers + the WebSight OSS seed) was first unpublished, then fully deleted in Chunk V — code, data, and assets (`app/(marketing)/_portfolio/`, `components/apps/*`, `components/home/stats-strip.tsx`, `data/{projects,chains}.ts`, `lib/projects.ts`, `types/project.ts`). **The archive is git history: commit `12c3978`** (the last commit containing the tree). The inbound redirects (`/portfolio/*`, legacy `/apps/<slug>` explorers → `/about`) remain in `next.config.ts`. To revive: restore the paths from that commit, then follow the BACKLOG `[future]` migration note (per-file JSON + zod, mirroring the apps data layer).
+> **The portfolio is REMOVED.** The earlier non-AI work (nine Android blockchain explorers + the WebSight OSS seed) was first unpublished, then fully deleted in Chunk V — code, data, and assets (`app/(marketing)/_portfolio/`, `components/apps/*`, `components/home/stats-strip.tsx`, `data/{projects,chains}.ts`, `lib/projects.ts`, `types/project.ts`). **The archive is git history: commit `12c3978`** (the last commit containing the tree). The inbound redirects (`/portfolio/*`, legacy `/apps/<slug>` explorers → `/about`) remain in `next.config.ts`. To revive: restore the paths from that commit, then follow the BACKLOG `[future]` migration note (per-file JSON + zod, mirroring the apps data layer).
 
 > **`/workflow` is dormant.** The 4-stage Claude Code session walkthrough + 12 MDX artifacts were unpublished (Iteration 5, out-of-sequence product-direction change) to keep the homepage directory-focused and the detailed agentic process semi-proprietary. All of it is **retained in the repo** under the Next private folder `app/(marketing)/_workflow/` (underscore = excluded from routing), along with `components/workflow/*`, `components/claude-chat/*`, `content/workflow/*`, `hooks/use-workflow-*`, and `types/workflow.ts`. To republish: rename `_workflow` → `workflow` and re-add the references listed in `BACKLOG.md`. Everywhere below that describes `/workflow` as live should be read through this lens.
 
@@ -79,7 +79,7 @@ app/                              # Next App Router
     layout.tsx                    #   sets <SiteNav/> + <SiteFooter/>
     page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~460 entries across 43 categories)
     about/
-      page.tsx                    #   /about — studio identity (Hero, Now/Next, manifesto, How we work)
+      page.tsx                    #   /about — operator identity (Hero, Now/Next, manifesto, How we work)
       opengraph-image.tsx         #   per-route OG
     apps/
       [slug]/page.tsx             #   /apps/<slug> — directory-app detail (SSG; renders components/tools/app-detail)
@@ -110,7 +110,7 @@ app/                              # Next App Router
 #               re-exported derived types) · velite.config.ts → generated
 #               .velite/ (full apps.json + slim apps-search.json) · lib/apps.ts ·
 #               components/tools/*
-#   PORTFOLIO = Blokz's own shipped apps. REMOVED in Chunk V (see §1) — restore
+#   PORTFOLIO = the operator's own shipped apps. REMOVED in Chunk V (see §1) — restore
 #               from git commit 12c3978 if revived. Only the inbound redirects
 #               survive (next.config.ts).
 # ─────────────────────────────────────────────────────────────────────────
@@ -442,7 +442,7 @@ Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biw
 **Vocabulary**:
 
 - **Vibecoding** — agentic engineering: conceptualizing, prompting, and shipping software end-to-end with an AI agent as primary author and human as architect/reviewer.
-- **Sample products** — the three fictional products narrated across `/workflow` and its artifacts: **Blokz Brief** (arxiv → paper digest), **Eval Forge** (spec → eval suite), **Edge Memo** (on-device meeting capture). Not real products — illustrative of the workflow only. (The earlier single "Blokz Receipt" placeholder was retired.)
+- **Sample products** — the three fictional products narrated across `/workflow` and its artifacts: **Ignaite Brief** (arxiv → paper digest), **Eval Forge** (spec → eval suite), **Edge Memo** (on-device meeting capture). Not real products — illustrative of the workflow only. (The earlier single "Ignaite Receipt" placeholder was retired.)
 - **Glass card** — the standard surface treatment (recipe in §7).
 
 **Brand asset registry**: see `data/brand.ts` for the live source-of-truth (extracted from legacy v1 `settings.json` before cleanup). Shape includes `name`, `legalName`, `domain`, `tagline`, `positioning`, `headline` (eyebrow/title/titleAccent/sub for the hero), `logo` (PNG src/alt/width/height — swap to `/public/brand/logo.svg` once a vector is supplied), `social` (telegram/github/linkedin/twitter/gdev/email/playStore/flowPage), and `nav` (top-level routes). Add new brand-level constants here rather than hardcoding.

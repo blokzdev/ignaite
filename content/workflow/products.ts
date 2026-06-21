@@ -3,7 +3,7 @@ import type { WorkflowProduct, WorkflowProductMeta } from "@/types/workflow";
 export const products: Record<WorkflowProduct, WorkflowProductMeta> = {
   brief: {
     id: "brief",
-    name: "Blokz Brief",
+    name: "Ignaite Brief",
     short: "Brief",
     tagline: "Arxiv link → structured paper digest.",
     description:

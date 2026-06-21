@@ -3,7 +3,7 @@ description: Research and author one or more new apps into the directory (data/a
 argument-hint: <app name | url | comma-separated list>
 ---
 
-You are adding new entries to the Blokz.dev **AI-apps directory**. Each listing is **one JSON file**
+You are adding new entries to the Ignaite **AI-apps directory**. Each listing is **one JSON file**
 at `data/apps/<slug>.json`, validated at build by the zod schema in `lib/apps-schema.ts` (the source
 of truth) and aggregated by Velite. The directory is the product — accuracy and consistency matter
 more than speed. **Never fabricate a fact.**
@@ -109,7 +109,7 @@ Conventions (match existing entries):
   - **`references`** (≤4) — `{ title (≤80), url, source? (≤40), kind? }` (kind ∈ review|guide|benchmark|comparison|interview|analysis).
     **Third-party** coverage independent of the vendor (NOT its own site/docs). **Only real URLs you
     actually fetched — never construct a plausible link.** Omit if none verifiable.
-- **No cross-field redundancy** — each distinctive point gets ONE home. The `tagline` *describes*
+- **No cross-field redundancy** — each distinctive point gets ONE home. The `tagline` _describes_
   what the app is/does; it does **not** sell (no stats, superlatives, or comparative claims — those
   are `edge`/`pros`, and a headline stat belongs in `description`). A distinctive stat/phrase (e.g.
   "130+ languages", "50M+ users") may appear in `description` **once** + **at most one** of

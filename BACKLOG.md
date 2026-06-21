@@ -23,14 +23,15 @@ These gate a clean v2 launch. Everything else can ship without.
 - [ ] **[user]** Set Vercel env vars (Production + Preview): `RESEND_API_KEY`, `CONTACT_TO_EMAIL=team@ignaite.app`, optional `CONTACT_FROM_EMAIL`, `NEXT_PUBLIC_SITE_URL=https://ignaite.app`. Without `RESEND_API_KEY` the contact form returns an "Email is offline" notice instead of submitting.
 - [ ] **[user]** Verify the `ignaite.app` domain inside Resend (Settings → Domains) so the contact form can send from `Ignaite <hello@ignaite.app>`. Until verified, leave `CONTACT_FROM_EMAIL` unset and the form falls back to `onboarding@resend.dev`.
 - [ ] **[user]** Confirm `team@ignaite.app` is actively monitored (the destination for every form submission). Optionally mirror submissions to a Telegram/Discord webhook on submit.
-- [ ] **[future]** Rebrand cutover leftovers — when `/workflow` or `/portfolio` is revived, rebrand the dormant Blokz references they carry: the fictional "Blokz Brief" sample + `*.blokz.dev` subdomains in `content/workflow/**` and `components/workflow/workflow-intro.tsx`, `data/projects.ts` (portfolio), and the `next.config.ts` slugs `blokz-oss`/`blokz-ai-incoming`. Internal event/storage keys `blokz:*` are non-user-facing and can stay. The product is now **Ignaite** (ignaite.app); the company stays **Blokz Development Co.**
+- [ ] **[user]** Create Ignaite-branded social accounts, then swap the kept `@blokzdev` links + displays in `data/brand.ts` (`social.*`) and `app/(marketing)/contact/page.tsx`. Structural ones (`github.com/blokzdev` org, `g.dev/blokz`, the Play Store dev account) need real account migration, not just a URL edit; the `&via=blokzdev` X share-attribution in `components/detail/use-share-model.ts` and the internal `blokz:*` event/storage keys follow the same accounts and can stay until then.
+- [ ] **[future]** Rebrand cutover leftovers — the operator is now **Ignaite Labs** and the dormant `/workflow` Blokz references were rebranded in the Ignaite Labs pass. Remaining when `/portfolio` is revived: rebrand `data/projects.ts` (portfolio) and the `next.config.ts` legacy slugs `blokz-oss`/`blokz-ai-incoming`. Internal event/storage keys `blokz:*` are non-user-facing and can stay; the `blokz.dev` inbound redirect is a real structural domain and stays.
 - [ ] **[verify]** Confirm `public/app-ads.txt` is still required by Play Store ad SDKs (preserved verbatim from the legacy site).
 
 ## Pre-launch polish (optional, can ship without)
 
 Things that would make the site feel more "us" before the world sees it.
 
-- [ ] **[user]** Provide a vector SVG Blokz logo (wordmark + monogram). Replace the legacy `cdn.glitch.global` PNG referenced in `data/brand.ts` with `/public/brand/logo.svg`. Affects nav, footer, manifest icon, OG.
+- [ ] **[user]** Provide a vector SVG Ignaite logo (wordmark + monogram). Replace the legacy `cdn.glitch.global` PNG referenced in `data/brand.ts` with `/public/brand/logo.svg`. Affects nav, footer, manifest icon, OG.
 - [ ] **[user]** Rewrite manifesto principles in `content/manifesto/principles.ts` to your voice. Five-card grid; ≤ 2 short sentences per principle.
 - [ ] **[user]** Rewrite the hero headline block in `data/brand.ts` (`brand.headline.eyebrow / title / titleAccent / sub`) if the current copy doesn't ring true.
 - [ ] **[user]** Workflow **artifact** copy — voice/tone polish. The narrative transcripts in `content/workflow/stages.ts` were revoiced to the founder register in K-3 (see Resolved); the 12 MDX artifacts under `content/workflow/artifacts/<product>/<type>.mdx` are still in their first-draft voice. Read them through and tune to your personal voice before launch (the structure + depth are done).
@@ -78,7 +79,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 >    badge (`components/footer/site-footer.tsx`) links to `/about#how-we-work`. Consider whether the
 >    new `components/home/how-we-work.tsx` `/about` band should stay alongside a republished `/workflow`.
 >
-> - [ ] **[future]** Build one or more of the three sample products for real — **Blokz Brief** (arxiv →
+> - [ ] **[future]** Build one or more of the three sample products for real — **Ignaite Brief** (arxiv →
 >       paper digest), **Eval Forge** (spec → eval suite), **Edge Memo** (on-device meeting capture) — as
 >       actual shipped apps and/or directory entries, rather than illustrative-only workflow narratives.
 > - [ ] **[future]** **Remove the dormant `_workflow` tree entirely** (the end-state, _not_ a Velite

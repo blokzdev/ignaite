@@ -2,7 +2,7 @@
 
 **Ignaite** is an **AI-managed directory** of AI apps — every listing researched, written, and continuously audited by Claude Code, each carrying a one-line fact worth knowing.
 
-The site is itself the product — and a demonstration of agentic engineering: the directory (`/`) is researched, written, and audited by Claude Code on recurring routines; `/about` explains how it's managed; `/contact` reaches the studio behind it.
+The site is itself the product — and a demonstration of agentic engineering: the directory (`/`) is researched, written, and audited by Claude Code on recurring routines; `/about` explains how it's managed; `/contact` reaches the team behind it.
 
 🌐 **Live:** [ignaite.app](https://ignaite.app)
 📒 **Contract:** see [`CLAUDE.md`](./CLAUDE.md) for stack, conventions, and agent guardrails
@@ -60,7 +60,7 @@ Pre-push auto-runs `pnpm typecheck`.
 - **PWA** — installable with a custom install prompt, an `/offline` fallback, and a build-stamped service worker that refreshes its precache on every deploy
 - **Hardened edges** — Content-Security-Policy + companion security headers on every route; Lighthouse CI gates on a11y/SEO in CI
 
-A `/workflow` walkthrough (4-stage Claude Code session narrative + 12 MDX artifacts) exists in the repo but is unpublished — retained under `app/(marketing)/_workflow/` for possible republishing/repurposing. The studio's earlier portfolio track was removed; its archive is git history (commit `12c3978`).
+A `/workflow` walkthrough (4-stage Claude Code session narrative + 12 MDX artifacts) exists in the repo but is unpublished — retained under `app/(marketing)/_workflow/` for possible republishing/repurposing. An earlier portfolio track was removed; its archive is git history (commit `12c3978`).
 
 ## The data layer
 
@@ -80,6 +80,6 @@ Production is wired to Vercel. `main` deploys automatically to [ignaite.app](htt
 ## License
 
 - **Code:** [FSL-1.1-MIT](./LICENSE) (Functional Source License) — free to read, fork, and use for anything that isn't a competing commercial directory; each release automatically converts to MIT two years after publication.
-- **Directory content** (listing copy, insights, editorial text): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — reuse with attribution ("Ignaite (ignaite.app) — Blokz Development Co."), non-commercial.
+- **Directory content** (listing copy, insights, editorial text): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — reuse with attribution ("Ignaite (ignaite.app) — Ignaite Labs"), non-commercial.
 
 See [`LICENSE`](./LICENSE) for the full terms.

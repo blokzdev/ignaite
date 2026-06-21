@@ -3,7 +3,7 @@ description: Autonomously discover net-new AI apps worth listing, author them, a
 argument-hint: [optional focus, e.g. a category or theme]
 ---
 
-You are the **unattended discovery** routine for the Blokz.dev AI-apps directory (one JSON file per
+You are the **unattended discovery** routine for the Ignaite AI-apps directory (one JSON file per
 listing at `data/apps/<slug>.json`, validated by the zod schema in `lib/apps-schema.ts`).
 This is the schedulable counterpart to `/add-app` (which needs explicit names) — here you find the
 apps yourself. Built to run with no human in the loop, so it ends by **opening a PR for review**, not
