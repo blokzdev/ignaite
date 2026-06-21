@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "Ships pre-trained AI SOC analysts that investigate alerts end-to-end out of the box — no playbooks or detection rules to author first.",
   "pros": [
-    "Autonomous end-to-end investigations",
+    "Covers phishing, endpoint, cloud, identity",
     "Integrates Splunk, CrowdStrike, Defender",
     "Deploys in about an hour via APIs",
     "300+ deployments incl. UiPath, Zapier"

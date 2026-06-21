@@ -31,8 +31,8 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Delta-only incremental recomputation keeps context fresh without rebuilding the whole pipeline, with data lineage tracked end to end.",
   "pros": [
-    "Apache-2.0 with a Rust core",
-    "Incremental, delta-only processing",
+    "Parallel execution by default",
+    "Ingests code, PDFs, DBs, and Slack",
     "Declarative Python pipelines",
     "End-to-end lineage + CocoInsight UI"
   ],

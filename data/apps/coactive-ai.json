@@ -25,7 +25,7 @@
   "addedAt": "2026-06-15",
   "addedSeq": 717,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Indexes images and video straight from pixels and audio — no manual tagging — so teams can semantically search and structure visual libraries at scale.",
+  "edge": "Reads meaning straight from pixels and audio, so visual archives become searchable without the manual tagging legacy DAM tools demand.",
   "pros": [
     "Search visual data with no tagging",
     "Scales to large enterprise archives",

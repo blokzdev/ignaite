@@ -32,7 +32,7 @@
   "edge": "One API for cross-modal retrieval over video, audio, images, and documents — joining faces, transcripts, and on-screen text in a single query.",
   "pros": [
     "Searches video, image, audio, and docs",
-    "Cross-modal joins in one query",
+    "Extracts faces, scenes, OCR, transcripts",
     "Hybrid dense/sparse/BM25 retrieval",
     "Indexes directly from object storage",
     "Free vector-store tier"

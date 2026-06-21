@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Runs its in-house OCR-3 extraction model plus agentic routing into ERPs, with VPC/on-prem and regional data residency.",
   "pros": [
-    "In-house OCR-3 extraction model",
+    "Handles invoices, orders, contracts, claims",
     "Agentic routing into ERPs and approvals",
     "VPC, single-tenant, on-prem options",
     "Regional data residency"

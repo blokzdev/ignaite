@@ -1,7 +1,7 @@
 {
   "slug": "kestra",
   "name": "Kestra",
-  "tagline": "Open-source orchestration for data, AI, and infrastructure workflows.",
+  "tagline": "Orchestration for data, AI, and infrastructure workflows as declarative YAML.",
   "description": "Kestra is an open-source orchestration platform for building data, AI, and infrastructure pipelines as declarative YAML workflows. It is event-driven and language-agnostic, running Python, Bash, Node, Go, or containers across 1,500+ plugins, with a web UI for monitoring plus governance features like RBAC and audit logs. It ships as free self-hosted open source alongside paid Cloud and Enterprise editions.",
   "insight": "Raised a $25M Series A in March 2026, bringing its total funding to about $36M.",
   "category": "orchestration",
@@ -37,8 +37,8 @@
   "pros": [
     "Declarative YAML, low-code workflows",
     "Event-driven plus scheduled execution",
-    "1,500+ plugins, language-agnostic",
-    "Apache-2.0 open source, self-hostable",
+    "Language-agnostic with a broad plugin set",
+    "Self-hostable, Apache-2.0 licensed",
     "Scales to enterprise (RBAC, audit logs)"
   ],
   "cons": [

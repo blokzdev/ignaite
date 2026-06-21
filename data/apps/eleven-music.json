@@ -1,7 +1,7 @@
 {
   "slug": "eleven-music",
   "name": "Eleven Music",
-  "insight": "Launched August 2025 trained only on music licensed via Merlin and Kobalt deals, on a 50/50 royalty split.",
+  "insight": "Its Merlin and Kobalt licensing deals run on a 50/50 royalty split with rightsholders; launched August 2025.",
   "tagline": "Generate studio-quality, commercially cleared songs from a text prompt.",
   "description": "Eleven Music is ElevenLabs' AI music generator, turning text prompts into full songs with vocals and instrumentals across genres and languages. Unlike its rivals, the model is trained only on licensed catalogs — via deals with the Merlin network and publisher Kobalt — so generated tracks are cleared for commercial use. It launched in August 2025 and is offered through ElevenLabs' platform and API.",
   "category": "music",
@@ -28,7 +28,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Trained only on licensed music (Merlin, Kobalt) so output is cleared for commercial use — unlike Suno and Udio, which face label lawsuits.",
   "pros": [
-    "Trained on licensed data, commercially safe",
+    "Tracks cleared for commercial use",
     "High audio quality with vocal control",
     "Multi-language song generation",
     "Available via web and API"

@@ -2,7 +2,7 @@
   "slug": "deepeval",
   "insight": "Built by Confident AI (YC W25, founded 2024); its open-source framework runs ~2M evaluations a day.",
   "name": "DeepEval",
-  "tagline": "Pytest-style LLM evaluation framework. Open source.",
+  "tagline": "Pytest-style framework for evaluating LLM apps in CI.",
   "description": "Open-source (Apache 2.0) framework for evaluating LLM apps the way Pytest tests code — assertions backed by 50+ ready metrics spanning LLM-as-judge, RAG, agents, conversation, and safety. Plugs into LangChain, CrewAI, OpenAI Agents and more. Confident AI is the paid cloud platform that adds test management, dashboards, and observability on top.",
   "category": "eval",
   "pricing": "freemium",
@@ -35,9 +35,9 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Write LLM evals as Pytest-style assertions and run them in CI, backed by 50+ metrics across RAG, agents, and safety.",
   "pros": [
-    "Pytest-style, CI-friendly",
-    "50+ ready metrics",
-    "Open-source, Apache-2.0",
+    "Assertions run in your CI pipeline",
+    "Metrics for RAG, agents, and safety",
+    "Bring any judge model (BYO key)",
     "Integrates LangChain/CrewAI/OpenAI"
   ],
   "cons": [

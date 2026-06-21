@@ -32,9 +32,9 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Boots Linux/Windows/macOS/Android VMs from one API for computer-use agents, hitting near-native speed on Apple Silicon via Apple's Virtualization.framework.",
   "pros": [
-    "MIT-licensed open-source core",
-    "One API for Linux/Win/macOS/Android VMs",
-    "Near-native speed on Apple Silicon",
+    "Isolated VMs across four OS families",
+    "Agents control full desktops, not just browsers",
+    "SDKs and benchmarks included",
     "Run locally with any LLM",
     "Cloud, BYOC, or on-prem hosting"
   ],

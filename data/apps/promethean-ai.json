@@ -32,7 +32,7 @@
   "edge": "Built for pro game artists: dresses and populates 3D scenes inside your existing editor from your own asset library — no cloud upload required.",
   "pros": [
     "Works inside Unreal, Unity, Maya, Blender",
-    "Uses your own asset library, no cloud upload",
+    "Runs locally, no cloud upload of assets",
     "Free tier for individuals",
     "Built by an ex-Naughty Dog art director"
   ],

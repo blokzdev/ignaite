@@ -31,8 +31,8 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "Every extracted metric links back to the exact source document, giving analysts auditable fundamentals across 5,500+ tickers rather than black-box numbers.",
   "pros": [
-    "Source-linked, auditable data points",
-    "5,500+ tickers, up to 14 years history",
+    "Auditable: every number traces to filings",
+    "Up to 14 years of standardized history",
     "Free Data Sheets tier",
     "MCP and API access for AI tools",
     "Excel add-in for modeling"

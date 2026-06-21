@@ -25,9 +25,9 @@
   "addedAt": "2026-06-15",
   "addedSeq": 772,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Builds whole production pipelines via collaborating agents, not one-shot 'prompt to asset' outputs — aimed at studios shipping into Unreal and Blender.",
+  "edge": "Builds whole production pipelines via collaborating agents, not one-shot 'prompt to asset' outputs from a single model.",
   "pros": [
-    "Multi-agent pipelines, not single-model outputs",
+    "Generates 3D, 2D, and motion assets",
     "Targets production-ready studio workflows",
     "Exports to Unreal and Blender",
     "AAA partners incl. Square Enix and Shrapnel"

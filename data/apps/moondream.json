@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "One of the smallest open VLMs that still points, counts, and detects — a 0.5B checkpoint runs on-device.",
   "pros": [
-    "Tiny open-weights models (down to 0.5B)",
+    "Open-weights, free to self-host",
     "Runs on-device with Photon engine",
     "Does pointing, counting, detection",
     "OpenAI-compatible cloud API option"

@@ -32,7 +32,7 @@
   "edge": "Curation-first: picks the most informative frames via embeddings and active learning so you label and train on less data.",
   "pros": [
     "Embedding-based data curation and dedup",
-    "Active learning surfaces useful samples",
+    "Near-duplicate detection across datasets",
     "Self-supervised pretraining (LightlyTrain)",
     "Edge SDK for on-device selection",
     "Open-source SSL library to build on"

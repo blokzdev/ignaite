@@ -1,9 +1,9 @@
 {
   "slug": "dvc",
   "name": "DVC",
-  "tagline": "Open-source Git extension for versioning data, models, and ML experiments.",
+  "tagline": "Git extension for versioning data, models, and ML experiments.",
   "description": "DVC (Data Version Control) brings software-engineering practices to machine learning: it versions datasets, models, and pipelines alongside code in any Git repository, storing large files in your own remote storage while keeping lightweight pointers in Git. Enables reproducible experiments, data/model lineage, and pipeline orchestration from the command line.",
-  "insight": "Now part of lakeFS, which acquired the DVC project; it stays free and open source as the Git-extension companion to lakeFS.",
+  "insight": "Originally built by Iterative; the DVC project is now part of lakeFS, which acquired it and maintains it alongside its data-lake platform.",
   "category": "data-ops",
   "pricing": "free",
   "openSource": true,

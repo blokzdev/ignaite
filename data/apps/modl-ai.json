@@ -26,8 +26,8 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Tests games black-box through the screen — no SDK, plugins, or code changes — and takes plain-language test instructions like a human QA tester.",
   "pros": [
-    "No SDK or code integration needed",
-    "Plain-language test instructions",
+    "Tests black-box through the screen",
+    "Surfaces crashes and gameplay-logic bugs",
     "Bug reports with visual evidence + severity",
     "Player-simulation bots for multiplayer"
   ],

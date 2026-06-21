@@ -2,8 +2,8 @@
   "slug": "librechat",
   "insight": "Started in 2023 as solo developer Danny Avila's ChatGPT clone; now a community project with 30k+ GitHub stars.",
   "name": "LibreChat",
-  "tagline": "Self-hosted, open-source ChatGPT alternative unifying every major AI provider.",
-  "description": "A self-hosted AI chat platform that puts many providers behind one ChatGPT-style UI, with agents, code interpreter, web search, image generation, artifacts, file analysis, and multi-user auth. You run it yourself via Docker and supply your own model keys, or point it at a local Ollama/OpenAI-compatible endpoint. Fully open source under MIT — no cost for the software itself.",
+  "tagline": "Self-hosted ChatGPT alternative unifying every major AI provider.",
+  "description": "A self-hosted AI chat platform that puts many providers behind one ChatGPT-style UI, with agents, code interpreter, web search, image generation, artifacts, file analysis, and multi-user auth. You run it yourself via Docker and supply your own model keys, or point it at a local Ollama/OpenAI-compatible endpoint. The software is MIT-licensed at no cost.",
   "category": "assistant",
   "pricing": "byo-key",
   "openSource": true,
@@ -43,12 +43,12 @@
   "addedAt": "2026-06-06",
   "addedSeq": 101,
   "lastVerifiedAt": "2026-06-06",
-  "edge": "MIT-licensed with multi-user auth built in — the closest to a self-owned, team-wide ChatGPT across every provider.",
+  "edge": "Multi-user auth built in — the closest to a self-owned, team-wide ChatGPT across every provider.",
   "pros": [
-    "Open source (MIT), free software",
-    "Multi-user auth built in",
     "Unifies many providers in one UI",
-    "Agents, code, RAG, web search"
+    "Agents, code, RAG, web search",
+    "Runs on your own infrastructure",
+    "BYO keys or local endpoints"
   ],
   "cons": [
     "Self-host + Docker setup needed",

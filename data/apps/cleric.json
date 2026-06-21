@@ -14,7 +14,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 975,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Acts as an autonomous on-call teammate that triages alerts and root-causes in minutes with read-only access, not just another dashboard to read.",
+  "edge": "Acts as an autonomous on-call teammate that triages alerts and root-causes in minutes, not just another dashboard to read.",
   "pros": [
     "Autonomous alert triage",
     "~5-minute root-cause analysis",

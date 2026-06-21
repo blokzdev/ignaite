@@ -22,10 +22,10 @@
   "addedAt": "2026-06-16",
   "addedSeq": 828,
   "lastVerifiedAt": "2026-06-16",
-  "edge": "Turns text or phone-captured video into editable 3D character animation you can export to Unreal, Unity, Blender or Maya.",
+  "edge": "Output stays fully editable and drops into your existing DCC pipeline, unlike black-box generators that lock you into one app.",
   "pros": [
     "Text- and video-to-3D-animation",
-    "Editable output, not a black box",
+    "Skips slow keyframing and mocap",
     "Exports to Unreal, Unity, Blender, Maya",
     "Free Creator tier to start"
   ],

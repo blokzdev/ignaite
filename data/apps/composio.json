@@ -2,7 +2,7 @@
   "slug": "composio",
   "insight": "Founded 2023 by Soham Ganatra and Karan Vaidya; raised a $25M round led by Lightspeed in 2025.",
   "name": "Composio",
-  "tagline": "1000+ authenticated toolkits for AI agents, via MCP or API.",
+  "tagline": "Authenticated toolkits that give AI agents access to SaaS apps, via MCP or API.",
   "description": "Tool layer that gives AI agents secure, managed access to 1000+ toolkits and 20,000+ tools across SaaS apps, exposed via MCP or direct APIs. It handles authentication, tool search, and context management, and its MCP Gateway hands each team a managed endpoint to paste into Claude, Cursor, or ChatGPT. The core is MIT-licensed; a free tier covers 20K tool calls per month.",
   "category": "mcp",
   "secondaryCategories": ["agent"],
@@ -35,10 +35,10 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Handles per-integration OAuth so agents get authenticated, production-ready tools instead of raw API stubs to wire up.",
   "pros": [
-    "1000+ managed toolkits",
-    "Handles auth per integration",
+    "1000+ managed toolkits, 20,000+ tools",
+    "MCP Gateway endpoint per team",
     "MCP and direct-API access",
-    "MIT-licensed core"
+    "Free tier covers 20K tool calls/mo"
   ],
   "cons": [
     "Cloud-managed auth means some lock-in",

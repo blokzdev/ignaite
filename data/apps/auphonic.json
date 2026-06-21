@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "A set-and-forget finishing pipeline rather than an editor — batch-masters to real broadcast specs (EBU R128, -16 LUFS, ACX) with API, CLI, and watch folders.",
   "pros": [
-    "One-click leveling and loudness to broadcast specs",
+    "One-pass leveling, denoise, and AutoEQ",
     "2 free hours monthly; one-time credits never expire",
     "Self-hosted Whisper transcripts at no extra cost",
     "API, CLI and watch folders for batch automation"

@@ -1,6 +1,5 @@
 {
   "slug": "cleanvoice",
-  "insight": "Detects and strips filler words across 20+ languages — unusually wide language coverage for an audio-cleanup tool.",
   "name": "Cleanvoice AI",
   "tagline": "Automatically edit podcasts and audio in minutes.",
   "description": "An AI audio/video editor that removes filler words, background noise, mouth sounds, stutters, and dead silences from recordings, then re-levels the audio. Aimed at podcasters and creators who want a clean cut without manual waveform editing.",
@@ -30,7 +29,7 @@
   "edge": "Multilingual filler-word and silence removal (20+ languages) in one pass, so non-English podcasts get the same auto-cleanup most rivals reserve for English.",
   "pros": [
     "Removes filler words and silences",
-    "20+ language support",
+    "Strips noise, mouth sounds, stutters",
     "Fast, hands-off cleanup",
     "Pay-as-you-go option"
   ],

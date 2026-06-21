@@ -1,7 +1,7 @@
 {
   "slug": "klavis-ai",
   "name": "Klavis AI",
-  "tagline": "Open-source MCP integrations and live environments for AI agents.",
+  "tagline": "MCP integrations and live environments for AI agents.",
   "description": "Klavis AI is an open-source layer of Model Context Protocol (MCP) servers and clients that lets AI agents reliably use external tools like GitHub, Gmail, Google Sheets, Jira, and Slack. It handles OAuth and multi-tenant auth, ships hosted servers plus self-hostable images, and has expanded into managed sandbox environments for training and evaluating long-horizon agents. Teams can call the hosted endpoints or run the open-source servers on their own infra.",
   "insight": "Backed by Y Combinator (X25) and HSG (ex-Sequoia China); founded by ex-Google DeepMind and ex-Lyft engineers.",
   "category": "mcp",
@@ -29,7 +29,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 664,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Hosted, OAuth-handled MCP servers benchmarked above several official ones on tool-call accuracy — and fully self-hostable as open source.",
+  "edge": "Hosted, OAuth-handled MCP servers benchmarked above several official ones on tool-call accuracy.",
   "pros": [
     "Open-source MCP servers (5k+ GitHub stars)",
     "Hosted, multi-tenant OAuth handled for you",

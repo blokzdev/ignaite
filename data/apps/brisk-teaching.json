@@ -2,7 +2,7 @@
   "slug": "brisk-teaching",
   "insight": "Founded by ex-Chan Zuckerberg Initiative and Seesaw leaders; raised a $15M Series A led by Bessemer in 2025.",
   "name": "Brisk Teaching",
-  "tagline": "AI Chrome extension that adds 20+ tools to the sites teachers already use.",
+  "tagline": "AI Chrome extension that adds teaching tools to the sites teachers already use.",
   "description": "An AI assistant for teachers delivered chiefly as a Chrome extension that overlays tools onto Google Docs, Slides, and common education platforms. It generates presentations, quizzes, lesson plans, rubrics, and feedback in a few clicks, and offers a richer web experience for planning. The core extension is free, with a Pro plan and custom school and district pricing.",
   "category": "education",
   "pricing": "freemium",
@@ -27,7 +27,7 @@
   "addedAt": "2026-06-09",
   "addedSeq": 372,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "A Chrome extension overlaying AI onto Google Docs, Slides, and YouTube — meets teachers in their existing workflow.",
+  "edge": "Overlays AI onto the tools teachers already live in, rather than asking them to move work into a separate app.",
   "pros": [
     "Works inside Docs/Slides/YouTube via extension",
     "Built-in AI-content detection and plagiarism checks",

@@ -1,6 +1,6 @@
 {
   "slug": "deep-lake",
-  "insight": "Backed by Y Combinator and Samsung Next; raised an $11M Series A to bring its open-source 'database for AI' to the enterprise.",
+  "insight": "Backed by Y Combinator and Samsung Next; Activeloop raised an $11M Series A.",
   "name": "Deep Lake",
   "tagline": "Multimodal database for AI — vectors plus raw data, versioned.",
   "description": "Deep Lake, by Activeloop, is a database for AI that stores vectors alongside raw multimodal data — text, image, video, audio, and metadata — in a single version-controlled format. It supports cross-modal queries and can stream data straight into training, and its open-source core can be self-hosted or run as a managed service. The newer Deep Lake PG unifies a serverless Postgres with its vector and tensor engine.",
@@ -31,7 +31,7 @@
   "edge": "Unifies vectors with raw multimodal data (text, image, video, audio) in one version-controlled store you can stream straight into model training.",
   "pros": [
     "Open-source core (self-host or cloud)",
-    "Multimodal: text, image, video, audio",
+    "Stores vectors beside raw multimodal data",
     "Data versioning + streaming to training",
     "Serverless Postgres + vector engine"
   ],

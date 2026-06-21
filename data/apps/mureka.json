@@ -31,7 +31,7 @@
       "summary": "Recategorized from audio to the new dedicated music-generation category."
     }
   ],
-  "edge": "Runs its own Mureka O1 'music reasoning' model with chain-of-thought composition plus a developer API, unlike most prompt-only generators.",
+  "edge": "Runs its own in-house models and exposes a developer API, unlike most prompt-only consumer music generators.",
   "pros": [
     "In-house O1 reasoning and V6 models",
     "Stem export and voice cloning",

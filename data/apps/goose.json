@@ -1,8 +1,8 @@
 {
   "slug": "goose",
-  "insight": "From Block (the Square/Cash App company) — an on-machine agent built around MCP extensions, with 15+ model providers.",
+  "insight": "Built by Block, the company behind Square and Cash App, as its in-house developer agent.",
   "name": "Goose",
-  "tagline": "Open-source on-machine AI agent for coding, workflows, and automation.",
+  "tagline": "On-machine AI agent for coding, workflows, and automation.",
   "description": "An extensible AI agent from Block that runs natively on your machine as a desktop app or CLI, executing code and automating engineering tasks via MCP extensions. It supports 15+ LLM providers (Anthropic, OpenAI, Google, Ollama, and more) using your own keys. Free and open source under Apache 2.0.",
   "category": "agent",
   "secondaryCategories": ["mcp", "ide"],
@@ -33,7 +33,7 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Model-agnostic on-machine agent (15+ providers via your keys) with parallel subagents over 3000+ MCP servers.",
   "pros": [
-    "Apache-2.0, fully open source",
+    "Apache-2.0 licensed",
     "Works with any LLM via your own key",
     "Spawns parallel subagents",
     "CLI + desktop app",

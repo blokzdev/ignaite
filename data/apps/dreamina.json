@@ -1,7 +1,7 @@
 {
   "slug": "dreamina",
   "name": "Dreamina",
-  "tagline": "ByteDance's all-in-one AI suite for image and video generation.",
+  "tagline": "All-in-one AI suite for image and video generation.",
   "description": "Dreamina is ByteDance's creative platform for turning text and reference images into images and video, powered by its Seedream image models and Seedance video models. It offers text-to-image, image-to-image, and a multi-layer canvas with inpainting, expansion, and removal, plus text- and image-to-video — and integrates with the CapCut video editor. Use cases span character design, product photography, marketing assets, and social content.",
   "insight": "Its Seedance 2.0 video model's global rollout was paused in 2026 over Hollywood copyright-infringement concerns.",
   "category": "image-gen",
@@ -25,7 +25,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 679,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "One creative suite spanning ByteDance's top-ranked Seedream image and Seedance video models, with canvas editing and CapCut integration.",
+  "edge": "One suite spanning top-ranked Seedream image and Seedance video models, with canvas editing and CapCut integration.",
   "pros": [
     "Seedream 4.0 ranks among top image models",
     "Image + video in one canvas",

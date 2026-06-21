@@ -2,7 +2,7 @@
   "slug": "consensus",
   "insight": "Founded 2021 by two Northwestern D1-athlete teammates; raised an $11.5M Series A in 2024.",
   "name": "Consensus",
-  "tagline": "AI search over 200M+ peer-reviewed papers, with citations.",
+  "tagline": "AI search over peer-reviewed research papers, with inline citations.",
   "description": "An academic search engine that runs natural-language questions against a corpus of more than 200 million peer-reviewed papers and synthesizes the findings with inline citations. Its Consensus Meter aggregates how much the studies agree or disagree, and a copilot helps draft literature reviews. Aimed at researchers, students, and clinicians.",
   "category": "research-platform",
   "pricing": "freemium",
@@ -31,7 +31,7 @@
   "edge": "Consensus Meter aggregates whether papers agree or disagree on a question, beyond surfacing individual citations.",
   "pros": [
     "200M+ peer-reviewed corpus",
-    "Consensus Meter agree/disagree view",
+    "Copilot drafts literature reviews",
     "Inline citations on answers"
   ],
   "cons": [

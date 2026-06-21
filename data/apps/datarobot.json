@@ -33,10 +33,9 @@
   "edge": "End-to-end enterprise AI: AutoML model-building plus generative and agentic AI, observability, and governance in one governed platform.",
   "pros": [
     "AutoML builds many models fast",
-    "Covers predictive + generative + agentic",
+    "One platform across the AI lifecycle",
     "Built-in governance and observability",
-    "Cloud or on-prem deployment",
-    "Gartner Magic Quadrant Leader"
+    "Cloud or on-prem deployment"
   ],
   "cons": [
     "Enterprise pricing, often six figures",

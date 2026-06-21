@@ -34,8 +34,8 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Specialized in-house language models, not a repurposed general LLM, prized for fluent, natural translations.",
   "pros": [
-    "Fluent, natural output",
-    "Document + API translation",
+    "Translates full documents, not just text",
+    "Developer API for app integration",
     "DeepL Write for editing",
     "Broad app coverage"
   ],

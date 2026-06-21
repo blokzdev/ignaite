@@ -34,7 +34,7 @@
   "edge": "Prices per conversation or resolution, not per seat, and lets ops teach agents via natural-language procedures.",
   "pros": [
     "Outcome-based pricing",
-    "Natural-language Agent Operating Procedures",
+    "Ops author logic, engineers keep guardrails",
     "Chat, email, and voice",
     "Takes actions, not just answers"
   ],

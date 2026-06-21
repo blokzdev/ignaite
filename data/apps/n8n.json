@@ -35,9 +35,9 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "The self-hostable Zapier alternative with first-class AI/LangChain nodes and per-execution (not per-task) pricing.",
   "pros": [
-    "Self-hostable, free Community Edition",
+    "Free Community Edition",
     "500+ integrations",
-    "First-class AI/LangChain nodes",
+    "Visual builder bridging APIs and databases",
     "Per-execution pricing, not per-task",
     "Code nodes for full control"
   ],

@@ -20,7 +20,7 @@
   "addedAt": "2026-06-09",
   "addedSeq": 387,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "Pairs AI symptom intake trained on real clinical records with a licensed clinician who reviews every case.",
+  "edge": "Pairs AI symptom intake with a licensed clinician who reviews every case, unlike pure-AI symptom checkers.",
   "pros": [
     "Clinician reviews every AI-surfaced case",
     "AI trained on millions of clinical records",

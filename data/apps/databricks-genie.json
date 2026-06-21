@@ -26,10 +26,10 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "No separate license fee; rides the lakehouse and inherits Unity Catalog permissions so answers stay governed.",
   "pros": [
-    "Inherits Unity Catalog governance",
-    "No separate license fee",
+    "Plain-English questions, no SQL needed",
     "Returns SQL, charts, and explanations",
-    "Native to Databricks"
+    "Adapts to your business concepts",
+    "Native to the Databricks platform"
   ],
   "cons": [
     "Locked to the Databricks platform",

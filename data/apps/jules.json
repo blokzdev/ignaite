@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Async agent that works in a cloud VM and hands back a PR — complete with an audio changelog of what it changed.",
   "pros": [
-    "Fully async — runs in a cloud VM",
+    "Fully async, runs in the background",
     "Opens PRs with multi-file changes",
     "Audio changelog of its work",
     "Jules Tools CLI + API to extend it"

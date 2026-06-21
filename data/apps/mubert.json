@@ -1,7 +1,7 @@
 {
   "slug": "mubert",
   "name": "Mubert",
-  "tagline": "Royalty-free AI music generated in real time from samples licensed from human producers.",
+  "tagline": "AI music generated in real time from samples licensed from human producers.",
   "description": "Mubert generates royalty-free music for content, apps, and brands by composing in real time from a library of more than a million samples contributed by 4,000+ musicians. Render makes soundtracks fitted to a video's exact mood and duration, the API streams adaptive music into products, and the Play apps serve generated stations for listeners.",
   "category": "music",
   "pricing": "freemium",

@@ -36,7 +36,7 @@
       "summary": "Recategorized from data-ops to the new analytics category (NL data analysis / BI)."
     }
   ],
-  "edge": "Chat-with-your-data analyst that writes and runs Python, and connects directly to live Snowflake, BigQuery, and Postgres on Pro.",
+  "edge": "Chat-with-your-data analyst that connects directly to live Snowflake, BigQuery, and Postgres on Pro, not just file uploads.",
   "pros": [
     "Plain-language analysis of CSVs/sheets",
     "Writes + runs Python under the hood",

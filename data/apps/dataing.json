@@ -21,7 +21,11 @@
   "addedSeq": 287,
   "lastVerifiedAt": "2026-06-09",
   "edge": "AI matchmaker with no profiles or swiping, inferring preferences from connected social data instead of forms.",
-  "pros": ["No profiles or swiping", "AI-inferred compatibility", "Marketed as free"],
+  "pros": [
+    "Learns from your connected social data",
+    "AI-inferred compatibility",
+    "Marketed as free"
+  ],
   "cons": ["Requires social-account access", "Privacy tradeoff", "Small, unproven user base"],
   "bestFor": ["Dating without swiping"],
   "alternatives": ["pi", "replika", "kindroid"]

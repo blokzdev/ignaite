@@ -27,9 +27,9 @@
   "edge": "Coordinates a team of specialized agents to design, code, test, and deploy in one flow — aimed at non-technical founders, not just developers.",
   "pros": [
     "Full app from a natural-language chat",
-    "Agents handle design, code, test, and deploy",
+    "Ships full-stack web and mobile apps",
     "Free tier with monthly credits",
-    "Aimed at non-developers"
+    "No codebase or coding skills needed"
   ],
   "cons": [
     "Credits can run out on complex builds",

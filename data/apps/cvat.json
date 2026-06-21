@@ -40,9 +40,9 @@
   "lastVerifiedAt": "2026-06-11",
   "edge": "One of the most widely deployed open-source CV labeling tools — millions of self-hosted installs, deep video tooling, and free MIT self-hosting.",
   "pros": [
-    "Free MIT-licensed self-hosted edition",
     "Boxes, polygons, keypoints, 3D, and video",
     "SAM 2/3-assisted auto-labeling",
+    "Self-host, hosted Online, or Enterprise tiers",
     "Large community: 15k+ GitHub stars"
   ],
   "cons": ["Self-hosting needs Docker ops effort", "Annotation only — no model training built in"],

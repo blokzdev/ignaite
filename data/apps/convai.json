@@ -24,7 +24,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 648,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Purpose-built for embodied 3D NPCs — perception, in-world actions, and lip-sync across Unity, Unreal, and PlayCanvas — beyond text-only character bots.",
+  "edge": "Purpose-built for embodied 3D NPCs — perception, in-world actions, and lip-sync — beyond text-only character chatbots.",
   "pros": [
     "Multimodal NPC perception (see/hear)",
     "Unity, Unreal & PlayCanvas SDKs",

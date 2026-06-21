@@ -29,12 +29,11 @@
   "addedAt": "2026-06-07",
   "addedSeq": 193,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "On-device noise cancellation as a virtual mic works across 800+ apps without a meeting bot — leading clarity, fully local.",
+  "edge": "Installs as a virtual mic, so noise cancellation works across 800+ apps with no meeting bot and all processing on-device.",
   "pros": [
-    "Best-in-class real-time noise removal",
+    "Strong real-time noise removal",
     "Runs locally on-device for privacy",
-    "Bidirectional suppression (mic and speaker)",
-    "Works across any app via virtual device"
+    "Bidirectional suppression (mic and speaker)"
   ],
   "cons": [
     "Transcription covers ~16 languages only",

@@ -33,7 +33,7 @@
   "edge": "Charm's signature TUI polish over a model-agnostic terminal agent: switch providers mid-session and keep code, keys, and data on your own machine.",
   "pros": [
     "Polished, keyboard-driven terminal UI",
-    "Model-agnostic with mid-session switching",
+    "BYO keys for many providers",
     "LSP-aware code context",
     "Runs locally; you control keys and data"
   ],

@@ -1,7 +1,7 @@
 {
   "slug": "macaron",
   "name": "Macaron",
-  "insight": "Rather than just chatting, it builds you a custom personal 'mini-app' for a task, generated in minutes.",
+  "insight": "Founded by Kaijie Chen (b. 1997), whose earlier startup built smart-home robots before he pivoted to consumer AI agents.",
   "tagline": "A personal AI agent that builds you custom mini-apps and remembers your life.",
   "description": "Macaron is a consumer AI 'personal agent' that, instead of only answering in chat, generates small custom mini-apps to handle tasks like meal planning, fitness, schedules and reminders. A deep-memory system learns your preferences over time so it grows more personalized with use. It launched in August 2025 on iOS, Android and web, with English, Japanese and Korean support.",
   "category": "companion",

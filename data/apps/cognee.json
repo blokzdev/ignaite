@@ -36,8 +36,8 @@
   "lastVerifiedAt": "2026-06-08",
   "edge": "Builds an LLM-derived knowledge graph alongside embeddings, so recall follows relationships, not just vector similarity.",
   "pros": [
-    "Open-source Python SDK",
-    "Knowledge graph + vector recall",
+    "Self-hostable Python SDK",
+    "Recall follows concept relationships",
     "Bring your own LLM/embedding provider"
   ],
   "cons": [

@@ -2,7 +2,7 @@
   "slug": "google-stitch",
   "insight": "Born from Google's May 2025 acquisition of Galileo AI, whose standalone UI generator was folded into Google Labs as Stitch.",
   "name": "Stitch",
-  "tagline": "Google Labs experiment that turns prompts and sketches into UI designs and frontend code.",
+  "tagline": "Turn prompts and sketches into UI designs and frontend code.",
   "description": "An AI design tool from Google Labs that generates app and website interfaces from natural-language prompts, images, wireframes, or sketches. It produces multiple design variants, exports clean layouts to Figma, and outputs frontend code (HTML/CSS, Tailwind), with a voice-driven Live Mode for real-time adjustments. Powered by Gemini's multimodal capabilities and free with generous limits while in beta.",
   "category": "design",
   "secondaryCategories": ["ide"],

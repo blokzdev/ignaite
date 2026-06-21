@@ -37,7 +37,7 @@
   "pros": [
     "Low-latency real-time streaming",
     "100+ languages with strong accent handling",
-    "EU data residency (GDPR, HIPAA, SOC 2)",
+    "GDPR, HIPAA, and SOC 2 compliant",
     "Generous free tier and pay-as-you-go"
   ],
   "cons": ["API-only, no end-user app", "Proprietary models", "Younger than incumbent STT rivals"],
