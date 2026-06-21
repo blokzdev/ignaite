@@ -3,7 +3,7 @@
   "insight": "Started at UC Berkeley's Sky Computing Lab (2023 PagedAttention paper) and became a PyTorch Foundation-hosted project in 2025.",
   "name": "vLLM",
   "tagline": "High-throughput, memory-efficient inference engine for LLMs.",
-  "description": "Open-source (Apache-2.0) serving engine for large language and vision-language models, originally from UC Berkeley's Sky Computing Lab. Its PagedAttention KV-cache management and continuous batching deliver high throughput on commodity GPUs. Now a community project with 1000s of contributors and an OpenAI-compatible server.",
+  "description": "A serving engine for large language and vision-language models, originally from UC Berkeley's Sky Computing Lab. Its PagedAttention KV-cache management and continuous batching deliver high throughput on commodity GPUs. Now a community project with 1000s of contributors and an OpenAI-compatible server.",
   "category": "inference",
   "pricing": "free",
   "openSource": true,
@@ -36,7 +36,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "PagedAttention pages the KV cache like OS virtual memory — the throughput trick that made it the OSS serving default.",
   "pros": [
-    "PagedAttention KV-cache efficiency",
+    "Serves most Hugging Face transformer models",
     "High throughput via continuous batching",
     "Apache-2.0, fully self-hostable",
     "OpenAI-compatible server",

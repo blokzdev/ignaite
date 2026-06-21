@@ -36,7 +36,7 @@
   "edge": "Swaps CSS selectors for LLM graph pipelines — describe data in plain English; MIT core runs on any provider or Ollama.",
   "pros": [
     "Prompt-driven, selector-free extraction",
-    "MIT open-source core",
+    "Graph pipelines: single, multi, crawl",
     "Runs on any LLM or local Ollama",
     "LangChain/LlamaIndex/n8n + MCP"
   ],
