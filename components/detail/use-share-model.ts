@@ -47,8 +47,8 @@ export function useShareModel({ name, tagline, slug, shareUrl, markdown, json }:
 
   // X: the canonical intent endpoint is twitter.com/intent/tweet (x.com/intent/post
   // is unrecognised by the app — it opens then bounces). Pre-fills the post and
-  // attributes via @blokzdev.
-  const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(`${name} — ${tagline}`)}&url=${encodeURIComponent(shareUrl)}&via=blokzdev`;
+  // attributes via @ignaitelabs.
+  const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(`${name} — ${tagline}`)}&url=${encodeURIComponent(shareUrl)}&via=ignaitelabs`;
   // LinkedIn ignores text params — it builds the post from the page's OG tags.
   const linkedinHref = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
   const mailHref = `mailto:?subject=${encodeURIComponent(`${name} — Ignaite`)}&body=${encodeURIComponent(`${tagline}\n\n${shareUrl}`)}`;

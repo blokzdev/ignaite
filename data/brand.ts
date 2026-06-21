@@ -22,7 +22,7 @@ export const brand = {
     telegram: "https://t.me/blokzdev",
     github: "https://github.com/blokzdev",
     linkedin: "https://www.linkedin.com/company/blokzdev/",
-    twitter: "https://twitter.com/blokzdev/",
+    twitter: "https://x.com/ignaitelabs",
     gdev: "https://g.dev/blokz",
     email: "team@ignaite.app",
     playStore: "https://play.google.com/store/apps/dev?id=8878695474933625157",
