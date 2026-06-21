@@ -1,0 +1,43 @@
+{
+  "slug": "pickle",
+  "insight": "Founded in September 2024; raised a $4.35M seed round in 2025 to build real-time AI-avatar technology.",
+  "name": "Pickle",
+  "tagline": "A real-time AI clone of you that joins video calls as a virtual camera.",
+  "description": "Pickle is a macOS app that creates a hyper-realistic AI avatar of you for video calls. After a face scan and a short training video, your 'AI Self' lip-syncs to your voice in real time and appears as a selectable 'Pickle Camera' in any video app. It lets you be present on camera-on calls without sitting in front of the webcam.",
+  "category": "video",
+  "pricing": "freemium",
+  "deployment": "local",
+  "vendor": "Pickle",
+  "platforms": ["macos"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary real-time avatar model trained from a short user video."
+  },
+  "tags": ["avatar", "video-calls", "lip-sync", "virtual-camera", "real-time"],
+  "accentColor": "#4caf50",
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.pickle.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1009,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Renders a real-time, voice-driven lip-synced clone as a virtual camera, so you join any call looking present without being on camera.",
+  "pros": [
+    "Real-time lip-sync from your voice",
+    "Works as a virtual cam in any app",
+    "Free tier to try it",
+    "Quick face-scan onboarding"
+  ],
+  "cons": [
+    "macOS only",
+    "Needs a ~5-minute training video",
+    "Realism can break under fast motion",
+    "Paid plans capped by minutes"
+  ],
+  "bestFor": ["Camera-off video meetings", "Remote workers", "On-camera presence"],
+  "alternatives": ["heygen", "synthesia", "captions"]
+}
