@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "One of the few clouds serving Llama 405B in native 16-bit precision at 100+ tokens/sec, not a quantized copy.",
   "pros": [
-    "Full-precision Llama 405B serving",
+    "Serves Llama, DeepSeek, Qwen, gpt-oss",
     "Hundreds of tokens/sec on RDU chips",
     "OpenAI-compatible API",
     "Free tier to start"

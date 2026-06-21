@@ -36,7 +36,7 @@
   "pros": [
     "Provider-agnostic, swap models in one line",
     "React hooks (useChat) for chat UIs",
-    "Streaming, tool-calling, structured output",
+    "Generative UI / structured outputs",
     "Free and open source",
     "First-class Next.js integration"
   ],
