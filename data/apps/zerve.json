@@ -1,0 +1,57 @@
+{
+  "slug": "zerve",
+  "name": "Zerve",
+  "tagline": "Agentic AI data platform for research and analytics.",
+  "description": "Zerve is a data platform that brings AI agents, notebooks, automatic data discovery, conversational reports, and deployment into a single canvas for data scientists and analysts. Agentic notebooks assist with exploration and analysis, the platform maps schemas and surfaces patterns from connected data, and finished work can ship directly as an API, app, or dashboard. It offers a free tier, with self-hosted and air-gapped deployments for enterprise.",
+  "insight": "Founded by former DataRobot leaders; raised a $7.6M seed led by Paladin Capital Group in October 2024.",
+  "category": "analytics",
+  "secondaryCategories": ["data-ops"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Zerve AI",
+  "platforms": ["web", "api"],
+  "tags": ["data-science", "notebooks", "agentic", "analytics", "reports"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.zerve.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1016,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Unifies agentic notebooks, auto data discovery, conversational reports, and one-click deployment in one canvas built for analysts and researchers.",
+  "pros": [
+    "Agentic notebooks with auto data discovery",
+    "Conversational reports for stakeholders",
+    "Deploy to API, app, or dashboard",
+    "Free tier to evaluate",
+    "Self-host / air-gapped for enterprise"
+  ],
+  "cons": [
+    "Not open source",
+    "Credit-based usage on lower tiers",
+    "Smaller ecosystem than incumbents"
+  ],
+  "bestFor": [
+    "Data scientists and analysts",
+    "Research and analytics teams",
+    "Agentic data workflows"
+  ],
+  "alternatives": ["hex", "deepnote", "julius", "databricks-genie"],
+  "references": [
+    {
+      "title": "Zerve launches multi-agent system for the enterprise AI lifecycle",
+      "url": "https://siliconangle.com/2025/05/13/zerve-launches-multi-agent-system-support-full-enterprise-ai-development-lifecycle/",
+      "source": "SiliconANGLE",
+      "kind": "analysis"
+    },
+    {
+      "title": "Irish data and AI startup Zerve raises €7m in funding",
+      "url": "https://www.rte.ie/news/business/2024/1017/1475872-zerve-funding/",
+      "source": "RTÉ",
+      "kind": "analysis"
+    }
+  ]
+}
