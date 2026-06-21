@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "About",
   description:
-    "How Ignaite works — an AI-managed directory of AI apps researched, written, and audited by Claude Code. What it is, how it stays current, and the studio that operates it.",
+    "How Ignaite works — an AI-managed directory of AI apps researched, written, and audited by Claude Code. What it is, how it stays current, and the team that operates it.",
   path: "/about",
 });
 

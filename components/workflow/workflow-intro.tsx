@@ -24,7 +24,7 @@ export function WorkflowIntro({ productMeta }: Readonly<Props>) {
           Agentic engineering:{" "}
           <span className="text-[var(--color-ink)]">you are the architect and reviewer</span>,
           Claude is the primary author. It scaffolds the repo, writes the docs, builds the features,
-          runs the terminal, and opens the PR — all in one session. Every line of blokz.dev was
+          runs the terminal, and opens the PR — all in one session. Every line of ignaite.app was
           built this way.
         </p>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-[var(--color-ink-dim)]">
@@ -49,7 +49,7 @@ export function WorkflowIntro({ productMeta }: Readonly<Props>) {
             ${" "}
           </span>
           <span className="break-all text-[var(--color-ink)]">
-            gh repo create blokz/app --private --clone && cd app && claude
+            gh repo create ignaite/app --private --clone && cd app && claude
           </span>
         </div>
 

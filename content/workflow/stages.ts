@@ -4,7 +4,7 @@
 // products. Platform-varying commands key off the active platform tab.
 import type { Stage, WorkflowProduct } from "@/types/workflow";
 
-// ── Blokz Brief — arxiv link → structured paper digest ──────────────────────
+// ── Ignaite Brief — arxiv link → structured paper digest ──────────────────────
 const briefStages: ReadonlyArray<Stage> = [
   {
     id: "conceptualize",
@@ -97,7 +97,7 @@ const briefStages: ReadonlyArray<Stage> = [
     platformNotes: {
       web: {
         title: "Distribution",
-        body: "Vercel preview per PR; production behind blokz.dev/brief with a staged-rollout flag.",
+        body: "Vercel preview per PR; production behind ignaite.app/brief with a staged-rollout flag.",
       },
       android: {
         title: "Distribution",
@@ -154,7 +154,7 @@ const briefStages: ReadonlyArray<Stage> = [
               "M1 · arxiv fetch + section parse",
               "M2 · LLM claim extraction + schema",
               "M3 · digest render + share card",
-              "M4 · ship to blokz.dev/brief",
+              "M4 · ship to ignaite.app/brief",
             ],
           },
         ],
@@ -219,7 +219,7 @@ const briefStages: ReadonlyArray<Stage> = [
           },
           {
             kind: "run",
-            cmd: "gh repo create blokz/brief --private && simple-git-hooks install",
+            cmd: "gh repo create ignaite/brief --private && simple-git-hooks install",
             out: "repo created · pre-commit + pre-push hooks set",
           },
           {
@@ -286,7 +286,7 @@ const briefStages: ReadonlyArray<Stage> = [
     platformNotes: {
       web: {
         title: "Deploy",
-        body: "Vercel auto-promotes main to blokz.dev/brief; edge cache invalidates; Speed Insights watches.",
+        body: "Vercel auto-promotes main to ignaite.app/brief; edge cache invalidates; Speed Insights watches.",
       },
       android: {
         title: "Deploy",
@@ -332,7 +332,7 @@ const briefStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "Live behind blokz.dev/brief. I drafted release notes from the diff — yours to tweak.",
+        body: "Live behind ignaite.app/brief. I drafted release notes from the diff — yours to tweak.",
       },
     ],
   },
@@ -428,7 +428,7 @@ const forgeStages: ReadonlyArray<Stage> = [
     platformNotes: {
       web: {
         title: "Distribution",
-        body: "Vercel preview per PR; production at forge.blokz.dev with flags for new eval kinds.",
+        body: "Vercel preview per PR; production at forge.ignaite.app with flags for new eval kinds.",
       },
       android: {
         title: "Distribution",
@@ -550,7 +550,7 @@ const forgeStages: ReadonlyArray<Stage> = [
           },
           {
             kind: "run",
-            cmd: "gh repo create blokz/forge --private && simple-git-hooks install",
+            cmd: "gh repo create ignaite/forge --private && simple-git-hooks install",
             out: "repo + hooks set",
           },
           {
@@ -612,7 +612,7 @@ const forgeStages: ReadonlyArray<Stage> = [
     platformNotes: {
       web: {
         title: "Deploy",
-        body: "Vercel auto-promotes main to forge.blokz.dev; Speed Insights watches.",
+        body: "Vercel auto-promotes main to forge.ignaite.app; Speed Insights watches.",
       },
       android: {
         title: "Deploy",
@@ -658,7 +658,7 @@ const forgeStages: ReadonlyArray<Stage> = [
       },
       {
         speaker: "claude",
-        body: "forge.blokz.dev is live; the CLI's on cargo. Release notes drafted from the meta-eval delta — your call on voice.",
+        body: "forge.ignaite.app is live; the CLI's on cargo. Release notes drafted from the meta-eval delta — your call on voice.",
       },
     ],
   },
@@ -757,7 +757,7 @@ const memoStages: ReadonlyArray<Stage> = [
     platformNotes: {
       web: {
         title: "Distribution",
-        body: "Vercel preview per PR; production at memo.blokz.dev; Service Worker caches models for offline.",
+        body: "Vercel preview per PR; production at memo.ignaite.app; Service Worker caches models for offline.",
       },
       android: {
         title: "Distribution",
@@ -879,7 +879,7 @@ const memoStages: ReadonlyArray<Stage> = [
           },
           {
             kind: "run",
-            cmd: "gh repo create blokz/memo --private && simple-git-hooks install",
+            cmd: "gh repo create ignaite/memo --private && simple-git-hooks install",
             out: "repo + hooks set",
           },
           {
@@ -946,7 +946,7 @@ const memoStages: ReadonlyArray<Stage> = [
     platformNotes: {
       web: {
         title: "Deploy",
-        body: "Vercel auto-promotes main to memo.blokz.dev; Service Worker pre-caches the new model bundle.",
+        body: "Vercel auto-promotes main to memo.ignaite.app; Service Worker pre-caches the new model bundle.",
       },
       android: {
         title: "Deploy",
