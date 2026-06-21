@@ -35,9 +35,9 @@
   "addedAt": "2026-05-13",
   "addedSeq": 13,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Open-source, BYO-key VS Code agent that shows and asks approval for every edit and command — no markup, no lock-in.",
+  "edge": "BYO-key VS Code agent that shows and asks approval for every edit and command — no markup, no lock-in.",
   "pros": [
-    "Fully open-source, no vendor markup",
+    "No vendor markup on token costs",
     "Approves every edit/command before running",
     "Bring any model (Claude, local, etc.)",
     "Plan/Act split for review before changes"

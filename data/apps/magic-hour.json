@@ -3,7 +3,7 @@
   "name": "Magic Hour",
   "tagline": "AI video generator and creative suite with a developer API.",
   "description": "Magic Hour is an AI creative platform for video, image and audio generation aimed at creators, marketers and developers. It bundles 100+ tools — text-to-video, image-to-video, face swap, lip sync, talking photo, image generation and upscaling, plus voice cloning and music generation — behind one shared credit balance. Beyond the browser app it exposes a REST API with official Python, Node.js, Go and Rust SDKs.",
-  "insight": "Y Combinator–backed; the company reports 3.4M+ creators and ships a REST API with official Python, Node.js, Go and Rust SDKs.",
+  "insight": "Y Combinator–backed; the company reports 3.4M+ creators on the platform.",
   "category": "video",
   "secondaryCategories": ["image-gen"],
   "pricing": "freemium",
@@ -25,11 +25,11 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Wraps 100+ generation and editing tools (text/image-to-video, face swap, lip sync, voice clone) behind one credit balance and a multi-language developer API.",
   "pros": [
-    "100+ tools under one subscription",
+    "One credit balance across all tools",
     "Free tier, no credit card to start",
     "REST API with Python/Node/Go/Rust SDKs",
     "Browser-based, no downloads",
-    "Y Combinator–backed"
+    "Covers video, image, voice, and music"
   ],
   "cons": [
     "Breadth over best-in-class depth per tool",

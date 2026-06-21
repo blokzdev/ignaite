@@ -27,10 +27,10 @@
   "lastVerifiedAt": "2026-06-12",
   "edge": "Sells unlimited-generation subscriptions tuned for bulk creative testing — 50+ ad variations per batch — where most peers meter by credits.",
   "pros": [
-    "Unlimited generations on subscription",
-    "50+ ad variations per batch",
+    "Bulk static and video ad generation",
+    "AI avatars and lip-sync",
     "Multi-model (Veo, Sora, Kling, Flux)",
-    "Localization and lip-sync built in"
+    "Localization and layer-based editing"
   ],
   "cons": [
     "Early-stage: small team, few clients",

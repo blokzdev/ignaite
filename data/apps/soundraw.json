@@ -31,8 +31,8 @@
   "edge": "Pick mood/genre/length then tweak section-by-section; royalty-free tracks stay licensed for life while subscribed.",
   "pros": [
     "Section-level arrangement control",
-    "Royalty-free commercial license",
-    "Tracks stay licensed for life",
+    "Mood/genre/length selection",
+    "Optional streaming distribution rights",
     "Built for content creators"
   ],
   "cons": ["No vocals/lyric generation", "Generates from its own catalog only", "Web-only"],

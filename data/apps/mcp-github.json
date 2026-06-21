@@ -30,7 +30,7 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "GitHub's first-party MCP — exposes PRs, issues, and even secret-scanning, gated by GitHub's native permission model.",
   "pros": [
-    "Official, wired into most agent surfaces",
+    "Wired into most agentic surfaces",
     "Read/write PRs, issues, branches",
     "Includes secret-scanning tools",
     "Honors GitHub permissions and OAuth scopes"

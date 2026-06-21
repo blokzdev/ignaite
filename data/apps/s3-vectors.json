@@ -3,7 +3,7 @@
   "insight": "The first cloud object store with native vector support; its preview ingested 40B+ vectors before GA in December 2025.",
   "name": "Amazon S3 Vectors",
   "tagline": "Native vector storage and querying in S3 — serverless, billion-vector scale.",
-  "description": "Purpose-built vector storage inside Amazon S3: store and query up to two billion vectors per index across thousands of indexes per vector bucket, with S3's durability and elasticity and no clusters to manage. Frequent queries return in around 100ms and infrequent ones in under a second, and it plugs directly into Amazon Bedrock Knowledge Bases for RAG. You pay only for storage and queries.",
+  "description": "Purpose-built vector storage inside Amazon S3: store and query up to two billion vectors per index across thousands of indexes per vector bucket, with S3's durability and elasticity and no clusters to manage. Frequent queries return in around 100ms and infrequent ones in under a second, and it plugs directly into Amazon Bedrock Knowledge Bases for RAG.",
   "category": "vector-db",
   "pricing": "paid",
   "deployment": "cloud",

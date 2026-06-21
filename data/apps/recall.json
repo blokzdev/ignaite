@@ -1,6 +1,6 @@
 {
   "slug": "recall",
-  "insight": "Rebranded from getrecall.ai to recall.it; lets you pick which AI model summarizes each saved item.",
+  "insight": "Rebranded from getrecall.ai to the recall.it domain.",
   "name": "Recall",
   "tagline": "Your AI-powered personal knowledge base.",
   "description": "A personal knowledge base that saves, summarizes, and connects content from anywhere — articles, videos, PDFs — then lets you chat with it using the AI model of your choice. Capture from a Chrome or Firefox extension, the web app, or mobile, with spaced-repetition review to keep what you save.",
@@ -28,7 +28,7 @@
     "Save and summarize from anywhere",
     "Chat with your library",
     "Choice of AI model",
-    "Spaced-repetition review"
+    "Browser, web, and mobile capture"
   ],
   "cons": [
     "Best features behind premium",

@@ -35,9 +35,9 @@
   "lastVerifiedAt": "2026-06-16",
   "edge": "Turns any site into a structured action API and runs agents on managed serverless browser infra, compatible with Playwright, Puppeteer, and Selenium.",
   "pros": [
-    "Source-available framework on GitHub",
+    "Session replays and observability",
     "Managed cloud browser sessions",
-    "Playwright/Puppeteer/Selenium compatible",
+    "Credential vaults, proxies, CAPTCHA handling",
     "SOC 2 Type II",
     "Serverless deployment"
   ],

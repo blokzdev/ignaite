@@ -31,7 +31,7 @@
   "edge": "Hyper-specialized VLMs plus fine-tuning return parse-ready structured JSON from visual data, rather than free text you have to clean up.",
   "pros": [
     "One API for images, video, and documents",
-    "Structured JSON output",
+    "Parsing, OCR, detection, and segmentation",
     "Free starter credits",
     "Fine-tuning for specialized extraction"
   ],

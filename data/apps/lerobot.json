@@ -37,7 +37,6 @@
   "lastVerifiedAt": "2026-06-16",
   "edge": "The de-facto open-source hub for real-world robot learning — shared datasets, pretrained policies, and low-cost hardware designs under one Apache-2.0 stack.",
   "pros": [
-    "Apache-2.0, fully open-source",
     "Shared datasets + pretrained VLA policies",
     "Backed by Hugging Face, NVIDIA partnership",
     "Low-cost hardware designs (SO-101 arms)"

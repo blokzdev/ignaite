@@ -32,7 +32,7 @@
   "edge": "Decades of domain-tuned neural models (legal, defense, pharma) deployable on-prem or private-cloud for confidential, regulated translation.",
   "pros": [
     "55+ languages, 150+ pairs",
-    "On-prem and private-cloud deployment",
+    "Translates docs, web, and speech (30+ formats)",
     "Domain-specific translation models",
     "Strong compliance posture (ISO 27001, GDPR)"
   ],

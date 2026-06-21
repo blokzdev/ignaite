@@ -36,8 +36,8 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "Leading open-source, self-hostable Devin-style SWE agent — read the code, swap any model, run your own sandbox.",
   "pros": [
-    "Fully open source (MIT)",
-    "Self-hostable sandbox agent",
+    "Browser, terminal, and editor in a sandbox",
+    "Inspect and modify the full codebase",
     "Model-agnostic (Claude/GPT/Gemini/local)",
     "Active research community and benchmarks"
   ],

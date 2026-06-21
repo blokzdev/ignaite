@@ -1,9 +1,9 @@
 {
   "slug": "mcpjam",
   "name": "MCPJam",
-  "tagline": "Open-source inspector to test, debug, and evaluate MCP servers and ChatGPT apps.",
+  "tagline": "Inspector to test, debug, and evaluate MCP servers and ChatGPT apps.",
   "description": "MCPJam is a local-first developer tool, a 'Postman for MCP', for testing, debugging, inspecting, and evaluating Model Context Protocol servers. You can manually run tools, resources, resource templates, prompts, and elicitation flows with full JSON-RPC observability, debug every message and OAuth exchange, and run evaluations across multiple LLMs to catch regressions. It runs as a hosted web app, a Mac/Windows desktop app, or via npx in your terminal.",
-  "insight": "Open source under Apache-2.0; tests OpenAI's ChatGPT Apps (Apps SDK) alongside MCP servers, not just MCP alone.",
+  "insight": "Tests OpenAI's ChatGPT Apps (Apps SDK) alongside MCP servers, not just MCP alone.",
   "category": "mcp",
   "pricing": "free",
   "openSource": true,
@@ -25,10 +25,10 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "A visual 'Postman for MCP': run tools and inspect every JSON-RPC and OAuth exchange, then score servers with multi-LLM evals in one local UI.",
   "pros": [
-    "Open source (Apache-2.0)",
     "Local-first, runs via npx",
-    "Full JSON-RPC and OAuth inspection",
+    "Manually run tools, prompts, resources",
     "Multi-LLM evaluation runs",
+    "Free frontier chat or bring your own key",
     "Web, desktop, and CLI"
   ],
   "cons": [

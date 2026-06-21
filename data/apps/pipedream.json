@@ -35,7 +35,7 @@
   "edge": "Drop real Node.js or Python into any step over 3,000+ managed integrations — code-level control where Zapier and Make stay no-code.",
   "pros": [
     "Arbitrary Node.js/Python in any step",
-    "3,000+ integrations with hosted auth",
+    "Managed integrations with hosted auth",
     "Connect embeds integrations in your app",
     "MCP-native: connectors as agent tools"
   ],

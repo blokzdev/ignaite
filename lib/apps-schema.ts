@@ -98,7 +98,11 @@ export const appSchema = z
   .object({
     slug: z.string().regex(SLUG, "slug must be kebab-case (lowercase, hyphen-separated)"),
     name: z.string().min(1),
-    /** One-line pitch. */
+    /** One-line pitch — *describe* what the app is/does; don't *sell* it. No
+     *  stats, superlatives, or comparative claims (those belong in `edge`/`pros`,
+     *  and any headline stat in `description`). e.g. "AI video localization and
+     *  dubbing with voice cloning." — not "…into 130+ languages…". See the
+     *  cross-field redundancy rule on `edge`/`pros` below. */
     tagline: z.string().min(1).max(100, "tagline must be ≤100 chars"),
     /** 2–4 sentences for the card; richer prose lives in `longDescription`. */
     description: z.string().min(1),
@@ -185,9 +189,17 @@ export const appSchema = z
      *  peers* — the "why pick this one". Distinct from `insight` (a non-obvious
      *  fact); `edge` is explicitly comparative. One sentence, ≤160 chars (it
      *  renders in a detail-page callout that wraps — looser than card-shown
-     *  `insight`); omit if there's no clear, verifiable differentiator. */
+     *  `insight`); omit if there's no clear, verifiable differentiator.
+     *  CROSS-FIELD REDUNDANCY RULE: a distinctive stat/phrase gets ONE home —
+     *  `description` may state it once, plus at most ONE of {`edge`, `pros`}.
+     *  Never echo the same point across tagline + edge + pros (it stacks up in
+     *  the detail page's masthead → edge callout → pros box and reads repetitive).
+     *  If a stat is the genuine differentiator it lives here in `edge`. */
     edge: z.string().max(160, "edge must be ≤160 chars").optional(),
-    /** Verified, grounded strengths — short phrases, not marketing. Max 5. */
+    /** Verified, grounded strengths — short phrases, not marketing. Max 5. Must
+     *  NOT restate the headline phrase already carried by `edge`/`tagline`; if
+     *  `edge` owns the differentiating stat, `pros` carry *other* strengths (see
+     *  the cross-field redundancy rule on `edge`). */
     pros: z
       .array(z.string().min(1).max(60, "each pro must be ≤60 chars"))
       .max(5, "at most 5 pros")

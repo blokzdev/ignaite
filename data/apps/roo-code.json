@@ -29,11 +29,11 @@
   "addedAt": "2026-06-14",
   "addedSeq": 610,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Forked from Cline to push harder on autonomy: customizable role-based modes that hand off mid-task, fully open and model-agnostic with no vendor lock-in.",
+  "edge": "Forked from Cline to push harder on autonomy and configurability, staying fully open and model-agnostic with no vendor lock-in.",
   "pros": [
-    "Fully open source (Apache-2.0)",
     "Custom role-based modes with own prompts",
-    "Model-agnostic, bring any API key",
+    "Modes hand off mid-task",
+    "Run frontier APIs or a local model",
     "Direct file and terminal access"
   ],
   "cons": [

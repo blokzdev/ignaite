@@ -109,6 +109,14 @@ Conventions (match existing entries):
   - **`references`** (≤4) — `{ title (≤80), url, source? (≤40), kind? }` (kind ∈ review|guide|benchmark|comparison|interview|analysis).
     **Third-party** coverage independent of the vendor (NOT its own site/docs). **Only real URLs you
     actually fetched — never construct a plausible link.** Omit if none verifiable.
+- **No cross-field redundancy** — each distinctive point gets ONE home. The `tagline` *describes*
+  what the app is/does; it does **not** sell (no stats, superlatives, or comparative claims — those
+  are `edge`/`pros`, and a headline stat belongs in `description`). A distinctive stat/phrase (e.g.
+  "130+ languages", "50M+ users") may appear in `description` **once** + **at most one** of
+  {`edge`, `pros`} — **never** stacked across tagline + edge + pros (it piles up in the detail
+  page's masthead → edge callout → pros box and reads repetitive). Resolution: comparative → `edge`;
+  non-obvious fact → `insight`; one discrete strength among several → `pros`; else the lone plain
+  mention stays in `description`. Before saving, re-read the six text fields together and strip any echo.
 - **`featured: true`** sparingly (it spans 2 columns + enters the carousel) — only for true standouts,
   and only if the user agrees.
 - Pick the most specific fitting **primary** `category`; favor thin/empty ones where the app genuinely

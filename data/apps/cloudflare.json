@@ -34,7 +34,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "R2 storage charges zero egress fees and Workers run isolate-per-request at the edge — cheaper, closer than Node.",
   "pros": [
-    "R2 has no egress fees vs S3",
+    "R2 object storage with no egress fees",
     "Global edge runtime, low latency",
     "Workers + D1 + R2 + KV in one platform",
     "Generous free tier"

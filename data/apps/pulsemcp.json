@@ -3,7 +3,7 @@
   "name": "PulseMCP",
   "tagline": "Hand-reviewed directory and news hub for the Model Context Protocol.",
   "description": "PulseMCP is a discovery hub for the Model Context Protocol (MCP) ecosystem — a daily-updated, hand-reviewed directory of thousands of MCP servers and clients, validated by live handshake and scored on reliability. Alongside the directory it publishes tutorials, a use-case showcase, an API for programmatic access, and 'The Agentic Loop' newsletter. It is a free resource for finding and tracking MCP integrations.",
-  "insight": "Run by Tadas Antanavicius, a member of the official MCP Steering Committee; its hand-reviewed directory tracks 18,000+ servers.",
+  "insight": "Run by Tadas Antanavicius, a member of the official MCP Steering Committee; the directory tracks 18,000+ servers.",
   "category": "mcp",
   "pricing": "free",
   "vendor": "PulseMCP",
@@ -25,7 +25,7 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "The largest hand-reviewed MCP directory — servers checked by live handshake and reliability-scored rather than auto-scraped — plus a public API.",
   "pros": [
-    "Hand-reviewed, reliability-scored listings",
+    "Tutorials, showcase, and newsletter too",
     "Updated daily",
     "Free API for programmatic access",
     "Tracks both MCP servers and clients",

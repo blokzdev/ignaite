@@ -30,8 +30,8 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Connects straight to production SQL warehouses and builds full dashboards from plain English — no SQL or table names needed.",
   "pros": [
-    "NL-to-SQL with no query writing",
-    "Connects directly to Postgres/Snowflake/BigQuery",
+    "Auto-picks chart type and saves to dashboards",
+    "Supports Postgres, MySQL, BigQuery, Snowflake",
     "750+ data-source integrations",
     "Fast, low-latency AI reporting"
   ],

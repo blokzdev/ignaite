@@ -28,7 +28,7 @@
   "addedAt": "2026-06-13",
   "addedSeq": 522,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "A native Mac control plane for several coding agents at once — Claude Code, Codex, Cursor — each sandboxed in its own git worktree for clean parallel review.",
+  "edge": "A native Mac control plane that runs several coding agents at once, each sandboxed in its own git worktree so parallel work never collides.",
   "pros": [
     "Runs many coding agents in parallel",
     "Each agent isolated in a git worktree",

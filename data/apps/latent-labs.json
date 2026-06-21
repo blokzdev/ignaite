@@ -27,7 +27,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Puts frontier protein-binder design in a no-code browser app — lab-validated hit rates without the HPC setup most de novo design tools require.",
   "pros": [
-    "No-code browser workflow",
+    "Upload a target, generate candidates",
     "Lab-validated binders",
     "AlphaFold-pedigree team",
     "Free early access"

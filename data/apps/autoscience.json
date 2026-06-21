@@ -25,10 +25,10 @@
   "addedAt": "2026-06-14",
   "addedSeq": 690,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Its agents run the whole research loop end-to-end, not just assist — Carl's paper passed peer review with only formatting and citation edits.",
+  "edge": "Its agents run the whole research loop end-to-end — hypothesis, experiments, and write-up — rather than just assisting a human researcher.",
   "pros": [
-    "Carl cleared real double-blind peer review",
     "Full experiment loop, not just ideation",
+    "Generates and tests its own hypotheses",
     "Backed by General Catalyst-led seed"
   ],
   "cons": [

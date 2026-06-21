@@ -1,7 +1,7 @@
 {
   "slug": "quillbot",
   "name": "QuillBot",
-  "tagline": "Paraphrasing, grammar, and summarizing suite used by 35M+ writers.",
+  "tagline": "Writing suite for paraphrasing, grammar, and summarizing.",
   "description": "QuillBot is a writing suite centered on paraphrasing, grammar checking, and summarizing, with added tools for citation, plagiarism and AI detection, and translation. It runs on the web, as browser extensions and a Word add-in, and on desktop and mobile, widely used by students and professionals.",
   "category": "writing",
   "pricing": "freemium",

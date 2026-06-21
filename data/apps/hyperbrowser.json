@@ -1,6 +1,6 @@
 {
   "slug": "hyperbrowser",
-  "insight": "Y Combinator–backed; ships the open-source HyperAgent framework and an official MCP server for live-web access.",
+  "insight": "Y Combinator–backed; also backed by Accel and SV Angel, with a founder who was previously an engineer at Meta.",
   "name": "Hyperbrowser",
   "tagline": "Cloud headless-browser infrastructure for AI agents.",
   "description": "Managed cloud platform that gives AI agents scalable headless browser sessions with built-in stealth mode, proxy rotation, and CAPTCHA solving. Sessions launch in under a second and are driven via API with Playwright, Puppeteer, or Selenium. It also offers HyperAgent, an open-source framework that extends Playwright with natural-language commands, and an official MCP server so LLMs like Claude can browse the live web.",
@@ -33,12 +33,12 @@
   "addedAt": "2026-06-15",
   "addedSeq": 768,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Pairs a managed stealth-browser fleet with an open-source agent framework and an official MCP server, so LLMs can act on the live web directly.",
+  "edge": "Ships an official MCP server and open-source HyperAgent on top of the browser fleet, so LLMs reach the live web without you running infra.",
   "pros": [
     "Sub-second session launches",
     "Stealth, proxies, and CAPTCHA solving built in",
-    "Open-source HyperAgent framework",
-    "Official MCP server for LLM access"
+    "Drives Playwright, Puppeteer, or Selenium",
+    "Scales to many concurrent sessions"
   ],
   "cons": [
     "Session-based pricing on a monthly base",

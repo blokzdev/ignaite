@@ -22,9 +22,9 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Pairs one of the largest US public-records property datasets (160M+) with AI-native cloud and MCP delivery, not just a REST API.",
   "pros": [
-    "160M+ US properties covered",
+    "Nationwide US property coverage",
     "Deeds, mortgage, tax, and boundary data",
-    "AI-native cloud delivery + MCP server",
+    "MCP server for direct agent queries",
     "API, bulk, Snowflake/Databricks"
   ],
   "cons": [

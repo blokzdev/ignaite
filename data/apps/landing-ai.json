@@ -2,7 +2,7 @@
   "slug": "landing-ai",
   "insight": "Founded by Andrew Ng in 2017; raised a $57M Series A in 2021 backed by Intel, Samsung and Insight Partners.",
   "name": "LandingAI",
-  "tagline": "Visual prompting + vision agents from Andrew Ng's lab.",
+  "tagline": "Build vision detectors and agents from a few labeled examples.",
   "description": "Build vision applications with a labelling-light workflow — point at examples, get a deployable detector. Recently extended into vision agents that reason over images and PDFs without bespoke training.",
   "category": "vision",
   "secondaryCategories": ["agent"],
@@ -29,11 +29,11 @@
   "addedAt": "2026-05-13",
   "addedSeq": 36,
   "lastVerifiedAt": "2026-06-01",
-  "edge": "From Andrew Ng's lab — 'visual prompting' lets you point at a few examples instead of labeling a full training set.",
+  "edge": "Visual prompting lets you point at a few examples instead of labeling a full training set.",
   "pros": [
-    "Labelling-light visual prompting",
     "Fast path to a deployable detector",
     "Vision agents reason over images/PDFs",
+    "No ML labelers required",
     "Free tier to start"
   ],
   "cons": [

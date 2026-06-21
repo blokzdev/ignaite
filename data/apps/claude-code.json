@@ -38,7 +38,6 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Ships the same agent across CLI, IDE, desktop, and web — reads the spec, writes the diff, runs tests, opens the PR.",
   "pros": [
-    "Same agent across CLI, IDE, desktop, web",
     "Strong autonomous multi-step coding",
     "MCP and subagents support",
     "Runs on API key or Pro/Max plan"

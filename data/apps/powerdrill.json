@@ -30,7 +30,7 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Takes multi-modal input — CSV, Excel, SQL, URLs, even images and audio — into one conversational analysis flow, not just tabular data.",
   "pros": [
-    "Multi-modal input beyond tables",
+    "Upload files or paste a URL",
     "No-code natural-language analysis",
     "Auto cleaning, stats, and charts",
     "Suggested follow-up questions"

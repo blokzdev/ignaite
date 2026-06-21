@@ -3,7 +3,7 @@
   "insight": "Released Mochi 1 in Oct 2024 under Apache 2.0; raised a $28.4M Series A led by NEA the same month.",
   "name": "Genmo",
   "tagline": "Open-source text-to-video generation, with a free hosted playground.",
-  "description": "AI video startup behind Mochi 1, an open-source text-to-video model built on an Asymmetric Diffusion Transformer (AsymmDiT) architecture and released under Apache 2.0. The weights and code are on GitHub and Hugging Face for local or self-hosted use, while genmo.ai hosts a free playground to generate clips from prompts in the browser.",
+  "description": "AI video startup behind Mochi 1, an open-source text-to-video model built on an Asymmetric Diffusion Transformer (AsymmDiT) architecture. The weights and code are on GitHub and Hugging Face for local or self-hosted use, while genmo.ai hosts a free playground to generate clips from prompts in the browser.",
   "category": "video",
   "pricing": "freemium",
   "openSource": true,
@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "One of the few genuinely open (Apache 2.0) text-to-video models with downloadable weights, not just a closed hosted generator.",
   "pros": [
-    "Open weights under Apache 2.0",
+    "Downloadable open weights",
     "Free hosted playground to try it",
     "Self-hostable for full control",
     "Strong motion fidelity for an open model"

@@ -36,9 +36,9 @@
   "edge": "Durable checkpointed state-graph with human-in-the-loop — long agent runs pause and resume, unlike one-shot chains.",
   "pros": [
     "Durable checkpointed state",
-    "Human-in-the-loop steps",
     "Low-level graph control",
-    "Debuggable long-running agents"
+    "Debuggable long-running agents",
+    "Runs in production at major firms"
   ],
   "cons": [
     "Steeper learning curve",

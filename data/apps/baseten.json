@@ -34,8 +34,8 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Pairs prebuilt Model APIs with dedicated Truss deployments and scale-to-zero, so you don't pay for idle GPUs.",
   "pros": [
-    "Both per-token APIs and dedicated GPU deploys",
-    "Scale-to-zero, no charge for idle compute",
+    "Prebuilt Model APIs for Llama, DeepSeek",
+    "Dedicated GPU/CPU deploys for custom models",
     "Open-source Truss packaging format",
     "Production-grade observability and autoscaling"
   ],

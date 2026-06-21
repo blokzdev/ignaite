@@ -1,7 +1,7 @@
 {
   "slug": "move-ai",
   "name": "Move AI",
-  "tagline": "Markerless 3D motion capture from ordinary video — even a single iPhone.",
+  "tagline": "Markerless 3D motion capture from ordinary video.",
   "description": "Markerless motion-capture technology that turns 2D video into broadcast-quality 3D animation data using computer vision, biomechanics, and physics. The Move One app captures motion from a single iPhone, while multi-camera setups serve studio production; output exports to FBX and USD for game engines and animation pipelines. Used by studios including Ubisoft, Sony, and Disney.",
   "insight": "Founded 2019 in London; raised a $10M (£8.2M) 2023 seed backed by Warner Music Group and Animoca Brands.",
   "category": "vision",
@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Captures 3D motion from ordinary video — even a single iPhone — with no markers, suits, or specialist hardware.",
   "pros": [
-    "Markerless capture from a single iPhone",
+    "No markers, suits, or specialist hardware",
     "Multi-camera option for studio quality",
     "Exports to FBX and USD",
     "Used by major studios"

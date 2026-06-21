@@ -34,9 +34,9 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "From the PyTorch Lightning team — Studios are persistent GPU workspaces you pause and resume, not throwaway notebooks.",
   "pros": [
-    "Persistent GPU Studios",
-    "From PyTorch Lightning makers",
-    "Pause/resume workspaces",
+    "Pause/resume persistent GPU Studios",
+    "Code, train, serve, build agents in one place",
+    "Bring-your-own-cloud for enterprise",
     "Monthly free GPU credits"
   ],
   "cons": [

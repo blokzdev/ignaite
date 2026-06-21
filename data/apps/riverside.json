@@ -26,7 +26,7 @@
   "lastVerifiedAt": "2026-06-11",
   "edge": "Records every participant locally in separate tracks (up to 4K), so quality survives a weak connection — unlike cloud-only recorders.",
   "pros": [
-    "Local per-track recording up to 4K",
+    "Separate uncompressed track per guest",
     "Text-based and chat-based AI editing",
     "Auto clips, show notes, captions",
     "AI translation/dubbing in 30+ languages"

@@ -32,10 +32,10 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Built around its own Selene LLM-judge models instead of prompting a general model, then clusters and ranks agent failures so you fix the most impactful first.",
   "pros": [
-    "Purpose-built Selene judge models",
-    "Clusters and ranks agent failures",
+    "Auto-discovers and suggests fixes",
     "Open-weight Selene Mini available",
     "Python and TypeScript SDKs",
+    "Integrates with OpenAI and LangChain",
     "Y Combinator-backed team"
   ],
   "cons": [

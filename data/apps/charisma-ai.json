@@ -25,8 +25,8 @@
   "lastVerifiedAt": "2026-06-16",
   "edge": "A controllable story-graph keeps AI characters on-script — guaranteeing plot beats and brand-safe replies where free-form LLM NPCs can drift.",
   "pros": [
-    "No-code story graph with voice and avatars",
-    "Controllable AI keeps characters on-script",
+    "No-code builder with voice and avatars",
+    "Allows generative improvisation within limits",
     "Memory, emotion and goal tracking",
     "SDKs for Unity, Unreal and web"
   ],

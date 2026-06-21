@@ -2,7 +2,7 @@
   "slug": "ludo-ai",
   "name": "Ludo.ai",
   "tagline": "AI game ideation, market research, and asset generation.",
-  "description": "Ludo.ai began as the first dedicated AI game-ideation tool — generating game concepts, surfacing market and trend research, and helping developers validate ideas. It has since broadened into asset generation (sprites and spritesheets, 2D/3D models, audio, and video) alongside its ideation and market-analysis features. Access is via a web app, REST API, an MCP integration, and a Unity Editor plugin.",
+  "description": "Ludo.ai generates game concepts, surfaces market and trend research, and helps developers validate ideas. It has since broadened into asset generation (sprites and spritesheets, 2D/3D models, audio, and video) alongside its ideation and market-analysis features. Access is via a web app, REST API, an MCP integration, and a Unity Editor plugin.",
   "insight": "Founded in 2020 by Tom Pigott and billed as the first dedicated AI game-ideation tool, predating the generative-asset wave.",
   "category": "gaming",
   "pricing": "freemium",

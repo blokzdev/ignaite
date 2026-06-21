@@ -31,7 +31,7 @@
   "addedAt": "2026-06-12",
   "addedSeq": 499,
   "lastVerifiedAt": "2026-06-12",
-  "edge": "Tuned for real-time voice and video agents: cold starts in seconds, 12+ GPU types, and multi-region failover under a per-second usage bill.",
+  "edge": "Tuned for real-time voice and video agents, where its fast cold starts and multi-region failover beat general-purpose GPU clouds.",
   "pros": [
     "2–4s cold starts, scale-to-zero",
     "12+ GPU types up to B200",

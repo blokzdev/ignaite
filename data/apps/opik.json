@@ -34,11 +34,11 @@
   "addedAt": "2026-06-07",
   "addedSeq": 191,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Apache-2.0 and fully self-hostable, pairing tracing with built-in LLM-as-judge evals — own the stack or use Comet cloud.",
+  "edge": "Fully self-hostable, pairing call tracing with built-in LLM-as-judge evals — own the stack or use Comet cloud.",
   "pros": [
-    "Open source (Apache-2.0)",
     "Self-host via Docker/Kubernetes",
     "Tracing plus evals in one tool",
+    "Prompt management and dashboards",
     "Framework-agnostic integrations"
   ],
   "cons": [

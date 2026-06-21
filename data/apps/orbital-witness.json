@@ -27,8 +27,8 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Purpose-built for real estate law rather than general legal AI — covers title, leases, and surveys, and powers 200K+ property transactions a year.",
   "pros": [
-    "Specialized in real estate / property law",
     "Reviews title reports, leases, surveys",
+    "Extracts provisions and flags risks",
     "Drafting across the full transaction",
     "Backed by JLL Spark, RELX (REV), Grosvenor"
   ],

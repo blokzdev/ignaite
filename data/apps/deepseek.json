@@ -27,7 +27,12 @@
   "addedSeq": 79,
   "lastVerifiedAt": "2026-06-06",
   "edge": "Open-weight R1 reset the price-for-reasoning curve, and the consumer app stays free with strong reasoning.",
-  "pros": ["Free to use", "Strong reasoning (R1)", "Open-weight models", "Web search built in"],
+  "pros": [
+    "Reasoning mode (R1)",
+    "Self-hostable open weights",
+    "Web search built in",
+    "Mobile and web apps"
+  ],
   "cons": [
     "China-hosted data concerns",
     "Content restrictions on sensitive topics",

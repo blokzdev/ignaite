@@ -34,7 +34,7 @@
   "pros": [
     "Polished desktop GUI",
     "In-app Hugging Face model search",
-    "OpenAI + Anthropic-compatible server",
+    "RAG over local files + MCP tool-use",
     "Free for personal + commercial use"
   ],
   "cons": [

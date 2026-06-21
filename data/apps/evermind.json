@@ -1,8 +1,8 @@
 {
   "slug": "evermind",
   "name": "EverMind",
-  "tagline": "Open-source, self-evolving long-term memory OS for AI agents.",
-  "description": "EverMind builds persistent memory infrastructure for AI agents. Its open-source EverOS (a.k.a. EverMemOS) is a brain-inspired memory operating system — sensory encoding, hippocampal-style indexing, and long-term consolidation — that gives agents context that survives across sessions and platforms, with multimodal retrieval and agent-trajectory recording. It's a portable layer meant to plug into Claude Code, Codex, and other agents; self-host the Apache-2.0 core or use the managed EverOS Cloud.",
+  "tagline": "Self-evolving long-term memory OS for AI agents.",
+  "description": "EverMind builds persistent memory infrastructure for AI agents. Its EverOS (a.k.a. EverMemOS) is a brain-inspired memory operating system — sensory encoding, hippocampal-style indexing, and long-term consolidation — that gives agents context that survives across sessions and platforms, with multimodal retrieval and agent-trajectory recording. It's a portable layer meant to plug into Claude Code, Codex, and other agents; self-host the Apache-2.0 core or use the managed EverOS Cloud.",
   "insight": "Incubated under Shanda Investment Group, the firm of Chinese billionaire Chen Tianqiao.",
   "category": "memory",
   "pricing": "freemium",

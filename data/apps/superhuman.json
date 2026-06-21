@@ -26,10 +26,10 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "The speed benchmark for email — sub-100ms keyboard-first triage plus AI drafting in your voice, where most AI email peers bolt chat onto a slower client.",
   "pros": [
-    "Sub-100ms keyboard-first interactions",
+    "Fast, keyboard-driven triage",
     "AI drafts match your writing voice",
     "Split-inbox triage and follow-ups",
-    "Works with Gmail and Outlook"
+    "Part of the Superhuman/Grammarly suite"
   ],
   "cons": [
     "No standalone Mail plan — Business tier only",

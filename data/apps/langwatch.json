@@ -2,7 +2,7 @@
   "slug": "langwatch",
   "insight": "Amsterdam startup whose founders met at an Antler residency; raised a €1M pre-seed led by Passion Capital in 2025.",
   "name": "LangWatch",
-  "tagline": "Open-source LLM observability, evaluation, and agent testing.",
+  "tagline": "LLM observability, evaluation, and agent testing.",
   "description": "An open-source platform for monitoring, evaluating, and testing LLM and agent applications. LangWatch captures traces, runs evaluations and simulations, and surfaces quality and cost metrics in production. Offered as managed cloud or fully self-hosted for teams with strict data-residency needs.",
   "category": "observability",
   "pricing": "freemium",
@@ -35,7 +35,7 @@
   "edge": "Bundles trace observability with Scenario agent-simulation testing, not just passive production monitoring.",
   "pros": [
     "Agent simulation testing built in",
-    "Open source + self-hostable",
+    "Self-hostable on your own infra",
     "Evals alongside tracing",
     "Data-residency options"
   ],

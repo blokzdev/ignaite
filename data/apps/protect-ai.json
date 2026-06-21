@@ -28,11 +28,11 @@
   "addedAt": "2026-06-09",
   "addedSeq": 295,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "Secures the whole ML supply chain — model scanning for serialization attacks, red teaming, posture, runtime — and stewards OSS ModelScan.",
+  "edge": "Secures the whole ML supply chain from model selection to runtime, and stewards the OSS ModelScan tool the field relies on.",
   "pros": [
     "Covers full AI/ML lifecycle",
     "Model scanning for serialization attacks",
-    "Stewards OSS ModelScan and NB Defense",
+    "Adds AI red teaming and posture management",
     "Now part of Palo Alto Prisma AIRS"
   ],
   "cons": [

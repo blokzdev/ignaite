@@ -30,9 +30,9 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Pulls citations from PubMed, arXiv, and JSTOR and syncs with Zotero, Mendeley, Notion, and Drive from one workspace.",
   "pros": [
-    "Reference-manager and cloud-drive sync",
     "Inline citations across your library",
-    "Direct PubMed/arXiv/JSTOR search",
+    "Builds a searchable library from your PDFs",
+    "Drafts and cites papers in-app",
     "Usable free tier"
   ],
   "cons": [

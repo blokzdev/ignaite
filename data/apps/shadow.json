@@ -3,7 +3,7 @@
   "name": "Shadow",
   "tagline": "Bot-free, on-device AI meeting assistant for Mac.",
   "description": "A macOS meeting assistant that detects calls at the operating-system level across Zoom, Meet, Teams, Webex and Discord without joining as a visible participant. Transcribes audio on-device, captures smart screenshots, and runs autonomous post-meeting Skills like notes, follow-up drafts, and CRM updates.",
-  "insight": "Built by San Francisco's Taper Labs (CEO Jay Song); transcription runs on-device so audio never leaves your Mac.",
+  "insight": "Built by San Francisco's Taper Labs, founded by CEO Jay Song.",
   "category": "meeting",
   "pricing": "freemium",
   "deployment": "local",
@@ -20,8 +20,8 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Captures meetings at the OS level without joining as a bot, with transcription kept on-device — unlike notetakers that send a visible participant into the call.",
   "pros": [
-    "No meeting bot joins the call",
     "On-device transcription for privacy",
+    "Smart screenshots and post-meeting Skills",
     "Auto-detects calls across many apps",
     "Generous free tier; Plus is just $8/mo"
   ],

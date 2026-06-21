@@ -34,9 +34,9 @@
   "addedAt": "2026-06-08",
   "addedSeq": 256,
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Apache-2.0 answer engine you self-host — provider-agnostic across LLMs and search backends, one-click Vercel deploy.",
+  "edge": "Self-hostable answer engine that's provider-agnostic across LLMs and search backends, with one-click Vercel deploy.",
   "pros": [
-    "Open source (Apache-2.0)",
+    "Quick and Adaptive research modes",
     "Self-hostable, one-click Vercel deploy",
     "Provider-agnostic LLM and search backends",
     "Generative UI adapts per query"

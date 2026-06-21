@@ -33,7 +33,7 @@
   "addedAt": "2026-05-13",
   "addedSeq": 69,
   "lastVerifiedAt": "2026-06-07",
-  "edge": "Eval-first: prompts are versioned objects and CI scorers block a merge when quality regresses — generous free tier.",
+  "edge": "Eval-first: prompts are versioned objects and CI scorers block a merge when quality regresses.",
   "pros": [
     "Eval workflow as the primary interface",
     "CI scorers block merges on regression",

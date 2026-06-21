@@ -31,8 +31,8 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "One of the simplest no-code paths from your docs to a live support agent — deploy across web, WhatsApp, and Slack without engineering.",
   "pros": [
-    "No-code agent builder, fast setup",
-    "Trains on your docs, sites, and files",
+    "Fast setup, no engineering required",
+    "Deploys to web, WhatsApp, and Slack",
     "Human handoff and 80+ languages",
     "Broad integrations (Zendesk, Slack, CRMs)",
     "Free tier to start"

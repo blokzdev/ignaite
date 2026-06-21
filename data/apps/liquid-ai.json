@@ -36,11 +36,11 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Runs capable LLMs fully on-device — no cloud, low latency, private — via compact LFMs you can fine-tune and ship with one Edge SDK.",
   "pros": [
-    "Models run on-device, no cloud needed",
-    "Low latency, offline, and private",
+    "Runs on phones, laptops, edge hardware",
+    "Compact 350M–8.3B LFM2/LFM2.5 family",
     "LEAP core is free for all users",
-    "Fine-tune and bundle for edge fast",
-    "Open-weight LFM2/LFM2.5 family"
+    "Discover, bundle, deploy via Edge SDK",
+    "Open-weight models"
   ],
   "cons": [
     "Small models trail frontier cloud LLMs",

@@ -33,7 +33,7 @@
   "addedAt": "2026-06-09",
   "addedSeq": 284,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "Adaptive NMT that learns from your corrections in real time without retraining — and the core engine is Apache-2.0.",
+  "edge": "Adapts per string from your TM and edits on the fly, so there's no per-customer engine retraining like older custom-MT setups.",
   "pros": [
     "Open-source ModernMT core, self-hostable",
     "Adapts to corrections without retraining",

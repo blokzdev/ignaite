@@ -2,7 +2,7 @@
   "slug": "tavily",
   "insight": "Grew out of the open-source GPT Researcher project; AI-infra firm Nebius acquired it for $275M in 2026.",
   "name": "Tavily",
-  "tagline": "Search API built for AI agents. First-class in most agent frameworks.",
+  "tagline": "Web search API built for LLM agents and RAG pipelines.",
   "description": "Search-as-a-tool for LLM agents — returns scrape-friendly results tuned for retrieval rather than ranking. Native integrations across LangChain, LangGraph, CrewAI, and the major agent surfaces.",
   "category": "search",
   "pricing": "freemium",

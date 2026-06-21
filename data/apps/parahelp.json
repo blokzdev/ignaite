@@ -24,7 +24,7 @@
   "addedSeq": 885,
   "lastVerifiedAt": "2026-06-19",
   "insight": "Copenhagen-based and YC-backed; raised $21.2M, with its AI support agents running for Perplexity, Replit, Bolt and other AI startups.",
-  "edge": "Built for technical SaaS support: an internal agent keeps the customer-facing agent current as the product ships, resolving tickets end-to-end.",
+  "edge": "Built for technical SaaS support: an internal agent keeps the customer-facing agent current as the product ships, so answers don't go stale.",
   "pros": [
     "Resolves tickets end-to-end",
     "Self-updating from product changes",

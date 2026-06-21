@@ -26,8 +26,8 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Visual no-code canvas that designers and PMs can build on alongside engineers — used by 130k+ people including Fortune 500 teams.",
   "pros": [
-    "No-code visual builder for chat + voice",
-    "Cross-functional: designers, PMs, devs",
+    "Visual builder for chat and voice agents",
+    "Deploy to web, phone, or any channel",
     "Multi-model (OpenAI, Anthropic, Google)",
     "Built-in knowledge base / RAG",
     "Scales to enterprise volumes"

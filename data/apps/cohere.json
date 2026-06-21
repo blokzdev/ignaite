@@ -25,7 +25,7 @@
   "edge": "Enterprise-first models built for private VPC/on-prem deployment, with best-in-class Rerank/Embed retrieval rather than consumer chat.",
   "pros": [
     "Strong Rerank/Embed retrieval models",
-    "Private VPC / on-prem deployment",
+    "Command models for agentic generation",
     "Multilingual (Aya, 70+ languages)",
     "Enterprise data-control focus"
   ],

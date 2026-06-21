@@ -31,7 +31,6 @@
   "edge": "Generates the database, auth, and hosting for each app automatically, so non-coders ship working tools end-to-end without wiring a backend.",
   "pros": [
     "Full working apps from plain-English prompts",
-    "Built-in database, auth, and hosting",
     "Free tier to start, no card required",
     "Aimed squarely at non-developers"
   ],

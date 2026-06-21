@@ -22,8 +22,8 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Runs the whole top-of-funnel — sourcing, screening, and voice/video/text interviews with skill assessment — as AI agents layered on your existing ATS.",
   "pros": [
-    "Agents source, screen, and interview",
-    "Voice, video, or text interviews",
+    "Covers intake through hire recommendation",
+    "Skill assessment via psychometric models",
     "Layers on existing ATS/HRIS",
     "Audited for bias by New York State"
   ],

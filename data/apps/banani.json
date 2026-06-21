@@ -23,8 +23,8 @@
   "edge": "Turns a plain-language prompt into editable, multi-screen prototypes and exports straight to Figma or HTML/CSS.",
   "pros": [
     "Prompt-to-prototype in seconds",
-    "Editable, multi-screen output",
-    "Exports to Figma and HTML/CSS",
+    "Refine with prompts or manual edits",
+    "Add click-through interactions",
     "Usable without design skills"
   ],
   "cons": [

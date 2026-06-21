@@ -3,7 +3,7 @@
   "insight": "The first commercial product from World Labs, Fei-Fei Li's spatial-AI lab that hit unicorn status months after its 2024 founding.",
   "name": "Marble",
   "tagline": "Generate editable 3D worlds from text, images, or video.",
-  "description": "A generative world model that turns text prompts, photos, videos, panoramas, or 3D layouts into editable, downloadable 3D environments. The first commercial product from World Labs, the spatial-intelligence lab co-founded by Fei-Fei Li. Outputs can be refined and exported for use in game engines and 3D pipelines.",
+  "description": "A generative world model from World Labs that turns text prompts, photos, videos, panoramas, or 3D layouts into editable, downloadable 3D environments. Outputs can be refined and exported for use in game engines and 3D pipelines.",
   "category": "3d",
   "pricing": "freemium",
   "deployment": "cloud",
@@ -31,10 +31,10 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Outputs persistent, editable, downloadable 3D worlds for game engines — not on-the-fly video-only scenes.",
   "pros": [
-    "Exports editable, downloadable 3D environments",
+    "Exports to game engines and 3D pipelines",
     "Inputs from text, photos, panoramas, or 3D",
     "Cleaner geometry than prior world models",
-    "Backed by World Labs (Fei-Fei Li)"
+    "Refine and re-edit generated scenes"
   ],
   "cons": [
     "Quality degrades away from start point",

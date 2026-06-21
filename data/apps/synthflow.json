@@ -18,12 +18,12 @@
   "addedAt": "2026-06-13",
   "addedSeq": 529,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "No-code visual builder with in-house telephony and 200+ integrations, tuned for high-volume contact-center phone automation.",
+  "edge": "Tuned for high-volume contact-center phone automation, with a choice of LLM and TTS providers per agent.",
   "pros": [
     "No-code visual flow designer",
     "In-house telephony, 200+ integrations",
     "Pay-as-you-go, free to build and test",
-    "Proven at high call volumes (45M+ calls)"
+    "Real-time call monitoring"
   ],
   "cons": [
     "Focused on phone/voice, not broad chat",

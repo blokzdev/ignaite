@@ -28,7 +28,7 @@
   "edge": "A real collaborative 3D editor for interactive web scenes first, with AI generation bolted on as an accelerator — not a prompt-only toy.",
   "pros": [
     "Full browser-based 3D editor",
-    "Built for interactive web 3D",
+    "Exports scenes for the web",
     "Real-time collaboration",
     "AI object/texture/animation generation"
   ],

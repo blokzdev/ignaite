@@ -42,7 +42,7 @@
   "pros": [
     "TypeScript-native, low boilerplate",
     "Graph workflow engine plus memory and tools",
-    "Apache-2.0 core, self-hostable",
+    "Self-hostable or deploy to Mastra Cloud",
     "Built-in observability"
   ],
   "cons": [

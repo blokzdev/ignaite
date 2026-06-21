@@ -31,7 +31,6 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Agents are natively grounded in Salesforce CRM data and Data Cloud via the Atlas Reasoning Engine — turnkey for existing Salesforce shops.",
   "pros": [
-    "Native grounding in Salesforce CRM + Data Cloud",
     "Prebuilt service and sales agents",
     "Enterprise guardrails via Einstein Trust Layer",
     "Large partner and integration ecosystem"

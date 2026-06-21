@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "Emits real shadcn/ui + Tailwind React code you can paste into a project — production primitives, not throwaway mockup markup.",
   "pros": [
-    "Outputs real React/Tailwind/shadcn",
+    "Uses production shadcn/ui primitives",
     "Copy-paste into existing projects",
     "Tight Vercel deploy integration",
     "Fast iteration in v0 projects"

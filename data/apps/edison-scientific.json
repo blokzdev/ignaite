@@ -3,7 +3,7 @@
   "name": "Edison Scientific",
   "tagline": "Kosmos, the AI scientist — autonomous literature and data-analysis research runs.",
   "insight": "Spun out of the Eric Schmidt-funded nonprofit FutureHouse in Nov 2025, raising a $70M seed at a ~$250M valuation weeks later.",
-  "description": "The for-profit spinout commercializing nonprofit lab FutureHouse's scientific agents. Its flagship Kosmos runs autonomous research campaigns — iterating data analysis, literature search, and hypothesis generation across roughly 1,500 papers per run — and returns fully cited research reports. The Edison Platform took over FutureHouse's hosted literature agents, with the first Kosmos runs free for academic researchers.",
+  "description": "The for-profit spinout commercializing nonprofit lab FutureHouse's scientific agents. Its flagship Kosmos runs autonomous research campaigns — iterating data analysis, literature search, and hypothesis generation — and returns fully cited research reports. The Edison Platform took over FutureHouse's hosted literature agents, with the first Kosmos runs free for academic researchers.",
   "category": "research-platform",
   "pricing": "freemium",
   "deployment": "cloud",
@@ -25,7 +25,7 @@
   "addedAt": "2026-06-12",
   "addedSeq": 493,
   "lastVerifiedAt": "2026-06-12",
-  "edge": "Kosmos runs multi-hour autonomous campaigns over ~1,500 papers and returns reports where every conclusion links back to code or citations.",
+  "edge": "Kosmos runs multi-hour autonomous campaigns over ~1,500 papers per run — deeper than single-shot literature agents.",
   "pros": [
     "Every finding linked to code or citations",
     "First six Kosmos runs free for academics",

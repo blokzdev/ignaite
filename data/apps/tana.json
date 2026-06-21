@@ -23,7 +23,7 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "Its agents act live during the meeting — drafting PRs, tickets and storyboards — instead of just summarizing after, over a persistent context graph.",
   "pros": [
-    "Agents produce artifacts during the call",
+    "Agents draft PRs, tickets, storyboards",
     "Persistent cross-meeting context graph",
     "Human-approval step for AI changes",
     "Integrates GitHub, Linear, Jira, Slack"

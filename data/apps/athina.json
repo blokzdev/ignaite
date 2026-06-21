@@ -33,12 +33,12 @@
   "addedAt": "2026-06-09",
   "addedSeq": 328,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "Bundles prompt management, datasets, tracing and 50+ preset evals with human annotation, fed by an open-source eval SDK.",
+  "edge": "One platform spans the whole LLM lifecycle — prompts to production tracing — fed by an open-source eval SDK rather than a closed black box.",
   "pros": [
     "50+ preset + custom evals",
-    "Open-source eval SDK",
-    "Prompt mgmt + datasets + tracing",
-    "Human annotation tools"
+    "Human annotation tools",
+    "Works with OpenAI, Bedrock, Vertex, Azure",
+    "Datasets and experiments built in"
   ],
   "cons": [
     "Monitoring platform is closed",

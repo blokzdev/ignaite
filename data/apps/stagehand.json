@@ -3,7 +3,7 @@
   "insight": "Built by Browserbase; its v3 dropped the hard Playwright dependency for a CDP-native driver, ~44% faster on complex DOM work.",
   "name": "Stagehand",
   "tagline": "Open-source SDK for building reliable AI browser agents.",
-  "description": "Stagehand is an open-source (MIT) SDK from Browserbase for building browser agents in TypeScript or Python. It exposes act(), extract(), and observe() primitives so you can drive a page with natural language while keeping deterministic code wherever you need it. v3 dropped its hard Playwright dependency for a modular Chrome DevTools Protocol driver.",
+  "description": "Stagehand is an SDK from Browserbase for building browser agents in TypeScript or Python. It exposes act(), extract(), and observe() primitives so you can drive a page with natural language while keeping deterministic code wherever you need it. v3 dropped its hard Playwright dependency for a modular Chrome DevTools Protocol driver.",
   "category": "automation",
   "secondaryCategories": ["agent"],
   "pricing": "free",
@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-08",
   "edge": "Mixes deterministic code with natural-language act()/extract() — no all-or-nothing handoff to a black-box agent.",
   "pros": [
-    "Open source (MIT)",
+    "CDP-native v3 driver, no Playwright lock-in",
     "Mix code and NL primitives",
     "TypeScript and Python SDKs",
     "Model-agnostic (OpenAI/Anthropic/Google)"

@@ -29,8 +29,8 @@
   "edge": "Purpose-trained on HR-specific language for hiring and feedback, where general writing assistants aren't tuned for bias or legal risk.",
   "pros": [
     "Real-time inclusive-language guidance",
-    "Trained on HR-specific corpus",
-    "Covers hiring and performance feedback",
+    "Catches biased or off-tone language",
+    "Separate recruiting and manager tools",
     "Integrates with ATS / HR systems"
   ],
   "cons": [

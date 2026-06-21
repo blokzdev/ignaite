@@ -1,6 +1,6 @@
 {
   "slug": "tactiq",
-  "insight": "Captures meetings as a browser extension with no bot joining the call — its Chrome add-on passed 1M+ installs.",
+  "insight": "Its Chrome extension has passed 1M+ installs.",
   "name": "Tactiq",
   "tagline": "Bot-free AI note taker for Google Meet, Zoom, and Teams.",
   "description": "Tactiq is a browser-based AI note taker that transcribes Google Meet, Zoom, and Microsoft Teams calls live — no recording bot joins the meeting. It generates summaries, action items, and AI insights in 60+ languages and pushes them to tools like Slack, HubSpot, and Linear.",
@@ -30,8 +30,8 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Runs as a browser extension that transcribes in real time without a visible recorder bot joining the call.",
   "pros": [
-    "No recording bot joins the meeting",
-    "Works on Meet, Zoom, and Teams",
+    "Real-time live transcription",
+    "AI summaries and action items",
     "60+ language transcription",
     "Pushes notes to Slack, HubSpot, Linear",
     "Free plan with monthly transcripts"

@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Custom-trained per-studio style models keep generated assets on-brand — beyond generic text-to-image tools.",
   "pros": [
-    "Style-consistent custom models",
+    "Image, video, 3D, and audio assets",
     "SOC 2; no cross-customer data reuse",
     "Unity plugin, API, and MCP",
     "Real studio adoption"

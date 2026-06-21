@@ -33,7 +33,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 910,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Adds production vector search inside Postgres itself — HNSW, embedding generation, and hybrid BM25 search with no separate vector store.",
+  "edge": "Adds production vector search inside Postgres itself — HNSW indexing and hybrid BM25 search with no separate vector store.",
   "pros": [
     "Lives inside the Postgres you already run",
     "Open-source, self-host or managed cloud",

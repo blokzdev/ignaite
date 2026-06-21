@@ -3,7 +3,7 @@
   "insight": "Founded in New Zealand by ex-lawyer Min-Kyu Jung; ARR grew 500% in the year before its Blackbird-led $55M Series B in Jan 2026.",
   "name": "Ivo",
   "tagline": "AI contract review that redlines against your playbooks, in Word or on the web.",
-  "description": "An AI contract-intelligence platform for in-house legal teams: it reviews and redlines agreements against your own playbooks directly in Microsoft Word, analyzes whole contract libraries at scale, and answers research questions with an AI agent. Used by legal teams at Meta, Uber, IBM, Atlassian, Shopify and Reddit; SOC 2 and ISO 27001 certified, and it does not train models on customer data.",
+  "description": "An AI contract-intelligence platform for in-house legal teams: it reviews and redlines agreements against your own playbooks, analyzes whole contract libraries at scale, and answers research questions with an AI agent. Used by legal teams at Meta, Uber, IBM, Atlassian, Shopify and Reddit; SOC 2 and ISO 27001 certified, and it does not train models on customer data.",
   "category": "legal",
   "pricing": "paid",
   "deployment": "cloud",
@@ -22,8 +22,8 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "Redlines contracts directly in Microsoft Word against your own playbooks — a workflow legal teams at Uber, Shopify and Reddit run at enterprise scale.",
   "pros": [
-    "Native Microsoft Word redlining",
     "Playbook-driven, customizable reviews",
+    "AI research agent over your contracts",
     "Bulk analysis across contract libraries",
     "Doesn't train models on customer data"
   ],

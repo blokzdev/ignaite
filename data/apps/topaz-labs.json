@@ -31,7 +31,7 @@
   "edge": "Detail-preserving photo/video upscaling and denoise that runs locally on your own GPU, not a cloud-only web tool — built for pro post workflows.",
   "pros": [
     "Industry-standard quality for upscaling and denoise",
-    "Runs locally on Mac/Windows GPUs",
+    "Up to 16x upscaling with detail recovery",
     "Dedicated photo, video, and Gigapixel apps",
     "Plugin and API integration paths"
   ],

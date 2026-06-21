@@ -2,7 +2,7 @@
   "slug": "runware",
   "insight": "Raised a $50M Series A led by Dawn Capital in December 2025, bringing total funding to about $66M.",
   "name": "Runware",
-  "tagline": "One pay-as-you-go API for 400K+ image, video, audio, and 3D models.",
+  "tagline": "One pay-as-you-go API for multi-modal AI inference.",
   "description": "Runware is a unified AI inference platform that exposes 400K+ models — image, video, audio, text, and 3D — behind a single pay-as-you-go API. It runs a proprietary Sonic Inference Engine on custom GPU hardware, claiming sub-second cold starts and up to 10x lower cost per generation than typical hosted inference. A REST and WebSocket API plus a web playground let developers swap models without per-provider integrations.",
   "category": "inference",
   "pricing": "freemium",
@@ -31,9 +31,8 @@
   "pros": [
     "400K+ models via one API",
     "Pay-per-request, no commitments",
-    "Claims up to 10x lower cost",
-    "Sub-second cold starts",
-    "Image, video, audio, 3D, and LLMs"
+    "Image, video, audio, 3D, and LLMs",
+    "Swap models without per-provider work"
   ],
   "cons": [
     "Proprietary, cloud-only",

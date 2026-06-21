@@ -1,6 +1,6 @@
 {
   "slug": "knowunity",
-  "insight": "Berlin edtech founded 2020; raised a €27M Series B in 2025 (total €45M), and ships its AI tutor as ‘SchoolGPT.’",
+  "insight": "Berlin edtech founded in 2020; raised a €27M Series B in 2025, bringing total funding to about €45M.",
   "name": "Knowunity",
   "tagline": "AI study companion with crowdsourced notes for students.",
   "description": "Knowunity is a mobile-first learning platform where students access crowdsourced study notes, flashcards, quizzes and practice tests, alongside an AI tutor called SchoolGPT that answers subject questions and explains problems step by step. Founded in Berlin in 2020, it covers 20+ subjects across 15 countries and is free to use, monetizing through optional premium features. The app reports 20M+ students.",
@@ -29,7 +29,7 @@
     "Free core app",
     "20M+ students across 15 countries",
     "Crowdsourced notes + flashcards",
-    "SchoolGPT AI tutor",
+    "Step-by-step problem explanations",
     "iOS, Android and web"
   ],
   "cons": [

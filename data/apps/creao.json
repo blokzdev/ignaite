@@ -38,7 +38,7 @@
   "edge": "Closes the loop — the agent both builds the tool and runs it on a schedule, turning one-off chats into persistent apps that execute without re-prompting.",
   "pros": [
     "Build full apps/workflows in plain English",
-    "Workflows run 24/7 on a schedule",
+    "Runs tasks autonomously in a sandbox",
     "Locked Agent Apps avoid repeat hallucination",
     "Learns custom integrations from API docs",
     "Generous no-card free tier"

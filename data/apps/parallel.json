@@ -35,10 +35,10 @@
   "lastVerifiedAt": "2026-06-08",
   "edge": "Built for agents, not humans: bills per request over a proprietary index tuned for high-signal context, not click-ranked URLs.",
   "pros": [
-    "Per-request pricing, not per-token",
+    "Free allotment to start",
     "Proprietary web index built for agents",
     "Search, Task, and Deep Research APIs",
-    "High-signal, low-noise context output"
+    "Returns clean context, not URL lists"
   ],
   "cons": [
     "API-only; no end-user search app",

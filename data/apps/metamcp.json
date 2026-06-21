@@ -31,7 +31,7 @@
     "Namespaces many MCP servers",
     "Middleware to filter/rewrite tools",
     "API-key and OAuth auth",
-    "MIT licensed, self-hosted"
+    "Multi-tenant, serves over SSE/HTTP"
   ],
   "cons": [
     "Self-host only; no managed cloud",

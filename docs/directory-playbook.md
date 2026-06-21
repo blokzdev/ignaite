@@ -41,6 +41,11 @@ here can invoke them. They encode the same flow we run manually.
   the trust signal), `bestFor`, curated `alternatives` (peer slugs powering the "Alternatives to <name>"
   rail), and third-party `references` (independent coverage — verify-or-omit, never the vendor's own
   pages). Same no-fabrication bar; `/audit-directory` backfills + re-verifies these over the cycle.
+- **One home per point — no cross-field redundancy.** The `tagline` *describes* what the app is/does;
+  it doesn't sell (no stats, superlatives, or comparison — those are `edge`/`pros`). A distinctive
+  stat/phrase appears in `description` once + at most one of {`edge`, `pros`}, never stacked across
+  tagline + edge + pros (it piles up in the detail page's masthead → edge callout → pros box). Full
+  spec in `add-app.md`; `/audit-directory` catches drift over the cycle.
 - **Listings can be multi-category.** Each carries one primary `category` (its canonical home — card
   chip, related rail, breadcrumb, JSON-LD, sort) plus optional **`secondaryCategories`** (≤2) for genuine
   second homes, so an app surfaces on **every** category it truly belongs to (page, filter, count,

@@ -3,7 +3,7 @@
   "name": "Firebase Studio",
   "tagline": "Agentic cloud IDE for building and shipping full-stack AI apps with Gemini.",
   "description": "Firebase Studio is Google's cloud-based, agentic development environment for building and shipping full-stack AI apps from the browser. It unifies the former Project IDX with Gemini-powered agents and the Genkit framework, giving you a full Code OSS editor, app prototyping from natural-language prompts, emulators, and one-click deploy to Firebase App Hosting. It runs entirely in the browser with no local setup. The core environment is free, with optional paid Cloud Billing for hosting and higher quotas.",
-  "insight": "Evolved from Google's Project IDX; built on Code OSS, the open-source core behind VS Code.",
+  "insight": "Evolved from and replaced Google's earlier Project IDX cloud IDE, relaunched with Gemini agents in 2025.",
   "category": "ide",
   "vendor": "Google",
   "pricing": "free",
@@ -31,10 +31,10 @@
   "addedAt": "2026-06-15",
   "addedSeq": 734,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Browser-based and free, it pairs a full Code OSS editor with Gemini agents and one-click Firebase deploy — no local setup needed.",
+  "edge": "Free and fully browser-based with no local setup, tying a real Code OSS editor straight into Gemini agents and the Firebase deploy stack.",
   "pros": [
     "Runs fully in the browser, no setup",
-    "Built on Code OSS (VS Code core)",
+    "Gemini agents and Genkit built in",
     "One-click deploy to Firebase",
     "Free core tier",
     "Prototype apps from a prompt"

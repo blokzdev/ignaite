@@ -31,10 +31,9 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Treats agents like software — version-controlled, sandboxed, and shippable self-hosted or air-gapped with no vendor lock-in.",
   "pros": [
-    "Fully open source and self-hostable",
     "One-command self-host plus managed cloud",
     "Agents commit via git branches and PRs",
-    "On-prem and air-gapped deployment options",
+    "On-prem deployment for regulated infra",
     "Bring your own model provider"
   ],
   "cons": [

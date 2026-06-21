@@ -1,6 +1,6 @@
 {
   "slug": "ace-studio",
-  "insight": "Built by Beijing's TimedomAIn; its 140+ royalty-free voices span 8 languages, and a paid subscription converts into a lifetime license.",
+  "insight": "Built by Beijing studio TimedomAIn; a paid subscription converts into a lifetime license.",
   "name": "ACE Studio",
   "tagline": "AI music studio for studio-quality singing vocals from MIDI and lyrics.",
   "description": "ACE Studio generates expressive, human-like singing vocals from MIDI and lyrics, edited in a piano-roll where you control pitch, timing, vibrato, pronunciation, dynamics, and emotional intensity. It ships 140+ royalty-free AI voice models across eight languages, plus AI instruments, voice cloning, stem splitting, and choir/ensemble modes. It runs as a standalone desktop app and as VST/AU/AAX plugins, with vocal generation processed in the cloud.",

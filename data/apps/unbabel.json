@@ -29,7 +29,7 @@
   "addedAt": "2026-06-10",
   "addedSeq": 401,
   "lastVerifiedAt": "2026-06-10",
-  "edge": "Built its own translation-native LLM (TowerLLM) and the COMET metric the industry benchmarks with — quality estimation is native, not bolted on.",
+  "edge": "Owns both a translation-native LLM (TowerLLM) and COMET, the open metric the MT industry benchmarks with — rare end-to-end control.",
   "pros": [
     "Purpose-built in-house TowerLLM for translation",
     "Authored COMET, the standard MT quality metric",

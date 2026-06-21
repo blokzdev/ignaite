@@ -28,7 +28,7 @@
   "edge": "Built around specialized, individually-tunable RAG components — parse, rerank, and generate — for grounded accuracy in high-stakes technical domains.",
   "pros": [
     "Purpose-built for grounded, citation-backed answers",
-    "Tunable RAG components (parse, rerank, generate)",
+    "Agentic search and research layer",
     "Private VPC and single-tenant deployment options",
     "Founding team pioneered RAG research"
   ],

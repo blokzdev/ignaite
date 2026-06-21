@@ -29,12 +29,11 @@
   "addedAt": "2026-06-10",
   "addedSeq": 421,
   "lastVerifiedAt": "2026-06-10",
-  "edge": "Built around enforced Brand Voice and team marketing-campaign workflows rather than one-off copy, with templates, integrations, and a browser extension.",
+  "edge": "Built around enforced Brand Voice and team campaign workflows rather than one-off copy, so output stays on-brand across channels.",
   "pros": [
-    "Strong brand-voice consistency",
-    "Marketing-team campaign workflows",
     "Many templates + integrations",
-    "Browser extension reaches other tools"
+    "Browser extension reaches other tools",
+    "Routes across multiple underlying LLMs"
   ],
   "cons": [
     "No permanent free tier",

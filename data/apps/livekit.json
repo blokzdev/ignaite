@@ -27,9 +27,9 @@
   "edge": "The open-source realtime layer most voice-agent stacks run on — sub-second STT-LLM-TTS with turn detection, interruptions, and telephony, BYO models.",
   "pros": [
     "Powers ChatGPT Advanced Voice in production",
-    "Apache-2.0 open source, self-hostable",
+    "Self-hostable, with telephony built in",
     "BYO STT/LLM/TTS — no model lock-in",
-    "Sub-second latency, turn detection, telephony",
+    "Reliable turn detection and interruptions",
     "Managed cloud option alongside the OSS"
   ],
   "cons": [

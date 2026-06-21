@@ -41,7 +41,7 @@
   ],
   "edge": "Detection models trained on 80M+ real adversarial prompts from its viral Gandalf game; sub-50ms inline latency.",
   "pros": [
-    "Trained on millions of real attack prompts",
+    "Detection sharpened by the Gandalf game",
     "Low sub-50ms latency, inline-friendly",
     "Covers injection, jailbreaks, PII, data loss",
     "Model-agnostic API in front of any LLM"

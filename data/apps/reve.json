@@ -1,7 +1,7 @@
 {
   "slug": "reve",
   "name": "Reve",
-  "tagline": "AI image generation and editing with 4K and precise text.",
+  "tagline": "AI image generation and editing built on its own model.",
   "description": "Reve is an image generation and editing platform built around its own model. It separates planning from rendering — representing an image as an editable, code-like layout before drawing it — which enables lossless iterative edits, native 4K output, and reliable in-image text rendering for graphic design.",
   "insight": "Launched under the codename ‘Halfmoon’; its first model debuted at #1 on the Artificial Analysis Image Arena, beating Midjourney v6.1.",
   "category": "image-gen",
@@ -30,9 +30,9 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Plans each image as an editable, code-like layout before rendering, so edits stay lossless and in-image text legible.",
   "pros": [
-    "Reliable, legible in-image text",
-    "Lossless iterative editing",
     "Native 4K output",
+    "Lossless iterative editing",
+    "Accurate text inside generated images",
     "Strong for graphic/design layouts"
   ],
   "cons": ["Single proprietary model only", "Web-only, no API yet", "Newer, smaller community"],

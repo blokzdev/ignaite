@@ -36,8 +36,8 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Model-agnostic 'Droids' run as both cloud and local background agents from one CLI — frontier or open-weight models.",
   "pros": [
-    "Cloud and local background agents",
-    "Model-agnostic across frontier + open weights",
+    "Droids plan, edit, and run tasks autonomously",
+    "Runs agents in the background",
     "Works across a whole codebase",
     "CLI/SDK driven"
   ],

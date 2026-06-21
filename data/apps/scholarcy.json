@@ -27,7 +27,7 @@
   "edge": "Breaks papers into structured, referenced flashcards with extracted figures, tables, and citations — more granular than a plain chat-style summary.",
   "pros": [
     "Structured flashcard summaries",
-    "Extracts figures, tables, references",
+    "Highlights and links cited claims",
     "Imports from PDF, Zotero, web",
     "Chrome, Edge, and Firefox extensions",
     "Affordable paid tier"

@@ -1,6 +1,6 @@
 {
   "slug": "quark",
-  "insight": "The only AI app in China to top 100M monthly active users; Alibaba relaunched it as an 'AI super-box' on its Qwen/Tongyi models.",
+  "insight": "Reportedly the first AI app in China to top 100M monthly active users after Alibaba relaunched it from a browser into an AI assistant.",
   "name": "Quark",
   "tagline": "Alibaba's AI super-app for search, writing, research and document tasks.",
   "description": "Quark is Alibaba's flagship consumer AI app, positioned as an 'AI super-box' that folds chat, deep search, deep research, AI writing, slide and image generation, document tools and cloud storage into a single interface. It identifies the intent behind a request, then plans and executes multi-step tasks. Quark runs on Alibaba's Qwen/Tongyi models and is offered across web, mobile and desktop.",
@@ -21,7 +21,7 @@
   "addedAt": "2026-06-21",
   "addedSeq": 998,
   "lastVerifiedAt": "2026-06-21",
-  "edge": "Folds AI chat, deep search, research, document and image tools plus cloud storage into one app, backed by Alibaba's Qwen models.",
+  "edge": "One free consumer app spanning chat, deep search, research, document and image tools plus cloud storage — where Western rivals are separate products.",
   "pros": [
     "Search, writing, slides and research in one super-app",
     "Backed by Alibaba's Qwen/Tongyi models",

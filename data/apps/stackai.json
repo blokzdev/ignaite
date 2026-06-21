@@ -34,13 +34,13 @@
   "addedAt": "2026-06-20",
   "addedSeq": 948,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Enterprise no-code agent builder with VPC/on-prem deploy and SOC 2/HIPAA/ISO compliance — now backed by Asana's work platform.",
+  "edge": "Built for regulated enterprises: VPC and on-prem deployment plus SOC 2/HIPAA/ISO compliance, where most agent builders are cloud-only.",
   "pros": [
     "No-code drag-and-drop agent builder",
     "Cloud, VPC, or on-prem deployment",
     "100+ enterprise integrations",
     "Strong compliance (SOC 2, HIPAA, ISO)",
-    "Backed by Asana post-acquisition"
+    "Human-in-the-loop oversight"
   ],
   "cons": [
     "Enterprise focus; pricing skews high",

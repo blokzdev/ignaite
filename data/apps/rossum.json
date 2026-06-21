@@ -25,11 +25,11 @@
   "addedAt": "2026-06-15",
   "addedSeq": 778,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "A purpose-built transactional LLM trained on tens of millions of documents reads invoices end-to-end across 276 languages, including handwriting.",
+  "edge": "Runs on a purpose-built transactional LLM that learns from each customer's corrections, rather than rigid template- or rules-based OCR.",
   "pros": [
-    "Purpose-built transactional LLM",
+    "Captures and validates invoice data",
     "276 languages plus handwriting",
-    "End-to-end AP automation",
+    "Pushes data into ERP and approvals",
     "Strong enterprise track record"
   ],
   "cons": [

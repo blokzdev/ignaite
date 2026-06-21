@@ -24,12 +24,11 @@
   "addedAt": "2026-06-19",
   "addedSeq": 879,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Signal-based targeting with deep per-prospect research across email, LinkedIn and phone — sold at a transparent flat price instead of demo-gated quotes.",
+  "edge": "Signal-based targeting with deep per-prospect research, sold at a transparent flat price instead of the demo-gated quotes most AI SDRs use.",
   "pros": [
-    "Autonomous outbound across email, LinkedIn and phone",
-    "Transparent flat $900/mo pricing",
+    "Autonomous outbound across email, LinkedIn, phone",
     "Native HubSpot and Salesforce integration",
-    "Signal-based targeting and per-lead research"
+    "Personalizes outreach from CRM records"
   ],
   "cons": [
     "$900/mo entry is steep for small teams",

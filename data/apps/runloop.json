@@ -1,6 +1,6 @@
 {
   "slug": "runloop",
-  "insight": "Raised a $7M seed led by The General Partnership and shipped public Devbox benchmarks for measuring AI coding agents.",
+  "insight": "Raised a $7M seed led by The General Partnership to build cloud Devbox infrastructure for AI coding agents.",
   "name": "Runloop",
   "tagline": "Cloud Devboxes and benchmarks for running AI coding agents at scale.",
   "description": "Runloop provides isolated, cloud-based development environments — \"Devboxes\" — where AI coding agents safely execute code with full filesystem, build-tool, and compiler access. Teams spin up thousands of Devboxes on demand for large-scale agent tasks and tear them down when done. A benchmarking suite lets you evaluate and compare agents on standardized tests, and enterprise deployments add compliance and VPC options.",
@@ -34,7 +34,7 @@
   "pros": [
     "Isolated cloud sandboxes for agent code",
     "Scales to thousands of parallel Devboxes",
-    "Built-in benchmarks for coding agents",
+    "Full filesystem, build-tool, compiler access",
     "$50 in free starter credits",
     "Enterprise VPC + compliance options"
   ],

@@ -1,6 +1,6 @@
 {
   "slug": "quizlet",
-  "insight": "Its Q-Chat tutor launched as one of the first products built on OpenAI's ChatGPT and quizzes Socratically instead of revealing answers.",
+  "insight": "Its Q-Chat tutor launched as one of the first products built on OpenAI's ChatGPT.",
   "name": "Quizlet",
   "tagline": "Flashcards and study sets with the Q-Chat AI tutor.",
   "description": "A study platform best known for flashcards and learning games, now layered with AI through Q-Chat, a conversational tutor that uses the Socratic method to help students reason toward answers. Quizlet Plus removes daily learning-round caps and unlocks AI tutoring plus Expert Solutions for explaining tough problems. The free tier remains usable with reduced limits.",
@@ -28,7 +28,7 @@
   "edge": "Pairs its huge flashcard library with Q-Chat, a Socratic AI tutor that quizzes you toward answers instead of just revealing them.",
   "pros": [
     "Massive flashcard/study-set library",
-    "Q-Chat Socratic AI tutor",
+    "Built-in Q-Chat AI tutor",
     "Learning games keep practice engaging",
     "Usable free tier"
   ],

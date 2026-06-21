@@ -37,8 +37,8 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "Fully open-source and provider-agnostic where most agent CLIs are vendor-locked — swap among 75+ providers, including local models.",
   "pros": [
-    "Open source, 160K+ GitHub stars",
-    "75+ providers, incl. local models",
+    "Fully open source",
+    "Swap among many providers and local models",
     "Terminal, desktop, and IDE surfaces",
     "No code stored on external servers"
   ],

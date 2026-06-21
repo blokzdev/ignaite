@@ -37,7 +37,7 @@
   "edge": "Returns clean LLM-ready markdown (not raw HTML), handles JS + anti-bot, and its AGPL core can be self-hosted.",
   "pros": [
     "Clean markdown / structured JSON output",
-    "Handles JS rendering and anti-bot",
+    "Manages proxies and JS rendering for you",
     "AGPL core, self-hostable",
     "Scrape, crawl, map, search in one API"
   ],

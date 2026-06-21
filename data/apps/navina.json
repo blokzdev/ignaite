@@ -3,7 +3,7 @@
   "insight": "Raised a $55M Series C led by Growth Equity at Goldman Sachs Alternatives in 2025, bringing total funding to $100M.",
   "name": "Navina",
   "tagline": "AI copilot that turns scattered patient data into point-of-care insights.",
-  "description": "Navina is a clinician-first AI platform for primary care and value-based care that consolidates fragmented patient records into a clear summary and surfaces actionable insights at the point of care — care gaps, HCC risk-adjustment coding, and ambient documentation. It integrates with electronic health records including Epic, athenahealth, and Veradigm, and is sold to provider groups, ACOs, MSOs, and health plans. It ranked #1 in the 2025 Best in KLAS Clinician Digital Workflow category.",
+  "description": "Navina is a clinician-first AI platform for primary care and value-based care that consolidates fragmented patient records into a clear summary and surfaces actionable insights at the point of care — care gaps, HCC risk-adjustment coding, and ambient documentation. It integrates with electronic health records including Epic, athenahealth, and Veradigm, and is sold to provider groups, ACOs, MSOs, and health plans.",
   "category": "healthcare",
   "pricing": "paid",
   "deployment": "cloud",
@@ -22,7 +22,7 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Tuned for value-based care: surfaces HCC risk-adjustment coding and care-gap closure alongside the visit summary, not just ambient notes.",
   "pros": [
-    "Tuned for value-based / risk-adjustment work",
+    "Surfaces care gaps and HCC coding at visit",
     "#1 Best in KLAS 2025 clinician workflow",
     "Synthesizes fragmented records into a summary",
     "Integrates with Epic, athenahealth, Veradigm"

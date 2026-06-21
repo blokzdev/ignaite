@@ -26,7 +26,6 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Dictation across all four platforms (macOS, Windows, iOS, Android) with a custom dictionary that syncs between them.",
   "pros": [
-    "Works on macOS, Windows, iOS, Android",
     "Types into any app system-wide",
     "Auto-removes filler words",
     "Custom vocabulary syncs across devices",

@@ -1,6 +1,6 @@
 {
   "slug": "hippocratic-ai",
-  "insight": "Nvidia-backed unicorn: raised a $141M Series B in 2024 at a $1.64B valuation to staff hospitals with patient-facing AI agents.",
+  "insight": "Nvidia-backed unicorn: raised a $141M Series B in 2024, reaching a $1.64B valuation.",
   "name": "Hippocratic AI",
   "tagline": "Safety-focused generative AI healthcare agents for patient-facing, non-diagnostic tasks.",
   "description": "Hippocratic AI builds voice-based generative AI 'healthcare agents' for health systems, payors, and pharma to handle patient-facing tasks like post-discharge check-ins and chronic-care follow-up. By design its agents do not diagnose or prescribe, and it targets enterprise healthcare deployments rather than consumers.",

@@ -37,8 +37,8 @@
   "pros": [
     "Open-source MIT SDK, two-line setup",
     "400+ LLM and framework integrations",
-    "Session replay with time-travel debugging",
-    "Token and cost tracking per run",
+    "Records every LLM call, tool use, decision",
+    "Agent benchmarking and evaluation",
     "Free tier to start"
   ],
   "cons": [

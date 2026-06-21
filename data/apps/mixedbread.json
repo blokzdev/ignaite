@@ -34,7 +34,7 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Managed multimodal search built on its own MTEB-leading mxbai embed/rerank models — no hand-tuned multi-stage pipeline.",
   "pros": [
-    "Indexes text, PDFs, tables, images, video",
+    "Fully managed, no infra to run",
     "Built on strong open mxbai models",
     "100+ language coverage",
     "No embedding/pipeline hand-tuning"

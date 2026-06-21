@@ -33,10 +33,10 @@
   "addedAt": "2026-06-19",
   "addedSeq": 871,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Returns structured, extracted content from paywalled papers, filings and patents — not just links — with flat per-task deep-research pricing.",
+  "edge": "Returns structured, extracted content from licensed paywalled papers, filings and patents — not just links most search APIs stop at.",
   "pros": [
     "Searches proprietary and paywalled sources",
-    "Returns structured content, not just links",
+    "Full extracted content, ready for RAG",
     "Deep research API for multi-step tasks",
     "Flat per-task pricing"
   ],

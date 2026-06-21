@@ -25,7 +25,7 @@
   "addedAt": "2026-06-13",
   "addedSeq": 571,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Pairs an ambient scribe with structured three-tier differential diagnosis (most-likely, expanded, can't-miss) and PubMed-cited reasoning in one tool.",
+  "edge": "Goes beyond note-taking to active diagnostic reasoning, pairing the ambient scribe with cited differentials — where most AI scribes stop at documentation.",
   "pros": [
     "Ambient scribe plus clinical decision support",
     "Three-tier differential with a can't-miss tier",

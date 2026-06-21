@@ -33,7 +33,7 @@
   "addedAt": "2026-06-13",
   "addedSeq": 533,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Fully managed end-to-end RAG (ingest, retrieve, generate) with built-in, measurable hallucination detection and correction.",
+  "edge": "Fully managed end-to-end RAG (ingest, retrieve, generate) behind one API, plus first-party retrieval and generation models, not a DIY stack.",
   "pros": [
     "End-to-end managed RAG pipeline",
     "Built-in hallucination evaluation (HHEM)",

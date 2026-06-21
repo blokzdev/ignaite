@@ -31,10 +31,9 @@
   "lastVerifiedAt": "2026-06-11",
   "edge": "Ranks servers by real call volume via a \"Call Ranking\" leaderboard — discovery by actual usage, not just listings.",
   "pros": [
-    "19,000+ MCP servers indexed",
-    "Usage-based \"Call Ranking\"",
-    "Open-source (Apache-2.0)",
-    "Featured/Official/Hosted filters"
+    "Browse, share, and integrate servers",
+    "Featured/Official/Hosted filters",
+    "Free and community-driven"
   ],
   "cons": [
     "Still in preview, may break",

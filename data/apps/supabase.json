@@ -2,7 +2,7 @@
   "slug": "supabase",
   "insight": "A Y Combinator alum, it hit a $10.5B valuation in a 2026 raise as the vibe-coding boom made it a default AI app backend.",
   "name": "Supabase",
-  "tagline": "Postgres + auth + storage + edge functions, open source.",
+  "tagline": "Postgres-based backend with auth, storage, and edge functions.",
   "description": "A common default backend when an app needs persistence + auth + realtime. Open-source, self-hostable, very low friction to local dev with the CLI.",
   "category": "infra",
   "secondaryCategories": ["vector-db"],
@@ -36,9 +36,9 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "Plain Postgres as the backend — open source and self-hostable, so no proprietary data lock-in.",
   "pros": [
-    "Built on standard Postgres, no lock-in",
+    "Full Postgres, not a custom datastore",
     "Auth, storage, realtime, edge funcs bundled",
-    "Open source and self-hostable",
+    "Built-in pgvector for embeddings",
     "Generous free tier and fast local dev"
   ],
   "cons": [

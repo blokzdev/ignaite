@@ -32,7 +32,6 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Owns its full stack: an enterprise agent platform on its own Palmyra LLMs, tuned for med/fin and regulated industries.",
   "pros": [
-    "Trains its own Palmyra models",
     "SOC 2, PCI, HIPAA compliance",
     "No training on customer data",
     "Domain models (Med, Fin)",

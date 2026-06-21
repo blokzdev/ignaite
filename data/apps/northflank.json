@@ -32,12 +32,12 @@
   "addedAt": "2026-06-14",
   "addedSeq": 663,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "One platform for apps and AI/GPU workloads, run on Northflank's cloud or your own AWS/GCP/Azure/bare-metal (BYOC) with per-second billing.",
+  "edge": "One platform for apps and AI/GPU workloads, run on Northflank's cloud or your own AWS/GCP/Azure/bare-metal account (BYOC).",
   "pros": [
     "Apps, databases, jobs & GPUs in one platform",
-    "BYOC: run in your own cloud or bare metal",
     "Per-second billing, no idle GPU charges",
     "Abstracts Kubernetes; Git-to-production",
+    "Used by Writer, Sentry, Chai Discovery",
     "Free always-on Sandbox tier"
   ],
   "cons": [

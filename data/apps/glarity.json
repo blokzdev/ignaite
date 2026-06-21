@@ -2,7 +2,7 @@
   "slug": "glarity",
   "insight": "Made by Felo Inc. — the team behind the Felo AI search engine — and released open-source on GitHub under the sparticleinc org.",
   "name": "Glarity",
-  "tagline": "Summarize YouTube, search, and any page with ChatGPT — free and ad-free.",
+  "tagline": "Summarize YouTube, search results, and any page with ChatGPT.",
   "description": "Open-source browser extension that adds AI summaries and translation across the web: YouTube videos, Google/Bing results, PDFs, emails, and arbitrary pages. Works free and ad-free out of the box, with an option to bring your own model key for heavier use.",
   "category": "assistant",
   "pricing": "freemium",
@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "Free and ad-free by default with no sign-up — summarizes YouTube, search, and PDFs across five browsers, and is fully open-source.",
   "pros": [
-    "Free, ad-free, no account required",
+    "No account or sign-up required",
     "Summarizes YouTube, search, PDFs, email",
     "Chrome, Edge, Firefox, Safari, Opera",
     "Open-source on GitHub"

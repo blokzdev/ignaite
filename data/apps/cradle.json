@@ -3,7 +3,7 @@
   "name": "Cradle",
   "tagline": "AI protein-engineering platform for faster lab design rounds.",
   "description": "Cradle is an AI-powered protein-engineering SaaS platform that guides scientists through design rounds — candidate generation, multi-property optimization, and results analysis — using ML models trained per-customer on proprietary wet-lab data. It runs its own validation wet lab in Amsterdam and serves biopharma and industrial-biotech R&D teams including Novo Nordisk and Johnson & Johnson. It is sold via subscription with no royalties, and customers keep full IP.",
-  "insight": "Amsterdam-based; raised a $73M Series B led by IVP in Nov 2024, taking total funding past $100M, and runs its own validation wet lab.",
+  "insight": "Amsterdam-based; raised a $73M Series B led by IVP in Nov 2024, taking total funding past $100M.",
   "category": "science",
   "pricing": "paid",
   "deployment": "cloud",
@@ -24,7 +24,7 @@
   "pros": [
     "Self-serve web platform",
     "Multi-property optimization",
-    "Own validation wet lab",
+    "Per-customer models on your lab data",
     "Customers keep IP, no royalties"
   ],
   "cons": [

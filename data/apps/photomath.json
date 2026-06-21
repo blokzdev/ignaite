@@ -1,6 +1,6 @@
 {
   "slug": "photomath",
-  "insight": "Acquired by Google in 2023 but still shipped as a standalone app, it solves problems from a phone-camera scan rather than typed input.",
+  "insight": "Acquired by Google in 2023 yet still shipped as a standalone, separately branded app rather than folded into Google's own products.",
   "name": "Photomath",
   "tagline": "Scan a math problem with your camera for step-by-step solutions.",
   "description": "A mobile math app that solves problems scanned with a smartphone camera, using OCR and AI to recognize handwritten and printed equations from arithmetic through calculus. It returns detailed step-by-step explanations to help students learn the method, not just the answer. The free app handles many problems, while Photomath Plus adds animated tutorials and textbook solutions.",
@@ -26,8 +26,8 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Solves from a camera scan of handwritten or printed math, returning the method step-by-step, not just the answer.",
   "pros": [
-    "Camera scan instead of typed input",
-    "Step-by-step worked solutions",
+    "Reads handwritten and printed math",
+    "Explains the method, not just answers",
     "Covers arithmetic through calculus",
     "Free tier handles many problems"
   ],

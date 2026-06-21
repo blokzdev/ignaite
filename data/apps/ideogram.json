@@ -2,8 +2,8 @@
   "slug": "ideogram",
   "insight": "Founded in 2022 by ex-Google Brain researchers who built Google's Imagen text-to-image model; raised an $80M a16z-led Series A.",
   "name": "Ideogram",
-  "tagline": "Image gen with the best text-in-image quality.",
-  "description": "Hosted image generator with industry-leading typography rendering — actually readable text inside images. Strong for logos, posters, social cards, and any composition where letterforms matter.",
+  "tagline": "Image generator specialized in rendering legible text inside images.",
+  "description": "Hosted image generator built for typography rendering — actually readable text inside images. Strong for logos, posters, social cards, and any composition where letterforms matter.",
   "category": "image-gen",
   "pricing": "freemium",
   "deployment": "cloud",
@@ -31,7 +31,6 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "Best-in-class text-in-image rendering (~90% accuracy vs ~30-40% for Midjourney) — the pick when letters must be legible.",
   "pros": [
-    "Industry-leading legible text in images",
     "Typography and layout controls",
     "Strong for logos, posters, social cards",
     "Free tier to try"

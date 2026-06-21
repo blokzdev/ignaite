@@ -31,7 +31,6 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Detects UI elements purely by vision — no selectors or accessibility trees — so the same agents run across desktop, mobile, web, and embedded screens.",
   "pros": [
-    "Vision-based, no selectors needed",
     "Cross-platform incl. embedded/HMI",
     "Model-agnostic (Claude/Gemini/OpenAI)",
     "Python SDK for automation and QA",

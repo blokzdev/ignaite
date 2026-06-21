@@ -2,7 +2,7 @@
   "slug": "lmnt",
   "insight": "Ships as a first-class voice provider in the Vercel AI SDK, Pipecat, LiveKit, and Vapi voice-agent stacks.",
   "name": "LMNT",
-  "tagline": "Fast, lifelike, affordable text-to-speech with low-latency streaming and voice cloning.",
+  "tagline": "Streaming text-to-speech with voice cloning for real-time apps.",
   "description": "LMNT is an AI text-to-speech platform that turns text into natural speech with ultra-low latency, built for conversational agents, games, and real-time apps. It supports instant voice cloning from a short sample and multilingual synthesis, and is exposed as a developer API plus a web playground. It is offered as a built-in voice provider across major voice-agent frameworks.",
   "category": "voice",
   "pricing": "freemium",
@@ -31,8 +31,8 @@
   "lastVerifiedAt": "2026-06-16",
   "edge": "Built for real-time agents — ~150–200ms streaming latency and voice cloning from a 5-second sample, priced below premium TTS rivals.",
   "pros": [
-    "Low-latency streaming (~150–200ms)",
-    "Voice cloning from a 5-second sample",
+    "Multilingual streaming synthesis",
+    "Instant voice cloning from a sample",
     "Free tier plus affordable paid plans",
     "Integrates with major voice-agent stacks",
     "Commercial license on paid tiers"

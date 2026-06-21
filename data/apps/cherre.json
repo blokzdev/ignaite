@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Runs agents on a real-estate-specific Universal Data Model and knowledge graph of 3.3B+ addresses, not generic LLM retrieval.",
   "pros": [
-    "Domain-specific data model + knowledge graph",
+    "Unifies fragmented internal/external data",
     "Model-agnostic agent builder",
     "Pre-built real-estate Work Packages",
     "SOC 2; data not used for training"

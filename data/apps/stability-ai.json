@@ -22,9 +22,9 @@
   "addedAt": "2026-06-13",
   "addedSeq": 528,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Open-weight models you can self-host or call via API across image, video, audio, and 3D — not a single locked proprietary endpoint.",
+  "edge": "Self-host the weights or call the same models via API across image, video, audio, and 3D — not a single locked proprietary endpoint.",
   "pros": [
-    "Open-weight models you can self-host",
+    "Self-host or call via API",
     "Spans image, video, audio, and 3D",
     "API, DreamStudio, and on-prem licensing",
     "Catalyzed the open image-gen ecosystem"

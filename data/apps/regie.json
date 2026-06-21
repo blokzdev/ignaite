@@ -23,7 +23,7 @@
   "edge": "Combines autonomous prospecting agents with a built-in parallel dialer and sequencer in one platform, rather than bolting an AI SDR onto a separate SEP.",
   "pros": [
     "AI agents automate sourcing",
-    "Built-in parallel dialer",
+    "Auto-enriches and personalizes outreach",
     "Multichannel sequences",
     "Human-in-the-loop control"
   ],

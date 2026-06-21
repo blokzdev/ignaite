@@ -33,7 +33,7 @@
   "addedAt": "2026-06-11",
   "addedSeq": 460,
   "lastVerifiedAt": "2026-06-11",
-  "edge": "Covers the full AI stack — bare-metal GPU clusters, managed Slurm/Kubernetes, and per-token Token Factory inference — where many GPU clouds stop at compute.",
+  "edge": "Covers the full AI stack from bare-metal GPU clusters up to managed per-token inference, where many GPU clouds stop at raw compute.",
   "pros": [
     "Latest NVIDIA silicon, H100 through Blackwell",
     "Managed Slurm and Kubernetes built in",

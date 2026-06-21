@@ -32,9 +32,9 @@
   "lastVerifiedAt": "2026-06-10",
   "edge": "GLM-5 benchmarks near Claude Opus-class models at roughly 5–8x lower API price, and its weights are MIT-licensed for self-hosting.",
   "pros": [
-    "Free GLM-5 chat",
-    "MIT-licensed open weights",
-    "Very cheap API",
+    "Free GLM-5 chat with reasoning modes",
+    "OpenAI-compatible API for developers",
+    "Agentic modes built in",
     "Trained without NVIDIA hardware"
   ],
   "cons": [

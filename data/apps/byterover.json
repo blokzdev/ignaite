@@ -33,7 +33,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 590,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Purpose-built for coding agents: hierarchical knowledge trees and a local-first CLI that syncs context across Cursor, Claude Code, and Windsurf.",
+  "edge": "Purpose-built for coding agents: hierarchical knowledge trees and a local-first CLI that syncs context across IDEs and assistants.",
   "pros": [
     "Local-first, no telemetry by default",
     "Works across Cursor/Claude Code/Windsurf",

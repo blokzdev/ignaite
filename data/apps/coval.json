@@ -31,10 +31,10 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Brings autonomous-vehicle-style simulation testing to voice agents — turns a few test cases into thousands of scenarios and scores live calls.",
   "pros": [
-    "Thousands of scenarios from a few cases",
+    "Generates realistic scenarios from few cases",
     "Tests both voice and chat agents",
     "Production call monitoring + scoring",
-    "Founders' self-driving eval pedigree"
+    "Runs over text and live phone calls"
   ],
   "cons": [
     "No free tier — 7-day trial only",

@@ -3,7 +3,7 @@
   "name": "mymind",
   "tagline": "A private, AI-organized place to remember everything.",
   "description": "mymind is a personal memory tool: save notes, links, articles, images, and quotes, and it auto-tags and sorts them for you — no folders, no manual filing. AI recognizes what each item is (article, product, recipe, book) and surfaces it again through fast visual, associative search. It's built privacy-first, with no ads, no tracking, and nothing sold or used to train models.",
-  "insight": "Independent and self-funded since 2020 with no outside investors — a privacy stance baked into its no-ads, no-tracking model.",
+  "insight": "Independent and self-funded since 2020 with no outside investors and no venture capital taken.",
   "category": "memory",
   "pricing": "paid",
   "deployment": "cloud",
@@ -18,7 +18,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 594,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "No folders, tags, or manual filing — AI auto-organizes every save, and nothing is tracked, sold, or used to train models.",
+  "edge": "No folders, tags, or manual filing — AI auto-organizes every save into fast, visual associative search.",
   "pros": [
     "No manual tagging or filing — AI sorts saves",
     "Privacy-first: no ads, tracking, or training",

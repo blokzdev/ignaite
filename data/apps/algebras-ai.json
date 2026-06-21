@@ -1,8 +1,8 @@
 {
   "slug": "algebras-ai",
-  "insight": "Grew out of an open-source project for endangered languages; now covers 300+ languages and 1,000+ dialects.",
+  "insight": "Grew out of an open-source project for endangered languages.",
   "name": "Algebras AI",
-  "tagline": "AI localization for 300+ languages — text, audio, and video.",
+  "tagline": "AI localization across text, audio, and video.",
   "description": "Algebras AI is an AI localization platform that translates UI strings, documents, audio, and video into 300+ languages and over 1,000 dialects with minimal proofreading. It offers real-time dubbing, adaptive subtitles, lip-synced video translation, glossaries, and QA checks, with integrations for Next.js, Unity, Unreal, GitHub Actions, and Zapier. An open-source CLI and API let teams wire localization into their build pipeline.",
   "category": "translation",
   "pricing": "freemium",
@@ -30,7 +30,6 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Reaches rare and regional tongues — 300+ languages and 1,000+ dialects with dubbing and a CLI — where mainstream tools like DeepL stay thin.",
   "pros": [
-    "300+ languages, 1,000+ dialects",
     "Strong on rare/regional languages",
     "Text, audio, and video dubbing",
     "Open-source CLI + GitHub Actions",

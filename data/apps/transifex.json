@@ -32,10 +32,10 @@
   "addedAt": "2026-06-15",
   "addedSeq": 739,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Over-the-air updates push translations live to web and apps without redeploying code, with real-time TQI quality scoring per string.",
+  "edge": "Over-the-air updates push translations live to web and apps without a code redeploy, unlike file-based TMS workflows.",
   "pros": [
     "Free starter tier",
-    "Over-the-air translation updates",
+    "Glossary and style-guide consistency",
     "TQI per-string quality scoring",
     "46+ integrations (GitHub, Figma, Jira)",
     "Developer and content-team workflows"

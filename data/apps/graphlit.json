@@ -32,7 +32,7 @@
   "addedAt": "2026-06-09",
   "addedSeq": 325,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "Multimodal, graph-native context layer: ingests docs/audio/video into a linked entity graph plus stateful memory.",
+  "edge": "Graph-native context layer that links ingested content into an entity graph plus stateful memory, not just vector chunks.",
   "pros": [
     "One API for ingest, extract, store, retrieve",
     "Multimodal (docs, audio, video, images)",

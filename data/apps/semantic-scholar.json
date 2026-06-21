@@ -2,7 +2,7 @@
   "slug": "semantic-scholar",
   "insight": "Built in 2015 by the Allen Institute for AI (AI2), the nonprofit founded by Microsoft co-founder Paul Allen — free, no paywall.",
   "name": "Semantic Scholar",
-  "tagline": "AI-powered academic search across 200M+ papers with one-sentence TLDR summaries.",
+  "tagline": "AI-powered academic search with one-sentence TLDR paper summaries.",
   "description": "Semantic Scholar is a free scholarly search engine from the Allen Institute for AI that indexes over 200 million papers across every field of science and uses NLP to surface the most relevant and influential work. Its TLDR feature generates ultra-short, one-sentence summaries of papers, and the Semantic Reader adds inline citation cards and skimming highlights to PDFs. An open API and adaptive Research Feeds let developers and researchers build on the same corpus.",
   "category": "research-platform",
   "pricing": "free",
@@ -30,10 +30,10 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "A free, nonprofit-run corpus of 200M+ papers with auto-generated TLDR summaries and an open API — no paywall or ads, unlike most research tools.",
   "pros": [
-    "Completely free, no ads or paywall",
     "TLDR one-sentence summaries for many papers",
-    "Open API over the full 200M+ corpus",
-    "Semantic Reader adds inline citation context"
+    "Covers every field of science",
+    "Semantic Reader adds inline citation context",
+    "Adaptive Research Feeds for new work"
   ],
   "cons": [
     "TLDR coverage skews to CS, bio, and medicine",

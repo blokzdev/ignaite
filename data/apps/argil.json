@@ -1,9 +1,9 @@
 {
   "slug": "argil",
   "name": "Argil",
-  "tagline": "Generate avatar videos from a script — clone yourself or pick from 100+ avatars.",
+  "tagline": "Generate avatar videos from a script — clone yourself or pick a ready-made avatar.",
   "description": "Argil is an AI video platform that turns scripts and articles into talking-avatar videos. You can clone your own likeness from a single photo and a short voice recording, or use one of 100+ ready-made avatars, then let Argil auto-add captions, B-roll, backgrounds, and transitions. It targets creators and marketers producing short-form and faceless video at scale, with output rendered in roughly a couple of minutes.",
-  "insight": "Backed by Y Combinator; it clones your likeness from a single photo and about a minute of voice to drive its avatar videos.",
+  "insight": "Paris-based, from Y Combinator's S24 batch; later raised a €4.9M round led by EQT Ventures.",
   "category": "video",
   "pricing": "paid",
   "deployment": "cloud",
@@ -20,7 +20,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 684,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Clone yourself from one photo and a minute of audio, then auto-generate avatar videos with captions, B-roll, and transitions in about two minutes.",
+  "edge": "Clones your likeness from just one photo and a minute of audio — far less capture than rivals needing video footage to train an avatar.",
   "pros": [
     "Self-clone from one photo + short audio",
     "100+ ready-made avatars",

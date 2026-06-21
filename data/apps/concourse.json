@@ -18,7 +18,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 989,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Wires natural-language analysis into ERPs (NetSuite, QuickBooks) and the warehouse, so finance teams query live financials and automate reports without SQL.",
+  "edge": "Purpose-built for FP&A: agents query live financials across ERP, warehouse, and billing in one place, where general BI tools stop at dashboards.",
   "pros": [
     "Connects to NetSuite, QuickBooks, Snowflake",
     "Natural-language queries, no SQL",

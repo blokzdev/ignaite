@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "Open-sourced its flagship robot VLA: π0's code and weights ship in the public openpi repo, rare for a frontier lab.",
   "pros": [
-    "Open code and weights via openpi",
+    "openpi repo runs and fine-tunes locally",
     "Cross-embodiment VLA foundation model",
     "Built on a pretrained vision-language model",
     "Demonstrated dexterous real-world tasks"

@@ -33,7 +33,7 @@
   "addedAt": "2026-06-12",
   "addedSeq": 481,
   "lastVerifiedAt": "2026-06-12",
-  "edge": "One of the longest-running production computer-vision platforms, spanning labeling, custom model training, and inference for vision and LLMs in a single stack.",
+  "edge": "One of the longest-running production computer-vision platforms, predating most rivals and now covering LLMs in the same stack.",
   "pros": [
     "Mature, end-to-end vision stack",
     "Labeling + training + inference in one",

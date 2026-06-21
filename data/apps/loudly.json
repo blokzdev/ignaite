@@ -30,9 +30,9 @@
   "lastVerifiedAt": "2026-06-11",
   "edge": "Royalty-free output from a fully licensed training catalog, so tracks are commercially safe in a way scraped-data generators can't promise.",
   "pros": [
-    "Trained on a consent-licensed catalog",
-    "100% royalty-free, commercial-safe output",
-    "Stem export and remix studio",
+    "Text-to-music in seconds",
+    "Stem splitter and remix studio",
+    "Sample-pack generator",
     "Optional distribution to Spotify/Apple Music"
   ],
   "cons": [

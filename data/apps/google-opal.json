@@ -3,7 +3,7 @@
   "name": "Opal",
   "tagline": "Build and share AI mini-apps from a plain-language description.",
   "description": "Opal is an experimental Google Labs tool for building AI mini-apps without code. You describe a task in natural language and Opal generates a workflow that chains prompts, models, and tools, which you can refine in a visual node editor and share with others via a link. It targets marketers, analysts, and other non-engineers who want to prototype and ship small AI-powered tools quickly.",
-  "insight": "Built by Google Labs; launched July 2025 as a US-only public beta, then expanded to 15+ more countries.",
+  "insight": "Launched July 2025 as a US-only public beta, then expanded to 15+ more countries.",
   "category": "automation",
   "secondaryCategories": ["agent"],
   "pricing": "free",

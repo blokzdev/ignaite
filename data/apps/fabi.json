@@ -31,7 +31,7 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Pairs reactive SQL + Python notebooks with natural-language AI, so an ad-hoc question becomes a shareable dashboard without leaving one tool.",
   "pros": [
-    "SQL, Python, and natural language in one notebook",
+    "Connects to Snowflake, BigQuery, Redshift",
     "Reactive cells auto-update downstream",
     "Notebooks become shareable dashboards",
     "Free-forever tier"

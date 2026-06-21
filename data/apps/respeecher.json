@@ -27,7 +27,7 @@
   "edge": "Speech-to-speech that preserves an actor's emotion and is refined by in-house sound pros — built for film/TV dubbing, not generic text-to-speech.",
   "pros": [
     "Proven in major film/TV (Star Wars)",
-    "Speech-to-speech preserves performance",
+    "In-house sound pros refine output",
     "Ethical, consent-based cloning",
     "Real-time TTS API",
     "Pro Tools plugin"

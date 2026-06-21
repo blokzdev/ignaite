@@ -2,7 +2,7 @@
   "slug": "luma-dream-machine",
   "insight": "Went viral at its June 2024 launch, hitting 1M users in four days with no marketing; Luma later raised a $900M Series C.",
   "name": "Luma Dream Machine",
-  "tagline": "Mainstream-quality video generation. Indie creator default.",
+  "tagline": "Mobile-first AI video generation from text and images.",
   "description": "Luma Labs' video model surfaced as an iOS app and web tool. Strong text-to-video, image-to-video, and keyframe controls — the indie creator's go-to before reaching for Runway's heavier toolkit.",
   "category": "video",
   "pricing": "freemium",
@@ -32,8 +32,8 @@
   "edge": "Fast, mobile-first text/image-to-video with keyframe controls — the speed pick for many quick variations.",
   "pros": [
     "Fast generations",
-    "Strong image-to-video and morphing",
-    "Keyframe controls",
+    "Strong morphing between shots",
+    "Free tier to try it out",
     "iOS app plus web"
   ],
   "cons": [

@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-21",
   "edge": "Grounds answers in your live on-screen context across every app, so you query what you're looking at without copy-paste into a chat window.",
   "pros": [
-    "Reads on-screen context across all apps",
+    "Captures screen, voice, and documents",
     "Free tier with unlimited base-model chat",
     "Local audio transcription",
     "Auto-selects a model per task"

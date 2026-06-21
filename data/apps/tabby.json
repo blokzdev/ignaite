@@ -37,7 +37,7 @@
   "edge": "Apache-2.0 core you self-host on your own GPU — only enterprise SSO/seats sit under a paid license.",
   "pros": [
     "Self-hosted, full data control",
-    "Apache-2.0 core",
+    "Open code LLMs or OpenAI-compatible endpoint",
     "VS Code, JetBrains, Vim extensions",
     "In-IDE chat included"
   ],

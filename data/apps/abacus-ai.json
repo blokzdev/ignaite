@@ -32,9 +32,9 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "Bundles many frontier models, image generation, and an agentic DeepAgent task layer under one low monthly price instead of separate subscriptions.",
   "pros": [
-    "Many frontier models in one subscription",
+    "GPT, Claude, Gemini behind one login",
     "DeepAgent runs multi-step agentic tasks",
-    "Low monthly consumer price",
+    "Image generation and app builder included",
     "Backed by an enterprise ML platform"
   ],
   "cons": [

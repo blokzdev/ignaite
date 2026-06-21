@@ -28,12 +28,12 @@
   "addedAt": "2026-06-20",
   "addedSeq": 980,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Managed Milvus from its original creators — a free serverless tier scaling to billion-vector dedicated clusters, with GPU indexing and tiered storage.",
+  "edge": "Managed Milvus from its original creators, with GPU-accelerated indexing, tiered storage, and hybrid dense/sparse search built in.",
   "pros": [
     "Built by Milvus's original creators",
     "Free serverless tier, no card required",
     "Scales to billions of vectors",
-    "Fully managed and auto-scaling",
+    "Auto-scaling with dedicated clusters",
     "Multi-cloud (AWS, GCP, Azure)"
   ],
   "cons": [

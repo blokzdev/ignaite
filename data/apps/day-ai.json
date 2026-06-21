@@ -1,6 +1,6 @@
 {
   "slug": "day-ai",
-  "insight": "Founded by ex-HubSpot chief product officer Christopher O'Donnell; raised a $20M Series A led by Sequoia for an AI-native CRM.",
+  "insight": "Founded by ex-HubSpot chief product officer Christopher O'Donnell; raised a $20M Series A led by Sequoia.",
   "name": "Day.ai",
   "tagline": "AI-native CRM that builds itself from your email, calls, and Slack — no manual data entry.",
   "description": "Day.ai is an AI-native CRM that automatically captures and reasons over customer interactions instead of relying on manual data entry. It listens across Gmail/Outlook, Slack, and video meetings — joining Zoom, Google Meet, and Microsoft Teams calls to record, transcribe, and update records — and layers on AI assistants that prep meetings, manage pipelines, and draft follow-ups. Founders describe it as 'the Cursor of CRM,' aimed at replacing the heavy manual interfaces of legacy systems.",
@@ -20,11 +20,11 @@
   "addedAt": "2026-06-15",
   "addedSeq": 719,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Built AI-native by HubSpot's former CPO — it auto-captures CRM data from email, Slack, and calls, so the record stays current without manual entry.",
+  "edge": "Auto-captures CRM data from email, Slack, and calls, so the record stays current without manual entry — no bolt-on AI on a legacy core.",
   "pros": [
-    "Auto-captures data from email, Slack, calls",
+    "No manual data entry to keep records current",
     "Built-in AI meeting assistant",
-    "AI-native CRM, not a bolt-on",
+    "Joins Zoom, Meet, and Teams calls",
     "Free Preview tier to start",
     "Founded by ex-HubSpot product leaders"
   ],

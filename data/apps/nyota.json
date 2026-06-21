@@ -3,7 +3,6 @@
   "name": "Nyota",
   "tagline": "AI meeting notetaker that syncs to your project tools and CRM.",
   "description": "An AI meeting assistant that joins Zoom, Google Meet, and Microsoft Teams to transcribe and summarize calls, then pushes action items into project management tools and CRMs like Jira, Asana, ClickUp, HubSpot, and Salesforce. Also prepares agendas and tracks follow-ups across recurring meetings.",
-  "insight": "Generates notes, summaries, and transcripts in 90+ languages and auto-creates tasks/tickets in connected PM tools.",
   "category": "meeting",
   "secondaryCategories": ["productivity"],
   "pricing": "paid",
@@ -18,8 +17,8 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Leans into project/people management — auto-creating tickets and tracking action items in PM tools — rather than just producing a transcript.",
   "pros": [
-    "Two-way sync with PM tools and CRMs",
-    "Auto-creates tasks and tickets",
+    "Syncs to Jira, Asana, HubSpot, Salesforce",
+    "Joins Zoom, Google Meet, and Teams",
     "Notes and transcripts in 90+ languages",
     "Agenda prep for recurring meetings"
   ],

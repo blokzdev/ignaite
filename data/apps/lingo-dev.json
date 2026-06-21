@@ -35,9 +35,9 @@
   "lastVerifiedAt": "2026-06-15",
   "edge": "Runs as an open-source CLI and compiler inside your repo and CI, auto-translating on each commit — not a separate web TMS you paste strings into.",
   "pros": [
-    "Open-source CLI and compiler (Apache-2.0)",
     "Native Git and CI/CD workflow",
     "Per-locale model chains",
+    "Persists glossaries and brand voice",
     "LLM cost passed through at zero markup",
     "14+ file formats supported"
   ],

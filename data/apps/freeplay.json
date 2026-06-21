@@ -35,7 +35,7 @@
   "edge": "Brings engineers, PMs, and domain experts into one eval + observability loop reviewing the same traces, not separate dev-only tooling.",
   "pros": [
     "Unifies prompt mgmt, evals, and monitoring",
-    "Cross-functional review of the same traces",
+    "Aligns auto-evaluators with human labels",
     "Model-graded, code-based, and human evals",
     "SDKs for Python, Node, and JVM languages"
   ],

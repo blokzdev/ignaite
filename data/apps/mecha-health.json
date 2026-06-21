@@ -21,11 +21,11 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Drafts full radiology reports from scans in seconds via pixel/voxel reasoning, on a compact model the vendor says beat Big-Tech baselines on accuracy.",
   "pros": [
-    "Purpose-built radiology foundation models",
+    "Spans multiple modalities and anatomies",
     "Sub-second scan analysis, draft reports",
     "PACS integration via FHIR/HL7",
     "Cloud or on-premise, SOC 2 / HIPAA-ready",
-    "YC-backed, $4.1M seed"
+    "Editable structured findings + impressions"
   ],
   "cons": [
     "Enterprise-only; no public pricing",

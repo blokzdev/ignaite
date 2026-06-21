@@ -25,11 +25,11 @@
   "addedSeq": 675,
   "lastVerifiedAt": "2026-06-14",
   "status": "active",
-  "edge": "Consolidates ATS, CRM, sourcing, and outreach in one AI platform, with a Chrome extension that sources from LinkedIn and 800M+ profiles.",
+  "edge": "Folds ATS, CRM, sourcing, and outreach into one platform, replacing the separate point tools most recruiting teams stitch together.",
   "pros": [
-    "All-in-one: ATS, CRM, sourcing, outreach",
     "AI sourcing across 800M+ profiles",
     "Chrome extension for LinkedIn sourcing",
+    "Natural-language candidate queries",
     "Used by Airbnb, DoorDash, Zillow"
   ],
   "cons": [

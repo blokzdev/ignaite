@@ -27,10 +27,10 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Wires a Supabase backend and GitHub sync into every generated app — leans full-stack where v0 stops at UI.",
   "pros": [
-    "Full-stack apps from a prompt",
     "Built-in Supabase backend",
     "GitHub sync + one-click publish",
-    "Fast idea-to-shipped product"
+    "Fast idea-to-shipped product",
+    "Beginner-friendly, no-code path"
   ],
   "cons": [
     "Can burn credits on complex apps",

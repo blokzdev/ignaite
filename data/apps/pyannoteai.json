@@ -38,9 +38,9 @@
   "edge": "Best-in-class speaker diarization — its premium model beats open-source baselines by ~20% while running roughly 2x faster.",
   "pros": [
     "State-of-the-art diarization accuracy",
-    "Open-source library plus premium API",
     "Fast, near real-time processing",
-    "Language-agnostic speaker intelligence"
+    "Language-agnostic speaker intelligence",
+    "Separates overlapping voices"
   ],
   "cons": [
     "Diarization only, not transcription",

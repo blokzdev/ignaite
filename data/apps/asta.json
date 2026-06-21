@@ -30,7 +30,7 @@
   "edge": "Ranks science agents on AstaBench by both accuracy and cost, and grounds answers in cited, reproducible literature analyses.",
   "pros": [
     "Cited literature summaries with sources",
-    "Open ecosystem plus the AstaBench benchmark",
+    "Ships with the AstaBench benchmark suite",
     "Built by a respected nonprofit AI lab (Ai2)",
     "Rankings weigh cost, not just accuracy"
   ],

@@ -21,7 +21,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 937,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Generates editable UI screens from prompts and exports production React + TypeScript + Tailwind, plus Figma handoff.",
+  "edge": "Carries a prompt through to hand-editable screens, Figma handoff, and shippable code — not just a throwaway prototype mockup.",
   "pros": [
     "Prompt-to-UI in seconds",
     "Exports React/TypeScript/Tailwind code",

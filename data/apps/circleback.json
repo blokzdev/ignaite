@@ -27,7 +27,7 @@
   "lastVerifiedAt": "2026-06-09",
   "edge": "A native automation builder fires cross-app workflows from meeting content — CRM, action items, Slack — without Zapier.",
   "pros": [
-    "Built-in cross-app automations (no Zapier)",
+    "Auto-assigns action items from meetings",
     "Works for virtual, in-person, and async",
     "100+ languages with speaker ID",
     "20+ integrations (Slack, HubSpot, Linear)"

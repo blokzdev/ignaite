@@ -20,7 +20,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 606,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Pairs a lender-grade AVM with ML that reads home condition from listing photos and a generative assistant (CanaryAI) over 136M+ properties.",
+  "edge": "Pairs a lender-grade AVM with photo-based condition scoring and a generative assistant (CanaryAI) over 136M+ properties.",
   "pros": [
     "AVM, comps, and market forecasts",
     "Image recognition for home condition",

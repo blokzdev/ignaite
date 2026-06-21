@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Its AI reasons over a governed semantic layer (AQL) so answers stay grounded in defined metrics — verifiable BI, not ad-hoc text-to-SQL.",
   "pros": [
-    "Governed semantic layer keeps AI answers consistent",
+    "Lineage and multi-turn query context",
     "Analytics-as-code with Git and dbt integration",
     "Self-service exploration for non-technical users",
     "Established, profitable, bootstrapped vendor"

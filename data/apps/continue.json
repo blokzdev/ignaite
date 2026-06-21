@@ -34,12 +34,12 @@
   "addedAt": "2026-06-06",
   "addedSeq": 104,
   "lastVerifiedAt": "2026-06-06",
-  "edge": "Open-source assistant across VS Code, JetBrains, and CLI that can run fully local via Ollama with your own keys.",
+  "edge": "Runs fully local via Ollama with your own keys, so code never leaves your machine — unlike cloud-bound rivals like Cursor or Copilot.",
   "pros": [
     "Apache-2.0 open source",
     "VS Code, JetBrains, and CLI",
-    "Any model, local via Ollama",
-    "Bring your own keys"
+    "Any model provider, your own keys",
+    "Chat, autocomplete, and agent modes"
   ],
   "cons": [
     "More setup than turnkey tools",

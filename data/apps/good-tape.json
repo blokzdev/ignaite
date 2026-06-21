@@ -2,7 +2,7 @@
   "slug": "good-tape",
   "insight": "Built overnight in Danish newsroom Zetland days after OpenAI released Whisper in 2022, then spun off as its own company.",
   "name": "Good Tape",
-  "tagline": "Automated AI transcription in 100+ languages.",
+  "tagline": "Automated AI transcription for audio and video.",
   "description": "Good Tape is an AI transcription tool that turns audio and video into accurate, searchable text across 100+ languages with automatic language detection. It adds speaker identification, AI summaries, and smart search, and is built around a privacy-first posture: GDPR compliance, ISO 27001 certification, EU-based servers, AES-256 encryption, and a commitment not to use uploads to train AI. It runs on the web plus iOS and Android apps.",
   "category": "audio",
   "secondaryCategories": ["meeting"],
@@ -29,10 +29,10 @@
   "addedAt": "2026-06-13",
   "addedSeq": 561,
   "lastVerifiedAt": "2026-06-13",
-  "edge": "Privacy-first transcription — ISO 27001-certified, EU-hosted, and your audio is never used to train AI, across 100+ languages.",
+  "edge": "Privacy-first transcription — ISO 27001-certified, EU-hosted, and your audio is never used to train AI, unlike most cloud transcribers.",
   "pros": [
     "Accurate speech-to-text in 100+ languages",
-    "ISO 27001-certified, EU-based servers",
+    "Speaker ID, AI summaries, smart search",
     "Doesn't train AI on your audio",
     "iOS, Android, and web apps",
     "Free tier to try"

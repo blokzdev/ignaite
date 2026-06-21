@@ -1,9 +1,9 @@
 {
   "slug": "dexterity",
   "name": "Dexterity",
-  "insight": "Raised $95M in 2025 at a $1.65B valuation; its robots load trucks for FedEx, UPS, and GXO.",
+  "insight": "Raised $95M in 2025 at a $1.65B valuation, taking total funding to roughly $300M.",
   "tagline": "Physical AI robots for warehouse manipulation and truck loading.",
-  "description": "Dexterity builds 'Physical AI' robots that handle complex manipulation in logistics — including DexR, a truck-loading robot, and Mech, a two-armed mobile 'superhumanoid' that lifts up to 132 lb. Its Foresight world model is trained on over 100 million autonomous actions run in production. Customers include FedEx, UPS, GXO, and Sumitomo, and the company reached a $1.65B valuation in 2025.",
+  "description": "Dexterity builds 'Physical AI' robots that handle complex manipulation in logistics — including DexR, a truck-loading robot, and Mech, a two-armed mobile 'superhumanoid' that lifts up to 132 lb. Its Foresight world model is trained on over 100 million autonomous actions run in production. Customers include FedEx, UPS, GXO, and Sumitomo.",
   "category": "robotics",
   "pricing": "paid",
   "deployment": "local",
@@ -33,9 +33,9 @@
   "edge": "Its Foresight 'world model for Physical AI' is trained on 100M+ autonomous actions already run in live production warehouses.",
   "pros": [
     "Deployed at FedEx, UPS, GXO today",
-    "Foresight world model on real production data",
+    "Foresight world model drives manipulation",
     "Tackles hard tasks like truck loading",
-    "$1.65B valuation, ~$300M raised"
+    "Two-armed Mech lifts up to 132 lb"
   ],
   "cons": [
     "Enterprise/industrial only, not buyable direct",

@@ -30,8 +30,7 @@
   "edge": "A polished consumer assistant whose underlying Kimi K2 model ships as open weights you can self-host.",
   "pros": [
     "Built on open-weight Kimi K2 models",
-    "Very long context window",
-    "Deep Research and agent mode",
+    "Agent mode with parallel subagents",
     "Free tier available"
   ],
   "cons": [

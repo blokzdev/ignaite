@@ -2,7 +2,7 @@
   "slug": "litellm",
   "insight": "Built by YC W23 startup BerriAI; used in production by Netflix, Adobe, and Stripe, with 45k+ GitHub stars.",
   "name": "LiteLLM",
-  "tagline": "AI gateway: call 100+ LLMs in one OpenAI-format interface.",
+  "tagline": "AI gateway: call many LLMs through one OpenAI-format interface.",
   "description": "Open-source Python SDK and proxy server (AI gateway) that exposes 100+ LLM providers through a single OpenAI-compatible API, with cost tracking, load balancing, fallbacks, caching, and guardrails. Self-host the proxy or use the managed cloud; a paid Enterprise tier adds SSO, audit logs, and support.",
   "category": "inference",
   "pricing": "freemium",
@@ -36,7 +36,7 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Translates 100+ providers into one OpenAI-format call — so many other AI tools quietly embed it as their routing layer.",
   "pros": [
-    "100+ providers, one OpenAI format",
+    "Load balancing and guardrails built in",
     "Open source SDK + proxy",
     "Cost tracking, fallbacks, caching",
     "Self-host or managed cloud"

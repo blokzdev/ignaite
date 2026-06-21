@@ -30,10 +30,10 @@
   "addedAt": "2026-06-19",
   "addedSeq": 881,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Agentic notebooks let non-technical users query any database in natural language, inspect the generated SQL, and embed it in customer-facing apps.",
+  "edge": "Every generated query stays visible and editable, and the same notebooks embed into customer-facing apps — not a black-box internal BI tool.",
   "pros": [
-    "Natural-language querying with inspectable SQL",
-    "Agentic notebooks usable at any skill level",
+    "Inspectable, editable generated SQL",
+    "Usable at any technical skill level",
     "Embeddable customer-facing analytics",
     "Free Startup tier, no card required"
   ],

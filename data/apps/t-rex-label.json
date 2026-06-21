@@ -38,9 +38,9 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Visual-prompt zero-shot detection auto-labels every matching object across a dataset from one example box—no per-class training like traditional annotators.",
   "pros": [
-    "Zero-shot, no training needed",
-    "Batch-labels from one example box",
+    "No per-class training needed",
     "Handles dense and occluded scenes",
+    "Varied-lighting robustness",
     "COCO and YOLO export",
     "Integrates with Roboflow, Labelbox"
   ],

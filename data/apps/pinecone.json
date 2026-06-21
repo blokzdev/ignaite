@@ -2,8 +2,8 @@
   "slug": "pinecone",
   "insight": "Founded in 2019 by Edo Liberty, formerly head of Amazon AI Labs; raised a $100M Series B at a $750M valuation in 2023.",
   "name": "Pinecone",
-  "tagline": "Managed vector database. The industry-default serverless option.",
-  "description": "Fully-managed vector DB built for production RAG and semantic search at scale. Serverless pricing, low-latency reads, integrations across every framework. Most Blokz-adjacent AI teams reach for it first.",
+  "tagline": "Fully-managed serverless vector database for RAG and semantic search.",
+  "description": "Fully-managed vector DB built for production RAG and semantic search at scale. Serverless pricing, low-latency reads, and integrations across every major framework, with no infrastructure to provision or operate.",
   "category": "vector-db",
   "pricing": "freemium",
   "deployment": "cloud",
@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-01",
   "edge": "The zero-ops default: fully managed serverless with no infra to run, so teams ship RAG fast without a platform engineer.",
   "pros": [
-    "Fully managed, zero-ops serverless",
+    "No infra to provision or operate",
     "Fast time-to-production",
     "Low-latency reads at scale",
     "Integrates with every major framework"

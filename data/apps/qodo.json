@@ -1,6 +1,6 @@
 {
   "slug": "qodo",
-  "insight": "Rebranded from CodiumAI in 2024; its reviewer weighs prior PR history as context, not just the current codebase state.",
+  "insight": "Rebranded from CodiumAI in 2024, expanding from test generation into a multi-agent code-quality platform.",
   "name": "Qodo",
   "tagline": "AI code review and test generation across IDE, PRs, and CLI.",
   "description": "Qodo (formerly CodiumAI) is a code-quality platform that runs AI review on pull requests, generates tests, and assists inside the editor. Its multi-agent reviewer pulls context from the codebase and PR history across GitHub, GitLab, Bitbucket, and Azure DevOps, with VS Code and JetBrains plugins plus a CLI so issues surface before merge.",
@@ -37,7 +37,7 @@
   "edge": "Its multi-agent reviewer pulls context from prior PR history, not just the current codebase, across GitHub, GitLab, Bitbucket, and Azure.",
   "pros": [
     "Reviews PRs and generates tests",
-    "Context from codebase and PR history",
+    "Multi-agent reviewer",
     "Works across major Git platforms",
     "IDE plugins plus a CLI"
   ],

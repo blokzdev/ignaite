@@ -28,9 +28,8 @@
   "addedAt": "2026-06-09",
   "addedSeq": 366,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "AI-native general ledger that auto-categorizes up to 98% of transactions, so burn and runway update in real time, not at month-end.",
+  "edge": "Built ledger-first for AI categorization, so burn and runway update continuously instead of at month-end like retrofitted incumbents.",
   "pros": [
-    "AI-native ledger, built from scratch",
     "Auto-categorizes up to 98% of txns",
     "Real-time burn and runway",
     "Syncs Stripe, Mercury, Ramp, Brex"

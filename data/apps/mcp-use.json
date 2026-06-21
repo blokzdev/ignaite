@@ -31,7 +31,6 @@
   "lastVerifiedAt": "2026-06-19",
   "edge": "Adds hot reload, dev tools, and UI components on top of the official MCP SDK, and connects any LLM to any server in a few lines of code.",
   "pros": [
-    "Connect any LLM to any MCP server",
     "TypeScript and Python SDKs",
     "Hot reload and dev tooling",
     "Builds tool-using agents",

@@ -34,9 +34,9 @@
   "addedAt": "2026-06-08",
   "addedSeq": 226,
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Fully self-hostable open-source parser — grew from a pipeline built to parse ~600M pages of scientific literature.",
+  "edge": "Grew from a pipeline built to parse ~600M pages of scientific literature, so it holds up on dense, complex document layouts.",
   "pros": [
-    "Open-source, self-hostable pipeline",
+    "Self-host or call the managed API",
     "Layout analysis + OCR + semantic chunking",
     "Outputs HTML, Markdown, or JSON",
     "Free cloud tier (200 pages, no card)"

@@ -33,7 +33,7 @@
   "addedAt": "2026-06-15",
   "addedSeq": 715,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Open-weight models plus a hosted API at a fraction of ElevenLabs' price, with emotion-tagged speech and 15-second voice cloning.",
+  "edge": "Open-weight models plus a hosted API at a fraction of ElevenLabs' price, with emotion-tagged expressive speech.",
   "pros": [
     "Expressive, emotion-controllable TTS",
     "Fast voice cloning from ~15s of audio",

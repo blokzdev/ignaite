@@ -3,7 +3,7 @@
   "insight": "Raised $17M (seed + Series A) led by Innovation Endeavors in 2025; backers include Y Combinator and Vercel CEO Guillermo Rauch.",
   "name": "Extend",
   "tagline": "Full-stack document processing platform for AI agents and pipelines.",
-  "description": "Extend is an LLM-powered document processing platform that parses, extracts, classifies, splits, and edits complex documents — handwriting, tables, and mixed formats — into reliable structured data via API or its web Studio. It combines multiple frontier models with proprietary context engineering to target 99%+ accuracy on messy real-world files. Used by teams at Brex, Square, Checkr, and Flatiron Health.",
+  "description": "Extend is an LLM-powered document processing platform that parses, extracts, classifies, splits, and edits complex documents — handwriting, tables, and mixed formats — into reliable structured data via API or its web Studio. It combines multiple frontier models with proprietary context engineering for messy real-world files. Used by teams at Brex, Square, Checkr, and Flatiron Health.",
   "category": "data-ops",
   "secondaryCategories": ["vision"],
   "pricing": "freemium",
@@ -35,7 +35,7 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Ensembles multiple frontier models and pairs the API with a web Studio for schema iteration and evals — tuned for 99%+ accuracy on handwriting and tables.",
   "pros": [
-    "Ensemble of frontier models for accuracy",
+    "Handles handwriting, tables, mixed formats",
     "Studio UI for schema design + evals",
     "SDKs for Python, TypeScript, and CLI",
     "Free credits, then pay-as-you-go",

@@ -1,8 +1,8 @@
 {
   "slug": "ragas",
-  "insight": "Began as a 2023 research paper (EACL 2024) and a Y Combinator W24 startup before becoming the default open-source RAG eval standard.",
+  "insight": "Began as a 2023 research paper (published at EACL 2024) and went through Y Combinator's W24 batch.",
   "name": "Ragas",
-  "tagline": "Open-source evaluation toolkit for RAG and LLM applications.",
+  "tagline": "Evaluation toolkit for RAG and LLM applications.",
   "description": "Open-source (Apache-2.0) Python framework for evaluating retrieval-augmented generation and LLM apps. Provides reference-free metrics — faithfulness, answer relevancy, context precision/recall — plus knowledge-graph-based synthetic test generation. Integrates with LangChain, LlamaIndex, and CI pipelines.",
   "category": "eval",
   "pricing": "free",
@@ -34,9 +34,9 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Popularized reference-free RAG metrics — faithfulness, context precision — scored by an LLM judge, so you evaluate without gold answers.",
   "pros": [
-    "Reference-free RAG metrics",
-    "Open source (Apache-2.0)",
-    "Synthetic test-set generation",
+    "Faithfulness & relevancy metrics",
+    "Knowledge-graph synthetic test sets",
+    "LLM-as-judge scoring",
     "Integrates LangChain, LlamaIndex, CI"
   ],
   "cons": [

@@ -3,7 +3,7 @@
   "insight": "Formed by the 2024 Commure–Athelas merger (led by Athelas CEO Tanay Tandon, backed by General Catalyst) at a ~$6B combined valuation.",
   "name": "Commure",
   "tagline": "AI platform automating healthcare operations end to end.",
-  "description": "Commure is an AI-native platform that automates healthcare operations across clinical documentation, revenue cycle management, and patient engagement. Its products span ambient AI scribing, dictation, coding and claims, workflow agents, and care-coordination tools, deployed across hundreds of health systems. The company was formed by the 2024 merger of Commure and Athelas and is backed by General Catalyst.",
+  "description": "Commure is an AI-native platform that automates healthcare operations across clinical documentation, revenue cycle management, and patient engagement. Its products span ambient AI scribing, dictation, coding and claims, workflow agents, and care-coordination tools, deployed across hundreds of health systems.",
   "category": "healthcare",
   "pricing": "paid",
   "deployment": "cloud",
@@ -28,7 +28,6 @@
   "pros": [
     "End-to-end operations, not just scribing",
     "Deployed across 100+ health systems",
-    "Backed by General Catalyst",
     "Integrates with existing EHRs"
   ],
   "cons": [

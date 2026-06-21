@@ -28,9 +28,9 @@
   "edge": "The most balanced 3D generator — text/image-to-3D, PBR textures, topology control, and broad engine exports in one tool.",
   "pros": [
     "Clean meshes, good edge flow",
-    "Text- and image-to-3D plus PBR textures",
     "Auto-rigging and topology controls",
-    "Blender/Unity/Unreal exports"
+    "Blender/Unity/Unreal exports",
+    "API for pipeline automation"
   ],
   "cons": [
     "Geometry can look soft vs Rodin",

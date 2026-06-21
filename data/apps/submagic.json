@@ -2,7 +2,7 @@
   "slug": "submagic",
   "insight": "Bootstrapped to roughly $8M ARR by Paris founder David Zitoun with a tiny team and no VC funding.",
   "name": "Submagic",
-  "tagline": "Edit short-form videos 10x faster with AI.",
+  "tagline": "AI editor that turns long videos into short-form clips.",
   "description": "AI video editor for short-form content that auto-generates captions in dozens of languages, removes silences, inserts B-roll, and extracts the highest-engagement clips from long videos. Upload footage or a YouTube link and get TikTok/Reels/Shorts-ready edits. Pricing is per finished video rather than per credit.",
   "category": "video",
   "pricing": "freemium",
@@ -26,10 +26,10 @@
   "lastVerifiedAt": "2026-06-07",
   "edge": "Billed per finished video, not per credit or source-minute, and auto-inserts context-matched B-roll, not just captions.",
   "pros": [
-    "Per-video pricing, not credits",
-    "Auto B-roll matched to content",
+    "Removes silences automatically",
     "Captions in dozens of languages",
-    "Pulls clips from long video"
+    "Pulls clips from long video",
+    "Import footage or a YouTube link"
   ],
   "cons": [
     "Web-only, no mobile editor",

@@ -33,7 +33,7 @@
   "addedAt": "2026-06-15",
   "addedSeq": 782,
   "lastVerifiedAt": "2026-06-15",
-  "edge": "Bundles an LLM gateway, model deployment, fine-tuning, and observability into one platform you run inside your own VPC or on-prem.",
+  "edge": "Bundles an LLM gateway, model deployment, fine-tuning, and observability into one platform instead of stitching point tools together.",
   "pros": [
     "Runs in your own cloud, on-prem, or air-gapped",
     "AI gateway plus model hosting in one platform",

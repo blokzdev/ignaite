@@ -31,7 +31,7 @@
     "Backed by Sequoia & Kleiner Perkins",
     "Proven at Amex: 82% RCA accuracy",
     "Triages and filters noisy alerts",
-    "Scales to petabyte telemetry"
+    "Feeds production context to prevent recurrence"
   ],
   "cons": [
     "Enterprise sales-only, no public pricing",

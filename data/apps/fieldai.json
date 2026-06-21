@@ -30,7 +30,7 @@
   "addedAt": "2026-06-12",
   "addedSeq": 483,
   "lastVerifiedAt": "2026-06-12",
-  "edge": "Risk-aware, embodiment-agnostic foundation models: one 'robot brain' that drives many robot bodies without maps, GPS, or predefined trajectories.",
+  "edge": "One foundation-model 'brain' spans many robot bodies, where most rivals train per-robot or per-task policies.",
   "pros": [
     "Embodiment-agnostic: one brain, many robots",
     "Risk-aware 'Belief World Model'",

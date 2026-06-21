@@ -2,7 +2,7 @@
   "slug": "docling",
   "insight": "Built at IBM Research Zurich and donated to the LF AI & Data Foundation in April 2025.",
   "name": "Docling",
-  "tagline": "Open-source toolkit that turns documents into AI-ready Markdown and JSON.",
+  "tagline": "Toolkit that turns documents into AI-ready Markdown and JSON.",
   "description": "A document-processing toolkit that converts PDF, DOCX, PPTX, XLSX, HTML, images, and audio into clean Markdown or JSON for LLM and RAG pipelines. It does advanced PDF understanding — page layout, reading order, table structure, and OCR for scans — and ships a hybrid chunker plus native LangChain and LlamaIndex integrations. Small enough to run on a laptop via a Python API or CLI; MIT-licensed and community-governed.",
   "category": "data-ops",
   "pricing": "free",
@@ -27,12 +27,12 @@
   "addedAt": "2026-06-08",
   "addedSeq": 239,
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Open-source AI layout detection that preserves reading order and table structure — self-hostable, no API bills.",
+  "edge": "Self-hostable with AI layout detection that preserves reading order and table structure — no API bills.",
   "pros": [
-    "Fully open-source and self-hostable",
-    "Preserves layout, reading order, tables",
+    "Runs on a laptop via Python API or CLI",
+    "OCR for scans, hybrid chunker built in",
     "IBM Research origin, now LF AI project",
-    "Wide format and export support"
+    "Wide input format and export support"
   ],
   "cons": [
     "Lower accuracy than top hosted parsers",

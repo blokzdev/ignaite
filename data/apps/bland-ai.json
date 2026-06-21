@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-08",
   "edge": "Bundles LLM, STT, TTS and telephony into one all-inclusive per-minute rate — the simplest stack to deploy.",
   "pros": [
-    "All-in-one per-minute pricing, no surcharges",
+    "Bundles LLM, STT, TTS, and telephony",
     "Fast non-technical setup in a single dashboard",
     "Built for high-volume outbound calling",
     "CRM/Twilio/Zapier integrations"

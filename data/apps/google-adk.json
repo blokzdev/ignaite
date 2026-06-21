@@ -29,11 +29,11 @@
   "addedAt": "2026-06-19",
   "addedSeq": 836,
   "lastVerifiedAt": "2026-06-19",
-  "edge": "Code-first and model-agnostic with bidirectional audio/video streaming and built-in evals, across Python, Java, Go and TypeScript.",
+  "edge": "Native bidirectional audio/video streaming and the same engine behind Google's own production agents set it apart from text-only agent frameworks.",
   "pros": [
     "Backed by Google, code-first design",
     "Model- and deployment-agnostic",
-    "Bidirectional audio/video streaming",
+    "Composes agents into hierarchies",
     "Built-in evaluation and dev UI",
     "Multi-language: Python, Java, Go, TS"
   ],

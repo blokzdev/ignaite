@@ -28,13 +28,13 @@
   "addedAt": "2026-06-19",
   "addedSeq": 884,
   "lastVerifiedAt": "2026-06-19",
-  "insight": "Berlin- and New-York-based; its agents are authored from a company's existing written SOPs rather than coded from scratch.",
+  "insight": "Founded in 2022; a Y Combinator company also backed by Tiger Global Management and Uncorrelated Ventures.",
   "edge": "Turns a written SOP into a self-learning agent for back-office ops — built for deeply integrated enterprise workflows, not lightweight task automation.",
   "pros": [
     "Builds agents from existing SOPs",
     "Deep enterprise system integration",
     "Spans finance, HR, and ops",
-    "Self-learning / improving agents"
+    "Handles document and data-entry work"
   ],
   "cons": [
     "Enterprise sales, custom pricing",

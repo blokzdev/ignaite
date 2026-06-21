@@ -32,7 +32,7 @@
   "lastVerifiedAt": "2026-06-13",
   "edge": "Bundles embedding generation, storage, and retrieval behind one API and can train a model on your own catalog — no separate embedding pipeline to wire up.",
   "pros": [
-    "Single API for end-to-end vector search",
+    "Generates and stores embeddings in-engine",
     "Native multimodal (text + image) search",
     "Turnkey ecommerce platform integrations",
     "Backed by Lightspeed and Blackbird"

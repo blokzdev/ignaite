@@ -24,7 +24,7 @@
   "addedAt": "2026-06-09",
   "addedSeq": 341,
   "lastVerifiedAt": "2026-06-09",
-  "edge": "Trains a personal neural net on 50 colors you pick, then generates palettes tuned to your taste — free, no signup.",
+  "edge": "Trains a personal neural net on 50 colors you pick, then generates palettes tuned to your taste, not generic schemes.",
   "pros": [
     "Learns your personal color taste",
     "Free, no account required",

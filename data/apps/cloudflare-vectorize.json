@@ -33,7 +33,7 @@
   "pros": [
     "Native to Cloudflare Workers and edge",
     "Free tier on Workers Free/Paid plans",
-    "Tight Workers AI + R2/D1/KV integration",
+    "Embeddings from Workers AI or external",
     "No infrastructure to manage",
     "Low-latency queries from the edge"
   ],

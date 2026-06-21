@@ -1,6 +1,6 @@
 {
   "slug": "sim",
-  "insight": "Formerly Sim Studio; its Figma-like canvas wires LLMs to 1,000+ tools and ships a workflow as an API, schedule, webhook, or chat app.",
+  "insight": "Formerly Sim Studio; rebranded to Sim after going through Y Combinator.",
   "name": "Sim",
   "tagline": "Open-source visual builder to create, deploy, and orchestrate AI agents.",
   "description": "An open-source workspace for building AI agents on a Figma-like drag-and-drop canvas, conversationally, or in code. It connects LLMs to 1,000+ integrations plus knowledge bases and structured tables, then deploys a workflow as an API, scheduled job, webhook handler, or standalone chat app. Apache-2.0, YC-backed, and runnable in Sim's cloud or self-hosted via npm or Docker.",

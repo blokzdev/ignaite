@@ -26,8 +26,8 @@
   "lastVerifiedAt": "2026-06-20",
   "edge": "Lets non-engineers build production CV detectors with no code and run them on any existing camera — visual inspection in minutes.",
   "pros": [
-    "No-code detector training",
-    "Works with any existing camera",
+    "Non-programmers train custom detectors",
+    "Detects objects, defects, people, actions",
     "Strong on manufacturing defect QC",
     "Cloud, on-prem, and edge deployment"
   ],

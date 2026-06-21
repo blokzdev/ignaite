@@ -1,6 +1,6 @@
 {
   "slug": "smithery",
-  "insight": "Only its CLI is open-source (AGPL-3.0); the 6,000+ server registry and hosting itself is a closed platform that adds managed OAuth.",
+  "insight": "Only the CLI is open-source (AGPL-3.0); the registry and hosting platform itself stays closed-source.",
   "name": "Smithery",
   "tagline": "Registry and hosting platform for Model Context Protocol servers.",
   "description": "A central hub for the MCP ecosystem: browse, install, and configure thousands of community-built MCP servers from one place, or deploy your own to Smithery's infrastructure and access it remotely. The CLI installs and manages servers without hand-editing JSON config, and the hosted tier adds managed OAuth and persistent connections so agents get authenticated tool access. Lists over 6,000 servers across developer tools, data connectors, and productivity integrations.",
@@ -33,9 +33,9 @@
   "lastVerifiedAt": "2026-06-08",
   "edge": "Largest MCP registry (6,000+ servers) with managed OAuth and hosting, so agents get authenticated tool access without config wrangling.",
   "pros": [
-    "6,000+ server registry",
+    "Browse and install community servers",
     "CLI installs without editing JSON",
-    "Managed OAuth + hosted connections",
+    "Persistent authenticated connections",
     "Deploy your own servers"
   ],
   "cons": [

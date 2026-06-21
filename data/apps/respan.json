@@ -30,9 +30,9 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Bundles an AI gateway, observability, and an automated eval agent in one loop — detect, decide, and fix in production without stitching tools.",
   "pros": [
-    "Gateway + observability + evals unified",
+    "Trace trees, dashboards, and alerts",
     "500+ models via one endpoint",
-    "Automated eval agent + human review",
+    "Rule checks, AI judges, human review",
     "Spend caps and fallback routing",
     "Generous free tier (100k logs)"
   ],

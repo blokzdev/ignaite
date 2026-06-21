@@ -35,7 +35,7 @@
   "edge": "Layers Speech Understanding — summaries, sentiment, PII redaction — over accurate transcription, billed per second.",
   "pros": [
     "High transcription accuracy",
-    "Speech Understanding add-ons",
+    "Speaker diarization & language detection",
     "Batch + real-time streaming",
     "Per-second pay-as-you-go, free credit"
   ],

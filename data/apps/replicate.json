@@ -33,8 +33,8 @@
   "lastVerifiedAt": "2026-06-06",
   "edge": "Any model is a Cog container behind one API billed per second — the low-commitment way to ship a model you didn't train.",
   "pros": [
-    "Thousands of community models, one API",
-    "Pay-per-second, no idle cost",
+    "Image, video, audio, and language models",
+    "No idle cost, no infra to manage",
     "Cog packaging for custom deploys",
     "Fine-tuning supported"
   ],

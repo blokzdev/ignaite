@@ -30,9 +30,9 @@
   "addedAt": "2026-06-20",
   "addedSeq": 964,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Open-source-rooted parsing (Marker + Surya) you can self-host for free or call as a hosted API, with strong table and math handling.",
+  "edge": "Built on the widely adopted Marker + Surya OSS projects, with stronger table, math, and code preservation than generic OCR APIs.",
   "pros": [
-    "Open-source core (Marker + Surya)",
+    "Pay-as-you-go API with free allowance",
     "Self-host free for research/small startups",
     "Preserves tables, math, and code",
     "90+ language OCR"
