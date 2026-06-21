@@ -3,7 +3,7 @@
   "insight": "Raised $400M in June 2026 at a $5.4B valuation, more than doubling its value in seven months.",
   "name": "Suno",
   "tagline": "Full songs from a prompt. Vocals, instruments, structure.",
-  "description": "Hosted music generation with vocal performances, instrument arrangement, and song structure baked in. Type a description or upload a hook, get a finished track. Defined the prompt-to-song category.",
+  "description": "Hosted music generation with vocal performances, instrument arrangement, and song structure baked in. Type a description or upload a hook, get a finished track.",
   "category": "music",
   "pricing": "freemium",
   "deployment": "cloud",
@@ -41,7 +41,7 @@
       "summary": "Recategorized from audio to the new dedicated music-generation category."
     }
   ],
-  "edge": "Defined prompt-to-song and leads on vocal quality plus song structure, with native iOS/Android apps rivals lack.",
+  "edge": "Defined prompt-to-song and leads on vocal quality, with native iOS/Android apps rivals lack.",
   "pros": [
     "Realistic vocals and full song structure",
     "Fast prompt-to-finished-track flow",

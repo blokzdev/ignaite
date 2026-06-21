@@ -34,7 +34,7 @@
   "edge": "Parser and prompts tuned for Qwen3-Coder, with a free Qwen OAuth tier and native multi-provider support out of the box.",
   "pros": [
     "Apache-2.0 and free to run",
-    "Free Qwen OAuth tier",
+    "Interactive or headless terminal UI",
     "Multi-provider + local models",
     "Agentic: subagents, MCP, memory"
   ],

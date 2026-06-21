@@ -34,7 +34,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 951,
   "lastVerifiedAt": "2026-06-20",
-  "edge": "Fully managed RAG with native connectors, multimodal parsing, and an MCP server — skip building ingestion, chunking, and hybrid retrieval yourself.",
+  "edge": "Production RAG over an API — skip building ingestion, connectors, chunking, and hybrid retrieval yourself, then maintaining it.",
   "pros": [
     "Fully managed, fast to integrate",
     "Native connectors (Drive, Notion, etc.)",

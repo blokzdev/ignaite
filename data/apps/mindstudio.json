@@ -33,9 +33,9 @@
   "edge": "Build an agent once and deploy it to web, browser extension, email, API, or MCP — across 200+ models with no markup on model usage costs.",
   "pros": [
     "No-code visual agent builder",
-    "200+ models via one interface",
-    "Deploy to web, API, email, extension",
-    "No markup on model usage costs",
+    "Connects 1,000+ apps",
+    "Optional custom JS or Python steps",
+    "Ships agents as APIs and MCP servers",
     "Free tier with 1,000 runs/month"
   ],
   "cons": [

@@ -34,7 +34,7 @@
   "pros": [
     "Apache-2.0, fully self-hostable",
     "Deep document, table, and scan parsing",
-    "Citation-backed answers",
+    "Hallucination-resistant grounded QA",
     "Hybrid vector + full-text search",
     "Built-in agent orchestration"
   ],

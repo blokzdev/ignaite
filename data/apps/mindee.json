@@ -36,13 +36,13 @@
   "addedAt": "2026-06-12",
   "addedSeq": 479,
   "lastVerifiedAt": "2026-06-12",
-  "edge": "Plug-and-play REST API with pretrained models for common document types — no training step — backed by the team behind the open-source docTR OCR library.",
+  "edge": "Plug-and-play REST API with pretrained models for common document types — no training step, unlike platforms that make you build a model first.",
   "pros": [
-    "Pretrained APIs, no model training",
+    "Pretrained models for common doc types",
     "Single API call per document",
     "SDKs for Python, Java, PHP, more",
     "Transparent per-page credit pricing",
-    "Open-source docTR OCR heritage"
+    "Handles splitting, classification, cropping"
   ],
   "cons": [
     "Hosted API is proprietary",

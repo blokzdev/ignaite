@@ -2,7 +2,7 @@
   "slug": "recraft",
   "insight": "Its V3 model (codenamed ‘Red Panda’) topped the Artificial Analysis text-to-image leaderboard in Oct 2024, beating Midjourney and DALL-E 3.",
   "name": "Recraft",
-  "tagline": "Design-grade image + vector generation with brand consistency.",
+  "tagline": "Image and true vector (SVG) generation with brand style sets.",
   "description": "Image generator aimed at designers — raster and true vector (SVG) output, brand style sets, mockups, and precise control. Strong when assets need to ship into real design work.",
   "category": "design",
   "pricing": "freemium",

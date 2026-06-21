@@ -31,8 +31,8 @@
   "lastVerifiedAt": "2026-06-14",
   "edge": "Outputs deterministic production React/Tailwind from real components — what you design is the code you ship — and exposes designs to agents via MCP.",
   "pros": [
-    "Deterministic, production-ready code",
-    "Designs from real coded components",
+    "Build from real coded components",
+    "Exports clean React + Tailwind",
     "MCP hooks into Cursor/Claude Code",
     "Figma sync + auto design system",
     "Generous free tier"

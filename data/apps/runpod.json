@@ -32,11 +32,11 @@
   "addedAt": "2026-06-08",
   "addedSeq": 258,
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Serverless GPU inference billed by the millisecond, scales to zero, plus a cheaper peer-sourced Community Cloud tier.",
+  "edge": "Serverless GPU inference billed by the millisecond and scaling to zero, so idle endpoints cost nothing unlike fixed GPU rentals.",
   "pros": [
     "Millisecond serverless billing",
-    "Scales to zero when idle",
-    "Cheaper Community Cloud GPUs",
+    "Sub-200ms cold starts",
+    "Secure and Community Cloud GPU tiers",
     "On-demand Pods and clusters too"
   ],
   "cons": [

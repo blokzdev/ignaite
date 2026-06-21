@@ -37,7 +37,7 @@
     "Scales to billion-vector deployments",
     "Storage/compute separation",
     "Many index types (HNSW, IVF, DiskANN) + GPU",
-    "Apache-2.0, strong community"
+    "Mature project with a large community"
   ],
   "cons": [
     "Operationally heavy to self-host",

@@ -2,7 +2,7 @@
   "slug": "raycast",
   "insight": "London-based and YC-backed; $30M Series B led by Atomico (Sept 2024), with angels including the CEOs of Vercel, GitHub and Shopify.",
   "name": "Raycast",
-  "tagline": "Productivity launcher with built-in AI and a 1,500+ extension store.",
+  "tagline": "Keyboard-driven productivity launcher with built-in AI and extensions.",
   "description": "A keyboard-driven command launcher that replaces Spotlight with app launching, clipboard history, window management, snippets, and a large store of community extensions. Raycast AI adds a model-switching assistant and quick AI commands directly in the command bar. Native on macOS with a Windows version in beta as of late 2025.",
   "category": "assistant",
   "pricing": "freemium",

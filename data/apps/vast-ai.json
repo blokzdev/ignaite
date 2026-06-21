@@ -32,7 +32,7 @@
   "addedAt": "2026-06-14",
   "addedSeq": 592,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Marketplace pricing: independent hosts compete, so GPUs (incl. H100s) often run well below first-party clouds, with per-second billing from a $5 minimum.",
+  "edge": "Marketplace pricing: independent hosts compete, so GPUs (incl. H100s) often run well below first-party clouds like AWS or GCP.",
   "pros": [
     "Often the cheapest GPUs via marketplace",
     "Per-second billing, $5 minimum",
