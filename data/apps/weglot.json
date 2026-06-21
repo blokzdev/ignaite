@@ -29,9 +29,9 @@
   "addedAt": "2026-06-14",
   "addedSeq": 577,
   "lastVerifiedAt": "2026-06-14",
-  "edge": "Installs on any CMS via one snippet and auto-detects new content to translate — minimal dev work versus a full translation-management system.",
+  "edge": "Installs on any CMS via one snippet — far less dev work than wiring up a full translation-management system.",
   "pros": [
-    "Works on any CMS via one snippet",
+    "Shopify, WordPress, Webflow, Wix, custom",
     "Auto-detects and translates new content",
     "Multilingual SEO handled automatically",
     "Free tier to start",

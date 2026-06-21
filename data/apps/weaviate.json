@@ -36,8 +36,7 @@
   "edge": "Built-in vectorizer modules embed text inline — raw text in, vectors out — so you skip running a separate embedding pipeline.",
   "pros": [
     "Hybrid BM25 + vector search",
-    "Open source, self-hostable",
-    "Managed cloud option",
+    "Self-hostable or managed cloud",
     "GraphQL and REST APIs"
   ],
   "cons": [
