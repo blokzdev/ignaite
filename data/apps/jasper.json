@@ -41,5 +41,7 @@
     "Output still needs editing/fact-checking"
   ],
   "bestFor": ["Marketing teams", "On-brand content at scale", "Agencies"],
-  "alternatives": ["copy-ai", "writer", "rytr", "adcreative-ai"]
+  "alternatives": ["copy-ai", "writer", "rytr", "adcreative-ai"],
+  "featured": true,
+  "featuredAt": "2026-06-21"
 }

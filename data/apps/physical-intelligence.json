@@ -52,7 +52,7 @@
       "kind": "analysis"
     }
   ],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-10",
   "accentColor": "#EF4444"
 }

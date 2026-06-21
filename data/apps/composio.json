@@ -46,5 +46,8 @@
     "Tool quality varies by integration"
   ],
   "bestFor": ["Agent tool access", "SaaS integrations"],
-  "alternatives": ["arcade", "smithery", "glama", "context7"]
+  "alternatives": ["arcade", "smithery", "glama", "context7"],
+  "featured": true,
+  "featuredAt": "2026-06-21",
+  "accentColor": "#6366F1"
 }

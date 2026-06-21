@@ -7,7 +7,7 @@
   "category": "voice",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": false,
+  "featured": true,
   "vendor": "ElevenLabs",
   "platforms": ["web", "api"],
   "modelSupport": {
@@ -48,5 +48,6 @@
     "Latency higher than streaming-first rivals"
   ],
   "bestFor": ["Audiobooks and narration", "Dubbing and localization", "Voice agents"],
-  "alternatives": ["cartesia", "deepgram", "speechify", "hume-ai"]
+  "alternatives": ["cartesia", "deepgram", "speechify", "hume-ai"],
+  "featuredAt": "2026-06-21"
 }

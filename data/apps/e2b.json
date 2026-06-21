@@ -60,5 +60,8 @@
       "source": "Superagent",
       "kind": "benchmark"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-06-21",
+  "accentColor": "#FF8800"
 }

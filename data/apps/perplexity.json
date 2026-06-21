@@ -7,7 +7,7 @@
   "category": "search",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": false,
+  "featured": true,
   "vendor": "Perplexity AI",
   "platforms": ["web", "ios", "android", "macos", "windows", "api"],
   "modelSupport": {
@@ -56,5 +56,6 @@
       "source": "Columbia Journalism Review",
       "kind": "analysis"
     }
-  ]
+  ],
+  "featuredAt": "2026-06-21"
 }

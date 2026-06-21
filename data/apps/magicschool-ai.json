@@ -50,7 +50,7 @@
       "kind": "comparison"
     }
   ],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-10",
   "accentColor": "#8B5CF6"
 }

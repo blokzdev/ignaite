@@ -47,7 +47,7 @@
       "kind": "review"
     }
   ],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-10",
   "accentColor": "#34D399"
 }

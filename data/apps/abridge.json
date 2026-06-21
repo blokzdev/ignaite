@@ -40,5 +40,8 @@
       "source": "MedCity News",
       "kind": "analysis"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-06-21",
+  "accentColor": "#3B82F6"
 }
