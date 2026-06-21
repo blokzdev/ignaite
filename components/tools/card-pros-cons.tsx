@@ -1,6 +1,12 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type PointerEvent as ReactPointerEvent,
+} from "react";
 import { ChevronRight, Minus, Plus } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -19,6 +25,9 @@ function FlipRow({ items, kind }: Readonly<{ items: ReadonlyArray<string>; kind:
   const [canLeft, setCanLeft] = useState(false);
   const [canRight, setCanRight] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
+  // Snapshot of the swipe's starting point + whether the scroller was already at
+  // an edge when it began — captured on pointer-down so the "two-step" feel holds.
+  const swipe = useRef({ x: 0, y: 0, atEnd: false, atStart: false });
 
   const n = items.length;
   const at = ((i % n) + n) % n;
@@ -52,6 +61,38 @@ function FlipRow({ items, kind }: Readonly<{ items: ReadonlyArray<string>; kind:
     if (ref.current) ref.current.scrollLeft = 0;
     setI((p) => (p + 1) % n);
   };
+  const prev = () => {
+    if (ref.current) ref.current.scrollLeft = 0;
+    setI((p) => (p - 1 + n) % n);
+  };
+
+  // Two-step swipe (touch/pen only — mouse keeps the chevron + trackpad scroll,
+  // and is left free to select text). A swipe that *begins* already at the scroll
+  // end advances to the next bullet; one that begins at the start goes back. A
+  // swipe mid-bullet just scrolls (native) to read more — so reading and flipping
+  // share one gesture. Edge state is snapshotted at pointer-down, which is what
+  // makes it two-step: reaching the end mid-swipe doesn't also advance.
+  const onSwipeStart = (e: ReactPointerEvent<HTMLDivElement>) => {
+    if (e.pointerType === "mouse") return;
+    const el = ref.current;
+    if (!el) return;
+    swipe.current = {
+      x: e.clientX,
+      y: e.clientY,
+      atEnd: el.scrollLeft + el.clientWidth >= el.scrollWidth - 4,
+      atStart: el.scrollLeft <= 4,
+    };
+  };
+  const onSwipeEnd = (e: ReactPointerEvent<HTMLDivElement>) => {
+    if (e.pointerType === "mouse" || n < 2) return;
+    const s = swipe.current;
+    const dx = e.clientX - s.x;
+    const dy = e.clientY - s.y;
+    // Horizontal-dominant swipe only, so vertical page-scroll never advances.
+    if (Math.abs(dx) <= 30 || Math.abs(dx) <= Math.abs(dy)) return;
+    if (dx < 0 && s.atEnd) next();
+    else if (dx > 0 && s.atStart) prev();
+  };
 
   return (
     <div
@@ -74,8 +115,10 @@ function FlipRow({ items, kind }: Readonly<{ items: ReadonlyArray<string>; kind:
       <div
         ref={ref}
         aria-live="polite"
+        onPointerDown={onSwipeStart}
+        onPointerUp={onSwipeEnd}
         className={cn(
-          "no-scrollbar min-w-0 flex-1 touch-pan-x overflow-x-auto text-xs leading-relaxed whitespace-nowrap text-[var(--color-ink-soft)]",
+          "no-scrollbar min-w-0 flex-1 touch-pan-x overflow-x-auto overscroll-x-contain text-xs leading-relaxed whitespace-nowrap text-[var(--color-ink-soft)]",
           canLeft && canRight && "scroll-fade-x",
           !canLeft && canRight && "scroll-fade-r",
           canLeft && !canRight && "scroll-fade-l",
