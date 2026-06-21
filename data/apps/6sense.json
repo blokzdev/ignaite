@@ -1,0 +1,49 @@
+{
+  "slug": "6sense",
+  "name": "6sense",
+  "tagline": "Revenue-AI platform for account-based marketing and sales.",
+  "description": "A B2B revenue intelligence and account-based marketing platform that fuses first- and third-party intent, firmographic and engagement signals to predict which accounts are in-market and how to engage them. It surfaces buying-stage and account-fit scores, runs ABM advertising, and orchestrates sales and marketing plays. Pitched as a go-to-market intelligence layer feeding teams, tools and AI agents.",
+  "category": "marketing",
+  "secondaryCategories": ["sales"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "6sense",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Proprietary predictive models over its Signalverse signal graph; generative AI assists outreach and research."
+  },
+  "accentColor": "#FF5C35",
+  "tags": ["abm", "revenue-intelligence", "intent-data", "b2b"],
+  "links": [
+    { "kind": "website", "url": "https://6sense.com/", "primary": true },
+    { "kind": "pricing", "url": "https://6sense.com/pricing/" }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1003,
+  "lastVerifiedAt": "2026-06-21",
+  "insight": "Raised a $200M Series E in January 2022 at a $5.2B valuation; founded in San Francisco in 2013.",
+  "edge": "Predicts an account's buying stage from fused first- and third-party intent signals, not just contact lists like classic sales-intel tools.",
+  "pros": [
+    "Predictive account-fit and buying-stage scoring",
+    "Large proprietary intent dataset",
+    "Built-in ABM advertising",
+    "CRM and marketing-automation integrations"
+  ],
+  "cons": [
+    "Enterprise pricing is high and opaque",
+    "Steep setup and onboarding",
+    "Intent-data accuracy varies by segment",
+    "Overkill for small teams"
+  ],
+  "bestFor": ["Enterprise ABM", "Revenue operations", "B2B demand gen"],
+  "alternatives": ["clay", "apollo", "common-room", "unify"],
+  "references": [
+    {
+      "title": "6sense Closes $200M Series E Round, Increases Valuation To $5.2B",
+      "url": "https://www.demandgenreport.com/features/financial-news/6sense-closes-200m-series-e-round-increases-valuation-to-5-2b",
+      "source": "Demand Gen Report",
+      "kind": "analysis"
+    }
+  ]
+}

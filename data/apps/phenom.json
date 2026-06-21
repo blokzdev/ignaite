@@ -1,0 +1,53 @@
+{
+  "slug": "phenom",
+  "name": "Phenom",
+  "tagline": "Agentic AI talent-experience platform for hiring, developing and retaining.",
+  "description": "An enterprise talent-experience platform that applies AI across the talent lifecycle — career sites, chatbots, CRM, internal mobility and workforce planning — to personalize candidate, recruiter, employee and manager journeys. Its X+ generative agents draft campaign content and automate HR tasks. Sold to large organizations as a unified system replacing point HR tools.",
+  "category": "hr",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Phenom People",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Proprietary applied-AI layer with generative X+ agents for HR content, screening and chat."
+  },
+  "accentColor": "#8B5CF6",
+  "tags": ["recruiting", "talent", "hr-tech", "enterprise"],
+  "links": [
+    { "kind": "website", "url": "https://www.phenom.com/", "primary": true },
+    { "kind": "pricing", "url": "https://www.phenom.com/pricing" }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1001,
+  "lastVerifiedAt": "2026-06-21",
+  "insight": "Founded in 2010 as Phenom People; joined the unicorn club in April 2021 with a $100M Series D at a ~$1.3B valuation.",
+  "edge": "Unifies candidate, recruiter, employee and manager AI in one talent-experience platform, not separate point tools for sourcing or screening.",
+  "pros": [
+    "End-to-end talent lifecycle in one platform",
+    "Hyper-personalized candidate and employee journeys",
+    "Generative X+ agents for HR content",
+    "Deep ATS/HRIS enterprise integrations"
+  ],
+  "cons": [
+    "Enterprise-only, custom-quote pricing",
+    "Complex, lengthy implementation",
+    "Overkill for small teams"
+  ],
+  "bestFor": ["Enterprise TA teams", "Talent-experience management", "Internal mobility"],
+  "alternatives": ["eightfold", "paradox", "hirevue", "hireez"],
+  "references": [
+    {
+      "title": "Everything you need to know about Phenom — the latest HR tech unicorn",
+      "url": "https://www.unleash.ai/hr-technology/phenom-latest-hr-tech-unicorn/",
+      "source": "UNLEASH",
+      "kind": "analysis"
+    },
+    {
+      "title": "CEO Mahe Bayireddi on Phenom's $1.4B valuation",
+      "url": "https://technical.ly/startups/phenom-mahe-bayireddi-public-valuation/",
+      "source": "Technical.ly",
+      "kind": "interview"
+    }
+  ]
+}

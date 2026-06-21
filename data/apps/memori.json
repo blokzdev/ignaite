@@ -1,0 +1,48 @@
+{
+  "slug": "memori",
+  "name": "Memori",
+  "tagline": "Open-source, SQL-native memory engine for LLMs and AI agents.",
+  "description": "An LLM-agnostic memory layer that turns agent conversations and execution into persistent, queryable state stored in standard SQL databases (Postgres, MySQL, SQLite). It adds long-term memory to any LLM app with roughly one line of code, using a dual-mode system for working and long-term recall. MemoriLabs also offers a hosted enterprise memory fabric on top of the open core.",
+  "category": "memory",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "MemoriLabs",
+  "openSource": true,
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "LLM-agnostic; bring any provider key, memory persists in your own SQL database."
+  },
+  "accentColor": "#6366F1",
+  "tags": ["agent-memory", "sql", "open-source", "persistence"],
+  "links": [
+    { "kind": "website", "url": "https://memorilabs.ai/", "primary": true },
+    { "kind": "github", "url": "https://github.com/GibsonAI/memori" }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1002,
+  "lastVerifiedAt": "2026-06-21",
+  "insight": "Open-sourced under Apache-2.0 by database startup GibsonAI in September 2025.",
+  "edge": "Stores agent memory in ordinary SQL (Postgres/MySQL/SQLite) with one line of code — no separate vector database to run or pay for.",
+  "pros": [
+    "Persistent memory in standard SQL databases",
+    "One-line integration, LLM-agnostic",
+    "No vendor lock-in; data stays in your DB",
+    "Apache-2.0 open source"
+  ],
+  "cons": [
+    "Younger than Mem0/Zep, smaller ecosystem",
+    "SQL-first design may not suit graph use cases",
+    "Self-hosting means you run the database"
+  ],
+  "bestFor": ["Self-hosted agent memory", "SQL-native teams", "Cost-sensitive memory"],
+  "alternatives": ["mem0", "zep", "letta", "cognee"],
+  "references": [
+    {
+      "title": "GibsonAI Releases Memori: An Open-Source SQL-Native Memory Engine for AI Agents",
+      "url": "https://www.marktechpost.com/2025/09/08/gibsonai-releases-memori-an-open-source-sql-native-memory-engine-for-ai-agents/",
+      "source": "MarkTechPost",
+      "kind": "analysis"
+    }
+  ]
+}

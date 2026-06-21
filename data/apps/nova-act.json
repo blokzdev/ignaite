@@ -1,0 +1,56 @@
+{
+  "slug": "nova-act",
+  "name": "Amazon Nova Act",
+  "tagline": "Build reliable AI agents that automate UI workflows in a browser.",
+  "description": "An Amazon model and SDK for building agents that take actions in a web browser, breaking workflows into small, testable natural-language steps for reliability at scale. Developers script and chain browser actions in Python, and run them as production UI-automation agents. Available as an AWS service after a 2025 research preview.",
+  "category": "automation",
+  "secondaryCategories": ["agent"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Amazon",
+  "platforms": ["web", "api", "vscode-extension"],
+  "modelSupport": {
+    "kind": "single-model",
+    "models": ["Amazon Nova Act"],
+    "notes": "Built on Amazon's Nova Act action model; runs as an AWS service."
+  },
+  "accentColor": "#FF9900",
+  "tags": ["browser-agent", "ui-automation", "aws", "sdk"],
+  "links": [
+    { "kind": "website", "url": "https://aws.amazon.com/nova/act/", "primary": true },
+    { "kind": "demo", "url": "https://nova.amazon.com/act" },
+    { "kind": "github", "url": "https://github.com/aws/nova-act" }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1000,
+  "lastVerifiedAt": "2026-06-21",
+  "insight": "Built by Amazon's SF AGI Lab from its 2024 Adept acqui-hire (led by David Luan); reached general availability at re:Invent 2025.",
+  "edge": "Tuned for reliability — splits workflows into small natural-language steps, hitting ~90% success on UI tasks where general browser agents drift.",
+  "pros": [
+    "Reliability-focused, step-by-step action model",
+    "Python SDK to script and chain browser actions",
+    "Native AWS integration and scaling",
+    "Reports ~90% success on UI workflows"
+  ],
+  "cons": [
+    "Tied to the AWS ecosystem",
+    "Usage-based pricing at production scale",
+    "Several founding Adept leads have since left"
+  ],
+  "bestFor": ["Browser automation at scale", "AWS teams", "UI-workflow agents"],
+  "alternatives": ["browser-use", "skyvern", "stagehand", "browserbase"],
+  "references": [
+    {
+      "title": "Amazon unveils Nova Act, an AI agent that can control a web browser",
+      "url": "https://techcrunch.com/2025/03/31/amazon-unveils-nova-act-an-ai-agent-that-uses-a-web-browser/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    },
+    {
+      "title": "Head of Amazon's AGI lab is leaving in latest exit from Adept deal",
+      "url": "https://www.geekwire.com/2026/head-of-amazons-agi-lab-is-leaving-in-latest-exit-from-high-profile-adept-deal/",
+      "source": "GeekWire",
+      "kind": "analysis"
+    }
+  ]
+}
