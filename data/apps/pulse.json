@@ -1,0 +1,60 @@
+{
+  "slug": "pulse",
+  "insight": "YC S24; raised a $3.9M seed led by Nat Friedman & Daniel Gross (NFDG), with backing from execs at NVIDIA, OpenAI, and Ramp.",
+  "name": "Pulse",
+  "tagline": "Production-grade extraction for complex documents.",
+  "description": "A document-extraction platform that converts messy, real-world documents — financial statements, medical records, contracts, spreadsheets — into clean, LLM-ready structured data. Pulse runs its own OCR, layout, and vision models (including its Ultra extraction model) rather than wrapping a general-purpose LLM, and exposes the pipeline through an API that drops into existing data workflows. It offers a free sandbox to try, with enterprise tiers for scale; the company says it has processed over a billion document pages.",
+  "category": "data-ops",
+  "secondaryCategories": ["vision"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Pulse AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Runs its own in-house OCR/layout/vision extraction models (e.g. the Ultra model)."
+  },
+  "tags": ["document-extraction", "ocr", "unstructured-data", "data-ingestion"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://runpulse.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.runpulse.com"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1014,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Built its own OCR + layout + vision stack (the Ultra model) for messy financial, medical, and legal documents, rather than wrapping a general LLM.",
+  "pros": [
+    "Purpose-built models for hard layouts",
+    "Handles PDFs, Office files, scans",
+    "Free sandbox to evaluate",
+    "Used by large enterprises"
+  ],
+  "cons": ["Cloud-only (no self-host)", "Self-serve pricing not public", "Closed-source models"],
+  "bestFor": [
+    "Financial/medical doc extraction",
+    "Enterprise data ingestion",
+    "LLM-ready data prep"
+  ],
+  "alternatives": ["reducto", "chunkr", "extend", "unstract"],
+  "references": [
+    {
+      "title": "Pulse Raises $3.9M Seed Funding to Revolutionize Unstructured Data Processing",
+      "url": "https://justainews.com/companies/funding-news/pulse-raises-3-9m-seed-funding/",
+      "source": "justAINews",
+      "kind": "analysis"
+    },
+    {
+      "title": "How does Pulse fix enterprise AI data extraction?",
+      "url": "https://aimmediahouse.com/ai-startups/pulse-raises-3-9m-to-fix-enterprise-data-extraction-for-ai",
+      "source": "AIM Media House",
+      "kind": "analysis"
+    }
+  ]
+}

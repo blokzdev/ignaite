@@ -1,0 +1,65 @@
+{
+  "slug": "judgment-labs",
+  "insight": "Closed $32M (seed + Series A) both led by Lightspeed in May 2026; founded by three childhood friends, all under 24.",
+  "name": "Judgment Labs",
+  "tagline": "The continuous-improvement stack for AI agents.",
+  "description": "An evaluation and monitoring platform for AI agents, built around the open-source judgeval framework. Judgment traces an agent's full trajectory — tool calls, memory, search queries, and long reasoning chains — then uses trajectory-level judges to surface failure modes, validate fixes before deploy, and catch behavioral regressions in production. The captured environment data and evals feed back into agent post-training (RL and SFT), not just pass/fail scoring. judgeval is Apache-2.0 and free; the hosted platform adds the dashboard, AutoRubrics, and enterprise features.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Judgment Labs",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "byo-key",
+    "notes": "Bring any model for the judges/scorers; integrates with Claude, Codex, and Cursor via the Judgment MCP."
+  },
+  "tags": ["agent-evals", "llm-as-judge", "tracing", "post-training", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://judgmentlabs.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/JudgmentLabs/judgeval"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.judgmentlabs.ai/documentation"
+    }
+  ],
+  "addedAt": "2026-06-21",
+  "addedSeq": 1011,
+  "lastVerifiedAt": "2026-06-21",
+  "edge": "Scores entire agent trajectories — tool calls, memory, long reasoning — and turns that production data into RL/SFT post-training, not just pass/fail evals.",
+  "pros": [
+    "Open-source judgeval framework (Apache-2.0)",
+    "Trajectory-level, not just output, evals",
+    "Feeds production data into RL/SFT",
+    "MCP integration with coding agents"
+  ],
+  "cons": [
+    "Hosted platform pricing not public",
+    "Young company (founded 2026)",
+    "Geared to complex 'deep' agents"
+  ],
+  "bestFor": ["Deep-agent reliability", "Agent post-training", "Production monitoring"],
+  "alternatives": ["braintrust", "langwatch", "patronus-ai", "deepeval"],
+  "references": [
+    {
+      "title": "Judgment Labs Raises $32M to Build Evaluation Tools for Deep AI Agents",
+      "url": "https://www.citybiz.co/article/845551/judgment-labs-raises-32m-to-build-evaluation-tools-for-deep-ai-agents/",
+      "source": "citybiz",
+      "kind": "analysis"
+    },
+    {
+      "title": "Judgment Labs Raises $32M Series A",
+      "url": "https://www.thesaasnews.com/news/judgment-labs-raises-32m-series-a/",
+      "source": "The SaaS News",
+      "kind": "analysis"
+    }
+  ]
+}
