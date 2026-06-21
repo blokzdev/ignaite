@@ -32,7 +32,7 @@
   "edge": "Self-updating docs generated from your codebase, plus a built-in MCP server so AI agents read your documentation natively — not just humans.",
   "pros": [
     "Free Starter plan for individuals/small teams",
-    "Generates and updates docs from code",
+    "Hosted docs site with a web editor",
     "Custom domains, auth, and analytics",
     "Embedded AI assistant answers reader questions",
     "Powers docs for 20,000+ companies"

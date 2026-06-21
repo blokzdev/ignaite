@@ -33,11 +33,11 @@
   "addedAt": "2026-06-08",
   "addedSeq": 232,
   "lastVerifiedAt": "2026-06-08",
-  "edge": "Pairs a visual workflow builder with a Python SDK and passes model token costs through at cost — collaboration-friendly LLMOps without markup.",
+  "edge": "Passes model token costs straight through at cost, so the platform fee is unbundled from usage — unlike marked-up LLMOps tools.",
   "pros": [
     "Visual builder plus Python SDK",
     "Prompt, RAG, eval, monitoring in one",
-    "Token costs passed through at cost",
+    "Eval and test suites before/after deploy",
     "Non-technical collaborators supported",
     "Free tier available"
   ],
