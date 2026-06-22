@@ -1,0 +1,49 @@
+{
+  "slug": "sunoh-ai",
+  "insight": "Spun out of eClinicalWorks, a major US ambulatory EHR vendor; the company says 100,000+ providers now use it.",
+  "name": "Sunoh.ai",
+  "tagline": "Ambient AI medical scribe for clinical documentation.",
+  "description": "Sunoh.ai is an ambient AI medical scribe that listens to natural patient-provider conversations and turns them into structured clinical documentation. Beyond the note, it generates a visit summary and pre-fills orders for medications, labs, imaging, and referrals, which clinicians review before signing. It is EHR-agnostic, working across Epic, Athenahealth, and Cerner, and runs on iOS, Android, iPad, and the web. Pricing is a flat $149 per user per month.",
+  "category": "healthcare",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "eClinicalWorks",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["medical-scribe", "ambient-ai", "clinical-documentation", "ehr", "healthcare"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sunoh.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://sunoh.ai/pricing/"
+    }
+  ],
+  "addedAt": "2026-06-22",
+  "addedSeq": 1021,
+  "lastVerifiedAt": "2026-06-22",
+  "edge": "Pre-fills orders for meds, labs, imaging, and referrals — not just the note — while staying EHR-agnostic across Epic, Athenahealth, and Cerner.",
+  "pros": [
+    "Works across Epic, Athenahealth, Cerner",
+    "Flat $149/user/month pricing",
+    "Pre-fills orders, not just notes",
+    "Mobile-first (iOS/Android/iPad)"
+  ],
+  "cons": [
+    "Tied closely to eClinicalWorks workflows",
+    "Specialty-care depth varies",
+    "Newer than incumbent scribes"
+  ],
+  "bestFor": ["Outpatient clinicians", "eClinicalWorks practices", "Reducing documentation time"],
+  "alternatives": ["abridge", "deepscribe", "freed", "nabla"],
+  "references": [
+    {
+      "title": "Sunoh AI Review 2026: Features and Limitations",
+      "url": "https://www.trytwofold.com/compare/sunoh-ai-review",
+      "source": "Twofold",
+      "kind": "review"
+    }
+  ]
+}

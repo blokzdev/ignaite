@@ -1,0 +1,50 @@
+{
+  "slug": "insightfinder",
+  "insight": "Closed a $15M Series B in April 2026 led by Yu Galaxy, extending its AIOps roots into AI-agent reliability.",
+  "name": "InsightFinder",
+  "tagline": "AI reliability platform for monitoring and fixing AI and IT systems.",
+  "description": "InsightFinder is an AI-driven reliability platform that detects anomalies, pinpoints root causes, and remediates issues across both AI systems and traditional IT infrastructure. It ingests metrics, logs, traces, and events, applying 'composite AI' — streaming anomaly detection plus deterministic causal analysis — and ships fine-tuned, domain-specific small language models rather than relying on generative AI alone. Its ARI agent runs end-to-end incident management: detection, diagnosis, evidence collection, and real-time remediation. The platform runs as SaaS or in fully air-gapped environments and integrates with OpenTelemetry, Datadog, and Prometheus.",
+  "category": "observability",
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "InsightFinder, Inc.",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Builds fine-tuned domain-specific small language models; also monitors third-party LLMs and ML in production."
+  },
+  "tags": ["aiops", "observability", "incident-response", "root-cause", "reliability"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://insightfinder.com",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://insightfinder.com/products/ai-observability/",
+      "label": "AI Observability"
+    }
+  ],
+  "addedAt": "2026-06-22",
+  "addedSeq": 1018,
+  "lastVerifiedAt": "2026-06-22",
+  "edge": "Pairs deterministic causal root-cause analysis with fine-tuned small language models, so it explains why systems fail — not just that an anomaly fired.",
+  "pros": [
+    "Causal root-cause, not just anomaly alerts",
+    "ARI agent automates remediation",
+    "Runs SaaS or fully air-gapped",
+    "Covers AI models and traditional IT"
+  ],
+  "cons": ["Pricing not public", "Enterprise sales motion", "Broad scope can mean longer setup"],
+  "bestFor": ["SRE/AIOps teams", "AI reliability in production", "Air-gapped enterprises"],
+  "alternatives": ["fiddler-ai", "galileo", "arize-phoenix"],
+  "references": [
+    {
+      "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
+      "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
