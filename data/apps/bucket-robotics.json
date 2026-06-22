@@ -1,0 +1,49 @@
+{
+  "slug": "bucket-robotics",
+  "insight": "Its founders came from the self-driving industry (Argo AI, Latitude AI, Stack AV); a Y Combinator S24 startup.",
+  "name": "Bucket Robotics",
+  "tagline": "Computer-vision defect detection for manufacturing, trained from CAD.",
+  "description": "Bucket Robotics builds computer-vision defect detection for manufacturing that trains from CAD files and synthetic data instead of hand-labeled photos. It generates simulated defects — burn marks, bumps, breaks — from the CAD that every modern part already has, producing production-ready vision models that deploy in minutes and adapt as parts and lines change. The system integrates into existing production lines without adding new hardware, and has drawn early customers in automotive and defense.",
+  "category": "vision",
+  "secondaryCategories": ["robotics"],
+  "pricing": "paid",
+  "vendor": "Bucket Robotics",
+  "platforms": ["web"],
+  "modelSupport": {
+    "kind": "self-contained",
+    "notes": "Generates its own vision models from customers' CAD files and synthetic defect data."
+  },
+  "tags": ["computer-vision", "manufacturing", "defect-detection", "synthetic-data", "cad"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bucket.bot",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-22",
+  "addedSeq": 1020,
+  "lastVerifiedAt": "2026-06-22",
+  "edge": "Trains defect models from CAD and synthetic defects, so it deploys in minutes with no hand-labeled images and no new line hardware.",
+  "pros": [
+    "No hand-labeling — trains from CAD",
+    "Synthetic defects cover rare cases",
+    "Deploys in minutes, no new hardware",
+    "Adapts as parts and lines change"
+  ],
+  "cons": [
+    "Early-stage (founded 2024, small team)",
+    "Pricing not public",
+    "Manufacturing computer-vision niche"
+  ],
+  "bestFor": ["Manufacturing QA", "Defect detection on lines", "CAD-driven CV teams"],
+  "alternatives": ["landing-ai", "roboflow", "voxel51"],
+  "references": [
+    {
+      "title": "How YC-backed Bucket Robotics survived its first CES",
+      "url": "https://techcrunch.com/2026/01/18/how-yc-backed-bucket-robotics-survived-its-first-ces/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}

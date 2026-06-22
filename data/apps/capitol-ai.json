@@ -1,0 +1,50 @@
+{
+  "slug": "capitol-ai",
+  "insight": "Founded in 2021 in Washington, DC; has raised about $20.5M and counts Fortune 100 firms among its customers.",
+  "name": "Capitol AI",
+  "tagline": "Agentic AI platform for turning proprietary data into decision-grade artifacts.",
+  "description": "Capitol is an agentic AI platform that turns proprietary data and expert judgment into trusted, decision-grade artifacts — due-diligence reports, regulatory documentation, and executive briefings. Built for regulated, high-stakes institutions in financial services, professional services, and government, it runs entirely inside enterprise infrastructure with no data egress and keeps every output auditable. It is model-agnostic, working with whichever LLMs an organization approves, and exposes a web interface plus an API and SDK for builders.",
+  "category": "research-platform",
+  "secondaryCategories": ["finance"],
+  "pricing": "paid",
+  "deployment": "hybrid",
+  "vendor": "Capitol AI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "notes": "Model-agnostic — works with whichever LLMs an organization approves."
+  },
+  "tags": ["enterprise-ai", "sovereign-ai", "due-diligence", "compliance", "research"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.capitol.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-22",
+  "addedSeq": 1022,
+  "lastVerifiedAt": "2026-06-22",
+  "edge": "Runs entirely inside enterprise infrastructure with no data egress, turning proprietary data into auditable, decision-grade artifacts.",
+  "pros": [
+    "Sovereign, private-tenant hosting",
+    "Model-agnostic across LLMs",
+    "Auditable, decision-grade outputs",
+    "API + SDK for builders"
+  ],
+  "cons": [
+    "Enterprise-only; pricing not public",
+    "Small customer base",
+    "Overkill for non-regulated teams"
+  ],
+  "bestFor": ["Regulated enterprises", "Government & policy", "Due-diligence & compliance"],
+  "alternatives": ["hebbia", "glean", "rogo"],
+  "references": [
+    {
+      "title": "Capitol AI to raise capital for secure enterprise workflow platform",
+      "url": "https://ionanalytics.com/insights/mergermarket/capitol-ai-to-raise-capital-next-year-for-secure-enterprise-workflow-platform-ceo/",
+      "source": "ION Analytics",
+      "kind": "interview"
+    }
+  ]
+}

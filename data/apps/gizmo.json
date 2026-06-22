@@ -1,0 +1,45 @@
+{
+  "slug": "gizmo",
+  "insight": "Founded in 2021 by three University of Cambridge graduates; raised a $22M Series A led by Shine Capital.",
+  "name": "Gizmo",
+  "tagline": "Gamified AI study app that turns your notes into flashcards and quizzes.",
+  "description": "Gizmo is a mobile-first study app that turns notes, PDFs, slides, and YouTube videos into adaptive flashcards and quizzes built around spaced repetition and active recall. It wraps studying in game-like mechanics — daily lives, streaks, and bite-sized quizzes — to make revision feel closer to a social app than a textbook. Used by more than 13 million learners across 120 countries, it targets exam prep from GCSEs and A-levels to AP and college courses. A free tier covers daily quizzes and limited tutoring, with paid plans unlocking unlimited use.",
+  "category": "education",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Gizmo",
+  "platforms": ["web", "ios", "android"],
+  "tags": ["study", "flashcards", "spaced-repetition", "quizzes", "exam-prep"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://gizmo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-22",
+  "addedSeq": 1019,
+  "lastVerifiedAt": "2026-06-22",
+  "edge": "Turns studying into a gamified, social-media-style loop — lives, streaks, daily quizzes — to drive retention where plain flashcard apps stall.",
+  "pros": [
+    "Generous free tier",
+    "Turns notes, PDFs, and videos into quizzes",
+    "Strong iOS and Android apps",
+    "13M+ users across 120 countries"
+  ],
+  "cons": [
+    "Gamification can distract from depth",
+    "Unlimited use needs a subscription",
+    "Consumer study focus, not enterprise"
+  ],
+  "bestFor": ["Students & exam prep", "Spaced-repetition learners", "Turning notes into quizzes"],
+  "alternatives": ["quizlet", "khanmigo", "brainly", "photomath"],
+  "references": [
+    {
+      "title": "AI learning app Gizmo levels up with 13M users and a $22M investment",
+      "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+      "source": "TechCrunch",
+      "kind": "analysis"
+    }
+  ]
+}
