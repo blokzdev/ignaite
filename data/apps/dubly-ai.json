@@ -1,0 +1,43 @@
+{
+  "slug": "dubly-ai",
+  "name": "Dubly.AI",
+  "tagline": "Enterprise AI video dubbing and translation with lip sync.",
+  "description": "Dubly.AI is a video localization platform for translating and dubbing content with voice cloning and lip synchronization. It supports glossaries, optional native-speaker review, 4K export, large file uploads, and team workspaces, and runs on GDPR-compliant infrastructure hosted in Germany. It covers 32+ languages and is aimed at enterprise content and publishing teams.",
+  "insight": "German-built on GDPR-native, TÜV-certified infrastructure; customers include BMW, Axel Springer, and Hilti.",
+  "category": "translation",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Dubly.AI",
+  "platforms": ["web", "api"],
+  "tags": ["video-dubbing", "localization", "voice-cloning", "gdpr"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.dubly.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-23",
+  "addedSeq": 1025,
+  "lastVerifiedAt": "2026-06-23",
+  "edge": "Adds glossary control and optional native-speaker review on top of AI dubbing, on EU-hosted infrastructure for compliance-sensitive teams.",
+  "pros": [
+    "32+ languages with lip sync",
+    "Glossary and terminology control",
+    "Optional native-speaker review",
+    "EU-hosted, GDPR compliant",
+    "4K export, large file support"
+  ],
+  "cons": [
+    "No ongoing free tier — trial only",
+    "Lip sync doubles minute usage",
+    "Fewer languages than some rivals",
+    "Enterprise focus may overshoot soloists"
+  ],
+  "bestFor": [
+    "Enterprise video localization",
+    "Regulated EU industries",
+    "Brand & publisher teams"
+  ],
+  "alternatives": ["vozo-ai", "rask-ai", "camb-ai", "lokalise"]
+}

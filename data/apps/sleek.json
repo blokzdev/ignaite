@@ -1,0 +1,39 @@
+{
+  "slug": "sleek",
+  "name": "Sleek",
+  "tagline": "Generate editable iOS and Android app designs from a prompt.",
+  "description": "Sleek is an AI mobile app designer that turns text prompts or reference images into iOS and Android UI. Designs are editable on a visual canvas and export to Figma or to React/HTML with Tailwind CSS. It also exposes an API and agent skills so AI coding tools can generate app screens directly. It targets non-technical founders, product managers, and developers prototyping mobile apps.",
+  "insight": "Ships agent 'skills' that let coding agents such as Claude Code and Cursor generate app screens directly.",
+  "category": "design",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Sleek",
+  "platforms": ["web", "api"],
+  "tags": ["mobile-ui", "ui-design", "design-to-code", "figma"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sleek.design",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-23",
+  "addedSeq": 1026,
+  "lastVerifiedAt": "2026-06-23",
+  "edge": "Mobile-first: designs native iOS and Android screens and exports to Figma or React + Tailwind, where most AI UI tools target web layouts.",
+  "pros": [
+    "Prompt- or image-to-mobile-UI",
+    "Editable visual canvas",
+    "Exports to Figma and React/Tailwind",
+    "API and coding-agent skills",
+    "Free plan to start"
+  ],
+  "cons": [
+    "Free plan caps projects/credits",
+    "Mobile focus, not web apps",
+    "Generated screens need refinement",
+    "Newer, smaller ecosystem"
+  ],
+  "bestFor": ["Non-technical founders", "Rapid mobile prototyping", "PMs validating ideas"],
+  "alternatives": ["uizard", "visily", "banani", "magic-patterns"]
+}

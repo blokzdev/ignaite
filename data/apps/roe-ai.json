@@ -1,0 +1,39 @@
+{
+  "slug": "roe-ai",
+  "name": "Roe AI",
+  "tagline": "AI agents that investigate fraud, disputes, and AML cases end-to-end.",
+  "description": "Roe AI is an agentic investigation platform for financial-crime teams. Its agents read structured and unstructured data from existing systems, follow a team's standard operating procedures, and produce cited, examiner-ready dispositions for fraud, chargeback dispute, and AML cases. It is used by card issuers, BNPL providers, marketplaces, and crypto compliance teams.",
+  "insight": "Backed by Y Combinator and Gradient Ventures; pivoted from a general unstructured-data query engine to fraud and AML investigation.",
+  "category": "finance",
+  "pricing": "paid",
+  "deployment": "cloud",
+  "vendor": "Roe AI",
+  "platforms": ["web", "api"],
+  "tags": ["fraud-detection", "aml", "compliance", "financial-crime"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.roe-ai.com",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-23",
+  "addedSeq": 1027,
+  "lastVerifiedAt": "2026-06-23",
+  "edge": "Produces cited, examiner-ready dispositions by following each team's own SOPs, rather than just flagging or scoring transactions.",
+  "pros": [
+    "End-to-end case investigation",
+    "Cited, examiner-ready dispositions",
+    "Follows your existing SOPs",
+    "Reads structured + unstructured data",
+    "Built for fraud, disputes, and AML"
+  ],
+  "cons": [
+    "Enterprise, pricing undisclosed",
+    "Narrow to financial-crime ops",
+    "Early-stage company",
+    "Needs integration with case systems"
+  ],
+  "bestFor": ["Fraud and AML teams", "Card issuers and BNPL", "Crypto/marketplace compliance"],
+  "alternatives": ["parcha"]
+}
