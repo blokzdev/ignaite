@@ -1,0 +1,47 @@
+{
+  "slug": "llm-guard",
+  "name": "LLM Guard",
+  "tagline": "Security toolkit that sanitizes and screens LLM prompts and responses.",
+  "description": "LLM Guard is a security toolkit for large language model applications. It runs prompts and model responses through configurable scanners — prompt-injection and jailbreak detection, PII redaction, toxicity and bias checks, and secrets scanning — to sanitize input and validate output before it reaches users. It ships as a Python library you wrap around your own LLM calls, with the scanners running locally.",
+  "insight": "Maintained by Protect AI, which Palo Alto Networks acquired in 2025 and folded into its Prisma AIRS platform.",
+  "category": "security",
+  "pricing": "free",
+  "openSource": true,
+  "vendor": "Protect AI (Palo Alto Networks)",
+  "platforms": ["api"],
+  "modelSupport": {
+    "kind": "model-agnostic",
+    "notes": "Wraps any LLM; scanners run locally, so prompts aren't sent to a third-party service."
+  },
+  "tags": ["llm-security", "prompt-injection", "guardrails", "pii-redaction"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://protectai.com/llm-guard",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/protectai/llm-guard"
+    }
+  ],
+  "addedAt": "2026-06-23",
+  "addedSeq": 1023,
+  "lastVerifiedAt": "2026-06-23",
+  "edge": "Runs entirely self-hosted and free, with composable input and output scanners — no per-call cost or sending prompts to a hosted guardrail API.",
+  "pros": [
+    "Prompt-injection & jailbreak detection",
+    "PII redaction and secrets scanning",
+    "Composable input/output scanners",
+    "Self-hosted — data stays in your stack",
+    "Active community, well-documented"
+  ],
+  "cons": [
+    "Python library — you build the integration",
+    "No managed/hosted option",
+    "Latency from running multiple scanners",
+    "Tuning needed to cut false positives"
+  ],
+  "bestFor": ["LLM app security", "Self-hosted guardrails", "Compliance-sensitive teams"],
+  "alternatives": ["lakera", "prompt-security", "pillar-security"]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "vozo-ai",
+  "name": "Vozo",
+  "tagline": "AI video translation with dubbing, lip sync, and voice cloning.",
+  "description": "Vozo is an AI video platform that translates and dubs videos into other languages while preserving the original speaker's voice. It combines automatic transcription, translation, voice cloning, lip-sync, subtitle generation, and on-screen text translation in a single editor, plus an API for higher-volume workflows. It supports 160+ languages and targets creators, marketers, and localization teams.",
+  "insight": "Reached over 7 million users and was named a Product Hunt #1 Product of the Month.",
+  "category": "translation",
+  "secondaryCategories": ["video"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Vozo",
+  "platforms": ["web", "api"],
+  "tags": ["video-translation", "dubbing", "voice-cloning", "lip-sync"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vozo.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-06-23",
+  "addedSeq": 1024,
+  "lastVerifiedAt": "2026-06-23",
+  "edge": "One editor combines translation, voice cloning, lip-sync, and on-screen text translation, instead of stitching together separate tools.",
+  "pros": [
+    "160+ languages supported",
+    "Voice cloning preserves original tone",
+    "Lip-sync and subtitle generation",
+    "Translates on-screen text too",
+    "API for batch workflows"
+  ],
+  "cons": [
+    "Lip sync adds to credit usage",
+    "Quality varies by language pair",
+    "Long videos need manual review",
+    "Full features behind subscription"
+  ],
+  "bestFor": ["Creators localizing video", "Marketing teams", "Course localization"],
+  "alternatives": ["rask-ai", "camb-ai", "unbabel"]
+}
