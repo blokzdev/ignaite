@@ -40,7 +40,7 @@
     "Free tier to start"
   ],
   "cons": ["JetBrains IDEs only", "Credit-based usage limits", "Ultimate tier for best models"],
-  "bestFor": ["JetBrains IDE users", "Agentic refactoring and tests"],
+  "bestFor": ["JetBrains IDE users", "Enterprise dev teams"],
   "alternatives": ["cursor", "github-copilot", "windsurf", "qodo"],
   "references": [
     {
@@ -48,6 +48,26 @@
       "url": "https://devclass.com/2025/04/16/jetbrains-goes-live-with-junie-ai-agent-updates-ai-assistant-adds-free-tier/",
       "source": "DevClass",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "terminal-cli-agent"
     }
   ]
 }

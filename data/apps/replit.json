@@ -39,6 +39,20 @@
     "Less control than a local IDE",
     "Heavier apps strain the platform"
   ],
-  "bestFor": ["Prompt-to-app prototyping", "Learners and hobbyists", "Deploy from anywhere"],
-  "alternatives": ["bolt-new", "lovable", "v0", "cursor"]
+  "bestFor": ["Learners and hobbyists", "Solo founders", "Non-technical builders"],
+  "alternatives": ["bolt-new", "lovable", "v0", "cursor"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "ide-integration"
+    }
+  ]
 }

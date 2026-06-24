@@ -39,6 +39,20 @@
     "Bundles linters and SAST"
   ],
   "cons": ["Can be noisy on large PRs", "Cloud-only by default", "Closed source"],
-  "bestFor": ["Open-source teams", "GitHub/GitLab PR review"],
-  "alternatives": ["qodo", "snyk", "devin"]
+  "bestFor": ["Open-source teams", "AI-powered eng teams"],
+  "alternatives": ["qodo", "snyk", "devin"],
+  "capabilities": [
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "code-documentation"
+    }
+  ]
 }

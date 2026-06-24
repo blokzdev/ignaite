@@ -43,7 +43,7 @@
     "Agent quality depends on chosen model",
     "Young project (launched 2025)"
   ],
-  "bestFor": ["Open-source agent fans", "Multi-model coding", "VS Code & JetBrains users"],
+  "bestFor": ["Open-source agent fans", "VS Code & JetBrains users"],
   "alternatives": ["cline", "continue", "opencode", "crush"],
   "references": [
     {
@@ -51,6 +51,26 @@
       "url": "https://tessl.io/blog/inside-kilo-code-an-open-source-ai-coding-agent-with-plans-to-reshape-software-development/",
       "source": "AI Native Dev",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "agent-orchestration"
     }
   ]
 }

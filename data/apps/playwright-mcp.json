@@ -40,6 +40,17 @@
     "Local browser setup required",
     "No hosted/cloud browser by itself"
   ],
-  "bestFor": ["Agentic browsing", "Web automation", "MCP clients"],
-  "alternatives": ["browser-use", "stagehand", "browserbase", "steel"]
+  "bestFor": ["AI engineers", "QA / test engineers", "MCP-client users"],
+  "alternatives": ["browser-use", "stagehand", "browserbase", "steel"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    }
+  ]
 }

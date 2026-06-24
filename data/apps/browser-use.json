@@ -47,6 +47,20 @@
     "Needs dev skills, not plug-and-play",
     "Multi-step tasks still need human checks"
   ],
-  "bestFor": ["Developers", "Web automation agents"],
-  "alternatives": ["browserbase", "skyvern", "stagehand", "steel"]
+  "bestFor": ["Developers", "AI engineers", "Web-agent builders"],
+  "alternatives": ["browserbase", "skyvern", "stagehand", "steel"],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

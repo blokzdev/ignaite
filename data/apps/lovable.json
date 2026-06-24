@@ -37,6 +37,20 @@
     "Less control than hand-coding",
     "Opinionated React/Supabase stack"
   ],
-  "bestFor": ["Full-stack MVPs", "Rapid prototyping", "Non-developers"],
-  "alternatives": ["bolt-new", "v0", "replit", "genspark"]
+  "bestFor": ["Non-developers", "Solo founders", "Product teams"],
+  "alternatives": ["bolt-new", "v0", "replit", "genspark"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

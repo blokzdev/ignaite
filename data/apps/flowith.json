@@ -36,7 +36,7 @@
     "Canvas has a learning curve",
     "Higher tiers are pricey"
   ],
-  "bestFor": ["Visual thinkers", "Multi-step research", "Parallel task automation"],
+  "bestFor": ["Visual thinkers", "Knowledge workers", "Researchers", "Solo creators"],
   "alternatives": ["manus", "genspark", "skywork"],
   "references": [
     {
@@ -44,6 +44,23 @@
       "url": "https://www.fahimai.com/flowith",
       "source": "FahimAI",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

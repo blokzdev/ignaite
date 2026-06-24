@@ -48,7 +48,7 @@
     "Younger, smaller integration library than n8n",
     "Less mature knowledge-base tooling than Dify"
   ],
-  "bestFor": ["TypeScript teams", "Visual agent flows", "Self-hosted agents"],
+  "bestFor": ["TypeScript teams", "Startups & enterprises"],
   "alternatives": ["dify", "flowise", "n8n", "langgraph"],
   "references": [
     {
@@ -56,6 +56,23 @@
       "url": "https://madappgang.com/blog/open-source-visual-agent-builders-compared-flowise-vs-langflow-vs-n8n-vs-sim-studio-in-2026/",
       "source": "MadAppGang",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "app-deployment"
     }
   ]
 }

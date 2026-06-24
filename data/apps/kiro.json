@@ -47,7 +47,7 @@
     "Spec workflow adds overhead for small tasks",
     "Free tier capped at limited monthly interactions"
   ],
-  "bestFor": ["Production-grade features", "Spec-driven teams"],
+  "bestFor": ["Spec-driven teams", "Production engineering teams"],
   "alternatives": ["cursor", "windsurf", "claude-code", "trae"],
   "references": [
     {
@@ -55,6 +55,23 @@
       "url": "https://thenewstack.io/kiro-is-awss-specs-centric-answer-to-windsurf-and-cursor/",
       "source": "The New Stack",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "tool-calling"
     }
   ]
 }

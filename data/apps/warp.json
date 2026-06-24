@@ -45,6 +45,23 @@
     "Credits run out on heavy use",
     "Terminal-centric, not a full IDE"
   ],
-  "bestFor": ["Terminal power users", "Agentic CLI workflows", "Multi-agent runs"],
-  "alternatives": ["claude-code", "cursor", "windsurf", "aider"]
+  "bestFor": ["Terminal-native devs", "Platform & DevOps teams", "Multi-agent power users"],
+  "alternatives": ["claude-code", "cursor", "windsurf", "aider"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

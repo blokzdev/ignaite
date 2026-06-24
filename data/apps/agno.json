@@ -45,6 +45,26 @@
     "Rapid changes since the Phidata rename",
     "Smaller community and ecosystem"
   ],
-  "bestFor": ["Multi-agent systems", "Production agent runtimes", "Python developers"],
-  "alternatives": ["crewai", "langgraph", "pydantic-ai", "mastra"]
+  "bestFor": ["Python developers", "Platform engineers"],
+  "alternatives": ["crewai", "langgraph", "pydantic-ai", "mastra"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

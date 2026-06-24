@@ -35,6 +35,11 @@
     "Adds tokens to every prompt",
     "Docs-only, no code execution"
   ],
-  "bestFor": ["AI coding agents", "Cutting API hallucinations"],
-  "alternatives": ["composio", "smithery", "glama"]
+  "bestFor": ["AI engineers", "Developers", "Cursor/Claude Code users"],
+  "alternatives": ["composio", "smithery", "glama"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

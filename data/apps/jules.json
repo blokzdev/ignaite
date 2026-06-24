@@ -42,6 +42,17 @@
     "Async loop slower than in-editor agents",
     "Newer than Copilot/Cursor agents"
   ],
-  "bestFor": ["Background bug fixes", "GitHub PR automation", "Gemini users"],
-  "alternatives": ["devin", "openai-codex", "claude-code", "factory-ai"]
+  "bestFor": ["Gemini users", "GitHub-based teams", "Async-first devs"],
+  "alternatives": ["devin", "openai-codex", "claude-code", "factory-ai"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "terminal-cli-agent"
+    }
+  ]
 }

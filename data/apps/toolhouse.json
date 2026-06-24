@@ -42,6 +42,26 @@
     "Vendor-hosted; less control than self-hosting",
     "Younger platform with a smaller ecosystem"
   ],
-  "bestFor": ["Agent developers", "MCP tool access", "Fast agent prototyping"],
-  "alternatives": ["composio", "arcade", "smithery"]
+  "bestFor": ["Agent developers", "Backend engineers", "AI startups"],
+  "alternatives": ["composio", "arcade", "smithery"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "agent-memory"
+    }
+  ]
 }

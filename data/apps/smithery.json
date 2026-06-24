@@ -43,6 +43,14 @@
     "Registry/hosting is a closed platform",
     "Quality of community servers varies"
   ],
-  "bestFor": ["MCP discovery", "Hosting MCP servers", "Authenticated tool access"],
-  "alternatives": ["glama", "composio", "fastmcp", "arcade"]
+  "bestFor": ["AI engineers", "Agent developers"],
+  "alternatives": ["glama", "composio", "fastmcp", "arcade"],
+  "capabilities": [
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

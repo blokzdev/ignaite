@@ -18,8 +18,15 @@
   },
   "tags": ["app-builder", "open-source", "local-first", "vibe-coding", "byo-key"],
   "links": [
-    { "kind": "website", "url": "https://www.dyad.sh", "primary": true },
-    { "kind": "github", "url": "https://github.com/dyad-sh/dyad" }
+    {
+      "kind": "website",
+      "url": "https://www.dyad.sh",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/dyad-sh/dyad"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 954,
@@ -38,6 +45,20 @@
     "Needs your own model keys or credits",
     "Smaller ecosystem than v0/Lovable"
   ],
-  "bestFor": ["Privacy-conscious builders", "Local-first vibe coding", "BYO-key power users"],
-  "alternatives": ["lovable", "bolt-new", "v0"]
+  "bestFor": ["Privacy-conscious builders", "BYO-key power users", "Local-first developers"],
+  "alternatives": ["lovable", "bolt-new", "v0"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "ai-security-scanning"
+    }
+  ]
 }

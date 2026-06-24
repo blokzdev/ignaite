@@ -62,5 +62,22 @@
       "source": "The New Stack",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "ide-integration"
+    }
   ]
 }

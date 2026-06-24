@@ -43,6 +43,20 @@
     "BYO model: key or local setup needed",
     "Less polished than hosted agents"
   ],
-  "bestFor": ["Local automation", "Privacy-first scripting", "Tinkerers"],
-  "alternatives": ["goose", "cline", "aider", "openai-codex"]
+  "bestFor": ["Tinkerers", "Privacy-first devs", "Local-model users"],
+  "alternatives": ["goose", "cline", "aider", "openai-codex"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

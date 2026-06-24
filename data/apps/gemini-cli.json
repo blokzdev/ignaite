@@ -44,6 +44,26 @@
     "Younger ecosystem than Claude Code",
     "Free-tier request limits and quota throttling"
   ],
-  "bestFor": ["Terminal coding agents", "Gemini users", "CI automation"],
-  "alternatives": ["claude-code", "openai-codex", "aider", "qodo"]
+  "bestFor": ["Terminal-native devs", "Gemini users", "CI/automation engineers"],
+  "alternatives": ["claude-code", "openai-codex", "aider", "qodo"],
+  "capabilities": [
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "web-research-agent"
+    }
+  ]
 }

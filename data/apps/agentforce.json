@@ -40,7 +40,7 @@
     "Per-conversation pricing can scale costs",
     "Setup and governance are enterprise-complex"
   ],
-  "bestFor": ["Salesforce customers", "Enterprise CX", "Sales & service automation"],
+  "bestFor": ["Salesforce customers", "Enterprise CX teams", "Service & sales orgs"],
   "alternatives": ["sierra", "decagon", "relevance-ai", "microsoft-copilot"],
   "references": [
     {
@@ -54,6 +54,23 @@
       "url": "https://www.ciodive.com/news/salesforce-agentforce-platform-agentic-AI-dreamforce/802622/",
       "source": "CIO Dive",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "guardrails"
     }
   ]
 }

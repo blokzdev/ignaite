@@ -42,6 +42,17 @@
     "Less hand-holding than design-first builders",
     "Backend/database wiring weaker than Lovable"
   ],
-  "bestFor": ["Developers", "Full-stack prototypes"],
-  "alternatives": ["lovable", "v0", "replit", "windsurf"]
+  "bestFor": ["Developers", "Startups", "Product teams"],
+  "alternatives": ["lovable", "v0", "replit", "windsurf"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "ui-design"
+    }
+  ]
 }

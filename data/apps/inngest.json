@@ -44,6 +44,14 @@
     "Best fit TS/JS; other langs newer",
     "Hosted tier cost at high event volume"
   ],
-  "bestFor": ["AI background jobs", "Long-running workflows", "TypeScript teams"],
-  "alternatives": ["langgraph", "n8n", "mastra", "vercel-ai-sdk"]
+  "bestFor": ["TypeScript teams", "Backend engineers", "AI app developers"],
+  "alternatives": ["langgraph", "n8n", "mastra", "vercel-ai-sdk"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-orchestration"
+    }
+  ]
 }

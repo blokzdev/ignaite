@@ -44,6 +44,11 @@
     "Minimal tool surface by design",
     "Self-run; no managed hosting"
   ],
-  "bestFor": ["Querying DBs from coding agents", "Local dev with MCP", "Schema exploration"],
-  "alternatives": ["mcp-supabase", "composio", "smithery"]
+  "bestFor": ["AI coding-agent users", "Backend developers", "DBAs"],
+  "alternatives": ["mcp-supabase", "composio", "smithery"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

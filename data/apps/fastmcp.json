@@ -39,6 +39,14 @@
     "Pythonic, low boilerplate"
   ],
   "cons": ["Python-only", "Managed hosting is a separate paid product", "MCP spec still evolving"],
-  "bestFor": ["Python MCP servers", "Rapid tool prototyping", "Agent tool exposure"],
-  "alternatives": ["composio", "smithery", "arcade", "glama"]
+  "bestFor": ["Python developers", "AI engineers", "MCP tool builders"],
+  "alternatives": ["composio", "smithery", "arcade", "glama"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

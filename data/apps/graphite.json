@@ -56,5 +56,16 @@
       "source": "DEV Community",
       "kind": "comparison"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "ide-integration"
+    }
   ]
 }

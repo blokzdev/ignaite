@@ -16,9 +16,19 @@
   },
   "tags": ["mcp", "tools", "openapi", "agents"],
   "links": [
-    { "kind": "website", "url": "https://www.getgram.ai", "primary": true },
-    { "kind": "github", "url": "https://github.com/speakeasy-api/gram" },
-    { "kind": "docs", "url": "https://www.speakeasy.com/docs/gram" }
+    {
+      "kind": "website",
+      "url": "https://www.getgram.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/speakeasy-api/gram"
+    },
+    {
+      "kind": "docs",
+      "url": "https://www.speakeasy.com/docs/gram"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 974,
@@ -37,6 +47,17 @@
     "Tied to Speakeasy ecosystem",
     "Newer, smaller community"
   ],
-  "bestFor": ["API teams shipping MCP", "Agent tool builders", "SaaS product MCP servers"],
-  "alternatives": ["fastmcp", "composio", "toolhouse", "arcade"]
+  "bestFor": ["API teams", "Agent tool builders", "Platform engineers"],
+  "alternatives": ["fastmcp", "composio", "toolhouse", "arcade"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

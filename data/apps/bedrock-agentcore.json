@@ -39,9 +39,29 @@
     "Newly GA — ecosystem still maturing",
     "Lock-in to the AWS platform"
   ],
-  "bestFor": ["Production agent deployment", "Enterprise AWS teams", "Scaling agents"],
+  "bestFor": ["Enterprise AWS teams", "Platform engineers", "Agent developers"],
   "alternatives": ["langgraph", "crewai", "modal"],
   "addedAt": "2026-06-20",
   "addedSeq": 914,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

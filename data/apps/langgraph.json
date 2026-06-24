@@ -45,6 +45,17 @@
     "More boilerplate than chains",
     "Tied to LangChain conventions"
   ],
-  "bestFor": ["Long-running agents", "Stateful workflows", "Human-in-the-loop"],
-  "alternatives": ["langchain", "crewai", "llamaindex", "pydantic-ai"]
+  "bestFor": ["Python developers", "AI engineers", "Platform teams"],
+  "alternatives": ["langchain", "crewai", "llamaindex", "pydantic-ai"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "agent-memory"
+    }
+  ]
 }

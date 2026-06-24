@@ -41,6 +41,14 @@
     "Some endpoints (execute_sql) still beta",
     "Runs under developer permissions"
   ],
-  "bestFor": ["Supabase developers", "In-agent DB workflows", "Dev-project automation"],
-  "alternatives": ["mcp-github", "mcp-vercel", "composio", "smithery"]
+  "bestFor": ["Supabase developers", "Backend developers"],
+  "alternatives": ["mcp-github", "mcp-vercel", "composio", "smithery"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

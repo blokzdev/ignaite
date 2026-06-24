@@ -49,6 +49,17 @@
     "Less hand-holding than IDE agents",
     "Setup/config heavier than hosted tools"
   ],
-  "bestFor": ["Terminal-first developers", "Git-disciplined workflows", "Local/self-hosted models"],
-  "alternatives": ["cline", "claude-code", "continue", "cursor"]
+  "bestFor": ["Terminal-first developers", "Git-disciplined workflows", "Local-model users"],
+  "alternatives": ["cline", "claude-code", "continue", "cursor"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

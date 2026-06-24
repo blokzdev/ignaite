@@ -41,6 +41,20 @@
     "PAT scope tuning needed to expose tools",
     "Inherits any over-broad token's reach"
   ],
-  "bestFor": ["Agentic PR and issue workflows", "Repo code navigation", "Security triage"],
-  "alternatives": ["composio", "smithery", "playwright-mcp", "mcp-supabase"]
+  "bestFor": ["AI engineers", "Platform / DevOps teams", "Agent builders"],
+  "alternatives": ["composio", "smithery", "playwright-mcp", "mcp-supabase"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

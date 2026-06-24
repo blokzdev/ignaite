@@ -47,5 +47,19 @@
     "Less polished than Cursor"
   ],
   "bestFor": ["Privacy-conscious devs", "Local model users"],
-  "alternatives": ["cursor", "github-copilot", "aider", "cline"]
+  "alternatives": ["cursor", "github-copilot", "aider", "cline"],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "terminal-cli-agent"
+    }
+  ]
 }

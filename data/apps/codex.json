@@ -45,10 +45,23 @@
     "Token-credit billing can surprise",
     "Newer than rival coding agents"
   ],
-  "bestFor": [
-    "Developers in the OpenAI stack",
-    "Terminal-first coders",
-    "Parallel agent workflows"
-  ],
-  "alternatives": ["claude-code", "cursor", "aider", "amp"]
+  "bestFor": ["Developers in OpenAI stack", "Terminal-first coders"],
+  "alternatives": ["claude-code", "cursor", "aider", "amp"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

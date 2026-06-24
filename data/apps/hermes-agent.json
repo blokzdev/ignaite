@@ -45,6 +45,23 @@
     "Young project, evolving fast",
     "No managed turnkey hosting"
   ],
-  "bestFor": ["Self-hosted personal agent", "Always-on messaging agent"],
-  "alternatives": ["goose", "openhands", "open-interpreter", "manus"]
+  "bestFor": ["Self-hosters", "Tinkerers", "Privacy-minded devs"],
+  "alternatives": ["goose", "openhands", "open-interpreter", "manus"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

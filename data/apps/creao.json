@@ -49,7 +49,7 @@
     "Only ~15 native integrations",
     "Unproven on complex enterprise needs"
   ],
-  "bestFor": ["Solo builders", "B2B automation", "Non-coders"],
+  "bestFor": ["Solo builders", "Non-coders", "B2B teams"],
   "alternatives": ["emergent", "manus", "lindy", "gumloop"],
   "references": [
     {
@@ -63,6 +63,14 @@
       "url": "https://www.testingcatalog.com/creao-launches-super-agent-for-ai-powered-workflow-apps/",
       "source": "TestingCatalog",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

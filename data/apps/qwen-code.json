@@ -43,7 +43,7 @@
     "Younger than Gemini CLI upstream",
     "Terminal-only workflow"
   ],
-  "bestFor": ["Qwen-model users", "Terminal-first developers"],
+  "bestFor": ["Qwen-model users", "Terminal-first developers", "Open-source devs"],
   "alternatives": ["openai-codex", "gemini-cli", "crush", "goose"],
   "references": [
     {
@@ -51,6 +51,23 @@
       "url": "https://www.datacamp.com/tutorial/qwen-code",
       "source": "DataCamp",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "code-review"
     }
   ]
 }

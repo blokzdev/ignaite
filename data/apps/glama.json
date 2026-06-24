@@ -40,6 +40,11 @@
     "Quality varies across indexed servers",
     "Cloud-centric, not a local tool"
   ],
-  "bestFor": ["Discovering MCP servers", "Managed MCP hosting/gateway"],
-  "alternatives": ["smithery", "composio", "context7", "arcade"]
+  "bestFor": ["AI engineers", "Agent builders", "Platform teams"],
+  "alternatives": ["smithery", "composio", "context7", "arcade"],
+  "capabilities": [
+    {
+      "id": "mcp-gateway"
+    }
+  ]
 }

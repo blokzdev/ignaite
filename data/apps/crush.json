@@ -42,6 +42,17 @@
     "Beta — some features still missing",
     "FSL license is not OSI open-source yet"
   ],
-  "bestFor": ["Terminal-first developers", "BYO-key users", "Local workflows"],
-  "alternatives": ["claude-code", "aider", "opencode", "goose"]
+  "bestFor": ["Terminal-first developers", "BYO-key users"],
+  "alternatives": ["claude-code", "aider", "opencode", "goose"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

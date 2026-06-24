@@ -41,6 +41,23 @@
     "Autonomy needs careful approval review",
     "Centered on VS Code and forks"
   ],
-  "bestFor": ["VS Code developers", "Self-directed coding agents", "Cost-conscious teams"],
-  "alternatives": ["cline", "kilo-code", "cursor", "windsurf"]
+  "bestFor": ["VS Code developers", "Cost-conscious teams", "Self-directed devs"],
+  "alternatives": ["cline", "kilo-code", "cursor", "windsurf"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "code-documentation"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

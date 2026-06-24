@@ -43,11 +43,20 @@
     "MCP ecosystem still fast-moving and unstable",
     "Focused on integrations, not a full agent runtime"
   ],
-  "bestFor": [
-    "Agent builders",
-    "Adding tool integrations fast",
-    "Self-hosted MCP",
-    "Multi-tenant SaaS agents"
-  ],
-  "alternatives": ["composio", "smithery", "toolhouse", "glama"]
+  "bestFor": ["Agent builders", "Multi-tenant SaaS agents", "AI engineers"],
+  "alternatives": ["composio", "smithery", "toolhouse", "glama"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "code-execution"
+    }
+  ]
 }

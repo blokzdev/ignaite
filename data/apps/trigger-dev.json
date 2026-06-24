@@ -50,6 +50,20 @@
     "Self-hosting needs Postgres + Redis ops",
     "Younger ecosystem than Temporal"
   ],
-  "bestFor": ["TypeScript teams", "AI agent backends", "Background jobs & cron"],
-  "alternatives": ["inngest", "n8n", "zapier", "make"]
+  "bestFor": ["TypeScript teams", "AI agent backends", "Backend engineers"],
+  "alternatives": ["inngest", "n8n", "zapier", "make"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

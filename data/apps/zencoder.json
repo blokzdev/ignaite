@@ -36,6 +36,27 @@
     "Credit-based usage limits",
     "Smaller ecosystem than Cursor/Copilot"
   ],
-  "bestFor": ["IDE-based coding", "Automated test generation", "Teams standardizing agents"],
-  "alternatives": ["cursor", "windsurf", "augment-code", "qodo"]
+  "bestFor": [
+    "Software engineering teams",
+    "JetBrains & VS Code devs",
+    "Teams standardizing agents"
+  ],
+  "alternatives": ["cursor", "windsurf", "augment-code", "qodo"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "agent-framework"
+    }
+  ]
 }

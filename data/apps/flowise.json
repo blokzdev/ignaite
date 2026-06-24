@@ -47,6 +47,23 @@
     "Less control than writing code",
     "Cloud tier is a separate paid product"
   ],
-  "bestFor": ["Low-code teams", "Self-hosted agents", "RAG prototyping"],
-  "alternatives": ["dify", "crewai", "n8n", "langchain"]
+  "bestFor": ["Low-code teams", "AI engineers", "Self-hosting teams"],
+  "alternatives": ["dify", "crewai", "n8n", "langchain"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

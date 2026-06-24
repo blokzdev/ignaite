@@ -45,11 +45,7 @@
     "Advanced enterprise features are paid",
     "AG-UI protocol still maturing"
   ],
-  "bestFor": [
-    "Embedding agents in web apps",
-    "Generative UI experiences",
-    "Agent-native product teams"
-  ],
+  "bestFor": ["Frontend / full-stack devs", "Agent-native product teams"],
   "alternatives": ["vercel-ai-sdk", "langgraph", "crewai"],
   "references": [
     {
@@ -63,6 +59,17 @@
       "url": "https://www.calcalistech.com/ctechnews/article/bkbjddprbx",
       "source": "Calcalist",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "tool-calling"
     }
   ]
 }

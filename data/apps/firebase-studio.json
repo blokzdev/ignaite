@@ -45,6 +45,20 @@
     "Gemini-only assistant",
     "Workspace limits on the free tier"
   ],
-  "bestFor": ["Firebase developers", "Full-stack prototyping", "Cloud-based coding"],
-  "alternatives": ["v0", "lovable", "windsurf", "kiro"]
+  "bestFor": ["Firebase developers", "Full-stack web developers", "Google-ecosystem teams"],
+  "alternatives": ["v0", "lovable", "windsurf", "kiro"],
+  "capabilities": [
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

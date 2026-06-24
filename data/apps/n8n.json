@@ -46,6 +46,20 @@
     "Self-host carries ops overhead",
     "Steeper than Zapier for non-technical users"
   ],
-  "bestFor": ["Technical teams", "Self-hosted automation", "AI workflows"],
-  "alternatives": ["make", "zapier", "activepieces", "pipedream"]
+  "bestFor": ["Technical teams", "Ops engineers", "Self-hosters", "Automation builders"],
+  "alternatives": ["make", "zapier", "activepieces", "pipedream"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

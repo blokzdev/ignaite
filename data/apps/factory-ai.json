@@ -46,6 +46,23 @@
     "Enterprise-oriented onboarding",
     "Autonomy needs careful review on large repos"
   ],
-  "bestFor": ["Autonomous coding teams", "Background dev tasks", "Multi-repo workflows"],
-  "alternatives": ["devin", "openhands", "cline", "claude-code"]
+  "bestFor": ["Enterprise engineering teams", "Autonomous coding teams", "Platform teams"],
+  "alternatives": ["devin", "openhands", "cline", "claude-code"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

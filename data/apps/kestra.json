@@ -47,12 +47,7 @@
     "Advanced features gated to paid tiers",
     "Cloud pricing not fully public"
   ],
-  "bestFor": [
-    "Data engineering teams",
-    "AI/ML pipelines",
-    "Self-hosted orchestration",
-    "Event-driven workflows"
-  ],
+  "bestFor": ["Data engineering teams", "Platform/infra teams"],
   "alternatives": ["inngest", "n8n", "activepieces"],
   "references": [
     {
@@ -66,6 +61,14 @@
       "url": "https://www.eu-startups.com/2026/03/paris-based-kestra-lands-e21-million-series-a-for-orchestration-platform-expansion/",
       "source": "EU-Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "etl-pipeline"
     }
   ]
 }

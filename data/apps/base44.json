@@ -39,7 +39,7 @@
     "Less control than hand-coding",
     "Opinionated, platform-managed stack"
   ],
-  "bestFor": ["Internal tools", "Founder MVPs", "Non-developers"],
+  "bestFor": ["Non-developers", "Founders", "Internal-tool builders"],
   "alternatives": ["lovable", "bolt-new", "v0", "replit"],
   "references": [
     {
@@ -47,6 +47,17 @@
       "url": "https://www.calcalistech.com/ctechnews/article/s1iflnlelx",
       "source": "Calcalist (CTech)",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

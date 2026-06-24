@@ -43,10 +43,20 @@
     "Best within the Vercel ecosystem",
     "Complex apps need hand-finishing"
   ],
-  "bestFor": [
-    "React/Tailwind UI scaffolding",
-    "Vercel-stack developers",
-    "Rapid component prototyping"
-  ],
-  "alternatives": ["lovable", "bolt-new", "uizard", "figma-ai"]
+  "bestFor": ["Vercel-stack developers", "Frontend developers", "Product designers"],
+  "alternatives": ["lovable", "bolt-new", "uizard", "figma-ai"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

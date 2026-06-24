@@ -17,9 +17,19 @@
   "accentColor": "#4F46E5",
   "tags": ["no-code", "agent-builder", "chatbot", "voice", "customer-support"],
   "links": [
-    { "kind": "website", "url": "https://www.voiceflow.com", "primary": true },
-    { "kind": "docs", "url": "https://docs.voiceflow.com" },
-    { "kind": "pricing", "url": "https://www.voiceflow.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.voiceflow.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.voiceflow.com"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.voiceflow.com/pricing"
+    }
   ],
   "addedAt": "2026-06-14",
   "addedSeq": 596,
@@ -38,7 +48,12 @@
     "Less code-level control than SDK frameworks",
     "Steeper curve for complex flows"
   ],
-  "bestFor": ["Customer-support automation", "No-code agent teams", "Enterprise conversational AI"],
+  "bestFor": [
+    "No-code / low-code teams",
+    "CX & support teams",
+    "Conversation designers & PMs",
+    "Enterprise teams"
+  ],
   "alternatives": ["mindstudio", "relevance-ai", "sierra", "parloa"],
   "references": [
     {
@@ -46,6 +61,17 @@
       "url": "https://voicebot.ai/2019/04/15/invocable-formerly-known-as-storyline-is-shutting-down-transitioning-users-to-voiceflow/",
       "source": "Voicebot.ai",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }
