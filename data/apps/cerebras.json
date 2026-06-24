@@ -45,6 +45,17 @@
     "Less mature ecosystem and client libs",
     "Occasional capacity limits under demand"
   ],
-  "bestFor": ["Latency-critical agents", "Open-weight model serving"],
-  "alternatives": ["groq", "sambanova", "together-ai", "fireworks-ai"]
+  "bestFor": ["Latency-critical agent builders", "AI engineers", "ML infra teams"],
+  "alternatives": ["groq", "sambanova", "together-ai", "fireworks-ai"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

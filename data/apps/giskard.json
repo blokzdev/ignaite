@@ -47,6 +47,17 @@
     "Collaboration features are paid (Hub)",
     "Less focused on production tracing"
   ],
-  "bestFor": ["LLM red-teaming", "RAG testing", "Safety + compliance teams"],
-  "alternatives": ["promptfoo", "deepeval", "patronus-ai", "lakera"]
+  "bestFor": ["AI security teams", "ML/LLM engineers", "Compliance teams"],
+  "alternatives": ["promptfoo", "deepeval", "patronus-ai", "lakera"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "ai-security-scanning"
+    }
+  ]
 }

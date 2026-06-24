@@ -40,7 +40,7 @@
     "Less self-serve than smaller GPU clouds",
     "Heavy debt-financed expansion"
   ],
-  "bestFor": ["Frontier-scale training", "Production inference fleets", "AI-native enterprises"],
+  "bestFor": ["AI labs", "AI-native enterprises"],
   "alternatives": ["lambda", "runpod", "modal", "together-ai"],
   "references": [
     {
@@ -59,6 +59,17 @@
       "url": "https://hyperframeresearch.com/2026/05/11/coreweave-reaches-a-new-scale-threshold-but-can-the-ai-neocloud-sustain-long-tail-demand/",
       "source": "HyperFRAME Research",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
     }
   ]
 }

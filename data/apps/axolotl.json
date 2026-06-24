@@ -41,7 +41,7 @@
     "Wraps Transformers, PEFT, TRL, DeepSpeed"
   ],
   "cons": ["Needs your own GPUs or cloud compute", "Config surface can overwhelm beginners"],
-  "bestFor": ["Open-model post-training", "RLHF/DPO experiments", "Research teams"],
+  "bestFor": ["ML researchers", "Open-model practitioners", "Teams with own GPUs"],
   "alternatives": ["unsloth", "openpipe"],
   "references": [
     {
@@ -49,6 +49,11 @@
       "url": "https://www.latent.space/p/axolotl",
       "source": "Latent Space",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
     }
   ]
 }

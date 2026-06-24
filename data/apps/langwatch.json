@@ -44,6 +44,17 @@
     "Younger, evolving product",
     "Fewer integrations than LangSmith"
   ],
-  "bestFor": ["Agent testing teams", "Self-hosted observability", "Eval-driven dev"],
-  "alternatives": ["langfuse", "langsmith", "opik", "helicone"]
+  "bestFor": ["Agent-building teams", "Self-hosted teams", "Eval-driven teams"],
+  "alternatives": ["langfuse", "langsmith", "opik", "helicone"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

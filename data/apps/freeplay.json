@@ -44,7 +44,7 @@
     "Built for teams, not solo hobbyists",
     "Newer and smaller than some incumbents"
   ],
-  "bestFor": ["AI product teams", "Cross-functional eval", "Production LLM ops"],
+  "bestFor": ["AI product teams", "Engineers & PMs", "Domain experts"],
   "alternatives": ["braintrust", "vellum", "langfuse", "honeyhive"],
   "references": [
     {
@@ -52,6 +52,20 @@
       "url": "https://thenewstack.io/freeplay-new-llm-dev-tool-for-java-developers-and-others/",
       "source": "The New Stack",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "data-labeling"
     }
   ]
 }

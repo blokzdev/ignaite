@@ -16,8 +16,15 @@
   },
   "tags": ["llm", "embeddings", "rerank", "enterprise", "rag", "multilingual"],
   "links": [
-    { "kind": "website", "url": "https://cohere.com", "primary": true },
-    { "kind": "docs", "url": "https://docs.cohere.com" }
+    {
+      "kind": "website",
+      "url": "https://cohere.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.cohere.com"
+    }
   ],
   "addedAt": "2026-06-13",
   "addedSeq": 530,
@@ -34,12 +41,7 @@
     "Smaller ecosystem than OpenAI/Anthropic",
     "Production usage is paid"
   ],
-  "bestFor": [
-    "Enterprise RAG and search",
-    "Private model deployment",
-    "Multilingual applications",
-    "Regulated industries"
-  ],
+  "bestFor": ["Enterprises", "Regulated industries"],
   "alternatives": ["together-ai", "fireworks-ai", "deepseek"],
   "references": [
     {
@@ -47,6 +49,23 @@
       "url": "https://techcrunch.com/2023/06/08/ai-startup-cohere-now-valued-at-over-2-1b-raises-270m/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

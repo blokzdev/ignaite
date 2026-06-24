@@ -44,7 +44,7 @@
     "Not a managed inference platform",
     "Interruptible instances can be reclaimed"
   ],
-  "bestFor": ["Cost-sensitive ML training", "GPU spot compute", "Researchers and indie builders"],
+  "bestFor": ["ML researchers", "Indie builders", "Cost-sensitive teams"],
   "alternatives": ["runpod", "coreweave", "lambda", "modal"],
   "references": [
     {
@@ -58,6 +58,14 @@
       "url": "https://chatforest.com/reviews/vastai-gpu-marketplace-spot-compute/",
       "source": "ChatForest",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-inference"
     }
   ]
 }

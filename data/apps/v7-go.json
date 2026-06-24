@@ -38,10 +38,23 @@
     "Setup effort for custom workflows",
     "Overkill for simple extraction"
   ],
-  "bestFor": [
-    "Finance/legal document review",
-    "Auditable data extraction",
-    "Knowledge-work automation"
-  ],
-  "alternatives": ["reducto", "nanonets", "unstructured", "hebbia"]
+  "bestFor": ["Private equity teams", "Insurance teams", "Legal/finance teams"],
+  "alternatives": ["reducto", "nanonets", "unstructured", "hebbia"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

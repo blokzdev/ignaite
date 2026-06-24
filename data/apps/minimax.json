@@ -45,7 +45,7 @@
     "Free agent tier is credit-limited",
     "Docs less mature than US incumbents"
   ],
-  "bestFor": ["Cost-sensitive inference", "Coding & agent apps", "Multimodal generation"],
+  "bestFor": ["Developers", "Cost-sensitive teams", "Multimodal app builders"],
   "alternatives": ["deepseek", "z-ai", "together-ai", "hailuo-ai"],
   "references": [
     {
@@ -53,6 +53,23 @@
       "url": "https://www.yicaiglobal.com/news/chinese-llm-firm-minimax-launches-hong-kong-ipo-targets-jan-9-debut",
       "source": "Yicai Global",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "music-generation"
     }
   ]
 }

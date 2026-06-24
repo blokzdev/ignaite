@@ -45,6 +45,17 @@
     "Self-hosting needs maintenance",
     "Less mature than dedicated eval platforms"
   ],
-  "bestFor": ["Self-hosted LLMOps", "Prompt engineering teams"],
-  "alternatives": ["langfuse", "promptfoo", "braintrust", "athina"]
+  "bestFor": ["Prompt engineering teams", "LLM app developers", "Self-hosting teams"],
+  "alternatives": ["langfuse", "promptfoo", "braintrust", "athina"],
+  "capabilities": [
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

@@ -41,7 +41,7 @@
     "Recent rebrand can confuse search",
     "Team tier jumps to $199/mo"
   ],
-  "bestFor": ["LLM app teams", "Production agent monitoring", "Gateway plus evals in one"],
+  "bestFor": ["LLM app teams", "AI engineers"],
   "alternatives": ["helicone", "langfuse", "portkey", "openrouter"],
   "references": [
     {
@@ -49,6 +49,20 @@
       "url": "https://clickhouse.com/blog/respan-ai-llm-observability",
       "source": "ClickHouse",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

@@ -41,5 +41,22 @@
     "Overkill for small LLM apps"
   ],
   "bestFor": ["Enterprise ML + LLM ops", "Regulated industries", "Model risk teams"],
-  "alternatives": ["arize-phoenix", "galileo", "langfuse", "helicone"]
+  "alternatives": ["arize-phoenix", "galileo", "langfuse", "helicone"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "content-moderation"
+    }
+  ]
 }

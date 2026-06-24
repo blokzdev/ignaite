@@ -38,6 +38,20 @@
     "SOC 2 Type II, HIPAA-ready"
   ],
   "cons": ["No public pricing or free tier", "Focused on voice/chat agents", "Newer company"],
-  "bestFor": ["Voice AI teams", "Contact-center automation", "Regulated industries"],
-  "alternatives": ["coval", "maxim-ai", "langwatch", "confident-ai"]
+  "bestFor": ["Voice AI teams", "Contact-center teams", "Regulated industries"],
+  "alternatives": ["coval", "maxim-ai", "langwatch", "confident-ai"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "red-teaming"
+    }
+  ]
 }

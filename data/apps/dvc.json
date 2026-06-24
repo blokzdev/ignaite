@@ -15,9 +15,19 @@
   },
   "tags": ["data-versioning", "mlops", "reproducibility", "ml-pipelines", "open-source", "git"],
   "links": [
-    { "kind": "website", "url": "https://dvc.org", "primary": true },
-    { "kind": "github", "url": "https://github.com/iterative/dvc" },
-    { "kind": "docs", "url": "https://dvc.org/doc" }
+    {
+      "kind": "website",
+      "url": "https://dvc.org",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/iterative/dvc"
+    },
+    {
+      "kind": "docs",
+      "url": "https://dvc.org/doc"
+    }
   ],
   "addedAt": "2026-06-21",
   "addedSeq": 992,
@@ -35,10 +45,6 @@
     "Large-scale lakes better served by lakeFS",
     "Roadmap now tied to lakeFS"
   ],
-  "bestFor": [
-    "Individual data scientists",
-    "Versioning datasets and models",
-    "Reproducible ML pipelines"
-  ],
+  "bestFor": ["Individual data scientists", "ML engineers", "ML research teams"],
   "alternatives": ["lakefs", "mlflow", "comet"]
 }

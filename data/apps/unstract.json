@@ -46,6 +46,17 @@
     "Self-host setup is involved",
     "LLM costs scale with document volume"
   ],
-  "bestFor": ["Unstructured-to-structured ETL", "Self-hosted doc extraction", "RAG data prep"],
-  "alternatives": ["reducto", "chunkr", "llamaparse", "extend"]
+  "bestFor": ["Data / ops teams", "Self-hosting enterprises"],
+  "alternatives": ["reducto", "chunkr", "llamaparse", "extend"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "etl-pipeline"
+    }
+  ]
 }

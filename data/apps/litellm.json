@@ -46,6 +46,20 @@
     "Enterprise features are paid",
     "Operational upkeep self-hosted"
   ],
-  "bestFor": ["Multi-provider routing", "Cost tracking", "LLM gateways"],
-  "alternatives": ["openrouter", "portkey", "vercel-ai-sdk", "ollama"]
+  "bestFor": ["Platform/infra teams", "Multi-provider shops", "AI engineers"],
+  "alternatives": ["openrouter", "portkey", "vercel-ai-sdk", "ollama"],
+  "capabilities": [
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

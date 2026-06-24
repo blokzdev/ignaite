@@ -18,9 +18,19 @@
   "accentColor": "#0194E2",
   "tags": ["llmops", "tracing", "evaluation", "mlops", "open-source"],
   "links": [
-    { "kind": "website", "url": "https://mlflow.org", "primary": true },
-    { "kind": "github", "url": "https://github.com/mlflow/mlflow" },
-    { "kind": "docs", "url": "https://mlflow.org/docs/latest/index.html" }
+    {
+      "kind": "website",
+      "url": "https://mlflow.org",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/mlflow/mlflow"
+    },
+    {
+      "kind": "docs",
+      "url": "https://mlflow.org/docs/latest/index.html"
+    }
   ],
   "addedAt": "2026-06-14",
   "addedSeq": 595,
@@ -39,11 +49,7 @@
     "Managed convenience needs Databricks or DIY",
     "UI less polished than some SaaS rivals"
   ],
-  "bestFor": [
-    "Open-source LLMOps teams",
-    "ML + GenAI in one platform",
-    "Self-hosted/regulated environments"
-  ],
+  "bestFor": ["ML/AI engineers", "Open-source LLMOps teams", "Self-hosted/regulated teams"],
   "alternatives": ["langfuse", "langsmith", "arize-phoenix", "wandb-weave"],
   "references": [
     {
@@ -51,6 +57,23 @@
       "url": "https://www.techmonitor.ai/technology/data/mlflow-linux-foundation",
       "source": "Tech Monitor",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "app-deployment"
     }
   ]
 }

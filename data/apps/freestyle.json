@@ -44,6 +44,17 @@
     "Centered on TypeScript/JS stacks",
     "Early-stage company (founded 2024)"
   ],
-  "bestFor": ["AI app builders", "Coding-agent runtimes", "Full-stack TypeScript agents"],
-  "alternatives": ["e2b", "daytona", "blaxel", "runloop"]
+  "bestFor": ["AI app builders", "Coding-agent developers"],
+  "alternatives": ["e2b", "daytona", "blaxel", "runloop"],
+  "capabilities": [
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "app-builder"
+    }
+  ]
 }

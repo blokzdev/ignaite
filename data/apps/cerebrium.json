@@ -43,7 +43,7 @@
     "Hobby tier capped at 3 apps, 5 GPUs",
     "Younger platform, smaller community"
   ],
-  "bestFor": ["Real-time voice agents", "Low-latency inference", "Multi-region AI services"],
+  "bestFor": ["AI infra teams", "Voice/video AI builders", "Startups"],
   "alternatives": ["modal", "runpod", "baseten", "beam"],
   "references": [
     {
@@ -57,6 +57,17 @@
       "url": "https://www.thesaasnews.com/news/cerebrium-raises-8-5-million-in-seed-round",
       "source": "The SaaS News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "model-inference"
     }
   ]
 }

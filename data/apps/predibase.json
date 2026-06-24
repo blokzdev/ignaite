@@ -42,7 +42,7 @@
     "SaaS or your own VPC"
   ],
   "cons": ["Enterprise-priced", "Now tied to Rubrik's roadmap", "Open-source models only"],
-  "bestFor": ["Production fine-tunes", "Enterprise teams", "Serving many task adapters"],
+  "bestFor": ["Enterprise ML teams", "AI platform teams"],
   "alternatives": ["tinker", "openpipe", "unsloth"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "url": "https://techcrunch.com/2025/06/25/rubrik-acquires-predibase-to-accelerate-adoption-of-ai-agents/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
     }
   ]
 }

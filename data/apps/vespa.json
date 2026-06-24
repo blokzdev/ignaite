@@ -46,6 +46,20 @@
     "Overkill for simple vector search",
     "Smaller community than Elastic"
   ],
-  "bestFor": ["Web-scale search", "Hybrid retrieval", "Recommendation/ranking systems"],
-  "alternatives": ["weaviate", "qdrant", "milvus", "pinecone"]
+  "bestFor": ["Platform engineers", "Search teams", "Large enterprises"],
+  "alternatives": ["weaviate", "qdrant", "milvus", "pinecone"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "recommendation"
+    }
+  ]
 }

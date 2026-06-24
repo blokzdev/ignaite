@@ -44,6 +44,20 @@
     "Tied to its Studio environment",
     "Less raw control than bare cloud"
   ],
-  "bestFor": ["Model training", "Collaborative ML dev", "PyTorch teams"],
-  "alternatives": ["modal", "runpod", "baseten", "daytona"]
+  "bestFor": ["ML/AI researchers", "PyTorch teams", "Collaborative ML teams"],
+  "alternatives": ["modal", "runpod", "baseten", "daytona"],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

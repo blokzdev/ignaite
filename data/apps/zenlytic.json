@@ -36,7 +36,7 @@
     "Requires a modeled semantic layer to shine",
     "Smaller vendor than incumbent BI suites"
   ],
-  "bestFor": ["Self-serve BI", "Commerce analytics", "Governed metric reporting"],
+  "bestFor": ["Non-technical business users", "Data teams", "Commerce teams"],
   "alternatives": ["thoughtspot", "databricks-genie", "wren-ai", "julius"],
   "references": [
     {
@@ -44,6 +44,20 @@
       "url": "https://techcrunch.com/2022/11/14/zenlytic-commerce-business-intelligence/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
     }
   ]
 }

@@ -45,6 +45,20 @@
     "Managed tier costs add up",
     "Newer than some lexical engines"
   ],
-  "bestFor": ["RAG pipelines", "Hybrid search", "Self-hosted vector DB"],
-  "alternatives": ["qdrant", "milvus", "pinecone", "chroma"]
+  "bestFor": ["AI app developers", "Self-hosting teams", "Backend engineers"],
+  "alternatives": ["qdrant", "milvus", "pinecone", "chroma"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "recommendation"
+    }
+  ]
 }

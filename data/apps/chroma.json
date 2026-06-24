@@ -45,6 +45,14 @@
     "Fewer enterprise features than rivals",
     "Python-centric ergonomics"
   ],
-  "bestFor": ["RAG prototypes", "Small-to-medium apps", "Python developers"],
-  "alternatives": ["qdrant", "lancedb", "pinecone", "weaviate"]
+  "bestFor": ["Python developers", "AI app builders", "Prototyping teams"],
+  "alternatives": ["qdrant", "lancedb", "pinecone", "weaviate"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    }
+  ]
 }

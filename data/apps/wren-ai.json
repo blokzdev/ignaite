@@ -51,7 +51,7 @@
     "RBAC, auditing, row-level security are paid",
     "Docs split between v1 app and new core"
   ],
-  "bestFor": ["Self-hosted analytics", "Agent SQL grounding", "Data teams on a budget"],
+  "bestFor": ["Data teams", "Analytics engineers", "Budget-conscious teams"],
   "alternatives": ["vanna", "julius", "hex", "databricks-genie"],
   "references": [
     {
@@ -75,5 +75,16 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#16A34A"
+  "accentColor": "#16A34A",
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

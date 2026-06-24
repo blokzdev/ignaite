@@ -23,9 +23,19 @@
     "open-source"
   ],
   "links": [
-    { "kind": "website", "url": "https://lakefs.io", "primary": true },
-    { "kind": "github", "url": "https://github.com/treeverse/lakeFS" },
-    { "kind": "docs", "url": "https://docs.lakefs.io" }
+    {
+      "kind": "website",
+      "url": "https://lakefs.io",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/treeverse/lakeFS"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.lakefs.io"
+    }
   ],
   "addedAt": "2026-06-21",
   "addedSeq": 991,
@@ -43,12 +53,7 @@
     "Aimed at data-lake-scale teams",
     "Advanced features gated to paid tiers"
   ],
-  "bestFor": [
-    "Data lake versioning",
-    "ML reproducibility",
-    "Data engineering teams",
-    "Data lineage and compliance"
-  ],
+  "bestFor": ["Data engineering teams", "ML platform teams", "Compliance-bound orgs"],
   "alternatives": ["dvc", "deep-lake", "mlflow"],
   "references": [
     {

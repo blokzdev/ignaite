@@ -49,6 +49,23 @@
     "Trust gap on complex multi-step analysis",
     "Cloud-only data handling"
   ],
-  "bestFor": ["Non-technical analysts", "Quick data Q&A", "Spreadsheet analysis"],
-  "alternatives": ["hex", "powerdrill", "databricks-genie", "thoughtspot"]
+  "bestFor": ["Non-technical analysts", "Business / ops teams", "Data-curious founders"],
+  "alternatives": ["hex", "powerdrill", "databricks-genie", "thoughtspot"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
+    }
+  ]
 }

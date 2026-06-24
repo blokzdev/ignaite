@@ -40,10 +40,17 @@
     "Open-source release cadence slowed after 2024",
     "SQL-first model has a learning curve"
   ],
-  "bestFor": [
-    "Teams already on SQL/ClickHouse",
-    "Metadata-rich vector search",
-    "Self-hosted RAG backends"
-  ],
-  "alternatives": ["milvus", "qdrant", "weaviate", "pgvector"]
+  "bestFor": ["Teams already on SQL/ClickHouse", "Data engineers", "Self-hosted RAG teams"],
+  "alternatives": ["milvus", "qdrant", "weaviate", "pgvector"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

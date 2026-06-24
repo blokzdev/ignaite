@@ -43,6 +43,26 @@
     "No managed cloud offering",
     "More concepts than a plain vector DB"
   ],
-  "bestFor": ["Local/self-hosted RAG", "Python developers", "Semantic search prototypes"],
-  "alternatives": ["chroma", "lancedb", "weaviate", "qdrant"]
+  "bestFor": ["Python developers", "Self-hosting teams"],
+  "alternatives": ["chroma", "lancedb", "weaviate", "qdrant"],
+  "capabilities": [
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

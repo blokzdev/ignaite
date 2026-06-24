@@ -42,6 +42,20 @@
     "Heavier (Electron) than Ollama",
     "Slower model loads vs Ollama"
   ],
-  "bestFor": ["Local model exploration", "Offline chat", "GUI-first users"],
-  "alternatives": ["ollama", "jan", "anythingllm", "vllm"]
+  "bestFor": ["GUI-first users", "Privacy-conscious devs", "Local-LLM tinkerers"],
+  "alternatives": ["ollama", "jan", "anythingllm", "vllm"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "embeddings"
+    }
+  ]
 }

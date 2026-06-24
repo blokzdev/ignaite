@@ -45,6 +45,17 @@
     "Some products have CPU-time limits",
     "Edge-first model needs app rethinking"
   ],
-  "bestFor": ["Edge-first apps", "Global low-latency APIs", "Large-asset storage"],
-  "alternatives": ["vercel", "supabase", "modal", "daytona"]
+  "bestFor": ["Full-stack developers", "Edge-first teams", "Platform engineers"],
+  "alternatives": ["vercel", "supabase", "modal", "daytona"],
+  "capabilities": [
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

@@ -44,6 +44,11 @@
     "Python library, no hosted UI",
     "Focused on RAG, narrower scope"
   ],
-  "bestFor": ["RAG evaluation", "Reference-free metrics", "Developers"],
-  "alternatives": ["deepeval", "promptfoo", "braintrust", "langsmith"]
+  "bestFor": ["AI engineers", "Developers"],
+  "alternatives": ["deepeval", "promptfoo", "braintrust", "langsmith"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    }
+  ]
 }

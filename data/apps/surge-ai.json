@@ -38,12 +38,7 @@
     "Limited public product detail",
     "Not for simple bulk labeling"
   ],
-  "bestFor": [
-    "Frontier AI labs",
-    "RLHF datasets",
-    "Reasoning & code data",
-    "High-quality annotation"
-  ],
+  "bestFor": ["Frontier AI labs", "Enterprise AI teams"],
   "alternatives": ["scale-ai", "superannotate", "labelbox", "v7-go"],
   "references": [
     {
@@ -57,6 +52,17 @@
       "url": "https://techstartups.com/2025/07/01/surge-ai-seeks-1b-at-15b-valuation-in-first-ever-raise-as-scale-ai-loses-customers-and-ceo-to-meta/",
       "source": "Tech Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "red-teaming"
     }
   ]
 }

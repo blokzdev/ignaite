@@ -18,9 +18,19 @@
   "tags": ["observability", "logs", "metrics", "tracing", "open-source"],
   "accentColor": "#5960ff",
   "links": [
-    { "kind": "website", "url": "https://openobserve.ai", "primary": true },
-    { "kind": "github", "url": "https://github.com/openobserve/openobserve" },
-    { "kind": "docs", "url": "https://openobserve.ai/docs" }
+    {
+      "kind": "website",
+      "url": "https://openobserve.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/openobserve/openobserve"
+    },
+    {
+      "kind": "docs",
+      "url": "https://openobserve.ai/docs"
+    }
   ],
   "addedAt": "2026-06-19",
   "addedSeq": 873,
@@ -38,7 +48,7 @@
     "Younger ecosystem than Datadog/Grafana",
     "Enterprise features gated above 50GB/day"
   ],
-  "bestFor": ["Self-hosted teams", "Cost-sensitive observability", "LLM app monitoring"],
+  "bestFor": ["Self-hosted teams", "SRE/DevOps teams", "Cost-sensitive teams"],
   "alternatives": ["langfuse", "helicone", "opik", "braintrust"],
   "references": [
     {
@@ -46,6 +56,17 @@
       "url": "https://www.businesswire.com/news/home/20260429840147/en/OpenObserve-Raises-$10-Million-Series-A-to-Accelerate-AI-native-Observability",
       "source": "BusinessWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

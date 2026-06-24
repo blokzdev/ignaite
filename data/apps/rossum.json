@@ -37,11 +37,7 @@
     "Now part of Coupa post-acquisition",
     "Overkill for simple OCR needs"
   ],
-  "bestFor": [
-    "Accounts payable teams",
-    "Invoice and PO automation",
-    "Enterprise document workflows"
-  ],
+  "bestFor": ["Accounts payable teams", "Enterprise finance ops", "Shared-services centers"],
   "alternatives": ["reducto", "unstructured", "llamaparse"],
   "references": [
     {
@@ -55,6 +51,20 @@
       "url": "https://aimagazine.com/news/coupa-acquires-ai-idp-leader-rossum",
       "source": "AI Magazine",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "financial-data-extraction"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

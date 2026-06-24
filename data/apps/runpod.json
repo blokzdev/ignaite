@@ -44,6 +44,20 @@
     "GPU availability varies",
     "Self-managed model serving"
   ],
-  "bestFor": ["Serverless inference", "Cost-sensitive GPU jobs", "Training and long jobs"],
-  "alternatives": ["modal", "replicate", "baseten", "lightning-ai"]
+  "bestFor": ["ML engineers", "AI startups", "Cost-sensitive teams"],
+  "alternatives": ["modal", "replicate", "baseten", "lightning-ai"],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

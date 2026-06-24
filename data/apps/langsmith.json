@@ -44,7 +44,7 @@
     "Self-host is Enterprise-only",
     "Best value inside LangChain stack"
   ],
-  "bestFor": ["LangChain shops", "Hosted observability", "Eval orchestration"],
+  "bestFor": ["LangChain/LangGraph shops", "AI engineering teams", "Hosted LLMOps users"],
   "alternatives": ["langfuse", "langwatch", "langtrace", "helicone"],
   "references": [
     {
@@ -52,6 +52,17 @@
       "url": "https://www.zenml.io/blog/langfuse-vs-langsmith",
       "source": "ZenML",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
     }
   ]
 }

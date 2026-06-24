@@ -29,11 +29,7 @@
     "From ex-Tableau product leadership"
   ],
   "cons": ["Very new (launched 2026)", "Cloud-only", "Limited track record vs. incumbents"],
-  "bestFor": [
-    "AI-assisted dashboards",
-    "Analysts wanting BI control",
-    "Teams modernizing legacy BI"
-  ],
+  "bestFor": ["Data analysts", "Teams modernizing BI", "Business users"],
   "alternatives": ["thoughtspot", "querio", "holistics", "hex"],
   "references": [
     {
@@ -47,6 +43,17 @@
       "url": "https://techstartups.com/2026/04/07/golden-analytics-emerges-from-stealth-with-7m-in-funding-to-build-ai-native-bi-platform-that-turns-raw-data-into-dashboards-in-seconds/",
       "source": "Tech Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

@@ -42,7 +42,7 @@
     "Niche versus general LLM tooling",
     "Graph coverage varies by entity type"
   ],
-  "bestFor": ["RAG grounding", "Web-scale data extraction", "Entity intelligence"],
+  "bestFor": ["AI engineers", "Data teams", "Enterprises"],
   "alternatives": ["firecrawl", "scrapegraphai", "exa", "crawl4ai"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://venturebeat.com/ai/diffbots-ai-model-doesnt-guess-it-knows-thanks-to-a-trillion-fact-knowledge-graph",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

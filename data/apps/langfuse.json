@@ -45,7 +45,7 @@
     "Less deep LangChain integration",
     "Setup heavier than hosted-only"
   ],
-  "bestFor": ["Data-sovereignty teams", "Self-hosted stacks", "Framework-agnostic apps"],
+  "bestFor": ["Data-sovereignty teams", "Self-hosting teams", "AI engineers"],
   "alternatives": ["langsmith", "langwatch", "helicone", "opik"],
   "references": [
     {
@@ -56,5 +56,16 @@
     }
   ],
   "featured": false,
-  "featuredAt": "2026-06-10"
+  "featuredAt": "2026-06-10",
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

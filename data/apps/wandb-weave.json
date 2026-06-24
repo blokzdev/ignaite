@@ -47,6 +47,20 @@
     "Best value if already on W&B",
     "Free only for solo use"
   ],
-  "bestFor": ["Existing W&B users", "LLM evaluation", "Tracing + experiments together"],
-  "alternatives": ["langsmith", "langfuse", "braintrust", "helicone"]
+  "bestFor": ["ML / AI engineers", "Existing W&B users", "Data scientists"],
+  "alternatives": ["langsmith", "langfuse", "braintrust", "helicone"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

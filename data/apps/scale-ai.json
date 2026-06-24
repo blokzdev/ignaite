@@ -41,7 +41,7 @@
     "Meta stake raised neutrality concerns",
     "Some labs cut engagements post-deal"
   ],
-  "bestFor": ["Frontier training data", "RLHF pipelines", "Government AI programs"],
+  "bestFor": ["Frontier AI labs", "Enterprises", "Government programs"],
   "alternatives": ["encord", "label-studio", "dataloop", "supervisely"],
   "references": [
     {
@@ -61,6 +61,17 @@
       "url": "https://spectrum.ieee.org/data-labeling-scale-ai-agents",
       "source": "IEEE Spectrum",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "red-teaming"
     }
   ]
 }

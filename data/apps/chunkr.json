@@ -46,7 +46,7 @@
     "Lighter compliance coverage than Unstructured",
     "Smaller team / younger product"
   ],
-  "bestFor": ["RAG document prep", "Self-hosted parsing"],
+  "bestFor": ["RAG/LLM engineers", "Data engineers", "Self-hosters"],
   "alternatives": ["reducto", "unstructured", "docling", "nanonets"],
   "references": [
     {
@@ -54,6 +54,14 @@
       "url": "https://www.respan.ai/market-map/compare/chunkr-vs-reducto",
       "source": "Respan",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
     }
   ]
 }

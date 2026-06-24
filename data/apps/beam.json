@@ -44,6 +44,20 @@
     "Python-centric; less polyglot",
     "Newer platform, maturing tooling"
   ],
-  "bestFor": ["Python AI developers", "Agent sandboxes", "Serverless GPU jobs"],
-  "alternatives": ["modal", "runpod", "baseten", "e2b"]
+  "bestFor": ["Python AI developers", "ML engineers", "Indie builders"],
+  "alternatives": ["modal", "runpod", "baseten", "e2b"],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

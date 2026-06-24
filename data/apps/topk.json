@@ -42,10 +42,23 @@
     "Developer/API-first, no managed UI",
     "Smaller community vs Pinecone/Qdrant"
   ],
-  "bestFor": [
-    "RAG retrieval",
-    "Hybrid semantic + keyword search",
-    "Data-residency-sensitive teams"
-  ],
-  "alternatives": ["turbopuffer", "pinecone", "qdrant", "lancedb"]
+  "bestFor": ["RAG/AI developers", "Search teams", "Data-residency-sensitive teams"],
+  "alternatives": ["turbopuffer", "pinecone", "qdrant", "lancedb"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "document-extraction"
+    }
+  ]
 }

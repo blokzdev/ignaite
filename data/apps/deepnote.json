@@ -44,7 +44,7 @@
     "Free plan caps editors, projects, and AI use",
     "Premium connectors gated to paid plans"
   ],
-  "bestFor": ["Collaborative data teams", "SQL + Python analysis", "Teaching and coursework"],
+  "bestFor": ["Collaborative data teams", "Data scientists", "Data analysts", "Educators"],
   "alternatives": ["hex", "julius", "quadratic", "powerdrill"],
   "references": [
     {
@@ -58,6 +58,20 @@
       "url": "https://techcrunch.com/2022/01/31/deepnote-raises-20m-for-its-collaborative-data-science-notebooks/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "etl-pipeline"
     }
   ]
 }

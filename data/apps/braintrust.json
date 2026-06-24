@@ -45,7 +45,7 @@
     "Self-hosting needs Enterprise contract",
     "Overkill for tiny single-file eval needs"
   ],
-  "bestFor": ["Eval-driven teams", "CI quality gating", "Prompt iteration"],
+  "bestFor": ["Eval-driven teams", "AI product engineers", "Enterprises"],
   "alternatives": ["langfuse", "langsmith", "vellum", "promptfoo"],
   "references": [
     {
@@ -56,5 +56,16 @@
     }
   ],
   "featured": true,
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

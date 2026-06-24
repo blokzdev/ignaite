@@ -42,6 +42,20 @@
     "Smaller/newer than AWS-scale clouds",
     "Less enterprise tooling"
   ],
-  "bestFor": ["Cost-sensitive inference", "Open-model serving", "On-demand GPUs"],
-  "alternatives": ["together-ai", "fireworks-ai", "runpod", "replicate"]
+  "bestFor": ["Cost-sensitive ML teams", "Open-model developers", "Crypto-native builders"],
+  "alternatives": ["together-ai", "fireworks-ai", "runpod", "replicate"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "llm-gateway"
+    }
+  ]
 }

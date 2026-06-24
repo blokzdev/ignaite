@@ -41,6 +41,20 @@
     "Notebook model has a learning curve",
     "Best value at team scale"
   ],
-  "bestFor": ["Data teams", "Reproducible analytics"],
-  "alternatives": ["julius", "powerdrill", "databricks-genie", "thoughtspot"]
+  "bestFor": ["Data teams", "Data scientists", "Analytics engineers"],
+  "alternatives": ["julius", "powerdrill", "databricks-genie", "thoughtspot"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "app-builder"
+    }
+  ]
 }

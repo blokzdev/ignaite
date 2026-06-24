@@ -48,6 +48,17 @@
     "Cloud features gated to paid tiers",
     "Reports can get heavy at scale"
   ],
-  "bestFor": ["ML + LLM monitoring", "RAG evaluation", "Self-hosted eval pipelines"],
-  "alternatives": ["langfuse", "arize-phoenix", "deepeval", "giskard"]
+  "bestFor": ["ML engineers", "AI/LLM teams", "Data scientists"],
+  "alternatives": ["langfuse", "arize-phoenix", "deepeval", "giskard"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "red-teaming"
+    }
+  ]
 }

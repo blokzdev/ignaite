@@ -46,7 +46,7 @@
     "Full analytics rely on the hosted dashboard",
     "Younger than general-purpose APM tools"
   ],
-  "bestFor": ["Agent developers", "CrewAI / LangChain users", "Debugging agent runs"],
+  "bestFor": ["Agent developers", "CrewAI / LangChain users"],
   "alternatives": ["langfuse", "arize-phoenix", "helicone", "traceloop"],
   "references": [
     {
@@ -54,6 +54,14 @@
       "url": "https://machinelearningmastery.com/the-practitioners-guide-to-agentops/",
       "source": "Machine Learning Mastery",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

@@ -10,7 +10,13 @@
   "vendor": "Cleric",
   "platforms": ["web"],
   "tags": ["ai-sre", "incident-response", "root-cause", "devops"],
-  "links": [{ "kind": "website", "url": "https://cleric.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cleric.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 975,
   "lastVerifiedAt": "2026-06-20",
@@ -28,11 +34,7 @@
     "Young product (2024-25)",
     "Needs observability integrations"
   ],
-  "bestFor": [
-    "On-call engineering teams",
-    "Kubernetes/microservices ops",
-    "Reducing alert fatigue"
-  ],
+  "bestFor": ["On-call engineering teams", "Platform/DevOps teams", "Kubernetes ops teams"],
   "alternatives": ["traversal"],
   "references": [
     {
@@ -40,6 +42,11 @@
       "url": "https://www.apmdigest.com/cleric-launches-self-learning-ai-sre",
       "source": "APMdigest",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
     }
   ]
 }

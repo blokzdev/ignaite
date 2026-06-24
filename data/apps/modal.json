@@ -45,6 +45,23 @@
     "Costs climb under heavy usage",
     "Billing hard to predict"
   ],
-  "bestFor": ["Python-first ML teams", "Batch jobs and fine-tuning", "On-demand GPU workloads"],
-  "alternatives": ["baseten", "runpod", "replicate", "beam"]
+  "bestFor": ["Python-first ML teams", "AI startups", "ML/infra engineers"],
+  "alternatives": ["baseten", "runpod", "replicate", "beam"],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

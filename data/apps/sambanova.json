@@ -45,6 +45,14 @@
     "No fine-tuning/custom hosting like GPU clouds",
     "Smaller model selection than rivals"
   ],
-  "bestFor": ["Fast open-model inference", "Low-latency apps", "Full-precision Llama"],
-  "alternatives": ["groq", "cerebras", "together-ai", "fireworks-ai"]
+  "bestFor": ["AI app developers", "Latency-sensitive teams", "Open-model users"],
+  "alternatives": ["groq", "cerebras", "together-ai", "fireworks-ai"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

@@ -44,6 +44,26 @@
     "Per-replica cost doubles for redundancy",
     "Engineering effort to package custom models"
   ],
-  "bestFor": ["Custom model serving", "Low-latency production APIs"],
-  "alternatives": ["modal", "fireworks-ai", "together-ai", "replicate"]
+  "bestFor": ["ML/infra engineers", "Production AI teams", "Enterprises"],
+  "alternatives": ["modal", "fireworks-ai", "together-ai", "replicate"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

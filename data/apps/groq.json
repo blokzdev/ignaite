@@ -48,6 +48,20 @@
     "SRAM limits large context windows",
     "Rate limits during peak demand"
   ],
-  "bestFor": ["Voice AI / real-time UX", "Open-model latency-bound apps"],
-  "alternatives": ["cerebras", "sambanova", "fireworks-ai", "together-ai"]
+  "bestFor": ["AI developers", "Real-time UX builders", "Open-model teams"],
+  "alternatives": ["cerebras", "sambanova", "fireworks-ai", "together-ai"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    }
+  ]
 }

@@ -39,7 +39,7 @@
     "Pricing is sales-led rather than self-serve",
     "Smaller services catalog than hyperscalers"
   ],
-  "bestFor": ["Gigawatt-scale training", "Energy-conscious AI teams"],
+  "bestFor": ["AI labs", "Energy-conscious AI teams"],
   "alternatives": ["coreweave", "nebius", "lambda", "runpod"],
   "references": [
     {
@@ -47,6 +47,17 @@
       "url": "https://www.datacenterfrontier.com/hyperscale/article/55276169/crusoe-adds-45-gw-natural-gas-to-fuel-ai-expands-abilene-data-center-to-12-gw",
       "source": "Data Center Frontier",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
     }
   ]
 }

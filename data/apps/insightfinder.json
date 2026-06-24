@@ -37,7 +37,7 @@
     "Covers AI models and traditional IT"
   ],
   "cons": ["Pricing not public", "Enterprise sales motion", "Broad scope can mean longer setup"],
-  "bestFor": ["SRE/AIOps teams", "AI reliability in production", "Air-gapped enterprises"],
+  "bestFor": ["SRE / AIOps teams", "Air-gapped enterprises", "Platform reliability teams"],
   "alternatives": ["fiddler-ai", "galileo", "arize-phoenix"],
   "references": [
     {
@@ -45,6 +45,14 @@
       "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

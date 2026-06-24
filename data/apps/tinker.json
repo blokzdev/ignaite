@@ -42,7 +42,7 @@
     "No GPU infra to manage"
   ],
   "cons": ["LoRA-based only (no full fine-tune)", "Usage-based, no free tier", "Python SDK only"],
-  "bestFor": ["Post-training research", "RL experimentation", "Academic labs"],
+  "bestFor": ["ML researchers", "Academic labs", "Post-training engineers"],
   "alternatives": ["openpipe", "predibase", "unsloth", "axolotl"],
   "references": [
     {
@@ -56,6 +56,14 @@
       "url": "https://www.datacamp.com/tutorial/tinker-tutorial",
       "source": "DataCamp",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "multi-model-access"
     }
   ]
 }

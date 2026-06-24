@@ -41,7 +41,7 @@
     "Younger product with a smaller ecosystem",
     "Premium connectors gated to paid plans"
   ],
-  "bestFor": ["Ad-hoc data analysis", "Data teams", "Notebook-to-dashboard workflows"],
+  "bestFor": ["Data teams", "Data analysts"],
   "alternatives": ["hex", "deepnote", "julius", "quadratic"],
   "references": [
     {
@@ -49,6 +49,20 @@
       "url": "https://eniacvc.medium.com/why-we-led-fabi-ais-seed-round-90a0dc03447e",
       "source": "Eniac Ventures",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

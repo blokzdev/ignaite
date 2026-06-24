@@ -48,7 +48,7 @@
     "Less turnkey than hosted APIs",
     "Optimized mainly for NVIDIA GPUs"
   ],
-  "bestFor": ["Self-hosted LLM serving", "High-throughput inference", "On-prem GPU clusters"],
+  "bestFor": ["Platform / infra teams", "On-prem GPU operators", "ML engineers"],
   "alternatives": ["ollama", "baseten", "modal", "fireworks-ai"],
   "references": [
     {
@@ -60,5 +60,16 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#00B8D4"
+  "accentColor": "#00B8D4",
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

@@ -41,12 +41,7 @@
     "Narrow focus: codegen infra only",
     "Newer and smaller than general LLM APIs"
   ],
-  "bestFor": [
-    "AI coding agents",
-    "Codegen products",
-    "Fast diff application",
-    "Code search & retrieval"
-  ],
+  "bestFor": ["Codegen product teams", "AI coding agent builders"],
   "alternatives": ["morph"],
   "references": [
     {
@@ -60,6 +55,20 @@
       "url": "https://sacra.com/c/relace/",
       "source": "Sacra",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "model-inference"
     }
   ]
 }

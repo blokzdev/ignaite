@@ -49,6 +49,17 @@
     "Smaller community",
     "Narrower than full lifecycle platforms"
   ],
-  "bestFor": ["RAG and chatbot monitoring", "Prompt management teams", "Self-hosted observability"],
-  "alternatives": ["langfuse", "helicone", "langsmith", "opik"]
+  "bestFor": ["LLM app teams", "Self-hosting engineers"],
+  "alternatives": ["langfuse", "helicone", "langsmith", "opik"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "eval-suite"
+    }
+  ]
 }

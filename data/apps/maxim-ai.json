@@ -47,10 +47,17 @@
     "Closed source",
     "Crowded eval/observability space"
   ],
-  "bestFor": [
-    "Teams shipping agents to prod",
-    "Pre-release agent simulation",
-    "End-to-end eval + monitoring"
-  ],
-  "alternatives": ["braintrust", "langfuse", "langsmith", "vellum"]
+  "bestFor": ["Teams shipping AI agents", "AI/ML engineers"],
+  "alternatives": ["braintrust", "langfuse", "langsmith", "vellum"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

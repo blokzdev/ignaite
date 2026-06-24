@@ -45,6 +45,17 @@
     "Smaller community than pgvector",
     "Managed cloud tier still maturing"
   ],
-  "bestFor": ["Postgres-based RAG", "Teams avoiding a separate DB", "Hybrid search"],
-  "alternatives": ["pgvector", "qdrant", "pinecone", "lancedb"]
+  "bestFor": ["Postgres-based teams", "RAG builders", "AI app developers"],
+  "alternatives": ["pgvector", "qdrant", "pinecone", "lancedb"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

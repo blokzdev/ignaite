@@ -42,7 +42,7 @@
     "Younger than top-tier clouds",
     "Docs lighter than incumbents"
   ],
-  "bestFor": ["Agentic app builders", "Multimodal inference", "GPU + API in one vendor"],
+  "bestFor": ["AI app developers", "Indie/startup builders", "Agent developers"],
   "alternatives": ["deepinfra", "together-ai", "fireworks-ai", "runpod"],
   "references": [
     {
@@ -50,6 +50,20 @@
       "url": "https://huggingface.co/blog/inference-providers-nebius-novita-hyperbolic",
       "source": "Hugging Face",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "code-execution"
     }
   ]
 }

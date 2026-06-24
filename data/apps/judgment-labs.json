@@ -46,7 +46,7 @@
     "Young company (founded 2026)",
     "Geared to complex 'deep' agents"
   ],
-  "bestFor": ["Deep-agent reliability", "Agent post-training", "Production monitoring"],
+  "bestFor": ["Agent reliability teams", "ML platform engineers", "Production agent owners"],
   "alternatives": ["braintrust", "langwatch", "patronus-ai", "deepeval"],
   "references": [
     {
@@ -60,6 +60,17 @@
       "url": "https://www.thesaasnews.com/news/judgment-labs-raises-32m-series-a/",
       "source": "The SaaS News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

@@ -46,6 +46,17 @@
     "Hosted enterprise features are paid",
     "Setup assumes Python familiarity"
   ],
-  "bestFor": ["Text-to-SQL on a warehouse", "Data teams", "Embedded analytics"],
-  "alternatives": ["julius", "basedash", "databricks-genie", "hex"]
+  "bestFor": ["Data teams", "Python developers", "Analytics engineers"],
+  "alternatives": ["julius", "basedash", "databricks-genie", "hex"],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "data-analysis"
+    }
+  ]
 }

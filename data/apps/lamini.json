@@ -42,7 +42,7 @@
     "Founded by an MLPerf and ex-NVIDIA team"
   ],
   "cons": ["Enterprise-focused pricing", "Open models only", "Smaller ecosystem than hyperscalers"],
-  "bestFor": ["Regulated enterprises", "On-prem LLMs", "In-house tuning teams"],
+  "bestFor": ["Regulated enterprises", "In-house ML teams", "Platform teams"],
   "alternatives": ["predibase", "openpipe", "together-ai", "tinker"],
   "references": [
     {
@@ -56,6 +56,23 @@
       "url": "https://siliconangle.com/2024/05/03/lamini-raises-25m-ai-development-inference-platform/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "text-classification"
+    },
+    {
+      "id": "agent-framework"
     }
   ]
 }

@@ -39,7 +39,7 @@
     "Cold queries are sub-second, not low-latency",
     "Up to 100 results per query"
   ],
-  "bestFor": ["RAG over huge corpora", "Cost-sensitive vector storage", "AWS-native stacks"],
+  "bestFor": ["AWS-native teams", "Platform engineers", "Data engineers"],
   "alternatives": ["pinecone", "turbopuffer", "lancedb", "milvus"],
   "references": [
     {
@@ -53,6 +53,11 @@
       "url": "https://venturebeat.com/data-infrastructure/aws-claims-90-vector-cost-savings-with-s3-vectors-ga-calls-it-complementary",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "vector-search"
     }
   ]
 }

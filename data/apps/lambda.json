@@ -40,7 +40,7 @@
     "In-demand GPUs can sell out",
     "Fewer managed services than hyperscalers"
   ],
-  "bestFor": ["Model training runs", "Research teams", "Scaling startups"],
+  "bestFor": ["Research teams", "Scaling AI startups", "ML engineers"],
   "alternatives": ["coreweave", "runpod", "modal", "lightning-ai"],
   "references": [
     {
@@ -54,6 +54,11 @@
       "url": "https://techstartups.com/2026/05/07/lambda-raises-1b-to-expand-gigawatt-scale-ai-factories-for-the-superintelligence-race/",
       "source": "Tech Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
     }
   ]
 }

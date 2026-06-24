@@ -41,7 +41,7 @@
     "Tuning HNSW/IVFFlat is on you",
     "No built-in hybrid search out of the box"
   ],
-  "bestFor": ["Teams already on Postgres", "Pragmatic RAG", "Small-to-mid scale"],
+  "bestFor": ["Teams already on Postgres", "Backend developers"],
   "alternatives": ["qdrant", "pinecone", "weaviate", "chroma"],
   "references": [
     {
@@ -49,6 +49,11 @@
       "url": "https://latenode.com/blog/ai-frameworks-technical-infrastructure/vector-databases-embeddings/best-vector-databases-for-rag-complete-2025-comparison-guide",
       "source": "Latenode",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "vector-search"
     }
   ]
 }

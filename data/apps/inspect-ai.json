@@ -45,7 +45,7 @@
     "Steeper than no-code eval tools",
     "You wire up your own model keys"
   ],
-  "bestFor": ["Rigorous LLM evals", "AI safety research", "CI eval pipelines"],
+  "bestFor": ["AI safety researchers", "Frontier-model labs", "ML eval engineers"],
   "alternatives": ["promptfoo", "deepeval", "ragas", "braintrust"],
   "references": [
     {
@@ -53,6 +53,23 @@
       "url": "https://hamel.dev/notes/llm/evals/inspect.html",
       "source": "Hamel Husain",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

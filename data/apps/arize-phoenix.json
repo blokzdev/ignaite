@@ -54,6 +54,17 @@
     "Setup effort for full pipelines",
     "Smaller than LangSmith ecosystem"
   ],
-  "bestFor": ["RAG debugging", "Notebook workflows", "Self-hosted tracing"],
-  "alternatives": ["langfuse", "langsmith", "helicone", "opik"]
+  "bestFor": ["AI engineers", "Data scientists", "Self-hosting teams"],
+  "alternatives": ["langfuse", "langsmith", "helicone", "opik"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

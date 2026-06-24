@@ -41,11 +41,7 @@
     "Costs grow with compute and scale",
     "Vector DB only, not a full RAG stack"
   ],
-  "bestFor": [
-    "RAG & semantic search",
-    "Production vector workloads",
-    "Teams avoiding self-hosted Milvus"
-  ],
+  "bestFor": ["Production AI teams", "Teams avoiding Milvus ops", "RAG builders"],
   "alternatives": ["milvus", "pinecone", "weaviate", "qdrant"],
   "references": [
     {
@@ -59,6 +55,14 @@
       "url": "https://airbyte.com/data-engineering-resources/milvus-database-pricing",
       "source": "Airbyte",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
     }
   ]
 }

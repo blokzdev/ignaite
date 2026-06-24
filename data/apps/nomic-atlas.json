@@ -47,13 +47,27 @@
     "Niche vs general BI tools",
     "Large datasets need paid plans"
   ],
-  "bestFor": ["Dataset exploration", "Embedding analysis", "ML data curation"],
+  "bestFor": ["Data scientists", "ML engineers", "Data analysts"],
   "references": [
     {
       "title": "Nomic AI secures $17 million in Series A funding",
       "url": "https://www.trysignalbase.com/news/funding/nomic-ai-secures-17-million-in-series-a-funding-to-revolutionize-unstructured-data-handling",
       "source": "SignalBase",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

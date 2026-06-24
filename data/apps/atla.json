@@ -43,7 +43,7 @@
     "Judge-model approach is opinionated",
     "Free tier capped at 300 calls/month"
   ],
-  "bestFor": ["LLM-as-judge evaluation", "Agent failure analysis", "AI engineering teams"],
+  "bestFor": ["AI engineering teams", "Agent builders", "Teams running agents in prod"],
   "alternatives": ["deepeval", "ragas", "galileo", "braintrust"],
   "references": [
     {
@@ -57,6 +57,14 @@
       "url": "https://fondo.com/blog/atla-launches-selene",
       "source": "Fondo",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

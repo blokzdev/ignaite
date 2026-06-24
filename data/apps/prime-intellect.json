@@ -45,7 +45,7 @@
     "RL stack targets advanced users",
     "Spot capacity varies by provider"
   ],
-  "bestFor": ["RL post-training", "Open-model builders", "Budget GPU compute"],
+  "bestFor": ["Open-model researchers", "ML infra teams", "Budget-minded labs"],
   "alternatives": ["runpod", "lambda", "modal", "together-ai"],
   "references": [
     {
@@ -59,6 +59,20 @@
       "url": "https://www.marktechpost.com/2024/11/29/prime-intellect-releases-intellect-1-instruct-base-the-first-10b-parameter-language-model-collaboratively-trained-across-the-globe/",
       "source": "MarkTechPost",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

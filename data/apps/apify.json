@@ -45,6 +45,17 @@
     "Platform itself is closed/hosted",
     "Scraping reliability varies by site"
   ],
-  "bestFor": ["Web scraping at scale", "RAG data pipelines", "Browser automation"],
-  "alternatives": ["firecrawl", "crawl4ai", "scrapegraphai", "browserbase"]
+  "bestFor": ["Data engineers", "Developers", "Growth / ops teams"],
+  "alternatives": ["firecrawl", "crawl4ai", "scrapegraphai", "browserbase"],
+  "capabilities": [
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

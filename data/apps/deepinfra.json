@@ -41,7 +41,7 @@
     "Skews toward open models",
     "Not a fine-tuning-first platform"
   ],
-  "bestFor": ["Cost-sensitive inference", "Open-model serving", "Production-scale APIs"],
+  "bestFor": ["Cost-sensitive developers", "Open-model teams", "Production AI teams"],
   "alternatives": ["together-ai", "fireworks-ai", "groq", "replicate"],
   "references": [
     {
@@ -55,6 +55,26 @@
       "url": "https://www.hpcwire.com/aiwire/2026/05/06/deepinfra-closes-107m-series-b-to-power-production-scale-ai-inference/",
       "source": "AIwire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
     }
   ]
 }

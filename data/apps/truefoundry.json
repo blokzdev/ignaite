@@ -45,11 +45,7 @@
     "Heavier setup than a hosted-only API",
     "Broad scope overlaps several point tools"
   ],
-  "bestFor": [
-    "Enterprise ML/AI platform teams",
-    "Self-hosted model serving",
-    "Governed agent deployment"
-  ],
+  "bestFor": ["Enterprise ML/AI platform teams", "Regulated / air-gapped enterprises"],
   "alternatives": ["baseten", "modal", "portkey", "litellm"],
   "references": [
     {
@@ -57,6 +53,26 @@
       "url": "https://techstartups.com/2025/02/06/truefoundry-raises-19m-in-series-a-funding-led-by-intel-capital-to-simplify-ai-infrastructure/",
       "source": "Tech Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "app-deployment"
     }
   ]
 }

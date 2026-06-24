@@ -40,6 +40,26 @@
     "Accuracy varies on messy data",
     "Not built for governed enterprise BI"
   ],
-  "bestFor": ["No-code data analysis", "Ad-hoc insights", "Mixed-format files"],
-  "alternatives": ["julius", "hex", "akkio", "thoughtspot"]
+  "bestFor": ["Non-technical analysts", "Founders & operators", "Researchers"],
+  "alternatives": ["julius", "hex", "akkio", "thoughtspot"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

@@ -43,6 +43,17 @@
     "Adds another layer to your stack",
     "Best value at team scale"
   ],
-  "bestFor": ["Prompt engineering teams", "Non-technical prompt editors", "LLM eval + monitoring"],
-  "alternatives": ["langfuse", "vellum", "agenta", "braintrust"]
+  "bestFor": ["Prompt engineering teams", "Non-technical prompt editors", "AI product teams"],
+  "alternatives": ["langfuse", "vellum", "agenta", "braintrust"],
+  "capabilities": [
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

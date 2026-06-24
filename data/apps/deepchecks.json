@@ -46,6 +46,14 @@
     "Hosted platform pricing is steep",
     "Breadth adds setup overhead"
   ],
-  "bestFor": ["LLM app evaluation", "Regulated/on-prem teams", "ML + LLM validation"],
-  "alternatives": ["giskard", "deepeval", "ragas", "promptfoo"]
+  "bestFor": ["ML & LLM teams", "Regulated / on-prem teams", "QA engineers"],
+  "alternatives": ["giskard", "deepeval", "ragas", "promptfoo"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

@@ -46,6 +46,26 @@
     "Usage pricing scales with output volume",
     "Less control than self-managed GPUs"
   ],
-  "bestFor": ["AI media features", "Image/video generation", "Production media backends"],
-  "alternatives": ["replicate", "modal", "baseten", "runpod"]
+  "bestFor": ["AI product teams", "Media app developers", "Startups"],
+  "alternatives": ["replicate", "modal", "baseten", "runpod"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "gpu-compute"
+    }
+  ]
 }

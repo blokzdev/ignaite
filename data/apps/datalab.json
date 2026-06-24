@@ -42,7 +42,7 @@
     "Self-hosting needs GPU for throughput",
     "Best results may need an LLM pass"
   ],
-  "bestFor": ["RAG ingestion", "Document intelligence", "Bulk PDF conversion"],
+  "bestFor": ["AI engineers", "Document-heavy enterprises", "RAG builders"],
   "alternatives": ["docling", "reducto", "mindee", "unstructured"],
   "references": [
     {
@@ -56,6 +56,14 @@
       "url": "https://modal.com/blog/datalab-and-modal",
       "source": "Modal",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
     }
   ]
 }

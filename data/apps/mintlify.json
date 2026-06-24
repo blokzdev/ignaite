@@ -42,7 +42,7 @@
     "Opinionated workflow vs docs-as-code tools",
     "No public pricing above the free tier"
   ],
-  "bestFor": ["Developer documentation", "API reference docs", "Agent-readable knowledge bases"],
+  "bestFor": ["Developer-tools teams", "API/platform teams", "Technical writers"],
   "alternatives": ["context7", "guru"],
   "references": [
     {
@@ -56,6 +56,17 @@
       "url": "https://techbullion.com/mintlify-lands-45m-series-b-at-500m-valuation-as-ai-agents-become-docs-biggest-readers/",
       "source": "TechBullion",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "knowledge-base-authoring"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

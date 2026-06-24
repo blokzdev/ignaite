@@ -41,7 +41,7 @@
     "Smaller community than LangSmith/Langfuse",
     "Setup to wire feedback providers"
   ],
-  "bestFor": ["RAG evaluation", "LLM app tracing", "Python developers"],
+  "bestFor": ["Python developers", "AI engineers"],
   "alternatives": ["ragas", "deepeval", "langsmith", "arize-phoenix"],
   "references": [
     {
@@ -55,6 +55,14 @@
       "url": "https://www.infoworld.com/article/2336899/snowflake-acquires-truera-s-ai-observability-platform.html",
       "source": "InfoWorld",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

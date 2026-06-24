@@ -42,6 +42,17 @@
     "Data-connection limits on lower tiers",
     "Self-hosting reserved for Enterprise"
   ],
-  "bestFor": ["Self-serve analytics", "Embedded analytics"],
-  "alternatives": ["wren-ai", "vanna", "julius", "hex"]
+  "bestFor": ["Data teams", "SaaS product teams"],
+  "alternatives": ["wren-ai", "vanna", "julius", "hex"],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "report-generation"
+    }
+  ]
 }

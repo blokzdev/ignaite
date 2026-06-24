@@ -49,6 +49,14 @@
     "Supports a curated model set",
     "Requires ML fine-tuning know-how"
   ],
-  "bestFor": ["Single-GPU fine-tuning", "LoRA/QLoRA on a budget", "Local model customization"],
-  "alternatives": ["openpipe", "modal", "runpod"]
+  "bestFor": ["ML researchers", "GPU-constrained tinkerers", "Solo ML practitioners"],
+  "alternatives": ["openpipe", "modal", "runpod"],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

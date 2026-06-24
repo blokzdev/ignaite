@@ -17,9 +17,19 @@
   },
   "tags": ["voice-ai", "webrtc", "realtime", "agents", "open-source", "infrastructure"],
   "links": [
-    { "kind": "website", "url": "https://livekit.com", "primary": true },
-    { "kind": "github", "url": "https://github.com/livekit/livekit" },
-    { "kind": "docs", "url": "https://docs.livekit.io" }
+    {
+      "kind": "website",
+      "url": "https://livekit.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/livekit/livekit"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.livekit.io"
+    }
   ],
   "addedAt": "2026-06-13",
   "addedSeq": 526,
@@ -37,12 +47,7 @@
     "You assemble and pay for STT/LLM/TTS separately",
     "Realtime media ops add operational complexity"
   ],
-  "bestFor": [
-    "Building voice AI agents",
-    "Realtime voice/video apps",
-    "Telephony automation",
-    "Developers"
-  ],
+  "bestFor": ["Voice-AI developers", "Realtime app builders", "Telephony engineers"],
   "alternatives": ["vapi", "retell-ai", "cartesia"],
   "references": [
     {
@@ -50,6 +55,23 @@
       "url": "https://techcrunch.com/2026/01/22/voice-ai-engine-and-openai-partner-livekit-hits-1b-valuation/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "app-deployment"
     }
   ]
 }

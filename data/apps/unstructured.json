@@ -47,10 +47,20 @@
     "Heavy dependency footprint",
     "Tuning per document type"
   ],
-  "bestFor": [
-    "RAG document preprocessing",
-    "Mixed-format ingestion",
-    "Enterprise unstructured ETL"
-  ],
-  "alternatives": ["reducto", "docling", "chunkr", "nanonets"]
+  "bestFor": ["Data engineers", "AI platform teams", "Enterprises"],
+  "alternatives": ["reducto", "docling", "chunkr", "nanonets"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "etl-pipeline"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

@@ -41,6 +41,14 @@
     "Analytics shallow for deep decisions",
     "Web-only"
   ],
-  "bestFor": ["Self-serve dashboards", "NL data exploration", "Startup data teams"],
-  "alternatives": ["hex", "julius", "powerdrill", "databricks-genie"]
+  "bestFor": ["Startup data teams", "Non-technical operators", "Founders"],
+  "alternatives": ["hex", "julius", "powerdrill", "databricks-genie"],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    }
+  ]
 }

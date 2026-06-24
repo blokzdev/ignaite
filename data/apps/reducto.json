@@ -52,7 +52,7 @@
     "Pricier than open-source parsers",
     "Usage-credit pricing adds estimation"
   ],
-  "bestFor": ["Regulated industries", "RAG pipelines", "Complex PDFs & tables"],
+  "bestFor": ["Regulated industries", "AI engineers"],
   "alternatives": ["unstructured", "docling", "chunkr", "nanonets"],
   "references": [
     {
@@ -60,6 +60,17 @@
       "url": "https://www.firecrawl.dev/blog/best-pdf-parsers",
       "source": "Firecrawl",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }

@@ -47,6 +47,17 @@
     "Proxy adds a network hop",
     "Lighter eval tooling than Langfuse"
   ],
-  "bestFor": ["Quick cost/usage logging", "Self-hosted proxy setups"],
-  "alternatives": ["langfuse", "langsmith", "portkey", "lunary"]
+  "bestFor": ["LLM app developers", "Self-hosting teams", "Engineering teams"],
+  "alternatives": ["langfuse", "langsmith", "portkey", "lunary"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

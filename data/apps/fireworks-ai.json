@@ -46,6 +46,23 @@
     "Open-weights focus, not proprietary frontier",
     "Dedicated capacity costs more"
   ],
-  "bestFor": ["Production open-model serving", "Low-latency inference", "Fine-tuned deployments"],
-  "alternatives": ["together-ai", "baseten", "groq", "modal"]
+  "bestFor": ["ML engineers", "AI platform teams", "Production AI teams"],
+  "alternatives": ["together-ai", "baseten", "groq", "modal"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }
