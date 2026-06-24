@@ -36,6 +36,14 @@
     "Quality depends on manual curation",
     "Does not host the servers itself"
   ],
-  "bestFor": ["Finding MCP servers", "Tracking the MCP ecosystem", "MCP developers"],
-  "alternatives": ["mcp-so", "glama", "smithery"]
+  "bestFor": ["MCP developers", "AI engineers", "Agent builders"],
+  "alternatives": ["mcp-so", "glama", "smithery"],
+  "capabilities": [
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

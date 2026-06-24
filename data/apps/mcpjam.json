@@ -16,9 +16,19 @@
   },
   "tags": ["mcp", "inspector", "debugging", "testing", "evals"],
   "links": [
-    { "kind": "website", "url": "https://www.mcpjam.com", "primary": true },
-    { "kind": "github", "url": "https://github.com/MCPJam/inspector" },
-    { "kind": "docs", "url": "https://docs.mcpjam.com" }
+    {
+      "kind": "website",
+      "url": "https://www.mcpjam.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/MCPJam/inspector"
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.mcpjam.com"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 977,
@@ -37,13 +47,21 @@
     "Young, fast-moving project",
     "Requires Node 20+ locally"
   ],
-  "bestFor": ["MCP server developers", "Debugging agent tools", "Testing ChatGPT apps"],
+  "bestFor": ["MCP server developers", "AI engineers"],
   "references": [
     {
       "title": "Testing MCP servers with MCPJam Inspector",
       "url": "https://dev.to/therabbithole/testing-mcp-servers-like-a-pro-using-mcpjam-inspector-22ka",
       "source": "DEV Community",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

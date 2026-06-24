@@ -41,7 +41,7 @@
     "$1 per additional review",
     "Free tier only for qualified OSS"
   ],
-  "bestFor": ["Large codebases", "GitHub/GitLab teams", "High-PR-volume teams"],
+  "bestFor": ["Large-codebase teams", "GitHub/GitLab orgs", "High-PR-volume teams"],
   "alternatives": ["coderabbit", "qodo", "github-copilot"],
   "references": [
     {
@@ -55,6 +55,17 @@
       "url": "https://dev.to/heraldofsolace/the-best-ai-code-review-tools-of-2026-2mb3",
       "source": "DEV Community",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

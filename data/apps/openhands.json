@@ -47,6 +47,23 @@
     "Sandbox infra adds compute cost",
     "Less polished than commercial peers"
   ],
-  "bestFor": ["Self-hosted SWE agents", "Researchers", "Privacy-sensitive teams"],
-  "alternatives": ["devin", "cline", "factory-ai", "aider"]
+  "bestFor": ["Researchers", "Privacy-sensitive teams", "Self-hosting platform teams"],
+  "alternatives": ["devin", "cline", "factory-ai", "aider"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

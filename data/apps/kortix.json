@@ -41,6 +41,23 @@
     "Enterprise agent-as-code model has a learning curve",
     "Managed cloud is seat plus usage priced"
   ],
-  "bestFor": ["Internal company agents", "Self-hosted deployments", "Regulated environments"],
-  "alternatives": ["manus", "dify", "lindy", "relevance-ai"]
+  "bestFor": ["Internal company agents", "Enterprise platform teams", "Regulated environments"],
+  "alternatives": ["manus", "dify", "lindy", "relevance-ai"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "agentic-coding"
+    }
+  ]
 }

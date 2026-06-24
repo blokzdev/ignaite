@@ -45,6 +45,20 @@
     "Lighter on agent orchestration",
     "Tied to Vercel's release cadence"
   ],
-  "bestFor": ["TypeScript apps", "Next.js chat UIs", "Streaming LLM frontends"],
-  "alternatives": ["langchain", "llamaindex", "mastra", "pydantic-ai"]
+  "bestFor": ["TypeScript developers", "Next.js teams", "Full-stack engineers"],
+  "alternatives": ["langchain", "llamaindex", "mastra", "pydantic-ai"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "embeddings"
+    }
+  ]
 }

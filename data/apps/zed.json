@@ -49,6 +49,17 @@
     "Some language tooling less mature",
     "Best on macOS, Linux catching up"
   ],
-  "bestFor": ["Performance-focused devs", "Open-source purists", "Bring-your-own-agent setups"],
-  "alternatives": ["cursor", "windsurf", "github-copilot", "continue"]
+  "bestFor": ["Performance-focused devs", "Open-source purists", "Bring-your-own-agent devs"],
+  "alternatives": ["cursor", "windsurf", "github-copilot", "continue"],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "ide-integration"
+    }
+  ]
 }

@@ -42,7 +42,7 @@
     "MIT-licensed open codebase"
   ],
   "cons": ["No free tier beyond a 14-day trial", "Per-seat cost scales with org size"],
-  "bestFor": ["Enterprise AI rollouts", "Internal knowledge agents", "Cross-team agent sharing"],
+  "bestFor": ["Enterprise platform teams", "Knowledge & ops teams", "Mid-market orgs"],
   "alternatives": ["glean", "lindy", "relevance-ai", "crewai"],
   "references": [
     {
@@ -56,6 +56,26 @@
       "url": "https://finance.yahoo.com/sectors/technology/articles/dust-raises-40m-ai-multiplayer-133000633.html",
       "source": "Yahoo Finance",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

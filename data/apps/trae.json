@@ -47,7 +47,7 @@
     "Younger ecosystem than Cursor",
     "Usage limits on free tier"
   ],
-  "bestFor": ["Budget-conscious devs", "VS Code users", "Trying agentic IDEs free"],
+  "bestFor": ["Budget-conscious devs", "VS Code users", "Solo builders"],
   "alternatives": ["cursor", "windsurf", "github-copilot", "zed"],
   "references": [
     {
@@ -55,6 +55,17 @@
       "url": "https://www.theregister.com/2025/07/28/bytedance_trae_telemetry/",
       "source": "The Register",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "code-generation"
     }
   ]
 }

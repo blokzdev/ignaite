@@ -51,6 +51,23 @@
     "Usage limits on lower tiers",
     "Smaller extension base than VS Code"
   ],
-  "bestFor": ["Multi-file refactors", "Agent-first coding", "Cursor alternative seekers"],
-  "alternatives": ["cursor", "github-copilot", "trae", "zed"]
+  "bestFor": ["Professional software engineers", "IDE-centric devs", "Teams scaling agents"],
+  "alternatives": ["cursor", "github-copilot", "trae", "zed"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

@@ -45,6 +45,26 @@
     "LlamaCloud parsing is paid",
     "API churn between versions"
   ],
-  "bestFor": ["RAG pipelines", "Document workflows", "Data-heavy LLM apps"],
-  "alternatives": ["langchain", "langgraph", "crewai", "dify"]
+  "bestFor": ["Python developers", "AI engineers", "Data teams"],
+  "alternatives": ["langchain", "langgraph", "crewai", "dify"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

@@ -37,6 +37,17 @@
     "RL accuracy claims are self-reported",
     "On-prem needs custom setup"
   ],
-  "bestFor": ["Cross-app automation", "Privacy-sensitive teams", "Ops + knowledge workers"],
-  "alternatives": ["manus", "genspark", "lindy", "gumloop"]
+  "bestFor": ["Ops + knowledge workers", "Privacy-sensitive teams", "Enterprise teams"],
+  "alternatives": ["manus", "genspark", "lindy", "gumloop"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

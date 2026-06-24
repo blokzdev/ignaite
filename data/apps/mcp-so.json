@@ -41,6 +41,11 @@
     "Overlaps the official MCP registry",
     "Listing quality not fully vetted"
   ],
-  "bestFor": ["Discovering MCP servers", "Claude Desktop users", "MCP tool builders"],
-  "alternatives": ["smithery", "glama", "context7"]
+  "bestFor": ["AI engineers", "MCP tool builders", "Claude Desktop users"],
+  "alternatives": ["smithery", "glama", "context7"],
+  "capabilities": [
+    {
+      "id": "mcp-gateway"
+    }
+  ]
 }

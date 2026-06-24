@@ -33,6 +33,26 @@
     "Output quality varies by task",
     "Crowded agent-suite market"
   ],
-  "bestFor": ["Knowledge workers", "Slide and report drafting", "Researchers"],
-  "alternatives": ["manus", "genspark", "gamma"]
+  "bestFor": ["Knowledge workers", "Researchers", "Enterprise teams"],
+  "alternatives": ["manus", "genspark", "gamma"],
+  "capabilities": [
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "app-builder"
+    }
+  ]
 }

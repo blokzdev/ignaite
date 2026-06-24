@@ -40,7 +40,7 @@
     "Pricing still finalizing post-preview",
     "Smaller ecosystem than Cursor"
   ],
-  "bestFor": ["Agentic coding", "Whole-task delegation", "Codebase exploration"],
+  "bestFor": ["Software developers", "Engineering teams"],
   "alternatives": ["cursor", "windsurf", "trae", "kiro"],
   "references": [
     {
@@ -54,6 +54,23 @@
       "url": "https://jimmysong.io/blog/qoder-alibaba-ai-ide-personal-review/",
       "source": "Jimmy Song",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-documentation"
     }
   ]
 }

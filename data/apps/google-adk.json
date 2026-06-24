@@ -42,7 +42,7 @@
     "Younger than LangChain / LlamaIndex",
     "Enterprise features lean on Vertex AI"
   ],
-  "bestFor": ["Multi-agent systems", "Google Cloud / Gemini stacks", "Production agent deployment"],
+  "bestFor": ["Platform engineers", "Google Cloud / Gemini teams", "Enterprise dev teams"],
   "alternatives": ["langgraph", "crewai", "agno", "microsoft-agent-framework"],
   "references": [
     {
@@ -56,6 +56,26 @@
       "url": "https://devops.com/google-launches-agent-development-kit-for-typescript-a-code-first-approach-to-building-ai-agents/",
       "source": "DevOps.com",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "voice-agent"
     }
   ]
 }

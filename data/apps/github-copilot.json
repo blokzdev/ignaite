@@ -46,7 +46,7 @@
     "Agent quality trails dedicated tools",
     "Closed source"
   ],
-  "bestFor": ["GitHub-centric teams", "Multi-IDE shops", "In-editor completions"],
+  "bestFor": ["GitHub-centric teams", "Multi-IDE shops", "Enterprise dev teams"],
   "alternatives": ["cursor", "windsurf", "claude-code", "tabnine"],
   "references": [
     {
@@ -54,6 +54,23 @@
       "url": "https://en.wikipedia.org/wiki/GitHub_Copilot",
       "source": "Wikipedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "terminal-cli-agent"
     }
   ]
 }

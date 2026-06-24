@@ -40,7 +40,7 @@
     "Optimizers can add compute and cost",
     "Smaller ecosystem than LangChain"
   ],
-  "bestFor": ["LLM pipelines", "RAG and agents", "Prompt optimization"],
+  "bestFor": ["Python developers", "ML/AI engineers", "Researchers"],
   "alternatives": ["langchain", "langgraph", "llamaindex", "pydantic-ai"],
   "references": [
     {
@@ -48,6 +48,17 @@
       "url": "https://www.infoworld.com/article/3956455/dspy-an-open-source-framework-for-llm-powered-applications.html",
       "source": "InfoWorld",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }

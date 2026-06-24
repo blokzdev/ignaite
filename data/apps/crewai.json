@@ -45,6 +45,17 @@
     "Less flexible than graph frameworks",
     "Debugging multi-agent runs is hard"
   ],
-  "bestFor": ["Multi-agent pipelines", "Research + content crews"],
-  "alternatives": ["langgraph", "llamaindex", "dify"]
+  "bestFor": ["Python developers", "AI engineers"],
+  "alternatives": ["langgraph", "llamaindex", "dify"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

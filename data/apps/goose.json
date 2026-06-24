@@ -45,6 +45,26 @@
     "Recipe system has a learning curve",
     "No built-in IDE integration"
   ],
-  "bestFor": ["Tinkerers / power users", "Teams sharing one API key"],
-  "alternatives": ["openhands", "open-interpreter", "cline", "claude-code"]
+  "bestFor": ["Tinkerers / power users", "Terminal-native devs", "Teams sharing one API key"],
+  "alternatives": ["openhands", "open-interpreter", "cline", "claude-code"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

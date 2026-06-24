@@ -41,6 +41,17 @@
     "Not aimed at individual users",
     "Setup needs process documentation"
   ],
-  "bestFor": ["Enterprise operations", "Back-office automation", "Finance & HR teams"],
-  "alternatives": ["lindy", "gumloop", "sim"]
+  "bestFor": ["Enterprise ops teams", "Finance & HR teams", "Large enterprises"],
+  "alternatives": ["lindy", "gumloop", "sim"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "document-extraction"
+    }
+  ]
 }

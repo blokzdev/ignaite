@@ -47,6 +47,23 @@
     "Black-box debugging at scale",
     "Frequent breaking API churn"
   ],
-  "bestFor": ["Complex multi-step chains", "Prototyping LLM apps", "Teams new to LLMs"],
-  "alternatives": ["llamaindex", "langgraph", "crewai", "vercel-ai-sdk"]
+  "bestFor": ["Python developers", "TypeScript developers", "Teams new to LLMs"],
+  "alternatives": ["llamaindex", "langgraph", "crewai", "vercel-ai-sdk"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

@@ -39,9 +39,26 @@
     "Code execution needs careful sandboxing",
     "Smaller feature surface than larger frameworks"
   ],
-  "bestFor": ["Lightweight agents", "Code-first tool use", "Hugging Face users"],
+  "bestFor": ["Python developers", "Hugging Face users", "ML researchers"],
   "alternatives": ["langgraph", "crewai", "pydantic-ai"],
   "addedAt": "2026-06-20",
   "addedSeq": 912,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

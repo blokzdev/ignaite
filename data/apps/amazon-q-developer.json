@@ -41,7 +41,7 @@
     "Less compelling for non-AWS stacks",
     "Smaller community than GitHub Copilot"
   ],
-  "bestFor": ["AWS developers", "Java/.NET upgrades", "Cloud troubleshooting"],
+  "bestFor": ["AWS developers", "Enterprise cloud teams"],
   "alternatives": ["github-copilot", "cursor", "tabnine", "augment-code"],
   "references": [
     {
@@ -49,6 +49,26 @@
       "url": "https://www.superblocks.com/blog/amazon-qdeveloper-pricing",
       "source": "Superblocks",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "terminal-cli-agent"
     }
   ]
 }

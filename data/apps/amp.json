@@ -44,6 +44,20 @@
     "Newer than Cursor/Copilot",
     "Best value tied to Sourcegraph workflows"
   ],
-  "bestFor": ["Sourcegraph teams", "Collaborative agent sessions", "Terminal + editor users"],
-  "alternatives": ["cline", "claude-code", "cursor", "augment-code"]
+  "bestFor": ["Sourcegraph teams", "Terminal + editor devs"],
+  "alternatives": ["cline", "claude-code", "cursor", "augment-code"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "code-review"
+    }
+  ]
 }

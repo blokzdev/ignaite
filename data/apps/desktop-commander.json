@@ -41,6 +41,20 @@
     "Runs on your local machine only",
     "No managed/hosted option"
   ],
-  "bestFor": ["Local automation", "Hands-on coding agents", "MCP power users"],
-  "alternatives": ["composio", "context7", "smithery", "cline"]
+  "bestFor": ["MCP power users", "Developers", "Local automation tinkerers"],
+  "alternatives": ["composio", "context7", "smithery", "cline"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

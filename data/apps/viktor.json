@@ -37,6 +37,26 @@
     "Credit/usage costs can add up",
     "Enterprise governance still maturing"
   ],
-  "bestFor": ["Founders & small teams", "Cross-tool automation", "Slack/Teams-first orgs"],
-  "alternatives": ["manus", "lindy", "gumloop", "pokee"]
+  "bestFor": ["Founders & small teams", "Ops teams", "Marketing teams"],
+  "alternatives": ["manus", "lindy", "gumloop", "pokee"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "crm-automation"
+    }
+  ]
 }

@@ -40,6 +40,23 @@
     "Reviewable conversational edit loop"
   ],
   "cons": ["Best with OpenAI/GPT models", "Terminal-only, no full IDE", "Newer than rival CLIs"],
-  "bestFor": ["Terminal-first coders", "ChatGPT plan holders", "Repo-aware automation"],
-  "alternatives": ["claude-code", "gemini-cli", "aider", "cline"]
+  "bestFor": ["Terminal-first coders", "ChatGPT plan holders", "OpenAI-stack devs"],
+  "alternatives": ["claude-code", "gemini-cli", "aider", "cline"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

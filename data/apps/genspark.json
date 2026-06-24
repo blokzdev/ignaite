@@ -38,6 +38,26 @@
     "Credit-metered; can burn fast",
     "Less transparent than single-model tools"
   ],
-  "bestFor": ["All-in-one workspace", "Autonomous task runs", "Mixed-output projects"],
-  "alternatives": ["manus", "chatgpt", "perplexity", "gemini"]
+  "bestFor": ["Solo founders", "Marketers", "Knowledge workers", "Generalists"],
+  "alternatives": ["manus", "chatgpt", "perplexity", "gemini"],
+  "capabilities": [
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "web-research-agent"
+    }
+  ]
 }

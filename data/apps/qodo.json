@@ -46,6 +46,23 @@
     "Overlaps with native Copilot review",
     "Quality varies by repo size"
   ],
-  "bestFor": ["AI code review", "Test generation", "Multi-platform teams"],
-  "alternatives": ["coderabbit", "github-copilot", "cursor", "snyk"]
+  "bestFor": ["Engineering teams", "Multi-platform teams", "Enterprise dev orgs"],
+  "alternatives": ["coderabbit", "github-copilot", "cursor", "snyk"],
+  "capabilities": [
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "terminal-cli-agent"
+    }
+  ]
 }

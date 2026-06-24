@@ -43,9 +43,26 @@
     "Deepest integration is with AWS/Bedrock",
     "TypeScript SDK trails the Python one"
   ],
-  "bestFor": ["Production agents", "AWS/Bedrock stacks", "MCP tool use"],
+  "bestFor": ["AWS/Bedrock stacks", "Platform engineering teams"],
   "alternatives": ["langgraph", "crewai", "agno"],
   "addedAt": "2026-06-20",
   "addedSeq": 913,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

@@ -36,7 +36,7 @@
     "Less control than hand-coding",
     "Newer platform, smaller ecosystem"
   ],
-  "bestFor": ["Non-technical founders", "Small business apps", "Rapid prototyping"],
+  "bestFor": ["Non-technical founders", "Small business owners", "Solo builders"],
   "alternatives": ["lovable", "bolt-new", "base44", "replit"],
   "references": [
     {
@@ -44,6 +44,20 @@
       "url": "https://techcrunch.com/2026/01/20/indian-vibe-coding-startup-emergent-raises-70m-at-300m-valuation-from-softbank-khosla-ventures/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "agent-orchestration"
     }
   ]
 }

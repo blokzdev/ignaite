@@ -43,6 +43,17 @@
     "Premium-priced",
     "Reliability varies on complex tickets"
   ],
-  "bestFor": ["Long-horizon tickets", "Async delegation", "Hands-off coding"],
-  "alternatives": ["factory-ai", "cline", "openhands", "jules"]
+  "bestFor": ["Engineering teams", "Hands-off delegators", "Platform teams"],
+  "alternatives": ["factory-ai", "cline", "openhands", "jules"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

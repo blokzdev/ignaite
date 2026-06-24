@@ -41,6 +41,20 @@
     "Tilts toward the Azure ecosystem",
     "Smaller community than LangChain"
   ],
-  "bestFor": [".NET teams", "Enterprise agent systems", "Multi-agent workflows"],
-  "alternatives": ["langgraph", "crewai", "pydantic-ai", "agno"]
+  "bestFor": [".NET teams", "Enterprise teams", "Python developers"],
+  "alternatives": ["langgraph", "crewai", "pydantic-ai", "agno"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

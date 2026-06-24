@@ -41,6 +41,17 @@
     "Opinionated over the low-level SDK",
     "Still maturing API surface"
   ],
-  "bestFor": ["MCP app developers", "Building tool-using agents", "Connecting LLMs to MCP servers"],
-  "alternatives": ["fastmcp", "composio", "toolhouse", "arcade"]
+  "bestFor": ["MCP app developers", "Python developers", "TypeScript developers"],
+  "alternatives": ["fastmcp", "composio", "toolhouse", "arcade"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

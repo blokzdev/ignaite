@@ -45,6 +45,23 @@
     "Python-only",
     "Heavier than minimal agent libraries"
   ],
-  "bestFor": ["Production RAG systems", "Python teams", "Search applications"],
-  "alternatives": ["langchain", "llamaindex", "langgraph", "crewai"]
+  "bestFor": ["Python teams", "ML engineers", "Search app builders"],
+  "alternatives": ["langchain", "llamaindex", "langgraph", "crewai"],
+  "capabilities": [
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "vector-search"
+    }
+  ]
 }

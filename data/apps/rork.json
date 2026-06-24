@@ -36,7 +36,7 @@
     "Higher tiers are credit-limited",
     "Premium native builder is $200+/mo"
   ],
-  "bestFor": ["Indie app makers", "Mobile prototyping", "Non-coders shipping to stores"],
+  "bestFor": ["Indie app makers", "Non-coders", "Solo founders"],
   "alternatives": ["lovable", "bolt-new", "v0", "base44"],
   "references": [
     {
@@ -44,6 +44,14 @@
       "url": "https://pulse2.com/rork-15-million-raised-for-ai-mobile-app-creation-platform/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "code-generation"
     }
   ]
 }

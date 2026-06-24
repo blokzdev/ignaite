@@ -44,7 +44,7 @@
     "Docker Desktop paid for large orgs",
     "Newer than community registries"
   ],
-  "bestFor": ["Secure MCP tool access", "Running MCP servers locally", "Docker-based dev"],
+  "bestFor": ["Developers", "Platform/security teams", "Docker-based teams"],
   "alternatives": ["smithery", "glama", "composio", "toolhouse"],
   "references": [
     {
@@ -52,6 +52,11 @@
       "url": "https://nordicapis.com/7-mcp-registries-worth-checking-out/",
       "source": "Nordic APIs",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "mcp-gateway"
     }
   ]
 }

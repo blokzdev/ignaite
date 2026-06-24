@@ -42,7 +42,7 @@
     "Useful only with paid agent subscriptions",
     "Young, fast-changing product"
   ],
-  "bestFor": ["Mac developers", "Parallel agent workflows", "Claude Code power users"],
+  "bestFor": ["Mac developers", "Claude Code power users"],
   "alternatives": ["claude-code", "crush", "cline", "kilo-code"],
   "references": [
     {
@@ -50,6 +50,11 @@
       "url": "https://madewithlove.com/blog/conductor-running-multiple-ai-coding-agents-in-parallel/",
       "source": "madewithlove",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-orchestration"
     }
   ]
 }

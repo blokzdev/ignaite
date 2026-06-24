@@ -38,7 +38,7 @@
     "Heavier than a single MCP server",
     "Enterprise-oriented complexity"
   ],
-  "bestFor": ["Enterprise MCP fleets", "Self-hosted teams"],
+  "bestFor": ["Enterprise platform teams", "Self-hosted infra teams"],
   "alternatives": ["smithery", "glama", "toolhouse", "composio"],
   "references": [
     {
@@ -46,6 +46,20 @@
       "url": "https://bytebridge.medium.com/mcp-gateways-in-2026-top-10-tools-for-ai-agents-and-workflows-d98f54c3577a",
       "source": "ByteBridge",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "prompt-management"
     }
   ]
 }

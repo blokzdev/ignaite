@@ -45,9 +45,17 @@
     "Free tier caps tool calls",
     "Tool quality varies by integration"
   ],
-  "bestFor": ["Agent tool access", "SaaS integrations"],
+  "bestFor": ["AI agent builders", "Developers", "Agent platform teams"],
   "alternatives": ["arcade", "smithery", "glama", "context7"],
   "featured": true,
   "featuredAt": "2026-06-21",
-  "accentColor": "#6366F1"
+  "accentColor": "#6366F1",
+  "capabilities": [
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "mcp-gateway"
+    }
+  ]
 }

@@ -43,7 +43,7 @@
     "Anthropic models only",
     "Long agentic runs can burn plan usage limits"
   ],
-  "bestFor": ["Knowledge workers", "Ops and finance teams", "Report and file automation"],
+  "bestFor": ["Knowledge workers", "Ops and finance teams", "Enterprise teams"],
   "alternatives": ["manus", "genspark", "openclaw"],
   "references": [
     {
@@ -57,6 +57,23 @@
       "url": "https://winbuzzer.com/2026/03/10/microsoft-copilot-cowork-anthropic-claude-m365-agent-xcxwbn/",
       "source": "WinBuzzer",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

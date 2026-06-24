@@ -39,5 +39,25 @@
   ],
   "cons": ["Closed source", "Paid only, no free tier", "Completions trail frontier rivals"],
   "bestFor": ["Privacy-first enterprises", "Regulated industries", "On-prem deployments"],
-  "alternatives": ["github-copilot", "tabby", "continue", "cursor"]
+  "alternatives": ["github-copilot", "tabby", "continue", "cursor"],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "code-documentation"
+    },
+    {
+      "id": "terminal-cli-agent"
+    }
+  ]
 }

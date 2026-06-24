@@ -46,7 +46,7 @@
     "Less granular than pure-code frameworks",
     "Still maturing post-acquisition"
   ],
-  "bestFor": ["Rapid prototyping", "Visual builders", "RAG and agent demos"],
+  "bestFor": ["Visual / low-code builders", "AI prototypers", "Citizen developers"],
   "alternatives": ["flowise", "dify", "n8n", "langchain"],
   "references": [
     {
@@ -54,6 +54,26 @@
       "url": "https://thenewstack.io/ibm-to-acquire-datastax-to-boost-watsonx-ai-development/",
       "source": "The New Stack",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "tool-calling"
     }
   ]
 }

@@ -47,6 +47,26 @@
     "Overkill for small projects",
     "Indexing/privacy considerations for big repos"
   ],
-  "bestFor": ["Enterprise monorepos", "Large engineering teams", "Cross-repo codebases"],
-  "alternatives": ["cursor", "windsurf", "github-copilot", "amp"]
+  "bestFor": ["Large engineering teams", "Enterprise dev orgs", "Multi-repo teams"],
+  "alternatives": ["cursor", "windsurf", "github-copilot", "amp"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

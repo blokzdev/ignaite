@@ -38,6 +38,26 @@
     "MCP support, Logfire observability"
   ],
   "cons": ["Python-only", "Younger than LangChain/LlamaIndex", "Smaller ecosystem of integrations"],
-  "bestFor": ["Python agent builders", "Type-safe outputs", "Production agents"],
-  "alternatives": ["langgraph", "crewai", "llamaindex", "mastra"]
+  "bestFor": ["Python agent builders", "Backend engineers"],
+  "alternatives": ["langgraph", "crewai", "llamaindex", "mastra"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

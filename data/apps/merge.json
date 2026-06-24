@@ -48,6 +48,14 @@
     "Agent Handler is tool-calls only, no syncs",
     "Coverage varies by integration"
   ],
-  "bestFor": ["SaaS products adding integrations", "Agent tool-calling", "Enterprise teams"],
-  "alternatives": ["composio", "pipedream", "activepieces", "n8n"]
+  "bestFor": ["SaaS product teams", "Enterprise teams", "Platform engineers"],
+  "alternatives": ["composio", "pipedream", "activepieces", "n8n"],
+  "capabilities": [
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "llm-gateway"
+    }
+  ]
 }

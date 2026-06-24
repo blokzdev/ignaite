@@ -47,6 +47,26 @@
     "Token usage can get expensive",
     "Terminal-first learning curve"
   ],
-  "bestFor": ["Agentic coding", "Terminal-native devs", "PR automation"],
-  "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"]
+  "bestFor": ["Terminal-native devs", "Software engineers", "Engineering teams"],
+  "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "test-generation"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

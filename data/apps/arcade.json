@@ -41,6 +41,17 @@
     "Setup needed per integration",
     "Free tier limited"
   ],
-  "bestFor": ["Authenticated agent actions", "Multi-user agent apps", "Secure tool-calling"],
-  "alternatives": ["composio", "smithery", "glama"]
+  "bestFor": ["AI engineers", "Multi-user agent builders", "Platform teams"],
+  "alternatives": ["composio", "smithery", "glama"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

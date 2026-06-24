@@ -38,10 +38,11 @@
     "Requires Docker/infra to operate",
     "Young project, evolving fast"
   ],
-  "bestFor": [
-    "Teams running many MCP servers",
-    "Securing MCP behind auth",
-    "Self-hosted MCP deployments"
-  ],
-  "alternatives": ["composio", "klavis-ai", "smithery", "docker-mcp"]
+  "bestFor": ["Platform teams", "Self-hosters", "AI engineers"],
+  "alternatives": ["composio", "klavis-ai", "smithery", "docker-mcp"],
+  "capabilities": [
+    {
+      "id": "mcp-gateway"
+    }
+  ]
 }

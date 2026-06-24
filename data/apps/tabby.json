@@ -43,5 +43,16 @@
   ],
   "cons": ["Needs your own GPU", "Smaller models than cloud rivals", "Setup and ops overhead"],
   "bestFor": ["Self-hosted teams", "Air-gapped/regulated orgs", "Data-control-first devs"],
-  "alternatives": ["continue", "tabnine", "github-copilot"]
+  "alternatives": ["continue", "tabnine", "github-copilot"],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

@@ -47,6 +47,26 @@
     "Self-host ops overhead",
     "Cloud tiers needed for scale"
   ],
-  "bestFor": ["LLM app prototyping", "RAG pipelines", "Self-hosted LLMOps"],
-  "alternatives": ["flowise", "n8n", "langchain", "langgraph"]
+  "bestFor": ["LLM app developers", "Startups", "Enterprise teams"],
+  "alternatives": ["flowise", "n8n", "langchain", "langgraph"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }
