@@ -34,7 +34,7 @@
     "Best ROI needs high site traffic",
     "B2B / ABM focus only"
   ],
-  "bestFor": ["B2B marketing teams", "Account-based marketing", "Demand-gen / GTM teams"],
+  "bestFor": ["B2B marketing teams", "GTM / demand-gen teams", "Enterprise sales teams"],
   "alternatives": ["clay", "typeface", "jasper", "airops"],
   "references": [
     {
@@ -42,6 +42,17 @@
       "url": "https://techcrunch.com/2022/04/20/mutiny-which-personalizes-website-copy-and-headlines-using-ai-raises-50m/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "ad-creative-generation"
     }
   ]
 }

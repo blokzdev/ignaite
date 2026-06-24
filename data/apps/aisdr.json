@@ -35,7 +35,7 @@
     "Longer setup; needs a defined ICP",
     "Output quality depends on data inputs"
   ],
-  "bestFor": ["B2B outbound", "Lean sales teams"],
+  "bestFor": ["Lean B2B sales teams", "SMB/startup sales", "Founders"],
   "alternatives": ["topo", "11x", "artisan", "amplemarket"],
   "references": [
     {
@@ -43,6 +43,20 @@
       "url": "https://www.saleshandy.com/blog/ai-sdr-tools/",
       "source": "Saleshandy",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

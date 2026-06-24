@@ -33,13 +33,30 @@
     "Pricing not public until signup",
     "Ads-focused, not general video"
   ],
-  "bestFor": ["Performance marketers", "DTC brands", "UGC ad testing"],
+  "bestFor": ["Performance marketers", "DTC brands", "Ad agencies"],
   "alternatives": ["heygen", "synthesia", "adcreative-ai"],
   "references": [
     {
       "title": "Arcads.ai Raises 16 Million USD in Seed Funding",
       "url": "https://finance.yahoo.com/news/arcads-ai-raises-16-million-171500044.html",
       "source": "Yahoo Finance"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "dubbing"
     }
   ]
 }

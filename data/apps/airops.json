@@ -37,6 +37,17 @@
     "Newer GEO category, metrics still maturing",
     "Overkill for small content teams"
   ],
-  "bestFor": ["Marketing teams", "AI-search (GEO) visibility", "Content at scale"],
-  "alternatives": ["surfer-seo", "clay"]
+  "bestFor": ["Marketing teams", "Content teams", "SEO/GEO leads"],
+  "alternatives": ["surfer-seo", "clay"],
+  "capabilities": [
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

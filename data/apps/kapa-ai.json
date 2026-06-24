@@ -43,7 +43,7 @@
     "Enterprise-oriented setup",
     "Answer quality depends on your docs"
   ],
-  "bestFor": ["Docs & support deflection", "Developer tools", "Technical products"],
+  "bestFor": ["Developer-tools companies", "Technical product teams", "Docs & support teams"],
   "alternatives": ["intercom-fin", "forethought", "ada-cx", "decagon"],
   "references": [
     {
@@ -51,6 +51,23 @@
       "url": "https://techcrunch.com/2024/10/03/how-kapa-uses-llms-to-help-companies-answer-users-technical-questions-reliably/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

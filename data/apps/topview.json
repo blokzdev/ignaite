@@ -41,7 +41,7 @@
     "Credit-metered plans",
     "Ads/UGC focus, not general video"
   ],
-  "bestFor": ["Ecommerce video ads", "UGC-style creative", "Amazon/Shopify sellers"],
+  "bestFor": ["Ecommerce sellers", "UGC creators", "Performance marketers"],
   "alternatives": ["creatify", "arcads", "heygen", "opus-clip"],
   "references": [
     {
@@ -55,6 +55,26 @@
       "url": "https://techstartups.com/2026/02/09/topview-unveils-collaborative-ai-content-platform-after-raising-5-5m-and-reaching-5m-users/",
       "source": "Tech Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "text-to-speech"
     }
   ]
 }

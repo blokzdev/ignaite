@@ -40,8 +40,28 @@
     "Pricier than basic AI writers",
     "Output still needs editing/fact-checking"
   ],
-  "bestFor": ["Marketing teams", "On-brand content at scale", "Agencies"],
+  "bestFor": ["Marketing teams", "Agencies", "Enterprise brand teams"],
   "alternatives": ["copy-ai", "writer", "rytr", "adcreative-ai"],
   "featured": true,
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

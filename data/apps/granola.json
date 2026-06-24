@@ -43,6 +43,20 @@
     "Free tier limits history and integrations",
     "Desktop-app dependent capture"
   ],
-  "bestFor": ["Back-to-back meetings", "Privacy-conscious calls"],
-  "alternatives": ["fathom", "otter-ai", "fireflies", "circleback"]
+  "bestFor": ["Privacy-conscious teams", "Founders & operators", "Consultants"],
+  "alternatives": ["fathom", "otter-ai", "fireflies", "circleback"],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

@@ -42,7 +42,7 @@
     "Post-merger platform consolidation ongoing",
     "Complex for small teams"
   ],
-  "bestFor": ["Mid-market & enterprise sales", "RevOps", "Conversation coaching"],
+  "bestFor": ["Mid-market & enterprise sales", "RevOps teams", "Sales managers"],
   "alternatives": ["outreach", "apollo", "gong", "amplemarket"],
   "references": [
     {
@@ -50,6 +50,20 @@
       "url": "https://www.forrester.com/blogs/clari-salesloft-merger-a-bold-high-stakes-bid-for-market-dominance/",
       "source": "Forrester",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

@@ -49,7 +49,7 @@
     "Outcome definitions are negotiated and can drift",
     "No self-serve or transparent pricing"
   ],
-  "bestFor": ["Enterprise CX", "Fortune 500 support", "Omnichannel agents"],
+  "bestFor": ["Enterprise CX teams", "Fortune 500"],
   "alternatives": ["decagon", "intercom-fin", "ada-cx", "maven-agi"],
   "references": [
     {
@@ -57,6 +57,20 @@
       "url": "https://techcrunch.com/2025/11/21/bret-taylors-sierra-reaches-100m-arr-in-under-two-years/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

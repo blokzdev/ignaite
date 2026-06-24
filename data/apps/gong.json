@@ -33,7 +33,7 @@
     "Overkill for very small teams",
     "Setup and onboarding overhead"
   ],
-  "bestFor": ["Enterprise sales teams", "Revenue operations", "Sales coaching", "Forecasting"],
+  "bestFor": ["Enterprise sales teams", "Revenue operations"],
   "alternatives": ["apollo", "nooks", "11x"],
   "references": [
     {
@@ -41,6 +41,23 @@
       "url": "https://techcrunch.com/2021/06/03/gong-going-gangbusters-grabs-250m-series-e-on-7-25b-valuation/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

@@ -35,6 +35,20 @@
     "Overkill for small teams",
     "Contact-center–specific scope"
   ],
-  "bestFor": ["Enterprise contact centers", "Financial services CX", "Voice + digital support"],
-  "alternatives": ["cresta", "sierra", "decagon", "cognigy"]
+  "bestFor": ["Enterprise contact centers", "Financial services CX", "Telecom & travel CX"],
+  "alternatives": ["cresta", "sierra", "decagon", "cognigy"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "agent-orchestration"
+    }
+  ]
 }

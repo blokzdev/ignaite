@@ -33,7 +33,7 @@
     "Heavy autonomy needs supervision",
     "Smaller dataset than incumbents"
   ],
-  "bestFor": ["SMB/mid-market outbound", "Lean sales teams", "AI BDR pilots"],
+  "bestFor": ["SMB & mid-market sales", "Lean sales teams", "RevOps"],
   "alternatives": ["11x", "amplemarket", "apollo"],
   "references": [
     {
@@ -41,6 +41,20 @@
       "url": "https://pulse2.com/artisan-25-million-series-a-raised-for-outbound-sales-platform/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

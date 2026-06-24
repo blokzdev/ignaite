@@ -11,7 +11,13 @@
   "platforms": ["web"],
   "accentColor": "#F59E0B",
   "tags": ["meeting", "notetaker", "project-management", "crm", "action-items"],
-  "links": [{ "kind": "website", "url": "https://www.nyota.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nyota.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 947,
   "lastVerifiedAt": "2026-06-20",
@@ -27,6 +33,20 @@
     "Joins calls as a bot participant",
     "Web-only client"
   ],
-  "bestFor": ["Project managers", "Cross-functional teams", "CRM/PM sync"],
-  "alternatives": ["fathom", "fireflies", "circleback", "supernormal"]
+  "bestFor": ["Project managers", "Cross-functional teams", "Consultancies / agencies"],
+  "alternatives": ["fathom", "fireflies", "circleback", "supernormal"],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "crm-automation"
+    }
+  ]
 }

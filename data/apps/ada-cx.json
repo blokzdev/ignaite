@@ -39,6 +39,20 @@
     "Enterprise-only — heavy for small teams",
     "Setup and integration effort"
   ],
-  "bestFor": ["Large enterprise support", "Omnichannel deflection"],
-  "alternatives": ["decagon", "sierra", "intercom-fin", "forethought"]
+  "bestFor": ["Large enterprises", "Enterprise CX teams"],
+  "alternatives": ["decagon", "sierra", "intercom-fin", "forethought"],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

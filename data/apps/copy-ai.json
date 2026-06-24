@@ -42,7 +42,7 @@
     "Growth tier jumps to $1,000/mo",
     "Broad scope can feel complex"
   ],
-  "bestFor": ["GTM/RevOps teams", "Sales + marketing ops", "Workflow automation"],
+  "bestFor": ["GTM/RevOps teams", "Sales & marketing teams", "Content teams"],
   "alternatives": ["jasper", "clay", "airops", "writer"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://www.capterra.com/p/236813/CopyAI/",
       "source": "Capterra",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "seo-optimization"
     }
   ]
 }

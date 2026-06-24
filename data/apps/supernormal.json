@@ -40,7 +40,7 @@
     "Sends a bot into the call",
     "Credit-based pricing can be hard to predict"
   ],
-  "bestFor": ["Agencies & client teams", "Back-to-back meetings", "Sales/CS calls"],
+  "bestFor": ["Agencies & client teams", "Sales/CS teams"],
   "alternatives": ["fathom", "fireflies", "otter-ai", "circleback"],
   "references": [
     {
@@ -48,6 +48,26 @@
       "url": "https://techcrunch.com/2023/01/25/supernormal-raises-10m-to-automatically-transcribe-and-summarize-meetings/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

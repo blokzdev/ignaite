@@ -36,6 +36,23 @@
     "Advanced AI gated behind paid plans",
     "Free tier limits CRM/integration depth"
   ],
-  "bestFor": ["Sales teams", "Free-tier note-taking", "Multilingual calls"],
-  "alternatives": ["fireflies", "otter-ai", "fathom", "read-ai"]
+  "bestFor": ["Sales teams", "Multilingual teams", "Customer success"],
+  "alternatives": ["fireflies", "otter-ai", "fathom", "read-ai"],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "crm-automation"
+    }
+  ]
 }

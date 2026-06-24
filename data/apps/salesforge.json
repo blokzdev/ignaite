@@ -12,9 +12,20 @@
   "accentColor": "#6C5CE7",
   "tags": ["sales", "ai-sdr", "cold-email", "outbound", "linkedin"],
   "links": [
-    { "kind": "website", "url": "https://www.salesforge.ai", "primary": true },
-    { "kind": "website", "url": "https://www.salesforge.ai/agent/frank", "label": "Agent Frank" },
-    { "kind": "pricing", "url": "https://www.salesforge.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.salesforge.ai",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://www.salesforge.ai/agent/frank",
+      "label": "Agent Frank"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.salesforge.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 943,
@@ -31,6 +42,20 @@
     "No permanent free tier (trial only)",
     "Reply quality reportedly weaker than top-of-funnel"
   ],
-  "bestFor": ["Outbound SDR teams", "Cold email + LinkedIn", "AI-assisted prospecting"],
-  "alternatives": ["artisan", "11x", "amplemarket", "clay"]
+  "bestFor": ["Outbound SDR teams", "B2B sales teams", "Lean GTM teams"],
+  "alternatives": ["artisan", "11x", "amplemarket", "clay"],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "calendar-scheduling"
+    }
+  ]
 }

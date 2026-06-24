@@ -42,5 +42,10 @@
     "Deep stack integration needs custom dev"
   ],
   "bestFor": ["Shopify DTC brands", "Ecommerce support teams"],
-  "alternatives": ["intercom-fin", "decagon", "forethought", "maven-agi"]
+  "alternatives": ["intercom-fin", "decagon", "forethought", "maven-agi"],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    }
+  ]
 }

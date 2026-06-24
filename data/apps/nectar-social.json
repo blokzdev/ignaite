@@ -32,13 +32,24 @@
     "Young company, still proving scale",
     "Centered on consumer/DTC social channels"
   ],
-  "bestFor": ["Consumer/DTC brands", "Social commerce teams"],
+  "bestFor": ["Consumer/DTC brands", "Social commerce teams", "Community managers"],
   "references": [
     {
       "title": "Nectar Social buzzes out of stealth with $10.6M backing from GV, True Ventures",
       "url": "https://fortune.com/2025/06/05/nectar-social-buzzes-out-of-stealth-with-10-6-million-backing-from-gv-and-true-ventures/",
       "source": "Fortune",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "recommendation"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

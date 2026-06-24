@@ -41,7 +41,7 @@
     "Needs ~20k historical tickets to perform",
     "30-90 day setup; enterprise-focused"
   ],
-  "bestFor": ["Large support teams", "Zendesk-centric stacks", "High-volume deflection"],
+  "bestFor": ["Large support teams", "Zendesk-centric stacks"],
   "alternatives": ["decagon", "sierra", "intercom-fin", "maven-agi"],
   "references": [
     {
@@ -49,6 +49,11 @@
       "url": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
     }
   ]
 }

@@ -37,7 +37,7 @@
     "Less brand recognition than rivals",
     "Notes quality leans on automation setup"
   ],
-  "bestFor": ["Action-item automation", "Cross-tool meeting workflows"],
+  "bestFor": ["Sales & CS teams", "Project/ops teams", "Cross-functional teams"],
   "alternatives": ["granola", "fathom", "fireflies", "otter-ai"],
   "references": [
     {
@@ -49,5 +49,22 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#34D399"
+  "accentColor": "#34D399",
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

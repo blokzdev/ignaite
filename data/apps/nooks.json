@@ -33,7 +33,7 @@
     "Newer entrant",
     "Best ROI needs call-heavy motion"
   ],
-  "bestFor": ["High-volume SDR teams", "Cold calling", "Sales coaching"],
+  "bestFor": ["SDR / BDR teams", "High-volume sales teams", "Sales leaders"],
   "alternatives": ["11x", "gong", "apollo"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://www.prnewswire.com/news-releases/nooks-announces-43m-series-b-and-launches-ai-sales-assistant-platform-302285425.html",
       "source": "PR Newswire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "lead-enrichment"
     }
   ]
 }

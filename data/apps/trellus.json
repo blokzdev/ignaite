@@ -12,8 +12,15 @@
   "accentColor": "#1FB6A6",
   "tags": ["sales", "dialer", "call-coaching", "sdr", "outbound"],
   "links": [
-    { "kind": "website", "url": "https://www.trellus.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.trellus.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.trellus.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.trellus.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 944,
@@ -30,6 +37,14 @@
     "Value tied to high call volume",
     "Coaching quality varies by call audio"
   ],
-  "bestFor": ["SDR/BDR cold calling", "Live call coaching", "Parallel dialing"],
-  "alternatives": ["nooks", "apollo", "salesloft", "outreach"]
+  "bestFor": ["SDR/BDR teams", "High-volume callers", "Sales managers"],
+  "alternatives": ["nooks", "apollo", "salesloft", "outreach"],
+  "capabilities": [
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

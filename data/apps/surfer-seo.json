@@ -36,6 +36,14 @@
     "Add-ons inflate the cost",
     "On-page focus, not technical SEO"
   ],
-  "bestFor": ["SEO content teams", "Agencies", "On-page optimization"],
-  "alternatives": ["airops", "writer"]
+  "bestFor": ["SEO content teams", "Agencies", "In-house marketers"],
+  "alternatives": ["airops", "writer"],
+  "capabilities": [
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "long-form-writing"
+    }
+  ]
 }

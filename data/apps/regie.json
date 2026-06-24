@@ -28,7 +28,7 @@
     "Human-in-the-loop control"
   ],
   "cons": ["Opaque pricing", "Crowded category", "Demo-led sales", "Output needs review"],
-  "bestFor": ["Outbound SDR teams", "Pipeline generation", "GTM automation"],
+  "bestFor": ["Outbound SDR teams", "RevOps teams", "B2B sales teams"],
   "alternatives": ["11x", "artisan", "clay", "amplemarket"],
   "references": [
     {
@@ -36,6 +36,17 @@
       "url": "https://reply.io/blog/regie-ai-review/",
       "source": "Reply.io",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

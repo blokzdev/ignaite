@@ -39,7 +39,7 @@
     "Ad product is early",
     "Overlaps with SEO tooling"
   ],
-  "bestFor": ["Enterprise brand marketers", "AI visibility measurement", "GEO content teams"],
+  "bestFor": ["Enterprise brand marketers", "Brand & comms teams", "Performance marketers"],
   "alternatives": ["profound", "peec-ai"],
   "references": [
     {
@@ -47,6 +47,11 @@
       "url": "https://www.thesaasnews.com/news/evertune-raises-15-million-in-series-a",
       "source": "The SaaS News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "seo-optimization"
     }
   ]
 }

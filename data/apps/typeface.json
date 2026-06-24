@@ -41,7 +41,7 @@
     "Overkill for solo/small teams",
     "Sales-led onboarding (demo only)"
   ],
-  "bestFor": ["Enterprise marketing teams", "On-brand content at scale", "Regulated brands"],
+  "bestFor": ["Enterprise marketing teams", "Regulated brands", "Brand & creative teams"],
   "alternatives": ["jasper", "copy-ai", "airops", "mutiny"],
   "references": [
     {
@@ -55,6 +55,23 @@
       "url": "https://theaiagentindex.com/agents/typeface",
       "source": "The AI Agent Index",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

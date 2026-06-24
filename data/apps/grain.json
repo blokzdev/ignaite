@@ -37,7 +37,7 @@
     "Coaching and CRM features gated to Business",
     "One notetaker seat on the free tier"
   ],
-  "bestFor": ["Sales and customer calls", "Meeting highlight reels", "Revenue teams"],
+  "bestFor": ["Revenue teams", "Sales teams", "Customer-facing teams"],
   "alternatives": ["fathom", "fireflies", "otter-ai", "granola"],
   "references": [
     {
@@ -45,6 +45,26 @@
       "url": "https://techcrunch.com/2022/04/12/grain-lands-16m-led-by-tiger-global-to-turn-virtual-meetings-into-libraries/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

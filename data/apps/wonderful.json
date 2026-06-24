@@ -52,5 +52,16 @@
       "source": "TechCrunch",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "localization"
+    }
   ]
 }

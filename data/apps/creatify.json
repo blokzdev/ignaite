@@ -36,7 +36,7 @@
     "API discounts need Enterprise",
     "Ad-focused, not general video"
   ],
-  "bestFor": ["DTC and ecommerce ads", "Marketers testing at scale", "Agencies"],
+  "bestFor": ["DTC & ecommerce marketers", "Performance marketers", "Creative agencies"],
   "alternatives": ["arcads", "topview", "heygen", "adcreative-ai"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://pulse2.com/creatify-15-5-million-series-a-raised-for-ai-ad-agent-for-video/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "video-editing"
     }
   ]
 }

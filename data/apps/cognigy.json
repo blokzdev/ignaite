@@ -18,8 +18,15 @@
   "accentColor": "#1A4BFF",
   "tags": ["customer-service", "voice-agents", "conversational-ai", "contact-center"],
   "links": [
-    { "kind": "website", "url": "https://www.cognigy.com", "primary": true },
-    { "kind": "docs", "url": "https://docs.cognigy.com" }
+    {
+      "kind": "website",
+      "url": "https://www.cognigy.com",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.cognigy.com"
+    }
   ],
   "addedAt": "2026-06-16",
   "addedSeq": 829,
@@ -36,7 +43,7 @@
     "Now part of NiCE after acquisition",
     "Overkill for small or simple use cases"
   ],
-  "bestFor": ["Enterprise contact centers", "Voice & chat automation", "Customer service teams"],
+  "bestFor": ["Enterprise contact centers", "Customer service teams", "CX/IT leaders"],
   "alternatives": ["parloa", "polyai", "sierra", "decagon"],
   "references": [
     {
@@ -50,6 +57,23 @@
       "url": "https://www.nojitter.com/contact-centers/nice-accelerates-agentic-ai-focus-with-cognigy-acquisition",
       "source": "No Jitter",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "multi-model-access"
     }
   ]
 }

@@ -32,7 +32,7 @@
     "Heavier use needs subscription tiers",
     "Recordings are processed in the cloud"
   ],
-  "bestFor": ["In-person meetings", "Field interviews", "Always-on capture"],
+  "bestFor": ["Mobile professionals", "Field researchers", "Sales & consultants"],
   "alternatives": ["granola", "otter-ai", "fireflies", "circleback"],
   "references": [
     {
@@ -40,6 +40,20 @@
       "url": "https://techcrunch.com/2026/01/04/plaud-launches-a-new-ai-pin-and-a-desktop-meeting-notetaker/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

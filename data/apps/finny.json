@@ -34,7 +34,7 @@
     "US wealth-management focus",
     "Newer entrant vs incumbents"
   ],
-  "bestFor": ["Financial advisors", "RIAs and wealth managers", "Organic client growth"],
+  "bestFor": ["Financial advisors", "RIAs and wealth managers"],
   "alternatives": ["clay", "apollo", "amplemarket"],
   "references": [
     {
@@ -42,6 +42,14 @@
       "url": "https://www.wealthmanagement.com/advisor-support-platforms/finny-ai-raises-17-million",
       "source": "WealthManagement.com",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "outbound-prospecting"
     }
   ]
 }

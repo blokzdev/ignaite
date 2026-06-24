@@ -43,6 +43,20 @@
     "Overkill for simple newsletters",
     "Primarily ecommerce-focused"
   ],
-  "bestFor": ["Ecommerce brands", "Shopify stores", "Lifecycle marketing"],
-  "alternatives": ["attentive"]
+  "bestFor": ["Ecommerce brands", "Shopify stores", "DTC marketers"],
+  "alternatives": ["attentive"],
+  "capabilities": [
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "recommendation"
+    },
+    {
+      "id": "email-assistant"
+    }
+  ]
 }

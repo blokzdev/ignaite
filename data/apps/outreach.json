@@ -45,5 +45,19 @@
       "source": "GeekWire",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "crm-automation"
+    }
   ]
 }

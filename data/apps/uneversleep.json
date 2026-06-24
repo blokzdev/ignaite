@@ -35,6 +35,14 @@
     "Depends on Upwork API access",
     "Small vendor, limited track record"
   ],
-  "bestFor": ["Upwork freelancers", "High-volume bidding", "Agencies on Upwork"],
-  "alternatives": ["smartlead", "lavender", "clay"]
+  "bestFor": ["Upwork freelancers", "Agencies on Upwork", "Solo service providers"],
+  "alternatives": ["smartlead", "lavender", "clay"],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

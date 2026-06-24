@@ -38,6 +38,23 @@
     "Less deal-intelligence depth than Gong",
     "Sales/revenue-team focused, not general"
   ],
-  "bestFor": ["Sales teams under 20 reps", "Revenue intelligence", "CRM-synced meeting notes"],
-  "alternatives": ["fireflies", "otter-ai", "fathom", "read-ai"]
+  "bestFor": ["Sales teams under 20 reps", "RevOps", "Customer-facing teams"],
+  "alternatives": ["fireflies", "otter-ai", "fathom", "read-ai"],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "data-analysis"
+    }
+  ]
 }

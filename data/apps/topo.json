@@ -37,5 +37,16 @@
     "Younger company with a shorter track record"
   ],
   "bestFor": ["SMB outbound teams", "Founder-led sales"],
-  "alternatives": ["aisdr", "11x", "artisan", "amplemarket"]
+  "alternatives": ["aisdr", "11x", "artisan", "amplemarket"],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
+    }
+  ]
 }

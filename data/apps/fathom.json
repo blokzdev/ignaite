@@ -48,5 +48,19 @@
     "Less deep cross-meeting search than rivals"
   ],
   "bestFor": ["Individual notetakers", "Sales teams", "Budget-conscious users"],
-  "alternatives": ["fireflies", "otter-ai", "granola", "circleback"]
+  "alternatives": ["fireflies", "otter-ai", "granola", "circleback"],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "crm-automation"
+    }
+  ]
 }

@@ -12,8 +12,15 @@
   "accentColor": "#0F172A",
   "tags": ["meeting", "notetaker", "on-device", "privacy", "transcription"],
   "links": [
-    { "kind": "website", "url": "https://www.shadow.do", "primary": true },
-    { "kind": "pricing", "url": "https://www.shadow.do/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.shadow.do",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.shadow.do/pricing"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 945,
@@ -30,6 +37,23 @@
     "AI features require the paid Plus tier",
     "Younger product, smaller review base"
   ],
-  "bestFor": ["Privacy-conscious teams", "Mac users", "Bot-free meeting capture"],
-  "alternatives": ["granola", "circleback", "otter-ai", "fireflies"]
+  "bestFor": ["Privacy-conscious teams", "Mac users"],
+  "alternatives": ["granola", "circleback", "otter-ai", "fireflies"],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "dictation"
+    }
+  ]
 }
