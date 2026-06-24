@@ -80,6 +80,17 @@ export default defineConfig({
         );
       }
     }
+    // Within one listing a capability id must not repeat — a pure data error (the
+    // same task listed twice). zod validates each id against the enum but doesn't
+    // dedupe the array, so catch it here. (The leaf↔persona split + per-app cap
+    // are authoring-time concerns; this is the structural guard.)
+    for (const a of apps) {
+      const ids = (a.capabilities ?? []).map((c) => c.id);
+      const dupCaps = [...new Set(ids.filter((v, i) => ids.indexOf(v) !== i))];
+      if (dupCaps.length) {
+        throw new Error(`App "${a.slug}": duplicate capability id(s): ${dupCaps.join(", ")}`);
+      }
+    }
     // A listing is a near-certain DUPLICATE of an existing one when they share
     // the same primary-link host (www-stripped) AND the same normalized name.
     // Distinct products on a shared company domain differ in name

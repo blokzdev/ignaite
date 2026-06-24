@@ -84,6 +84,26 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       with real archive history (today it's a single ~6-week window → a one-bar non-chart). The
       "most-compared / most-viewed apps" chart needs a measurement contract (`@vercel/analytics` event
       whitelist) first — which also feeds the "promote long-tail comparisons on GSC/usage demand" gate.
+- [ ] **[future]** **Chunk AB — capability backfill (parallel-agent campaign).** Now that the
+      `capabilities` schema + 155-leaf enum ship (Chunk AA, id-only), author verified `capabilities`
+      across the 1,027 listings **and** re-scope `bestFor` to persona in the same per-app pass.
+      Guardrails (founder-approved): a **calibration pilot (~100 apps, one cluster)** to validate the
+      taxonomy/rubric first; **every agent web-verifies-or-omits** (never infer from our own prose) and
+      **must NOT bump `lastVerifiedAt`** (enrichment ≠ re-verification); an **adversarial spot-audit
+      wave** before merge. Patch-file → central merge so existing fields are untouched. Also update
+      `.claude/commands/{add-app,discover-apps}.md` to author `capabilities` at creation (id-only) and
+      `audit-directory.md` to maintain them, so the coverage gap doesn't regrow.
+- [ ] **[future]** **Chunk AC — capability-aware comparisons + insights + UI.** Once capabilities are
+      populated: render capability chips on `/apps/[slug]` (`dossier-rail.tsx`), a capability-overlap
+      row on `/compare`, the synthesized "when to pick A vs B" prose verdict (now safe — consumes the
+      structured field, not audience-noun `bestFor`), a capability-distribution Insights chart, a
+      `capability → [slug]` index in `llms-full.txt`/`feed`, and the **advisory family→category warn**
+      in `velite.config.ts` (soft `console.warn`, never a build-fail). The optional `CapabilityFamily`
+      type + leaf→family map land here (deferred from AA — unused until the UI groups by family).
+- [ ] **[future]** **Chunk AF — capability `level` + substitution engine.** Add `level`
+      (primary/secondary) via a second verify pass, then the "prefer fewer platforms / open-source /
+      free" set-cover substitution on recipes. Gated on the Recipes entity (AD/AE) + the AB pilot
+      proving backfill cost. Don't market "fewer signups" until this ships.
 
 ### PWA
 

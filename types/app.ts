@@ -238,6 +238,208 @@ export const REFERENCE_KINDS: ReadonlyArray<ReferenceKind> = [
   "analysis",
 ];
 
+// ── CAPABILITIES ───────────────────────────────────────────────────────────
+// The TASK axis: WHAT a listing DOES, at a finer grain than `category` and able
+// to cross it (a tool's capabilities may span its category). A controlled, finite
+// leaf space (155 leaves / 14 families) — the keystone for comparisons, recipes,
+// substitutions, and a future agent/function-calling surface. Distinct from
+// `category` (the broad bucket) and from `bestFor` (re-scoped to persona/audience
+// — WHO it's for). The TUPLE is the single source of truth; `AppCapability` is
+// DERIVED from it (so the two can't drift), and `CAPABILITY_LABEL`
+// (lib/tools/capability-labels.ts) is a `Record<AppCapability, string>` so a new
+// leaf here is a compile error until it's labelled. Ordered by family.
+export const APP_CAPABILITIES = [
+  // coding
+  "code-generation",
+  "agentic-coding",
+  "code-review",
+  "ide-integration",
+  "terminal-cli-agent",
+  "code-execution",
+  "code-documentation",
+  "test-generation",
+  // agents & automation
+  "agent-framework",
+  "agent-orchestration",
+  "tool-calling",
+  "mcp-server",
+  "mcp-gateway",
+  "workflow-automation",
+  "browser-automation",
+  "web-scraping",
+  "voice-agent",
+  // model serving, training & compute
+  "model-inference",
+  "llm-gateway",
+  "multi-model-access",
+  "model-fine-tuning",
+  "gpu-compute",
+  // eval, observability & AI safety
+  "eval-suite",
+  "llm-observability",
+  "prompt-management",
+  "red-teaming",
+  "guardrails",
+  "ai-security-scanning",
+  "content-moderation",
+  // retrieval, RAG & memory
+  "vector-search",
+  "embeddings",
+  "rag-pipeline",
+  "document-qa",
+  "unified-search",
+  "agent-memory",
+  "knowledge-graph",
+  "cited-answers",
+  "recommendation",
+  // data pipeline, extraction & app building
+  "document-extraction",
+  "data-labeling",
+  "etl-pipeline",
+  "app-deployment",
+  "app-builder",
+  "text-to-sql",
+  "spreadsheet-automation",
+  // speech & voice
+  "speech-to-text",
+  "text-to-speech",
+  "voice-cloning",
+  "speaker-diarization",
+  "dubbing",
+  "speech-translation",
+  "dictation",
+  "subtitle-generation",
+  // audio & music
+  "music-generation",
+  "stem-separation",
+  "audio-cleanup",
+  "audio-mastering",
+  "audio-editing",
+  "sound-effects",
+  // image generation & vision
+  "text-to-image",
+  "image-editing",
+  "image-upscaling",
+  "background-removal",
+  "logo-generation",
+  "avatar-generation",
+  "object-detection",
+  "image-classification",
+  "video-understanding",
+  "defect-detection",
+  // video, 3D & design
+  "text-to-video",
+  "image-to-video",
+  "video-editing",
+  "lip-sync",
+  "text-to-3d",
+  "image-to-3d",
+  "ui-design",
+  "graphic-design",
+  "presentation-generation",
+  // writing, research & knowledge
+  "long-form-writing",
+  "text-editing",
+  "summarization",
+  "web-research-agent",
+  "literature-review",
+  "literature-search",
+  "schema-extraction",
+  "note-taking",
+  "translation",
+  "report-generation",
+  "text-classification",
+  // productivity, meetings & comms
+  "meeting-notes",
+  "calendar-scheduling",
+  "email-assistant",
+  "task-management",
+  "localization",
+  "data-analysis",
+  // sales, marketing, support & HR
+  "lead-enrichment",
+  "outbound-prospecting",
+  "crm-automation",
+  "conversation-intelligence",
+  "ticket-deflection",
+  "knowledge-base-authoring",
+  "ad-creative-generation",
+  "seo-optimization",
+  "resume-screening",
+  "candidate-sourcing",
+  "interview-assistance",
+  // vertical — healthcare
+  "clinical-documentation",
+  "medical-coding",
+  "clinical-decision-support",
+  "medical-imaging",
+  "symptom-triage",
+  "healthcare-ops",
+  // vertical — legal
+  "contract-drafting",
+  "contract-review",
+  "contract-lifecycle",
+  "legal-research",
+  "case-management",
+  "demand-letters",
+  "regulatory-compliance",
+  // vertical — finance
+  "bookkeeping",
+  "financial-close",
+  "expense-management",
+  "tax-preparation",
+  "financial-modeling",
+  "financial-research",
+  "financial-data-extraction",
+  "fraud-detection",
+  // vertical — education
+  "ai-tutoring",
+  "flashcard-generation",
+  "lesson-planning",
+  "homework-solving",
+  "language-practice",
+  "study-material-conversion",
+  // vertical — companion
+  "companion-chat",
+  "ambient-life-capture",
+  "roleplay-characters",
+  // vertical — real estate
+  "property-valuation",
+  "property-data-api",
+  "virtual-staging",
+  // frontier — robotics & embodied
+  "robot-foundation-model",
+  "vision-language-action",
+  "dexterous-manipulation",
+  "bipedal-locomotion",
+  "imitation-learning",
+  "sim-to-real",
+  "world-model",
+  "physics-simulation",
+  "autonomous-navigation",
+  // frontier — bio & molecular
+  "protein-design",
+  "protein-structure-prediction",
+  "antibody-design",
+  "molecular-design",
+  "drug-target-discovery",
+  // frontier — autonomous science
+  "materials-discovery",
+  "autonomous-research",
+] as const;
+
+// Derived from the tuple — the controlled task-axis vocabulary.
+export type AppCapability = (typeof APP_CAPABILITIES)[number];
+
+// The DEFERRED level (v1 authors id-only; this exists now so the field fills in
+// later with no migration). "primary" = a core "best for" use the app is built
+// around; "secondary" = a real but supporting "can also be used for" capability.
+// Powers best-for-task ranking in recipes + the substitution engine (primary >
+// secondary when matching a step).
+export type CapabilityLevel = "primary" | "secondary";
+
+export const CAPABILITY_LEVELS: ReadonlyArray<CapabilityLevel> = ["primary", "secondary"];
+
 // The record SHAPES (App, AppLink, ModelSupport, AppScreenshot, ChangeEntry) are
 // derived from the single source of truth — the zod schema in `lib/apps-schema.ts`
 // — and re-exported here so every existing `@/types/app` import keeps working. To
@@ -247,6 +449,7 @@ export const REFERENCE_KINDS: ReadonlyArray<ReferenceKind> = [
 export type {
   App,
   AppLink,
+  AppCapabilityEntry,
   ModelSupport,
   AppScreenshot,
   ChangeEntry,

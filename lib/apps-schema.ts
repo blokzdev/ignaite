@@ -14,6 +14,7 @@
 // inferred types type-only, so Zod/Velite never reach the client bundle.
 import { z } from "velite";
 import {
+  APP_CAPABILITIES,
   APP_CATEGORIES,
   APP_CHANGE_KINDS,
   APP_DEPLOYMENTS,
@@ -21,14 +22,17 @@ import {
   APP_PLATFORMS,
   APP_PRICING,
   APP_STATUSES,
+  CAPABILITY_LEVELS,
   MODEL_SUPPORT_KINDS,
   REFERENCE_KINDS,
+  type AppCapability,
   type AppCategory,
   type AppDeployment,
   type AppLinkKind,
   type AppPlatform,
   type AppPricing,
   type AppStatus,
+  type CapabilityLevel,
   type ChangeKind,
   type ModelSupportKind,
   type ReferenceKind,
@@ -48,6 +52,20 @@ export const modelSupportSchema = z.object({
   models: z.array(z.string()).optional(),
   /** Short free-form note about how the support works. */
   notes: z.string().optional(),
+});
+
+// A single capability entry — one controlled task-axis leaf the app performs.
+// v1 authors `id` ONLY; `level` (primary="best for" / secondary="can be used
+// for") is DEFERRED until a Recipes/substitution consumer needs it, so the field
+// can fill in later with no migration. Same no-fabrication bar as `insight`:
+// web-verify the capability against the vendor/docs or omit it.
+export const capabilitySchema = z.object({
+  /** Which controlled capability leaf — the WHAT (task axis). */
+  id: z.enum(literals<AppCapability>(APP_CAPABILITIES)),
+  /** DEFERRED — author id-only in v1. Set in the level phase. */
+  level: z.enum(literals<CapabilityLevel>(CAPABILITY_LEVELS)).optional(),
+  /** Optional ≤80-char qualifier (e.g. "self-hosted only", "EN/ES only"). */
+  note: z.string().max(80, "capability note must be ≤80 chars").optional(),
 });
 
 export const linkSchema = z.object({
@@ -142,6 +160,12 @@ export const appSchema = z
       .array(z.enum(literals<AppPlatform>(APP_PLATFORMS)))
       .min(1, "at least one platform"),
     modelSupport: modelSupportSchema.optional(),
+    /** The TASK axis — controlled capability leaves (WHAT the app does), finer
+     *  than `category` and able to cross it. Additive + optional; cap 6 to bound
+     *  audit load. Web-verify-or-omit (same rule as `insight`). Distinct from
+     *  `bestFor`, which is now persona/audience ONLY (WHO it's for). Duplicate
+     *  ids within a listing are rejected in velite.config.ts's complete() hook. */
+    capabilities: z.array(capabilitySchema).max(6, "at most 6 capabilities").optional(),
     tags: z.array(z.string()).optional(),
     accentColor: z.string().regex(HEX, "accentColor must be a hex colour, e.g. #08d9d6").optional(),
     /** Featured = bento 2-col span + hero carousel candidate. The current-cycle
@@ -249,6 +273,7 @@ export const appSchema = z
 export type App = z.infer<typeof appSchema>;
 export type AppLink = z.infer<typeof linkSchema>;
 export type ModelSupport = z.infer<typeof modelSupportSchema>;
+export type AppCapabilityEntry = z.infer<typeof capabilitySchema>;
 export type AppScreenshot = z.infer<typeof screenshotSchema>;
 export type ChangeEntry = z.infer<typeof changeEntrySchema>;
 export type Reference = z.infer<typeof referenceSchema>;
