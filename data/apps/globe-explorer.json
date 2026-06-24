@@ -32,7 +32,7 @@
     "Sparse company/roadmap info",
     "Lighter source citation than Perplexity"
   ],
-  "bestFor": ["Exploring new topics", "Students and researchers", "Visual learners"],
+  "bestFor": ["Students & researchers", "Visual learners", "Curious self-learners"],
   "alternatives": ["perplexity", "felo", "you-com"],
   "references": [
     {
@@ -40,6 +40,14 @@
       "url": "https://cylab.be/blog/356/ai-powered-knowledge-exploration-with-globe-explorer",
       "source": "Cylab",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

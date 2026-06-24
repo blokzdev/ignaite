@@ -43,12 +43,7 @@
     "Credit-based usage limits",
     "Weaker on niche technical topics"
   ],
-  "bestFor": [
-    "SEO content teams",
-    "Affiliate and blog publishers",
-    "High-volume drafting",
-    "Solo marketers"
-  ],
+  "bestFor": ["SEO content teams", "Affiliate publishers", "Solo marketers", "Agencies"],
   "alternatives": ["surfer-seo", "jasper", "writesonic"],
   "references": [
     {
@@ -56,6 +51,20 @@
       "url": "https://originality.ai/blog/koalawriter-ai-review",
       "source": "Originality.AI",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-editing"
     }
   ]
 }

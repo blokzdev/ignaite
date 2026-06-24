@@ -48,6 +48,23 @@
     "Fewer integrations than enterprise suites",
     "Hosted tier is paid"
   ],
-  "bestFor": ["Private/local document chat", "Self-hosted teams", "BYO-key users"],
-  "alternatives": ["librechat", "onyx", "khoj", "cherry-studio"]
+  "bestFor": ["Privacy-conscious teams", "Self-hosters", "BYO-key users", "Solo & SMB"],
+  "alternatives": ["librechat", "onyx", "khoj", "cherry-studio"],
+  "capabilities": [
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

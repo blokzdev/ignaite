@@ -36,6 +36,26 @@
     "Jack-of-trades vs focused tools",
     "Less depth than specialist research apps"
   ],
-  "bestFor": ["Students", "Literature review", "Cross-device research"],
-  "alternatives": ["perplexity", "consensus", "scispace", "elicit"]
+  "bestFor": ["Students", "Researchers", "Knowledge workers"],
+  "alternatives": ["perplexity", "consensus", "scispace", "elicit"],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

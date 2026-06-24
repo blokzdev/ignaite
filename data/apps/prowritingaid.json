@@ -40,6 +40,14 @@
     "Overwhelming for short-form copy",
     "Real-time checks slower than rivals"
   ],
-  "bestFor": ["Fiction authors", "Long-form writers", "Manuscript editing"],
-  "alternatives": ["grammarly", "quillbot", "sudowrite", "wordtune"]
+  "bestFor": ["Fiction authors", "Long-form writers", "Novelists"],
+  "alternatives": ["grammarly", "quillbot", "sudowrite", "wordtune"],
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "report-generation"
+    }
+  ]
 }

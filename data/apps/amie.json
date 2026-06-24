@@ -47,5 +47,22 @@
       "source": "TechCrunch",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "email-assistant"
+    }
   ]
 }

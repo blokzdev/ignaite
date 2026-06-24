@@ -43,7 +43,7 @@
     "Web-only",
     "Seed-input cap on the free tier"
   ],
-  "bestFor": ["Literature reviews", "Discovering related work", "Grad students & researchers"],
+  "bestFor": ["Grad students & researchers", "Academics"],
   "alternatives": ["elicit", "consensus", "scispace", "semantic-scholar"],
   "references": [
     {
@@ -57,6 +57,14 @@
       "url": "https://www.choice360.org/libtech-insight/streamlining-your-literature-review-workflow-with-researchrabbit/",
       "source": "Choice360",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "recommendation"
     }
   ]
 }

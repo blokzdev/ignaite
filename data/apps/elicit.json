@@ -41,7 +41,7 @@
     "Credit-based free tier (one-time)",
     "Coverage limited to indexed literature"
   ],
-  "bestFor": ["Literature reviews", "Evidence synthesis", "Academic researchers"],
+  "bestFor": ["Academic researchers", "Systematic reviewers", "Evidence-synthesis teams"],
   "alternatives": ["consensus", "undermind", "scispace", "scite"],
   "references": [
     {
@@ -49,6 +49,26 @@
       "url": "https://paperguide.ai/blog/elicit-vs-consensus/",
       "source": "Paperguide",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

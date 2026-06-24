@@ -12,8 +12,15 @@
   "accentColor": "#FFC83D",
   "tags": ["personal-knowledge", "bookmarking", "notes", "privacy"],
   "links": [
-    { "kind": "website", "url": "https://mymind.com", "primary": true },
-    { "kind": "pricing", "url": "https://access.mymind.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://mymind.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://access.mymind.com/pricing"
+    }
   ],
   "addedAt": "2026-06-14",
   "addedSeq": 594,
@@ -33,9 +40,9 @@
     "Export options are limited"
   ],
   "bestFor": [
-    "Personal knowledge keeping",
     "Visual thinkers & creatives",
-    "Privacy-conscious users"
+    "Privacy-conscious users",
+    "Personal knowledge keepers"
   ],
   "alternatives": ["recall", "glasp", "supermemory", "pieces"],
   "references": [
@@ -44,6 +51,17 @@
       "url": "https://nesslabs.com/mymind-featured-tool",
       "source": "Ness Labs",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

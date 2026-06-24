@@ -12,7 +12,13 @@
   "platforms": ["web", "api"],
   "accentColor": "#2563EB",
   "tags": ["research", "patents", "innovation", "ip", "competitive-intelligence"],
-  "links": [{ "kind": "website", "url": "https://www.cypris.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cypris.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 946,
   "lastVerifiedAt": "2026-06-20",
@@ -28,6 +34,17 @@
     "Aimed at IP/R&D teams, not casual research",
     "Public pricing not disclosed"
   ],
-  "bestFor": ["R&D teams", "IP and patent analysis", "Technology scouting"],
-  "alternatives": ["consensus", "scite", "alphasense", "elicit"]
+  "bestFor": ["R&D teams", "IP and patent analysts", "Innovation strategists"],
+  "alternatives": ["consensus", "scite", "alphasense", "elicit"],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "report-generation"
+    }
+  ]
 }

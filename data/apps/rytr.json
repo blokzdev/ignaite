@@ -40,6 +40,20 @@
     "Undisclosed underlying models",
     "Output needs editing/fact-checking"
   ],
-  "bestFor": ["Budget copywriting", "Short-form/social content", "AI writing beginners"],
-  "alternatives": ["quillbot", "wordtune", "grammarly"]
+  "bestFor": ["AI writing beginners", "Solo marketers", "Small businesses"],
+  "alternatives": ["quillbot", "wordtune", "grammarly"],
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "seo-optimization"
+    }
+  ]
 }

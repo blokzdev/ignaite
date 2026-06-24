@@ -43,5 +43,16 @@
     "Desktop only, no mobile"
   ],
   "bestFor": ["Local-first power users", "Multi-model desktop work"],
-  "alternatives": ["jan", "anythingllm", "big-agi", "lm-studio"]
+  "alternatives": ["jan", "anythingllm", "big-agi", "lm-studio"],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

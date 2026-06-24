@@ -42,7 +42,7 @@
     "Some features still in transition",
     "Premium models gated to Pro credits"
   ],
-  "bestFor": ["Screen-aware Q&A", "Meeting capture", "Desktop power users"],
+  "bestFor": ["Desktop power users", "Knowledge workers"],
   "alternatives": ["cluely", "chatgpt", "claude"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "dictation"
     }
   ]
 }

@@ -49,5 +49,19 @@
       "source": "Slator",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "localization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "subtitle-generation"
+    }
   ]
 }

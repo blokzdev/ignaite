@@ -41,6 +41,26 @@
     "IT-heavy to deploy and maintain",
     "Limited to supported connectors"
   ],
-  "bestFor": ["Large enterprises (1000+)", "Internal knowledge search"],
-  "alternatives": ["onyx", "glama"]
+  "bestFor": ["Large enterprises (1000+)", "Enterprise IT teams", "Knowledge workers"],
+  "alternatives": ["onyx", "glama"],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

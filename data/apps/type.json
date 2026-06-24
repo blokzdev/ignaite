@@ -41,5 +41,13 @@
     "Smaller and newer than incumbents"
   ],
   "bestFor": ["Novelists", "Screenwriters", "Long-form writers"],
-  "alternatives": ["sudowrite", "novelai", "lex", "jenni"]
+  "alternatives": ["sudowrite", "novelai", "lex", "jenni"],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
+    }
+  ]
 }

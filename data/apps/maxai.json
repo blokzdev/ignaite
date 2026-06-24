@@ -40,6 +40,26 @@
     "Overlaps heavily with Sider/Monica",
     "Closed source"
   ],
-  "bestFor": ["Quick rewrite/translate actions", "In-page research", "Sidebar power users"],
-  "alternatives": ["sider", "monica", "merlin-ai", "harpa-ai"]
+  "bestFor": ["Browser power users", "Knowledge workers", "Multilingual readers"],
+  "alternatives": ["sider", "monica", "merlin-ai", "harpa-ai"],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

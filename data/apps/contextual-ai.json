@@ -37,7 +37,7 @@
     "Aimed at technical/regulated industries, not consumers",
     "Requires data and knowledge-base setup to shine"
   ],
-  "bestFor": ["Enterprise knowledge work", "Regulated industries", "Grounded RAG agents"],
+  "bestFor": ["Enterprise platform teams", "Regulated industries", "AI engineers"],
   "alternatives": ["vectara", "glean", "exa"],
   "references": [
     {
@@ -45,6 +45,23 @@
       "url": "https://www.siliconrepublic.com/start-ups/contextual-ai-funding-series-a-douwe-kiela-rag-platform",
       "source": "Silicon Republic",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

@@ -41,6 +41,17 @@
     "Narrow scope: a retrieval layer only",
     "Young, seed-stage company"
   ],
-  "bestFor": ["RAG pipelines", "Search relevance tuning", "Agentic retrieval"],
-  "alternatives": ["cohere", "contextual-ai"]
+  "bestFor": ["AI engineers", "RAG/retrieval teams"],
+  "alternatives": ["cohere", "contextual-ai"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

@@ -47,6 +47,17 @@
     "Test deletion/conflict handling for regulated use",
     "More library than full memory server"
   ],
-  "bestFor": ["Chatbot personalization", "Long-term user profiles", "Fast memory integration"],
-  "alternatives": ["zep", "letta", "memobase", "supermemory"]
+  "bestFor": ["AI agent developers", "Chatbot builders", "Python/Node teams"],
+  "alternatives": ["zep", "letta", "memobase", "supermemory"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

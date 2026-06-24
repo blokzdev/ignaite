@@ -46,6 +46,23 @@
     "Memory model has a learning curve",
     "Younger, evolving framework"
   ],
-  "bestFor": ["Long-running agents", "Stateful memory apps", "Agent developers"],
-  "alternatives": ["mem0", "zep", "cognee", "langgraph"]
+  "bestFor": ["Agent developers", "AI engineers", "Platform teams"],
+  "alternatives": ["mem0", "zep", "cognee", "langgraph"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

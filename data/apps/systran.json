@@ -41,7 +41,11 @@
     "Heavier setup than consumer tools",
     "Fewer languages than some web rivals"
   ],
-  "bestFor": ["Regulated, confidential translation", "Enterprise localization teams"],
+  "bestFor": [
+    "Enterprise localization teams",
+    "Defense & regulated orgs",
+    "Compliance-bound teams"
+  ],
   "alternatives": ["deepl", "lara-translate", "lilt"],
   "references": [
     {
@@ -49,6 +53,17 @@
       "url": "https://en.wikipedia.org/wiki/SYSTRAN",
       "source": "Wikipedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "localization"
     }
   ]
 }

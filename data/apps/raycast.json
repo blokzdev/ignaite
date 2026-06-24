@@ -42,7 +42,7 @@
     "Windows version still maturing (beta)",
     "Workflows less powerful than Alfred's"
   ],
-  "bestFor": ["macOS power users", "Keyboard-first workflows", "Replacing Spotlight"],
+  "bestFor": ["macOS power users", "Keyboard-first workers", "Developers"],
   "alternatives": ["monica", "chatgpt"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "url": "https://joshcollinsworth.com/blog/alfred-raycast",
       "source": "Josh Collinsworth",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "tool-calling"
     }
   ]
 }

@@ -36,7 +36,7 @@
     "Enterprise-oriented onboarding",
     "Smaller freelancer marketplace than Smartcat"
   ],
-  "bestFor": ["Enterprise localization teams", "Developer localization"],
+  "bestFor": ["Enterprise localization teams", "Localization engineers"],
   "alternatives": ["smartcat", "lokalise", "smartling", "deepl"],
   "references": [
     {
@@ -44,6 +44,17 @@
       "url": "https://wxrks.com/blog/bureau-works-vs-smartcat",
       "source": "wxrks",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
+    },
+    {
+      "id": "subtitle-generation"
     }
   ]
 }

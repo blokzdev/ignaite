@@ -41,6 +41,20 @@
     "Less depth than each model's native app",
     "Not focused on agentic workflows"
   ],
-  "bestFor": ["Multi-model access", "Bot builders", "Casual users"],
-  "alternatives": ["openrouter", "chatgpt", "claude", "perplexity"]
+  "bestFor": ["Bot builders", "Casual users", "Developers"],
+  "alternatives": ["openrouter", "chatgpt", "claude", "perplexity"],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    }
+  ]
 }

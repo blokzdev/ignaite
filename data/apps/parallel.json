@@ -45,6 +45,23 @@
     "Younger index than incumbents",
     "Proprietary, closed retrieval stack"
   ],
-  "bestFor": ["Agent web retrieval", "Structured extraction", "Deep research APIs"],
-  "alternatives": ["exa", "tavily", "linkup", "brave-search-api"]
+  "bestFor": ["AI engineers", "Agent builders", "Data teams"],
+  "alternatives": ["exa", "tavily", "linkup", "brave-search-api"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

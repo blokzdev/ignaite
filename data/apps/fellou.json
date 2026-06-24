@@ -34,12 +34,7 @@
     "Agentic browsing raises security questions",
     "Free 'Spark' credits run out quickly"
   ],
-  "bestFor": [
-    "Automated web research",
-    "Competitive analysis",
-    "Repetitive web workflows",
-    "Power users"
-  ],
+  "bestFor": ["Power users", "Knowledge workers"],
   "alternatives": ["comet", "dia", "chatgpt-atlas", "browser-use"],
   "references": [
     {
@@ -47,6 +42,20 @@
       "url": "https://seraphicsecurity.com/learn/ai-browser/fellou-browser-agentic-features-pros-cons-and-security-concerns/",
       "source": "Seraphic Security",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

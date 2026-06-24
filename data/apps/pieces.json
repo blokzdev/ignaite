@@ -45,6 +45,17 @@
     "Developer-centric, niche audience",
     "Memory accuracy varies across apps"
   ],
-  "bestFor": ["Developers", "Privacy-conscious users", "Context recall"],
-  "alternatives": ["supermemory", "mem0", "khoj", "raycast"]
+  "bestFor": ["Developers", "Privacy-conscious users"],
+  "alternatives": ["supermemory", "mem0", "khoj", "raycast"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "ide-integration"
+    }
+  ]
 }

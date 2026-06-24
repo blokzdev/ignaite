@@ -40,6 +40,14 @@
     "Smaller brand than DeepL",
     "TMS depth trails dedicated platforms"
   ],
-  "bestFor": ["Document translation", "AI-plus-human QA", "Multilingual business docs"],
-  "alternatives": ["deepl", "smartcat", "lokalise", "smartling"]
+  "bestFor": ["Localization teams", "Multilingual businesses", "Translation agencies"],
+  "alternatives": ["deepl", "smartcat", "lokalise", "smartling"],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
+    }
+  ]
 }

@@ -45,6 +45,14 @@
     "Self-hosting needs ML/ops effort",
     "Quality varies by domain corpus"
   ],
-  "bestFor": ["Adaptive custom-domain MT", "Self-hosted translation", "Localization with TM reuse"],
-  "alternatives": ["deepl", "smartcat", "lokalise", "smartling"]
+  "bestFor": ["Localization teams", "ML/ops engineers", "Enterprises with TMs"],
+  "alternatives": ["deepl", "smartcat", "lokalise", "smartling"],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
+    }
+  ]
 }

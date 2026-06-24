@@ -48,6 +48,11 @@
     "Background inference adds LLM cost",
     "Smaller community than incumbents"
   ],
-  "bestFor": ["Per-user personalization", "Stateful tutoring/support agents"],
-  "alternatives": ["mem0", "zep", "letta", "supermemory"]
+  "bestFor": ["Agent developers", "AI app builders"],
+  "alternatives": ["mem0", "zep", "letta", "supermemory"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    }
+  ]
 }

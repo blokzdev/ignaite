@@ -46,6 +46,23 @@
     "Developer / API-only",
     "Premium data sources cost more"
   ],
-  "bestFor": ["Agent developers", "Finance and research workflows", "RAG pipelines"],
-  "alternatives": ["exa", "tavily", "linkup", "parallel"]
+  "bestFor": ["Agent developers", "AI engineers", "Finance & research teams"],
+  "alternatives": ["exa", "tavily", "linkup", "parallel"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

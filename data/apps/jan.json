@@ -48,7 +48,7 @@
     "Local model speed bound by your hardware",
     "Smaller ecosystem than Ollama"
   ],
-  "bestFor": ["Offline/private chat", "Open-source purists", "Local model tinkering"],
+  "bestFor": ["Privacy-conscious users", "Local-LLM tinkerers", "Regulated-industry pros"],
   "alternatives": ["lm-studio", "ollama", "anythingllm", "librechat"],
   "references": [
     {
@@ -56,6 +56,17 @@
       "url": "https://localaimaster.com/blog/jan-vs-lm-studio-vs-ollama",
       "source": "Local AI Master",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "tool-calling"
     }
   ]
 }

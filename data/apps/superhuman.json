@@ -37,7 +37,7 @@
     "Closed source",
     "Suite bundling if you only want email"
   ],
-  "bestFor": ["Inbox-zero power users", "Founders and execs", "High-volume email"],
+  "bestFor": ["Inbox-zero power users", "Founders and execs", "Sales & high-volume email"],
   "alternatives": ["shortwave", "lindy", "notion-ai"],
   "references": [
     {
@@ -45,6 +45,17 @@
       "url": "https://techcrunch.com/2025/07/01/grammarly-acquires-ai-email-client-superhuman/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

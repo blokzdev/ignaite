@@ -41,7 +41,7 @@
     "Smaller ecosystem than Obsidian",
     "Cloud-based, not local-first"
   ],
-  "bestFor": ["Privacy-conscious users", "Networked-thought notes", "Second brain"],
+  "bestFor": ["Privacy-conscious users", "Networked-thought thinkers", "Knowledge workers"],
   "alternatives": ["mem", "notion-ai", "taskade"],
   "references": [
     {
@@ -49,6 +49,23 @@
       "url": "https://pjfp.com/obsidian-vs-reflect-app-which-note-taking-app-is-best-for-your-workflow/",
       "source": "PJFP",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

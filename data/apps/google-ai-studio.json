@@ -39,6 +39,23 @@
     "Locked to the Gemini/Google stack",
     "Fewer granular controls than some playgrounds"
   ],
-  "bestFor": ["Prototyping on Gemini", "Quick API exploration"],
-  "alternatives": ["huggingface", "openrouter", "notebooklm", "poe"]
+  "bestFor": ["Developers", "Gemini builders", "Indie hackers"],
+  "alternatives": ["huggingface", "openrouter", "notebooklm", "poe"],
+  "capabilities": [
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "text-to-speech"
+    }
+  ]
 }

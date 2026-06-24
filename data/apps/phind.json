@@ -41,7 +41,7 @@
     "Best models gated to paid plans",
     "Deep IDE support mainly VS Code"
   ],
-  "bestFor": ["Developers", "Debugging and how-tos", "Technical research"],
+  "bestFor": ["Developers", "Software engineers"],
   "alternatives": ["perplexity", "you-com", "exa", "cursor"],
   "references": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.axios.com/pro/enterprise-software-deals/2025/12/03/answer-engine-phind-y-combinator-bessemer",
       "source": "Axios",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "ide-integration"
     }
   ]
 }

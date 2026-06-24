@@ -41,7 +41,7 @@
     "Post-acquisition roadmap tied to TransPerfect",
     "Widn.AI product line being folded into GlobalLink"
   ],
-  "bestFor": ["Multilingual support", "Enterprise localization", "Quality-scored MT"],
+  "bestFor": ["Multilingual support teams", "Enterprise localization", "CX leaders"],
   "alternatives": ["lilt", "deepl", "smartling", "phrase"],
   "references": [
     {
@@ -61,6 +61,14 @@
       "url": "https://blog.pangeanic.com/transperfects-unbabel-acquisition-is-a-bellwether-for-a-new-era-in-ai-language-technology",
       "source": "Pangeanic",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
     }
   ]
 }

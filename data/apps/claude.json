@@ -42,8 +42,22 @@
     "Smaller plugin ecosystem than ChatGPT",
     "Tighter free-tier usage caps"
   ],
-  "bestFor": ["Writing and coding", "Long-context work", "MCP workflows"],
+  "bestFor": ["Writers", "Developers", "Long-context users"],
   "alternatives": ["chatgpt", "gemini", "grok", "le-chat"],
   "featured": true,
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "web-research-agent"
+    }
+  ]
 }

@@ -47,10 +47,20 @@
     "Smaller team than big assistants",
     "Cloud tier needed for zero-setup use"
   ],
-  "bestFor": [
-    "Obsidian/Emacs note-takers",
-    "Privacy-minded self-hosters",
-    "Personal knowledge search"
-  ],
-  "alternatives": ["anythingllm", "notebooklm", "librechat"]
+  "bestFor": ["Obsidian/Emacs note-takers", "Privacy-minded self-hosters"],
+  "alternatives": ["anythingllm", "notebooklm", "librechat"],
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

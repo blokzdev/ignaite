@@ -40,6 +40,20 @@
     "Less proven than DeepL/Lokalise",
     "Free tier capped at 1k words/mo"
   ],
-  "bestFor": ["Rare-language localization", "App/game localization", "Indie and small teams"],
-  "alternatives": ["crowdin", "lokalise", "smartcat", "weglot"]
+  "bestFor": ["Indie devs", "Game studios", "Small teams"],
+  "alternatives": ["crowdin", "lokalise", "smartcat", "weglot"],
+  "capabilities": [
+    {
+      "id": "localization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "subtitle-generation"
+    }
+  ]
 }

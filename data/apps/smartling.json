@@ -41,6 +41,19 @@
     "Platform fee plus per-word cost",
     "Overkill for small teams"
   ],
-  "bestFor": ["Enterprise localization", "High-volume content", "Regulated industries"],
-  "alternatives": ["smartcat", "lokalise", "deepl", "taia"]
+  "bestFor": [
+    "Enterprises",
+    "Localization teams",
+    "Regulated industries",
+    "Global marketing teams"
+  ],
+  "alternatives": ["smartcat", "lokalise", "deepl", "taia"],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
+    }
+  ]
 }

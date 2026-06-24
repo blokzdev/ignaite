@@ -39,7 +39,7 @@
     "Focused on biology and chemistry domains",
     "Runs take hours — built for depth, not speed"
   ],
-  "bestFor": ["Biopharma R&D teams", "Academic researchers", "Deep literature reviews"],
+  "bestFor": ["Biopharma R&D teams", "Academic researchers", "Scientists"],
   "alternatives": ["elicit", "consensus", "undermind", "scite"],
   "references": [
     {
@@ -53,6 +53,26 @@
       "url": "https://www.alzforum.org/news/research-news/introducing-kosmos-ai-scientist-makes-discoveries-overnight",
       "source": "ALZFORUM",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-research"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

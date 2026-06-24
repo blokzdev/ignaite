@@ -42,6 +42,23 @@
     "Feature breadth can overwhelm",
     "Less polished than single-purpose tools"
   ],
-  "bestFor": ["Small teams", "AI-assisted projects", "All-in-one workspace fans"],
-  "alternatives": ["notion-ai", "mem", "sunsama"]
+  "bestFor": ["Small teams", "Solo founders", "All-in-one workspace fans"],
+  "alternatives": ["notion-ai", "mem", "sunsama"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "agent-memory"
+    }
+  ]
 }

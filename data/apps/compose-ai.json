@@ -36,7 +36,7 @@
     "Best for short-form writing, not long docs",
     "Personalization features gated to premium"
   ],
-  "bestFor": ["Email-heavy roles", "Fast everyday writing", "Repetitive replies"],
+  "bestFor": ["Email-heavy roles", "Knowledge workers"],
   "alternatives": ["monica", "maxai", "merlin-ai", "wordtune"],
   "references": [
     {
@@ -44,6 +44,17 @@
       "url": "https://originality.ai/blog/compose-ai-review",
       "source": "Originality.AI",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "long-form-writing"
     }
   ]
 }

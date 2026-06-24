@@ -42,7 +42,7 @@
     "Cross-device sync is a paid cloud add-on",
     "Setup needs a local CLI install"
   ],
-  "bestFor": ["Local-first knowledge base", "Obsidian users", "MCP-connected AI tools"],
+  "bestFor": ["Obsidian users", "Local-first individuals", "AI engineers"],
   "alternatives": ["cognee", "supermemory", "mem0", "graphlit"],
   "references": [
     {
@@ -50,6 +50,20 @@
       "url": "https://samuellawrentz.com/blog/basic-memory-mcp-obsidian/",
       "source": "Samuel Lawrentz",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "note-taking"
     }
   ]
 }

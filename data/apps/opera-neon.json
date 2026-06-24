@@ -40,7 +40,7 @@
     "Explicitly experimental; features change weekly",
     "Desktop-only (Windows and macOS)"
   ],
-  "bestFor": ["AI early adopters", "Agentic browsing", "Multi-model power users"],
+  "bestFor": ["AI early adopters", "AI power users", "Multi-model power users"],
   "alternatives": ["comet", "dia", "chatgpt-atlas"],
   "references": [
     {
@@ -48,6 +48,20 @@
       "url": "https://techcrunch.com/2025/12/11/opera-wants-you-to-pay-20-a-month-to-use-its-ai-powered-browser-neon/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

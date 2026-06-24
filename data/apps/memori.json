@@ -16,8 +16,15 @@
   "accentColor": "#6366F1",
   "tags": ["agent-memory", "sql", "open-source", "persistence"],
   "links": [
-    { "kind": "website", "url": "https://memorilabs.ai/", "primary": true },
-    { "kind": "github", "url": "https://github.com/GibsonAI/memori" }
+    {
+      "kind": "website",
+      "url": "https://memorilabs.ai/",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/GibsonAI/memori"
+    }
   ],
   "addedAt": "2026-06-21",
   "addedSeq": 1002,
@@ -35,7 +42,7 @@
     "SQL-first design may not suit graph use cases",
     "Self-hosting means you run the database"
   ],
-  "bestFor": ["Self-hosted agent memory", "SQL-native teams", "Cost-sensitive memory"],
+  "bestFor": ["SQL-native teams", "Agent developers", "Cost-sensitive teams"],
   "alternatives": ["mem0", "zep", "letta", "cognee"],
   "references": [
     {
@@ -43,6 +50,14 @@
       "url": "https://www.marktechpost.com/2025/09/08/gibsonai-releases-memori-an-open-source-sql-native-memory-engine-for-ai-agents/",
       "source": "MarkTechPost",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "vector-search"
     }
   ]
 }

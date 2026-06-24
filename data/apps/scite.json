@@ -40,6 +40,14 @@
     "Subscription for full features",
     "Coverage gaps outside indexed journals"
   ],
-  "bestFor": ["Evaluating evidence", "Citation analysis", "Avoiding retracted sources"],
-  "alternatives": ["consensus", "elicit", "scispace", "undermind"]
+  "bestFor": ["Researchers", "Academics", "Grad students", "Systematic reviewers"],
+  "alternatives": ["consensus", "elicit", "scispace", "undermind"],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "literature-search"
+    }
+  ]
 }

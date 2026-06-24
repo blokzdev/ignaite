@@ -43,6 +43,24 @@
     "Not for individual users",
     "Proprietary, closed ecosystem"
   ],
-  "bestFor": ["Regulated enterprises", "Healthcare/finance teams", "Governed AI agents"],
-  "alternatives": ["glean", "microsoft-copilot"]
+  "bestFor": [
+    "Regulated enterprises",
+    "Healthcare/finance teams",
+    "Enterprise IT + business teams"
+  ],
+  "alternatives": ["glean", "microsoft-copilot"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "long-form-writing"
+    }
+  ]
 }

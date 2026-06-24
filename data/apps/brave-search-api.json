@@ -44,6 +44,14 @@
     "Rate limits on free tier",
     "Less tuned for AI-answer grounding than Exa/Tavily"
   ],
-  "bestFor": ["Non-Google search source", "Privacy-sensitive apps"],
-  "alternatives": ["exa", "tavily", "you-com", "kagi"]
+  "bestFor": ["App developers", "Privacy-conscious builders", "AI engineers"],
+  "alternatives": ["exa", "tavily", "you-com", "kagi"],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

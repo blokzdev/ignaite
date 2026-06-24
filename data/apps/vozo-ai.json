@@ -35,6 +35,26 @@
     "Long videos need manual review",
     "Full features behind subscription"
   ],
-  "bestFor": ["Creators localizing video", "Marketing teams", "Course localization"],
-  "alternatives": ["rask-ai", "camb-ai", "unbabel"]
+  "bestFor": ["Video creators", "Marketing teams", "Localization teams"],
+  "alternatives": ["rask-ai", "camb-ai", "unbabel"],
+  "capabilities": [
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "video-editing"
+    }
+  ]
 }

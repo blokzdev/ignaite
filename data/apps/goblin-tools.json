@@ -44,7 +44,7 @@
     "Limited project/collaboration features",
     "Depends on external LLM availability"
   ],
-  "bestFor": ["ADHD & neurodivergent users", "Overwhelming task planning", "Students"],
+  "bestFor": ["ADHD & neurodivergent users", "Students", "Anyone who feels overwhelmed"],
   "alternatives": ["motion", "reclaim", "sunsama"],
   "references": [
     {
@@ -52,6 +52,17 @@
       "url": "https://guides.libraries.uc.edu/ai-education/mt",
       "source": "Univ. of Cincinnati",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "text-classification"
     }
   ]
 }

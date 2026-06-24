@@ -42,7 +42,7 @@
     "Younger international ecosystem",
     "English UX less polished than rivals"
   ],
-  "bestFor": ["Free frontier chat", "Open-weight self-hosting", "Cost-sensitive API use"],
+  "bestFor": ["Developers", "Cost-sensitive teams", "Self-hosting teams"],
   "alternatives": ["deepseek", "kimi", "chatgpt"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "url": "https://huggingface.co/blog/mlabonne/glm-5",
       "source": "Hugging Face (mlabonne)",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "agentic-coding"
     }
   ]
 }

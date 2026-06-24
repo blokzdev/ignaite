@@ -35,6 +35,23 @@
     "Cloud-synced, not self-hosted",
     "Summary quality varies by source"
   ],
-  "bestFor": ["Researchers", "Lifelong learners", "Heavy readers"],
-  "alternatives": ["glasp", "supermemory", "monica"]
+  "bestFor": ["Researchers", "Lifelong learners", "Knowledge workers"],
+  "alternatives": ["glasp", "supermemory", "monica"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "note-taking"
+    }
+  ]
 }

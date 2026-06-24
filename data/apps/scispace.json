@@ -40,6 +40,23 @@
     "Free tier limits depth",
     "Answer quality varies by field"
   ],
-  "bestFor": ["Literature reviews", "Reading dense papers", "Academic research"],
-  "alternatives": ["consensus", "elicit", "scite", "undermind"]
+  "bestFor": ["Academics", "Researchers", "Graduate students"],
+  "alternatives": ["consensus", "elicit", "scite", "undermind"],
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "schema-extraction"
+    }
+  ]
 }

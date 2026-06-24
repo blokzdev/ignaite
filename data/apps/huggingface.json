@@ -42,6 +42,20 @@
     "Serious inference needs paid Endpoints/GPUs",
     "Discovery noisy at this scale"
   ],
-  "bestFor": ["Open-weights builders", "Researchers", "Model/dataset discovery"],
-  "alternatives": ["replicate", "google-ai-studio", "ollama", "modal"]
+  "bestFor": ["Open-weights builders", "ML researchers", "ML engineers"],
+  "alternatives": ["replicate", "google-ai-studio", "ollama", "modal"],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

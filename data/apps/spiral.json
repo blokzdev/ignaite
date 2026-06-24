@@ -28,7 +28,7 @@
     "Built on Every's editorial standards"
   ],
   "cons": ["No free tier", "Prose-focused; not a general assistant"],
-  "bestFor": ["Newsletter writers", "Founders writing in public", "Repurposing work in your voice"],
+  "bestFor": ["Newsletter writers", "Founders writing in public", "Content teams", "Solo creators"],
   "alternatives": ["lex", "wordtune", "sudowrite", "type"],
   "references": [
     {
@@ -36,6 +36,14 @@
       "url": "https://www.producthunt.com/products/spiral-8",
       "source": "Product Hunt",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
     }
   ]
 }

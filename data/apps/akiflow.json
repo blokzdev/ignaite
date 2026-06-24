@@ -40,6 +40,14 @@
     "AI is a newer layer on a planner",
     "Can be overkill for light task lists"
   ],
-  "bestFor": ["Busy professionals", "Time-blocking", "Calendar + task unification"],
-  "alternatives": ["motion", "reclaim", "sunsama", "amie"]
+  "bestFor": ["Busy professionals", "Knowledge workers", "Solo professionals"],
+  "alternatives": ["motion", "reclaim", "sunsama", "amie"],
+  "capabilities": [
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "calendar-scheduling"
+    }
+  ]
 }

@@ -41,7 +41,7 @@
     "Overleaf support only via the Chrome extension",
     "Proprietary models only — no LLM choice or BYO key"
   ],
-  "bestFor": ["Academic manuscripts", "Journal submission prep", "ESL researchers"],
+  "bestFor": ["Academic researchers", "ESL researchers", "Graduate students"],
   "alternatives": ["grammarly", "quillbot", "wordtune", "scispace"],
   "references": [
     {
@@ -64,5 +64,25 @@
     }
   ],
   "featured": false,
-  "featuredAt": "2026-06-10"
+  "featuredAt": "2026-06-10",
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "long-form-writing"
+    }
+  ]
 }

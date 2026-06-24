@@ -45,6 +45,14 @@
     "Heavier than simple vector memory",
     "Newer ecosystem"
   ],
-  "bestFor": ["Long-running agents", "Evolving-fact memory", "Knowledge-graph context"],
-  "alternatives": ["mem0", "letta", "cognee", "supermemory"]
+  "bestFor": ["AI engineers", "Agent developers", "Enterprise teams"],
+  "alternatives": ["mem0", "letta", "cognee", "supermemory"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "knowledge-graph"
+    }
+  ]
 }

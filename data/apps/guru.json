@@ -37,11 +37,7 @@
     "Needs upkeep of verified content",
     "Overlaps with broader search rivals"
   ],
-  "bestFor": [
-    "Support and ops teams",
-    "Internal knowledge management",
-    "Verified enterprise answers"
-  ],
+  "bestFor": ["Support & ops teams", "Enterprise IT/knowledge teams", "Large orgs"],
   "alternatives": ["glean", "dust", "dropbox-dash", "sana"],
   "references": [
     {
@@ -55,6 +51,23 @@
       "url": "https://www.toolsforhumans.ai/ai-tools/guru",
       "source": "Tools For Humans",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "knowledge-base-authoring"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "guardrails"
     }
   ]
 }

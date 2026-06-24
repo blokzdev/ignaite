@@ -36,7 +36,7 @@
     "Smaller team and index than incumbents",
     "Paid pro tier still limited"
   ],
-  "bestFor": ["Private web search", "Quick factual answers", "Ad-free browsing"],
+  "bestFor": ["Privacy-conscious users", "Researchers", "Students"],
   "alternatives": ["perplexity", "you-com", "kagi", "exa"],
   "references": [
     {
@@ -44,6 +44,14 @@
       "url": "https://techcrunch.com/2022/09/13/y-combinator-backed-andi-taps-ai-to-built-a-better-search-engine/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "web-research-agent"
     }
   ]
 }

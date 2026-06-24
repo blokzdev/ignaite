@@ -41,7 +41,7 @@
     "Self-host setup overhead",
     "Cloud pricing not fully public"
   ],
-  "bestFor": ["Agent memory infrastructure", "Cross-session context", "Self-hosting teams"],
+  "bestFor": ["AI agent builders", "Self-hosting teams", "AI engineers"],
   "alternatives": ["mem0", "zep", "letta", "cognee"],
   "references": [
     {
@@ -49,6 +49,14 @@
       "url": "https://www.yicaiglobal.com/news/chinas-evermind-launches-open-source-long-term-memory-system-for-ai-agents",
       "source": "Yicai Global",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }

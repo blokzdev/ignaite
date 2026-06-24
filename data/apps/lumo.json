@@ -43,11 +43,7 @@
     "No third-party model choice",
     "Fewer integrations than big assistants"
   ],
-  "bestFor": [
-    "Privacy-conscious users",
-    "Encrypted research and writing",
-    "Proton ecosystem users"
-  ],
+  "bestFor": ["Privacy-conscious users", "Proton ecosystem users", "Individuals"],
   "alternatives": ["le-chat", "jan", "claude", "chatgpt"],
   "references": [
     {
@@ -55,6 +51,14 @@
       "url": "https://www.xda-developers.com/proton-lumo-ai-feature/",
       "source": "XDA Developers",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "web-research-agent"
     }
   ]
 }

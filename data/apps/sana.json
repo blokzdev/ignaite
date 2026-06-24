@@ -41,7 +41,7 @@
     "Future tied to Workday acquisition",
     "Pricier beyond the free tier"
   ],
-  "bestFor": ["Enterprise knowledge work", "Internal search & Q&A", "Ops & support teams"],
+  "bestFor": ["Enterprise platform teams", "Ops & support teams", "Knowledge workers"],
   "alternatives": ["glean", "dust"],
   "references": [
     {
@@ -55,6 +55,23 @@
       "url": "https://futurumgroup.com/insights/is-workdays-1-1b-sana-acquisition-enough-to-dominate-the-ai-agent-race/",
       "source": "Futurum Group",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

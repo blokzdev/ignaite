@@ -40,13 +40,24 @@
     "Not a chat/Q&A research assistant",
     "Metadata gaps for some niche fields"
   ],
-  "bestFor": ["Literature discovery", "Citation tracing", "Research APIs"],
+  "bestFor": ["Researchers", "Academics", "Developers", "Data scientists"],
   "alternatives": ["consensus", "elicit", "scispace", "scite"],
   "references": [
     {
       "title": "Semantic Scholar",
       "url": "https://en.wikipedia.org/wiki/Semantic_Scholar",
       "source": "Wikipedia"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "recommendation"
     }
   ]
 }

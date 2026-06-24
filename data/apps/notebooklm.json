@@ -38,7 +38,7 @@
     "Daily generation/query caps",
     "Google account required"
   ],
-  "bestFor": ["Document research", "Study and review", "Grounded Q&A"],
+  "bestFor": ["Students", "Researchers", "Analysts"],
   "alternatives": ["scispace", "elicit", "khoj", "consensus"],
   "references": [
     {
@@ -49,5 +49,19 @@
     }
   ],
   "featured": false,
-  "featuredAt": "2026-06-10"
+  "featuredAt": "2026-06-10",
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "flashcard-generation"
+    }
+  ]
 }

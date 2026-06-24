@@ -37,6 +37,20 @@
     "Summaries still need human verification",
     "Less suited to open-ended Q&A"
   ],
-  "bestFor": ["Students", "Researchers", "Literature reviews", "Fast paper triage"],
-  "alternatives": ["scispace", "elicit", "scite", "paperpal"]
+  "bestFor": ["Students", "Researchers", "Academics"],
+  "alternatives": ["scispace", "elicit", "scite", "paperpal"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

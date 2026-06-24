@@ -42,6 +42,17 @@
     "Less grammar depth than Grammarly",
     "No Android app"
   ],
-  "bestFor": ["Paraphrasing/rewriting", "ESL writers", "Tone adjustment"],
-  "alternatives": ["quillbot", "grammarly", "prowritingaid", "rytr"]
+  "bestFor": ["ESL writers", "Students", "Knowledge workers"],
+  "alternatives": ["quillbot", "grammarly", "prowritingaid", "rytr"],
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

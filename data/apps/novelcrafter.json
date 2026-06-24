@@ -35,7 +35,7 @@
   "cons": ["AI API billed separately on top", "No permanent free tier", "Web-only, no offline app"],
   "bestFor": [
     "Novelists and fiction authors",
-    "Worldbuilding-heavy projects",
+    "Worldbuilding-heavy writers",
     "BYO-key power users"
   ],
   "alternatives": ["sudowrite", "novelai", "type"],
@@ -45,6 +45,20 @@
       "url": "https://dreamgen.com/blog/articles/novelcrafter-review",
       "source": "DreamGen",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "knowledge-base-authoring"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

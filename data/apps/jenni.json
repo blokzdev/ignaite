@@ -36,7 +36,7 @@
     "Free tier is tightly capped",
     "Academic-integrity rules vary by school"
   ],
-  "bestFor": ["Students", "Academic researchers", "Literature reviews"],
+  "bestFor": ["Students", "Academic researchers"],
   "alternatives": ["paperpal", "quillbot", "grammarly", "wordtune"],
   "references": [
     {
@@ -44,6 +44,26 @@
       "url": "https://sacra.com/c/jenni-ai/",
       "source": "Sacra",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
     }
   ]
 }

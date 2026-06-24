@@ -43,10 +43,14 @@
     "Less production-server tooling than Zep",
     "Newer, less battle-tested"
   ],
-  "bestFor": [
-    "Per-user long-term modeling",
-    "Chatbots needing time awareness",
-    "Self-hosted memory"
-  ],
-  "alternatives": ["mem0", "zep", "letta", "supermemory"]
+  "bestFor": ["AI app developers", "Chatbot builders", "Self-hosted teams"],
+  "alternatives": ["mem0", "zep", "letta", "supermemory"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

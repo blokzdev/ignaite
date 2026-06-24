@@ -46,7 +46,7 @@
     "Data residency gated to Enterprise",
     "Per-string/seat costs add up at scale"
   ],
-  "bestFor": ["Software localization", "Open-source projects", "Continuous i18n"],
+  "bestFor": ["Software teams", "Open-source projects", "Product/localization teams"],
   "alternatives": ["lokalise", "phrase", "smartcat", "lilt"],
   "references": [
     {
@@ -54,6 +54,14 @@
       "url": "https://en.wikipedia.org/wiki/Crowdin",
       "source": "Wikipedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "localization"
+    },
+    {
+      "id": "translation"
     }
   ]
 }

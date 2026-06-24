@@ -40,7 +40,7 @@
     "Additive — still need Google/Outlook",
     "Less aggressive than full AI planners"
   ],
-  "bestFor": ["Existing task-manager users", "Protecting deep work", "Habit scheduling"],
+  "bestFor": ["Task-manager users", "Knowledge workers", "Teams"],
   "alternatives": ["motion", "sunsama", "taskade"],
   "references": [
     {
@@ -48,6 +48,14 @@
       "url": "https://www.morgen.so/blog-posts/motion-vs-reclaim",
       "source": "Morgen",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "task-management"
     }
   ]
 }

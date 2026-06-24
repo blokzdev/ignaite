@@ -38,7 +38,7 @@
     "Publisher content costs $5/month",
     "Assistant needs broad data access"
   ],
-  "bestFor": ["Perplexity users", "AI-native browsing", "Mobile + desktop parity"],
+  "bestFor": ["Perplexity users", "Knowledge workers"],
   "alternatives": ["dia", "chatgpt-atlas", "perplexity"],
   "references": [
     {
@@ -50,6 +50,26 @@
       "title": "Perplexity brings its AI browser Comet to Android",
       "url": "https://techcrunch.com/2025/11/20/perplexity-brings-its-ai-browser-comet-to-android/",
       "source": "TechCrunch"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "agent-memory"
     }
   ]
 }

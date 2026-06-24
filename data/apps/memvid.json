@@ -48,10 +48,23 @@
     "Young commercial offering (2026)",
     "Best for embed/edge, not multi-writer servers"
   ],
-  "bestFor": [
-    "Offline/edge agent memory",
-    "Portable knowledge bundles",
-    "Embedding memory in apps"
-  ],
-  "alternatives": ["mem0", "zep", "cognee", "supermemory"]
+  "bestFor": ["AI agent builders", "Edge / offline app devs", "Python developers"],
+  "alternatives": ["mem0", "zep", "cognee", "supermemory"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }
