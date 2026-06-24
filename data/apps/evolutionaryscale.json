@@ -34,7 +34,7 @@
     "Largest models gated",
     "Pricing undisclosed"
   ],
-  "bestFor": ["Protein design/generation", "Structure prediction", "Bio ML research"],
+  "bestFor": ["Bio ML researchers", "Protein engineers", "Biotech R&D teams"],
   "alternatives": ["chai-discovery", "profluent", "cradle"],
   "references": [
     {
@@ -42,6 +42,14 @@
       "url": "https://www.maginative.com/article/evolutionaryscale-emerges-from-stealth-with-esm3-the-largest-protein-language-model-and-142m-seed-round/",
       "source": "Maginative",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "protein-design"
+    },
+    {
+      "id": "model-inference"
     }
   ]
 }

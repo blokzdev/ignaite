@@ -38,6 +38,26 @@
     "Niche to games/virtual worlds",
     "Advanced features need paid tiers"
   ],
-  "bestFor": ["Game NPC developers", "VR/metaverse builders", "Interactive 3D characters"],
-  "alternatives": ["inworld-ai"]
+  "bestFor": ["Game NPC developers", "VR/metaverse builders", "Interactive media teams"],
+  "alternatives": ["inworld-ai"],
+  "capabilities": [
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "lip-sync"
+    }
+  ]
 }

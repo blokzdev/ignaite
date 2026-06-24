@@ -37,7 +37,7 @@
     "Crowdsourced note quality varies",
     "Premium gates some features"
   ],
-  "bestFor": ["Secondary & high-school students", "Homework help", "Exam revision"],
+  "bestFor": ["Secondary & high-school students"],
   "alternatives": ["brainly", "gauth", "photomath"],
   "references": [
     {
@@ -45,6 +45,17 @@
       "url": "https://tech.eu/2025/06/13/knowunity-raises-eur27m-to-bring-ai-tutor-to-1-billion-students/",
       "source": "Tech.eu",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "homework-solving"
+    },
+    {
+      "id": "flashcard-generation"
     }
   ]
 }

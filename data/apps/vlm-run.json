@@ -36,6 +36,23 @@
     "Fine-tuning for specialized extraction"
   ],
   "cons": ["Pro tier jumps to $799/mo", "Small team", "Less brand recognition than incumbents"],
-  "bestFor": ["Document automation", "Visual data extraction", "Developers"],
-  "alternatives": ["moondream", "roboflow", "landing-ai", "reka-vision"]
+  "bestFor": ["Developers", "Vision AI teams"],
+  "alternatives": ["moondream", "roboflow", "landing-ai", "reka-vision"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "video-understanding"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

@@ -41,6 +41,11 @@
     "Handwriting less reliable than print",
     "API/enterprise priced separately"
   ],
-  "bestFor": ["STEM students and researchers", "Math and science writers", "Document conversion"],
-  "alternatives": ["moondream", "reducto", "nanonets", "docling"]
+  "bestFor": ["STEM students & researchers", "Math/science writers", "Developers (Convert API)"],
+  "alternatives": ["moondream", "reducto", "nanonets", "docling"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    }
+  ]
 }

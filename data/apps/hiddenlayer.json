@@ -41,6 +41,17 @@
     "Learning curve for AI-security newcomers",
     "Docs thin on advanced config"
   ],
-  "bestFor": ["Mature ML/security teams", "Model supply-chain defense"],
-  "alternatives": ["protect-ai", "lakera", "prompt-security", "lasso-security"]
+  "bestFor": ["Mature ML/security teams", "Enterprise AI platform teams"],
+  "alternatives": ["protect-ai", "lakera", "prompt-security", "lasso-security"],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "guardrails"
+    }
+  ]
 }

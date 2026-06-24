@@ -32,7 +32,7 @@
     "Commercial real estate focus only",
     "Young company (founded 2023)"
   ],
-  "bestFor": ["CRE acquisitions teams", "Underwriting and diligence", "Private equity and credit"],
+  "bestFor": ["CRE acquisitions teams", "Private equity and credit", "Real estate investors"],
   "alternatives": ["realie", "realestateapi", "eliseai"],
   "references": [
     {
@@ -40,6 +40,17 @@
       "url": "https://pulse2.com/cadastral-9-5-million/",
       "source": "Pulse 2",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "financial-modeling"
+    },
+    {
+      "id": "contract-drafting"
     }
   ]
 }

@@ -42,7 +42,7 @@
     "Narrow to logistics manipulation",
     "Hardware capital and integration heavy"
   ],
-  "bestFor": ["Warehouse automation", "Parcel/logistics", "Truck loading"],
+  "bestFor": ["Logistics & warehouse ops", "Parcel & 3PL operators", "Industrial automation teams"],
   "alternatives": ["cobot", "figure-ai", "agility-robotics", "apptronik"],
   "references": [
     {
@@ -56,6 +56,20 @@
       "url": "https://www.bloomberg.com/news/articles/2025-03-11/ai-robotics-startup-dexterity-lands-1-65-billion-valuation",
       "source": "Bloomberg",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "world-model"
+    },
+    {
+      "id": "autonomous-navigation"
     }
   ]
 }

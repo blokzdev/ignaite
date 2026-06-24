@@ -37,7 +37,7 @@
     "Free tier picked up usage caps",
     "Runs on Inflection's own undisclosed models"
   ],
-  "bestFor": ["Reflective conversation", "Emotional support", "Casual companion"],
+  "bestFor": ["Consumers", "People seeking support", "Casual chat users"],
   "alternatives": ["replika", "character-ai", "nomi", "kindroid"],
   "references": [
     {
@@ -45,6 +45,14 @@
       "url": "https://techcrunch.com/2024/08/26/five-months-after-microsoft-hired-its-founders-inflection-adds-usage-caps-to-pi/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "voice-agent"
     }
   ]
 }

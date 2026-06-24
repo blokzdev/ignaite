@@ -37,7 +37,7 @@
     "Aimed at orgs, not individuals",
     "Young company (founded 2023)"
   ],
-  "bestFor": ["Enterprise AI security teams", "Securing AI agents", "AI governance & compliance"],
+  "bestFor": ["Enterprise security teams", "AI governance leads", "Platform/SecOps teams"],
   "alternatives": ["lakera", "prompt-security", "lasso-security", "noma-security"],
   "references": [
     {
@@ -45,6 +45,17 @@
       "url": "https://www.securityweek.com/pillar-security-banks-9m-for-ai-security-guardrails/",
       "source": "SecurityWeek",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "ai-security-scanning"
     }
   ]
 }

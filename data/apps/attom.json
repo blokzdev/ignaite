@@ -32,7 +32,7 @@
     "US-only coverage",
     "Data vendor, not an end-user app"
   ],
-  "bestFor": ["Proptech and analytics platforms", "Lenders and investors", "Data and AI pipelines"],
+  "bestFor": ["Proptech platforms", "Lenders & investors", "Data & AI teams"],
   "alternatives": ["realie", "realestateapi", "housecanary"],
   "references": [
     {
@@ -46,6 +46,20 @@
       "url": "https://www.housingwire.com/articles/47862-attom-data-solutions-acquired-by-private-equity-firm-lovell-minnick-partners/",
       "source": "HousingWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "property-data-api"
+    },
+    {
+      "id": "property-valuation"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "etl-pipeline"
     }
   ]
 }

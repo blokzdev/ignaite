@@ -44,6 +44,14 @@
     "Less turnkey than full proxy gateways",
     "Newer to the AI-security space"
   ],
-  "bestFor": ["Developers adding AI guardrails", "API-first security teams"],
-  "alternatives": ["lakera", "prompt-security", "lasso-security", "protect-ai"]
+  "bestFor": ["App developers", "API-first security teams", "Platform engineers"],
+  "alternatives": ["lakera", "prompt-security", "lasso-security", "protect-ai"],
+  "capabilities": [
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "content-moderation"
+    }
+  ]
 }

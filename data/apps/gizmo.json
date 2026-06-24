@@ -32,7 +32,7 @@
     "Unlimited use needs a subscription",
     "Consumer study focus, not enterprise"
   ],
-  "bestFor": ["Students & exam prep", "Spaced-repetition learners", "Turning notes into quizzes"],
+  "bestFor": ["Students & exam prep", "Spaced-repetition learners"],
   "alternatives": ["quizlet", "khanmigo", "brainly", "photomath"],
   "references": [
     {
@@ -40,6 +40,17 @@
       "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "study-material-conversion"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

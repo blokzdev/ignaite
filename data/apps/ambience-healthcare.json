@@ -43,5 +43,13 @@
       "source": "STAT News",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "medical-coding"
+    }
   ]
 }

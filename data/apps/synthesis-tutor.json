@@ -35,6 +35,14 @@
     "Subscription, no free tier",
     "Limited beyond elementary level"
   ],
-  "bestFor": ["K-5 math practice", "Parents of young kids", "Early math foundations"],
-  "alternatives": ["khanmigo", "photomath", "quizlet"]
+  "bestFor": ["Parents of young kids", "Elementary students"],
+  "alternatives": ["khanmigo", "photomath", "quizlet"],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

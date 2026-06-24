@@ -34,6 +34,11 @@
     "AI guidance is generic at times",
     "Limited crisis-care depth"
   ],
-  "bestFor": ["Anonymous CBT support", "Journaling and self-care", "Stepped mental-health care"],
-  "alternatives": ["pi", "replika", "ada-health"]
+  "bestFor": ["People seeking everyday support", "Self-guided wellbeing users"],
+  "alternatives": ["pi", "replika", "ada-health"],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    }
+  ]
 }

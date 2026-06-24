@@ -36,7 +36,7 @@
     "Healthcare-ops focus, not general",
     "Tuned to the US healthcare system"
   ],
-  "bestFor": ["Clinics and provider groups", "Referral management", "Healthcare back-office"],
+  "bestFor": ["Clinics and provider groups", "Healthcare back-office", "Provider operations teams"],
   "references": [
     {
       "title": "Tennr clinches $101M to build out AI that automates patient referrals",
@@ -49,6 +49,17 @@
       "url": "https://siliconangle.com/2024/10/22/ai-startup-tennr-raises-37m-automate-healthcare-document-processing/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "healthcare-ops"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

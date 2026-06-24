@@ -33,7 +33,7 @@
     "Curation process is opaque",
     "Overreliance risk for trainees"
   ],
-  "bestFor": ["Point-of-care lookups", "U.S. clinicians", "Evidence-based answers"],
+  "bestFor": ["U.S. clinicians", "Nurses & trainees"],
   "alternatives": ["consensus", "elicit", "scispace", "scite"],
   "references": [
     {
@@ -47,6 +47,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/39897335/",
       "source": "PubMed",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "clinical-decision-support"
+    },
+    {
+      "id": "literature-search"
     }
   ]
 }

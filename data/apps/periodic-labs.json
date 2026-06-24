@@ -28,7 +28,7 @@
     "Tackles superconductors"
   ],
   "cons": ["No public product", "Research-stage", "Opaque pricing", "Long time horizon"],
-  "bestFor": ["Materials discovery", "Physical-science R&D", "Industry lab partnerships"],
+  "bestFor": ["Materials R&D labs", "Semiconductor manufacturers", "Physical-science researchers"],
   "alternatives": ["isomorphic-labs", "lila-sciences", "evolutionaryscale"],
   "references": [
     {
@@ -42,6 +42,14 @@
       "url": "https://theaiinsider.tech/2025/10/01/periodic-labs-emerges-from-stealth-with-300-million-seed-round-to-build-ai-scientists/",
       "source": "The AI Insider",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-research"
+    },
+    {
+      "id": "materials-discovery"
     }
   ]
 }

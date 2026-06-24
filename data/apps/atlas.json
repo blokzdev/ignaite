@@ -37,7 +37,7 @@
     "Geared to studios over solo creators",
     "Generative game assets raise IP/style questions"
   ],
-  "bestFor": ["Game studios", "3D and CGI pipelines"],
+  "bestFor": ["Game studios", "3D & CGI teams", "Technical artists"],
   "alternatives": ["meshy", "scenario", "kaedim", "tripo"],
   "references": [
     {
@@ -51,6 +51,17 @@
       "url": "https://techcrunch.com/2023/11/14/3d-generative-ai-platform-atlas-emerges-stealth-6m-accelerate-virtual-worldbuilding/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "image-to-3d"
     }
   ]
 }

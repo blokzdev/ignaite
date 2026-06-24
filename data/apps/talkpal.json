@@ -42,6 +42,20 @@
     "Less structured than gamified apps",
     "No human tutors"
   ],
-  "bestFor": ["Conversation practice", "Self-guided learners", "Many target languages"],
-  "alternatives": ["duolingo", "speak"]
+  "bestFor": ["Language learners", "Self-guided learners", "Speaking practice"],
+  "alternatives": ["duolingo", "speak"],
+  "capabilities": [
+    {
+      "id": "language-practice"
+    },
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    }
+  ]
 }

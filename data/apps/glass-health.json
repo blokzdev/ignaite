@@ -39,7 +39,7 @@
     "US-clinician focused",
     "Output always requires clinician review"
   ],
-  "bestFor": ["Physicians", "Clinical decision support", "Medical documentation"],
+  "bestFor": ["Physicians", "Clinicians / care teams"],
   "alternatives": ["openevidence", "abridge", "nabla"],
   "references": [
     {
@@ -53,6 +53,17 @@
       "url": "https://www.finsmes.com/2023/09/glass-health-raises-5m-in-funding.html",
       "source": "FinSMEs",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "clinical-decision-support"
+    },
+    {
+      "id": "cited-answers"
     }
   ]
 }

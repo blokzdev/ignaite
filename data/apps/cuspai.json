@@ -33,7 +33,7 @@
     "No public product or pricing",
     "Narrow enterprise focus"
   ],
-  "bestFor": ["Materials R&D teams", "Carbon capture", "Industrial chemistry"],
+  "bestFor": ["Materials R&D teams", "Climate-tech orgs", "Industrial chemistry"],
   "alternatives": ["periodic-labs", "lila-sciences", "profluent"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://siliconangle.com/2025/09/10/cuspai-raises-100m-build-ai-search-engine-transform-materials-science/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "materials-discovery"
+    },
+    {
+      "id": "molecular-design"
+    },
+    {
+      "id": "physics-simulation"
     }
   ]
 }

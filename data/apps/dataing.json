@@ -27,6 +27,14 @@
     "Marketed as free"
   ],
   "cons": ["Requires social-account access", "Privacy tradeoff", "Small, unproven user base"],
-  "bestFor": ["Dating without swiping"],
-  "alternatives": ["pi", "replika", "kindroid"]
+  "bestFor": ["Singles / daters"],
+  "alternatives": ["pi", "replika", "kindroid"],
+  "capabilities": [
+    {
+      "id": "recommendation"
+    },
+    {
+      "id": "companion-chat"
+    }
+  ]
 }

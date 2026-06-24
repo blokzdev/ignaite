@@ -33,7 +33,7 @@
     "Priced by lead volume",
     "Multi-month minimum commitment"
   ],
-  "bestFor": ["Real-estate teams", "Lead qualification", "Mortgage lead nurture"],
+  "bestFor": ["Real-estate teams", "Mortgage lenders", "Inside-sales teams"],
   "alternatives": ["lofty", "rechat", "saleswise"],
   "references": [
     {
@@ -47,6 +47,20 @@
       "url": "https://www.housingwire.com/company-profile/structurely/",
       "source": "HousingWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

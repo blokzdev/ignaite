@@ -42,7 +42,7 @@
     "Unlimited use needs a paid plan",
     "Output still needs teacher review"
   ],
-  "bestFor": ["K-12 teachers", "Differentiated instruction", "ELL/mixed-ability classes"],
+  "bestFor": ["K-12 teachers", "ELL/mixed-ability classes", "Schools & districts"],
   "alternatives": ["magicschool-ai", "brisk-teaching", "schoolai", "curipod"],
   "references": [
     {
@@ -50,6 +50,17 @@
       "url": "https://www.educatorstechnology.com/2024/11/diffit-ai-for-teachers-review.html",
       "source": "Educators Technology",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "study-material-conversion"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

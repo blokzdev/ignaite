@@ -33,7 +33,7 @@
     "Breadth means a learning curve",
     "Geared to brokerages over solo agents"
   ],
-  "bestFor": ["Real estate brokerages", "Agent marketing teams", "Transaction management"],
+  "bestFor": ["Real estate brokerages", "Real estate agents", "Brokerage marketing teams"],
   "alternatives": ["lofty", "saleswise", "eliseai"],
   "references": [
     {
@@ -41,6 +41,14 @@
       "url": "https://www.rismedia.com/2025/07/28/rechat-releases-lucy-ai-agent-assistant/",
       "source": "RISMedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "email-assistant"
     }
   ]
 }

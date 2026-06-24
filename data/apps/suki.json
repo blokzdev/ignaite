@@ -41,5 +41,19 @@
       "source": "Healthcare Dive",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "clinical-decision-support"
+    }
   ]
 }

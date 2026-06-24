@@ -32,7 +32,7 @@
     "Quality depends on training material",
     "Niche creator/expert use case"
   ],
-  "bestFor": ["Creators and coaches", "Experts scaling Q&A", "Course and community owners"],
+  "bestFor": ["Creators & coaches", "Experts & advisors", "Course & community owners"],
   "alternatives": ["character-ai"],
   "references": [
     {
@@ -52,6 +52,20 @@
       "url": "https://www.fastcompany.com/91356476/delphi-ai-digital-mind",
       "source": "Fast Company",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "voice-cloning"
     }
   ]
 }

@@ -41,11 +41,7 @@
     "Human review can add latency",
     "Paid pricing not fully public"
   ],
-  "bestFor": [
-    "Edge and IoT monitoring",
-    "Industrial inspection",
-    "Developers without ML expertise"
-  ],
+  "bestFor": ["Developers without ML expertise", "Industrial / IoT teams"],
   "alternatives": ["roboflow", "landing-ai"],
   "references": [
     {
@@ -59,6 +55,20 @@
       "url": "https://www.geekwire.com/2023/amazon-and-microsoft-vets-raise-10m-for-computer-vision-startup-used-in-warehouses/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "defect-detection"
+    },
+    {
+      "id": "data-labeling"
     }
   ]
 }

@@ -37,7 +37,7 @@
     "Best features behind Brainly Plus",
     "AI can still produce errors"
   ],
-  "bestFor": ["K-12 homework help", "Students & parents", "Quick concept answers"],
+  "bestFor": ["K-12 students", "Students & parents", "Homeschoolers"],
   "alternatives": ["gauth", "photomath", "quizlet", "studyfetch"],
   "references": [
     {
@@ -51,6 +51,14 @@
       "url": "https://venturebeat.com/business/polish-p2p-learning-platform-brainly-raises-14m-after-hitting-100m-users",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "homework-solving"
+    },
+    {
+      "id": "ai-tutoring"
     }
   ]
 }

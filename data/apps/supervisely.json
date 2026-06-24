@@ -44,6 +44,20 @@
     "Enterprise pricing is quote-based",
     "Heavier than a pure labeling tool"
   ],
-  "bestFor": ["End-to-end CV teams", "3D/medical imaging", "Self-hosted labeling"],
-  "alternatives": ["roboflow", "encord", "label-studio", "voxel51"]
+  "bestFor": ["End-to-end CV teams", "ML engineers", "Self-hosting teams"],
+  "alternatives": ["roboflow", "encord", "label-studio", "voxel51"],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

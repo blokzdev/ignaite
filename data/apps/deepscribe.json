@@ -32,7 +32,7 @@
     "Geared to practices, not individuals",
     "Requires EHR integration setup"
   ],
-  "bestFor": ["Clinicians & practices", "Ambient documentation", "Specialty care"],
+  "bestFor": ["Clinicians", "Medical practices", "Specialty & oncology care"],
   "alternatives": ["abridge", "ambience-healthcare", "nabla", "suki"],
   "references": [
     {
@@ -46,6 +46,17 @@
       "url": "https://www.healthcareittoday.com/2021/05/14/medical-prodigy-deepscribe-lands-5-2m-seed-funding-for-life-changing-ai-assistant/",
       "source": "Healthcare IT Today",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

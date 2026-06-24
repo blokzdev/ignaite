@@ -13,7 +13,13 @@
     "notes": "Agentic clinical workflows over LLM backends."
   },
   "tags": ["clinical-ai", "ambient-scribe", "medical-coding", "ehr", "agents"],
-  "links": [{ "kind": "website", "url": "https://www.sully.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.sully.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 987,
   "lastVerifiedAt": "2026-06-20",
@@ -29,10 +35,23 @@
     "Accuracy claims vendor-reported",
     "Newer vs. established scribes"
   ],
-  "bestFor": [
-    "Hospitals and clinics",
-    "Reducing clinician admin load",
-    "Multi-specialty practices"
-  ],
-  "alternatives": ["abridge", "ambience-healthcare", "nabla", "suki"]
+  "bestFor": ["Hospitals and clinics", "Multi-specialty practices"],
+  "alternatives": ["abridge", "ambience-healthcare", "nabla", "suki"],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "healthcare-ops"
+    },
+    {
+      "id": "symptom-triage"
+    },
+    {
+      "id": "clinical-decision-support"
+    }
+  ]
 }

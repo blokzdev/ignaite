@@ -37,7 +37,7 @@
     "Pulled from app stores at times",
     "China-based vendor; data concerns"
   ],
-  "bestFor": ["Character roleplay", "Casual companionship", "Interactive fiction fans"],
+  "bestFor": ["Interactive fiction fans", "Companion-app users"],
   "alternatives": ["character-ai", "replika", "kindroid", "nomi"],
   "references": [
     {
@@ -45,6 +45,20 @@
       "url": "https://finance.yahoo.com/news/chinese-ai-unicorn-minimax-scores-093000101.html",
       "source": "Yahoo Finance",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "agent-memory"
     }
   ]
 }

@@ -29,7 +29,7 @@
     "Strong research lineage"
   ],
   "cons": ["Sales-led, API-first, no free tier", "Research-stage for game dev", "Compute-heavy"],
-  "bestFor": ["Generative game worlds", "Real-time video AI", "Physical AI and sim", "R&D teams"],
+  "bestFor": ["AI/ML research teams", "Game & sim studios", "Robotics & physical-AI teams"],
   "alternatives": ["inworld-ai", "rosebud-ai"],
   "references": [
     {
@@ -37,6 +37,14 @@
       "url": "https://techcrunch.com/2024/12/19/decart-adds-another-32m-at-a-500m-valuation",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "world-model"
+    },
+    {
+      "id": "video-editing"
     }
   ]
 }

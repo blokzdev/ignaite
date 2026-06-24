@@ -41,7 +41,7 @@
     "Narrow deployed task range so far",
     "Capital-intensive hardware"
   ],
-  "bestFor": ["Industrial automation", "Dexterous manipulation", "Humanoid R&D"],
+  "bestFor": ["Manufacturers", "Industrial operators", "Robotics researchers"],
   "alternatives": ["figure-ai", "1x", "physical-intelligence", "skild-ai"],
   "references": [
     {
@@ -49,6 +49,17 @@
       "url": "https://www.therobotreport.com/sanctuary-ai-latest-phoenix-humanoid-can-learn-tasks-in-24-hours/",
       "source": "The Robot Report",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "imitation-learning"
     }
   ]
 }

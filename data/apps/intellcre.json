@@ -37,7 +37,7 @@
     "Web-only",
     "US property data coverage"
   ],
-  "bestFor": ["CRE brokers", "Multifamily investors", "Deal underwriting"],
+  "bestFor": ["CRE brokers", "Multifamily investors", "Lenders & analysts"],
   "alternatives": ["rechat", "lofty"],
   "references": [
     {
@@ -51,6 +51,20 @@
       "url": "https://www.adventuresincre.com/ai-tools-commercial-real-estate/",
       "source": "Adventures in CRE",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-modeling"
+    },
+    {
+      "id": "property-data-api"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
     }
   ]
 }

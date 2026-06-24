@@ -10,7 +10,11 @@
   "platforms": ["ios", "web"],
   "tags": ["ai-doctor", "primary-care", "telehealth", "prescriptions", "free"],
   "links": [
-    { "kind": "website", "url": "https://lotus.ai", "primary": true },
+    {
+      "kind": "website",
+      "url": "https://lotus.ai",
+      "primary": true
+    },
     {
       "kind": "website",
       "url": "https://apps.apple.com/us/app/lotus-health-ai/id6736791154",
@@ -37,8 +41,8 @@
   ],
   "bestFor": [
     "Uninsured / cost-sensitive patients",
-    "Non-urgent primary care",
-    "Prescription refills & labs"
+    "US patients (50 states)",
+    "Mobile-first users"
   ],
   "alternatives": ["k-health", "ada-health", "hippocratic-ai"],
   "references": [
@@ -47,6 +51,17 @@
       "url": "https://techcrunch.com/2026/02/03/lotus-health-nabs-35m-for-ai-doctor-that-sees-patients-for-free/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "symptom-triage"
+    },
+    {
+      "id": "clinical-decision-support"
+    },
+    {
+      "id": "clinical-documentation"
     }
   ]
 }

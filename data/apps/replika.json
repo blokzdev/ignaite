@@ -37,7 +37,7 @@
     "Privacy/age-verification scrutiny",
     "Roleplay shallower than SillyTavern setups"
   ],
-  "bestFor": ["Casual AI companionship", "Emotional support chat", "Avatar persona"],
+  "bestFor": ["Consumers", "People seeking companionship", "Avatar persona users"],
   "alternatives": ["character-ai", "kindroid", "nomi", "pi"],
   "references": [
     {
@@ -45,6 +45,14 @@
       "url": "https://www.pymnts.com/cpi-posts/italy-fines-ai-chatbot-maker-replika-e5-million-over-privacy-violations/",
       "source": "PYMNTS",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "roleplay-characters"
     }
   ]
 }

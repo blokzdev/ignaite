@@ -36,6 +36,23 @@
     "Best tools behind paywall",
     "Narrower than general AI tutors"
   ],
-  "bestFor": ["Students", "Exam prep", "Course-material study"],
-  "alternatives": ["quizlet", "khanmigo", "magicschool-ai", "notebooklm"]
+  "bestFor": ["Students", "Exam-prep students", "Self-learners"],
+  "alternatives": ["quizlet", "khanmigo", "magicschool-ai", "notebooklm"],
+  "capabilities": [
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "study-material-conversion"
+    },
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

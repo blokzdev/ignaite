@@ -40,6 +40,17 @@
     "Chrome-extension-centric",
     "Less control over plan structure"
   ],
-  "bestFor": ["Teachers in Google Workspace", "Grading and feedback"],
-  "alternatives": ["magicschool-ai", "kuraplan", "khanmigo", "studyfetch"]
+  "bestFor": ["Teachers in Google Workspace", "K-12 educators"],
+  "alternatives": ["magicschool-ai", "kuraplan", "khanmigo", "studyfetch"],
+  "capabilities": [
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "lesson-planning"
+    },
+    {
+      "id": "text-editing"
+    }
+  ]
 }

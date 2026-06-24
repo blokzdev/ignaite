@@ -33,13 +33,27 @@
     "No self-serve or free tier",
     "Young company, founded 2023"
   ],
-  "bestFor": ["Enterprise security teams", "AI governance leads", "Agent-heavy deployments"],
+  "bestFor": ["Enterprise security teams", "AI governance leads"],
   "alternatives": ["lakera", "prompt-security", "zenity", "hiddenlayer"],
   "references": [
     {
       "title": "Noma Security Raises $100 Million for AI Security Platform",
       "url": "https://www.securityweek.com/noma-security-raises-100-million-for-ai-security-platform/",
       "source": "SecurityWeek"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

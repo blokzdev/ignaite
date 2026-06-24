@@ -28,7 +28,7 @@
     "Early mover in the niche"
   ],
   "cons": ["Positioning shifted to asset gen", "Pricing not on homepage", "Funding details thin"],
-  "bestFor": ["Game ideation", "Market/trend research", "Rapid prototyping", "Sprite generation"],
+  "bestFor": ["Game developers & studios", "Indie game makers"],
   "alternatives": ["scenario", "rosebud-ai", "layer-ai"],
   "references": [
     {
@@ -36,6 +36,20 @@
       "url": "https://80.lv/articles/ludo-ai-powered-toolkit-helping-developers-create-games",
       "source": "80 Level",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "text-to-video"
     }
   ]
 }

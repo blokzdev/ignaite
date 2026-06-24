@@ -32,6 +32,17 @@
     "API-only — no end-user app",
     "Accuracy varies with photo quality"
   ],
-  "bestFor": ["AVMs and iBuyers", "MLS and portal data", "Appraisal and insurance"],
-  "alternatives": ["housecanary", "realie", "realestateapi"]
+  "bestFor": ["AVMs and iBuyers", "MLSs and portals", "Appraisers and insurers"],
+  "alternatives": ["housecanary", "realie", "realestateapi"],
+  "capabilities": [
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "property-data-api"
+    }
+  ]
 }

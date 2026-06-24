@@ -45,6 +45,23 @@
     "Narrower than large multimodal LLMs",
     "Cloud tier is pay-per-image"
   ],
-  "bestFor": ["On-device vision", "Edge and embedded apps", "Cost-sensitive VQA"],
-  "alternatives": ["roboflow", "landing-ai", "twelve-labs"]
+  "bestFor": ["On-device & edge developers", "Cost-sensitive AI teams", "ML engineers"],
+  "alternatives": ["roboflow", "landing-ai", "twelve-labs"],
+  "capabilities": [
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

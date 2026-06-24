@@ -36,5 +36,22 @@
     "Broad suite can mean more to adopt"
   ],
   "bestFor": ["Health systems", "Hospital operations teams"],
-  "alternatives": ["abridge", "ambience-healthcare", "suki", "nabla"]
+  "alternatives": ["abridge", "ambience-healthcare", "suki", "nabla"],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "healthcare-ops"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

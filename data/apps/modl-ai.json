@@ -36,5 +36,13 @@
     "Console and iOS support still expanding",
     "Aimed at studios, not solo hobbyists"
   ],
-  "bestFor": ["Game studios", "QA teams", "Multiplayer balancing"]
+  "bestFor": ["Game studios", "QA teams", "Multiplayer game devs"],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "object-detection"
+    }
+  ]
 }

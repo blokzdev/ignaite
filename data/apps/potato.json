@@ -34,7 +34,7 @@
     "Life-sciences focus only",
     "Human review still required"
   ],
-  "bestFor": ["Wet-lab biologists", "Computational biology teams", "Academic and biotech R&D"],
+  "bestFor": ["Wet-lab biologists", "Biotech R&D teams", "Academic labs"],
   "alternatives": ["futurehouse", "edison-scientific", "elicit"],
   "references": [
     {
@@ -42,6 +42,17 @@
       "url": "https://www.geekwire.com/2025/startup-aiming-to-revolutionize-research-with-fully-automated-science-experimentation-lands-4-5m/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-research"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

@@ -32,7 +32,7 @@
     "Full features require a subscription",
     "Playful tone won't suit everyone"
   ],
-  "bestFor": ["Emotional support", "Gen Z users", "Casual companionship"],
+  "bestFor": ["Gen Z users", "People seeking support", "Casual users"],
   "alternatives": ["replika", "character-ai", "nomi", "kindroid"],
   "references": [
     {
@@ -40,6 +40,11 @@
       "url": "https://www.geekwire.com/2025/ai-companionship-app-tolan-raises-20m-to-help-more-people-grow-with-a-virtual-alien-friend/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
     }
   ]
 }

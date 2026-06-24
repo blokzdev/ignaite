@@ -32,6 +32,18 @@
     "Built for mature security teams",
     "Overlaps with existing scanners for some"
   ],
-  "bestFor": ["Enterprise security teams", "Exposure validation programs", "Reducing CVE noise"],
-  "alternatives": ["horizon3-ai", "xbow"]
+  "bestFor": [
+    "Enterprise security teams",
+    "Offensive security practitioners",
+    "Mature SecOps programs"
+  ],
+  "alternatives": ["horizon3-ai", "xbow"],
+  "capabilities": [
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "ai-security-scanning"
+    }
+  ]
 }

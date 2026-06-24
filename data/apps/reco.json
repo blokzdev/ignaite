@@ -39,7 +39,7 @@
     "Cloud-only",
     "Fast-evolving SSPM category"
   ],
-  "bestFor": ["Enterprise security teams", "SaaS posture management", "AI-agent governance"],
+  "bestFor": ["Enterprise security teams", "CISOs", "SecOps teams"],
   "alternatives": ["zenity", "witnessai", "prompt-security", "lasso-security"],
   "references": [
     {
@@ -47,6 +47,11 @@
       "url": "https://www.securityweek.com/reco-raises-30-million-to-enhance-ai-saas-security/",
       "source": "SecurityWeek",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
     }
   ]
 }

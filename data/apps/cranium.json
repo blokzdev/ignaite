@@ -36,12 +36,7 @@
     "No free or self-serve tier",
     "Heavier than a single guardrail tool"
   ],
-  "bestFor": [
-    "Enterprise AI governance",
-    "Security teams",
-    "AI risk and compliance",
-    "Model inventory"
-  ],
+  "bestFor": ["Enterprise security teams", "AI risk & compliance", "Responsible-AI programs"],
   "alternatives": ["protect-ai", "hiddenlayer", "lakera", "noma-security"],
   "references": [
     {
@@ -49,6 +44,17 @@
       "url": "https://cfotech.com.au/story/cranium-raises-25m-in-series-a-funding-to-advance-ai-security-solutions",
       "source": "CFOtech",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "regulatory-compliance"
     }
   ]
 }

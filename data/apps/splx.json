@@ -42,7 +42,7 @@
     "Now folded into Zscaler's platform",
     "Newer than traditional AppSec tools"
   ],
-  "bestFor": ["AI security teams", "LLM app red teaming", "Agent & RAG security", "AI governance"],
+  "bestFor": ["AI security teams", "Enterprise AI platform teams"],
   "alternatives": ["lakera", "prompt-security", "protect-ai", "pillar-security"],
   "references": [
     {
@@ -56,6 +56,20 @@
       "url": "https://www.datamation.com/security/zscaler-splx-deal/",
       "source": "Datamation",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "regulatory-compliance"
     }
   ]
 }

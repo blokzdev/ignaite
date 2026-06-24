@@ -37,7 +37,7 @@
     "Depth may trail best-of-breed point tools",
     "Newer than incumbent AppSec vendors"
   ],
-  "bestFor": ["Startups and scale-ups", "Developer-led security", "Consolidating point tools"],
+  "bestFor": ["Startups & scale-ups", "Developer-led security teams"],
   "alternatives": ["snyk", "xbow"],
   "references": [
     {
@@ -45,6 +45,14 @@
       "url": "https://techfundingnews.com/aikido-security-60m-series-b-1b-valuation/",
       "source": "TFN",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "red-teaming"
     }
   ]
 }

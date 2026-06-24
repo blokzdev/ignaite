@@ -32,7 +32,7 @@
     "ByteDance ownership draws privacy scrutiny",
     "Accuracy varies on hard problems"
   ],
-  "bestFor": ["K-12 and college students", "Math homework help"],
+  "bestFor": ["K-12 and college students"],
   "alternatives": ["photomath", "quizlet", "studyfetch", "khanmigo"],
   "references": [
     {
@@ -40,6 +40,14 @@
       "url": "https://foxdata.com/en/blogs/bytedances-gauth-ai-study-companion-dominates-2025-us-education-charts-as-top-ai-homework-helper/",
       "source": "FoxData",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "homework-solving"
+    },
+    {
+      "id": "ai-tutoring"
     }
   ]
 }

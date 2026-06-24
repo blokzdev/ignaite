@@ -35,9 +35,9 @@
   ],
   "bestFor": [
     "No-code game makers",
-    "Education and kids",
-    "Rapid game prototypes",
-    "Hobbyist creators"
+    "Educators & students",
+    "Hobbyist creators",
+    "Indie game devs"
   ],
   "alternatives": ["ludo-ai", "scenario", "inworld-ai"],
   "references": [
@@ -46,6 +46,20 @@
       "url": "https://www.buzzsprout.com/222312/episodes/17966589-lisha-li-democratizing-game-creation-through-ai",
       "source": "Getting2Alpha",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "app-deployment"
     }
   ]
 }

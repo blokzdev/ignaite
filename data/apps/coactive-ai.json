@@ -38,6 +38,23 @@
     "Narrowly focused on visual data",
     "Onboarding requires sales contact"
   ],
-  "bestFor": ["Media and retail archives", "Visual content search", "Enterprise data teams"],
-  "alternatives": ["twelve-labs", "voxel51", "roboflow", "landing-ai"]
+  "bestFor": ["Media and entertainment", "Retail and brands", "Enterprise data teams"],
+  "alternatives": ["twelve-labs", "voxel51", "roboflow", "landing-ai"],
+  "capabilities": [
+    {
+      "id": "video-understanding"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "content-moderation"
+    },
+    {
+      "id": "recommendation"
+    }
+  ]
 }

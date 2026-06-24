@@ -44,6 +44,17 @@
     "Training larger models needs real GPUs",
     "Docs sprawl across YOLO versions"
   ],
-  "bestFor": ["Real-time object detection", "Edge vision apps", "CV prototyping"],
-  "alternatives": ["roboflow", "encord", "voxel51", "supervisely"]
+  "bestFor": ["Computer vision engineers", "ML researchers", "Edge-AI developers"],
+  "alternatives": ["roboflow", "encord", "voxel51", "supervisely"],
+  "capabilities": [
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

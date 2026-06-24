@@ -42,7 +42,7 @@
     "Aimed at robot makers, not end users",
     "Early in commercial deployment"
   ],
-  "bestFor": ["Robot OEMs", "Industrial autonomy", "Embodied AI teams"],
+  "bestFor": ["Robot OEMs", "Industrial autonomy teams", "Embodied-AI teams"],
   "alternatives": ["physical-intelligence", "skild-ai", "figure-ai", "wayve"],
   "references": [
     {
@@ -56,6 +56,17 @@
       "url": "https://www.geekwire.com/2025/robotics-startup-fieldai-backed-by-gates-and-bezos-hits-2b-valuation-after-latest-funding/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "world-model"
+    },
+    {
+      "id": "autonomous-navigation"
     }
   ]
 }

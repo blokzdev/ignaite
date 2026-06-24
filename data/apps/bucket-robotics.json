@@ -36,7 +36,7 @@
     "Pricing not public",
     "Manufacturing computer-vision niche"
   ],
-  "bestFor": ["Manufacturing QA", "Defect detection on lines", "CAD-driven CV teams"],
+  "bestFor": ["Manufacturing QA teams", "CAD-driven CV teams", "Manufacturers"],
   "alternatives": ["landing-ai", "roboflow", "voxel51"],
   "references": [
     {
@@ -44,6 +44,17 @@
       "url": "https://techcrunch.com/2026/01/18/how-yc-backed-bucket-robotics-survived-its-first-ces/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "defect-detection"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
     }
   ]
 }

@@ -35,7 +35,7 @@
     "Coding and EHR push need Premier",
     "Strongest in primary care specialties"
   ],
-  "bestFor": ["Solo clinicians", "Small practices", "Cutting charting time"],
+  "bestFor": ["Solo clinicians", "Small practices", "Outpatient providers"],
   "alternatives": ["heidi-health", "nabla", "abridge", "suki"],
   "references": [
     {
@@ -43,6 +43,20 @@
       "url": "https://www.veroscribe.com/blog/freed-ai-review-2026",
       "source": "Vero",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "clinical-decision-support"
     }
   ]
 }

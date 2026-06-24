@@ -42,6 +42,14 @@
     "Can be slow or over-cautious",
     "Limited subjects beyond core academics"
   ],
-  "bestFor": ["K-12 students", "Teachers and lesson prep", "Guided math and science"],
-  "alternatives": ["synthesis-tutor", "studyfetch", "quizlet"]
+  "bestFor": ["K-12 students", "Teachers", "Parents"],
+  "alternatives": ["synthesis-tutor", "studyfetch", "quizlet"],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "lesson-planning"
+    }
+  ]
 }

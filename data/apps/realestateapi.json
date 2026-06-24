@@ -32,7 +32,7 @@
     "US-only coverage",
     "API-only — no end-user dashboard"
   ],
-  "bestFor": ["Proptech developers", "Underwriting and valuation", "Skip tracing and lead data"],
+  "bestFor": ["Proptech developers", "Lenders & underwriters", "Real estate data teams"],
   "alternatives": ["realie", "cadastral"],
   "references": [
     {
@@ -40,6 +40,17 @@
       "url": "https://www.geekwire.com/contributor-content/realestateapi-and-the-rise-of-ai-native-real-estate-infrastructure/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "property-data-api"
+    },
+    {
+      "id": "property-valuation"
+    },
+    {
+      "id": "lead-enrichment"
     }
   ]
 }

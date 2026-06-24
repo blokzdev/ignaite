@@ -33,7 +33,7 @@
     "Enterprise focus",
     "Now split across housing and healthcare"
   ],
-  "bestFor": ["Multifamily operators", "Leasing and resident comms", "Property management teams"],
+  "bestFor": ["Multifamily operators", "Property management teams", "Healthcare front desks"],
   "alternatives": ["cadastral", "realie"],
   "references": [
     {
@@ -47,6 +47,17 @@
       "url": "https://www.bisnow.com/national/news/proptech/proptech-firm-eliseai-reaches-unicorn-status-with-75m-series-d-raise-125479",
       "source": "Bisnow",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

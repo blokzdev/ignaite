@@ -14,7 +14,13 @@
     "notes": "Observes, governs, and secures use of any AI model or app across the enterprise."
   },
   "tags": ["ai-security", "governance", "guardrails", "observability", "compliance"],
-  "links": [{ "kind": "website", "url": "https://witness.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://witness.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-13",
   "addedSeq": 527,
   "lastVerifiedAt": "2026-06-13",
@@ -30,7 +36,7 @@
     "Aimed at large orgs, not individuals",
     "Relatively new company (founded 2023)"
   ],
-  "bestFor": ["Enterprise AI governance", "Securing employee AI use", "Compliance teams", "CISOs"],
+  "bestFor": ["CISOs", "Compliance teams", "Enterprise security"],
   "alternatives": ["lakera", "lasso-security", "prompt-security", "noma-security"],
   "references": [
     {
@@ -38,6 +44,20 @@
       "url": "https://techcrunch.com/2024/05/21/witnessai-is-building-guardrails-for-generative-ai-models/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "regulatory-compliance"
     }
   ]
 }

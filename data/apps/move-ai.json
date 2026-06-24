@@ -41,13 +41,18 @@
     "Single-camera accuracy trails multi-camera",
     "Capture length capped on lower tiers"
   ],
-  "bestFor": ["Game and film animation", "Indie 3D creators", "Virtual production"],
+  "bestFor": ["Game & film animators", "Indie 3D creators", "Virtual production teams"],
   "references": [
     {
       "title": "Move AI's New Tool for Single-Camera Motion Capture with iPhone",
       "url": "https://80.lv/articles/move-ai-s-new-tool-for-single-camera-motion-capture-with-iphone",
       "source": "80 Level",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "video-understanding"
     }
   ]
 }

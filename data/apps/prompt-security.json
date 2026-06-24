@@ -40,6 +40,23 @@
     "Roadmap tied to SentinelOne integration",
     "Heavier than a single-purpose API guard"
   ],
-  "bestFor": ["Enterprises", "Shadow-AI governance", "GenAI data protection"],
-  "alternatives": ["lakera", "pangea", "protect-ai", "lasso-security"]
+  "bestFor": ["Enterprises", "Security & GRC teams", "Platform / AppSec teams"],
+  "alternatives": ["lakera", "pangea", "protect-ai", "lasso-security"],
+  "capabilities": [
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "content-moderation"
+    }
+  ]
 }

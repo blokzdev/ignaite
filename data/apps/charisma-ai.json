@@ -16,9 +16,19 @@
   "accentColor": "#7C5CFC",
   "tags": ["npc", "interactive-story", "conversational-ai", "no-code"],
   "links": [
-    { "kind": "website", "url": "https://charisma.ai", "primary": true },
-    { "kind": "docs", "url": "https://docs.charisma.ai" },
-    { "kind": "pricing", "url": "https://charisma.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://charisma.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.charisma.ai"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://charisma.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-16",
   "addedSeq": 827,
@@ -35,12 +45,7 @@
     "Credit-based pricing adds up at scale",
     "Less open-ended than pure LLM NPCs"
   ],
-  "bestFor": [
-    "Interactive narrative",
-    "Training simulations",
-    "Game NPC dialogue",
-    "Brand experiences"
-  ],
+  "bestFor": ["Game developers", "L&D and training teams", "Brands and studios"],
   "alternatives": ["inworld-ai", "convai", "hidden-door", "series-ai"],
   "references": [
     {
@@ -48,6 +53,20 @@
       "url": "https://www.gamedeveloper.com/production/keywords-and-charisma-partner-to-let-devs-harness-ai-powered-storytelling-platform",
       "source": "Game Developer",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "agent-memory"
     }
   ]
 }

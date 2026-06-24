@@ -32,7 +32,7 @@
     "No public pricing",
     "US value-based-care focus"
   ],
-  "bestFor": ["Primary care groups", "ACOs and MSOs", "Value-based care teams"],
+  "bestFor": ["Primary care groups", "ACOs & MSOs", "Value-based care teams"],
   "alternatives": ["abridge", "nabla", "openevidence", "suki"],
   "references": [
     {
@@ -44,6 +44,20 @@
       "title": "Navina Secures $55M to Expand AI-Powered Clinical Intelligence",
       "url": "https://hitconsultant.net/2025/03/25/navina-secures-55m-to-expand-ai-powered-clinical-intelligence/",
       "source": "HIT Consultant"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-decision-support"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

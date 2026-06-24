@@ -36,7 +36,7 @@
     "Scope limited to logistics tasks today",
     "Not yet cleared to work beside humans"
   ],
-  "bestFor": ["Warehouse automation", "3PL logistics", "Manufacturing pilots"],
+  "bestFor": ["Warehouse & 3PL operators", "Manufacturers"],
   "alternatives": ["figure-ai", "apptronik", "1x", "sanctuary-ai"],
   "references": [
     {
@@ -44,6 +44,17 @@
       "url": "https://research.contrary.com/company/agility-robotics",
       "source": "Contrary Research",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "bipedal-locomotion"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "autonomous-navigation"
     }
   ]
 }

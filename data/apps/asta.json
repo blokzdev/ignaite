@@ -39,7 +39,7 @@
     "Narrower than general-purpose research assistants",
     "Focused on scholarly/scientific workflows"
   ],
-  "bestFor": ["Literature review", "Scientific research", "Agent benchmarking"],
+  "bestFor": ["Scientists & researchers", "Academic labs", "AI agent builders"],
   "alternatives": ["futurehouse", "elicit", "consensus", "undermind"],
   "references": [
     {
@@ -47,6 +47,23 @@
       "url": "https://www.geekwire.com/2025/an-open-source-ai-sidekick-for-scientists-ai2s-new-asta-agent-platform-aims-to-spark-big-discoveries/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

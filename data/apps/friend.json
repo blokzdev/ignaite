@@ -36,7 +36,7 @@
     "Text replies only — no voice",
     "Polarizing public reception"
   ],
-  "bestFor": ["Ambient companionship", "AI hardware early adopters"],
+  "bestFor": ["AI hardware early adopters", "Solo / lonely users"],
   "alternatives": ["replika", "tolan", "character-ai", "nomi"],
   "references": [
     {
@@ -55,6 +55,14 @@
       "url": "https://www.cnn.com/2025/11/16/tech/friend-ai-device-backlash-ceo-avi-schiffmann",
       "source": "CNN",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "ambient-life-capture"
     }
   ]
 }

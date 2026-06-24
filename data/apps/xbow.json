@@ -36,7 +36,7 @@
     "Focused on web/application attack surface",
     "Young company, founded 2024"
   ],
-  "bestFor": ["Security teams", "Continuous pentesting", "AppSec programs"],
+  "bestFor": ["Security teams", "AppSec engineers"],
   "references": [
     {
       "title": "AI Bug Hunter Sets Milestone By Claiming Top Spot on HackerOne's Leaderboard",
@@ -49,6 +49,14 @@
       "url": "https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-120m-at-1b-valuation/",
       "source": "SecurityWeek",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "ai-security-scanning"
     }
   ]
 }

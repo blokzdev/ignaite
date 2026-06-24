@@ -62,5 +62,19 @@
       "source": "Hackster.io",
       "kind": "review"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "imitation-learning"
+    },
+    {
+      "id": "vision-language-action"
+    },
+    {
+      "id": "physics-simulation"
+    },
+    {
+      "id": "sim-to-real"
+    }
   ]
 }

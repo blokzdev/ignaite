@@ -33,7 +33,7 @@
     "'Superintelligence' claims unproven",
     "Opaque pricing"
   ],
-  "bestFor": ["Autonomous R&D labs", "Materials discovery", "Multi-domain science"],
+  "bestFor": ["R&D labs", "Materials & chemicals teams", "Pharma/biotech teams"],
   "alternatives": ["isomorphic-labs", "cradle"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://www.biopharmadive.com/news/lila-flagship-ai-superintelligence-startup-seed/742213/",
       "source": "BioPharma Dive",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-research"
+    },
+    {
+      "id": "materials-discovery"
+    },
+    {
+      "id": "drug-target-discovery"
     }
   ]
 }

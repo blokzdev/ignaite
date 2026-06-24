@@ -38,7 +38,7 @@
     "Healthcare-only scope",
     "Smaller ecosystem than big clouds"
   ],
-  "bestFor": ["Health-tech developers", "Clinical documentation", "Medical coding"],
+  "bestFor": ["Health-tech developers", "Healthcare startups", "Life-science teams"],
   "alternatives": ["abridge", "nabla", "ambience-healthcare", "heidi-health"],
   "references": [
     {
@@ -52,6 +52,23 @@
       "url": "https://tech.eu/2026/05/13/corti-launches-no-equity-accelerator-for-healthcare-ai-startups/",
       "source": "Tech.eu",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "clinical-decision-support"
     }
   ]
 }

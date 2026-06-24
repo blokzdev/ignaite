@@ -45,7 +45,7 @@
     "Onboarding/setup overhead",
     "Overkill for simple image tasks"
   ],
-  "bestFor": ["Medical imaging AI", "Physical-world AI", "Regulated teams"],
+  "bestFor": ["ML & data teams", "Regulated/enterprise teams", "Computer-vision teams"],
   "alternatives": ["roboflow", "supervisely", "dataloop", "label-studio"],
   "references": [
     {
@@ -57,5 +57,16 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#5D5FEF"
+  "accentColor": "#5D5FEF",
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "eval-suite"
+    }
+  ]
 }

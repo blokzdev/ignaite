@@ -36,7 +36,7 @@
     "Enterprise deployments, not buyable off-the-shelf",
     "Capital-intensive, early commercial stage"
   ],
-  "bestFor": ["Warehouse logistics", "Hospital operations", "Manufacturing"],
+  "bestFor": ["Warehouse operators", "Hospitals", "Manufacturers"],
   "alternatives": ["dexterity", "figure-ai", "agility-robotics", "apptronik"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "url": "https://www.therobotreport.com/collaborative-robotics-raises-100m-series-b-funding/",
       "source": "The Robot Report",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-navigation"
+    },
+    {
+      "id": "dexterous-manipulation"
     }
   ]
 }

@@ -43,6 +43,17 @@
     "Not a turnkey hosted product",
     "Built for batch, dataset-scale workflows"
   ],
-  "bestFor": ["LLM dataset preparation", "Self-hosted document OCR", "Large-scale PDF conversion"],
-  "alternatives": ["docling", "reducto", "llamaparse", "mindee"]
+  "bestFor": ["ML/data engineering teams", "Self-hosters", "Researchers"],
+  "alternatives": ["docling", "reducto", "llamaparse", "mindee"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "etl-pipeline"
+    }
+  ]
 }

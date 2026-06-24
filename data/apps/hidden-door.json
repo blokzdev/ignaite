@@ -33,7 +33,7 @@
     "Casual storytelling, not a full RPG",
     "Experience depends on the chosen world"
   ],
-  "bestFor": ["Collaborative storytelling", "Fan-fiction & roleplay fans", "Casual narrative play"],
+  "bestFor": ["Fan-fiction & roleplay fans", "Casual narrative gamers", "Friend groups"],
   "alternatives": ["character-ai", "convai", "rosebud-ai"],
   "references": [
     {
@@ -41,6 +41,11 @@
       "url": "https://variety.com/2025/gaming/news/hidden-door-ai-role-playing-fan-fiction-game-platform-1236488265/",
       "source": "Variety",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "roleplay-characters"
     }
   ]
 }

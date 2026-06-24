@@ -41,7 +41,7 @@
     "Full features need paid/district plan",
     "Some features school-managed"
   ],
-  "bestFor": ["K-12 teachers", "Classroom AI tutoring", "Schools & districts"],
+  "bestFor": ["K-12 teachers", "Schools & districts", "School administrators"],
   "alternatives": ["magicschool-ai", "brisk-teaching"],
   "references": [
     {
@@ -55,6 +55,14 @@
       "url": "https://pulse2.com/schoolai-25-million-series-a-raised-for-helping-teachers-and-schools-with-ai-platform/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "lesson-planning"
     }
   ]
 }

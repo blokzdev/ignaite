@@ -51,5 +51,16 @@
       "source": "R&D World",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-research"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "long-form-writing"
+    }
   ]
 }

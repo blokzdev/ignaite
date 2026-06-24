@@ -36,6 +36,28 @@
     "Aimed at industrial/defense use",
     "Vision-only, not a general AI tool"
   ],
-  "bestFor": ["Manufacturing QC", "Visual inspection", "Security & defense"],
-  "alternatives": ["landing-ai", "roboflow", "clarifai", "groundlight"]
+  "bestFor": [
+    "Manufacturing teams",
+    "Quality engineers",
+    "Security & defense teams",
+    "Industrial operators"
+  ],
+  "alternatives": ["landing-ai", "roboflow", "clarifai", "groundlight"],
+  "capabilities": [
+    {
+      "id": "defect-detection"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "video-understanding"
+    },
+    {
+      "id": "app-builder"
+    }
+  ]
 }

@@ -48,12 +48,7 @@
     "LLM costs scale with use",
     "Newer, shorter track record"
   ],
-  "bestFor": [
-    "AppSec teams",
-    "Developers shipping fast",
-    "Bug bounty research",
-    "CI security testing"
-  ],
+  "bestFor": ["AppSec teams", "Bug bounty hunters", "Security-minded developers"],
   "alternatives": ["horizon3-ai", "xbow", "pentera"],
   "references": [
     {
@@ -61,6 +56,20 @@
       "url": "https://www.helpnetsecurity.com/2025/11/17/strix-open-source-ai-agents-penetration-testing/",
       "source": "Help Net Security",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "browser-automation"
     }
   ]
 }

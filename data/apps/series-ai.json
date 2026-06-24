@@ -28,7 +28,7 @@
     "Veteran game-dev leadership"
   ],
   "cons": ["Sales-led, no public pricing", "Platform/studio, not self-serve", "Early-stage engine"],
-  "bestFor": ["Studios and IP holders", "AI-native game builds", "Game prototyping"],
+  "bestFor": ["Game studios", "IP holders", "AAA developers"],
   "alternatives": ["rosebud-ai", "ludo-ai", "scenario"],
   "references": [
     {
@@ -36,6 +36,23 @@
       "url": "https://gamesbeat.com/series-ai-raises-7-9m-in-funding-for-game-building-tools/",
       "source": "GamesBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "sound-effects"
+    },
+    {
+      "id": "code-generation"
     }
   ]
 }

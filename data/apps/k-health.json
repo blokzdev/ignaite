@@ -33,6 +33,14 @@
     "Subscription plus per-visit costs add up",
     "Symptom checker can mislead without context"
   ],
-  "bestFor": ["US virtual primary care", "Quick symptom triage", "Direct-pay patients"],
-  "alternatives": ["ada-health", "wysa"]
+  "bestFor": ["Direct-pay patients", "US telehealth users"],
+  "alternatives": ["ada-health", "wysa"],
+  "capabilities": [
+    {
+      "id": "symptom-triage"
+    },
+    {
+      "id": "clinical-documentation"
+    }
+  ]
 }

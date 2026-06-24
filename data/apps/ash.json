@@ -42,7 +42,7 @@
     "Long-term efficacy still unproven",
     "Free now; a paid tier is expected later"
   ],
-  "bestFor": ["Self-guided mental health", "Between-session support", "Reflective journaling"],
+  "bestFor": ["Adults seeking support", "Self-help users", "Therapy clients"],
   "alternatives": ["wysa", "pi", "replika"],
   "references": [
     {
@@ -50,6 +50,11 @@
       "url": "https://www.statnews.com/2025/07/22/slingshot-new-investors-generative-ai-mental-health-therapy-chatbot-called-ash/",
       "source": "STAT",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
     }
   ]
 }

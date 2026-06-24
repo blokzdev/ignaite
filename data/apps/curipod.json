@@ -38,7 +38,7 @@
     "Quality of generated slides varies",
     "Requires student devices in class"
   ],
-  "bestFor": ["K-12 teachers", "Interactive lessons", "Classroom engagement"],
+  "bestFor": ["K-12 teachers", "Classroom educators"],
   "alternatives": ["magicschool-ai", "brisk-teaching", "schoolai"],
   "references": [
     {
@@ -52,6 +52,14 @@
       "url": "https://www.techlearning.com/how-to/what-is-curipod-and-how-can-it-be-used-for-teaching-tips-and-tricks",
       "source": "Tech & Learning",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "lesson-planning"
+    },
+    {
+      "id": "presentation-generation"
     }
   ]
 }

@@ -11,7 +11,13 @@
   "platforms": ["web"],
   "accentColor": "#2EC4B6",
   "tags": ["protein-design", "techbio", "foundation-models", "drug-discovery", "biodiversity"],
-  "links": [{ "kind": "website", "url": "https://www.basecamp-research.com/", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.basecamp-research.com/",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-16",
   "addedSeq": 815,
   "lastVerifiedAt": "2026-06-16",
@@ -27,7 +33,7 @@
     "Pricing not publicly disclosed",
     "Aimed at biotech teams, not general users"
   ],
-  "bestFor": ["Protein and enzyme design", "Drug discovery teams", "Biological foundation models"],
+  "bestFor": ["Drug discovery teams", "Techbio companies", "Foundation-model builders"],
   "alternatives": ["profluent", "chai-discovery", "periodic-labs"],
   "references": [
     {
@@ -41,6 +47,11 @@
       "url": "https://www.genengnews.com/topics/artificial-intelligence/million-species-listing-basecamp-research-unearths-trove-of-sequence-data-from-novel-species/",
       "source": "GEN",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "protein-design"
     }
   ]
 }

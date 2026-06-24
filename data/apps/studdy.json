@@ -36,10 +36,17 @@
     "Limited public traction data",
     "Subscription after free trial"
   ],
-  "bestFor": [
-    "Students wanting guided help",
-    "Homework & exam prep",
-    "Visual, interactive learners"
-  ],
-  "alternatives": ["photomath", "gauth", "khanmigo"]
+  "bestFor": ["Students", "Visual learners", "Exam-prep students"],
+  "alternatives": ["photomath", "gauth", "khanmigo"],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "homework-solving"
+    },
+    {
+      "id": "document-extraction"
+    }
+  ]
 }
