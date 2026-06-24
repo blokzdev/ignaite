@@ -42,5 +42,19 @@
     "Small project vs big assistants"
   ],
   "bestFor": ["Self-hosters", "Privacy-first users", "Tinkerers"],
-  "alternatives": ["librechat", "anythingllm", "jan", "khoj"]
+  "alternatives": ["librechat", "anythingllm", "jan", "khoj"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

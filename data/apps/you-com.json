@@ -44,6 +44,20 @@
     "Smaller brand than Perplexity",
     "API pricing opacity"
   ],
-  "bestFor": ["Enterprise research", "Cited report generation", "Developer search APIs"],
-  "alternatives": ["perplexity", "exa", "tavily", "felo"]
+  "bestFor": ["Enterprises", "AI developers", "Research teams"],
+  "alternatives": ["perplexity", "exa", "tavily", "felo"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

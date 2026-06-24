@@ -44,6 +44,14 @@
     "Volume pricing scales up",
     "Less control than raw web scraping"
   ],
-  "bestFor": ["LLM agents", "RAG pipelines", "Research agents"],
-  "alternatives": ["exa", "linkup", "brave-search-api", "jina-ai"]
+  "bestFor": ["LLM agent builders", "AI engineers", "Research agent devs"],
+  "alternatives": ["exa", "linkup", "brave-search-api", "jina-ai"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "web-scraping"
+    }
+  ]
 }

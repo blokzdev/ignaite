@@ -43,6 +43,20 @@
     "Younger, smaller community",
     "BYO-key: no bundled model access"
   ],
-  "bestFor": ["Privacy-focused users", "Local model workflows", "Self-hosted AI workspace"],
-  "alternatives": ["librechat", "anythingllm", "jan", "cherry-studio"]
+  "bestFor": ["Privacy-focused users", "Local-model self-hosters", "Tinkerers"],
+  "alternatives": ["librechat", "anythingllm", "jan", "cherry-studio"],
+  "capabilities": [
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "email-assistant"
+    }
+  ]
 }

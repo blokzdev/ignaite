@@ -45,6 +45,23 @@
     "Smaller track record than peers",
     "Self-hosting needs infra work"
   ],
-  "bestFor": ["Agent long-term memory", "Self-hosted teams", "Multi-model apps"],
-  "alternatives": ["mem0", "zep", "letta", "cognee"]
+  "bestFor": ["AI engineers", "Self-hosted teams", "Multi-model app builders"],
+  "alternatives": ["mem0", "zep", "letta", "cognee"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

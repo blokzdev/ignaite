@@ -39,6 +39,14 @@
     "Manual planning won't suit auto-schedule fans",
     "Lighter native mobile experience"
   ],
-  "bestFor": ["Intentional daily planning", "Calm-productivity fans", "Knowledge workers"],
-  "alternatives": ["motion", "reclaim", "taskade"]
+  "bestFor": ["Calm-productivity fans", "Knowledge workers", "Founders & execs"],
+  "alternatives": ["motion", "reclaim", "taskade"],
+  "capabilities": [
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "calendar-scheduling"
+    }
+  ]
 }

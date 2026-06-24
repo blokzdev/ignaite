@@ -51,6 +51,20 @@
     "Single-maintainer project",
     "No managed hosting or support tier"
   ],
-  "bestFor": ["Self-hosted teams", "Multi-model power users", "BYO-key workflows"],
-  "alternatives": ["librechat", "cherry-studio", "anythingllm", "jan"]
+  "bestFor": ["Self-hosters", "Multi-model power users", "BYO-key developers"],
+  "alternatives": ["librechat", "cherry-studio", "anythingllm", "jan"],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "code-execution"
+    }
+  ]
 }

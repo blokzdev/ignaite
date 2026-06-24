@@ -40,6 +40,20 @@
     "Private notes require paid Pro tier",
     "YouTube summaries need captions"
   ],
-  "bestFor": ["Learning in public", "Research note capture"],
-  "alternatives": ["liner", "harpa-ai", "sider"]
+  "bestFor": ["Learners", "Researchers", "Students"],
+  "alternatives": ["liner", "harpa-ai", "sider"],
+  "capabilities": [
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "knowledge-graph"
+    }
+  ]
 }

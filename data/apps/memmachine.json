@@ -16,8 +16,15 @@
   },
   "tags": ["agent-memory", "open-source", "episodic-memory", "personalization", "rag"],
   "links": [
-    { "kind": "website", "url": "https://memmachine.ai", "primary": true },
-    { "kind": "github", "url": "https://github.com/MemMachine/MemMachine" }
+    {
+      "kind": "website",
+      "url": "https://memmachine.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/MemMachine/MemMachine"
+    }
   ],
   "addedAt": "2026-06-19",
   "addedSeq": 876,
@@ -34,7 +41,7 @@
     "Self-hosting and ops on you",
     "Managed enterprise tier not yet GA"
   ],
-  "bestFor": ["Agent builders", "Self-hosted teams", "Personalized assistants"],
+  "bestFor": ["Agent builders", "Self-hosted teams", "Personalized-assistant builders"],
   "alternatives": ["mem0", "zep", "letta", "cognee"],
   "references": [
     {
@@ -42,6 +49,14 @@
       "url": "https://medium.com/@bumurzaqov2/top-10-ai-memory-products-2026-09d7900b5ab1",
       "source": "Medium",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

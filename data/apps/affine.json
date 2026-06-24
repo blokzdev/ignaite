@@ -42,11 +42,7 @@
     "Databases less mature than Notion's",
     "AI UI rough; lacks find-and-replace"
   ],
-  "bestFor": [
-    "Data-ownership teams",
-    "Notion/Miro alternative seekers",
-    "Self-hosted knowledge bases"
-  ],
+  "bestFor": ["Data-ownership teams", "Notion/Miro switchers", "Self-host teams"],
   "alternatives": ["notion-ai", "tana", "reflect", "heptabase"],
   "references": [
     {
@@ -60,6 +56,23 @@
       "url": "https://use-apify.com/blog/notion-alternatives-2026",
       "source": "Apify",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "knowledge-base-authoring"
     }
   ]
 }

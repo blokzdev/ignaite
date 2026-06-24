@@ -37,6 +37,20 @@
     "SOC 2 Type II still in progress",
     "Credit-based limits on lower tiers"
   ],
-  "bestFor": ["Multilingual meetings", "Global teams"],
-  "alternatives": ["wordly", "notta", "deepl", "otter-ai"]
+  "bestFor": ["Global teams", "Enterprise orgs"],
+  "alternatives": ["wordly", "notta", "deepl", "otter-ai"],
+  "capabilities": [
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

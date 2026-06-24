@@ -43,6 +43,17 @@
     "Image gen consumes Anlas credits",
     "Image models skew to anime aesthetics"
   ],
-  "bestFor": ["Fiction writers", "Interactive storytellers", "Anime art generation"],
-  "alternatives": ["sudowrite", "sillytavern", "character-ai"]
+  "bestFor": ["Fiction writers", "Interactive storytellers", "Anime artists"],
+  "alternatives": ["sudowrite", "sillytavern", "character-ai"],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    }
+  ]
 }

@@ -45,6 +45,26 @@
     "Cloud-only managed service",
     "Graph/timeline modeling adds complexity"
   ],
-  "bestFor": ["Multimodal agent context", "Long-lived stateful agents"],
-  "alternatives": ["supermemory", "cognee", "mem0", "zep"]
+  "bestFor": ["AI engineers", "Agent developers", "Startups"],
+  "alternatives": ["supermemory", "cognee", "mem0", "zep"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

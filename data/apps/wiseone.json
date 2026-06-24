@@ -40,7 +40,7 @@
     "Chrome/Edge focused",
     "Depends on third-party LLMs"
   ],
-  "bestFor": ["Online research", "Reading dense articles", "Fact-checking"],
+  "bestFor": ["Students & researchers", "Knowledge workers", "Avid readers"],
   "alternatives": ["sider", "monica", "merlin-ai", "maxai"],
   "references": [
     {
@@ -48,6 +48,20 @@
       "url": "https://chrome-stats.com/d/paodpkkacimmkacaecjmhdncjgjepcai",
       "source": "Chrome-Stats",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "web-research-agent"
     }
   ]
 }

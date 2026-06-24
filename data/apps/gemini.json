@@ -38,6 +38,20 @@
     "Privacy questions around account data",
     "Best features gated to paid AI tiers"
   ],
-  "bestFor": ["Google Workspace users", "Android users", "Multimodal research"],
-  "alternatives": ["chatgpt", "claude", "grok", "microsoft-copilot"]
+  "bestFor": ["Google Workspace users", "Android users", "General consumers"],
+  "alternatives": ["chatgpt", "claude", "grok", "microsoft-copilot"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

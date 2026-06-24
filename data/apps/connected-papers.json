@@ -42,7 +42,7 @@
     "Coverage limited to indexed papers",
     "Not a full-text reading or chat tool"
   ],
-  "bestFor": ["Literature reviews", "Researchers and students", "Field exploration"],
+  "bestFor": ["Academic researchers", "Graduate students"],
   "alternatives": ["researchrabbit", "elicit", "semantic-scholar", "consensus"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "url": "https://skywork.ai/skypage/en/Connected-Papers:-My-Deep-Dive-into-the-Visual-Research-Tool-(2025-Review)/1972566882891395072",
       "source": "Skywork",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "knowledge-graph"
     }
   ]
 }

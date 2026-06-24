@@ -46,7 +46,7 @@
     "English UX less polished than rivals",
     "Smaller ecosystem than peers"
   ],
-  "bestFor": ["Multimodal chat", "Open-weight model fans", "Audio/voice builders"],
+  "bestFor": ["AI app developers", "Multimodal builders", "China-market teams"],
   "alternatives": ["deepseek", "kimi", "z-ai"],
   "references": [
     {
@@ -54,6 +54,26 @@
       "url": "https://techbuzzchina.substack.com/p/chinas-overlooked-ai-model-makers",
       "source": "Tech Buzz China",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
     }
   ]
 }

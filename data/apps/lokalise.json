@@ -40,6 +40,17 @@
     "Glossaries + translation memory"
   ],
   "cons": ["Enterprise-tier pricing", "Geared to software, not docs", "Complex for small teams"],
-  "bestFor": ["Software localization", "Dev-integrated i18n", "Product teams"],
-  "alternatives": ["smartling", "smartcat", "translated", "deepl"]
+  "bestFor": ["Product teams", "Software companies", "Localization managers"],
+  "alternatives": ["smartling", "smartcat", "translated", "deepl"],
+  "capabilities": [
+    {
+      "id": "localization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

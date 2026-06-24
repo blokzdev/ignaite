@@ -15,8 +15,15 @@
   },
   "tags": ["adhd", "personal-knowledge", "notes", "assistant"],
   "links": [
-    { "kind": "website", "url": "https://saner.ai", "primary": true },
-    { "kind": "pricing", "url": "https://saner.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://saner.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://saner.ai/pricing"
+    }
   ],
   "edge": "Designed around ADHD executive function — quick capture, automatic tagging, and a single surface for notes, tasks, email, and calendar to reduce overwhelm.",
   "pros": [
@@ -30,9 +37,26 @@
     "Lighter inline editing than dedicated note apps",
     "Smaller team and ecosystem"
   ],
-  "bestFor": ["ADHD workflows", "Personal knowledge management", "Brain-dump to plan"],
+  "bestFor": ["People with ADHD", "Knowledge workers", "Solo professionals"],
   "alternatives": ["mem", "reflect", "notion-ai", "taskade"],
   "addedAt": "2026-06-20",
   "addedSeq": 908,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

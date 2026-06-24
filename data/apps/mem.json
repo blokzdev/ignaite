@@ -41,6 +41,20 @@
     "Limited offline access and export",
     "Weaker for structured/team work"
   ],
-  "bestFor": ["Personal unstructured capture", "Second-brain note-taking", "Anti-folder users"],
-  "alternatives": ["notion-ai", "reflect", "taskade", "mem0"]
+  "bestFor": ["Knowledge workers", "Researchers & writers", "Personal-knowledge keepers"],
+  "alternatives": ["notion-ai", "reflect", "taskade", "mem0"],
+  "capabilities": [
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

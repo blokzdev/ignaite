@@ -29,10 +29,26 @@
     "Free tier and API access"
   ],
   "cons": ["Cloud-only, minute/credit-based pricing", "Dub quality can vary across languages"],
-  "bestFor": [
-    "Creators localizing videos",
-    "Marketing & social content",
-    "Course & podcast translation"
-  ],
-  "alternatives": ["camb-ai", "heygen", "synthesia", "elevenlabs"]
+  "bestFor": ["Content creators", "Marketing teams", "Educators"],
+  "alternatives": ["camb-ai", "heygen", "synthesia", "elevenlabs"],
+  "capabilities": [
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

@@ -55,6 +55,23 @@
     "BYO model keys (usage costs)",
     "Maintenance burden on you"
   ],
-  "bestFor": ["Self-hosted teams", "Multi-provider chat", "Privacy-first orgs"],
-  "alternatives": ["anythingllm", "big-agi", "cherry-studio", "openclaw"]
+  "bestFor": ["Self-hosted teams", "Privacy-first orgs", "Developers"],
+  "alternatives": ["anythingllm", "big-agi", "cherry-studio", "openclaw"],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "web-research-agent"
+    }
+  ]
 }

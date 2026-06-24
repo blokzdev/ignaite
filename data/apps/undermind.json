@@ -37,6 +37,23 @@
     "Web-only, no API/extraction tables",
     "Narrow scope vs general assistants"
   ],
-  "bestFor": ["Exhaustive literature reviews", "Academic researchers", "Hard-to-find prior work"],
-  "alternatives": ["elicit", "consensus", "scispace", "scite"]
+  "bestFor": ["Academic researchers", "Industry R&D scientists", "PhD students"],
+  "alternatives": ["elicit", "consensus", "scispace", "scite"],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "schema-extraction"
+    }
+  ]
 }

@@ -35,9 +35,23 @@
     "Enterprise focus may overshoot soloists"
   ],
   "bestFor": [
-    "Enterprise video localization",
+    "Enterprise localization teams",
     "Regulated EU industries",
     "Brand & publisher teams"
   ],
-  "alternatives": ["vozo-ai", "rask-ai", "camb-ai", "lokalise"]
+  "alternatives": ["vozo-ai", "rask-ai", "camb-ai", "lokalise"],
+  "capabilities": [
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "speech-translation"
+    }
+  ]
 }

@@ -39,6 +39,20 @@
     "Weak conversational memory",
     "Pro plan hard to justify outside M365"
   ],
-  "bestFor": ["Windows and Microsoft 365 users", "Everyday assistant tasks", "In-OS quick help"],
-  "alternatives": ["chatgpt", "gemini", "claude", "grok"]
+  "bestFor": ["Windows users", "Microsoft 365 users", "Everyday consumers"],
+  "alternatives": ["chatgpt", "gemini", "claude", "grok"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

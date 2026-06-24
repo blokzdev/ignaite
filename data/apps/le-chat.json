@@ -38,6 +38,23 @@
     "Single-vendor model lock-in",
     "Fewer integrations/plugins"
   ],
-  "bestFor": ["EU privacy needs", "Speed-sensitive chat", "Mistral users"],
-  "alternatives": ["chatgpt", "claude", "gemini", "grok"]
+  "bestFor": ["EU privacy-conscious users", "Mistral users", "General consumers"],
+  "alternatives": ["chatgpt", "claude", "gemini", "grok"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

@@ -48,11 +48,7 @@
     "Tied to Vectorize's stack and roadmap",
     "Reflection adds LLM cost and latency"
   ],
-  "bestFor": [
-    "Long-horizon agent memory",
-    "Agents that learn over time",
-    "Temporal/multi-session recall"
-  ],
+  "bestFor": ["AI agent developers", "AI engineers"],
   "alternatives": ["mem0", "zep", "letta", "cognee"],
   "references": [
     {
@@ -60,6 +56,14 @@
       "url": "https://venturebeat.com/data/with-91-accuracy-open-source-hindsight-agentic-memory-provides-20-20-vision",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

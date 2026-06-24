@@ -37,7 +37,7 @@
     "Closed source",
     "Prompt-injection risks under scrutiny"
   ],
-  "bestFor": ["ChatGPT power users", "macOS users", "Agentic web tasks"],
+  "bestFor": ["ChatGPT power users", "macOS users"],
   "alternatives": ["comet", "dia", "chatgpt"],
   "references": [
     {
@@ -49,6 +49,20 @@
       "title": "ChatGPT Atlas",
       "url": "https://en.wikipedia.org/wiki/ChatGPT_Atlas",
       "source": "Wikipedia"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "agent-memory"
     }
   ]
 }

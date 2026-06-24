@@ -40,7 +40,7 @@
     "Higher limits gated to paid tiers",
     "Underlying models not selectable"
   ],
-  "bestFor": ["Literature reviews", "Academic researchers", "Citation-backed writing"],
+  "bestFor": ["Academic researchers", "PhD students", "Research teams"],
   "alternatives": ["scispace", "elicit", "scholarcy", "answerthis"],
   "references": [
     {
@@ -48,6 +48,26 @@
       "url": "https://paperpal.com/blog/news-updates/anara-ai-alternatives-unriddle-review",
       "source": "Paperpal",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

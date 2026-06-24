@@ -42,6 +42,26 @@
     "Subscription required for heavy use",
     "Jack-of-all-trades vs specialized tools"
   ],
-  "bestFor": ["All-in-one AI sidebar users", "Multi-model dabblers", "Page and video summarizing"],
-  "alternatives": ["sider", "merlin-ai", "harpa-ai", "maxai"]
+  "bestFor": ["Knowledge workers", "Multi-model dabblers", "Content creators"],
+  "alternatives": ["sider", "merlin-ai", "harpa-ai", "maxai"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    }
+  ]
 }

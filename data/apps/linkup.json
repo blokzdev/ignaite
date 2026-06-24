@@ -40,6 +40,17 @@
     "Deep research can cost up to $2.50/call",
     "Newer entrant vs incumbents"
   ],
-  "bestFor": ["Agent grounding", "RAG pipelines", "Deep research API"],
-  "alternatives": ["tavily", "exa", "brave-search-api", "parallel"]
+  "bestFor": ["AI engineers", "Agent builders", "RAG developers"],
+  "alternatives": ["tavily", "exa", "brave-search-api", "parallel"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

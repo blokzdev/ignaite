@@ -45,7 +45,7 @@
     "Younger than general-purpose memory APIs",
     "Cloud sync and team sharing are paid"
   ],
-  "bestFor": ["Coding agents", "Cross-IDE context", "Solo devs and teams"],
+  "bestFor": ["AI coding-agent users", "Cross-IDE developers", "Solo devs & teams"],
   "alternatives": ["mem0", "supermemory", "zep", "cognee"],
   "references": [
     {
@@ -59,6 +59,14 @@
       "url": "https://atlan.com/know/best-ai-agent-memory-frameworks-2026/",
       "source": "Atlan",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

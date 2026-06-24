@@ -37,7 +37,7 @@
     "Accuracy varies on noisy audio or strong accents",
     "Event-focused, not document translation"
   ],
-  "bestFor": ["Multilingual events", "Conferences", "Accessible meetings"],
+  "bestFor": ["Event organizers", "Conference hosts", "Enterprise teams"],
   "alternatives": ["deepl", "unbabel", "camb-ai", "translated"],
   "references": [
     {
@@ -45,6 +45,23 @@
       "url": "https://meetings.skift.com/reviews/wordly-live-ai-translation-and-captioning-review/",
       "source": "Skift Meetings",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "translation"
     }
   ]
 }

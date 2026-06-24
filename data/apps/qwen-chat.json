@@ -45,7 +45,7 @@
     "Data handling under Chinese jurisdiction",
     "Less third-party tooling than US rivals"
   ],
-  "bestFor": ["Free assistant use", "Multilingual chat", "Qwen-model users"],
+  "bestFor": ["General consumers", "Multilingual users", "Qwen-model users"],
   "alternatives": ["deepseek", "kimi", "grok", "le-chat"],
   "references": [
     {
@@ -53,6 +53,23 @@
       "url": "https://www.yicaiglobal.com/news/qwen-transforms-ai-that-responds-into-action-ai-across-alibabas-app-suite",
       "source": "Yicai Global",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

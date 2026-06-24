@@ -40,6 +40,14 @@
     "Less developer/API-first than rivals",
     "Can be complex for simple jobs"
   ],
-  "bestFor": ["Localization teams", "Sourcing translators", "Collaborative projects"],
-  "alternatives": ["smartling", "lokalise", "taia", "deepl"]
+  "bestFor": ["Localization teams", "Enterprises", "LSPs & agencies", "Marketing teams"],
+  "alternatives": ["smartling", "lokalise", "taia", "deepl"],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
+    }
+  ]
 }

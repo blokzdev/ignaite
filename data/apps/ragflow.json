@@ -43,6 +43,26 @@
     "Cloud tiers cap apps and storage",
     "Resource-intensive to self-host"
   ],
-  "bestFor": ["Self-hosted enterprise RAG", "Complex document QA", "Citation-grounded chatbots"],
-  "alternatives": ["llamaindex", "haystack", "ragie", "onyx"]
+  "bestFor": ["Self-hosting teams", "Enterprises", "Developers"],
+  "alternatives": ["llamaindex", "haystack", "ragie", "onyx"],
+  "capabilities": [
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

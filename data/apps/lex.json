@@ -37,6 +37,14 @@
     "AI feedback and rewriting inline"
   ],
   "cons": ["Web-only", "Premium models behind Pro tier", "Narrow long-form focus"],
-  "bestFor": ["Serious writers", "Long-form drafting", "Collaborative editing"],
-  "alternatives": ["sudowrite", "grammarly", "notion-ai", "wordtune"]
+  "bestFor": ["Serious writers", "Authors", "Researchers"],
+  "alternatives": ["sudowrite", "grammarly", "notion-ai", "wordtune"],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
+    }
+  ]
 }

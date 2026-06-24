@@ -46,7 +46,7 @@
     "Web and API only; no desktop or mobile apps",
     "Overkill for individuals vs instant MT tools"
   ],
-  "bestFor": ["Enterprise localization", "Government translation", "Regulated content"],
+  "bestFor": ["Enterprise teams", "Government agencies", "Localization teams"],
   "alternatives": ["deepl", "smartling", "phrase", "translated"],
   "references": [
     {
@@ -66,6 +66,17 @@
       "url": "https://medium.com/authority-magazine/meet-the-disruptors-spence-green-of-lilt-on-the-three-things-you-need-to-shake-up-your-industry-dbf803992db8",
       "source": "Authority Magazine",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

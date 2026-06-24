@@ -38,7 +38,7 @@
     "Always-on capture raises privacy questions",
     "Young product, founded 2024"
   ],
-  "bestFor": ["Meeting capture", "Personal knowledge base", "Students and researchers"],
+  "bestFor": ["Students and researchers", "Knowledge workers", "Privacy-conscious users"],
   "alternatives": ["screenpipe", "granola", "otter-ai"],
   "references": [
     {
@@ -52,6 +52,26 @@
       "url": "https://www.maginative.com/article/twinmind-aims-to-be-your-second-brain-raises-5-7m-and-announces-breakthrough-speech-model/",
       "source": "Maginative",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ambient-life-capture"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "email-assistant"
     }
   ]
 }

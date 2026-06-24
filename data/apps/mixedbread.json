@@ -45,6 +45,26 @@
     "Weak at clustering/summarization tasks",
     "Smaller player vs incumbents"
   ],
-  "bestFor": ["Multimodal RAG search", "Teams avoiding pipeline tuning", "Multilingual retrieval"],
-  "alternatives": ["exa", "jina-ai", "tavily", "weaviate"]
+  "bestFor": ["AI engineers", "RAG/retrieval teams", "Multilingual-search teams"],
+  "alternatives": ["exa", "jina-ai", "tavily", "weaviate"],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

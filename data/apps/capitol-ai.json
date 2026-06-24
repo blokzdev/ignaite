@@ -37,7 +37,7 @@
     "Small customer base",
     "Overkill for non-regulated teams"
   ],
-  "bestFor": ["Regulated enterprises", "Government & policy", "Due-diligence & compliance"],
+  "bestFor": ["Regulated enterprises", "Government & policy teams", "Financial-services firms"],
   "alternatives": ["hebbia", "glean", "rogo"],
   "references": [
     {
@@ -45,6 +45,20 @@
       "url": "https://ionanalytics.com/insights/mergermarket/capitol-ai-to-raise-capital-next-year-for-secure-enterprise-workflow-platform-ceo/",
       "source": "ION Analytics",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

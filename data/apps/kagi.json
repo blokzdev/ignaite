@@ -47,10 +47,20 @@
     "AI usage capped by fair-use budget",
     "Niche, requires browser/default switch"
   ],
-  "bestFor": [
-    "Privacy-focused searchers",
-    "Power users and researchers",
-    "Ad-free multi-model chat"
-  ],
-  "alternatives": ["perplexity", "you-com", "felo"]
+  "bestFor": ["Privacy-focused searchers", "Power users & researchers"],
+  "alternatives": ["perplexity", "you-com", "felo"],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

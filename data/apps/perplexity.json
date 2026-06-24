@@ -47,7 +47,7 @@
     "Weak on niche topics with thin sources",
     "Best features gated behind Pro"
   ],
-  "bestFor": ["Cited research", "Answer-engine search", "Retrieval API"],
+  "bestFor": ["Knowledge workers", "Researchers", "Developers", "Students"],
   "alternatives": ["you-com", "felo", "exa", "kagi"],
   "references": [
     {
@@ -57,5 +57,22 @@
       "kind": "analysis"
     }
   ],
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

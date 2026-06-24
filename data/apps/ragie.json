@@ -47,11 +47,7 @@
     "Proprietary, cloud-only (no self-host)",
     "Less control than rolling your own RAG"
   ],
-  "bestFor": [
-    "Developers adding RAG fast",
-    "Multimodal document retrieval",
-    "Agent context pipelines"
-  ],
+  "bestFor": ["Developers", "AI app builders", "Enterprises"],
   "alternatives": ["vectara", "graphlit", "llamaindex", "inkeep"],
   "references": [
     {
@@ -59,6 +55,26 @@
       "url": "https://getcoai.com/news/ragie-launches-500-month-rag-platform-to-streamline-enterprise-ai/",
       "source": "CO/AI",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "schema-extraction"
     }
   ]
 }

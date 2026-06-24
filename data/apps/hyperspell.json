@@ -36,6 +36,14 @@
     "Young, early-stage product",
     "Cloud-only; data is indexed off-box"
   ],
-  "bestFor": ["Agent developers", "Workspace-grounded agents"],
-  "alternatives": ["mem0", "supermemory", "zep", "cognee"]
+  "bestFor": ["Agent developers", "Production AI teams"],
+  "alternatives": ["mem0", "supermemory", "zep", "cognee"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

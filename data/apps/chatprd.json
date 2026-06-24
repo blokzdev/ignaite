@@ -42,7 +42,7 @@
     "Niche to product workflows",
     "Best value billed annually"
   ],
-  "bestFor": ["Product managers", "Writing PRDs and specs", "Solo founders"],
+  "bestFor": ["Product managers", "Solo founders"],
   "alternatives": ["notion-ai", "taskade"],
   "references": [
     {
@@ -56,6 +56,17 @@
       "url": "https://www.mindtheproduct.com/product-minds-building-chatprd-claire-vo-cpo-launchdarkly-chatprd/",
       "source": "Mind the Product",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

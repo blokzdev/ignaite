@@ -41,6 +41,17 @@
     "Not suited to business/marketing copy",
     "Credit limits on lower plans"
   ],
-  "bestFor": ["Novelists", "Creative writers", "Long-form fiction"],
-  "alternatives": ["lex", "wordtune", "rytr", "quillbot"]
+  "bestFor": ["Novelists", "Creative writers", "Indie authors"],
+  "alternatives": ["lex", "wordtune", "rytr", "quillbot"],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

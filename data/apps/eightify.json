@@ -36,6 +36,17 @@
     "Subscription needed for unlimited use",
     "Summary quality varies by video"
   ],
-  "bestFor": ["Researchers and learners", "YouTube power users", "Quick video triage"],
-  "alternatives": ["glarity", "recall", "glasp", "sider"]
+  "bestFor": ["Researchers & learners", "YouTube power users", "Students"],
+  "alternatives": ["glarity", "recall", "glasp", "sider"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

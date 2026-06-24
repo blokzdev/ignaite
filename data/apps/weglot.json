@@ -43,7 +43,7 @@
     "Less control than a full TMS",
     "Per-language tiers add up"
   ],
-  "bestFor": ["Website localization", "Multilingual e-commerce", "No-code teams"],
+  "bestFor": ["No-code teams", "E-commerce stores", "Marketing teams"],
   "alternatives": ["smartling", "lokalise", "crowdin", "lilt"],
   "references": [
     {
@@ -57,6 +57,17 @@
       "url": "https://www.eu-startups.com/2022/03/french-startup-weglot-raises-e45-million-for-its-web-translation-solution/",
       "source": "EU-Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "localization"
+    },
+    {
+      "id": "seo-optimization"
     }
   ]
 }

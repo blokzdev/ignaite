@@ -41,6 +41,14 @@
     "Smaller ecosystem than vector DBs",
     "Hosted pricing details limited"
   ],
-  "bestFor": ["Always-on AI agents", "Self-hosted memory", "Companion and assistant apps"],
-  "alternatives": ["mem0", "cognee", "zep", "letta"]
+  "bestFor": ["Agent developers", "Companion-app builders", "Self-hosted teams"],
+  "alternatives": ["mem0", "cognee", "zep", "letta"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "vector-search"
+    }
+  ]
 }

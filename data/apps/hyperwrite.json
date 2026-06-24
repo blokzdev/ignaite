@@ -41,6 +41,23 @@
     "Browser agent is still rough",
     "Best features behind paid plans"
   ],
-  "bestFor": ["Everyday writing help", "In-browser drafting", "Research with citations"],
-  "alternatives": ["rytr", "wordtune", "jenni", "grammarly"]
+  "bestFor": ["Everyday writers", "Students", "Professionals"],
+  "alternatives": ["rytr", "wordtune", "jenni", "grammarly"],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

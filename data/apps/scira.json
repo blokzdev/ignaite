@@ -44,7 +44,7 @@
     "Smaller team than rivals",
     "Pro features behind a paywall"
   ],
-  "bestFor": ["Open-source advocates", "Cited web research", "Self-hosting tinkerers"],
+  "bestFor": ["Open-source advocates", "Self-hosting tinkerers", "Developers"],
   "alternatives": ["perplexity", "felo", "you-com", "genspark"],
   "references": [
     {
@@ -52,6 +52,23 @@
       "url": "https://itmatterss.in/india/scira-open-source-ai-search-from-india/",
       "source": "ITmatterss",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "voice-agent"
     }
   ]
 }

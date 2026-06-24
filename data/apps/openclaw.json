@@ -42,6 +42,26 @@
     "Young project, evolving fast",
     "Smaller community than hosted assistants"
   ],
-  "bestFor": ["Self-hosters", "Privacy-first users", "Chat-app power users"],
-  "alternatives": ["leon", "anythingllm", "librechat", "khoj"]
+  "bestFor": ["Self-hosters", "Privacy-first users", "Chat-app power users", "Tinkerers"],
+  "alternatives": ["leon", "anythingllm", "librechat", "khoj"],
+  "capabilities": [
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

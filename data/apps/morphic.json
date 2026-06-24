@@ -46,10 +46,17 @@
     "Smaller index than hosted answer engines",
     "Fewer polish features than Perplexity"
   ],
-  "bestFor": [
-    "Self-hosted answer engine",
-    "Privacy-conscious teams",
-    "Hackable Perplexity alternative"
-  ],
-  "alternatives": ["perplexity", "felo", "you-com", "khoj"]
+  "bestFor": ["Self-hosters", "Privacy-conscious teams", "Developers"],
+  "alternatives": ["perplexity", "felo", "you-com", "khoj"],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

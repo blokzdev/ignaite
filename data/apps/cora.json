@@ -36,6 +36,14 @@
     "No free tier after trial",
     "Unlimited plan costs $39/month"
   ],
-  "bestFor": ["Inbox-overloaded founders", "Gmail power users", "Email delegation"],
-  "alternatives": ["fyxer", "shortwave", "superhuman"]
+  "bestFor": ["Inbox-overloaded founders", "Gmail power users", "Executives"],
+  "alternatives": ["fyxer", "shortwave", "superhuman"],
+  "capabilities": [
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

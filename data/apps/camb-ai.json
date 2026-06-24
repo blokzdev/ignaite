@@ -33,7 +33,7 @@
     "Proven at Ligue 1 / NASCAR / IMAX scale"
   ],
   "cons": ["Broadcast/enterprise-first focus", "Proprietary models only"],
-  "bestFor": ["Live sports broadcasts", "Film & OTT localization", "Multilingual live events"],
+  "bestFor": ["Broadcasters", "Film & OTT studios", "Live-event teams"],
   "alternatives": ["elevenlabs", "heygen", "deepl"],
   "references": [
     {
@@ -41,6 +41,23 @@
       "url": "https://slator.com/dubbing-startup-camb-ai-raises-usd-4m-in-seed-round/",
       "source": "Slator",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "subtitle-generation"
     }
   ]
 }

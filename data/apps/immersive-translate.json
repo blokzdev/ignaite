@@ -41,13 +41,27 @@
     "Heavy pages can render translations slowly",
     "Quality depends on the engine you pick"
   ],
-  "bestFor": ["Bilingual readers", "Language learners", "Cross-language research"],
+  "bestFor": ["Bilingual readers", "Language learners"],
   "alternatives": ["deepl", "monica", "sider"],
   "references": [
     {
       "title": "Immersive Translate: AI Web, PDF & Video Translator",
       "url": "https://chromewebstore.google.com/detail/immersive-translate-ai-we/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
       "source": "Chrome Web Store"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "multi-model-access"
     }
   ]
 }

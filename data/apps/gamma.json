@@ -43,7 +43,7 @@
     "Brand kit is per-deck, not global",
     "Template and design variety is limited"
   ],
-  "bestFor": ["Fast first-draft decks", "Web-native docs", "Solo creators"],
+  "bestFor": ["Solo creators", "Marketers", "Founders"],
   "alternatives": ["canva", "microsoft-designer", "notion-ai"],
   "references": [
     {
@@ -51,6 +51,17 @@
       "url": "https://plusai.com/blog/beautiful-ai-vs-gamma",
       "source": "Plus AI",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "long-form-writing"
     }
   ]
 }

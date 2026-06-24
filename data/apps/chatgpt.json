@@ -43,6 +43,26 @@
     "Best features gated to paid tiers",
     "Usage limits on advanced models"
   ],
-  "bestFor": ["General assistant use", "Broadest ecosystem"],
-  "alternatives": ["claude", "gemini", "grok", "perplexity"]
+  "bestFor": ["General consumers", "Knowledge workers", "Broad ecosystem users"],
+  "alternatives": ["claude", "gemini", "grok", "perplexity"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "app-builder"
+    }
+  ]
 }

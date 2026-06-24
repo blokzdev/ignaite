@@ -37,7 +37,7 @@
     "Richer features gated to paid tiers",
     "Younger than incumbent search rivals"
   ],
-  "bestFor": ["Knowledge workers", "Teams with scattered tools", "Enterprise content search"],
+  "bestFor": ["Knowledge workers", "Teams with scattered tools", "Enterprises"],
   "alternatives": ["glean", "dust", "sana", "guru"],
   "references": [
     {
@@ -51,6 +51,20 @@
       "url": "https://futurecio.tech/dropbox-updates-universal-search-and-knowledge-management-product/",
       "source": "FutureCIO",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

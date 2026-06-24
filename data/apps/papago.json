@@ -45,7 +45,7 @@
     "Weaker on non-Asian language pairs",
     "Consumer focus, limited API/business tooling"
   ],
-  "bestFor": ["Travel and study in East Asia", "Korean/Japanese translation"],
+  "bestFor": ["Travelers in East Asia", "Language students", "Korean/Japanese users"],
   "alternatives": ["deepl", "lara-translate", "systran"],
   "references": [
     {
@@ -53,6 +53,17 @@
       "url": "https://en.wikipedia.org/wiki/Naver_Papago",
       "source": "Wikipedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

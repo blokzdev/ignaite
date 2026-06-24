@@ -41,7 +41,7 @@
     "YouTube summaries need captions",
     "Heavy use favors a BYO key"
   ],
-  "bestFor": ["Web/YouTube summaries", "Research reading", "Multilingual browsing"],
+  "bestFor": ["Researchers", "Students", "Multilingual readers"],
   "alternatives": ["sider", "monica", "harpa-ai", "maxai"],
   "references": [
     {
@@ -49,6 +49,17 @@
       "url": "https://aichief.com/ai-text-tools/glarity/",
       "source": "AIChief",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

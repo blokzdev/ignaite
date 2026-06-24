@@ -40,7 +40,7 @@
     "Web, mobile, API, CLI, MCP"
   ],
   "cons": ["Shared monthly character quota", "Newer than incumbents", "Not a general assistant"],
-  "bestFor": ["Professional translation", "Document localization"],
+  "bestFor": ["Professional translators", "Localization teams", "Global businesses"],
   "alternatives": ["deepl", "lokalise", "smartcat", "lilt"],
   "references": [
     {
@@ -48,6 +48,17 @@
       "url": "https://slator.com/200-languages-and-a-new-reasoning-model-translated-redefines-translation-ai-quality-with-lara/",
       "source": "Slator",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "localization"
     }
   ]
 }

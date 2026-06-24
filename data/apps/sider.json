@@ -40,7 +40,7 @@
     "Heavy users hit message/credit limits",
     "Less media generation than Monica"
   ],
-  "bestFor": ["Daily in-browser AI", "Article and PDF chat", "Multi-model on a budget"],
+  "bestFor": ["Students", "Researchers", "Writers", "Knowledge workers"],
   "alternatives": ["monica", "merlin-ai", "maxai", "harpa-ai"],
   "references": [
     {
@@ -48,6 +48,26 @@
       "url": "https://tooltivity.com/extensions/compare/monica-chatgpt-ai-assistant-vs-sider-chatgpt-sidebar-vs-merlin-ask-ai-to-research-write-and-review",
       "source": "Tooltivity",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "web-research-agent"
     }
   ]
 }

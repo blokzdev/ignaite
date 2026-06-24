@@ -41,6 +41,17 @@
     "Weak at long-form generation",
     "Passive assistant, can't take actions"
   ],
-  "bestFor": ["Professionals polishing writing", "Cross-app proofreading"],
-  "alternatives": ["prowritingaid", "wordtune", "quillbot", "lex"]
+  "bestFor": ["Working professionals", "Students", "Non-native writers"],
+  "alternatives": ["prowritingaid", "wordtune", "quillbot", "lex"],
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

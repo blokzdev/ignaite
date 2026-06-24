@@ -45,6 +45,30 @@
     "Smaller ecosystem than ChatGPT/Claude",
     "Higher usage limits need paid Pro"
   ],
-  "bestFor": ["Privacy-conscious EU users", "Fast everyday Q&A", "Mistral-stack developers"],
-  "alternatives": ["chatgpt", "claude", "gemini", "deepseek"]
+  "bestFor": [
+    "Privacy-conscious EU users",
+    "Mistral-stack developers",
+    "Enterprises needing EU residency"
+  ],
+  "alternatives": ["chatgpt", "claude", "gemini", "deepseek"],
+  "capabilities": [
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "terminal-cli-agent"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

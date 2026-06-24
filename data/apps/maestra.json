@@ -42,7 +42,7 @@
     "Cloud-only, no self-host",
     "Credit-based pricing per module"
   ],
-  "bestFor": ["Video localization", "Subtitling teams", "Multilingual creators"],
+  "bestFor": ["Video creators", "Subtitling teams", "Localization teams"],
   "alternatives": ["notta", "camb-ai", "descript", "deepl"],
   "references": [
     {
@@ -50,6 +50,26 @@
       "url": "https://sonix.ai/resources/maestra-pricing-review/",
       "source": "Sonix",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "voice-cloning"
     }
   ]
 }

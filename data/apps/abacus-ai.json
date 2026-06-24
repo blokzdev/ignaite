@@ -42,7 +42,7 @@
     "Interface can feel cluttered",
     "Enterprise pricing not public"
   ],
-  "bestFor": ["Multi-model access", "Agentic tasks", "Small teams"],
+  "bestFor": ["Solo founders", "Small teams", "Power users"],
   "alternatives": ["poe", "genspark", "manus"],
   "references": [
     {
@@ -50,6 +50,26 @@
       "url": "https://www.eesel.ai/blog/abacus-ai",
       "source": "eesel AI",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

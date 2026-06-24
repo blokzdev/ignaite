@@ -33,7 +33,7 @@
     "Limited to Alibaba's own Qwen model family",
     "Paid tiers are mainly cloud-storage upsells"
   ],
-  "bestFor": ["Chinese-language users", "All-in-one mobile AI assistant"],
+  "bestFor": ["Chinese-language users", "Students", "Consumers"],
   "alternatives": ["doubao", "kimi", "perplexity"],
   "references": [
     {
@@ -41,6 +41,23 @@
       "url": "https://www.aibase.com/news/16665",
       "source": "AIbase",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "code-generation"
     }
   ]
 }

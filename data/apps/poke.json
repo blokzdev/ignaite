@@ -38,6 +38,20 @@
     "Underlying models undisclosed",
     "Consumer focus, not enterprise"
   ],
-  "bestFor": ["Texting-first users", "Personal automation", "Inbox and calendar triage"],
-  "alternatives": ["lindy", "manus", "dia"]
+  "bestFor": ["Texting-first users", "Consumers"],
+  "alternatives": ["lindy", "manus", "dia"],
+  "capabilities": [
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

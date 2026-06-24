@@ -41,7 +41,12 @@
     "No Outlook or Microsoft 365",
     "No permanent free plan"
   ],
-  "bestFor": ["Gmail power users", "Inbox-zero workflows", "Email-heavy professionals"],
+  "bestFor": [
+    "Gmail power users",
+    "Email-heavy professionals",
+    "Founders",
+    "Support & sales teams"
+  ],
   "references": [
     {
       "title": "Shortwave gets $9M to bring back Google Inbox",
@@ -54,6 +59,20 @@
       "url": "https://thenewstack.io/how-shortwave-wants-to-reinvent-email-with-ai/",
       "source": "The New Stack",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "task-management"
     }
   ]
 }

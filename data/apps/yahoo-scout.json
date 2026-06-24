@@ -37,7 +37,7 @@
     "Tied into Yahoo Finance/Sports"
   ],
   "cons": ["U.S.-only beta at launch", "Newer than rivals", "Tied to Yahoo ecosystem"],
-  "bestFor": ["Quick cited answers", "Everyday web research"],
+  "bestFor": ["Everyday searchers", "Yahoo users"],
   "alternatives": ["perplexity", "you-com", "felo", "genspark"],
   "references": [
     {
@@ -45,6 +45,17 @@
       "url": "https://searchengineland.com/yahoo-scout-yahoos-return-to-search-and-web-discovery-467907",
       "source": "Search Engine Land",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

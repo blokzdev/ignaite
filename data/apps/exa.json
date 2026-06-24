@@ -44,6 +44,20 @@
     "Keyword queries can lag classic search",
     "Usage-priced costs scale with volume"
   ],
-  "bestFor": ["RAG retrieval", "Research workflows", "Find-similar discovery"],
-  "alternatives": ["tavily", "brave-search-api", "linkup", "perplexity"]
+  "bestFor": ["AI engineers", "RAG/agent builders", "Developers"],
+  "alternatives": ["tavily", "brave-search-api", "linkup", "perplexity"],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "schema-extraction"
+    }
+  ]
 }

@@ -45,5 +45,16 @@
       "url": "https://techfundingnews.com/startup-in-spotlight-fyxer-ai-raises-30m-to-bring-ai-productivity-assistants-to-everyday-professionals/",
       "source": "Tech Funding News"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "calendar-scheduling"
+    }
   ]
 }

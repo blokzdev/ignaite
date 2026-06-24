@@ -39,6 +39,23 @@
     "Concerns over bias and tone",
     "Limited voice mode"
   ],
-  "bestFor": ["Trend and OSINT watching", "X power users"],
-  "alternatives": ["chatgpt", "gemini", "claude", "perplexity"]
+  "bestFor": ["X power users", "Curious generalists", "Real-time news junkies"],
+  "alternatives": ["chatgpt", "gemini", "claude", "perplexity"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

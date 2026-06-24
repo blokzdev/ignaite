@@ -16,8 +16,15 @@
   },
   "tags": ["dubbing", "localization", "voice-cloning", "lip-sync"],
   "links": [
-    { "kind": "website", "url": "https://perso.ai", "primary": true },
-    { "kind": "pricing", "url": "https://perso.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://perso.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://perso.ai/pricing"
+    }
   ],
   "edge": "Aligns cloned voice and lip-sync per speaker, so multi-speaker video keeps each person's voice and mouth movement matched.",
   "pros": [
@@ -31,9 +38,29 @@
     "Web-only — no native mobile/desktop app",
     "Avatar/studio features overlap a crowded field"
   ],
-  "bestFor": ["Video localization", "Creators going multilingual", "Marketing teams"],
+  "bestFor": ["Content creators", "Marketing teams", "Global media teams"],
   "alternatives": ["camb-ai", "heygen", "elevenlabs", "lara-translate"],
   "addedAt": "2026-06-20",
   "addedSeq": 907,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "avatar-generation"
+    }
+  ]
 }

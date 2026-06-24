@@ -41,7 +41,7 @@
     "Young SDK, evolving API",
     "You wire up your own storage layer"
   ],
-  "bestFor": ["LangGraph agents", "Long-term agent memory", "Python developers"],
+  "bestFor": ["LangGraph users", "Python developers", "AI engineers"],
   "alternatives": ["mem0", "letta", "zep", "cognee"],
   "references": [
     {
@@ -49,6 +49,14 @@
       "url": "https://www.digitalocean.com/community/tutorials/langmem-sdk-agent-long-term-memory",
       "source": "DigitalOcean",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "prompt-management"
     }
   ]
 }

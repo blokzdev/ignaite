@@ -39,6 +39,23 @@
     "Public pricing detail is thin",
     "Underlying models not selectable"
   ],
-  "bestFor": ["Literature reviews", "Academic researchers", "Evidence synthesis"],
-  "alternatives": ["elicit", "consensus", "scispace", "anara"]
+  "bestFor": ["Academic researchers", "Pharma/biotech teams", "PhD students"],
+  "alternatives": ["elicit", "consensus", "scispace", "anara"],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "long-form-writing"
+    }
+  ]
 }

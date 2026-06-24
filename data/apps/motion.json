@@ -40,6 +40,20 @@
     "Steep learning curve",
     "Opinionated workflow, less flexible"
   ],
-  "bestFor": ["Overbooked knowledge workers", "Calendar auto-scheduling", "Solo and small teams"],
-  "alternatives": ["reclaim", "sunsama", "taskade", "notion-ai"]
+  "bestFor": ["Overbooked knowledge workers", "Solo and small teams"],
+  "alternatives": ["reclaim", "sunsama", "taskade", "notion-ai"],
+  "capabilities": [
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

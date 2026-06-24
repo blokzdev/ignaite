@@ -50,5 +50,19 @@
       "source": "Starter Story",
       "kind": "interview"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "ai-tutoring"
+    }
   ]
 }

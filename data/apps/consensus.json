@@ -39,6 +39,23 @@
     "Coverage skews to indexed journals",
     "Not for non-academic questions"
   ],
-  "bestFor": ["Researchers", "Literature reviews", "Clinicians"],
-  "alternatives": ["elicit", "scite", "scispace", "undermind"]
+  "bestFor": ["Academic researchers", "Students", "Clinicians"],
+  "alternatives": ["elicit", "scite", "scispace", "undermind"],
+  "capabilities": [
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "schema-extraction"
+    }
+  ]
 }

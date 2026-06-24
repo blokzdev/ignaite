@@ -40,6 +40,26 @@
     "Paraphraser can alter meaning",
     "Less deep than dedicated editors"
   ],
-  "bestFor": ["Students", "Paraphrasing", "Summarizing"],
-  "alternatives": ["grammarly", "wordtune", "prowritingaid", "rytr"]
+  "bestFor": ["Students", "ESL writers", "Professionals"],
+  "alternatives": ["grammarly", "wordtune", "prowritingaid", "rytr"],
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

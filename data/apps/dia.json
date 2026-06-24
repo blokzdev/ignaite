@@ -33,6 +33,14 @@
     "Pro at $20/mo to lift AI limits",
     "Young product, evolving feature set"
   ],
-  "bestFor": ["macOS users", "AI-native browsing", "Arc fans"],
-  "alternatives": ["chatgpt", "perplexity", "monica", "sider"]
+  "bestFor": ["macOS users", "Arc fans", "Knowledge workers"],
+  "alternatives": ["chatgpt", "perplexity", "monica", "sider"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

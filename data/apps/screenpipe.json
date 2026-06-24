@@ -42,5 +42,25 @@
     "Always-on recording uses disk and CPU",
     "Linux requires building from source"
   ],
-  "bestFor": ["Personal screen memory", "Agent context pipelines", "Privacy-focused recall"]
+  "bestFor": ["Privacy-conscious users", "AI agent builders", "Indie hackers", "Knowledge workers"],
+  "capabilities": [
+    {
+      "id": "ambient-life-capture"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "unified-search"
+    }
+  ]
 }

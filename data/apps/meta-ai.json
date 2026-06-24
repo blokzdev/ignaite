@@ -38,7 +38,7 @@
     "Trails GPT/Gemini on some benchmarks",
     "Limited availability in some regions"
   ],
-  "bestFor": ["Everyday questions", "Voice assistant", "Meta ecosystem users"],
+  "bestFor": ["Meta ecosystem users", "Everyday consumers", "Ray-Ban Meta owners"],
   "alternatives": ["chatgpt", "gemini", "grok", "le-chat"],
   "references": [
     {
@@ -46,6 +46,17 @@
       "url": "https://9to5mac.com/2025/04/29/meta-launches-standalone-ai-chat-app-based-on-llama-4-for-iphone-and-ipad/",
       "source": "9to5Mac",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
     }
   ]
 }

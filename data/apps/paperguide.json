@@ -36,7 +36,7 @@
     "Student discount available"
   ],
   "cons": ["AI credits cap monthly usage", "Newer and smaller than incumbents", "No model choice"],
-  "bestFor": ["Students", "Literature reviews", "Reference management"],
+  "bestFor": ["Students", "Academic researchers", "Research teams", "Educators"],
   "alternatives": ["paperpal", "scispace", "elicit", "scite"],
   "references": [
     {
@@ -44,6 +44,26 @@
       "url": "https://daveswift.com/paperguide/",
       "source": "Dave Swift",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "web-research-agent"
     }
   ]
 }

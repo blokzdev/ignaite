@@ -45,7 +45,7 @@
     "Enterprise pricing is opaque",
     "Web and API only"
   ],
-  "bestFor": ["Continuous web/app localization", "Product and dev teams"],
+  "bestFor": ["Product and dev teams", "Localization managers"],
   "alternatives": ["lokalise", "crowdin", "phrase", "lingo-dev"],
   "references": [
     {
@@ -53,6 +53,17 @@
       "url": "https://slator.com/xtm-international-expands-localization-leadership-with-strategic-acquisition-of-transifex/",
       "source": "Slator",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "localization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

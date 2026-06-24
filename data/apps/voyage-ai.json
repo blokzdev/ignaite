@@ -40,7 +40,7 @@
     "Roadmap now tied to MongoDB Atlas",
     "Hosted-only; metered by tokens"
   ],
-  "bestFor": ["RAG pipelines", "Enterprise retrieval", "Reranking search results"],
+  "bestFor": ["Python developers", "AI engineers", "Enterprise teams"],
   "alternatives": ["jina-ai", "mixedbread", "cohere"],
   "references": [
     {
@@ -54,6 +54,11 @@
       "url": "https://siliconangle.com/2025/02/24/mongodb-acquires-embedding-model-provider-voyage-ai/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "embeddings"
     }
   ]
 }

@@ -41,6 +41,26 @@
     "Chrome-only",
     "Closed source"
   ],
-  "bestFor": ["Multi-model daily assistant", "In-browser summarizing", "Budget multi-LLM access"],
-  "alternatives": ["sider", "monica", "maxai", "harpa-ai"]
+  "bestFor": ["Knowledge workers", "Content creators", "Students", "Budget multi-LLM users"],
+  "alternatives": ["sider", "monica", "maxai", "harpa-ai"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

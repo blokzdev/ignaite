@@ -38,6 +38,14 @@
     "Content restrictions on sensitive topics",
     "Smaller app polish than rivals"
   ],
-  "bestFor": ["Free reasoning chat", "Cost-sensitive users"],
-  "alternatives": ["chatgpt", "claude", "gemini", "kimi"]
+  "bestFor": ["Cost-sensitive users", "Developers", "Self-hosters"],
+  "alternatives": ["chatgpt", "claude", "gemini", "kimi"],
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

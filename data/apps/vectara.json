@@ -47,12 +47,7 @@
     "Core platform is proprietary (only tools open)",
     "Crowded managed-RAG and hyperscaler competition"
   ],
-  "bestFor": [
-    "Enterprise RAG",
-    "AI agents & assistants",
-    "Regulated industries",
-    "Grounding & accuracy"
-  ],
+  "bestFor": ["Enterprise teams", "Regulated industries", "Platform engineers"],
   "alternatives": ["jina-ai", "pinecone", "exa", "tavily"],
   "references": [
     {
@@ -66,6 +61,26 @@
       "url": "https://www.frontlines.io/podcasts/amr-awadallah/",
       "source": "Frontlines.io",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "agent-framework"
     }
   ]
 }

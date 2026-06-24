@@ -46,6 +46,31 @@
     "Self-host ops overhead",
     "Connectors need configuration"
   ],
-  "bestFor": ["Self-hosted enterprise search", "Privacy-sensitive RAG", "Internal knowledge Q&A"],
-  "alternatives": ["glean", "anythingllm", "librechat", "khoj"]
+  "bestFor": [
+    "Enterprise platform teams",
+    "Privacy-sensitive orgs",
+    "Self-hosters",
+    "Internal IT/knowledge teams"
+  ],
+  "alternatives": ["glean", "anythingllm", "librechat", "khoj"],
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "knowledge-graph"
+    }
+  ]
 }

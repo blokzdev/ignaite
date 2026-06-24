@@ -45,6 +45,23 @@
     "Cognify pipeline adds LLM cost",
     "Self-host setup overhead"
   ],
-  "bestFor": ["Agent memory", "Graph-aware RAG"],
-  "alternatives": ["mem0", "zep", "graphlit", "letta"]
+  "bestFor": ["AI engineers", "Python developers", "Agent builders"],
+  "alternatives": ["mem0", "zep", "graphlit", "letta"],
+  "capabilities": [
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "vector-search"
+    }
+  ]
 }

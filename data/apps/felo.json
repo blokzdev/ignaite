@@ -37,6 +37,23 @@
     "Output generation can vary in quality",
     "Pro features behind subscription"
   ],
-  "bestFor": ["Multilingual research", "Slide/mind-map output", "Non-English users"],
-  "alternatives": ["perplexity", "you-com", "morphic", "liner"]
+  "bestFor": ["Non-English users", "Researchers", "Students"],
+  "alternatives": ["perplexity", "you-com", "morphic", "liner"],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

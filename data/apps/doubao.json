@@ -38,6 +38,26 @@
     "Runs only on ByteDance models",
     "Data subject to China jurisdiction"
   ],
-  "bestFor": ["Chinese-language users", "Everyday Q&A and writing", "Document processing"],
-  "alternatives": ["kimi", "deepseek", "chatgpt"]
+  "bestFor": ["Chinese-language users", "Consumers", "Students"],
+  "alternatives": ["kimi", "deepseek", "chatgpt"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

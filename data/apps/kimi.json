@@ -39,6 +39,17 @@
     "Smaller ecosystem than ChatGPT/Gemini",
     "Availability varies by region"
   ],
-  "bestFor": ["Long-context chat", "Open-weight model fans", "Deep research tasks"],
-  "alternatives": ["deepseek", "chatgpt", "gemini", "grok"]
+  "bestFor": ["Open-weight model fans", "Power users"],
+  "alternatives": ["deepseek", "chatgpt", "gemini", "grok"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "agentic-coding"
+    }
+  ]
 }

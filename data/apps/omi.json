@@ -44,12 +44,7 @@
     "Hosted features still use third-party LLMs",
     "Less polished than big-tech wearables"
   ],
-  "bestFor": [
-    "Ambient note-taking",
-    "AI hardware tinkerers",
-    "Privacy-conscious users",
-    "Wearable app developers"
-  ],
+  "bestFor": ["AI hardware tinkerers", "Privacy-conscious users", "Wearable app developers"],
   "alternatives": ["friend", "plaud", "bee"],
   "references": [
     {
@@ -57,6 +52,20 @@
       "url": "https://techcrunch.com/2025/01/08/omi-a-competitor-to-friend-wants-to-boost-your-productivity-using-ai-and-a-brain-interface/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ambient-life-capture"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "note-taking"
     }
   ]
 }

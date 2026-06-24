@@ -48,6 +48,23 @@
     "Needs prompt tuning for niche domains",
     "Basic built-in analytics"
   ],
-  "bestFor": ["Self-hosted research", "Building research agents"],
-  "alternatives": ["consensus", "elicit", "khoj", "perplexity"]
+  "bestFor": ["Python developers", "Self-hosters", "AI engineers"],
+  "alternatives": ["consensus", "elicit", "khoj", "perplexity"],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "agent-orchestration"
+    }
+  ]
 }

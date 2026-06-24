@@ -40,6 +40,17 @@
     "Broad app coverage"
   ],
   "cons": ["Next-gen model is paid-only", "Fewer languages than Google", "Not a general assistant"],
-  "bestFor": ["Document translation", "Localization in apps"],
-  "alternatives": ["translated", "smartling", "lokalise", "smartcat"]
+  "bestFor": ["Localization teams", "Global enterprises", "Developers"],
+  "alternatives": ["translated", "smartling", "lokalise", "smartcat"],
+  "capabilities": [
+    {
+      "id": "translation"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "speech-translation"
+    }
+  ]
 }

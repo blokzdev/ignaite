@@ -36,6 +36,17 @@
     "Free tier to start"
   ],
   "cons": ["Web-only, no native app", "Generic AI prose needs editing", "Higher tiers get pricey"],
-  "bestFor": ["Indie novelists", "Screenwriters", "Fast first drafts"],
-  "alternatives": ["sudowrite", "novelcrafter", "novelai"]
+  "bestFor": ["Indie novelists", "Screenwriters", "Self-publishers"],
+  "alternatives": ["sudowrite", "novelcrafter", "novelai"],
+  "capabilities": [
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }
