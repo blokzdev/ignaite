@@ -76,6 +76,7 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | V-2   | Performance + SEO — structured-data pack, tag deep-links, llms.txt, JSON feed           | #162      | ✅     |
 | V-3   | Performance + SEO — CSP/security headers, build-stamped SW, LHCI fix, portfolio removal | #163      | ✅     |
 | V-4   | Public-repo hygiene — README refresh + FSL-1.1-MIT / CC BY-NC licensing                 | #164      | ✅     |
+| X     | Comparisons engine — /compare hub + ~3.1k SSG head-to-heads (curated `alternatives`)    | (this PR) | 🟦     |
 
 ---
 
@@ -130,6 +131,33 @@ downloads, and harden the edges.
   leftover v1 Glitch-template MIT (wrong copyright holder) → **FSL-1.1-MIT** for code (free
   non-competing use, auto-MIT after 2 years) + a **CC BY-NC 4.0** addendum for the directory's
   editorial content. Fixed the stale "R3F hero on `/`" claims in CLAUDE.md (it renders on `/about`).
+
+---
+
+## Iteration 11 — Directory expansion: Comparisons · Recipes · Insights (Chunks X →) 🟦 in progress
+
+The scope-expansion program (full plan: the approved design doc). Reframes the directory from a
+**verified list of atoms** into a **verified graph** via one substrate (a controlled capability
+vocabulary) feeding three projections: **Comparisons** (a cheap SEO/link view, no new entity),
+**Insights** (a shareable data-viz/backlink layer), and **Recipes** (the one new entity — multi-app
+workflows). Governing rule: every surface is a deterministic projection/graph over the verified
+corpus, never hand-maintained prose, so the audit moat doesn't multiply.
+
+- **Chunk X — Comparisons engine (this PR).** Pure build-time SSG projection over `@/.velite`, no
+  schema change. `lib/tools/comparisons.ts` derives the eligible cohort from the curated
+  `alternatives` graph (undirected, lexicographic-canonical pairs, both-active) — **3,136 indexed
+  head-to-heads** (the doorway-page-safe subset; the mechanical same-category cross-product is
+  intentionally NOT generated). `/compare/<a>-vs-<b>` (`dynamicParams=false`, Set-validated — never
+  parses `-vs-`) renders an enum-delta table (category/pricing/license/deployment/platforms/model/
+  vendor) + side-by-side honest-brief, with `CollectionPage` + `BreadcrumbList` JSON-LD and an
+  a11y `<table>`. A bounded `/compare` hub indexes by category and pivots to category pages for the
+  long tail. Sitemap wired. **0 B route JS** (pure RSC — the lightest routes on the site).
+- **Chunk Y — Comparison OG + in-product discovery** (next): per-pair Satori OG (guarded endpoint),
+  ⌘K + nav + an `/apps/[slug]` "Compare with…" rail, the `noindex,follow` long-tail cohort, llms.txt.
+- **Chunk Z — Insights v1** (parallel): hand-rolled SSG SVG (no charting dep), the dense honest
+  subset (pricing/category/platform), coverage-qualified, with the `/embed/<metric>` backlink engine.
+- **Chunks AA–AF** — the capability taxonomy + schema (sign-off), parallel-agent backfill, the Recipe
+  entity (sign-off + pilot), and the substitution engine. See the plan doc for the critical path.
 
 ---
 

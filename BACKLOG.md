@@ -44,6 +44,34 @@ Things that would make the site feel more "us" before the world sees it.
 
 Anything in this section is explicitly safe to defer to after v2 goes live.
 
+### Directory expansion — Comparisons / Recipes / Insights (Iteration 11)
+
+> The approved program plan reframes the directory into a verified graph (Comparisons · Recipes ·
+> Insights) over one capability substrate. Chunk X (the Comparisons engine — `lib/tools/comparisons.ts`
+> and the `/compare` routes) shipped the indexed curated-`alternatives` cohort. These are the tracked
+> follow-ons.
+
+- [ ] **[future]** **Chunk Y — Comparison OG + in-product discovery.** Per-pair Satori share card via
+      `app/(marketing)/compare/[pair]/opengraph-image.tsx` (MUST guard with the same `getComparison()`
+      Set check + `notFound()` as the page, then drop the page's `ogImage: "/opengraph-image"` override);
+      an `/apps/[slug]` "Compare {name} with…" rail (use `comparisonsForApp(slug)`); a `/compare` entry in
+      nav + the ⌘K palette (`command-palette-body.tsx` `PAGES`); a `popular-comparisons.json` slim index;
+      and a `comparisons` section in `llms-full.txt`.
+- [ ] **[future]** **Mechanical same-category long-tail cohort** — render (not just curate) the
+      same-category top-N cross-product as `noindex,follow`, and promote individual pages to indexed only
+      on proven Search Console impressions. Deliberately excluded from Chunk X (doorway-page risk); needs
+      the GSC feedback loop + a measurement contract first.
+- [ ] **[verify]** **Comparison archive-redirect + `-vs-` reverse-order redirect — needs `next.config.ts`
+      sign-off (CLAUDE.md §11).** Today an archived app's pairs simply drop out of `generateStaticParams`
+      (→ 404 under `dynamicParams=false`), and the non-canonical `B-vs-A` order 404s. Both should instead
+      **redirect** (308 archived→surviving `/apps`|`/category`; 301 reverse-order→canonical) to preserve
+      inbound link equity — but redirects need a `next.config.ts`/middleware change. Batch both into the
+      one §11 config sign-off. Until then: commit a build-time eligible-pair manifest so a future diff can
+      drive the archived-pair redirects.
+- [ ] **[future]** **Synthesized "when to pick A vs B" prose verdict** on `/compare` — deferred until the
+      capability model (Chunk AA) lands; templating off audience-noun `bestFor` produces broken grammar.
+      Chunk AC adds it once `capabilities` provides a templatable field.
+
 ### PWA
 
 > The PWA ships with a hand-rolled, **build-stamped** service worker (`app/sw.js/route.ts` — a
