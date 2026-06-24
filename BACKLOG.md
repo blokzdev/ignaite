@@ -48,8 +48,9 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 
 > The approved program plan reframes the directory into a verified graph (Comparisons · Recipes ·
 > Insights) over one capability substrate. Chunk X (the Comparisons engine — `lib/tools/comparisons.ts`
-> and the `/compare` routes) shipped the indexed curated-`alternatives` cohort. These are the tracked
-> follow-ons.
+> and the `/compare` routes) shipped the indexed curated-`alternatives` cohort; Chunk Z (Insights v1 —
+> `lib/stats.ts` + `components/insights/*` + `/insights`) shipped the coverage-honest dense core. These
+> are the tracked follow-ons.
 
 - [ ] **[future]** **Chunk Y — Comparison OG + in-product discovery.** Per-pair Satori share card via
       `app/(marketing)/compare/[pair]/opengraph-image.tsx` (MUST guard with the same `getComparison()`
@@ -71,6 +72,18 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 - [ ] **[future]** **Synthesized "when to pick A vs B" prose verdict** on `/compare` — deferred until the
       capability model (Chunk AA) lands; templating off audience-noun `bestFor` produces broken grammar.
       Chunk AC adds it once `capabilities` provides a templatable field.
+- [ ] **[verify]** **Chunk Z-2 — Insights embeds + per-metric pages — needs a `headers()` sign-off (§11).**
+      The shareable backlink engine: an `/embed/<metric>` iframe surface (`frame-ancestors *`,
+      `rel=canonical`→parent) so other sites can embed a self-updating Ignaite chart — requires a
+      `next.config.ts` headers change (batch with the comparison-redirect §11 sign-off). Alongside it:
+      indexable `/insights/<metric>` pages gated on a curated framing paragraph + an editorial value gate
+      (don't spawn thin pages), per-chart Satori OG (spike donut/segmented through `next/og` first — the
+      repo's Satori usage is flexbox-only), and an `insights` section in `llms.txt`/`feed.json`.
+- [ ] **[future]** **Insights time-series charts (growth / "what's new this quarter") + behavioral
+      "most-compared" chart.** Growth/archive-trend deferred until the corpus spans ≥2 `addedAt` quarters
+      with real archive history (today it's a single ~6-week window → a one-bar non-chart). The
+      "most-compared / most-viewed apps" chart needs a measurement contract (`@vercel/analytics` event
+      whitelist) first — which also feeds the "promote long-tail comparisons on GSC/usage demand" gate.
 
 ### PWA
 
