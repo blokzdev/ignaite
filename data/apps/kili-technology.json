@@ -1,0 +1,51 @@
+{
+  "slug": "kili-technology",
+  "name": "Kili Technology",
+  "tagline": "Data labeling and quality platform for training and evaluating AI models.",
+  "description": "Kili Technology is a data-centric platform for turning raw data into high-quality training and evaluation datasets. It supports annotation across image, video, text, OCR, and geospatial data, with review and quality workflows, plus LLM evaluation and RLHF using human-in-the-loop and LLM-as-a-judge. It is used by enterprises including Airbus and SAP, and offers cloud, private-cloud, and on-premise deployment.",
+  "insight": "Founded in Paris in 2018; raised a $25M Series A led by Balderton Capital in 2021.",
+  "category": "data-ops",
+  "secondaryCategories": ["eval"],
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Kili Technology",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "capabilities": [
+    { "id": "data-labeling" },
+    { "id": "eval-suite" },
+    { "id": "document-extraction" }
+  ],
+  "tags": ["data-labeling", "annotation", "rlhf", "evals", "data-quality"],
+  "links": [
+    { "kind": "website", "url": "https://kili-technology.com", "primary": true },
+    { "kind": "pricing", "url": "https://kili-technology.com/pricing" }
+  ],
+  "addedAt": "2026-06-24",
+  "addedSeq": 1030,
+  "lastVerifiedAt": "2026-06-24",
+  "edge": "Combines human-in-the-loop annotation with LLM-as-a-judge evaluation in one workflow, instead of labeling-only or eval-only tooling.",
+  "pros": [
+    "Multi-modal annotation",
+    "Built-in QA and review workflows",
+    "LLM evaluation and RLHF support",
+    "On-prem and private-cloud options"
+  ],
+  "cons": [
+    "Enterprise-oriented complexity",
+    "Smaller than Scale or Surge",
+    "Managed labeling costs extra"
+  ],
+  "bestFor": ["ML and data teams", "Enterprises", "RLHF and eval projects"],
+  "alternatives": ["scale-ai", "surge-ai", "snorkel-ai", "label-studio"],
+  "references": [
+    {
+      "title": "French AI data training start-up Kili Technology raises $25m",
+      "url": "https://www.siliconrepublic.com/start-ups/kili-technology-french-ai-data-training",
+      "source": "Silicon Republic",
+      "kind": "analysis"
+    }
+  ]
+}
