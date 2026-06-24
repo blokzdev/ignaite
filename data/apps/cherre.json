@@ -56,5 +56,19 @@
       "source": "CREtech",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "property-data-api"
+    }
   ]
 }

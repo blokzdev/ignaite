@@ -32,7 +32,7 @@
     "Feature breadth has a learning curve",
     "Aimed at agents/teams, not consumers"
   ],
-  "bestFor": ["Real estate agents and teams", "Lead gen and nurturing", "Brokerage operations"],
+  "bestFor": ["Real estate agents & teams", "Brokerages", "Solo agents"],
   "alternatives": ["eliseai", "cadastral"],
   "references": [
     {
@@ -40,6 +40,17 @@
       "url": "https://www.inman.com/2023/11/07/to-elevate-the-industry-chime-becomes-lofty/",
       "source": "Inman",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
     }
   ]
 }

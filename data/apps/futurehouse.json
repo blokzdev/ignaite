@@ -39,7 +39,7 @@
     "Smaller model ecosystem",
     "Newer platform"
   ],
-  "bestFor": ["Literature review", "Scientific research", "Hypothesis generation"],
+  "bestFor": ["Academic researchers", "Biologists / life scientists", "AI-for-science labs"],
   "alternatives": ["edison-scientific", "elicit", "consensus", "scispace"],
   "references": [
     {
@@ -53,6 +53,17 @@
       "url": "https://www.hpcwire.com/aiwire/2025/07/03/futurehouse-launches-ai-platform-to-accelerate-scientific-discovery/",
       "source": "AIwire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "cited-answers"
     }
   ]
 }

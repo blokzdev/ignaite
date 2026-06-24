@@ -33,7 +33,7 @@
     "Open releases are sequences, not a service",
     "Opaque pricing"
   ],
-  "bestFor": ["AI-designed gene editing", "Protein/enzyme design", "Genetic-medicine partners"],
+  "bestFor": ["Genetic-medicine partners", "Biotech & pharma R&D", "Therapeutics teams"],
   "alternatives": ["cradle", "evolutionaryscale", "chai-discovery"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://vctavern.com/profluent-bio-raises-106m-to-scale-ai-designed-proteins-and-programmable-biology-platform/",
       "source": "VC Tavern",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "protein-design"
+    },
+    {
+      "id": "antibody-design"
+    },
+    {
+      "id": "molecular-design"
     }
   ]
 }

@@ -32,7 +32,7 @@
     "Broad health-system deployment"
   ],
   "cons": ["Enterprise sales-only", "No public pricing", "US healthcare-focused"],
-  "bestFor": ["Health systems", "Health plans", "Revenue-cycle automation"],
+  "bestFor": ["Health systems", "Health plans"],
   "alternatives": ["abridge", "nabla", "suki", "tennr"],
   "references": [
     {
@@ -40,6 +40,20 @@
       "url": "https://www.fiercehealthcare.com/digital-health/notable-nabs-100m-to-automate-administrative-tasks-healthcare",
       "source": "Fierce Healthcare",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "healthcare-ops"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "medical-coding"
     }
   ]
 }

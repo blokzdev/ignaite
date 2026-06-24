@@ -32,7 +32,7 @@
     "Built for studying, not general note-taking",
     "Underlying AI model is not disclosed"
   ],
-  "bestFor": ["Students", "Lecture-heavy courses", "Exam revision"],
+  "bestFor": ["Students", "College students", "Exam takers"],
   "alternatives": ["studyfetch", "notebooklm", "quizlet"],
   "references": [
     {
@@ -40,6 +40,26 @@
       "url": "https://techcrunch.com/2025/10/23/20-year-old-dropouts-built-ai-notetaker-turbo-ai-to-5-million-users/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "study-material-conversion"
+    },
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

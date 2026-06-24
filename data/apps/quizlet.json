@@ -37,6 +37,20 @@
     "AI tutoring gated to Quizlet Plus",
     "User-made sets vary in quality"
   ],
-  "bestFor": ["Students", "Flashcard study", "Exam prep"],
-  "alternatives": ["studyfetch", "khanmigo", "photomath", "synthesis-tutor"]
+  "bestFor": ["Students", "Exam takers", "High-school & college learners"],
+  "alternatives": ["studyfetch", "khanmigo", "photomath", "synthesis-tutor"],
+  "capabilities": [
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "study-material-conversion"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

@@ -44,5 +44,19 @@
       "source": "Healthcare Innovation",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "clinical-decision-support"
+    },
+    {
+      "id": "summarization"
+    }
   ]
 }

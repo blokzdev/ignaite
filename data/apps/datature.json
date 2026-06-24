@@ -41,7 +41,7 @@
     "Vision-only, not general ML",
     "Smaller than general-purpose ML platforms"
   ],
-  "bestFor": ["CV teams without ML expertise", "Enterprises", "Edge vision apps"],
+  "bestFor": ["CV teams without ML staff", "Enterprises", "Manufacturing & inspection"],
   "alternatives": ["roboflow", "encord", "voxel51", "supervisely"],
   "references": [
     {
@@ -49,6 +49,26 @@
       "url": "https://technode.global/2022/03/16/singapore-machine-learning-firm-datature-raises-2-7m-from-openspace/",
       "source": "TNGlobal",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "defect-detection"
     }
   ]
 }

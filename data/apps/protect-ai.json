@@ -40,6 +40,17 @@
     "Roadmap folding into Prisma AIRS",
     "Broad scope, longer to deploy"
   ],
-  "bestFor": ["ML supply-chain security", "Model scanning", "Enterprises"],
-  "alternatives": ["hiddenlayer", "lakera", "prompt-security", "pangea"]
+  "bestFor": ["Enterprises", "ML / MLSecOps teams", "AI platform teams"],
+  "alternatives": ["hiddenlayer", "lakera", "prompt-security", "pangea"],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "guardrails"
+    }
+  ]
 }

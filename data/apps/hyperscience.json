@@ -38,11 +38,7 @@
     "Overkill for simple, low-volume OCR",
     "Setup and model tuning require effort"
   ],
-  "bestFor": [
-    "Enterprise document automation",
-    "Regulated & government workloads",
-    "High-volume forms processing"
-  ],
+  "bestFor": ["Large enterprises", "Government agencies", "Insurance & financial services"],
   "alternatives": ["rossum", "reducto", "nanonets", "mindee"],
   "references": [
     {
@@ -50,6 +46,20 @@
       "url": "https://siliconangle.com/2020/06/04/automation-startup-hyperscience-raises-60m-accelerate-platform-growth/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "text-classification"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

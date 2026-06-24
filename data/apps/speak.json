@@ -37,13 +37,24 @@
     "Full features need a subscription",
     "Light on reading and writing practice"
   ],
-  "bestFor": ["Speaking fluency", "Solo conversation practice"],
+  "bestFor": ["Language learners", "Self-paced learners"],
   "references": [
     {
       "title": "OpenAI-backed Speak raises $78M at $1B valuation",
       "url": "https://techcrunch.com/2024/12/10/openai-backed-speak-raises-78m-at-1b-valuation-to-help-users-learn-languages-by-talking-out-loud/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "language-practice"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

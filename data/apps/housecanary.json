@@ -32,6 +32,17 @@
     "US-only coverage",
     "Enterprise and investor focus"
   ],
-  "bestFor": ["Mortgage lenders", "SFR investors and REITs", "Valuation and underwriting"],
-  "alternatives": ["realie", "realestateapi", "restb-ai"]
+  "bestFor": ["Mortgage lenders", "SFR investors and REITs", "Capital markets firms"],
+  "alternatives": ["realie", "realestateapi", "restb-ai"],
+  "capabilities": [
+    {
+      "id": "property-valuation"
+    },
+    {
+      "id": "property-data-api"
+    },
+    {
+      "id": "data-analysis"
+    }
+  ]
 }

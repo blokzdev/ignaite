@@ -45,5 +45,19 @@
       "url": "https://www.digitalhealth.net/2024/02/tortus-secures-4-2m-to-give-every-clinician-a-personal-ai-assistant/",
       "source": "Digital Health"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "speech-to-text"
+    }
   ]
 }

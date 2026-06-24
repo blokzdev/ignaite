@@ -10,7 +10,13 @@
   "vendor": "Latitude",
   "platforms": ["web", "ios", "android"],
   "tags": ["interactive-fiction", "text-adventure", "storytelling", "rpg", "gpt"],
-  "links": [{ "kind": "website", "url": "https://aidungeon.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://aidungeon.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 956,
   "lastVerifiedAt": "2026-06-20",
@@ -28,11 +34,7 @@
     "Past content-moderation controversies",
     "Not a structured game with set goals"
   ],
-  "bestFor": [
-    "Interactive-fiction fans",
-    "Collaborative storytelling",
-    "Solo tabletop-style RPG play"
-  ],
+  "bestFor": ["Interactive-fiction fans", "Collaborative storytellers", "Solo RPG players"],
   "alternatives": ["novelai", "character-ai", "inworld-ai"],
   "references": [
     {
@@ -40,6 +42,11 @@
       "url": "https://en.wikipedia.org/wiki/AI_Dungeon",
       "source": "Wikipedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "roleplay-characters"
     }
   ]
 }

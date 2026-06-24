@@ -32,6 +32,11 @@
     "Consumer-facing, no clinical integration",
     "Possible-cause output can over- or under-flag"
   ],
-  "bestFor": ["Self-triage", "Consumer symptom checks"],
-  "alternatives": ["k-health", "wysa", "openevidence"]
+  "bestFor": ["Patients self-checking", "Health-curious consumers"],
+  "alternatives": ["k-health", "wysa", "openevidence"],
+  "capabilities": [
+    {
+      "id": "symptom-triage"
+    }
+  ]
 }

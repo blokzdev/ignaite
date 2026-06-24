@@ -36,7 +36,7 @@
     "Early-stage Series A company",
     "Enterprise focus, not for individuals"
   ],
-  "bestFor": ["Enterprise SOC teams", "Autonomous alert triage"],
+  "bestFor": ["Enterprise SOC teams", "Security operations leaders"],
   "alternatives": ["dropzone-ai", "exaforce"],
   "references": [
     {

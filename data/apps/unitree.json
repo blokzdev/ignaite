@@ -51,5 +51,19 @@
       "source": "New Atlas",
       "kind": "review"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "bipedal-locomotion"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "vision-language-action"
+    },
+    {
+      "id": "world-model"
+    }
   ]
 }

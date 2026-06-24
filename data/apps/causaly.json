@@ -33,7 +33,7 @@
     "No public pricing",
     "Not for general-purpose research"
   ],
-  "bestFor": ["Pharma R&D teams", "Drug discovery", "Biomedical researchers"],
+  "bestFor": ["Pharma R&D teams", "Biomedical researchers", "Life-sciences enterprises"],
   "alternatives": ["benchsci", "futurehouse", "scispace", "consensus"],
   "references": [
     {
@@ -45,6 +45,23 @@
       "title": "Causaly and Microsoft Integrate Scientific Reasoning for R&D",
       "url": "https://www.hpcwire.com/aiwire/2026/06/04/causaly-and-microsoft-integrate-scientific-reasoning-and-analytics-for-drug-discovery/",
       "source": "AIwire"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "autonomous-research"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "drug-target-discovery"
     }
   ]
 }

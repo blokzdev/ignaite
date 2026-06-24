@@ -46,5 +46,16 @@
       "source": "Inman",
       "kind": "review"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "virtual-staging"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "image-upscaling"
+    }
   ]
 }

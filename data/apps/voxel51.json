@@ -46,6 +46,17 @@
     "Enterprise features behind paid Teams",
     "Learning curve for advanced views"
   ],
-  "bestFor": ["CV/ML engineers", "Dataset debugging", "Model failure analysis"],
-  "alternatives": ["roboflow", "encord", "label-studio", "dataloop"]
+  "bestFor": ["CV/ML engineers", "Data-centric AI teams"],
+  "alternatives": ["roboflow", "encord", "label-studio", "dataloop"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "embeddings"
+    }
+  ]
 }

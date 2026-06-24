@@ -44,6 +44,28 @@
     "Geared to detection/classification, not LLMs",
     "Costs climb with scale and seats"
   ],
-  "bestFor": ["Custom vision models", "Annotation workflows", "Edge deployment"],
-  "alternatives": ["landing-ai", "encord", "ultralytics", "supervisely"]
+  "bestFor": [
+    "Computer-vision engineers",
+    "ML/MLOps teams",
+    "Robotics & manufacturing",
+    "Edge-AI builders"
+  ],
+  "alternatives": ["landing-ai", "encord", "ultralytics", "supervisely"],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

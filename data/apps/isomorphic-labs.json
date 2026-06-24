@@ -33,7 +33,7 @@
     "No approved drug yet",
     "Opaque pricing"
   ],
-  "bestFor": ["Pharma R&D collaborations", "AI drug design", "Structure-based discovery"],
+  "bestFor": ["Pharma R&D partners", "Drug discovery scientists"],
   "alternatives": ["chai-discovery", "profluent", "lila-sciences"],
   "references": [
     {
@@ -45,5 +45,13 @@
   ],
   "featured": true,
   "featuredAt": "2026-06-21",
-  "accentColor": "#0EA5E9"
+  "accentColor": "#0EA5E9",
+  "capabilities": [
+    {
+      "id": "protein-structure-prediction"
+    },
+    {
+      "id": "molecular-design"
+    }
+  ]
 }

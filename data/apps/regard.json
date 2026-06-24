@@ -10,7 +10,13 @@
   "vendor": "Regard",
   "platforms": ["web"],
   "tags": ["clinical-ai", "diagnosis", "documentation", "ehr"],
-  "links": [{ "kind": "website", "url": "https://regard.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://regard.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 988,
   "lastVerifiedAt": "2026-06-20",
@@ -26,10 +32,14 @@
     "Requires deep EHR integration",
     "Diagnosis suggestions need MD review"
   ],
-  "bestFor": [
-    "Hospital inpatient teams",
-    "Diagnosis capture and coding",
-    "Reducing documentation burden"
-  ],
-  "alternatives": ["navina", "abridge", "openevidence", "nabla"]
+  "bestFor": ["Hospital inpatient teams", "Physicians", "Health systems"],
+  "alternatives": ["navina", "abridge", "openevidence", "nabla"],
+  "capabilities": [
+    {
+      "id": "clinical-decision-support"
+    },
+    {
+      "id": "clinical-documentation"
+    }
+  ]
 }

@@ -42,11 +42,7 @@
     "Overkill for small teams",
     "Value depends on connected systems"
   ],
-  "bestFor": [
-    "Enterprise AI governance",
-    "Regulated industries",
-    "Internal agents on company data"
-  ],
+  "bestFor": ["Enterprise platform teams", "Regulated industries", "Security & governance teams"],
   "alternatives": ["glean", "dust"],
   "references": [
     {
@@ -54,6 +50,26 @@
       "url": "https://www.thesaasnews.com/news/credal-ai-raises-4-8-million-in-seed-round",
       "source": "The SaaS News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "app-deployment"
     }
   ]
 }

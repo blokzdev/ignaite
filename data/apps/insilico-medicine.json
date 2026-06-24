@@ -37,7 +37,7 @@
     "No approved drug yet",
     "Heavy domain expertise required"
   ],
-  "bestFor": ["Pharma R&D teams", "Target discovery", "Generative chemistry"],
+  "bestFor": ["Pharma R&D teams", "Biotech researchers", "Computational chemists"],
   "alternatives": ["isomorphic-labs", "recursion", "chai-discovery", "cradle"],
   "references": [
     {
@@ -57,6 +57,17 @@
       "url": "https://www.labiotech.eu/best-biotech/ai-drug-discovery-companies/",
       "source": "Labiotech",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "drug-target-discovery"
+    },
+    {
+      "id": "molecular-design"
+    },
+    {
+      "id": "protein-design"
     }
   ]
 }

@@ -32,6 +32,20 @@
     "Sold to health systems, not solo clinicians",
     "Accuracy still needs clinician review"
   ],
-  "bestFor": ["Health systems", "Multilingual clinics", "EHR-agnostic deploys"],
-  "alternatives": ["abridge"]
+  "bestFor": ["Health systems", "Multilingual clinics", "Provider groups"],
+  "alternatives": ["abridge"],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "medical-coding"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

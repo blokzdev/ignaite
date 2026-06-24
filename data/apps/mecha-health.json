@@ -15,7 +15,13 @@
     "notes": "Ships its own radiology foundation models rather than wrapping a third-party LLM."
   },
   "tags": ["radiology", "medical-imaging", "healthcare", "foundation-models", "clinical-reports"],
-  "links": [{ "kind": "website", "url": "https://www.mecha-health.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.mecha-health.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-19",
   "addedSeq": 877,
   "lastVerifiedAt": "2026-06-19",
@@ -39,6 +45,17 @@
       "url": "https://radiologybusiness.com/press-release/mecha-health-raises-41m-seed-round-build-next-generation-foundation-models-radiology",
       "source": "Radiology Business",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "medical-imaging"
+    },
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

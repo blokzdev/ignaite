@@ -40,7 +40,7 @@
     "Learning curve for newcomers",
     "Built to sell to districts"
   ],
-  "bestFor": ["K-12 teachers", "Lesson and quiz prep", "Districts needing SSO"],
+  "bestFor": ["K-12 teachers", "School districts", "Special-education staff"],
   "alternatives": ["khanmigo", "brisk-teaching", "quizlet", "studyfetch"],
   "references": [
     {
@@ -52,5 +52,19 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#8B5CF6"
+  "accentColor": "#8B5CF6",
+  "capabilities": [
+    {
+      "id": "lesson-planning"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "text-editing"
+    }
+  ]
 }

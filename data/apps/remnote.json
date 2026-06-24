@@ -37,6 +37,20 @@
     "Outliner UI has a learning curve",
     "Best suited to study use cases"
   ],
-  "bestFor": ["Students", "Spaced-repetition learners", "Exam prep"],
-  "alternatives": ["quizlet", "studyfetch", "notebooklm"]
+  "bestFor": ["Students", "Medical students", "Exam-prep learners"],
+  "alternatives": ["quizlet", "studyfetch", "notebooklm"],
+  "capabilities": [
+    {
+      "id": "note-taking"
+    },
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

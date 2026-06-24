@@ -42,6 +42,28 @@
     "Steep learning curve for non-ML scientists",
     "Production microservices are paid"
   ],
-  "bestFor": ["Drug discovery", "Protein and molecule modeling", "Computational biology"],
-  "alternatives": ["isomorphic-labs", "evolutionaryscale", "chai-discovery", "recursion"]
+  "bestFor": [
+    "Computational biologists",
+    "Drug discovery teams",
+    "ML researchers",
+    "Bioinformatics teams"
+  ],
+  "alternatives": ["isomorphic-labs", "evolutionaryscale", "chai-discovery", "recursion"],
+  "capabilities": [
+    {
+      "id": "protein-structure-prediction"
+    },
+    {
+      "id": "protein-design"
+    },
+    {
+      "id": "molecular-design"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

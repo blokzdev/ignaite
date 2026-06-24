@@ -53,5 +53,13 @@
       "source": "Robotics & Automation News",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "dexterous-manipulation"
+    }
   ]
 }

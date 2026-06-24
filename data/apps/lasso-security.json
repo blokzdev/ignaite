@@ -40,6 +40,17 @@
     "No transparent public pricing",
     "Heavier setup than a guard library"
   ],
-  "bestFor": ["Enterprise GenAI security", "Shadow-AI governance", "LLM red-teaming"],
-  "alternatives": ["lakera", "prompt-security", "protect-ai", "pangea"]
+  "bestFor": ["Enterprise security teams", "AI governance leads", "Platform/MLOps teams"],
+  "alternatives": ["lakera", "prompt-security", "protect-ai", "pangea"],
+  "capabilities": [
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "ai-security-scanning"
+    }
+  ]
 }

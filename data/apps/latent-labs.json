@@ -38,7 +38,7 @@
     "Pricing unconfirmed",
     "Requires waitlist"
   ],
-  "bestFor": ["Protein binder design", "Antibody engineering", "Computational biology"],
+  "bestFor": ["Computational biologists", "Drug-discovery teams", "Protein engineers"],
   "alternatives": ["isomorphic-labs", "chai-discovery", "profluent", "evolutionaryscale"],
   "references": [
     {
@@ -46,6 +46,14 @@
       "url": "https://techcrunch.com/2025/07/21/latent-labs-launches-web-based-ai-model-to-democratize-protein-design/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "protein-design"
+    },
+    {
+      "id": "antibody-design"
     }
   ]
 }

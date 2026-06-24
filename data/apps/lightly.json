@@ -43,11 +43,17 @@
     "Best value needs large datasets",
     "Smaller ecosystem than labeling giants"
   ],
-  "bestFor": [
-    "Computer-vision teams",
-    "Large image/video datasets",
-    "Reducing labeling cost",
-    "Edge & robotics data"
-  ],
-  "alternatives": ["roboflow", "voxel51", "encord", "supervisely"]
+  "bestFor": ["Computer-vision teams", "Edge & robotics ML teams", "ML data engineers"],
+  "alternatives": ["roboflow", "voxel51", "encord", "supervisely"],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

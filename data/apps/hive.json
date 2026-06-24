@@ -42,7 +42,7 @@
     "No free self-serve tier",
     "Geared to platforms at scale"
   ],
-  "bestFor": ["Trust & safety teams", "Content moderation at scale", "Deepfake detection"],
+  "bestFor": ["Trust & safety teams", "Platforms at scale", "ML/engineering teams"],
   "alternatives": ["clarifai"],
   "references": [
     {
@@ -56,6 +56,20 @@
       "url": "https://techcrunch.com/2021/04/21/hive-raises-85m-for-ai-based-apis-to-help-moderate-content-identify-objects-and-more/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "content-moderation"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

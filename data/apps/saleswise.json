@@ -27,6 +27,17 @@
     "Flat $39/mo, unlimited use"
   ],
   "cons": ["Single vertical: realtors only", "No free tier (paid trial)", "Not a full CRM"],
-  "bestFor": ["Real estate agents", "Listing marketing", "CMA and content creation"],
-  "alternatives": ["lofty", "eliseai"]
+  "bestFor": ["Real estate agents", "Realtor teams", "Listing marketers"],
+  "alternatives": ["lofty", "eliseai"],
+  "capabilities": [
+    {
+      "id": "property-valuation"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "graphic-design"
+    }
+  ]
 }

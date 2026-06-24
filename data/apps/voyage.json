@@ -38,7 +38,7 @@
     "Android/web only at launch",
     "Quality depends on underlying LLM"
   ],
-  "bestFor": ["Solo RPG players", "Interactive-fiction fans", "AI worldbuilding"],
+  "bestFor": ["Solo RPG players", "Interactive-fiction fans"],
   "alternatives": ["hidden-door", "rosebud-ai", "convai"],
   "references": [
     {
@@ -46,6 +46,11 @@
       "url": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "roleplay-characters"
     }
   ]
 }

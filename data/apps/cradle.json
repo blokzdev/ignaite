@@ -33,7 +33,7 @@
     "Needs customer wet-lab data",
     "Not a downloadable model"
   ],
-  "bestFor": ["Antibody/enzyme engineering", "Protein optimization", "Biotech R&D teams"],
+  "bestFor": ["Biotech R&D teams", "Protein engineers", "Biopharma scientists"],
   "alternatives": ["profluent", "chai-discovery", "evolutionaryscale"],
   "references": [
     {
@@ -41,6 +41,14 @@
       "url": "https://siliconangle.com/2024/11/26/ai-driven-protein-discovery-platform-cradle-raises-73m/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "protein-design"
+    },
+    {
+      "id": "model-fine-tuning"
     }
   ]
 }

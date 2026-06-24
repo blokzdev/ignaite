@@ -36,7 +36,7 @@
     "Young company (founded 2023)",
     "Aimed at security teams, not individuals"
   ],
-  "bestFor": ["Enterprise security teams", "SOC alert-fatigue reduction"],
+  "bestFor": ["Enterprise security teams", "SOC analysts", "MDR / managed-SOC buyers"],
   "alternatives": ["dropzone-ai", "prophet-security"],
   "references": [
     {
@@ -50,6 +50,17 @@
       "url": "https://www.securityweek.com/exaforce-banks-hefty-75-million-for-ai-powered-soc-remake/",
       "source": "SecurityWeek",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

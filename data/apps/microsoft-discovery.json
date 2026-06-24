@@ -44,8 +44,8 @@
   ],
   "bestFor": [
     "Enterprise R&D teams",
-    "Materials and drug discovery",
-    "Scientific and engineering labs"
+    "Pharma & materials scientists",
+    "Engineering & semiconductor labs"
   ],
   "alternatives": ["futurehouse", "lila-sciences", "periodic-labs", "autoscience"],
   "references": [
@@ -60,6 +60,26 @@
       "url": "https://www.hpcwire.com/aiwire/2026/06/03/microsoft-discovery-reaches-general-availability-for-agentic-scientific-and-engineering-workflows/",
       "source": "HPCwire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-research"
+    },
+    {
+      "id": "literature-review"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "materials-discovery"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

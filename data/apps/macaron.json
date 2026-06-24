@@ -32,6 +32,20 @@
     "Usage metered in 'almond' credits",
     "Limited to a few languages and regions"
   ],
-  "bestFor": ["Personal life organization", "Mobile-first users", "AI enthusiasts"],
-  "alternatives": ["pi", "manus"]
+  "bestFor": ["Mobile-first users", "AI enthusiasts", "Personal productivity users"],
+  "alternatives": ["pi", "manus"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "task-management"
+    }
+  ]
 }

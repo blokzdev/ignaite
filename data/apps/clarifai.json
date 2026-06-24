@@ -45,7 +45,7 @@
     "Operations-based pricing can surprise",
     "Divested compute-orchestration arm (2026)"
   ],
-  "bestFor": ["Production computer vision", "Custom vision models", "Enterprise AI platforms"],
+  "bestFor": ["Computer-vision engineers", "Data scientists", "Enterprise AI platforms"],
   "alternatives": ["roboflow", "landing-ai", "voxel51", "dataloop"],
   "references": [
     {
@@ -59,6 +59,26 @@
       "url": "https://siliconangle.com/2026/05/12/nebius-snaps-clarifais-compute-orchestration-tech-talent-enhance-ai-inference/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "data-labeling"
     }
   ]
 }

@@ -38,7 +38,7 @@
     "Closed, enterprise deployment model",
     "Early-stage revenue vs huge valuation"
   ],
-  "bestFor": ["Robot makers", "Embodied AI research", "Multi-form deployments"],
+  "bestFor": ["Robot makers", "Embodied AI researchers", "Robotics OEMs"],
   "alternatives": ["physical-intelligence", "figure-ai", "1x", "sanctuary-ai"],
   "references": [
     {
@@ -46,6 +46,20 @@
       "url": "https://www.therobotreport.com/skild-ai-raises-1-4b-building-omni-bodied-robot-skild-brain/",
       "source": "The Robot Report",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "imitation-learning"
+    },
+    {
+      "id": "autonomous-navigation"
     }
   ]
 }

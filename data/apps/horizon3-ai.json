@@ -33,10 +33,14 @@
     "Aimed at orgs with security teams",
     "Offensive testing needs careful scoping"
   ],
-  "bestFor": [
-    "Enterprise security teams",
-    "Continuous attack validation",
-    "Government and regulated orgs"
-  ],
-  "alternatives": ["xbow", "pentera"]
+  "bestFor": ["Enterprise security teams", "Government & regulated orgs"],
+  "alternatives": ["xbow", "pentera"],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "red-teaming"
+    }
+  ]
 }

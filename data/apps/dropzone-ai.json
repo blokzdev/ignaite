@@ -32,12 +32,23 @@
     "Cloud SaaS only — no self-host option",
     "Humans still review containment actions"
   ],
-  "bestFor": ["Lean SOC teams", "MSSPs", "Alert triage at scale"],
+  "bestFor": ["Lean SOC teams", "MSSPs", "Enterprise security teams"],
   "references": [
     {
       "title": "Dropzone AI Raises $37 Million for Autonomous SOC Analyst",
       "url": "https://www.securityweek.com/dropzone-ai-raises-37-million-for-autonomous-soc-analyst/",
       "source": "SecurityWeek"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

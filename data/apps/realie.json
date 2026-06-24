@@ -36,6 +36,17 @@
     "Newer and smaller than legacy data vendors",
     "Public-record data can lag county updates"
   ],
-  "bestFor": ["Developers and analysts", "Property data pipelines", "Budget-conscious proptech"],
-  "alternatives": ["realestateapi", "cadastral"]
+  "bestFor": ["Developers and analysts", "Budget-conscious proptech", "Real estate data teams"],
+  "alternatives": ["realestateapi", "cadastral"],
+  "capabilities": [
+    {
+      "id": "property-data-api"
+    },
+    {
+      "id": "property-valuation"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

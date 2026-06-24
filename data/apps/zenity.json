@@ -37,7 +37,7 @@
     "Demo-gated onboarding",
     "Newer, fast-evolving category"
   ],
-  "bestFor": ["Enterprise security teams", "Agent/copilot governance", "Low-code app security"],
+  "bestFor": ["Enterprise security teams", "CISOs / platform teams", "Regulated enterprises"],
   "alternatives": ["lakera", "prompt-security", "lasso-security", "protect-ai"],
   "references": [
     {
@@ -51,6 +51,17 @@
       "url": "https://www.helpnetsecurity.com/2024/10/29/zenity-funding-38-million/",
       "source": "Help Net Security",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

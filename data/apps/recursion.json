@@ -37,7 +37,7 @@
     "Opaque pricing",
     "No approved drug yet"
   ],
-  "bestFor": ["Pharma R&D collaborations", "Phenomics-based discovery", "Target identification"],
+  "bestFor": ["Pharma R&D teams", "Biotech partners", "Drug discovery scientists"],
   "alternatives": ["isomorphic-labs", "insilico-medicine", "chai-discovery", "profluent"],
   "references": [
     {
@@ -45,6 +45,17 @@
       "url": "https://www.labiotech.eu/best-biotech/ai-drug-discovery-companies/",
       "source": "Labiotech",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "drug-target-discovery"
+    },
+    {
+      "id": "molecular-design"
+    },
+    {
+      "id": "autonomous-research"
     }
   ]
 }

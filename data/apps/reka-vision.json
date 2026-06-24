@@ -43,6 +43,17 @@
     "Enterprise pricing, not self-serve",
     "Newer product, smaller ecosystem"
   ],
-  "bestFor": ["Media libraries", "Physical security/surveillance", "Large video archives"],
-  "alternatives": ["twelve-labs", "google-flow"]
+  "bestFor": ["Enterprise media teams", "Security/surveillance teams", "Video archive owners"],
+  "alternatives": ["twelve-labs", "google-flow"],
+  "capabilities": [
+    {
+      "id": "video-understanding"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "video-editing"
+    }
+  ]
 }

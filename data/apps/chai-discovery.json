@@ -34,7 +34,7 @@
     "Young company (2024)",
     "Core IP still proprietary"
   ],
-  "bestFor": ["Structure prediction", "De novo antibody design", "Drug-discovery research"],
+  "bestFor": ["Drug-discovery researchers", "Computational biologists"],
   "alternatives": ["evolutionaryscale", "profluent", "isomorphic-labs"],
   "references": [
     {
@@ -42,6 +42,17 @@
       "url": "https://hitconsultant.net/2025/12/15/openai-backed-chai-discovery-raises-130m-to-tackle-undruggable-targets-with-generative-ai/",
       "source": "HIT Consultant",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "protein-structure-prediction"
+    },
+    {
+      "id": "antibody-design"
+    },
+    {
+      "id": "protein-design"
     }
   ]
 }

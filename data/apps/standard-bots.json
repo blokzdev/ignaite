@@ -38,12 +38,7 @@
     "US-focused manufacturing deployments",
     "Learn-by-demonstration AI still maturing"
   ],
-  "bestFor": [
-    "CNC machine tending",
-    "Palletizing & pick-and-place",
-    "US factory automation",
-    "Small/mid manufacturers"
-  ],
+  "bestFor": ["US manufacturers", "Small/mid factories", "Factory operators"],
   "alternatives": ["figure-ai", "agility-robotics", "physical-intelligence"],
   "references": [
     {
@@ -51,6 +46,11 @@
       "url": "https://thenextweb.com/news/standard-bots-200m-unicorn-robotic-arms-us-manufacturing",
       "source": "The Next Web",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "imitation-learning"
     }
   ]
 }

@@ -52,5 +52,16 @@
       "source": "Mend.io",
       "kind": "comparison"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "guardrails"
+    }
   ]
 }

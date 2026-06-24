@@ -33,7 +33,7 @@
     "Pricing not public",
     "Requires classroom devices + mics"
   ],
-  "bestFor": ["K-12 reading instruction", "School districts", "Early literacy intervention"],
+  "bestFor": ["K-12 schools", "School districts", "Reading teachers"],
   "alternatives": ["khanmigo", "speak", "synthesis-tutor"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://www.wwno.org/education/2024-10-08/meet-amira-the-ai-tutor-helping-louisiana-students-improve-their-reading-skills",
       "source": "WWNO",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "lesson-planning"
     }
   ]
 }

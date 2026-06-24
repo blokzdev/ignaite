@@ -43,7 +43,7 @@
     "GPU recommended for real speed",
     "Research-grade, not a production sim"
   ],
-  "bestFor": ["Robot-learning research", "Sim-to-real pipelines", "Embodied-AI training data"],
+  "bestFor": ["Robotics researchers", "Embodied-AI engineers", "Sim/ML practitioners"],
   "alternatives": ["lerobot"],
   "references": [
     {
@@ -57,6 +57,14 @@
       "url": "https://techfundingnews.com/genesis-ai-105m-seed-funding/",
       "source": "TFN",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "physics-simulation"
+    },
+    {
+      "id": "sim-to-real"
     }
   ]
 }

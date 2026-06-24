@@ -43,13 +43,27 @@
     "Pre-commercial deployment stage",
     "Regulatory path still uncertain"
   ],
-  "bestFor": ["Automakers", "AV research partners", "Embodied-AI driving"],
+  "bestFor": ["Automakers", "AV research partners"],
   "references": [
     {
       "title": "Riding the Wayve of AV 2.0, Driven by Generative AI",
       "url": "https://blogs.nvidia.com/blog/wayve-generative-ai/",
       "source": "NVIDIA Blog",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "autonomous-navigation"
+    },
+    {
+      "id": "world-model"
+    },
+    {
+      "id": "vision-language-action"
+    },
+    {
+      "id": "robot-foundation-model"
     }
   ]
 }

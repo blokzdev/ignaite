@@ -46,5 +46,19 @@
       "source": "The Close",
       "kind": "review"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "calendar-scheduling"
+    }
   ]
 }

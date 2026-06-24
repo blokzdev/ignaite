@@ -46,7 +46,7 @@
     "Large community: 15k+ GitHub stars"
   ],
   "cons": ["Self-hosting needs Docker ops effort", "Annotation only — no model training built in"],
-  "bestFor": ["CV dataset labeling", "Self-hosted annotation", "Video annotation"],
+  "bestFor": ["CV/ML teams", "Self-hosting teams", "Annotation teams"],
   "alternatives": ["label-studio", "roboflow", "encord", "supervisely"],
   "references": [
     {
@@ -54,6 +54,11 @@
       "url": "https://blog.roboflow.com/cvat/",
       "source": "Roboflow Blog",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-labeling"
     }
   ]
 }

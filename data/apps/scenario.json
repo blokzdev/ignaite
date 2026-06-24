@@ -32,12 +32,7 @@
     "Quality depends on training set",
     "Crowded AI-art space"
   ],
-  "bestFor": [
-    "Game art pipelines",
-    "On-brand asset gen",
-    "Indie and AAA studios",
-    "2D/3D/audio assets"
-  ],
+  "bestFor": ["Game studios", "Game artists", "Indie & AAA teams"],
   "alternatives": ["layer-ai", "ludo-ai", "rosebud-ai"],
   "references": [
     {
@@ -45,6 +40,23 @@
       "url": "https://www.gamedeveloper.com/art/scenario-inc-rolls-out-generative-ai-tool-targeted-at-game-devs",
       "source": "Game Developer",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-3d"
+    },
+    {
+      "id": "model-fine-tuning"
     }
   ]
 }

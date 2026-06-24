@@ -51,6 +51,20 @@
     "Core product is closed source",
     "Enterprise pricing quoted by sales"
   ],
-  "bestFor": ["LLM app security teams", "GenAI guardrails", "Prompt-injection defense"],
-  "alternatives": ["prompt-security", "protect-ai", "pangea", "hiddenlayer"]
+  "bestFor": ["LLM app security teams", "Enterprise AI platform teams"],
+  "alternatives": ["prompt-security", "protect-ai", "pangea", "hiddenlayer"],
+  "capabilities": [
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "content-moderation"
+    },
+    {
+      "id": "ai-security-scanning"
+    }
+  ]
 }

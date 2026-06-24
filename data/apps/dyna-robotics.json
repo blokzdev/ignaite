@@ -38,11 +38,7 @@
     "Early commercial traction vs big claims",
     "Requires its own robot hardware"
   ],
-  "bestFor": [
-    "Service-industry automation",
-    "Repetitive dexterous tasks",
-    "Embodied AI deployments"
-  ],
+  "bestFor": ["Service-industry operators", "Robotics teams", "Restaurant & grocery ops"],
   "alternatives": ["physical-intelligence", "skild-ai", "generalist-ai", "figure-ai"],
   "references": [
     {
@@ -56,6 +52,14 @@
       "url": "https://roboticsandautomationnews.com/2025/09/16/dyna-robotics-raises-120-million-to-advance-robotic-foundation-models-on-path-to-physical-artificial-general-intelligence/94453/",
       "source": "Robotics & Automation News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "dexterous-manipulation"
     }
   ]
 }

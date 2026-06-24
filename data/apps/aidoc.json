@@ -14,7 +14,13 @@
     "notes": "Ships its own FDA-cleared imaging-AI models via the aiOS platform."
   },
   "tags": ["healthcare", "radiology", "medical-imaging", "clinical-ai", "fda-cleared", "triage"],
-  "links": [{ "kind": "website", "url": "https://www.aidoc.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.aidoc.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-21",
   "addedSeq": 994,
   "lastVerifiedAt": "2026-06-21",
@@ -30,5 +36,13 @@
     "Built for health systems, not individuals",
     "Requires clinical workflow integration"
   ],
-  "bestFor": ["Hospitals and health systems", "Radiology workflow", "Clinical triage"]
+  "bestFor": ["Hospitals & health systems", "Radiologists"],
+  "capabilities": [
+    {
+      "id": "medical-imaging"
+    },
+    {
+      "id": "clinical-decision-support"
+    }
+  ]
 }

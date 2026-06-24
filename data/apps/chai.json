@@ -37,13 +37,21 @@
     "2026 token limits frustrated users",
     "Not built for factual accuracy"
   ],
-  "bestFor": ["Casual AI roleplay", "Character creators", "Entertainment chat"],
+  "bestFor": ["Casual mobile users", "Character creators"],
   "alternatives": ["character-ai", "talkie", "replika", "kindroid"],
   "references": [
     {
       "title": "Chai AI",
       "url": "https://en.wikipedia.org/wiki/Chai_AI",
       "source": "Wikipedia"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "companion-chat"
     }
   ]
 }

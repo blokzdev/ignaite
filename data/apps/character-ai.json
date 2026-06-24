@@ -48,6 +48,20 @@
     "Safety scrutiny over minor usage",
     "Founders departed to Google in 2024 deal"
   ],
-  "bestFor": ["Roleplay and companionship", "Character creators"],
-  "alternatives": ["replika", "kindroid", "nomi", "sillytavern"]
+  "bestFor": ["Character creators", "Roleplay enthusiasts"],
+  "alternatives": ["replika", "kindroid", "nomi", "sillytavern"],
+  "capabilities": [
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

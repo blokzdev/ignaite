@@ -38,7 +38,7 @@
     "App support is iOS-first",
     "Premium features gated behind a subscription"
   ],
-  "bestFor": ["Ambient life-logging", "Conversation recall", "AI hardware early adopters"],
+  "bestFor": ["AI hardware early adopters", "Life-loggers", "Busy professionals"],
   "alternatives": ["friend", "plaud", "screenpipe"],
   "references": [
     {
@@ -52,6 +52,26 @@
       "url": "https://www.geekwire.com/2025/amazon-is-acquiring-bee-maker-of-a-wearable-ai-assistant-that-listens-to-conversations/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ambient-life-capture"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

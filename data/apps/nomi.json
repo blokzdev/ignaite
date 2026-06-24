@@ -32,6 +32,23 @@
     "Best features behind paywall",
     "Companion realism still uneven"
   ],
-  "bestFor": ["Companion roleplay", "Memory-rich chats", "Group companion chat"],
-  "alternatives": ["kindroid", "character-ai", "replika"]
+  "bestFor": ["Companion seekers", "Roleplay fans"],
+  "alternatives": ["kindroid", "character-ai", "replika"],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

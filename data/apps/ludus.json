@@ -36,7 +36,7 @@
     "Credit-metered across all plans",
     "Generated code/assets still need review"
   ],
-  "bestFor": ["Unreal Engine developers", "Indie game studios", "Rapid prototyping"],
+  "bestFor": ["Unreal Engine developers", "Indie game studios"],
   "alternatives": ["rosebud-ai", "scenario", "layer-ai"],
   "references": [
     {
@@ -44,6 +44,23 @@
       "url": "https://smythos.com/ai-trends/ludus-ai-in-unreal-engine/",
       "source": "SmythOS",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "agentic-coding"
+    },
+    {
+      "id": "ide-integration"
+    },
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "code-documentation"
     }
   ]
 }

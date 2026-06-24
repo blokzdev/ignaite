@@ -36,7 +36,7 @@
     "2026 Atlas fleets fully committed",
     "Autonomy still human-supervised"
   ],
-  "bestFor": ["Industrial automation", "Warehouse logistics", "Site inspection"],
+  "bestFor": ["Manufacturers", "Warehouse & logistics teams", "Robotics researchers"],
   "alternatives": ["figure-ai", "1x", "apptronik", "agility-robotics"],
   "references": [
     {
@@ -44,6 +44,17 @@
       "url": "https://www.wbur.org/news/2026/01/06/hyundai-boston-dynamics-humanoid-robot-atlas",
       "source": "WBUR",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "bipedal-locomotion"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "autonomous-navigation"
     }
   ]
 }

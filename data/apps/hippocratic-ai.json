@@ -34,6 +34,17 @@
     "No public G2/Capterra review track record",
     "Accuracy scrutiny in sensitive contexts"
   ],
-  "bestFor": ["Health systems / payors", "Post-discharge follow-up"],
-  "alternatives": ["nabla", "abridge", "ada-health", "k-health"]
+  "bestFor": ["Health systems / payors", "Pharma & enterprise healthcare"],
+  "alternatives": ["nabla", "abridge", "ada-health", "k-health"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "healthcare-ops"
+    },
+    {
+      "id": "calendar-scheduling"
+    }
+  ]
 }

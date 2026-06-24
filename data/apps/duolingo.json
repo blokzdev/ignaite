@@ -32,7 +32,7 @@
     "40+ languages on offer"
   ],
   "cons": ["AI course quality criticized", "Max tier costs ~$30/month", "Gamification over depth"],
-  "bestFor": ["Casual language learners", "Daily practice habits", "Speaking on a budget"],
+  "bestFor": ["Casual language learners", "Self-study learners", "Budget-conscious learners"],
   "alternatives": ["speak", "khanmigo", "quizlet"],
   "references": [
     {
@@ -40,6 +40,17 @@
       "url": "https://techcrunch.com/2025/04/30/duolingo-launches-148-courses-created-with-ai-after-sharing-plans-to-replace-contractors-with-ai/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "language-practice"
+    },
+    {
+      "id": "roleplay-characters"
     }
   ]
 }

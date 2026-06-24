@@ -53,7 +53,7 @@
     "Dense panels are awkward on mobile",
     "No built-in moderation or safety rails"
   ],
-  "bestFor": ["Power-user roleplay", "Local LLM hobbyists", "Uncensored characters"],
+  "bestFor": ["Power users", "Local-LLM hobbyists", "Self-hosters", "Roleplay enthusiasts"],
   "alternatives": ["character-ai", "kindroid", "librechat", "nomi"],
   "references": [
     {
@@ -61,6 +61,20 @@
       "url": "https://www.buildmvpfast.com/articles/best-llms-2026-guide/roleplay-ai",
       "source": "BuildMVPFast",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }

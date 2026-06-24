@@ -31,6 +31,17 @@
     "Recent price hikes drew user complaints",
     "Setup rewards effort; not turnkey like Replika"
   ],
-  "bestFor": ["Memory-first companionship", "Deep roleplay tinkerers"],
-  "alternatives": ["nomi", "character-ai", "replika", "sillytavern"]
+  "bestFor": ["Companionship seekers", "Roleplay tinkerers"],
+  "alternatives": ["nomi", "character-ai", "replika", "sillytavern"],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "roleplay-characters"
+    },
+    {
+      "id": "agent-memory"
+    }
+  ]
 }

@@ -32,7 +32,7 @@
     "Enterprise RaaS only — no consumer product",
     "Unproven outside pilot programs"
   ],
-  "bestFor": ["Warehouse logistics", "Manufacturing lines"],
+  "bestFor": ["Warehouse & logistics ops", "Manufacturers", "Industrial enterprises"],
   "alternatives": ["figure-ai", "1x", "skild-ai", "physical-intelligence"],
   "references": [
     {
@@ -40,6 +40,14 @@
       "url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/",
       "source": "Crunchbase News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "bipedal-locomotion"
     }
   ]
 }

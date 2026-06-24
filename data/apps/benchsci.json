@@ -40,7 +40,7 @@
     "Narrowly scoped to preclinical R&D",
     "Requires onboarding with a dedicated team"
   ],
-  "bestFor": ["Preclinical R&D teams", "Pharma & biotech", "Target discovery"],
+  "bestFor": ["Preclinical R&D teams", "Pharma & biotech"],
   "alternatives": ["edison-scientific", "recursion", "insilico-medicine", "futurehouse"],
   "references": [
     {
@@ -48,6 +48,23 @@
       "url": "https://www.genengnews.com/news/benchsci-launches-ai-tool-to-map-disease-biology-for-preclinical-drug-discovery/",
       "source": "GEN",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "drug-target-discovery"
+    },
+    {
+      "id": "literature-search"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "agent-orchestration"
     }
   ]
 }

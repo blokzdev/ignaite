@@ -42,7 +42,7 @@
     "Needs robot hardware and ML expertise",
     "Linux/local deployment only"
   ],
-  "bestFor": ["Robotics researchers", "VLA experimentation", "Embodied AI labs"],
+  "bestFor": ["Robotics researchers", "Embodied-AI labs", "ML engineers"],
   "alternatives": ["skild-ai", "1x", "figure-ai", "wayve"],
   "references": [
     {
@@ -54,5 +54,22 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#EF4444"
+  "accentColor": "#EF4444",
+  "capabilities": [
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "vision-language-action"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "imitation-learning"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

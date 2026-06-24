@@ -44,7 +44,7 @@
     "Free tier has scan limits",
     "Can surface false positives"
   ],
-  "bestFor": ["Developer-first AppSec", "SAST + SCA", "CI/CD security"],
+  "bestFor": ["Application security teams", "Developer-first orgs", "Enterprise platform teams"],
   "alternatives": ["protect-ai", "lakera", "hiddenlayer", "prompt-security"],
   "references": [
     {
@@ -56,5 +56,16 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#4C4A73"
+  "accentColor": "#4C4A73",
+  "capabilities": [
+    {
+      "id": "ai-security-scanning"
+    },
+    {
+      "id": "code-review"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

@@ -42,6 +42,26 @@
     "Core platform is not open source",
     "Smaller than general vector DBs"
   ],
-  "bestFor": ["Video search", "Multimodal RAG", "Media libraries"],
-  "alternatives": ["twelve-labs", "coactive-ai", "voxel51"]
+  "bestFor": ["Developers & AI engineers", "Media platforms", "Search teams"],
+  "alternatives": ["twelve-labs", "coactive-ai", "voxel51"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "video-understanding"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "speaker-diarization"
+    }
+  ]
 }

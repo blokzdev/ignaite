@@ -49,6 +49,14 @@
     "Pricing not clearly published",
     "Detection-focused (boxes and masks)"
   ],
-  "bestFor": ["CV dataset labeling", "Rare-object detection", "Fast annotation at scale"],
-  "alternatives": ["roboflow", "encord", "labelbox", "voxel51"]
+  "bestFor": ["CV/ML engineers", "Dataset teams"],
+  "alternatives": ["roboflow", "encord", "labelbox", "voxel51"],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "object-detection"
+    }
+  ]
 }

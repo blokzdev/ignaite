@@ -23,7 +23,7 @@
     "Web-only — no extension or mobile app",
     "Lighter fit for US Common Core"
   ],
-  "bestFor": ["ANZ & UK teachers", "Curriculum-aligned planning", "Worksheet generation"],
+  "bestFor": ["ANZ & UK teachers", "K-12 educators"],
   "alternatives": ["magicschool-ai", "brisk-teaching"],
   "links": [
     {
@@ -38,5 +38,16 @@
   ],
   "addedAt": "2026-06-09",
   "addedSeq": 319,
-  "lastVerifiedAt": "2026-06-09"
+  "lastVerifiedAt": "2026-06-09",
+  "capabilities": [
+    {
+      "id": "lesson-planning"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

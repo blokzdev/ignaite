@@ -32,6 +32,17 @@
     "Setup tied to local planning rules",
     "Narrow to development and planning"
   ],
-  "bestFor": ["Property developers", "Architects and planners", "Permit and planning authorities"],
-  "alternatives": ["cadastral", "realie"]
+  "bestFor": ["Property developers", "Architects & planners", "Local governments"],
+  "alternatives": ["cadastral", "realie"],
+  "capabilities": [
+    {
+      "id": "regulatory-compliance"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "property-data-api"
+    }
+  ]
 }

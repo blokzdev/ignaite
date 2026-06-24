@@ -41,6 +41,23 @@
     "Narrow task repertoire at launch",
     "No developer API or platform yet"
   ],
-  "bestFor": ["Home robotics early adopters", "Humanoid researchers"],
-  "alternatives": ["figure-ai", "physical-intelligence", "sanctuary-ai"]
+  "bestFor": ["Home robotics adopters", "Humanoid researchers"],
+  "alternatives": ["figure-ai", "physical-intelligence", "sanctuary-ai"],
+  "capabilities": [
+    {
+      "id": "vision-language-action"
+    },
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "bipedal-locomotion"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

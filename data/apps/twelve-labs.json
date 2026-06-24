@@ -47,10 +47,20 @@
     "Cloud-only, no self-host",
     "Usage costs scale with video volume"
   ],
-  "bestFor": [
-    "Video search and retrieval",
-    "Media/archive analysis",
-    "Developers building video AI"
-  ],
-  "alternatives": ["roboflow", "reka-vision", "voxel51"]
+  "bestFor": ["Developers building video AI", "Media and archive teams", "AI engineers"],
+  "alternatives": ["roboflow", "reka-vision", "voxel51"],
+  "capabilities": [
+    {
+      "id": "video-understanding"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

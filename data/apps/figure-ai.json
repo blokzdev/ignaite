@@ -41,6 +41,24 @@
     "Capital-intensive, long timelines",
     "General-purpose autonomy unproven at scale"
   ],
-  "bestFor": ["Industrial automation", "Humanoid research", "Manufacturing pilots"],
-  "alternatives": ["1x", "sanctuary-ai", "physical-intelligence", "skild-ai"]
+  "bestFor": [
+    "Humanoid robotics teams",
+    "Manufacturing & logistics ops",
+    "Embodied-AI researchers"
+  ],
+  "alternatives": ["1x", "sanctuary-ai", "physical-intelligence", "skild-ai"],
+  "capabilities": [
+    {
+      "id": "vision-language-action"
+    },
+    {
+      "id": "robot-foundation-model"
+    },
+    {
+      "id": "dexterous-manipulation"
+    },
+    {
+      "id": "bipedal-locomotion"
+    }
+  ]
 }

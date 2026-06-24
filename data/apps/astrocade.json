@@ -33,7 +33,7 @@
     "Monetization and pricing still unclear",
     "Output quality varies by prompt"
   ],
-  "bestFor": ["Casual game creators", "No-code makers", "Social game players"],
+  "bestFor": ["Casual creators", "Non-coders", "Social gamers"],
   "alternatives": ["rosebud-ai", "hidden-door", "ludo-ai"],
   "references": [
     {
@@ -47,6 +47,20 @@
       "url": "https://fortune.com/2026/05/05/astrocade-raises-56-million-series-b-sequoia-video-games-platform-ali-amir-sadeghian/",
       "source": "Fortune",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "sound-effects"
     }
   ]
 }

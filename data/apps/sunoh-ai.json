@@ -36,7 +36,7 @@
     "Specialty-care depth varies",
     "Newer than incumbent scribes"
   ],
-  "bestFor": ["Outpatient clinicians", "eClinicalWorks practices", "Reducing documentation time"],
+  "bestFor": ["Outpatient clinicians", "eClinicalWorks practices"],
   "alternatives": ["abridge", "deepscribe", "freed", "nabla"],
   "references": [
     {
@@ -44,6 +44,17 @@
       "url": "https://www.trytwofold.com/compare/sunoh-ai-review",
       "source": "Twofold",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "clinical-documentation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

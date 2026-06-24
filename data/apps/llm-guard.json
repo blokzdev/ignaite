@@ -42,6 +42,17 @@
     "Latency from running multiple scanners",
     "Tuning needed to cut false positives"
   ],
-  "bestFor": ["LLM app security", "Self-hosted guardrails", "Compliance-sensitive teams"],
-  "alternatives": ["lakera", "prompt-security", "pillar-security"]
+  "bestFor": ["LLM app security teams", "Self-hosting engineers", "Compliance-sensitive teams"],
+  "alternatives": ["lakera", "prompt-security", "pillar-security"],
+  "capabilities": [
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "content-moderation"
+    },
+    {
+      "id": "ai-security-scanning"
+    }
+  ]
 }

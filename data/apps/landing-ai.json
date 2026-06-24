@@ -41,6 +41,27 @@
     "Newer agent features still maturing",
     "Scale pricing quoted for enterprise"
   ],
-  "bestFor": ["Few-shot vision apps", "Document/PDF extraction", "Teams without ML labelers"],
-  "alternatives": ["roboflow", "encord", "supervisely", "moondream"]
+  "bestFor": [
+    "Teams without ML labelers",
+    "Regulated-industry ops teams",
+    "Computer-vision developers"
+  ],
+  "alternatives": ["roboflow", "encord", "supervisely", "moondream"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "object-detection"
+    },
+    {
+      "id": "image-classification"
+    },
+    {
+      "id": "defect-detection"
+    }
+  ]
 }

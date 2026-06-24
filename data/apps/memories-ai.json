@@ -16,8 +16,15 @@
   },
   "tags": ["video-understanding", "visual-memory", "video-search", "multimodal"],
   "links": [
-    { "kind": "website", "url": "https://memories.ai", "primary": true },
-    { "kind": "pricing", "url": "https://memories.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://memories.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://memories.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 986,
@@ -34,10 +41,17 @@
     "Credit-based usage can add up",
     "Benchmarks are vendor-reported"
   ],
-  "bestFor": [
-    "Video search and analytics",
-    "Security and surveillance review",
-    "Media and sports footage"
-  ],
-  "alternatives": ["twelve-labs", "reka-vision", "coactive-ai", "mixpeek"]
+  "bestFor": ["Security & surveillance teams", "Media & sports analysts", "AI/robotics builders"],
+  "alternatives": ["twelve-labs", "reka-vision", "coactive-ai", "mixpeek"],
+  "capabilities": [
+    {
+      "id": "video-understanding"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

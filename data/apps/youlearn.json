@@ -42,7 +42,7 @@
     "General LLM, not subject-tuned",
     "No model selection"
   ],
-  "bestFor": ["College students", "Self-paced learners", "Exam prep", "Lecture review"],
+  "bestFor": ["College students", "Self-paced learners", "Med/law students"],
   "alternatives": ["studyfetch", "studdy", "notebooklm"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://updf.com/chatgpt/youlearn-ai-review/",
       "source": "UPDF",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ai-tutoring"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "flashcard-generation"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "study-material-conversion"
     }
   ]
 }
