@@ -46,7 +46,7 @@
     "Multi-process concurrent access limits",
     "Fewer framework integrations, less tooling"
   ],
-  "bestFor": ["Embedded RAG", "Edge/desktop apps", "Multimodal datasets"],
+  "bestFor": ["AI engineers", "App developers", "Data/ML teams"],
   "alternatives": ["chroma", "qdrant", "pinecone", "milvus"],
   "references": [
     {
@@ -54,6 +54,17 @@
       "url": "https://4xxi.com/articles/vector-database-comparison/",
       "source": "4xxi",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }

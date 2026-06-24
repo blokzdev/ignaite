@@ -46,7 +46,7 @@
     "Hosted usage priced by credits",
     "Heavy sites can still need tuning"
   ],
-  "bestFor": ["RAG ingestion", "Agent web data", "LLM-ready scraping"],
+  "bestFor": ["AI engineers", "Agent builders", "RAG developers"],
   "alternatives": ["crawl4ai", "apify", "scrapegraphai", "jina-ai"],
   "references": [
     {
@@ -60,6 +60,17 @@
       "url": "https://spider.cloud/blog/firecrawl-vs-crawl4ai-vs-spider-honest-benchmark",
       "source": "Spider",
       "kind": "benchmark"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

@@ -41,6 +41,14 @@
     "Less depth than full DS platforms",
     "Limited for custom ML workflows"
   ],
-  "bestFor": ["Media/marketing agencies", "Predictive forecasting", "Non-technical analysts"],
-  "alternatives": ["julius", "hex", "powerdrill"]
+  "bestFor": ["Media/marketing agencies", "Non-technical analysts"],
+  "alternatives": ["julius", "hex", "powerdrill"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "report-generation"
+    }
+  ]
 }

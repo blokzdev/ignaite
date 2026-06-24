@@ -42,6 +42,14 @@
     "Focused narrowly on conversational agents",
     "Younger than general LLM eval tools"
   ],
-  "bestFor": ["Voice AI teams", "Conversational agent QA", "Pre-launch agent testing"],
-  "alternatives": ["braintrust", "langsmith", "athina", "patronus-ai"]
+  "bestFor": ["Voice AI teams", "Conversational agent teams"],
+  "alternatives": ["braintrust", "langsmith", "athina", "patronus-ai"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

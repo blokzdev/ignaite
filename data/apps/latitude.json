@@ -45,6 +45,17 @@
     "Self-host infra to maintain",
     "Smaller integration ecosystem"
   ],
-  "bestFor": ["Self-hosted teams", "Agent observability", "Open-source stacks"],
-  "alternatives": ["langfuse", "langsmith", "langwatch", "braintrust"]
+  "bestFor": ["Self-hosted teams", "Agent-building teams", "Open-source teams"],
+  "alternatives": ["langfuse", "langsmith", "langwatch", "braintrust"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "conversation-intelligence"
+    }
+  ]
 }

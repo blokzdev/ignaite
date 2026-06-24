@@ -41,10 +41,14 @@
     "Small team and product",
     "Scope focused on SQL analytics"
   ],
-  "bestFor": [
-    "Self-serve data questions",
-    "NL-to-SQL on warehouses",
-    "Privacy-sensitive analytics"
-  ],
-  "alternatives": ["vanna", "julius", "hex", "tellius"]
+  "bestFor": ["Data teams", "Privacy-sensitive orgs", "Business analysts"],
+  "alternatives": ["vanna", "julius", "hex", "tellius"],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    }
+  ]
 }

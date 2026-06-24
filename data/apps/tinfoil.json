@@ -52,6 +52,17 @@
     "Smaller model selection than big clouds",
     "Enclave approach adds some overhead"
   ],
-  "bestFor": ["Privacy-sensitive inference", "Regulated industries", "Confidential AI workloads"],
-  "alternatives": ["together-ai", "fireworks-ai", "openrouter"]
+  "bestFor": ["Regulated industries", "Privacy-focused developers", "Research institutions"],
+  "alternatives": ["together-ai", "fireworks-ai", "openrouter"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

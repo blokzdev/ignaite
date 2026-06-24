@@ -36,5 +36,13 @@
     "Young, evolving product",
     "Setup and governance overhead"
   ],
-  "bestFor": ["Enterprise data teams", "ETL/pipeline automation", "DataOps"]
+  "bestFor": ["Enterprise data teams", "DataOps engineers"],
+  "capabilities": [
+    {
+      "id": "etl-pipeline"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

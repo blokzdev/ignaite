@@ -45,12 +45,7 @@
     "Breadth can mean a learning curve",
     "Pay-as-you-go costs need monitoring at scale"
   ],
-  "bestFor": [
-    "Deploying LLM/GPU workloads",
-    "Self-hosting in your own cloud",
-    "Full-stack app + DB hosting",
-    "Platform/SRE teams"
-  ],
+  "bestFor": ["Platform/SRE teams", "Full-stack dev teams", "Self-hosting teams"],
   "alternatives": ["vercel", "modal", "cerebrium", "beam"],
   "references": [
     {
@@ -58,6 +53,14 @@
       "url": "https://pulse2.com/northflank-developer-workload-platform-company-secures-22-3-million/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "gpu-compute"
     }
   ]
 }

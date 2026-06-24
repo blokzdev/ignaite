@@ -40,6 +40,17 @@
     "Closed source",
     "Most useful only inside coding agents"
   ],
-  "bestFor": ["Coding-agent builders", "Fast file edit-apply", "IDE/tool infrastructure"],
-  "alternatives": ["fireworks-ai", "baseten", "together-ai"]
+  "bestFor": ["Coding-agent builders", "AI tool/IDE vendors", "Infra engineers"],
+  "alternatives": ["fireworks-ai", "baseten", "together-ai"],
+  "capabilities": [
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

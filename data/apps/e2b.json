@@ -51,7 +51,7 @@
     "Per-second billing adds up at scale",
     "Narrower than full infra platforms"
   ],
-  "bestFor": ["Agent code execution", "Data-analysis agents", "Untrusted code"],
+  "bestFor": ["AI agent builders", "AI engineers", "Enterprise platform teams"],
   "alternatives": ["daytona", "modal", "browserbase", "beam"],
   "references": [
     {
@@ -63,5 +63,13 @@
   ],
   "featured": true,
   "featuredAt": "2026-06-21",
-  "accentColor": "#FF8800"
+  "accentColor": "#FF8800",
+  "capabilities": [
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

@@ -40,7 +40,7 @@
     "Setup and tuning effort vs. an API",
     "Heavier compute for OCR-heavy docs"
   ],
-  "bestFor": ["Self-hosted RAG pipelines", "Privacy-sensitive docs", "Open-source teams"],
+  "bestFor": ["Open-source teams", "Privacy-sensitive teams", "RAG developers"],
   "alternatives": ["unstructured", "reducto", "firecrawl", "chunkr"],
   "references": [
     {
@@ -48,6 +48,14 @@
       "url": "https://llms.reducto.ai/document-parser-comparison",
       "source": "Reducto",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

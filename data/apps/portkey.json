@@ -46,6 +46,26 @@
     "Future roadmap may shift to Prisma AIRS",
     "Advanced governance gated to paid tiers"
   ],
-  "bestFor": ["Production LLM apps", "Gateway routing", "Governance"],
-  "alternatives": ["litellm", "openrouter", "helicone", "langfuse"]
+  "bestFor": ["Platform teams", "Enterprise AI teams", "Governance teams"],
+  "alternatives": ["litellm", "openrouter", "helicone", "langfuse"],
+  "capabilities": [
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "mcp-gateway"
+    }
+  ]
 }

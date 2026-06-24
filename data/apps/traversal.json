@@ -38,11 +38,7 @@
     "Aimed at large, complex systems",
     "Newer, limited public track record"
   ],
-  "bestFor": [
-    "Enterprise SRE/DevOps teams",
-    "Complex distributed systems",
-    "Incident root-cause analysis"
-  ],
+  "bestFor": ["Enterprise SRE/DevOps teams", "Enterprise platform teams"],
   "alternatives": ["aisera"],
   "references": [
     {
@@ -56,6 +52,11 @@
       "url": "https://www.dash0.com/podcast/33-inside-the-ai-sre-boom-anish-agarwal",
       "source": "Dash0",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
     }
   ]
 }

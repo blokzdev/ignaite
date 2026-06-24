@@ -43,7 +43,7 @@
     "Aimed at developers, not end users",
     "Proprietary, no self-host option"
   ],
-  "bestFor": ["Coding-agent builders", "Production agent infra", "Agent evaluation"],
+  "bestFor": ["Coding-agent builders", "Agent infra teams", "AI engineers"],
   "alternatives": ["e2b", "daytona", "modal", "blaxel"],
   "references": [
     {
@@ -51,6 +51,14 @@
       "url": "https://venturebeat.com/infrastructure/runloop-lands-7m-to-power-ai-coding-agents-with-cloud-based-devboxes",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

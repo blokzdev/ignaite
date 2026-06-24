@@ -46,6 +46,17 @@
     "Newer, smaller ecosystem",
     "UI less mature than incumbents"
   ],
-  "bestFor": ["Agent evaluation/benchmarking", "Human-in-the-loop review"],
-  "alternatives": ["braintrust", "langsmith", "maxim-ai", "vellum"]
+  "bestFor": ["AI/agent engineers", "ML platform teams", "Teams with SMEs"],
+  "alternatives": ["braintrust", "langsmith", "maxim-ai", "vellum"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

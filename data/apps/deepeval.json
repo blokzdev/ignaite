@@ -45,6 +45,14 @@
     "Dashboards need paid Confident AI",
     "Judge metrics can be noisy"
   ],
-  "bestFor": ["CI eval suites", "RAG and agent testing"],
-  "alternatives": ["promptfoo", "ragas", "braintrust", "langsmith"]
+  "bestFor": ["AI engineers", "LLM app developers"],
+  "alternatives": ["promptfoo", "ragas", "braintrust", "langsmith"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

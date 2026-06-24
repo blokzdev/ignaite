@@ -45,10 +45,17 @@
     "Proprietary, not open source",
     "Fewer index controls than dedicated DBs"
   ],
-  "bestFor": [
-    "Serverless RAG apps",
-    "Edge and Vercel deployments",
-    "Small-to-mid vector workloads"
-  ],
-  "alternatives": ["pinecone", "qdrant", "turbopuffer", "chroma"]
+  "bestFor": ["Serverless/edge developers", "Indie hackers", "Vercel-stack teams"],
+  "alternatives": ["pinecone", "qdrant", "turbopuffer", "chroma"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

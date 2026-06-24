@@ -40,6 +40,23 @@
     "Usage-based GPU costs add up",
     "Overkill for small single-node jobs"
   ],
-  "bestFor": ["ML/AI engineering teams", "Distributed training at scale", "Large batch inference"],
-  "alternatives": ["modal", "baseten", "runpod", "skypilot"]
+  "bestFor": ["ML/AI engineering teams", "Ray users"],
+  "alternatives": ["modal", "baseten", "runpod", "skypilot"],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "etl-pipeline"
+    },
+    {
+      "id": "embeddings"
+    }
+  ]
 }

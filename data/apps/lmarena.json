@@ -36,7 +36,7 @@
     "Crowd votes can be noisy or gamed",
     "A leaderboard, not a dev test harness"
   ],
-  "bestFor": ["Comparing LLMs", "Model selection", "AI researchers"],
+  "bestFor": ["AI researchers", "ML practitioners", "Model selectors"],
   "references": [
     {
       "title": "LMArena lands $1.7B valuation four months after launching its product",
@@ -49,6 +49,14 @@
       "url": "https://en.wikipedia.org/wiki/LMArena",
       "source": "Wikipedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "multi-model-access"
     }
   ]
 }

@@ -46,6 +46,17 @@
     "Smaller than LangSmith/Braintrust",
     "Free tier limited"
   ],
-  "bestFor": ["LLM eval + monitoring", "Teams shipping LLM features", "Human-in-the-loop review"],
-  "alternatives": ["braintrust", "langsmith", "promptfoo", "vellum"]
+  "bestFor": ["LLM app teams", "QA / annotation teams"],
+  "alternatives": ["braintrust", "langsmith", "promptfoo", "vellum"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

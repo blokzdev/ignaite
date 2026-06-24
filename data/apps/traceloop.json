@@ -45,6 +45,11 @@
     "Relies on your existing OTel stack",
     "Smaller eval tooling than competitors"
   ],
-  "bestFor": ["OTel-native teams", "Avoiding vendor lock-in", "Existing observability stacks"],
-  "alternatives": ["langfuse", "helicone", "langsmith", "arize-phoenix"]
+  "bestFor": ["OTel-native teams", "LLM platform teams", "SRE / DevOps teams"],
+  "alternatives": ["langfuse", "helicone", "langsmith", "arize-phoenix"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

@@ -44,7 +44,7 @@
     "AI-only cloud — few general-purpose services",
     "Younger ecosystem than the big general clouds"
   ],
-  "bestFor": ["Large-scale model training", "Open-model inference at scale"],
+  "bestFor": ["AI research labs", "ML platform teams", "Foundation-model builders"],
   "alternatives": ["coreweave", "lambda", "crusoe", "runpod"],
   "references": [
     {
@@ -52,6 +52,20 @@
       "url": "https://www.constellationr.com/insights/news/why-microsofts-ai-infrastructure-deal-nebius-savvy",
       "source": "Constellation Research",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
     }
   ]
 }

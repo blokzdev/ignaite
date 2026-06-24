@@ -44,7 +44,7 @@
     "Best modes cost more credits per page",
     "Core parser is proprietary, not open source"
   ],
-  "bestFor": ["RAG document pipelines", "Complex PDFs and tables", "Enterprise knowledge bases"],
+  "bestFor": ["RAG / AI engineers", "Enterprise knowledge teams"],
   "alternatives": ["reducto", "unstructured", "docling", "chunkr"],
   "references": [
     {
@@ -52,6 +52,14 @@
       "url": "https://www.analyticsvidhya.com/blog/2024/05/document-parsing-with-llamaparse/",
       "source": "Analytics Vidhya",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }

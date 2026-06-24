@@ -48,6 +48,17 @@
     "Less tunable than vLLM for serving",
     "Cloud tier needed for largest models"
   ],
-  "bestFor": ["Local dev", "Private inference", "Prototyping"],
-  "alternatives": ["lm-studio", "jan", "vllm", "openrouter"]
+  "bestFor": ["Local-first developers", "Privacy-conscious teams", "Prototypers"],
+  "alternatives": ["lm-studio", "jan", "vllm", "openrouter"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "embeddings"
+    }
+  ]
 }

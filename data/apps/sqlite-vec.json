@@ -41,11 +41,11 @@
     "Not built for very large datasets",
     "Single-node, embedded only"
   ],
-  "bestFor": [
-    "Local-first RAG",
-    "Edge and on-device apps",
-    "Prototypes and small datasets",
-    "Apps already on SQLite"
-  ],
-  "alternatives": ["pgvector", "chroma", "lancedb", "qdrant"]
+  "bestFor": ["Local-first developers", "Edge/on-device devs", "SQLite users"],
+  "alternatives": ["pgvector", "chroma", "lancedb", "qdrant"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    }
+  ]
 }

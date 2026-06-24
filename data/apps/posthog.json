@@ -51,7 +51,7 @@
     "Self-hosting supported at hobby scale only",
     "Lighter agent tracing than dedicated LLM-obs tools"
   ],
-  "bestFor": ["Product engineers", "AI app teams", "All-in-one analytics"],
+  "bestFor": ["Product engineers", "AI app teams", "Startups"],
   "alternatives": ["langfuse", "helicone", "langsmith"],
   "references": [
     {
@@ -59,6 +59,14 @@
       "url": "https://userpilot.com/blog/posthog-analytics/",
       "source": "Userpilot",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

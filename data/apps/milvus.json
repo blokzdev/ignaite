@@ -45,6 +45,20 @@
     "Performance hinges on data quality",
     "Higher latency than Qdrant at p50"
   ],
-  "bestFor": ["Billion-scale similarity search", "Large RAG and recsys", "Self-hosted teams"],
-  "alternatives": ["qdrant", "weaviate", "pinecone", "chroma"]
+  "bestFor": ["Self-hosted infra teams", "Platform engineers", "ML/AI engineers"],
+  "alternatives": ["qdrant", "weaviate", "pinecone", "chroma"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "recommendation"
+    }
+  ]
 }

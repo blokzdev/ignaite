@@ -46,7 +46,7 @@
     "Cloud-first; self-host is enterprise-only",
     "Usage-credit pricing needs estimation"
   ],
-  "bestFor": ["Fintech & healthcare documents", "RAG pipelines", "Agentic document workflows"],
+  "bestFor": ["Fintech teams", "Healthcare teams", "Operations teams"],
   "alternatives": ["reducto", "chunkr", "mindee", "llamaparse"],
   "references": [
     {
@@ -54,6 +54,20 @@
       "url": "https://roboticsandautomationnews.com/2025/06/17/extend-raises-17-million-to-build-document-processing-cloud/92174/",
       "source": "Robotics & Automation News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "text-classification"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

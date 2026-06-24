@@ -42,6 +42,14 @@
     "Semantic-layer modeling has a setup cost",
     "Smaller ecosystem than incumbent BI suites"
   ],
-  "bestFor": ["Data teams", "Governed self-service BI", "Metric-driven analytics"],
-  "alternatives": ["zenlytic", "wren-ai", "hex", "thoughtspot"]
+  "bestFor": ["Data teams", "Analytics engineers", "Business users"],
+  "alternatives": ["zenlytic", "wren-ai", "hex", "thoughtspot"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    }
+  ]
 }

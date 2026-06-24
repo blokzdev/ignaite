@@ -42,11 +42,7 @@
     "Younger platform, evolving quickly",
     "Standard plan caps before Enterprise"
   ],
-  "bestFor": [
-    "Startups consolidating their data stack",
-    "Fast analytics setup",
-    "Small data teams"
-  ],
+  "bestFor": ["Startups consolidating data stacks", "Small data teams", "Data analysts"],
   "alternatives": ["fabi", "hex", "wren-ai", "databricks-genie"],
   "references": [
     {
@@ -54,6 +50,23 @@
       "url": "https://techfundingnews.com/definite-raises-10m-seed-unified-data-platform/",
       "source": "Tech Funding News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "etl-pipeline"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

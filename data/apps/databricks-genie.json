@@ -36,6 +36,14 @@
     "Billed via compute (DBUs)",
     "Accuracy depends on data modeling"
   ],
-  "bestFor": ["Databricks customers", "Governed self-serve BI"],
-  "alternatives": ["thoughtspot", "hex", "julius", "akkio"]
+  "bestFor": ["Databricks customers", "Business analysts"],
+  "alternatives": ["thoughtspot", "hex", "julius", "akkio"],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    }
+  ]
 }

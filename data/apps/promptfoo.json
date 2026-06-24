@@ -45,6 +45,17 @@
     "Teams may want managed dashboards",
     "Config sprawl on large eval suites"
   ],
-  "bestFor": ["Prompt regression testing", "CI pipelines", "Developers"],
-  "alternatives": ["deepeval", "ragas", "braintrust", "langsmith"]
+  "bestFor": ["LLM app developers", "AI security teams"],
+  "alternatives": ["deepeval", "ragas", "braintrust", "langsmith"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "guardrails"
+    }
+  ]
 }

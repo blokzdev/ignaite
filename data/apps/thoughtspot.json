@@ -40,6 +40,14 @@
     "Setup and modeling effort",
     "Overkill for small teams"
   ],
-  "bestFor": ["Enterprise BI", "Self-serve analytics", "Governed AI answers"],
-  "alternatives": ["databricks-genie", "hex", "julius", "akkio"]
+  "bestFor": ["Enterprise BI teams", "Business leaders", "Data analysts", "Product/dev teams"],
+  "alternatives": ["databricks-genie", "hex", "julius", "akkio"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    }
+  ]
 }

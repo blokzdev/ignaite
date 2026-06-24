@@ -45,6 +45,11 @@
     "Newer than established APM tools",
     "Less LLM-specific eval tooling"
   ],
-  "bestFor": ["Full-stack tracing", "Python apps", "OTel-native teams"],
-  "alternatives": ["langfuse", "helicone", "langsmith", "traceloop"]
+  "bestFor": ["Python developers", "Full-stack engineers", "OTel-native teams"],
+  "alternatives": ["langfuse", "helicone", "langsmith", "traceloop"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

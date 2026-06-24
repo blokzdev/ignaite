@@ -47,6 +47,14 @@
     "Narrower than general fine-tuning platforms",
     "Cloud-hosted dataset/fine-tune pipeline"
   ],
-  "bestFor": ["High-volume LLM apps", "Cost reduction", "Task-specific distillation"],
-  "alternatives": ["unsloth", "together-ai", "fireworks-ai", "baseten"]
+  "bestFor": ["AI/agent engineers", "ML teams", "RL practitioners"],
+  "alternatives": ["unsloth", "together-ai", "fireworks-ai", "baseten"],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

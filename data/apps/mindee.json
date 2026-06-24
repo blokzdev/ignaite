@@ -49,6 +49,17 @@
     "Credit costs scale with page volume",
     "Custom doc types need a custom model"
   ],
-  "bestFor": ["Invoice/receipt parsing", "Developer document pipelines", "KYC/ID extraction"],
-  "alternatives": ["nanonets", "reducto", "docling", "unstructured"]
+  "bestFor": ["Developers", "Fintech/KYC teams", "Ops/back-office teams"],
+  "alternatives": ["nanonets", "reducto", "docling", "unstructured"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "text-classification"
+    }
+  ]
 }

@@ -37,11 +37,7 @@
     "Used by large enterprises"
   ],
   "cons": ["Cloud-only (no self-host)", "Self-serve pricing not public", "Closed-source models"],
-  "bestFor": [
-    "Financial/medical doc extraction",
-    "Enterprise data ingestion",
-    "LLM-ready data prep"
-  ],
+  "bestFor": ["Fintech & healthcare teams", "Enterprise data teams", "AI engineers"],
   "alternatives": ["reducto", "chunkr", "extend", "unstract"],
   "references": [
     {
@@ -55,6 +51,14 @@
       "url": "https://aimmediahouse.com/ai-startups/pulse-raises-3-9m-to-fix-enterprise-data-extraction-for-ai",
       "source": "AIM Media House",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
     }
   ]
 }

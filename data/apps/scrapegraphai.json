@@ -45,6 +45,20 @@
     "Less precise than handwritten selectors",
     "Hosted API credits add up"
   ],
-  "bestFor": ["LLM-driven scraping", "Structured data extraction", "RAG pipelines"],
-  "alternatives": ["firecrawl", "crawl4ai", "apify", "reducto"]
+  "bestFor": ["Developers", "AI engineers", "RAG/agent builders"],
+  "alternatives": ["firecrawl", "crawl4ai", "apify", "reducto"],
+  "capabilities": [
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

@@ -40,6 +40,14 @@
     "Open-source, self-host option"
   ],
   "cons": ["AGPL-3.0 may deter some", "Infra to manage if self-hosted", "Newer entrant"],
-  "bestFor": ["Running AI-generated code", "Agent sandboxes"],
-  "alternatives": ["e2b", "modal", "browserbase", "beam"]
+  "bestFor": ["AI agent builders", "Code-interpreter platforms", "AI infra teams"],
+  "alternatives": ["e2b", "modal", "browserbase", "beam"],
+  "capabilities": [
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "browser-automation"
+    }
+  ]
 }

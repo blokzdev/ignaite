@@ -32,7 +32,7 @@
     "Newer, smaller company",
     "Best for research/enrichment workflows"
   ],
-  "bestFor": ["Bulk data research", "List building", "Sales and ops enrichment"],
+  "bestFor": ["Sales & ops teams", "Consultants", "Research analysts"],
   "alternatives": ["shortcut", "quadratic", "julius", "hex"],
   "references": [
     {
@@ -40,6 +40,23 @@
       "url": "https://techstartups.com/2025/08/19/paradigm-founded-by-23-year-old-ai-prodigy-anna-monaco-raises-5m-from-general-catalyst-for-viral-ai-spreadsheet/",
       "source": "Tech Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "cited-answers"
     }
   ]
 }

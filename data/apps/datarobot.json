@@ -44,5 +44,22 @@
     "Overkill for small teams"
   ],
   "bestFor": ["Enterprise data science", "MLOps at scale", "Regulated industries"],
-  "alternatives": ["clarifai", "scale-ai"]
+  "alternatives": ["clarifai", "scale-ai"],
+  "capabilities": [
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "agent-framework"
+    }
+  ]
 }

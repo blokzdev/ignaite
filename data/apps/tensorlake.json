@@ -37,6 +37,20 @@
     "Usage-based cost can add up",
     "Self-host only on the enterprise tier"
   ],
-  "bestFor": ["Agent builders", "Sandboxed code execution", "Long-running agent loops"],
-  "alternatives": ["e2b", "daytona", "modal"]
+  "bestFor": ["Agent builders", "Engineering teams", "Teams handling sensitive docs"],
+  "alternatives": ["e2b", "daytona", "modal"],
+  "capabilities": [
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    }
+  ]
 }

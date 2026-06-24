@@ -40,6 +40,20 @@
     "Proprietary eval models, not open source",
     "Heavier setup than a drop-in proxy"
   ],
-  "bestFor": ["GenAI app teams", "Agent guardrails", "RAG evaluation"],
-  "alternatives": ["arize-phoenix", "langfuse", "braintrust", "honeyhive"]
+  "bestFor": ["GenAI app teams", "AI engineers", "ML teams"],
+  "alternatives": ["arize-phoenix", "langfuse", "braintrust", "honeyhive"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "ai-security-scanning"
+    }
+  ]
 }

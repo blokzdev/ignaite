@@ -46,6 +46,20 @@
     "Less specialized than single-model hosts",
     "Throughput varies by model demand"
   ],
-  "bestFor": ["Open-weights inference", "Fine-tuning teams", "Inference at scale"],
-  "alternatives": ["fireworks-ai", "replicate", "baseten", "groq"]
+  "bestFor": ["AI-native companies", "ML research teams", "Platform/infra teams"],
+  "alternatives": ["fireworks-ai", "replicate", "baseten", "groq"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "gpu-compute"
+    }
+  ]
 }

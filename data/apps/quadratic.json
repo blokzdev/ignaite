@@ -33,6 +33,20 @@
     "No longer open source (closed in 2026)",
     "Younger than incumbent BI tools"
   ],
-  "bestFor": ["Data analysts", "Technical teams", "SQL + spreadsheet workflows"],
-  "alternatives": ["hex", "julius", "powerdrill", "databricks-genie"]
+  "bestFor": ["Data analysts", "Technical teams"],
+  "alternatives": ["hex", "julius", "powerdrill", "databricks-genie"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "document-extraction"
+    }
+  ]
 }

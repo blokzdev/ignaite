@@ -45,7 +45,7 @@
     "Infra layer — you still build the agent",
     "Cloud-only, no self-host"
   ],
-  "bestFor": ["High-volume web agents", "MCP-driven browsing"],
+  "bestFor": ["AI agent developers", "Web-data engineers", "High-volume scrapers"],
   "alternatives": ["browserbase", "browser-use", "steel", "apify"],
   "references": [
     {
@@ -53,6 +53,20 @@
       "url": "https://scrapfly.io/blog/posts/best-cloud-browser-apis",
       "source": "Scrapfly",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

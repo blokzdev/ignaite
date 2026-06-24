@@ -45,6 +45,20 @@
     "LLM-as-judge metrics add cost",
     "Heavier than a pure OSS harness"
   ],
-  "bestFor": ["LLM eval and monitoring teams", "RAG and agent quality"],
-  "alternatives": ["braintrust", "langfuse", "patronus-ai", "galileo"]
+  "bestFor": ["LLM/AI engineering teams", "Platform teams"],
+  "alternatives": ["braintrust", "langfuse", "patronus-ai", "galileo"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

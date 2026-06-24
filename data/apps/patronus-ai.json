@@ -41,6 +41,17 @@
     "Usage-based pricing can be opaque at scale",
     "Smaller OSS footprint than open eval tools"
   ],
-  "bestFor": ["Agent reliability", "Hallucination detection", "Enterprise LLM QA"],
-  "alternatives": ["braintrust", "langfuse", "ragas", "promptfoo"]
+  "bestFor": ["Enterprise AI teams", "ML/QA teams", "AI reliability teams"],
+  "alternatives": ["braintrust", "langfuse", "ragas", "promptfoo"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

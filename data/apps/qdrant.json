@@ -45,6 +45,20 @@
     "Smaller ecosystem than Pinecone",
     "Advanced features lean on managed cloud"
   ],
-  "bestFor": ["Self-hosted teams", "Metadata-filtered search", "Cost control"],
-  "alternatives": ["pinecone", "weaviate", "milvus", "chroma"]
+  "bestFor": ["Self-hosted teams", "AI engineers"],
+  "alternatives": ["pinecone", "weaviate", "milvus", "chroma"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "recommendation"
+    }
+  ]
 }

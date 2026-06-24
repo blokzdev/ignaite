@@ -48,6 +48,14 @@
     "Markup on some routes",
     "Not a self-hostable gateway"
   ],
-  "bestFor": ["Multi-model apps", "Model comparison", "Avoiding vendor lock-in"],
-  "alternatives": ["litellm", "portkey", "together-ai", "fireworks-ai"]
+  "bestFor": ["App developers", "Multi-model builders", "Indie hackers"],
+  "alternatives": ["litellm", "portkey", "together-ai", "fireworks-ai"],
+  "capabilities": [
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

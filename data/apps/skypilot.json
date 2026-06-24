@@ -40,7 +40,7 @@
     "Less turnkey than hosted GPU providers",
     "Requires some cloud/infra comfort"
   ],
-  "bestFor": ["Multi-cloud GPU jobs", "Cost-sensitive training", "Batch ML"],
+  "bestFor": ["ML infra engineers", "Multi-cloud teams", "Cost-conscious ML teams"],
   "alternatives": ["modal", "runpod", "beam", "lightning-ai"],
   "references": [
     {
@@ -48,6 +48,14 @@
       "url": "https://shopify.engineering/skypilot",
       "source": "Shopify Engineering",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "gpu-compute"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

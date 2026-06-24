@@ -37,7 +37,7 @@
     "Newer, less battle-tested than GPT/Claude",
     "Paid API, no large free tier"
   ],
-  "bestFor": ["Latency-critical apps", "High-throughput code generation"],
+  "bestFor": ["Latency-sensitive app teams", "Enterprise ML platforms"],
   "alternatives": ["groq", "cerebras", "fireworks-ai", "together-ai"],
   "references": [
     {
@@ -45,6 +45,14 @@
       "url": "https://techcrunch.com/2025/11/06/inception-raises-50-million-to-build-diffusion-models-for-code-and-text/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "code-generation"
     }
   ]
 }

@@ -45,6 +45,17 @@
     "Advanced QA/consensus gated to paid tiers",
     "Less CV-specialized than CVAT or Encord"
   ],
-  "bestFor": ["Multimodal labeling", "Self-hosted teams"],
-  "alternatives": ["encord", "roboflow", "supervisely", "v7-go"]
+  "bestFor": ["Self-hosted ML teams", "Data scientists", "MLOps teams"],
+  "alternatives": ["encord", "roboflow", "supervisely", "v7-go"],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "eval-suite"
+    }
+  ]
 }

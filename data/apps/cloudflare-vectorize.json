@@ -43,7 +43,7 @@
     "5M vectors-per-index ceiling",
     "Younger than standalone vector databases"
   ],
-  "bestFor": ["Cloudflare Workers apps", "Edge RAG", "Serverless AI builders"],
+  "bestFor": ["Cloudflare Workers developers", "Serverless AI builders", "Edge app teams"],
   "alternatives": ["pinecone", "turbopuffer", "s3-vectors", "qdrant"],
   "references": [
     {
@@ -51,6 +51,17 @@
       "url": "https://www.hpcwire.com/bigdatawire/this-just-in/cloudflare-speeds-up-ai-applications-with-vector-database-and-larger-model-support/",
       "source": "BigDATAwire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
     }
   ]
 }

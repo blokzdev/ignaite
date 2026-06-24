@@ -41,6 +41,23 @@
     "Python-centric authoring",
     "Bring your own model/embedding cost"
   ],
-  "bestFor": ["RAG pipelines", "Agent context engineering"],
-  "alternatives": ["docling", "unstructured", "llamaindex"]
+  "bestFor": ["Data engineers", "AI/LLM engineers"],
+  "alternatives": ["docling", "unstructured", "llamaindex"],
+  "capabilities": [
+    {
+      "id": "etl-pipeline"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "knowledge-graph"
+    }
+  ]
 }

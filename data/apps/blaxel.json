@@ -42,7 +42,7 @@
     "Early-stage (YC S25) startup",
     "Developer infra, not an end-user app"
   ],
-  "bestFor": ["Agent infrastructure teams", "MCP server hosting", "Latency-sensitive agents"],
+  "bestFor": ["Agent infrastructure teams", "Platform engineers", "Latency-sensitive agents"],
   "alternatives": ["e2b", "modal", "daytona", "runloop"],
   "references": [
     {
@@ -50,6 +50,20 @@
       "url": "https://venturebeat.com/ai/blaxel-raises-7-3m-seed-round-to-build-aws-for-ai-agents-after-processing-billions-of-agent-requests",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "llm-gateway"
     }
   ]
 }

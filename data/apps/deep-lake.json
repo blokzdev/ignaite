@@ -40,6 +40,17 @@
     "No public pricing on managed tier",
     "More a data engine than a drop-in DB"
   ],
-  "bestFor": ["Multimodal AI data", "Training data lakes", "Deep learning teams"],
-  "alternatives": ["lancedb", "pinecone", "qdrant", "weaviate"]
+  "bestFor": ["Deep learning teams", "Multimodal AI teams", "AI agent builders"],
+  "alternatives": ["lancedb", "pinecone", "qdrant", "weaviate"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

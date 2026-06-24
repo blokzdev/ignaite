@@ -48,6 +48,17 @@
     "Enterprise support is sales-gated",
     "Custom (non-OSI) model license"
   ],
-  "bestFor": ["On-device AI apps", "Privacy-sensitive use", "Mobile/edge developers"],
-  "alternatives": ["ollama", "groq", "replicate"]
+  "bestFor": ["Mobile/edge developers", "Privacy-sensitive teams", "On-device app builders"],
+  "alternatives": ["ollama", "groq", "replicate"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

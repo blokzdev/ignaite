@@ -47,6 +47,26 @@
     "Seat costs at Pro/Enterprise",
     "Lock-in to its workflow model"
   ],
-  "bestFor": ["Cross-functional LLM teams", "Eval-driven shipping", "Visual agent workflows"],
-  "alternatives": ["braintrust", "langsmith", "maxim-ai", "athina"]
+  "bestFor": ["Cross-functional AI teams", "Product managers", "AI engineers"],
+  "alternatives": ["braintrust", "langsmith", "maxim-ai", "athina"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

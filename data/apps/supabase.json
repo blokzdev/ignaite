@@ -46,6 +46,14 @@
     "Self-hosting full stack is involved",
     "Smaller ecosystem than Firebase"
   ],
-  "bestFor": ["Postgres-first apps", "AI app backends", "Self-hosted teams"],
-  "alternatives": ["vercel", "cloudflare", "pgvector"]
+  "bestFor": ["Full-stack developers", "AI app builders", "Self-hosting teams"],
+  "alternatives": ["vercel", "cloudflare", "pgvector"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

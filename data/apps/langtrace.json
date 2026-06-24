@@ -45,6 +45,17 @@
     "Fewer features than LangSmith",
     "Dashboard less polished"
   ],
-  "bestFor": ["OTel-standard stacks", "Existing observability backends", "Self-hosted teams"],
-  "alternatives": ["langfuse", "helicone", "opik", "langwatch"]
+  "bestFor": ["OTel-standard teams", "Self-hosted teams", "AI engineers"],
+  "alternatives": ["langfuse", "helicone", "opik", "langwatch"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "prompt-management"
+    }
+  ]
 }

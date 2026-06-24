@@ -17,9 +17,19 @@
   },
   "tags": ["browser-automation", "web-extraction", "agents", "open-core"],
   "links": [
-    { "kind": "website", "url": "https://tabstack.ai", "primary": true },
-    { "kind": "github", "url": "https://github.com/mozilla/pilo" },
-    { "kind": "pricing", "url": "https://tabstack.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://tabstack.ai",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/mozilla/pilo"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://tabstack.ai/pricing"
+    }
   ],
   "edge": "Mozilla-backed and escalates from cheap fetch to full automation only when a page demands it — paying for a browser only when you need one.",
   "pros": [
@@ -33,7 +43,7 @@
     "Credit-based pricing can be hard to forecast",
     "Newer entrant vs. established browser-infra players"
   ],
-  "bestFor": ["Agent developers", "Lead enrichment", "Market research tools"],
+  "bestFor": ["AI agent developers", "Data engineers"],
   "alternatives": ["browserbase", "hyperbrowser", "firecrawl", "stagehand"],
   "references": [
     {
@@ -45,5 +55,19 @@
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 905,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "web-research-agent"
+    }
+  ]
 }

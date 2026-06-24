@@ -34,7 +34,7 @@
     "Scoped to conversational (voice/chat) agents",
     "Early-stage (YC F24) company"
   ],
-  "bestFor": ["Voice AI teams", "Conversational agent QA", "Regulated-industry deployments"],
+  "bestFor": ["Voice AI teams", "Conversational AI teams", "Regulated-industry teams"],
   "alternatives": ["coval", "confident-ai", "maxim-ai"],
   "references": [
     {
@@ -42,6 +42,17 @@
       "url": "https://mlq.ai/news/ai-startup-cekura-secures-24-million-seed-funding-led-by-y-combinator/",
       "source": "MLQ.ai",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "llm-observability"
     }
   ]
 }

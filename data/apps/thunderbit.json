@@ -40,6 +40,20 @@
     "Credit limits on higher volumes",
     "Less control than code scrapers"
   ],
-  "bestFor": ["Lead list building", "Price monitoring", "No-code researchers"],
-  "alternatives": ["firecrawl", "apify", "crawl4ai", "scrapegraphai"]
+  "bestFor": ["No-code researchers", "Sales & marketing teams", "Growth/ops teams"],
+  "alternatives": ["firecrawl", "apify", "crawl4ai", "scrapegraphai"],
+  "capabilities": [
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

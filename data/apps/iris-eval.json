@@ -45,6 +45,23 @@
     "Best fit for MCP-based agents",
     "Smaller ecosystem than SDK evals"
   ],
-  "bestFor": ["MCP agent developers", "Agent safety monitoring", "Eval coverage"],
-  "alternatives": ["braintrust", "deepeval", "promptfoo"]
+  "bestFor": ["MCP agent developers", "Agent safety engineers"],
+  "alternatives": ["braintrust", "deepeval", "promptfoo"],
+  "capabilities": [
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

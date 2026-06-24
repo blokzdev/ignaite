@@ -43,6 +43,20 @@
     "Per-second cost adds up at scale",
     "Less control than raw GPU rental"
   ],
-  "bestFor": ["Shipping open models fast", "Prototyping", "Image/video/audio APIs"],
-  "alternatives": ["fal", "runpod", "modal", "baseten"]
+  "bestFor": ["Developers", "AI product teams"],
+  "alternatives": ["fal", "runpod", "modal", "baseten"],
+  "capabilities": [
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "model-fine-tuning"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

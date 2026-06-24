@@ -42,7 +42,7 @@
     "No public pricing; commercial product is sales-led",
     "Scope narrowed toward ecommerce search"
   ],
-  "bestFor": ["Ecommerce search", "Product discovery", "Multimodal search", "Recommendations"],
+  "bestFor": ["Ecommerce teams", "Search engineers"],
   "alternatives": ["pinecone", "weaviate", "qdrant", "milvus"],
   "references": [
     {
@@ -56,6 +56,17 @@
       "url": "https://www.startupdaily.net/topic/funding/former-amazon-duo-bank-8-1-million-seed-round-for-marqo-the-ai-powered-search-engine-that-finds-better-stuff/",
       "source": "Startup Daily",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "recommendation"
     }
   ]
 }

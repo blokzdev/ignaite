@@ -43,6 +43,17 @@
     "Smaller ecosystem and community",
     "Free tier is limited"
   ],
-  "bestFor": ["Multimodal RAG", "Visual data management", "CV/GenAI pipelines"],
-  "alternatives": ["lancedb", "weaviate", "milvus", "qdrant"]
+  "bestFor": ["AI/ML engineers", "Computer-vision teams"],
+  "alternatives": ["lancedb", "weaviate", "milvus", "qdrant"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "agent-memory"
+    }
+  ]
 }

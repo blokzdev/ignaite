@@ -41,7 +41,7 @@
     "Integrates with every major framework"
   ],
   "cons": ["No self-host option", "Cost climbs at large scale", "Closed source; potential lock-in"],
-  "bestFor": ["Production RAG", "Teams without infra staff", "Semantic search"],
+  "bestFor": ["Production teams", "Teams without infra staff", "AI app builders"],
   "alternatives": ["qdrant", "weaviate", "milvus", "turbopuffer"],
   "references": [
     {
@@ -49,6 +49,20 @@
       "url": "https://reintech.io/blog/vector-database-comparison-2026-pinecone-weaviate-milvus-qdrant-chroma",
       "source": "Reintech",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    },
+    {
+      "id": "embeddings"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

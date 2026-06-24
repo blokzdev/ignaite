@@ -40,7 +40,7 @@
     "Steeper learning curve than point taggers",
     "Aimed at ML teams, not individuals"
   ],
-  "bestFor": ["Enterprise ML data teams", "Domain-specific training data"],
+  "bestFor": ["Enterprise ML data teams", "Regulated industries"],
   "alternatives": ["scale-ai", "labelbox", "label-studio", "superannotate"],
   "references": [
     {
@@ -48,6 +48,14 @@
       "url": "https://pulse2.com/snorkel-ai-100-million-series-d-raised-for-data-development-platform/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

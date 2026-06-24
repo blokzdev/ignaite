@@ -45,6 +45,20 @@
     "Best fit is the Next.js ecosystem",
     "Some lock-in to platform primitives"
   ],
-  "bestFor": ["Frontend + Next.js apps", "Preview deploys", "AI app hosting"],
-  "alternatives": ["cloudflare", "modal", "replit"]
+  "bestFor": ["Frontend developers", "Next.js teams", "Startups"],
+  "alternatives": ["cloudflare", "modal", "replit"],
+  "capabilities": [
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

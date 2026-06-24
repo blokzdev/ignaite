@@ -38,6 +38,17 @@
     "Simulation tuning has a learning curve",
     "Pricing not fully public"
   ],
-  "bestFor": ["Voice agent teams", "Conversation QA", "Pre-release agent testing"],
-  "alternatives": ["langwatch", "maxim-ai", "promptfoo", "confident-ai"]
+  "bestFor": ["Voice agent teams", "AI/ML engineers", "QA/eval teams"],
+  "alternatives": ["langwatch", "maxim-ai", "promptfoo", "confident-ai"],
+  "capabilities": [
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "red-teaming"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

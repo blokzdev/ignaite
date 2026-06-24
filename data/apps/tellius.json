@@ -32,6 +32,25 @@
     "Overkill for simple dashboards",
     "Smaller ecosystem than BI incumbents"
   ],
-  "bestFor": ["Enterprise analytics teams", "Root-cause investigation", "Self-service insights"],
-  "alternatives": ["thoughtspot", "zenlytic", "databricks-genie", "vanna"]
+  "bestFor": [
+    "Enterprise analytics teams",
+    "RevOps & FP&A teams",
+    "Data analysts",
+    "Pharma & CPG teams"
+  ],
+  "alternatives": ["thoughtspot", "zenlytic", "databricks-genie", "vanna"],
+  "capabilities": [
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
+    }
+  ]
 }

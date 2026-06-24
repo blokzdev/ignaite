@@ -40,6 +40,17 @@
     "Smaller ecosystem and integrations",
     "Self-host adds infra overhead"
   ],
-  "bestFor": ["AI agent teams", "Self-hosted observability", "Debugging agent failures"],
-  "alternatives": ["langfuse", "langsmith", "helicone", "arize-phoenix"]
+  "bestFor": ["AI agent teams", "AI engineers", "Self-hosting teams"],
+  "alternatives": ["langfuse", "langsmith", "helicone", "arize-phoenix"],
+  "capabilities": [
+    {
+      "id": "llm-observability"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "data-labeling"
+    }
+  ]
 }

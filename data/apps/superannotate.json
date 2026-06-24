@@ -43,12 +43,7 @@
     "Setup and onboarding take time",
     "Costs scale with volume and workforce"
   ],
-  "bestFor": [
-    "Enterprise ML teams",
-    "Multimodal datasets",
-    "RLHF & model eval",
-    "Human-in-the-loop data"
-  ],
+  "bestFor": ["Enterprise ML teams", "Frontier AI builders"],
   "alternatives": ["labelbox", "scale-ai", "v7-go", "encord"],
   "references": [
     {
@@ -56,6 +51,14 @@
       "url": "https://siliconangle.com/2025/07/15/superannotate-snags-13m-funding-take-scale-ai-surge-ai/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

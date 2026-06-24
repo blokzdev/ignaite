@@ -44,7 +44,7 @@
     "Enterprise focus, steeper for small teams",
     "Proprietary platform, no self-host"
   ],
-  "bestFor": ["Training-data ops", "Computer-vision labeling", "Enterprise ML teams"],
+  "bestFor": ["Enterprise ML teams", "Frontier AI labs", "Data ops teams"],
   "alternatives": ["scale-ai", "encord", "label-studio", "supervisely"],
   "references": [
     {
@@ -58,6 +58,17 @@
       "url": "https://review.firstround.com/labelboxs-path-to-pmf-founders-need-to-be-contrarian-and-right-heres-how/",
       "source": "First Round Review",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

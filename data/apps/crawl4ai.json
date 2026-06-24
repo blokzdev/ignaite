@@ -42,6 +42,17 @@
     "Python library, CLI, or Docker server"
   ],
   "cons": ["You run the infra", "Hosted Cloud API still beta", "Optional LLM extraction adds cost"],
-  "bestFor": ["RAG pipelines", "Self-hosted scraping"],
-  "alternatives": ["firecrawl", "scrapegraphai", "apify", "docling"]
+  "bestFor": ["Self-hosting developers", "AI engineers"],
+  "alternatives": ["firecrawl", "scrapegraphai", "apify", "docling"],
+  "capabilities": [
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "rag-pipeline"
+    }
+  ]
 }

@@ -45,10 +45,11 @@
     "API-only, no managed UI",
     "Less mature ecosystem than peers"
   ],
-  "bestFor": [
-    "Very large vector corpora",
-    "Mostly-cold retrieval workloads",
-    "Cost-sensitive scale"
-  ],
-  "alternatives": ["pinecone", "qdrant", "weaviate", "lancedb"]
+  "bestFor": ["AI infra teams", "Cost-sensitive scale-ups"],
+  "alternatives": ["pinecone", "qdrant", "weaviate", "lancedb"],
+  "capabilities": [
+    {
+      "id": "vector-search"
+    }
+  ]
 }

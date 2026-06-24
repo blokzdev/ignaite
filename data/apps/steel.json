@@ -47,6 +47,14 @@
     "Younger than incumbent scrapers",
     "Needs an agent framework on top"
   ],
-  "bestFor": ["Agent builders", "Self-hosted scraping", "Web automation infra"],
-  "alternatives": ["browserbase", "stagehand", "browser-use", "firecrawl"]
+  "bestFor": ["AI agent builders", "Web automation devs"],
+  "alternatives": ["browserbase", "stagehand", "browser-use", "firecrawl"],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    }
+  ]
 }

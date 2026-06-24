@@ -45,6 +45,17 @@
     "Enterprise pricing opacity at scale",
     "Setup tuning for custom doc types"
   ],
-  "bestFor": ["Invoice/AP automation", "Regulated enterprises", "On-prem extraction"],
-  "alternatives": ["reducto", "unstructured", "docling", "v7-go"]
+  "bestFor": ["AP/finance teams", "Regulated enterprises", "Ops automation teams"],
+  "alternatives": ["reducto", "unstructured", "docling", "v7-go"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }
