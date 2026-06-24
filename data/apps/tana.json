@@ -33,7 +33,7 @@
     "Heavier concept than simple notetakers",
     "Pricing tiers shifting with the pivot"
   ],
-  "bestFor": ["Agentic meetings", "Engineering teams", "Context-heavy work"],
+  "bestFor": ["Engineering teams", "Product teams", "AI-forward orgs"],
   "alternatives": ["granola", "otter-ai", "fathom", "circleback"],
   "references": [
     {
@@ -41,6 +41,26 @@
       "url": "https://techcrunch.com/2025/02/03/tana-snaps-up-25m-with-its-ai-powered-knowledge-graph-for-work-racking-up-a-160k-waitlist/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "knowledge-graph"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

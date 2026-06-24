@@ -40,7 +40,7 @@
     "Reporting depth varies by plan",
     "No on-page optimization itself"
   ],
-  "bestFor": ["Marketing and SEO teams", "Agencies", "AI-search visibility tracking"],
+  "bestFor": ["Marketing & SEO teams", "Agencies", "SMBs"],
   "alternatives": ["profound", "evertune"],
   "references": [
     {
@@ -48,6 +48,14 @@
       "url": "https://techcrunch.com/2025/11/17/as-consumers-ditch-google-for-chatgpt-peec-ai-raises-21m-to-help-brands-adapt/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

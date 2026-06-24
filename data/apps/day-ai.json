@@ -33,7 +33,7 @@
     "Fits solo reps more than big sales orgs",
     "AI assistants are paid add-ons"
   ],
-  "bestFor": ["Founders and solo reps", "Small sales teams", "Relationship management"],
+  "bestFor": ["Founders & solo reps", "Small sales teams", "Account managers"],
   "alternatives": ["rox", "clay", "attention", "gong"],
   "references": [
     {
@@ -41,6 +41,20 @@
       "url": "https://www.upstartsmedia.com/p/day-ai-sequoia-ai-crm",
       "source": "Upstarts Media",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "email-assistant"
     }
   ]
 }

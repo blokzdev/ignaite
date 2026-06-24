@@ -38,7 +38,7 @@
     "Capture is tied to your browser/device",
     "Newer, smaller vendor than incumbents"
   ],
-  "bestFor": ["Bot-free meeting notes", "Sales & customer calls", "Google Meet users"],
+  "bestFor": ["Sales & customer teams", "Recruiters & interviewers", "Privacy-conscious teams"],
   "alternatives": ["granola", "fathom", "fireflies", "otter-ai"],
   "references": [
     {
@@ -52,6 +52,20 @@
       "url": "https://arrows.to/guide/top-ai-notetakers/bluedot-founder-deep-dive-fast-flexible-ai-notes-built-for-google-meet",
       "source": "Arrows",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

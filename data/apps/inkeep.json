@@ -41,7 +41,7 @@
     "Newer platform, smaller community",
     "Managed-tier pricing not public"
   ],
-  "bestFor": ["CX and support teams", "Docs AI assistants", "Dev teams building agents"],
+  "bestFor": ["CX & support teams", "Dev teams building agents", "Docs & ops teams"],
   "alternatives": ["kapa-ai", "chatbase", "maven-agi", "sierra"],
   "references": [
     {
@@ -55,6 +55,26 @@
       "url": "https://blog.amy.vc/inkeep-13m-seed-funding-round/",
       "source": "Amy.vc",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

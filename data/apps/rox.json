@@ -34,7 +34,7 @@
     "Agent autonomy needs oversight",
     "Heavy CRM integration setup"
   ],
-  "bestFor": ["Enterprise revenue teams", "Salesforce/HubSpot shops", "Account expansion"],
+  "bestFor": ["Enterprise revenue teams", "Salesforce/HubSpot shops", "RevOps teams"],
   "alternatives": ["11x", "artisan", "1mind"],
   "references": [
     {
@@ -42,6 +42,23 @@
       "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "conversation-intelligence"
     }
   ]
 }

@@ -39,10 +39,23 @@
     "Best value needs paid plans",
     "Crowded AI-notetaker market"
   ],
-  "bestFor": [
-    "Professional services teams",
-    "Multilingual meetings",
-    "Client deliverable generation"
-  ],
-  "alternatives": ["otter-ai", "fathom", "fireflies", "avoma"]
+  "bestFor": ["Professional services teams", "Multilingual teams"],
+  "alternatives": ["otter-ai", "fathom", "fireflies", "avoma"],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "report-generation"
+    }
+  ]
 }

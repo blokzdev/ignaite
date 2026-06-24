@@ -33,7 +33,7 @@
     "Smaller scale than incumbents",
     "Data coverage varies by region"
   ],
-  "bestFor": ["Signal-led outbound", "Mid-market sales", "Personalized prospecting"],
+  "bestFor": ["B2B sales teams", "Mid-market sales", "Sales reps & SDRs"],
   "alternatives": ["clay", "apollo", "11x"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://www.thesaasnews.com/news/amplemarket-raises-12-million-in-series-a",
       "source": "The SaaS News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "email-assistant"
     }
   ]
 }

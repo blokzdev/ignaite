@@ -36,6 +36,17 @@
     "Heavy implementation effort",
     "Aimed at large contact centers"
   ],
-  "bestFor": ["Enterprise contact centers", "Agent assist"],
-  "alternatives": ["sierra", "decagon", "forethought", "ada-cx"]
+  "bestFor": ["Enterprise contact centers", "Contact-center supervisors"],
+  "alternatives": ["sierra", "decagon", "forethought", "ada-cx"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "conversation-intelligence"
+    }
+  ]
 }

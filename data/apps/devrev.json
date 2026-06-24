@@ -37,7 +37,7 @@
     "Consumption-credit pricing can be opaque",
     "Broad scope means a learning curve"
   ],
-  "bestFor": ["SaaS support teams", "Product-led companies", "Unifying support and engineering"],
+  "bestFor": ["SaaS support teams", "Product-led companies", "Platform/ops teams"],
   "alternatives": ["decagon", "sierra", "forethought", "intercom-fin"],
   "references": [
     {
@@ -45,6 +45,20 @@
       "url": "https://pulse2.com/devrev-ai-based-customer-support-company-raises-100-million-series-a-at-1-1-billion-valuation/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "knowledge-graph"
     }
   ]
 }

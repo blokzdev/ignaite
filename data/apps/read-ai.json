@@ -36,6 +36,20 @@
     "Transcription accuracy trails Otter",
     "Feature breadth can feel sprawling"
   ],
-  "bestFor": ["Meeting-heavy teams", "Engagement insights", "Cross-channel recall"],
-  "alternatives": ["otter-ai", "fireflies", "fathom", "granola"]
+  "bestFor": ["Meeting-heavy teams", "Customer-facing teams", "Remote/hybrid teams"],
+  "alternatives": ["otter-ai", "fireflies", "fathom", "granola"],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "unified-search"
+    }
+  ]
 }

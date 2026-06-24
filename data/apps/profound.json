@@ -37,7 +37,7 @@
     "Young category; metrics still maturing",
     "Overkill for small sites"
   ],
-  "bestFor": ["Enterprise marketing teams", "Brands losing search traffic", "AEO/GEO programs"],
+  "bestFor": ["Enterprise marketing teams", "SEO & brand leaders"],
   "alternatives": ["writesonic", "surfer-seo", "airops"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "title": "Profound Raises $35M Series B as AI Search Becomes the Next Platform Shift",
       "url": "https://www.prnewswire.com/news-releases/profound-raises-35m-series-b-as-ai-search-becomes-the-next-platform-shift-302527764.html",
       "source": "PR Newswire"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

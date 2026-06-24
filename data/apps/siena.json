@@ -33,7 +33,7 @@
     "Scoped to commerce use cases",
     "Younger vendor than incumbents"
   ],
-  "bestFor": ["E-commerce brands", "DTC customer support", "Social and email CX"],
+  "bestFor": ["E-commerce brands", "DTC support teams"],
   "alternatives": ["sierra", "decagon", "gorgias", "intercom-fin"],
   "references": [
     {
@@ -47,6 +47,17 @@
       "url": "https://therecursive.com/romanian-founders-based-in-us-unveil-siena-ai-adding-the-missing-piece-in-customer-service/",
       "source": "The Recursive",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "recommendation"
     }
   ]
 }

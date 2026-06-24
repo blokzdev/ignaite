@@ -35,6 +35,20 @@
     "No transparent public pricing",
     "Heavier setup than simple bots"
   ],
-  "bestFor": ["Regulated support", "Complex high-stakes tickets", "Fintech/health CX"],
-  "alternatives": ["decagon", "sierra", "intercom-fin", "maven-agi"]
+  "bestFor": ["Fintech/health CX teams", "Regulated support orgs", "High-volume support teams"],
+  "alternatives": ["decagon", "sierra", "intercom-fin", "maven-agi"],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "conversation-intelligence"
+    }
+  ]
 }

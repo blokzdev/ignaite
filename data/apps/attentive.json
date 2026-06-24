@@ -45,6 +45,14 @@
     "AI is part of a broader suite",
     "Overkill for small senders"
   ],
-  "bestFor": ["Enterprise retailers", "SMS marketing", "Consumer brands"],
-  "alternatives": ["klaviyo"]
+  "bestFor": ["Enterprise retailers", "Consumer brands", "Ecommerce marketers"],
+  "alternatives": ["klaviyo"],
+  "capabilities": [
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

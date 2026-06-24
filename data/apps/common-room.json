@@ -33,9 +33,26 @@
     "Built for B2B revenue teams, not SMBs",
     "Data-integration setup is heavy"
   ],
-  "bestFor": ["B2B revenue teams", "Outbound prospecting", "Signal-based selling", "RevOps"],
+  "bestFor": ["B2B revenue teams", "RevOps", "Enterprise GTM teams"],
   "alternatives": ["clay", "apollo", "unify", "11x"],
   "addedAt": "2026-06-20",
   "addedSeq": 927,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "recommendation"
+    }
+  ]
 }

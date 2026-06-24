@@ -40,7 +40,7 @@
     "Credit-based limits on plans",
     "Crowded, fast-moving GEO category"
   ],
-  "bestFor": ["SMB + mid-market marketers", "SEO teams adding GEO", "Content-led growth"],
+  "bestFor": ["SMB & mid-market marketers", "SEO teams adding GEO", "Content marketing teams"],
   "alternatives": ["profound", "surfer-seo", "jasper", "copy-ai"],
   "references": [
     {
@@ -48,6 +48,20 @@
       "url": "https://www.eesel.ai/blog/writesonic-pricing",
       "source": "eesel AI",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

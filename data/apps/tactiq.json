@@ -41,13 +41,27 @@
     "Browser-based capture (not a native desktop recorder)",
     "Advanced AI gated behind paid tiers"
   ],
-  "bestFor": ["Bot-free note-taking", "Sales calls", "Multilingual meetings"],
+  "bestFor": ["Sales teams", "Multilingual teams", "Customer-facing teams"],
   "alternatives": ["fireflies", "tldv", "otter-ai", "fathom"],
   "references": [
     {
       "title": "Tactiq Review 2026: Features, Pricing, Pros & Cons",
       "url": "https://aichief.com/ai-productivity-tools/tactiq/",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

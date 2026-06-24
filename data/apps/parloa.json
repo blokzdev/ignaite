@@ -35,7 +35,7 @@
     "Enterprise sales-led, no published pricing",
     "Heavier lift than plug-and-play helpdesk bots"
   ],
-  "bestFor": ["Enterprise contact centers", "Voice support automation"],
+  "bestFor": ["Enterprise contact centers", "Financial services", "Utilities & retail"],
   "alternatives": ["sierra", "decagon", "cresta", "ada-cx"],
   "references": [
     {
@@ -43,6 +43,20 @@
       "url": "https://techcrunch.com/2026/01/15/parloa-triples-its-valuation-in-8-months-to-3b-with-350m-raise/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "translation"
     }
   ]
 }

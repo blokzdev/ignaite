@@ -36,7 +36,7 @@
     "Free trial only, no permanent free tier",
     "Breadth of features has a learning curve"
   ],
-  "bestFor": ["B2B outbound teams", "Multichannel prospecting", "AI-assisted SDR workflows"],
+  "bestFor": ["B2B outbound teams", "SDR/sales teams", "Lean GTM teams"],
   "alternatives": ["outreach", "salesloft", "apollo", "amplemarket"],
   "references": [
     {
@@ -44,6 +44,20 @@
       "url": "https://snov.io/blog/reply-io-review/",
       "source": "Snov.io",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

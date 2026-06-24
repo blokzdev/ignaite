@@ -37,7 +37,7 @@
     "Pricing not public (demo-led)",
     "Newer than incumbent CX suites"
   ],
-  "bestFor": ["SaaS support teams", "AI startups", "Scaling support"],
+  "bestFor": ["SaaS support teams", "AI startups"],
   "alternatives": ["decagon", "sierra", "lorikeet"],
   "references": [
     {
@@ -45,6 +45,14 @@
       "url": "https://www.founderstoday.news/parahelp-raises-over-21-millions-in-funding/",
       "source": "Founders Today",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "tool-calling"
     }
   ]
 }

@@ -36,7 +36,7 @@
     "Enterprise/revenue-team focus",
     "Outbound automation needs careful tuning"
   ],
-  "bestFor": ["Revenue teams", "Outbound prospecting", "Pipeline generation"],
+  "bestFor": ["Revenue teams", "Sales & growth teams", "Enterprise GTM teams"],
   "alternatives": ["clay", "11x", "artisan", "amplemarket"],
   "references": [
     {
@@ -44,6 +44,23 @@
       "url": "https://theaiinsider.tech/2025/07/17/unify-raises-40m-series-b-to-transform-go-to-market-with-ai/",
       "source": "The AI Insider",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "web-research-agent"
     }
   ]
 }

@@ -34,7 +34,7 @@
     "Avatar realism may unsettle some",
     "Narrow GTM focus"
   ],
-  "bestFor": ["GTM and sales teams", "Live demo automation", "Buyer self-serve"],
+  "bestFor": ["Enterprise GTM teams", "B2B sales orgs"],
   "alternatives": ["rox", "11x", "artisan"],
   "references": [
     {
@@ -42,6 +42,11 @@
       "url": "https://pulse2.com/1mind-launched-with-40-million-to-advance-ai-led-sales-with-emotionally-intelligent-digital-superhumans/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
     }
   ]
 }

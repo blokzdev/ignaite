@@ -47,6 +47,26 @@
     "Best features on paid tiers",
     "Free tier storage limits"
   ],
-  "bestFor": ["Sales and RevOps teams", "Cross-meeting search", "CRM-synced notes"],
-  "alternatives": ["otter-ai", "fathom", "granola", "avoma"]
+  "bestFor": ["Sales and RevOps teams", "Recruiting teams"],
+  "alternatives": ["otter-ai", "fathom", "granola", "avoma"],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "conversation-intelligence"
+    }
+  ]
 }

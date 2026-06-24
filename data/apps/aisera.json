@@ -37,11 +37,7 @@
     "Complex to deploy and tune",
     "Best fit for large organizations"
   ],
-  "bestFor": [
-    "Enterprise IT and HR desks",
-    "Customer support automation",
-    "Large-scale ticket deflection"
-  ],
+  "bestFor": ["Large enterprises", "IT & HR service teams", "CX operations"],
   "alternatives": ["decagon", "sierra", "ada-cx", "intercom-fin"],
   "references": [
     {
@@ -49,6 +45,23 @@
       "url": "https://www.gartner.com/reviews/product/aisera-ai-agent-platform",
       "source": "Gartner Peer Insights",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
     }
   ]
 }

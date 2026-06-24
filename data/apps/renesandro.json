@@ -37,7 +37,7 @@
     "$1.5K+/mo targets bigger ad budgets",
     "No public self-serve tier"
   ],
-  "bestFor": ["Performance marketing teams", "High-volume ad testing", "$50K+/mo ad budgets"],
+  "bestFor": ["Performance marketing teams", "Growth/UA teams", "Media-buying agencies"],
   "alternatives": ["arcads", "creatify", "topview", "adcreative-ai"],
   "references": [
     {
@@ -45,6 +45,26 @@
       "url": "https://vctr.media/en/testing-and-scaling-ad-creatives-10x-faster-how-the-ukrainian-startup-renesandro-ai-was-created-284159/",
       "source": "Vector",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "localization"
     }
   ]
 }

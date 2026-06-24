@@ -16,8 +16,15 @@
   "accentColor": "#FF5C35",
   "tags": ["abm", "revenue-intelligence", "intent-data", "b2b"],
   "links": [
-    { "kind": "website", "url": "https://6sense.com/", "primary": true },
-    { "kind": "pricing", "url": "https://6sense.com/pricing/" }
+    {
+      "kind": "website",
+      "url": "https://6sense.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://6sense.com/pricing/"
+    }
   ],
   "addedAt": "2026-06-21",
   "addedSeq": 1003,
@@ -36,7 +43,7 @@
     "Intent-data accuracy varies by segment",
     "Overkill for small teams"
   ],
-  "bestFor": ["Enterprise ABM", "Revenue operations", "B2B demand gen"],
+  "bestFor": ["Enterprise ABM teams", "Revenue operations", "B2B demand gen"],
   "alternatives": ["clay", "apollo", "common-room", "unify"],
   "references": [
     {
@@ -44,6 +51,20 @@
       "url": "https://www.demandgenreport.com/features/financial-news/6sense-closes-200m-series-e-round-increases-valuation-to-5-2b",
       "source": "Demand Gen Report",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "recommendation"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

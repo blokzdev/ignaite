@@ -32,7 +32,7 @@
     "Focused on financial services",
     "Newer company (founded 2023)"
   ],
-  "bestFor": ["Fintechs and banks", "Regulated customer ops", "Complex support automation"],
+  "bestFor": ["Fintechs and banks", "Regulated customer ops"],
   "alternatives": ["decagon", "sierra", "lorikeet", "intercom-fin"],
   "references": [
     {
@@ -46,6 +46,11 @@
       "url": "https://www.eu-startups.com/2025/07/london-based-gradient-labs-raises-over-e11-million-for-its-ai-customer-service-agent/",
       "source": "EU-Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
     }
   ]
 }

@@ -36,7 +36,7 @@
     "Accuracy varies with audio quality",
     "Best value needs a paid Team/Business plan"
   ],
-  "bestFor": ["Security-conscious teams", "Cross-meeting recall", "Regulated industries"],
+  "bestFor": ["Security-conscious teams", "Regulated industries", "Sales teams"],
   "alternatives": ["fathom", "fireflies", "otter-ai", "granola"],
   "references": [
     {
@@ -44,6 +44,23 @@
       "url": "https://fritz.ai/fellow-ai-review/",
       "source": "Fritz AI",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

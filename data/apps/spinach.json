@@ -40,7 +40,7 @@
     "Less general than horizontal notetakers",
     "Pay-per-hour Pro can add up"
   ],
-  "bestFor": ["Agile / scrum teams", "Standups & retros", "Engineering managers"],
+  "bestFor": ["Agile / scrum teams", "Engineering managers"],
   "alternatives": ["fathom", "circleback", "read-ai", "granola"],
   "references": [
     {
@@ -48,6 +48,23 @@
       "url": "https://techcrunch.com/2022/08/02/spinach-io-wants-to-help-agile-engineering-teams-run-better-online-meetings/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "task-management"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

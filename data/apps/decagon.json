@@ -39,6 +39,17 @@
     "Takes actions, not just answers"
   ],
   "cons": ["Enterprise sales-only", "Setup and tuning required", "Model choice abstracted away"],
-  "bestFor": ["Enterprise support deflection", "Action-taking agents"],
-  "alternatives": ["sierra", "intercom-fin", "maven-agi", "forethought"]
+  "bestFor": ["Enterprise support teams", "CX & support leaders"],
+  "alternatives": ["sierra", "intercom-fin", "maven-agi", "forethought"],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "email-assistant"
+    }
+  ]
 }

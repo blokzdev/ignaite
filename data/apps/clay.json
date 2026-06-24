@@ -37,13 +37,30 @@
     "Opaque credits; failed lookups still bill",
     "Costs climb fast on large lists"
   ],
-  "bestFor": ["GTM engineers", "Lead enrichment"],
+  "bestFor": ["GTM engineers", "RevOps teams", "Sales & growth teams"],
   "alternatives": ["smartlead", "airops", "relevance-ai", "lindy"],
   "changelog": [
     {
       "date": "2026-06-14",
       "kind": "updated",
       "summary": "Recategorized from marketing to sales with the new Sales category."
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "spreadsheet-automation"
     }
   ]
 }

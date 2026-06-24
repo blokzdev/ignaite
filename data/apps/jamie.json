@@ -28,11 +28,7 @@
     "Free tier; many languages"
   ],
   "cons": ["Desktop/iOS capture only (no Android app)", "Notes processed in the cloud"],
-  "bestFor": [
-    "Privacy-conscious teams",
-    "In-person & hybrid meetings",
-    "Consultants & client calls"
-  ],
+  "bestFor": ["Privacy-conscious teams", "Consultants & client calls", "EU/regulated teams"],
   "alternatives": ["granola", "fathom", "fireflies", "fellow"],
   "references": [
     {
@@ -40,6 +36,26 @@
       "url": "https://www.makeuseof.com/jamie-ai-meeting-assistant/",
       "source": "MakeUseOf",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "translation"
     }
   ]
 }

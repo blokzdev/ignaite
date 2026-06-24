@@ -44,6 +44,23 @@
     "Summaries can miss nuance",
     "Privacy concerns over auto-join bot"
   ],
-  "bestFor": ["Recurring meetings", "Lecture/interview notes", "Teams on Zoom/Meet"],
-  "alternatives": ["fireflies", "fathom", "granola", "tldv"]
+  "bestFor": ["Distributed teams", "Students & researchers", "Sales teams"],
+  "alternatives": ["fireflies", "fathom", "granola", "tldv"],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

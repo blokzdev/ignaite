@@ -33,7 +33,7 @@
     "Autonomous agents need oversight",
     "Relatively young product"
   ],
-  "bestFor": ["Outbound GTM teams", "AI SDR adoption", "Inbound call qualification"],
+  "bestFor": ["GTM teams", "Outbound sales orgs", "Sales leaders"],
   "alternatives": ["artisan", "amplemarket", "nooks"],
   "references": [
     {
@@ -41,6 +41,23 @@
       "url": "https://www.globenewswire.com/news-release/2024/11/11/2978485/0/en/11x-Raises-a-50-Million-Series-B-Led-by-Andreessen-Horowitz-to-Accelerate-the-Era-of-Digital-Workers.html",
       "source": "GlobeNewswire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

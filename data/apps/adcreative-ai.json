@@ -36,6 +36,23 @@
     "Credit-based limits can add up",
     "Templated output, less brand nuance"
   ],
-  "bestFor": ["Performance marketers", "Paid social/search ads"],
-  "alternatives": ["airops", "canva", "photoroom"]
+  "bestFor": ["Performance marketers", "Ecommerce brands", "Growth/paid teams"],
+  "alternatives": ["airops", "canva", "photoroom"],
+  "capabilities": [
+    {
+      "id": "ad-creative-generation"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "image-upscaling"
+    }
+  ]
 }

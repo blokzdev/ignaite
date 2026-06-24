@@ -42,6 +42,20 @@
     "Enterprise-only, contact-sales",
     "Strong rivals (Decagon, Sierra, Fin)"
   ],
-  "bestFor": ["High-volume enterprise support", "Multi-channel CX teams", "Regulated support orgs"],
-  "alternatives": ["decagon", "sierra", "intercom-fin", "forethought"]
+  "bestFor": ["Enterprise CX teams", "High-volume support orgs", "Regulated support orgs"],
+  "alternatives": ["decagon", "sierra", "intercom-fin", "forethought"],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "conversation-intelligence"
+    }
+  ]
 }

@@ -37,7 +37,7 @@
     "Tight free-tier session limits",
     "No automatic language detection"
   ],
-  "bestFor": ["Japanese-language teams", "Bilingual JP–EN meetings", "Mobile-first capture"],
+  "bestFor": ["Japanese-language teams", "Bilingual JP–EN users", "Mobile-first users"],
   "alternatives": ["otter-ai", "fireflies", "tldv", "plaud"],
   "references": [
     {
@@ -45,6 +45,23 @@
       "url": "https://tldv.io/blog/notta-ai-review/",
       "source": "tl;dv",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "subtitle-generation"
     }
   ]
 }

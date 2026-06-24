@@ -33,7 +33,7 @@
     "Sales-team use case only",
     "Needs access to call platforms"
   ],
-  "bestFor": ["Sales teams", "RevOps", "Sales coaching"],
+  "bestFor": ["Sales teams", "RevOps", "Sales managers"],
   "alternatives": ["gong", "nooks", "regie", "apollo"],
   "references": [
     {
@@ -41,6 +41,23 @@
       "url": "https://aimresearch.co/generative-ai/attention-raises-14m-by-automating-sales-calls-and-adding-1-2m-to-its-pipeline",
       "source": "AIM Research",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

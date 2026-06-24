@@ -36,13 +36,24 @@
     "Deliverability still needs setup work",
     "UI learning curve at scale"
   ],
-  "bestFor": ["Cold email at scale", "Agencies", "Outbound sales teams"],
+  "bestFor": ["Outbound sales teams", "Agencies"],
   "alternatives": ["lavender", "clay", "surfer-seo"],
   "changelog": [
     {
       "date": "2026-06-14",
       "kind": "updated",
       "summary": "Recategorized from marketing to sales with the new Sales category."
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

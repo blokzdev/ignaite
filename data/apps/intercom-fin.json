@@ -41,7 +41,7 @@
     "50-resolution monthly minimum",
     "Quality depends on help-center content"
   ],
-  "bestFor": ["High-volume support", "Outcome-based budgeting", "Existing helpdesk users"],
+  "bestFor": ["High-volume support teams", "CX leaders", "Existing helpdesk users"],
   "alternatives": ["decagon", "sierra", "maven-agi", "ada-cx"],
   "references": [
     {
@@ -49,6 +49,17 @@
       "url": "https://thegtmnewsletter.substack.com/p/gtm-178-intercom-ai-agent-outcome-based-pricing-archana-agrawal",
       "source": "The GTM Newsletter",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "conversation-intelligence"
     }
   ]
 }

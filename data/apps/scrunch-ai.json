@@ -37,7 +37,7 @@
     "Free access limited to a 7-day trial",
     "GEO is a fast-shifting, unproven discipline"
   ],
-  "bestFor": ["Enterprise marketing teams", "Brand AI-search visibility"],
+  "bestFor": ["Enterprise marketing teams", "Brand/SEO leads"],
   "alternatives": ["profound", "peec-ai", "evertune"],
   "references": [
     {
@@ -45,6 +45,11 @@
       "url": "https://builtin.com/articles/scrunch-raises-15m-to-strengthen-ai-marketing-platform-20250723",
       "source": "Built In",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "seo-optimization"
     }
   ]
 }

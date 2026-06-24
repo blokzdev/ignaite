@@ -38,7 +38,7 @@
     "Reputation from its 'cheating' origins",
     "No Android app"
   ],
-  "bestFor": ["Sales calls", "Live interviews", "In-call notes"],
+  "bestFor": ["Salespeople", "Job seekers", "Customer-facing pros"],
   "alternatives": ["otter-ai", "granola", "fathom", "read-ai"],
   "references": [
     {
@@ -46,6 +46,20 @@
       "url": "https://techcrunch.com/2025/06/20/cluely-a-startup-that-helps-cheat-on-everything-raises-15m-from-a16z/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "interview-assistance"
     }
   ]
 }

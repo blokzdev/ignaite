@@ -29,11 +29,7 @@
     "~60-day go-live, not instant",
     "Best fit for high-volume CX"
   ],
-  "bestFor": [
-    "High-volume customer support",
-    "CX outsourcing replacement",
-    "Outcome-based CX buyers"
-  ],
+  "bestFor": ["High-volume CX teams", "CX outsourcing buyers", "Outcome-based CX buyers"],
   "alternatives": ["sierra", "decagon", "maven-agi", "lorikeet"],
   "references": [
     {
@@ -44,5 +40,19 @@
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 928,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "conversation-intelligence"
+    }
+  ]
 }

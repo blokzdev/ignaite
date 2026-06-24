@@ -33,6 +33,17 @@
     "Ora agent drafts cold emails"
   ],
   "cons": ["Sales-email niche only", "Browser-extension dependent", "Subscription cost per seat"],
-  "bestFor": ["Sales reps", "Cold outreach", "Reply-rate lift"],
-  "alternatives": ["smartlead", "clay", "grammarly", "wordtune"]
+  "bestFor": ["Sales reps", "SDRs / BDRs", "Sales leaders"],
+  "alternatives": ["smartlead", "clay", "grammarly", "wordtune"],
+  "capabilities": [
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "lead-enrichment"
+    }
+  ]
 }

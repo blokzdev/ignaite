@@ -42,7 +42,7 @@
     "Focused on support, not general automation",
     "Answer quality depends on your source content"
   ],
-  "bestFor": ["SMB customer support", "No-code teams", "Docs-trained chatbots"],
+  "bestFor": ["SMB customer support", "No-code teams", "Support & ops teams"],
   "alternatives": ["kapa-ai", "sierra", "decagon", "gorgias"],
   "references": [
     {
@@ -56,6 +56,23 @@
       "url": "https://productled.com/blog/how-chatbase-hit-8m-arr-with-18-people",
       "source": "ProductLed",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "translation"
     }
   ]
 }
