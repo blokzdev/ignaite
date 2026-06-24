@@ -1,0 +1,43 @@
+{
+  "slug": "future-agi",
+  "name": "Future AGI",
+  "tagline": "Evaluation, observability, and optimization platform for AI agents and LLM apps.",
+  "description": "Future AGI is an end-to-end platform for testing, evaluating, observing, and improving generative-AI applications. It spans simulations, evaluation suites, real-time tracing and dashboards, runtime guardrails, and a model gateway, with multimodal evaluation across text, image, and audio. The core stack is open-source under Apache 2.0 and can be self-hosted or used as a managed cloud.",
+  "insight": "Backed by a pre-seed round co-led by Powerhouse Ventures and Snow Leopard Ventures.",
+  "category": "eval",
+  "secondaryCategories": ["observability"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Future AGI",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "multi-model",
+    "models": ["GPT-5", "Claude", "Gemini"]
+  },
+  "capabilities": [
+    { "id": "eval-suite" },
+    { "id": "llm-observability" },
+    { "id": "guardrails" },
+    { "id": "prompt-management" },
+    { "id": "llm-gateway" }
+  ],
+  "tags": ["open-source", "evals", "observability", "guardrails", "llmops"],
+  "links": [
+    { "kind": "website", "url": "https://futureagi.com", "primary": true },
+    { "kind": "github", "url": "https://github.com/future-agi/future-agi" }
+  ],
+  "addedAt": "2026-06-24",
+  "addedSeq": 1028,
+  "lastVerifiedAt": "2026-06-24",
+  "edge": "One of the few fully open-source, self-hostable eval stacks that also bundles a model gateway and runtime guardrails, not just offline scoring.",
+  "pros": [
+    "Open-source, Apache-2.0 licensed",
+    "Self-hostable end-to-end",
+    "Multimodal evaluation support",
+    "Bundles guardrails and a gateway"
+  ],
+  "cons": ["Newer, smaller community", "Broad scope can feel complex", "Docs still maturing"],
+  "bestFor": ["AI engineers", "Self-hosting teams", "Agent builders"],
+  "alternatives": ["braintrust", "patronus-ai", "langfuse", "deepeval"]
+}

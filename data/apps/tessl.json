@@ -1,0 +1,47 @@
+{
+  "slug": "tessl",
+  "name": "Tessl",
+  "tagline": "Registry and governance layer for AI agent skills.",
+  "description": "Tessl is an agent-enablement platform that lets teams build, share, version, and govern the reusable skills their AI coding agents rely on. It pairs a searchable registry of 3,000+ public skills (plus private workspaces) with a framework to author and test skills, security scanning and policy enforcement, and usage analytics. It integrates with agents including Claude Code, Cursor, GitHub Copilot, and Gemini.",
+  "insight": "Founded by Snyk founder Guy Podjarny; raised $125M led by Index Ventures at a reported ~$750M valuation.",
+  "category": "agent",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Tessl AI",
+  "platforms": ["web", "cli", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "capabilities": [
+    { "id": "agent-orchestration" },
+    { "id": "eval-suite" },
+    { "id": "ai-security-scanning" }
+  ],
+  "tags": ["agent-skills", "registry", "governance", "ai-native"],
+  "links": [{ "kind": "website", "url": "https://www.tessl.io", "primary": true }],
+  "addedAt": "2026-06-24",
+  "addedSeq": 1029,
+  "lastVerifiedAt": "2026-06-24",
+  "edge": "A vendor-neutral skill registry that lets teams share, version, and govern agent skills across Claude Code, Cursor, and Copilot — not tied to one assistant.",
+  "pros": [
+    "Vendor-neutral across coding agents",
+    "Versioned, shared skill registry",
+    "Security scanning and policy governance",
+    "Skill evaluation like unit tests"
+  ],
+  "cons": [
+    "Young product, fast-evolving",
+    "Enterprise pricing not public",
+    "Agent-skills model still emerging"
+  ],
+  "bestFor": ["Platform teams", "Enterprises scaling agents", "Engineering leaders"],
+  "alternatives": ["composio", "smithery", "arcade"],
+  "references": [
+    {
+      "title": "Snyk founder's new venture Tessl raises $125M",
+      "url": "https://tech.eu/2024/11/14/snyk-founders-new-venture-tessl-raises-125m-for-ai-software-development/",
+      "source": "Tech.eu",
+      "kind": "analysis"
+    }
+  ]
+}
