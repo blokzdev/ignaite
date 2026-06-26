@@ -38,6 +38,12 @@ For each entry in scope:
   - **`openSource`** correct (true when the app's own source is open; separate from price) and
     **`deployment`** correct (`cloud`/`self-host`/`local`/`hybrid`, where it's a real axis).
   - **Platforms** + **model support** still accurate (new mobile app? dropped a platform? model rename?).
+  - **`capabilities` still accurate** — each listed leaf `id` is still a _confirmed shipping feature_
+    (vendor dropped one? a genuinely new shipping feature to add?). ids only; web-verify-or-omit, the same
+    bar as `insight` — never inferred from the name/category/our prose; if no leaf fits a real feature,
+    omit rather than near-miss-map. Cap 6; dup ids hard-fail the build.
+  - **`bestFor` is persona/audience only** — WHO it's for, not WHAT it does. If an older entry still
+    carries task phrases ("Contract review"), move them into `capabilities` and leave only the audience.
   - **Still operating** — not shut down, sunset, or fully absorbed into another product.
   - **`insight` ("Worth knowing") still true** — the fact hasn't gone stale (the acquisition closed,
     the rename completed, a "first" no longer holds). Rewrite if reality moved; if it has drifted into a
@@ -57,10 +63,12 @@ For each entry in scope:
   `deployment` unset for pure libraries/SDKs/extensions. Likewise, if an entry has no `insight` and a
   sharp fact verifies, author the "Worth knowing" fact (≤140 chars — see `add-app.md`); otherwise leave
   it unset (coverage is intentionally partial — a real fact or nothing). **Also backfill
-  the "honest brief" fields** — `edge`, `pros`, `cons`, `bestFor`, `alternatives`, `references` (specs in
-  `add-app.md`) — where research surfaces verifiable content. Same no-fabrication bar: `references` are
-  verify-or-omit (real third-party URLs only); `alternatives` must be existing slugs; never invent a
-  `con` or a differentiator. **Also curate `secondaryCategories`** (≤2; spec in `add-app.md`): if the
+  the "honest brief" fields** — `edge`, `pros`, `cons`, `bestFor`, `capabilities`, `alternatives`, `references`
+  (specs in `add-app.md`) — where research surfaces verifiable content. Same no-fabrication bar: `references` are
+  verify-or-omit (real third-party URLs only); `alternatives` must be existing slugs; `capabilities` are leaf `id`s
+  for **confirmed shipping features only** (web-verify-or-omit, ≤6, no near-miss mapping); never invent a
+  `con` or a differentiator. (This backfill is how full `capabilities` coverage of any apps added before the
+  routine authored them — or added by a discovery run that predates it — completes itself over the cycle.) **Also curate `secondaryCategories`** (≤2; spec in `add-app.md`): if the
   listing clearly has a genuine **second home** category it isn't tagged with, add it; if a tagged
   secondary no longer fits, drop it. Strict bar — a real second home a user would also look under, never
   the primary, never a tag-mention. Most entries have none; this is how full multi-category coverage
@@ -70,7 +78,7 @@ For each entry in scope:
 
 - Update changed `pricing`, `platforms`, `modelSupport`, `tags`, `vendor`, `links` (fix/replace dead
   URLs), the `category`/`secondaryCategories` classification, or any stale enrichment field (`edge`,
-  `pros`, `cons`, `bestFor`, `alternatives`, `references`).
+  `pros`, `cons`, `bestFor`, `capabilities`, `alternatives`, `references`).
 - If an app is **discontinued / shut down**, set `status: "archived"` in its JSON (the file stays as
   record, hidden from the default browse) — don't delete the file.
 - If a featured app is no longer a standout, consider dropping `featured`.
@@ -82,7 +90,8 @@ For each entry in scope:
 
 Whenever you apply a **substantive** edit above (pricing, platforms, modelSupport, links, `openSource`,
 `deployment`, `status`, `insight`, `vendor`, `tags`, `featured`, a **`category` change or `secondaryCategories`
-recategorization**, or an `edge`/`alternatives` change), **append an entry** to that listing's `changelog`
+recategorization**, or an `edge`/`capabilities`/`alternatives` change — but **not** a pure first-time
+`capabilities` backfill, which is like initial authoring), **append an entry** to that listing's `changelog`
 array — this is the visible audit trail on the app detail page. (A pure first-time backfill of enrichment
 fields — including first-time **adding** `secondaryCategories` to an unclassified entry — needn't log a
 changelog entry; it's like the initial authoring. Only log when you _change_ an existing value or correct

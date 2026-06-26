@@ -84,15 +84,16 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       with real archive history (today it's a single ~6-week window → a one-bar non-chart). The
       "most-compared / most-viewed apps" chart needs a measurement contract (`@vercel/analytics` event
       whitelist) first — which also feeds the "promote long-tail comparisons on GSC/usage demand" gate.
-- [ ] **[future]** **Chunk AB — capability backfill (parallel-agent campaign).** Now that the
-      `capabilities` schema + 155-leaf enum ship (Chunk AA, id-only), author verified `capabilities`
-      across the 1,027 listings **and** re-scope `bestFor` to persona in the same per-app pass.
-      Guardrails (founder-approved): a **calibration pilot (~100 apps, one cluster)** to validate the
-      taxonomy/rubric first; **every agent web-verifies-or-omits** (never infer from our own prose) and
-      **must NOT bump `lastVerifiedAt`** (enrichment ≠ re-verification); an **adversarial spot-audit
-      wave** before merge. Patch-file → central merge so existing fields are untouched. Also update
-      `.claude/commands/{add-app,discover-apps}.md` to author `capabilities` at creation (id-only) and
-      `audit-directory.md` to maintain them, so the coverage gap doesn't regrow.
+- [x] **[future]** **Chunk AB / AB-2 — capability backfill — ✅ DONE** (#335 Build-cluster pilot →
+      #336–#346 eight-cluster fan-out + straggler sweep). Authored web-verified `capabilities` (id-only) + re-scoped `bestFor` to persona across the corpus via the parallel-agent campaign (per cluster:
+      web-verify-or-omit author agents → adversarial audit wave → patch-file central merge; mechanically
+      verified that **only `capabilities`+`bestFor` changed and `lastVerifiedAt` was never bumped**).
+      **100% active coverage — 1,015/1,017** (brain-fm + songscription correctly omitted: no verifiable
+      leaf). The routines now author + maintain capabilities so the gap can't regrow:
+      `add-app.md`/`discover-apps.md` author them at creation (id-only, web-verify-or-omit, `bestFor`
+      persona-only) and `audit-directory.md` re-verifies/backfills them + logs a `changelog` entry on a
+      substantive change. _(Two cap interruptions — a per-session then a weekly limit — were fully
+      recovered via `resumeFromRunId` / fresh re-runs with zero data loss; nothing degraded reached `main`.)_
 - [ ] **[future]** **Chunk AC — capability-aware comparisons + insights + UI.** Once capabilities are
       populated: render capability chips on `/apps/[slug]` (`dossier-rail.tsx`), a capability-overlap
       row on `/compare`, the synthesized "when to pick A vs B" prose verdict (now safe — consumes the

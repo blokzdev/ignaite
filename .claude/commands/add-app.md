@@ -101,7 +101,20 @@ Conventions (match existing entries):
     if no clear edge. (Author it to length — don't write long then truncate; a cut sentence loses its point.)
   - **`pros`** / **`cons`** (≤5 each, items ≤60 chars) — grounded strengths / honest limitations.
     Factual, non-marketing, never competitor-bashing. `cons` are the trust signal — never invent.
-  - **`bestFor`** (≤4, items ≤32 chars) — use-case / audience descriptors ("Self-hosted teams").
+  - **`capabilities`** (≤6) — the controlled **task-axis** signal: WHAT the app _does_, as leaf `id`s
+    from the `AppCapability` enum in `types/app.ts`. Each entry is `{ id }` (**id-only for v1** — the
+    `level` field is deferred to the Recipes phase). Resolve each shipping feature to its canonical leaf
+    via the synonym map in `lib/tools/capability-aliases.ts` (human labels: `lib/tools/capability-labels.ts`);
+    if no leaf genuinely fits, **omit it — never invent, force, or near-miss-map** (e.g. don't map
+    music→notation onto `speech-to-text`; a missing capability beats a wrong one). **Web-verify-or-omit,
+    the same bar as `insight`:** a capability counts only as a _confirmed shipping feature_ on the
+    vendor's own site/docs — **never inferred from our own description, the category, or the name.**
+    Finer-grained than `category` and may cross it. Duplicate ids within a listing hard-fail in
+    `velite.config.ts`. Aim for the genuine 3–6 that define the app; quality over count.
+  - **`bestFor`** (≤4, items ≤32 chars) — **persona / audience ONLY**: WHO it's for ("Law firms",
+    "Indie hackers", "Self-hosted teams", "Solo founders"). The **task axis now lives in `capabilities`** —
+    keep task phrases ("Contract review", "Lead enrichment", "Outbound prospecting") OUT of `bestFor`; if a
+    `bestFor` item names a _task_ rather than a _who_, move it into `capabilities` instead.
   - **`alternatives`** (≤4 app **slugs**) — curated head-to-head competitors (prefer same category, may
     cross). Each must be an existing slug — validated in `velite.config.ts`'s `complete()` hook (bad/self
     refs fail the build). Powers the detail page's "Alternatives to <name>" rail (falls back to the

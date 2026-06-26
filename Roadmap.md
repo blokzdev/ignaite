@@ -78,7 +78,9 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | V-4   | Public-repo hygiene — README refresh + FSL-1.1-MIT / CC BY-NC licensing                          | #164      | ✅     |
 | X     | Comparisons engine — /compare hub + ~3.1k SSG head-to-heads (curated `alternatives`)             | #332      | ✅     |
 | Z     | Insights v1 — /insights hub, hand-rolled SSG charts (no dep), coverage-honest aggregates         | #333      | ✅     |
-| AA    | Capability schema — 155-leaf `AppCapability` enum + labels + alias map (id-only; level deferred) | (this PR) | 🟦     |
+| AA    | Capability schema — 155-leaf `AppCapability` enum + labels + alias map (id-only; level deferred) | #334      | ✅     |
+| AB    | Capability backfill — Build-cluster calibration pilot (110 apps)                                 | #335      | ✅     |
+| AB-2  | Capability fan-out — 8 domain clusters + straggler sweep → 100% active coverage (1,015/1,017)    | #336–#346 | ✅     |
 
 ---
 
@@ -172,9 +174,13 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
   workflow (survey → synthesize → red-team) + founder sign-off.
 - **Chunk Y — Comparison OG + in-product discovery** (next): per-pair Satori OG (guarded endpoint),
   ⌘K + nav + an `/apps/[slug]` "Compare with…" rail, the `noindex,follow` long-tail cohort, llms.txt.
-- **Chunks AB–AF** — the parallel-agent capability backfill (pilot → fan-out → adversarial audit),
-  capability-aware comparisons/insights, the Recipe entity (sign-off + pilot), and the substitution
-  engine. See the plan doc for the critical path.
+- **Chunk AB / AB-2 — capability backfill ✅** — the parallel-agent campaign: a Build-cluster pilot
+  (#335) → an 8-cluster fan-out + straggler sweep (#336–#346), every PR web-verify → adversarial audit →
+  defense-in-depth merge, only `capabilities`+`bestFor` touched (`lastVerifiedAt` never bumped).
+  **100% active coverage** (1,015/1,017; 2 correctly omitted — no verifiable leaf). The routines
+  (`add-app`/`discover-apps`/`audit-directory`) now author + maintain `capabilities` so the gap can't reopen.
+- **Chunks AC–AF** (next) — capability-aware comparisons/insights + detail UI, the Recipe entity
+  (sign-off + pilot), and the substitution engine. See the plan doc + the "Recipe Spider" capstone below.
 - **Capstone vision — the "Recipe Spider"** (post-AF; BACKLOG'd): on-device + cloud recipe synthesis
   over the verified capability graph — deterministic graph traversal first, a small in-browser model
   for intent, a frontier model (Claude) graph-grounded for the hard cases. Every recipe is a path
