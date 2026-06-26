@@ -235,9 +235,15 @@ export default defineConfig({
         steps.map((s, i) => [s.id, i] as const).filter(([id]) => id !== undefined),
       );
 
-      // (g) every dependsOn id + loop.backTo id must reference a step id in THIS recipe.
+      // (g) every dependsOn id + loop.backTo id must reference a step id in THIS
+      //     recipe — and a step may not depend on ITSELF (a self-edge is silently
+      //     skipped by the Kahn pass below, so it would otherwise slip through as a
+      //     phantom root rather than the authored-graph error it is).
       for (const s of steps) {
         for (const dep of s.dependsOn ?? []) {
+          if (s.id !== undefined && dep === s.id) {
+            throw new Error(`Recipe "${r.slug}": step "${s.id}" cannot depend on itself.`);
+          }
           if (!idSet.has(dep)) {
             throw new Error(
               `Recipe "${r.slug}": step references unknown dependsOn id "${dep}" — give the target step an "id" (graph fields require step ids).`,
