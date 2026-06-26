@@ -39,7 +39,7 @@
     "Newer vs incumbent legal suites",
     "Outputs need lawyer review"
   ],
-  "bestFor": ["In-house legal teams", "Contract drafting", "SMBs and law firms"],
+  "bestFor": ["In-house legal teams", "SMBs & law firms", "Founders & ops teams"],
   "alternatives": ["spellbook", "ironclad", "legora", "harvey"],
   "references": [
     {
@@ -53,6 +53,14 @@
       "url": "https://www.eu-startups.com/2024/10/london-based-genie-ai-raises-e16-million-to-reduce-legal-friction-and-boost-economic-efficiency/",
       "source": "EU-Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "contract-review"
     }
   ]
 }

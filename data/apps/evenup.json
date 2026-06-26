@@ -47,5 +47,19 @@
       "source": "LawSites",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "demand-letters"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "case-management"
+    },
+    {
+      "id": "data-analysis"
+    }
   ]
 }

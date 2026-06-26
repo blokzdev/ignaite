@@ -34,7 +34,7 @@
     "Profile sourcing capped on lower tiers",
     "Usage-based pricing can add up"
   ],
-  "bestFor": ["In-house recruiters", "Talent acquisition teams", "High-volume hiring"],
+  "bestFor": ["In-house recruiters", "Talent acquisition teams", "Recruiting agencies"],
   "alternatives": ["heymilo", "mercor", "paradox", "fireflies"],
   "references": [
     {
@@ -48,6 +48,23 @@
       "url": "https://www.staffingindustry.com/news/global-daily-news/interviewing-platform-metaview-raises-eu30m-in-funding-round",
       "source": "Staffing Industry",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

@@ -37,7 +37,7 @@
     "Enterprise sales and deployment",
     "Opaque per-seat pricing"
   ],
-  "bestFor": ["In-house legal teams", "High-volume contract review", "Procurement and compliance"],
+  "bestFor": ["In-house legal teams", "Procurement teams", "Compliance teams"],
   "alternatives": ["spellbook", "harvey", "legalon", "cocounsel"],
   "references": [
     {
@@ -45,6 +45,20 @@
       "url": "https://www.twinladder.ai/en/blog/contract-review-ai-comparing-legalon-spellbook-luminance",
       "source": "TwinLadder",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "contract-lifecycle"
+    },
+    {
+      "id": "regulatory-compliance"
     }
   ]
 }

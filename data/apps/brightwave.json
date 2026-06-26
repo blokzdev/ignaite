@@ -45,5 +45,19 @@
       "source": "WealthManagement.com",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-research"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "cited-answers"
+    }
   ]
 }

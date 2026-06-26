@@ -36,7 +36,7 @@
     "Enterprise-oriented, costly for small teams",
     "Closed source"
   ],
-  "bestFor": ["Outbound sourcing", "Recruiting teams", "Enterprise hiring"],
+  "bestFor": ["Recruiting teams", "Enterprise hiring", "TA / sourcing teams"],
   "alternatives": ["seekout", "gem", "findem", "juicebox"],
   "references": [
     {
@@ -44,6 +44,20 @@
       "url": "https://venturebeat.com/ai/hireez-formerly-hiretual-raises-26m-to-expand-its-ai-powered-recruitment-platform",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

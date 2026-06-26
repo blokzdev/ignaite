@@ -14,7 +14,13 @@
     "notes": "LLM-driven compliance agents over verification data sources."
   },
   "tags": ["compliance", "kyb", "kyc", "aml", "fintech", "agents"],
-  "links": [{ "kind": "website", "url": "https://parcha.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://parcha.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 990,
   "lastVerifiedAt": "2026-06-20",
@@ -30,10 +36,17 @@
     "Built for regulated/enterprise buyers",
     "Accuracy claims vendor-reported"
   ],
-  "bestFor": [
-    "Fintech and bank onboarding",
-    "KYB/KYC and AML screening",
-    "Compliance operations teams"
-  ],
-  "alternatives": ["basis", "concourse"]
+  "bestFor": ["Fintechs", "Banks & lenders", "Compliance ops teams"],
+  "alternatives": ["basis", "concourse"],
+  "capabilities": [
+    {
+      "id": "regulatory-compliance"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "web-research-agent"
+    }
+  ]
 }

@@ -32,11 +32,7 @@
     "Consumer matters, not enterprise legal",
     "You still pay solicitor fees per matter"
   ],
-  "bestFor": [
-    "UK consumers and small businesses",
-    "Divorce, employment, immigration",
-    "Fixed-fee legal help"
-  ],
+  "bestFor": ["UK consumers", "UK small businesses", "Solicitors / SRA firms"],
   "alternatives": ["genie-ai", "gc-ai", "harvey"],
   "references": [
     {
@@ -50,6 +46,14 @@
       "url": "https://www.eu-startups.com/2026/02/uk-legaltech-startup-lawhive-secures-e50-million-to-scale-ai-driven-consumer-law-firm-model/",
       "source": "EU-Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "case-management"
     }
   ]
 }

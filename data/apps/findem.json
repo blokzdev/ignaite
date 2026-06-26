@@ -32,7 +32,7 @@
     "Data accuracy depends on enrichment",
     "Smaller database than some rivals"
   ],
-  "bestFor": ["TA teams sourcing at scale", "Diversity hiring", "Workforce planning"],
+  "bestFor": ["TA teams sourcing at scale", "Talent intelligence teams", "Recruiters"],
   "alternatives": ["seekout", "eightfold", "juicebox", "hirevue"],
   "references": [
     {
@@ -40,6 +40,23 @@
       "url": "https://www.finsmes.com/2022/03/findem-raises-30m-in-series-b-funding.html",
       "source": "FinSMEs",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

@@ -34,7 +34,7 @@
     "Profile freshness varies",
     "Smaller than enterprise incumbents"
   ],
-  "bestFor": ["Recruiters and sourcers", "Startups and agencies", "NL talent search"],
+  "bestFor": ["Recruiters and sourcers", "Startups and agencies", "In-house TA teams"],
   "alternatives": ["seekout", "mercor", "micro1"],
   "references": [
     {
@@ -42,6 +42,11 @@
       "url": "https://techfundingnews.com/juicebox-lands-30m-to-revolutionise-hiring-with-ai-powered-recruitment-tool-peoplegpt/",
       "source": "Tech Funding News",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
     }
   ]
 }

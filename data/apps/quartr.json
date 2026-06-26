@@ -45,5 +45,22 @@
       "source": "EU Investing Hub",
       "kind": "review"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-research"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "mcp-server"
+    }
   ]
 }

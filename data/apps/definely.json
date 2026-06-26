@@ -53,5 +53,19 @@
       "source": "3 Geeks and a Law Blog",
       "kind": "interview"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "unified-search"
+    }
   ]
 }

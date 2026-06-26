@@ -10,7 +10,13 @@
   "vendor": "Darrow",
   "platforms": ["web"],
   "tags": ["legal-intelligence", "litigation", "class-action", "risk", "enterprise"],
-  "links": [{ "kind": "website", "url": "https://www.darrow.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.darrow.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 955,
   "lastVerifiedAt": "2026-06-20",
@@ -27,7 +33,7 @@
     "US-centric legal coverage",
     "No self-serve or public reviews"
   ],
-  "bestFor": ["Plaintiffs' law firms", "Litigation finance & risk", "Class-action discovery"],
+  "bestFor": ["Plaintiffs' law firms", "Litigation funders", "Insurers & corporates"],
   "alternatives": ["harvey", "legora", "draftwise"],
   "references": [
     {
@@ -35,6 +41,20 @@
       "url": "https://www.lawnext.com/2026/05/darrow-the-ai-lab-for-legal-risk-launches-a-platform-to-let-plaintiffs-firms-manage-litigation-like-an-investment-portfolio.html",
       "source": "LawSites",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "web-research-agent"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "case-management"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

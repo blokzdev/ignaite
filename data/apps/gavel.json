@@ -12,8 +12,16 @@
   "platforms": ["web"],
   "tags": ["contract-review", "document-automation", "no-code", "legal", "word-addin"],
   "links": [
-    { "kind": "website", "url": "https://www.gavel.io", "primary": true },
-    { "kind": "website", "url": "https://exec.gavel.io", "label": "Gavel Exec" }
+    {
+      "kind": "website",
+      "url": "https://www.gavel.io",
+      "primary": true
+    },
+    {
+      "kind": "website",
+      "url": "https://exec.gavel.io",
+      "label": "Gavel Exec"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 953,
@@ -32,7 +40,7 @@
     "Word-centric workflow",
     "Smaller than Harvey or Legora"
   ],
-  "bestFor": ["Transactional lawyers", "Solo & small law firms", "Contract review & automation"],
+  "bestFor": ["Transactional lawyers", "Solo & small law firms", "In-house counsel"],
   "alternatives": ["draftwise", "spellbook", "legalon"],
   "references": [
     {
@@ -40,6 +48,17 @@
       "url": "https://www.lawnext.com/2026/04/gavel-launches-web-based-ai-contract-platform-expanding-gavel-exec-beyond-its-word-add-in.html",
       "source": "LawSites",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

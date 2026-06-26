@@ -37,7 +37,7 @@
     "Custom pricing above startup tier",
     "Geared to recruiting teams, not solos"
   ],
-  "bestFor": ["In-house recruiting teams", "Talent sourcing", "High-volume hiring"],
+  "bestFor": ["In-house recruiting teams", "High-volume hiring", "Talent acquisition teams"],
   "alternatives": ["findem", "seekout", "juicebox", "eightfold"],
   "references": [
     {
@@ -51,6 +51,23 @@
       "url": "https://www.builtinsf.com/articles/gem-raises-100m-series-c-recruiting-platform-unicorn",
       "source": "Built In",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

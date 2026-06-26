@@ -29,7 +29,7 @@
     "Pricing not public (contact sales)",
     "Very new — launched Feb 2026"
   ],
-  "bestFor": ["Accounting firms", "Tax preparation & review", "Mid-to-large practices"],
+  "bestFor": ["Accounting firms", "Tax preparers", "Mid-to-large practices"],
   "alternatives": ["basis", "puzzle", "truewind"],
   "references": [
     {
@@ -40,5 +40,16 @@
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 929,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "tax-preparation"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "financial-data-extraction"
+    }
+  ]
 }

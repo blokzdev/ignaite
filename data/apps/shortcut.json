@@ -33,7 +33,7 @@
     "Free tier to start"
   ],
   "cons": ["Credit-based usage caps", "CLI is Windows-only", "Finance/analyst-focused scope"],
-  "bestFor": ["Financial analysts", "Excel modeling", "Finance teams"],
+  "bestFor": ["Financial analysts", "Finance teams", "Investment bankers"],
   "alternatives": ["paradigm", "endex", "quadratic", "julius"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://www.pymnts.com/artificial-intelligence-2/2025/is-shortcut-the-new-excel-mit-startup-behind-viral-tool-thinks-so/",
       "source": "PYMNTS",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "financial-modeling"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

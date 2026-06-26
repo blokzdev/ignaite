@@ -33,7 +33,7 @@
     "Used by Replit, PostHog, Decagon"
   ],
   "cons": ["Paid only, no free tier", "Young (founded 2023)", "Aimed at finance teams, not SMBs"],
-  "bestFor": ["High-growth startups", "Replacing legacy ERP", "Finance & accounting teams"],
+  "bestFor": ["High-growth startups", "Finance & accounting teams", "Startups off NetSuite"],
   "alternatives": ["puzzle", "numeric", "digits"],
   "references": [
     {
@@ -47,6 +47,17 @@
       "url": "https://www.cfodive.com/news/campfire-ceo-targets-systems-first-accounting-approach/805732/",
       "source": "CFO Dive",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-close"
+    },
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

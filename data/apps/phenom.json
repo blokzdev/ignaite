@@ -15,8 +15,15 @@
   "accentColor": "#8B5CF6",
   "tags": ["recruiting", "talent", "hr-tech", "enterprise"],
   "links": [
-    { "kind": "website", "url": "https://www.phenom.com/", "primary": true },
-    { "kind": "pricing", "url": "https://www.phenom.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.phenom.com/",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.phenom.com/pricing"
+    }
   ],
   "addedAt": "2026-06-21",
   "addedSeq": 1001,
@@ -34,7 +41,7 @@
     "Complex, lengthy implementation",
     "Overkill for small teams"
   ],
-  "bestFor": ["Enterprise TA teams", "Talent-experience management", "Internal mobility"],
+  "bestFor": ["Enterprise TA teams", "HR leaders", "Large organizations"],
   "alternatives": ["eightfold", "paradox", "hirevue", "hireez"],
   "references": [
     {
@@ -48,6 +55,23 @@
       "url": "https://technical.ly/startups/phenom-mahe-bayireddi-public-valuation/",
       "source": "Technical.ly",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

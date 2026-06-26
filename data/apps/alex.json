@@ -32,6 +32,17 @@
     "Candidate comfort with AI interviewers varies",
     "Newer entrant in the hiring stack"
   ],
-  "bestFor": ["High-volume recruiting", "Screening and interviewing", "Talent acquisition teams"],
-  "alternatives": ["hirevue", "heymilo", "metaview"]
+  "bestFor": ["Talent acquisition teams", "High-volume recruiters", "In-house recruiters"],
+  "alternatives": ["hirevue", "heymilo", "metaview"],
+  "capabilities": [
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "calendar-scheduling"
+    }
+  ]
 }

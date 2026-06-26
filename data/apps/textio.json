@@ -38,12 +38,7 @@
     "Narrowly focused on HR writing",
     "No public self-serve plan"
   ],
-  "bestFor": [
-    "Enterprise HR teams",
-    "Inclusive job posts",
-    "Performance reviews",
-    "Recruiting content"
-  ],
+  "bestFor": ["Enterprise HR teams", "Recruiters", "People managers"],
   "references": [
     {
       "title": "This AI Tool Makes Job Descriptions More Inclusive",
@@ -56,6 +51,14 @@
       "url": "https://www.geekwire.com/2019/augmented-writing-platform-textio-now-predicts-want-say/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-editing"
+    },
+    {
+      "id": "interview-assistance"
     }
   ]
 }

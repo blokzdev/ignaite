@@ -39,7 +39,7 @@
     "Best fit is high-volume hiring",
     "Custom quote requires a demo"
   ],
-  "bestFor": ["High-volume hiring", "Hourly and early-career roles", "Recruiting teams"],
+  "bestFor": ["High-volume employers", "Recruiting teams", "Hourly/early-career hiring"],
   "alternatives": ["juicebox", "hirevue", "mercor"],
   "references": [
     {
@@ -47,6 +47,23 @@
       "url": "https://www.geekwire.com/2026/humanly-raises-25m-to-put-ai-to-work-for-job-seekers-not-just-the-companies-hiring-them/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "outbound-prospecting"
     }
   ]
 }

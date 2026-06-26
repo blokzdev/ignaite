@@ -32,7 +32,7 @@
     "No self-serve or free tier",
     "Candidate trust in AI interviews varies"
   ],
-  "bestFor": ["High-volume recruiters", "Enterprise talent teams", "Global hiring at scale"],
+  "bestFor": ["Enterprise talent teams", "High-volume recruiters", "Global hiring teams"],
   "alternatives": ["heymilo", "micro1", "paradox", "mercor"],
   "references": [
     {
@@ -40,6 +40,20 @@
       "url": "https://techcrunch.com/2025/01/15/as-gen-z-job-applicants-balloon-companies-are-turning-to-ai-agent-recruiters/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

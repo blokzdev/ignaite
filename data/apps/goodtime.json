@@ -29,11 +29,7 @@
     "Deep ATS integrations"
   ],
   "cons": ["Enterprise focus, custom pricing", "No public free tier", "Recruiting-only scope"],
-  "bestFor": [
-    "Enterprise recruiting teams",
-    "High-volume interview scheduling",
-    "Talent operations"
-  ],
+  "bestFor": ["Enterprise recruiting teams", "Talent operations", "Recruiting coordinators"],
   "alternatives": ["paradox", "gem", "metaview", "humanly"],
   "references": [
     {
@@ -47,6 +43,17 @@
       "url": "https://www.selectsoftwarereviews.com/reviews/goodtime",
       "source": "SelectSoftware",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

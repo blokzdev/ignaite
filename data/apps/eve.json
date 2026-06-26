@@ -42,5 +42,22 @@
       "source": "LawSites",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "case-management"
+    },
+    {
+      "id": "demand-letters"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "voice-agent"
+    }
   ]
 }

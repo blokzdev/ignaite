@@ -36,7 +36,7 @@
     "Focused on AP/finance ops",
     "Best fit for mid-market and up"
   ],
-  "bestFor": ["Finance & AP teams", "Invoice automation", "Controllers"],
+  "bestFor": ["Finance & AP teams", "Controllers", "Mid-market enterprises"],
   "alternatives": ["digits", "ramp"],
   "references": [
     {
@@ -50,6 +50,17 @@
       "url": "https://www.fintechfutures.com/accounting-payroll/accounting-automation-platform-vic-ai-bags-52m-series-c-funding",
       "source": "FinTech Futures",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "expense-management"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

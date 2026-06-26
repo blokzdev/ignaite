@@ -36,11 +36,7 @@
     "Fractional CFO add-ons"
   ],
   "cons": ["Paid service, no free tier", "Pricing not fully public", "Best fit is funded startups"],
-  "bestFor": [
-    "Venture-backed startups",
-    "Founders outsourcing finance",
-    "Real-time cash visibility"
-  ],
+  "bestFor": ["Venture-backed startups", "Founders outsourcing finance", "Growing SMBs"],
   "alternatives": ["puzzle", "truewind", "digits"],
   "references": [
     {
@@ -48,6 +44,23 @@
       "url": "https://techcrunch.com/2021/08/04/financial-concierge-startup-zeni-banks-34m-to-show-smbs-their-finances-in-real-time/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "expense-management"
+    },
+    {
+      "id": "tax-preparation"
+    },
+    {
+      "id": "financial-modeling"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

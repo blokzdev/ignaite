@@ -32,7 +32,7 @@
     "Light on technicals/derivatives",
     "Full history requires paid tiers"
   ],
-  "bestFor": ["Fundamental investors", "Equity research", "KPI-driven dashboards"],
+  "bestFor": ["Fundamental investors", "Equity analysts", "Retail investors"],
   "alternatives": ["alphasense", "rogo", "hebbia"],
   "references": [
     {
@@ -40,6 +40,23 @@
       "url": "https://www.wallstreetzen.com/blog/finchat-io-fiscal-ai-review/",
       "source": "WallStreetZen",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-research"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "financial-data-extraction"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

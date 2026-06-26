@@ -36,7 +36,7 @@
     "No published list pricing",
     "Implementation takes weeks"
   ],
-  "bestFor": ["In-house legal teams", "High contract volume", "Enterprise CLM"],
+  "bestFor": ["In-house legal teams", "Enterprise legal ops", "High contract-volume orgs"],
   "alternatives": ["harvey", "spellbook", "luminance", "ivo"],
   "references": [
     {
@@ -44,6 +44,23 @@
       "url": "https://intuitionlabs.ai/articles/ironclad-ai-contract-management-capabilities",
       "source": "IntuitionLabs",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-lifecycle"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "document-qa"
     }
   ]
 }

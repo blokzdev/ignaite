@@ -37,13 +37,24 @@
     "Express funding charges a fee",
     "2025 $17M FTC settlement over disclosures"
   ],
-  "bestFor": ["First-time budgeters", "Younger users", "Quick spending check-ins"],
+  "bestFor": ["First-time budgeters", "Younger users", "Gen Z consumers"],
   "references": [
     {
       "title": "Cleo App Review 2026: Is the AI Budgeting Chatbot Worth It?",
       "url": "https://www.thepennyhoarder.com/budgeting/cleo-app-review/",
       "source": "The Penny Hoarder",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "text-classification"
     }
   ]
 }

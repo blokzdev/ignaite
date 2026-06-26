@@ -50,5 +50,16 @@
       "source": "CPA Practice Advisor",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "financial-close"
+    },
+    {
+      "id": "data-analysis"
+    }
   ]
 }

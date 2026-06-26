@@ -29,7 +29,7 @@
     "Cuts manual effort for complex teams"
   ],
   "cons": ["No public pricing (demo-gated)", "Enterprise-leaning", "Narrower than a full ERP"],
-  "bestFor": ["Accounting/controller teams", "Month-end close", "Reconciliations"],
+  "bestFor": ["Accounting teams", "Controllers", "Finance teams"],
   "alternatives": ["basis", "digits", "puzzle", "rogo"],
   "references": [
     {
@@ -43,6 +43,20 @@
       "url": "https://www.cpapracticeadvisor.com/2025/11/20/ai-accounting-platform-numeric-raises-51m-series-b/173638/",
       "source": "CPA Practice Advisor",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-close"
+    },
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

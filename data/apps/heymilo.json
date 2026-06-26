@@ -34,7 +34,7 @@
     "AI interviews can feel impersonal",
     "Screening only"
   ],
-  "bestFor": ["High-volume screening", "Recruiting teams", "Phone/SMS-first roles"],
+  "bestFor": ["High-volume recruiters", "TA & hiring teams", "Hourly/frontline employers"],
   "alternatives": ["micro1", "mercor", "seekout"],
   "references": [
     {
@@ -42,6 +42,23 @@
       "url": "https://www.prnewswire.com/news-releases/heymilo-secures-2-2-million-to-interview-and-evaluate-candidates-at-scale-with-ai-agents-302389651.html",
       "source": "PR Newswire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "resume-screening"
     }
   ]
 }

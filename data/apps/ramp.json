@@ -41,7 +41,7 @@
     "AI agents geared to finance, not general use",
     "Best value tied to using Ramp's card"
   ],
-  "bestFor": ["US startups & SMBs", "Finance teams", "Automating expense ops"],
+  "bestFor": ["US startups & SMBs", "Finance teams", "Controllers"],
   "alternatives": ["brex", "digits", "puzzle"],
   "references": [
     {
@@ -53,5 +53,22 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#B6F400"
+  "accentColor": "#B6F400",
+  "capabilities": [
+    {
+      "id": "expense-management"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "fraud-detection"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

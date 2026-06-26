@@ -43,7 +43,7 @@
     "Focused on public-company fundamentals",
     "Free tier limited to 3 Data Sheets"
   ],
-  "bestFor": ["Equity analysts", "Institutional investors", "Financial modeling"],
+  "bestFor": ["Equity analysts", "Institutional investors", "AI/quant developers"],
   "alternatives": ["fiscal-ai", "rogo", "alphasense", "hebbia"],
   "references": [
     {
@@ -57,6 +57,23 @@
       "url": "https://theaiinsider.tech/2026/06/01/daloopa-secures-47m-series-c-to-power-the-data-layer-behind-ai-driven-finance/",
       "source": "The AI Insider",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-data-extraction"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "financial-modeling"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

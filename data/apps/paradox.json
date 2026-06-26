@@ -33,7 +33,11 @@
     "Best for high-volume roles",
     "Less fit for niche hiring"
   ],
-  "bestFor": ["High-volume hiring", "Hourly & frontline roles", "Interview scheduling"],
+  "bestFor": [
+    "Enterprise TA teams",
+    "Hourly & frontline employers",
+    "Retail / healthcare / hospitality"
+  ],
   "alternatives": ["eightfold", "leena-ai", "mercor"],
   "references": [
     {
@@ -47,6 +51,17 @@
       "url": "https://technical.ly/startups/paradox-raise-unicorn-traitify/",
       "source": "Technical.ly",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

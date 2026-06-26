@@ -28,7 +28,7 @@
     "Bias-mitigation features"
   ],
   "cons": ["Enterprise-only pricing", "Complex deployment", "Opaque pricing", "Overkill for SMBs"],
-  "bestFor": ["Enterprise talent acquisition", "Internal mobility", "Workforce planning"],
+  "bestFor": ["Enterprise TA teams", "HR & people teams", "Talent leaders"],
   "alternatives": ["paradox", "mercor", "seekout", "juicebox"],
   "references": [
     {
@@ -36,6 +36,20 @@
       "url": "https://techcrunch.com/2021/06/10/ai-startup-eightfold-valued-at-2-1b-in-softbank-led-220m-funding/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "recommendation"
     }
   ]
 }

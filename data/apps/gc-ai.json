@@ -29,7 +29,7 @@
     "SOC 2, zero data retention"
   ],
   "cons": ["Pricey at $500/seat per month", "Web-only", "Scoped to in-house, not litigation"],
-  "bestFor": ["In-house legal teams", "Corporate counsel", "Contract review"],
+  "bestFor": ["In-house legal teams", "Corporate counsel", "General counsel"],
   "alternatives": ["harvey", "legora", "spellbook", "ironclad"],
   "references": [
     {
@@ -37,6 +37,23 @@
       "url": "https://www.msba.org/site/site/content/News-and-Publications/News/General-News/Understanding_GC_AI_An_AI_Tool_for_In-house_Counsel.aspx",
       "source": "Maryland State Bar Assoc.",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

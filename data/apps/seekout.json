@@ -34,7 +34,7 @@
     "Sourcing depth varies by niche",
     "Older funding (2022)"
   ],
-  "bestFor": ["Enterprise talent teams", "Technical recruiting", "Workforce analytics"],
+  "bestFor": ["Enterprise talent teams", "Technical recruiters", "Talent acquisition leaders"],
   "alternatives": ["juicebox", "mercor", "micro1"],
   "references": [
     {
@@ -42,6 +42,20 @@
       "url": "https://techcrunch.com/2022/01/12/tiger-doubles-down-on-seekout-which-just-raised-115m-to-help-enterprises-hire-and-retain-talent/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }
