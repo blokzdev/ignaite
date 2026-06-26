@@ -50,7 +50,7 @@
   "alternatives": ["reducto", "chunkr", "llamaparse", "extend"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "schema-extraction"

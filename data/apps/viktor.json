@@ -41,7 +41,7 @@
   "alternatives": ["manus", "lindy", "gumloop", "pokee"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "agentic-coding"

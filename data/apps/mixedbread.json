@@ -58,7 +58,7 @@
       "id": "embeddings"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "rag-pipeline"

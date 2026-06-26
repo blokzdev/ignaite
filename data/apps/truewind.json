@@ -51,7 +51,7 @@
       "id": "financial-close"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     }
   ]
 }

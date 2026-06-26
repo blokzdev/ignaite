@@ -45,13 +45,13 @@
   "alternatives": ["lindy", "gumloop", "sim"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "automation-trigger"
     },
     {
       "id": "agent-orchestration"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     }
   ]
 }

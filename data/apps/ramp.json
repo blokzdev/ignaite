@@ -59,7 +59,7 @@
       "id": "expense-management"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "bookkeeping"
@@ -68,7 +68,7 @@
       "id": "fraud-detection"
     },
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     }
   ]
 }

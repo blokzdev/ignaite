@@ -41,7 +41,7 @@
   "alternatives": ["quizlet", "khanmigo", "studyfetch"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
     },
     {
       "id": "homework-solving"

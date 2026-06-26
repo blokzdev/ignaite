@@ -52,7 +52,7 @@
   "featuredAt": "2026-06-21",
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "agent-orchestration"

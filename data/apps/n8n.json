@@ -50,7 +50,7 @@
   "alternatives": ["make", "zapier", "activepieces", "pipedream"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "agent-framework"

@@ -55,7 +55,7 @@
       "id": "image-classification"
     },
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
     },
     {
       "id": "model-inference"

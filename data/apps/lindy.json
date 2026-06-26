@@ -46,7 +46,7 @@
   "alternatives": ["zapier", "make", "gumloop", "relay-app"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "automation-trigger"
     },
     {
       "id": "email-assistant"

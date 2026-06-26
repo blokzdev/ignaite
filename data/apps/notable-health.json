@@ -44,7 +44,7 @@
   ],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "healthcare-ops"

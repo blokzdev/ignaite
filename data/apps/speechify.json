@@ -52,7 +52,7 @@
       "id": "text-to-speech"
     },
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
     },
     {
       "id": "voice-cloning"

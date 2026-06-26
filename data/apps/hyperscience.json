@@ -50,7 +50,10 @@
   ],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
+    },
+    {
+      "id": "document-parsing"
     },
     {
       "id": "schema-extraction"
@@ -59,7 +62,7 @@
       "id": "text-classification"
     },
     {
-      "id": "workflow-automation"
+      "id": "automation-trigger"
     }
   ]
 }

@@ -49,13 +49,16 @@
   "alternatives": ["reducto", "unstructured", "docling", "v7-go"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
+    },
+    {
+      "id": "document-parsing"
     },
     {
       "id": "schema-extraction"
     },
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     }
   ]
 }

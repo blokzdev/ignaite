@@ -4,8 +4,8 @@ import type { AppCapability } from "@/types/app";
 // allowlist, but external callers (a recipe planner, an LLM function-call, a
 // search query) will phrase a task many ways — "transcription" / "stt" /
 // "speech recognition" all mean `speech-to-text`. This map makes the ids usable
-// as a matching TARGET instead of brittle exact-match, and it keeps OLD ids
-// resolving after merges/renames (`ocr`→`document-extraction`,
+// as a matching TARGET instead of brittle exact-match, and it keeps free-form
+// terms resolving after merges/renames/splits (`ocr`→`ocr-extraction`,
 // `enterprise-search`→`unified-search`), so a planner trained on an earlier
 // vocabulary still lands. Values are compile-checked against the enum.
 //
@@ -29,6 +29,10 @@ export const CAPABILITY_ALIASES: Record<string, AppCapability> = {
   scraping: "web-scraping",
   crawling: "web-scraping",
   "computer-use": "browser-automation",
+  orchestration: "workflow-orchestration",
+  "workflow-builder": "workflow-orchestration",
+  automation: "automation-trigger",
+  "trigger-action": "automation-trigger",
   "phone-agent": "voice-agent",
   telephony: "voice-agent",
   // model serving, training & compute
@@ -55,9 +59,9 @@ export const CAPABILITY_ALIASES: Record<string, AppCapability> = {
   recommender: "recommendation",
   personalization: "recommendation", // dropped → nearest
   // data pipeline, extraction & app building
-  ocr: "document-extraction", // merged
-  "document-parsing": "document-extraction",
-  "pdf-extraction": "document-extraction",
+  ocr: "ocr-extraction",
+  "pdf-extraction": "document-parsing",
+  "data-extraction": "document-parsing",
   etl: "etl-pipeline",
   "no-code": "app-builder",
   "low-code": "app-builder",

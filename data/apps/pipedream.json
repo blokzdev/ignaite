@@ -48,7 +48,7 @@
   "alternatives": ["zapier", "make", "n8n", "activepieces"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "code-execution"

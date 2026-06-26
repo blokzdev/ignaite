@@ -51,7 +51,7 @@
   ],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "automation-trigger"
     },
     {
       "id": "text-editing"

@@ -48,7 +48,7 @@
   "alternatives": ["langgraph", "n8n", "mastra", "vercel-ai-sdk"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "agent-orchestration"

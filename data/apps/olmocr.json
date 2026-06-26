@@ -47,7 +47,10 @@
   "alternatives": ["docling", "reducto", "llamaparse", "mindee"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
+    },
+    {
+      "id": "document-parsing"
     },
     {
       "id": "model-fine-tuning"
