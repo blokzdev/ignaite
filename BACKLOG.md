@@ -138,7 +138,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       docs): (a) **add genuinely-missing capabilities** per app (still ≤6 cap, strongest-first) with their
       `level`; (b) see the leaf-granularity item below for the compound-capability split — **decoupled, do
       that FIRST** so we don't level a leaf we're about to split.
-- [x] **[future]** **Chunk AH — capability-leaf granularity split — ✅ DONE** (#TBD). Founder-directed
+- [x] **[future]** **Chunk AH — capability-leaf granularity split — ✅ DONE** (#358). Founder-directed
       first cut: split the 2 highest-confidence compound leaves — **`document-extraction` → `ocr-extraction` + `document-parsing`** and **`workflow-automation` → `workflow-orchestration` + `automation-trigger`**
       — additively (enum + label + family, all completeness-compile-checked; synonym aliases re-pointed),
       then **re-mapped all 174 affected apps** (61 + 113) via an Ultracode parallel campaign (13 hybrid
@@ -148,7 +148,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       cruft; the enum removal then **hard-fails** any app left behind, so it's the completeness guard for
       free). 0 recipe steps used the split leaves. The free-form `tags` "workflow-automation"/"document-
       extraction" were left (valid search terms, not capability ids). **Deferred** (red-team cut): `speech-
-    to-text`/`summarization`/`document-qa`/`eval-suite` (axes already covered by existing leaves), and
+  to-text`/`summarization`/`document-qa`/`eval-suite` (axes already covered by existing leaves), and
       `app-builder` (medium-confidence fast-follow). AH landed **before AF-2**, so leveling operates on the
       final vocabulary.
 - [ ] **[future]** **AH-bis — `app-builder` split (fast-follow, optional).** The deferred close-call from

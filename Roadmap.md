@@ -87,7 +87,7 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | AG    | Multi-dim recipes — additive DAG (`dependsOn`) + `loop`; graph integrity; pure-CSS flow view; 2 pilots       | #355      | ✅     |
 | —     | Hardening — self-referential `dependsOn` hard-fail + parallel-lane a11y label                                | #356      | ✅     |
 | AF-1  | Substitution engine (lexicographic, build-time) + "Swap this step" rail + author/audit-recipes routines      | #357      | ✅     |
-| AH    | Capability leaf-granularity split — document-extraction + workflow-automation → 4 leaves; 174 apps re-mapped | #TBD      | ✅     |
+| AH    | Capability leaf-granularity split — document-extraction + workflow-automation → 4 leaves; 174 apps re-mapped | #358      | ✅     |
 
 ---
 
@@ -219,7 +219,7 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
   fabrication, no request-time model). Rendered as a collapsed "Swap this step (N)" `<details>` rail per
   step on `/recipes/[slug]` (0 B route JS). Plus `author-recipes` (human-review PR) + `audit-recipes`
   (auto-merge) routines. Honest framing today: "ranked by license, cost, and platform footprint."
-- **Chunk AH — capability leaf-granularity split ✅ (#TBD)** — first cut split the 2 highest-confidence
+- **Chunk AH — capability leaf-granularity split ✅ (#358)** — first cut split the 2 highest-confidence
   compound leaves: **`document-extraction` → `ocr-extraction` + `document-parsing`** and
   **`workflow-automation` → `workflow-orchestration` + `automation-trigger`**. Additive foundation (enum +
   label + family, all completeness-compile-checked; synonym aliases re-pointed; old-leaf back-compat
