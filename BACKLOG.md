@@ -117,7 +117,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       (primary/secondary) via a second verify pass, then the "prefer fewer platforms / open-source /
       free" set-cover substitution on recipes. Gated on the Recipes entity (AD/AE) + the AB pilot
       proving backfill cost. Don't market "fewer signups" until this ships.
-- [x] **[future]** **Chunk AG — multi-dimensional recipes (parallel + iterative) — ✅ DONE** (#TBD).
+- [x] **[future]** **Chunk AG — multi-dimensional recipes (parallel + iterative) — ✅ DONE** (#355).
       Extended the linear Recipe to an **optional DAG**, fully additively (the 4 pre-AG recipes validate + render byte-identical): each step may carry `id`, `dependsOn: id[]` (parallel branches + fan-in),
       and `loop: { backTo, until }` (iteration). Founder sign-off picked: **step-level `loop`** (not a
       group `mode` wrapper — would break the flat `steps[]` every consumer iterates); **free-prose
