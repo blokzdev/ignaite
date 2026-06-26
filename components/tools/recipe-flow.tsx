@@ -48,6 +48,7 @@ export function RecipeFlow({ recipe }: Readonly<{ recipe: Recipe }>): ReactEleme
         ) : (
           <li
             key={`lane-${li}`}
+            aria-label={`Steps ${lane[0].order + 1}–${lane[lane.length - 1].order + 1} run in parallel`}
             className="rounded-2xl bg-[var(--color-accent)]/[0.03] p-4 ring-1 ring-[var(--color-accent)]/15 ring-inset sm:p-5"
           >
             <p className="mb-3 inline-flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] text-[var(--color-accent)] uppercase">
