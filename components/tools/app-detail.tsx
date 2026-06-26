@@ -9,6 +9,7 @@ import { DossierRail } from "@/components/detail/dossier-rail";
 import { Masthead } from "@/components/detail/masthead";
 import { StatStrip } from "@/components/detail/stat-strip";
 import { JsonLd } from "@/components/seo/json-ld";
+import { Capabilities } from "@/components/tools/capabilities";
 import { RelatedRail } from "@/components/tools/related-rail";
 import { ShowMore } from "@/components/tools/show-more";
 import { ToolCard } from "@/components/tools/tool-card";
@@ -134,6 +135,9 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
               )}
             </div>
           )}
+
+          {/* Capabilities — the task fingerprint (what it does), grouped by family. */}
+          <Capabilities ids={app.capabilities?.map((c) => c.id) ?? []} />
 
           {/* Trade-offs — the honest, balanced read. */}
           {((app.pros && app.pros.length > 0) || (app.cons && app.cons.length > 0)) && (
