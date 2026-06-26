@@ -37,22 +37,28 @@
   "alternatives": ["manus", "genspark", "gamma"],
   "capabilities": [
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "primary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "primary"
     },
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     }
   ]
 }

@@ -49,22 +49,28 @@
   "alternatives": ["openhands", "open-interpreter", "cline", "claude-code"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "primary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "secondary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "secondary"
     }
   ]
 }

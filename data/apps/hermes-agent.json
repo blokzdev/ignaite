@@ -49,19 +49,24 @@
   "alternatives": ["goose", "openhands", "open-interpreter", "manus"],
   "capabilities": [
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "secondary"
     }
   ]
 }

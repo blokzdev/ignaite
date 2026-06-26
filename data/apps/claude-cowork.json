@@ -61,19 +61,24 @@
   ],
   "capabilities": [
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "primary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     },
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     }
   ]
 }

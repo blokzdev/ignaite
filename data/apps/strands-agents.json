@@ -50,19 +50,24 @@
   "lastVerifiedAt": "2026-06-20",
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     }
   ]
 }

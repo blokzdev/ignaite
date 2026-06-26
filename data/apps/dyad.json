@@ -49,16 +49,20 @@
   "alternatives": ["lovable", "bolt-new", "v0"],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     }
   ]
 }

@@ -60,22 +60,28 @@
   ],
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     }
   ]
 }

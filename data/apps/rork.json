@@ -48,10 +48,12 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     }
   ]
 }

@@ -42,22 +42,28 @@
   "alternatives": ["manus", "chatgpt", "perplexity", "gemini"],
   "capabilities": [
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "primary"
     },
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     }
   ]
 }

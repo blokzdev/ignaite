@@ -55,16 +55,20 @@
   ],
   "capabilities": [
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "secondary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     }
   ]
 }

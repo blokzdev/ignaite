@@ -42,22 +42,28 @@
   "alternatives": ["genspark", "devin", "openai-codex", "replit"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "primary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     }
   ]
 }

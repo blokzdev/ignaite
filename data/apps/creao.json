@@ -67,10 +67,12 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     }
   ]
 }

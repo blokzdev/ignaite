@@ -43,16 +43,20 @@
   "alternatives": ["bolt-new", "lovable", "v0", "cursor"],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     }
   ]
 }

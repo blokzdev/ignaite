@@ -47,16 +47,20 @@
   "alternatives": ["lovable", "bolt-new", "uizard", "figma-ai"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

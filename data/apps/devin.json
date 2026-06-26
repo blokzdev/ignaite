@@ -47,13 +47,16 @@
   "alternatives": ["factory-ai", "cline", "openhands", "jules"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "test-generation"
+      "id": "test-generation",
+      "level": "secondary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     }
   ]
 }

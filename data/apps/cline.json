@@ -62,16 +62,20 @@
   "featuredAt": "2026-06-10",
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     }
   ]
 }

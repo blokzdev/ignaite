@@ -65,13 +65,16 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     }
   ]
 }
