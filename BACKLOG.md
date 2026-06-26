@@ -105,6 +105,38 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       free" set-cover substitution on recipes. Gated on the Recipes entity (AD/AE) + the AB pilot
       proving backfill cost. Don't market "fewer signups" until this ships.
 
+### The "Recipe Spider" — recipe synthesis over the capability graph (capstone vision)
+
+> The long-horizon endpoint the capability keystone (AA–AF) is built toward: turn the verified
+> capability graph into a system that connects apps into multi-app workflows on the fly from a user's
+> intent. **Core principle — the graph connects the dots; the model only reads intent** (the model is
+> the _lens_, not the _database_). Every proposed recipe is a path through _verified_ capability nodes,
+> so the spider inherits the no-fabrication moat: the model selects from the closed `AppCapability` key
+> space and can never invent an app. Three tiers, default on-device → escalate to cloud only for the
+> hard cases:
+
+- [ ] **[future]** **Tier 0 — deterministic (no model).** Intent→capability via `capability-aliases.ts` + a small keyword classifier, then graph path-finding over the capability index. Offline, zero
+      inference cost. This is effectively the Recipes engine (AD/AE) itself — ships first, works alone.
+- [ ] **[future]** **Tier 1 — small in-browser model.** An off-the-shelf **embedding model**
+      (`transformers.js` / WebGPU) for semantic intent→capability matching over the controlled vocab;
+      optionally a tiny generative model (WebLLM) for on-device recipe narration. **Do NOT train from
+      scratch** — use stock permissively-licensed weights, optionally distill/fine-tune on our vocab.
+      Private, offline, zero marginal cost. Model choice informed by the edge-model survey below.
+- [ ] **[future]** **Tier 2 — cloud frontier (Claude), graph-grounded.** For novel / multi-constraint
+      requests. Default **Claude Opus 4.8** (`claude-opus-4-8`) for synthesis, **Haiku 4.5** for cheap
+      high-volume intent parsing. Three levers that keep it cheap + truthful: **prompt-cache the static
+      capability-graph prefix** (~0.1× read cost — the key cost lever); **structured outputs**
+      (`output_config.format`) so synthesized recipes validate against the _same_ recipe schema as
+      hand-authored ones; **tool-use / MCP** exposing `capability → [slug]` / `alternatives` so Claude
+      _traverses the real graph_ instead of recalling apps (eliminates hallucination at the source).
+      Nearly free day-one once the machine surface (`capabilities.json` / llms.txt / function-calling,
+      Chunk AC) ships — any LLM can already traverse the graph.
+- [ ] **[verify]** **Edge-model survey for the Tier-1 browser model.** Deep-research deliverable
+      (generated this session): current (2025–2026) sub-1B-param open / permissively-licensed small
+      generative **and** embedding models that run in the browser (WebGPU / `transformers.js` / WebLLM),
+      ranked by quality, license, size, and on-device feasibility for intent→capability matching +
+      recipe narration. Capture the chosen model + rationale here once Tier 1 is scheduled.
+
 ### PWA
 
 > The PWA ships with a hand-rolled, **build-stamped** service worker (`app/sw.js/route.ts` — a

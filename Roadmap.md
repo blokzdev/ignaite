@@ -175,6 +175,11 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
 - **Chunks AB–AF** — the parallel-agent capability backfill (pilot → fan-out → adversarial audit),
   capability-aware comparisons/insights, the Recipe entity (sign-off + pilot), and the substitution
   engine. See the plan doc for the critical path.
+- **Capstone vision — the "Recipe Spider"** (post-AF; BACKLOG'd): on-device + cloud recipe synthesis
+  over the verified capability graph — deterministic graph traversal first, a small in-browser model
+  for intent, a frontier model (Claude) graph-grounded for the hard cases. Every recipe is a path
+  through verified nodes, so it inherits the no-fabrication moat. See `BACKLOG.md` → Directory
+  expansion → "The Recipe Spider".
 
 ---
 
