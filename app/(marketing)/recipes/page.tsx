@@ -77,7 +77,7 @@ function RecipeCard({ recipe }: { recipe: Recipe }) {
 }
 
 export default function RecipesHubPage() {
-  const recipes = listRecipes(); // newest-first; excludes archived
+  const recipes = listRecipes(); // newest-first; excludes archived (stale shown, flagged)
   const count = recipeCount();
 
   return (
