@@ -36,6 +36,20 @@
     "Chinese-origin data-policy concerns",
     "Smaller ecosystem than Runway/Kling"
   ],
-  "bestFor": ["Character-consistent shots", "Cheap fast iteration", "Reference-driven video"],
-  "alternatives": ["kling", "runway", "hailuo-ai", "pika"]
+  "bestFor": ["Video creators", "Marketers", "Indie animators"],
+  "alternatives": ["kling", "runway", "hailuo-ai", "pika"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "sound-effects"
+    }
+  ]
 }

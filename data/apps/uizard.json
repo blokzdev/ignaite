@@ -41,6 +41,11 @@
     "Not a handoff-grade design tool",
     "Generated layouts need refinement"
   ],
-  "bestFor": ["PMs and non-designers", "Fast wireframe drafts", "Concept prototyping"],
-  "alternatives": ["figma-ai", "v0"]
+  "bestFor": ["PMs and non-designers", "Startup teams", "Founders"],
+  "alternatives": ["figma-ai", "v0"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    }
+  ]
 }

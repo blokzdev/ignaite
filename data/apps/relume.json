@@ -37,6 +37,11 @@
     "Component-driven look can feel templated",
     "Advanced features gated to paid tiers"
   ],
-  "bestFor": ["Webflow designers", "Agencies and freelancers", "Rapid site scaffolding"],
-  "alternatives": ["v0", "uizard", "magic-patterns", "figma-ai"]
+  "bestFor": ["Webflow designers", "Agencies and freelancers"],
+  "alternatives": ["v0", "uizard", "magic-patterns", "figma-ai"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    }
+  ]
 }

@@ -36,6 +36,20 @@
     "Short clip durations",
     "Single proprietary model, no choice"
   ],
-  "bestFor": ["Stylized/anime video", "Social content", "Mobile creators"],
-  "alternatives": ["pika", "kling", "hailuo-ai", "vidu"]
+  "bestFor": ["Stylized/anime creators", "Mobile creators", "Social content creators"],
+  "alternatives": ["pika", "kling", "hailuo-ai", "vidu"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "lip-sync"
+    }
+  ]
 }

@@ -39,11 +39,7 @@
     "Stock-footage look without custom assets",
     "Commercial use needs a paid plan"
   ],
-  "bestFor": [
-    "Marketers and social creators",
-    "Faceless YouTube videos",
-    "Quick ad and promo videos"
-  ],
+  "bestFor": ["Marketers and social creators", "Solo creators", "Small content teams"],
   "alternatives": ["veed", "synthesia", "captions", "vizard"],
   "references": [
     {
@@ -57,6 +53,23 @@
       "url": "https://inc42.com/startups/decoding-genai-startup-invideos-explosive-30-mn-revenue-run-4x-user-growth/",
       "source": "Inc42",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "multi-model-access"
     }
   ]
 }

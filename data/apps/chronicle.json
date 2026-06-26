@@ -29,7 +29,7 @@
     "Generous free tier"
   ],
   "cons": ["Web-only (no native or offline app)", "AI usage metered by tokens"],
-  "bestFor": ["Startup pitch decks", "Team presentations", "Sales & marketing decks"],
+  "bestFor": ["Startup founders", "Sales & marketing teams", "Consultants"],
   "alternatives": ["gamma", "beautiful-ai"],
   "references": [
     {
@@ -37,6 +37,14 @@
       "url": "https://techcrunch.com/2023/02/21/chronicle/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "graphic-design"
     }
   ]
 }

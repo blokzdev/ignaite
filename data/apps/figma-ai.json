@@ -40,6 +40,20 @@
     "Generated output still needs polish",
     "Newer features rolled out gradually"
   ],
-  "bestFor": ["Existing Figma teams", "Prompt-to-prototype", "Design-to-code handoff"],
-  "alternatives": ["uizard", "v0", "lovable", "microsoft-designer"]
+  "bestFor": ["Existing Figma teams", "Product designers", "Design-eng teams"],
+  "alternatives": ["uizard", "v0", "lovable", "microsoft-designer"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "image-editing"
+    }
+  ]
 }

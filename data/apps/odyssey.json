@@ -42,7 +42,7 @@
     "Limited resolution / visual fidelity",
     "No commercial terms or pricing yet"
   ],
-  "bestFor": ["Interactive media R&D", "Game / film prototyping", "World-model experimentation"],
+  "bestFor": ["AI researchers", "Game studios", "Filmmakers"],
   "alternatives": ["decart", "marble", "runway", "luma-dream-machine"],
   "references": [
     {
@@ -50,6 +50,17 @@
       "url": "https://techcrunch.com/2025/05/28/odysseys-new-ai-model-streams-3d-interactive-worlds",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "world-model"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
     }
   ]
 }

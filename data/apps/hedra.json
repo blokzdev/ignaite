@@ -41,6 +41,17 @@
     "Limited public API",
     "Expiring-credit pricing friction"
   ],
-  "bestFor": ["Voice-agent avatars", "Talking characters from a photo"],
-  "alternatives": ["heygen", "tavus", "synthesia", "captions"]
+  "bestFor": ["AI avatar creators", "Voice-agent builders", "Marketing teams"],
+  "alternatives": ["heygen", "tavus", "synthesia", "captions"],
+  "capabilities": [
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

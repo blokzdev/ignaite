@@ -42,7 +42,7 @@
     "Won't repair malformed source",
     "No public API for automation"
   ],
-  "bestFor": ["Concept artists", "Product shots", "Rescuing low-res images"],
+  "bestFor": ["Concept artists", "Product photographers", "Designers"],
   "alternatives": ["krea", "leonardo-ai", "recraft", "midjourney"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "url": "https://curiousrefuge.com/blog/magnific-ai-image-upscaler-review",
       "source": "Curious Refuge",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "image-editing"
     }
   ]
 }

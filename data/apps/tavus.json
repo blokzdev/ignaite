@@ -45,6 +45,20 @@
     "Usage-based cost adds up",
     "Avatar realism limits remain"
   ],
-  "bestFor": ["Conversational video agents", "Digital human apps", "Developers"],
-  "alternatives": ["heygen", "synthesia", "hedra", "vapi"]
+  "bestFor": ["Developers", "AI product teams", "Startups"],
+  "alternatives": ["heygen", "synthesia", "hedra", "vapi"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "video-understanding"
+    }
+  ]
 }

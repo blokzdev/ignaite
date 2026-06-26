@@ -38,6 +38,26 @@
     "Credit limits gate heavy use",
     "Output quality varies by chosen model"
   ],
-  "bestFor": ["Hobbyist creators", "AI art beginners", "Community-driven prompting"],
-  "alternatives": ["openart", "leonardo-ai", "midjourney", "krea"]
+  "bestFor": ["Hobbyist creators", "AI art beginners", "Prompt communities"],
+  "alternatives": ["openart", "leonardo-ai", "midjourney", "krea"],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-video"
+    }
+  ]
 }

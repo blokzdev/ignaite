@@ -36,6 +36,14 @@
     "Strong for graphic/design layouts"
   ],
   "cons": ["Single proprietary model only", "Web-only, no API yet", "Newer, smaller community"],
-  "bestFor": ["Text-heavy graphics", "Design iteration", "4K image work"],
-  "alternatives": ["ideogram", "recraft", "midjourney", "flux"]
+  "bestFor": ["Graphic designers", "Visual creators"],
+  "alternatives": ["ideogram", "recraft", "midjourney", "flux"],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    }
+  ]
 }

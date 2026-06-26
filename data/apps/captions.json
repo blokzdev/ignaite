@@ -40,6 +40,20 @@
     "Best features behind paid tiers",
     "Avatar output can look synthetic"
   ],
-  "bestFor": ["Short-form creators", "Talking-head video", "AI avatar clips"],
-  "alternatives": ["heygen", "opus-clip", "submagic", "synthesia"]
+  "bestFor": ["Short-form creators", "Social media marketers", "Solo creators"],
+  "alternatives": ["heygen", "opus-clip", "submagic", "synthesia"],
+  "capabilities": [
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "avatar-generation"
+    }
+  ]
 }

@@ -36,7 +36,7 @@
     "Learning curve vs simpler tools",
     "Quality varies by model"
   ],
-  "bestFor": ["Game studios", "Concept artists", "Consistent asset pipelines"],
+  "bestFor": ["Game studios", "Concept artists", "Designers"],
   "alternatives": ["midjourney", "krea", "recraft", "ideogram"],
   "references": [
     {
@@ -44,6 +44,23 @@
       "url": "https://www.dealstreetasia.com/stories/canva-acquires-leonardo-ai-406183",
       "source": "DealStreetAsia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "model-fine-tuning"
     }
   ]
 }

@@ -40,6 +40,26 @@
     "Less precise than pro design tools",
     "Output can look template-y"
   ],
-  "bestFor": ["Non-designers", "On-brand marketing assets", "Social content"],
-  "alternatives": ["adobe-express", "microsoft-designer", "photoroom", "recraft"]
+  "bestFor": ["Non-designers", "Small businesses", "Marketing teams"],
+  "alternatives": ["adobe-express", "microsoft-designer", "photoroom", "recraft"],
+  "capabilities": [
+    {
+      "id": "graphic-design"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "long-form-writing"
+    }
+  ]
 }

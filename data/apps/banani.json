@@ -32,6 +32,14 @@
     "Smaller ecosystem than incumbents",
     "Not a full design-system tool"
   ],
-  "bestFor": ["Rapid prototyping", "Non-designers", "Early product mockups"],
-  "alternatives": ["uizard", "magic-patterns", "subframe", "google-stitch"]
+  "bestFor": ["Non-designers", "Founders & PMs", "Product teams"],
+  "alternatives": ["uizard", "magic-patterns", "subframe", "google-stitch"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

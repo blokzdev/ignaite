@@ -42,7 +42,7 @@
     "Limited fine-grained control",
     "Beta-feel bugs; spotty support"
   ],
-  "bestFor": ["Solo creators", "Marketers", "Rapid campaign mockups"],
+  "bestFor": ["Solo creators", "Marketers", "Creative teams"],
   "alternatives": ["midjourney", "recraft", "canva", "krea"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://skywork.ai/blog/lovart-ai-review-2025-design-agent/",
       "source": "Skywork",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "graphic-design"
+    },
+    {
+      "id": "logo-generation"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-editing"
     }
   ]
 }

@@ -38,6 +38,14 @@
     "Locked to one in-house model",
     "Credit-based freemium"
   ],
-  "bestFor": ["Game and animation assets", "3D pipeline integration", "Fast asset iteration"],
-  "alternatives": ["tripo", "rodin", "marble", "spline"]
+  "bestFor": ["Game developers", "3D artists", "Indie devs"],
+  "alternatives": ["tripo", "rodin", "marble", "spline"],
+  "capabilities": [
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "image-to-3d"
+    }
+  ]
 }

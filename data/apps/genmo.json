@@ -41,7 +41,7 @@
     "Short clip lengths versus closed rivals",
     "No native audio generation"
   ],
-  "bestFor": ["Open-source video research", "Self-hosted generation"],
+  "bestFor": ["Open-source ML researchers", "Self-hosting developers"],
   "alternatives": ["runway", "kling", "luma-dream-machine", "pika"],
   "references": [
     {
@@ -49,6 +49,11 @@
       "url": "https://venturebeat.com/ai/video-ai-startup-genmo-launches-mochi-1-an-open-source-model-to-rival-runway-kling-and-others",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-video"
     }
   ]
 }

@@ -43,6 +43,20 @@
     "Runs locally on your GPU"
   ],
   "cons": ["Steep learning curve", "Needs a capable local GPU", "Node sprawl can overwhelm"],
-  "bestFor": ["Power users", "Custom diffusion pipelines"],
-  "alternatives": ["civitai", "krea", "flux", "leonardo-ai"]
+  "bestFor": ["Power users", "Technical artists", "VFX & animation studios"],
+  "alternatives": ["civitai", "krea", "flux", "leonardo-ai"],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "model-inference"
+    }
+  ]
 }

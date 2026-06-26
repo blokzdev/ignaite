@@ -41,7 +41,7 @@
     "AI usage gated by credits",
     "Less fine control than Figma"
   ],
-  "bestFor": ["Non-designers", "Rapid wireframing", "PMs and founders", "Early-stage prototypes"],
+  "bestFor": ["Non-designers", "PMs", "Founders", "Engineers"],
   "alternatives": ["uizard", "magic-patterns", "google-stitch"],
   "references": [
     {
@@ -49,6 +49,11 @@
       "url": "https://www.softwareadvice.com/wireframe/visily-profile/",
       "source": "Software Advice",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ui-design"
     }
   ]
 }

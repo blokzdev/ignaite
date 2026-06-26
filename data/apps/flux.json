@@ -38,6 +38,14 @@
     "Open weights need GPU to self-run",
     "Less turnkey than Midjourney"
   ],
-  "bestFor": ["Developers and tinkerers", "Self-hosted image gen", "Prompt-accurate output"],
-  "alternatives": ["midjourney", "ideogram", "recraft", "comfyui"]
+  "bestFor": ["Developers and tinkerers", "ML researchers"],
+  "alternatives": ["midjourney", "ideogram", "recraft", "comfyui"],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    }
+  ]
 }

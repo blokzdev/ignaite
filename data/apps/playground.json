@@ -39,12 +39,7 @@
     "Output quality varies by model",
     "Geared to marketing graphics, not fine art"
   ],
-  "bestFor": [
-    "Small businesses",
-    "Social media creators",
-    "Non-designers",
-    "Merch and logo design"
-  ],
+  "bestFor": ["Small businesses", "Non-designers", "Social media creators"],
   "alternatives": ["canva", "microsoft-designer", "looka", "recraft"],
   "references": [
     {
@@ -58,6 +53,20 @@
       "url": "https://www.cognitiverevolution.ai/the-pixel-revolution-part-2-with-suhail-doshi-founder-of-playground-ai/",
       "source": "Cognitive Revolution",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "graphic-design"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "logo-generation"
     }
   ]
 }

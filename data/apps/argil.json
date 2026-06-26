@@ -33,10 +33,23 @@
     "Unlimited styles need the Pro tier",
     "Avatar realism varies by clip"
   ],
-  "bestFor": [
-    "Faceless/UGC creators",
-    "Marketers scaling short-form video",
-    "AI influencer makers"
-  ],
-  "alternatives": ["heygen", "synthesia", "creatify", "captions"]
+  "bestFor": ["Faceless / UGC creators", "Short-form marketers", "AI influencer makers"],
+  "alternatives": ["heygen", "synthesia", "creatify", "captions"],
+  "capabilities": [
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "lip-sync"
+    }
+  ]
 }

@@ -33,6 +33,14 @@
     "Newer, smaller tool",
     "Best for kickoff, not full builds"
   ],
-  "bestFor": ["Design-to-code", "Prototyping", "Frontend kickstart"],
-  "alternatives": ["uizard", "magic-patterns", "subframe", "v0"]
+  "bestFor": ["Frontend developers", "Product designers", "Startup teams"],
+  "alternatives": ["uizard", "magic-patterns", "subframe", "v0"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

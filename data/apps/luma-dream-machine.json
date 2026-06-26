@@ -41,6 +41,20 @@
     "Shorter clips than Kling",
     "Human realism trails Kling"
   ],
-  "bestFor": ["Indie creators", "Quick variations", "Mobile-first workflows"],
-  "alternatives": ["runway", "kling", "pika", "sora"]
+  "bestFor": ["Indie creators", "Mobile-first creators"],
+  "alternatives": ["runway", "kling", "pika", "sora"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "lip-sync"
+    }
+  ]
 }

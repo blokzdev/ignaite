@@ -16,8 +16,15 @@
   "accentColor": "#FF5C39",
   "tags": ["3d-animation", "text-to-motion", "character-animation", "motion-capture"],
   "links": [
-    { "kind": "website", "url": "https://getcartwheel.com", "primary": true },
-    { "kind": "pricing", "url": "https://getcartwheel.com/pricing" }
+    {
+      "kind": "website",
+      "url": "https://getcartwheel.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://getcartwheel.com/pricing"
+    }
   ],
   "addedAt": "2026-06-16",
   "addedSeq": 828,
@@ -34,7 +41,7 @@
     "Focused on character motion, not full scenes",
     "Newer tool with an evolving feature set"
   ],
-  "bestFor": ["3D animators", "Game & video creators", "Indie studios", "Previsualization"],
+  "bestFor": ["3D animators", "Game & video creators", "Indie studios"],
   "alternatives": ["move-ai", "meshy", "kaedim"],
   "references": [
     {
@@ -48,6 +55,14 @@
       "url": "https://www.fastcompany.com/91337364/cartwheel-uses-ai-to-make-3d-animation-100-times-faster-for-creators-and-studios",
       "source": "Fast Company",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "image-to-3d"
     }
   ]
 }

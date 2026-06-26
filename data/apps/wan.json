@@ -44,6 +44,20 @@
     "Hosted site has usage limits",
     "Docs and tooling skew technical"
   ],
-  "bestFor": ["Self-hosted video gen", "Open-source builders", "Researchers"],
-  "alternatives": ["kling", "sora", "runway", "genmo"]
+  "bestFor": ["Open-source builders", "Researchers", "Self-hosters"],
+  "alternatives": ["kling", "sora", "runway", "genmo"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    }
+  ]
 }

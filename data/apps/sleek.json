@@ -34,6 +34,11 @@
     "Generated screens need refinement",
     "Newer, smaller ecosystem"
   ],
-  "bestFor": ["Non-technical founders", "Rapid mobile prototyping", "PMs validating ideas"],
-  "alternatives": ["uizard", "visily", "banani", "magic-patterns"]
+  "bestFor": ["Non-technical founders", "Product managers", "Mobile developers"],
+  "alternatives": ["uizard", "visily", "banani", "magic-patterns"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    }
+  ]
 }

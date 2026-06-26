@@ -38,7 +38,7 @@
     "Copyright controversy around outputs",
     "Tied to ByteDance/CapCut ecosystem"
   ],
-  "bestFor": ["Social content creators", "Marketing visuals", "Short-form video"],
+  "bestFor": ["Social content creators", "Marketers", "Short-form video makers"],
   "alternatives": ["krea", "ideogram", "kling", "hailuo-ai"],
   "references": [
     {
@@ -46,6 +46,26 @@
       "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "avatar-generation"
     }
   ]
 }

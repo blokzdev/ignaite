@@ -37,7 +37,7 @@
     "Style range narrower than general image tools",
     "Premium templates gated to paid"
   ],
-  "bestFor": ["Docs & blog visuals", "Pitch decks", "Explaining processes"],
+  "bestFor": ["Knowledge workers", "Marketers", "Founders", "Educators"],
   "alternatives": ["gamma", "canva", "recraft", "uizard"],
   "references": [
     {
@@ -51,6 +51,11 @@
       "url": "https://www.inc.com/brian-contreras/how-these-ex-google-engineers-raised-10-million-for-their-ai-startup.html",
       "source": "Inc.",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "graphic-design"
     }
   ]
 }
