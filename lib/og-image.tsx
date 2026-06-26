@@ -77,6 +77,15 @@ export interface AppOgConfig {
   stats: string;
 }
 
+export interface RecipeOgConfig {
+  /** Mono eyebrow, e.g. `// RECIPE · 5 STEPS`. */
+  eyebrow: string;
+  /** Recipe title (main line). */
+  title: string;
+  /** Mono app-chain sub-line, e.g. `Undermind → Elicit → ElevenLabs +2`. */
+  sub: string;
+}
+
 // Shared chrome — background blooms, top brand mark, footer rule — wrapping a
 // per-card body.
 function Frame({ children }: { children: ReactNode }): ReactElement {
@@ -327,10 +336,70 @@ function AppOgTemplate({
   );
 }
 
+// Per-recipe card: eyebrow + the recipe title + a mono app-chain sub-line. Same
+// Frame chrome; flexbox-only (Satori). Mirrors the generic OgTemplate rhythm.
+function RecipeOgTemplate({ eyebrow, title, sub }: RecipeOgConfig): ReactElement {
+  return (
+    <Frame>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          marginTop: "auto",
+          marginBottom: "auto",
+          paddingTop: "24px",
+        }}
+      >
+        <p
+          style={{
+            margin: "0 0 28px",
+            color: ACCENT,
+            fontSize: "24px",
+            letterSpacing: "0.14em",
+            textTransform: "uppercase",
+            fontFamily: MONO,
+          }}
+        >
+          {eyebrow}
+        </p>
+        <p
+          style={{
+            margin: 0,
+            fontSize: "84px",
+            lineHeight: 1.05,
+            letterSpacing: "-0.025em",
+            color: INK,
+            fontWeight: 600,
+            maxWidth: "1000px",
+          }}
+        >
+          {title}
+        </p>
+        <p
+          style={{
+            margin: "36px 0 0",
+            fontSize: "30px",
+            letterSpacing: "0.06em",
+            color: INK_DIM,
+            fontFamily: MONO,
+            maxWidth: "1000px",
+          }}
+        >
+          {sub}
+        </p>
+      </div>
+    </Frame>
+  );
+}
+
 export async function renderOgImage(config: OgConfig) {
   return new ImageResponse(<OgTemplate {...config} />, { ...OG_SIZE, fonts });
 }
 
 export async function renderAppOgImage(config: AppOgConfig) {
   return new ImageResponse(<AppOgTemplate {...config} />, { ...OG_SIZE, fonts });
+}
+
+export async function renderRecipeOgImage(config: RecipeOgConfig) {
+  return new ImageResponse(<RecipeOgTemplate {...config} />, { ...OG_SIZE, fonts });
 }

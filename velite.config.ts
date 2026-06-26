@@ -248,5 +248,20 @@ export default defineConfig({
     const dir = join(process.cwd(), ".velite");
     mkdirSync(dir, { recursive: true });
     writeFileSync(join(dir, "apps-search.json"), JSON.stringify(slim));
+    // Recipes slim index for the client command palette — only the fields the
+    // palette renders/searches, so lib/recipes + the full corpus never reach the
+    // client. (Recipe detail/SEO read the full @/.velite at build; the palette
+    // imports this small slice.) Archived recipes are filtered in the palette via
+    // `status`; "stale" stays browsable.
+    const recipesSlim = recipes.map((r) => ({
+      slug: r.slug,
+      title: r.title,
+      goal: r.goal,
+      audience: r.audience,
+      tags: r.tags ?? [],
+      stepCount: r.steps.length,
+      status: r.status ?? "active",
+    }));
+    writeFileSync(join(dir, "recipes-search.json"), JSON.stringify(recipesSlim));
   },
 });

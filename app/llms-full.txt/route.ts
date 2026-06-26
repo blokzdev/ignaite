@@ -4,6 +4,7 @@ import { siteUrl } from "@/lib/seo";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { CAPABILITY_FAMILY_LABEL } from "@/lib/tools/capability-families";
 import { capabilityIndex } from "@/lib/tools/capability-stats";
+import { listRecipes } from "@/lib/recipes";
 import { APP_CATEGORIES } from "@/types/app";
 import { PRICING_LABEL } from "@/lib/tools/app-labels";
 
@@ -44,6 +45,31 @@ listed under every capability it carries.
 
 ${capSections.join("\n\n")}`;
 
+  // Curated recipes — each linearized: goal, audience, the ordered steps (app +
+  // capability + action), and the independent references. The agent-facing
+  // workflow payload (the true graph also lives in feed.json's _ignaite.recipes).
+  const appNameBySlug = new Map(apps.map((a) => [a.slug, a.name] as const));
+  const recipeBlocks = listRecipes({ includeStale: true }).map((r) => {
+    const stepLines = r.steps
+      .map((s, i) => {
+        const name = appNameBySlug.get(s.appSlug) ?? s.appSlug;
+        const cap = s.capability ? ` [${s.capability}]` : "";
+        return `${i + 1}. ${name} (${s.appSlug})${cap} — ${s.action}`;
+      })
+      .join("\n");
+    const refLines = r.references
+      .map((ref) => `- [${ref.title}](${ref.url})${ref.source ? ` (${ref.source})` : ""}`)
+      .join("\n");
+    const stale = (r.status ?? "active") === "stale" ? " [STALE]" : "";
+    return `### ${r.title}${stale}\n\n**Goal:** ${r.goal}\n**Audience:** ${r.audience}\n\n${stepLines}\n\n**References:**\n${refLines}`;
+  });
+  const recipeSection = `## Recipes (workflows)
+
+Curated, verified workflows over listed apps — each a linear chain of steps that
+accomplishes one real job. ${recipeBlocks.length} recipes.
+
+${recipeBlocks.join("\n\n")}`;
+
   const body = `# ${brand.name} — all listings
 
 > ${brand.tagline}
@@ -55,6 +81,8 @@ task capabilities, pros/cons, alternatives, references, and a dated change histo
 ${sections.join("\n\n")}
 
 ${capabilitySection}
+
+${recipeSection}
 `;
 
   return new Response(body, {

@@ -10,6 +10,7 @@ import { Masthead } from "@/components/detail/masthead";
 import { StatStrip } from "@/components/detail/stat-strip";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Capabilities } from "@/components/tools/capabilities";
+import { RecipesRail } from "@/components/tools/recipes-rail";
 import { RelatedRail } from "@/components/tools/related-rail";
 import { ShowMore } from "@/components/tools/show-more";
 import { ToolCard } from "@/components/tools/tool-card";
@@ -138,6 +139,10 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
 
           {/* Capabilities — the task fingerprint (what it does), grouped by family. */}
           <Capabilities ids={app.capabilities?.map((c) => c.id) ?? []} />
+
+          {/* Recipes that chain this app — the reverse FK rail (AE). Renders null
+              when the app appears in no browsable recipe. */}
+          <RecipesRail appSlug={app.slug} />
 
           {/* Trade-offs — the honest, balanced read. */}
           {((app.pros && app.pros.length > 0) || (app.cons && app.cons.length > 0)) && (

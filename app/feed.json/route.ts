@@ -4,6 +4,7 @@ import { siteUrl } from "@/lib/seo";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { capabilityList } from "@/lib/tools/capability-stats";
 import { recentApps } from "@/lib/tools/filter-apps";
+import { listRecipes } from "@/lib/recipes";
 
 // /feed.json — JSON Feed 1.1 (jsonfeed.org) of the 50 newest active listings,
 // in accession (addedSeq) order: the subscribe surface for the weekly
@@ -41,10 +42,25 @@ export function GET(): Response {
     items,
     // JSON-Feed extension (consumers ignore unknown `_`-prefixed keys): the full
     // capability → app-slug index (the WHAT axis, all leaves, desc by count) so an
-    // agent can resolve "apps that do X" in one fetch. `items` stays the newest-50
-    // subscribe surface.
+    // agent can resolve "apps that do X" in one fetch, plus the curated recipe
+    // graph (ordered app chains). `items` stays the newest-50 subscribe surface.
     _ignaite: {
       capabilities: capabilityList(apps),
+      // Curated workflows over listed apps — the agent-facing graph payload
+      // (ordered steps, each an app + the capability it performs). Build-resolved.
+      recipes: listRecipes({ includeStale: true }).map((r) => ({
+        slug: r.slug,
+        url: `${siteUrl}/recipes/${r.slug}`,
+        title: r.title,
+        goal: r.goal,
+        audience: r.audience,
+        ...((r.status ?? "active") !== "active" ? { status: r.status } : {}),
+        steps: r.steps.map((s) => ({
+          appSlug: s.appSlug,
+          ...(s.capability ? { capability: s.capability } : {}),
+          action: s.action,
+        })),
+      })),
     },
   };
 

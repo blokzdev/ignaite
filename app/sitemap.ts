@@ -3,6 +3,7 @@ import { apps } from "@/.velite";
 import { siteUrl } from "@/lib/seo";
 import { activeCategoryApps, categoryLastVerified } from "@/lib/tools/category-stats";
 import { comparisonHref, comparisonPairs } from "@/lib/tools/comparisons";
+import { listRecipes } from "@/lib/recipes";
 import { categoryHref } from "@/lib/tools/facet-links";
 import { APP_CATEGORIES } from "@/types/app";
 
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: siteUrl, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${siteUrl}/categories`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/compare`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${siteUrl}/recipes`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${siteUrl}/insights`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${siteUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${siteUrl}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.5 },
@@ -46,7 +48,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     };
   });
+  // Recipe pages — one per browsable (active|stale) recipe; archived excluded by
+  // listRecipes(). Editorial, not core: priority 0.6, monthly. Freshness:
+  // lastVerifiedAt > addedAt > now.
+  const recipeRoutes: MetadataRoute.Sitemap = listRecipes({ includeStale: true }).map((r) => ({
+    url: `${siteUrl}/recipes/${r.slug}`,
+    lastModified: r.lastVerifiedAt
+      ? new Date(r.lastVerifiedAt)
+      : r.addedAt
+        ? new Date(r.addedAt)
+        : now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
   // Portfolio (/portfolio/<slug>) is dormant — unpublished while the studio
   // refocuses on the AI-apps directory. Re-add when it's revived.
-  return [...staticRoutes, ...categoryRoutes, ...appRoutes, ...compareRoutes];
+  return [...staticRoutes, ...categoryRoutes, ...appRoutes, ...compareRoutes, ...recipeRoutes];
 }
