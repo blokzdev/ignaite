@@ -2,6 +2,7 @@ import { apps } from "@/.velite";
 import { brand } from "@/data/brand";
 import { siteUrl } from "@/lib/seo";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
+import { capabilityList } from "@/lib/tools/capability-stats";
 import { recentApps } from "@/lib/tools/filter-apps";
 
 // /feed.json — JSON Feed 1.1 (jsonfeed.org) of the 50 newest active listings,
@@ -38,6 +39,13 @@ export function GET(): Response {
     favicon: `${siteUrl}/icon.svg`,
     language: "en",
     items,
+    // JSON-Feed extension (consumers ignore unknown `_`-prefixed keys): the full
+    // capability → app-slug index (the WHAT axis, all leaves, desc by count) so an
+    // agent can resolve "apps that do X" in one fetch. `items` stays the newest-50
+    // subscribe surface.
+    _ignaite: {
+      capabilities: capabilityList(apps),
+    },
   };
 
   return new Response(JSON.stringify(feed, null, 2), {

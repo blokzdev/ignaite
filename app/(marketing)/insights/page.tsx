@@ -70,6 +70,13 @@ const coverageNote = (recorded: number, total: number, field: string): string =>
     (recorded / total) * 100,
   )}%) — the rest are shown as unrecorded, never assumed.`;
 
+// Capabilities are multi-valued, so there's no "unrecorded" slice to show; the
+// honest figure is how many listings carry any capability at all.
+const capabilityCoverageNote = (enriched: number, total: number): string =>
+  `Capabilities recorded for ${enriched.toLocaleString()} of ${total.toLocaleString()} listings (${Math.round(
+    (enriched / total) * 100,
+  )}%) — the rest carry none yet, never assumed.`;
+
 export default function InsightsPage() {
   const s = directoryStats();
 
@@ -193,6 +200,24 @@ export default function InsightsPage() {
                 <BarChart slices={c.categories} total={s.categories.total} />
               </div>
             ))}
+          </div>
+        </section>
+
+        <section aria-labelledby="capabilities" className="mt-12">
+          <h2
+            id="capabilities"
+            className="text-display text-2xl tracking-[-0.02em] text-[var(--color-ink)] sm:text-3xl"
+          >
+            Capability coverage
+          </h2>
+          <p className="mt-2 max-w-[68ch] text-sm leading-relaxed text-[var(--color-ink-dim)]">
+            By task capability, grouped into {s.capabilities.families.length} families. A listing
+            carries up to 6 capabilities, so these bars sum above the listing total — each is the
+            share of listings with at least one capability in that family.{" "}
+            {capabilityCoverageNote(s.capabilities.enriched, s.capabilities.total)}
+          </p>
+          <div className="mt-6">
+            <BarChart slices={s.capabilities.families} total={s.capabilities.total} />
           </div>
         </section>
 
