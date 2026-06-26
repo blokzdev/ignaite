@@ -1,0 +1,49 @@
+import { Check } from "lucide-react";
+import type { ReactElement } from "react";
+import { cn } from "@/lib/utils";
+import { CAPABILITY_LABEL } from "@/lib/tools/capability-labels";
+import {
+  CAPABILITY_FAMILY,
+  CAPABILITY_FAMILY_TONE,
+  type CapabilityTone,
+} from "@/lib/tools/capability-families";
+import type { AppCapability } from "@/types/app";
+
+// Canonical chip tone → Tailwind classes (soft tint + tone-coloured text + inset
+// ring) — the SINGLE source shared by the detail page (AC-1 `capabilities.tsx`),
+// the /compare overlap row, and the comparison verdict, so "same family = same
+// hue" holds everywhere a capability chip appears.
+export const CAPABILITY_TONE_CHIP: Record<CapabilityTone, string> = {
+  accent:
+    "bg-[var(--color-accent)]/[0.09] text-[var(--color-accent)] ring-[var(--color-accent)]/25",
+  violet:
+    "bg-[var(--color-violet)]/[0.12] text-[var(--color-violet)] ring-[var(--color-violet)]/25",
+  flame: "bg-[var(--color-flame)]/[0.10] text-[var(--color-flame)] ring-[var(--color-flame)]/25",
+  // Vertical (mint) carries a hair more fill + ring than the others so it reads as
+  // its own cluster beside the cyan Build chips (mint and cyan are close hues).
+  success:
+    "bg-[var(--color-success)]/[0.14] text-[var(--color-success)] ring-[var(--color-success)]/35",
+  warn: "bg-[var(--color-warn)]/[0.10] text-[var(--color-warn)] ring-[var(--color-warn)]/25",
+};
+
+// One capability leaf as a tone-tinted pill. Tone derives from the leaf's family,
+// so callers pass only the id. `shared` marks a leaf present on BOTH sides of a
+// comparison (a Check glyph + a heavier ring). Pure RSC, no client JS.
+export function CapabilityChip({
+  id,
+  shared = false,
+}: Readonly<{ id: AppCapability; shared?: boolean }>): ReactElement {
+  const tone = CAPABILITY_FAMILY_TONE[CAPABILITY_FAMILY[id]];
+  return (
+    <span
+      className={cn(
+        "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[12px] font-medium break-words ring-1 ring-inset",
+        CAPABILITY_TONE_CHIP[tone],
+        shared && "ring-2",
+      )}
+    >
+      {shared ? <Check aria-hidden className="h-3 w-3 shrink-0" /> : null}
+      {CAPABILITY_LABEL[id]}
+    </span>
+  );
+}

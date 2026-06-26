@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { ArrowRight, Check, Minus } from "lucide-react";
 import { GlowOrb } from "@/components/effects/glow-orb";
 import { JsonLd } from "@/components/seo/json-ld";
+import { CapabilityChip } from "@/components/tools/capability-chip";
+import { ComparisonVerdict } from "@/components/tools/comparison-verdict";
 import { buildMetadata, siteUrl } from "@/lib/seo";
 import {
   DEPLOYMENT_LABEL,
@@ -16,7 +18,10 @@ import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { categoryHref } from "@/lib/tools/facet-links";
 import { LICENSE_LABEL, licenseSignal } from "@/lib/tools/license";
 import { comparisonHref, comparisonPairs, getComparison } from "@/lib/tools/comparisons";
-import type { App } from "@/types/app";
+import { computeCapabilityOverlap } from "@/lib/tools/capability-overlap";
+import { groupCapabilitiesByFamily } from "@/lib/tools/capability-families";
+import { buildComparisonVerdict } from "@/lib/tools/verdict";
+import type { App, AppCapability } from "@/types/app";
 
 interface PageProps {
   params: Promise<{ pair: string }>;
@@ -73,7 +78,26 @@ function buildRows(a: App, b: App): Row[] {
       {CATEGORY_LABEL[x.category]}
     </Link>
   );
-  return [
+  // Capability overlap powers the last row: each cell lists that app's leaves in
+  // canonical family order, leaves shared by BOTH marked (Check + heavier ring).
+  const overlap = computeCapabilityOverlap(a, b);
+  const sharedSet = new Set<AppCapability>(overlap.shared);
+  const capabilitiesCell = (x: App) => {
+    const ids = groupCapabilitiesByFamily((x.capabilities ?? []).map((c) => c.id)).flatMap(
+      (g) => g.ids,
+    );
+    if (ids.length === 0) return "—";
+    return (
+      <ul className="flex flex-wrap gap-1.5">
+        {ids.map((id) => (
+          <li key={id}>
+            <CapabilityChip id={id} shared={sharedSet.has(id)} />
+          </li>
+        ))}
+      </ul>
+    );
+  };
+  const rows: Row[] = [
     {
       label: "Category",
       a: categoryCell(a),
@@ -112,6 +136,18 @@ function buildRows(a: App, b: App): Row[] {
       differs: (a.vendor ?? "") !== (b.vendor ?? ""),
     },
   ];
+  // Omit the row entirely when neither app has capabilities recorded (no empty
+  // "Capabilities · — · —"); when one side is empty, it shows "—".
+  const bothEmpty = (a.capabilities?.length ?? 0) === 0 && (b.capabilities?.length ?? 0) === 0;
+  if (!bothEmpty) {
+    rows.push({
+      label: "Capabilities",
+      a: capabilitiesCell(a),
+      b: capabilitiesCell(b),
+      differs: overlap.aOnly.length > 0 || overlap.bOnly.length > 0,
+    });
+  }
+  return rows;
 }
 
 function AppColumn({ app }: { app: App }) {
@@ -327,6 +363,8 @@ export default async function ComparePage({ params }: PageProps) {
             </div>
           </section>
         ) : null}
+
+        <ComparisonVerdict verdict={buildComparisonVerdict(a, b)} />
 
         <div className="mt-12 flex flex-wrap gap-3">
           <Link

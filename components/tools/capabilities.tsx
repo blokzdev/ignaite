@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import type { ReactElement } from "react";
 import { cn } from "@/lib/utils";
-import { CAPABILITY_LABEL } from "@/lib/tools/capability-labels";
+import { CapabilityChip } from "@/components/tools/capability-chip";
 import {
   CAPABILITY_FAMILY_LABEL,
   CAPABILITY_FAMILY_TONE,
@@ -43,20 +43,6 @@ const FAMILY_ICON: Record<CapabilityFamily, LucideIcon> = {
   gtm: Megaphone,
   vertical: Building2,
   frontier: Atom,
-};
-
-// Chip surface per tone (soft tint + tone-coloured text + inset ring).
-const TONE_CHIP: Record<CapabilityTone, string> = {
-  accent:
-    "bg-[var(--color-accent)]/[0.09] text-[var(--color-accent)] ring-[var(--color-accent)]/25",
-  violet:
-    "bg-[var(--color-violet)]/[0.12] text-[var(--color-violet)] ring-[var(--color-violet)]/25",
-  flame: "bg-[var(--color-flame)]/[0.10] text-[var(--color-flame)] ring-[var(--color-flame)]/25",
-  // Vertical (mint) carries a hair more fill + ring than the others so it reads
-  // as its own cluster beside the cyan Build chips (mint and cyan are close hues).
-  success:
-    "bg-[var(--color-success)]/[0.14] text-[var(--color-success)] ring-[var(--color-success)]/35",
-  warn: "bg-[var(--color-warn)]/[0.10] text-[var(--color-warn)] ring-[var(--color-warn)]/25",
 };
 
 // The family-icon badge: a small tone-tinted square that anchors each row and
@@ -126,14 +112,8 @@ export function Capabilities({
               </div>
               <ul className="flex min-w-0 flex-wrap gap-1.5" aria-label={`${label} capabilities`}>
                 {g.ids.map((id) => (
-                  <li
-                    key={id}
-                    className={cn(
-                      "inline-flex items-center rounded-full px-2.5 py-1 text-[12px] font-medium break-words ring-1 ring-inset",
-                      TONE_CHIP[tone],
-                    )}
-                  >
-                    {CAPABILITY_LABEL[id]}
+                  <li key={id}>
+                    <CapabilityChip id={id} />
                   </li>
                 ))}
               </ul>
