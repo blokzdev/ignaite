@@ -132,11 +132,24 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       _traverses the real graph_ instead of recalling apps (eliminates hallucination at the source).
       Nearly free day-one once the machine surface (`capabilities.json` / llms.txt / function-calling,
       Chunk AC) ships — any LLM can already traverse the graph.
-- [ ] **[verify]** **Edge-model survey for the Tier-1 browser model.** Deep-research deliverable
-      (generated this session): current (2025–2026) sub-1B-param open / permissively-licensed small
-      generative **and** embedding models that run in the browser (WebGPU / `transformers.js` / WebLLM),
-      ranked by quality, license, size, and on-device feasibility for intent→capability matching +
-      recipe narration. Capture the chosen model + rationale here once Tier 1 is scheduled.
+- [ ] **[verify]** **Edge-model survey for the Tier-1 browser model — survey DONE; A/B before committing.**
+      Deep-research (this session: 20 verified primary sources) + direct re-verification of licenses/specs.
+      Picks for the two Spider slots, strict-permissive (Apache-2.0 / MIT) tier:
+  - **Embedding (intent → 155 capability labels):** start with **`bge-small-en-v1.5`** (MIT · 33M · 384d ·
+    ~35MB · `transformers.js`-native) — ample for matching short intent to the 155 _precomputed_ label
+    vectors (you only embed the query at runtime). Upgrade to **`Qwen3-Embedding-0.6B`** (Apache-2.0 ·
+    MTEB Eng-v2 **70.70** / multiling **64.33** · MRL 32–1024d · 32K ctx · ONNX port) if multilingual
+    intent or more headroom is wanted. `all-MiniLM-L6-v2` is the superseded old default — don't start there.
+  - **Generative (recipe narration):** **`SmolLM2-360M-Instruct`** (Apache-2.0 · IFEval 41 ·
+    `transformers.js`-native · 95 quantized variants) — smallest viable narrator. Step up to
+    **`Qwen2.5-0.5B-Instruct`** (Apache-2.0) if narration reads thin.
+  - **License traps flagged (avoid if strict OSI/Apache required):** **EmbeddingGemma-300M** is the best
+    quality-per-byte on-device embedder (QAT + MRL→128d) **but is Gemma license, not Apache**, _and_ has no
+    fp16 (WebGPU must run f32 → bigger/slower); **Gemma-3-270M** = Gemma terms; **Llama-3.2-1B** = Llama
+    Community License _and_ >1B. (The research panel correctly killed a circulating "EmbeddingGemma = Apache-2.0" claim.)
+  - **Before committing:** (1) measure the real INT4/INT8 ONNX **download sizes** (model cards omit MB) to set
+    the browser first-load budget; (2) **A/B `bge-small` vs `Qwen3-Embedding-0.6B` on the actual 155-label set** —
+    if bge-small clears the accuracy bar, the ~10× smaller download wins. Full report in this session's transcript.
 
 ### PWA
 
