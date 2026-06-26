@@ -38,7 +38,7 @@
     "AI actions burn credits; billing surprises",
     "LinkedIn automation in ToS grey area"
   ],
-  "bestFor": ["Lead scraping & enrichment", "GTM/sales workflows", "No-code browser automation"],
+  "bestFor": ["Sales & GTM teams", "RevOps teams", "Solo founders"],
   "alternatives": ["gumloop", "zapier", "make", "skyvern"],
   "references": [
     {
@@ -46,6 +46,23 @@
       "url": "https://reply.io/blog/bardeen-ai-review/",
       "source": "Reply.io",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "outbound-prospecting"
     }
   ]
 }

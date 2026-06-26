@@ -45,11 +45,7 @@
     "Overkill for simple personal automations",
     "Learning curve for advanced recipes"
   ],
-  "bestFor": [
-    "Enterprise IT and ops teams",
-    "System integration at scale",
-    "Agentic process automation"
-  ],
+  "bestFor": ["Enterprise IT and ops teams", "Platform/integration teams", "Large organizations"],
   "alternatives": ["zapier", "make", "n8n", "pipedream"],
   "references": [
     {
@@ -69,6 +65,23 @@
       "url": "https://research.contrary.com/company/workato",
       "source": "Contrary Research",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "mcp-gateway"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

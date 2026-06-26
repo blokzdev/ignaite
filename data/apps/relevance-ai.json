@@ -40,6 +40,26 @@
     "Cloud-only, no self-host",
     "Governance depth still maturing"
   ],
-  "bestFor": ["AI agent teams", "Sales/support automation", "No-code business ops"],
-  "alternatives": ["lindy", "gumloop", "relay-app", "crewai"]
+  "bestFor": ["RevOps & sales teams", "Support teams", "No-code builders"],
+  "alternatives": ["lindy", "gumloop", "relay-app", "crewai"],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "crm-automation"
+    },
+    {
+      "id": "lead-enrichment"
+    },
+    {
+      "id": "outbound-prospecting"
+    }
+  ]
 }

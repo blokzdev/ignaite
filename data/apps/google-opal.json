@@ -43,12 +43,7 @@
     "Availability still limited by country",
     "Not aimed at complex production apps"
   ],
-  "bestFor": [
-    "Prototyping AI workflows",
-    "Marketers & analysts",
-    "No-code builders",
-    "Sharing AI mini-tools"
-  ],
+  "bestFor": ["Marketers & analysts", "No-code builders", "Non-engineers"],
   "alternatives": ["gumloop", "n8n", "lindy", "relay-app"],
   "references": [
     {
@@ -56,6 +51,14 @@
       "url": "https://siliconangle.com/2025/07/25/google-debuts-no-code-opal-tool-building-ai-mini-apps/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

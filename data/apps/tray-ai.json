@@ -16,9 +16,19 @@
   },
   "tags": ["ipaas", "integration", "ai-agents", "mcp", "automation"],
   "links": [
-    { "kind": "website", "url": "https://tray.ai", "primary": true },
-    { "kind": "docs", "url": "https://developer.tray.io" },
-    { "kind": "pricing", "url": "https://tray.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://tray.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://developer.tray.io"
+    },
+    {
+      "kind": "pricing",
+      "url": "https://tray.ai/pricing"
+    }
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 985,
@@ -35,10 +45,17 @@
     "Overkill for simple personal automations",
     "Steeper learning curve than no-code rivals"
   ],
-  "bestFor": [
-    "Enterprise integration teams",
-    "Governed AI agent rollouts",
-    "Replacing legacy iPaaS"
-  ],
-  "alternatives": ["n8n", "make", "zapier", "workato"]
+  "bestFor": ["Enterprise integration teams", "Platform & IT teams"],
+  "alternatives": ["n8n", "make", "zapier", "workato"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "mcp-gateway"
+    }
+  ]
 }

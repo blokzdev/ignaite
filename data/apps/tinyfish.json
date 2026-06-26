@@ -22,7 +22,13 @@
     "enterprise",
     "data-extraction"
   ],
-  "links": [{ "kind": "website", "url": "https://www.tinyfish.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tinyfish.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-21",
   "addedSeq": 995,
   "lastVerifiedAt": "2026-06-21",
@@ -34,11 +40,7 @@
     "Founded by experienced operators"
   ],
   "cons": ["Enterprise-oriented", "Pricing tiers not fully clear", "Young company (launched 2025)"],
-  "bestFor": [
-    "Enterprise web automation",
-    "Market and price intelligence",
-    "Large-scale data aggregation"
-  ],
+  "bestFor": ["Enterprise data teams", "Market intelligence teams"],
   "alternatives": ["skyvern", "browser-use", "firecrawl", "browserbase"],
   "references": [
     {
@@ -52,6 +54,17 @@
       "url": "https://www.unite.ai/tinyfish-raises-47m-series-a-to-power-the-next-wave-of-enterprise-web-agents/",
       "source": "Unite.AI",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

@@ -44,6 +44,20 @@
     "Cloud-hosted; limited self-host",
     "Usage-based credits can be opaque"
   ],
-  "bestFor": ["Developers", "API-glue workflows", "Agent tool access"],
-  "alternatives": ["zapier", "make", "n8n", "activepieces"]
+  "bestFor": ["Developers", "API integrators", "Product engineers"],
+  "alternatives": ["zapier", "make", "n8n", "activepieces"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "code-execution"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

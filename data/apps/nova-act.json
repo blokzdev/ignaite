@@ -17,9 +17,19 @@
   "accentColor": "#FF9900",
   "tags": ["browser-agent", "ui-automation", "aws", "sdk"],
   "links": [
-    { "kind": "website", "url": "https://aws.amazon.com/nova/act/", "primary": true },
-    { "kind": "demo", "url": "https://nova.amazon.com/act" },
-    { "kind": "github", "url": "https://github.com/aws/nova-act" }
+    {
+      "kind": "website",
+      "url": "https://aws.amazon.com/nova/act/",
+      "primary": true
+    },
+    {
+      "kind": "demo",
+      "url": "https://nova.amazon.com/act"
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/aws/nova-act"
+    }
   ],
   "addedAt": "2026-06-21",
   "addedSeq": 1000,
@@ -37,7 +47,7 @@
     "Usage-based pricing at production scale",
     "Several founding Adept leads have since left"
   ],
-  "bestFor": ["Browser automation at scale", "AWS teams", "UI-workflow agents"],
+  "bestFor": ["AWS developers", "Enterprise platform teams"],
   "alternatives": ["browser-use", "skyvern", "stagehand", "browserbase"],
   "references": [
     {
@@ -51,6 +61,17 @@
       "url": "https://www.geekwire.com/2026/head-of-amazons-agi-lab-is-leaving-in-latest-exit-from-high-profile-adept-deal/",
       "source": "GeekWire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "schema-extraction"
     }
   ]
 }

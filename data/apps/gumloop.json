@@ -45,6 +45,20 @@
     "Ecosystem still maturing",
     "Less mature error handling than Make"
   ],
-  "bestFor": ["Growth teams", "AI-heavy automations"],
-  "alternatives": ["zapier", "make", "n8n", "lindy"]
+  "bestFor": ["Growth teams", "Ops teams", "Non-technical builders"],
+  "alternatives": ["zapier", "make", "n8n", "lindy"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

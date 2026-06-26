@@ -45,7 +45,7 @@
     "Fewer integrations than Zapier",
     "Cloud-only (no self-host)"
   ],
-  "bestFor": ["Power users", "Multi-step workflows", "Branchy automations"],
+  "bestFor": ["Automation power users", "Ops & marketing teams"],
   "alternatives": ["zapier", "n8n", "activepieces", "pipedream"],
   "references": [
     {
@@ -53,6 +53,11 @@
       "url": "https://www.digidop.com/blog/n8n-vs-make-vs-zapier",
       "source": "Digidop",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
     }
   ]
 }

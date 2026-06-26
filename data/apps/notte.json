@@ -42,6 +42,23 @@
     "Serverless deployment"
   ],
   "cons": ["SSPL license, not true OSI open source", "Young (YC 2025)", "Python-centric"],
-  "bestFor": ["Developers building web agents", "Browser automation at scale", "Agentic workflows"],
-  "alternatives": ["browser-use", "browserbase", "stagehand", "skyvern"]
+  "bestFor": ["Developers", "Python engineers", "AI agent builders"],
+  "alternatives": ["browser-use", "browserbase", "stagehand", "skyvern"],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

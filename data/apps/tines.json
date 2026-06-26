@@ -40,6 +40,11 @@
     "Smaller app-connector library than Zapier",
     "Enterprise pricing is opaque"
   ],
-  "bestFor": ["Security and IT teams", "SOAR / incident response", "Governed AI automation"],
-  "alternatives": ["zapier", "make", "n8n", "skyvern"]
+  "bestFor": ["Security & IT teams", "SOC analysts", "Governance-minded teams"],
+  "alternatives": ["zapier", "make", "n8n", "skyvern"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

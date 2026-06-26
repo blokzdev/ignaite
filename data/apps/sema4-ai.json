@@ -36,7 +36,7 @@
     "New company (out of stealth 2024)",
     "Best fit for large enterprises"
   ],
-  "bestFor": ["Enterprise back-office ops", "Finance & procurement teams", "Snowflake users"],
+  "bestFor": ["Enterprise back-office ops", "Finance & procurement teams", "Snowflake shops"],
   "alternatives": ["relevance-ai", "lindy"],
   "references": [
     {
@@ -50,6 +50,26 @@
       "url": "https://www.pymnts.com/news/investment-tracker/2024/sema4-ai-secures-30-5-million-to-bring-ai-to-enterprise-work/",
       "source": "PYMNTS",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "financial-close"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "agent-memory"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }
