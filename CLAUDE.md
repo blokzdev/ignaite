@@ -425,10 +425,19 @@ encode the flow (see `docs/directory-playbook.md`):
   `changelog` (`restepped`/`updated`/…) on a substantive change. Opens a PR + **squash auto-merge** on
   green (fire-and-forget, like `/audit-directory` — it re-verifies trusted data, not net-new content).
   Run ~biweekly.
+- **`/level-capabilities [category]`** — **finite campaign** (Chunk AF-2): backfill each capability's
+  **`level`** (`primary` = the 1–2 headline jobs the app is built around; `secondary` = supporting;
+  default `secondary` when uncertain) across one **category** per run, via fanned-out web-verified
+  leveling agents + an adversarial primary-inflation audit. Enrichment-only — touches only
+  `capabilities[].level` (+ rare web-confirmed cap adds), **never `lastVerifiedAt`/`changelog`** (per the
+  AB capability-population precedent). Opens a PR + **squash auto-merge** on green (fire-and-forget).
+  **No-ops once every active listing is leveled** — then `/add-app` (authors levels at creation) +
+  `/audit-directory` (re-verifies them) keep the axis leveled without it.
 
 Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biweekly via Claude Code
 **Routines** (account-owned — the user sets them up; they open PRs for review). Schedule `/author-recipes`
-weekly and `/audit-recipes` biweekly the same way. Exact routine prompts: `docs/directory-playbook.md`
+weekly and `/audit-recipes` biweekly the same way; run `/level-capabilities` on a schedule until the
+campaign drains (~42 categories), then disable it. Exact routine prompts: `docs/directory-playbook.md`
 and the command files in `.claude/commands/`.
 
 ### Add a new workflow stage

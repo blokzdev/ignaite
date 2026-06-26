@@ -125,19 +125,22 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       (auto-merge) routines. **Don't market "fewer signups / swap for free" until the rail is live** — it
       now is, framed honestly as "ranked by license, cost, and platform footprint" (capability-fit added
       to the framing once leveling coverage climbs).
-- [ ] **[future]** **Chunk AF-2 — the `level` backfill campaign (founder-directed: full web-verify, via
-      Ultracode parallel workflows).** Populate `capabilities[].level` (primary "best for" / secondary
-      "can be used for") across the corpus — **3,652 capability entries / 1,015 apps, 0 currently
-      leveled**. Founder chose a **full web-verify** campaign (not the cheaper heuristic) run **after the
-      engine shipped (AF-1, done)**, as an AB-style parallel-agent fan-out (cluster PRs). **MUST NOT bump
-      `lastVerifiedAt` and MUST NOT append a per-app `changelog`** (it's an enrichment campaign, same class
-      as the AB id backfill — not a re-verification; matches the AB precedent). Each cluster independently
-      mergeable; a stalled campaign never blocks the (already-shipped) engine. As coverage climbs, the
-      engine's ranking sharpens automatically and the public framing gains "…and capability fit". Founder
-      also asked to **fold two things into the same web-verify pass** (agents are already on the vendor's
-      docs): (a) **add genuinely-missing capabilities** per app (still ≤6 cap, strongest-first) with their
-      `level`; (b) see the leaf-granularity item below for the compound-capability split — **decoupled, do
-      that FIRST** so we don't level a leaf we're about to split.
+- [~] **[future]** **Chunk AF-2 — the `level` backfill campaign 🟦 IN PROGRESS** (founder-directed: full
+  web-verify, via Ultracode parallel workflows). Populate `capabilities[].level` (primary = the 1–2
+  headline jobs the app is built around / secondary = supporting) across the corpus — **~3,650
+  capability entries / 1,015 apps**. Founder chose a **full web-verify** campaign (not the cheaper
+  heuristic) run **after the engine shipped (AF-1, done)**, as an AB-style parallel-agent fan-out
+  (per-category PRs). **MUST NOT bump `lastVerifiedAt` and MUST NOT append a per-app `changelog`** (an
+  enrichment campaign, same class as the AB id backfill — not a re-verification). **Mechanism shipped
+  (#359):** the **`/level-capabilities [category]` routine** (`.claude/commands/level-capabilities.md`)
+  does one category per run — fan-out leveling agents → adversarial **primary-inflation** audit →
+  `apply-levels` → PR + squash auto-merge — and **no-ops once every active listing is leveled**.
+  `/add-app` (authors `level` at creation) + `/audit-directory` (re-verifies it) are now level-aware,
+  so the axis stays leveled after the campaign drains. **Done so far:** the **`agent`-category pilot,
+  43 apps** (116 primary / 67 secondary, ~63% primary — rubric locked). **Remaining:** ~41 categories
+  / ~972 apps, rolled by a scheduled cron (each its own reversible PR). Fold-in: agents **add
+  genuinely-missing capabilities** (≤6 cap, web-verified) on the same docs visit. **Close this item
+  when the campaign drains** (the routine self-reports "DONE — every active listing is fully leveled").
 - [x] **[future]** **Chunk AH — capability-leaf granularity split — ✅ DONE** (#358). Founder-directed
       first cut: split the 2 highest-confidence compound leaves — **`document-extraction` → `ocr-extraction` + `document-parsing`** and **`workflow-automation` → `workflow-orchestration` + `automation-trigger`**
       — additively (enum + label + family, all completeness-compile-checked; synonym aliases re-pointed),
@@ -148,7 +151,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       cruft; the enum removal then **hard-fails** any app left behind, so it's the completeness guard for
       free). 0 recipe steps used the split leaves. The free-form `tags` "workflow-automation"/"document-
       extraction" were left (valid search terms, not capability ids). **Deferred** (red-team cut): `speech-
-  to-text`/`summarization`/`document-qa`/`eval-suite` (axes already covered by existing leaves), and
+to-text`/`summarization`/`document-qa`/`eval-suite` (axes already covered by existing leaves), and
       `app-builder` (medium-confidence fast-follow). AH landed **before AF-2**, so leveling operates on the
       final vocabulary.
 - [ ] **[future]** **AH-bis — `app-builder` split (fast-follow, optional).** The deferred close-call from

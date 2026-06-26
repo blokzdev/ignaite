@@ -39,9 +39,13 @@ For each entry in scope:
     **`deployment`** correct (`cloud`/`self-host`/`local`/`hybrid`, where it's a real axis).
   - **Platforms** + **model support** still accurate (new mobile app? dropped a platform? model rename?).
   - **`capabilities` still accurate** — each listed leaf `id` is still a _confirmed shipping feature_
-    (vendor dropped one? a genuinely new shipping feature to add?). ids only; web-verify-or-omit, the same
+    (vendor dropped one? a genuinely new shipping feature to add?). web-verify-or-omit, the same
     bar as `insight` — never inferred from the name/category/our prose; if no leaf fits a real feature,
-    omit rather than near-miss-map. Cap 6; dup ids hard-fail the build.
+    omit rather than near-miss-map. Cap 6; dup ids hard-fail the build. Each entry also carries a
+    **`level`** (`primary` = the 1–2 headline jobs the app is built around; `secondary` = supporting):
+    set it on any unleveled cap (the `/level-capabilities` campaign backfills older listings, but fix an
+    obviously-wrong level here too), defaulting `secondary` when uncertain. A pure level fix is enrichment
+    — like a first-time `capabilities` backfill, it bumps `lastVerifiedAt` but writes **no** `changelog`.
   - **`bestFor` is persona/audience only** — WHO it's for, not WHAT it does. If an older entry still
     carries task phrases ("Contract review"), move them into `capabilities` and leave only the audience.
   - **Still operating** — not shut down, sunset, or fully absorbed into another product.
