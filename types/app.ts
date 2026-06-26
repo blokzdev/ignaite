@@ -266,6 +266,8 @@ export const APP_CAPABILITIES = [
   "mcp-server",
   "mcp-gateway",
   "workflow-automation",
+  "workflow-orchestration",
+  "automation-trigger",
   "browser-automation",
   "web-scraping",
   "voice-agent",
@@ -295,6 +297,8 @@ export const APP_CAPABILITIES = [
   "recommendation",
   // data pipeline, extraction & app building
   "document-extraction",
+  "ocr-extraction",
+  "document-parsing",
   "data-labeling",
   "etl-pipeline",
   "app-deployment",

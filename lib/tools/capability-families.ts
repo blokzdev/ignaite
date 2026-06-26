@@ -96,6 +96,8 @@ export const CAPABILITY_FAMILY: Record<AppCapability, CapabilityFamily> = {
   "mcp-server": "agents",
   "mcp-gateway": "agents",
   "workflow-automation": "agents",
+  "workflow-orchestration": "agents",
+  "automation-trigger": "agents",
   "browser-automation": "agents",
   "web-scraping": "agents",
   "voice-agent": "agents",
@@ -125,6 +127,8 @@ export const CAPABILITY_FAMILY: Record<AppCapability, CapabilityFamily> = {
   recommendation: "retrieval",
   // data pipeline, extraction & app building
   "document-extraction": "data-apps",
+  "ocr-extraction": "data-apps",
+  "document-parsing": "data-apps",
   "data-labeling": "data-apps",
   "etl-pipeline": "data-apps",
   "app-deployment": "data-apps",
