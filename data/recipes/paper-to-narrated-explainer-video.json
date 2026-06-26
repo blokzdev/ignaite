@@ -1,0 +1,61 @@
+{
+  "slug": "paper-to-narrated-explainer-video",
+  "title": "From research paper to narrated explainer video",
+  "goal": "Turn a dense academic paper into a short, narrated, captioned explainer video.",
+  "audience": "science communicators and educators",
+  "summary": "Chain a paper-finder, a summarizer, a voice, an avatar, and a captioner to take a dense study from PDF to a short, narrated, captioned explainer clip — verifying the script before you ever spend credits on voice or video.",
+  "longSummary": "The hard part of \"paper to video\" isn't the video — it's not garbling the science along the way, because an error baked into rendered audio or a finished avatar clip is painfully expensive to fix. This recipe front-loads accuracy: Undermind first runs a citation-chasing search to surface the actually-relevant paper(s), Elicit condenses those findings into a tight, plain-language explainer script you can read and correct, and only then does the media pipeline begin — ElevenLabs voices the *finalized* script, HeyGen turns that script-plus-voice into a talking-head avatar clip, and Submagic burns in social-ready captions. Each output is the next step's literal input: paper → script → voiceover → avatar video → captioned cut. The decisive move is treating the script as the verification gate — lock and fact-check it before step 3, because regenerating a HeyGen avatar render or re-voicing a wrong number costs credits and time, whereas editing text is free. It breaks down on papers whose core contribution is a proof or a single figure (a talking head can't carry a diagram — add a screen-share or B-roll for those), and on very new papers that the discovery step hasn't indexed yet, in which case you summarize from the PDF directly.",
+  "prerequisites": [
+    "An arXiv or PDF link to the source paper",
+    "Accounts for each app in the chain",
+    "A target length and audience for the final clip"
+  ],
+  "tags": ["research", "science-communication", "video", "voiceover", "captions", "explainer"],
+  "steps": [
+    {
+      "appSlug": "undermind",
+      "capability": "literature-search",
+      "action": "Pose your topic as a natural-language question; let the agent search, read, and rank the most relevant paper(s) along citation trails.",
+      "rationale": "Picking the right paper up front is the whole game — its citation-chasing search surfaces the genuinely relevant study a keyword search would miss, so the explainer is built on real literature."
+    },
+    {
+      "appSlug": "elicit",
+      "capability": "summarization",
+      "action": "Summarize the chosen paper's contribution, headline result, and one limitation into a tight, plain-language explainer script.",
+      "rationale": "Elicit summarizes paper takeaways against your specific question with sentence-level citations, so the script you hand to the voice step is condensed yet traceable — not a vibe-based rewrite."
+    },
+    {
+      "appSlug": "elevenlabs",
+      "capability": "text-to-speech",
+      "action": "Synthesize the finalized, fact-checked script into a natural-sounding voiceover narration.",
+      "rationale": "Best-in-class TTS naturalness is what makes the explainer listenable rather than robotic; doing it after the script is locked means you only ever voice verified copy, never a draft."
+    },
+    {
+      "appSlug": "heygen",
+      "capability": "text-to-video",
+      "action": "Feed the script and the ElevenLabs voiceover into HeyGen to render a lip-synced talking-head avatar explainer video.",
+      "rationale": "HeyGen turns a script-plus-voice into a finished presenter clip with lip-sync, giving the explainer a face and pacing without a camera, studio, or editor."
+    },
+    {
+      "appSlug": "submagic",
+      "capability": "subtitle-generation",
+      "action": "Upload the rendered video to auto-generate and burn in styled captions sized for TikTok, Reels, and Shorts.",
+      "rationale": "Most social viewers watch muted, so burned-in captions are non-optional for reach; Submagic auto-captions in dozens of languages and formats the cut for vertical feeds in one pass."
+    }
+  ],
+  "references": [
+    {
+      "title": "Generate AI avatar videos from scripts using ElevenLabs and HeyGen (n8n workflow template)",
+      "url": "https://n8n.io/workflows/11895-generate-ai-avatar-videos-from-scripts-using-elevenlabs-and-heygen/",
+      "source": "n8n"
+    },
+    {
+      "title": "Submagic Review 2026: Best AI Caption Generator?",
+      "url": "https://max-productive.ai/ai-tools/submagic/",
+      "source": "Max Productive"
+    }
+  ],
+  "addedSeq": 1,
+  "addedAt": "2026-06-26",
+  "lastVerifiedAt": "2026-06-26"
+}
