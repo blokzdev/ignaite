@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ReactElement } from "react";
-import { GitBranch, GitMerge, Repeat } from "lucide-react";
+import { ChevronDown, GitBranch, GitMerge, Repeat, Replace } from "lucide-react";
 import { CapabilityChip } from "@/components/tools/capability-chip";
 import { getApp } from "@/lib/apps";
 import {
@@ -8,6 +8,12 @@ import {
   recipeExecutionOrder,
   type OrderedStep,
 } from "@/lib/tools/recipe-graph";
+import {
+  substituteCount,
+  substitutesForStep,
+  type Substitute,
+} from "@/lib/tools/recipe-substitution";
+import type { AppCapability } from "@/types/app";
 import type { Recipe } from "@/types/recipe";
 
 // The recipe step walkthrough as a pure-CSS FLOW (Chunk AG). It IS a semantic
@@ -120,7 +126,68 @@ function StepBlock({
             Repeat from step {(posById.get(step.loop.backTo) ?? 0) + 1} until {step.loop.until}
           </p>
         ) : null}
+        {step.capability ? <SwapRail appSlug={step.appSlug} capability={step.capability} /> : null}
       </div>
     </div>
+  );
+}
+
+// The "Swap this step" rail (Chunk AF) — listed alternatives that cover the same
+// capability, ranked cheaper/opener/simpler by the deterministic substitution
+// engine. Collapsed by default (native <details>, 0 B JS) to keep the walkthrough
+// clean; renders nothing when no other listed app covers the capability.
+function SwapRail({
+  appSlug,
+  capability,
+}: Readonly<{ appSlug: string; capability: AppCapability }>): ReactElement | null {
+  const subs = substitutesForStep(appSlug, capability, 5);
+  if (subs.length === 0) return null;
+  const total = substituteCount(appSlug, capability);
+
+  return (
+    <details className="group mt-3">
+      <summary className="inline-flex cursor-pointer list-none items-center gap-1.5 rounded font-mono text-[10px] tracking-[0.12em] text-[var(--color-ink-dim)] uppercase transition-colors hover:text-[var(--color-ink)] focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none">
+        <Replace aria-hidden className="h-3.5 w-3.5" />
+        Swap this step
+        <span className="text-[var(--color-ink-dim)]/70">({total})</span>
+        <ChevronDown aria-hidden className="h-3 w-3 transition-transform group-open:rotate-180" />
+      </summary>
+      <ul className="mt-2.5 flex flex-col gap-2 border-l border-white/[0.08] pl-3.5">
+        {subs.map((s) => (
+          <SubstituteRow key={s.app.slug} sub={s} />
+        ))}
+      </ul>
+      <p className="mt-2 pl-3.5 font-mono text-[10px] text-[var(--color-ink-dim)]">
+        {total > subs.length ? `Top ${subs.length} of ${total} · ` : ""}ranked by license, cost, and
+        platform footprint
+      </p>
+    </details>
+  );
+}
+
+function SubstituteRow({ sub }: Readonly<{ sub: Substitute }>): ReactElement {
+  return (
+    <li className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+      <Link
+        href={`/apps/${sub.app.slug}`}
+        className="rounded text-sm text-[var(--color-ink)] underline-offset-4 hover:text-[var(--color-accent)] hover:underline focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
+      >
+        {sub.app.name}
+      </Link>
+      {sub.reasons.length > 0 ? (
+        <span className="font-mono text-[11px] text-[var(--color-ink-dim)]">
+          {sub.reasons.join(" · ")}
+        </span>
+      ) : null}
+      {sub.fit === "primary" ? (
+        <span className="rounded-full bg-[var(--color-success)]/[0.12] px-1.5 py-0.5 text-[10px] text-[var(--color-success)]">
+          best for this
+        </span>
+      ) : sub.fit === "secondary" ? (
+        <span className="rounded-full bg-white/[0.05] px-1.5 py-0.5 text-[10px] text-[var(--color-ink-dim)]">
+          can also do this
+        </span>
+      ) : null}
+    </li>
   );
 }

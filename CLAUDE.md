@@ -413,10 +413,23 @@ encode the flow (see `docs/directory-playbook.md`):
   the prior set out, and open a PR. Touches only `featured`/`featuredAt`/`accentColor` — never factual
   fields and **never `changelog`** (rotation is curation, not a listing change — logging it would flood
   every Change history; its audit trail is `featuredAt` + the rotation PR itself). Run ~biweekly.
+- **`/author-recipes [focus]`** — autonomous **recipe** discovery: find a real, documented multi-app
+  workflow (each step a **listed** app), author it as `data/recipes/<slug>.json` using the Chunk AG graph
+  model (linear / parallel+fan-in / iterative `loop` — only the structure the source documents), and open
+  a PR. Substance gate: ≥2 steps, ≥1 **independent** (non-vendor/non-competitor) web-verified reference, a
+  real `longSummary` thesis; `velite` hard-fails a bad FK / graph. **Opens a human-review PR — does NOT
+  auto-merge** (recipes carry net-new editorial substance). Run ~weekly.
+- **`/audit-recipes [--min-age d] [slug…]`** — re-verify existing recipes oldest-first (21-day freshness
+  floor): step apps still listed/alive, references resolve, the workflow still real; **re-step** a dead
+  stage to a listed equivalent or demote to `status:"stale"`; bump `lastVerifiedAt` + append a
+  `changelog` (`restepped`/`updated`/…) on a substantive change. Opens a PR + **squash auto-merge** on
+  green (fire-and-forget, like `/audit-directory` — it re-verifies trusted data, not net-new content).
+  Run ~biweekly.
 
 Schedule `/discover-apps` + `/audit-directory` weekly and `/rotate-featured` biweekly via Claude Code
-**Routines** (account-owned — the user sets them up; they open PRs for review). Exact routine prompts:
-`docs/directory-playbook.md`.
+**Routines** (account-owned — the user sets them up; they open PRs for review). Schedule `/author-recipes`
+weekly and `/audit-recipes` biweekly the same way. Exact routine prompts: `docs/directory-playbook.md`
+and the command files in `.claude/commands/`.
 
 ### Add a new workflow stage
 

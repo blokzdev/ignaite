@@ -113,10 +113,50 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       standard accent like every other chart (the base `BarChart` contract). Tinting each family bar to
       its `CAPABILITY_FAMILY_TONE` would tie the chart to the detail-page chips, but needs a new optional
       `BarChart` prop; deferred to keep the shared component untouched in AC-3.
-- [ ] **[future]** **Chunk AF — capability `level` + substitution engine.** Add `level`
-      (primary/secondary) via a second verify pass, then the "prefer fewer platforms / open-source /
-      free" set-cover substitution on recipes. Gated on the Recipes entity (AD/AE) + the AB pilot
-      proving backfill cost. Don't market "fewer signups" until this ships.
+- [x] **[future]** **Chunk AF-1 — substitution engine + recipe routines — ✅ DONE** (#TBD). Founder
+      chose **engine-first** (the engine ranks on 4 signals — capability `level`, license, cost, platform
+      count — and 3 are already 100% populated, so it degrades gracefully + ships useful day one; `level`
+      sharpens it as the backfill lands). `lib/tools/recipe-substitution.ts` `substitutesForStep()` — a
+      deterministic, build-time, **lexicographic** ranker (fit → license → cost → fewer platforms →
+      addedSeq), returns only real active apps that genuinely carry the capability (no fabrication, no
+      request-time model). Rendered as a collapsed "Swap this step (N)" `<details>` rail per step on
+      `/recipes/[slug]` (0 B route JS; secondary-fit flagged "can also do this", primary "best for this",
+      unspecified shows reasons only). Plus the `author-recipes` (human-review PR) + `audit-recipes`
+      (auto-merge) routines. **Don't market "fewer signups / swap for free" until the rail is live** — it
+      now is, framed honestly as "ranked by license, cost, and platform footprint" (capability-fit added
+      to the framing once leveling coverage climbs).
+- [ ] **[future]** **Chunk AF-2 — the `level` backfill campaign (founder-directed: full web-verify, via
+      Ultracode parallel workflows).** Populate `capabilities[].level` (primary "best for" / secondary
+      "can be used for") across the corpus — **3,652 capability entries / 1,015 apps, 0 currently
+      leveled**. Founder chose a **full web-verify** campaign (not the cheaper heuristic) run **after the
+      engine shipped (AF-1, done)**, as an AB-style parallel-agent fan-out (cluster PRs). **MUST NOT bump
+      `lastVerifiedAt` and MUST NOT append a per-app `changelog`** (it's an enrichment campaign, same class
+      as the AB id backfill — not a re-verification; matches the AB precedent). Each cluster independently
+      mergeable; a stalled campaign never blocks the (already-shipped) engine. As coverage climbs, the
+      engine's ranking sharpens automatically and the public framing gains "…and capability fit". Founder
+      also asked to **fold two things into the same web-verify pass** (agents are already on the vendor's
+      docs): (a) **add genuinely-missing capabilities** per app (still ≤6 cap, strongest-first) with their
+      `level`; (b) see the leaf-granularity item below for the compound-capability split — **decoupled, do
+      that FIRST** so we don't level a leaf we're about to split.
+- [ ] **[future]** **Capability-leaf granularity pass (founder-raised — its OWN chunk, sequence BEFORE
+      AF-2).** Founder: "split any compound capabilities into granular distinct items while maintaining
+      precision and reliability." Several `AppCapability` leaves are coarse/compound and finer leaves would
+      sharpen recipes + the substitution engine + `/compare` overlap. But this is a **vocabulary/taxonomy
+      migration**, NOT a leveling side-effect: it adds enum members (`types/app.ts`), assigns each to a
+      family + `CAPABILITY_LABEL` + `capability-aliases`, and **re-maps every app + every recipe
+      `step.capability`** using the old compound leaf — corpus- AND recipe-wide blast radius. Conflating it
+      with the AF-2 leveling pass would threaten the precision/reliability the founder wants. Do it as a
+      dedicated chunk (research → which leaves are genuinely compound → additive enum + label + alias +
+      a deterministic re-map of existing assignments, web-verified) and run it **before** AF-2 so leveling
+      operates on the final (granular) vocabulary. (Mirrors the Taxonomy-v2 category split, chunk N.)
+- [ ] **[future]** **AF-3 — `level`-aware detail/compare polish (defer, additive).** Once leveling
+      coverage is meaningful: emphasize primary-level capability chips on `/apps/[slug]`, and let the
+      `/compare` verdict use `level` to sharpen "best for X" claims. Pure additive; ship when wanted.
+- [ ] **[future]** **"Fewer signups" substitution tier.** The engine's objective deliberately omits a
+      signup-count / onboarding-friction tier — no such data field exists. If a `signupFriction`-style
+      signal is ever added (verifiable), slot it into the lexicographic order so the engine can prefer
+      lower-friction swaps (the literal "fewer signups" promise). Until then the engine ranks on
+      license/cost/platform/fit only.
 - [x] **[future]** **Chunk AG — multi-dimensional recipes (parallel + iterative) — ✅ DONE** (#355).
       Extended the linear Recipe to an **optional DAG**, fully additively (the 4 pre-AG recipes validate + render byte-identical): each step may carry `id`, `dependsOn: id[]` (parallel branches + fan-in),
       and `loop: { backTo, until }` (iteration). Founder sign-off picked: **step-level `loop`** (not a
