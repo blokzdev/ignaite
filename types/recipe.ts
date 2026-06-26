@@ -20,4 +20,4 @@ export const RECIPE_STATUSES: ReadonlyArray<RecipeStatus> = ["active", "stale", 
 // single, client-safe surface. Recipes also reuse the apps ChangeEntry shape
 // (changelog) and the AppCapability leaf enum (step.capability) — import those
 // from "@/types/app" directly; they aren't re-exported here.
-export type { Recipe, RecipeStep, RecipeReference } from "@/lib/recipes-schema";
+export type { Recipe, RecipeStep, RecipeReference, RecipeLoop } from "@/lib/recipes-schema";

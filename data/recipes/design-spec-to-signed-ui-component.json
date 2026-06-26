@@ -1,0 +1,74 @@
+{
+  "slug": "design-spec-to-signed-ui-component",
+  "title": "From design spec to approved, built UI component",
+  "goal": "Turn a design spec into a fully built and approved UI component through iterative refinement and feedback.",
+  "audience": "product designers and engineering teams",
+  "summary": "Take a design specification through sketch-to-approval-to-build: generate an initial UI design, synthesize feedback from review, revise the design iteratively until stakeholders sign off, then auto-generate clean production code.",
+  "longSummary": "The path from spec to shipped component is usually a stop-and-start cycle where designs sit in Figma, feedback lives in comments and Slack, revisions happen asynchronously, and the handoff to code happens only after someone declares the design \"done\" — then the developer builds from a static frame and finds undocumented edge cases. This recipe closes that loop by making feedback synchronous and the whole chain explicit. You start by expressing the design spec (user stories, acceptance criteria, interaction notes) to an AI design tool that generates an editable prototype directly from your intent; that prototype becomes the shared artifact where stakeholders critique. A feedback-synthesis step collects and prioritizes the feedback, then the designer revises the prototype in response. Here's the critical part: the loop closes when you re-feed the revised design back to the feedback step — it's not a one-way handoff but a back-and-forth until a stated human condition is met (all stakeholders have signed off). Only once the feedback loop exits — when the design is actually approved, not just abandoned — does the code-generation step run, converting the finalized design into production-ready component code. The approach trades async efficiency for synchronous clarity: instead of a week of Figma comments, you get a tight refinement session where feedback is gathered, prioritized, and resolved in real time. It breaks down for highly speculative designs where the spec is so loose the generator has no signal to work from, and for designs requiring deep accessibility audits before code handoff — treat those as pre-spec validation steps. The loop works because design tools now emit structured signals (layers, tokens, interactions) that both humans and code generators can read, making the design itself the source of truth rather than a beautiful thing to translate.",
+  "prerequisites": [
+    "A written design spec (user story, acceptance criteria, interaction notes)",
+    "Access to Figma with AI features enabled",
+    "Designated stakeholders who can provide structured feedback",
+    "A target component library and coding standards doc"
+  ],
+  "tags": [
+    "design",
+    "ui-component",
+    "iterative-design",
+    "feedback-loop",
+    "design-to-code",
+    "approval-workflow"
+  ],
+  "steps": [
+    {
+      "id": "generate-initial-design",
+      "appSlug": "figma-ai",
+      "capability": "ui-design",
+      "action": "Turn the spec (user story, acceptance criteria, interaction notes) into an initial UI prototype with layout, components, and hierarchy.",
+      "rationale": "AI-generated designs from a clear spec are editable in Figma immediately, so stakeholders can critique a real artifact rather than give feedback on an abstract brief."
+    },
+    {
+      "id": "synthesize-feedback",
+      "appSlug": "claude",
+      "capability": "document-qa",
+      "action": "Collect stakeholder feedback (Figma comments, review notes, pasted input) and synthesize it into a prioritized critique: keep, fix, iterate.",
+      "rationale": "Structured feedback synthesis separates signal from noise and makes revisions actionable instead of contradictory — Claude can read scattered comments and extract the actual requirements.",
+      "dependsOn": ["generate-initial-design"]
+    },
+    {
+      "id": "revise-design",
+      "appSlug": "figma-ai",
+      "capability": "image-editing",
+      "action": "Edit the design based on the synthesized feedback: adjust layout, refine components, update interactions, and regenerate as needed.",
+      "rationale": "Image-editing lets the designer directly modify the prototype in response to feedback without restarting the design — this is what makes the loop fast.",
+      "dependsOn": ["synthesize-feedback"],
+      "loop": {
+        "backTo": "synthesize-feedback",
+        "until": "all stakeholders have explicitly signed off on the design"
+      }
+    },
+    {
+      "id": "build-component",
+      "appSlug": "claude-code",
+      "capability": "agentic-coding",
+      "action": "Feed the finalized design into Claude Code to generate production React/TypeScript with typing, tests, and Storybook stories.",
+      "rationale": "Once the design is locked, agentic codegen from the real design artifact beats a human translating a static frame — it reads tokens and component data directly.",
+      "dependsOn": ["revise-design"]
+    }
+  ],
+  "references": [
+    {
+      "title": "Feedback Loops: The Engine Behind Meaningful Design Iteration",
+      "url": "https://versions.com/process/feedback-loops-the-engine-behind-meaningful-design-iteration/",
+      "source": "VERSIONS (ArtVersion)"
+    },
+    {
+      "title": "Keep Agentic AI Simple: A Practical Workflow for Software Development",
+      "url": "https://timdeschryver.dev/blog/keep-agentic-ai-simple-a-practical-workflow-for-software-development",
+      "source": "Tim Deschryver"
+    }
+  ],
+  "addedSeq": 6,
+  "addedAt": "2026-06-26",
+  "lastVerifiedAt": "2026-06-26"
+}

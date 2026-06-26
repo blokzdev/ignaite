@@ -1,0 +1,62 @@
+{
+  "slug": "source-video-to-multilingual-cuts",
+  "title": "From source video to dubbed and subtitled multilingual cuts",
+  "goal": "Transform one source video into multiple language versions with dubbing and captions through parallel processing.",
+  "audience": "content creators and global marketing teams",
+  "summary": "Transcribe a source video once, then run dubbing and subtitle generation in parallel off that shared transcript, and fan both back into a video editor that assembles the finished multilingual cuts — branches that run at the same time instead of waiting on each other.",
+  "longSummary": "The efficient path to multilingual video is also the one that prevents quality loss: transcribe once, localize twice (dubbed audio + native subtitles in parallel), then assemble. This recipe treats the source transcript as the single source of truth — it is the contract between the dubbing and subtitle branches, so both use identical timestamps and pacing. Descript transcribes the source video to a searchable, editable transcript; this output feeds two independent parallel workflows: Rask AI consumes the source video + transcript to generate synthetic voiceovers in target languages with lip-sync, while Captions generates subtitle files in the same languages from the transcript. These parallel branches run without waiting for each other, so dubbing and subtitling happen at the same time, radically compressing the total localization timeline compared to dubbing-then-subtitling. The two branches then merge at VEED, a video editor that accepts the original video frame, the dubbed audio tracks, and the subtitle files; VEED assembles all three into the final cut. The decisive move is treating transcription as the canonical reference — if both dubbing and subtitle generation start from the same transcript and timestamps, their outputs align naturally, eliminating the manual sync-correction step and the post-production bottleneck. It breaks down if the source video has heavy accents or audio artifacts that degrade transcription quality (garbage in, garbage out for both branches), or if cultural adaptation is needed beyond automated translation (slang, humor, regulatory constraints still require human review before the synthetic voices go live).",
+  "prerequisites": [
+    "One source video file (MP4, MOV, or YouTube link)",
+    "Target languages for dubbing and subtitles (suggest 3-6 for cost efficiency)",
+    "Accounts for Descript, Rask AI, Captions, and VEED"
+  ],
+  "tags": ["video", "localization", "dubbing", "subtitles", "multilingual", "global-reach"],
+  "steps": [
+    {
+      "id": "transcribe-source",
+      "appSlug": "descript",
+      "capability": "speech-to-text",
+      "action": "Upload the source video and auto-transcribe it to a word-level timestamped transcript; clean up accuracy, filler words, and speaker labels.",
+      "rationale": "A clean, word-accurate transcript is the canonical reference for both branches; transcribing once instead of twice eliminates rework and keeps audio and captions in sync."
+    },
+    {
+      "id": "dub-parallel",
+      "appSlug": "rask-ai",
+      "capability": "dubbing",
+      "action": "Feed the source video and transcript into Rask AI, pick target languages, and generate lip-synced voiceovers timed to the original frames.",
+      "rationale": "Rask AI's multi-language voice generation and lip-sync run on the video and transcript in parallel; sharing the transcript timestamps keeps dubbed audio aligned to the source pacing.",
+      "dependsOn": ["transcribe-source"]
+    },
+    {
+      "id": "subtitle-parallel",
+      "appSlug": "captions",
+      "capability": "subtitle-generation",
+      "action": "Feed the same transcript into Captions to auto-generate subtitle files (SRT/VTT) in each target language, timed to the source frames.",
+      "rationale": "Generating subtitles from the same transcript keeps caption timing matched to the video and the dubbed audio; running it alongside dubbing means captions don't wait on the audio.",
+      "dependsOn": ["transcribe-source"]
+    },
+    {
+      "id": "assemble-cut",
+      "appSlug": "veed",
+      "capability": "video-editing",
+      "action": "Import the video, Rask AI's dubbed tracks, and Captions' subtitle files into VEED, assemble each language as its own cut, then export.",
+      "rationale": "VEED's timeline accepts video, audio, and captions together and outputs finished cuts; merging here avoids manual frame-by-frame sync and applies consistent styling per language.",
+      "dependsOn": ["dub-parallel", "subtitle-parallel"]
+    }
+  ],
+  "references": [
+    {
+      "title": "Subtitle Engineering: Speech-to-Text Giants and Building a Subtitle Generation Pipeline",
+      "url": "https://medium.com/@unicornporated/subtitle-engineering-showdown-of-speech-to-text-giants-and-building-the-ultimate-subtitle-24ea2c21c6bf",
+      "source": "Medium"
+    },
+    {
+      "title": "Automated Multilingual YouTube Dubbing with ElevenLabs API, Python & ffmpeg",
+      "url": "https://uhiyama-lab.com/en/blog/video-edit/elevenlabs-youtube-dubbing-workflow/",
+      "source": "UhiyamaLab"
+    }
+  ],
+  "addedSeq": 5,
+  "addedAt": "2026-06-26",
+  "lastVerifiedAt": "2026-06-26"
+}

@@ -43,12 +43,31 @@ const literals = <T extends string>(values: ReadonlyArray<T>) => [...values] as 
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
+// The iteration construct (Chunk AG) — a back-edge that turns a sub-sequence into a
+// loop. Optional on a step; absent ⇒ no iteration. `backTo` must reference an
+// EARLIER step on the path and `until` is a human-readable exit gate (NOT
+// machine-executable — that's the Recipe Spider's concern). Existence + earlier-ness
+// are verified in velite.config.ts's complete() (per-file zod can't see other steps).
+export const recipeLoopSchema = z.object({
+  /** Step `id` this loop returns to — must be an earlier step (checked in complete()). */
+  backTo: z.string().regex(SLUG, "loop.backTo must be a kebab-case step id"),
+  /** Plain-English exit condition — the stated gate (e.g. "stakeholders sign off"). ≤80. */
+  until: z.string().min(1).max(80, "loop.until must be a stated exit condition (≤80 chars)"),
+});
+
 // One step in the workflow. Keystone field is `appSlug`: a FOREIGN KEY into the
 // apps collection. zod validates only FORMAT (kebab slug) here — EXISTENCE is
 // verified in complete() (per-file zod can't see across files; same pattern apps'
 // `alternatives` uses). `capability` is optional but encouraged: a real
 // AppCapability leaf sharpens the WHAT of the step and is the join key the (AF)
 // substitution engine will use with zero migration.
+//
+// Chunk AG made the steps[] array an OPTIONAL DAG, fully additively: a step may
+// carry an `id`, `dependsOn` (parallel branches + fan-in), and a `loop` (iteration).
+// A recipe whose steps carry NONE of these = the original linear-by-array-order
+// chain (the 4 pre-AG recipes are byte-for-byte unchanged). Graph integrity (id
+// uniqueness, dep existence, acyclicity, no orphans, loop target earlier) lives in
+// complete(); lib/tools/recipe-graph.ts derives the deterministic execution order.
 export const recipeStepSchema = z.object({
   /** FK → an app's `slug`. Existence checked in velite.config.ts's complete(). */
   appSlug: z.string().regex(SLUG, "appSlug must be a kebab-case app slug"),
@@ -59,6 +78,18 @@ export const recipeStepSchema = z.object({
   /** WHY this app/step belongs here — the editorial value the recipe adds over a
    *  bare list of links. ≤200 chars. */
   rationale: z.string().min(1).max(200, "step rationale must be ≤200 chars"),
+  // ── Graph fields (Chunk AG) — ALL optional ⇒ zero migration ────────────────
+  /** Stable handle for graph references. kebab-case; unique WITHIN the recipe
+   *  (checked in complete()). Absent ⇒ the step is positional (linear-by-order). */
+  id: z.string().regex(SLUG, "step id must be kebab-case").optional(),
+  /** Step `id`s that must complete before this step runs. Absent/[] ⇒ no explicit
+   *  deps (a root, or linear). Existence + acyclicity checked in complete(). */
+  dependsOn: z
+    .array(z.string().regex(SLUG, "dependsOn must list kebab-case step ids"))
+    .max(6, "at most 6 dependsOn ids")
+    .optional(),
+  /** Iteration back-edge — see recipeLoopSchema. */
+  loop: recipeLoopSchema.optional(),
 });
 
 // A third-party reference backing the recipe — INDEPENDENT corroboration that the
@@ -138,3 +169,4 @@ export const recipeSchema = z
 export type Recipe = z.infer<typeof recipeSchema>;
 export type RecipeStep = z.infer<typeof recipeStepSchema>;
 export type RecipeReference = z.infer<typeof recipeReferenceSchema>;
+export type RecipeLoop = z.infer<typeof recipeLoopSchema>;
