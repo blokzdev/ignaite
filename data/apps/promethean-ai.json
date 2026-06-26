@@ -50,5 +50,13 @@
       "source": "Game Developer",
       "kind": "interview"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "workflow-automation"
+    }
   ]
 }

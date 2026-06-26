@@ -37,6 +37,17 @@
     "OCR can misread messy handwriting",
     "Underlying model details undisclosed"
   ],
-  "bestFor": ["Students", "Homework help", "Learning math steps"],
-  "alternatives": ["quizlet", "khanmigo", "studyfetch"]
+  "bestFor": ["Students", "Self-learners", "Parents helping with homework"],
+  "alternatives": ["quizlet", "khanmigo", "studyfetch"],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "homework-solving"
+    },
+    {
+      "id": "ai-tutoring"
+    }
+  ]
 }
