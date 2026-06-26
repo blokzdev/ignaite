@@ -4,6 +4,8 @@ import { APP_PLATFORMS, APP_PRICING } from "@/types/app";
 import { CATEGORY_CLUSTERS } from "@/lib/tools/category-clusters";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { DEPLOYMENT_LABEL, MODEL_KIND_LABEL, PLATFORM_LABEL } from "@/lib/tools/app-labels";
+import { CAPABILITY_FAMILY_LABEL } from "@/lib/tools/capability-families";
+import { capabilityCoverage, capabilityFamilyTotals } from "@/lib/tools/capability-stats";
 import { categoryHref, facetHref } from "@/lib/tools/facet-links";
 
 // Server-only, build-time aggregates over the verified corpus — the data layer
@@ -168,6 +170,33 @@ function categoryCoverage(): { clusters: ClusterCoverage[]; total: number } {
   return { clusters, total: active.length };
 }
 
+export interface CapabilityCoverageStat {
+  /** One slice per family carrying ≥1 assignment, desc by count. No href — there
+   *  is no capability facet/route yet (the bars render as plain labels). */
+  families: StatSlice[];
+  /** Sum of family counts. Multi-valued (≤6/app), so this sums ABOVE `total`. */
+  assignments: number;
+  /** Active listings carrying ≥1 capability. */
+  enriched: number;
+  /** Active listing total (the bar denominator). */
+  total: number;
+}
+
+// Capabilities are multi-valued (≤6 per app), so this mirrors platformCoverage
+// (NOT licenseMix): family bars sum above the listing total, and there is no
+// "unrecorded" slice (a multi-valued field can't share the denominator). The
+// honest figure is the `enriched of total` coverage, surfaced in the section note.
+function capabilityMix(): CapabilityCoverageStat {
+  const families: StatSlice[] = capabilityFamilyTotals(apps).map(({ family, count }) => ({
+    key: family,
+    label: CAPABILITY_FAMILY_LABEL[family],
+    count,
+  }));
+  const { enriched, total } = capabilityCoverage(apps);
+  const assignments = families.reduce((n, s) => n + s.count, 0);
+  return { families, assignments, enriched, total };
+}
+
 export interface Freshness {
   within30: number;
   within90: number;
@@ -215,6 +244,7 @@ export interface DirectoryStats {
   modelSupport: Distribution;
   platforms: StatSlice[];
   categories: { clusters: ClusterCoverage[]; total: number };
+  capabilities: CapabilityCoverageStat;
   freshness: Freshness;
 }
 
@@ -234,6 +264,7 @@ export function directoryStats(): DirectoryStats {
     modelSupport: modelSupportMix(),
     platforms: platformCoverage(),
     categories: categoryCoverage(),
+    capabilities: capabilityMix(),
     freshness: freshness(now),
   };
   return cached;

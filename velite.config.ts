@@ -124,6 +124,27 @@ export default defineConfig({
       }
       seenIdentity.set(sig, a.slug);
     }
+    // SOFT ADVISORY — console.warn only, NEVER throws (a throw would deadlock the
+    // unattended auto-merge pipeline). Flags active listings with no capabilities
+    // so /audit-directory can fill them: capabilities power the task axis
+    // (/insights chart, llms-full.txt, /compare verdict), so a gap degrades those
+    // surfaces, but a missing optional field is not a data error.
+    const activeApps = apps.filter((a) => (a.status ?? "active") !== "archived");
+    const missingCaps = activeApps.filter((a) => !a.capabilities || a.capabilities.length === 0);
+    if (missingCaps.length > 0) {
+      const pct = Math.round((missingCaps.length / activeApps.length) * 100);
+      const sample = missingCaps
+        .slice(0, 20)
+        .map((a) => a.slug)
+        .join(", ");
+      console.warn(
+        `[velite] capability coverage: ${missingCaps.length} of ${activeApps.length} active ` +
+          `listing(s) (${pct}%) carry no capabilities — ${sample}` +
+          (missingCaps.length > 20 ? `, …(+${missingCaps.length - 20})` : "") +
+          `. They power the task axis (/insights, llms-full.txt, /compare); add 1–6 via ` +
+          `/audit-directory. (advisory — not blocking)`,
+      );
+    }
     // After the full collection is written, derive a SLIM search index for the
     // client command palette so it ships only the 5 fields it renders — not all
     // ~125 full records. The palette imports `@/.velite/apps-search.json`.

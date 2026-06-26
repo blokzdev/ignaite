@@ -94,13 +94,25 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       persona-only) and `audit-directory.md` re-verifies/backfills them + logs a `changelog` entry on a
       substantive change. _(Two cap interruptions — a per-session then a weekly limit — were fully
       recovered via `resumeFromRunId` / fresh re-runs with zero data loss; nothing degraded reached `main`.)_
-- [ ] **[future]** **Chunk AC — capability-aware comparisons + insights + UI.** Once capabilities are
-      populated: render capability chips on `/apps/[slug]` (`dossier-rail.tsx`), a capability-overlap
-      row on `/compare`, the synthesized "when to pick A vs B" prose verdict (now safe — consumes the
-      structured field, not audience-noun `bestFor`), a capability-distribution Insights chart, a
-      `capability → [slug]` index in `llms-full.txt`/`feed`, and the **advisory family→category warn**
-      in `velite.config.ts` (soft `console.warn`, never a build-fail). The optional `CapabilityFamily`
-      type + leaf→family map land here (deferred from AA — unused until the UI groups by family).
+- [x] **[future]** **Chunk AC — capability-aware comparisons + insights + UI — ✅ DONE**, split into
+      three reviewable PRs: **AC-1** (#349) — the `CapabilityFamily` map (deferred from AA) + the
+      grouped, tone-coded **Capabilities** section on `/apps/[slug]`; **AC-2** (#350) — the
+      `computeCapabilityOverlap` helper, the capability-overlap row on `/compare`, and the
+      deterministic, non-directive "when to pick which" **verdict** (`lib/tools/verdict.ts`, consumes
+      the structured field with a strict enrichment-parity gate so a coverage gap is never rendered as a
+      differentiator); **AC-3** (this chunk) — the family-level capability-distribution Insights chart,
+      the shared `lib/tools/capability-stats.ts`, the `capability → [slug]` index in
+      `llms.txt`/`llms-full.txt`/`feed.json`, and the soft `console.warn` coverage advisory in
+      `velite.config.ts` (never a build-fail).
+- [ ] **[future]** **Clickable capability bars / leaf drill-down on `/insights`** — the AC-3 family
+      bars render as plain labels (no `href`) because there's no `capability` facet param/route yet.
+      Wire `href` in `lib/stats.ts` `capabilityMix()` (and a leaf-level view) once a `capability`
+      member lands in `FacetKey`/`directoryFilterParsers` + a `/capability/<leaf>` route or `?capability=`
+      filter. Both depend on the same prerequisite — do them together.
+- [ ] **[polish]** **Per-family tone on the Insights capability bars** — they currently paint the
+      standard accent like every other chart (the base `BarChart` contract). Tinting each family bar to
+      its `CAPABILITY_FAMILY_TONE` would tie the chart to the detail-page chips, but needs a new optional
+      `BarChart` prop; deferred to keep the shared component untouched in AC-3.
 - [ ] **[future]** **Chunk AF — capability `level` + substitution engine.** Add `level`
       (primary/secondary) via a second verify pass, then the "prefer fewer platforms / open-source /
       free" set-cover substitution on recipes. Gated on the Recipes entity (AD/AE) + the AB pilot
