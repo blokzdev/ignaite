@@ -142,9 +142,9 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           {/* Trade-offs — the honest, balanced read. */}
           {((app.pros && app.pros.length > 0) || (app.cons && app.cons.length > 0)) && (
             <section className="mt-10">
-              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+              <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
                 Pros &amp; cons
-              </p>
+              </h2>
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 {app.pros && app.pros.length > 0 && (
                   <div className="rounded-2xl bg-[var(--color-success)]/[0.06] p-5 ring-1 ring-[var(--color-success)]/15 ring-inset">
@@ -191,9 +191,9 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
               59% singletons — see BACKLOG [future] for curated tag pages. */}
           {app.tags && app.tags.length > 0 && (
             <section className="mt-10">
-              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+              <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
                 Tags
-              </p>
+              </h2>
               <ul className="mt-3 flex flex-wrap gap-1.5">
                 {app.tags.map((t) => (
                   <li key={t}>
@@ -213,9 +213,9 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
           {/* Further reading — curated third-party coverage. */}
           {app.references && app.references.length > 0 && (
             <section className="mt-10">
-              <p className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
+              <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
                 Further reading
-              </p>
+              </h2>
               <ul className="mt-3 flex flex-col divide-y divide-white/[0.06] overflow-hidden rounded-2xl ring-1 ring-white/[0.06] ring-inset">
                 {app.references.map((ref) => (
                   <li key={ref.url}>
