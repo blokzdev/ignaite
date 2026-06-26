@@ -37,7 +37,7 @@
     "Narrow to real estate legal work",
     "UK-rooted, US expansion still underway"
   ],
-  "bestFor": ["Real estate lawyers", "Conveyancers", "Property due diligence"],
+  "bestFor": ["Real estate lawyers", "Conveyancers", "Title insurers"],
   "alternatives": ["harvey", "legora", "luminance"],
   "references": [
     {
@@ -45,6 +45,20 @@
       "url": "https://siliconangle.com/2026/01/26/orbital-raises-60m-modernize-real-estate-law-ai/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

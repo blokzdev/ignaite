@@ -32,7 +32,7 @@
     "Narrow compliance focus",
     "Requires upfront policy encoding"
   ],
-  "bestFor": ["Compliance teams", "Regulated enterprises", "Financial services"],
+  "bestFor": ["Compliance officers", "Regulated enterprises", "Financial services"],
   "alternatives": ["harvey", "luminance", "legalon"],
   "references": [
     {
@@ -46,6 +46,20 @@
       "url": "https://www.corporatecomplianceinsights.com/normai-raises-48-million-agentic-ai/",
       "source": "Corporate Compliance Insights",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "regulatory-compliance"
+    },
+    {
+      "id": "content-moderation"
+    },
+    {
+      "id": "guardrails"
+    },
+    {
+      "id": "cited-answers"
     }
   ]
 }

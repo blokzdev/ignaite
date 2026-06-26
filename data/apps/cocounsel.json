@@ -31,6 +31,26 @@
     "Prompts not used to train models"
   ],
   "cons": ["Expensive enterprise pricing", "Not a standalone product", "US-centric legal coverage"],
-  "bestFor": ["Law firms", "Legal research", "Due diligence"],
-  "alternatives": ["harvey", "legora", "lexis-ai", "spellbook"]
+  "bestFor": ["Law firms", "In-house counsel", "Tax & audit pros"],
+  "alternatives": ["harvey", "legora", "lexis-ai", "spellbook"],
+  "capabilities": [
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "tax-preparation"
+    }
+  ]
 }

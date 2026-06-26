@@ -39,6 +39,17 @@
     "Newer than incumbent accounting tools",
     "Still needs an accountant for filings"
   ],
-  "bestFor": ["Startups", "Real-time burn tracking", "Their accountants"],
-  "alternatives": ["digits", "ramp", "brex"]
+  "bestFor": ["Startups", "Startup accountants", "Founders"],
+  "alternatives": ["digits", "ramp", "brex"],
+  "capabilities": [
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "financial-close"
+    },
+    {
+      "id": "data-analysis"
+    }
+  ]
 }

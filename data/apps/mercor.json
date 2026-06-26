@@ -35,7 +35,7 @@
     "Aimed at AI-data work",
     "No public pricing"
   ],
-  "bestFor": ["AI labs sourcing experts", "Training-data staffing", "Expert gig work"],
+  "bestFor": ["AI labs", "Domain experts", "Research data buyers"],
   "alternatives": ["micro1", "seekout", "juicebox"],
   "references": [
     {
@@ -43,6 +43,17 @@
       "url": "https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

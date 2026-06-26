@@ -33,7 +33,7 @@
     "Aimed at firms more than solo users",
     "Output still needs human review"
   ],
-  "bestFor": ["Accounting firms", "Startup month-end close", "Bookkeeping automation", "CPAs"],
+  "bestFor": ["Accounting firms", "CPAs", "Startup finance teams"],
   "alternatives": ["basis", "puzzle", "digits"],
   "references": [
     {
@@ -41,6 +41,17 @@
       "url": "https://accountingaitools.com/tools/truewind/",
       "source": "Accounting AI Tools",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "financial-close"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

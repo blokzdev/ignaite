@@ -31,6 +31,23 @@
     "Secure document vault"
   ],
   "cons": ["Expensive, enterprise pricing", "Requires LexisNexis ecosystem", "Web-only"],
-  "bestFor": ["Legal research", "Citation-critical work", "LexisNexis users"],
-  "alternatives": ["cocounsel", "harvey", "legalon", "legora"]
+  "bestFor": ["Law firms", "Litigators", "Corporate counsel"],
+  "alternatives": ["cocounsel", "harvey", "legalon", "legora"],
+  "capabilities": [
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    }
+  ]
 }

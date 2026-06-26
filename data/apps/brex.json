@@ -42,7 +42,7 @@
     "Capital One acquisition adds roadmap uncertainty",
     "Geared to $1M+ revenue / VC-backed firms"
   ],
-  "bestFor": ["VC-backed startups", "Global-scaling teams"],
+  "bestFor": ["VC-backed startups", "Global-scaling teams", "Finance teams"],
   "alternatives": ["ramp", "puzzle", "digits"],
   "references": [
     {
@@ -50,6 +50,20 @@
       "url": "https://www.nerdwallet.com/business/credit-cards/learn/ramp-vs-brex",
       "source": "NerdWallet",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "expense-management"
+    },
+    {
+      "id": "bookkeeping"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

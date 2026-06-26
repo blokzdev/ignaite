@@ -32,7 +32,7 @@
     "Generates models, memos, and decks"
   ],
   "cons": ["Sales-led, enterprise-priced", "Web-only", "Narrowly scoped to finance work"],
-  "bestFor": ["Investment banking", "Private equity", "Financial research"],
+  "bestFor": ["Investment bankers", "Private equity", "Asset managers"],
   "alternatives": ["hebbia", "ramp", "digits"],
   "references": [
     {
@@ -40,6 +40,23 @@
       "url": "https://siliconangle.com/2026/04/29/rogo-raises-160m-speed-financial-analysis-ai-agents/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-modeling"
+    },
+    {
+      "id": "report-generation"
+    },
+    {
+      "id": "presentation-generation"
+    },
+    {
+      "id": "financial-research"
+    },
+    {
+      "id": "data-analysis"
     }
   ]
 }

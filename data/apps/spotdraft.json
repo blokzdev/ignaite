@@ -36,7 +36,7 @@
     "Heavier than a single-purpose drafting tool",
     "Best fit for in-house legal teams"
   ],
-  "bestFor": ["In-house legal teams", "Contract lifecycle management", "High-volume contracting"],
+  "bestFor": ["In-house legal teams", "Legal ops", "High-growth companies"],
   "alternatives": ["ironclad", "spellbook", "draftwise", "legora"],
   "references": [
     {
@@ -50,6 +50,20 @@
       "url": "https://theaiinsider.tech/2025/02/14/spotdraft-secures-54m-to-lead-ai-contract-lifecycle-management/",
       "source": "The AI Insider",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-lifecycle"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "document-extraction"
     }
   ]
 }

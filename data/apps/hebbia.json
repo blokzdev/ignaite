@@ -50,6 +50,23 @@
     "Overbuilt for small teams",
     "Answers a fixed doc set, takes no actions"
   ],
-  "bestFor": ["Investment banking / PE", "Large document due diligence"],
-  "alternatives": ["rogo", "hex", "harvey"]
+  "bestFor": ["Investment banking & PE", "Asset managers", "Corporate finance teams"],
+  "alternatives": ["rogo", "hex", "harvey"],
+  "capabilities": [
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "financial-research"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

@@ -37,5 +37,19 @@
       "source": "Legal IT Insider",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "legal-research"
+    }
   ]
 }

@@ -14,7 +14,13 @@
     "notes": "LLM-driven legal agents over a proprietary legal knowledge graph."
   },
   "tags": ["legal", "case-management", "law-firm", "legal-agents", "document-drafting"],
-  "links": [{ "kind": "website", "url": "https://www.filevine.com", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.filevine.com",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-21",
   "addedSeq": 993,
   "lastVerifiedAt": "2026-06-21",
@@ -31,6 +37,23 @@
     "Geared to firms and legal ops",
     "AI outcome claims vendor-reported"
   ],
-  "bestFor": ["Law firms", "Legal operations", "Case and matter management"],
-  "alternatives": ["harvey", "legora", "ironclad", "spotdraft"]
+  "bestFor": ["Law firms", "Legal operations"],
+  "alternatives": ["harvey", "legora", "ironclad", "spotdraft"],
+  "capabilities": [
+    {
+      "id": "case-management"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "contract-lifecycle"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "legal-research"
+    }
+  ]
 }

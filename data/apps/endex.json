@@ -34,7 +34,7 @@
     "SOC 2 and ISO 27001 compliant"
   ],
   "cons": ["Enterprise-only, waitlist access", "No public pricing", "Excel-bound workflow"],
-  "bestFor": ["Investment banking", "Private equity", "Hedge fund analysts"],
+  "bestFor": ["Investment bankers", "Private equity", "Hedge fund analysts"],
   "alternatives": ["rogo", "hebbia", "fiscal-ai"],
   "references": [
     {
@@ -54,6 +54,23 @@
       "url": "https://www.dukechronicle.com/article/duke-university-tarun-amasa-co-founder-endex-ai-financial-analyst-open-ai-14-million-dollars-20250826",
       "source": "The Duke Chronicle",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "spreadsheet-automation"
+    },
+    {
+      "id": "financial-modeling"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "financial-data-extraction"
+    },
+    {
+      "id": "web-research-agent"
     }
   ]
 }

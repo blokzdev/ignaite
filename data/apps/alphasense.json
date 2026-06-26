@@ -42,7 +42,7 @@
     "Built for institutions, not retail",
     "Pricing not published"
   ],
-  "bestFor": ["Investment research", "Competitive intelligence", "Corporate strategy"],
+  "bestFor": ["Investment firms", "Corporate strategy teams", "Enterprise analysts"],
   "alternatives": ["hebbia", "rogo"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://www.verdict.co.uk/alphasense-secures-350m-funding/",
       "source": "Verdict",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "financial-research"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "report-generation"
     }
   ]
 }

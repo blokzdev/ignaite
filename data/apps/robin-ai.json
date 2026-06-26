@@ -37,7 +37,7 @@
     "Narrow scope (contracts)",
     "Less suited to litigation or legal research"
   ],
-  "bestFor": ["In-house legal teams", "Contract review and negotiation", "M&A due diligence"],
+  "bestFor": ["In-house legal teams", "Enterprise legal", "Banks & financial firms"],
   "alternatives": ["spellbook", "cocounsel", "legora", "harvey"],
   "references": [
     {
@@ -45,6 +45,23 @@
       "url": "https://www.maginative.com/article/robin-ai-lands-25m-as-customers-double-down-as-investors/",
       "source": "Maginative",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "unified-search"
+    },
+    {
+      "id": "contract-lifecycle"
     }
   ]
 }

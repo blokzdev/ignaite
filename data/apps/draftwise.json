@@ -37,7 +37,7 @@
     "Aimed at firms/legal teams, not consumers",
     "Value depends on your document corpus"
   ],
-  "bestFor": ["Law firms", "In-house legal teams", "Contract negotiation"],
+  "bestFor": ["Law firms", "In-house legal teams", "Transactional lawyers"],
   "alternatives": ["spellbook", "ivo", "legora", "harvey"],
   "references": [
     {
@@ -51,6 +51,17 @@
       "url": "https://sacra.com/c/draftwise/",
       "source": "Sacra",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "unified-search"
     }
   ]
 }

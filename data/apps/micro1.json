@@ -35,7 +35,7 @@
     "Sales-led",
     "Young company"
   ],
-  "bestFor": ["AI labs needing experts", "Vetted-engineer hiring", "Data-annotation teams"],
+  "bestFor": ["AI research labs", "Eng-hiring teams", "Data-annotation teams"],
   "alternatives": ["mercor", "heymilo", "seekout"],
   "references": [
     {
@@ -43,6 +43,23 @@
       "url": "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "data-labeling"
+    },
+    {
+      "id": "eval-suite"
     }
   ]
 }

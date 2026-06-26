@@ -34,5 +34,10 @@
     "Early-stage startup",
     "Cloud-only"
   ],
-  "bestFor": ["Bank fraud teams", "Fintech risk ops", "Investigation automation"]
+  "bestFor": ["Bank fraud teams", "Fintech risk ops", "Financial institutions"],
+  "capabilities": [
+    {
+      "id": "fraud-detection"
+    }
+  ]
 }

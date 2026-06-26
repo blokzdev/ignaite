@@ -14,7 +14,13 @@
     "notes": "Natural-language analysis over connected financial systems."
   },
   "tags": ["finance", "fpa", "financial-analysis", "reporting", "agents"],
-  "links": [{ "kind": "website", "url": "https://www.concourse.co", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.concourse.co",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 989,
   "lastVerifiedAt": "2026-06-20",
@@ -26,10 +32,17 @@
     "Usage-based pricing with free trial"
   ],
   "cons": ["Newer entrant", "Value depends on clean data sources", "Finance-only scope"],
-  "bestFor": [
-    "FP&A and accounting teams",
-    "Automated financial reporting",
-    "Self-serve financial analysis"
-  ],
-  "alternatives": ["rogo", "basis", "fiscal-ai", "numeric"]
+  "bestFor": ["FP&A teams", "Accounting teams", "Finance ops"],
+  "alternatives": ["rogo", "basis", "fiscal-ai", "numeric"],
+  "capabilities": [
+    {
+      "id": "text-to-sql"
+    },
+    {
+      "id": "data-analysis"
+    },
+    {
+      "id": "report-generation"
+    }
+  ]
 }

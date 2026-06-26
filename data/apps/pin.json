@@ -36,7 +36,7 @@
     "Per-seat pricing on higher plans",
     "Young company, founded 2024"
   ],
-  "bestFor": ["Startup founders hiring", "In-house recruiters", "High-volume sourcing"],
+  "bestFor": ["Startup founders", "In-house recruiters", "Talent sourcers"],
   "alternatives": ["hireez", "seekout", "findem", "gem"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://pulse2.com/pin-ai-based-recruitment-platform-company-raises-3-million-seed/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "outbound-prospecting"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

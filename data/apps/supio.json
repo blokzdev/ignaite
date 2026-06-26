@@ -29,7 +29,7 @@
     "$91M raised; ARR quadrupled post-Series A"
   ],
   "cons": ["Narrow focus on plaintiff-side firms", "No public pricing; demo-led", "US-focused"],
-  "bestFor": ["Personal injury firms", "Mass tort practices", "Plaintiff litigation"],
+  "bestFor": ["Personal injury firms", "Mass tort practices", "Plaintiff attorneys"],
   "alternatives": ["evenup", "eve", "harvey"],
   "references": [
     {
@@ -43,6 +43,17 @@
       "url": "https://www.legaltechnologyhub.com/vendors/supio/",
       "source": "Legaltech Hub",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "demand-letters"
+    },
+    {
+      "id": "case-management"
     }
   ]
 }

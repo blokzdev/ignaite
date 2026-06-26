@@ -30,7 +30,7 @@
     "Covers tax, audit, advisory"
   ],
   "cons": ["No public pricing", "Firm/enterprise focus", "Agent output still needs review"],
-  "bestFor": ["Accounting firms", "Tax & audit teams", "Client accounting services"],
+  "bestFor": ["Accounting firms", "Tax & audit teams", "Audit & advisory teams"],
   "alternatives": ["numeric", "digits", "puzzle"],
   "references": [
     {
@@ -44,6 +44,14 @@
       "url": "https://siliconangle.com/2026/02/24/ai-accounting-startup-basis-secures-100m-1-15b-valuation-firms-adopt-agent-based-workflows/",
       "source": "SiliconANGLE",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "tax-preparation"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

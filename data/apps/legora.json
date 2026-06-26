@@ -37,6 +37,23 @@
     "No transparent public pricing",
     "Web-only platform"
   ],
-  "bestFor": ["Law firms", "In-house legal teams", "Complex matters"],
-  "alternatives": ["harvey", "legalon", "spellbook", "luminance"]
+  "bestFor": ["Law firms", "In-house legal teams"],
+  "alternatives": ["harvey", "legalon", "spellbook", "luminance"],
+  "capabilities": [
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "regulatory-compliance"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

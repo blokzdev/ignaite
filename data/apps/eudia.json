@@ -49,5 +49,16 @@
       "source": "Legaltech Hub",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "regulatory-compliance"
+    },
+    {
+      "id": "knowledge-base-authoring"
+    }
   ]
 }

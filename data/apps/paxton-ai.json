@@ -37,11 +37,7 @@
     "No practice-management integrations",
     "Users must verify citations"
   ],
-  "bestFor": [
-    "Litigators & legal researchers",
-    "Solo & small-firm lawyers",
-    "Contract-heavy practices"
-  ],
+  "bestFor": ["Litigators", "Solo & small-firm lawyers", "Legal researchers"],
   "alternatives": ["harvey", "legora", "spellbook", "eve"],
   "references": [
     {
@@ -49,6 +45,23 @@
       "url": "https://lawyerist.com/reviews/artificial-intelligence-in-law-firms/paxton-ai-review-artificial-intelligence-for-lawyers/",
       "source": "Lawyerist",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "cited-answers"
+    },
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

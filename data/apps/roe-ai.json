@@ -35,5 +35,22 @@
     "Needs integration with case systems"
   ],
   "bestFor": ["Fraud and AML teams", "Card issuers and BNPL", "Crypto/marketplace compliance"],
-  "alternatives": ["parcha"]
+  "alternatives": ["parcha"],
+  "capabilities": [
+    {
+      "id": "fraud-detection"
+    },
+    {
+      "id": "regulatory-compliance"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

@@ -41,6 +41,20 @@
     "Tied to the Word workflow",
     "Less suited to litigation/research"
   ],
-  "bestFor": ["Transactional lawyers", "Contract drafting", "Redlining in Word"],
-  "alternatives": ["harvey", "legora", "legalon", "luminance"]
+  "bestFor": ["Transactional lawyers", "In-house counsel", "Corporate law firms"],
+  "alternatives": ["harvey", "legora", "legalon", "luminance"],
+  "capabilities": [
+    {
+      "id": "contract-drafting"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

@@ -32,7 +32,7 @@
     "Enterprise pricing, no public tier",
     "Candidate experience can feel impersonal"
   ],
-  "bestFor": ["High-volume hiring", "Enterprise TA", "Public-sector hiring"],
+  "bestFor": ["Enterprise TA teams", "Public-sector employers", "High-volume employers"],
   "alternatives": ["metaview", "heymilo", "micro1", "findem"],
   "references": [
     {
@@ -40,6 +40,17 @@
       "url": "https://fortune.com/2021/01/19/hirevue-drops-facial-monitoring-amid-a-i-algorithm-audit/",
       "source": "Fortune",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "interview-assistance"
+    },
+    {
+      "id": "resume-screening"
+    },
+    {
+      "id": "calendar-scheduling"
     }
   ]
 }

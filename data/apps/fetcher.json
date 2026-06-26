@@ -36,7 +36,7 @@
     "Sourcing quality varies by role",
     "Outbound-focused, not a full ATS"
   ],
-  "bestFor": ["In-house talent teams", "Passive sourcing", "Staffing agencies"],
+  "bestFor": ["In-house talent teams", "Staffing agencies", "Recruiters"],
   "alternatives": ["findem", "gem", "seekout", "hireez"],
   "references": [
     {
@@ -50,6 +50,11 @@
       "url": "https://www.testgorilla.com/blog/fetcher-review/",
       "source": "TestGorilla",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
     }
   ]
 }

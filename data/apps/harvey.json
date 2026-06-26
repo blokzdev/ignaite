@@ -42,9 +42,23 @@
     "Tuned to big-firm billable workflows",
     "Heavy enterprise onboarding"
   ],
-  "bestFor": ["Large law firms", "Diligence-heavy matters"],
+  "bestFor": ["Large law firms", "AmLaw 100 firms", "Corporate legal teams"],
   "alternatives": ["cocounsel", "legora", "spellbook", "luminance"],
   "featured": true,
   "featuredAt": "2026-06-21",
-  "accentColor": "#4F46E5"
+  "accentColor": "#4F46E5",
+  "capabilities": [
+    {
+      "id": "legal-research"
+    },
+    {
+      "id": "contract-review"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "contract-drafting"
+    }
+  ]
 }

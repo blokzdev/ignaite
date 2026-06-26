@@ -29,7 +29,7 @@
     "Skews to high-comp technical roles",
     "Cost tied to placements"
   ],
-  "bestFor": ["Startups hiring specialists", "Hard-to-fill roles", "Recruiting teams"],
+  "bestFor": ["Startups hiring specialists", "In-house recruiting teams", "Recruiting agencies"],
   "alternatives": ["mercor", "micro1", "juicebox"],
   "references": [
     {
@@ -40,5 +40,16 @@
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 930,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "candidate-sourcing"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "meeting-notes"
+    }
+  ]
 }

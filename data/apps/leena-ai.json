@@ -35,7 +35,7 @@
     "45-day go-live",
     "Older funding (2021)"
   ],
-  "bestFor": ["Enterprise HR service desks", "Employee self-service", "IT/Finance ops"],
+  "bestFor": ["Enterprise HR teams", "IT & finance ops teams", "Large enterprises"],
   "alternatives": ["seekout", "mercor"],
   "references": [
     {
@@ -43,6 +43,20 @@
       "url": "https://www.prnewswire.com/news-releases/leena-ai-announces-30m-series-b-round-led-by-bessemer-venture-partners-301387209.html",
       "source": "PR Newswire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "voice-agent"
     }
   ]
 }
