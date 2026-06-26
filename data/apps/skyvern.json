@@ -46,6 +46,17 @@
     "Vision approach can be slower/costlier",
     "Newer, smaller ecosystem"
   ],
-  "bestFor": ["Cross-site form automation", "Self-hosted RPA", "Resilient web flows"],
-  "alternatives": ["stagehand", "browser-use", "steel", "browserbase"]
+  "bestFor": ["Developers", "RPA / automation teams", "Self-host-first teams"],
+  "alternatives": ["stagehand", "browser-use", "steel", "browserbase"],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

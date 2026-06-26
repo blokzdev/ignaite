@@ -44,6 +44,20 @@
     "Self-hosting adds ops overhead",
     "Younger ecosystem and community"
   ],
-  "bestFor": ["Self-hosted teams", "AI-agent workflows"],
-  "alternatives": ["n8n", "make", "zapier", "gumloop"]
+  "bestFor": ["Self-hosted teams", "Ops teams", "RevOps teams"],
+  "alternatives": ["n8n", "make", "zapier", "gumloop"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "mcp-server"
+    }
+  ]
 }

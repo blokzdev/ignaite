@@ -43,7 +43,7 @@
     "Newer, smaller track record",
     "Overkill for simple scraping jobs"
   ],
-  "bestFor": ["Agent developers", "Web automation at scale", "Enterprises"],
+  "bestFor": ["Agent developers", "Enterprises"],
   "alternatives": ["browserbase", "steel", "hyperbrowser", "browser-use"],
   "references": [
     {
@@ -51,6 +51,14 @@
       "url": "https://theaiinsider.tech/2025/11/07/anchor-browser-raises-6m-seed-round-to-power-the-next-generation-of-agentic-ai-with-reliable-browser-automation/",
       "source": "The AI Insider",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
     }
   ]
 }

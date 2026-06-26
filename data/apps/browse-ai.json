@@ -41,6 +41,14 @@
     "Proprietary, cloud-only",
     "Brittle on heavy anti-bot sites"
   ],
-  "bestFor": ["Price/competitor monitoring", "No-code data extraction", "Scheduled web alerts"],
-  "alternatives": ["apify", "firecrawl", "browser-use", "thunderbit"]
+  "bestFor": ["No-code users", "Growth & ops teams", "Analysts"],
+  "alternatives": ["apify", "firecrawl", "browser-use", "thunderbit"],
+  "capabilities": [
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

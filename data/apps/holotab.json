@@ -36,7 +36,7 @@
     "New (launched April 2026)",
     "Consumer focus, limited enterprise controls"
   ],
-  "bestFor": ["Repetitive web tasks", "Form filling", "Personal automation"],
+  "bestFor": ["Non-technical users", "Solo / personal use"],
   "alternatives": ["browser-use", "monica", "sider", "harpa-ai"],
   "references": [
     {
@@ -44,6 +44,14 @@
       "url": "https://thenewstack.io/hugging-face-holotab/",
       "source": "The New Stack",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "workflow-automation"
     }
   ]
 }

@@ -43,7 +43,7 @@
     "Megatoken pricing hard to estimate",
     "Primarily Chromium-based browsers"
   ],
-  "bestFor": ["Web task automation", "Competitive/price monitoring"],
+  "bestFor": ["Researchers", "Marketers & SEOs", "Solo professionals"],
   "alternatives": ["monica", "sider", "merlin-ai", "thunderbit"],
   "references": [
     {
@@ -51,6 +51,23 @@
       "url": "https://daily.dev/blog/learn-about-harpa-the-ai-automation-agent-for-chrome/",
       "source": "daily.dev",
       "kind": "guide"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "seo-optimization"
+    },
+    {
+      "id": "long-form-writing"
     }
   ]
 }

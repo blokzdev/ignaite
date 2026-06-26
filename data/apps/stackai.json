@@ -47,7 +47,7 @@
     "Roadmap now tied to Asana integration",
     "Crowded market vs Zapier and AI labs"
   ],
-  "bestFor": ["Enterprise workflow automation", "No-code agent teams", "Regulated industries"],
+  "bestFor": ["Enterprise teams", "No-code agent builders", "Regulated industries"],
   "alternatives": ["relevance-ai", "lindy", "gumloop", "dust"],
   "references": [
     {
@@ -55,6 +55,23 @@
       "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "rag-pipeline"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "app-deployment"
     }
   ]
 }

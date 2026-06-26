@@ -42,6 +42,14 @@
     "Smaller funding than rivals",
     "Heavier setup than no-code RPA"
   ],
-  "bestFor": ["UI test automation", "Computer-use agents", "Enterprise desktop automation"],
-  "alternatives": ["skyvern", "stagehand", "browse-ai", "bardeen"]
+  "bestFor": ["QA engineers", "Enterprise IT teams"],
+  "alternatives": ["skyvern", "stagehand", "browse-ai", "bardeen"],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "workflow-automation"
+    }
+  ]
 }

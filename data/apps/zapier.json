@@ -47,7 +47,18 @@
     "Shallow for complex data workflows",
     "AI features feel bolted-on"
   ],
-  "bestFor": ["Non-technical users", "Simple SaaS glue", "Broad integration needs"],
+  "bestFor": ["Non-technical users", "Solo founders & SMBs", "Ops & marketing teams"],
   "alternatives": ["make", "n8n", "activepieces", "pipedream"],
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "app-builder"
+    }
+  ]
 }

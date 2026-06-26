@@ -44,12 +44,7 @@
     "Complex for very large agents",
     "Free tier limited to one agent"
   ],
-  "bestFor": [
-    "No-code AI agents",
-    "Internal business tools",
-    "Automating workflows",
-    "Publishing AI apps"
-  ],
+  "bestFor": ["No-code builders", "Internal-tools teams", "SMBs"],
   "alternatives": ["gumloop", "lindy", "relevance-ai", "flowise"],
   "references": [
     {
@@ -57,6 +52,26 @@
       "url": "https://thelettertwo.com/2024/01/17/mindstudio-youai-ai-powered-enterprise-app-building/",
       "source": "The Letter Two",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "app-deployment"
+    },
+    {
+      "id": "mcp-server"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "web-scraping"
     }
   ]
 }

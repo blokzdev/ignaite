@@ -41,6 +41,20 @@
     "Newer/smaller ecosystem",
     "Web-only, no self-host"
   ],
-  "bestFor": ["Approval-gated workflows", "Team process automation", "AI-in-the-loop ops"],
-  "alternatives": ["zapier", "make", "gumloop", "lindy"]
+  "bestFor": ["Ops teams", "Collaborative business teams"],
+  "alternatives": ["zapier", "make", "gumloop", "lindy"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "schema-extraction"
+    },
+    {
+      "id": "text-classification"
+    },
+    {
+      "id": "web-scraping"
+    }
+  ]
 }

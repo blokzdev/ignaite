@@ -46,6 +46,17 @@
     "Reliability depends on model choice",
     "Newer than raw Playwright/Puppeteer"
   ],
-  "bestFor": ["Developers", "Reliable web agents", "Structured extraction"],
-  "alternatives": ["browser-use", "skyvern", "playwright-mcp", "steel"]
+  "bestFor": ["Developers", "TypeScript / Python teams"],
+  "alternatives": ["browser-use", "skyvern", "playwright-mcp", "steel"],
+  "capabilities": [
+    {
+      "id": "browser-automation"
+    },
+    {
+      "id": "web-scraping"
+    },
+    {
+      "id": "schema-extraction"
+    }
+  ]
 }

@@ -42,6 +42,23 @@
     "Limited human support",
     "Strains on very complex flows"
   ],
-  "bestFor": ["Ops automation", "Email/calendar agents", "No-code teams"],
-  "alternatives": ["zapier", "make", "gumloop", "relay-app"]
+  "bestFor": ["Ops & RevOps teams", "No-code builders", "SMB sales teams"],
+  "alternatives": ["zapier", "make", "gumloop", "relay-app"],
+  "capabilities": [
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "email-assistant"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }
