@@ -6,6 +6,7 @@ import { CATEGORY_CLUSTERS, CATEGORY_DESCRIPTION } from "@/lib/tools/category-me
 import { CAPABILITY_FAMILY_LABEL } from "@/lib/tools/capability-families";
 import { activeCountByCategory } from "@/lib/tools/category-stats";
 import { capabilityFamilyTotals, capabilityIndex } from "@/lib/tools/capability-stats";
+import { listRecipes } from "@/lib/recipes";
 import { categoryHref } from "@/lib/tools/facet-links";
 
 // /llms.txt (llmstxt.org) — the compact LLM-facing index: what this site is,
@@ -37,6 +38,13 @@ export function GET(): Response {
     return `- ${CAPABILITY_FAMILY_LABEL[family]} (${count}): ${examples.join(", ")}`;
   });
 
+  // Curated recipes — one bullet each; the linearized walkthroughs live in
+  // llms-full.txt.
+  const recipes = listRecipes({ includeStale: true });
+  const recipeLines = recipes.map(
+    (r) => `- [${r.title}](${siteUrl}/recipes/${r.slug}) — ${r.goal}`,
+  );
+
   const body = `# ${brand.name}
 
 > ${brand.tagline}
@@ -57,15 +65,24 @@ Task axis (the WHAT) — finer than category, and may cross it. ${usedLeaves} ca
 
 ${capLines.join("\n")}
 
+## Recipes (workflows)
+
+Curated, verified workflows over listed apps — ordered chains that take one real job
+from raw input to finished output. Each step is a listed app performing a named
+capability. Full linearized walkthroughs (steps + references): ${siteUrl}/llms-full.txt
+
+${recipeLines.join("\n")}
+
 ## Machine surfaces
 
 - [Full listing index](${siteUrl}/llms-full.txt): every app, one line each
-- [JSON Feed](${siteUrl}/feed.json): the 50 newest listings
+- [JSON Feed](${siteUrl}/feed.json): the 50 newest listings + the capability & recipe graph
 - [Sitemap](${siteUrl}/sitemap.xml)
 
 ## Pages
 
 - [Directory](${siteUrl}/): browse, search, and filter all listings
+- [Recipes](${siteUrl}/recipes): curated multi-app workflows
 - [All categories](${siteUrl}/categories)
 - [About](${siteUrl}/about): how the AI-managed directory works
 - [Contact](${siteUrl}/contact)

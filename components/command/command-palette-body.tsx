@@ -1,6 +1,6 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
-import { ChevronRight, Info, LayoutGrid, Mail, Tag } from "lucide-react";
+import { ChevronRight, Info, LayoutGrid, Mail, Route, Tag } from "lucide-react";
 import { useState, type ComponentType } from "react";
 import {
   CommandDialog,
@@ -12,6 +12,7 @@ import {
   CommandSeparator,
 } from "@/components/ui/command";
 import appsIndex from "@/.velite/apps-search.json";
+import recipesIndex from "@/.velite/recipes-search.json";
 import { APP_CATEGORIES, type AppCategory } from "@/types/app";
 import { CATEGORY_LABEL } from "@/hooks/use-directory-filters";
 import { isActiveNav } from "@/lib/nav";
@@ -30,9 +31,15 @@ const PAGES: ReadonlyArray<{
   icon: ComponentType<{ className?: string }>;
 }> = [
   { label: "Directory", href: "/", icon: LayoutGrid },
+  { label: "Recipes", href: "/recipes", icon: Route },
   { label: "About", href: "/about", icon: Info },
   { label: "Contact", href: "/contact", icon: Mail },
 ];
+
+// Browsable recipes for the palette (archived hidden; "stale" still shown).
+// Imports only the slim build-time index — never lib/recipes or @/.velite full,
+// so the full corpus stays out of this client chunk.
+const PALETTE_RECIPES = recipesIndex.filter((r) => r.status !== "archived");
 
 // Top categories by listing count — the comfortable menu's one-tap browse tiles.
 // Computed once from the slim build-time index (stable across renders).
@@ -227,6 +234,29 @@ function SearchView({
       </CommandGroup>
 
       <CommandSeparator />
+
+      {PALETTE_RECIPES.length > 0 ? (
+        <>
+          <CommandGroup heading="Recipes">
+            {PALETTE_RECIPES.map((r) => (
+              <CommandItem
+                key={r.slug}
+                value={`recipe ${r.title} ${r.goal} ${r.audience}`}
+                keywords={r.tags}
+                onSelect={() => onNavigate(`/recipes/${r.slug}`)}
+              >
+                <Route className="h-3.5 w-3.5 shrink-0 text-[var(--color-ink-dim)]" />
+                <span className="truncate text-[var(--color-ink)]">{r.title}</span>
+                <span className="ml-auto shrink-0 pl-3 font-mono text-[10px] tracking-[0.08em] text-[var(--color-ink-dim)] uppercase">
+                  {r.stepCount} steps
+                </span>
+              </CommandItem>
+            ))}
+          </CommandGroup>
+
+          <CommandSeparator />
+        </>
+      ) : null}
 
       <CommandGroup heading="Categories">
         {APP_CATEGORIES.map((c) => (
