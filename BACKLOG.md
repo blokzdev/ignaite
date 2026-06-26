@@ -117,6 +117,25 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       (primary/secondary) via a second verify pass, then the "prefer fewer platforms / open-source /
       free" set-cover substitution on recipes. Gated on the Recipes entity (AD/AE) + the AB pilot
       proving backfill cost. Don't market "fewer signups" until this ships.
+- [ ] **[future]** **Chunk AG — multi-dimensional recipes (parallel + iterative).** AD shipped the
+      Recipe as a LINEAR ordered `steps[]` chain; real workflows also run apps **in parallel** (and
+      converge) and **iterate back-and-forth** between apps. Founder-directed sequencing: **do AE
+      (routes/SEO) first on the linear model, then design this as its own research → design → pilot
+      chunk** (build the flow renderer once, against real graph recipes). The model extends
+      **additively, zero migration** (the 4 linear recipes stay valid — same defer-until-needed
+      discipline as `capability.level`): (1) **parallel + fan-in** = give each step an optional `id` + optional `dependsOn: id[]` → the `steps[]` list becomes a DAG (no deps = today's linear-by-order;
+      shared/empty deps = parallel branches; `dependsOn:[a,b]` = convergence); (2) **iteration** = an
+      optional `loop: { backTo: id, until: string }` on a step, or a group marker with
+      `mode: "sequential" | "parallel" | "iterative"` wrapping a sub-sequence. Three things change and
+      must be in the pilot's scope: the red-team **verification rubric** goes graph-aware (every edge
+      real, no orphan branch, loop-exit stated); the **renderer** becomes a small flow view (linear list
+      stays the reduced-motion fallback); **`HowTo` JSON-LD stays linearized** (topological order) while
+      the **true graph is exposed in the machine surfaces** (feed.json / llms-full.txt) — that's the
+      agent-facing payload. Pilot must hand-author **one real parallel** + **one real iterative** recipe
+      to prove the patterns before committing schema + renderer. NOTE: _arbitrary_ on-the-fly graph
+      synthesis is the **Recipe Spider's** job (below); the stored Recipe entity stays curated and
+      mostly-linear-plus-optional-branches — the two are complementary (curated recipes are the verified
+      grounding set; the Spider generalizes over the full capability graph).
 
 ### The "Recipe Spider" — recipe synthesis over the capability graph (capstone vision)
 

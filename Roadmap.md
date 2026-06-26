@@ -179,8 +179,35 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
   defense-in-depth merge, only `capabilities`+`bestFor` touched (`lastVerifiedAt` never bumped).
   **100% active coverage** (1,015/1,017; 2 correctly omitted — no verifiable leaf). The routines
   (`add-app`/`discover-apps`/`audit-directory`) now author + maintain `capabilities` so the gap can't reopen.
-- **Chunks AC–AF** (next) — capability-aware comparisons/insights + detail UI, the Recipe entity
-  (sign-off + pilot), and the substitution engine. See the plan doc + the "Recipe Spider" capstone below.
+- **Chunk AC — capability-aware UI ✅** — split into three merged PRs: detail-page capability chips +
+  the `CapabilityFamily` map (#349), the `/compare` capability-overlap row + the deterministic,
+  parity-gated "when to pick which" verdict (#350), and the family-level capability Insights chart +
+  the `capability → app` machine index (llms.txt / llms-full.txt / feed.json) + a soft velite coverage
+  advisory (#351).
+- **Chunk AD — the Recipe entity ✅ (#352)** — the directory's first _authored_ content type: a curated
+  workflow over listed apps (per-file `data/recipes/*.json` → `lib/recipes-schema.ts` → Velite
+  collection → `lib/recipes.ts` + `lib/tools/recipe-index.ts`), `steps[]` each a FK to an app + the
+  capability it performs, required `longSummary` + ≥1 independent `references`, the apps audit spine
+  reused. `complete()` integrity: step-FK existence / dup-slug / dup-seq / seq↔date hard-fail;
+  archived-app dependency → auto-demote to `status:"stale"` + warn (never throws). Shipped with a
+  red-teamed **4-recipe substance-floor pilot** (1 dropped for competitor-marketing refs — the gate
+  working). **Recipe v1 is a LINEAR ordered chain.**
+- **Chunk AE — Recipe routes + SEO (NEXT)** — `/recipes` hub + `/recipes/<slug>` (SSG), `HowTo`
+  JSON-LD (semantic/LLM value; Google deprecated the rich result — thesis is internal-link densification
+  - llms/feed), per-pair OG, sitemap, recipes in feed.json + llms.txt + ⌘K, the per-app "Used in N
+    recipes" rail (`recipesUsingApp`), and the `status:"stale"` renderer. Not a sign-off gate →
+    fire-and-forget. Builds against the linear model.
+- **Chunk AF — capability `level` + substitution engine** (sign-off gate) — `capabilities[].level`
+  (primary/secondary via a second verify pass) + the "prefer fewer platforms / open-source / free"
+  set-cover substitution on recipe steps + `author-recipes`/`audit-recipes` routines.
+- **Chunk AG — multi-dimensional recipes** (design+pilot; **after AE**, founder-directed) — extend the
+  Recipe model beyond the linear chain to **parallel branches + fan-in** (additive: step `id` +
+  optional `dependsOn: id[]` → a DAG) and **back-and-forth iteration** (an optional `loop`/group marker
+  with an exit condition). Additive, zero migration — the 4 linear recipes stay valid (same
+  defer-until-a-consumer-needs-it discipline as `capability.level`). Needs its own pilot (hand-author
+  one real parallel + one real iterative recipe), a graph-aware red-team rubric, a flow renderer (linear
+  list stays the fallback), and the true graph exposed in the machine surfaces. Note: _arbitrary_
+  on-the-fly graph synthesis is the **Recipe Spider's** job; the stored entity stays curated.
 - **Capstone vision — the "Recipe Spider"** (post-AF; BACKLOG'd): on-device + cloud recipe synthesis
   over the verified capability graph — deterministic graph traversal first, a small in-browser model
   for intent, a frontier model (Claude) graph-grounded for the hard cases. Every recipe is a path
