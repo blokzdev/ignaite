@@ -4,9 +4,10 @@ import { notFound } from "next/navigation";
 import { AlertTriangle, ArrowRight, ArrowUpRight, BookOpen, Check } from "lucide-react";
 import { GlowOrb } from "@/components/effects/glow-orb";
 import { JsonLd } from "@/components/seo/json-ld";
-import { CapabilityChip } from "@/components/tools/capability-chip";
+import { RecipeFlow } from "@/components/tools/recipe-flow";
 import { buildMetadata, siteUrl } from "@/lib/seo";
 import { getRecipe, listRecipes } from "@/lib/recipes";
+import { recipeExecutionOrder } from "@/lib/tools/recipe-graph";
 import { getApp } from "@/lib/apps";
 
 interface PageProps {
@@ -153,43 +154,7 @@ export default async function RecipeDetailPage({ params }: PageProps) {
           >
             The workflow
           </h2>
-          <ol className="space-y-8">
-            {steps.map(({ step, app }, idx) => (
-              <li
-                key={`${step.appSlug}-${idx}`}
-                id={`step-${idx + 1}`}
-                className="flex scroll-mt-32 gap-4"
-              >
-                <div
-                  aria-hidden
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent)]/[0.10] font-mono text-sm font-medium text-[var(--color-accent)]"
-                >
-                  {idx + 1}
-                </div>
-                <div className="min-w-0 flex-1">
-                  <div className="mb-2 flex flex-wrap items-center gap-2">
-                    {app ? (
-                      <Link
-                        href={`/apps/${app.slug}`}
-                        className="rounded text-base font-medium text-[var(--color-ink)] underline-offset-4 hover:text-[var(--color-accent)] hover:underline focus-visible:ring-2 focus-visible:ring-[var(--color-accent-hot)] focus-visible:outline-none"
-                      >
-                        {app.name}
-                      </Link>
-                    ) : (
-                      <span className="text-base font-medium text-[var(--color-ink)]">
-                        {step.appSlug}
-                      </span>
-                    )}
-                    {step.capability ? <CapabilityChip id={step.capability} /> : null}
-                  </div>
-                  <p className="text-sm leading-relaxed text-[var(--color-ink)]">{step.action}</p>
-                  <p className="mt-2 text-sm leading-relaxed text-[var(--color-ink-dim)] italic">
-                    {step.rationale}
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ol>
+          <RecipeFlow recipe={recipe} />
         </section>
 
         {recipe.references && recipe.references.length > 0 ? (
@@ -258,12 +223,15 @@ export default async function RecipeDetailPage({ params }: PageProps) {
           "@type": "HowTo",
           name: recipe.title,
           description: recipe.summary,
-          step: recipe.steps.map((step, idx) => ({
+          // Linearized in deterministic execution (topological) order — the same
+          // order the on-page flow renders, so #step-N anchors match. A loop is
+          // appended to its step's text (an exit condition), never a duplicated step.
+          step: recipeExecutionOrder(recipe).map(({ step }, pos) => ({
             "@type": "HowToStep",
-            position: idx + 1,
+            position: pos + 1,
             name: step.action,
-            text: step.rationale,
-            url: `${siteUrl}/recipes/${recipe.slug}#step-${idx + 1}`,
+            text: step.loop ? `${step.rationale} Repeat until ${step.loop.until}.` : step.rationale,
+            url: `${siteUrl}/recipes/${recipe.slug}#step-${pos + 1}`,
           })),
           tool: [...new Set(recipe.steps.map((s) => s.appSlug))].map((appSlug) => ({
             "@type": "HowToTool",

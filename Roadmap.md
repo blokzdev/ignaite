@@ -84,6 +84,7 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | AC    | Capability-aware UI — detail chips + family map · /compare overlap+verdict · insights chart + index        | #349–#351 | ✅     |
 | AD    | Recipe entity — schema + `complete()` integrity + reverse index + red-teamed 4-recipe pilot                | #352      | ✅     |
 | AE    | Recipe routes + SEO — `/recipes` hub + detail (SSG, 0 B JS) · HowTo/Breadcrumb JSON-LD · OG · rail · feeds | #354      | ✅     |
+| AG    | Multi-dim recipes — additive DAG (`dependsOn`) + `loop`; graph integrity; pure-CSS flow view; 2 pilots     | #355      | ✅     |
 
 ---
 
@@ -210,14 +211,19 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
 - **Chunk AF — capability `level` + substitution engine** (sign-off gate) — `capabilities[].level`
   (primary/secondary via a second verify pass) + the "prefer fewer platforms / open-source / free"
   set-cover substitution on recipe steps + `author-recipes`/`audit-recipes` routines.
-- **Chunk AG — multi-dimensional recipes** (design+pilot; **after AE**, founder-directed) — extend the
-  Recipe model beyond the linear chain to **parallel branches + fan-in** (additive: step `id` +
-  optional `dependsOn: id[]` → a DAG) and **back-and-forth iteration** (an optional `loop`/group marker
-  with an exit condition). Additive, zero migration — the 4 linear recipes stay valid (same
-  defer-until-a-consumer-needs-it discipline as `capability.level`). Needs its own pilot (hand-author
-  one real parallel + one real iterative recipe), a graph-aware red-team rubric, a flow renderer (linear
-  list stays the fallback), and the true graph exposed in the machine surfaces. Note: _arbitrary_
-  on-the-fly graph synthesis is the **Recipe Spider's** job; the stored entity stays curated.
+- **Chunk AG — multi-dimensional recipes ✅ (#355)** — extended the Recipe from a linear chain to an
+  **optional DAG**, additively (the 4 pre-AG recipes validate + render byte-identical): step `id` +
+  `dependsOn: id[]` (parallel branches + fan-in) + `loop: { backTo, until }` (iteration). Founder
+  sign-off picked **step-level `loop`** (not a group `mode` wrapper), **free-prose `until`**, **no new
+  dep** (pure-CSS flow view, 0 B route JS), and **authored-graph errors hard-fail in-PR** (dup id /
+  dangling ref / cycle / forward-loop) while archived-app stays a soft stale-demote.
+  `lib/tools/recipe-graph.ts` `recipeExecutionOrder()` (Kahn + array-index tie-break) is the single
+  deterministic order source; `HowTo` stays linearized (loop → an exit condition, never a duplicated
+  step) while the true graph rides `feed.json` + annotated `llms-full.txt`. Shipped with 2 web-verified
+  pilots (parallel: `source-video-to-multilingual-cuts`; iterative: `design-spec-to-signed-ui-component`)
+  — the substance gate dropped 3 competitor-marketing refs. An interactive react-flow/mermaid flow view
+  is BACKLOG'd. Note: _arbitrary_ on-the-fly graph synthesis is the **Recipe Spider's** job; the stored
+  entity stays curated.
 - **Capstone vision — the "Recipe Spider"** (post-AF; BACKLOG'd): on-device + cloud recipe synthesis
   over the verified capability graph — deterministic graph traversal first, a small in-browser model
   for intent, a frontier model (Claude) graph-grounded for the hard cases. Every recipe is a path

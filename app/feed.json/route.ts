@@ -55,10 +55,16 @@ export function GET(): Response {
         goal: r.goal,
         audience: r.audience,
         ...((r.status ?? "active") !== "active" ? { status: r.status } : {}),
+        // The graph fields (Chunk AG) ride along so an agent can reconstruct the
+        // DAG: id + dependsOn (parallel/fan-in) + loop (iteration). Linear recipes
+        // emit none of these → the payload is unchanged for them.
         steps: r.steps.map((s) => ({
           appSlug: s.appSlug,
           ...(s.capability ? { capability: s.capability } : {}),
           action: s.action,
+          ...(s.id ? { id: s.id } : {}),
+          ...(s.dependsOn?.length ? { dependsOn: s.dependsOn } : {}),
+          ...(s.loop ? { loop: s.loop } : {}),
         })),
       })),
     },

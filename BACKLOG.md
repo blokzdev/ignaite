@@ -117,25 +117,23 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       (primary/secondary) via a second verify pass, then the "prefer fewer platforms / open-source /
       free" set-cover substitution on recipes. Gated on the Recipes entity (AD/AE) + the AB pilot
       proving backfill cost. Don't market "fewer signups" until this ships.
-- [ ] **[future]** **Chunk AG — multi-dimensional recipes (parallel + iterative).** AD shipped the
-      Recipe as a LINEAR ordered `steps[]` chain; real workflows also run apps **in parallel** (and
-      converge) and **iterate back-and-forth** between apps. Founder-directed sequencing: **do AE
-      (routes/SEO) first on the linear model, then design this as its own research → design → pilot
-      chunk** (build the flow renderer once, against real graph recipes). The model extends
-      **additively, zero migration** (the 4 linear recipes stay valid — same defer-until-needed
-      discipline as `capability.level`): (1) **parallel + fan-in** = give each step an optional `id` + optional `dependsOn: id[]` → the `steps[]` list becomes a DAG (no deps = today's linear-by-order;
-      shared/empty deps = parallel branches; `dependsOn:[a,b]` = convergence); (2) **iteration** = an
-      optional `loop: { backTo: id, until: string }` on a step, or a group marker with
-      `mode: "sequential" | "parallel" | "iterative"` wrapping a sub-sequence. Three things change and
-      must be in the pilot's scope: the red-team **verification rubric** goes graph-aware (every edge
-      real, no orphan branch, loop-exit stated); the **renderer** becomes a small flow view (linear list
-      stays the reduced-motion fallback); **`HowTo` JSON-LD stays linearized** (topological order) while
-      the **true graph is exposed in the machine surfaces** (feed.json / llms-full.txt) — that's the
-      agent-facing payload. Pilot must hand-author **one real parallel** + **one real iterative** recipe
-      to prove the patterns before committing schema + renderer. NOTE: _arbitrary_ on-the-fly graph
-      synthesis is the **Recipe Spider's** job (below); the stored Recipe entity stays curated and
-      mostly-linear-plus-optional-branches — the two are complementary (curated recipes are the verified
-      grounding set; the Spider generalizes over the full capability graph).
+- [x] **[future]** **Chunk AG — multi-dimensional recipes (parallel + iterative) — ✅ DONE** (#355).
+      Extended the linear Recipe to an **optional DAG**, fully additively (the 4 pre-AG recipes validate + render byte-identical): each step may carry `id`, `dependsOn: id[]` (parallel branches + fan-in),
+      and `loop: { backTo, until }` (iteration). Founder sign-off picked: **step-level `loop`** (not a
+      group `mode` wrapper — would break the flat `steps[]` every consumer iterates); **free-prose
+      `until`**; **no new dep** (pure-CSS flow view, 0 B route JS); **authored-graph errors hard-fail
+      in-PR** (dup id / dangling ref / cycle / forward-loop), archived-app stays a **soft** stale-demote.
+      `lib/tools/recipe-graph.ts` `recipeExecutionOrder()` (Kahn + array-index tie-break) is the single
+      deterministic source for the flow `<ol>`, the HowTo linearization, the rank lanes, and the machine
+      surfaces. `HowTo` JSON-LD stays linearized (loop → an exit-condition on its step, never a
+      duplicated step); the **true graph** rides `feed.json` `_ignaite.recipes` + annotated
+      `llms-full.txt`. Shipped with **2 web-verified pilots** — `source-video-to-multilingual-cuts`
+      (parallel+fan-in: descript → rask-ai ‖ captions → veed) and `design-spec-to-signed-ui-component`
+      (iterative loop: figma-ai → claude → figma-ai ⟲ → claude-code). The substance gate dropped **3
+      competitor-marketing refs** (RWS/UXPin/RapidNative — the AD failure mode) and re-sourced
+      independent ones. NOTE: _arbitrary_ on-the-fly graph synthesis is the **Recipe Spider's** job
+      (below); the stored Recipe entity stays curated + mostly-linear-plus-optional-branches.
+- [ ] **[future]** **Interactive flow/graph visualization for recipes (and beyond) — `react-flow` / `mermaid` exploration (founder-requested).** Chunk AG ships the recipe flow view as **pure CSS, 0 B route JS** (rank-grouped lanes + fan-in/loop annotations) — deliberately no dep, per the §11 bar. As a follow-up, evaluate a real graph lib (`@xyflow/react` aka React Flow, or `mermaid`) for a **richer, possibly-interactive** rendering — draggable/zoomable DAGs, animated edges, collapsible branches — and assess where else it earns its weight across the app (e.g. the capability **family map** on `/apps/[slug]`, a `/compare` capability-overlap diagram, an `/insights` relationship graph, and the future **Recipe Spider's** synthesized-path preview). Gated by CLAUDE.md §11 (new dep + bundle cost): it MUST stay a lazy-loaded client island with a reduced-motion + no-JS fallback (the current CSS flow view is exactly that fallback), and must not regress the 0-B-route-JS posture of the static pages — so scope it as an opt-in enhancement layer, not a replacement. Decide React Flow (interactive, heavier, MIT) vs Mermaid (declarative text→SVG, lighter, can pre-render at build) per surface; a build-time Mermaid→SVG render could even keep some surfaces 0-JS.
 
 ### The "Recipe Spider" — recipe synthesis over the capability graph (capstone vision)
 

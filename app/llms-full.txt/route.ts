@@ -5,6 +5,7 @@ import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { CAPABILITY_FAMILY_LABEL } from "@/lib/tools/capability-families";
 import { capabilityIndex } from "@/lib/tools/capability-stats";
 import { listRecipes } from "@/lib/recipes";
+import { recipeExecutionOrder } from "@/lib/tools/recipe-graph";
 import { APP_CATEGORIES } from "@/types/app";
 import { PRICING_LABEL } from "@/lib/tools/app-labels";
 
@@ -50,11 +51,25 @@ ${capSections.join("\n\n")}`;
   // workflow payload (the true graph also lives in feed.json's _ignaite.recipes).
   const appNameBySlug = new Map(apps.map((a) => [a.slug, a.name] as const));
   const recipeBlocks = listRecipes({ includeStale: true }).map((r) => {
-    const stepLines = r.steps
-      .map((s, i) => {
+    // Linearized in execution (topological) order; dependency + loop edges are
+    // annotated inline so the graph is reconstructable from text. The machine-exact
+    // graph (id/dependsOn/loop) lives in feed.json's _ignaite.recipes.
+    const ordered = recipeExecutionOrder(r);
+    const posById = new Map<string, number>();
+    ordered.forEach((o, pos) => {
+      if (o.step.id) posById.set(o.step.id, pos + 1);
+    });
+    const stepLines = ordered
+      .map(({ step: s }, pos) => {
         const name = appNameBySlug.get(s.appSlug) ?? s.appSlug;
         const cap = s.capability ? ` [${s.capability}]` : "";
-        return `${i + 1}. ${name} (${s.appSlug})${cap} — ${s.action}`;
+        const deps = s.dependsOn?.length
+          ? ` (after ${s.dependsOn.map((id) => `step ${posById.get(id) ?? "?"}`).join(", ")})`
+          : "";
+        const loop = s.loop
+          ? ` ↻ repeat from step ${posById.get(s.loop.backTo) ?? "?"} until ${s.loop.until}`
+          : "";
+        return `${pos + 1}. ${name} (${s.appSlug})${cap} — ${s.action}${deps}${loop}`;
       })
       .join("\n");
     const refLines = r.references
@@ -65,8 +80,11 @@ ${capSections.join("\n\n")}`;
   });
   const recipeSection = `## Recipes (workflows)
 
-Curated, verified workflows over listed apps — each a linear chain of steps that
-accomplishes one real job. ${recipeBlocks.length} recipes.
+Curated, verified workflows over listed apps — each a chain of steps (some with
+parallel branches that fan in, or an iteration loop) that accomplishes one real job.
+${recipeBlocks.length} recipes. Steps are linearized in execution order; "(after step
+N)" marks a dependency and "↻ repeat from step N" marks a loop. The exact graph is in
+${siteUrl}/feed.json (_ignaite.recipes).
 
 ${recipeBlocks.join("\n\n")}`;
 

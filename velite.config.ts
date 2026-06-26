@@ -211,6 +211,104 @@ export default defineConfig({
       }
     }
 
+    // (f)–(k) RECIPE GRAPH INTEGRITY (Chunk AG). A recipe's steps[] is an OPTIONAL
+    // DAG: steps may carry `id` + `dependsOn` (parallel/fan-in) + `loop` (iteration).
+    // AUTHORED-graph errors HARD-FAIL in the PR that introduces them (caught before
+    // merge) — unlike the archived-app degradation above, these are mistakes the
+    // author can fix, not unattended runtime drift, so a throw is correct. A recipe
+    // with no graph fields is linear and skips every check here. (The ambiguous
+    // "orphan" case is a SOFT warn — a legitimate independent track must never block.)
+    for (const r of recipes) {
+      const steps = r.steps;
+      const ids = steps.map((s) => s.id).filter((id): id is string => id !== undefined);
+      const anyGraph =
+        ids.length > 0 || steps.some((s) => (s.dependsOn?.length ?? 0) > 0 || !!s.loop);
+      if (!anyGraph) continue; // linear recipe — nothing to validate
+
+      // (f) step id uniqueness within the recipe — a dup makes refs ambiguous.
+      const dupStepIds = dupes(ids);
+      if (dupStepIds.length) {
+        throw new Error(`Recipe "${r.slug}": duplicate step id(s): ${dupStepIds.join(", ")}.`);
+      }
+      const idSet = new Set(ids);
+      const idToIndex = new Map(
+        steps.map((s, i) => [s.id, i] as const).filter(([id]) => id !== undefined),
+      );
+
+      // (g) every dependsOn id + loop.backTo id must reference a step id in THIS recipe.
+      for (const s of steps) {
+        for (const dep of s.dependsOn ?? []) {
+          if (!idSet.has(dep)) {
+            throw new Error(
+              `Recipe "${r.slug}": step references unknown dependsOn id "${dep}" — give the target step an "id" (graph fields require step ids).`,
+            );
+          }
+        }
+        if (s.loop && !idSet.has(s.loop.backTo)) {
+          throw new Error(
+            `Recipe "${r.slug}": loop.backTo references unknown step id "${s.loop.backTo}".`,
+          );
+        }
+      }
+
+      // (i) acyclicity of the dependsOn DAG — loops belong on `loop`, not dependsOn.
+      // Kahn topological sort; if it can't consume every step there is a cycle.
+      const adj: number[][] = steps.map(() => []);
+      const work = steps.map(() => 0);
+      steps.forEach((s, i) => {
+        for (const dep of s.dependsOn ?? []) {
+          const from = idToIndex.get(dep)!;
+          if (from === i) continue;
+          adj[from].push(i);
+          work[i] += 1;
+        }
+      });
+      const queue = steps.map((_, i) => i).filter((i) => work[i] === 0);
+      const order: number[] = [];
+      while (queue.length) {
+        const i = queue.shift()!;
+        order.push(i);
+        for (const j of adj[i]) if (--work[j] === 0) queue.push(j);
+      }
+      if (order.length < steps.length) {
+        throw new Error(
+          `Recipe "${r.slug}": dependsOn graph has a cycle (${order.length}/${steps.length} steps orderable). Iteration must use the "loop" field, not dependsOn.`,
+        );
+      }
+      const posOf = new Map<number, number>(order.map((idx, pos) => [idx, pos]));
+
+      // (k) loop.backTo must point to an EARLIER step in execution order — a loop
+      // points backward, never forward or at itself.
+      steps.forEach((s, i) => {
+        if (!s.loop) return;
+        const target = idToIndex.get(s.loop.backTo)!;
+        if ((posOf.get(target) ?? 0) >= (posOf.get(i) ?? 0)) {
+          throw new Error(
+            `Recipe "${r.slug}": loop on step "${s.id ?? `#${i}`}" must point BACK to an earlier step; "${s.loop.backTo}" is not earlier in execution order.`,
+          );
+        }
+      });
+
+      // (orphan — SOFT) in a graph recipe, a step neither depending on anything nor
+      // depended upon is a disconnected island (likely a missing dependsOn). Warn,
+      // never block — it could be an intentional independent parallel track.
+      const connected = steps.map(() => false);
+      steps.forEach((s, i) => {
+        if ((s.dependsOn?.length ?? 0) > 0) {
+          connected[i] = true;
+          for (const dep of s.dependsOn ?? []) connected[idToIndex.get(dep)!] = true;
+        }
+      });
+      const islands = steps
+        .map((s, i) => (connected[i] ? null : (s.id ?? `#${i}`)))
+        .filter(Boolean);
+      if (connected.some(Boolean) && islands.length > 0 && islands.length < steps.length) {
+        console.warn(
+          `[velite] recipe "${r.slug}" has step(s) not connected to the graph: ${islands.join(", ")} — intended independent track(s), or a missing dependsOn? (advisory — not blocking)`,
+        );
+      }
+    }
+
     // SOFT ADVISORY — console.warn only, NEVER throws (a throw would deadlock the
     // unattended auto-merge pipeline). Flags active listings with no capabilities
     // so /audit-directory can fill them: capabilities power the task axis
