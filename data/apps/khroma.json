@@ -38,5 +38,10 @@
     "Web-only"
   ],
   "bestFor": ["Designers", "Web/UI designers", "Accessibility-minded designers"],
-  "alternatives": ["recraft", "adobe-express"]
+  "alternatives": ["recraft", "adobe-express"],
+  "capabilities": [
+    {
+      "id": "graphic-design"
+    }
+  ]
 }

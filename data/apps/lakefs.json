@@ -62,5 +62,10 @@
       "source": "Red Hat",
       "kind": "guide"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "etl-pipeline"
+    }
   ]
 }
