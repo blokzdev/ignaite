@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+/* Tailwind v4 auto-detects utility sources across the whole repo. Exclude
+   markdown docs (CLAUDE.md, Roadmap.md, README.md, …) from the scan: they carry
+   no real utilities, and a documented example like `bg-[var(--color-*)]` would
+   otherwise be picked up as a malformed candidate and emit invalid CSS. */
+@source not "../**/*.md";
+
 @theme {
   --color-canvas: #0a0712; /* deep plum-black */
   --color-surface: #15101f; /* plum-tinted elevated surface */
