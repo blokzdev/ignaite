@@ -58,7 +58,7 @@
       "id": "subtitle-generation"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "multi-model-access"

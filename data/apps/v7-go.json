@@ -42,13 +42,13 @@
   "alternatives": ["reducto", "nanonets", "unstructured", "hebbia"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "schema-extraction"
     },
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "report-generation"

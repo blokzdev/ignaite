@@ -54,7 +54,10 @@
   ],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
+    },
+    {
+      "id": "document-parsing"
     },
     {
       "id": "expense-management"

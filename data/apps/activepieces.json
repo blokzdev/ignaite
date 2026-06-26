@@ -48,7 +48,7 @@
   "alternatives": ["n8n", "make", "zapier", "gumloop"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "app-builder"

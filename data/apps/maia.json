@@ -42,7 +42,7 @@
       "id": "etl-pipeline"
     },
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     }
   ]
 }

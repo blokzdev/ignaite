@@ -53,13 +53,13 @@
   ],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "healthcare-ops"
     },
     {
-      "id": "workflow-automation"
+      "id": "automation-trigger"
     }
   ]
 }

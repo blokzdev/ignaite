@@ -41,7 +41,7 @@
   "alternatives": ["manus", "genspark", "lindy", "gumloop"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "automation-trigger"
     },
     {
       "id": "web-research-agent"

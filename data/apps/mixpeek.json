@@ -58,7 +58,7 @@
       "id": "speech-to-text"
     },
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
     },
     {
       "id": "speaker-diarization"

@@ -63,7 +63,7 @@
       "id": "speech-translation"
     },
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
     }
   ]
 }

@@ -40,7 +40,10 @@
   "alternatives": ["moondream", "roboflow", "landing-ai", "reka-vision"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
+    },
+    {
+      "id": "document-parsing"
     },
     {
       "id": "schema-extraction"

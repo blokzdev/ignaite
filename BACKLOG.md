@@ -138,17 +138,23 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       docs): (a) **add genuinely-missing capabilities** per app (still ≤6 cap, strongest-first) with their
       `level`; (b) see the leaf-granularity item below for the compound-capability split — **decoupled, do
       that FIRST** so we don't level a leaf we're about to split.
-- [ ] **[future]** **Capability-leaf granularity pass (founder-raised — its OWN chunk, sequence BEFORE
-      AF-2).** Founder: "split any compound capabilities into granular distinct items while maintaining
-      precision and reliability." Several `AppCapability` leaves are coarse/compound and finer leaves would
-      sharpen recipes + the substitution engine + `/compare` overlap. But this is a **vocabulary/taxonomy
-      migration**, NOT a leveling side-effect: it adds enum members (`types/app.ts`), assigns each to a
-      family + `CAPABILITY_LABEL` + `capability-aliases`, and **re-maps every app + every recipe
-      `step.capability`** using the old compound leaf — corpus- AND recipe-wide blast radius. Conflating it
-      with the AF-2 leveling pass would threaten the precision/reliability the founder wants. Do it as a
-      dedicated chunk (research → which leaves are genuinely compound → additive enum + label + alias +
-      a deterministic re-map of existing assignments, web-verified) and run it **before** AF-2 so leveling
-      operates on the final (granular) vocabulary. (Mirrors the Taxonomy-v2 category split, chunk N.)
+- [x] **[future]** **Chunk AH — capability-leaf granularity split — ✅ DONE** (#TBD). Founder-directed
+      first cut: split the 2 highest-confidence compound leaves — **`document-extraction` → `ocr-extraction` + `document-parsing`** and **`workflow-automation` → `workflow-orchestration` + `automation-trigger`**
+      — additively (enum + label + family, all completeness-compile-checked; synonym aliases re-pointed),
+      then **re-mapped all 174 affected apps** (61 + 113) via an Ultracode parallel campaign (13 hybrid
+      author agents → adversarial audit: completeness + no-fabrication + ≤6-cap + marquee spot-checks —
+      n8n/Make/Zapier→orchestration, mathpix/photomath→OCR). Distribution: doc 39 parsing / 9 OCR / 13 both;
+      wf 44 orchestration / 69 trigger. Old leaves **retired cleanly** (founder's call — no back-compat
+      cruft; the enum removal then **hard-fails** any app left behind, so it's the completeness guard for
+      free). 0 recipe steps used the split leaves. The free-form `tags` "workflow-automation"/"document-
+      extraction" were left (valid search terms, not capability ids). **Deferred** (red-team cut): `speech-
+    to-text`/`summarization`/`document-qa`/`eval-suite` (axes already covered by existing leaves), and
+      `app-builder` (medium-confidence fast-follow). AH landed **before AF-2**, so leveling operates on the
+      final vocabulary.
+- [ ] **[future]** **AH-bis — `app-builder` split (fast-follow, optional).** The deferred close-call from
+      AH: visual/no-code app builders vs code-emitting (v0/Lovable). ~67 apps. `code-generation` (55) +
+      `app-deployment` (46) already partly express the boundary, so medium confidence — revisit if the
+      substitution engine or a recipe surfaces a real confusion. Same migration machinery as AH (now proven).
 - [ ] **[future]** **AF-3 — `level`-aware detail/compare polish (defer, additive).** Once leveling
       coverage is meaningful: emphasize primary-level capability chips on `/apps/[slug]`, and let the
       `/compare` verdict use `level` to sharpen "best for X" claims. Pure additive; ship when wanted.

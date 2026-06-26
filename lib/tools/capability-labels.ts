@@ -21,7 +21,6 @@ export const CAPABILITY_LABEL: Record<AppCapability, string> = {
   "tool-calling": "Tool / function calling",
   "mcp-server": "MCP server",
   "mcp-gateway": "MCP gateway / registry",
-  "workflow-automation": "Workflow automation",
   "workflow-orchestration": "Workflow orchestration",
   "automation-trigger": "Trigger-action automation",
   "browser-automation": "Browser automation",
@@ -52,7 +51,6 @@ export const CAPABILITY_LABEL: Record<AppCapability, string> = {
   "cited-answers": "Cited answers",
   recommendation: "Recommendation engine",
   // data pipeline, extraction & app building
-  "document-extraction": "Document extraction / OCR",
   "ocr-extraction": "OCR / scanned-document extraction",
   "document-parsing": "Document parsing (structured)",
   "data-labeling": "Data labeling",

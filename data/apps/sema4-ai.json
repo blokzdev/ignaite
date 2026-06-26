@@ -54,7 +54,7 @@
   ],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "bookkeeping"

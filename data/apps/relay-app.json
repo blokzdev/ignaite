@@ -45,7 +45,7 @@
   "alternatives": ["zapier", "make", "gumloop", "lindy"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "schema-extraction"

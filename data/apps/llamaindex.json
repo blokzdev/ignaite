@@ -58,7 +58,7 @@
       "id": "vector-search"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "schema-extraction"

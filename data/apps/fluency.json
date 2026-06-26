@@ -42,7 +42,7 @@
   "bestFor": ["Ad agencies", "Multi-location brands", "High-volume PPC"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "automation-trigger"
     },
     {
       "id": "ad-creative-generation"

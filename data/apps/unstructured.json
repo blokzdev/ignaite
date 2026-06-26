@@ -51,7 +51,7 @@
   "alternatives": ["reducto", "docling", "chunkr", "nanonets"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "etl-pipeline"

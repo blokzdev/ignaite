@@ -49,7 +49,7 @@
   "alternatives": ["roboflow", "encord", "supervisely", "moondream"],
   "capabilities": [
     {
-      "id": "document-extraction"
+      "id": "ocr-extraction"
     },
     {
       "id": "schema-extraction"

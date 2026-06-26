@@ -69,7 +69,7 @@
   ],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "agent-orchestration"
@@ -81,7 +81,7 @@
       "id": "app-builder"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     }
   ]
 }

@@ -54,7 +54,7 @@
   "alternatives": ["inngest", "n8n", "zapier", "make"],
   "capabilities": [
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
       "id": "agent-framework"

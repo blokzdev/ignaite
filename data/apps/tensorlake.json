@@ -44,10 +44,10 @@
       "id": "code-execution"
     },
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "schema-extraction"

@@ -55,7 +55,7 @@
       "id": "gpu-compute"
     },
     {
-      "id": "workflow-automation"
+      "id": "workflow-orchestration"
     }
   ]
 }

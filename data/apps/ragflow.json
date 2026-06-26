@@ -50,7 +50,7 @@
       "id": "rag-pipeline"
     },
     {
-      "id": "document-extraction"
+      "id": "document-parsing"
     },
     {
       "id": "document-qa"
