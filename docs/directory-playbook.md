@@ -38,10 +38,13 @@ here can invoke them. They encode the same flow we run manually.
   intentionally partial — a real fact or nothing).
 - **The "honest brief" makes each listing decision-grade.** Beyond `insight`, listings carry optional
   enrichment: `edge` (the comparative "why pick this one"), balanced `pros`/`cons` (the honest cons are
-  the trust signal), `bestFor`, curated `alternatives` (peer slugs powering the "Alternatives to <name>"
-  rail), and third-party `references` (independent coverage — verify-or-omit, never the vendor's own
-  pages). Same no-fabrication bar; `/audit-directory` backfills + re-verifies these over the cycle.
-- **One home per point — no cross-field redundancy.** The `tagline` *describes* what the app is/does;
+  the trust signal), the controlled **`capabilities`** (≤6 task-axis leaf `id`s — WHAT it does, the
+  machine-readable keystone behind Comparisons / Recipes / the agent surface) paired with **`bestFor`
+  scoped to persona/audience** (WHO it's for), curated `alternatives` (peer slugs powering the
+  "Alternatives to <name>" rail), and third-party `references` (independent coverage — verify-or-omit,
+  never the vendor's own pages). Same no-fabrication bar — `capabilities` ids only for _confirmed
+  shipping features_; `/audit-directory` backfills + re-verifies all of these over the cycle.
+- **One home per point — no cross-field redundancy.** The `tagline` _describes_ what the app is/does;
   it doesn't sell (no stats, superlatives, or comparison — those are `edge`/`pros`). A distinctive
   stat/phrase appears in `description` once + at most one of {`edge`, `pros`}, never stacked across
   tagline + edge + pros (it piles up in the detail page's masthead → edge callout → pros box). Full

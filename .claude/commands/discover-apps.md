@@ -81,12 +81,15 @@ Optional focus: **$ARGUMENTS** (e.g. a category like `video` or a theme; otherwi
 ## 3. Author the worthy ones
 
 - Follow the **exact authoring spec + conventions + quality bar in `.claude/commands/add-app.md`**
-  (schema, required fields, mobile-via-platforms, an authored `insight` per app, the "honest brief"
-  enrichment fields — `edge`/`pros`/`cons`/`bestFor`/`alternatives`/`references` — optional
+  (schema, required fields, mobile-via-platforms, an authored `insight` per app, the controlled
+  **`capabilities`** (≤6 task-axis leaf `id`s from the `AppCapability` enum, web-verify-or-omit) with
+  **`bestFor` scoped to persona/audience only**, the "honest brief" enrichment fields —
+  `edge`/`pros`/`cons`/`bestFor`/`capabilities`/`alternatives`/`references` — optional
   `secondaryCategories` (≤2) where the app has a genuine second home — strict bar, most get none —
   `featured` only for true standouts, `addedAt`/`lastVerifiedAt` = today). Web-verify every field; if a fact won't verify,
-  use the conservative value and flag it — never invent (`insight`, `edge`, `cons`, and `references`
-  especially must be grounded; `references` are verify-or-omit and `alternatives` must be real slugs).
+  use the conservative value and flag it — never invent (`insight`, `edge`, `cons`, `capabilities`, and `references`
+  especially must be grounded; `capabilities` ids only for **confirmed shipping features** (never inferred from the
+  name/category/our prose), `references` are verify-or-omit, and `alternatives` must be real slugs).
   Honor the **no cross-field redundancy** rule (see `add-app.md`): the `tagline` describes (no
   stats/superlatives/comparison); a distinctive stat lives in `description` once + at most one of
   {`edge`, `pros`}, never stacked across tagline + edge + pros.
