@@ -1,0 +1,61 @@
+{
+  "slug": "raw-list-to-booked-meetings-cold-outbound",
+  "title": "Run cold outbound from a raw list to booked meetings",
+  "goal": "Turn a raw prospect list into enriched, personalized cold outreach that books sales meetings.",
+  "audience": "founders, SDRs/BDRs, and early-stage GTM teams",
+  "summary": "Chain an enrichment engine, a real-time email coach, a deliverability-first sender, and a meeting scheduler to take a raw list from messy rows to booked calls — each tool owning one stage of the funnel instead of one all-in-one doing all of them poorly.",
+  "longSummary": "The all-in-one outbound platforms tend to be mediocre at every stage; this recipe stacks a specialist for each one. You start in Clay, where waterfall enrichment across many providers verifies emails and fills firmographics, and Claygent research agents pull the per-prospect detail that makes a line feel hand-written — the output is a clean, personalization-ready table, not a raw list. The order of the next two steps is the gotcha most teams get wrong: coach the copy in Lavender BEFORE it goes into the sequence, not after. Lavender scores each draft 0–100 and rewrites weak sections in your inbox, so you only ever load verified-good copy into the sender; coaching after the sequence is already running is too late to save those sends. Smartlead then receives the enriched rows (the Clay→Smartlead handoff is a native integration push into a campaign) and runs the multi-step sequence from auto-warmed, rotated mailboxes so the emails actually land in the primary inbox, with all replies unified in one master inbox. When a prospect engages, Apollo's Meeting Scheduler closes the loop: a self-schedule link plus an inbound router books the slot against your calendar without the back-and-forth. It breaks down if you skip deliverability setup (SPF/DKIM/DMARC and warmup are non-negotiable — great copy in the spam folder books nothing) and on tiny lists where Clay's per-row credit cost outweighs manual research.",
+  "steps": [
+    {
+      "appSlug": "clay",
+      "capability": "lead-enrichment",
+      "action": "Import the raw list and run waterfall enrichment plus Claygent research to verify emails and add per-prospect personalization data.",
+      "rationale": "Waterfall enrichment across many providers maximizes match rates on a cold list, and Claygent agents pull the per-prospect detail that makes outreach feel hand-written, not generic."
+    },
+    {
+      "appSlug": "lavender",
+      "capability": "email-assistant",
+      "action": "Write and refine the sequence copy in your inbox, using Lavender's 0-100 score and rewrites to lift each message before it ships.",
+      "rationale": "Coaching the copy BEFORE it enters the sequence is the whole point — Lavender scores drafts against billions of emails, so you only ever load reply-worthy copy into the sender."
+    },
+    {
+      "appSlug": "smartlead",
+      "capability": "outbound-prospecting",
+      "action": "Push the enriched rows into a Smartlead campaign and run the multi-step sequence from auto-warmed, rotated mailboxes.",
+      "rationale": "Smartlead treats deliverability as infrastructure — automated warmup and mailbox rotation keep cold sends in the primary inbox, and a unified master inbox catches every reply for the next stage."
+    },
+    {
+      "appSlug": "apollo",
+      "capability": "calendar-scheduling",
+      "action": "Hand engaged prospects a self-schedule link or inbound router so they book a meeting against your calendar in seconds.",
+      "rationale": "Apollo's Meeting Scheduler removes the back-and-forth that kills warm replies — a round-robin or single-host link books the slot the moment a prospect is interested, closing the funnel."
+    }
+  ],
+  "prerequisites": [
+    "A raw prospect list (names + companies, or a target ICP)",
+    "Domains with SPF/DKIM/DMARC configured for sending",
+    "Accounts for each app in the chain",
+    "Calendar connected (Google or Outlook) for scheduling"
+  ],
+  "tags": ["cold-email", "outbound", "sales", "lead-enrichment", "gtm", "deliverability"],
+  "references": [
+    {
+      "title": "8 Best Tools for Personalized Cold Email at Scale (2026)",
+      "url": "https://salesmotion.io/blog/best-personalized-cold-email-tools-at-scale",
+      "source": "Salesmotion"
+    },
+    {
+      "title": "Clay + Smartlead + n8n Cold Email Automation Stack",
+      "url": "https://theautomationsguide.com/blog/2026-05-07-clay-smartlead-n8n-cold-email-automation-stack/",
+      "source": "The Automations Guide"
+    },
+    {
+      "title": "Send Clay-enriched leads into Smartlead (integration guide)",
+      "url": "https://www.clay.com/integrations/smartlead",
+      "source": "Clay"
+    }
+  ],
+  "addedSeq": 3,
+  "addedAt": "2026-06-26",
+  "lastVerifiedAt": "2026-06-26"
+}

@@ -208,7 +208,7 @@ export const APP_LINK_KINDS: ReadonlyArray<AppLinkKind> = [
 // A change-history entry's classification. `added` = first listed · `updated` =
 // the app itself changed upstream · `fixed` = our data was corrected · `archived`
 // = discontinued/sunset · `relisted` = brought back after archival.
-export type ChangeKind = "added" | "updated" | "fixed" | "archived" | "relisted";
+export type ChangeKind = "added" | "updated" | "fixed" | "archived" | "relisted" | "restepped";
 
 export const APP_CHANGE_KINDS: ReadonlyArray<ChangeKind> = [
   "added",
@@ -216,6 +216,7 @@ export const APP_CHANGE_KINDS: ReadonlyArray<ChangeKind> = [
   "fixed",
   "archived",
   "relisted",
+  "restepped", // recipe audit: a step's app was swapped/changed
 ];
 
 // Classification for a third-party `reference` (independent, non-vendor coverage

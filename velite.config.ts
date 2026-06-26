@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { defineCollection, defineConfig } from "velite";
 import { appSchema } from "./lib/apps-schema";
 import { sponsoredSchema } from "./lib/sponsored-schema";
+import { recipeSchema } from "./lib/recipes-schema";
 
 // One JSON file per listing under data/apps/*.json, validated against the zod
 // schema (the source of truth). Velite generates the typed, aggregated data
@@ -22,16 +23,26 @@ const sponsored = defineCollection({
   schema: sponsoredSchema,
 });
 
+// One JSON file per recipe under data/recipes/*.json — a curated workflow over
+// LISTED apps. Each step.appSlug is a FK into the apps collection, verified for
+// existence in complete() below. No slim index: recipes are build-time/SSG (read
+// via lib/recipes.ts + lib/tools/recipe-index.ts), never bundled to the client.
+const recipes = defineCollection({
+  name: "Recipe", // the generated record type name
+  pattern: "recipes/*.json",
+  schema: recipeSchema,
+});
+
 export default defineConfig({
   root: "data",
   output: { data: ".velite", clean: true },
-  collections: { apps, sponsored },
+  collections: { apps, sponsored, recipes },
   // `--strict` (set on the velite invocations in package.json) turns per-file
   // schema violations into a non-zero exit so CI / pre-push catch bad data from
   // the weekly authoring routines instead of silently dropping the entry. The
   // guard below covers what per-file validation structurally can't: two files
   // sharing a slug/id collide on output. Throwing here also fails the build.
-  complete: ({ apps, sponsored }) => {
+  complete: ({ apps, sponsored, recipes }) => {
     const dupes = (values: ReadonlyArray<string>) => [
       ...new Set(values.filter((v, i) => values.indexOf(v) !== i)),
     ];
@@ -124,6 +135,82 @@ export default defineConfig({
       }
       seenIdentity.set(sig, a.slug);
     }
+    // ═══════════════════════════════════════════════════════════════════════
+    // RECIPES — cross-file integrity per-file zod can't see (mirrors apps).
+    // ═══════════════════════════════════════════════════════════════════════
+
+    // (a) Dup-slug guard — two files sharing a slug collide on output.
+    const dupRecipeSlugs = dupes(recipes.map((r) => r.slug));
+    if (dupRecipeSlugs.length) {
+      throw new Error(
+        `Duplicate recipe slug(s) across data/recipes/*.json: ${dupRecipeSlugs.join(", ")}`,
+      );
+    }
+
+    // (b) Dup-addedSeq guard — accession numbers unique (per-collection counter;
+    //     recipe seqs independent of app seqs). Same race the apps guard backstops.
+    const dupRecipeSeqs = dupes(recipes.map((r) => String(r.addedSeq)));
+    if (dupRecipeSeqs.length) {
+      throw new Error(`Duplicate addedSeq across data/recipes/*.json: ${dupRecipeSeqs.join(", ")}`);
+    }
+
+    // (c) addedSeq ↔ addedAt ordering — walked in seq order, addedAt may never
+    //     step backward (seq is the fine chronology under day-granular dates).
+    const recipesBySeq = [...recipes].sort((a, b) => a.addedSeq - b.addedSeq);
+    let prevDatedRecipe: (typeof recipesBySeq)[number] | undefined;
+    for (const r of recipesBySeq) {
+      if (!r.addedAt) continue;
+      if (prevDatedRecipe && r.addedAt < prevDatedRecipe.addedAt!) {
+        throw new Error(
+          `addedSeq order contradicts addedAt: recipe "${r.slug}" (seq ${r.addedSeq}, ${r.addedAt}) ` +
+            `is dated before "${prevDatedRecipe.slug}" (seq ${prevDatedRecipe.addedSeq}, ${prevDatedRecipe.addedAt})`,
+        );
+      }
+      prevDatedRecipe = r;
+    }
+
+    // (d) FK validation — every step.appSlug must reference a REAL app. The
+    //     recipe's load-bearing integrity guard (cross-collection mirror of the
+    //     apps `alternatives` existence check). A typo'd / never-listed / deleted
+    //     app slug HARD-FAILS the build in the SAME PR. (Format is in zod;
+    //     existence can only be checked here, across files.)
+    const appBySlug = new Map(apps.map((a) => [a.slug, a] as const));
+    for (const r of recipes) {
+      const badRefs = [...new Set(r.steps.map((s) => s.appSlug).filter((s) => !appBySlug.has(s)))];
+      if (badRefs.length) {
+        throw new Error(
+          `Recipe "${r.slug}": step.appSlug references missing app slug(s): ${badRefs.join(", ")}. ` +
+            `Every recipe step must point at a listed app (data/apps/<slug>.json).`,
+        );
+      }
+    }
+
+    // (e) Archived-app degradation — SOFT, NEVER THROWS. An app a recipe depends
+    //     on may be archived AFTER the recipe was authored. The FK still exists
+    //     (d), so it isn't a data error, but the recipe can't run as written — so
+    //     it must not show as fully "active". A throw here would deadlock the
+    //     unattended auto-merge pipeline (one app archived in a PR would block
+    //     every recipe PR forever). We AUTO-DEMOTE the GENERATED record to
+    //     status:"stale" + console.warn for /audit-recipes to re-step. The
+    //     mutation lands ONLY in the gitignored .velite output (regenerated every
+    //     build) — the source JSON keeps the author's intent; the projection
+    //     reflects reality. The moment the app relists, the demotion stops with
+    //     zero source churn.
+    const isArchivedApp = (slug: string) =>
+      (appBySlug.get(slug)?.status ?? "active") === "archived";
+    for (const r of recipes) {
+      if ((r.status ?? "active") !== "active") continue; // already stale/archived
+      const deadSteps = [...new Set(r.steps.map((s) => s.appSlug).filter(isArchivedApp))];
+      if (deadSteps.length) {
+        r.status = "stale"; // demote the generated record only
+        console.warn(
+          `[velite] recipe "${r.slug}" depends on archived app(s): ${deadSteps.join(", ")} — ` +
+            `auto-demoted to status:"stale". Re-step via /audit-recipes, then set status back to ` +
+            `active in data/recipes/${r.slug}.json. (advisory — not blocking)`,
+        );
+      }
+    }
+
     // SOFT ADVISORY — console.warn only, NEVER throws (a throw would deadlock the
     // unattended auto-merge pipeline). Flags active listings with no capabilities
     // so /audit-directory can fill them: capabilities power the task axis

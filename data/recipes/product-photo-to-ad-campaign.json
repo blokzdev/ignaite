@@ -1,0 +1,56 @@
+{
+  "slug": "product-photo-to-ad-campaign",
+  "title": "From a product photo to a full ad campaign",
+  "goal": "Turn a single product photo into a set of polished static and video ad creatives ready to launch.",
+  "audience": "DTC and e-commerce marketers",
+  "summary": "Take one raw product shot and chain four specialists — clean cutout, branded scene with legible on-image text, an animated motion ad, and a UGC-style spoken endorsement — to ship a full paid-social creative set without a photo shoot or a film crew.",
+  "longSummary": "Most \"AI ad generator\" shortcuts try to do everything in one box and produce templated creatives that look the same as everyone else's. This recipe instead treats the cutout as raw material and layers purpose-built tools on top, which is exactly how high-performing ad teams work (background removal is step one of a compositing-and-testing system, not the finished asset). You start by isolating the product so it can drop cleanly onto any background; the transparent subject is then uploaded as the base image to a text-rendering step that builds a branded scene with the legible price badges, \"Sale\" tags, and headline copy that general image models still garble. That composed still is what you animate into a motion ad — feeding a verified static into image-to-video means you only ever animate a creative you already approve, never a draft. The order matters: generate the video before the scene is locked and you bake mistakes into a format that's expensive to re-check. The final step adds the human-endorsement layer paid social rewards, and it's also where the chain's main gotcha lives: AI actors are synthesized independently of your product footage, so they can talk about the product convincingly but can't physically hold or demo it — keep the product hero work in the static/motion units and let the actor carry the spoken hook. It breaks down for products whose appeal is tactile (texture, fit, mechanism) that a talking-head can't show, and on regulated categories where AI-generated endorsements need disclosure — for those, lean on the static and motion units and skip the actor step.",
+  "steps": [
+    {
+      "appSlug": "photoroom",
+      "capability": "background-removal",
+      "action": "Upload the raw product photo and remove the background to get a clean, edge-accurate transparent cutout of just the product.",
+      "rationale": "An isolated subject is reusable raw material for every downstream creative — Photoroom keeps fine edges (jewelry, fabric, glass) clean so it drops onto any scene without halos."
+    },
+    {
+      "appSlug": "ideogram",
+      "capability": "text-to-image",
+      "action": "Upload the cutout as a base image and generate a branded scene around it with legible on-image text — headline, price badge, or CTA.",
+      "rationale": "Ideogram renders legible typography (~90% accuracy) where general image models garble letters, so the price tags and CTAs that drive clicks come out sharp instead of as gibberish."
+    },
+    {
+      "appSlug": "adcreative-ai",
+      "capability": "image-to-video",
+      "action": "Feed the finalized static into Product Videoshoots to animate it into short motion ad units sized for feed and stories.",
+      "rationale": "Animating an already-approved still — not a draft — turns one composition into multiple motion variants, and the same platform scores creatives so you can shortlist before spending."
+    },
+    {
+      "appSlug": "arcads",
+      "capability": "ad-creative-generation",
+      "action": "Write a short hook script, pick an AI actor and emotion, and generate UGC-style spoken video ads to run alongside the product-led units.",
+      "rationale": "Paid social rewards authentic-looking endorsements; Arcads adds the human-voice layer the static and motion units can't, and batches actor/script variants for rapid creative testing."
+    }
+  ],
+  "prerequisites": [
+    "One clear product photo (any background)",
+    "Brand colors, fonts, and a logo for the scene",
+    "A short ad hook/script idea for the actor step",
+    "Paid accounts for AdCreative.ai and Arcads (no free tier)"
+  ],
+  "tags": ["advertising", "e-commerce", "product-photography", "paid-social", "ugc", "video-ads"],
+  "references": [
+    {
+      "title": "AI Background Remover for Products: 7 Ad-Ready Strategies",
+      "url": "https://adlibrary.com/posts/ai-background-remover-for-products",
+      "source": "AdLibrary"
+    },
+    {
+      "title": "Best 6 AI Tools to Remove Image Backgrounds in 2026",
+      "url": "https://invideo.io/blog/best-ai-tools-to-remove-image-backgrounds/",
+      "source": "InVideo"
+    }
+  ],
+  "addedSeq": 4,
+  "addedAt": "2026-06-26",
+  "lastVerifiedAt": "2026-06-26"
+}
