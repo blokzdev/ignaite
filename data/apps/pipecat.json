@@ -48,6 +48,23 @@
     "Tuning latency needs real expertise",
     "Smaller ecosystem than hosted rivals"
   ],
-  "bestFor": ["Custom voice agents", "Real-time multimodal apps", "Developers avoiding lock-in"],
-  "alternatives": ["livekit", "vapi", "retell-ai", "synthflow"]
+  "bestFor": ["Voice-AI developers", "Teams avoiding lock-in", "Real-time AI builders"],
+  "alternatives": ["livekit", "vapi", "retell-ai", "synthflow"],
+  "capabilities": [
+    {
+      "id": "agent-framework"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "agent-orchestration"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "app-deployment"
+    }
+  ]
 }

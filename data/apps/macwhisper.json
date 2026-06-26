@@ -16,7 +16,11 @@
   "accentColor": "#8B5CF6",
   "tags": ["transcription", "on-device", "whisper", "privacy", "speech-to-text"],
   "links": [
-    { "kind": "website", "url": "https://goodsnooze.gumroad.com/l/macwhisper", "primary": true }
+    {
+      "kind": "website",
+      "url": "https://goodsnooze.gumroad.com/l/macwhisper",
+      "primary": true
+    }
   ],
   "addedAt": "2026-06-14",
   "addedSeq": 597,
@@ -35,7 +39,7 @@
     "Accuracy depends on chosen Whisper model",
     "No cloud sync or collaboration"
   ],
-  "bestFor": ["Private interview transcription", "Mac users", "Journalists & researchers"],
+  "bestFor": ["Mac users", "Journalists & researchers", "Podcasters"],
   "alternatives": ["superwhisper", "good-tape", "descript", "wispr-flow"],
   "references": [
     {
@@ -43,6 +47,23 @@
       "url": "https://www.podfeet.com/blog/2023/12/macwhisper-3x-faster/",
       "source": "Podfeet",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "speech-translation"
     }
   ]
 }

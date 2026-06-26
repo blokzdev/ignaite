@@ -43,7 +43,7 @@
     "Bleed increases in dense chorus sections",
     "Pay-per-minute model, not flat subscription"
   ],
-  "bestFor": ["Producers", "Sample isolation", "API audio pipelines"],
+  "bestFor": ["Producers & remixers", "DJs", "Audio engineers"],
   "alternatives": ["moises", "audioshake", "descript"],
   "references": [
     {
@@ -51,6 +51,17 @@
       "url": "https://www.chartlex.com/blog/marketing/ai-stem-separation-tools-2026",
       "source": "Chartlex",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "voice-cloning"
     }
   ]
 }

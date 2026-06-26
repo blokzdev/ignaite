@@ -35,6 +35,20 @@
     "Mac is the most mature platform",
     "Larger local models need more RAM"
   ],
-  "bestFor": ["Privacy-conscious users", "Mac power users", "System-wide dictation"],
-  "alternatives": ["wispr-flow", "aqua-voice"]
+  "bestFor": ["Privacy-conscious users", "Mac power users", "Solo professionals"],
+  "alternatives": ["wispr-flow", "aqua-voice"],
+  "capabilities": [
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "text-editing"
+    }
+  ]
 }

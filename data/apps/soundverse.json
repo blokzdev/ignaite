@@ -40,7 +40,7 @@
     "Output quality varies by genre",
     "Best features need a paid plan"
   ],
-  "bestFor": ["Background-music creators", "Artists licensing a style"],
+  "bestFor": ["Content creators", "Independent artists"],
   "alternatives": ["suno", "udio", "mureka", "soundraw"],
   "references": [
     {
@@ -48,6 +48,17 @@
       "url": "https://musically.com/2026/01/09/soundverse-sets-out-its-ethical-framework-for-ai-music/",
       "source": "Music Ally",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "model-fine-tuning"
     }
   ]
 }

@@ -42,7 +42,7 @@
     "Latency ~600-900ms, higher than rivals",
     "Less customization, conversation logic locked in"
   ],
-  "bestFor": ["Outbound sales calls", "Non-technical teams"],
+  "bestFor": ["Enterprise teams", "Non-technical teams", "Sales & contact centers"],
   "alternatives": ["vapi", "retell-ai", "elevenlabs", "deepgram"],
   "references": [
     {
@@ -50,6 +50,23 @@
       "url": "https://venturebeat.com/ai/bland-ai-scores-16m-to-automate-enterprise-phone-calls-with-agents",
       "source": "VentureBeat",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "conversation-intelligence"
     }
   ]
 }

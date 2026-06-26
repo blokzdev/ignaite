@@ -36,6 +36,14 @@
     "No user model selection",
     "Fewer pro editing controls than Suno/Udio"
   ],
-  "bestFor": ["Free song generation", "Hobbyist music", "Quick demos"],
-  "alternatives": ["suno", "udio", "mureka", "sonauto"]
+  "bestFor": ["Hobbyist musicians", "Content creators", "Producers"],
+  "alternatives": ["suno", "udio", "mureka", "sonauto"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "audio-editing"
+    }
+  ]
 }

@@ -45,11 +45,7 @@
     "Costs scale with audio volume",
     "English strongest, others vary"
   ],
-  "bestFor": [
-    "Conversation intelligence",
-    "Accuracy-critical transcription",
-    "Developers building voice products"
-  ],
+  "bestFor": ["Developers", "Voice-AI product teams"],
   "alternatives": ["deepgram", "elevenlabs", "cartesia"],
   "references": [
     {
@@ -57,6 +53,23 @@
       "url": "https://www.gladia.io/blog/assemblyai-vs-deepgram",
       "source": "Gladia",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "content-moderation"
     }
   ]
 }

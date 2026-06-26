@@ -47,10 +47,17 @@
     "Complex configuration surface",
     "Cloud-only orchestration"
   ],
-  "bestFor": [
-    "Custom voice phone agents",
-    "Developers wanting model choice",
-    "Inbound/outbound call automation"
-  ],
-  "alternatives": ["retell-ai", "bland-ai", "elevenlabs", "cartesia"]
+  "bestFor": ["Developers", "Voice-AI startups", "Enterprise platform teams"],
+  "alternatives": ["retell-ai", "bland-ai", "elevenlabs", "cartesia"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

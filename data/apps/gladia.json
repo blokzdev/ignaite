@@ -41,7 +41,7 @@
     "Generous free tier and pay-as-you-go"
   ],
   "cons": ["API-only, no end-user app", "Proprietary models", "Younger than incumbent STT rivals"],
-  "bestFor": ["Production STT", "Voice agents", "EU-compliant transcription"],
+  "bestFor": ["EU/compliance-bound teams", "Voice-app developers", "Speech AI engineers"],
   "alternatives": ["deepgram", "assemblyai", "speechmatics", "elevenlabs"],
   "references": [
     {
@@ -55,6 +55,23 @@
       "url": "https://sifted.eu/articles/gladia-raise-ai-france-news",
       "source": "Sifted",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "schema-extraction"
     }
   ]
 }

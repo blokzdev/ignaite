@@ -40,6 +40,17 @@
     "Less prompt fidelity than Suno/Udio",
     "No vocals/lyric generation"
   ],
-  "bestFor": ["Creators needing safe BGM", "Brands & ads", "Video soundtracks"],
-  "alternatives": ["suno", "udio", "soundraw", "mubert"]
+  "bestFor": ["Content creators", "Brands & agencies", "Video editors"],
+  "alternatives": ["suno", "udio", "soundraw", "mubert"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "audio-mastering"
+    }
+  ]
 }

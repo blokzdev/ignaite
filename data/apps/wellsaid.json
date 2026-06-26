@@ -40,11 +40,7 @@
     "Premium pricing geared to teams",
     "Smaller voice catalog than some rivals"
   ],
-  "bestFor": [
-    "Corporate training and e-learning",
-    "Product and marketing video",
-    "Enterprise voiceover"
-  ],
+  "bestFor": ["Enterprise teams", "L&D and e-learning teams", "Marketing teams"],
   "alternatives": ["elevenlabs", "murf", "resemble-ai", "cartesia"],
   "references": [
     {
@@ -52,6 +48,11 @@
       "url": "https://www.unite.ai/matt-hocking-co-founder-ceo-of-wellsaid-labs-interview-series/",
       "source": "Unite.AI",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
     }
   ]
 }

@@ -16,8 +16,15 @@
   },
   "tags": ["voice-agents", "contact-center", "cx", "outbound"],
   "links": [
-    { "kind": "website", "url": "https://www.regal.ai", "primary": true },
-    { "kind": "pricing", "url": "https://www.regal.ai/pricing" }
+    {
+      "kind": "website",
+      "url": "https://www.regal.ai",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.regal.ai/pricing"
+    }
   ],
   "edge": "Tuned for high-volume contact-center calling — its agents draw on millions of prior calls, and Copilot ships a working voice agent in about a day.",
   "pros": [
@@ -31,7 +38,7 @@
     "Enterprise focus; heavier setup than DIY APIs",
     "Pricing not published"
   ],
-  "bestFor": ["Contact centers", "Outbound sales calling", "CX automation"],
+  "bestFor": ["Contact centers", "Enterprise CX teams", "Sales & collections teams"],
   "alternatives": ["vapi", "retell-ai", "synthflow", "bland-ai"],
   "references": [
     {
@@ -43,5 +50,19 @@
   ],
   "addedAt": "2026-06-20",
   "addedSeq": 906,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "agent-orchestration"
+    }
+  ]
 }

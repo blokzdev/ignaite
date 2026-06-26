@@ -40,7 +40,7 @@
     "Enterprise/developer-oriented",
     "English + select langs strongest"
   ],
-  "bestFor": ["Phone/voice agents", "Real-time TTS", "Multilingual voicebots"],
+  "bestFor": ["Voice agent builders", "Enterprise support teams", "Developers"],
   "alternatives": ["cartesia", "elevenlabs", "rime", "vapi"],
   "references": [
     {
@@ -48,6 +48,17 @@
       "url": "https://inc42.com/buzz/smallest-ai-raises-8-mn-to-build-enterprise-grade-voice-ai/",
       "source": "Inc42",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "voice-agent"
     }
   ]
 }

@@ -45,6 +45,17 @@
     "Free tier limits length/generations",
     "Commercial use needs subscription"
   ],
-  "bestFor": ["Sound effects", "Licensed-data music", "API audio generation"],
-  "alternatives": ["suno", "sonauto", "riffusion", "soundraw"]
+  "bestFor": ["Sound designers", "Developers", "Content creators"],
+  "alternatives": ["suno", "sonauto", "riffusion", "soundraw"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "sound-effects"
+    },
+    {
+      "id": "audio-editing"
+    }
+  ]
 }

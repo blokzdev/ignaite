@@ -40,5 +40,19 @@
     "Premium needed for unlimited AI features",
     "AI processing can lag for niche episodes"
   ],
-  "bestFor": ["Podcast listeners", "Active learning", "Knowledge capture", "Researchers"]
+  "bestFor": ["Podcast listeners", "Lifelong learners", "Researchers", "Students"],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "document-qa"
+    },
+    {
+      "id": "note-taking"
+    }
+  ]
 }

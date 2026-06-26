@@ -45,6 +45,17 @@
     "Voice quality depends on chosen vendors",
     "Cloud-only, no self-host"
   ],
-  "bestFor": ["Inbound/outbound call agents", "AI receptionists", "Outbound campaigns"],
-  "alternatives": ["vapi", "bland-ai", "elevenlabs", "cartesia"]
+  "bestFor": ["No-code builders", "Startups & SMBs", "Developers"],
+  "alternatives": ["vapi", "bland-ai", "elevenlabs", "cartesia"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "tool-calling"
+    }
+  ]
 }

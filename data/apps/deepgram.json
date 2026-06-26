@@ -45,6 +45,23 @@
     "Proprietary Nova models",
     "English strongest, other langs vary"
   ],
-  "bestFor": ["Production STT", "Telephony transcription"],
-  "alternatives": ["assemblyai", "elevenlabs", "cartesia", "speechify"]
+  "bestFor": ["Voice-app developers", "Telephony/contact-center teams", "Speech AI engineers"],
+  "alternatives": ["assemblyai", "elevenlabs", "cartesia", "speechify"],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

@@ -14,7 +14,13 @@
     "notes": "Patented generative-audio engine; no third-party LLM involved."
   },
   "tags": ["soundscapes", "focus", "sleep", "generative-audio", "wellness"],
-  "links": [{ "kind": "website", "url": "https://endel.io", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://endel.io",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-20",
   "addedSeq": 976,
   "lastVerifiedAt": "2026-06-20",
@@ -32,7 +38,11 @@
     "Soundscapes, not tracks",
     "Effects are subjective"
   ],
-  "bestFor": ["Focus and deep work", "Sleep and relaxation", "Wellness routines"],
+  "bestFor": [
+    "Focus-seeking knowledge workers",
+    "Wellness/sleep users",
+    "Endurance/activity users"
+  ],
   "references": [
     {
       "title": "Endel raises $15M for its AI sound-wellness technology",
@@ -45,6 +55,11 @@
       "url": "https://www.musicbusinessworldwide.com/warners-spinnin-records-partners-with-generative-ai-startup-endel-to-create-50-ai-generated-wellness-albums/",
       "source": "Music Business Worldwide",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
     }
   ]
 }

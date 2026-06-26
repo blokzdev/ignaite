@@ -42,9 +42,23 @@
     "Free tier is English-only and capped",
     "AI accuracy trails human on hard audio"
   ],
-  "bestFor": ["Podcasters and journalists", "Video captioning", "Developer STT"],
+  "bestFor": ["Podcasters & journalists", "Legal & investigative teams", "Developers"],
   "alternatives": ["descript", "good-tape", "happyscribe", "macwhisper"],
   "addedAt": "2026-06-20",
   "addedSeq": 915,
-  "lastVerifiedAt": "2026-06-20"
+  "lastVerifiedAt": "2026-06-20",
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "cited-answers"
+    }
+  ]
 }

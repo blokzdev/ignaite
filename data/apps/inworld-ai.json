@@ -45,7 +45,7 @@
     "Pivoted from its original character-engine focus",
     "Voice quality varies by model tier"
   ],
-  "bestFor": ["Voice agents", "AI companions", "Interactive characters"],
+  "bestFor": ["Voice AI developers", "Consumer-scale apps", "Game & character studios"],
   "alternatives": ["vapi", "retell-ai", "cartesia", "elevenlabs"],
   "references": [
     {
@@ -53,6 +53,26 @@
       "url": "https://www.businesswire.com/news/home/20260610968386/en/Inworld-Cuts-Prices-to-Take-Down-the-Biggest-Wall-in-Consumer-AI-Cost",
       "source": "Business Wire",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "llm-gateway"
+    },
+    {
+      "id": "model-inference"
+    },
+    {
+      "id": "voice-cloning"
     }
   ]
 }

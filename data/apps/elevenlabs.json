@@ -47,7 +47,27 @@
     "Free tier caps usage tightly",
     "Latency higher than streaming-first rivals"
   ],
-  "bestFor": ["Audiobooks and narration", "Dubbing and localization", "Voice agents"],
+  "bestFor": ["Audiobook/media producers", "Localization teams", "Voice-app developers"],
   "alternatives": ["cartesia", "deepgram", "speechify", "hume-ai"],
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "sound-effects"
+    }
+  ]
 }

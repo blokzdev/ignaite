@@ -38,6 +38,20 @@
     "Cloud-only, audio uploaded",
     "Less control than manual editing"
   ],
-  "bestFor": ["Podcasters", "Non-English audio", "Fast turnaround"],
-  "alternatives": ["adobe-podcast", "auphonic", "descript", "krisp"]
+  "bestFor": ["Podcasters", "Video creators", "Multilingual creators"],
+  "alternatives": ["adobe-podcast", "auphonic", "descript", "krisp"],
+  "capabilities": [
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

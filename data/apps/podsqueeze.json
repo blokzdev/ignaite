@@ -36,6 +36,20 @@
     "Narrow to podcast workflows",
     "Small team vs. enterprise tools"
   ],
-  "bestFor": ["Indie podcasters", "Podcast agencies", "Show-notes automation"],
-  "alternatives": ["descript", "riverside", "wondercraft", "adobe-podcast"]
+  "bestFor": ["Indie podcasters", "Podcast agencies", "Solo creators"],
+  "alternatives": ["descript", "riverside", "wondercraft", "adobe-podcast"],
+  "capabilities": [
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "long-form-writing"
+    },
+    {
+      "id": "audio-editing"
+    }
+  ]
 }

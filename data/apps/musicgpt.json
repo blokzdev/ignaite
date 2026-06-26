@@ -40,6 +40,17 @@
     "Credit-metered beyond free quota",
     "Quality trails category leaders"
   ],
-  "bestFor": ["Hobbyist songwriting", "Background tracks", "On-the-go creation"],
-  "alternatives": ["suno", "udio", "soundraw", "mureka"]
+  "bestFor": ["Hobbyist musicians", "Indie creators", "Developers"],
+  "alternatives": ["suno", "udio", "soundraw", "mureka"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "text-to-speech"
+    }
+  ]
 }

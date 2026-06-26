@@ -39,7 +39,7 @@
     "Vocal extraction can warble/artifact",
     "Best features gated behind subscription"
   ],
-  "bestFor": ["Practicing musicians", "Cover and remix players", "Backing-track creation"],
+  "bestFor": ["Practicing musicians", "Cover & remix artists", "Music teachers"],
   "alternatives": ["lalal-ai", "audioshake", "descript"],
   "references": [
     {
@@ -51,5 +51,13 @@
   ],
   "featured": false,
   "featuredAt": "2026-06-10",
-  "accentColor": "#7C3AED"
+  "accentColor": "#7C3AED",
+  "capabilities": [
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "audio-mastering"
+    }
+  ]
 }

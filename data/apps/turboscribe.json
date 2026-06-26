@@ -33,11 +33,7 @@
     "Built on a single model (Whisper)",
     "No real-time or live-meeting transcription"
   ],
-  "bestFor": [
-    "Podcasters and journalists",
-    "Bulk audio/video transcription",
-    "Multilingual subtitling"
-  ],
+  "bestFor": ["Podcasters and journalists", "Researchers", "Localization teams"],
   "alternatives": ["otter-ai", "assemblyai", "speechmatics"],
   "references": [
     {
@@ -45,6 +41,20 @@
       "url": "https://a16z.com/100-gen-ai-apps-6/",
       "source": "a16z",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "translation"
     }
   ]
 }

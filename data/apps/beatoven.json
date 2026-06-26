@@ -40,7 +40,7 @@
     "Free tier blocks downloads",
     "Less granular control than Soundraw"
   ],
-  "bestFor": ["YouTube and podcast scoring", "Royalty-free background music"],
+  "bestFor": ["Video creators", "Podcasters", "Indie game devs"],
   "alternatives": ["soundraw", "suno", "udio", "aiva"],
   "references": [
     {
@@ -48,6 +48,14 @@
       "url": "https://genesysgrowth.com/blog/suno-vs-udio-vs-beatoven",
       "source": "Genesys Growth",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "sound-effects"
     }
   ]
 }

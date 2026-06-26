@@ -37,7 +37,7 @@
     "Advanced features gated to paid tiers",
     "Less control than a full DAW"
   ],
-  "bestFor": ["Podcast creators", "Solo video creators", "AI voiceover"],
+  "bestFor": ["Podcasters", "Solo video creators", "Content teams"],
   "alternatives": ["descript", "adobe-podcast", "elevenlabs"],
   "references": [
     {
@@ -45,6 +45,23 @@
       "url": "https://techcrunch.com/2025/03/03/podcasting-platform-podcastle-launches-a-text-to-speech-model-with-more-than-450-ai-voices/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "audio-cleanup"
     }
   ]
 }

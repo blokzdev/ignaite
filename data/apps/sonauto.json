@@ -49,6 +49,11 @@
     "Quality varies by genre",
     "Commercial use needs paid plan"
   ],
-  "bestFor": ["Prompt-to-song creators", "API music generation", "Melody-driven tracks"],
-  "alternatives": ["suno", "udio", "riffusion", "mureka"]
+  "bestFor": ["Musicians", "Content creators", "Developers"],
+  "alternatives": ["suno", "udio", "riffusion", "mureka"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    }
+  ]
 }

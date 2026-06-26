@@ -44,7 +44,7 @@
     "Free credits tightened over abuse",
     "Token-based pricing takes math"
   ],
-  "bestFor": ["Multilingual transcription", "Live captions", "Voice agents"],
+  "bestFor": ["Developers", "Voice AI builders", "Multilingual teams"],
   "alternatives": ["deepgram", "assemblyai", "speechmatics", "gladia"],
   "references": [
     {
@@ -52,6 +52,23 @@
       "url": "https://www.futurepedia.io/tool/soniox-speech-to-text",
       "source": "Futurepedia",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "speech-translation"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "dictation"
     }
   ]
 }
