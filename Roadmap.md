@@ -85,6 +85,8 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | AD    | Recipe entity — schema + `complete()` integrity + reverse index + red-teamed 4-recipe pilot                | #352      | ✅     |
 | AE    | Recipe routes + SEO — `/recipes` hub + detail (SSG, 0 B JS) · HowTo/Breadcrumb JSON-LD · OG · rail · feeds | #354      | ✅     |
 | AG    | Multi-dim recipes — additive DAG (`dependsOn`) + `loop`; graph integrity; pure-CSS flow view; 2 pilots     | #355      | ✅     |
+| —     | Hardening — self-referential `dependsOn` hard-fail + parallel-lane a11y label                              | #356      | ✅     |
+| AF-1  | Substitution engine (lexicographic, build-time) + "Swap this step" rail + author/audit-recipes routines    | #357      | ✅     |
 
 ---
 
@@ -208,9 +210,26 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
   Fire-and-forget; built against the linear model. (Filed a BACKLOG `[debt]`: `recipes.json`
   co-bundles into the homepage barrel chunk — a pre-existing AD condition, to unwind with the
   Browse-projection PR.)
-- **Chunk AF — capability `level` + substitution engine** (sign-off gate) — `capabilities[].level`
-  (primary/secondary via a second verify pass) + the "prefer fewer platforms / open-source / free"
-  set-cover substitution on recipe steps + `author-recipes`/`audit-recipes` routines.
+- **Chunk AF-1 — substitution engine + recipe routines ✅ (#357)** — founder chose **engine-first**: the
+  engine ranks on 4 signals (capability `level`, license, cost, platform count) and 3 are already 100%
+  populated, so it ships useful day one and `level` only sharpens it. `lib/tools/recipe-substitution.ts`
+  `substitutesForStep()` — deterministic, build-time, **lexicographic** (fit → license → cost → fewer
+  platforms → addedSeq), returns only real active apps that genuinely carry the capability (no
+  fabrication, no request-time model). Rendered as a collapsed "Swap this step (N)" `<details>` rail per
+  step on `/recipes/[slug]` (0 B route JS). Plus `author-recipes` (human-review PR) + `audit-recipes`
+  (auto-merge) routines. Honest framing today: "ranked by license, cost, and platform footprint."
+- **Chunk AH — capability leaf-granularity split** (founder-directed, **next; before AF-2**) — split the
+  compound `AppCapability` leaves into granular distinct items so recipes + the substitution engine +
+  `/compare` overlap sharpen. A **vocabulary/taxonomy migration** (additive enum + family/label/alias +
+  a deterministic re-map of every app's & every recipe's `step.capability`), so it's its own chunk done
+  **before** the leveling pass — we don't level a leaf we're about to split (mirrors the Taxonomy-v2
+  category split, chunk N). Its own research → design → re-map, web-verified, precision-first.
+- **Chunk AF-2 — full `level` backfill campaign** (founder-directed, **after AH**) — populate
+  `capabilities[].level` across the corpus (3,652 entries) via a **full web-verify**, AB-style parallel
+  Ultracode fan-out; fold in **add-missing-capabilities** on the same docs visit (≤6 cap). MUST NOT bump
+  `lastVerifiedAt` / append `changelog` (enrichment, not re-verification — AB precedent). Each cluster
+  independently mergeable; sharpens the (already-shipped) engine as coverage climbs, then the public
+  framing gains "…and capability fit."
 - **Chunk AG — multi-dimensional recipes ✅ (#355)** — extended the Recipe from a linear chain to an
   **optional DAG**, additively (the 4 pre-AG recipes validate + render byte-identical): step `id` +
   `dependsOn: id[]` (parallel branches + fan-in) + `loop: { backTo, until }` (iteration). Founder
