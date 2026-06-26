@@ -1,4 +1,12 @@
-import { Archive, ArrowUpRight, RefreshCw, RotateCcw, Sparkles, Wrench } from "lucide-react";
+import {
+  Archive,
+  ArrowUpRight,
+  RefreshCw,
+  Replace,
+  RotateCcw,
+  Sparkles,
+  Wrench,
+} from "lucide-react";
 import type { ComponentType } from "react";
 import type { ChangeEntry, ChangeKind } from "@/types/app";
 import { cn, formatDate } from "@/lib/utils";
@@ -36,6 +44,15 @@ const KIND: Record<
     icon: RotateCcw,
     chip: "bg-[var(--color-success)]/[0.12] text-[var(--color-success)] ring-[var(--color-success)]/30",
     dot: "bg-[var(--color-success)]",
+  },
+  // Recipe audit only (a step's app was swapped/changed) — apps never carry this
+  // kind, but the Record<ChangeKind,…> must be total. Reused when AE renders a
+  // recipe's change history.
+  restepped: {
+    label: "Re-stepped",
+    icon: Replace,
+    chip: "bg-[var(--color-accent)]/[0.12] text-[var(--color-accent)] ring-[var(--color-accent)]/30",
+    dot: "bg-[var(--color-accent)]",
   },
 };
 

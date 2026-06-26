@@ -1,0 +1,61 @@
+{
+  "slug": "spec-to-tested-seo-landing-page",
+  "title": "From product spec to a tested, SEO-ready landing page",
+  "goal": "Go from a written product spec to a deployed landing page that's code-reviewed and search-optimized.",
+  "audience": "indie hackers and founding engineers",
+  "summary": "Turn a rough launch idea into a shipped, reviewed, ranking landing page: structure the spec, generate the UI, wire it into a deployable full-stack app, get the code reviewed before it ships, then tune the copy against the live SERP.",
+  "longSummary": "The fast way to ship a launch page is also the way you ship a broken, invisible one — generated code with security holes and copy that ranks for nothing. This recipe keeps the speed but adds two guardrails. You start by forcing the idea through a structured PRD so the build has a real spec (sections, user stories, acceptance criteria) instead of a one-line prompt; that spec becomes the brief you paste into the UI generator. The generated React/Tailwind components are then pushed to GitHub and imported into a full-stack builder that wires in a backend, auth, and a real deploy target — the difference between a static mockup and a page that can capture a signup (note the v0→Lovable handoff is a GitHub roundtrip, not a native import: Lovable treats its connected repo as source of truth). Before that ships, the generated code goes through an AI reviewer on the pull request: this is the step most vibe-coded pages skip, and it's where injection bugs, leaked keys, and dead error states get caught. Only once the page is live and correct do you optimize the copy against the current top-ranking pages, so you're tuning a real URL, not a draft. The key gotcha: do the review before the SEO pass, not after — re-architecting a page to fix a security finding will move headings and copy and invalidate the score you worked for. It breaks down for highly custom apps where the generators need heavy hand-finishing, and for brand-new niches where the SEO step has no SERP to benchmark against.",
+  "steps": [
+    {
+      "appSlug": "chatprd",
+      "capability": "long-form-writing",
+      "action": "Turn the rough idea into a structured PRD — problem, target user, the page's one job, and acceptance criteria for the launch.",
+      "rationale": "A real spec, not a one-line prompt, is what makes the generated UI coherent; ChatPRD encodes PRD structure and can hand requirements straight to v0/Lovable."
+    },
+    {
+      "appSlug": "v0",
+      "capability": "ui-design",
+      "action": "Paste the spec into v0 to generate the landing page UI as production React + Tailwind + shadcn components, iterating on layout and sections.",
+      "rationale": "v0 emits real shadcn/Tailwind code (not throwaway mockup markup), so the hero, features, and CTA sections are componentized and ready to wire into an app."
+    },
+    {
+      "appSlug": "lovable",
+      "capability": "app-deployment",
+      "action": "Push the v0 components to GitHub, import the repo into Lovable, wire a Supabase backend + signup capture, and publish a live URL.",
+      "rationale": "v0 stops at UI; importing the repo into Lovable adds the backend, auth, and deploy that turn a static page into one that can actually capture leads and ship."
+    },
+    {
+      "appSlug": "coderabbit",
+      "capability": "code-review",
+      "action": "Open a pull request on the synced repo and let CodeRabbit run a line-by-line review for bugs, security issues, and dead states before merge.",
+      "rationale": "Generated code looks fine until reviewed; CodeRabbit's PR review can catch injection, leaked keys, and broken error paths the generators miss — and it's free on public repos."
+    },
+    {
+      "appSlug": "surfer-seo",
+      "capability": "seo-optimization",
+      "action": "Run the live page copy through Surfer's Content Editor, scoring it against the top-ranking pages for your keyword and tuning the terms.",
+      "rationale": "Surfer's real-time Content Score benchmarks against the current SERP, so you optimize the shipped page to what's actually ranking now rather than to fixed rules."
+    }
+  ],
+  "prerequisites": [
+    "A one-line product idea and target keyword",
+    "A GitHub account for the deploy + review loop",
+    "Accounts for each app in the chain"
+  ],
+  "tags": ["landing-page", "vibe-coding", "launch", "seo", "code-review"],
+  "references": [
+    {
+      "title": "From PRD to shipped: chaining ChatPRD into v0 and Lovable",
+      "url": "https://www.chatprd.ai/resources/using-chatprd-with-v0",
+      "source": "ChatPRD"
+    },
+    {
+      "title": "The complete beginner's guide to coding with AI: from PRD to your first lines of code",
+      "url": "https://www.lennysnewsletter.com/p/the-complete-beginners-guide-to-coding",
+      "source": "Lenny's Newsletter"
+    }
+  ],
+  "addedSeq": 2,
+  "addedAt": "2026-06-26",
+  "lastVerifiedAt": "2026-06-26"
+}
