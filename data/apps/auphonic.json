@@ -45,7 +45,7 @@
     "Cloud-only; legacy desktop apps no longer updated",
     "Free hours reset monthly and don't roll over"
   ],
-  "bestFor": ["Podcast mastering", "Audiobook ACX specs", "Batch loudness workflows"],
+  "bestFor": ["Podcasters", "Audiobook narrators", "Audio engineers", "Media teams"],
   "alternatives": ["adobe-podcast", "descript", "krisp"],
   "references": [
     {
@@ -65,6 +65,20 @@
       "url": "https://aichief.com/ai-audio-tools/auphonic-ai/",
       "source": "AIChief",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "audio-mastering"
+    },
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

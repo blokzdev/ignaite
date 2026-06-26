@@ -43,6 +43,14 @@
     "Commercial licensing only on paid tiers",
     "Output quality lags Suno/Udio at top end"
   ],
-  "bestFor": ["Songwriters", "API-driven music apps", "Multilingual vocals"],
-  "alternatives": ["suno", "udio", "soundraw", "riffusion"]
+  "bestFor": ["Songwriters", "Music producers", "Indie artists"],
+  "alternatives": ["suno", "udio", "soundraw", "riffusion"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "voice-cloning"
+    }
+  ]
 }

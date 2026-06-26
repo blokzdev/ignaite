@@ -43,6 +43,26 @@
     "Best results need editing",
     "Pricier than raw TTS at scale"
   ],
-  "bestFor": ["Podcast creators", "Audiobook producers", "Audio ad makers"],
-  "alternatives": ["elevenlabs", "descript", "adobe-podcast", "speechify"]
+  "bestFor": ["Podcast creators", "Audiobook producers", "Audio ad makers", "Content marketers"],
+  "alternatives": ["elevenlabs", "descript", "adobe-podcast", "speechify"],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "avatar-generation"
+    }
+  ]
 }

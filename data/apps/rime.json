@@ -39,12 +39,7 @@
     "Smaller voice library than the largest players",
     "Best value at contact-center scale"
   ],
-  "bestFor": [
-    "Voice agents & IVR",
-    "Contact centers",
-    "Regulated industries",
-    "Real-time phone AI"
-  ],
+  "bestFor": ["Contact centers", "Voice-AI platform teams", "Regulated industries"],
   "alternatives": ["elevenlabs", "cartesia", "deepgram", "resemble-ai"],
   "references": [
     {
@@ -52,6 +47,11 @@
       "url": "https://www.marktechpost.com/2025/05/14/rime-introduces-arcana-and-rimecaster-open-source-practical-voice-ai-tools-built-on-real-world-speech/",
       "source": "MarkTechPost",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
     }
   ]
 }

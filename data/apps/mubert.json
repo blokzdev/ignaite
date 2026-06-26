@@ -49,5 +49,10 @@
       "source": "Failory",
       "kind": "interview"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    }
   ]
 }

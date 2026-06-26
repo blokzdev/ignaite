@@ -40,7 +40,7 @@
     "Instrumental only (no vocals/lyrics)",
     "Exclusive ownership needs top tier"
   ],
-  "bestFor": ["Content creators", "Royalty-free background music", "Podcast and video producers"],
+  "bestFor": ["Content creators", "Video producers", "Podcasters", "Marketers"],
   "alternatives": ["soundraw", "mubert", "loudly", "aiva"],
   "references": [
     {
@@ -54,6 +54,11 @@
       "url": "https://www.entrepreneur.com/starting-a-business/how-diaa-el-all-went-from-classical-musician-to-tech-leader/435500",
       "source": "Entrepreneur",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
     }
   ]
 }

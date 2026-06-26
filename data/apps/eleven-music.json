@@ -59,5 +59,10 @@
       "source": "Music Ally",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    }
   ]
 }

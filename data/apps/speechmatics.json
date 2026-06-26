@@ -40,7 +40,7 @@
     "TTS newer than its core STT",
     "Enterprise-leaning packaging"
   ],
-  "bestFor": ["Voice agent builders", "Multilingual transcription", "Regulated industries"],
+  "bestFor": ["Voice AI engineers", "Enterprises", "Regulated industries"],
   "alternatives": ["deepgram", "assemblyai", "elevenlabs"],
   "references": [
     {
@@ -54,6 +54,23 @@
       "url": "https://deepgram.com/learn/best-speech-to-text-apis-2026",
       "source": "Deepgram",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "speech-translation"
     }
   ]
 }

@@ -38,7 +38,7 @@
     "Real-time watermarking"
   ],
   "cons": ["Limited free tier", "Detection confidence drops on noisy audio"],
-  "bestFor": ["Consented voice cloning", "Deepfake detection", "Regulated industries"],
+  "bestFor": ["Regulated industries", "Media & trust teams", "Enterprises"],
   "alternatives": ["elevenlabs", "cartesia", "hume-ai"],
   "references": [
     {
@@ -52,6 +52,17 @@
       "url": "https://www.kunalganglani.com/blog/deepfake-voice-detection-tools-tested",
       "source": "Kunal Ganglani",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "ai-security-scanning"
     }
   ]
 }

@@ -37,7 +37,7 @@
     "Transcription accuracy varies by source",
     "Niche use case"
   ],
-  "bestFor": ["Musicians transcribing by ear", "Music students", "Arrangers"],
+  "bestFor": ["Musicians", "Music students", "Arrangers", "Composers"],
   "alternatives": ["moises"],
   "references": [
     {

@@ -47,7 +47,7 @@
     "Vocal rendering processed in the cloud",
     "Learning curve for the piano-roll editor"
   ],
-  "bestFor": ["Music producers", "Songwriters", "Vocal demos and covers"],
+  "bestFor": ["Music producers", "Songwriters"],
   "alternatives": ["kits-ai", "suno", "udio", "mureka"],
   "references": [
     {
@@ -55,6 +55,20 @@
       "url": "https://bedroomproducersblog.com/2025/12/18/ace-studio/",
       "source": "Bedroom Producers Blog",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "audio-editing"
     }
   ]
 }

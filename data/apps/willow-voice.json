@@ -36,6 +36,17 @@
     "Heavy use needs the paid plan",
     "Crowded AI-dictation category"
   ],
-  "bestFor": ["Knowledge workers", "Hands-free writing", "Privacy-conscious teams"],
-  "alternatives": ["wispr-flow", "aqua-voice", "superwhisper"]
+  "bestFor": ["Knowledge workers", "Privacy-conscious teams", "Healthcare & regulated"],
+  "alternatives": ["wispr-flow", "aqua-voice", "superwhisper"],
+  "capabilities": [
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-editing"
+    }
+  ]
 }

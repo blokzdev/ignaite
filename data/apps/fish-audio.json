@@ -47,6 +47,20 @@
     "Smaller voice library than incumbents",
     "Voice cloning carries misuse risk"
   ],
-  "bestFor": ["Cost-sensitive TTS", "Voice cloning", "Multilingual narration"],
-  "alternatives": ["elevenlabs", "cartesia", "rime", "murf"]
+  "bestFor": ["Indie developers", "Cost-sensitive teams", "Multilingual content makers"],
+  "alternatives": ["elevenlabs", "cartesia", "rime", "murf"],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

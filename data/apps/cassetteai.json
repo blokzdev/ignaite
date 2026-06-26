@@ -37,6 +37,14 @@
     "API-first; limited standalone editor",
     "Commercial-rights terms not clearly stated"
   ],
-  "bestFor": ["Developers adding audio", "Real-time background music", "High-volume content"],
-  "alternatives": ["suno", "udio", "stable-audio", "beatoven"]
+  "bestFor": ["Developers", "Content creators", "Game studios"],
+  "alternatives": ["suno", "udio", "stable-audio", "beatoven"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "sound-effects"
+    }
+  ]
 }

@@ -54,7 +54,7 @@
     "Proprietary model, no self-host",
     "Output ownership/licensing contested"
   ],
-  "bestFor": ["Quick song demos", "Creators needing vocals", "Hobbyist music-making"],
+  "bestFor": ["Hobbyist musicians", "Content creators", "Indie artists"],
   "alternatives": ["udio", "riffusion", "mureka", "sonauto"],
   "references": [
     {
@@ -62,6 +62,14 @@
       "url": "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "stem-separation"
     }
   ]
 }

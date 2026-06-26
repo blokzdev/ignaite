@@ -53,5 +53,19 @@
       "source": "CMSWire",
       "kind": "analysis"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "ticket-deflection"
+    },
+    {
+      "id": "conversation-intelligence"
+    },
+    {
+      "id": "app-builder"
+    }
   ]
 }

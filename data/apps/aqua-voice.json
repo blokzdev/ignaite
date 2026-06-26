@@ -36,6 +36,14 @@
     "Transcription is cloud-based",
     "Newer, smaller track record"
   ],
-  "bestFor": ["Developers", "Voice typing", "Fast dictation"],
-  "alternatives": ["wispr-flow", "superwhisper"]
+  "bestFor": ["Developers", "Knowledge workers"],
+  "alternatives": ["wispr-flow", "superwhisper"],
+  "capabilities": [
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

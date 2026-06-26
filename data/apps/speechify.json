@@ -45,6 +45,26 @@
     "Voice cloning lives in separate product",
     "Premium voices gated to higher tiers"
   ],
-  "bestFor": ["Reading documents aloud", "Accessibility", "Dyslexia/learning support"],
-  "alternatives": ["elevenlabs", "deepgram", "cartesia"]
+  "bestFor": ["Students", "Readers with dyslexia", "Professionals", "Content creators"],
+  "alternatives": ["elevenlabs", "deepgram", "cartesia"],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "document-extraction"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "summarization"
+    }
+  ]
 }

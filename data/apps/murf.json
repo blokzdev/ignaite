@@ -41,7 +41,7 @@
     "Voice cloning gated to higher tiers",
     "Less expressive than newer voice models"
   ],
-  "bestFor": ["E-learning voiceovers", "Marketing videos", "Training content"],
+  "bestFor": ["E-learning teams", "Marketing teams", "Content creators"],
   "alternatives": ["elevenlabs", "speechify", "cartesia"],
   "references": [
     {
@@ -55,6 +55,17 @@
       "url": "https://www.g2.com/products/murf-ai/reviews",
       "source": "G2",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "dubbing"
     }
   ]
 }

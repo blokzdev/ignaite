@@ -40,6 +40,23 @@
     "No cross-meeting analytics or trends",
     "Some report device auto-switching glitches"
   ],
-  "bestFor": ["Noisy-environment calls", "Privacy-first audio"],
-  "alternatives": ["otter-ai", "fireflies", "tldv", "adobe-podcast"]
+  "bestFor": ["Remote workers", "Call-center agents", "Privacy-conscious teams"],
+  "alternatives": ["otter-ai", "fireflies", "tldv", "adobe-podcast"],
+  "capabilities": [
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "localization"
+    },
+    {
+      "id": "conversation-intelligence"
+    }
+  ]
 }

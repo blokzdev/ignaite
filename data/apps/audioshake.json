@@ -39,6 +39,17 @@
     "Pro/studio features behind paid tiers",
     "Niche outside music/post-production"
   ],
-  "bestFor": ["Remixing and remastering", "Dubbing/localization", "Studios and developers"],
-  "alternatives": ["lalal-ai", "moises", "kits-ai"]
+  "bestFor": ["Studios & labels", "Developers", "Post-production teams"],
+  "alternatives": ["lalal-ai", "moises", "kits-ai"],
+  "capabilities": [
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "audio-cleanup"
+    }
+  ]
 }

@@ -36,7 +36,7 @@
     "Less control than pro DAWs",
     "Focused only on podcasting"
   ],
-  "bestFor": ["Beginner podcasters", "Solo & hobbyist shows", "Fast episode turnaround"],
+  "bestFor": ["Beginner podcasters", "Solo & hobbyist shows"],
   "alternatives": ["descript", "riverside", "podsqueeze", "auphonic"],
   "references": [
     {
@@ -44,6 +44,17 @@
       "url": "https://soundsprofitable.com/insights/colin-gray-interview/",
       "source": "Sounds Profitable",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

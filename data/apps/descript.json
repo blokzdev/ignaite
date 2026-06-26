@@ -47,6 +47,26 @@
     "Heavier projects can lag",
     "Less control than pro DAWs/NLEs"
   ],
-  "bestFor": ["Podcast editing", "Tutorials/screen recording", "Transcript-first editors"],
-  "alternatives": ["adobe-podcast", "captions", "opus-clip", "wondercraft"]
+  "bestFor": ["Podcasters", "Course/tutorial creators", "Transcript-first editors"],
+  "alternatives": ["adobe-podcast", "captions", "opus-clip", "wondercraft"],
+  "capabilities": [
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "subtitle-generation"
+    }
+  ]
 }

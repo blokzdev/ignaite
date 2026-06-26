@@ -42,6 +42,14 @@
     "Quality trails top expressive TTS models",
     "Less brand recognition than incumbents"
   ],
-  "bestFor": ["Voice agents", "Real-time apps", "Indie developers"],
-  "alternatives": ["cartesia", "rime", "elevenlabs", "neuphonic"]
+  "bestFor": ["Indie developers", "Voice-agent builders", "Game studios"],
+  "alternatives": ["cartesia", "rime", "elevenlabs", "neuphonic"],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    }
+  ]
 }

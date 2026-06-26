@@ -40,7 +40,7 @@
     "Human transcription costs more and is slower",
     "AI accuracy varies with audio quality"
   ],
-  "bestFor": ["Researchers and journalists", "Subtitling and captions", "Meeting transcription"],
+  "bestFor": ["Researchers & journalists", "Localization teams", "Distributed teams"],
   "alternatives": ["good-tape", "descript", "otter-ai"],
   "references": [
     {
@@ -48,6 +48,26 @@
       "url": "https://slator.com/andre-bastie-scaling-happy-scribe-after-finding-instant-product-market-fit/",
       "source": "Slator",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "translation"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "meeting-notes"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }

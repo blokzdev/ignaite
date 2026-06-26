@@ -38,6 +38,17 @@
     "Enhancement can over-smooth some voices",
     "Web-only; no desktop or mobile app"
   ],
-  "bestFor": ["Podcasters", "Cleaning up voice recordings"],
-  "alternatives": ["descript", "krisp", "wondercraft"]
+  "bestFor": ["Podcasters", "Video creators", "Audio editors"],
+  "alternatives": ["descript", "krisp", "wondercraft"],
+  "capabilities": [
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

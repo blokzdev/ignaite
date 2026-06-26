@@ -48,7 +48,7 @@
     "Self-hosting needs ML ops",
     "Tuning needed for hard audio"
   ],
-  "bestFor": ["Meeting transcription", "Call-center analytics", "Podcast and media tooling"],
+  "bestFor": ["ML/audio engineers", "Speech-AI developers", "Media & call analytics teams"],
   "alternatives": ["assemblyai", "deepgram", "gladia", "speechmatics"],
   "references": [
     {
@@ -62,6 +62,14 @@
       "url": "https://www.eu-startups.com/2025/04/pyannoteai-raises-e8-million-to-build-the-first-language-agnostic-speaker-intelligence-platform/",
       "source": "EU-Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

@@ -41,7 +41,7 @@
     "Free trial is minutes-limited",
     "No desktop DAW plugin"
   ],
-  "bestFor": ["Remixers and producers", "Practice and karaoke stems"],
+  "bestFor": ["Remixers and producers", "Musicians practicing parts", "Karaoke makers"],
   "alternatives": ["moises", "lalal-ai", "audioshake"],
   "references": [
     {
@@ -49,6 +49,14 @@
       "url": "https://www.notebookcheck.net/Gaudio-Studio-arrives-on-smartphones-Extract-individual-vocal-and-instrument-stems-from-songs-for-remixing-and-sing-alongs.1045627.0.html",
       "source": "Notebookcheck",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "audio-cleanup"
     }
   ]
 }

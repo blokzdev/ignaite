@@ -47,7 +47,7 @@
     "Usage-metered pricing",
     "Smaller ecosystem than ElevenLabs"
   ],
-  "bestFor": ["Empathic voice agents", "Emotion-aware UX", "Conversational AI"],
+  "bestFor": ["Voice AI developers", "Conversational AI teams", "Product engineers"],
   "alternatives": ["elevenlabs", "cartesia", "vapi", "deepgram"],
   "references": [
     {
@@ -61,6 +61,17 @@
       "url": "https://the-decoder.com/hume-ais-empathic-voice-interface-brings-the-charming-ai-from-her-closer-to-reality/",
       "source": "The Decoder",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
     }
   ]
 }

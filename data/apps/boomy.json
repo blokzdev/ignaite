@@ -40,11 +40,7 @@
     "Commercial use needs a paid plan",
     "Outputs can sound generic"
   ],
-  "bestFor": [
-    "Hobbyist music makers",
-    "Background tracks for content",
-    "Aspiring streaming artists"
-  ],
+  "bestFor": ["Hobbyist musicians", "Content creators", "Aspiring artists"],
   "alternatives": ["suno", "udio", "soundraw", "mubert"],
   "references": [
     {
@@ -58,6 +54,11 @@
       "url": "https://www.musicbusinessworldwide.com/ai-music-app-boomy-spotify-stream-manipulation/",
       "source": "Music Business Worldwide",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
     }
   ]
 }

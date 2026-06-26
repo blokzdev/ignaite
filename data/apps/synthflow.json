@@ -14,7 +14,13 @@
     "notes": "Choose from multiple LLM and TTS providers when configuring an agent."
   },
   "tags": ["voice-agents", "no-code", "telephony", "contact-center", "phone-automation"],
-  "links": [{ "kind": "website", "url": "https://synthflow.ai", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://synthflow.ai",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-13",
   "addedSeq": 529,
   "lastVerifiedAt": "2026-06-13",
@@ -30,12 +36,7 @@
     "Public pricing requires contacting sales",
     "Advanced features gated to higher tiers"
   ],
-  "bestFor": [
-    "Contact-center automation",
-    "Inbound/outbound phone agents",
-    "No-code teams",
-    "Appointment scheduling"
-  ],
+  "bestFor": ["No-code teams", "Contact centers", "Sales & support teams"],
   "alternatives": ["vapi", "retell-ai", "bland-ai", "polyai"],
   "references": [
     {
@@ -43,6 +44,20 @@
       "url": "https://pulse2.com/synthflow-ai-20-million-secured-for-advancing-voice-ai-platform-for-automated-phone-calls/",
       "source": "Pulse 2.0",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "workflow-automation"
+    },
+    {
+      "id": "calendar-scheduling"
+    },
+    {
+      "id": "crm-automation"
     }
   ]
 }

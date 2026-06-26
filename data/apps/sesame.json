@@ -42,10 +42,17 @@
     "Companions not self-hostable",
     "Early-stage product"
   ],
-  "bestFor": [
-    "Conversational voice demos",
-    "Researchers/builders on CSM",
-    "Voice-presence experiments"
-  ],
-  "alternatives": ["cartesia", "elevenlabs", "deepgram", "retell-ai"]
+  "bestFor": ["Researchers", "Voice AI builders", "AI hobbyists"],
+  "alternatives": ["cartesia", "elevenlabs", "deepgram", "retell-ai"],
+  "capabilities": [
+    {
+      "id": "companion-chat"
+    },
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "text-to-speech"
+    }
+  ]
 }

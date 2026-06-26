@@ -49,6 +49,11 @@
     "No public API",
     "Web/iOS only"
   ],
-  "bestFor": ["Music producers", "Polished full songs", "Vocal-forward tracks"],
-  "alternatives": ["suno", "riffusion", "mureka", "sonauto"]
+  "bestFor": ["Music producers", "Songwriters", "Hobbyist musicians"],
+  "alternatives": ["suno", "riffusion", "mureka", "sonauto"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    }
+  ]
 }

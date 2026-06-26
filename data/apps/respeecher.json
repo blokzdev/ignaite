@@ -37,7 +37,7 @@
     "Smaller self-serve voice library than rivals",
     "Focused on media, not general TTS"
   ],
-  "bestFor": ["Film and TV dubbing", "Game voice production", "Localization with original actors"],
+  "bestFor": ["Film & TV studios", "Game studios", "Localization teams"],
   "alternatives": ["elevenlabs", "resemble-ai", "murf", "cartesia"],
   "references": [
     {
@@ -51,6 +51,17 @@
       "url": "https://aibusiness.com/ml/darth-vader-ai-to-keep-alive-the-voice-of-sci-fi-s-greatest-villain",
       "source": "AI Business",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "dubbing"
     }
   ]
 }

@@ -36,10 +36,20 @@
     "Pricing not published",
     "Younger than larger voice platforms"
   ],
-  "bestFor": [
-    "Enterprise voice agents",
-    "Low-latency phone support",
-    "Teams needing voice observability"
-  ],
-  "alternatives": ["vapi", "retell-ai", "cartesia", "bland-ai"]
+  "bestFor": ["Enterprise voice teams", "Regulated industries", "Voice-AI engineers"],
+  "alternatives": ["vapi", "retell-ai", "cartesia", "bland-ai"],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "tool-calling"
+    },
+    {
+      "id": "eval-suite"
+    },
+    {
+      "id": "llm-observability"
+    }
+  ]
 }

@@ -39,7 +39,7 @@
     "Credit-based monthly limits",
     "Collab Club priced per model"
   ],
-  "bestFor": ["Beatmakers", "Music producers", "Songwriting ideation"],
+  "bestFor": ["Beatmakers", "Music producers"],
   "alternatives": ["suno", "udio", "riffusion", "soundraw"],
   "references": [
     {
@@ -47,6 +47,11 @@
       "url": "https://midi.org/lemonaide-the-worlds-first-fairly-trained-ai-midi-plugin",
       "source": "MIDI Association",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "music-generation"
     }
   ]
 }

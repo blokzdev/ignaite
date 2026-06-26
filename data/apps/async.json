@@ -44,7 +44,7 @@
     "Advanced features gated behind paid plans",
     "Video editing lags dedicated competitors"
   ],
-  "bestFor": ["Podcasters", "Video creators", "Voiceover & dubbing", "Remote interviews"],
+  "bestFor": ["Podcasters", "Video creators"],
   "alternatives": ["descript", "riverside", "adobe-podcast", "wondercraft"],
   "references": [
     {
@@ -52,6 +52,26 @@
       "url": "https://www.slashgear.com/1253318/podcastle-pro-review-ai-clone-voice-podcasting-software/",
       "source": "SlashGear",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "text-to-speech"
     }
   ]
 }

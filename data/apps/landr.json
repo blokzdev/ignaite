@@ -53,5 +53,13 @@
       "url": "https://en.wikipedia.org/wiki/LANDR",
       "source": "Wikipedia"
     }
+  ],
+  "capabilities": [
+    {
+      "id": "audio-mastering"
+    },
+    {
+      "id": "stem-separation"
+    }
   ]
 }

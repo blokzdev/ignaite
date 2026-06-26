@@ -42,7 +42,7 @@
     "Some report robotic or inconsistent output",
     "Now owned by Splice (2025) — roadmap may shift"
   ],
-  "bestFor": ["Musicians and producers", "Licensed voice covers"],
+  "bestFor": ["Musicians & producers", "Vocalists", "Beatmakers"],
   "alternatives": ["elevenlabs", "lalal-ai", "moises"],
   "references": [
     {
@@ -50,6 +50,20 @@
       "url": "https://www.musicbusinessworldwide.com/splice-acquires-ai-powered-voice-production-platform-kits-ai/",
       "source": "Music Business Worldwide",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "stem-separation"
+    },
+    {
+      "id": "audio-cleanup"
+    },
+    {
+      "id": "audio-mastering"
     }
   ]
 }

@@ -37,6 +37,20 @@
     "Quality varies across the voice library",
     "Video editor is lighter than dedicated tools"
   ],
-  "bestFor": ["Faceless YouTube", "E-learning narration"],
-  "alternatives": ["elevenlabs", "murf", "speechify", "wellsaid"]
+  "bestFor": ["YouTube creators", "E-learning teams", "Marketers"],
+  "alternatives": ["elevenlabs", "murf", "speechify", "wellsaid"],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "subtitle-generation"
+    }
+  ]
 }

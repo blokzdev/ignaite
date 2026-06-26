@@ -37,11 +37,7 @@
     "Broad platform, longer onboarding",
     "Less suited to small teams"
   ],
-  "bestFor": [
-    "Enterprise voice agents",
-    "Drive-thru & IVR automation",
-    "Embedded voice assistants"
-  ],
+  "bestFor": ["Enterprises", "Restaurants & QSR", "Automotive brands", "Contact centers"],
   "alternatives": ["polyai", "vapi", "retell-ai", "synthflow"],
   "references": [
     {
@@ -55,6 +51,14 @@
       "url": "https://www.pymnts.com/acquisitions/2024/soundhound-expands-reach-conversational-ai-offering-with-amelia-acquisition/",
       "source": "PYMNTS",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "voice-agent"
+    },
+    {
+      "id": "speech-to-text"
     }
   ]
 }

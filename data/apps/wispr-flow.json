@@ -37,5 +37,16 @@
     "Accuracy varies by accent/noise",
     "No free unlimited tier"
   ],
-  "bestFor": ["Voice-first writers", "Cross-device dictation", "Hands-free typing"]
+  "bestFor": ["Voice-first writers", "Knowledge workers", "Cross-device users"],
+  "capabilities": [
+    {
+      "id": "dictation"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "text-editing"
+    }
+  ]
 }

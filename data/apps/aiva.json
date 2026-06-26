@@ -40,10 +40,11 @@
     "Focused on instrumental/scoring, not songs with vocals",
     "Subscription-gated downloads"
   ],
-  "bestFor": [
-    "Video/game/ad scoring",
-    "Composers needing rights",
-    "Background instrumental tracks"
-  ],
-  "alternatives": ["suno", "udio", "soundraw", "beatoven"]
+  "bestFor": ["Video & game composers", "Ad & media creators", "Content creators"],
+  "alternatives": ["suno", "udio", "soundraw", "beatoven"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    }
+  ]
 }

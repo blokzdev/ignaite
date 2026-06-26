@@ -36,6 +36,11 @@
     "Built for content creators"
   ],
   "cons": ["No vocals/lyric generation", "Generates from its own catalog only", "Web-only"],
-  "bestFor": ["Royalty-free background music", "Video/podcast creators", "Client work"],
-  "alternatives": ["suno", "beatoven", "aiva", "mureka"]
+  "bestFor": ["Video & podcast creators", "Content creators", "Agencies"],
+  "alternatives": ["suno", "beatoven", "aiva", "mureka"],
+  "capabilities": [
+    {
+      "id": "music-generation"
+    }
+  ]
 }

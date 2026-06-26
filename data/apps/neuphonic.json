@@ -43,7 +43,7 @@
     "Young company (founded 2024, pre-seed)",
     "Open model is 748M — smaller than top cloud voices"
   ],
-  "bestFor": ["On-device voice agents", "Privacy-sensitive apps", "Offline TTS"],
+  "bestFor": ["Voice-AI engineers", "Privacy-focused teams", "On-device app devs"],
   "alternatives": ["cartesia", "elevenlabs", "rime", "resemble-ai"],
   "references": [
     {
@@ -51,6 +51,14 @@
       "url": "https://quantumzeitgeist.com/neutts-air-open-source-on-device-tts-speech-language-model/",
       "source": "Quantum Zeitgeist",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "voice-cloning"
     }
   ]
 }

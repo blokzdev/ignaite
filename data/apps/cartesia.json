@@ -45,6 +45,20 @@
     "Fewer voices than ElevenLabs catalog",
     "API-only, no end-user app"
   ],
-  "bestFor": ["Real-time voice agents", "Low-latency TTS"],
-  "alternatives": ["elevenlabs", "deepgram", "hume-ai", "speechify"]
+  "bestFor": ["AI engineers", "Voice agent builders", "Enterprise teams"],
+  "alternatives": ["elevenlabs", "deepgram", "hume-ai", "speechify"],
+  "capabilities": [
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "voice-agent"
+    }
+  ]
 }

@@ -43,12 +43,7 @@
     "Lighter collaboration than some rivals",
     "No live meeting-bot integration"
   ],
-  "bestFor": [
-    "Journalists & researchers",
-    "Privacy-sensitive transcription",
-    "Multilingual transcription",
-    "Interviews & podcasts"
-  ],
+  "bestFor": ["Journalists & researchers", "Privacy-conscious teams", "Podcasters"],
   "alternatives": ["otter-ai", "descript", "assemblyai"],
   "references": [
     {
@@ -56,6 +51,23 @@
       "url": "https://mediacopilot.ai/good-tape-vs-otter/",
       "source": "The Media Copilot",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "speaker-diarization"
+    },
+    {
+      "id": "summarization"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "translation"
     }
   ]
 }

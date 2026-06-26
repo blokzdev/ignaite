@@ -36,7 +36,7 @@
     "AI editing polish trails dedicated NLEs",
     "Higher tiers needed for long recordings"
   ],
-  "bestFor": ["Podcasters", "Remote video interviews", "Content repurposing"],
+  "bestFor": ["Podcasters", "Video creators", "Remote teams"],
   "alternatives": ["descript", "adobe-podcast", "opus-clip", "captions"],
   "references": [
     {
@@ -44,6 +44,26 @@
       "url": "https://techcrunch.com/2024/12/09/riverside-raises-30-million-series-c-to-expand-its-podcast-and-video-recording-platform/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "audio-editing"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "summarization"
     }
   ]
 }
