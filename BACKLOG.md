@@ -113,7 +113,7 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       standard accent like every other chart (the base `BarChart` contract). Tinting each family bar to
       its `CAPABILITY_FAMILY_TONE` would tie the chart to the detail-page chips, but needs a new optional
       `BarChart` prop; deferred to keep the shared component untouched in AC-3.
-- [x] **[future]** **Chunk AF-1 — substitution engine + recipe routines — ✅ DONE** (#TBD). Founder
+- [x] **[future]** **Chunk AF-1 — substitution engine + recipe routines — ✅ DONE** (#357). Founder
       chose **engine-first** (the engine ranks on 4 signals — capability `level`, license, cost, platform
       count — and 3 are already 100% populated, so it degrades gracefully + ships useful day one; `level`
       sharpens it as the backfill lands). `lib/tools/recipe-substitution.ts` `substitutesForStep()` — a

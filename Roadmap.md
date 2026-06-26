@@ -85,6 +85,8 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | AD    | Recipe entity — schema + `complete()` integrity + reverse index + red-teamed 4-recipe pilot                | #352      | ✅     |
 | AE    | Recipe routes + SEO — `/recipes` hub + detail (SSG, 0 B JS) · HowTo/Breadcrumb JSON-LD · OG · rail · feeds | #354      | ✅     |
 | AG    | Multi-dim recipes — additive DAG (`dependsOn`) + `loop`; graph integrity; pure-CSS flow view; 2 pilots     | #355      | ✅     |
+| —     | Hardening — self-referential `dependsOn` hard-fail + parallel-lane a11y label                              | #356      | ✅     |
+| AF-1  | Substitution engine (lexicographic, build-time) + "Swap this step" rail + author/audit-recipes routines    | #357      | ✅     |
 
 ---
 
@@ -208,7 +210,7 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
   Fire-and-forget; built against the linear model. (Filed a BACKLOG `[debt]`: `recipes.json`
   co-bundles into the homepage barrel chunk — a pre-existing AD condition, to unwind with the
   Browse-projection PR.)
-- **Chunk AF-1 — substitution engine + recipe routines ✅ (#TBD)** — founder chose **engine-first**: the
+- **Chunk AF-1 — substitution engine + recipe routines ✅ (#357)** — founder chose **engine-first**: the
   engine ranks on 4 signals (capability `level`, license, cost, platform count) and 3 are already 100%
   populated, so it ships useful day one and `level` only sharpens it. `lib/tools/recipe-substitution.ts`
   `substitutesForStep()` — deterministic, build-time, **lexicographic** (fit → license → cost → fewer
