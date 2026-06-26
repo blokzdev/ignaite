@@ -43,7 +43,7 @@
     "Credit limits on lower tiers",
     "Quality varies across bundled models"
   ],
-  "bestFor": ["Marketers and designers", "Photorealistic images", "Rapid creative iteration"],
+  "bestFor": ["Marketers and designers", "Content creators"],
   "alternatives": ["leonardo-ai", "ideogram", "recraft", "adobe-firefly"],
   "references": [
     {
@@ -51,6 +51,26 @@
       "url": "https://www.tomsguide.com/ai/ai-image-video/move-over-midjourney-freepik-mystic-is-the-most-realistic-ai-image-generator-ive-tried",
       "source": "Tom's Guide",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "multi-model-access"
     }
   ]
 }

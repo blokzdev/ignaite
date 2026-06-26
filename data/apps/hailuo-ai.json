@@ -41,6 +41,17 @@
     "Lower max resolution than Kling",
     "Thin support infrastructure"
   ],
-  "bestFor": ["Budget social creators", "Short realistic clips"],
-  "alternatives": ["kling", "runway", "pika", "vidu"]
+  "bestFor": ["Budget social creators", "Indie video makers"],
+  "alternatives": ["kling", "runway", "pika", "vidu"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

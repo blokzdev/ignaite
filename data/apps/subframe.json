@@ -42,7 +42,7 @@
     "Pro is per-editor ($29/mo)",
     "Smaller community than Figma"
   ],
-  "bestFor": ["Frontend developers", "Design systems", "Design-to-code workflows"],
+  "bestFor": ["Frontend developers", "Startup product teams", "Solo founders"],
   "alternatives": ["onlook", "v0", "magic-patterns", "uizard"],
   "references": [
     {
@@ -50,6 +50,17 @@
       "url": "https://www.banani.co/blog/subframe-ai-review",
       "source": "Banani",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "mcp-server"
     }
   ]
 }

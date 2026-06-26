@@ -33,6 +33,11 @@
     "Polished output still needs designer review",
     "Web-only (plus Figma plugin)"
   ],
-  "bestFor": ["Product designers", "Founders prototyping", "Early-stage UI exploration"],
-  "alternatives": ["magic-patterns", "google-stitch", "subframe"]
+  "bestFor": ["Product designers", "Founders", "Product teams"],
+  "alternatives": ["magic-patterns", "google-stitch", "subframe"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    }
+  ]
 }

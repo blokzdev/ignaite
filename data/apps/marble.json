@@ -42,6 +42,17 @@
     "No memory of your style across runs",
     "Occasional generation failures; limited free tier"
   ],
-  "bestFor": ["3D environment prototyping", "Spatial scene concepting", "VFX and worldbuilding"],
-  "alternatives": ["meshy", "rodin", "tripo", "spline"]
+  "bestFor": ["3D artists", "Game studios", "VFX teams", "XR creators"],
+  "alternatives": ["meshy", "rodin", "tripo", "spline"],
+  "capabilities": [
+    {
+      "id": "world-model"
+    },
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "image-to-3d"
+    }
+  ]
 }

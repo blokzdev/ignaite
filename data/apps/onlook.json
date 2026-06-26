@@ -42,7 +42,7 @@
     "Scoped to the React/Next.js stack",
     "Young project (YC W25)"
   ],
-  "bestFor": ["Designer-developer teams", "Editing React UIs visually", "Open-source self-hosters"],
+  "bestFor": ["Designer-developer teams", "Open-source self-hosters", "Frontend designers"],
   "alternatives": ["v0", "magic-patterns", "uizard", "figma-ai"],
   "references": [
     {
@@ -56,6 +56,17 @@
       "url": "https://www.blog.brightcoding.dev/2025/09/05/onlook-the-open-source-cursor-for-designers-that-lets-you-visually-build-style-and-edit-react-apps-with-ai/",
       "source": "BrightCoding",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "code-generation"
+    },
+    {
+      "id": "app-builder"
     }
   ]
 }

@@ -17,8 +17,15 @@
   "tags": ["ai-video", "image-generation", "video-editing", "api", "creative-suite"],
   "accentColor": "#7c5cff",
   "links": [
-    { "kind": "website", "url": "https://magichour.ai", "primary": true },
-    { "kind": "docs", "url": "https://docs.magichour.ai" }
+    {
+      "kind": "website",
+      "url": "https://magichour.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://docs.magichour.ai"
+    }
   ],
   "addedAt": "2026-06-19",
   "addedSeq": 874,
@@ -36,7 +43,7 @@
     "Credit-based usage can add up at volume",
     "Quality varies across the many tools"
   ],
-  "bestFor": ["Social content creators", "Marketing teams", "Developers needing a video API"],
+  "bestFor": ["Social content creators", "Marketing teams", "Developers"],
   "alternatives": ["runway", "pika", "kling", "luma-dream-machine"],
   "references": [
     {
@@ -44,6 +51,26 @@
       "url": "https://dev.to/nolan_0714/2025-year-end-review-the-best-8-ai-image-and-video-generation-tools-poc",
       "source": "DEV Community",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "music-generation"
     }
   ]
 }

@@ -28,6 +28,17 @@
     "Built for team collaboration"
   ],
   "cons": ["Business tier jumps to $100/seat/month", "Web-only, no desktop app"],
-  "bestFor": ["Product teams", "Rapid user testing", "Design-system-bound prototypes"],
-  "alternatives": ["v0", "uizard", "figma-ai", "lovable"]
+  "bestFor": ["Product teams", "Product designers", "Frontend developers"],
+  "alternatives": ["v0", "uizard", "figma-ai", "lovable"],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "code-generation"
+    }
+  ]
 }

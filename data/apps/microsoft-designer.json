@@ -37,6 +37,23 @@
     "No brand kit or real collaboration",
     "Monthly AI-credit allowance, not flat"
   ],
-  "bestFor": ["Microsoft 365 users", "Quick social graphics", "AI image generation"],
-  "alternatives": ["canva", "adobe-express", "photoroom", "looka"]
+  "bestFor": ["Microsoft 365 users", "Social media creators", "Small businesses"],
+  "alternatives": ["canva", "adobe-express", "photoroom", "looka"],
+  "capabilities": [
+    {
+      "id": "graphic-design"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "image-upscaling"
+    }
+  ]
 }

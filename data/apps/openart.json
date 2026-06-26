@@ -34,7 +34,7 @@
     "Generous free tier"
   ],
   "cons": ["Web-only", "Quality varies by chosen model", "Credit-based limits on free tier"],
-  "bestFor": ["Hobbyist creators", "Social content", "AI character and story art"],
+  "bestFor": ["Hobbyist creators", "Social content creators", "Indie storytellers"],
   "alternatives": ["leonardo-ai", "krea", "recraft", "midjourney"],
   "references": [
     {
@@ -48,6 +48,26 @@
       "url": "https://sacra.com/c/openart/",
       "source": "Sacra",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "music-generation"
     }
   ]
 }

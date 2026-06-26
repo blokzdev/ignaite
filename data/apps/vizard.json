@@ -37,6 +37,20 @@
     "Clip selection needs review",
     "Export limits on lower tiers"
   ],
-  "bestFor": ["Podcasters", "Social content teams", "Repurposing long videos"],
-  "alternatives": ["opus-clip", "submagic", "captions", "descript"]
+  "bestFor": ["Podcasters", "Social content teams", "Creators"],
+  "alternatives": ["opus-clip", "submagic", "captions", "descript"],
+  "capabilities": [
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "speech-to-text"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

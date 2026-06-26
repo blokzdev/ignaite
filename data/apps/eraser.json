@@ -46,7 +46,7 @@
     "Aimed at technical diagrams, not general design",
     "AI credits metered on every plan"
   ],
-  "bestFor": ["Engineering teams", "Architecture diagrams", "Technical docs"],
+  "bestFor": ["Engineering teams", "Software architects", "DevOps teams"],
   "alternatives": ["napkin-ai", "gamma"],
   "references": [
     {
@@ -54,6 +54,11 @@
       "url": "https://openviewpartners.com/blog/how-an-ai-sidecar-product-drove-30-percent-of-sign-ups-eraser/",
       "source": "OpenView",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "code-documentation"
     }
   ]
 }

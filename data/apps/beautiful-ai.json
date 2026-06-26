@@ -39,7 +39,7 @@
     "Web-only; no offline desktop app",
     "Smaller template range than Canva"
   ],
-  "bestFor": ["Business presentations", "Pitch decks", "Team brand decks"],
+  "bestFor": ["Business teams", "Sales & marketing teams", "Founders"],
   "alternatives": ["gamma", "napkin-ai", "canva"],
   "references": [
     {
@@ -53,6 +53,11 @@
       "url": "https://ideamensch.com/mitch-grasso/",
       "source": "IdeaMensch",
       "kind": "interview"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "presentation-generation"
     }
   ]
 }

@@ -16,8 +16,15 @@
   },
   "tags": ["image-generation", "stable-diffusion", "open-weights", "generative-ai", "multimodal"],
   "links": [
-    { "kind": "website", "url": "https://stability.ai", "primary": true },
-    { "kind": "docs", "url": "https://platform.stability.ai/docs" }
+    {
+      "kind": "website",
+      "url": "https://stability.ai",
+      "primary": true
+    },
+    {
+      "kind": "docs",
+      "url": "https://platform.stability.ai/docs"
+    }
   ],
   "addedAt": "2026-06-13",
   "addedSeq": 528,
@@ -34,12 +41,7 @@
     "Community licenses aren't OSI open source",
     "Past leadership and funding turbulence"
   ],
-  "bestFor": [
-    "Self-hosted image generation",
-    "Developers and researchers",
-    "Open-weight model builders",
-    "Multimodal creation"
-  ],
+  "bestFor": ["Developers", "ML researchers", "Open-weight builders", "Self-host teams"],
   "alternatives": ["midjourney", "flux", "ideogram", "leonardo-ai"],
   "references": [
     {
@@ -47,6 +49,20 @@
       "url": "https://en.wikipedia.org/wiki/Stable_Diffusion",
       "source": "Wikipedia",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "music-generation"
+    },
+    {
+      "id": "model-inference"
     }
   ]
 }

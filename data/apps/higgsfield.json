@@ -43,6 +43,23 @@
     "Motion can break in complex scenes",
     "Reported billing/cancellation friction"
   ],
-  "bestFor": ["Cinematic shot creation", "Multi-model video creators"],
-  "alternatives": ["runway", "kling", "pika", "sora"]
+  "bestFor": ["Filmmakers", "Social video creators", "Ad/marketing creators"],
+  "alternatives": ["runway", "kling", "pika", "sora"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "multi-model-access"
+    }
+  ]
 }

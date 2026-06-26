@@ -46,6 +46,26 @@
     "No native approval workflow",
     "Outputs can look templated at volume"
   ],
-  "bestFor": ["Multi-language video localization", "Marketing/training video"],
-  "alternatives": ["synthesia", "hedra", "tavus", "captions"]
+  "bestFor": ["Marketing teams", "Corporate L&D teams", "B2B content creators"],
+  "alternatives": ["synthesia", "hedra", "tavus", "captions"],
+  "capabilities": [
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "voice-cloning"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "text-to-speech"
+    }
+  ]
 }

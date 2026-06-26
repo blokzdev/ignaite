@@ -44,7 +44,7 @@
     "Designer-focused, steeper than casual tools",
     "Free tier credits limited"
   ],
-  "bestFor": ["Designers & brand teams", "Vector/logo assets", "Production design work"],
+  "bestFor": ["Designers & brand teams", "Production designers", "Brand teams"],
   "alternatives": ["ideogram", "adobe-firefly", "midjourney", "krea"],
   "references": [
     {
@@ -55,5 +55,19 @@
     }
   ],
   "featured": false,
-  "featuredAt": "2026-06-10"
+  "featuredAt": "2026-06-10",
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "graphic-design"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "background-removal"
+    }
+  ]
 }

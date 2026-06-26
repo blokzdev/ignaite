@@ -51,6 +51,20 @@
     "Best features need a subscription",
     "Cloud-only processing"
   ],
-  "bestFor": ["Product photos", "Marketplace sellers", "Catalog at scale"],
-  "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"]
+  "bestFor": ["Marketplace sellers", "E-commerce teams", "Product photographers"],
+  "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"],
+  "capabilities": [
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-to-video"
+    }
+  ]
 }

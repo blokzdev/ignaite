@@ -38,7 +38,7 @@
     "Credits expire each billing cycle",
     "Stylized look over raw photorealism"
   ],
-  "bestFor": ["Filmmakers", "Commercial production", "Copyright-sensitive teams"],
+  "bestFor": ["Filmmakers", "Studios", "Copyright-sensitive teams"],
   "alternatives": ["runway", "kling", "sora", "higgsfield"],
   "references": [
     {
@@ -51,6 +51,14 @@
       "url": "https://time.com/7300636/ai-hollywood-moonvalley-marey/",
       "source": "TIME",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
     }
   ]
 }

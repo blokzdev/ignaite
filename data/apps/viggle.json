@@ -36,6 +36,17 @@
     "Output quality varies with source images",
     "Free tier subject to beta limits and queues"
   ],
-  "bestFor": ["Meme and short-form video", "VTubing", "Character previz"],
-  "alternatives": ["runway", "pika", "kling", "hedra"]
+  "bestFor": ["Meme creators", "VTubers", "Short-form creators"],
+  "alternatives": ["runway", "pika", "kling", "hedra"],
+  "capabilities": [
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "lip-sync"
+    }
+  ]
 }

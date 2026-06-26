@@ -39,6 +39,23 @@
     "Locked to Veo, no multi-model switching",
     "Pro credits deplete quickly"
   ],
-  "bestFor": ["Narrative AI filmmaking", "Google-ecosystem creators"],
-  "alternatives": ["sora", "kling", "runway", "higgsfield"]
+  "bestFor": ["AI filmmakers", "Google-ecosystem creators"],
+  "alternatives": ["sora", "kling", "runway", "higgsfield"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "text-to-image"
+    }
+  ]
 }

@@ -33,6 +33,14 @@
     "Built for game/film asset pipelines"
   ],
   "cons": ["Single proprietary model", "Web-only workflow", "Credit costs for high-res exports"],
-  "bestFor": ["Game/film asset creation", "Production-ready meshes", "Image-to-3D"],
-  "alternatives": ["meshy", "tripo", "marble"]
+  "bestFor": ["Game artists", "Film/VFX artists", "3D modelers"],
+  "alternatives": ["meshy", "tripo", "marble"],
+  "capabilities": [
+    {
+      "id": "image-to-3d"
+    },
+    {
+      "id": "text-to-3d"
+    }
+  ]
 }

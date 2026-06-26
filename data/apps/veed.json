@@ -40,7 +40,7 @@
     "Less control than pro desktop NLEs",
     "Heavy projects can feel sluggish in-browser"
   ],
-  "bestFor": ["Social video", "Subtitling and dubbing", "Marketing teams"],
+  "bestFor": ["Marketers", "Creators", "Social media teams"],
   "alternatives": ["descript", "captions", "opus-clip", "submagic"],
   "references": [
     {
@@ -48,6 +48,26 @@
       "url": "https://techcrunch.com/2022/02/02/veed-an-online-video-editing-platform-picks-up-35m-from-sequoia/",
       "source": "TechCrunch",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "text-to-video"
     }
   ]
 }

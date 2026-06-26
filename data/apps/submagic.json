@@ -37,6 +37,17 @@
     "B-roll picks need review",
     "Watermark/limits on lower tiers"
   ],
-  "bestFor": ["Short-form creators", "Reels/Shorts/TikTok", "Fast captioning"],
-  "alternatives": ["opus-clip", "captions", "heygen"]
+  "bestFor": ["Short-form creators", "Podcasters", "Social media teams"],
+  "alternatives": ["opus-clip", "captions", "heygen"],
+  "capabilities": [
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "avatar-generation"
+    }
+  ]
 }

@@ -33,6 +33,20 @@
     "Strong social-native community"
   ],
   "cons": ["Less photoreal than Veo/Sora/Kling", "Short clip lengths", "Web and iOS only"],
-  "bestFor": ["Social video", "Playful effects", "Quick edits"],
-  "alternatives": ["kling", "runway", "pixverse", "luma-dream-machine"]
+  "bestFor": ["Social video creators", "Casual creators", "Mobile creators"],
+  "alternatives": ["kling", "runway", "pixverse", "luma-dream-machine"],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "lip-sync"
+    }
+  ]
 }

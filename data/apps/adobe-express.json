@@ -39,6 +39,23 @@
     "Generative features gated by credits",
     "Less freeform control than Canva power users want"
   ],
-  "bestFor": ["Quick social graphics", "Creative Cloud users"],
-  "alternatives": ["canva", "microsoft-designer", "photoroom", "adobe-firefly"]
+  "bestFor": ["Small businesses", "Creative Cloud users", "Social media creators"],
+  "alternatives": ["canva", "microsoft-designer", "photoroom", "adobe-firefly"],
+  "capabilities": [
+    {
+      "id": "graphic-design"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "video-editing"
+    }
+  ]
 }

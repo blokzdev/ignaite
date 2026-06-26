@@ -40,7 +40,7 @@
     "Less photoreal than FLUX",
     "Less cinematic than Midjourney"
   ],
-  "bestFor": ["Posters and social graphics", "Logos and typography", "Text-heavy designs"],
+  "bestFor": ["Graphic designers", "Brand/marketing designers", "Solo creators"],
   "alternatives": ["midjourney", "flux", "recraft", "krea"],
   "references": [
     {
@@ -48,6 +48,23 @@
       "url": "https://www.comparegen.ai/blog/midjourney-vs-ideogram-vs-flux-2026",
       "source": "CompareGen.AI",
       "kind": "comparison"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "logo-generation"
     }
   ]
 }

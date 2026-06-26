@@ -39,7 +39,7 @@
     "Clip length limited (~15s)",
     "Closed source, hosted only"
   ],
-  "bestFor": ["Short-form social video", "High-volume UGC", "Motion-heavy shots"],
+  "bestFor": ["Social video creators", "UGC/short-form creators", "Indie filmmakers"],
   "alternatives": ["runway", "sora", "vidu", "hailuo-ai"],
   "references": [
     {
@@ -47,6 +47,23 @@
       "url": "https://www.bloomberg.com/news/articles/2026-04-01/kling-ai-runway-vidu-the-ai-video-generators-set-to-replace-openai-s-sora",
       "source": "Bloomberg",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "sound-effects"
     }
   ]
 }

@@ -39,7 +39,7 @@
     "Beta — paid plans expected",
     "Struggles with complex app flows"
   ],
-  "bestFor": ["Rapid UI concepting", "Prototyping founders", "Vibe designers"],
+  "bestFor": ["Founders and PMs", "Product designers", "Frontend developers"],
   "alternatives": ["uizard", "figma-ai", "v0"],
   "references": [
     {
@@ -47,6 +47,14 @@
       "url": "https://www.unite.ai/google-stitch-review/",
       "source": "Unite.AI",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "ui-design"
+    },
+    {
+      "id": "code-generation"
     }
   ]
 }

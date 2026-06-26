@@ -33,7 +33,7 @@
     "Human QA review on output"
   ],
   "cons": ["Paid, no free tier", "Human-in-loop adds turnaround time", "Closed source"],
-  "bestFor": ["Game studios", "3D asset pipelines", "Product and AR/VR teams"],
+  "bestFor": ["Game studios", "Product and AR/VR teams", "3D art teams"],
   "alternatives": ["meshy", "rodin", "tripo", "scenario"],
   "references": [
     {
@@ -41,6 +41,11 @@
       "url": "https://www.finsmes.com/2024/03/kaedim-raises-15m-in-series-a-funding.html",
       "source": "FinSMEs",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "image-to-3d"
     }
   ]
 }

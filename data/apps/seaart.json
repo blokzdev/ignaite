@@ -32,7 +32,7 @@
     "Free tier throttled by daily credits",
     "Output quality varies across the bundled models"
   ],
-  "bestFor": ["Hobbyist AI artists", "Trying many models cheaply", "Character art and roleplay"],
+  "bestFor": ["Hobbyist AI artists", "Content creators", "Anime/roleplay fans"],
   "alternatives": ["civitai", "leonardo-ai", "midjourney"],
   "references": [
     {
@@ -40,6 +40,26 @@
       "url": "https://a16z.com/100-gen-ai-apps-6/",
       "source": "a16z",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "roleplay-characters"
     }
   ]
 }

@@ -42,7 +42,7 @@
     "Longest-running studio in the space"
   ],
   "cons": ["Credits deplete fast on long clips", "Pricier than Pika/Luma per clip", "Web-only"],
-  "bestFor": ["Professional video work", "Client/brand content", "Precise creative control"],
+  "bestFor": ["Filmmakers", "Creative studios", "Brand teams"],
   "alternatives": ["pika", "luma-dream-machine", "kling", "sora"],
   "references": [
     {
@@ -52,5 +52,19 @@
       "kind": "comparison"
     }
   ],
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "lip-sync"
+    }
+  ]
 }

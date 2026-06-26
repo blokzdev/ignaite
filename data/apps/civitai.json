@@ -37,6 +37,20 @@
     "Model quality varies widely",
     "NSFW-heavy community reputation"
   ],
-  "bestFor": ["Open-model discovery", "Stable Diffusion / Flux users"],
-  "alternatives": ["comfyui", "leonardo-ai", "krea", "huggingface"]
+  "bestFor": ["AI artists", "Stable Diffusion / Flux users", "Hobbyist creators"],
+  "alternatives": ["comfyui", "leonardo-ai", "krea", "huggingface"],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

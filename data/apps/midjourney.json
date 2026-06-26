@@ -43,7 +43,21 @@
     "Opinionated house style limits control",
     "Subscription-only, no real free tier"
   ],
-  "bestFor": ["Concept art and key art", "Editorial illustration", "Cinematic mood boards"],
+  "bestFor": ["Concept artists", "Illustrators", "Designers", "Prompt artists"],
   "alternatives": ["flux", "ideogram", "leonardo-ai", "recraft"],
-  "featuredAt": "2026-06-21"
+  "featuredAt": "2026-06-21",
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "image-to-video"
+    }
+  ]
 }

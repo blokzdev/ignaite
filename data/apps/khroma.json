@@ -37,10 +37,6 @@
     "No team/brand-system features",
     "Web-only"
   ],
-  "bestFor": [
-    "Designers picking palettes",
-    "Personalized color discovery",
-    "Accessibility-aware color"
-  ],
+  "bestFor": ["Designers", "Web/UI designers", "Accessibility-minded designers"],
   "alternatives": ["recraft", "adobe-express"]
 }

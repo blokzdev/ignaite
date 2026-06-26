@@ -42,7 +42,7 @@
     "Web + iOS only",
     "No open API parity with rivals"
   ],
-  "bestFor": ["Short social video", "Casual creators", "ChatGPT subscribers"],
+  "bestFor": ["Casual creators", "ChatGPT subscribers", "Social video makers"],
   "alternatives": ["runway", "kling", "luma-dream-machine", "google-flow"],
   "references": [
     {
@@ -50,6 +50,14 @@
       "url": "https://www.datacamp.com/blog/sora-2",
       "source": "DataCamp",
       "kind": "review"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
     }
   ]
 }

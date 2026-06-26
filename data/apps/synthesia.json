@@ -41,6 +41,26 @@
     "Pricier paid tiers, minute caps",
     "Not for cinematic or B-roll video"
   ],
-  "bestFor": ["L&D and training video", "Corporate comms", "Localized video at scale"],
-  "alternatives": ["heygen", "tavus", "hedra", "captions"]
+  "bestFor": ["L&D teams", "Enterprises", "Corporate comms", "Marketing teams"],
+  "alternatives": ["heygen", "tavus", "hedra", "captions"],
+  "capabilities": [
+    {
+      "id": "avatar-generation"
+    },
+    {
+      "id": "text-to-speech"
+    },
+    {
+      "id": "dubbing"
+    },
+    {
+      "id": "lip-sync"
+    },
+    {
+      "id": "localization"
+    },
+    {
+      "id": "translation"
+    }
+  ]
 }

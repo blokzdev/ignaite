@@ -40,6 +40,17 @@
     "Brand Kit is a yearly subscription",
     "No user model control"
   ],
-  "bestFor": ["Entrepreneurs", "Small business branding", "Quick logos"],
-  "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"]
+  "bestFor": ["Entrepreneurs", "Small business owners", "Non-designers"],
+  "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"],
+  "capabilities": [
+    {
+      "id": "logo-generation"
+    },
+    {
+      "id": "graphic-design"
+    },
+    {
+      "id": "app-builder"
+    }
+  ]
 }

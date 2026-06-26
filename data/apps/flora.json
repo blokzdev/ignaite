@@ -38,13 +38,27 @@
     "Used in production by major brands"
   ],
   "cons": ["Node workflow has a learning curve", "Web-only, no desktop app"],
-  "bestFor": ["Design teams", "Creative studios", "Multi-model workflows"],
+  "bestFor": ["Design teams", "Creative studios", "Brand & ad agencies"],
   "alternatives": ["krea", "comfyui", "lovart"],
   "references": [
     {
       "title": "Node-based design tool Flora raises $42M from Redpoint Ventures",
       "url": "https://techcrunch.com/2026/01/27/node-based-design-tool-flora-raises-42m-from-redpoint-ventures/",
       "source": "TechCrunch"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "app-builder"
+    },
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "image-to-video"
     }
   ]
 }

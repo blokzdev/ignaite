@@ -42,7 +42,7 @@
     "Narrower aesthetic range than Midjourney",
     "Usage-based costs add up at scale"
   ],
-  "bestFor": ["Enterprise image generation", "Commercial-safe visuals", "Developers & API"],
+  "bestFor": ["Enterprises", "Developers", "Brand & creative teams"],
   "alternatives": ["adobe-firefly", "recraft", "ideogram", "stability-ai"],
   "references": [
     {
@@ -56,6 +56,23 @@
       "url": "https://techstartups.com/2024/02/21/getty-backed-ai-startup-bria-raises-24-million-in-series-a-funding-for-responsible-ai-image-generation/",
       "source": "Tech Startups",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "background-removal"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "video-editing"
     }
   ]
 }

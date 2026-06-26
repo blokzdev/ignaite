@@ -37,6 +37,14 @@
     "AI generation is secondary to manual editing",
     "Heavy scenes can tax browsers"
   ],
-  "bestFor": ["Interactive web 3D", "Product/landing visuals", "Design collaboration"],
-  "alternatives": ["meshy", "rodin", "tripo", "marble"]
+  "bestFor": ["Web designers", "3D designers", "Product/design teams"],
+  "alternatives": ["meshy", "rodin", "tripo", "marble"],
+  "capabilities": [
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "image-to-3d"
+    }
+  ]
 }

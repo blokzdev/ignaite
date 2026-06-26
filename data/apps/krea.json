@@ -42,6 +42,26 @@
     "Multi-model surface can overwhelm beginners",
     "Best models gated to higher paid tiers"
   ],
-  "bestFor": ["Fast single-image iteration", "Designers and concepting"],
-  "alternatives": ["midjourney", "leonardo-ai", "flux", "ideogram"]
+  "bestFor": ["Designers and concept artists", "Creative pros", "Beginners welcome"],
+  "alternatives": ["midjourney", "leonardo-ai", "flux", "ideogram"],
+  "capabilities": [
+    {
+      "id": "text-to-image"
+    },
+    {
+      "id": "image-editing"
+    },
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "text-to-video"
+    },
+    {
+      "id": "multi-model-access"
+    },
+    {
+      "id": "model-fine-tuning"
+    }
+  ]
 }

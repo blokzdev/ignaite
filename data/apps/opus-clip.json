@@ -37,6 +37,17 @@
     "Web-only, no mobile app",
     "Watermark on free tier"
   ],
-  "bestFor": ["Podcasters", "Long-form repurposing", "Social teams"],
-  "alternatives": ["submagic", "captions"]
+  "bestFor": ["Podcasters", "Social media teams", "Long-form video creators"],
+  "alternatives": ["submagic", "captions"],
+  "capabilities": [
+    {
+      "id": "video-editing"
+    },
+    {
+      "id": "subtitle-generation"
+    },
+    {
+      "id": "speech-to-text"
+    }
+  ]
 }

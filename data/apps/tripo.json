@@ -37,10 +37,14 @@
     "Complex meshes still imperfect",
     "Proprietary, closed models"
   ],
-  "bestFor": [
-    "Fast 3D asset prototyping",
-    "Game/AR placeholder assets",
-    "Solo creators on a budget"
-  ],
-  "alternatives": ["meshy", "rodin", "spline", "marble"]
+  "bestFor": ["Indie game devs", "3D artists", "Solo creators", "AR/VR builders"],
+  "alternatives": ["meshy", "rodin", "spline", "marble"],
+  "capabilities": [
+    {
+      "id": "text-to-3d"
+    },
+    {
+      "id": "image-to-3d"
+    }
+  ]
 }

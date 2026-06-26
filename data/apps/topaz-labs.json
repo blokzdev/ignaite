@@ -40,7 +40,7 @@
     "GPU-heavy, slow on older hardware",
     "Enhancement only — does not generate from prompts"
   ],
-  "bestFor": ["Photographers", "Video restoration", "Print and post production"],
+  "bestFor": ["Photographers", "Video editors", "Post-production houses"],
   "alternatives": ["magnific", "krea", "recraft"],
   "references": [
     {
@@ -48,6 +48,14 @@
       "url": "https://www.cgchannel.com/2025/09/topaz-labs-to-end-perpetual-licenses-of-its-software/",
       "source": "CG Channel",
       "kind": "analysis"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "image-upscaling"
+    },
+    {
+      "id": "video-editing"
     }
   ]
 }
