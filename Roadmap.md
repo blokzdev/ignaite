@@ -37,50 +37,52 @@ Chunks use one global A→Z sequence across iterations. Iteration 4 ran A0–E; 
 up at **F**. (There was no roadmap file before this one — A0–E were tracked in commit messages
 and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exist yet.)
 
-| Chunk | What                                                                                             | PR        | Status |
-| ----- | ------------------------------------------------------------------------------------------------ | --------- | ------ |
-| A0    | Schema sweep + migrate 16 entries to the `App` shape                                             | #12       | ✅     |
-| A1    | +18 entries — agent / orchestration / vector-db                                                  | #13       | ✅     |
-| A2    | +18 entries — voice / vision / image-gen / video / audio                                         | #14       | ✅     |
-| A3    | +18 entries — search / observability / fine-tuning / browser-ext / automation                    | #15       | ✅     |
-| A4    | Freshness audit + status filter + platform contract                                              | #16       | ✅     |
-| B     | Route restructure (`/tools`→`/`, home→`/about`, consolidate portfolio)                           | #17       | ✅     |
-| C     | Per-app detail pages + SEO                                                                       | #18       | ✅     |
-| D     | UX polish — featured carousel, multi-select, sort, infinite scroll                               | #19       | ✅     |
-| E     | Sponsored slots scaffold + 1 self-promo                                                          | #21       | ✅     |
-| —     | Featured-carousel polish · legacy `/apps` redirect hotfix                                        | #22 · #20 | ✅     |
-| F     | Design-system foundation (tokens + utilities + UI primitives)                                    | #25       | ✅     |
-| G     | Mobile directory hardening                                                                       | #26       | ✅     |
-| —     | Recovery-oriented empty state (ghost grid + chips)                                               | #27       | ✅     |
-| H-1   | Mobile filter drawer + active-filter pills + clear-all undo                                      | #28       | ✅     |
-| H-2   | ⌘K command palette (global, lazy)                                                                | #29       | ✅     |
-| I     | Interactive featured carousel (arrows, dots, fade) + a11y fix                                    | #30       | ✅     |
-| J     | Detail pages + sticky mobile action bar                                                          | #31       | ✅     |
-| K     | **/workflow narrative redesign** (vibecoding guide; K-1/K-2/K-3) — _later unpublished_           | #32–#35   | ✅     |
-| —     | Unpublish `/workflow`; refocus on the directory (+ product-direction sweep)                      | #36       | ✅     |
-| L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                               | #37       | ✅     |
-| M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)              | #38       | ✅     |
-| M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)            | #39       | ✅     |
-| N-1   | Taxonomy v2 — +16 categories, one label map, hide empty chips (foundation)                       | #117      | ✅     |
-| N-2/3 | Taxonomy v2 — populate all 16 new categories (+101 apps, 16 re-files)                            | #118      | ✅     |
-| N-4   | Taxonomy docs/routine alignment — _folded into Chunk O_                                          | —         | ✅     |
-| O-1   | Listing enrichment — the "honest brief" (5 fields) + full backfill of all 388                    | #119      | ✅     |
-| O-2   | Repurpose `insight` → "Worth Knowing" fact (relabel + re-author the redundant ~45%)              | #120      | ✅     |
-| P     | Ignaite rebrand (Blokz → Ignaite) + plasma wordmark/favicons                                     | #102–#103 | ✅     |
-| Q     | PWA — hand-rolled service worker + custom install prompt + `/offline`                            | #116      | ✅     |
-| R     | Detail-page DEX refit + state-aware back-crumb + enriched per-app share-card OG (Geist)          | #120–#131 | ✅     |
-| S     | Homepage/directory elevation — masthead plasma, hero slogan, mobile quick-sort                   | #132–#137 | ✅     |
-| T     | Sort overhaul (two-field + flip, dropdown z-fix) + fresh recent rail                             | #144      | ✅     |
-| U     | Featured rotation — `/rotate-featured` routine + `featuredAt` field (biweekly)                   | #145      | ✅     |
-| V-1   | Performance + SEO — 39 SSG category pages + link mesh + 82% homepage HTML cut                    | #161      | ✅     |
-| V-2   | Performance + SEO — structured-data pack, tag deep-links, llms.txt, JSON feed                    | #162      | ✅     |
-| V-3   | Performance + SEO — CSP/security headers, build-stamped SW, LHCI fix, portfolio removal          | #163      | ✅     |
-| V-4   | Public-repo hygiene — README refresh + FSL-1.1-MIT / CC BY-NC licensing                          | #164      | ✅     |
-| X     | Comparisons engine — /compare hub + ~3.1k SSG head-to-heads (curated `alternatives`)             | #332      | ✅     |
-| Z     | Insights v1 — /insights hub, hand-rolled SSG charts (no dep), coverage-honest aggregates         | #333      | ✅     |
-| AA    | Capability schema — 155-leaf `AppCapability` enum + labels + alias map (id-only; level deferred) | #334      | ✅     |
-| AB    | Capability backfill — Build-cluster calibration pilot (110 apps)                                 | #335      | ✅     |
-| AB-2  | Capability fan-out — 8 domain clusters + straggler sweep → 100% active coverage (1,015/1,017)    | #336–#346 | ✅     |
+| Chunk | What                                                                                                | PR        | Status |
+| ----- | --------------------------------------------------------------------------------------------------- | --------- | ------ |
+| A0    | Schema sweep + migrate 16 entries to the `App` shape                                                | #12       | ✅     |
+| A1    | +18 entries — agent / orchestration / vector-db                                                     | #13       | ✅     |
+| A2    | +18 entries — voice / vision / image-gen / video / audio                                            | #14       | ✅     |
+| A3    | +18 entries — search / observability / fine-tuning / browser-ext / automation                       | #15       | ✅     |
+| A4    | Freshness audit + status filter + platform contract                                                 | #16       | ✅     |
+| B     | Route restructure (`/tools`→`/`, home→`/about`, consolidate portfolio)                              | #17       | ✅     |
+| C     | Per-app detail pages + SEO                                                                          | #18       | ✅     |
+| D     | UX polish — featured carousel, multi-select, sort, infinite scroll                                  | #19       | ✅     |
+| E     | Sponsored slots scaffold + 1 self-promo                                                             | #21       | ✅     |
+| —     | Featured-carousel polish · legacy `/apps` redirect hotfix                                           | #22 · #20 | ✅     |
+| F     | Design-system foundation (tokens + utilities + UI primitives)                                       | #25       | ✅     |
+| G     | Mobile directory hardening                                                                          | #26       | ✅     |
+| —     | Recovery-oriented empty state (ghost grid + chips)                                                  | #27       | ✅     |
+| H-1   | Mobile filter drawer + active-filter pills + clear-all undo                                         | #28       | ✅     |
+| H-2   | ⌘K command palette (global, lazy)                                                                   | #29       | ✅     |
+| I     | Interactive featured carousel (arrows, dots, fade) + a11y fix                                       | #30       | ✅     |
+| J     | Detail pages + sticky mobile action bar                                                             | #31       | ✅     |
+| K     | **/workflow narrative redesign** (vibecoding guide; K-1/K-2/K-3) — _later unpublished_              | #32–#35   | ✅     |
+| —     | Unpublish `/workflow`; refocus on the directory (+ product-direction sweep)                         | #36       | ✅     |
+| L     | About + Portfolio section revamp (rhythm · contrast · stats strip)                                  | #37       | ✅     |
+| M-1   | Directory-app chrome (auto-hiding nav + filter-bar pin · ⌘K trigger · active route)                 | #38       | ✅     |
+| M-2   | Global hardening + a11y gate (dvh/scroll-padding · /contact contrast · raise to 0.98)               | #39       | ✅     |
+| N-1   | Taxonomy v2 — +16 categories, one label map, hide empty chips (foundation)                          | #117      | ✅     |
+| N-2/3 | Taxonomy v2 — populate all 16 new categories (+101 apps, 16 re-files)                               | #118      | ✅     |
+| N-4   | Taxonomy docs/routine alignment — _folded into Chunk O_                                             | —         | ✅     |
+| O-1   | Listing enrichment — the "honest brief" (5 fields) + full backfill of all 388                       | #119      | ✅     |
+| O-2   | Repurpose `insight` → "Worth Knowing" fact (relabel + re-author the redundant ~45%)                 | #120      | ✅     |
+| P     | Ignaite rebrand (Blokz → Ignaite) + plasma wordmark/favicons                                        | #102–#103 | ✅     |
+| Q     | PWA — hand-rolled service worker + custom install prompt + `/offline`                               | #116      | ✅     |
+| R     | Detail-page DEX refit + state-aware back-crumb + enriched per-app share-card OG (Geist)             | #120–#131 | ✅     |
+| S     | Homepage/directory elevation — masthead plasma, hero slogan, mobile quick-sort                      | #132–#137 | ✅     |
+| T     | Sort overhaul (two-field + flip, dropdown z-fix) + fresh recent rail                                | #144      | ✅     |
+| U     | Featured rotation — `/rotate-featured` routine + `featuredAt` field (biweekly)                      | #145      | ✅     |
+| V-1   | Performance + SEO — 39 SSG category pages + link mesh + 82% homepage HTML cut                       | #161      | ✅     |
+| V-2   | Performance + SEO — structured-data pack, tag deep-links, llms.txt, JSON feed                       | #162      | ✅     |
+| V-3   | Performance + SEO — CSP/security headers, build-stamped SW, LHCI fix, portfolio removal             | #163      | ✅     |
+| V-4   | Public-repo hygiene — README refresh + FSL-1.1-MIT / CC BY-NC licensing                             | #164      | ✅     |
+| X     | Comparisons engine — /compare hub + ~3.1k SSG head-to-heads (curated `alternatives`)                | #332      | ✅     |
+| Z     | Insights v1 — /insights hub, hand-rolled SSG charts (no dep), coverage-honest aggregates            | #333      | ✅     |
+| AA    | Capability schema — 155-leaf `AppCapability` enum + labels + alias map (id-only; level deferred)    | #334      | ✅     |
+| AB    | Capability backfill — Build-cluster calibration pilot (110 apps)                                    | #335      | ✅     |
+| AB-2  | Capability fan-out — 8 domain clusters + straggler sweep → 100% active coverage (1,015/1,017)       | #336–#346 | ✅     |
+| AC    | Capability-aware UI — detail chips + family map · /compare overlap+verdict · insights chart + index | #349–#351 | ✅     |
+| AD    | Recipe entity — schema + `complete()` integrity + reverse index + red-teamed 4-recipe pilot         | #352      | ✅     |
 
 ---
 
@@ -179,8 +181,35 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
   defense-in-depth merge, only `capabilities`+`bestFor` touched (`lastVerifiedAt` never bumped).
   **100% active coverage** (1,015/1,017; 2 correctly omitted — no verifiable leaf). The routines
   (`add-app`/`discover-apps`/`audit-directory`) now author + maintain `capabilities` so the gap can't reopen.
-- **Chunks AC–AF** (next) — capability-aware comparisons/insights + detail UI, the Recipe entity
-  (sign-off + pilot), and the substitution engine. See the plan doc + the "Recipe Spider" capstone below.
+- **Chunk AC — capability-aware UI ✅** — split into three merged PRs: detail-page capability chips +
+  the `CapabilityFamily` map (#349), the `/compare` capability-overlap row + the deterministic,
+  parity-gated "when to pick which" verdict (#350), and the family-level capability Insights chart +
+  the `capability → app` machine index (llms.txt / llms-full.txt / feed.json) + a soft velite coverage
+  advisory (#351).
+- **Chunk AD — the Recipe entity ✅ (#352)** — the directory's first _authored_ content type: a curated
+  workflow over listed apps (per-file `data/recipes/*.json` → `lib/recipes-schema.ts` → Velite
+  collection → `lib/recipes.ts` + `lib/tools/recipe-index.ts`), `steps[]` each a FK to an app + the
+  capability it performs, required `longSummary` + ≥1 independent `references`, the apps audit spine
+  reused. `complete()` integrity: step-FK existence / dup-slug / dup-seq / seq↔date hard-fail;
+  archived-app dependency → auto-demote to `status:"stale"` + warn (never throws). Shipped with a
+  red-teamed **4-recipe substance-floor pilot** (1 dropped for competitor-marketing refs — the gate
+  working). **Recipe v1 is a LINEAR ordered chain.**
+- **Chunk AE — Recipe routes + SEO (NEXT)** — `/recipes` hub + `/recipes/<slug>` (SSG), `HowTo`
+  JSON-LD (semantic/LLM value; Google deprecated the rich result — thesis is internal-link densification
+  - llms/feed), per-pair OG, sitemap, recipes in feed.json + llms.txt + ⌘K, the per-app "Used in N
+    recipes" rail (`recipesUsingApp`), and the `status:"stale"` renderer. Not a sign-off gate →
+    fire-and-forget. Builds against the linear model.
+- **Chunk AF — capability `level` + substitution engine** (sign-off gate) — `capabilities[].level`
+  (primary/secondary via a second verify pass) + the "prefer fewer platforms / open-source / free"
+  set-cover substitution on recipe steps + `author-recipes`/`audit-recipes` routines.
+- **Chunk AG — multi-dimensional recipes** (design+pilot; **after AE**, founder-directed) — extend the
+  Recipe model beyond the linear chain to **parallel branches + fan-in** (additive: step `id` +
+  optional `dependsOn: id[]` → a DAG) and **back-and-forth iteration** (an optional `loop`/group marker
+  with an exit condition). Additive, zero migration — the 4 linear recipes stay valid (same
+  defer-until-a-consumer-needs-it discipline as `capability.level`). Needs its own pilot (hand-author
+  one real parallel + one real iterative recipe), a graph-aware red-team rubric, a flow renderer (linear
+  list stays the fallback), and the true graph exposed in the machine surfaces. Note: _arbitrary_
+  on-the-fly graph synthesis is the **Recipe Spider's** job; the stored entity stays curated.
 - **Capstone vision — the "Recipe Spider"** (post-AF; BACKLOG'd): on-device + cloud recipe synthesis
   over the verified capability graph — deterministic graph traversal first, a small in-browser model
   for intent, a frontier model (Claude) graph-grounded for the hard cases. Every recipe is a path
