@@ -137,8 +137,9 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
             </div>
           )}
 
-          {/* Capabilities — the task fingerprint (what it does), grouped by family. */}
-          <Capabilities ids={app.capabilities?.map((c) => c.id) ?? []} />
+          {/* Capabilities — the task fingerprint (what it does), grouped by family,
+              with primary ("built for") vs secondary ("can also do") levels (AF-2). */}
+          <Capabilities entries={app.capabilities ?? []} />
 
           {/* Recipes that chain this app — the reverse FK rail (AE). Renders null
               when the app appears in no browsable recipe. */}

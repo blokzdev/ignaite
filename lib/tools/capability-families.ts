@@ -1,4 +1,4 @@
-import type { AppCapability } from "@/types/app";
+import type { AppCapability, CapabilityLevel } from "@/types/app";
 
 // ── CAPABILITY FAMILIES ──────────────────────────────────────────────────────
 // The grouping layer over the 155-leaf `AppCapability` task vocabulary, deferred
@@ -278,4 +278,42 @@ export function groupCapabilitiesByFamily(
   return [...buckets.entries()]
     .sort((a, b) => (FAMILY_INDEX.get(a[0]) ?? 0) - (FAMILY_INDEX.get(b[0]) ?? 0))
     .map(([family, ids]) => ({ family, ids }));
+}
+
+/** A capability entry carrying its level (AF-2) — the structural slice of
+ *  `AppCapabilityEntry` the UI needs (kept local so this stays zod-free + client-safe). */
+export interface CapabilityEntry {
+  id: AppCapability;
+  level?: CapabilityLevel;
+  note?: string;
+}
+
+// primary ("built for") sorts ahead of secondary ("can also do"); unleveled last.
+const LEVEL_RANK: Record<"primary" | "secondary" | "none", number> = {
+  primary: 0,
+  secondary: 1,
+  none: 2,
+};
+
+/** Like {@link groupCapabilitiesByFamily} but preserves each entry's `level`/`note`
+ *  and orders **primary before secondary** within every family (stable otherwise).
+ *  The level-aware detail page renders from this so the headline jobs lead each row. */
+export function groupCapabilityEntriesByFamily(
+  entries: ReadonlyArray<CapabilityEntry>,
+): ReadonlyArray<{ family: CapabilityFamily; entries: CapabilityEntry[] }> {
+  const buckets = new Map<CapabilityFamily, CapabilityEntry[]>();
+  for (const e of entries) {
+    const fam = CAPABILITY_FAMILY[e.id];
+    const arr = buckets.get(fam);
+    if (arr) arr.push(e);
+    else buckets.set(fam, [e]);
+  }
+  return [...buckets.entries()]
+    .sort((a, b) => (FAMILY_INDEX.get(a[0]) ?? 0) - (FAMILY_INDEX.get(b[0]) ?? 0))
+    .map(([family, es]) => ({
+      family,
+      entries: es
+        .slice()
+        .sort((a, b) => LEVEL_RANK[a.level ?? "none"] - LEVEL_RANK[b.level ?? "none"]),
+    }));
 }

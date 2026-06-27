@@ -21,11 +21,11 @@ import { CapabilityChip } from "@/components/tools/capability-chip";
 import {
   CAPABILITY_FAMILY_LABEL,
   CAPABILITY_FAMILY_TONE,
+  type CapabilityEntry,
   type CapabilityFamily,
   type CapabilityTone,
-  groupCapabilitiesByFamily,
+  groupCapabilityEntriesByFamily,
 } from "@/lib/tools/capability-families";
-import type { AppCapability } from "@/types/app";
 
 // One glyph per family — small, scannable, tinted to the family's tone.
 const FAMILY_ICON: Record<CapabilityFamily, LucideIcon> = {
@@ -66,23 +66,42 @@ const TONE_TEXT: Record<CapabilityTone, string> = {
 // The "Capabilities" section — a listing's TASK fingerprint (WHAT it does), the
 // machine-readable keystone surfaced for humans. Grouped by capability family
 // (each colour-coded to the directory's five super-clusters), a family per row:
-// a tone-badged label column beside its chips. The width is capped so single-chip
-// rows read as a tidy spec ledger, not a ragged column trailing into the void.
-// Pure server component — static, no JS.
+// a tone-badged label column beside its chips. Within each row the AF-2 `level`
+// orders + styles the chips — **primary** ("built for") read solid + coloured and
+// lead; **secondary** ("can also do") are ghost pills that recede. The width is
+// capped so single-chip rows read as a tidy spec ledger, not a ragged column
+// trailing into the void. Pure server component — static, no JS.
 export function Capabilities({
-  ids,
-}: Readonly<{ ids: ReadonlyArray<AppCapability> }>): ReactElement | null {
-  if (ids.length === 0) return null;
-  const groups = groupCapabilitiesByFamily(ids);
+  entries,
+}: Readonly<{ entries: ReadonlyArray<CapabilityEntry> }>): ReactElement | null {
+  if (entries.length === 0) return null;
+  const groups = groupCapabilityEntriesByFamily(entries);
+  const primaryCount = entries.filter((e) => e.level === "primary").length;
 
   return (
     <section className="mt-10 max-w-[62ch]">
       <h2 className="font-mono text-[10px] tracking-[0.16em] text-[var(--color-ink-dim)] uppercase">
-        Capabilities <span className="text-[var(--color-ink-dim)]/55">{ids.length}</span>
+        Capabilities <span className="text-[var(--color-ink-dim)]/55">{entries.length}</span>
       </h2>
       <p className="mt-1.5 text-[13px] leading-snug text-[var(--color-ink-dim)]">
         What it actually does — grouped by capability family.
       </p>
+      {/* Legend — only shown once any level is set, so unleveled listings stay clean. */}
+      {primaryCount > 0 ? (
+        <p
+          className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-[var(--color-ink-dim)]"
+          aria-hidden
+        >
+          <span className="inline-flex items-center gap-1.5">
+            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-ink-soft)]" />
+            Primary — built for this
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <span className="h-1.5 w-1.5 shrink-0 rounded-full opacity-60 ring-1 ring-[var(--color-ink-soft)] ring-inset" />
+            Secondary — can also do
+          </span>
+        </p>
+      ) : null}
       <div className="mt-5 flex flex-col gap-3">
         {groups.map((g) => {
           const tone = CAPABILITY_FAMILY_TONE[g.family];
@@ -111,9 +130,9 @@ export function Capabilities({
                 </span>
               </div>
               <ul className="flex min-w-0 flex-wrap gap-1.5" aria-label={`${label} capabilities`}>
-                {g.ids.map((id) => (
-                  <li key={id}>
-                    <CapabilityChip id={id} />
+                {g.entries.map((e) => (
+                  <li key={e.id}>
+                    <CapabilityChip id={e.id} level={e.level} note={e.note} />
                   </li>
                 ))}
               </ul>
