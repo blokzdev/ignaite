@@ -48,16 +48,20 @@
   "alternatives": ["modal", "replicate", "baseten", "lightning-ai"],
   "capabilities": [
     {
-      "id": "gpu-compute"
+      "id": "gpu-compute",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

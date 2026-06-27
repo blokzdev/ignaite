@@ -58,7 +58,8 @@
   ],
   "capabilities": [
     {
-      "id": "gpu-compute"
+      "id": "gpu-compute",
+      "level": "primary"
     }
   ]
 }
