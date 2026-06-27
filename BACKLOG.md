@@ -125,22 +125,19 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       (auto-merge) routines. **Don't market "fewer signups / swap for free" until the rail is live** — it
       now is, framed honestly as "ranked by license, cost, and platform footprint" (capability-fit added
       to the framing once leveling coverage climbs).
-- [~] **[future]** **Chunk AF-2 — the `level` backfill campaign 🟦 IN PROGRESS** (founder-directed: full
-  web-verify, via Ultracode parallel workflows). Populate `capabilities[].level` (primary = the 1–2
-  headline jobs the app is built around / secondary = supporting) across the corpus — **~3,650
-  capability entries / 1,015 apps**. Founder chose a **full web-verify** campaign (not the cheaper
-  heuristic) run **after the engine shipped (AF-1, done)**, as an AB-style parallel-agent fan-out
-  (per-category PRs). **MUST NOT bump `lastVerifiedAt` and MUST NOT append a per-app `changelog`** (an
-  enrichment campaign, same class as the AB id backfill — not a re-verification). **Mechanism shipped
-  (#359):** the **`/level-capabilities [category]` routine** (`.claude/commands/level-capabilities.md`)
-  does one category per run — fan-out leveling agents → adversarial **primary-inflation** audit →
-  `apply-levels` → PR + squash auto-merge — and **no-ops once every active listing is leveled**.
-  `/add-app` (authors `level` at creation) + `/audit-directory` (re-verifies it) are now level-aware,
-  so the axis stays leveled after the campaign drains. **Done so far:** the **`agent`-category pilot,
-  43 apps** (116 primary / 67 secondary, ~63% primary — rubric locked). **Remaining:** ~41 categories
-  / ~972 apps, rolled by a scheduled cron (each its own reversible PR). Fold-in: agents **add
-  genuinely-missing capabilities** (≤6 cap, web-verified) on the same docs visit. **Close this item
-  when the campaign drains** (the routine self-reports "DONE — every active listing is fully leveled").
+- [x] **[future]** **Chunk AF-2 — the `level` backfill campaign — ✅ COMPLETE** (#359–362, #364)
+      (founder-directed: full web-verify, via Ultracode parallel workflows). Populated `capabilities[].level`
+      (primary = the 1–2 headline jobs the app is built around / secondary = supporting) across the **whole
+      corpus: 1015/1015 capped active listings, 0 unleveled**, ~45% primary (1637 / 2029). Enrichment only —
+      **no `lastVerifiedAt` bump, no `changelog`** (AB precedent). **Mechanism:** the **`/level-capabilities
+[category]` routine** — fan-out leveling agents → adversarial **primary-inflation** audit → `apply-levels`
+      → PR. Shipped as: `agent` pilot that locked the rubric (#359, ~63% primary), three calibration categories
+      (#360 assistant 34%, #361 voice 42%, #362 inference 41%), then **one resumable bulk workflow** that
+      leveled the remaining 35 categories (799 apps) + a focused re-run of 4 audit-failed categories (63 apps),
+      landed in #364. The routine **now no-ops** ("DONE — every active listing is fully leveled"); `/add-app`
+      (authors `level` at creation) + `/audit-directory` (re-verifies it) are level-aware and keep the axis
+      current going forward — so the campaign cron can be disabled. Audit caught real inflation across the run
+      (e.g. surge-ai red-teaming→secondary; rejected a hallucinated labelbox RL add).
 - [x] **[future]** **Chunk AH — capability-leaf granularity split — ✅ DONE** (#358). Founder-directed
       first cut: split the 2 highest-confidence compound leaves — **`document-extraction` → `ocr-extraction` + `document-parsing`** and **`workflow-automation` → `workflow-orchestration` + `automation-trigger`**
       — additively (enum + label + family, all completeness-compile-checked; synonym aliases re-pointed),
@@ -158,9 +155,14 @@ to-text`/`summarization`/`document-qa`/`eval-suite` (axes already covered by exi
       AH: visual/no-code app builders vs code-emitting (v0/Lovable). ~67 apps. `code-generation` (55) +
       `app-deployment` (46) already partly express the boundary, so medium confidence — revisit if the
       substitution engine or a recipe surfaces a real confusion. Same migration machinery as AH (now proven).
-- [ ] **[future]** **AF-3 — `level`-aware detail/compare polish (defer, additive).** Once leveling
-      coverage is meaningful: emphasize primary-level capability chips on `/apps/[slug]`, and let the
-      `/compare` verdict use `level` to sharpen "best for X" claims. Pure additive; ship when wanted.
+- [~] **[future]** **AF-3 — `level`-aware detail/compare polish.** **Detail page DONE (#363):** primary
+  ("built for") chips read filled + tone-coloured and lead each family row; secondary ("can also do")
+  recede as ghost outline chips, with a filled-vs-hollow dot + legend + `sr-only` level as non-colour
+  cues, `note` qualifiers inline, and primary-first ordering (`groupCapabilityEntriesByFamily`).
+  **Still deferred:** the `/compare` overlap row + verdict are intentionally **level-blind** (they're
+  about leaf-set parity / shared-vs-unique, and `shared` styling would conflict with the ghost
+  treatment). Revisit if a "favour primary capabilities in the verdict" framing is wanted — a clean
+  follow-up now that detail proves the chip variants. Pure additive.
 - [ ] **[future]** **"Fewer signups" substitution tier.** The engine's objective deliberately omits a
       signup-count / onboarding-friction tier — no such data field exists. If a `signupFriction`-style
       signal is ever added (verifiable), slot it into the lexicographic order so the engine can prefer
