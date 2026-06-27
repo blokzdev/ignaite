@@ -195,6 +195,8 @@ export function buildComparisonVerdict(a: App, b: App): ComparisonVerdict {
   ): VerdictLean => {
     const groups: VerdictLeanGroup[] = [];
     for (const g of overlap.groups) {
+      // Stable sort (ES2019+): primary-first within family; same-rank leaves (incl.
+      // any unleveled) keep canonical order, so output stays deterministic (#6).
       const ids = pick(g)
         .slice()
         .sort((x, y) => levelRank(lvl.get(x)) - levelRank(lvl.get(y)));
@@ -216,7 +218,9 @@ export function buildComparisonVerdict(a: App, b: App): ComparisonVerdict {
   // GUARDRAIL #7: the FOCUS signal — shared leaves the two apps weight differently.
   // A leaf primary for one and secondary for the other is a real, recorded divergence
   // in what each is built around; never an enrichment gap (both carry leaf + level),
-  // so it is NOT parity-gated. `overlap.shared` is already canonical-ordered.
+  // so it is NOT parity-gated. `overlap.shared` is already canonical-ordered. Only
+  // leaves BOTH apps leveled AND weight differently qualify — an unleveled side
+  // (la/lb undefined) matches neither branch, so it's safely ignored.
   const focusA: VerdictFocusLeaf[] = [];
   const focusB: VerdictFocusLeaf[] = [];
   for (const id of overlap.shared) {

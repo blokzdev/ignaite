@@ -73,22 +73,49 @@ function FocusBlock({
   focusB: ReadonlyArray<VerdictFocusLeaf>;
   sameSet: boolean;
 }>): ReactElement {
-  const both = focusA.length > 0 && focusB.length > 0;
+  // SYMMETRIC — BOTH apps lead with a shared capability the other keeps secondary.
+  // Only here is the "each leads with different ones" framing accurate.
+  if (focusA.length > 0 && focusB.length > 0) {
+    return (
+      <div>
+        <p className="mb-3 text-sm text-[var(--color-ink-soft)]">
+          {sameSet ? (
+            <>
+              {aName} and {bName} cover the same capabilities, but lead with different ones:
+            </>
+          ) : (
+            <>They share capabilities, but each leads with different ones as a headline job:</>
+          )}
+        </p>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <FocusSide name={aName} leaves={focusA} />
+          <FocusSide name={bName} leaves={focusB} />
+        </div>
+      </div>
+    );
+  }
+  // ASYMMETRIC — exactly ONE app leads with a shared capability the other keeps
+  // secondary. Describe ONLY that app's emphasis (never imply "each"); the other's
+  // secondary level is a recorded fact, not an absence (Guardrail #2). One full-width
+  // statement + chips, so there's no lopsided single card in a 2-col grid.
+  const leadsA = focusA.length > 0;
+  const leadName = leadsA ? aName : bName;
+  const otherName = leadsA ? bName : aName;
+  const leaves = leadsA ? focusA : focusB;
   return (
     <div>
-      <p className="mb-3 text-sm text-[var(--color-ink-soft)]">
-        {sameSet ? (
-          <>
-            {aName} and {bName} cover the same capabilities, but lead with different ones:
-          </>
-        ) : (
-          <>They share capabilities, but each leans on different ones as a headline job:</>
-        )}
+      <p className="mb-3 text-sm leading-relaxed text-[var(--color-ink-soft)]">
+        <strong className="font-medium text-[var(--color-ink)]">{leadName}</strong> leans on{" "}
+        {oxfordJoin(leaves.map((l) => l.label))} as a headline capability; {otherName} treats{" "}
+        {leaves.length > 1 ? "them" : "it"} as secondary.
       </p>
-      <div className={both ? "grid gap-4 sm:grid-cols-2" : ""}>
-        <FocusSide name={aName} leaves={focusA} />
-        <FocusSide name={bName} leaves={focusB} />
-      </div>
+      <ul className="flex flex-wrap gap-1.5">
+        {leaves.map((l) => (
+          <li key={l.id}>
+            <CapabilityChip id={l.id} level="primary" />
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
