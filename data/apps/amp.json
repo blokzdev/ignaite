@@ -48,16 +48,20 @@
   "alternatives": ["cline", "claude-code", "cursor", "augment-code"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "primary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     }
   ]
 }

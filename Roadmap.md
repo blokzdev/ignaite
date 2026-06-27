@@ -88,6 +88,7 @@ and `BACKLOG.md`'s Resolved archive, which is why "chunk F" didn't appear to exi
 | —     | Hardening — self-referential `dependsOn` hard-fail + parallel-lane a11y label                                | #356      | ✅     |
 | AF-1  | Substitution engine (lexicographic, build-time) + "Swap this step" rail + author/audit-recipes routines      | #357      | ✅     |
 | AH    | Capability leaf-granularity split — document-extraction + workflow-automation → 4 leaves; 174 apps re-mapped | #358      | ✅     |
+| AF-2  | Capability `level` backfill campaign — `/level-capabilities` routine + cron; `agent` pilot (43 apps) leveled | #359      | 🟦     |
 
 ---
 
@@ -228,12 +229,18 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
   completeness guard — velite hard-fails any app missed). Red-team deferred `speech-to-text`/`summarization`
   /`document-qa`/`eval-suite` (axes already covered by live leaves) + `app-builder` (fast-follow). Landed
   **before AF-2** so leveling operates on the final vocabulary.
-- **Chunk AF-2 — full `level` backfill campaign** (founder-directed, **after AH**) — populate
-  `capabilities[].level` across the corpus (3,652 entries) via a **full web-verify**, AB-style parallel
-  Ultracode fan-out; fold in **add-missing-capabilities** on the same docs visit (≤6 cap). MUST NOT bump
-  `lastVerifiedAt` / append `changelog` (enrichment, not re-verification — AB precedent). Each cluster
-  independently mergeable; sharpens the (already-shipped) engine as coverage climbs, then the public
-  framing gains "…and capability fit."
+- **Chunk AF-2 — `level` backfill campaign 🟦 (in progress, #359)** (founder-directed, **after AH**) —
+  populate `capabilities[].level` (`primary` = the 1–2 headline jobs the app is built around; `secondary`
+  = supporting) across the corpus (~3,650 entries / 1,015 listings) via a **full web-verify**, AB-style
+  parallel Ultracode fan-out; fold in **add-missing-capabilities** on the same docs visit (≤6 cap). MUST
+  NOT bump `lastVerifiedAt` / append `changelog` (enrichment, not re-verification — AB precedent).
+  Mechanism: the **`/level-capabilities [category]` routine** (`.claude/commands/`) processes **one
+  category per run** — fan-out leveling agents → adversarial **primary-inflation** audit → apply → PR +
+  squash auto-merge — and **no-ops once every active listing is leveled** (then `/add-app` +
+  `/audit-directory`, both now level-aware, keep the axis current). A scheduled cron drains the ~42
+  categories. The **`agent`-category pilot (43 apps, 116 primary / 67 secondary, ~63% primary)** locked
+  the rubric (#359). Each category is its own reversible PR; sharpens the (already-shipped) engine as
+  coverage climbs, then the public framing gains "…and capability fit."
 - **Chunk AG — multi-dimensional recipes ✅ (#355)** — extended the Recipe from a linear chain to an
   **optional DAG**, additively (the 4 pre-AG recipes validate + render byte-identical): step `id` +
   `dependsOn: id[]` (parallel branches + fan-in) + `loop: { backTo, until }` (iteration). Founder

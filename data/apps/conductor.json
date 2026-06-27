@@ -54,7 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
+    },
+    {
+      "id": "code-review",
+      "level": "secondary"
     }
   ]
 }

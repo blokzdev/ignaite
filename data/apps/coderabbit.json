@@ -43,16 +43,20 @@
   "alternatives": ["qodo", "snyk", "devin"],
   "capabilities": [
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "primary"
     },
     {
-      "id": "test-generation"
+      "id": "test-generation",
+      "level": "secondary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     },
     {
-      "id": "code-documentation"
+      "id": "code-documentation",
+      "level": "secondary"
     }
   ]
 }

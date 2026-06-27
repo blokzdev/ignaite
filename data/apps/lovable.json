@@ -41,16 +41,20 @@
   "alternatives": ["bolt-new", "v0", "replit", "genspark"],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     }
   ]
 }

@@ -13,12 +13,27 @@
     "kind": "model-agnostic"
   },
   "capabilities": [
-    { "id": "agent-orchestration" },
-    { "id": "eval-suite" },
-    { "id": "ai-security-scanning" }
+    {
+      "id": "agent-orchestration",
+      "level": "secondary"
+    },
+    {
+      "id": "eval-suite",
+      "level": "primary"
+    },
+    {
+      "id": "ai-security-scanning",
+      "level": "primary"
+    }
   ],
   "tags": ["agent-skills", "registry", "governance", "ai-native"],
-  "links": [{ "kind": "website", "url": "https://www.tessl.io", "primary": true }],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tessl.io",
+      "primary": true
+    }
+  ],
   "addedAt": "2026-06-24",
   "addedSeq": 1029,
   "lastVerifiedAt": "2026-06-24",

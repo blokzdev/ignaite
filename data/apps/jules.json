@@ -46,13 +46,16 @@
   "alternatives": ["devin", "openai-codex", "claude-code", "factory-ai"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "test-generation"
+      "id": "test-generation",
+      "level": "primary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "secondary"
     }
   ]
 }

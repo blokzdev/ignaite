@@ -50,19 +50,24 @@
   "alternatives": ["coderabbit", "github-copilot", "cursor", "snyk"],
   "capabilities": [
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "primary"
     },
     {
-      "id": "test-generation"
+      "id": "test-generation",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "secondary"
     }
   ]
 }

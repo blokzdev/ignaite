@@ -59,13 +59,16 @@
   ],
   "capabilities": [
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "primary"
     },
     {
-      "id": "test-generation"
+      "id": "test-generation",
+      "level": "primary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

@@ -46,22 +46,28 @@
   "lastVerifiedAt": "2026-06-20",
   "capabilities": [
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "primary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     },
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     }
   ]
 }

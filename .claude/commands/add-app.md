@@ -102,8 +102,11 @@ Conventions (match existing entries):
   - **`pros`** / **`cons`** (≤5 each, items ≤60 chars) — grounded strengths / honest limitations.
     Factual, non-marketing, never competitor-bashing. `cons` are the trust signal — never invent.
   - **`capabilities`** (≤6) — the controlled **task-axis** signal: WHAT the app _does_, as leaf `id`s
-    from the `AppCapability` enum in `types/app.ts`. Each entry is `{ id }` (**id-only for v1** — the
-    `level` field is deferred to the Recipes phase). Resolve each shipping feature to its canonical leaf
+    from the `AppCapability` enum in `types/app.ts`. Each entry is `{ id, level }` — set **`level`**:
+    `primary` for the 1–2 (rarely 3) capabilities the app is **built around** (its headline job), and
+    `secondary` for the real-but-supporting ones; **default `secondary` when uncertain** (avoid
+    primary-inflation — not every cap is primary). The `/level-capabilities` campaign backfills levels
+    on older listings; author them here so new entries don't regress. Resolve each shipping feature to its canonical leaf
     via the synonym map in `lib/tools/capability-aliases.ts` (human labels: `lib/tools/capability-labels.ts`);
     if no leaf genuinely fits, **omit it — never invent, force, or near-miss-map** (e.g. don't map
     music→notation onto `speech-to-text`; a missing capability beats a wrong one). **Web-verify-or-omit,

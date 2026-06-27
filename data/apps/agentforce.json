@@ -58,19 +58,24 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "primary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "primary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "secondary"
     }
   ]
 }
