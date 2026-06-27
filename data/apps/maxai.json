@@ -44,22 +44,28 @@
   "alternatives": ["sider", "monica", "merlin-ai", "harpa-ai"],
   "capabilities": [
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     }
   ]
 }

@@ -54,10 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "primary"
     }
   ]
 }

@@ -55,13 +55,16 @@
   ],
   "capabilities": [
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     }
   ]
 }

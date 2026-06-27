@@ -46,13 +46,16 @@
   "alternatives": ["jan", "anythingllm", "big-agi", "lm-studio"],
   "capabilities": [
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     }
   ]
 }

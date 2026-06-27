@@ -37,10 +37,12 @@
   "alternatives": ["chatgpt", "perplexity", "monica", "sider"],
   "capabilities": [
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     }
   ]
 }

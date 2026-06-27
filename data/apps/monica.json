@@ -46,22 +46,28 @@
   "alternatives": ["sider", "merlin-ai", "harpa-ai", "maxai"],
   "capabilities": [
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     }
   ]
 }

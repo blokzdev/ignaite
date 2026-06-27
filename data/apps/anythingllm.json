@@ -52,19 +52,24 @@
   "alternatives": ["librechat", "onyx", "khoj", "cherry-studio"],
   "capabilities": [
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     },
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "secondary"
     },
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "secondary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     }
   ]
 }
