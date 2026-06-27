@@ -39,16 +39,20 @@
   "alternatives": ["wispr-flow", "aqua-voice"],
   "capabilities": [
     {
-      "id": "dictation"
+      "id": "dictation",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     }
   ]
 }

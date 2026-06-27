@@ -41,16 +41,20 @@
   "alternatives": ["elevenlabs", "murf", "speechify", "wellsaid"],
   "capabilities": [
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "primary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "primary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     }
   ]
 }

@@ -40,13 +40,16 @@
   "bestFor": ["Voice-first writers", "Knowledge workers", "Cross-device users"],
   "capabilities": [
     {
-      "id": "dictation"
+      "id": "dictation",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     }
   ]
 }

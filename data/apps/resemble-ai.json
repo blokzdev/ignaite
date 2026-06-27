@@ -56,13 +56,16 @@
   ],
   "capabilities": [
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "primary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "primary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     }
   ]
 }
