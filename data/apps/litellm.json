@@ -50,16 +50,20 @@
   "alternatives": ["openrouter", "portkey", "vercel-ai-sdk", "ollama"],
   "capabilities": [
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "secondary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     }
   ]
 }

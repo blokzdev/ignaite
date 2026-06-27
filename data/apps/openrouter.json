@@ -52,10 +52,12 @@
   "alternatives": ["litellm", "portkey", "together-ai", "fireworks-ai"],
   "capabilities": [
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     }
   ]
 }

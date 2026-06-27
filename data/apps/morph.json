@@ -44,13 +44,16 @@
   "alternatives": ["fireworks-ai", "baseten", "together-ai"],
   "capabilities": [
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     },
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "secondary"
     }
   ]
 }

@@ -56,13 +56,16 @@
   "alternatives": ["together-ai", "fireworks-ai", "openrouter"],
   "capabilities": [
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

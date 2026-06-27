@@ -49,10 +49,12 @@
   "alternatives": ["groq", "cerebras", "together-ai", "fireworks-ai"],
   "capabilities": [
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     }
   ]
 }

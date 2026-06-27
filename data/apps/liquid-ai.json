@@ -52,13 +52,16 @@
   "alternatives": ["ollama", "groq", "replicate"],
   "capabilities": [
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

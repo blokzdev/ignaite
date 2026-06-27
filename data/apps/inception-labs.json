@@ -49,10 +49,12 @@
   ],
   "capabilities": [
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     }
   ]
 }

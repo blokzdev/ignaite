@@ -62,10 +62,12 @@
   ],
   "capabilities": [
     {
-      "id": "gpu-compute"
+      "id": "gpu-compute",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "secondary"
     }
   ]
 }
