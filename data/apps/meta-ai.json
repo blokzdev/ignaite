@@ -50,13 +50,16 @@
   ],
   "capabilities": [
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "secondary"
     }
   ]
 }

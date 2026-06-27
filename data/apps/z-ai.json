@@ -54,10 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     },
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "secondary"
     }
   ]
 }

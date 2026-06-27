@@ -42,10 +42,12 @@
   "alternatives": ["chatgpt", "claude", "gemini", "kimi"],
   "capabilities": [
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

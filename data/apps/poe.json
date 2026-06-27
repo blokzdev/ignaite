@@ -45,16 +45,20 @@
   "alternatives": ["openrouter", "chatgpt", "claude", "perplexity"],
   "capabilities": [
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     }
   ]
 }

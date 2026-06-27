@@ -42,16 +42,20 @@
   "alternatives": ["chatgpt", "claude", "grok", "microsoft-copilot"],
   "capabilities": [
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     }
   ]
 }

@@ -47,16 +47,20 @@
   "alternatives": ["librechat", "anythingllm", "jan", "cherry-studio"],
   "capabilities": [
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "primary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     }
   ]
 }

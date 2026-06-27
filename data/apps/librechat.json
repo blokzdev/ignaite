@@ -59,19 +59,24 @@
   "alternatives": ["anythingllm", "big-agi", "cherry-studio", "openclaw"],
   "capabilities": [
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "secondary"
     }
   ]
 }
