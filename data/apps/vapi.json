@@ -51,13 +51,16 @@
   "alternatives": ["retell-ai", "bland-ai", "elevenlabs", "cartesia"],
   "capabilities": [
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     }
   ]
 }

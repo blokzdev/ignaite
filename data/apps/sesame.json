@@ -46,13 +46,16 @@
   "alternatives": ["cartesia", "elevenlabs", "deepgram", "retell-ai"],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     }
   ]
 }

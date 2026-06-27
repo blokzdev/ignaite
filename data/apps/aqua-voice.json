@@ -40,10 +40,12 @@
   "alternatives": ["wispr-flow", "superwhisper"],
   "capabilities": [
     {
-      "id": "dictation"
+      "id": "dictation",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     }
   ]
 }

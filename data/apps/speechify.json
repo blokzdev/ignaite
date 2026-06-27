@@ -49,22 +49,28 @@
   "alternatives": ["elevenlabs", "deepgram", "cartesia"],
   "capabilities": [
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "primary"
     },
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "secondary"
     },
     {
-      "id": "dictation"
+      "id": "dictation",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }
