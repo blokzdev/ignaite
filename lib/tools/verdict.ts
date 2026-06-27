@@ -1,4 +1,4 @@
-import type { App, AppCapability } from "@/types/app";
+import type { App, AppCapability, CapabilityLevel } from "@/types/app";
 import type { CapabilityFamily } from "@/lib/tools/capability-families";
 import { CAPABILITY_LABEL } from "@/lib/tools/capability-labels";
 import {
@@ -36,11 +36,17 @@ import { LICENSE_LABEL, licenseSignal } from "@/lib/tools/license";
 //     (those render verbatim elsewhere on the page). Do not reintroduce them.
 //  6. Deterministic + total: same (a,b) → byte-identical output; `shape` is a total
 //     chain ending in "twins". No Date.now/Math.random/locale sort.
+//  7. AF-3b — `level` (primary/secondary) is a CONTROLLED enum field, so it joins
+//     the fence (#5) as readable. It SHARPENS, never loosens: lean leaves order
+//     primary-first + carry their level for chip styling, and the new FOCUS signal
+//     reads only shared leaves' levels. Focus is NOT parity-gated (#1) — it compares
+//     a leaf BOTH apps recorded AND leveled, so it is never an enrichment-gap artefact.
 
 export type VerdictLeanGroup = Readonly<{
   family: CapabilityFamily;
   ids: ReadonlyArray<AppCapability>;
   labels: ReadonlyArray<string>; // pre-resolved CAPABILITY_LABEL, parallel to ids
+  levels: ReadonlyArray<CapabilityLevel | undefined>; // the app's OWN level, parallel to ids
 }>;
 
 export type VerdictLean = Readonly<{
@@ -48,11 +54,16 @@ export type VerdictLean = Readonly<{
   groups: ReadonlyArray<VerdictLeanGroup>;
 }>;
 
+// A shared capability whose FOCUS differs between the two apps — primary for the
+// app this list belongs to, secondary for the other. The level-derived signal the
+// set-difference leans can't see ("both do X, but it's a headline job for only one").
+export type VerdictFocusLeaf = Readonly<{ id: AppCapability; label: string }>;
+
 export type VerdictAxisKey = "pricing" | "license" | "deployment" | "platforms" | "model";
 
 export type VerdictAxis = Readonly<{ key: VerdictAxisKey; label: string; a: string; b: string }>;
 
-export type VerdictShape = "lean-both" | "lean-a" | "lean-b" | "axes-only" | "twins";
+export type VerdictShape = "lean-both" | "lean-a" | "lean-b" | "focus" | "axes-only" | "twins";
 
 // What we can honestly say about the two capability LEAF SETS:
 //  "same"   — identical non-empty sets (safe to say "cover the same capabilities").
@@ -66,6 +77,11 @@ export type ComparisonVerdict = Readonly<{
   leanA: VerdictLean;
   leanB: VerdictLean;
   shared: ReadonlyArray<{ id: AppCapability; label: string }>;
+  // Shared leaves whose FOCUS differs — primary for A & secondary for B (focusA),
+  // or the reverse (focusB). Canonical (family) order. Empty when the apps agree on
+  // every shared leaf's level (or neither is leveled).
+  focusA: ReadonlyArray<VerdictFocusLeaf>;
+  focusB: ReadonlyArray<VerdictFocusLeaf>;
   axes: ReadonlyArray<VerdictAxis>;
   shape: VerdictShape;
   capabilityClaim: CapabilityClaim;
@@ -150,33 +166,81 @@ export function oxfordJoin(items: ReadonlyArray<string>, cap = 4): string {
   return `${items.slice(0, cap).join(", ")}, and ${items.length - cap} more`;
 }
 
+// An app's id→level lookup (`undefined` for any leaf not yet leveled).
+function levelMap(x: App): Map<AppCapability, CapabilityLevel | undefined> {
+  const m = new Map<AppCapability, CapabilityLevel | undefined>();
+  for (const c of x.capabilities ?? []) m.set(c.id, c.level);
+  return m;
+}
+// primary leads, then secondary, then unleveled — stable within a level otherwise.
+const levelRank = (lv: CapabilityLevel | undefined): number =>
+  lv === "primary" ? 0 : lv === "secondary" ? 1 : 2;
+
 export function buildComparisonVerdict(a: App, b: App): ComparisonVerdict {
   const overlap = computeCapabilityOverlap(a, b);
   const countA = (a.capabilities ?? []).length;
   const countB = (b.capabilities ?? []).length;
+  const lvlA = levelMap(a);
+  const lvlB = levelMap(b);
 
   // GUARDRAIL #1: enrichment-parity gate.
   const parityOk = countA > 0 && countB > 0 && Math.abs(countA - countB) < 2;
 
-  const lean = (pick: (g: CapabilityOverlapGroup) => AppCapability[]): VerdictLean => {
+  // GUARDRAIL #7: within a lean, order the app's OWN unique leaves primary-first so
+  // the headline sentence + chips lead with what it's built for, and carry the level
+  // for chip styling. (Family order is preserved across groups; level orders within.)
+  const lean = (
+    pick: (g: CapabilityOverlapGroup) => AppCapability[],
+    lvl: Map<AppCapability, CapabilityLevel | undefined>,
+  ): VerdictLean => {
     const groups: VerdictLeanGroup[] = [];
     for (const g of overlap.groups) {
-      const ids = pick(g);
+      // Stable sort (ES2019+): primary-first within family; same-rank leaves (incl.
+      // any unleveled) keep canonical order, so output stays deterministic (#6).
+      const ids = pick(g)
+        .slice()
+        .sort((x, y) => levelRank(lvl.get(x)) - levelRank(lvl.get(y)));
       if (ids.length)
-        groups.push({ family: g.family, ids, labels: ids.map((id) => CAPABILITY_LABEL[id]) });
+        groups.push({
+          family: g.family,
+          ids,
+          labels: ids.map((id) => CAPABILITY_LABEL[id]),
+          levels: ids.map((id) => lvl.get(id)),
+        });
     }
     return { uniqueCount: groups.reduce((n, g) => n + g.ids.length, 0), groups };
   };
 
-  const leanA = parityOk ? lean((g) => g.aOnly) : { uniqueCount: 0, groups: [] };
-  const leanB = parityOk ? lean((g) => g.bOnly) : { uniqueCount: 0, groups: [] };
+  const leanA = parityOk ? lean((g) => g.aOnly, lvlA) : { uniqueCount: 0, groups: [] };
+  const leanB = parityOk ? lean((g) => g.bOnly, lvlB) : { uniqueCount: 0, groups: [] };
   const shared = overlap.shared.map((id) => ({ id, label: CAPABILITY_LABEL[id] }));
+
+  // GUARDRAIL #7: the FOCUS signal — shared leaves the two apps weight differently.
+  // A leaf primary for one and secondary for the other is a real, recorded divergence
+  // in what each is built around; never an enrichment gap (both carry leaf + level),
+  // so it is NOT parity-gated. `overlap.shared` is already canonical-ordered. Only
+  // leaves BOTH apps leveled AND weight differently qualify — an unleveled side
+  // (la/lb undefined) matches neither branch, so it's safely ignored.
+  const focusA: VerdictFocusLeaf[] = [];
+  const focusB: VerdictFocusLeaf[] = [];
+  for (const id of overlap.shared) {
+    const la = lvlA.get(id);
+    const lb = lvlB.get(id);
+    if (la === "primary" && lb === "secondary") focusA.push({ id, label: CAPABILITY_LABEL[id] });
+    else if (lb === "primary" && la === "secondary")
+      focusB.push({ id, label: CAPABILITY_LABEL[id] });
+  }
+  const hasFocus = focusA.length > 0 || focusB.length > 0;
+
   const axes = buildAxes(a, b);
 
   const bothEmpty = countA === 0 && countB === 0;
   const setsIdentical = overlap.aOnly.length === 0 && overlap.bOnly.length === 0;
   const capabilityClaim: CapabilityClaim = bothEmpty ? "none" : setsIdentical ? "same" : "differ";
 
+  // Focus slots in below the unique-cap leans (the strongest signal) but ABOVE the
+  // enum axes / twins — so identical-set or parity-gated pairs that still differ in
+  // focus get a real verdict instead of "they're the same".
   const shape: VerdictShape =
     leanA.uniqueCount > 0 && leanB.uniqueCount > 0
       ? "lean-both"
@@ -184,9 +248,11 @@ export function buildComparisonVerdict(a: App, b: App): ComparisonVerdict {
         ? "lean-a"
         : leanB.uniqueCount > 0
           ? "lean-b"
-          : axes.length > 0
-            ? "axes-only"
-            : "twins";
+          : hasFocus
+            ? "focus"
+            : axes.length > 0
+              ? "axes-only"
+              : "twins";
 
   return {
     aName: a.name,
@@ -194,6 +260,8 @@ export function buildComparisonVerdict(a: App, b: App): ComparisonVerdict {
     leanA,
     leanB,
     shared,
+    focusA,
+    focusB,
     axes,
     shape,
     capabilityClaim,
@@ -203,10 +271,17 @@ export function buildComparisonVerdict(a: App, b: App): ComparisonVerdict {
 
 // ── SPEC (acceptance cases; no test runner is wired in this repo yet) ──────────
 // 1. lean-both, parity holds (both ~4 caps, enums tie): shape "lean-both",
-//    leanA/leanB each carry the family-grouped A-only / B-only leaves, shared is
-//    the common leaves, axes []. Renders "Pick {A} if you need …" additively.
+//    leanA/leanB each carry the family-grouped A-only / B-only leaves (primary-first
+//    within family, each tagged with its level), shared is the common leaves, axes [].
+//    Renders "Pick {A} if you need …" additively, primaries as filled chips.
 // 2. parity-gated (A 3 caps, B 6 caps → |Δ|=3): parityOk false ⇒ leanA=leanB=∅,
-//    capabilityClaim "differ", parityGated true; shape falls to "axes-only" if any
-//    enum differs else "twins". NEVER emits a "Pick X if you need {A-only leaf}"
-//    line, and NEVER claims "same capabilities" (capabilityClaim is "differ").
+//    capabilityClaim "differ", parityGated true. If a shared leaf's level differs the
+//    shape is "focus" (focus is NOT parity-gated); else "axes-only"/"twins". NEVER
+//    emits a "Pick X if you need {A-only leaf}" line, NEVER claims "same capabilities".
 // 3. model-agnostic side: the model axis is absent from `axes` even if kinds differ.
+// 4. AF-3b focus: identical leaf SETS (capabilityClaim "same") but a shared leaf is
+//    primary for A & secondary for B ⇒ focusA carries it, shape "focus" (not the old
+//    "axes-only/twins → they cover the same capabilities"). Additive, no absence claim.
+// 5. AF-3b focus is symmetric + ordered: focusA holds A-primary/B-secondary leaves,
+//    focusB the reverse, both in canonical (family) order; a leaf where levels MATCH
+//    (both primary or both secondary) appears in NEITHER. Deterministic.
