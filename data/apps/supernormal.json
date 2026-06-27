@@ -52,22 +52,28 @@
   ],
   "capabilities": [
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "secondary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

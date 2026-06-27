@@ -60,19 +60,24 @@
   ],
   "capabilities": [
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "text-classification"
+      "id": "text-classification",
+      "level": "secondary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "secondary"
     }
   ]
 }

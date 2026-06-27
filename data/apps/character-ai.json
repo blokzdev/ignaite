@@ -52,16 +52,20 @@
   "alternatives": ["replika", "kindroid", "nomi", "sillytavern"],
   "capabilities": [
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "primary"
     },
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     }
   ]
 }

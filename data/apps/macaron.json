@@ -36,16 +36,20 @@
   "alternatives": ["pi", "manus"],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "secondary"
     },
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "secondary"
     }
   ]
 }

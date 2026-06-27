@@ -53,10 +53,12 @@
   "alternatives": ["openpipe", "modal", "runpod"],
   "capabilities": [
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "secondary"
     }
   ]
 }

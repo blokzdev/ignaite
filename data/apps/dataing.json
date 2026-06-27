@@ -31,10 +31,12 @@
   "alternatives": ["pi", "replika", "kindroid"],
   "capabilities": [
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "primary"
     },
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "secondary"
     }
   ]
 }

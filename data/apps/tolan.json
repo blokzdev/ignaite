@@ -44,7 +44,8 @@
   ],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     }
   ]
 }

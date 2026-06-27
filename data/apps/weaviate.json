@@ -49,16 +49,20 @@
   "alternatives": ["qdrant", "milvus", "pinecone", "chroma"],
   "capabilities": [
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "secondary"
     }
   ]
 }
