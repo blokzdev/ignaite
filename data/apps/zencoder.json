@@ -44,19 +44,24 @@
   "alternatives": ["cursor", "windsurf", "augment-code", "qodo"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     },
     {
-      "id": "test-generation"
+      "id": "test-generation",
+      "level": "secondary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     }
   ]
 }

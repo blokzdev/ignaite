@@ -50,13 +50,16 @@
   "alternatives": ["browser-use", "skyvern", "playwright-mcp", "steel"],
   "capabilities": [
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "primary"
     },
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

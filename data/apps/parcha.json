@@ -40,13 +40,16 @@
   "alternatives": ["basis", "concourse"],
   "capabilities": [
     {
-      "id": "regulatory-compliance"
+      "id": "regulatory-compliance",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "primary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "secondary"
     }
   ]
 }

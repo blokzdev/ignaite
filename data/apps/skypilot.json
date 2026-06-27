@@ -52,10 +52,12 @@
   ],
   "capabilities": [
     {
-      "id": "gpu-compute"
+      "id": "gpu-compute",
+      "level": "secondary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     }
   ]
 }

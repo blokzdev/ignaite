@@ -46,19 +46,24 @@
   ],
   "capabilities": [
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "secondary"
     },
     {
-      "id": "interview-assistance"
+      "id": "interview-assistance",
+      "level": "primary"
     },
     {
-      "id": "resume-screening"
+      "id": "resume-screening",
+      "level": "secondary"
     }
   ]
 }

@@ -59,10 +59,12 @@
   ],
   "capabilities": [
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "secondary"
     },
     {
-      "id": "lesson-planning"
+      "id": "lesson-planning",
+      "level": "primary"
     }
   ]
 }

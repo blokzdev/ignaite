@@ -49,19 +49,24 @@
   "alternatives": ["roboflow", "encord", "supervisely", "moondream"],
   "capabilities": [
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "primary"
     },
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "primary"
     },
     {
-      "id": "defect-detection"
+      "id": "defect-detection",
+      "level": "secondary"
     }
   ]
 }

@@ -45,13 +45,16 @@
   "alternatives": ["kling", "runway", "pika", "vidu"],
   "capabilities": [
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     }
   ]
 }

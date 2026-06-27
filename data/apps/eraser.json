@@ -58,7 +58,8 @@
   ],
   "capabilities": [
     {
-      "id": "code-documentation"
+      "id": "code-documentation",
+      "level": "primary"
     }
   ]
 }

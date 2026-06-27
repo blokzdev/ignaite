@@ -37,10 +37,12 @@
   "alternatives": ["uizard", "magic-patterns", "subframe", "v0"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     }
   ]
 }

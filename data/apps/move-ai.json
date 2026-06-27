@@ -52,7 +52,8 @@
   ],
   "capabilities": [
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "primary"
     }
   ]
 }

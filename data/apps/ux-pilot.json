@@ -37,7 +37,8 @@
   "alternatives": ["magic-patterns", "google-stitch", "subframe"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     }
   ]
 }

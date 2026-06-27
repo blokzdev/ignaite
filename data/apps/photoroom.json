@@ -55,16 +55,20 @@
   "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"],
   "capabilities": [
     {
-      "id": "background-removal"
+      "id": "background-removal",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     }
   ]
 }

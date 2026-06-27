@@ -52,10 +52,12 @@
   "alternatives": ["composio", "pipedream", "activepieces", "n8n"],
   "capabilities": [
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "primary"
     },
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "primary"
     }
   ]
 }

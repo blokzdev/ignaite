@@ -44,13 +44,16 @@
   "alternatives": ["suno", "udio", "soundraw", "mubert"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     },
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "secondary"
     },
     {
-      "id": "audio-mastering"
+      "id": "audio-mastering",
+      "level": "secondary"
     }
   ]
 }

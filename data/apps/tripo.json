@@ -41,10 +41,12 @@
   "alternatives": ["meshy", "rodin", "spline", "marble"],
   "capabilities": [
     {
-      "id": "text-to-3d"
+      "id": "text-to-3d",
+      "level": "primary"
     },
     {
-      "id": "image-to-3d"
+      "id": "image-to-3d",
+      "level": "primary"
     }
   ]
 }

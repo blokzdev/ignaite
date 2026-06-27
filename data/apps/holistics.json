@@ -46,10 +46,12 @@
   "alternatives": ["zenlytic", "wren-ai", "hex", "thoughtspot"],
   "capabilities": [
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     },
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "secondary"
     }
   ]
 }

@@ -52,10 +52,12 @@
   ],
   "capabilities": [
     {
-      "id": "seo-optimization"
+      "id": "seo-optimization",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

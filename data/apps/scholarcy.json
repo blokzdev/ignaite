@@ -41,16 +41,20 @@
   "alternatives": ["scispace", "elicit", "scite", "paperpal"],
   "capabilities": [
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     }
   ]
 }

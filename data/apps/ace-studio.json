@@ -59,16 +59,20 @@
   ],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "primary"
     },
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "secondary"
     },
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "secondary"
     }
   ]
 }

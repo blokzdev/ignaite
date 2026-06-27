@@ -54,10 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "autonomous-navigation"
+      "id": "autonomous-navigation",
+      "level": "primary"
     },
     {
-      "id": "dexterous-manipulation"
+      "id": "dexterous-manipulation",
+      "level": "primary"
     }
   ]
 }

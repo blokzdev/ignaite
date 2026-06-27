@@ -48,13 +48,16 @@
   ],
   "capabilities": [
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "primary"
     },
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "secondary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     }
   ]
 }

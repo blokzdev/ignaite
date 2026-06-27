@@ -50,16 +50,20 @@
   ],
   "capabilities": [
     {
-      "id": "robot-foundation-model"
+      "id": "robot-foundation-model",
+      "level": "primary"
     },
     {
-      "id": "dexterous-manipulation"
+      "id": "dexterous-manipulation",
+      "level": "secondary"
     },
     {
-      "id": "imitation-learning"
+      "id": "imitation-learning",
+      "level": "primary"
     },
     {
-      "id": "autonomous-navigation"
+      "id": "autonomous-navigation",
+      "level": "secondary"
     }
   ]
 }

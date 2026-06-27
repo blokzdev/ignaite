@@ -45,10 +45,12 @@
   "alternatives": ["vanna", "julius", "hex", "tellius"],
   "capabilities": [
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "primary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

@@ -49,16 +49,20 @@
   ],
   "capabilities": [
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "primary"
     }
   ]
 }

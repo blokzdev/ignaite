@@ -45,22 +45,28 @@
   "bestFor": ["Privacy-conscious users", "AI agent builders", "Indie hackers", "Knowledge workers"],
   "capabilities": [
     {
-      "id": "ambient-life-capture"
+      "id": "ambient-life-capture",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     }
   ]
 }

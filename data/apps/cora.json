@@ -40,10 +40,12 @@
   "alternatives": ["fyxer", "shortwave", "superhuman"],
   "capabilities": [
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

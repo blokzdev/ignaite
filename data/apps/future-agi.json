@@ -16,16 +16,38 @@
     "models": ["GPT-5", "Claude", "Gemini"]
   },
   "capabilities": [
-    { "id": "eval-suite" },
-    { "id": "llm-observability" },
-    { "id": "guardrails" },
-    { "id": "prompt-management" },
-    { "id": "llm-gateway" }
+    {
+      "id": "eval-suite",
+      "level": "primary"
+    },
+    {
+      "id": "llm-observability",
+      "level": "primary"
+    },
+    {
+      "id": "guardrails",
+      "level": "primary"
+    },
+    {
+      "id": "prompt-management",
+      "level": "secondary"
+    },
+    {
+      "id": "llm-gateway",
+      "level": "secondary"
+    }
   ],
   "tags": ["open-source", "evals", "observability", "guardrails", "llmops"],
   "links": [
-    { "kind": "website", "url": "https://futureagi.com", "primary": true },
-    { "kind": "github", "url": "https://github.com/future-agi/future-agi" }
+    {
+      "kind": "website",
+      "url": "https://futureagi.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/future-agi/future-agi"
+    }
   ],
   "addedAt": "2026-06-24",
   "addedSeq": 1028,

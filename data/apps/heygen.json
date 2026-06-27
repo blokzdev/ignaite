@@ -50,22 +50,28 @@
   "alternatives": ["synthesia", "hedra", "tavus", "captions"],
   "capabilities": [
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "primary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     }
   ]
 }

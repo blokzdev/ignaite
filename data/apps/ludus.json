@@ -48,19 +48,24 @@
   ],
   "capabilities": [
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "secondary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     },
     {
-      "id": "text-to-3d"
+      "id": "text-to-3d",
+      "level": "secondary"
     },
     {
-      "id": "code-documentation"
+      "id": "code-documentation",
+      "level": "secondary"
     }
   ]
 }

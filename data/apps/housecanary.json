@@ -36,13 +36,16 @@
   "alternatives": ["realie", "realestateapi", "restb-ai"],
   "capabilities": [
     {
-      "id": "property-valuation"
+      "id": "property-valuation",
+      "level": "primary"
     },
     {
-      "id": "property-data-api"
+      "id": "property-data-api",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

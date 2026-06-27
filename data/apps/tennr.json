@@ -53,13 +53,16 @@
   ],
   "capabilities": [
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "healthcare-ops"
+      "id": "healthcare-ops",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     }
   ]
 }

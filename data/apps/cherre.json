@@ -59,16 +59,20 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "primary"
     },
     {
-      "id": "property-data-api"
+      "id": "property-data-api",
+      "level": "secondary"
     }
   ]
 }

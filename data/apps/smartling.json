@@ -50,10 +50,12 @@
   "alternatives": ["smartcat", "lokalise", "deepl", "taia"],
   "capabilities": [
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "primary"
     },
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "primary"
     }
   ]
 }

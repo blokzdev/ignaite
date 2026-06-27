@@ -38,13 +38,16 @@
   "alternatives": ["consensus", "scite", "alphasense", "elicit"],
   "capabilities": [
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     },
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

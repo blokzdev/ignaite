@@ -49,16 +49,20 @@
   "alternatives": ["1x", "sanctuary-ai", "physical-intelligence", "skild-ai"],
   "capabilities": [
     {
-      "id": "vision-language-action"
+      "id": "vision-language-action",
+      "level": "primary"
     },
     {
-      "id": "robot-foundation-model"
+      "id": "robot-foundation-model",
+      "level": "primary"
     },
     {
-      "id": "dexterous-manipulation"
+      "id": "dexterous-manipulation",
+      "level": "secondary"
     },
     {
-      "id": "bipedal-locomotion"
+      "id": "bipedal-locomotion",
+      "level": "secondary"
     }
   ]
 }

@@ -45,19 +45,24 @@
   ],
   "capabilities": [
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "secondary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     }
   ]
 }

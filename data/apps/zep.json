@@ -49,10 +49,12 @@
   "alternatives": ["mem0", "letta", "cognee", "supermemory"],
   "capabilities": [
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     }
   ]
 }

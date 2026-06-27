@@ -54,16 +54,20 @@
   ],
   "capabilities": [
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     },
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "secondary"
     }
   ]
 }

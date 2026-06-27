@@ -47,16 +47,20 @@
   "alternatives": ["docling", "reducto", "llamaparse", "mindee"],
   "capabilities": [
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "primary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     },
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "secondary"
     }
   ]
 }

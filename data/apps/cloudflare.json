@@ -49,13 +49,16 @@
   "alternatives": ["vercel", "supabase", "modal", "daytona"],
   "capabilities": [
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "secondary"
     }
   ]
 }

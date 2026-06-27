@@ -40,16 +40,20 @@
   "alternatives": ["pika", "kling", "hailuo-ai", "vidu"],
   "capabilities": [
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     }
   ]
 }

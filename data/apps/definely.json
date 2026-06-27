@@ -56,16 +56,20 @@
   ],
   "capabilities": [
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "primary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "secondary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     }
   ]
 }

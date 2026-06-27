@@ -49,22 +49,28 @@
   ],
   "capabilities": [
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "primary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     },
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "secondary"
     }
   ]
 }

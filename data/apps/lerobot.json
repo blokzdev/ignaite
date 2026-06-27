@@ -65,16 +65,20 @@
   ],
   "capabilities": [
     {
-      "id": "imitation-learning"
+      "id": "imitation-learning",
+      "level": "primary"
     },
     {
-      "id": "vision-language-action"
+      "id": "vision-language-action",
+      "level": "secondary"
     },
     {
-      "id": "physics-simulation"
+      "id": "physics-simulation",
+      "level": "secondary"
     },
     {
-      "id": "sim-to-real"
+      "id": "sim-to-real",
+      "level": "secondary"
     }
   ]
 }

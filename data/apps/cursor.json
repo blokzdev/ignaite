@@ -48,19 +48,24 @@
   "featuredAt": "2026-06-21",
   "capabilities": [
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "secondary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     }
   ]
 }

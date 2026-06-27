@@ -46,22 +46,28 @@
   "alternatives": ["midjourney", "leonardo-ai", "flux", "ideogram"],
   "capabilities": [
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "primary"
     },
     {
-      "id": "image-upscaling"
+      "id": "image-upscaling",
+      "level": "secondary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     }
   ]
 }

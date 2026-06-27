@@ -44,7 +44,8 @@
   "alternatives": ["smithery", "composio", "context7", "arcade"],
   "capabilities": [
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     }
   ]
 }

@@ -38,13 +38,16 @@
   "alternatives": ["nabla", "abridge", "ada-health", "k-health"],
   "capabilities": [
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "healthcare-ops"
+      "id": "healthcare-ops",
+      "level": "secondary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     }
   ]
 }

@@ -50,16 +50,20 @@
   ],
   "capabilities": [
     {
-      "id": "property-data-api"
+      "id": "property-data-api",
+      "level": "primary"
     },
     {
-      "id": "property-valuation"
+      "id": "property-valuation",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     },
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "secondary"
     }
   ]
 }

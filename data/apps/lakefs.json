@@ -65,7 +65,8 @@
   ],
   "capabilities": [
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "primary"
     }
   ]
 }

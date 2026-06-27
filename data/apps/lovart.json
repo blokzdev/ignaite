@@ -54,19 +54,24 @@
   ],
   "capabilities": [
     {
-      "id": "graphic-design"
+      "id": "graphic-design",
+      "level": "primary"
     },
     {
-      "id": "logo-generation"
+      "id": "logo-generation",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "secondary"
     }
   ]
 }

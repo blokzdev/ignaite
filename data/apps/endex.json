@@ -58,19 +58,24 @@
   ],
   "capabilities": [
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "primary"
     },
     {
-      "id": "financial-modeling"
+      "id": "financial-modeling",
+      "level": "primary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     },
     {
-      "id": "financial-data-extraction"
+      "id": "financial-data-extraction",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "secondary"
     }
   ]
 }

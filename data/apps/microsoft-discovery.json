@@ -64,22 +64,28 @@
   ],
   "capabilities": [
     {
-      "id": "autonomous-research"
+      "id": "autonomous-research",
+      "level": "primary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "secondary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "materials-discovery"
+      "id": "materials-discovery",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

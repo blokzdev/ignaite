@@ -60,16 +60,20 @@
   ],
   "capabilities": [
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "primary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     },
     {
-      "id": "regulatory-compliance"
+      "id": "regulatory-compliance",
+      "level": "secondary"
     }
   ]
 }

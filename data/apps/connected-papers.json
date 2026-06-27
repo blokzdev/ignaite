@@ -54,10 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "primary"
     }
   ]
 }

@@ -40,22 +40,28 @@
   "alternatives": ["moondream", "roboflow", "landing-ai", "reka-vision"],
   "capabilities": [
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "secondary"
     },
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     }
   ]
 }

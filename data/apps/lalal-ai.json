@@ -55,13 +55,16 @@
   ],
   "capabilities": [
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "primary"
     },
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     }
   ]
 }

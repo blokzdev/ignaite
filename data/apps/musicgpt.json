@@ -44,13 +44,16 @@
   "alternatives": ["suno", "udio", "soundraw", "mureka"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     },
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "secondary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     }
   ]
 }

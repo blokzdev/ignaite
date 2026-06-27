@@ -57,10 +57,12 @@
   ],
   "capabilities": [
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "primary"
     },
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "secondary"
     }
   ]
 }

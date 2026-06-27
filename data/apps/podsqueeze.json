@@ -40,16 +40,20 @@
   "alternatives": ["descript", "riverside", "wondercraft", "adobe-podcast"],
   "capabilities": [
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     },
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "secondary"
     }
   ]
 }

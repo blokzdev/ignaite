@@ -50,10 +50,12 @@
   ],
   "capabilities": [
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "secondary"
     },
     {
-      "id": "case-management"
+      "id": "case-management",
+      "level": "primary"
     }
   ]
 }

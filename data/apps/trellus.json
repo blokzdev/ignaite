@@ -41,10 +41,12 @@
   "alternatives": ["nooks", "apollo", "salesloft", "outreach"],
   "capabilities": [
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

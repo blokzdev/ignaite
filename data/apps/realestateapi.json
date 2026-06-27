@@ -44,13 +44,16 @@
   ],
   "capabilities": [
     {
-      "id": "property-data-api"
+      "id": "property-data-api",
+      "level": "primary"
     },
     {
-      "id": "property-valuation"
+      "id": "property-valuation",
+      "level": "secondary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "secondary"
     }
   ]
 }

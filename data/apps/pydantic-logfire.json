@@ -49,7 +49,8 @@
   "alternatives": ["langfuse", "helicone", "langsmith", "traceloop"],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     }
   ]
 }

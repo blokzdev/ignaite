@@ -55,13 +55,16 @@
   ],
   "capabilities": [
     {
-      "id": "symptom-triage"
+      "id": "symptom-triage",
+      "level": "primary"
     },
     {
-      "id": "clinical-decision-support"
+      "id": "clinical-decision-support",
+      "level": "primary"
     },
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "secondary"
     }
   ]
 }

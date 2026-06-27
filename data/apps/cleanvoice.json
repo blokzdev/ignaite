@@ -42,16 +42,20 @@
   "alternatives": ["adobe-podcast", "auphonic", "descript", "krisp"],
   "capabilities": [
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "secondary"
     },
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

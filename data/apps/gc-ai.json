@@ -41,19 +41,24 @@
   ],
   "capabilities": [
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "primary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "primary"
     },
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

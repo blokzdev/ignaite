@@ -45,19 +45,24 @@
   "alternatives": ["docling", "unstructured", "llamaindex"],
   "capabilities": [
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     }
   ]
 }

@@ -47,16 +47,20 @@
   ],
   "capabilities": [
     {
-      "id": "financial-close"
+      "id": "financial-close",
+      "level": "primary"
     },
     {
-      "id": "bookkeeping"
+      "id": "bookkeeping",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

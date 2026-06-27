@@ -41,16 +41,20 @@
   "alternatives": ["studyfetch", "khanmigo", "photomath", "synthesis-tutor"],
   "capabilities": [
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "primary"
     },
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "secondary"
     },
     {
-      "id": "study-material-conversion"
+      "id": "study-material-conversion",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

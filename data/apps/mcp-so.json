@@ -45,7 +45,8 @@
   "alternatives": ["smithery", "glama", "context7"],
   "capabilities": [
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     }
   ]
 }

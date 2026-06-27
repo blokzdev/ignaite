@@ -41,13 +41,16 @@
   "alternatives": ["opus-clip", "captions", "heygen"],
   "capabilities": [
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "primary"
     },
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "secondary"
     }
   ]
 }

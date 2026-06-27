@@ -40,10 +40,12 @@
   "alternatives": ["thoughtspot", "hex", "julius", "akkio"],
   "capabilities": [
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     }
   ]
 }

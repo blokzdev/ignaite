@@ -48,16 +48,20 @@
   ],
   "capabilities": [
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "primary"
     },
     {
-      "id": "defect-detection"
+      "id": "defect-detection",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

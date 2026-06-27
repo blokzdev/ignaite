@@ -44,16 +44,20 @@
   "alternatives": ["crowdin", "lokalise", "smartcat", "weglot"],
   "capabilities": [
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "primary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     }
   ]
 }

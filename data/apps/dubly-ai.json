@@ -42,16 +42,20 @@
   "alternatives": ["vozo-ai", "rask-ai", "camb-ai", "lokalise"],
   "capabilities": [
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "primary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "primary"
     },
     {
-      "id": "speech-translation"
+      "id": "speech-translation",
+      "level": "secondary"
     }
   ]
 }

@@ -46,10 +46,12 @@
   "alternatives": ["skyvern", "stagehand", "browse-ai", "bardeen"],
   "capabilities": [
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

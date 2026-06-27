@@ -45,13 +45,16 @@
   ],
   "capabilities": [
     {
-      "id": "protein-design"
+      "id": "protein-design",
+      "level": "primary"
     },
     {
-      "id": "antibody-design"
+      "id": "antibody-design",
+      "level": "secondary"
     },
     {
-      "id": "molecular-design"
+      "id": "molecular-design",
+      "level": "secondary"
     }
   ]
 }

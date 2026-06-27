@@ -53,16 +53,20 @@
   ],
   "capabilities": [
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     }
   ]
 }

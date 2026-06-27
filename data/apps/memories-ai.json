@@ -45,13 +45,16 @@
   "alternatives": ["twelve-labs", "reka-vision", "coactive-ai", "mixpeek"],
   "capabilities": [
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "primary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

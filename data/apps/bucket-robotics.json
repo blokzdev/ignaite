@@ -48,13 +48,16 @@
   ],
   "capabilities": [
     {
-      "id": "defect-detection"
+      "id": "defect-detection",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "secondary"
     },
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "secondary"
     }
   ]
 }

@@ -41,19 +41,24 @@
   "alternatives": ["harvey", "legora", "ironclad", "spotdraft"],
   "capabilities": [
     {
-      "id": "case-management"
+      "id": "case-management",
+      "level": "primary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "secondary"
     },
     {
-      "id": "contract-lifecycle"
+      "id": "contract-lifecycle",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "secondary"
     }
   ]
 }

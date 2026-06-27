@@ -46,13 +46,16 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "primary"
     },
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "secondary"
     }
   ]
 }

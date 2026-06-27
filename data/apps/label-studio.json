@@ -49,13 +49,16 @@
   "alternatives": ["encord", "roboflow", "supervisely", "v7-go"],
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     }
   ]
 }

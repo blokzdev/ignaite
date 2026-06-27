@@ -48,19 +48,24 @@
   ],
   "capabilities": [
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "primary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "secondary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     },
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "secondary"
     }
   ]
 }

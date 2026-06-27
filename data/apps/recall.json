@@ -39,19 +39,24 @@
   "alternatives": ["glasp", "supermemory", "monica"],
   "capabilities": [
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     },
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "secondary"
     },
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "secondary"
     }
   ]
 }

@@ -37,10 +37,12 @@
   "alternatives": ["ada-health", "wysa"],
   "capabilities": [
     {
-      "id": "symptom-triage"
+      "id": "symptom-triage",
+      "level": "primary"
     },
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "secondary"
     }
   ]
 }

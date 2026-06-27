@@ -43,16 +43,20 @@
   "bestFor": ["Podcast listeners", "Lifelong learners", "Researchers", "Students"],
   "capabilities": [
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "secondary"
     }
   ]
 }

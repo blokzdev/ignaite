@@ -53,22 +53,28 @@
   ],
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "primary"
     },
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "primary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     },
     {
-      "id": "defect-detection"
+      "id": "defect-detection",
+      "level": "secondary"
     }
   ]
 }

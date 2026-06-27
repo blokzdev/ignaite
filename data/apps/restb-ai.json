@@ -36,13 +36,16 @@
   "alternatives": ["housecanary", "realie", "realestateapi"],
   "capabilities": [
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "primary"
     },
     {
-      "id": "property-data-api"
+      "id": "property-data-api",
+      "level": "secondary"
     }
   ]
 }

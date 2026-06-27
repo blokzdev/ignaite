@@ -44,10 +44,12 @@
   "alternatives": ["e2b", "modal", "browserbase", "beam"],
   "capabilities": [
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "primary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     }
   ]
 }

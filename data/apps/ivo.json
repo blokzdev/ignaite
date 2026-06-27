@@ -40,16 +40,20 @@
   ],
   "capabilities": [
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "primary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "secondary"
     }
   ]
 }

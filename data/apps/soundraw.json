@@ -40,7 +40,8 @@
   "alternatives": ["suno", "beatoven", "aiva", "mureka"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     }
   ]
 }

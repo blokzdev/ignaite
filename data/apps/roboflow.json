@@ -53,19 +53,24 @@
   "alternatives": ["landing-ai", "encord", "ultralytics", "supervisely"],
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "secondary"
     },
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     }
   ]
 }

@@ -49,13 +49,16 @@
   "alternatives": ["langfuse", "promptfoo", "braintrust", "athina"],
   "capabilities": [
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "secondary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     }
   ]
 }

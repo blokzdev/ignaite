@@ -46,16 +46,20 @@
   "alternatives": ["duolingo", "speak"],
   "capabilities": [
     {
-      "id": "language-practice"
+      "id": "language-practice",
+      "level": "primary"
     },
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     }
   ]
 }

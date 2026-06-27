@@ -52,22 +52,28 @@
   ],
   "capabilities": [
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "primary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     },
     {
-      "id": "image-upscaling"
+      "id": "image-upscaling",
+      "level": "secondary"
     },
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "secondary"
     }
   ]
 }

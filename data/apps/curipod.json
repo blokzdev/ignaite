@@ -56,10 +56,12 @@
   ],
   "capabilities": [
     {
-      "id": "lesson-planning"
+      "id": "lesson-planning",
+      "level": "primary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     }
   ]
 }

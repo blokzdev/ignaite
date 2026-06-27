@@ -56,7 +56,8 @@
   ],
   "capabilities": [
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     }
   ]
 }

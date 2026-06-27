@@ -41,16 +41,20 @@
   "alternatives": ["wordly", "notta", "deepl", "otter-ai"],
   "capabilities": [
     {
-      "id": "speech-translation"
+      "id": "speech-translation",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     }
   ]
 }

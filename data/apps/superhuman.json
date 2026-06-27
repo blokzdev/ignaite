@@ -49,13 +49,16 @@
   ],
   "capabilities": [
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     }
   ]
 }

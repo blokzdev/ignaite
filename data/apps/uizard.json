@@ -45,7 +45,8 @@
   "alternatives": ["figma-ai", "v0"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     }
   ]
 }

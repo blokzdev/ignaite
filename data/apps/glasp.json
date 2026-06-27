@@ -44,16 +44,20 @@
   "alternatives": ["liner", "harpa-ai", "sider"],
   "capabilities": [
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     }
   ]
 }

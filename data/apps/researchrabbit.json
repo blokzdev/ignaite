@@ -61,10 +61,12 @@
   ],
   "capabilities": [
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "primary"
     },
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "secondary"
     }
   ]
 }

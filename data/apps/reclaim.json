@@ -52,10 +52,12 @@
   ],
   "capabilities": [
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "primary"
     },
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "secondary"
     }
   ]
 }

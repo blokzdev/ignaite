@@ -48,13 +48,16 @@
   ],
   "capabilities": [
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "primary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     },
     {
-      "id": "regulatory-compliance"
+      "id": "regulatory-compliance",
+      "level": "secondary"
     }
   ]
 }

@@ -57,7 +57,8 @@
   ],
   "capabilities": [
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     }
   ]
 }

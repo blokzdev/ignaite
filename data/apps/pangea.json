@@ -48,10 +48,12 @@
   "alternatives": ["lakera", "prompt-security", "lasso-security", "protect-ai"],
   "capabilities": [
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "content-moderation"
+      "id": "content-moderation",
+      "level": "secondary"
     }
   ]
 }

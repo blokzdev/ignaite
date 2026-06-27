@@ -54,16 +54,20 @@
   ],
   "capabilities": [
     {
-      "id": "expense-management"
+      "id": "expense-management",
+      "level": "primary"
     },
     {
-      "id": "bookkeeping"
+      "id": "bookkeeping",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

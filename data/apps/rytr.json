@@ -44,16 +44,20 @@
   "alternatives": ["quillbot", "wordtune", "grammarly"],
   "capabilities": [
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "secondary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     },
     {
-      "id": "seo-optimization"
+      "id": "seo-optimization",
+      "level": "secondary"
     }
   ]
 }

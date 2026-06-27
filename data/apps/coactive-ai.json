@@ -42,19 +42,24 @@
   "alternatives": ["twelve-labs", "voxel51", "roboflow", "landing-ai"],
   "capabilities": [
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "primary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "secondary"
     },
     {
-      "id": "content-moderation"
+      "id": "content-moderation",
+      "level": "secondary"
     },
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "secondary"
     }
   ]
 }

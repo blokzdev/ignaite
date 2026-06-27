@@ -61,13 +61,16 @@
   ],
   "capabilities": [
     {
-      "id": "drug-target-discovery"
+      "id": "drug-target-discovery",
+      "level": "primary"
     },
     {
-      "id": "molecular-design"
+      "id": "molecular-design",
+      "level": "secondary"
     },
     {
-      "id": "protein-design"
+      "id": "protein-design",
+      "level": "secondary"
     }
   ]
 }

@@ -44,16 +44,20 @@
   ],
   "capabilities": [
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "primary"
     },
     {
-      "id": "dictation"
+      "id": "dictation",
+      "level": "primary"
     },
     {
-      "id": "medical-coding"
+      "id": "medical-coding",
+      "level": "secondary"
     },
     {
-      "id": "clinical-decision-support"
+      "id": "clinical-decision-support",
+      "level": "secondary"
     }
   ]
 }

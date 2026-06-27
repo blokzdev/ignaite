@@ -52,19 +52,24 @@
   ],
   "capabilities": [
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "candidate-sourcing"
+      "id": "candidate-sourcing",
+      "level": "primary"
     },
     {
-      "id": "resume-screening"
+      "id": "resume-screening",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

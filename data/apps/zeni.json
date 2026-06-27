@@ -48,19 +48,24 @@
   ],
   "capabilities": [
     {
-      "id": "bookkeeping"
+      "id": "bookkeeping",
+      "level": "primary"
     },
     {
-      "id": "expense-management"
+      "id": "expense-management",
+      "level": "primary"
     },
     {
-      "id": "tax-preparation"
+      "id": "tax-preparation",
+      "level": "secondary"
     },
     {
-      "id": "financial-modeling"
+      "id": "financial-modeling",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

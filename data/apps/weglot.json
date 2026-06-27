@@ -61,13 +61,16 @@
   ],
   "capabilities": [
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "primary"
     },
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "primary"
     },
     {
-      "id": "seo-optimization"
+      "id": "seo-optimization",
+      "level": "secondary"
     }
   ]
 }

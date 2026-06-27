@@ -48,7 +48,8 @@
   "alternatives": ["mcp-supabase", "composio", "smithery"],
   "capabilities": [
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     }
   ]
 }

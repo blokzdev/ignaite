@@ -54,10 +54,12 @@
   "accentColor": "#7C3AED",
   "capabilities": [
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "primary"
     },
     {
-      "id": "audio-mastering"
+      "id": "audio-mastering",
+      "level": "secondary"
     }
   ]
 }

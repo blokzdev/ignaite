@@ -52,10 +52,12 @@
   "accentColor": "#6366F1",
   "capabilities": [
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "primary"
     },
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "secondary"
     }
   ]
 }

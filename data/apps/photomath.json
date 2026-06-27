@@ -41,13 +41,16 @@
   "alternatives": ["quizlet", "khanmigo", "studyfetch"],
   "capabilities": [
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "primary"
     },
     {
-      "id": "homework-solving"
+      "id": "homework-solving",
+      "level": "primary"
     },
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "secondary"
     }
   ]
 }

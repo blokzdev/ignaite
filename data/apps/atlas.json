@@ -55,13 +55,16 @@
   ],
   "capabilities": [
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "text-to-3d"
+      "id": "text-to-3d",
+      "level": "secondary"
     },
     {
-      "id": "image-to-3d"
+      "id": "image-to-3d",
+      "level": "secondary"
     }
   ]
 }

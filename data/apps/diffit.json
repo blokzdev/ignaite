@@ -54,13 +54,16 @@
   ],
   "capabilities": [
     {
-      "id": "study-material-conversion"
+      "id": "study-material-conversion",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

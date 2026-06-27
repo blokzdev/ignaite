@@ -52,10 +52,12 @@
   ],
   "capabilities": [
     {
-      "id": "image-upscaling"
+      "id": "image-upscaling",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "secondary"
     }
   ]
 }

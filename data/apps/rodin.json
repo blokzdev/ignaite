@@ -37,10 +37,12 @@
   "alternatives": ["meshy", "tripo", "marble"],
   "capabilities": [
     {
-      "id": "image-to-3d"
+      "id": "image-to-3d",
+      "level": "primary"
     },
     {
-      "id": "text-to-3d"
+      "id": "text-to-3d",
+      "level": "primary"
     }
   ]
 }

@@ -38,19 +38,24 @@
   "alternatives": ["parcha"],
   "capabilities": [
     {
-      "id": "fraud-detection"
+      "id": "fraud-detection",
+      "level": "primary"
     },
     {
-      "id": "regulatory-compliance"
+      "id": "regulatory-compliance",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     }
   ]
 }

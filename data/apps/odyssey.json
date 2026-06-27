@@ -54,13 +54,16 @@
   ],
   "capabilities": [
     {
-      "id": "world-model"
+      "id": "world-model",
+      "level": "primary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     }
   ]
 }

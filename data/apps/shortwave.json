@@ -63,16 +63,20 @@
   ],
   "capabilities": [
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     },
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "secondary"
     }
   ]
 }

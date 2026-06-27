@@ -52,13 +52,16 @@
   "alternatives": ["langfuse", "arize-phoenix", "deepeval", "giskard"],
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     }
   ]
 }

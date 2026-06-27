@@ -62,7 +62,8 @@
   ],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     }
   ]
 }

@@ -42,13 +42,16 @@
   "alternatives": ["descript", "krisp", "wondercraft"],
   "capabilities": [
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "secondary"
     },
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     }
   ]
 }

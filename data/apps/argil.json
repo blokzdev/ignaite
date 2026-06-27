@@ -37,19 +37,24 @@
   "alternatives": ["heygen", "synthesia", "creatify", "captions"],
   "capabilities": [
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     }
   ]
 }

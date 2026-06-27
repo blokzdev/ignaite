@@ -44,13 +44,16 @@
   "alternatives": ["lakera", "prompt-security", "protect-ai", "pangea"],
   "capabilities": [
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     }
   ]
 }

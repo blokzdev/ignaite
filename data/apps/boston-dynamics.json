@@ -48,13 +48,16 @@
   ],
   "capabilities": [
     {
-      "id": "bipedal-locomotion"
+      "id": "bipedal-locomotion",
+      "level": "primary"
     },
     {
-      "id": "dexterous-manipulation"
+      "id": "dexterous-manipulation",
+      "level": "secondary"
     },
     {
-      "id": "autonomous-navigation"
+      "id": "autonomous-navigation",
+      "level": "primary"
     }
   ]
 }

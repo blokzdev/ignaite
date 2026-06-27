@@ -49,13 +49,16 @@
   ],
   "capabilities": [
     {
-      "id": "virtual-staging"
+      "id": "virtual-staging",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "secondary"
     },
     {
-      "id": "image-upscaling"
+      "id": "image-upscaling",
+      "level": "secondary"
     }
   ]
 }

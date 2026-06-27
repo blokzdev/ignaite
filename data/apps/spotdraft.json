@@ -54,16 +54,20 @@
   ],
   "capabilities": [
     {
-      "id": "contract-lifecycle"
+      "id": "contract-lifecycle",
+      "level": "primary"
     },
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "secondary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     }
   ]
 }

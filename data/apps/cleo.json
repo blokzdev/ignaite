@@ -48,13 +48,16 @@
   ],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     },
     {
-      "id": "text-classification"
+      "id": "text-classification",
+      "level": "secondary"
     }
   ]
 }

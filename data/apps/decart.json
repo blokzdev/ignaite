@@ -41,10 +41,12 @@
   ],
   "capabilities": [
     {
-      "id": "world-model"
+      "id": "world-model",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "secondary"
     }
   ]
 }

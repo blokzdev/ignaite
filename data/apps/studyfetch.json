@@ -40,19 +40,24 @@
   "alternatives": ["quizlet", "khanmigo", "magicschool-ai", "notebooklm"],
   "capabilities": [
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "primary"
     },
     {
-      "id": "study-material-conversion"
+      "id": "study-material-conversion",
+      "level": "primary"
     },
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

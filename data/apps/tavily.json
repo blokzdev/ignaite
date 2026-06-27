@@ -48,10 +48,12 @@
   "alternatives": ["exa", "linkup", "brave-search-api", "jina-ai"],
   "capabilities": [
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "primary"
     }
   ]
 }

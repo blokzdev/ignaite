@@ -45,7 +45,8 @@
   ],
   "capabilities": [
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "primary"
     }
   ]
 }

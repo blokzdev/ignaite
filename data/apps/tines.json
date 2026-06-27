@@ -44,7 +44,8 @@
   "alternatives": ["zapier", "make", "n8n", "skyvern"],
   "capabilities": [
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     }
   ]
 }

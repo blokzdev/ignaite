@@ -40,10 +40,12 @@
   "alternatives": ["suno", "udio", "mureka", "sonauto"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     },
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "secondary"
     }
   ]
 }

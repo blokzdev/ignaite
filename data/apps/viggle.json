@@ -40,13 +40,16 @@
   "alternatives": ["runway", "pika", "kling", "hedra"],
   "capabilities": [
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "primary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     }
   ]
 }

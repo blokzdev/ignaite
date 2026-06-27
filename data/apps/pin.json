@@ -54,19 +54,24 @@
   ],
   "capabilities": [
     {
-      "id": "candidate-sourcing"
+      "id": "candidate-sourcing",
+      "level": "primary"
     },
     {
-      "id": "resume-screening"
+      "id": "resume-screening",
+      "level": "primary"
     },
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "primary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     }
   ]
 }
