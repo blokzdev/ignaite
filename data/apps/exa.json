@@ -48,16 +48,20 @@
   "alternatives": ["tavily", "brave-search-api", "linkup", "perplexity"],
   "capabilities": [
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     },
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

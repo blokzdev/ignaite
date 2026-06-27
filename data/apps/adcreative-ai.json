@@ -40,19 +40,24 @@
   "alternatives": ["airops", "canva", "photoroom"],
   "capabilities": [
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "secondary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     },
     {
-      "id": "background-removal"
+      "id": "background-removal",
+      "level": "secondary"
     },
     {
-      "id": "image-upscaling"
+      "id": "image-upscaling",
+      "level": "secondary"
     }
   ]
 }

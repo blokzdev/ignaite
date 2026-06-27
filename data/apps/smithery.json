@@ -47,10 +47,12 @@
   "alternatives": ["glama", "composio", "fastmcp", "arcade"],
   "capabilities": [
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     }
   ]
 }

@@ -52,19 +52,24 @@
   "accentColor": "#34D399",
   "capabilities": [
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "primary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "secondary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     }
   ]
 }

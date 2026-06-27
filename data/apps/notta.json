@@ -49,19 +49,24 @@
   ],
   "capabilities": [
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "secondary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     }
   ]
 }

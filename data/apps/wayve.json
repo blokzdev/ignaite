@@ -54,16 +54,20 @@
   ],
   "capabilities": [
     {
-      "id": "autonomous-navigation"
+      "id": "autonomous-navigation",
+      "level": "primary"
     },
     {
-      "id": "world-model"
+      "id": "world-model",
+      "level": "secondary"
     },
     {
-      "id": "vision-language-action"
+      "id": "vision-language-action",
+      "level": "secondary"
     },
     {
-      "id": "robot-foundation-model"
+      "id": "robot-foundation-model",
+      "level": "primary"
     }
   ]
 }

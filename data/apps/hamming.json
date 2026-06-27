@@ -42,16 +42,20 @@
   "alternatives": ["coval", "maxim-ai", "langwatch", "confident-ai"],
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "secondary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     }
   ]
 }

@@ -55,22 +55,28 @@
   "alternatives": ["langgraph", "langchain", "crewai", "vercel-ai-sdk"],
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     }
   ]
 }

@@ -56,19 +56,24 @@
   ],
   "capabilities": [
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

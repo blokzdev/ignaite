@@ -60,10 +60,12 @@
   ],
   "capabilities": [
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     }
   ]
 }

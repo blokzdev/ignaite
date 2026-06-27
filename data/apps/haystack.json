@@ -49,19 +49,24 @@
   "alternatives": ["langchain", "llamaindex", "langgraph", "crewai"],
   "capabilities": [
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     }
   ]
 }

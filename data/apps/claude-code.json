@@ -51,22 +51,28 @@
   "alternatives": ["openai-codex", "gemini-cli", "cursor", "aider"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "primary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     },
     {
-      "id": "test-generation"
+      "id": "test-generation",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

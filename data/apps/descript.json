@@ -51,22 +51,28 @@
   "alternatives": ["adobe-podcast", "captions", "opus-clip", "wondercraft"],
   "capabilities": [
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "secondary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     }
   ]
 }

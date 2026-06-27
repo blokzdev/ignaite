@@ -44,19 +44,24 @@
   "lastVerifiedAt": "2026-06-20",
   "capabilities": [
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "primary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

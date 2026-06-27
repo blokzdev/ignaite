@@ -40,10 +40,12 @@
   "alternatives": ["mcp-so", "glama", "smithery"],
   "capabilities": [
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

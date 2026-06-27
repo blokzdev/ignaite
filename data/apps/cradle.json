@@ -45,10 +45,12 @@
   ],
   "capabilities": [
     {
-      "id": "protein-design"
+      "id": "protein-design",
+      "level": "primary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     }
   ]
 }

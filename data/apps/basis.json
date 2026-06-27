@@ -48,10 +48,12 @@
   ],
   "capabilities": [
     {
-      "id": "tax-preparation"
+      "id": "tax-preparation",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

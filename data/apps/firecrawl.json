@@ -64,13 +64,16 @@
   ],
   "capabilities": [
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     }
   ]
 }

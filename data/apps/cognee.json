@@ -49,19 +49,24 @@
   "alternatives": ["mem0", "zep", "graphlit", "letta"],
   "capabilities": [
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     }
   ]
 }

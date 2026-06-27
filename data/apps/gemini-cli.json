@@ -48,22 +48,28 @@
   "alternatives": ["claude-code", "openai-codex", "aider", "qodo"],
   "capabilities": [
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "primary"
     },
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "secondary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "secondary"
     }
   ]
 }

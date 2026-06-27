@@ -45,13 +45,16 @@
   "alternatives": ["heygen", "tavus", "synthesia", "captions"],
   "capabilities": [
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "primary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     }
   ]
 }

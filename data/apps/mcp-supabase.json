@@ -45,10 +45,12 @@
   "alternatives": ["mcp-github", "mcp-vercel", "composio", "smithery"],
   "capabilities": [
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

@@ -48,16 +48,20 @@
   ],
   "capabilities": [
     {
-      "id": "financial-research"
+      "id": "financial-research",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     }
   ]
 }

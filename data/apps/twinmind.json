@@ -56,22 +56,28 @@
   ],
   "capabilities": [
     {
-      "id": "ambient-life-capture"
+      "id": "ambient-life-capture",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     },
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "secondary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     }
   ]
 }

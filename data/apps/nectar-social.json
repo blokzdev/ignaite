@@ -43,13 +43,16 @@
   ],
   "capabilities": [
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "secondary"
     },
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     }
   ]
 }

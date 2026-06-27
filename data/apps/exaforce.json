@@ -54,13 +54,16 @@
   ],
   "capabilities": [
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "secondary"
     }
   ]
 }

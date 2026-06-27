@@ -51,16 +51,20 @@
   "alternatives": ["langfuse", "langsmith", "helicone", "arize-phoenix"],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "secondary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "secondary"
     }
   ]
 }

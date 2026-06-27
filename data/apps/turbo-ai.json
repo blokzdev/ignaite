@@ -44,22 +44,28 @@
   ],
   "capabilities": [
     {
-      "id": "study-material-conversion"
+      "id": "study-material-conversion",
+      "level": "primary"
     },
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "secondary"
     },
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

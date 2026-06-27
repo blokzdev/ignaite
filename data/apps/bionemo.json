@@ -51,19 +51,24 @@
   "alternatives": ["isomorphic-labs", "evolutionaryscale", "chai-discovery", "recursion"],
   "capabilities": [
     {
-      "id": "protein-structure-prediction"
+      "id": "protein-structure-prediction",
+      "level": "primary"
     },
     {
-      "id": "protein-design"
+      "id": "protein-design",
+      "level": "primary"
     },
     {
-      "id": "molecular-design"
+      "id": "molecular-design",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "secondary"
     }
   ]
 }

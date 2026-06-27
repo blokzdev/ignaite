@@ -55,10 +55,12 @@
   ],
   "capabilities": [
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "interview-assistance"
+      "id": "interview-assistance",
+      "level": "secondary"
     }
   ]
 }

@@ -50,7 +50,8 @@
   ],
   "capabilities": [
     {
-      "id": "imitation-learning"
+      "id": "imitation-learning",
+      "level": "primary"
     }
   ]
 }

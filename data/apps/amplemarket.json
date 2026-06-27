@@ -45,13 +45,16 @@
   ],
   "capabilities": [
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "primary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "primary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     }
   ]
 }

@@ -59,19 +59,24 @@
   ],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     }
   ]
 }

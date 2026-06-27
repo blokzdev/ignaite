@@ -44,16 +44,20 @@
   ],
   "capabilities": [
     {
-      "id": "interview-assistance"
+      "id": "interview-assistance",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     },
     {
-      "id": "resume-screening"
+      "id": "resume-screening",
+      "level": "primary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     }
   ]
 }

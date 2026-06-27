@@ -44,10 +44,12 @@
   "alternatives": ["databricks-genie", "hex", "julius", "akkio"],
   "capabilities": [
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     },
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "primary"
     }
   ]
 }

@@ -49,19 +49,24 @@
   ],
   "capabilities": [
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     },
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     }
   ]
 }

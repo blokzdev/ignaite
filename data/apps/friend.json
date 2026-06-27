@@ -59,10 +59,12 @@
   ],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     },
     {
-      "id": "ambient-life-capture"
+      "id": "ambient-life-capture",
+      "level": "primary"
     }
   ]
 }

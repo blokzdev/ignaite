@@ -49,22 +49,28 @@
   "alternatives": ["supermemory", "cognee", "mem0", "zep"],
   "capabilities": [
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

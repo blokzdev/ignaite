@@ -64,13 +64,16 @@
   ],
   "capabilities": [
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

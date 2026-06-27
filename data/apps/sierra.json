@@ -61,16 +61,20 @@
   ],
   "capabilities": [
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     }
   ]
 }

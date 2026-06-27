@@ -60,13 +60,16 @@
   ],
   "capabilities": [
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

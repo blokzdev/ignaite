@@ -41,13 +41,16 @@
   "lastVerifiedAt": "2026-06-09",
   "capabilities": [
     {
-      "id": "lesson-planning"
+      "id": "lesson-planning",
+      "level": "primary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     }
   ]
 }

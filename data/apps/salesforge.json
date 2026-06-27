@@ -46,16 +46,20 @@
   "alternatives": ["artisan", "11x", "amplemarket", "clay"],
   "capabilities": [
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "primary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "secondary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     }
   ]
 }

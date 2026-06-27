@@ -51,13 +51,16 @@
   ],
   "capabilities": [
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     }
   ]
 }

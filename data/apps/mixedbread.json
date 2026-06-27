@@ -49,22 +49,28 @@
   "alternatives": ["exa", "jina-ai", "tavily", "weaviate"],
   "capabilities": [
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

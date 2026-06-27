@@ -54,19 +54,24 @@
   ],
   "capabilities": [
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "study-material-conversion"
+      "id": "study-material-conversion",
+      "level": "primary"
     }
   ]
 }

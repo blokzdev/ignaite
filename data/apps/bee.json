@@ -56,22 +56,28 @@
   ],
   "capabilities": [
     {
-      "id": "ambient-life-capture"
+      "id": "ambient-life-capture",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "secondary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     }
   ]
 }

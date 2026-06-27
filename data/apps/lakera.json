@@ -55,16 +55,20 @@
   "alternatives": ["prompt-security", "protect-ai", "pangea", "hiddenlayer"],
   "capabilities": [
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "primary"
     },
     {
-      "id": "content-moderation"
+      "id": "content-moderation",
+      "level": "secondary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     }
   ]
 }

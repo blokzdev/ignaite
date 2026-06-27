@@ -49,22 +49,28 @@
   "alternatives": ["crewai", "langgraph", "pydantic-ai", "mastra"],
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     }
   ]
 }

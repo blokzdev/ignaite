@@ -35,19 +35,24 @@
   "alternatives": ["cocounsel", "harvey", "legalon", "legora"],
   "capabilities": [
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "primary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     }
   ]
 }

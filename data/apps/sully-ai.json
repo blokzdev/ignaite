@@ -39,19 +39,24 @@
   "alternatives": ["abridge", "ambience-healthcare", "nabla", "suki"],
   "capabilities": [
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "primary"
     },
     {
-      "id": "medical-coding"
+      "id": "medical-coding",
+      "level": "primary"
     },
     {
-      "id": "healthcare-ops"
+      "id": "healthcare-ops",
+      "level": "secondary"
     },
     {
-      "id": "symptom-triage"
+      "id": "symptom-triage",
+      "level": "secondary"
     },
     {
-      "id": "clinical-decision-support"
+      "id": "clinical-decision-support",
+      "level": "secondary"
     }
   ]
 }

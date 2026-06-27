@@ -59,22 +59,28 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     },
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

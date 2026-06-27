@@ -47,13 +47,16 @@
   "alternatives": ["lancedb", "weaviate", "milvus", "qdrant"],
   "capabilities": [
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     }
   ]
 }

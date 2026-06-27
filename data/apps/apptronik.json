@@ -44,10 +44,12 @@
   ],
   "capabilities": [
     {
-      "id": "dexterous-manipulation"
+      "id": "dexterous-manipulation",
+      "level": "primary"
     },
     {
-      "id": "bipedal-locomotion"
+      "id": "bipedal-locomotion",
+      "level": "primary"
     }
   ]
 }

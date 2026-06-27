@@ -48,22 +48,28 @@
   ],
   "capabilities": [
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "primary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "secondary"
     }
   ]
 }

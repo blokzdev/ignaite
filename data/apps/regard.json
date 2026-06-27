@@ -36,10 +36,12 @@
   "alternatives": ["navina", "abridge", "openevidence", "nabla"],
   "capabilities": [
     {
-      "id": "clinical-decision-support"
+      "id": "clinical-decision-support",
+      "level": "primary"
     },
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "secondary"
     }
   ]
 }

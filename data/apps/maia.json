@@ -39,10 +39,12 @@
   "bestFor": ["Enterprise data teams", "DataOps engineers"],
   "capabilities": [
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "primary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     }
   ]
 }

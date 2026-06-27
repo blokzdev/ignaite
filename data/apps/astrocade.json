@@ -51,16 +51,20 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "secondary"
     },
     {
-      "id": "sound-effects"
+      "id": "sound-effects",
+      "level": "secondary"
     }
   ]
 }

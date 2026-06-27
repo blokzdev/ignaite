@@ -60,22 +60,28 @@
   ],
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

@@ -53,19 +53,24 @@
   ],
   "capabilities": [
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "secondary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     }
   ]
 }

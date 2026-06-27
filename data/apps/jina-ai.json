@@ -54,16 +54,20 @@
   ],
   "capabilities": [
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "primary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "primary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     }
   ]
 }

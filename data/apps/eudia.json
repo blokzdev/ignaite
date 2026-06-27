@@ -52,13 +52,16 @@
   ],
   "capabilities": [
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "secondary"
     },
     {
-      "id": "regulatory-compliance"
+      "id": "regulatory-compliance",
+      "level": "secondary"
     },
     {
-      "id": "knowledge-base-authoring"
+      "id": "knowledge-base-authoring",
+      "level": "primary"
     }
   ]
 }

@@ -49,10 +49,12 @@
   ],
   "capabilities": [
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     }
   ]
 }

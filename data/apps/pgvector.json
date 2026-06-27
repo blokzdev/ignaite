@@ -53,7 +53,8 @@
   ],
   "capabilities": [
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     }
   ]
 }

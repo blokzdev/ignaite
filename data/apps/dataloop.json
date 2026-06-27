@@ -40,19 +40,24 @@
   "alternatives": ["encord", "label-studio", "roboflow", "supervisely"],
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     },
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

@@ -46,22 +46,28 @@
   "alternatives": ["composio", "arcade", "smithery"],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "secondary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     }
   ]
 }

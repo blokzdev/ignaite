@@ -15,13 +15,16 @@
   },
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     }
   ],
   "tags": ["data-labeling", "annotation", "rlhf", "evals", "data-quality"],

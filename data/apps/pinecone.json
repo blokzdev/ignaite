@@ -53,16 +53,20 @@
   ],
   "capabilities": [
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     }
   ]
 }

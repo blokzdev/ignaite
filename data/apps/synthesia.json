@@ -45,22 +45,28 @@
   "alternatives": ["heygen", "tavus", "hedra", "captions"],
   "capabilities": [
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "primary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "primary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     },
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "secondary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     }
   ]
 }

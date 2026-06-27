@@ -48,13 +48,16 @@
   ],
   "capabilities": [
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     }
   ]
 }

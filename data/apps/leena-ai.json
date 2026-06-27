@@ -47,16 +47,20 @@
   ],
   "capabilities": [
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

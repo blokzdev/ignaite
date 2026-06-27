@@ -41,16 +41,20 @@
   "alternatives": ["opus-clip", "submagic", "captions", "descript"],
   "capabilities": [
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     }
   ]
 }

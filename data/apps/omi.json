@@ -56,16 +56,20 @@
   ],
   "capabilities": [
     {
-      "id": "ambient-life-capture"
+      "id": "ambient-life-capture",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "secondary"
     },
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "secondary"
     }
   ]
 }

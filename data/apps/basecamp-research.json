@@ -51,7 +51,8 @@
   ],
   "capabilities": [
     {
-      "id": "protein-design"
+      "id": "protein-design",
+      "level": "primary"
     }
   ]
 }

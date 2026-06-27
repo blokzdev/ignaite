@@ -57,10 +57,12 @@
   ],
   "capabilities": [
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "gpu-compute"
+      "id": "gpu-compute",
+      "level": "secondary"
     }
   ]
 }

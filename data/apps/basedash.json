@@ -45,10 +45,12 @@
   "alternatives": ["hex", "julius", "powerdrill", "databricks-genie"],
   "capabilities": [
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     }
   ]
 }

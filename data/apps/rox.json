@@ -46,19 +46,24 @@
   ],
   "capabilities": [
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "primary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "primary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "secondary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     },
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "secondary"
     }
   ]
 }

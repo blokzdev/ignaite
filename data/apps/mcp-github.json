@@ -45,16 +45,20 @@
   "alternatives": ["composio", "smithery", "playwright-mcp", "mcp-supabase"],
   "capabilities": [
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

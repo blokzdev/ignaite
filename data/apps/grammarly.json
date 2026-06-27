@@ -45,13 +45,16 @@
   "alternatives": ["prowritingaid", "wordtune", "quillbot", "lex"],
   "capabilities": [
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     }
   ]
 }

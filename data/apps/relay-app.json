@@ -45,16 +45,20 @@
   "alternatives": ["zapier", "make", "gumloop", "lindy"],
   "capabilities": [
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     },
     {
-      "id": "text-classification"
+      "id": "text-classification",
+      "level": "secondary"
     },
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "secondary"
     }
   ]
 }

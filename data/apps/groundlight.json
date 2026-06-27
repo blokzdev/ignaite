@@ -59,16 +59,20 @@
   ],
   "capabilities": [
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "primary"
     },
     {
-      "id": "defect-detection"
+      "id": "defect-detection",
+      "level": "primary"
     },
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "secondary"
     }
   ]
 }

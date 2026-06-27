@@ -49,19 +49,24 @@
   ],
   "capabilities": [
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     }
   ]
 }

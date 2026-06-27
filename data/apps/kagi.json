@@ -51,16 +51,20 @@
   "alternatives": ["perplexity", "you-com", "felo"],
   "capabilities": [
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     }
   ]
 }

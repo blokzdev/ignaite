@@ -49,10 +49,12 @@
   ],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     }
   ]
 }

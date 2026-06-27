@@ -46,10 +46,12 @@
   "alternatives": ["braintrust", "langsmith", "athina", "patronus-ai"],
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     }
   ]
 }

@@ -43,19 +43,24 @@
   "alternatives": ["sora", "kling", "runway", "higgsfield"],
   "capabilities": [
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "secondary"
     },
     {
-      "id": "image-upscaling"
+      "id": "image-upscaling",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     }
   ]
 }

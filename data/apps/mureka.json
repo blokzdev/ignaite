@@ -47,10 +47,12 @@
   "alternatives": ["suno", "udio", "soundraw", "riffusion"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     }
   ]
 }

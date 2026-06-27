@@ -52,22 +52,28 @@
   ],
   "capabilities": [
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

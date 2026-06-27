@@ -45,16 +45,20 @@
   ],
   "capabilities": [
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "primary"
     },
     {
-      "id": "case-management"
+      "id": "case-management",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     }
   ]
 }

@@ -52,13 +52,16 @@
   ],
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     }
   ]
 }

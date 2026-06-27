@@ -44,13 +44,16 @@
   "alternatives": ["magicschool-ai", "kuraplan", "khanmigo", "studyfetch"],
   "capabilities": [
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "primary"
     },
     {
-      "id": "lesson-planning"
+      "id": "lesson-planning",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     }
   ]
 }

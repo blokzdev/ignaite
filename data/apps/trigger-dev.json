@@ -54,16 +54,20 @@
   "alternatives": ["inngest", "n8n", "zapier", "make"],
   "capabilities": [
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     }
   ]
 }

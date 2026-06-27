@@ -45,10 +45,12 @@
   "alternatives": ["mem0", "cognee", "zep", "letta"],
   "capabilities": [
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     }
   ]
 }

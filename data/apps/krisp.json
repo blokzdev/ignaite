@@ -44,19 +44,24 @@
   "alternatives": ["otter-ai", "fireflies", "tldv", "adobe-podcast"],
   "capabilities": [
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     },
     {
-      "id": "localization"
+      "id": "localization",
+      "level": "secondary"
     },
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "secondary"
     }
   ]
 }

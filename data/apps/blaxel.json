@@ -54,16 +54,20 @@
   ],
   "capabilities": [
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     },
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "secondary"
     }
   ]
 }

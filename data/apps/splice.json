@@ -54,10 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     }
   ]
 }

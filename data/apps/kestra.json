@@ -65,10 +65,12 @@
   ],
   "capabilities": [
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "secondary"
     }
   ]
 }

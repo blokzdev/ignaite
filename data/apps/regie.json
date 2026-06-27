@@ -40,13 +40,16 @@
   ],
   "capabilities": [
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "primary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "primary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     }
   ]
 }

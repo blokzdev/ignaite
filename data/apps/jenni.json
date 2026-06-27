@@ -48,22 +48,28 @@
   ],
   "capabilities": [
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "secondary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "secondary"
     }
   ]
 }

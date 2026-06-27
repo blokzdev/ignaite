@@ -49,13 +49,16 @@
   "alternatives": ["suno", "sonauto", "riffusion", "soundraw"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     },
     {
-      "id": "sound-effects"
+      "id": "sound-effects",
+      "level": "primary"
     },
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "secondary"
     }
   ]
 }

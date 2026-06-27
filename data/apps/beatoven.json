@@ -52,10 +52,12 @@
   ],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     },
     {
-      "id": "sound-effects"
+      "id": "sound-effects",
+      "level": "primary"
     }
   ]
 }

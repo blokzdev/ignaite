@@ -44,10 +44,12 @@
   "alternatives": ["grammarly", "quillbot", "sudowrite", "wordtune"],
   "capabilities": [
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

@@ -45,7 +45,8 @@
   "alternatives": ["pgvector", "chroma", "lancedb", "qdrant"],
   "capabilities": [
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     }
   ]
 }

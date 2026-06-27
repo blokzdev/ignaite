@@ -45,10 +45,12 @@
   ],
   "capabilities": [
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "primary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     }
   ]
 }

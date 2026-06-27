@@ -51,19 +51,24 @@
   "alternatives": ["llamaindex", "langgraph", "crewai", "vercel-ai-sdk"],
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     }
   ]
 }

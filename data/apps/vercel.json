@@ -49,16 +49,20 @@
   "alternatives": ["cloudflare", "modal", "replit"],
   "capabilities": [
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "secondary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     }
   ]
 }

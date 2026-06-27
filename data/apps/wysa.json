@@ -38,7 +38,8 @@
   "alternatives": ["pi", "replika", "ada-health"],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     }
   ]
 }

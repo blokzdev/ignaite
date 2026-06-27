@@ -46,7 +46,8 @@
   ],
   "capabilities": [
     {
-      "id": "candidate-sourcing"
+      "id": "candidate-sourcing",
+      "level": "primary"
     }
   ]
 }

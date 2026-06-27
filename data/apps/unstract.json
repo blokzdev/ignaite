@@ -50,13 +50,16 @@
   "alternatives": ["reducto", "chunkr", "llamaparse", "extend"],
   "capabilities": [
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "primary"
     },
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "primary"
     }
   ]
 }

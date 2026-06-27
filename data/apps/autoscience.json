@@ -54,13 +54,16 @@
   ],
   "capabilities": [
     {
-      "id": "autonomous-research"
+      "id": "autonomous-research",
+      "level": "primary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "secondary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     }
   ]
 }

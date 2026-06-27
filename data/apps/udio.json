@@ -53,7 +53,8 @@
   "alternatives": ["suno", "riffusion", "mureka", "sonauto"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     }
   ]
 }

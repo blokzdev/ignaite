@@ -55,16 +55,20 @@
   ],
   "capabilities": [
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "primary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "primary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     }
   ]
 }

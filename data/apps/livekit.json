@@ -59,19 +59,24 @@
   ],
   "capabilities": [
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

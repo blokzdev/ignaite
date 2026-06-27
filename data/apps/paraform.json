@@ -43,13 +43,16 @@
   "lastVerifiedAt": "2026-06-20",
   "capabilities": [
     {
-      "id": "candidate-sourcing"
+      "id": "candidate-sourcing",
+      "level": "primary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     }
   ]
 }

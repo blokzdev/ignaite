@@ -37,7 +37,8 @@
   "bestFor": ["Bank fraud teams", "Fintech risk ops", "Financial institutions"],
   "capabilities": [
     {
-      "id": "fraud-detection"
+      "id": "fraud-detection",
+      "level": "primary"
     }
   ]
 }

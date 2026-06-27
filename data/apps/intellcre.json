@@ -55,16 +55,20 @@
   ],
   "capabilities": [
     {
-      "id": "financial-modeling"
+      "id": "financial-modeling",
+      "level": "primary"
     },
     {
-      "id": "property-data-api"
+      "id": "property-data-api",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "primary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "primary"
     }
   ]
 }

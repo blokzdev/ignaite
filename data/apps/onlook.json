@@ -60,13 +60,16 @@
   ],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     }
   ]
 }

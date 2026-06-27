@@ -60,16 +60,20 @@
   ],
   "capabilities": [
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     }
   ]
 }

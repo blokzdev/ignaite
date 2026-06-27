@@ -44,19 +44,24 @@
   "alternatives": ["lakera", "pangea", "protect-ai", "lasso-security"],
   "capabilities": [
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     },
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "secondary"
     },
     {
-      "id": "content-moderation"
+      "id": "content-moderation",
+      "level": "secondary"
     }
   ]
 }

@@ -48,16 +48,20 @@
   "alternatives": ["zapier", "make", "n8n", "activepieces"],
   "capabilities": [
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "primary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

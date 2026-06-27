@@ -43,13 +43,16 @@
   "alternatives": ["lalal-ai", "moises", "kits-ai"],
   "capabilities": [
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "secondary"
     }
   ]
 }

@@ -48,16 +48,20 @@
   ],
   "capabilities": [
     {
-      "id": "clinical-decision-support"
+      "id": "clinical-decision-support",
+      "level": "primary"
     },
     {
-      "id": "medical-coding"
+      "id": "medical-coding",
+      "level": "secondary"
     },
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

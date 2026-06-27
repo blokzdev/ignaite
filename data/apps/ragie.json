@@ -59,22 +59,28 @@
   ],
   "capabilities": [
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "primary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

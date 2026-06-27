@@ -47,13 +47,16 @@
   "alternatives": ["langfuse", "vellum", "agenta", "braintrust"],
   "capabilities": [
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     }
   ]
 }

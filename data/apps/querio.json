@@ -46,13 +46,16 @@
   "alternatives": ["wren-ai", "vanna", "julius", "hex"],
   "capabilities": [
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

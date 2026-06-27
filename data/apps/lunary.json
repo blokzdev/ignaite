@@ -53,13 +53,16 @@
   "alternatives": ["langfuse", "helicone", "langsmith", "opik"],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     }
   ]
 }

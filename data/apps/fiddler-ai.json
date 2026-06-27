@@ -44,19 +44,24 @@
   "alternatives": ["arize-phoenix", "galileo", "langfuse", "helicone"],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "secondary"
     },
     {
-      "id": "content-moderation"
+      "id": "content-moderation",
+      "level": "secondary"
     }
   ]
 }

@@ -49,13 +49,16 @@
   "alternatives": ["langfuse", "langsmith", "langwatch", "braintrust"],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     },
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "secondary"
     }
   ]
 }

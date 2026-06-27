@@ -47,19 +47,24 @@
   "alternatives": ["clarifai", "scale-ai"],
   "capabilities": [
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "primary"
     }
   ]
 }

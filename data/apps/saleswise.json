@@ -31,13 +31,16 @@
   "alternatives": ["lofty", "eliseai"],
   "capabilities": [
     {
-      "id": "property-valuation"
+      "id": "property-valuation",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "secondary"
     },
     {
-      "id": "graphic-design"
+      "id": "graphic-design",
+      "level": "secondary"
     }
   ]
 }

@@ -40,13 +40,16 @@
   "alternatives": ["photomath", "gauth", "khanmigo"],
   "capabilities": [
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "primary"
     },
     {
-      "id": "homework-solving"
+      "id": "homework-solving",
+      "level": "secondary"
     },
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     }
   ]
 }

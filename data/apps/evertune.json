@@ -51,7 +51,8 @@
   ],
   "capabilities": [
     {
-      "id": "seo-optimization"
+      "id": "seo-optimization",
+      "level": "primary"
     }
   ]
 }

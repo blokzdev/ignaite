@@ -45,13 +45,16 @@
   "alternatives": ["lex", "wordtune", "rytr", "quillbot"],
   "capabilities": [
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     }
   ]
 }

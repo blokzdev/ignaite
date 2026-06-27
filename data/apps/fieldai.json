@@ -60,13 +60,16 @@
   ],
   "capabilities": [
     {
-      "id": "robot-foundation-model"
+      "id": "robot-foundation-model",
+      "level": "primary"
     },
     {
-      "id": "world-model"
+      "id": "world-model",
+      "level": "secondary"
     },
     {
-      "id": "autonomous-navigation"
+      "id": "autonomous-navigation",
+      "level": "secondary"
     }
   ]
 }

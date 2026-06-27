@@ -44,13 +44,16 @@
   "alternatives": ["langfuse", "langsmith", "helicone", "arize-phoenix"],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     },
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "secondary"
     }
   ]
 }

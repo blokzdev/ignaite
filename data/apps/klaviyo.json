@@ -47,16 +47,20 @@
   "alternatives": ["attentive"],
   "capabilities": [
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "primary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     },
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "secondary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     }
   ]
 }

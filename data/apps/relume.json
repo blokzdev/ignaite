@@ -41,7 +41,8 @@
   "alternatives": ["v0", "uizard", "magic-patterns", "figma-ai"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     }
   ]
 }

@@ -45,19 +45,24 @@
   "alternatives": ["landing-ai", "roboflow", "clarifai", "groundlight"],
   "capabilities": [
     {
-      "id": "defect-detection"
+      "id": "defect-detection",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "primary"
     },
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "secondary"
     },
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     }
   ]
 }

@@ -45,19 +45,24 @@
   ],
   "capabilities": [
     {
-      "id": "case-management"
+      "id": "case-management",
+      "level": "primary"
     },
     {
-      "id": "demand-letters"
+      "id": "demand-letters",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

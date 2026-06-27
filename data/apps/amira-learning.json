@@ -45,13 +45,16 @@
   ],
   "capabilities": [
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "primary"
     },
     {
-      "id": "lesson-planning"
+      "id": "lesson-planning",
+      "level": "secondary"
     }
   ]
 }

@@ -59,13 +59,16 @@
   "featuredAt": "2026-06-21",
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "secondary"
     }
   ]
 }

@@ -39,10 +39,12 @@
   "alternatives": ["smartlead", "lavender", "clay"],
   "capabilities": [
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     }
   ]
 }

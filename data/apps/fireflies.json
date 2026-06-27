@@ -51,22 +51,28 @@
   "alternatives": ["otter-ai", "fathom", "granola", "avoma"],
   "capabilities": [
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "primary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "secondary"
     },
     {
-      "id": "conversation-intelligence"
+      "id": "conversation-intelligence",
+      "level": "secondary"
     }
   ]
 }

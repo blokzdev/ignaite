@@ -65,22 +65,28 @@
   ],
   "capabilities": [
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "secondary"
     }
   ]
 }

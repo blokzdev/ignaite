@@ -46,19 +46,24 @@
   "alternatives": ["turbopuffer", "pinecone", "qdrant", "lancedb"],
   "capabilities": [
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     }
   ]
 }

@@ -52,13 +52,16 @@
   ],
   "capabilities": [
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "primary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

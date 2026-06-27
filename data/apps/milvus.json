@@ -49,16 +49,20 @@
   "alternatives": ["qdrant", "weaviate", "pinecone", "chroma"],
   "capabilities": [
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "secondary"
     }
   ]
 }

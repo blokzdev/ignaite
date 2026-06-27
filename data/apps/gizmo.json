@@ -44,13 +44,16 @@
   ],
   "capabilities": [
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "primary"
     },
     {
-      "id": "study-material-conversion"
+      "id": "study-material-conversion",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

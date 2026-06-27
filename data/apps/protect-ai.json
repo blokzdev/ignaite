@@ -44,13 +44,16 @@
   "alternatives": ["hiddenlayer", "lakera", "prompt-security", "pangea"],
   "capabilities": [
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "secondary"
     }
   ]
 }

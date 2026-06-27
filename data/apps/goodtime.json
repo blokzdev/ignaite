@@ -47,13 +47,16 @@
   ],
   "capabilities": [
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

@@ -44,13 +44,16 @@
   ],
   "capabilities": [
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "secondary"
     },
     {
-      "id": "language-practice"
+      "id": "language-practice",
+      "level": "primary"
     },
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "secondary"
     }
   ]
 }

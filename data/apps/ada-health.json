@@ -36,7 +36,8 @@
   "alternatives": ["k-health", "wysa", "openevidence"],
   "capabilities": [
     {
-      "id": "symptom-triage"
+      "id": "symptom-triage",
+      "level": "primary"
     }
   ]
 }

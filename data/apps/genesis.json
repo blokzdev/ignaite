@@ -61,10 +61,12 @@
   ],
   "capabilities": [
     {
-      "id": "physics-simulation"
+      "id": "physics-simulation",
+      "level": "primary"
     },
     {
-      "id": "sim-to-real"
+      "id": "sim-to-real",
+      "level": "secondary"
     }
   ]
 }

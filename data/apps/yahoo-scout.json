@@ -49,13 +49,16 @@
   ],
   "capabilities": [
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

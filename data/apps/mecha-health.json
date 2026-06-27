@@ -49,13 +49,16 @@
   ],
   "capabilities": [
     {
-      "id": "medical-imaging"
+      "id": "medical-imaging",
+      "level": "primary"
     },
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "primary"
     }
   ]
 }

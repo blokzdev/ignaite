@@ -45,16 +45,20 @@
   ],
   "capabilities": [
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     },
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "secondary"
     }
   ]
 }

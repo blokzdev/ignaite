@@ -44,13 +44,16 @@
   "alternatives": ["canva", "adobe-express", "recraft", "microsoft-designer"],
   "capabilities": [
     {
-      "id": "logo-generation"
+      "id": "logo-generation",
+      "level": "primary"
     },
     {
-      "id": "graphic-design"
+      "id": "graphic-design",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     }
   ]
 }

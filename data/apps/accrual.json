@@ -43,13 +43,16 @@
   "lastVerifiedAt": "2026-06-20",
   "capabilities": [
     {
-      "id": "tax-preparation"
+      "id": "tax-preparation",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "financial-data-extraction"
+      "id": "financial-data-extraction",
+      "level": "secondary"
     }
   ]
 }

@@ -54,19 +54,24 @@
   ],
   "capabilities": [
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "secondary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "secondary"
     },
     {
-      "id": "seo-optimization"
+      "id": "seo-optimization",
+      "level": "secondary"
     }
   ]
 }

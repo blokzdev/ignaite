@@ -51,13 +51,16 @@
   "alternatives": ["promptfoo", "deepeval", "patronus-ai", "lakera"],
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "primary"
     },
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     }
   ]
 }

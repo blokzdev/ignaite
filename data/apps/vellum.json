@@ -51,22 +51,28 @@
   "alternatives": ["braintrust", "langsmith", "maxim-ai", "athina"],
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "secondary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     }
   ]
 }

@@ -60,16 +60,20 @@
   ],
   "capabilities": [
     {
-      "id": "content-moderation"
+      "id": "content-moderation",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "secondary"
     },
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     }
   ]
 }

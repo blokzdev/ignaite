@@ -49,10 +49,12 @@
   ],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

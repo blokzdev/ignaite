@@ -45,19 +45,24 @@
   ],
   "capabilities": [
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "primary"
     },
     {
-      "id": "speech-translation"
+      "id": "speech-translation",
+      "level": "secondary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     }
   ]
 }

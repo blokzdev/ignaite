@@ -51,10 +51,12 @@
   ],
   "capabilities": [
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     }
   ]
 }

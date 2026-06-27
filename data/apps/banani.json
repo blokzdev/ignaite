@@ -36,10 +36,12 @@
   "alternatives": ["uizard", "magic-patterns", "subframe", "google-stitch"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

@@ -56,10 +56,12 @@
   ],
   "capabilities": [
     {
-      "id": "robot-foundation-model"
+      "id": "robot-foundation-model",
+      "level": "primary"
     },
     {
-      "id": "dexterous-manipulation"
+      "id": "dexterous-manipulation",
+      "level": "primary"
     }
   ]
 }

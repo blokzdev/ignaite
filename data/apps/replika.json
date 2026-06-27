@@ -49,10 +49,12 @@
   ],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     },
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "secondary"
     }
   ]
 }

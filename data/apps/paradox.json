@@ -55,13 +55,16 @@
   ],
   "capabilities": [
     {
-      "id": "resume-screening"
+      "id": "resume-screening",
+      "level": "primary"
     },
     {
-      "id": "interview-assistance"
+      "id": "interview-assistance",
+      "level": "secondary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "primary"
     }
   ]
 }

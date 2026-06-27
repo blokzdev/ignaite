@@ -55,19 +55,24 @@
   ],
   "capabilities": [
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

@@ -51,13 +51,16 @@
   ],
   "capabilities": [
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "recommendation"
+      "id": "recommendation",
+      "level": "secondary"
     }
   ]
 }

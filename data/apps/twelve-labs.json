@@ -51,16 +51,20 @@
   "alternatives": ["roboflow", "reka-vision", "voxel51"],
   "capabilities": [
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "primary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

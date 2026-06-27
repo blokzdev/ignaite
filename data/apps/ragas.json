@@ -48,7 +48,8 @@
   "alternatives": ["deepeval", "promptfoo", "braintrust", "langsmith"],
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     }
   ]
 }

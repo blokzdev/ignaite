@@ -39,19 +39,24 @@
   "alternatives": ["abridge", "ambience-healthcare", "suki", "nabla"],
   "capabilities": [
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "primary"
     },
     {
-      "id": "dictation"
+      "id": "dictation",
+      "level": "secondary"
     },
     {
-      "id": "medical-coding"
+      "id": "medical-coding",
+      "level": "secondary"
     },
     {
-      "id": "healthcare-ops"
+      "id": "healthcare-ops",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

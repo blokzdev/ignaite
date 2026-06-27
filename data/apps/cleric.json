@@ -46,7 +46,8 @@
   ],
   "capabilities": [
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     }
   ]
 }

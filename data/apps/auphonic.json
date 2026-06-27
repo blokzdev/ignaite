@@ -69,16 +69,20 @@
   ],
   "capabilities": [
     {
-      "id": "audio-mastering"
+      "id": "audio-mastering",
+      "level": "primary"
     },
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "primary"
     },
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

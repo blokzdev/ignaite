@@ -41,7 +41,8 @@
   "alternatives": ["recraft", "adobe-express"],
   "capabilities": [
     {
-      "id": "graphic-design"
+      "id": "graphic-design",
+      "level": "primary"
     }
   ]
 }

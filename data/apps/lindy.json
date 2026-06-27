@@ -46,19 +46,24 @@
   "alternatives": ["zapier", "make", "gumloop", "relay-app"],
   "capabilities": [
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     },
     {
-      "id": "email-assistant"
+      "id": "email-assistant",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "secondary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     }
   ]
 }

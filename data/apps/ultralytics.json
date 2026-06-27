@@ -48,13 +48,16 @@
   "alternatives": ["roboflow", "encord", "voxel51", "supervisely"],
   "capabilities": [
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "primary"
     },
     {
-      "id": "image-classification"
+      "id": "image-classification",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "primary"
     }
   ]
 }

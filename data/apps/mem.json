@@ -45,16 +45,20 @@
   "alternatives": ["notion-ai", "reflect", "taskade", "mem0"],
   "capabilities": [
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "meeting-notes"
+      "id": "meeting-notes",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

@@ -44,10 +44,12 @@
   "alternatives": ["sudowrite", "novelai", "lex", "jenni"],
   "capabilities": [
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     }
   ]
 }

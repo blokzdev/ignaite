@@ -51,19 +51,24 @@
   ],
   "capabilities": [
     {
-      "id": "resume-screening"
+      "id": "resume-screening",
+      "level": "primary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "primary"
     },
     {
-      "id": "interview-assistance"
+      "id": "interview-assistance",
+      "level": "primary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     },
     {
-      "id": "outbound-prospecting"
+      "id": "outbound-prospecting",
+      "level": "secondary"
     }
   ]
 }

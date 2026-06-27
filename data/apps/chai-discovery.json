@@ -46,13 +46,16 @@
   ],
   "capabilities": [
     {
-      "id": "protein-structure-prediction"
+      "id": "protein-structure-prediction",
+      "level": "primary"
     },
     {
-      "id": "antibody-design"
+      "id": "antibody-design",
+      "level": "primary"
     },
     {
-      "id": "protein-design"
+      "id": "protein-design",
+      "level": "secondary"
     }
   ]
 }

@@ -63,10 +63,12 @@
   ],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     }
   ]
 }

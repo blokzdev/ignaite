@@ -57,13 +57,16 @@
   ],
   "capabilities": [
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "primary"
     },
     {
-      "id": "speech-translation"
+      "id": "speech-translation",
+      "level": "secondary"
     },
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     }
   ]
 }

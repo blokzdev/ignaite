@@ -41,16 +41,20 @@
   "alternatives": ["quizlet", "studyfetch", "notebooklm"],
   "capabilities": [
     {
-      "id": "note-taking"
+      "id": "note-taking",
+      "level": "primary"
     },
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "primary"
     },
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

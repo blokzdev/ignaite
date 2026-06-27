@@ -49,16 +49,20 @@
   "alternatives": ["heygen", "synthesia", "hedra", "vapi"],
   "capabilities": [
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "primary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     },
     {
-      "id": "video-understanding"
+      "id": "video-understanding",
+      "level": "secondary"
     }
   ]
 }

@@ -41,19 +41,24 @@
   "alternatives": ["elicit", "consensus", "scispace", "scite"],
   "capabilities": [
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "secondary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "primary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

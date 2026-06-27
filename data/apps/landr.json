@@ -56,10 +56,12 @@
   ],
   "capabilities": [
     {
-      "id": "audio-mastering"
+      "id": "audio-mastering",
+      "level": "primary"
     },
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "secondary"
     }
   ]
 }

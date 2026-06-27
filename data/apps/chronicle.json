@@ -41,10 +41,12 @@
   ],
   "capabilities": [
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "primary"
     },
     {
-      "id": "graphic-design"
+      "id": "graphic-design",
+      "level": "secondary"
     }
   ]
 }

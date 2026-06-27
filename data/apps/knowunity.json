@@ -49,13 +49,16 @@
   ],
   "capabilities": [
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "primary"
     },
     {
-      "id": "homework-solving"
+      "id": "homework-solving",
+      "level": "secondary"
     },
     {
-      "id": "flashcard-generation"
+      "id": "flashcard-generation",
+      "level": "secondary"
     }
   ]
 }

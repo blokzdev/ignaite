@@ -44,19 +44,24 @@
   "alternatives": ["modal", "baseten", "runpod", "skypilot"],
   "capabilities": [
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "secondary"
     },
     {
-      "id": "gpu-compute"
+      "id": "gpu-compute",
+      "level": "primary"
     },
     {
-      "id": "etl-pipeline"
+      "id": "etl-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "secondary"
     }
   ]
 }

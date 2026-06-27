@@ -45,13 +45,16 @@
   ],
   "capabilities": [
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "primary"
     },
     {
-      "id": "financial-modeling"
+      "id": "financial-modeling",
+      "level": "primary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

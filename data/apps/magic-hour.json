@@ -55,22 +55,28 @@
   ],
   "capabilities": [
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "secondary"
     }
   ]
 }

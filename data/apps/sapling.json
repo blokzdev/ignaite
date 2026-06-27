@@ -46,10 +46,12 @@
   "alternatives": ["grammarly", "wordtune", "compose-ai"],
   "capabilities": [
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "text-classification"
+      "id": "text-classification",
+      "level": "secondary"
     }
   ]
 }

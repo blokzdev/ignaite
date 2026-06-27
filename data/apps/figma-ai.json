@@ -44,16 +44,20 @@
   "alternatives": ["uizard", "v0", "lovable", "microsoft-designer"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "secondary"
     }
   ]
 }

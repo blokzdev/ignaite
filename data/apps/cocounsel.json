@@ -35,22 +35,28 @@
   "alternatives": ["harvey", "legora", "lexis-ai", "spellbook"],
   "capabilities": [
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "primary"
     },
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "secondary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "tax-preparation"
+      "id": "tax-preparation",
+      "level": "secondary"
     }
   ]
 }

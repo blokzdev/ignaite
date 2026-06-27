@@ -51,19 +51,24 @@
   ],
   "capabilities": [
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "primary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "primary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "secondary"
     }
   ]
 }

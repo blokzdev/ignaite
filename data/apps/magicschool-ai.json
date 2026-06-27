@@ -55,16 +55,20 @@
   "accentColor": "#8B5CF6",
   "capabilities": [
     {
-      "id": "lesson-planning"
+      "id": "lesson-planning",
+      "level": "primary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     },
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     }
   ]
 }

@@ -51,13 +51,16 @@
   ],
   "capabilities": [
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "clinical-decision-support"
+      "id": "clinical-decision-support",
+      "level": "secondary"
     },
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "primary"
     }
   ]
 }

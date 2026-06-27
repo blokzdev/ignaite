@@ -36,16 +36,20 @@
   "alternatives": ["abridge"],
   "capabilities": [
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "primary"
     },
     {
-      "id": "dictation"
+      "id": "dictation",
+      "level": "primary"
     },
     {
-      "id": "medical-coding"
+      "id": "medical-coding",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

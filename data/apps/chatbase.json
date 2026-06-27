@@ -60,19 +60,24 @@
   ],
   "capabilities": [
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "primary"
     },
     {
-      "id": "tool-calling"
+      "id": "tool-calling",
+      "level": "secondary"
     },
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "secondary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     }
   ]
 }

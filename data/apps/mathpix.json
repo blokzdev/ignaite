@@ -45,7 +45,8 @@
   "alternatives": ["moondream", "reducto", "nanonets", "docling"],
   "capabilities": [
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "primary"
     }
   ]
 }

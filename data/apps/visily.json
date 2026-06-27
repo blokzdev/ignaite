@@ -53,7 +53,8 @@
   ],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     }
   ]
 }

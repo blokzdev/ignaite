@@ -48,10 +48,12 @@
   "accentColor": "#0EA5E9",
   "capabilities": [
     {
-      "id": "protein-structure-prediction"
+      "id": "protein-structure-prediction",
+      "level": "primary"
     },
     {
-      "id": "molecular-design"
+      "id": "molecular-design",
+      "level": "secondary"
     }
   ]
 }

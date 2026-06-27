@@ -46,10 +46,12 @@
   ],
   "capabilities": [
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "primary"
     },
     {
-      "id": "medical-coding"
+      "id": "medical-coding",
+      "level": "primary"
     }
   ]
 }

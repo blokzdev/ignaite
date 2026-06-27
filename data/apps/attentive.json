@@ -49,10 +49,12 @@
   "alternatives": ["klaviyo"],
   "capabilities": [
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     }
   ]
 }

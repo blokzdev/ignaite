@@ -65,13 +65,16 @@
   ],
   "capabilities": [
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

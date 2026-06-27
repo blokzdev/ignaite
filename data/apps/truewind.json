@@ -45,13 +45,16 @@
   ],
   "capabilities": [
     {
-      "id": "bookkeeping"
+      "id": "bookkeeping",
+      "level": "primary"
     },
     {
-      "id": "financial-close"
+      "id": "financial-close",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     }
   ]
 }

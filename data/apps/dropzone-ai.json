@@ -42,13 +42,16 @@
   ],
   "capabilities": [
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     }
   ]
 }

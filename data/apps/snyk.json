@@ -59,13 +59,16 @@
   "accentColor": "#4C4A73",
   "capabilities": [
     {
-      "id": "ai-security-scanning"
+      "id": "ai-security-scanning",
+      "level": "primary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     }
   ]
 }

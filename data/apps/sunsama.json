@@ -43,10 +43,12 @@
   "alternatives": ["motion", "reclaim", "taskade"],
   "capabilities": [
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "primary"
     },
     {
-      "id": "calendar-scheduling"
+      "id": "calendar-scheduling",
+      "level": "primary"
     }
   ]
 }

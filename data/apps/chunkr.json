@@ -58,13 +58,16 @@
   ],
   "capabilities": [
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

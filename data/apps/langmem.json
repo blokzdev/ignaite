@@ -53,10 +53,12 @@
   ],
   "capabilities": [
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "secondary"
     }
   ]
 }

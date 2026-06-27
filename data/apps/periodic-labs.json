@@ -46,10 +46,12 @@
   ],
   "capabilities": [
     {
-      "id": "autonomous-research"
+      "id": "autonomous-research",
+      "level": "primary"
     },
     {
-      "id": "materials-discovery"
+      "id": "materials-discovery",
+      "level": "primary"
     }
   ]
 }

@@ -36,19 +36,24 @@
   "alternatives": ["kindroid", "character-ai", "replika"],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     },
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "secondary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     }
   ]
 }

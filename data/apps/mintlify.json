@@ -60,13 +60,16 @@
   ],
   "capabilities": [
     {
-      "id": "knowledge-base-authoring"
+      "id": "knowledge-base-authoring",
+      "level": "primary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     }
   ]
 }

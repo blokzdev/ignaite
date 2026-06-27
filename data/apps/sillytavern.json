@@ -65,16 +65,20 @@
   ],
   "capabilities": [
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "primary"
     },
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "secondary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     }
   ]
 }

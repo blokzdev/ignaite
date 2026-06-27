@@ -61,19 +61,24 @@
   ],
   "capabilities": [
     {
-      "id": "financial-data-extraction"
+      "id": "financial-data-extraction",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     },
     {
-      "id": "financial-modeling"
+      "id": "financial-modeling",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

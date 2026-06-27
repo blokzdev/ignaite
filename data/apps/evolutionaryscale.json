@@ -46,10 +46,12 @@
   ],
   "capabilities": [
     {
-      "id": "protein-design"
+      "id": "protein-design",
+      "level": "secondary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     }
   ]
 }

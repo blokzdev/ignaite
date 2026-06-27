@@ -53,13 +53,16 @@
   "alternatives": ["cursor", "windsurf", "github-copilot", "continue"],
   "capabilities": [
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "secondary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "primary"
     }
   ]
 }

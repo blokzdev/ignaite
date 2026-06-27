@@ -55,10 +55,12 @@
   ],
   "capabilities": [
     {
-      "id": "homework-solving"
+      "id": "homework-solving",
+      "level": "primary"
     },
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "secondary"
     }
   ]
 }

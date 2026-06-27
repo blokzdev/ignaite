@@ -40,10 +40,12 @@
   "alternatives": ["airops", "writer"],
   "capabilities": [
     {
-      "id": "seo-optimization"
+      "id": "seo-optimization",
+      "level": "primary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     }
   ]
 }

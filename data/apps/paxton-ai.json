@@ -49,19 +49,24 @@
   ],
   "capabilities": [
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "primary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "primary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     }
   ]
 }

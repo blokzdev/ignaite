@@ -66,10 +66,12 @@
   "accentColor": "#FF8800",
   "capabilities": [
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "primary"
     },
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "secondary"
     }
   ]
 }

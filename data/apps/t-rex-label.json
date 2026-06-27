@@ -53,10 +53,12 @@
   "alternatives": ["roboflow", "encord", "labelbox", "voxel51"],
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     },
     {
-      "id": "object-detection"
+      "id": "object-detection",
+      "level": "secondary"
     }
   ]
 }

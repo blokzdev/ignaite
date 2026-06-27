@@ -44,19 +44,24 @@
   ],
   "capabilities": [
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "primary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "secondary"
     }
   ]
 }

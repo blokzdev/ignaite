@@ -44,7 +44,8 @@
   "alternatives": ["suno", "udio", "soundraw", "beatoven"],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     }
   ]
 }

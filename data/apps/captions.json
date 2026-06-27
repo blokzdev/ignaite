@@ -44,16 +44,20 @@
   "alternatives": ["heygen", "opus-clip", "submagic", "synthesia"],
   "capabilities": [
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "primary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "secondary"
     },
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "secondary"
     }
   ]
 }

@@ -55,7 +55,8 @@
   ],
   "capabilities": [
     {
-      "id": "graphic-design"
+      "id": "graphic-design",
+      "level": "primary"
     }
   ]
 }

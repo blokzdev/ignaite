@@ -53,10 +53,12 @@
   ],
   "capabilities": [
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     }
   ]
 }

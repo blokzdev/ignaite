@@ -50,13 +50,16 @@
   "alternatives": ["julius", "basedash", "databricks-genie", "hex"],
   "capabilities": [
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

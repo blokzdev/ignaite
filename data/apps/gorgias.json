@@ -45,7 +45,8 @@
   "alternatives": ["intercom-fin", "decagon", "forethought", "maven-agi"],
   "capabilities": [
     {
-      "id": "ticket-deflection"
+      "id": "ticket-deflection",
+      "level": "primary"
     }
   ]
 }

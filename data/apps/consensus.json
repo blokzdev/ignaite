@@ -43,19 +43,24 @@
   "alternatives": ["elicit", "scite", "scispace", "undermind"],
   "capabilities": [
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "primary"
     },
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "primary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "secondary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

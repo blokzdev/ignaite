@@ -45,22 +45,28 @@
   "lastVerifiedAt": "2026-06-20",
   "capabilities": [
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "primary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "primary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     },
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "secondary"
     },
     {
-      "id": "subtitle-generation"
+      "id": "subtitle-generation",
+      "level": "secondary"
     },
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "secondary"
     }
   ]
 }

@@ -42,19 +42,24 @@
   "alternatives": ["reducto", "nanonets", "unstructured", "hebbia"],
   "capabilities": [
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "primary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     }
   ]
 }

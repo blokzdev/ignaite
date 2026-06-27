@@ -65,19 +65,24 @@
   ],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "secondary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "multi-model-access"
+      "id": "multi-model-access",
+      "level": "secondary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     }
   ]
 }

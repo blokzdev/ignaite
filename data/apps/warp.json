@@ -49,19 +49,24 @@
   "alternatives": ["claude-code", "cursor", "windsurf", "aider"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "terminal-cli-agent"
+      "id": "terminal-cli-agent",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     }
   ]
 }

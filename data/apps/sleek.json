@@ -38,7 +38,8 @@
   "alternatives": ["uizard", "visily", "banani", "magic-patterns"],
   "capabilities": [
     {
-      "id": "ui-design"
+      "id": "ui-design",
+      "level": "primary"
     }
   ]
 }

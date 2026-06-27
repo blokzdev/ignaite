@@ -42,7 +42,8 @@
   "alternatives": ["composio", "klavis-ai", "smithery", "docker-mcp"],
   "capabilities": [
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     }
   ]
 }

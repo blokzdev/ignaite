@@ -51,13 +51,16 @@
   "alternatives": ["fastmcp", "composio", "toolhouse", "arcade"],
   "capabilities": [
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     },
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "secondary"
     }
   ]
 }

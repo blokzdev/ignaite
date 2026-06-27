@@ -47,16 +47,20 @@
   "alternatives": ["civitai", "krea", "flux", "leonardo-ai"],
   "capabilities": [
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "model-inference"
+      "id": "model-inference",
+      "level": "primary"
     }
   ]
 }

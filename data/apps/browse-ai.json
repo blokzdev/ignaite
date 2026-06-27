@@ -45,10 +45,12 @@
   "alternatives": ["apify", "firecrawl", "browser-use", "thunderbit"],
   "capabilities": [
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "primary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

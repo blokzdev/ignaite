@@ -54,16 +54,20 @@
   ],
   "capabilities": [
     {
-      "id": "ocr-extraction"
+      "id": "ocr-extraction",
+      "level": "secondary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "primary"
     },
     {
-      "id": "expense-management"
+      "id": "expense-management",
+      "level": "primary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "secondary"
     }
   ]
 }

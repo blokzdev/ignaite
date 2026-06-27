@@ -49,16 +49,20 @@
   "alternatives": ["v0", "lovable", "windsurf", "kiro"],
   "capabilities": [
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "secondary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "secondary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     }
   ]
 }

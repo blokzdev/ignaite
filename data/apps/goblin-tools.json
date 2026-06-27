@@ -56,13 +56,16 @@
   ],
   "capabilities": [
     {
-      "id": "task-management"
+      "id": "task-management",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     },
     {
-      "id": "text-classification"
+      "id": "text-classification",
+      "level": "secondary"
     }
   ]
 }

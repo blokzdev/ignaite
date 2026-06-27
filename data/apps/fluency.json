@@ -42,10 +42,12 @@
   "bestFor": ["Ad agencies", "Multi-location brands", "High-volume PPC"],
   "capabilities": [
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "primary"
     },
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "secondary"
     }
   ]
 }

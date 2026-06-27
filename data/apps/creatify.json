@@ -54,19 +54,24 @@
   ],
   "capabilities": [
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "primary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "avatar-generation"
+      "id": "avatar-generation",
+      "level": "secondary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "secondary"
     }
   ]
 }

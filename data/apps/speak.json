@@ -48,13 +48,16 @@
   ],
   "capabilities": [
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "primary"
     },
     {
-      "id": "language-practice"
+      "id": "language-practice",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "primary"
     }
   ]
 }

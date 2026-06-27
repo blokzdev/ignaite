@@ -42,22 +42,28 @@
   "alternatives": ["inworld-ai"],
   "capabilities": [
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "primary"
     },
     {
-      "id": "voice-agent"
+      "id": "voice-agent",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     },
     {
-      "id": "lip-sync"
+      "id": "lip-sync",
+      "level": "secondary"
     }
   ]
 }

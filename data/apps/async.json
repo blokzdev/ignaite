@@ -56,22 +56,28 @@
   ],
   "capabilities": [
     {
-      "id": "audio-editing"
+      "id": "audio-editing",
+      "level": "primary"
     },
     {
-      "id": "video-editing"
+      "id": "video-editing",
+      "level": "primary"
     },
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "secondary"
     },
     {
-      "id": "voice-cloning"
+      "id": "voice-cloning",
+      "level": "secondary"
     },
     {
-      "id": "dubbing"
+      "id": "dubbing",
+      "level": "secondary"
     },
     {
-      "id": "text-to-speech"
+      "id": "text-to-speech",
+      "level": "secondary"
     }
   ]
 }

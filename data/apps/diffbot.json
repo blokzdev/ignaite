@@ -54,19 +54,24 @@
   ],
   "capabilities": [
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "primary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "unified-search"
+      "id": "unified-search",
+      "level": "secondary"
     }
   ]
 }

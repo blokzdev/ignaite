@@ -49,16 +49,20 @@
   "alternatives": ["braintrust", "langfuse", "patronus-ai", "galileo"],
   "capabilities": [
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "secondary"
     }
   ]
 }

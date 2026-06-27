@@ -58,7 +58,8 @@
   ],
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     }
   ]
 }

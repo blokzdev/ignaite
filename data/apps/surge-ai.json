@@ -56,13 +56,16 @@
   ],
   "capabilities": [
     {
-      "id": "data-labeling"
+      "id": "data-labeling",
+      "level": "primary"
     },
     {
-      "id": "eval-suite"
+      "id": "eval-suite",
+      "level": "primary"
     },
     {
-      "id": "red-teaming"
+      "id": "red-teaming",
+      "level": "secondary"
     }
   ]
 }

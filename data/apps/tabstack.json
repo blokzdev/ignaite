@@ -58,16 +58,20 @@
   "lastVerifiedAt": "2026-06-20",
   "capabilities": [
     {
-      "id": "browser-automation"
+      "id": "browser-automation",
+      "level": "primary"
     },
     {
-      "id": "web-scraping"
+      "id": "web-scraping",
+      "level": "primary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "secondary"
     }
   ]
 }

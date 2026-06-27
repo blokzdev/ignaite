@@ -46,10 +46,12 @@
   "alternatives": ["synthesis-tutor", "studyfetch", "quizlet"],
   "capabilities": [
     {
-      "id": "ai-tutoring"
+      "id": "ai-tutoring",
+      "level": "primary"
     },
     {
-      "id": "lesson-planning"
+      "id": "lesson-planning",
+      "level": "secondary"
     }
   ]
 }

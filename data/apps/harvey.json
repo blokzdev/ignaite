@@ -49,16 +49,20 @@
   "accentColor": "#4F46E5",
   "capabilities": [
     {
-      "id": "legal-research"
+      "id": "legal-research",
+      "level": "primary"
     },
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "secondary"
     },
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "secondary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "secondary"
     }
   ]
 }

@@ -45,13 +45,16 @@
   ],
   "capabilities": [
     {
-      "id": "materials-discovery"
+      "id": "materials-discovery",
+      "level": "secondary"
     },
     {
-      "id": "molecular-design"
+      "id": "molecular-design",
+      "level": "primary"
     },
     {
-      "id": "physics-simulation"
+      "id": "physics-simulation",
+      "level": "secondary"
     }
   ]
 }

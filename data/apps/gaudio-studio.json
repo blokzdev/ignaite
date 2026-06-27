@@ -53,10 +53,12 @@
   ],
   "capabilities": [
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "primary"
     },
     {
-      "id": "audio-cleanup"
+      "id": "audio-cleanup",
+      "level": "secondary"
     }
   ]
 }

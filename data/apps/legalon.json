@@ -35,16 +35,20 @@
   "alternatives": ["spellbook", "luminance", "legora", "harvey"],
   "capabilities": [
     {
-      "id": "contract-review"
+      "id": "contract-review",
+      "level": "primary"
     },
     {
-      "id": "contract-drafting"
+      "id": "contract-drafting",
+      "level": "primary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "case-management"
+      "id": "case-management",
+      "level": "secondary"
     }
   ]
 }

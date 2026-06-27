@@ -49,19 +49,24 @@
   ],
   "capabilities": [
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "primary"
     },
     {
-      "id": "autonomous-research"
+      "id": "autonomous-research",
+      "level": "primary"
     },
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     },
     {
-      "id": "drug-target-discovery"
+      "id": "drug-target-discovery",
+      "level": "secondary"
     }
   ]
 }

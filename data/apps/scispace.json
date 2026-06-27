@@ -44,19 +44,24 @@
   "alternatives": ["consensus", "elicit", "scite", "undermind"],
   "capabilities": [
     {
-      "id": "document-qa"
+      "id": "document-qa",
+      "level": "primary"
     },
     {
-      "id": "literature-search"
+      "id": "literature-search",
+      "level": "secondary"
     },
     {
-      "id": "literature-review"
+      "id": "literature-review",
+      "level": "primary"
     },
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "secondary"
     },
     {
-      "id": "schema-extraction"
+      "id": "schema-extraction",
+      "level": "secondary"
     }
   ]
 }

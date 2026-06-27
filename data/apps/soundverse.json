@@ -52,13 +52,16 @@
   ],
   "capabilities": [
     {
-      "id": "music-generation"
+      "id": "music-generation",
+      "level": "primary"
     },
     {
-      "id": "stem-separation"
+      "id": "stem-separation",
+      "level": "secondary"
     },
     {
-      "id": "model-fine-tuning"
+      "id": "model-fine-tuning",
+      "level": "secondary"
     }
   ]
 }

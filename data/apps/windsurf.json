@@ -55,19 +55,24 @@
   "alternatives": ["cursor", "github-copilot", "trae", "zed"],
   "capabilities": [
     {
-      "id": "agentic-coding"
+      "id": "agentic-coding",
+      "level": "primary"
     },
     {
-      "id": "code-generation"
+      "id": "code-generation",
+      "level": "primary"
     },
     {
-      "id": "ide-integration"
+      "id": "ide-integration",
+      "level": "primary"
     },
     {
-      "id": "code-review"
+      "id": "code-review",
+      "level": "secondary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "secondary"
     }
   ]
 }

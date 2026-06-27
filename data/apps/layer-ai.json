@@ -44,22 +44,28 @@
   ],
   "capabilities": [
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "secondary"
     },
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "text-to-3d"
+      "id": "text-to-3d",
+      "level": "primary"
     },
     {
-      "id": "ad-creative-generation"
+      "id": "ad-creative-generation",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

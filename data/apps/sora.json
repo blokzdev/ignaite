@@ -54,10 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "text-to-video"
+      "id": "text-to-video",
+      "level": "primary"
     },
     {
-      "id": "image-to-video"
+      "id": "image-to-video",
+      "level": "primary"
     }
   ]
 }

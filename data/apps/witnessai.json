@@ -48,16 +48,20 @@
   ],
   "capabilities": [
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "primary"
     },
     {
-      "id": "guardrails"
+      "id": "guardrails",
+      "level": "secondary"
     },
     {
-      "id": "llm-gateway"
+      "id": "llm-gateway",
+      "level": "primary"
     },
     {
-      "id": "regulatory-compliance"
+      "id": "regulatory-compliance",
+      "level": "secondary"
     }
   ]
 }

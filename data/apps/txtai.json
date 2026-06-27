@@ -47,22 +47,28 @@
   "alternatives": ["chroma", "lancedb", "weaviate", "qdrant"],
   "capabilities": [
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "primary"
     },
     {
-      "id": "vector-search"
+      "id": "vector-search",
+      "level": "primary"
     },
     {
-      "id": "rag-pipeline"
+      "id": "rag-pipeline",
+      "level": "secondary"
     },
     {
-      "id": "knowledge-graph"
+      "id": "knowledge-graph",
+      "level": "secondary"
     },
     {
-      "id": "agent-framework"
+      "id": "agent-framework",
+      "level": "secondary"
     },
     {
-      "id": "automation-trigger"
+      "id": "automation-trigger",
+      "level": "secondary"
     }
   ]
 }

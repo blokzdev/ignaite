@@ -44,19 +44,24 @@
   ],
   "capabilities": [
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "primary"
     },
     {
-      "id": "web-research-agent"
+      "id": "web-research-agent",
+      "level": "primary"
     },
     {
-      "id": "lead-enrichment"
+      "id": "lead-enrichment",
+      "level": "secondary"
     },
     {
-      "id": "crm-automation"
+      "id": "crm-automation",
+      "level": "secondary"
     },
     {
-      "id": "cited-answers"
+      "id": "cited-answers",
+      "level": "secondary"
     }
   ]
 }

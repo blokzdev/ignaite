@@ -48,10 +48,12 @@
   "alternatives": ["langgraph", "n8n", "mastra", "vercel-ai-sdk"],
   "capabilities": [
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "primary"
     },
     {
-      "id": "agent-orchestration"
+      "id": "agent-orchestration",
+      "level": "secondary"
     }
   ]
 }

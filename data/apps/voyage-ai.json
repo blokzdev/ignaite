@@ -58,7 +58,8 @@
   ],
   "capabilities": [
     {
-      "id": "embeddings"
+      "id": "embeddings",
+      "level": "primary"
     }
   ]
 }

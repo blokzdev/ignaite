@@ -48,16 +48,20 @@
   ],
   "capabilities": [
     {
-      "id": "clinical-documentation"
+      "id": "clinical-documentation",
+      "level": "primary"
     },
     {
-      "id": "medical-coding"
+      "id": "medical-coding",
+      "level": "secondary"
     },
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "secondary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

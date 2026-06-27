@@ -66,10 +66,12 @@
   ],
   "capabilities": [
     {
-      "id": "speaker-diarization"
+      "id": "speaker-diarization",
+      "level": "primary"
     },
     {
-      "id": "speech-to-text"
+      "id": "speech-to-text",
+      "level": "secondary"
     }
   ]
 }

@@ -39,7 +39,8 @@
   "alternatives": ["composio", "smithery", "glama"],
   "capabilities": [
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     }
   ]
 }

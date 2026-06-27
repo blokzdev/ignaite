@@ -50,16 +50,20 @@
   ],
   "capabilities": [
     {
-      "id": "mcp-gateway"
+      "id": "mcp-gateway",
+      "level": "primary"
     },
     {
-      "id": "mcp-server"
+      "id": "mcp-server",
+      "level": "primary"
     },
     {
-      "id": "llm-observability"
+      "id": "llm-observability",
+      "level": "secondary"
     },
     {
-      "id": "prompt-management"
+      "id": "prompt-management",
+      "level": "secondary"
     }
   ]
 }

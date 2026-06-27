@@ -54,10 +54,12 @@
   ],
   "capabilities": [
     {
-      "id": "image-upscaling"
+      "id": "image-upscaling",
+      "level": "primary"
     },
     {
-      "id": "image-editing"
+      "id": "image-editing",
+      "level": "primary"
     }
   ]
 }

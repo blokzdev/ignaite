@@ -44,19 +44,24 @@
   ],
   "capabilities": [
     {
-      "id": "financial-modeling"
+      "id": "financial-modeling",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     },
     {
-      "id": "financial-research"
+      "id": "financial-research",
+      "level": "secondary"
     },
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     }
   ]
 }

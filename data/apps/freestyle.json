@@ -48,13 +48,16 @@
   "alternatives": ["e2b", "daytona", "blaxel", "runloop"],
   "capabilities": [
     {
-      "id": "code-execution"
+      "id": "code-execution",
+      "level": "primary"
     },
     {
-      "id": "app-deployment"
+      "id": "app-deployment",
+      "level": "primary"
     },
     {
-      "id": "app-builder"
+      "id": "app-builder",
+      "level": "secondary"
     }
   ]
 }

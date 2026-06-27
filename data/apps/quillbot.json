@@ -44,22 +44,28 @@
   "alternatives": ["grammarly", "wordtune", "prowritingaid", "rytr"],
   "capabilities": [
     {
-      "id": "text-editing"
+      "id": "text-editing",
+      "level": "primary"
     },
     {
-      "id": "summarization"
+      "id": "summarization",
+      "level": "secondary"
     },
     {
-      "id": "translation"
+      "id": "translation",
+      "level": "secondary"
     },
     {
-      "id": "long-form-writing"
+      "id": "long-form-writing",
+      "level": "secondary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     },
     {
-      "id": "text-to-image"
+      "id": "text-to-image",
+      "level": "secondary"
     }
   ]
 }

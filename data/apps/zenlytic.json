@@ -48,16 +48,20 @@
   ],
   "capabilities": [
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     },
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "primary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     }
   ]
 }

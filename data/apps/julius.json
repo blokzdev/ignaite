@@ -53,19 +53,24 @@
   "alternatives": ["hex", "powerdrill", "databricks-genie", "thoughtspot"],
   "capabilities": [
     {
-      "id": "data-analysis"
+      "id": "data-analysis",
+      "level": "primary"
     },
     {
-      "id": "text-to-sql"
+      "id": "text-to-sql",
+      "level": "secondary"
     },
     {
-      "id": "spreadsheet-automation"
+      "id": "spreadsheet-automation",
+      "level": "secondary"
     },
     {
-      "id": "report-generation"
+      "id": "report-generation",
+      "level": "secondary"
     },
     {
-      "id": "presentation-generation"
+      "id": "presentation-generation",
+      "level": "secondary"
     }
   ]
 }

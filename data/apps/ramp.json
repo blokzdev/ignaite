@@ -56,19 +56,24 @@
   "accentColor": "#B6F400",
   "capabilities": [
     {
-      "id": "expense-management"
+      "id": "expense-management",
+      "level": "primary"
     },
     {
-      "id": "document-parsing"
+      "id": "document-parsing",
+      "level": "secondary"
     },
     {
-      "id": "bookkeeping"
+      "id": "bookkeeping",
+      "level": "secondary"
     },
     {
-      "id": "fraud-detection"
+      "id": "fraud-detection",
+      "level": "secondary"
     },
     {
-      "id": "workflow-orchestration"
+      "id": "workflow-orchestration",
+      "level": "secondary"
     }
   ]
 }

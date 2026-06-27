@@ -35,13 +35,16 @@
   "alternatives": ["nomi", "character-ai", "replika", "sillytavern"],
   "capabilities": [
     {
-      "id": "companion-chat"
+      "id": "companion-chat",
+      "level": "primary"
     },
     {
-      "id": "roleplay-characters"
+      "id": "roleplay-characters",
+      "level": "primary"
     },
     {
-      "id": "agent-memory"
+      "id": "agent-memory",
+      "level": "secondary"
     }
   ]
 }
