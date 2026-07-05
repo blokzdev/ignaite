@@ -33,7 +33,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 37,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-05",
   "edge": "Runs open models on its own FireAttention serving stack, tuned for lower latency than off-the-shelf inference runtimes.",
   "pros": [
     "Custom FireAttention inference stack",
