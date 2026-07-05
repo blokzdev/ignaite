@@ -1,0 +1,43 @@
+{
+  "slug": "papr",
+  "name": "Papr",
+  "tagline": "Memory graph and retrieval layer that gives AI agents long-term context.",
+  "description": "Papr is a memory layer for AI agents that turns unstructured data—documents, conversations, and logs—into a searchable knowledge graph with long-term recall. It offers graph-aware retrieval, automatic chat-memory compression, and TypeScript and Python SDKs, exposed through a REST API and a managed cloud dashboard. Its papr-2 model reports sub-150ms cached retrieval, and the core can be self-hosted.",
+  "insight": "Papr's papr-2 model ranks #1 on Stanford's STaRK retrieval benchmark, at 91%+ hit@5.",
+  "category": "memory",
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Papr",
+  "platforms": ["web", "api"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "capabilities": [
+    { "id": "agent-memory", "level": "primary" },
+    { "id": "knowledge-graph", "level": "primary" },
+    { "id": "vector-search", "level": "secondary" },
+    { "id": "rag-pipeline", "level": "secondary" }
+  ],
+  "tags": ["memory", "agent-memory", "knowledge-graph", "rag", "open-source"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://papr.ai",
+      "primary": true
+    }
+  ],
+  "addedAt": "2026-07-05",
+  "addedSeq": 1031,
+  "lastVerifiedAt": "2026-07-05",
+  "edge": "Predictive memory graph that surfaces anticipated context to agents, rather than only returning similarity-matched chunks like a vector store.",
+  "pros": [
+    "Open-source AGPL-3.0 core",
+    "TypeScript and Python SDKs",
+    "Managed cloud or self-hostable",
+    "Automatic chat-memory compression"
+  ],
+  "cons": ["Newer, smaller ecosystem", "Memory-only scope", "AGPL may deter some commercial use"],
+  "bestFor": ["AI agent builders", "RAG and memory teams"],
+  "alternatives": ["mem0", "zep", "supermemory", "graphlit"]
+}

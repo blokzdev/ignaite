@@ -1,0 +1,44 @@
+{
+  "slug": "kombai",
+  "name": "Kombai",
+  "tagline": "AI frontend agent that turns Figma, images, and prompts into production React code.",
+  "description": "Kombai is a domain-specialized AI agent for frontend development that converts Figma designs, images, and text prompts into production-ready React and HTML. It scans your repository to match your stack and conventions, applies best practices across 400+ frontend libraries, and pairs a design canvas with code generation and in-browser refinement. On its internal 200+ task benchmark it reports a 96% compilation success rate.",
+  "insight": "Raised $4.5M led by Stellaris Venture Partners.",
+  "category": "agent",
+  "secondaryCategories": ["design"],
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Kombai",
+  "platforms": ["web", "vscode-extension"],
+  "capabilities": [
+    { "id": "ui-design", "level": "primary" },
+    { "id": "code-generation", "level": "primary" },
+    { "id": "agentic-coding", "level": "secondary" },
+    { "id": "ide-integration", "level": "secondary" }
+  ],
+  "tags": ["frontend", "design-to-code", "react", "figma", "coding-agent"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kombai.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://kombai.com/pricing"
+    }
+  ],
+  "addedAt": "2026-07-05",
+  "addedSeq": 1033,
+  "lastVerifiedAt": "2026-07-05",
+  "edge": "Frontend-only specialist that reads your repo and applies conventions for 400+ UI libraries, where general coding agents produce generic components.",
+  "pros": [
+    "Design-to-code from Figma and images",
+    "Repo-aware, matches your stack",
+    "Generous free tier (300 credits/mo)",
+    "Canvas design and code in one loop"
+  ],
+  "cons": ["Frontend-only scope", "Credit-based usage limits", "Newer, smaller ecosystem"],
+  "bestFor": ["Frontend developers", "Design engineers", "Product teams"],
+  "alternatives": ["v0", "lovable", "cursor"]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "metorial",
+  "name": "Metorial",
+  "tagline": "Open-source integration gateway that connects AI agents to tools via MCP.",
+  "description": "Metorial is an open-source integration and access layer for AI agents, exposing 1,200+ tools through the Model Context Protocol with consistent auth, permissions, and session observability. It can host custom MCP servers on serverless infrastructure and provides Python and TypeScript SDKs, a hosted cloud, and self-hosting. Every MCP session is recorded for review in its dashboard.",
+  "insight": "Built by ex-Valicit founders Karim Rahme and Tobias Herber; part of Y Combinator's Fall 2025 batch.",
+  "category": "mcp",
+  "secondaryCategories": ["agent"],
+  "pricing": "freemium",
+  "openSource": true,
+  "deployment": "hybrid",
+  "vendor": "Metorial",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "capabilities": [
+    { "id": "mcp-gateway", "level": "primary" },
+    { "id": "mcp-server", "level": "primary" },
+    { "id": "tool-calling", "level": "primary" },
+    { "id": "app-deployment", "level": "secondary" }
+  ],
+  "tags": ["mcp", "integrations", "open-source", "agents", "tool-calling"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://metorial.com",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/metorial/metorial"
+    }
+  ],
+  "addedAt": "2026-07-05",
+  "addedSeq": 1032,
+  "lastVerifiedAt": "2026-07-05",
+  "edge": "Hibernating serverless MCP hosting spins servers up in under a second and idles them to zero, so you pay per request instead of per idle connection.",
+  "pros": [
+    "Open-source Apache-2.0",
+    "1,200+ tool integrations",
+    "Per-session auth and observability",
+    "Managed cloud or self-host"
+  ],
+  "cons": ["Very new (founded 2025)", "Small community", "MCP-centric workflow"],
+  "bestFor": ["Agent developers", "AI platform teams"],
+  "alternatives": ["composio", "nango", "smithery", "klavis-ai"]
+}

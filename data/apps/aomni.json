@@ -1,0 +1,47 @@
+{
+  "slug": "aomni",
+  "name": "Aomni",
+  "tagline": "Autonomous AI research agents for B2B sales and revenue teams.",
+  "description": "Aomni is an AI sales-intelligence platform that runs autonomous agents to research target accounts, enrich contacts, and generate personalized outreach. Its agents perform live web research across 20+ sources, aggregating over 1,000 data points per account, then draft account plans and email and LinkedIn sequences. It integrates with Salesforce, HubSpot, Gmail, and other revenue tools.",
+  "insight": "Raised a $4M seed led by Decibel; used by revenue teams at Nvidia, AMD, and Oracle.",
+  "category": "sales",
+  "pricing": "freemium",
+  "deployment": "cloud",
+  "vendor": "Aomni",
+  "platforms": ["web"],
+  "capabilities": [
+    { "id": "web-research-agent", "level": "primary" },
+    { "id": "lead-enrichment", "level": "primary" },
+    { "id": "outbound-prospecting", "level": "secondary" },
+    { "id": "crm-automation", "level": "secondary" }
+  ],
+  "tags": ["sales", "account-research", "sales-intelligence", "outbound", "abm"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.aomni.com",
+      "primary": true
+    },
+    {
+      "kind": "pricing",
+      "url": "https://www.aomni.com/pricing"
+    }
+  ],
+  "addedAt": "2026-07-05",
+  "addedSeq": 1034,
+  "lastVerifiedAt": "2026-07-05",
+  "edge": "Spins up real browsers to research each account live across the web, instead of pulling stale firmographics from a static contact database.",
+  "pros": [
+    "Live multi-source account research",
+    "Deep per-account enrichment",
+    "CRM and email integrations",
+    "Free tier to start"
+  ],
+  "cons": [
+    "Pricing is largely quote-based",
+    "Mid-market and enterprise focus",
+    "Sales-only use case"
+  ],
+  "bestFor": ["B2B sales teams", "Account-based marketing", "Revenue operations"],
+  "alternatives": ["clay", "11x", "unify", "artisan"]
+}
