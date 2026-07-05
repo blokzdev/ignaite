@@ -1,0 +1,49 @@
+{
+  "slug": "nango",
+  "name": "Nango",
+  "tagline": "Integration platform to connect AI agents and products to 800+ external APIs.",
+  "description": "Nango is an integration platform for building and running product and agent integrations across 800+ APIs. You write integration logic as TypeScript—or let AI generate it—and deploy to Nango's runtime, which handles auth, execution, scaling, and observability. AI agents consume those integrations through an MCP server, tool calls, webhooks, and data syncs. It runs as managed cloud or self-hosted.",
+  "insight": "Backed by Google's Gradient Ventures; used in production by Replit, Ramp, and Mercor.",
+  "category": "mcp",
+  "pricing": "freemium",
+  "deployment": "hybrid",
+  "vendor": "Nango",
+  "platforms": ["web", "api", "cli"],
+  "modelSupport": {
+    "kind": "model-agnostic"
+  },
+  "capabilities": [
+    { "id": "mcp-server", "level": "primary" },
+    { "id": "tool-calling", "level": "primary" },
+    { "id": "etl-pipeline", "level": "secondary" }
+  ],
+  "tags": ["integrations", "unified-api", "mcp", "self-hostable", "agents"],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://nango.dev",
+      "primary": true
+    },
+    {
+      "kind": "github",
+      "url": "https://github.com/NangoHQ/nango"
+    }
+  ],
+  "addedAt": "2026-07-05",
+  "addedSeq": 1035,
+  "lastVerifiedAt": "2026-07-05",
+  "edge": "You write integration logic as plain TypeScript, or generate it with AI, instead of being limited to a fixed catalog of prebuilt connectors.",
+  "pros": [
+    "Self-hostable integration runtime",
+    "800+ API integrations",
+    "MCP server and tool calling for agents",
+    "Handles auth, syncs, and webhooks"
+  ],
+  "cons": [
+    "Elastic License, not OSI open source",
+    "Usage-metered pricing adds up",
+    "Integrations need maintenance"
+  ],
+  "bestFor": ["Developers", "SaaS product teams", "Agent builders"],
+  "alternatives": ["composio", "metorial", "arcade", "klavis-ai"]
+}
