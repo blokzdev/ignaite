@@ -28,7 +28,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 36,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-05",
   "edge": "Visual prompting lets you point at a few examples instead of labeling a full training set.",
   "pros": [
     "Fast path to a deployable detector",

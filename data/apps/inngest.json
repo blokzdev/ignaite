@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 25,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-05",
   "edge": "Durable, resumable functions with no message queue or worker pool for you to stand up and operate.",
   "pros": [
     "Durable execution, automatic retries",
