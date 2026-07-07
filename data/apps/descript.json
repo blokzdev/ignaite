@@ -74,5 +74,7 @@
       "id": "subtitle-generation",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-07-07"
 }

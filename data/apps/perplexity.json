@@ -7,7 +7,7 @@
   "category": "search",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Perplexity AI",
   "platforms": ["web", "ios", "android", "macos", "windows", "api"],
   "modelSupport": {

@@ -7,7 +7,7 @@
   "category": "image-gen",
   "pricing": "paid",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Midjourney",
   "platforms": ["web"],
   "modelSupport": {

@@ -49,5 +49,7 @@
       "id": "image-to-3d",
       "level": "primary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-07-07"
 }

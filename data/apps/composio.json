@@ -47,7 +47,7 @@
   ],
   "bestFor": ["AI agent builders", "Developers", "Agent platform teams"],
   "alternatives": ["arcade", "smithery", "glama", "context7"],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-21",
   "accentColor": "#6366F1",
   "capabilities": [

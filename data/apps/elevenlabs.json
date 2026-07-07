@@ -7,7 +7,7 @@
   "category": "voice",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "ElevenLabs",
   "platforms": ["web", "api"],
   "modelSupport": {
