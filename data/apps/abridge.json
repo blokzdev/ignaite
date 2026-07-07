@@ -41,7 +41,7 @@
       "kind": "analysis"
     }
   ],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-21",
   "accentColor": "#3B82F6",
   "capabilities": [

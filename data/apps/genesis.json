@@ -68,5 +68,7 @@
       "id": "sim-to-real",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-07-07"
 }

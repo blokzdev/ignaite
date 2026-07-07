@@ -42,7 +42,7 @@
   ],
   "bestFor": ["Marketing teams", "Agencies", "Enterprise brand teams"],
   "alternatives": ["copy-ai", "writer", "rytr", "adcreative-ai"],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-21",
   "capabilities": [
     {

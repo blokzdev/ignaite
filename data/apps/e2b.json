@@ -61,7 +61,7 @@
       "kind": "benchmark"
     }
   ],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-21",
   "accentColor": "#FF8800",
   "capabilities": [

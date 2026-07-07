@@ -60,5 +60,8 @@
       "id": "flashcard-generation",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-07-07",
+  "accentColor": "#2563EB"
 }

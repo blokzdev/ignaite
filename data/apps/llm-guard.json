@@ -57,5 +57,8 @@
       "id": "ai-security-scanning",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-07-07",
+  "accentColor": "#4F46E5"
 }

@@ -72,5 +72,8 @@
       "id": "crm-automation",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-07-07",
+  "accentColor": "#34D399"
 }

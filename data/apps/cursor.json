@@ -7,7 +7,7 @@
   "category": "ide",
   "pricing": "freemium",
   "deployment": "local",
-  "featured": true,
+  "featured": false,
   "vendor": "Anysphere",
   "platforms": ["macos", "windows", "linux"],
   "modelSupport": {

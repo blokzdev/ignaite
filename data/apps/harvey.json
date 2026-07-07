@@ -44,7 +44,7 @@
   ],
   "bestFor": ["Large law firms", "AmLaw 100 firms", "Corporate legal teams"],
   "alternatives": ["cocounsel", "legora", "spellbook", "luminance"],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-21",
   "accentColor": "#4F46E5",
   "capabilities": [

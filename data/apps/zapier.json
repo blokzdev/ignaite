@@ -7,7 +7,7 @@
   "category": "automation",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Zapier",
   "platforms": ["web", "api"],
   "modelSupport": {

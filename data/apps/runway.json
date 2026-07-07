@@ -7,7 +7,7 @@
   "category": "video",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Runway",
   "platforms": ["web"],
   "modelSupport": {

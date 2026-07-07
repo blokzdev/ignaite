@@ -44,7 +44,7 @@
   ],
   "bestFor": ["Writers", "Developers", "Long-context users"],
   "alternatives": ["chatgpt", "gemini", "grok", "le-chat"],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-06-21",
   "capabilities": [
     {
