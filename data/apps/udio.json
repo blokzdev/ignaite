@@ -28,7 +28,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 44,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-12",
   "changelog": [
     {
       "date": "2026-06-09",
@@ -47,7 +47,8 @@
     "Smaller free credits than rivals",
     "Copyright/training-data scrutiny",
     "No public API",
-    "Web/iOS only"
+    "Web/iOS only",
+    "No downloads — walled garden after UMG deal"
   ],
   "bestFor": ["Music producers", "Songwriters", "Hobbyist musicians"],
   "alternatives": ["suno", "riffusion", "mureka", "sonauto"],
