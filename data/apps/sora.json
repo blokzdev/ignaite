@@ -28,7 +28,17 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 9,
-  "lastVerifiedAt": "2026-06-01",
+  "status": "archived",
+  "lastVerifiedAt": "2026-07-12",
+  "changelog": [
+    {
+      "date": "2026-07-12",
+      "kind": "archived",
+      "summary": "Archived — OpenAI discontinued the Sora web and app on 2026-04-26 (API sunsets 2026-09-24) after heavy losses; the standalone consumer app is shut down.",
+      "asOf": "2026-04-26",
+      "source": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+    }
+  ],
   "edge": "Shipped as a TikTok-style social app with a feed, remixing, and cameos — consumer-first, unlike the API-first video tools around it.",
   "pros": [
     "Synced dialogue and sound effects",

@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 20,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-12",
   "edge": "Deepest native LangChain/LangGraph tracing — but cloud-only, where Langfuse lets you self-host the same.",
   "pros": [
     "Native LangChain/LangGraph tracing",

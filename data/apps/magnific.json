@@ -18,17 +18,25 @@
   "links": [
     {
       "kind": "website",
-      "url": "https://magnific.ai",
+      "url": "https://www.magnific.com",
       "primary": true
     },
     {
       "kind": "pricing",
-      "url": "https://magnific.ai/pricing"
+      "url": "https://www.magnific.com/pricing"
     }
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 27,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-12",
+  "changelog": [
+    {
+      "date": "2026-07-12",
+      "kind": "updated",
+      "summary": "Primary + pricing links moved to magnific.com after Freepik's rebrand to Magnific (magnific.ai 301-redirects there); dropped the stale 'no public API' con — an Image API now ships.",
+      "source": "https://www.magnific.com/pricing"
+    }
+  ],
   "edge": "Reimagines detail on upscale with creativity sliders and presets — invents plausible texture instead of just sharpening.",
   "pros": [
     "Adds realistic texture and detail",
@@ -39,8 +47,7 @@
   "cons": [
     "Paid-only, expensive, no free trial",
     "Can hallucinate at high creativity",
-    "Won't repair malformed source",
-    "No public API for automation"
+    "Won't repair malformed source"
   ],
   "bestFor": ["Concept artists", "Product photographers", "Designers"],
   "alternatives": ["krea", "leonardo-ai", "recraft", "midjourney"],

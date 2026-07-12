@@ -24,16 +24,24 @@
     },
     {
       "kind": "github",
-      "url": "https://github.com/All-Hands-AI/OpenHands"
+      "url": "https://github.com/OpenHands/OpenHands"
     },
     {
       "kind": "docs",
-      "url": "https://docs.all-hands.dev"
+      "url": "https://docs.openhands.dev"
     }
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 31,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-12",
+  "changelog": [
+    {
+      "date": "2026-07-12",
+      "kind": "updated",
+      "summary": "Updated GitHub + docs links to the OpenHands org — repo renamed from All-Hands-AI/OpenHands to OpenHands/OpenHands; docs now at docs.openhands.dev.",
+      "source": "https://github.com/OpenHands/OpenHands"
+    }
+  ],
   "edge": "Leading open-source, self-hostable Devin-style SWE agent — read the code, swap any model, run your own sandbox.",
   "pros": [
     "Browser, terminal, and editor in a sandbox",
