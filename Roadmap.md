@@ -271,7 +271,7 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
 ## Iteration 12 — Platform: accounts, user layer & admin (Phases 1–5) 🟦 in progress
 
 The architectural shift from a purely-static site into a **platform**: user accounts (Google
-sign-in), bookmarks, an admin backend, and eventually community + monetization — added *without*
+sign-in), bookmarks, an admin backend, and eventually community + monetization — added _without_
 surrendering the git-authored, SSG-first directory. Design of record (7-agent workflow +
 adversarial review): **`docs/architecture-supabase-user-layer.md`**.
 
@@ -286,7 +286,7 @@ render path — so the §10 perf budgets hold.
 **immutable Google UID** behind `ganesh575@gmail.com` (RLS + middleware + Vault token — never an
 email string, never client-writable metadata).
 
-- **Phase 1 — Auth + bookmarks + user UI/UX** (🟦 target chunk). `@supabase/ssr` Google sign-in
+- **Phase 1 — Auth + bookmarks + user UI/UX** ✅ **shipped (#370)**. `@supabase/ssr` Google sign-in
   (server-only clients → ~0 KB `supabase-js` on static routes), `profiles` + `bookmarks` (slug
   soft-FKs resolved against Velite content) + self-serve account deletion (Edge Function), a
   `/account` area (profile · settings · My bookmarks), nav account menu + bookmark toggles as small

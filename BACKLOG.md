@@ -50,13 +50,11 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
 > Supabase adds the user-native layer + a derived read model. These **[user]** items gate Phase 1
 > (auth + bookmarks) implementation — hand them back and Phase 1 ships end-to-end.
 
-- [ ] **[user]** Sign off on the dependency add: `@supabase/supabase-js` (~53.5 KB gz) +
-      `@supabase/ssr` (~5.6 KB gz) — **~59 KB gz combined, server-side only**, stays out of the `/`
-      and `/apps/*` client chunks (CLAUDE.md §11). Nothing else added (no NextAuth, no realtime).
-- [ ] **[user]** Create a Supabase project in the **Blokz Team** org (a new project is **$0/mo**;
-      us-east-1 to match the org). Hand back `NEXT_PUBLIC_SUPABASE_URL`,
-      `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SECRET_KEY`. _(I can create it via the Supabase
-      MCP on your say-so.)_
+- [x] **[user]** ~~Sign off on the dependency add: `@supabase/supabase-js` + `@supabase/ssr`~~ — done
+      in #370 (~59 KB gz combined, server-side only; verified absent from `/` and `/apps/*` chunks).
+- [x] **[user]** ~~Create a Supabase project~~ — done: project `ignaite` (ref `jildtuofapktmsijgyyb`)
+      in Blokz Team, us-east-1, $0/mo. URL + publishable key wired; no secret key needed in the app
+      (the delete-account Edge Function uses the platform-injected service-role key).
 - [ ] **[user] [verify]** Confirm the project's JWT signing key is **asymmetric** (RS256/ES256) so
       middleware `getClaims()` verifies locally (network-free). Projects created after 2025-10-01
       default to this; older ones migrate under Auth → JWT Keys. Symmetric still works (one verify
