@@ -1,10 +1,12 @@
 "use client";
+import { BookmarkToggle } from "@/components/auth/bookmark-toggle";
 import { BackCrumb } from "./back-crumb";
 import { CopyLinkButton } from "./copy-link-button";
 
 interface Props {
   appName: string;
   shareUrl: string;
+  slug: string;
 }
 
 // Sticky contextual page-level toolbar, full-bleed and flush under the site
@@ -20,11 +22,12 @@ interface Props {
 // (search / category / filter / directory) and returns there via real history;
 // its trail scrolls between the fixed round back button and the copy button. See
 // <BackCrumb>.
-export function DetailToolbar({ appName, shareUrl }: Readonly<Props>) {
+export function DetailToolbar({ appName, shareUrl, slug }: Readonly<Props>) {
   return (
     <div className="sticky top-[calc(min(var(--nav-h),var(--nav-row-h))+var(--safe-top))] z-30 h-[var(--detail-toolbar-h)] border-b border-white/[0.06] bg-[var(--color-canvas)]/85 backdrop-blur-xl">
       <div className="safe-px mx-auto flex h-full max-w-6xl items-center gap-3">
         <BackCrumb appName={appName} />
+        <BookmarkToggle kind="app" slug={slug} />
         <CopyLinkButton url={shareUrl} iconOnly />
       </div>
     </div>
