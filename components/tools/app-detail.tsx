@@ -84,7 +84,7 @@ export function AppDetail({ app }: Readonly<Props>): ReactElement {
   return (
     <AppDetailShell
       accent={accent}
-      toolbar={<DetailToolbar appName={app.name} shareUrl={shareUrl} />}
+      toolbar={<DetailToolbar appName={app.name} shareUrl={shareUrl} slug={app.slug} />}
       actionBar={<DetailActionBar app={app} markdown={exportMarkdown} json={exportJson} />}
     >
       <Masthead

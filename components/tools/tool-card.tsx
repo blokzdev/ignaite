@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { BookmarkToggle } from "@/components/auth/bookmark-toggle";
 import type { App } from "@/types/app";
 import { CATEGORY_LABEL } from "@/lib/tools/category-labels";
 import { licenseSignal } from "@/lib/tools/license";
@@ -175,6 +176,9 @@ export function ToolCard({ app }: Readonly<Props>) {
             </Link>
           );
         })}
+        {/* Bookmark — client island, lifted above the stretched-link overlay (z-[2]).
+            Pushed to the right so it reads as a distinct save affordance. */}
+        <BookmarkToggle kind="app" slug={app.slug} className="ml-auto" />
       </div>
     </article>
   );

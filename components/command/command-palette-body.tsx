@@ -1,6 +1,6 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
-import { ChevronRight, Info, LayoutGrid, Mail, Route, Tag } from "lucide-react";
+import { ChevronRight, Info, LayoutGrid, Mail, Route, Tag, User } from "lucide-react";
 import { useState, type ComponentType } from "react";
 import {
   CommandDialog,
@@ -34,6 +34,8 @@ const PAGES: ReadonlyArray<{
   { label: "Recipes", href: "/recipes", icon: Route },
   { label: "About", href: "/about", icon: Info },
   { label: "Contact", href: "/contact", icon: Mail },
+  // Routes to the account area; middleware redirects to /sign-in when signed out.
+  { label: "Account", href: "/account", icon: User },
 ];
 
 // Browsable recipes for the palette (archived hidden; "stale" still shown).

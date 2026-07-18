@@ -44,6 +44,7 @@ v2 is the live site (this codebase). The legacy v1 Glitch template is preserved 
 | Package manager  | `pnpm`                                                  | Mandatory (`engine-strict=true`, pinned via `packageManager`)    | 10.x    |
 | Runtime          | Node                                                    | LTS                                                              | ≥20.11  |
 | Deploy           | Vercel                                                  | SSG + a contact **server action** (`contact/actions.ts`)         | n/a     |
+| User layer       | Supabase (`@supabase/supabase-js` + `@supabase/ssr`)    | Accounts (Google), bookmarks, admin; git→DB projected read model | 2.x/0.x |
 | Tests (optional) | Playwright                                              | Smoke tests on hero/workflow                                     | 1.48+   |
 
 Don't add a dependency without confirming with the user (see §11). Don't change a pinned major version without confirmation.
@@ -480,6 +481,14 @@ RESEND_API_KEY=             # required for the /contact server action
 CONTACT_TO_EMAIL=team@ignaite.app
 CONTACT_FROM_EMAIL=Ignaite <hello@ignaite.app>   # optional; falls back to onboarding@resend.dev
 NEXT_PUBLIC_SITE_URL=http://localhost:3000   # prod: https://ignaite.app
+
+# — Supabase user layer (Iteration 12, Phase 1: auth + bookmarks) —
+NEXT_PUBLIC_SUPABASE_URL=https://<ref>.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_…   # client-safe (2026 naming; replaces anon)
+# NO SUPABASE_SECRET_KEY in app env: the only Phase-1 privileged op (account deletion) runs in the
+# `delete-account` Supabase Edge Function, which receives SUPABASE_SERVICE_ROLE_KEY from the platform.
+# The layer degrades gracefully when these are unset (lib/supabase/env.ts) — the static directory is
+# never affected, so CI/preview builds pass without them.
 ```
 
 Vercel project env (production + preview):
@@ -488,6 +497,8 @@ Vercel project env (production + preview):
 - `CONTACT_TO_EMAIL`
 - `CONTACT_FROM_EMAIL` (optional)
 - `NEXT_PUBLIC_SITE_URL` = `https://ignaite.app`
+- `NEXT_PUBLIC_SUPABASE_URL` = `https://<ref>.supabase.co` (Supabase user layer)
+- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` = `sb_publishable_…` (client-safe)
 
 Never log secret values. Never check secrets into the repo. If you find a leaked secret in history, alert the user and recommend rotation.
 

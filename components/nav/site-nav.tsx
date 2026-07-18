@@ -11,6 +11,7 @@ import { useScrollDirection } from "@/hooks/use-scroll-direction";
 import { useScrollThreshold } from "@/hooks/use-scroll-threshold";
 import { isActiveNav } from "@/lib/nav";
 import { cn } from "@/lib/utils";
+import { AccountMenu } from "@/components/auth/account-menu";
 import { DirectoryConsoleSkeleton } from "./directory-console-skeleton";
 
 // The directory search/filter console is a separate chunk, loaded only on `/`
@@ -131,6 +132,8 @@ export function SiteNav() {
                 </kbd>
               </button>
             )}
+
+            <AccountMenu />
           </div>
 
           <MobileNavCluster />

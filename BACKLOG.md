@@ -44,6 +44,37 @@ Things that would make the site feel more "us" before the world sees it.
 
 Anything in this section is explicitly safe to defer to after v2 goes live.
 
+### Platform: accounts, user layer & admin (Iteration 12)
+
+> Design of record: `docs/architecture-supabase-user-layer.md`. Git stays the source of truth;
+> Supabase adds the user-native layer + a derived read model. These **[user]** items gate Phase 1
+> (auth + bookmarks) implementation — hand them back and Phase 1 ships end-to-end.
+
+- [ ] **[user]** Sign off on the dependency add: `@supabase/supabase-js` (~53.5 KB gz) +
+      `@supabase/ssr` (~5.6 KB gz) — **~59 KB gz combined, server-side only**, stays out of the `/`
+      and `/apps/*` client chunks (CLAUDE.md §11). Nothing else added (no NextAuth, no realtime).
+- [ ] **[user]** Create a Supabase project in the **Blokz Team** org (a new project is **$0/mo**;
+      us-east-1 to match the org). Hand back `NEXT_PUBLIC_SUPABASE_URL`,
+      `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SECRET_KEY`. _(I can create it via the Supabase
+      MCP on your say-so.)_
+- [ ] **[user] [verify]** Confirm the project's JWT signing key is **asymmetric** (RS256/ES256) so
+      middleware `getClaims()` verifies locally (network-free). Projects created after 2025-10-01
+      default to this; older ones migrate under Auth → JWT Keys. Symmetric still works (one verify
+      round-trip per protected request) — migrate before launch.
+- [ ] **[user]** Create a Google Cloud OAuth **Web** client. Authorized redirect URI = **Supabase's**
+      `https://<ref>.supabase.co/auth/v1/callback` (NOT the app's `/auth/callback` — the #1 "login does
+      nothing" bug). Paste Client ID + Secret into Supabase → Auth → Providers → Google; set Site URL +
+      the redirect allow-list (incl. the `*-<team>.vercel.app/auth/callback` preview wildcard); publish
+      the consent screen.
+- [ ] **[user]** Add the three Supabase env vars to `.env.local` + Vercel (prod + preview) — editing
+      `.env*` is a §11 action. `SUPABASE_SECRET_KEY` is server-only, never `NEXT_PUBLIC_`.
+- [ ] **[user]** After first sign-in, run the one-line `admins` seed for `ganesh575@gmail.com` (UID from
+      `auth.users`) so the admin lock resolves.
+- [ ] **[verify]** Phase-2 CSP: only if a **browser** Supabase client is ever introduced, extend
+      `next.config.ts` `connect-src` with `https://<ref>.supabase.co` (+ `wss://…` for realtime) or
+      auth/data calls fail **silently**. Phase 1 is server→Supabase only, so CSP stays untouched.
+- [ ] **[user] [future]** Phase 5: Stripe account + credits-vs-one-off pricing decision + price points.
+
 ### Directory expansion — Comparisons / Recipes / Insights (Iteration 11)
 
 > The approved program plan reframes the directory into a verified graph (Comparisons · Recipes ·

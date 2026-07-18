@@ -268,6 +268,48 @@ corpus, never hand-maintained prose, so the audit moat doesn't multiply.
 
 ---
 
+## Iteration 12 — Platform: accounts, user layer & admin (Phases 1–5) 🟦 in progress
+
+The architectural shift from a purely-static site into a **platform**: user accounts (Google
+sign-in), bookmarks, an admin backend, and eventually community + monetization — added *without*
+surrendering the git-authored, SSG-first directory. Design of record (7-agent workflow +
+adversarial review): **`docs/architecture-supabase-user-layer.md`**.
+
+**Invariant (non-negotiable):** git stays the source of truth. Apps + recipes are still authored in
+the repo (routine → PR → Velite `--strict` → merge); **Supabase is a _derived_ read model** + the
+home for user-native data. No Supabase→git edge (Phase-4 contributions / Phase-5 publish go
+git-ward via PR). Every marketing route (`/`, `/apps/*`, `/recipes/*`, …) stays **statically
+prerendered** — auth/bookmark state is client-hydrated after mount, never read from `cookies()` in a
+render path — so the §10 perf budgets hold.
+
+**Backend:** Supabase (Postgres + Auth + RLS + pgvector), Google OAuth. Admin locked to the
+**immutable Google UID** behind `ganesh575@gmail.com` (RLS + middleware + Vault token — never an
+email string, never client-writable metadata).
+
+- **Phase 1 — Auth + bookmarks + user UI/UX** (🟦 target chunk). `@supabase/ssr` Google sign-in
+  (server-only clients → ~0 KB `supabase-js` on static routes), `profiles` + `bookmarks` (slug
+  soft-FKs resolved against Velite content) + self-serve account deletion (Edge Function), a
+  `/account` area (profile · settings · My bookmarks), nav account menu + bookmark toggles as small
+  client islands. One migration `supabase/migrations/0001_user_layer.sql`. **Blocked on** dep
+  sign-off + Supabase project + Google OAuth creds — filed `BACKLOG.md` [user].
+- **Phase 2 — Content projection + live counts + pgvector** (⬜). `push:[main]` GitHub Action →
+  `project_content` RPC (declarative sync: status-normalized, `content_hash` no-ops, rename-safe,
+  circuit-breakered, soft-delete-only) → `apps`/`recipes`/`recipe_steps` read model; live
+  `apps↔recipes` counts; pgvector semantic search; bookmark slug→FK upgrade.
+- **Phase 3 — Admin console + routine triggers** (⬜). `/admin` (noindex, `is_admin()`-gated) fires
+  Claude Code routines (GitHub dispatch / CCR fire endpoint, Vault-held token) + a `routine_runs` log.
+- **Phase 4 — Comments + contributions** (⬜). Post-moderation + AI pass; contributions **PR-first**
+  (→ CI velite → merge → sync back), keeping git canonical.
+- **Phase 5 — Paid custom recipes** (⬜). Stripe **credits** → substance-gated async routine
+  generation → private (DB-only) **or** publish via human-review PR → git → community. Untrusted-param
+  (prompt-injection) hardening; hold-then-reverse ledger avoids chargeback exposure.
+
+Branches: `claude/<phase-slug>` (one PR per phase; Phase 1 may sub-split). Per-PR gate: the usual
+`pnpm velite`/`typecheck`/`lint`/`build` + `pnpm analyze` (assert **no `@supabase/*` in the `/` or
+`/apps/*` chunks**) + the §9 a11y checklist.
+
+---
+
 ## Iteration 5 — Directory-grade UI/UX refinement (Chunks F → M) ✅ complete
 
 **Goal**: make ignaite.app look and feel like a polished directory product on every screen

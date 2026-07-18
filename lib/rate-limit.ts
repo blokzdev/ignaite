@@ -18,7 +18,16 @@ export interface RateLimitResult {
   retryAfter?: number;
 }
 
-export function checkRateLimit(key: string): RateLimitResult {
+export interface RateLimitOptions {
+  /** Max allowed hits per window. Defaults to 5 (the contact-form default). */
+  limit?: number;
+  /** Window length in ms. Defaults to 60s. */
+  windowMs?: number;
+}
+
+export function checkRateLimit(key: string, opts?: RateLimitOptions): RateLimitResult {
+  const limit = opts?.limit ?? MAX_PER_WINDOW;
+  const windowMs = opts?.windowMs ?? WINDOW_MS;
   const now = Date.now();
   const bucket = buckets.get(key);
 
@@ -30,11 +39,11 @@ export function checkRateLimit(key: string): RateLimitResult {
   }
 
   if (!bucket || bucket.resetAt <= now) {
-    buckets.set(key, { count: 1, resetAt: now + WINDOW_MS });
+    buckets.set(key, { count: 1, resetAt: now + windowMs });
     return { ok: true };
   }
 
-  if (bucket.count >= MAX_PER_WINDOW) {
+  if (bucket.count >= limit) {
     return { ok: false, retryAfter: Math.ceil((bucket.resetAt - now) / 1000) };
   }
 
