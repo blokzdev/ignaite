@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 61,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
   "edge": "The zero-ops default: fully managed serverless with no infra to run, so teams ship RAG fast without a platform engineer.",
   "pros": [
     "No infra to provision or operate",

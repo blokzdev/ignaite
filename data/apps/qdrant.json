@@ -1,6 +1,6 @@
 {
   "slug": "qdrant",
-  "insight": "Berlin-based, founded 2021; raised a $28M Series A led by Spark Capital in January 2024.",
+  "insight": "Berlin-based, founded 2021; raised a $50M Series B led by Advance Venture Partners in March 2026 (~$88M total).",
   "name": "Qdrant",
   "tagline": "Open-source, Rust-based vector DB. Fast, predictable, self-hostable.",
   "description": "Vector database written in Rust with a strong focus on filtering, payloads, and predictable latency at scale. Self-host on a single binary or use the managed cloud.",
@@ -32,7 +32,16 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 22,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
+  "changelog": [
+    {
+      "date": "2026-07-26",
+      "kind": "updated",
+      "summary": "Insight refreshed: $50M Series B led by Advance Venture Partners (Mar 2026, ~$88M total) supersedes the previously cited 2024 $28M Series A.",
+      "asOf": "2026-03-12",
+      "source": "https://www.businesswire.com/news/home/20260312313902/en/Qdrant-Raises-$50-Million-Series-B-to-Define-Composable-Vector-Search-as-Core-Infrastructure-for-Production-AI"
+    }
+  ],
   "edge": "Rust single-binary you can self-host, with payload filtering strong enough that teams pick it for metadata-heavy search.",
   "pros": [
     "Open source, written in Rust",

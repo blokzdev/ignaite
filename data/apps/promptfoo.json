@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 24,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
   "edge": "Define evals in plain YAML and run one goldset across models in CI — a prompt regression fails the build like any other test.",
   "pros": [
     "YAML-driven, version-controllable evals",

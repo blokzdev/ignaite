@@ -1,6 +1,6 @@
 {
   "slug": "together-ai",
-  "insight": "Co-founded by Stanford's Percy Liang and FlashAttention author Tri Dao; raised $305M at a $3.3B valuation.",
+  "insight": "Co-founded by Stanford's Percy Liang and FlashAttention author Tri Dao; raised an $800M Series C at an $8.3B valuation in 2026.",
   "name": "Together AI",
   "tagline": "Hosted inference and fine-tuning for open-weights models.",
   "description": "Hosted inference and fine-tuning across hundreds of open-weights models (Llama, Mistral, DeepSeek, Qwen, etc.). Strong pricing for inference-at-scale; LoRA + full fine-tuning supported.",
@@ -33,7 +33,16 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 47,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
+  "changelog": [
+    {
+      "date": "2026-07-26",
+      "kind": "updated",
+      "summary": "Insight refreshed: $800M Series C at an $8.3B valuation (Jul 2026, led by Aramco Ventures) supersedes the prior $305M / $3.3B round.",
+      "asOf": "2026-07-01",
+      "source": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+    }
+  ],
   "edge": "One stop for the open-model stack: hundreds of open-weights models served plus both LoRA and full fine-tuning.",
   "pros": [
     "LoRA and full fine-tuning",
