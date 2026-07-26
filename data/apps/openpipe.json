@@ -6,7 +6,7 @@
   "description": "Captures your production OpenAI / Anthropic calls, builds a dataset, fine-tunes a small open-weights model on your traffic, then serves the swap behind your existing SDK. The pitch: 10x cost reduction at parity.",
   "category": "fine-tuning",
   "secondaryCategories": ["inference"],
-  "pricing": "freemium",
+  "pricing": "paid",
   "deployment": "cloud",
   "vendor": "OpenPipe",
   "platforms": ["api"],
@@ -33,7 +33,15 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 66,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
+  "changelog": [
+    {
+      "date": "2026-07-26",
+      "kind": "updated",
+      "summary": "Pricing corrected freemium → paid: post-CoreWeave RL pivot, official pricing is usage-based only (training $0.48–$2.90/1M tokens, hosted inference per-token/hourly) with no permanent free tier.",
+      "source": "https://docs.openpipe.ai/pricing/pricing"
+    }
+  ],
   "edge": "Turns your own logged GPT/Claude traffic into a fine-tuned small model, then serves the swap behind your existing SDK.",
   "pros": [
     "Uses your production logs as training data",

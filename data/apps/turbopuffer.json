@@ -1,6 +1,6 @@
 {
   "slug": "turbopuffer",
-  "insight": "Built by two ex-Shopify engineers; it reached a ~$100M run-rate powering Cursor and Notion having raised under $1M.",
+  "insight": "Built by two ex-Shopify engineers; bootstrapped on under $1M before a Dec 2025 round from Thrive Capital and Lachy Groom.",
   "name": "Turbopuffer",
   "tagline": "Object-storage-backed vector DB. Serverless economics at scale.",
   "description": "Bills like S3 — cold rest, warm reads, no per-namespace minimums. Designed for very-large, mostly-cold vector workloads where you can't justify keeping every index in RAM. Operated by Notion in production.",
@@ -31,7 +31,15 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 40,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
+  "changelog": [
+    {
+      "date": "2026-07-26",
+      "kind": "updated",
+      "summary": "Insight refreshed: added the Dec 2025 financing round from Thrive Capital and Lachy Groom (the 'raised under $1M' framing no longer holds); dropped the weakly-sourced ~$100M run-rate figure.",
+      "source": "https://betakit.com/ex-shopify-engineers-raise-fresh-financing-to-scale-turbopuffers-ai-search/"
+    }
+  ],
   "edge": "Indexes live on object storage, not RAM, so cost tracks usage not corpus size — built for huge, mostly-cold vector workloads.",
   "pros": [
     "S3-like billing: cold rest, warm reads",

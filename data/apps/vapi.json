@@ -33,7 +33,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 19,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
   "edge": "Solves the hard parts of phone agents — telephony, low-latency turn-taking and barge-in — while leaving STT/LLM/TTS fully pluggable.",
   "pros": [
     "Telephony and interrupts handled",

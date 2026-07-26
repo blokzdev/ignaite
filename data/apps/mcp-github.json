@@ -27,7 +27,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 51,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
   "edge": "GitHub's first-party MCP — exposes PRs, issues, and even secret-scanning, gated by GitHub's native permission model.",
   "pros": [
     "Wired into most agentic surfaces",

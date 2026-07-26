@@ -1,6 +1,6 @@
 {
   "slug": "vercel-ai-sdk",
-  "insight": "Its core `ai` npm package pulls ~14M weekly downloads (30M+ across @ai-sdk/*) — the most-installed AI framework in JS.",
+  "insight": "Its core `ai` npm package pulls ~19M weekly downloads (~72M/month) — the most-installed AI framework in JS.",
   "name": "Vercel AI SDK",
   "tagline": "TypeScript SDK for streaming, tool-calling, and structured outputs.",
   "description": "Vercel's batteries-included TypeScript framework for LLM-powered apps. Streaming primitives, structured outputs, tool calling, and React hooks for chat UIs — works with every major provider out of the box.",
@@ -31,7 +31,15 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 50,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-07-26",
+  "changelog": [
+    {
+      "date": "2026-07-26",
+      "kind": "updated",
+      "summary": "Insight refreshed: `ai` npm weekly downloads now ~19M (~72M/month) per the npm registry, up from the previously cited ~14M.",
+      "source": "https://api.npmjs.org/downloads/point/last-week/ai"
+    }
+  ],
   "edge": "The de facto TypeScript AI SDK: provider-agnostic streaming and useChat hooks make swapping LLMs a one-line change.",
   "pros": [
     "Provider-agnostic, swap models in one line",
