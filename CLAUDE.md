@@ -78,7 +78,7 @@ Pre-push (auto): `pnpm typecheck`.
 app/                              # Next App Router
   (marketing)/                    # route group sharing nav + footer
     layout.tsx                    #   sets <SiteNav/> + <SiteFooter/>
-    page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~460 entries across 43 categories)
+    page.tsx                      #   / — AI-apps DIRECTORY (data/apps/*.json via Velite; filter+search+sort, ~1,020 entries across 43 categories)
     about/
       page.tsx                    #   /about — operator identity (Hero, Now/Next, manifesto, How we work)
       opengraph-image.tsx         #   per-route OG
@@ -87,6 +87,11 @@ app/                              # Next App Router
       [slug]/opengraph-image.tsx  #   per-app OG
     category/[slug]/page.tsx      #   /category/<slug> — 43 SSG category landing pages (pure RSC)
     categories/page.tsx           #   /categories — cluster-grouped category index hub
+    compare/                      #   /compare hub + /compare/<a>-vs-<b> — ~3.1k SSG head-to-heads over the curated
+                                  #     `alternatives` graph (Chunk X; Set-validated, dynamicParams=false, 0 B route JS)
+    insights/page.tsx             #   /insights — build-time data-viz over the corpus (lib/stats.ts, pure RSC, no chart dep)
+    recipes/                      #   /recipes hub + /recipes/<slug> — multi-app workflow walkthroughs (Chunks AD/AE/AG;
+                                  #     SSG pure RSC, HowTo JSON-LD, per-step "Swap this step" substitution rail)
     _workflow/                    #   DORMANT (private folder, not routed — see §1). Rename to `workflow` to republish.
       page.tsx                    #   was /workflow — 4-stage Claude Code session narrative (components/workflow/workflow.tsx)
       artifacts/[product]/[type]/page.tsx
@@ -96,6 +101,16 @@ app/                              # Next App Router
       page.tsx                    #   /contact — dedicated contact page
       actions.ts                  #   server action → Resend  (NOT an /api/* route)
       opengraph-image.tsx
+    sign-in/page.tsx              #   /sign-in — Google OAuth entry (noindex; server-action form, no browser client)
+  (account)/                      # USER LAYER (Iteration 12) — authed route group OUTSIDE (marketing): own shell,
+    layout.tsx                    #   noindex, dynamic (reads cookies) — exempt from the SSG budgets
+    account/page.tsx              #   /account — profile view/edit
+    account/actions.ts            #   'use server': updateProfile, requestAccountDeletion (→ delete-account Edge Fn)
+    account/settings/page.tsx     #   /account/settings — signed-in-as + delete-account danger zone
+    account/bookmarks/page.tsx    #   /account/bookmarks — bookmark rows resolved against Velite content (tombstones)
+  auth/
+    callback/route.ts             # PKCE code exchange (+ Vercel preview x-forwarded-host handling)
+    auth-code-error/page.tsx      # OAuth error landing
   manifest.ts                     # PWA manifest (typed)
   robots.ts                       # robots.txt
   sitemap.ts                      # sitemap.xml (apps + categories + static; workflow dormant, portfolio removed)
@@ -120,6 +135,11 @@ components/
   ui/                             # shadcn primitives present: button, badge, tabs, sheet, dialog, tooltip, separator
   nav/site-nav.tsx                  # desktop nav + mobile trigger that opens the unified console
   command/command-palette-body.tsx  # unified console (also the mobile nav menu): navigate + categories + apps. ⌘K = search-first; mobile Menu trigger = menu-first (no keyboard until you tap search)
+  auth/                           # ── USER LAYER islands (client; call server actions, import NO supabase-js) ──
+    account-menu.tsx              #   nav avatar/sign-in pill — self-hydrates via getSessionSummary() after mount
+    bookmark-provider.tsx         #   one getBookmarkState() round trip; shares a Set via context (marketing layout)
+    bookmark-toggle.tsx           #   optimistic save toggle on tool-card + detail toolbar (z-[2] above stretched link)
+    sign-out-button.tsx
   footer/site-footer.tsx
   hero/
     hero.tsx                      # server shell: text-first copy + dynamic R3F canvas
@@ -138,6 +158,8 @@ components/
     featured-carousel.tsx         #   featured rail (scroll-snap)
     sponsored-card.tsx            #   sponsored slot card
     app-detail.tsx                #   /apps/[slug] body
+    capabilities.tsx / capability-chip.tsx   # level-aware capability chips (primary solid / secondary ghost)
+    recipes-rail.tsx / recipe-flow.tsx       # per-app "Used in N recipes" rail · pure-CSS recipe DAG flow view
   workflow/                       # ── DORMANT (consumed only by app/(marketing)/_workflow; not in any shipped bundle) ──
     workflow.tsx                  # client orchestrator: product + platform tabs, renders stage segments
     workflow-intro.tsx            # hero: agentic-engineering framing, one-time setup, DocGraph
@@ -150,6 +172,11 @@ components/
     tool-block.tsx                #   renders run/write/plan/pr/note tool-use blocks
     harness-bits.tsx              #   PlanChecklist + DocGraph (the doc architecture table)
   contact/{contact-form, contact-success}.tsx
+  detail/                         # /apps/[slug] zone-model shell: masthead, stat strip, dossier rail, toolbar
+                                  #   (back-crumb + bookmark + copy-link), sticky mobile action bar, share model
+  insights/                       # /insights hand-rolled pure-RSC charts (no charting dep)
+  brand/                          # code-generated Ignaite mark/wordmark components
+  pwa/                            # install prompt + service-worker provider
   effects/{lenis-provider, reduced-motion-provider, noise-overlay, glow-orb, magnetic-button}.tsx
   seo/json-ld.tsx                 # JSON-LD blob renderer
 
@@ -163,7 +190,9 @@ content/                          # typed content + MDX
       {brief,forge,memo}/{claude-md,prd,spec,prompt-library}.mdx   # 12 artifacts
 
 data/                             # source-of-truth, typed
-  apps/<slug>.json                # DIRECTORY: one JSON file per listing (~400), validated by Velite
+  apps/<slug>.json                # DIRECTORY: one JSON file per listing (~1,020), validated by Velite
+  recipes/<slug>.json             # RECIPES: curated multi-app workflows (steps FK listed apps by `appSlug`; optional
+                                  #   DAG via `dependsOn` + step `loop`; graph integrity hard-fails in velite `complete()`)
   sponsored/<id>.json             # sponsored directory slots (per-file JSON, validated by Velite)
   brand.ts                        # logo, social handles, contact, hero copy
 
@@ -178,12 +207,32 @@ velite.config.ts                  # Velite: validates data/apps/*.json + data/sp
 
 lib/
   apps-schema.ts                  # DIRECTORY source-of-truth: zod schema; App = z.infer<…> (build-only)
+  recipes-schema.ts               # RECIPES source-of-truth zod schema (steps, dependsOn DAG, loop, references)
+  sponsored-schema.ts             # sponsored-slot zod schema
   utils.ts                        # cn() + small formatters
   apps.ts                         # directory query helpers (listApps, getApp, relatedApps, …)
+  recipes.ts                      # recipe query helpers (listRecipes, getRecipe, recipesUsingApp, …)
+  stats.ts                        # server-only corpus aggregates powering /insights
+  nav.ts                          # isActiveNav() route matching
+  og-mark.ts                      # code-generated Ignaite mark for OG/favicons
+  tools/                          # directory engine helpers: category/capability labels+aliases+families, filters,
+                                  #   facet counts/links, comparisons.ts (/compare cohort), recipe-graph.ts
+                                  #   (recipeExecutionOrder), recipe-substitution.ts, recipe-index.ts, sort, license, …
   interleave.ts                   # deterministic sponsored-slot interleave
-  rate-limit.ts                   # contact rate-limit (in-memory; upgrade path: Upstash)
+  rate-limit.ts                   # in-memory rate limiter (contact + auth writes; upgrade path: Upstash)
   og-image.tsx                    # shared OG image template (Satori)
   seo.ts                          # buildMetadata() + siteUrl
+  supabase/                       # ── USER LAYER (Iteration 12) — server-only in marketing context ──
+    env.ts                        #   graceful accessor: isSupabaseConfigured (never throws → CI/preview build w/o env)
+    server.ts                     #   createServerClient (async cookies) — server actions + (account) pages ONLY;
+                                  #   NEVER imported by a marketing Server Component (breaks SSG — §2a of the design doc)
+    client.ts                     #   createBrowserClient — future reactive islands only; imported NOWHERE on / or /apps/*
+    middleware.ts                 #   updateSession: getClaims refresh + /account/* gate
+    database.types.ts             #   generated from the live project — regenerate after any migration
+  auth/
+    actions.ts                    #   'use server': signInWithGoogle, signOut, setBookmark (idempotent, rate-limited),
+                                  #   getSessionSummary, getBookmarkState — what the client islands hydrate from
+    bookmarks.ts                  #   server-only full-row reads for /account/bookmarks
 
 hooks/
   use-reduced-motion.ts  use-mouse.ts  use-scroll-progress.ts  use-media-query.ts
@@ -197,6 +246,17 @@ types/
 public/
   brand/                          # rehosted brand logo + favicons (Ignaite mark is code-gen: components/brand + lib/og-mark)
   app-ads.txt                     # ported from v1 (Play Store ad SDK requirement)
+
+middleware.ts                     # root middleware → updateSession; matcher scoped to /account/*, /auth/*, /sign-in
+                                  #   so the static directory pays ~0 per-request cost
+
+supabase/                         # USER-LAYER backend artifacts (project ref: jildtuofapktmsijgyyb)
+  migrations/0001_user_layer.sql  #   canonical DDL: profiles + bookmarks + admins + RLS + admin lock (applied live)
+  functions/delete-account/       #   Deno Edge Function (deployed): JWT-verified self-serve account deletion
+
+docs/
+  architecture-supabase-user-layer.md   # Iteration 12 design of record (write/read-model split, Phases 1–5)
+  directory-playbook.md                 # the recurring content-routine playbook
 
 CLAUDE.md  README.md  Roadmap.md  BACKLOG.md  LICENSE
 .nvmrc  .npmrc  next.config.ts  tsconfig.json  eslint.config.mjs  prettier.config.mjs
