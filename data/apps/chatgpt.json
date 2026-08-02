@@ -11,8 +11,8 @@
   "platforms": ["web", "ios", "android", "macos", "windows"],
   "modelSupport": {
     "kind": "single-model",
-    "models": ["GPT-5", "GPT-4o"],
-    "notes": "OpenAI's own GPT models."
+    "models": ["GPT-5.6", "GPT-5.6 Sol"],
+    "notes": "OpenAI's own GPT models; the GPT-5.6 family (Sol/Terra/Luna) is current."
   },
   "accentColor": "#10A37F",
   "featured": false,
@@ -30,7 +30,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 103,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-02",
   "edge": "The app that mainstreamed generative AI — its custom-GPT store turned a chatbot into a third-party app platform.",
   "pros": [
     "Largest user base and ecosystem",
@@ -69,6 +69,15 @@
     {
       "id": "app-builder",
       "level": "secondary"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-08-02",
+      "kind": "updated",
+      "summary": "Refreshed model support: GPT-4o retired from ChatGPT (fully removed across all plans on 2026-04-03); current flagship is the GPT-5.6 family (Sol).",
+      "asOf": "2026-04-03",
+      "source": "https://openai.com/index/retiring-gpt-4o-and-older-models/"
     }
   ]
 }

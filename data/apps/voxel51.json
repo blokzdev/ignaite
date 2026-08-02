@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 5,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-08-02",
   "edge": "FiftyOne debugs the data, not just the model — surfacing bad labels and failure cases hiding in vision datasets.",
   "pros": [
     "Open-source FiftyOne core",

@@ -28,7 +28,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 67,
-  "lastVerifiedAt": "2026-06-01",
+  "lastVerifiedAt": "2026-08-02",
   "edge": "Keeps vectors in your existing Postgres, so you JOIN against relational data and back it all up together.",
   "pros": [
     "No new database to operate",
