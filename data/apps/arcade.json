@@ -56,5 +56,8 @@
       "id": "tool-calling",
       "level": "primary"
     }
-  ]
+  ],
+  "accentColor": "#F97316",
+  "featured": true,
+  "featuredAt": "2026-08-07"
 }

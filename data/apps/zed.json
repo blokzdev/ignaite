@@ -64,5 +64,7 @@
       "id": "ide-integration",
       "level": "primary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-08-07"
 }
