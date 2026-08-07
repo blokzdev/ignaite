@@ -60,5 +60,8 @@
       "id": "autonomous-research",
       "level": "secondary"
     }
-  ]
+  ],
+  "accentColor": "#8B5CF6",
+  "featured": true,
+  "featuredAt": "2026-08-07"
 }

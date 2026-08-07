@@ -73,7 +73,7 @@
       "level": "secondary"
     }
   ],
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-07-07",
   "accentColor": "#34D399"
 }
