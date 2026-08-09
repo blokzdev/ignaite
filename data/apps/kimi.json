@@ -1,9 +1,9 @@
 {
   "slug": "kimi",
-  "insight": "Maker Moonshot AI is backed by Alibaba and Tencent and was valued north of $20B in a May 2026 round.",
+  "insight": "Maker Moonshot AI, backed by Alibaba and Tencent, raised ~$3.5B at a $35B valuation in July 2026 (up from $20B in May).",
   "name": "Kimi",
   "tagline": "Moonshot's assistant — long-context chat, deep research, and agents.",
-  "description": "Moonshot AI's assistant — long-context chat, Deep Research, and an agent mode (Kimi Code, parallel subagents). Built on the open-weight Kimi K2 model family.",
+  "description": "Moonshot AI's assistant — long-context chat, Deep Research, and an agent mode (Kimi Code, parallel subagents). Built on the open-weight Kimi K3 model family.",
   "category": "assistant",
   "secondaryCategories": ["agent"],
   "pricing": "freemium",
@@ -12,8 +12,8 @@
   "platforms": ["web", "ios", "android"],
   "modelSupport": {
     "kind": "single-model",
-    "models": ["Kimi K2"],
-    "notes": "Moonshot's Kimi K2 models; open weights, OpenAI-compatible API."
+    "models": ["Kimi K3"],
+    "notes": "Moonshot's Kimi K3 models; open weights, OpenAI-compatible API."
   },
   "accentColor": "#8B5CF6",
   "tags": ["chat", "assistant", "long-context", "agents", "research"],
@@ -26,10 +26,26 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 122,
-  "lastVerifiedAt": "2026-06-06",
-  "edge": "A polished consumer assistant whose underlying Kimi K2 model ships as open weights you can self-host.",
+  "lastVerifiedAt": "2026-08-09",
+  "changelog": [
+    {
+      "date": "2026-08-09",
+      "kind": "updated",
+      "summary": "Flagship model updated K2 → K3 — Moonshot shipped the open-weight 2.8T-param Kimi K3 in July 2026, now powering the assistant.",
+      "asOf": "2026-07-16",
+      "source": "https://www.forbes.com/sites/tylerroush/2026/07/17/chinese-ai-startup-moonshot-unveils-kimi-k3-model-will-it-challenge-openai-and-anthropic/"
+    },
+    {
+      "date": "2026-08-09",
+      "kind": "updated",
+      "summary": "Insight refreshed: Moonshot AI raised ~$3.5B at a $35B valuation in July 2026 (was $20B in May 2026).",
+      "asOf": "2026-07-29",
+      "source": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value"
+    }
+  ],
+  "edge": "A polished consumer assistant whose underlying Kimi K3 model ships as open weights you can self-host.",
   "pros": [
-    "Built on open-weight Kimi K2 models",
+    "Built on open-weight Kimi K3 models",
     "Agent mode with parallel subagents",
     "Free tier available"
   ],
