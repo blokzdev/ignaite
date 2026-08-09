@@ -26,7 +26,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 113,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-09",
   "edge": "Build, database, and hosting all live in the browser, so its Agent can ship a working app with zero local setup.",
   "pros": [
     "Agent scaffolds, runs, and deploys",

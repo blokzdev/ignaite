@@ -7,6 +7,7 @@
   "category": "ide",
   "secondaryCategories": ["agent"],
   "pricing": "freemium",
+  "openSource": true,
   "deployment": "local",
   "vendor": "Warp",
   "platforms": ["macos", "linux", "windows"],
@@ -30,7 +31,16 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 94,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-09",
+  "changelog": [
+    {
+      "date": "2026-08-09",
+      "kind": "updated",
+      "summary": "Warp open-sourced its client on 2026-04-28 under AGPLv3 (MIT for the UI crates), with OpenAI as founding sponsor — set openSource=true and dropped the 'closed source' con.",
+      "asOf": "2026-04-28",
+      "source": "https://www.warp.dev/blog/warp-is-now-open-source"
+    }
+  ],
   "edge": "Reimagines the terminal itself as the agent surface — a from-scratch Rust terminal rebuilt for running coding agents, not a CLI wrapper.",
   "pros": [
     "Fast Rust-built terminal",
@@ -41,7 +51,6 @@
   ],
   "cons": [
     "Required sign-in drew early criticism",
-    "Closed source",
     "Credits run out on heavy use",
     "Terminal-centric, not a full IDE"
   ],

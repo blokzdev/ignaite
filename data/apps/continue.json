@@ -1,6 +1,6 @@
 {
   "slug": "continue",
-  "insight": "A Y Combinator alum (2023) founded by Ty Dunn and Nate Sesti; backed by Heavybit across ~$5M raised.",
+  "insight": "Cursor acqui-hired the team in June 2026 and wound the standalone product down; its Apache-2.0 code stays read-only on GitHub.",
   "name": "Continue",
   "tagline": "Open-source AI coding assistant for VS Code, JetBrains, and the CLI.",
   "description": "An open-source AI coding assistant delivered as a VS Code extension, a JetBrains plugin, and a CLI, with chat, autocomplete, and agent workflows. It runs locally in your editor and works with any model provider, including local models via Ollama, using your own keys. The core is Apache-2.0 and free; the company also offers a hosted Continue Hub for sharing and managing assistants.",
@@ -33,7 +33,17 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 104,
-  "lastVerifiedAt": "2026-06-06",
+  "status": "archived",
+  "lastVerifiedAt": "2026-08-09",
+  "changelog": [
+    {
+      "date": "2026-08-09",
+      "kind": "archived",
+      "summary": "Archived — Cursor acqui-hired Continue on 2026-06-18 and wound the standalone product down; cloud data deleted after 2026-07-15 and the Apache-2.0 repo went read-only after a final 2.0.0 release.",
+      "asOf": "2026-06-18",
+      "source": "https://webdeveloper.com/news/cursor-acquires-continue-open-source-agent/"
+    }
+  ],
   "edge": "Runs fully local via Ollama with your own keys, so code never leaves your machine — unlike cloud-bound rivals like Cursor or Copilot.",
   "pros": [
     "Apache-2.0 open source",
