@@ -30,7 +30,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 111,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-16",
   "edge": "Model-agnostic on-machine agent (15+ providers via your keys) with parallel subagents over 3000+ MCP servers.",
   "pros": [
     "Apache-2.0 licensed",
