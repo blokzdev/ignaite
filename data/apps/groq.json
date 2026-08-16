@@ -34,7 +34,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 106,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-16",
   "edge": "Custom LPU silicon delivers deterministic sub-100ms TTFT, ideal for voice and latency-critical apps.",
   "pros": [
     "Hundreds of tokens/sec on open models",

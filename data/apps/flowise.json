@@ -1,6 +1,6 @@
 {
   "slug": "flowise",
-  "insight": "A YC S23 open-source project with 40k+ GitHub stars, used inside Fortune 500s like Accenture and AWS.",
+  "insight": "Acquired by Workday in August 2025 to power its enterprise AI-agent builder; the open-source core continues.",
   "name": "Flowise",
   "tagline": "Visually build AI agents and LLM workflows — drag-and-drop, self-hosted.",
   "description": "A low-code visual builder for AI agents, chatflows, and multi-agent systems on a node canvas. It self-hosts locally through npm or Docker, or deploys to major clouds, and is provider-agnostic across many LLMs via its node ecosystem. The core is Apache-2.0; a managed Flowise Cloud tier exists, making it freemium.",
@@ -34,7 +34,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 118,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-16",
   "edge": "Drag-and-drop counterpart to code-first frameworks — builds on LangChain/LlamaIndex nodes, self-hosts via npm/Docker.",
   "pros": [
     "Visual, low-code agent builder",
@@ -69,6 +69,15 @@
     {
       "id": "llm-observability",
       "level": "secondary"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-08-16",
+      "kind": "updated",
+      "summary": "Insight updated to note Workday's August 2025 acquisition of Flowise; open-source Apache-2.0 core continues.",
+      "asOf": "2025-08-14",
+      "source": "https://newsroom.workday.com/2025-08-14-Workday-Acquires-Flowise,-Bringing-Powerful-AI-Agent-Builder-Capabilities-to-the-Workday-Platform"
     }
   ]
 }
