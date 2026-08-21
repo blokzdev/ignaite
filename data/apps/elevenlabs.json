@@ -49,7 +49,7 @@
   ],
   "bestFor": ["Audiobook/media producers", "Localization teams", "Voice-app developers"],
   "alternatives": ["cartesia", "deepgram", "speechify", "hume-ai"],
-  "featuredAt": "2026-06-21",
+  "featuredAt": "2026-08-07",
   "capabilities": [
     {
       "id": "text-to-speech",
@@ -75,7 +75,5 @@
       "id": "sound-effects",
       "level": "secondary"
     }
-  ],
-  "featured": true,
-  "featuredAt": "2026-08-07"
+  ]
 }

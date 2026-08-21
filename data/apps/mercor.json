@@ -58,5 +58,8 @@
       "id": "speech-to-text",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-08-21",
+  "accentColor": "#38BDF8"
 }
