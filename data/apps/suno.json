@@ -7,7 +7,7 @@
   "category": "music",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": false,
+  "featured": true,
   "vendor": "Suno",
   "platforms": ["web", "ios", "android"],
   "modelSupport": {
@@ -73,5 +73,6 @@
       "id": "stem-separation",
       "level": "secondary"
     }
-  ]
+  ],
+  "featuredAt": "2026-08-21"
 }

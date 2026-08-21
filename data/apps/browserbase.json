@@ -68,5 +68,8 @@
       "id": "web-scraping",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-08-21",
+  "accentColor": "#FB923C"
 }
