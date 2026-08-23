@@ -1,7 +1,7 @@
 {
   "slug": "notebooklm",
   "insight": "Debuted as 'Project Tailwind' at Google I/O 2023, co-created by bestselling science author Steven Johnson.",
-  "name": "NotebookLM",
+  "name": "Gemini Notebook",
   "tagline": "Grounded research notebook — chat your sources, get Audio Overviews.",
   "description": "Google's source-grounded research tool — upload docs, PDFs, and links, then ask questions answered only from your material, with citations and shareable Audio Overviews. Powered by Gemini.",
   "category": "research-platform",
@@ -19,13 +19,13 @@
   "links": [
     {
       "kind": "website",
-      "url": "https://notebooklm.google.com",
+      "url": "https://notebook.google.com",
       "primary": true
     }
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 115,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-23",
   "edge": "Answers strictly from your uploaded sources — no open-web drift — and turns a doc set into a two-host podcast.",
   "pros": [
     "Source-grounded, cited answers",
@@ -66,6 +66,15 @@
     {
       "id": "flashcard-generation",
       "level": "secondary"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-08-23",
+      "kind": "updated",
+      "summary": "Renamed from NotebookLM to Gemini Notebook (same standalone product); primary link moved to notebook.google.com.",
+      "asOf": "2026-07-16",
+      "source": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
     }
   ]
 }

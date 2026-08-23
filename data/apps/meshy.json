@@ -1,6 +1,6 @@
 {
   "slug": "meshy",
-  "insight": "Founded in 2021 by Ethan Hu, whose MIT graphics PhD thesis earned a SIGGRAPH honorable mention.",
+  "insight": "Founded in 2023 by Ethan Hu, whose MIT graphics PhD thesis earned a SIGGRAPH honorable mention.",
   "name": "Meshy",
   "tagline": "Text- and image-to-3D models, textures, and rigging.",
   "description": "Generate production-ready 3D assets from text or images — meshes, PBR textures, and auto-rigging, with exports for Blender, Unity, and Unreal. A staple of the AI 3D workflow.",
@@ -24,7 +24,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 80,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-23",
   "edge": "The most balanced 3D generator — text/image-to-3D, PBR textures, topology control, and broad engine exports in one tool.",
   "pros": [
     "Clean meshes, good edge flow",
@@ -51,5 +51,13 @@
     }
   ],
   "featured": false,
-  "featuredAt": "2026-07-07"
+  "featuredAt": "2026-07-07",
+  "changelog": [
+    {
+      "date": "2026-08-23",
+      "kind": "fixed",
+      "summary": "Corrected founding year in insight from 2021 to 2023 — Meshy's own About timeline and independent coverage date the company to 2023.",
+      "source": "https://www.meshy.ai/about"
+    }
+  ]
 }

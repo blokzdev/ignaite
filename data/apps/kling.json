@@ -1,6 +1,6 @@
 {
   "slug": "kling",
-  "insight": "From Hong Kong-listed Kuaishou; since its 2024 launch Kling has passed 60M+ users and ~$240M in annual revenue.",
+  "insight": "From Hong Kong-listed Kuaishou; by early 2026 Kling passed 100M+ users and a ~$500M annualized revenue run-rate.",
   "name": "Kling AI",
   "tagline": "AI video and image generation with strong motion and multishot sequences.",
   "description": "Kuaishou's creative studio — text- and image-to-video with convincing motion, lip-sync, and multishot sequences up to ~15s, plus image generation. A leading Runway/Sora rival.",
@@ -20,13 +20,13 @@
   "links": [
     {
       "kind": "website",
-      "url": "https://klingai.com",
+      "url": "https://kling.ai",
       "primary": true
     }
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 91,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-23",
   "edge": "Kuaishou's video model leads on motion realism and multishot sequences — the strongest non-Western Sora/Runway rival.",
   "pros": [
     "Convincing complex motion and physics",
@@ -71,5 +71,19 @@
       "level": "secondary"
     }
   ],
-  "featuredAt": "2026-08-07"
+  "featuredAt": "2026-08-07",
+  "changelog": [
+    {
+      "date": "2026-08-23",
+      "kind": "updated",
+      "summary": "Refreshed insight — Kling passed 100M+ users and a ~$500M annualized revenue run-rate by early 2026 (was 60M users / $240M ARR).",
+      "source": "https://sacra.com/c/kling/"
+    },
+    {
+      "date": "2026-08-23",
+      "kind": "updated",
+      "summary": "Primary link moved to kling.ai — official domain relocated from klingai.com (301 permanent redirect).",
+      "source": "https://kling.ai/"
+    }
+  ]
 }
