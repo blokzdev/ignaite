@@ -2,7 +2,7 @@
   "slug": "synthesia",
   "insight": "A UCL spinout co-founded by professors at UCL and TU Munich; it reached a $4B valuation in January 2026.",
   "name": "Synthesia",
-  "tagline": "AI avatar video for training, marketing, and comms. Enterprise default.",
+  "tagline": "AI avatar video for training, marketing, and comms.",
   "description": "Studio for AI presenter videos — pick or clone an avatar, type a script in 140+ languages, and render a talking-head video. The go-to for L&D, onboarding, and corporate comms.",
   "category": "video",
   "pricing": "freemium",
@@ -28,7 +28,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 78,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-30",
   "edge": "The enterprise default for talking-head training video — built for L&D and comms at scale, not social-clip generation.",
   "pros": [
     "230+ avatars, custom avatar cloning",
