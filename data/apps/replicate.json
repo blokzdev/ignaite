@@ -1,6 +1,6 @@
 {
   "slug": "replicate",
-  "insight": "Co-founded by Ben Firshman, who built the original Docker Compose; its Cog packaging format is essentially 'Docker for machine learning.'",
+  "insight": "Cloudflare agreed to acquire Replicate in Nov 2025; it keeps operating as a distinct brand, its 50K+ models feeding Cloudflare Workers AI.",
   "name": "Replicate",
   "tagline": "Run, fine-tune, and deploy thousands of open models via one API.",
   "description": "A platform to run open-source models with one API call — image, video, audio, and language — plus fine-tuning and custom deploys with pay-per-second billing. No infra to manage.",
@@ -30,7 +30,16 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 117,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-30",
+  "changelog": [
+    {
+      "date": "2026-08-30",
+      "kind": "updated",
+      "summary": "Replicate is being acquired by Cloudflare (announced Nov 17, 2025); it continues as a distinct brand, so insight now leads with the acquisition.",
+      "asOf": "2025-11-17",
+      "source": "https://www.cloudflare.com/press/press-releases/2025/cloudflare-to-acquire-replicate-to-build-the-most-seamless-ai-cloud-for-developers/"
+    }
+  ],
   "edge": "Any model is a Cog container behind one API billed per second — the low-commitment way to ship a model you didn't train.",
   "pros": [
     "Image, video, audio, and language models",

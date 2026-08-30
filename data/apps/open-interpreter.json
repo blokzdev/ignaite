@@ -30,7 +30,7 @@
   ],
   "addedAt": "2026-06-06",
   "addedSeq": 123,
-  "lastVerifiedAt": "2026-06-06",
+  "lastVerifiedAt": "2026-08-30",
   "edge": "Hands the model a real local shell — Python, JS, bash — gated by per-command approval, and can run fully offline.",
   "pros": [
     "Executes code on your own machine",
