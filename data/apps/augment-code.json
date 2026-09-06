@@ -5,7 +5,7 @@
   "tagline": "Agentic coding assistant tuned for large, multi-repo codebases.",
   "description": "Augment Code is an AI coding platform whose Context Engine indexes large, multi-repo codebases so its completions, chat, and agents reason across cross-file dependencies. It runs as a VS Code and JetBrains extension, a CLI, and asynchronous remote agents, and targets engineering teams working in enterprise-scale repositories.",
   "category": "ide",
-  "pricing": "freemium",
+  "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Augment Code",
   "platforms": ["vscode-extension", "cli"],
@@ -33,7 +33,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 127,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-06",
+  "changelog": [
+    {
+      "date": "2026-09-06",
+      "kind": "updated",
+      "summary": "Pricing moved from freemium to paid — the free Community plan was retired; only a credit-card-gated trial remains ahead of paid tiers ($20–$200/mo).",
+      "source": "https://www.augmentcode.com/pricing"
+    }
+  ],
   "edge": "Context Engine indexes entire multi-repo codebases — built for enterprise monorepos, not single-project editing.",
   "pros": [
     "Context Engine indexes whole codebases",

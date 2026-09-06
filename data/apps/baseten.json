@@ -1,6 +1,6 @@
 {
   "slug": "baseten",
-  "insight": "Raised a $300M Series E in Jan 2026 at a $5B valuation, with Nvidia investing $150M of it.",
+  "insight": "Raised a $1.5B Series F in June 2026 at a $13B valuation — its fourth raise in 18 months.",
   "name": "Baseten",
   "tagline": "Inference cloud for serving any AI model in production.",
   "description": "Production inference platform offering both pre-optimized Model APIs (Llama, DeepSeek, and more, billed per token) and dedicated GPU/CPU deployments for custom models, billed per minute with no charge for idle time. Custom models are packaged with its open-source Truss format and autoscale, including scale-to-zero. Aimed at low-latency, high-throughput serving.",
@@ -31,7 +31,16 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 128,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-06",
+  "changelog": [
+    {
+      "date": "2026-09-06",
+      "kind": "updated",
+      "summary": "Funding updated — raised a $1.5B Series F at a $13B valuation (June 2026), superseding the Jan 2026 $300M Series E.",
+      "asOf": "2026-06-22",
+      "source": "https://www.baseten.co/blog/announcing-our-series-f/"
+    }
+  ],
   "edge": "Pairs prebuilt Model APIs with dedicated Truss deployments and scale-to-zero, so you don't pay for idle GPUs.",
   "pros": [
     "Prebuilt Model APIs for Llama, DeepSeek",

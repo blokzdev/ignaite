@@ -29,7 +29,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 21,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-06",
   "edge": "Runs the whole Node stack in-browser via WebContainers, giving a real full-stack IDE no rival sandbox matches.",
   "pros": [
     "Full Node stack runs in the browser tab",

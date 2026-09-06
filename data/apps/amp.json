@@ -1,14 +1,14 @@
 {
   "slug": "amp",
-  "insight": "Sourcegraph's successor to Cody — it shut down Cody Free/Pro in mid-2025 and moved individual devs to Amp.",
+  "insight": "Spun out of Sourcegraph into independent Amp Frontier Corp. (Dec 2025), succeeding its discontinued Cody for individual devs.",
   "name": "Amp",
-  "tagline": "Agentic coding tool from Sourcegraph for terminal and editor.",
-  "description": "Amp is an agentic coding tool from Sourcegraph that works in the terminal and across editors, autonomously editing code and running tasks. It routes between frontier models across deep, smart, and fast modes, and centers on shareable 'threads' so teammates can view and search each other's agent sessions.",
+  "tagline": "Agentic coding tool for the terminal and editor.",
+  "description": "Amp is an agentic coding tool — spun out of Sourcegraph into an independent company (Amp Frontier Corporation) in December 2025 — that works in the terminal and across editors, autonomously editing code and running tasks. It routes between frontier models across deep, smart, and fast modes, and centers on shareable 'threads' so teammates can view and search each other's agent sessions.",
   "category": "agent",
   "secondaryCategories": ["ide"],
   "pricing": "freemium",
   "deployment": "cloud",
-  "vendor": "Sourcegraph",
+  "vendor": "Amp Frontier Corporation",
   "platforms": ["cli", "vscode-extension"],
   "modelSupport": {
     "kind": "multi-model",
@@ -30,7 +30,16 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 136,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-06",
+  "changelog": [
+    {
+      "date": "2026-09-06",
+      "kind": "updated",
+      "summary": "Spun out of Sourcegraph into independent Amp Frontier Corporation (Dec 2, 2025) — updated vendor, tagline, description, and insight.",
+      "asOf": "2025-12-02",
+      "source": "https://ampcode.com/news/amp-inc"
+    }
+  ],
   "edge": "Shareable, searchable agent 'threads' for the whole team, billed pay-as-you-go at zero markup over model prices.",
   "pros": [
     "Zero-markup pay-as-you-go pricing",
