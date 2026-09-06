@@ -30,7 +30,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 138,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-06",
   "edge": "Agent-first VS Code fork where agents emit verifiable Artifacts — plans, screenshots, recordings — not just diffs.",
   "pros": [
     "Manager view orchestrates parallel agents",

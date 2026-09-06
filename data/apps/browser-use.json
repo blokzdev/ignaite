@@ -33,10 +33,18 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 176,
-  "lastVerifiedAt": "2026-06-07",
-  "edge": "Parses the DOM into a structured view any LLM can drive — leads open browser agents at ~89% on WebVoyager.",
+  "lastVerifiedAt": "2026-09-06",
+  "changelog": [
+    {
+      "date": "2026-09-06",
+      "kind": "updated",
+      "summary": "Refreshed edge/pros — dropped the stale 'leads WebVoyager ~89%' claim (since surpassed by Magnitude, Jina et al.); reframed around adoption (110k+ stars).",
+      "source": "https://leaderboard.steel.dev/leaderboards/webvoyager/"
+    }
+  ],
+  "edge": "Parses the DOM into a structured view any LLM can drive — one of the most-adopted open browser agents (110k+ GitHub stars).",
   "pros": [
-    "Top open-source WebVoyager score (~89%)",
+    "Massive adoption — 110k+ GitHub stars",
     "Model-agnostic, MIT-licensed",
     "Structured DOM view instead of vision",
     "Hosted Cloud option for managed sessions"

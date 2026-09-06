@@ -1,6 +1,6 @@
 {
   "slug": "braintrust",
-  "insight": "Raised a $36M Series A led by a16z at a $150M valuation in Oct 2024; angels include Greg Brockman and Guillermo Rauch.",
+  "insight": "Raised an $80M Series B led by ICONIQ (Feb 2026), stepping up from its 2024 a16z-led $36M Series A.",
   "name": "Braintrust",
   "tagline": "Hosted eval + tracing platform for LLM apps.",
   "description": "Production-grade eval orchestration with a dashboard, dataset versioning, and OpenTelemetry tracing. Useful once eval volume outgrows a CI YAML file.",
@@ -32,7 +32,16 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 69,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-06",
+  "changelog": [
+    {
+      "date": "2026-09-06",
+      "kind": "updated",
+      "summary": "Funding updated — raised an $80M Series B led by ICONIQ (Feb 2026), superseding the 2024 a16z-led $36M Series A.",
+      "asOf": "2026-02-17",
+      "source": "https://www.braintrust.dev/blog/announcing-series-b"
+    }
+  ],
   "edge": "Eval-first: prompts are versioned objects and CI scorers block a merge when quality regresses.",
   "pros": [
     "Eval workflow as the primary interface",
