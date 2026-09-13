@@ -27,7 +27,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 161,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-13",
   "edge": "Built on Mirage, its parent's in-house video foundation model — not a wrapper around third-party video generators.",
   "pros": [
     "In-house Mirage video model",

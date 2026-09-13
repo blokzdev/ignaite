@@ -26,7 +26,7 @@
     },
     {
       "kind": "docs",
-      "url": "https://docs.anthropic.com/claude/docs/claude-code"
+      "url": "https://code.claude.com/docs"
     },
     {
       "kind": "github",
@@ -35,7 +35,15 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 34,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-13",
+  "changelog": [
+    {
+      "date": "2026-09-13",
+      "kind": "updated",
+      "summary": "Updated docs link to the canonical code.claude.com/docs (the old docs.anthropic.com path now redirects there).",
+      "source": "https://code.claude.com/docs"
+    }
+  ],
   "edge": "Ships the same agent across CLI, IDE, desktop, and web — reads the spec, writes the diff, runs tests, opens the PR.",
   "pros": [
     "Strong autonomous multi-step coding",

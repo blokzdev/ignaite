@@ -10,7 +10,7 @@
   "openSource": true,
   "deployment": "local",
   "vendor": "Cline Bot Inc.",
-  "platforms": ["vscode-extension"],
+  "platforms": ["vscode-extension", "cli"],
   "modelSupport": {
     "kind": "byo-key",
     "models": ["Claude", "GPT", "Gemini", "DeepSeek", "Local (Ollama)"]
@@ -34,7 +34,15 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 13,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-13",
+  "changelog": [
+    {
+      "date": "2026-09-13",
+      "kind": "updated",
+      "summary": "Added CLI as a supported surface — Cline now ships a terminal CLI (interactive + headless) alongside the VS Code extension.",
+      "source": "https://docs.cline.bot"
+    }
+  ],
   "edge": "BYO-key VS Code agent that shows and asks approval for every edit and command — no markup, no lock-in.",
   "pros": [
     "No vendor markup on token costs",

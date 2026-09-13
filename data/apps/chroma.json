@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-05-13",
   "addedSeq": 8,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-13",
   "edge": "Runs embedded inside your Python process — the lowest-friction way to prototype RAG before you need a server at all.",
   "pros": [
     "Pip-install, embedded in-process",
