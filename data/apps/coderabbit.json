@@ -31,8 +31,16 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 177,
-  "lastVerifiedAt": "2026-06-07",
-  "edge": "Free Pro-tier reviews for all public/OSS repos with no seat limits, billing paid teams by agent-minute not per PR.",
+  "lastVerifiedAt": "2026-09-13",
+  "changelog": [
+    {
+      "date": "2026-09-13",
+      "kind": "fixed",
+      "summary": "Corrected edge: paid plans bill per developer (only devs who open PRs), not by agent-minute — that's an optional add-on.",
+      "source": "https://www.coderabbit.ai/pricing"
+    }
+  ],
+  "edge": "Free reviews forever for public/OSS repos, and paid plans bill only per developer who actually opens PRs.",
   "pros": [
     "Free for public and open-source repos",
     "Reviews in PR, IDE, and CLI",
