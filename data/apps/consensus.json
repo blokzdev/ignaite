@@ -8,7 +8,7 @@
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Consensus",
-  "platforms": ["web", "ios"],
+  "platforms": ["web", "ios", "android"],
   "modelSupport": {
     "kind": "multi-model",
     "notes": "LLM synthesis layered over a 200M+ peer-reviewed paper corpus."
@@ -27,7 +27,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 154,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-20",
+  "changelog": [
+    {
+      "date": "2026-09-20",
+      "kind": "updated",
+      "summary": "Added Android to platforms — Consensus shipped an official Android app on Google Play.",
+      "source": "https://play.google.com/store/apps/details?id=app.consensus.android"
+    }
+  ],
   "edge": "Consensus Meter aggregates whether papers agree or disagree on a question, beyond surfacing individual citations.",
   "pros": [
     "200M+ peer-reviewed corpus",

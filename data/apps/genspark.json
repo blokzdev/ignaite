@@ -25,7 +25,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 184,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-20",
   "edge": "Routes each sub-task across multiple LLMs and 80+ integrated tools, picking the best fit rather than relying on one model.",
   "pros": [
     "Autonomous multi-step Super Agent",

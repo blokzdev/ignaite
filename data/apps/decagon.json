@@ -1,6 +1,6 @@
 {
   "slug": "decagon",
-  "insight": "Raised a $131M Series C at a $1.5B valuation in 2025, ~a year out of stealth; co-led by Accel and a16z.",
+  "insight": "Raised a $250M Series D at a $4.5B valuation in Jan 2026, led by Coatue and Index Ventures.",
   "name": "Decagon",
   "tagline": "AI concierge agents that resolve customer support end-to-end.",
   "description": "An enterprise platform for AI customer-support agents that handle issues across chat, email, and voice — not just answering questions but taking action to resolve them. Its Agent Operating Procedures (AOPs) let support teams encode handling logic in natural language while engineers keep code-level guardrails. Used by companies including Duolingo, Chime, and ClassPass to deflect a large share of support volume.",
@@ -23,12 +23,19 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 133,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-20",
   "changelog": [
     {
       "date": "2026-06-09",
       "kind": "fixed",
       "summary": "Recategorized from agent to the new support category for customer-support agents."
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "updated",
+      "summary": "Insight updated to the $250M Series D at a $4.5B valuation (led by Coatue and Index Ventures), superseding the earlier $131M Series C.",
+      "asOf": "2026-01-28",
+      "source": "https://decagon.ai/blog/series-d-announcement"
     }
   ],
   "edge": "Prices per conversation or resolution, not per seat, and lets ops teach agents via natural-language procedures.",

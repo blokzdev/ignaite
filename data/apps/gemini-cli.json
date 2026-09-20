@@ -13,8 +13,8 @@
   "platforms": ["cli", "macos", "linux", "windows"],
   "modelSupport": {
     "kind": "single-model",
-    "models": ["Gemini 2.5 Pro"],
-    "notes": "Built around Gemini; free tier serves Gemini 2.5 Pro via a Google account."
+    "models": ["Gemini 3 Pro", "Gemini 3 Flash"],
+    "notes": "Built around Gemini; defaults to Auto, routing between Gemini 3 Pro and Flash by task complexity."
   },
   "accentColor": "#4285F4",
   "tags": ["cli", "coding-agent", "terminal", "open-source"],
@@ -31,8 +31,17 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 172,
-  "lastVerifiedAt": "2026-06-07",
-  "edge": "Its free tier serves Gemini 2.5 Pro at a 1M-token context via a personal Google account — unusually generous limits for a terminal coding agent.",
+  "lastVerifiedAt": "2026-09-20",
+  "changelog": [
+    {
+      "date": "2026-09-20",
+      "kind": "updated",
+      "summary": "Updated served model from Gemini 2.5 Pro to Gemini 3 (Pro + Flash, Auto default) following the Gemini 3 launch.",
+      "asOf": "2025-11-18",
+      "source": "https://github.com/google-gemini/gemini-cli/blob/main/docs/get-started/gemini-3.md"
+    }
+  ],
+  "edge": "Its free tier serves Gemini 3 at a 1M-token context via a personal Google account — unusually generous limits for a terminal coding agent.",
   "pros": [
     "Apache-2.0 and fully open source",
     "Generous free tier via Google account",

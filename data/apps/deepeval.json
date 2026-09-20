@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 196,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-20",
   "edge": "Write LLM evals as Pytest-style assertions and run them in CI, backed by 50+ metrics across RAG, agents, and safety.",
   "pros": [
     "Assertions run in your CI pipeline",
