@@ -1,6 +1,6 @@
 {
   "slug": "fireflies",
-  "insight": "Bootstrapped to a $1B valuation while profitable, having stopped raising after a ~$19M round in 2021.",
+  "insight": "Bootstrapped to a $1B valuation while profitable — ~$19M raised total, last a $14M Series A in 2021.",
   "name": "Fireflies.ai",
   "tagline": "AI notetaker that records, transcribes, and summarizes meetings.",
   "description": "A meeting assistant whose bot joins Zoom, Google Meet, Microsoft Teams, and Webex calls to record, transcribe, and summarize them, then extracts action items and highlights. The AskFred assistant lets you query across past conversations, and transcripts sync to CRMs and other tools. Mobile and Chrome apps capture in-person and browser audio.",
@@ -27,12 +27,18 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 142,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-20",
   "changelog": [
     {
       "date": "2026-06-09",
       "kind": "fixed",
       "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "fixed",
+      "summary": "Corrected insight: the 2021 raise was a ~$14M Series A; ~$19M is cumulative total funding, not the round size.",
+      "source": "https://getlatka.com/companies/firefliesai"
     }
   ],
   "edge": "AskFred answers questions across your whole meeting history; a calendar bot auto-joins Zoom, Meet, Teams, and Webex.",

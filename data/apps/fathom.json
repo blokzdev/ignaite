@@ -1,6 +1,6 @@
 {
   "slug": "fathom",
-  "insight": "Founded in 2020 by ex-UserVoice founder Richard White; raised $2M from its own users via Wefunder.",
+  "insight": "Acquired by Superhuman (the rebranded Grammarly) in September 2026; continues operating under the Fathom brand.",
   "name": "Fathom",
   "tagline": "Free AI notetaker for Zoom, Meet, and Teams calls.",
   "description": "Records, transcribes, and summarizes video meetings with AI summaries, action items, and shareable clips. Free for unlimited individual recording; paid Team tiers add advanced AI, analytics, and CRM sync.",
@@ -27,12 +27,19 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 183,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-20",
   "changelog": [
     {
       "date": "2026-06-09",
       "kind": "fixed",
       "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
+    },
+    {
+      "date": "2026-09-20",
+      "kind": "updated",
+      "summary": "Insight updated to reflect Superhuman's acquisition of Fathom; it continues under its own brand.",
+      "asOf": "2026-09-14",
+      "source": "https://blog.superhuman.com/superhuman-acquires-fathom/"
     }
   ],
   "edge": "Unlimited recording and transcription free forever; monetizes team analytics and CRM sync where rivals cap free minutes.",

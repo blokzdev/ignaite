@@ -19,7 +19,7 @@
   "links": [
     {
       "kind": "website",
-      "url": "https://factory.ai",
+      "url": "https://factory.com",
       "primary": true
     },
     {
@@ -28,12 +28,20 @@
     },
     {
       "kind": "pricing",
-      "url": "https://factory.ai/pricing"
+      "url": "https://factory.com/pricing"
     }
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 140,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-20",
+  "changelog": [
+    {
+      "date": "2026-09-20",
+      "kind": "updated",
+      "summary": "Updated website and pricing links to the new canonical factory.com domain (factory.ai now redirects there).",
+      "source": "https://factory.com"
+    }
+  ],
   "edge": "Model-agnostic 'Droids' run as both cloud and local background agents from one CLI — frontier or open-weight models.",
   "pros": [
     "Droids plan, edit, and run tasks autonomously",
