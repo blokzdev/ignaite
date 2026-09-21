@@ -65,5 +65,8 @@
       "id": "report-generation",
       "level": "primary"
     }
-  ]
+  ],
+  "accentColor": "#6366F1",
+  "featured": true,
+  "featuredAt": "2026-09-21"
 }

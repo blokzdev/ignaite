@@ -57,5 +57,8 @@
       "id": "protein-design",
       "level": "secondary"
     }
-  ]
+  ],
+  "accentColor": "#0D9488",
+  "featured": true,
+  "featuredAt": "2026-09-21"
 }

@@ -55,5 +55,8 @@
       "id": "roleplay-characters",
       "level": "secondary"
     }
-  ]
+  ],
+  "accentColor": "#58CC02",
+  "featured": true,
+  "featuredAt": "2026-09-21"
 }
