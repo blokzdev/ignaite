@@ -53,5 +53,8 @@
       "id": "medical-coding",
       "level": "primary"
     }
-  ]
+  ],
+  "accentColor": "#14B8A6",
+  "featured": true,
+  "featuredAt": "2026-09-21"
 }

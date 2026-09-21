@@ -72,5 +72,7 @@
       "id": "code-review",
       "level": "secondary"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredAt": "2026-09-21"
 }
