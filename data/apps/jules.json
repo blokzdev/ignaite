@@ -12,7 +12,8 @@
   "platforms": ["web", "cli", "api"],
   "modelSupport": {
     "kind": "single-model",
-    "models": ["Gemini 2.5 Pro"]
+    "models": ["Gemini 3 Pro"],
+    "notes": "Runs on Gemini 3 Pro for Google AI Pro/Ultra subscribers."
   },
   "tags": ["coding-agent", "async", "github"],
   "links": [
@@ -28,7 +29,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 150,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-27",
+  "changelog": [
+    {
+      "date": "2026-09-27",
+      "kind": "updated",
+      "summary": "Model updated from Gemini 2.5 Pro to Gemini 3 Pro for Google AI Pro/Ultra subscribers.",
+      "source": "https://developers.googleblog.com/jules-gemini-3/"
+    }
+  ],
   "edge": "Async agent that works in a cloud VM and hands back a PR — complete with an audio changelog of what it changed.",
   "pros": [
     "Fully async, runs in the background",

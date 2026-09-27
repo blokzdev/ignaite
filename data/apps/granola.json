@@ -8,7 +8,7 @@
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "Granola",
-  "platforms": ["macos", "windows", "ios"],
+  "platforms": ["macos", "windows", "ios", "android"],
   "tags": ["meetings", "notetaker", "transcription", "mac"],
   "links": [
     {
@@ -23,12 +23,19 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 137,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-27",
   "changelog": [
     {
       "date": "2026-06-09",
       "kind": "fixed",
       "summary": "Recategorized from voice to the new meeting category for notetakers/transcription."
+    },
+    {
+      "date": "2026-09-27",
+      "kind": "updated",
+      "summary": "Added Android to platforms — Granola shipped an Android app (plus an Apple Watch companion).",
+      "asOf": "2026-07-01",
+      "source": "https://play.google.com/store/apps/details?id=ai.granola"
     }
   ],
   "edge": "Captures system audio with no bot in the call, then blends your raw notes into the AI summary.",
