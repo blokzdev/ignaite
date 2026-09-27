@@ -12,8 +12,8 @@
   "platforms": ["macos", "windows", "linux", "cli"],
   "modelSupport": {
     "kind": "multi-model",
-    "models": ["Claude Sonnet 4.5", "Claude Opus"],
-    "notes": "Auto mode mixes frontier models; built on Amazon Bedrock."
+    "models": ["Claude Opus 5", "Claude Sonnet 5", "GPT-5.6", "DeepSeek", "Qwen3"],
+    "notes": "Auto mode mixes frontier models; picker now spans Anthropic, OpenAI, DeepSeek, and Qwen."
   },
   "accentColor": "#7C3AED",
   "tags": ["spec-driven", "agentic-ide", "code-gen"],
@@ -34,7 +34,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 198,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-09-27",
+  "changelog": [
+    {
+      "date": "2026-09-27",
+      "kind": "updated",
+      "summary": "Model picker expanded beyond Claude — now spans Anthropic (Opus 5/Sonnet 5/Haiku 4.5), OpenAI GPT-5.6, DeepSeek, and Qwen.",
+      "source": "https://kiro.dev/pricing/"
+    }
+  ],
   "edge": "Spec-first: writes requirements/design/tasks .md artifacts to disk before coding, unlike prompt-to-diff editors.",
   "pros": [
     "Durable spec artifacts before implementation",
