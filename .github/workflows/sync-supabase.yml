@@ -1,0 +1,59 @@
+# Git → Supabase content projection (Phase 2a).
+#
+# Projects the Velite-built directory (.velite/{apps,recipes}.json) into the
+# Supabase read model via scripts/sync-supabase.ts → project_content RPC.
+# One-directional: git is the source of truth; nothing writes back.
+#
+# GATED (CLAUDE.md §11): this workflow file + the SUPABASE_URL and
+# SUPABASE_SERVICE_ROLE_KEY repo secrets need the founder's sign-off. Until the
+# secrets exist, runs fail fast at the sync step with a clear error — the read
+# model simply stays empty (Phase 1's dormant-until-configured pattern).
+name: Sync Supabase read model
+
+# push:[main] ONLY — never pull_request/pull_request_target, so the
+# service-role key is unreachable from fork/PR contexts (GitHub also withholds
+# secrets from fork-triggered runs; the trigger scoping is the primary control).
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+# Serialize overlapping pushes. cancel-in-progress stays false: the RPC is a
+# single atomic, advisory-locked transaction, so letting an in-flight run
+# finish is always safe — and the queued run then projects the newer commit.
+concurrency:
+  group: sync-supabase
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # A normal run is minutes; without this, a hung run holds the concurrency
+    # group (cancel-in-progress: false) for GitHub's 6-hour default.
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4 # reads packageManager (pnpm@10.x) from package.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc # 24 → native TS type stripping, so no tsx dep
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # .velite/ is gitignored — regenerate the artifacts the sync reads.
+      # `pnpm velite` = `velite build --strict`: a bad/duplicate entry exits
+      # non-zero here, so a broken tree never reaches the projection.
+      - run: pnpm velite
+
+      - run: node scripts/sync-supabase.ts
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # GITHUB_SHA (→ source_commit) is provided automatically by the runner
