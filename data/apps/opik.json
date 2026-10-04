@@ -33,7 +33,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 191,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-04",
   "edge": "Fully self-hostable, pairing call tracing with built-in LLM-as-judge evals — own the stack or use Comet cloud.",
   "pros": [
     "Self-host via Docker/Kubernetes",

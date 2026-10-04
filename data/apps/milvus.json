@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 186,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-04",
   "edge": "Storage/compute split plus DiskANN make it the most robust open-source choice at billion-vector scale.",
   "pros": [
     "Scales to billion-vector deployments",

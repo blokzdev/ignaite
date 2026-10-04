@@ -13,8 +13,8 @@
   "platforms": ["cli", "macos", "linux", "windows"],
   "modelSupport": {
     "kind": "single-model",
-    "models": ["GPT-5"],
-    "notes": "Switch between GPT-5 and Codex-tuned variants with /model."
+    "models": ["gpt-6.1-sol"],
+    "notes": "Defaults to gpt-6.1-sol; switch model and reasoning effort with /model."
   },
   "accentColor": "#10A37F",
   "tags": ["cli", "coding-agent", "terminal", "open-source"],
@@ -26,12 +26,20 @@
     },
     {
       "kind": "docs",
-      "url": "https://developers.openai.com/codex/cli"
+      "url": "https://learn.chatgpt.com/docs/codex/cli"
     }
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 162,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-04",
+  "changelog": [
+    {
+      "date": "2026-10-04",
+      "kind": "updated",
+      "summary": "Default model refreshed to gpt-6.1-sol (was GPT-5, two versions stale); docs link moved to the canonical learn.chatgpt.com Codex CLI home.",
+      "source": "https://learn.chatgpt.com/docs/codex/cli"
+    }
+  ],
   "edge": "Open-source Rust rewrite of OpenAI's terminal coding agent; sign in with a paid ChatGPT plan or bring your own API key.",
   "pros": [
     "Runs locally in your terminal",
