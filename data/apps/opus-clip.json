@@ -8,7 +8,7 @@
   "pricing": "freemium",
   "deployment": "cloud",
   "vendor": "OpusClip",
-  "platforms": ["web"],
+  "platforms": ["web", "ios", "android"],
   "tags": ["video", "short-form", "clipping", "repurposing"],
   "links": [
     {
@@ -23,7 +23,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 190,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-04",
+  "changelog": [
+    {
+      "date": "2026-10-04",
+      "kind": "updated",
+      "summary": "Added iOS + Android to platforms — OpusClip shipped native mobile apps (iOS live; Android launched June 2026, Android 12+); dropped the now-stale 'web-only' con.",
+      "source": "https://help.opus.pro/docs/article/android-app-supported-unsupported-features"
+    }
+  ],
   "edge": "Category-defining auto-clipper with a virality score — finds, reframes, and captions highlights from long video.",
   "pros": [
     "Strong auto-highlight detection",
@@ -34,7 +42,6 @@
   "cons": [
     "Billed per source-minute, not per clip",
     "Highlight picks need manual review",
-    "Web-only, no mobile app",
     "Watermark on free tier"
   ],
   "bestFor": ["Podcasters", "Social media teams", "Long-form video creators"],

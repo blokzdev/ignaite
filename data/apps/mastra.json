@@ -37,7 +37,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 187,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-04",
   "edge": "Built TypeScript-first on the Vercel AI SDK — far less boilerplate and faster runtime than LangGraph's abstractions.",
   "pros": [
     "TypeScript-native, low boilerplate",

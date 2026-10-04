@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 178,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-04",
   "edge": "Runs in-process on the disk-efficient Lance format — no server, no port, zero-copy reads; strong on multimodal data.",
   "pros": [
     "Embeds in your app; runs on edge/desktop",
