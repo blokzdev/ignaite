@@ -30,6 +30,9 @@
   "addedAt": "2026-07-05",
   "addedSeq": 1034,
   "lastVerifiedAt": "2026-07-05",
+  "featured": true,
+  "featuredAt": "2026-10-07",
+  "accentColor": "#10B981",
   "edge": "Spins up real browsers to research each account live across the web, instead of pulling stale firmographics from a static contact database.",
   "pros": [
     "Live multi-source account research",
