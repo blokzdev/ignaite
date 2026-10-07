@@ -20,6 +20,9 @@
   "addedAt": "2026-06-20",
   "addedSeq": 956,
   "lastVerifiedAt": "2026-06-20",
+  "featured": true,
+  "featuredAt": "2026-10-07",
+  "accentColor": "#F59E0B",
   "edge": "A persistent, open-ended AI storyteller with no fixed script — you can attempt any action in any genre, unlike templated AI-story or chatbot apps.",
   "pros": [
     "Acts as a responsive dungeon master",

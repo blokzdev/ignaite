@@ -7,7 +7,7 @@
   "category": "marketing",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": false,
+  "featured": true,
   "vendor": "Klaviyo",
   "platforms": ["web", "api"],
   "modelSupport": {
@@ -29,6 +29,7 @@
   "addedAt": "2026-06-20",
   "addedSeq": 921,
   "lastVerifiedAt": "2026-06-20",
+  "featuredAt": "2026-10-07",
   "edge": "The ecommerce default: AI predictions (CLV, churn) on a unified customer database, with the deepest Shopify integration among SMS/email platforms.",
   "pros": [
     "Strong predictive analytics + segmentation",

@@ -29,6 +29,9 @@
   "addedAt": "2026-06-07",
   "addedSeq": 189,
   "lastVerifiedAt": "2026-09-27",
+  "featured": true,
+  "featuredAt": "2026-10-07",
+  "accentColor": "#0EA5E9",
   "changelog": [
     {
       "date": "2026-06-09",
