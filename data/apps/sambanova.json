@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 129,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-11",
   "edge": "One of the few clouds serving Llama 405B in native 16-bit precision at 100+ tokens/sec, not a quantized copy.",
   "pros": [
     "Serves Llama, DeepSeek, Qwen, gpt-oss",
