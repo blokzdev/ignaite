@@ -32,7 +32,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 194,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-11",
   "edge": "Bring your own LLM behind the voice agent, so it isn't locked to a single model like most all-in-one voice platforms.",
   "pros": [
     "Inbound and outbound call handling",
