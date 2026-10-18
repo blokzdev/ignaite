@@ -68,9 +68,22 @@ Anything in this section is explicitly safe to defer to after v2 goes live.
       `.env*` is a §11 action. `SUPABASE_SECRET_KEY` is server-only, never `NEXT_PUBLIC_`.
 - [ ] **[user]** After first sign-in, run the one-line `admins` seed for `ganesh575@gmail.com` (UID from
       `auth.users`) so the admin lock resolves.
+- [ ] **[user]** **Phase 2a activation** (gates the projection going live; all inert until then):
+      (1) approve the `.github/workflows/sync-supabase.yml` add in the Phase-2a PR (§11 gates workflow
+      files); (2) add GitHub repo secrets `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` (Actions
+      secrets ONLY — never `.env*`/Vercel; the service key bypasses RLS); (3) confirm applying
+      `supabase/migrations/0003_content_projection.sql` to project `jildtuofapktmsijgyyb` (I can run
+      it via the Supabase MCP on your go — it's additive: 3 new RLS-locked tables + view + RPC +
+      nullable bookmark FK columns; no existing data touched). First `main` push after (1)–(3)
+      bootstraps the mirror; verify `apps: {incoming: ~1025}` in the run log.
+- [ ] **[future]** **Phase 2a follow-up — rename hints**: seed `data/redirects.json`
+      (`[{ type, from, to }]`) with the 10 legacy merge pairs and point `next.config.ts` redirects at
+      it so ONE file drives both HTTP redirects and the sync's rename resolution (`next.config.ts`
+      edit is §11-gated). Until then, absent file = renames become soft-delete + fresh insert (only
+      costs FK continuity, never correctness).
 - [ ] **[verify]** Phase-2 CSP: only if a **browser** Supabase client is ever introduced, extend
       `next.config.ts` `connect-src` with `https://<ref>.supabase.co` (+ `wss://…` for realtime) or
-      auth/data calls fail **silently**. Phase 1 is server→Supabase only, so CSP stays untouched.
+      auth/data calls fail **silently**. Phase 1/2a are server→Supabase only, so CSP stays untouched.
 - [ ] **[user] [future]** Phase 5: Stripe account + credits-vs-one-off pricing decision + price points.
 
 ### Directory expansion — Comparisons / Recipes / Insights (Iteration 11)
