@@ -6,7 +6,8 @@
   "description": "Memory layer that gives agents long-term context by building a temporal knowledge graph from chat history and business data, tracking how facts evolve over time. It's powered by Graphiti, Zep's Apache-2.0 open-source temporal graph engine, with Zep Cloud offering a managed, credit-based service on top. Used to keep agent context relevant as conversations and data grow.",
   "category": "memory",
   "pricing": "freemium",
-  "deployment": "cloud",
+  "openSource": true,
+  "deployment": "hybrid",
   "vendor": "Zep",
   "platforms": ["api"],
   "modelSupport": {
@@ -31,7 +32,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 180,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-18",
+  "changelog": [
+    {
+      "date": "2026-10-18",
+      "kind": "fixed",
+      "summary": "Deployment corrected cloud → hybrid — the Apache-2.0 Graphiti engine is self-hostable and Zep offers bring-your-own-cloud/VPC. Added open-source (open-core) flag.",
+      "source": "https://github.com/getzep/graphiti"
+    }
+  ],
   "edge": "Stores a temporal knowledge graph (via OSS Graphiti) that versions how facts change over time, not flat snapshots.",
   "pros": [
     "Open-source Graphiti engine (Apache-2.0)",

@@ -1,6 +1,6 @@
 {
   "slug": "sierra",
-  "insight": "Bret Taylor's startup hit a $10B valuation and $100M ARR within about 18 months of its 2024 founding.",
+  "insight": "Hit a ~$15.8B valuation in a ~$950M May 2026 Series E led by Tiger Global and Google's GV.",
   "name": "Sierra",
   "tagline": "Enterprise AI agents for customer experience across channels.",
   "description": "An enterprise platform ('Agent OS') for building conversational AI agents that take action for customers across chat, voice, email, SMS, and WhatsApp. Supports both no-code and programmatic agent development. Founded by Bret Taylor and Clay Bavor and used across a large share of the Fortune 500.",
@@ -28,12 +28,18 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 166,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-18",
   "changelog": [
     {
       "date": "2026-06-09",
       "kind": "fixed",
       "summary": "Recategorized from agent to the new support category for customer-support agents."
+    },
+    {
+      "date": "2026-10-18",
+      "kind": "updated",
+      "summary": "Insight refreshed: valuation rose to ~$15.8B in a ~$950M May 2026 Series E (Tiger Global, Google's GV), up from the $10B Sept 2025 round.",
+      "source": "https://qz.com/sierra-ai-funding-round-950-million-valuation-050426"
     }
   ],
   "edge": "Outcome-based pricing — you pay per successful resolution, not per seat or per conversation.",

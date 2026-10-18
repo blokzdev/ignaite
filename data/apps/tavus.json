@@ -1,6 +1,6 @@
 {
   "slug": "tavus",
-  "insight": "A Y Combinator (S21) startup; raised an $18M Series A led by Scale and Sequoia to build conversational video AI.",
+  "insight": "A Y Combinator (S21) startup that raised a $40M Series B in late 2025, backers including CRV, Sequoia, and Scale.",
   "name": "Tavus",
   "tagline": "Real-time conversational video AI and digital human replicas.",
   "description": "A developer platform for building face-to-face AI agents that see, listen, and respond in live video through its Conversational Video Interface (CVI). It also generates personalized videos at scale from digital replicas of a real person. Built on Tavus's own models — Phoenix for rendering, Raven for perception, and Sparrow for conversational timing — with the ability to plug in custom LLMs and text-to-speech.",
@@ -32,7 +32,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 170,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-18",
+  "changelog": [
+    {
+      "date": "2026-10-18",
+      "kind": "fixed",
+      "summary": "Insight corrected — Sequoia led the seed, not the $18M Series A (Scale led that); refreshed to the newer $40M Series B (late 2025).",
+      "source": "https://www.scalevp.com/press/tavus-raises--40m-to-build-the-next-frontier-of-intelligence--human-computing"
+    }
+  ],
   "edge": "Runs on its own render/perception/timing models (Phoenix, Raven, Sparrow) with sub-500ms turn-taking, yet still lets you bring a custom LLM and TTS.",
   "pros": [
     "Live face-to-face AI video",

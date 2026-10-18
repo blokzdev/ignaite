@@ -33,7 +33,7 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 199,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-18",
   "edge": "PagedAttention pages the KV cache like OS virtual memory — the throughput trick that made it the OSS serving default.",
   "pros": [
     "Serves most Hugging Face transformer models",
