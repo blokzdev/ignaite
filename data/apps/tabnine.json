@@ -1,6 +1,6 @@
 {
   "slug": "tabnine",
-  "insight": "One of the first AI code completers (Deep TabNine, 2018); acquired by Codota in 2019, which took the Tabnine name in 2021.",
+  "insight": "Acquired by test-automation firm Tricentis in July 2026 to fold its Context Engine into an agentic quality platform.",
   "name": "Tabnine",
   "tagline": "Privacy-first AI coding assistant you control — completions, chat, and agents.",
   "description": "An AI coding assistant built for enterprise control, offering completions, chat, and agentic workflows across all major IDEs. It never trains on or retains your code, and can be deployed as SaaS, in a VPC, on-premises, or fully air-gapped. Supports access to major LLMs plus bring-your-own and private models.",
@@ -29,7 +29,16 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 188,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-18",
+  "changelog": [
+    {
+      "date": "2026-10-18",
+      "kind": "updated",
+      "summary": "Acquired by Tricentis (announced 2026-07-30); insight moved from the Codota/Tabnine naming history to the acquisition.",
+      "asOf": "2026-07-30",
+      "source": "https://sdtimes.com/ai/tricentis-acquires-tabnine-to-further-scale-agentic-quality-engineering-for-the-enterprise/"
+    }
+  ],
   "edge": "Deploys fully air-gapped on-prem with zero code retention — for teams that can't send source to any vendor cloud.",
   "pros": [
     "Air-gapped/on-prem deployment",

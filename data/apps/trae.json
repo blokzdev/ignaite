@@ -9,7 +9,7 @@
   "pricing": "freemium",
   "deployment": "local",
   "vendor": "ByteDance",
-  "platforms": ["macos", "windows"],
+  "platforms": ["macos", "windows", "linux"],
   "modelSupport": {
     "kind": "multi-model",
     "models": ["Claude", "GPT", "Gemini", "DeepSeek"],
@@ -33,7 +33,15 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 148,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-18",
+  "changelog": [
+    {
+      "date": "2026-10-18",
+      "kind": "updated",
+      "summary": "Added Linux — Trae now ships official .deb/.rpm desktop packages on its download page.",
+      "source": "https://www.trae.ai/download"
+    }
+  ],
   "edge": "Free to start and undercuts paid AI-IDE rivals on cost, since model access is bundled rather than billed per token.",
   "pros": [
     "Frontier models bundled, no API key",

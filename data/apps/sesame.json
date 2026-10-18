@@ -9,7 +9,7 @@
   "openSource": true,
   "deployment": "cloud",
   "vendor": "Sesame",
-  "platforms": ["web"],
+  "platforms": ["web", "ios", "android"],
   "modelSupport": {
     "kind": "self-contained",
     "models": ["CSM"],
@@ -29,7 +29,16 @@
   ],
   "addedAt": "2026-06-07",
   "addedSeq": 185,
-  "lastVerifiedAt": "2026-06-07",
+  "lastVerifiedAt": "2026-10-18",
+  "changelog": [
+    {
+      "date": "2026-10-18",
+      "kind": "updated",
+      "summary": "Added iOS + Android platforms — Sesame shipped a native iOS app (May 2026) and lists Android availability; was web-demo only.",
+      "asOf": "2026-05-28",
+      "source": "https://www.sesame.com"
+    }
+  ],
   "edge": "Open-sourced its CSM-1B voice model under Apache 2.0 while keeping the viral Maya/Miles companions a hosted demo.",
   "pros": [
     "Open Apache-2.0 CSM-1B base model",
