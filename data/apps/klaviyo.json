@@ -7,7 +7,7 @@
   "category": "marketing",
   "pricing": "freemium",
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Klaviyo",
   "platforms": ["web", "api"],
   "modelSupport": {

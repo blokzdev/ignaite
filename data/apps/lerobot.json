@@ -16,6 +16,8 @@
     "notes": "Ships pretrained robot-learning policies and tools to train your own."
   },
   "accentColor": "#FFD21E",
+  "featured": true,
+  "featuredAt": "2026-10-21",
   "tags": ["robotics", "open-source", "pytorch", "imitation-learning", "vla"],
   "links": [
     {

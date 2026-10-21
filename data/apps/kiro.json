@@ -16,6 +16,8 @@
     "notes": "Auto mode mixes frontier models; picker now spans Anthropic, OpenAI, DeepSeek, and Qwen."
   },
   "accentColor": "#7C3AED",
+  "featured": true,
+  "featuredAt": "2026-10-21",
   "tags": ["spec-driven", "agentic-ide", "code-gen"],
   "links": [
     {
