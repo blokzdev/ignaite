@@ -33,7 +33,7 @@
   "addedAt": "2026-06-07",
   "addedSeq": 196,
   "lastVerifiedAt": "2026-09-20",
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-10-07",
   "accentColor": "#7C5CFF",
   "edge": "Write LLM evals as Pytest-style assertions and run them in CI, backed by 50+ metrics across RAG, agents, and safety.",

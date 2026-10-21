@@ -15,6 +15,8 @@
     "notes": "Proprietary Marey model trained only on licensed footage."
   },
   "accentColor": "#C8C2B6",
+  "featured": true,
+  "featuredAt": "2026-10-21",
   "tags": ["video-generation", "filmmaking", "licensed-data", "image-to-video"],
   "links": [
     {
