@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 246,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-10-25",
   "edge": "Deploy GPU endpoints, sandboxes, and queues from a few lines of Python — open-core runtime (beta9) you can self-host.",
   "pros": [
     "Define GPU workloads in pure Python",

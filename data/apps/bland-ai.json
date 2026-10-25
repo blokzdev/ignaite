@@ -3,7 +3,7 @@
   "name": "Bland AI",
   "tagline": "Enterprise voice AI platform for automated phone calls.",
   "description": "An enterprise platform for building AI agents that handle inbound and outbound phone calls 24/7 with natural, real-time conversation. Bland bundles the language model, speech-to-text, text-to-speech, and telephony into a single per-minute rate, and integrates with tools like Twilio, Salesforce, HubSpot, and Zapier. Build agents in a web dashboard or via a REST API; a free tier lets you start before moving to usage-based paid tiers.",
-  "insight": "A Y Combinator (S23) startup that raised a $40M Series B led by Emergence Capital in 2024, reaching $65M total funding.",
+  "insight": "Raised a $50M Series C led by Dell Technologies Capital in June 2026, crossing $100M in total funding.",
   "category": "voice",
   "secondaryCategories": ["support"],
   "pricing": "freemium",
@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 219,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-10-25",
   "edge": "Bundles LLM, STT, TTS and telephony into one all-inclusive per-minute rate — the simplest stack to deploy.",
   "pros": [
     "Bundles LLM, STT, TTS, and telephony",
@@ -74,6 +74,15 @@
     {
       "id": "conversation-intelligence",
       "level": "secondary"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-10-25",
+      "kind": "updated",
+      "summary": "Funding insight refreshed: raised a $50M Series C led by Dell Technologies Capital, crossing $100M total funding (prior insight cited the 2024 $40M Series B / $65M total).",
+      "asOf": "2026-06-16",
+      "source": "https://pulse2.com/bland-raises-50-million-series-c-and-surpasses-100-million-in-total-funding-to-expand-voice-ai-platform/"
     }
   ]
 }
