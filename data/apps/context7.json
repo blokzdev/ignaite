@@ -6,7 +6,7 @@
   "description": "An MCP server from Upstash that pulls current, version-specific documentation and code examples for a library and feeds them straight into an LLM's context. It exposes two tools — resolve-library-id and a docs query — so agents in Cursor, Claude Code, Windsurf, and other MCP clients generate code against the real, current API.",
   "category": "mcp",
   "secondaryCategories": ["ide"],
-  "pricing": "free",
+  "pricing": "freemium",
   "openSource": true,
   "vendor": "Upstash",
   "platforms": ["cli", "api"],
@@ -27,9 +27,9 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 236,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-10-25",
   "edge": "Injects version-specific, current library docs into the prompt, cutting the stale-API hallucinations models learn at training.",
-  "pros": ["Free and open-source", "Simple two-tool MCP setup", "Works in any MCP client"],
+  "pros": ["Open-source with a free tier", "Simple two-tool MCP setup", "Works in any MCP client"],
   "cons": [
     "Only as good as indexed libraries",
     "Adds tokens to every prompt",
@@ -41,6 +41,14 @@
     {
       "id": "mcp-server",
       "level": "primary"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-10-25",
+      "kind": "updated",
+      "summary": "Pricing moved from free to freemium — now a $0 free tier (1,000 API calls/mo) plus a $10/seat/mo Pro plan and custom Enterprise (SSO, self-hosting).",
+      "source": "https://context7.com/plans"
     }
   ]
 }

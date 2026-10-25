@@ -9,6 +9,7 @@
   "pricing": "freemium",
   "openSource": true,
   "deployment": "hybrid",
+  "status": "archived",
   "vendor": "Lumina AI",
   "platforms": ["web", "api"],
   "modelSupport": {
@@ -33,7 +34,7 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 226,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-10-25",
   "edge": "Grew from a pipeline built to parse ~600M pages of scientific literature, so it holds up on dense, complex document layouts.",
   "pros": [
     "Self-host or call the managed API",
@@ -68,6 +69,14 @@
     {
       "id": "schema-extraction",
       "level": "secondary"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-10-25",
+      "kind": "archived",
+      "summary": "Archived — Chunkr is joining Extend and the hosted Chunkr API shuts down on 2026-11-15 (migration guide points integrations to Extend); the open-source repo remains.",
+      "source": "https://docs.chunkr.ai"
     }
   ]
 }

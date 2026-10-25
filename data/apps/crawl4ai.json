@@ -33,7 +33,7 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 238,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-10-25",
   "edge": "Self-host-first crawler whose core needs no API key, among GitHub's most-starred web-to-Markdown tools.",
   "pros": [
     "Core runs fully locally",
