@@ -1,6 +1,6 @@
 {
   "slug": "giskard",
-  "insight": "Paris-based and YC-backed; joined a France 2030 R&D consortium with Mistral to build LLM-evaluation methods.",
+  "insight": "Paris-based; joined France 2030's ArGiMi consortium with Mistral AI to build LLM-evaluation methods.",
   "name": "Giskard",
   "tagline": "Open-source evaluation and red-teaming for LLM agents and RAG apps.",
   "description": "Giskard is an open-source (Apache-2.0) Python library for testing LLMs, RAG pipelines, and ML models — its Scan automatically surfaces hallucinations, prompt injection, bias, and other vulnerabilities, while red-teaming agents run multi-turn adversarial attacks across dozens of probes. The paid Giskard Hub adds team collaboration, continuous testing, and scheduled scans. The team also publishes the open Phare LLM safety benchmark.",
@@ -34,7 +34,15 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 222,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-01",
+  "changelog": [
+    {
+      "date": "2026-11-01",
+      "kind": "fixed",
+      "summary": "Dropped unverified 'YC-backed' clause from insight (only aggregators list YC; the official Elaia-led seed round doesn't) — kept the verified France 2030/Mistral consortium fact.",
+      "source": "https://giskard.ai/knowledge/giskard-leads-genai-evaluation-in-france-2030s-argimi-consortium"
+    }
+  ],
   "edge": "Its Scan auto-generates adversarial suites mapped to the OWASP LLM Top-10, framing eval as security red-teaming, not just accuracy.",
   "pros": [
     "Automatic vulnerability scan",
