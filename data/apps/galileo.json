@@ -1,6 +1,6 @@
 {
   "slug": "galileo",
-  "insight": "Raised a $45M Series B led by Scale Venture Partners, with HuggingFace and Postman CEOs joining as angels.",
+  "insight": "Acquired by Cisco in April 2026 and folded into Splunk as 'Splunk Agent Observability.'",
   "name": "Galileo",
   "tagline": "Evaluation and observability for GenAI apps and agents, with inline guardrails.",
   "description": "A platform for testing, monitoring, and guardrailing LLM and agent applications. It ships 20+ out-of-the-box evals for RAG, agents, and safety, lets teams author custom evaluators, and turns those offline evals into real-time production guardrails powered by its own Luna eval models.",
@@ -19,15 +19,20 @@
       "kind": "website",
       "url": "https://galileo.ai",
       "primary": true
-    },
-    {
-      "kind": "pricing",
-      "url": "https://galileo.ai/pricing"
     }
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 225,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-01",
+  "changelog": [
+    {
+      "date": "2026-11-01",
+      "kind": "updated",
+      "summary": "Acquired by Cisco (Apr 2026), now Splunk Agent Observability; rewrote insight to the acquisition and removed galileo.ai/pricing (now redirects to Splunk).",
+      "asOf": "2026-04-09",
+      "source": "https://www.splunk.com/en_us/about-splunk/acquisitions/galileo.html"
+    }
+  ],
   "edge": "Turns offline evals into real-time production guardrails powered by its own cheap Luna eval models, not an LLM judge.",
   "pros": [
     "20+ out-of-the-box evals for RAG and agents",
