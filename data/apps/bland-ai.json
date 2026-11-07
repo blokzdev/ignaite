@@ -16,7 +16,7 @@
   },
   "tags": ["voice-agents", "phone-calls", "conversational-ai", "telephony"],
   "accentColor": "#2563EB",
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-10-21",
   "links": [
     {

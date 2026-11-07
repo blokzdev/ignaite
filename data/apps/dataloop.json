@@ -1,5 +1,8 @@
 {
   "slug": "dataloop",
+  "featured": true,
+  "featuredAt": "2026-11-07",
+  "accentColor": "#2DD4BF",
   "insight": "The Israeli startup (founded 2017) was acquired by Dell in a ~$120M all-cash deal in late 2025.",
   "name": "Dataloop",
   "tagline": "Enterprise data engine for labeling and managing unstructured AI data.",

@@ -15,7 +15,7 @@
     "notes": "Built on Amazon's Nova Act action model; runs as an AWS service."
   },
   "accentColor": "#FF9900",
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-10-21",
   "tags": ["browser-agent", "ui-automation", "aws", "sdk"],
   "links": [

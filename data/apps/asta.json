@@ -1,5 +1,7 @@
 {
   "slug": "asta",
+  "featuredAt": "2026-11-07",
+  "accentColor": "#F59E0B",
   "name": "Asta",
   "tagline": "Open agentic research assistant for scientists, from Ai2.",
   "description": "Asta is an open ecosystem of AI agents for science from the Allen Institute for AI (Ai2). The Asta assistant helps researchers find relevant papers, generate cited literature summaries, and (in beta) run basic data analyses, with planned hypothesis generation and experiment replication. It ships alongside AstaBench, a benchmark suite for evaluating scientific agents.",
@@ -9,7 +11,7 @@
   "pricing": "free",
   "openSource": true,
   "deployment": "cloud",
-  "featured": false,
+  "featured": true,
   "vendor": "Ai2 (Allen Institute for AI)",
   "platforms": ["web", "api"],
   "modelSupport": {

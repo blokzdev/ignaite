@@ -1,5 +1,8 @@
 {
   "slug": "daytona",
+  "featured": true,
+  "featuredAt": "2026-11-07",
+  "accentColor": "#34D399",
   "insight": "Pivoted from cloud dev-environments to agent sandboxes; raised a $24M Series A led by FirstMark in 2026.",
   "name": "Daytona",
   "tagline": "Secure, elastic sandboxes for running AI-generated code.",

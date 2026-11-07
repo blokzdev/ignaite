@@ -1,5 +1,7 @@
 {
   "slug": "giskard",
+  "featured": true,
+  "featuredAt": "2026-11-07",
   "insight": "Paris-based; joined France 2030's ArGiMi consortium with Mistral AI to build LLM-evaluation methods.",
   "name": "Giskard",
   "tagline": "Open-source evaluation and red-teaming for LLM agents and RAG apps.",

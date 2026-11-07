@@ -15,7 +15,7 @@
     "notes": "50+ image/video/text models (Veo, FLUX, Kling, GPT, Recraft, …) accessible in one canvas."
   },
   "accentColor": "#A3E635",
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-10-21",
   "tags": ["creative-canvas", "node-workflow", "image-gen", "video-gen"],
   "links": [
