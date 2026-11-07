@@ -1,5 +1,8 @@
 {
   "slug": "adobe-podcast",
+  "featured": true,
+  "featuredAt": "2026-11-07",
+  "accentColor": "#F97066",
   "insight": "Launched in 2022 as \"Project Shasta\" — named after Mount Shasta — before being renamed Adobe Podcast that same year.",
   "name": "Adobe Podcast",
   "tagline": "Web-based AI audio recording, editing, and speech enhancement.",

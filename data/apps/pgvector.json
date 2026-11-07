@@ -14,7 +14,7 @@
     "kind": "model-agnostic"
   },
   "accentColor": "#3ECF8E",
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-10-21",
   "tags": ["postgres", "open-source", "extension", "rag"],
   "links": [
