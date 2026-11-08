@@ -1,6 +1,6 @@
 {
   "slug": "kits-ai",
-  "insight": "Acquired by music-creation platform Splice in 2025.",
+  "insight": "Acquired by music-creation platform Splice in January 2026.",
   "name": "Kits AI",
   "tagline": "Studio-quality AI voice cloning and music tools for artists and producers.",
   "description": "Kits AI lets musicians clone or use studio-quality singing and speaking voices, convert vocals between voices, and run a suite of audio tools (stem splitting, mastering, vocal cleanup). Voice models are ethically licensed from artists with revenue-sharing rather than scraped. A free plan is available, with paid Starter, Producer, and Professional tiers.",
@@ -29,7 +29,16 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 221,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-08",
+  "changelog": [
+    {
+      "date": "2026-11-08",
+      "kind": "fixed",
+      "summary": "Corrected acquisition date: Splice announced its acquisition of Kits AI on Jan 21, 2026, not 2025.",
+      "asOf": "2026-01-21",
+      "source": "https://www.musicbusinessworldwide.com/splice-acquires-ai-powered-voice-production-platform-kits-ai/"
+    }
+  ],
   "edge": "Voice models are licensed directly from artists with revenue-share, not scraped — a rare ethics stance in voice cloning.",
   "pros": [
     "Ethically licensed artist voices with payouts",
@@ -40,7 +49,7 @@
   "cons": [
     "Cloned-voice quality reviews are mixed",
     "Some report robotic or inconsistent output",
-    "Now owned by Splice (2025) — roadmap may shift"
+    "Now owned by Splice (2026) — roadmap may shift"
   ],
   "bestFor": ["Musicians & producers", "Vocalists", "Beatmakers"],
   "alternatives": ["elevenlabs", "lalal-ai", "moises"],
