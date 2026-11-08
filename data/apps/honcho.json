@@ -1,6 +1,6 @@
 {
   "slug": "honcho",
-  "insight": "Built by Plastic Labs, which raised a $5.35M pre-seed in 2024 led by Variant, with Betaworks and Mozilla Ventures participating.",
+  "insight": "Built by Plastic Labs, which raised a $5.35M pre-seed in 2025 led by Variant, with Betaworks and Mozilla Ventures participating.",
   "name": "Honcho",
   "tagline": "Continual learning memory for stateful agents. Better context, fewer tokens.",
   "description": "A memory and user-personalization layer for AI agents that keeps reasoning about each user across sessions, so apps get richer context without stuffing whole histories into the prompt. It models peers and sessions, runs background inference to derive durable facts, and answers natural-language questions about a user at query time. Available as a managed API or self-hosted FastAPI server, with Python and TypeScript SDKs.",
@@ -33,7 +33,16 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 231,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-08",
+  "changelog": [
+    {
+      "date": "2026-11-08",
+      "kind": "fixed",
+      "summary": "Corrected the insight: Plastic Labs' $5.35M pre-seed closed in April 2025, not 2024.",
+      "asOf": "2025-04-11",
+      "source": "https://chaincatcher.com/en/article/2176681"
+    }
+  ],
   "edge": "Peer-centric memory models what any party knows about another, extracting conclusions rather than raw chunks.",
   "pros": [
     "Open-source memory infrastructure",
