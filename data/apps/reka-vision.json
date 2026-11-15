@@ -7,7 +7,7 @@
   "category": "vision",
   "secondaryCategories": ["search"],
   "pricing": "paid",
-  "deployment": "cloud",
+  "deployment": "hybrid",
   "vendor": "Reka",
   "platforms": ["web", "api"],
   "modelSupport": {
@@ -30,7 +30,15 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 241,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-15",
+  "changelog": [
+    {
+      "date": "2026-11-15",
+      "kind": "fixed",
+      "summary": "Deployment corrected cloud → hybrid: Reka offers on-premise deployment for enterprises alongside the hosted app/API.",
+      "source": "https://reka.ai/news/reka-vision-intelligence-made-visible"
+    }
+  ],
   "edge": "Backed by a frontier multimodal lab's own models — natively built for video/image reasoning, not bolted onto a text LLM.",
   "pros": [
     "Natural-language search over video archives",
