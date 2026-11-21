@@ -1,5 +1,8 @@
 {
   "slug": "6sense",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#FF5C35",
   "name": "6sense",
   "tagline": "Revenue-AI platform for account-based marketing and sales.",
   "description": "A B2B revenue intelligence and account-based marketing platform that fuses first- and third-party intent, firmographic and engagement signals to predict which accounts are in-market and how to engage them. It surfaces buying-stage and account-fit scores, runs ABM advertising, and orchestrates sales and marketing plays. Pitched as a go-to-market intelligence layer feeding teams, tools and AI agents.",
@@ -13,7 +16,6 @@
     "kind": "self-contained",
     "notes": "Proprietary predictive models over its Signalverse signal graph; generative AI assists outreach and research."
   },
-  "accentColor": "#FF5C35",
   "tags": ["abm", "revenue-intelligence", "intent-data", "b2b"],
   "links": [
     {

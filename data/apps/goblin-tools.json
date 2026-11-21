@@ -1,5 +1,8 @@
 {
   "slug": "goblin-tools",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#3fa34d",
   "insight": "Built and maintained solo by Belgian developer Bram De Buyser; the website stays free, funded by sponsors and the paid mobile apps.",
   "name": "Goblin Tools",
   "tagline": "A set of small AI tools to help neurodivergent people get unstuck.",
@@ -15,7 +18,6 @@
     "notes": "Large-language-model text generation under the hood; the web app is free."
   },
   "tags": ["adhd", "task-breakdown", "neurodivergent", "accessibility", "to-do"],
-  "accentColor": "#3fa34d",
   "links": [
     {
       "kind": "website",

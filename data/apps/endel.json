@@ -1,5 +1,8 @@
 {
   "slug": "endel",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#10B981",
   "name": "Endel",
   "tagline": "Personalized, real-time soundscapes that adapt to help you focus, relax, and sleep.",
   "description": "Endel generates personalized, adaptive soundscapes in real time, blending music and atmospheric elements with techniques like binaural beats and colored noise. Its patented Endel Pacific engine responds to inputs such as time of day, weather, location, circadian rhythm, and heart rate to create sound for focus, relaxation, sleep, and activity. The app spans a wide device ecosystem, from phones and Mac to Apple Watch, Apple TV, and in-car wellness systems.",

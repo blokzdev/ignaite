@@ -1,5 +1,8 @@
 {
   "slug": "tortus",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#14B8A6",
   "insight": "First UK company to meet the NHS DTAC compliance standard for clinical AI; seed round led by Khosla Ventures.",
   "name": "TORTUS",
   "tagline": "Ambient clinical AI co-pilot built and regulated with the NHS.",

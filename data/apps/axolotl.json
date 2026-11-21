@@ -1,5 +1,8 @@
 {
   "slug": "axolotl",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#EC4899",
   "insight": "Created by Wing Lian under the OpenAccess AI Collective; the community integrated QLoRA within seven days of the paper's release.",
   "name": "Axolotl",
   "tagline": "Open-source post-training for LLMs — LoRA to RL, all from one YAML config.",

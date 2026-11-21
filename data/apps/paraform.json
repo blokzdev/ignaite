@@ -1,5 +1,8 @@
 {
   "slug": "paraform",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#0EA5E9",
   "name": "Paraform",
   "tagline": "Agentic hiring marketplace pairing AI sourcing with expert recruiters.",
   "description": "Paraform is an agentic hiring marketplace that connects companies with thousands of specialized recruiters, augmented by AI agents that learn each search, surface candidates, schedule interviews, and handle follow-ups. Companies pay on successful hires rather than for software seats. Used by 1,000+ companies, often for high-compensation technical roles.",

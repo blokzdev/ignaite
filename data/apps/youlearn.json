@@ -1,5 +1,8 @@
 {
   "slug": "youlearn",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#A855F7",
   "name": "YouLearn",
   "tagline": "An AI tutor that turns your study materials into lessons.",
   "insight": "Y Combinator-backed; the company says YouLearn serves over 2 million learners.",

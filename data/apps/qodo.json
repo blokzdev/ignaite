@@ -1,6 +1,6 @@
 {
   "slug": "qodo",
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-11-07",
   "insight": "Rebranded from CodiumAI in 2024, expanding from test generation into a multi-agent code-quality platform.",
   "name": "Qodo",

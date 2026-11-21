@@ -1,5 +1,8 @@
 {
   "slug": "structurely",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#0D9488",
   "insight": "Its AI inside-sales agent is named 'Aisa Holmes,' and the platform now nurtures mortgage leads beyond its real-estate roots.",
   "name": "Structurely",
   "tagline": "Conversational AI inside-sales agent for real-estate leads.",

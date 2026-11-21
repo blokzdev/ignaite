@@ -1,5 +1,8 @@
 {
   "slug": "nomic-atlas",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#7C3AED",
   "insight": "From Nomic AI — makers of the open GPT4All local LLM app and the open-weight nomic-embed models; raised a $17M Series A.",
   "name": "Nomic Atlas",
   "tagline": "Explore, structure, and analyze millions of unstructured records as interactive embedding maps.",

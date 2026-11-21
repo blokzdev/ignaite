@@ -1,5 +1,8 @@
 {
   "slug": "docling",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#2563EB",
   "insight": "Built at IBM Research Zurich and donated to the LF AI & Data Foundation in April 2025.",
   "name": "Docling",
   "tagline": "Toolkit that turns documents into AI-ready Markdown and JSON.",

@@ -1,5 +1,8 @@
 {
   "slug": "dspy",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#E11D48",
   "insight": "Created in the Stanford NLP group; the name stands for \"Declarative Self-improving Python.\"",
   "name": "DSPy",
   "tagline": "Program — don't prompt — your language models.",

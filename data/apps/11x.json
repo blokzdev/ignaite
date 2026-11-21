@@ -1,5 +1,8 @@
 {
   "slug": "11x",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#6366F1",
   "name": "11x",
   "tagline": "Autonomous AI digital workers for outbound sales and inbound phone calls.",
   "description": "11x builds autonomous AI sales agents — 'digital workers' that run outbound prospecting and inbound call handling end to end. Alice, its AI SDR, identifies, researches, personalizes, and engages prospects across email, phone, social, and SMS, while Julian handles inbound calls and qualification. It is positioned as an AI growth engine for go-to-market teams.",
