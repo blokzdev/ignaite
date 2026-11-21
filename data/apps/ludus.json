@@ -1,5 +1,8 @@
 {
   "slug": "ludus",
+  "featured": true,
+  "featuredAt": "2026-11-21",
+  "accentColor": "#F5A623",
   "name": "Ludus AI",
   "tagline": "AI agent for Unreal Engine — generate C++, Blueprints and 3D from prompts.",
   "description": "An AI toolkit that embeds directly inside Unreal Engine 5 to accelerate game development. From natural-language prompts it generates and explains C++ code, builds and analyzes Blueprints, produces textured 3D models, and answers context-aware questions about Unreal concepts. An agent mode can chain these into multi-step changes across a project.",
@@ -9,7 +12,6 @@
   "vendor": "Ludus",
   "platforms": ["windows", "macos"],
   "tags": ["unreal-engine", "game-dev", "blueprints", "3d-generation", "code-assistant"],
-  "accentColor": "#F5A623",
   "links": [
     {
       "kind": "website",

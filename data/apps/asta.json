@@ -11,7 +11,7 @@
   "pricing": "free",
   "openSource": true,
   "deployment": "cloud",
-  "featured": true,
+  "featured": false,
   "vendor": "Ai2 (Allen Institute for AI)",
   "platforms": ["web", "api"],
   "modelSupport": {

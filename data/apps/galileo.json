@@ -1,6 +1,6 @@
 {
   "slug": "galileo",
-  "featured": true,
+  "featured": false,
   "featuredAt": "2026-11-07",
   "accentColor": "#38BDF8",
   "insight": "Acquired by Cisco in April 2026 and folded into Splunk as 'Splunk Agent Observability.'",
