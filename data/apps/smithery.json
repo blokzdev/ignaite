@@ -7,7 +7,8 @@
   "category": "mcp",
   "pricing": "freemium",
   "deployment": "cloud",
-  "vendor": "Smithery",
+  "status": "archived",
+  "vendor": "Smithery (Arcade)",
   "platforms": ["web", "cli", "api"],
   "modelSupport": {
     "kind": "model-agnostic"
@@ -30,7 +31,16 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 214,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-22",
+  "changelog": [
+    {
+      "date": "2026-11-22",
+      "kind": "archived",
+      "summary": "Archived — acquired by Arcade; its hosted server URLs, API, Connect, accounts, keys, and CLI/SDKs shut down 2026-10-31, leaving only a non-proxied public registry under Arcade.",
+      "asOf": "2026-10-31",
+      "source": "https://smithery.ai/"
+    }
+  ],
   "edge": "Largest MCP registry (6,000+ servers) with managed OAuth and hosting, so agents get authenticated tool access without config wrangling.",
   "pros": [
     "Browse and install community servers",
