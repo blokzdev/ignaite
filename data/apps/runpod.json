@@ -31,7 +31,7 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 258,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-22",
   "edge": "Serverless GPU inference billed by the millisecond and scaling to zero, so idle endpoints cost nothing unlike fixed GPU rentals.",
   "pros": [
     "Serverless auto-scaling inference",

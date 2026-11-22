@@ -3,9 +3,9 @@
   "insight": "Founded in 2020 in Sydney, Australia; raised a $24M Series B led by Bessemer in 2025, with offices now in Sydney and San Francisco.",
   "name": "Relevance AI",
   "tagline": "Build and manage a workforce of AI agents for business processes.",
-  "description": "A platform for building, deploying, and managing teams of AI agents that autonomously run business processes — from lead qualification to customer support — with human oversight and governance. Agents and multi-agent 'workforces' are assembled with a no-code builder and a library of tools and triggers. Pricing is usage-based on 'actions' rather than per-agent, and every plan includes unlimited agents. A free tier is available; paid plans add seats, scheduling, and BYO-LLM.",
+  "description": "A platform for building, deploying, and managing teams of AI agents that autonomously run business processes — from lead qualification to customer support — with human oversight and governance. Agents and multi-agent 'workforces' are assembled with a no-code builder and a library of tools and triggers. Pricing is usage-based on 'actions' rather than per-agent, and every plan includes unlimited agents. The former free tier has been retired; paid plans start at $19/mo (Pro, billed annually) and add seats, scheduling, and BYO-LLM.",
   "category": "automation",
-  "pricing": "freemium",
+  "pricing": "paid",
   "deployment": "cloud",
   "vendor": "Relevance AI",
   "platforms": ["web", "api"],
@@ -27,7 +27,15 @@
   ],
   "addedAt": "2026-06-08",
   "addedSeq": 234,
-  "lastVerifiedAt": "2026-06-08",
+  "lastVerifiedAt": "2026-11-22",
+  "changelog": [
+    {
+      "date": "2026-11-22",
+      "kind": "updated",
+      "summary": "Pricing moved from freemium to paid — the free tier (200 actions/mo) was retired for new and existing accounts; paid plans now start at $19/mo (Pro, billed annually).",
+      "source": "https://relevanceai.com/docs/get-started/pricing"
+    }
+  ],
   "edge": "Prices on 'actions' with unlimited agents on every tier, so cost tracks work done rather than per-agent headcount.",
   "pros": [
     "Unlimited agents on all tiers",
