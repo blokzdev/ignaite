@@ -292,10 +292,16 @@ email string, never client-writable metadata).
   `/account` area (profile · settings · My bookmarks), nav account menu + bookmark toggles as small
   client islands. One migration `supabase/migrations/0001_user_layer.sql`. **Blocked on** dep
   sign-off + Supabase project + Google OAuth creds — filed `BACKLOG.md` [user].
-- **Phase 2 — Content projection + live counts + pgvector** (⬜). `push:[main]` GitHub Action →
-  `project_content` RPC (declarative sync: status-normalized, `content_hash` no-ops, rename-safe,
-  circuit-breakered, soft-delete-only) → `apps`/`recipes`/`recipe_steps` read model; live
-  `apps↔recipes` counts; pgvector semantic search; bookmark slug→FK upgrade.
+- **Phase 2 — Content projection + live counts + pgvector** (🟦 — **2a built**, PR pending review).
+  `push:[main]` GitHub Action → `project_content` RPC (declarative sync: status-normalized,
+  `content_hash` no-ops, rename-safe, circuit-breakered, soft-delete-only) → `apps`/`recipes`/
+  `recipe_steps` read model; live `apps↔recipes` counts (`app_recipe_counts` view); bookmark
+  slug→FK upgrade with rename-sync triggers. **2a artifacts**: `supabase/migrations/
+0003_content_projection.sql` + `scripts/sync-supabase.ts` + `.github/workflows/sync-supabase.yml`
+  (workflow + GH secrets are §11-gated — human-review PR, no auto-merge; the read model stays empty
+  until the secrets land and the first `main` push fires the sync). **2b (⬜)**: pgvector semantic
+  search — `embedding vector(384)` columns reserved; recommend Supabase in-edge `gte-small` (free,
+  no new secret) over paid external embeddings.
 - **Phase 3 — Admin console + routine triggers** (⬜). `/admin` (noindex, `is_admin()`-gated) fires
   Claude Code routines (GitHub dispatch / CCR fire endpoint, Vault-held token) + a `routine_runs` log.
 - **Phase 4 — Comments + contributions** (⬜). Post-moderation + AI pass; contributions **PR-first**
